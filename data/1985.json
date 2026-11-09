@@ -561,7 +561,18 @@
             "Les Minipouss",
             "Mister T."
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 2,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            }
+          ]
         },
         {
           "time": "09:00",
@@ -602,7 +613,13 @@
             "Programme jeunesse",
             "Paul et les Dizigotes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Paul et les Dizigotes",
+              "raw": "Paul et les Dizigotes"
+            }
+          ]
         },
         {
           "time": "13:05",
@@ -654,7 +671,18 @@
             "Benji",
             "Max Romane"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Benji",
+              "raw": "Benji"
+            },
+            {
+              "index": 2,
+              "title": "Max Romane",
+              "raw": "Max Romane"
+            }
+          ]
         },
         {
           "time": "18:05",
@@ -1288,7 +1316,18 @@
               "Les Minipouss",
               "Mister T."
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 2,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              }
+            ]
           },
           {
             "time": "09:00",
@@ -1329,7 +1368,13 @@
               "Programme jeunesse",
               "Paul et les Dizigotes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Paul et les Dizigotes",
+                "raw": "Paul et les Dizigotes"
+              }
+            ]
           },
           {
             "time": "13:05",
@@ -1381,7 +1426,18 @@
               "Benji",
               "Max Romane"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Benji",
+                "raw": "Benji"
+              },
+              {
+                "index": 2,
+                "title": "Max Romane",
+                "raw": "Max Romane"
+              }
+            ]
           },
           {
             "time": "18:05",
@@ -3674,7 +3730,13 @@
           "description_lines": [
             "Mister T."
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            }
+          ]
         },
         {
           "time": "09:00",
@@ -3704,7 +3766,13 @@
           "description_lines": [
             "Cobra"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Cobra",
+              "raw": "Cobra"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -4437,7 +4505,13 @@
             "description_lines": [
               "Mister T."
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              }
+            ]
           },
           {
             "time": "09:00",
@@ -4467,7 +4541,13 @@
             "description_lines": [
               "Cobra"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Cobra",
+                "raw": "Cobra"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -8852,7 +8932,18 @@
             "Hercule",
             "Les Minipouss"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Hercule",
+              "raw": "Hercule"
+            },
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            }
+          ]
         },
         {
           "time": "09:35",
@@ -8882,7 +8973,13 @@
           "description_lines": [
             "Les Trolldings"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Trolldings",
+              "raw": "Les Trolldings"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -9760,7 +9857,18 @@
               "Hercule",
               "Les Minipouss"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Hercule",
+                "raw": "Hercule"
+              },
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              }
+            ]
           },
           {
             "time": "09:35",
@@ -9790,7 +9898,13 @@
             "description_lines": [
               "Les Trolldings"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Trolldings",
+                "raw": "Les Trolldings"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -10335,6 +10449,16 @@
               "index": 1,
               "title": "Sherlock Holmes - 14ème épisode",
               "raw": "Sherlock Holmes - 14ème épisode"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 3,
+              "title": "Pataclop Pénélope",
+              "raw": "Pataclop Pénélope"
             },
             {
               "index": 4,
@@ -10898,6 +11022,16 @@
                 "index": 1,
                 "title": "Sherlock Holmes - 14ème épisode",
                 "raw": "Sherlock Holmes - 14ème épisode"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 3,
+                "title": "Pataclop Pénélope",
+                "raw": "Pataclop Pénélope"
               },
               {
                 "index": 4,
@@ -11814,7 +11948,13 @@
             "Programme jeunesse",
             "Anna, Ciro et Compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Anna, Ciro et Compagnie",
+              "raw": "Anna, Ciro et Compagnie"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -11919,7 +12059,13 @@
             "Programme jeunesse",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -12785,7 +12931,13 @@
               "Programme jeunesse",
               "Anna, Ciro et Compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Anna, Ciro et Compagnie",
+                "raw": "Anna, Ciro et Compagnie"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -12890,7 +13042,13 @@
               "Programme jeunesse",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -20951,7 +21109,13 @@
           "description_lines": [
             "Les naufragés de l'île perdue"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les naufragés de l'île perdue",
+              "raw": "Les naufragés de l'île perdue"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -21906,7 +22070,13 @@
             "description_lines": [
               "Les naufragés de l'île perdue"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les naufragés de l'île perdue",
+                "raw": "Les naufragés de l'île perdue"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -22352,7 +22522,33 @@
             "Les quatre filles du docteur March",
             "Benji"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 1,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 2,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            },
+            {
+              "index": 3,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
+            },
+            {
+              "index": 4,
+              "title": "Benji",
+              "raw": "Benji"
+            }
+          ]
         },
         {
           "time": "10:45",
@@ -22413,7 +22609,18 @@
             "Gil et Jo",
             "Max Romano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Gil et Jo",
+              "raw": "Gil et Jo"
+            },
+            {
+              "index": 1,
+              "title": "Max Romano",
+              "raw": "Max Romano"
+            }
+          ]
         },
         {
           "time": "14:15",
@@ -22858,7 +23065,33 @@
               "Les quatre filles du docteur March",
               "Benji"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 1,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 2,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              },
+              {
+                "index": 3,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
+              },
+              {
+                "index": 4,
+                "title": "Benji",
+                "raw": "Benji"
+              }
+            ]
           },
           {
             "time": "10:45",
@@ -22919,7 +23152,18 @@
               "Gil et Jo",
               "Max Romano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Gil et Jo",
+                "raw": "Gil et Jo"
+              },
+              {
+                "index": 1,
+                "title": "Max Romano",
+                "raw": "Max Romano"
+              }
+            ]
           },
           {
             "time": "14:15",
@@ -23733,7 +23977,28 @@
             "Un bateau pour l'aventure",
             "Heathcliff et Marmaduke"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les gym's",
+              "raw": "Les gym's"
+            },
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 2,
+              "title": "Un bateau pour l'aventure",
+              "raw": "Un bateau pour l'aventure"
+            },
+            {
+              "index": 3,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            }
+          ]
         },
         {
           "time": "10:15",
@@ -23803,7 +24068,33 @@
             "Pataclop Pénélope",
             "Les quatre filles du Docteur March"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Cobra",
+              "raw": "Cobra"
+            },
+            {
+              "index": 1,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 3,
+              "title": "Pataclop Pénélope",
+              "raw": "Pataclop Pénélope"
+            },
+            {
+              "index": 4,
+              "title": "Les quatre filles du Docteur March",
+              "raw": "Les quatre filles du Docteur March"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -24606,7 +24897,28 @@
               "Un bateau pour l'aventure",
               "Heathcliff et Marmaduke"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les gym's",
+                "raw": "Les gym's"
+              },
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 2,
+                "title": "Un bateau pour l'aventure",
+                "raw": "Un bateau pour l'aventure"
+              },
+              {
+                "index": 3,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              }
+            ]
           },
           {
             "time": "10:15",
@@ -24676,7 +24988,33 @@
               "Pataclop Pénélope",
               "Les quatre filles du Docteur March"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Cobra",
+                "raw": "Cobra"
+              },
+              {
+                "index": 1,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 3,
+                "title": "Pataclop Pénélope",
+                "raw": "Pataclop Pénélope"
+              },
+              {
+                "index": 4,
+                "title": "Les quatre filles du Docteur March",
+                "raw": "Les quatre filles du Docteur March"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -28521,7 +28859,13 @@
           "description_lines": [
             "Charly le Coq"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Charly le Coq",
+              "raw": "Charly le Coq"
+            }
+          ]
         },
         {
           "time": "08:25",
@@ -29461,7 +29805,13 @@
             "description_lines": [
               "Charly le Coq"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Charly le Coq",
+                "raw": "Charly le Coq"
+              }
+            ]
           },
           {
             "time": "08:25",
@@ -33317,6 +33667,11 @@
               "index": 0,
               "title": "Fais pas le singe - 3ème épisode",
               "raw": "Fais pas le singe - 3ème épisode"
+            },
+            {
+              "index": 1,
+              "title": "T'as l'bonjour d'Albert",
+              "raw": "T'as l'bonjour d'Albert"
             }
           ]
         },
@@ -34117,6 +34472,11 @@
                 "index": 0,
                 "title": "Fais pas le singe - 3ème épisode",
                 "raw": "Fais pas le singe - 3ème épisode"
+              },
+              {
+                "index": 1,
+                "title": "T'as l'bonjour d'Albert",
+                "raw": "T'as l'bonjour d'Albert"
               }
             ]
           },
@@ -34889,7 +35249,13 @@
           "description_lines": [
             "Mister T."
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -34938,7 +35304,18 @@
             "Sherlock Holmes",
             "Benji"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 1,
+              "title": "Benji",
+              "raw": "Benji"
+            }
+          ]
         },
         {
           "time": "18:05",
@@ -35690,7 +36067,13 @@
             "description_lines": [
               "Mister T."
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -35739,7 +36122,18 @@
               "Sherlock Holmes",
               "Benji"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 1,
+                "title": "Benji",
+                "raw": "Benji"
+              }
+            ]
           },
           {
             "time": "18:05",
@@ -36396,7 +36790,18 @@
             "Sherlock Holmes",
             "Benji"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 1,
+              "title": "Benji",
+              "raw": "Benji"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -37062,7 +37467,18 @@
               "Sherlock Holmes",
               "Benji"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 1,
+                "title": "Benji",
+                "raw": "Benji"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -37803,7 +38219,33 @@
             "Les quatre filles du docteur March",
             "Un bateau pour l'aventure"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 1,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 2,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            },
+            {
+              "index": 3,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
+            },
+            {
+              "index": 4,
+              "title": "Un bateau pour l'aventure",
+              "raw": "Un bateau pour l'aventure"
+            }
+          ]
         },
         {
           "time": "10:30",
@@ -37856,7 +38298,18 @@
             "Heathcliff et Marmaduke",
             "Max Romana"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            },
+            {
+              "index": 1,
+              "title": "Max Romana",
+              "raw": "Max Romana"
+            }
+          ]
         },
         {
           "time": "14:10",
@@ -38608,7 +39061,33 @@
               "Les quatre filles du docteur March",
               "Un bateau pour l'aventure"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 1,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 2,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              },
+              {
+                "index": 3,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
+              },
+              {
+                "index": 4,
+                "title": "Un bateau pour l'aventure",
+                "raw": "Un bateau pour l'aventure"
+              }
+            ]
           },
           {
             "time": "10:30",
@@ -38661,7 +39140,18 @@
               "Heathcliff et Marmaduke",
               "Max Romana"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              },
+              {
+                "index": 1,
+                "title": "Max Romana",
+                "raw": "Max Romana"
+              }
+            ]
           },
           {
             "time": "14:10",
@@ -39474,7 +39964,13 @@
           "description_lines": [
             "Les Montchichis"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Montchichis",
+              "raw": "Les Montchichis"
+            }
+          ]
         },
         {
           "time": "07:35",
@@ -39598,7 +40094,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -40422,7 +40924,13 @@
             "description_lines": [
               "Les Montchichis"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Montchichis",
+                "raw": "Les Montchichis"
+              }
+            ]
           },
           {
             "time": "07:35",
@@ -40546,7 +41054,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -41285,7 +41799,18 @@
             "Paul et les Dizygotes",
             "Les quatre filles du docteur March"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 1,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -42011,7 +42536,18 @@
               "Paul et les Dizygotes",
               "Les quatre filles du docteur March"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 1,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -42878,7 +43414,13 @@
           "description_lines": [
             "Les Minipouss"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -43738,7 +44280,13 @@
             "description_lines": [
               "Les Minipouss"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -46106,7 +46654,13 @@
           "description_lines": [
             "Paul et les Dizygotes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -46165,7 +46719,13 @@
             "Emission enfantine",
             "David Copperfield"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "David Copperfield",
+              "raw": "David Copperfield"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -47045,7 +47605,13 @@
             "description_lines": [
               "Paul et les Dizygotes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -47104,7 +47670,13 @@
               "Emission enfantine",
               "David Copperfield"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "David Copperfield",
+                "raw": "David Copperfield"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -49979,6 +50551,26 @@
               "index": 0,
               "title": "Max Romana - 13ème épisode",
               "raw": "Max Romana - 13ème épisode"
+            },
+            {
+              "index": 1,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 3,
+              "title": "Mister T.",
+              "raw": "Mister T."
+            },
+            {
+              "index": 4,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
             }
           ]
         },
@@ -51017,6 +51609,26 @@
                 "index": 0,
                 "title": "Max Romana - 13ème épisode",
                 "raw": "Max Romana - 13ème épisode"
+              },
+              {
+                "index": 1,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 3,
+                "title": "Mister T.",
+                "raw": "Mister T."
+              },
+              {
+                "index": 4,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
               }
             ]
           },
@@ -51900,7 +52512,28 @@
             "Tripods",
             "Heathcliff et Marmaduke"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Gym's",
+              "raw": "Les Gym's"
+            },
+            {
+              "index": 1,
+              "title": "Les minipouss",
+              "raw": "Les minipouss"
+            },
+            {
+              "index": 2,
+              "title": "Tripods",
+              "raw": "Tripods"
+            },
+            {
+              "index": 3,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            }
+          ]
         },
         {
           "time": "10:15",
@@ -51972,7 +52605,33 @@
             "Pataclop Pénélope",
             "Les quatre filles du docteur March"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Cobra",
+              "raw": "Cobra"
+            },
+            {
+              "index": 1,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 3,
+              "title": "Pataclop Pénélope",
+              "raw": "Pataclop Pénélope"
+            },
+            {
+              "index": 4,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -52889,7 +53548,28 @@
               "Tripods",
               "Heathcliff et Marmaduke"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Gym's",
+                "raw": "Les Gym's"
+              },
+              {
+                "index": 1,
+                "title": "Les minipouss",
+                "raw": "Les minipouss"
+              },
+              {
+                "index": 2,
+                "title": "Tripods",
+                "raw": "Tripods"
+              },
+              {
+                "index": 3,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              }
+            ]
           },
           {
             "time": "10:15",
@@ -52961,7 +53641,33 @@
               "Pataclop Pénélope",
               "Les quatre filles du docteur March"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Cobra",
+                "raw": "Cobra"
+              },
+              {
+                "index": 1,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 3,
+                "title": "Pataclop Pénélope",
+                "raw": "Pataclop Pénélope"
+              },
+              {
+                "index": 4,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -55979,7 +56685,28 @@
             "Alvin et les Chipmunks",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les cygnes sauvages",
+              "raw": "Les cygnes sauvages"
+            },
+            {
+              "index": 1,
+              "title": "Le coffret magique",
+              "raw": "Le coffret magique"
+            },
+            {
+              "index": 2,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 3,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -56927,7 +57654,28 @@
               "Alvin et les Chipmunks",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les cygnes sauvages",
+                "raw": "Les cygnes sauvages"
+              },
+              {
+                "index": 1,
+                "title": "Le coffret magique",
+                "raw": "Le coffret magique"
+              },
+              {
+                "index": 2,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 3,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -57816,7 +58564,18 @@
             "Le programme jeunesse de Canal +",
             "Gil et Jo"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Gil et Jo",
+              "raw": "Gil et Jo"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -57846,7 +58605,23 @@
             "Les Minipouss",
             "Un bateau pour l'aventure"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 2,
+              "title": "Un bateau pour l'aventure",
+              "raw": "Un bateau pour l'aventure"
+            }
+          ]
         },
         {
           "time": "14:20",
@@ -58740,7 +59515,18 @@
               "Le programme jeunesse de Canal +",
               "Gil et Jo"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Gil et Jo",
+                "raw": "Gil et Jo"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -58770,7 +59556,23 @@
               "Les Minipouss",
               "Un bateau pour l'aventure"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 2,
+                "title": "Un bateau pour l'aventure",
+                "raw": "Un bateau pour l'aventure"
+              }
+            ]
           },
           {
             "time": "14:20",
@@ -59491,7 +60293,33 @@
             "Les quatre filles du Dr March",
             "Un bateau pour l'aventure"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 3,
+              "title": "Mister T",
+              "raw": "Mister T"
+            },
+            {
+              "index": 4,
+              "title": "Les quatre filles du Dr March",
+              "raw": "Les quatre filles du Dr March"
+            },
+            {
+              "index": 5,
+              "title": "Un bateau pour l'aventure",
+              "raw": "Un bateau pour l'aventure"
+            }
+          ]
         },
         {
           "time": "10:45",
@@ -59545,7 +60373,18 @@
             "Heathcliff et Marmaduke",
             "Max Romana"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            },
+            {
+              "index": 2,
+              "title": "Max Romana",
+              "raw": "Max Romana"
+            }
+          ]
         },
         {
           "time": "14:15",
@@ -60249,7 +61088,33 @@
               "Les quatre filles du Dr March",
               "Un bateau pour l'aventure"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 3,
+                "title": "Mister T",
+                "raw": "Mister T"
+              },
+              {
+                "index": 4,
+                "title": "Les quatre filles du Dr March",
+                "raw": "Les quatre filles du Dr March"
+              },
+              {
+                "index": 5,
+                "title": "Un bateau pour l'aventure",
+                "raw": "Un bateau pour l'aventure"
+              }
+            ]
           },
           {
             "time": "10:45",
@@ -60303,7 +61168,18 @@
               "Heathcliff et Marmaduke",
               "Max Romana"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              },
+              {
+                "index": 2,
+                "title": "Max Romana",
+                "raw": "Max Romana"
+              }
+            ]
           },
           {
             "time": "14:15",
@@ -61112,7 +61988,13 @@
           "description_lines": [
             "Les Montchichis"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Montchichis",
+              "raw": "Les Montchichis"
+            }
+          ]
         },
         {
           "time": "07:35",
@@ -61216,7 +62098,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -62042,7 +62930,13 @@
             "description_lines": [
               "Les Montchichis"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Montchichis",
+                "raw": "Les Montchichis"
+              }
+            ]
           },
           {
             "time": "07:35",
@@ -62146,7 +63040,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -62896,7 +63796,18 @@
             "Le programme jeunesse de Canal +",
             "Mush"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Mush",
+              "raw": "Mush"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -62977,7 +63888,18 @@
             "Le programme jeunesse de Canal +",
             "Les Minipouss"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -63694,7 +64616,18 @@
               "Le programme jeunesse de Canal +",
               "Mush"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Mush",
+                "raw": "Mush"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -63775,7 +64708,18 @@
               "Le programme jeunesse de Canal +",
               "Les Minipouss"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -64540,7 +65484,23 @@
             "Fraidy Cat",
             "Paul et les Dizygotes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Fraidy Cat",
+              "raw": "Fraidy Cat"
+            },
+            {
+              "index": 2,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -64596,7 +65556,23 @@
             "Heathcliff et Marmaduke",
             "Max Romana"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            },
+            {
+              "index": 2,
+              "title": "Max Romana",
+              "raw": "Max Romana"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -65362,7 +66338,23 @@
               "Fraidy Cat",
               "Paul et les Dizygotes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Fraidy Cat",
+                "raw": "Fraidy Cat"
+              },
+              {
+                "index": 2,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -65418,7 +66410,23 @@
               "Heathcliff et Marmaduke",
               "Max Romana"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              },
+              {
+                "index": 2,
+                "title": "Max Romana",
+                "raw": "Max Romana"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -66219,7 +67227,23 @@
             "Un bateau pour l'aventure",
             "Heathcliff et Marmaduke"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 2,
+              "title": "Un bateau pour l'aventure",
+              "raw": "Un bateau pour l'aventure"
+            },
+            {
+              "index": 3,
+              "title": "Heathcliff et Marmaduke",
+              "raw": "Heathcliff et Marmaduke"
+            }
+          ]
         },
         {
           "time": "10:20",
@@ -66286,7 +67310,33 @@
             "Mister T",
             "Les quatre filles du Dr March"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Cobra",
+              "raw": "Cobra"
+            },
+            {
+              "index": 2,
+              "title": "Sherlock Holmes",
+              "raw": "Sherlock Holmes"
+            },
+            {
+              "index": 3,
+              "title": "Paul et les Dizygotes",
+              "raw": "Paul et les Dizygotes"
+            },
+            {
+              "index": 4,
+              "title": "Mister T",
+              "raw": "Mister T"
+            },
+            {
+              "index": 5,
+              "title": "Les quatre filles du Dr March",
+              "raw": "Les quatre filles du Dr March"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -67135,7 +68185,23 @@
               "Un bateau pour l'aventure",
               "Heathcliff et Marmaduke"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 2,
+                "title": "Un bateau pour l'aventure",
+                "raw": "Un bateau pour l'aventure"
+              },
+              {
+                "index": 3,
+                "title": "Heathcliff et Marmaduke",
+                "raw": "Heathcliff et Marmaduke"
+              }
+            ]
           },
           {
             "time": "10:20",
@@ -67202,7 +68268,33 @@
               "Mister T",
               "Les quatre filles du Dr March"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Cobra",
+                "raw": "Cobra"
+              },
+              {
+                "index": 2,
+                "title": "Sherlock Holmes",
+                "raw": "Sherlock Holmes"
+              },
+              {
+                "index": 3,
+                "title": "Paul et les Dizygotes",
+                "raw": "Paul et les Dizygotes"
+              },
+              {
+                "index": 4,
+                "title": "Mister T",
+                "raw": "Mister T"
+              },
+              {
+                "index": 5,
+                "title": "Les quatre filles du Dr March",
+                "raw": "Les quatre filles du Dr March"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -68028,7 +69120,13 @@
           "description_lines": [
             "Les Minipouss"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -68794,7 +69892,13 @@
             "description_lines": [
               "Les Minipouss"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -69540,7 +70644,13 @@
             "Programme jeunesse",
             "Benji"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Benji",
+              "raw": "Benji"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -69594,7 +70704,18 @@
             "Mush",
             "Mister T"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Mush",
+              "raw": "Mush"
+            },
+            {
+              "index": 2,
+              "title": "Mister T",
+              "raw": "Mister T"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -70351,7 +71472,13 @@
               "Programme jeunesse",
               "Benji"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Benji",
+                "raw": "Benji"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -70405,7 +71532,18 @@
               "Mush",
               "Mister T"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Mush",
+                "raw": "Mush"
+              },
+              {
+                "index": 2,
+                "title": "Mister T",
+                "raw": "Mister T"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -75431,7 +76569,13 @@
           "description_lines": [
             "Cobra"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Cobra",
+              "raw": "Cobra"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -76197,7 +77341,13 @@
             "description_lines": [
               "Cobra"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Cobra",
+                "raw": "Cobra"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -77093,7 +78243,13 @@
           "description_lines": [
             "Pataclop Pénélope"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Pataclop Pénélope",
+              "raw": "Pataclop Pénélope"
+            }
+          ]
         },
         {
           "time": "07:35",
@@ -78080,7 +79236,13 @@
             "description_lines": [
               "Pataclop Pénélope"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Pataclop Pénélope",
+                "raw": "Pataclop Pénélope"
+              }
+            ]
           },
           {
             "time": "07:35",
@@ -82702,7 +83864,18 @@
             "David Copperfield",
             "L'enfant invisible"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "David Copperfield",
+              "raw": "David Copperfield"
+            },
+            {
+              "index": 1,
+              "title": "L'enfant invisible",
+              "raw": "L'enfant invisible"
+            }
+          ]
         },
         {
           "time": "10:30",
@@ -82755,7 +83928,18 @@
             "Gil et Jo",
             "Max Romana"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Gil et Jo",
+              "raw": "Gil et Jo"
+            },
+            {
+              "index": 1,
+              "title": "Max Romana",
+              "raw": "Max Romana"
+            }
+          ]
         },
         {
           "time": "14:10",
@@ -83412,7 +84596,18 @@
               "David Copperfield",
               "L'enfant invisible"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "David Copperfield",
+                "raw": "David Copperfield"
+              },
+              {
+                "index": 1,
+                "title": "L'enfant invisible",
+                "raw": "L'enfant invisible"
+              }
+            ]
           },
           {
             "time": "10:30",
@@ -83465,7 +84660,18 @@
               "Gil et Jo",
               "Max Romana"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Gil et Jo",
+                "raw": "Gil et Jo"
+              },
+              {
+                "index": 1,
+                "title": "Max Romana",
+                "raw": "Max Romana"
+              }
+            ]
           },
           {
             "time": "14:10",
@@ -84280,7 +85486,13 @@
           "description_lines": [
             "Les Minipouss"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -85068,7 +86280,13 @@
             "description_lines": [
               "Les Minipouss"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -85935,7 +87153,13 @@
           "description_lines": [
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -86969,7 +88193,13 @@
             "description_lines": [
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:05",

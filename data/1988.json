@@ -484,7 +484,13 @@
             "Emission jeunesse",
             "Scoubidou"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Scoubidou",
+              "raw": "Scoubidou"
+            }
+          ]
         },
         {
           "time": "09:00",
@@ -1717,7 +1723,13 @@
               "Emission jeunesse",
               "Scoubidou"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Scoubidou",
+                "raw": "Scoubidou"
+              }
+            ]
           },
           {
             "time": "09:00",
@@ -6049,7 +6061,13 @@
             "Emission jeunesse",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -6234,7 +6252,18 @@
             "Les télébugs",
             "Barnabulle"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les télébugs",
+              "raw": "Les télébugs"
+            },
+            {
+              "index": 2,
+              "title": "Barnabulle",
+              "raw": "Barnabulle"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -7728,7 +7757,13 @@
               "Emission jeunesse",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -7913,7 +7948,18 @@
               "Les télébugs",
               "Barnabulle"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les télébugs",
+                "raw": "Les télébugs"
+              },
+              {
+                "index": 2,
+                "title": "Barnabulle",
+                "raw": "Barnabulle"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -9285,7 +9331,18 @@
             "Foofur",
             "Les Télébugs"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Foofur",
+              "raw": "Foofur"
+            },
+            {
+              "index": 2,
+              "title": "Les Télébugs",
+              "raw": "Les Télébugs"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -9558,7 +9615,28 @@
             "SOS fantômes",
             "Moi, Renart"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Rambo",
+              "raw": "Rambo"
+            },
+            {
+              "index": 2,
+              "title": "Grisou, le petit dragon",
+              "raw": "Grisou, le petit dragon"
+            },
+            {
+              "index": 3,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 4,
+              "title": "Moi, Renart",
+              "raw": "Moi, Renart"
+            }
+          ]
         },
         {
           "time": "18:10",
@@ -10692,7 +10770,18 @@
               "Foofur",
               "Les Télébugs"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Foofur",
+                "raw": "Foofur"
+              },
+              {
+                "index": 2,
+                "title": "Les Télébugs",
+                "raw": "Les Télébugs"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -10965,7 +11054,28 @@
               "SOS fantômes",
               "Moi, Renart"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Rambo",
+                "raw": "Rambo"
+              },
+              {
+                "index": 2,
+                "title": "Grisou, le petit dragon",
+                "raw": "Grisou, le petit dragon"
+              },
+              {
+                "index": 3,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 4,
+                "title": "Moi, Renart",
+                "raw": "Moi, Renart"
+              }
+            ]
           },
           {
             "time": "18:10",
@@ -14513,7 +14623,18 @@
             "Le programme jeunesse de Canal +",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -14664,7 +14785,13 @@
           "description_lines": [
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "11:30",
@@ -14896,7 +15023,23 @@
             "Barnabulle",
             "Comic strip"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Barnabulle",
+              "raw": "Barnabulle"
+            },
+            {
+              "index": 2,
+              "title": "Comic strip",
+              "raw": "Comic strip"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -16126,7 +16269,18 @@
               "Le programme jeunesse de Canal +",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -16277,7 +16431,13 @@
             "description_lines": [
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "11:30",
@@ -16509,7 +16669,23 @@
               "Barnabulle",
               "Comic strip"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Barnabulle",
+                "raw": "Barnabulle"
+              },
+              {
+                "index": 2,
+                "title": "Comic strip",
+                "raw": "Comic strip"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -17556,7 +17732,18 @@
             "Moi, Renart",
             "Rambo"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Moi, Renart",
+              "raw": "Moi, Renart"
+            },
+            {
+              "index": 2,
+              "title": "Rambo",
+              "raw": "Rambo"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -18898,7 +19085,18 @@
               "Moi, Renart",
               "Rambo"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Moi, Renart",
+                "raw": "Moi, Renart"
+              },
+              {
+                "index": 2,
+                "title": "Rambo",
+                "raw": "Rambo"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -20431,7 +20629,13 @@
             "Programme jeunesse",
             "Le Rossignol de l'Empereur de Chine"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le Rossignol de l'Empereur de Chine",
+              "raw": "Le Rossignol de l'Empereur de Chine"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -20464,7 +20668,23 @@
             "Xè Festival du cirque de Paris",
             "Tchécoslovaquie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Grisou, le petit dragon",
+              "raw": "Grisou, le petit dragon"
+            },
+            {
+              "index": 2,
+              "title": "Xè Festival du cirque de Paris",
+              "raw": "Xè Festival du cirque de Paris"
+            },
+            {
+              "index": 3,
+              "title": "Tchécoslovaquie",
+              "raw": "Tchécoslovaquie"
+            }
+          ]
         },
         {
           "time": "08:25",
@@ -20783,7 +21003,28 @@
             "Comte Mordicus",
             "Série américaine"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Moi Renart",
+              "raw": "Moi Renart"
+            },
+            {
+              "index": 2,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 3,
+              "title": "Comte Mordicus",
+              "raw": "Comte Mordicus"
+            },
+            {
+              "index": 4,
+              "title": "Série américaine",
+              "raw": "Série américaine"
+            }
+          ]
         },
         {
           "time": "18:55",
@@ -21983,7 +22224,13 @@
               "Programme jeunesse",
               "Le Rossignol de l'Empereur de Chine"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le Rossignol de l'Empereur de Chine",
+                "raw": "Le Rossignol de l'Empereur de Chine"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -22016,7 +22263,23 @@
               "Xè Festival du cirque de Paris",
               "Tchécoslovaquie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Grisou, le petit dragon",
+                "raw": "Grisou, le petit dragon"
+              },
+              {
+                "index": 2,
+                "title": "Xè Festival du cirque de Paris",
+                "raw": "Xè Festival du cirque de Paris"
+              },
+              {
+                "index": 3,
+                "title": "Tchécoslovaquie",
+                "raw": "Tchécoslovaquie"
+              }
+            ]
           },
           {
             "time": "08:25",
@@ -22335,7 +22598,28 @@
               "Comte Mordicus",
               "Série américaine"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Moi Renart",
+                "raw": "Moi Renart"
+              },
+              {
+                "index": 2,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 3,
+                "title": "Comte Mordicus",
+                "raw": "Comte Mordicus"
+              },
+              {
+                "index": 4,
+                "title": "Série américaine",
+                "raw": "Série américaine"
+              }
+            ]
           },
           {
             "time": "18:55",
@@ -26395,7 +26679,18 @@
             "Le programme jeunesse de Canal +",
             "San Mao, le petit vagabond"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "San Mao, le petit vagabond",
+              "raw": "San Mao, le petit vagabond"
+            }
+          ]
         },
         {
           "time": "07:10",
@@ -26434,7 +26729,18 @@
             "Le programme jeunesse de Canal +",
             "Starcom"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Starcom",
+              "raw": "Starcom"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -26759,7 +27065,13 @@
           "description_lines": [
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -27952,7 +28264,18 @@
               "Le programme jeunesse de Canal +",
               "San Mao, le petit vagabond"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "San Mao, le petit vagabond",
+                "raw": "San Mao, le petit vagabond"
+              }
+            ]
           },
           {
             "time": "07:10",
@@ -27991,7 +28314,18 @@
               "Le programme jeunesse de Canal +",
               "Starcom"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Starcom",
+                "raw": "Starcom"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -28316,7 +28650,13 @@
             "description_lines": [
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -29618,7 +29958,28 @@
             "Virgul",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chuck Noms",
+              "raw": "Chuck Noms"
+            },
+            {
+              "index": 1,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            },
+            {
+              "index": 3,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -31073,7 +31434,28 @@
               "Virgul",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chuck Noms",
+                "raw": "Chuck Noms"
+              },
+              {
+                "index": 1,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              },
+              {
+                "index": 3,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -32446,7 +32828,23 @@
             "SOS fantômes",
             "Comte Mordicus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Moi Renart",
+              "raw": "Moi Renart"
+            },
+            {
+              "index": 2,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 3,
+              "title": "Comte Mordicus",
+              "raw": "Comte Mordicus"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -33800,7 +34198,23 @@
               "SOS fantômes",
               "Comte Mordicus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Moi Renart",
+                "raw": "Moi Renart"
+              },
+              {
+                "index": 2,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 3,
+                "title": "Comte Mordicus",
+                "raw": "Comte Mordicus"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -38157,7 +38571,28 @@
             "Virgul",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chuck Norris",
+              "raw": "Chuck Norris"
+            },
+            {
+              "index": 1,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            },
+            {
+              "index": 3,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -39614,7 +40049,28 @@
               "Virgul",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chuck Norris",
+                "raw": "Chuck Norris"
+              },
+              {
+                "index": 1,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              },
+              {
+                "index": 3,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -41122,7 +41578,23 @@
             "Denis la malice",
             "Charlotte, Fléo et Benjamin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            },
+            {
+              "index": 1,
+              "title": "Denis la malice",
+              "raw": "Denis la malice"
+            },
+            {
+              "index": 2,
+              "title": "Charlotte, Fléo et Benjamin",
+              "raw": "Charlotte, Fléo et Benjamin"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -42785,7 +43257,23 @@
               "Denis la malice",
               "Charlotte, Fléo et Benjamin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              },
+              {
+                "index": 1,
+                "title": "Denis la malice",
+                "raw": "Denis la malice"
+              },
+              {
+                "index": 2,
+                "title": "Charlotte, Fléo et Benjamin",
+                "raw": "Charlotte, Fléo et Benjamin"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -44393,7 +44881,13 @@
           "description_lines": [
             "Section Valentin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Section Valentin",
+              "raw": "Section Valentin"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -44772,7 +45266,28 @@
             "Comte Mordicus",
             "Trip Trap"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Moi, Renart",
+              "raw": "Moi, Renart"
+            },
+            {
+              "index": 1,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 2,
+              "title": "Comte Mordicus",
+              "raw": "Comte Mordicus"
+            },
+            {
+              "index": 3,
+              "title": "Trip Trap",
+              "raw": "Trip Trap"
+            }
+          ]
         },
         {
           "time": "18:30",
@@ -45995,7 +46510,13 @@
             "description_lines": [
               "Section Valentin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Section Valentin",
+                "raw": "Section Valentin"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -46374,7 +46895,28 @@
               "Comte Mordicus",
               "Trip Trap"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Moi, Renart",
+                "raw": "Moi, Renart"
+              },
+              {
+                "index": 1,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 2,
+                "title": "Comte Mordicus",
+                "raw": "Comte Mordicus"
+              },
+              {
+                "index": 3,
+                "title": "Trip Trap",
+                "raw": "Trip Trap"
+              }
+            ]
           },
           {
             "time": "18:30",
@@ -50772,7 +51314,28 @@
             "Virgul",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chuck Norris",
+              "raw": "Chuck Norris"
+            },
+            {
+              "index": 1,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            },
+            {
+              "index": 3,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -52339,7 +52902,28 @@
               "Virgul",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chuck Norris",
+                "raw": "Chuck Norris"
+              },
+              {
+                "index": 1,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              },
+              {
+                "index": 3,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -54062,7 +54646,23 @@
             "Denis la Malice",
             "Charlotte, Fléo et Benjamin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            },
+            {
+              "index": 2,
+              "title": "Denis la Malice",
+              "raw": "Denis la Malice"
+            },
+            {
+              "index": 3,
+              "title": "Charlotte, Fléo et Benjamin",
+              "raw": "Charlotte, Fléo et Benjamin"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -54394,7 +54994,18 @@
             "Bravestarr",
             "Foofur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Foofur",
+              "raw": "Foofur"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -55768,7 +56379,23 @@
               "Denis la Malice",
               "Charlotte, Fléo et Benjamin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              },
+              {
+                "index": 2,
+                "title": "Denis la Malice",
+                "raw": "Denis la Malice"
+              },
+              {
+                "index": 3,
+                "title": "Charlotte, Fléo et Benjamin",
+                "raw": "Charlotte, Fléo et Benjamin"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -56100,7 +56727,18 @@
               "Bravestarr",
               "Foofur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Foofur",
+                "raw": "Foofur"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -57209,7 +57847,13 @@
             "Emission jeunesse",
             "Genki"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Genki",
+              "raw": "Genki"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -57261,7 +57905,18 @@
             "Lazer tag",
             "Bugs Bunny"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Lazer tag",
+              "raw": "Lazer tag"
+            },
+            {
+              "index": 2,
+              "title": "Bugs Bunny",
+              "raw": "Bugs Bunny"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -57550,7 +58205,18 @@
             "Les Patapoufpoufs",
             "Petite histoire de fleu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les Patapoufpoufs",
+              "raw": "Les Patapoufpoufs"
+            },
+            {
+              "index": 2,
+              "title": "Petite histoire de fleu",
+              "raw": "Petite histoire de fleu"
+            }
+          ]
         },
         {
           "time": "17:35",
@@ -58767,7 +59433,13 @@
               "Emission jeunesse",
               "Genki"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Genki",
+                "raw": "Genki"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -58819,7 +59491,18 @@
               "Lazer tag",
               "Bugs Bunny"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Lazer tag",
+                "raw": "Lazer tag"
+              },
+              {
+                "index": 2,
+                "title": "Bugs Bunny",
+                "raw": "Bugs Bunny"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -59108,7 +59791,18 @@
               "Les Patapoufpoufs",
               "Petite histoire de fleu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les Patapoufpoufs",
+                "raw": "Les Patapoufpoufs"
+              },
+              {
+                "index": 2,
+                "title": "Petite histoire de fleu",
+                "raw": "Petite histoire de fleu"
+              }
+            ]
           },
           {
             "time": "17:35",
@@ -63174,7 +63868,23 @@
             "Rahan",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chuck Norris",
+              "raw": "Chuck Norris"
+            },
+            {
+              "index": 1,
+              "title": "Rahan",
+              "raw": "Rahan"
+            },
+            {
+              "index": 2,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -64686,7 +65396,23 @@
               "Rahan",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chuck Norris",
+                "raw": "Chuck Norris"
+              },
+              {
+                "index": 1,
+                "title": "Rahan",
+                "raw": "Rahan"
+              },
+              {
+                "index": 2,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -66263,7 +66989,23 @@
             "Denis la Malice",
             "Charlotte, Fléo et Benjamin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            },
+            {
+              "index": 2,
+              "title": "Denis la Malice",
+              "raw": "Denis la Malice"
+            },
+            {
+              "index": 3,
+              "title": "Charlotte, Fléo et Benjamin",
+              "raw": "Charlotte, Fléo et Benjamin"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -66639,7 +67381,18 @@
             "Bravestarr",
             "Foofur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Foofur",
+              "raw": "Foofur"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -67953,7 +68706,23 @@
               "Denis la Malice",
               "Charlotte, Fléo et Benjamin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              },
+              {
+                "index": 2,
+                "title": "Denis la Malice",
+                "raw": "Denis la Malice"
+              },
+              {
+                "index": 3,
+                "title": "Charlotte, Fléo et Benjamin",
+                "raw": "Charlotte, Fléo et Benjamin"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -68329,7 +69098,18 @@
               "Bravestarr",
               "Foofur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Foofur",
+                "raw": "Foofur"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -69515,7 +70295,13 @@
             "Emission jeunesse",
             "Genki"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Genki",
+              "raw": "Genki"
+            }
+          ]
         },
         {
           "time": "07:35",
@@ -69559,7 +70345,18 @@
             "Bugs Bunny",
             "Dessin animé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Lazer tag",
+              "raw": "Lazer tag"
+            },
+            {
+              "index": 2,
+              "title": "Bugs Bunny",
+              "raw": "Bugs Bunny"
+            }
+          ]
         },
         {
           "time": "08:50",
@@ -71092,7 +71889,13 @@
               "Emission jeunesse",
               "Genki"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Genki",
+                "raw": "Genki"
+              }
+            ]
           },
           {
             "time": "07:35",
@@ -71136,7 +71939,18 @@
               "Bugs Bunny",
               "Dessin animé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Lazer tag",
+                "raw": "Lazer tag"
+              },
+              {
+                "index": 2,
+                "title": "Bugs Bunny",
+                "raw": "Bugs Bunny"
+              }
+            ]
           },
           {
             "time": "08:50",
@@ -72754,7 +73568,28 @@
             "Virgul",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chuck Norris",
+              "raw": "Chuck Norris"
+            },
+            {
+              "index": 1,
+              "title": "Rahan",
+              "raw": "Rahan"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            },
+            {
+              "index": 3,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -73060,7 +73895,18 @@
             "Bécébégé",
             "Rambo"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            },
+            {
+              "index": 1,
+              "title": "Rambo",
+              "raw": "Rambo"
+            }
+          ]
         },
         {
           "time": "18:30",
@@ -74376,7 +75222,28 @@
               "Virgul",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chuck Norris",
+                "raw": "Chuck Norris"
+              },
+              {
+                "index": 1,
+                "title": "Rahan",
+                "raw": "Rahan"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              },
+              {
+                "index": 3,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -74682,7 +75549,18 @@
               "Bécébégé",
               "Rambo"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              },
+              {
+                "index": 1,
+                "title": "Rambo",
+                "raw": "Rambo"
+              }
+            ]
           },
           {
             "time": "18:30",
@@ -76080,7 +76958,23 @@
             "Denis la Malice",
             "Charlotte, Fléo et Benjamin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            },
+            {
+              "index": 2,
+              "title": "Denis la Malice",
+              "raw": "Denis la Malice"
+            },
+            {
+              "index": 3,
+              "title": "Charlotte, Fléo et Benjamin",
+              "raw": "Charlotte, Fléo et Benjamin"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -76397,7 +77291,18 @@
             "Bravestarr",
             "Foofur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Foofur",
+              "raw": "Foofur"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -77742,7 +78647,23 @@
               "Denis la Malice",
               "Charlotte, Fléo et Benjamin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              },
+              {
+                "index": 2,
+                "title": "Denis la Malice",
+                "raw": "Denis la Malice"
+              },
+              {
+                "index": 3,
+                "title": "Charlotte, Fléo et Benjamin",
+                "raw": "Charlotte, Fléo et Benjamin"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -78059,7 +78980,18 @@
               "Bravestarr",
               "Foofur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Foofur",
+                "raw": "Foofur"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -79291,7 +80223,13 @@
             "Emission jeunesse",
             "Bravestarr"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -79503,7 +80441,13 @@
             "Emission jeunesse",
             "Les Télébugs"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les Télébugs",
+              "raw": "Les Télébugs"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -80986,7 +81930,13 @@
               "Emission jeunesse",
               "Bravestarr"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -81198,7 +82148,13 @@
               "Emission jeunesse",
               "Les Télébugs"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les Télébugs",
+                "raw": "Les Télébugs"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -82625,7 +83581,23 @@
             "Dixième Festival mondial du cirque de Paris",
             "Dessin animé japonais"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Foofur",
+              "raw": "Foofur"
+            },
+            {
+              "index": 2,
+              "title": "Les télébugs",
+              "raw": "Les télébugs"
+            },
+            {
+              "index": 3,
+              "title": "Dixième Festival mondial du cirque de Paris",
+              "raw": "Dixième Festival mondial du cirque de Paris"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -82872,7 +83844,28 @@
             "SOS fantômes",
             "Rahan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Rambo",
+              "raw": "Rambo"
+            },
+            {
+              "index": 2,
+              "title": "Pitou",
+              "raw": "Pitou"
+            },
+            {
+              "index": 3,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 4,
+              "title": "Rahan",
+              "raw": "Rahan"
+            }
+          ]
         },
         {
           "time": "16:55",
@@ -84123,7 +85116,23 @@
               "Dixième Festival mondial du cirque de Paris",
               "Dessin animé japonais"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Foofur",
+                "raw": "Foofur"
+              },
+              {
+                "index": 2,
+                "title": "Les télébugs",
+                "raw": "Les télébugs"
+              },
+              {
+                "index": 3,
+                "title": "Dixième Festival mondial du cirque de Paris",
+                "raw": "Dixième Festival mondial du cirque de Paris"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -84370,7 +85379,28 @@
               "SOS fantômes",
               "Rahan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Rambo",
+                "raw": "Rambo"
+              },
+              {
+                "index": 2,
+                "title": "Pitou",
+                "raw": "Pitou"
+              },
+              {
+                "index": 3,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 4,
+                "title": "Rahan",
+                "raw": "Rahan"
+              }
+            ]
           },
           {
             "time": "16:55",
@@ -85717,7 +86747,13 @@
             "Emission jeunesse",
             "Kissy Fur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -85885,7 +86921,13 @@
             "Emission jeunesse",
             "Les télébugs"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les télébugs",
+              "raw": "Les télébugs"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -87304,7 +88346,13 @@
               "Emission jeunesse",
               "Kissy Fur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -87472,7 +88520,13 @@
               "Emission jeunesse",
               "Les télébugs"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les télébugs",
+                "raw": "Les télébugs"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -89005,7 +90059,23 @@
             "Denis la Malice",
             "Charlotte, Fléo et Benjamin"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            },
+            {
+              "index": 2,
+              "title": "Denis la Malice",
+              "raw": "Denis la Malice"
+            },
+            {
+              "index": 3,
+              "title": "Charlotte, Fléo et Benjamin",
+              "raw": "Charlotte, Fléo et Benjamin"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -89346,7 +90416,18 @@
             "Bravestarr",
             "Foofur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Foofur",
+              "raw": "Foofur"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -90734,7 +91815,23 @@
               "Denis la Malice",
               "Charlotte, Fléo et Benjamin"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              },
+              {
+                "index": 2,
+                "title": "Denis la Malice",
+                "raw": "Denis la Malice"
+              },
+              {
+                "index": 3,
+                "title": "Charlotte, Fléo et Benjamin",
+                "raw": "Charlotte, Fléo et Benjamin"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -91075,7 +92172,18 @@
               "Bravestarr",
               "Foofur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Foofur",
+                "raw": "Foofur"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -92101,7 +93209,38 @@
             "Programme jeunesse",
             "Rahan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Boumbo",
+              "raw": "Boumbo"
+            },
+            {
+              "index": 1,
+              "title": "Le Croc-Note Show",
+              "raw": "Le Croc-Note Show"
+            },
+            {
+              "index": 2,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget"
+            },
+            {
+              "index": 3,
+              "title": "Les comptines du vieux continent",
+              "raw": "Les comptines du vieux continent"
+            },
+            {
+              "index": 4,
+              "title": "Raconte-moi la bible",
+              "raw": "Raconte-moi la bible"
+            },
+            {
+              "index": 6,
+              "title": "Rahan",
+              "raw": "Rahan"
+            }
+          ]
         },
         {
           "time": "08:15",
@@ -93292,7 +94431,38 @@
               "Programme jeunesse",
               "Rahan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Boumbo",
+                "raw": "Boumbo"
+              },
+              {
+                "index": 1,
+                "title": "Le Croc-Note Show",
+                "raw": "Le Croc-Note Show"
+              },
+              {
+                "index": 2,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget"
+              },
+              {
+                "index": 3,
+                "title": "Les comptines du vieux continent",
+                "raw": "Les comptines du vieux continent"
+              },
+              {
+                "index": 4,
+                "title": "Raconte-moi la bible",
+                "raw": "Raconte-moi la bible"
+              },
+              {
+                "index": 6,
+                "title": "Rahan",
+                "raw": "Rahan"
+              }
+            ]
           },
           {
             "time": "08:15",
@@ -94905,7 +96075,23 @@
             "SOS fantômes",
             "Comte Mordicus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Moi, renard",
+              "raw": "Moi, renard"
+            },
+            {
+              "index": 1,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 2,
+              "title": "Comte Mordicus",
+              "raw": "Comte Mordicus"
+            }
+          ]
         },
         {
           "time": "18:30",
@@ -96288,7 +97474,23 @@
               "SOS fantômes",
               "Comte Mordicus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Moi, renard",
+                "raw": "Moi, renard"
+              },
+              {
+                "index": 1,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 2,
+                "title": "Comte Mordicus",
+                "raw": "Comte Mordicus"
+              }
+            ]
           },
           {
             "time": "18:30",
@@ -97532,7 +98734,13 @@
             "Programme jeunesse",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -99082,7 +100290,13 @@
               "Programme jeunesse",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -106215,7 +107429,13 @@
             "Programme jeunesse",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -106561,7 +107781,18 @@
             "Rambo",
             "Goldie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Rambo",
+              "raw": "Rambo"
+            },
+            {
+              "index": 2,
+              "title": "Goldie",
+              "raw": "Goldie"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -107796,7 +109027,13 @@
               "Programme jeunesse",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -108142,7 +109379,18 @@
               "Rambo",
               "Goldie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Rambo",
+                "raw": "Rambo"
+              },
+              {
+                "index": 2,
+                "title": "Goldie",
+                "raw": "Goldie"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -112326,7 +113574,23 @@
             "Bravestarr",
             "Virgul"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Genki",
+              "raw": "Genki"
+            },
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -113973,7 +115237,23 @@
               "Bravestarr",
               "Virgul"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Genki",
+                "raw": "Genki"
+              },
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -115676,7 +116956,13 @@
             "Programme jeunesse",
             "Bravestarr"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -115869,7 +117155,13 @@
             "Programme jeunesse",
             "Barnabulle"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Barnabulle",
+              "raw": "Barnabulle"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -117356,7 +118648,13 @@
               "Programme jeunesse",
               "Bravestarr"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -117549,7 +118847,13 @@
               "Programme jeunesse",
               "Barnabulle"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Barnabulle",
+                "raw": "Barnabulle"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -118997,7 +120301,23 @@
             "Bravestarr",
             "Virgul"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Genki",
+              "raw": "Genki"
+            },
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -119335,7 +120655,28 @@
             "COPS",
             "Virgul"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 1,
+              "title": "Le piaf",
+              "raw": "Le piaf"
+            },
+            {
+              "index": 2,
+              "title": "COPS",
+              "raw": "COPS"
+            },
+            {
+              "index": 3,
+              "title": "Virgul",
+              "raw": "Virgul"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -120664,7 +122005,23 @@
               "Bravestarr",
               "Virgul"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Genki",
+                "raw": "Genki"
+              },
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -121002,7 +122359,28 @@
               "COPS",
               "Virgul"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 1,
+                "title": "Le piaf",
+                "raw": "Le piaf"
+              },
+              {
+                "index": 2,
+                "title": "COPS",
+                "raw": "COPS"
+              },
+              {
+                "index": 3,
+                "title": "Virgul",
+                "raw": "Virgul"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -122379,7 +123757,13 @@
             "Programme jeunesse",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -122572,7 +123956,13 @@
             "Programme jeunesse",
             "Barnabulle"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Barnabulle",
+              "raw": "Barnabulle"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -122740,7 +124130,13 @@
             "Programme jeunesse",
             "Goldie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Goldie",
+              "raw": "Goldie"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -124066,7 +125462,13 @@
               "Programme jeunesse",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -124259,7 +125661,13 @@
               "Programme jeunesse",
               "Barnabulle"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Barnabulle",
+                "raw": "Barnabulle"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -124427,7 +125835,13 @@
               "Programme jeunesse",
               "Goldie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Goldie",
+                "raw": "Goldie"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -125772,7 +127186,13 @@
             "Programme jeunesse",
             "Bécébégé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bécébégé",
+              "raw": "Bécébégé"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -125956,7 +127376,13 @@
             "Rahan",
             "Jeu télévisé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Rahan",
+              "raw": "Rahan"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -127466,7 +128892,13 @@
               "Programme jeunesse",
               "Bécébégé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bécébégé",
+                "raw": "Bécébégé"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -127650,7 +129082,13 @@
               "Rahan",
               "Jeu télévisé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Rahan",
+                "raw": "Rahan"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -132572,7 +134010,28 @@
             "Denis la malice",
             "Virgul"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Blufons",
+              "raw": "Les Blufons"
+            },
+            {
+              "index": 1,
+              "title": "Sport Cartoon",
+              "raw": "Sport Cartoon"
+            },
+            {
+              "index": 2,
+              "title": "Denis la malice",
+              "raw": "Denis la malice"
+            },
+            {
+              "index": 3,
+              "title": "Virgul",
+              "raw": "Virgul"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -132893,7 +134352,23 @@
             "Le piaf",
             "P'tit monstre"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Comic strip",
+              "raw": "Comic strip"
+            },
+            {
+              "index": 1,
+              "title": "Le piaf",
+              "raw": "Le piaf"
+            },
+            {
+              "index": 2,
+              "title": "P'tit monstre",
+              "raw": "P'tit monstre"
+            }
+          ]
         },
         {
           "time": "17:50",
@@ -134131,7 +135606,28 @@
               "Denis la malice",
               "Virgul"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Blufons",
+                "raw": "Les Blufons"
+              },
+              {
+                "index": 1,
+                "title": "Sport Cartoon",
+                "raw": "Sport Cartoon"
+              },
+              {
+                "index": 2,
+                "title": "Denis la malice",
+                "raw": "Denis la malice"
+              },
+              {
+                "index": 3,
+                "title": "Virgul",
+                "raw": "Virgul"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -134452,7 +135948,23 @@
               "Le piaf",
               "P'tit monstre"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Comic strip",
+                "raw": "Comic strip"
+              },
+              {
+                "index": 1,
+                "title": "Le piaf",
+                "raw": "Le piaf"
+              },
+              {
+                "index": 2,
+                "title": "P'tit monstre",
+                "raw": "P'tit monstre"
+              }
+            ]
           },
           {
             "time": "17:50",
@@ -135718,7 +137230,13 @@
           "description_lines": [
             "Flash Gordon"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Flash Gordon",
+              "raw": "Flash Gordon"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -137219,7 +138737,13 @@
             "description_lines": [
               "Flash Gordon"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Flash Gordon",
+                "raw": "Flash Gordon"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -144419,7 +145943,28 @@
             "Virgul",
             "La véritable histoire de Malvira"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Dame Boucleline",
+              "raw": "Dame Boucleline"
+            },
+            {
+              "index": 1,
+              "title": "Rahan",
+              "raw": "Rahan"
+            },
+            {
+              "index": 2,
+              "title": "Virgul",
+              "raw": "Virgul"
+            },
+            {
+              "index": 3,
+              "title": "La véritable histoire de Malvira",
+              "raw": "La véritable histoire de Malvira"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -145950,7 +147495,28 @@
               "Virgul",
               "La véritable histoire de Malvira"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Dame Boucleline",
+                "raw": "Dame Boucleline"
+              },
+              {
+                "index": 1,
+                "title": "Rahan",
+                "raw": "Rahan"
+              },
+              {
+                "index": 2,
+                "title": "Virgul",
+                "raw": "Virgul"
+              },
+              {
+                "index": 3,
+                "title": "La véritable histoire de Malvira",
+                "raw": "La véritable histoire de Malvira"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -153770,7 +155336,13 @@
             "Emission jeunesse",
             "Genki"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Genki",
+              "raw": "Genki"
+            }
+          ]
         },
         {
           "time": "07:45",
@@ -155218,7 +156790,13 @@
               "Emission jeunesse",
               "Genki"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Genki",
+                "raw": "Genki"
+              }
+            ]
           },
           {
             "time": "07:45",
@@ -159438,7 +161016,13 @@
             "Genki",
             "Dessin animé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Genki",
+              "raw": "Genki"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -159604,7 +161188,13 @@
             "Emission jeunesse",
             "Barnabulle"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Barnabulle",
+              "raw": "Barnabulle"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -159771,7 +161361,18 @@
             "Bravestarr",
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Bravestarr",
+              "raw": "Bravestarr"
+            },
+            {
+              "index": 2,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -161127,7 +162728,13 @@
               "Genki",
               "Dessin animé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Genki",
+                "raw": "Genki"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -161293,7 +162900,13 @@
               "Emission jeunesse",
               "Barnabulle"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Barnabulle",
+                "raw": "Barnabulle"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -161460,7 +163073,18 @@
               "Bravestarr",
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Bravestarr",
+                "raw": "Bravestarr"
+              },
+              {
+                "index": 2,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -166569,7 +168193,13 @@
             "Emission jeunesse",
             "Kissy Fur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -168272,7 +169902,13 @@
               "Emission jeunesse",
               "Kissy Fur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -169958,7 +171594,33 @@
             "Comte Mordicus",
             "Trip Trap"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Polluards",
+              "raw": "Polluards"
+            },
+            {
+              "index": 1,
+              "title": "Les treize fantômes de Scoubidou",
+              "raw": "Les treize fantômes de Scoubidou"
+            },
+            {
+              "index": 2,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            },
+            {
+              "index": 3,
+              "title": "Comte Mordicus",
+              "raw": "Comte Mordicus"
+            },
+            {
+              "index": 4,
+              "title": "Trip Trap",
+              "raw": "Trip Trap"
+            }
+          ]
         },
         {
           "time": "07:55",
@@ -171436,7 +173098,33 @@
               "Comte Mordicus",
               "Trip Trap"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Polluards",
+                "raw": "Polluards"
+              },
+              {
+                "index": 1,
+                "title": "Les treize fantômes de Scoubidou",
+                "raw": "Les treize fantômes de Scoubidou"
+              },
+              {
+                "index": 2,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              },
+              {
+                "index": 3,
+                "title": "Comte Mordicus",
+                "raw": "Comte Mordicus"
+              },
+              {
+                "index": 4,
+                "title": "Trip Trap",
+                "raw": "Trip Trap"
+              }
+            ]
           },
           {
             "time": "07:55",
@@ -180653,7 +182341,18 @@
             "Kissy Fur",
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Kissy Fur",
+              "raw": "Kissy Fur"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -182381,7 +184080,18 @@
               "Kissy Fur",
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Kissy Fur",
+                "raw": "Kissy Fur"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -188095,7 +189805,23 @@
             "Grisou, le petit dragon",
             "SOS fantômes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Punky Brewster",
+              "raw": "Punky Brewster"
+            },
+            {
+              "index": 1,
+              "title": "Grisou, le petit dragon",
+              "raw": "Grisou, le petit dragon"
+            },
+            {
+              "index": 2,
+              "title": "SOS fantômes",
+              "raw": "SOS fantômes"
+            }
+          ]
         },
         {
           "time": "18:05",
@@ -189544,7 +191270,23 @@
               "Grisou, le petit dragon",
               "SOS fantômes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Punky Brewster",
+                "raw": "Punky Brewster"
+              },
+              {
+                "index": 1,
+                "title": "Grisou, le petit dragon",
+                "raw": "Grisou, le petit dragon"
+              },
+              {
+                "index": 2,
+                "title": "SOS fantômes",
+                "raw": "SOS fantômes"
+              }
+            ]
           },
           {
             "time": "18:05",

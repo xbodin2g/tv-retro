@@ -736,6 +736,11 @@
               "index": 0,
               "title": "Robostory - 7ème épisode",
               "raw": "Robostory - 7ème épisode"
+            },
+            {
+              "index": 1,
+              "title": "PINOCCHIO",
+              "raw": "PINOCCHIO"
             }
           ]
         },
@@ -1660,6 +1665,11 @@
                 "index": 0,
                 "title": "Robostory - 7ème épisode",
                 "raw": "Robostory - 7ème épisode"
+              },
+              {
+                "index": 1,
+                "title": "PINOCCHIO",
+                "raw": "PINOCCHIO"
               }
             ]
           },
@@ -2501,7 +2511,13 @@
             "Emission enfantine",
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -2598,7 +2614,13 @@
             "Emission enfantine",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "17:40",
@@ -3601,7 +3623,13 @@
               "Emission enfantine",
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -3698,7 +3726,13 @@
               "Emission enfantine",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "17:40",
@@ -4619,7 +4653,18 @@
             "Le programme jeunesse de Canal +",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:30",
@@ -4664,7 +4709,18 @@
             "Le programme jeunesse de Canal +",
             "Superdurand"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Superdurand",
+              "raw": "Superdurand"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -5576,7 +5632,18 @@
               "Le programme jeunesse de Canal +",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:30",
@@ -5621,7 +5688,18 @@
               "Le programme jeunesse de Canal +",
               "Superdurand"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Superdurand",
+                "raw": "Superdurand"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -8787,7 +8865,13 @@
             "Programme jeunesse",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -8832,7 +8916,13 @@
             "Programme jeunesse",
             "Le frelon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -9946,7 +10036,13 @@
               "Programme jeunesse",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -9991,7 +10087,13 @@
               "Programme jeunesse",
               "Le frelon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -11177,7 +11279,13 @@
           "description_lines": [
             "Les Blufons"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Blufons",
+              "raw": "Les Blufons"
+            }
+          ]
         },
         {
           "time": "15:45",
@@ -12302,7 +12410,13 @@
             "description_lines": [
               "Les Blufons"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Blufons",
+                "raw": "Les Blufons"
+              }
+            ]
           },
           {
             "time": "15:45",
@@ -13290,7 +13404,13 @@
           "description_lines": [
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "08:45",
@@ -14043,7 +14163,13 @@
             "description_lines": [
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "08:45",
@@ -16059,7 +16185,18 @@
             "Pépé le putois",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Pépé le putois",
+              "raw": "Pépé le putois"
+            },
+            {
+              "index": 2,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -16114,7 +16251,13 @@
             "Programme jeunesse",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -16183,7 +16326,13 @@
             "Programme jeunesse",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -17211,7 +17360,18 @@
               "Pépé le putois",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Pépé le putois",
+                "raw": "Pépé le putois"
+              },
+              {
+                "index": 2,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -17266,7 +17426,13 @@
               "Programme jeunesse",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -17335,7 +17501,13 @@
               "Programme jeunesse",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -20056,7 +20228,18 @@
             "Pinocchio",
             "Le coffret magique"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Pinocchio",
+              "raw": "Pinocchio"
+            },
+            {
+              "index": 1,
+              "title": "Le coffret magique",
+              "raw": "Le coffret magique"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -20959,7 +21142,18 @@
               "Pinocchio",
               "Le coffret magique"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Pinocchio",
+                "raw": "Pinocchio"
+              },
+              {
+                "index": 1,
+                "title": "Le coffret magique",
+                "raw": "Le coffret magique"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -21800,7 +21994,13 @@
           "description_lines": [
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -21838,7 +22038,13 @@
           "description_lines": [
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -21897,7 +22103,18 @@
             "Archibald",
             "La petite merveille"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Archibald",
+              "raw": "Archibald"
+            },
+            {
+              "index": 1,
+              "title": "La petite merveille",
+              "raw": "La petite merveille"
+            }
+          ]
         },
         {
           "time": "17:40",
@@ -22991,7 +23208,13 @@
             "description_lines": [
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -23029,7 +23252,13 @@
             "description_lines": [
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -23088,7 +23317,18 @@
               "Archibald",
               "La petite merveille"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Archibald",
+                "raw": "Archibald"
+              },
+              {
+                "index": 1,
+                "title": "La petite merveille",
+                "raw": "La petite merveille"
+              }
+            ]
           },
           {
             "time": "17:40",
@@ -24146,7 +24386,13 @@
             "Programme jeunesse",
             "Le coffret magique"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le coffret magique",
+              "raw": "Le coffret magique"
+            }
+          ]
         },
         {
           "time": "07:30",
@@ -24165,7 +24411,13 @@
             "Programme jeunesse",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -24196,7 +24448,23 @@
             "Alias",
             "L'ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            },
+            {
+              "index": 2,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 3,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            }
+          ]
         },
         {
           "time": "09:20",
@@ -24267,7 +24535,23 @@
             "Anna, Ciro et compagnie",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            },
+            {
+              "index": 2,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            },
+            {
+              "index": 3,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "14:55",
@@ -25362,7 +25646,13 @@
               "Programme jeunesse",
               "Le coffret magique"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le coffret magique",
+                "raw": "Le coffret magique"
+              }
+            ]
           },
           {
             "time": "07:30",
@@ -25381,7 +25671,13 @@
               "Programme jeunesse",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -25412,7 +25708,23 @@
               "Alias",
               "L'ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              },
+              {
+                "index": 2,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 3,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              }
+            ]
           },
           {
             "time": "09:20",
@@ -25483,7 +25795,23 @@
               "Anna, Ciro et compagnie",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              },
+              {
+                "index": 2,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              },
+              {
+                "index": 3,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "14:55",
@@ -30529,7 +30857,18 @@
             "Le programme jeunesse de Canal +",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:45",
@@ -30604,7 +30943,38 @@
             "Turbolide",
             "L'ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 2,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 3,
+              "title": "La Petite Merveille",
+              "raw": "La Petite Merveille"
+            },
+            {
+              "index": 4,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            },
+            {
+              "index": 5,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -30647,7 +31017,18 @@
             "Le programme jeunesse de Canal +",
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -31684,7 +32065,18 @@
               "Le programme jeunesse de Canal +",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:45",
@@ -31759,7 +32151,38 @@
               "Turbolide",
               "L'ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 2,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 3,
+                "title": "La Petite Merveille",
+                "raw": "La Petite Merveille"
+              },
+              {
+                "index": 4,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              },
+              {
+                "index": 5,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -31802,7 +32225,18 @@
               "Le programme jeunesse de Canal +",
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -32808,7 +33242,13 @@
           "description_lines": [
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -32910,7 +33350,23 @@
             "Super Durand",
             "Le frelon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Petzi",
+              "raw": "Petzi"
+            },
+            {
+              "index": 1,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 2,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -34029,7 +34485,13 @@
             "description_lines": [
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -34131,7 +34593,23 @@
               "Super Durand",
               "Le frelon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Petzi",
+                "raw": "Petzi"
+              },
+              {
+                "index": 1,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 2,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -35369,7 +35847,23 @@
             "Les Patapoufpoufs",
             "Yogi et Compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            },
+            {
+              "index": 1,
+              "title": "Les Patapoufpoufs",
+              "raw": "Les Patapoufpoufs"
+            },
+            {
+              "index": 2,
+              "title": "Yogi et Compagnie",
+              "raw": "Yogi et Compagnie"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -36706,7 +37200,23 @@
               "Les Patapoufpoufs",
               "Yogi et Compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              },
+              {
+                "index": 1,
+                "title": "Les Patapoufpoufs",
+                "raw": "Les Patapoufpoufs"
+              },
+              {
+                "index": 2,
+                "title": "Yogi et Compagnie",
+                "raw": "Yogi et Compagnie"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -37903,7 +38413,13 @@
           "description_lines": [
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:10",
@@ -38805,7 +39321,13 @@
             "description_lines": [
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:10",
@@ -39605,7 +40127,23 @@
             "Robostory",
             "Archibald"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 2,
+              "title": "Archibald",
+              "raw": "Archibald"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -39650,7 +40188,18 @@
             "Le programme jeunesse de Canal +",
             "Superdurand"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Superdurand",
+              "raw": "Superdurand"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -40557,7 +41106,23 @@
               "Robostory",
               "Archibald"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 2,
+                "title": "Archibald",
+                "raw": "Archibald"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -40602,7 +41167,18 @@
               "Le programme jeunesse de Canal +",
               "Superdurand"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Superdurand",
+                "raw": "Superdurand"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -41593,7 +42169,13 @@
             "Programme jeunesse",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -41640,7 +42222,13 @@
             "Programme jeunesse",
             "Le roi, c'est moi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -41717,7 +42305,13 @@
             "Programme jeunesse",
             "Alias"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Alias",
+              "raw": "Alias"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -42773,7 +43367,13 @@
               "Programme jeunesse",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -42820,7 +43420,13 @@
               "Programme jeunesse",
               "Le roi, c'est moi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -42897,7 +43503,13 @@
               "Programme jeunesse",
               "Alias"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Alias",
+                "raw": "Alias"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -44003,7 +44615,13 @@
           "description_lines": [
             "L'or des autres"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'or des autres",
+              "raw": "L'or des autres"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -44059,7 +44677,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -44942,7 +45566,13 @@
             "description_lines": [
               "L'or des autres"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'or des autres",
+                "raw": "L'or des autres"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -44998,7 +45628,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -45951,7 +46587,18 @@
             "Le programme jeunesse de Canal +",
             "Le frelon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -47153,7 +47800,18 @@
               "Le programme jeunesse de Canal +",
               "Le frelon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -48250,7 +48908,18 @@
             "Alvin et les Chipmunks",
             "CANAILLE+"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 2,
+              "title": "CANAILLE+",
+              "raw": "CANAILLE+"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -48333,7 +49002,23 @@
             "Robostory",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 2,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 3,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -48370,7 +49055,13 @@
             "Programme jeunesse",
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -49274,7 +49965,18 @@
               "Alvin et les Chipmunks",
               "CANAILLE+"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 2,
+                "title": "CANAILLE+",
+                "raw": "CANAILLE+"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -49357,7 +50059,23 @@
               "Robostory",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 2,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 3,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -49394,7 +50112,13 @@
               "Programme jeunesse",
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -50510,7 +51234,18 @@
             "Ferdy",
             "T'as l'bonjour d'Albert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            },
+            {
+              "index": 1,
+              "title": "T'as l'bonjour d'Albert",
+              "raw": "T'as l'bonjour d'Albert"
+            }
+          ]
         },
         {
           "time": "08:30",
@@ -50531,7 +51266,18 @@
             "Alvin et les Chipmunks",
             "Le roi, c'est moi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 1,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            }
+          ]
         },
         {
           "time": "09:35",
@@ -50590,7 +51336,18 @@
             "Canaille Plus",
             "Addie et le roi de cœur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            },
+            {
+              "index": 1,
+              "title": "Addie et le roi de cœur",
+              "raw": "Addie et le roi de cœur"
+            }
+          ]
         },
         {
           "time": "15:20",
@@ -51615,7 +52372,18 @@
               "Ferdy",
               "T'as l'bonjour d'Albert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              },
+              {
+                "index": 1,
+                "title": "T'as l'bonjour d'Albert",
+                "raw": "T'as l'bonjour d'Albert"
+              }
+            ]
           },
           {
             "time": "08:30",
@@ -51636,7 +52404,18 @@
               "Alvin et les Chipmunks",
               "Le roi, c'est moi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 1,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              }
+            ]
           },
           {
             "time": "09:35",
@@ -51695,7 +52474,18 @@
               "Canaille Plus",
               "Addie et le roi de cœur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              },
+              {
+                "index": 1,
+                "title": "Addie et le roi de cœur",
+                "raw": "Addie et le roi de cœur"
+              }
+            ]
           },
           {
             "time": "15:20",
@@ -52594,7 +53384,13 @@
             "Programme jeunesse",
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -52647,7 +53443,13 @@
             "Programme jeunesse",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -52702,7 +53504,13 @@
             "Programme jeunesse",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -53822,7 +54630,13 @@
               "Programme jeunesse",
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -53875,7 +54689,13 @@
               "Programme jeunesse",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -53930,7 +54750,13 @@
               "Programme jeunesse",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -54907,7 +55733,13 @@
             "Programme jeunesse",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:15",
@@ -54950,7 +55782,13 @@
             "Programme jeunesse",
             "Super Durand"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -55840,7 +56678,13 @@
               "Programme jeunesse",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:15",
@@ -55883,7 +56727,13 @@
               "Programme jeunesse",
               "Super Durand"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -58961,7 +59811,13 @@
           "description_lines": [
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "07:55",
@@ -60123,7 +60979,13 @@
             "description_lines": [
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "07:55",
@@ -61291,7 +62153,13 @@
           "description_lines": [
             "L'or des autres"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'or des autres",
+              "raw": "L'or des autres"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -61388,7 +62256,18 @@
             "Le roi, c'est moi",
             "Le coffret magique"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            },
+            {
+              "index": 1,
+              "title": "Le coffret magique",
+              "raw": "Le coffret magique"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -62233,7 +63112,13 @@
             "description_lines": [
               "L'or des autres"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'or des autres",
+                "raw": "L'or des autres"
+              }
+            ]
           },
           {
             "time": "08:05",
@@ -62330,7 +63215,18 @@
               "Le roi, c'est moi",
               "Le coffret magique"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              },
+              {
+                "index": 1,
+                "title": "Le coffret magique",
+                "raw": "Le coffret magique"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -63270,7 +64166,28 @@
             "L'ile au trésor",
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            },
+            {
+              "index": 2,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            },
+            {
+              "index": 3,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "08:25",
@@ -63337,7 +64254,28 @@
             "Petite merveille",
             "Le livre Céleste"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            },
+            {
+              "index": 2,
+              "title": "Petite merveille",
+              "raw": "Petite merveille"
+            },
+            {
+              "index": 3,
+              "title": "Le livre Céleste",
+              "raw": "Le livre Céleste"
+            }
+          ]
         },
         {
           "time": "16:25",
@@ -64554,7 +65492,28 @@
               "L'ile au trésor",
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              },
+              {
+                "index": 2,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              },
+              {
+                "index": 3,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "08:25",
@@ -64621,7 +65580,28 @@
               "Petite merveille",
               "Le livre Céleste"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              },
+              {
+                "index": 2,
+                "title": "Petite merveille",
+                "raw": "Petite merveille"
+              },
+              {
+                "index": 3,
+                "title": "Le livre Céleste",
+                "raw": "Le livre Céleste"
+              }
+            ]
           },
           {
             "time": "16:25",
@@ -67879,7 +68859,13 @@
           "description_lines": [
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -68891,7 +69877,13 @@
             "description_lines": [
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:05",
@@ -70920,7 +71912,13 @@
             "Programme jeunesse",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -71019,7 +72017,13 @@
             "Programme jeunesse",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -71946,7 +72950,13 @@
               "Programme jeunesse",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -72045,7 +73055,13 @@
               "Programme jeunesse",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -73125,7 +74141,18 @@
             "Alvin et les Chipmunks",
             "Le roi, c'est moi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 2,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 3,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -73204,7 +74231,13 @@
             "Programme jeunesse",
             "Archibald"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Archibald",
+              "raw": "Archibald"
+            }
+          ]
         },
         {
           "time": "17:40",
@@ -74333,7 +75366,18 @@
               "Alvin et les Chipmunks",
               "Le roi, c'est moi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 2,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 3,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              }
+            ]
           },
           {
             "time": "08:05",
@@ -74412,7 +75456,13 @@
               "Programme jeunesse",
               "Archibald"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Archibald",
+                "raw": "Archibald"
+              }
+            ]
           },
           {
             "time": "17:40",
@@ -75515,7 +76565,13 @@
             "Programme jeunesse",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -75538,7 +76594,23 @@
             "Alias",
             "L'ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 2,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 3,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            }
+          ]
         },
         {
           "time": "09:20",
@@ -75608,7 +76680,28 @@
             "Petzi",
             "Le roi, c'est moi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "CANAILLE+",
+              "raw": "CANAILLE+"
+            },
+            {
+              "index": 2,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            },
+            {
+              "index": 3,
+              "title": "Petzi",
+              "raw": "Petzi"
+            },
+            {
+              "index": 4,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            }
+          ]
         },
         {
           "time": "15:05",
@@ -76676,7 +77769,13 @@
               "Programme jeunesse",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -76699,7 +77798,23 @@
               "Alias",
               "L'ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 2,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 3,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              }
+            ]
           },
           {
             "time": "09:20",
@@ -76769,7 +77884,28 @@
               "Petzi",
               "Le roi, c'est moi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "CANAILLE+",
+                "raw": "CANAILLE+"
+              },
+              {
+                "index": 2,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              },
+              {
+                "index": 3,
+                "title": "Petzi",
+                "raw": "Petzi"
+              },
+              {
+                "index": 4,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              }
+            ]
           },
           {
             "time": "15:05",
@@ -77809,7 +78945,18 @@
             "Turbolide",
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -77856,7 +79003,28 @@
             "Le programme jeunesse de Canal +",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            },
+            {
+              "index": 1,
+              "title": "Ferdy la fourmi",
+              "raw": "Ferdy la fourmi"
+            },
+            {
+              "index": 2,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 3,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -77925,7 +79093,18 @@
             "Le frelon vert",
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -78972,7 +80151,18 @@
               "Turbolide",
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -79019,7 +80209,28 @@
               "Le programme jeunesse de Canal +",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              },
+              {
+                "index": 1,
+                "title": "Ferdy la fourmi",
+                "raw": "Ferdy la fourmi"
+              },
+              {
+                "index": 2,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 3,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -79088,7 +80299,18 @@
               "Le frelon vert",
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -80226,7 +81448,18 @@
             "Les naufragés de l'île perdue",
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les naufragés de l'île perdue",
+              "raw": "Les naufragés de l'île perdue"
+            },
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "08:25",
@@ -80312,7 +81545,13 @@
           "description_lines": [
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -81188,7 +82427,18 @@
               "Les naufragés de l'île perdue",
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les naufragés de l'île perdue",
+                "raw": "Les naufragés de l'île perdue"
+              },
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "08:25",
@@ -81274,7 +82524,13 @@
             "description_lines": [
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -82122,7 +83378,18 @@
             "Turbolide",
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -82163,7 +83430,18 @@
             "Le roi, c'est moi",
             "Le programme jeunesse de Canal +"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -82235,7 +83513,23 @@
             "Le programme jeunesse de Canal +",
             "Super Durand, détective de choc"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Duran",
+              "raw": "Super Duran"
+            },
+            {
+              "index": 1,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 2,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -83362,7 +84656,18 @@
               "Turbolide",
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -83403,7 +84708,18 @@
               "Le roi, c'est moi",
               "Le programme jeunesse de Canal +"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -83475,7 +84791,23 @@
               "Le programme jeunesse de Canal +",
               "Super Durand, détective de choc"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Duran",
+                "raw": "Super Duran"
+              },
+              {
+                "index": 1,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 2,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -84665,7 +85997,23 @@
             "Alvin et les Chipmunks",
             "La petite merveille"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Trollongs",
+              "raw": "Les Trollongs"
+            },
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 2,
+              "title": "La petite merveille",
+              "raw": "La petite merveille"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -85643,7 +86991,23 @@
               "Alvin et les Chipmunks",
               "La petite merveille"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Trollongs",
+                "raw": "Les Trollongs"
+              },
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 2,
+                "title": "La petite merveille",
+                "raw": "La petite merveille"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -86624,7 +87988,18 @@
             "Alvin et les Chipmunks",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:45",
@@ -86705,7 +88080,23 @@
             "Robostory",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 2,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "16:05",
@@ -86741,7 +88132,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -87773,7 +89170,18 @@
               "Alvin et les Chipmunks",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:45",
@@ -87854,7 +89262,23 @@
               "Robostory",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 2,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "16:05",
@@ -87890,7 +89314,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -88817,7 +90247,18 @@
             "Ferdy",
             "Robostory"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            },
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            }
+          ]
         },
         {
           "time": "08:50",
@@ -88861,7 +90302,13 @@
           "description_lines": [
             "Super Durand, détective de choc"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -89815,7 +91262,18 @@
               "Ferdy",
               "Robostory"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              },
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              }
+            ]
           },
           {
             "time": "08:50",
@@ -89859,7 +91317,13 @@
             "description_lines": [
               "Super Durand, détective de choc"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -90824,7 +92288,23 @@
             "Alias",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 1,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 2,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "09:05",
@@ -90893,7 +92373,18 @@
             "Canaille +",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Canaille +",
+              "raw": "Canaille +"
+            },
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "14:50",
@@ -91923,7 +93414,23 @@
               "Alias",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 1,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 2,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "09:05",
@@ -91992,7 +93499,18 @@
               "Canaille +",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Canaille +",
+                "raw": "Canaille +"
+              },
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "14:50",
@@ -93053,7 +94571,13 @@
             "Emission enfantine",
             "T'as l'bonjour d'Albert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "T'as l'bonjour d'Albert",
+              "raw": "T'as l'bonjour d'Albert"
+            }
+          ]
         },
         {
           "time": "08:15",
@@ -94233,7 +95757,13 @@
               "Emission enfantine",
               "T'as l'bonjour d'Albert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "T'as l'bonjour d'Albert",
+                "raw": "T'as l'bonjour d'Albert"
+              }
+            ]
           },
           {
             "time": "08:15",
@@ -95305,7 +96835,18 @@
             "Dessin animé",
             "Turbolide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 2,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -95343,7 +96884,23 @@
             "Robostory",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 2,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -95410,7 +96967,18 @@
             "Le programme jeunesse de Canal +",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -96361,7 +97929,18 @@
               "Dessin animé",
               "Turbolide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 2,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -96399,7 +97978,23 @@
               "Robostory",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 2,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -96466,7 +98061,18 @@
               "Le programme jeunesse de Canal +",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -97528,7 +99134,13 @@
             "Programme jeunesse",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:50",
@@ -97608,7 +99220,18 @@
             "Cadichon ou les Mémoires d'un ane",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Cadichon ou les Mémoires d'un ane",
+              "raw": "Cadichon ou les Mémoires d'un ane"
+            },
+            {
+              "index": 2,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "16:20",
@@ -98687,7 +100310,13 @@
               "Programme jeunesse",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:50",
@@ -98767,7 +100396,18 @@
               "Cadichon ou les Mémoires d'un ane",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Cadichon ou les Mémoires d'un ane",
+                "raw": "Cadichon ou les Mémoires d'un ane"
+              },
+              {
+                "index": 2,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "16:20",
@@ -99730,7 +101370,13 @@
           "description_lines": [
             "Archibald, voyageur de l'espace"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Archibald, voyageur de l'espace",
+              "raw": "Archibald, voyageur de l'espace"
+            }
+          ]
         },
         {
           "time": "07:55",
@@ -99815,7 +101461,18 @@
             "Super Durand, détective de choc",
             "Le frelon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            },
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -100739,7 +102396,13 @@
             "description_lines": [
               "Archibald, voyageur de l'espace"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Archibald, voyageur de l'espace",
+                "raw": "Archibald, voyageur de l'espace"
+              }
+            ]
           },
           {
             "time": "07:55",
@@ -100824,7 +102487,18 @@
               "Super Durand, détective de choc",
               "Le frelon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              },
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -101903,7 +103577,13 @@
           "description_lines": [
             "Les naufragés de l'île perdue"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les naufragés de l'île perdue",
+              "raw": "Les naufragés de l'île perdue"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -102897,7 +104577,13 @@
             "description_lines": [
               "Les naufragés de l'île perdue"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les naufragés de l'île perdue",
+                "raw": "Les naufragés de l'île perdue"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -103746,7 +105432,13 @@
           "description_lines": [
             "L''ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L''ile au trésor",
+              "raw": "L''ile au trésor"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -103807,7 +105499,18 @@
             "Alias",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 1,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -104761,7 +106464,13 @@
             "description_lines": [
               "L''ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L''ile au trésor",
+                "raw": "L''ile au trésor"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -104822,7 +106531,18 @@
               "Alias",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 1,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -105897,7 +107617,13 @@
           "description_lines": [
             "L'or des autres"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'or des autres",
+              "raw": "L'or des autres"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -105953,7 +107679,13 @@
           "description_lines": [
             "Le bourdon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le bourdon vert",
+              "raw": "Le bourdon vert"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -106012,7 +107744,18 @@
             "Le Roi, c'est moi",
             "Petite merveille"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le Roi, c'est moi",
+              "raw": "Le Roi, c'est moi"
+            },
+            {
+              "index": 1,
+              "title": "Petite merveille",
+              "raw": "Petite merveille"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -106864,7 +108607,13 @@
             "description_lines": [
               "L'or des autres"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'or des autres",
+                "raw": "L'or des autres"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -106920,7 +108669,13 @@
             "description_lines": [
               "Le bourdon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le bourdon vert",
+                "raw": "Le bourdon vert"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -106979,7 +108734,18 @@
               "Le Roi, c'est moi",
               "Petite merveille"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le Roi, c'est moi",
+                "raw": "Le Roi, c'est moi"
+              },
+              {
+                "index": 1,
+                "title": "Petite merveille",
+                "raw": "Petite merveille"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -107864,7 +109630,13 @@
           "description_lines": [
             "Les Trollongs"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Trollongs",
+              "raw": "Les Trollongs"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -108942,7 +110714,13 @@
             "description_lines": [
               "Les Trollongs"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Trollongs",
+                "raw": "Les Trollongs"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -109898,7 +111676,18 @@
             "Canaille +",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Canaille +",
+              "raw": "Canaille +"
+            },
+            {
+              "index": 1,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -109976,7 +111765,23 @@
             "Les Bluffons",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 1,
+              "title": "Les Bluffons",
+              "raw": "Les Bluffons"
+            },
+            {
+              "index": 2,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "16:05",
@@ -110010,7 +111815,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -110901,7 +112712,18 @@
               "Canaille +",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Canaille +",
+                "raw": "Canaille +"
+              },
+              {
+                "index": 1,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -110979,7 +112801,23 @@
               "Les Bluffons",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 1,
+                "title": "Les Bluffons",
+                "raw": "Les Bluffons"
+              },
+              {
+                "index": 2,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "16:05",
@@ -111013,7 +112851,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -112035,7 +113879,13 @@
             "Programme jeunesse",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -113242,7 +115092,13 @@
               "Programme jeunesse",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -114245,7 +116101,13 @@
           "description_lines": [
             "Super Durand, détective de choc"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -115168,7 +117030,13 @@
             "description_lines": [
               "Super Durand, détective de choc"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              }
+            ]
           },
           {
             "time": "13:00",
@@ -116401,7 +118269,23 @@
             "Les Patapoufpoufs",
             "Yogi et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'île au trésor",
+              "raw": "L'île au trésor"
+            },
+            {
+              "index": 1,
+              "title": "Les Patapoufpoufs",
+              "raw": "Les Patapoufpoufs"
+            },
+            {
+              "index": 2,
+              "title": "Yogi et compagnie",
+              "raw": "Yogi et compagnie"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -116489,7 +118373,13 @@
           "description_lines": [
             "Cadichon ou les mémoires d'un âne"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Cadichon ou les mémoires d'un âne",
+              "raw": "Cadichon ou les mémoires d'un âne"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -117762,7 +119652,23 @@
               "Les Patapoufpoufs",
               "Yogi et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'île au trésor",
+                "raw": "L'île au trésor"
+              },
+              {
+                "index": 1,
+                "title": "Les Patapoufpoufs",
+                "raw": "Les Patapoufpoufs"
+              },
+              {
+                "index": 2,
+                "title": "Yogi et compagnie",
+                "raw": "Yogi et compagnie"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -117850,7 +119756,13 @@
             "description_lines": [
               "Cadichon ou les mémoires d'un âne"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Cadichon ou les mémoires d'un âne",
+                "raw": "Cadichon ou les mémoires d'un âne"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -120812,7 +122724,13 @@
           "description_lines": [
             "L'île au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'île au trésor",
+              "raw": "L'île au trésor"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -120900,7 +122818,13 @@
           "description_lines": [
             "Galtar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Galtar",
+              "raw": "Galtar"
+            }
+          ]
         },
         {
           "time": "17:35",
@@ -122051,7 +123975,13 @@
             "description_lines": [
               "L'île au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'île au trésor",
+                "raw": "L'île au trésor"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -122139,7 +124069,13 @@
             "description_lines": [
               "Galtar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Galtar",
+                "raw": "Galtar"
+              }
+            ]
           },
           {
             "time": "17:35",
@@ -123301,7 +125237,13 @@
             "Emission enfantine",
             "T'as l'bonjour d'Albert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "T'as l'bonjour d'Albert",
+              "raw": "T'as l'bonjour d'Albert"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -124529,7 +126471,13 @@
               "Emission enfantine",
               "T'as l'bonjour d'Albert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "T'as l'bonjour d'Albert",
+                "raw": "T'as l'bonjour d'Albert"
+              }
+            ]
           },
           {
             "time": "08:05",
@@ -125460,7 +127408,13 @@
           "description_lines": [
             "Archibald, voyageur de l'espace"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Archibald, voyageur de l'espace",
+              "raw": "Archibald, voyageur de l'espace"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -125495,7 +127449,18 @@
             "Ferdy",
             "Les blufons"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            },
+            {
+              "index": 1,
+              "title": "Les blufons",
+              "raw": "Les blufons"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -125569,7 +127534,18 @@
             "Le roi, c'est moi",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            },
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -126354,7 +128330,13 @@
             "description_lines": [
               "Archibald, voyageur de l'espace"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Archibald, voyageur de l'espace",
+                "raw": "Archibald, voyageur de l'espace"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -126389,7 +128371,18 @@
               "Ferdy",
               "Les blufons"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              },
+              {
+                "index": 1,
+                "title": "Les blufons",
+                "raw": "Les blufons"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -126463,7 +128456,18 @@
               "Le roi, c'est moi",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              },
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -127588,7 +129592,13 @@
             "Programme jeunesse",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "07:55",
@@ -127623,7 +129633,13 @@
             "Programme jeunesse",
             "Cadichon ou les Mémoires d'un ane"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Cadichon ou les Mémoires d'un ane",
+              "raw": "Cadichon ou les Mémoires d'un ane"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -128840,7 +130856,13 @@
               "Programme jeunesse",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "07:55",
@@ -128875,7 +130897,13 @@
               "Programme jeunesse",
               "Cadichon ou les Mémoires d'un ane"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Cadichon ou les Mémoires d'un ane",
+                "raw": "Cadichon ou les Mémoires d'un ane"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -130086,7 +132114,13 @@
           "description_lines": [
             "La belle au bois dormant"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "La belle au bois dormant",
+              "raw": "La belle au bois dormant"
+            }
+          ]
         },
         {
           "time": "16:20",
@@ -131114,7 +133148,13 @@
             "description_lines": [
               "La belle au bois dormant"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "La belle au bois dormant",
+                "raw": "La belle au bois dormant"
+              }
+            ]
           },
           {
             "time": "16:20",
@@ -132296,7 +134336,18 @@
             "Tag le renard intrépide",
             "Alvin et les Chipmunks"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Tag le renard intrépide",
+              "raw": "Tag le renard intrépide"
+            },
+            {
+              "index": 1,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            }
+          ]
         },
         {
           "time": "07:40",
@@ -132342,7 +134393,13 @@
           "description_lines": [
             "L'île au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'île au trésor",
+              "raw": "L'île au trésor"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -133609,7 +135666,18 @@
               "Tag le renard intrépide",
               "Alvin et les Chipmunks"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Tag le renard intrépide",
+                "raw": "Tag le renard intrépide"
+              },
+              {
+                "index": 1,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              }
+            ]
           },
           {
             "time": "07:40",
@@ -133655,7 +135723,13 @@
             "description_lines": [
               "L'île au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'île au trésor",
+                "raw": "L'île au trésor"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -134647,7 +136721,23 @@
             "Alias",
             "L'ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 1,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 2,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            }
+          ]
         },
         {
           "time": "09:25",
@@ -134710,7 +136800,28 @@
             "Ferdy",
             "Petzi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Canaille +",
+              "raw": "Canaille +"
+            },
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            },
+            {
+              "index": 2,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            },
+            {
+              "index": 3,
+              "title": "Petzi",
+              "raw": "Petzi"
+            }
+          ]
         },
         {
           "time": "14:55",
@@ -135731,7 +137842,23 @@
               "Alias",
               "L'ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 1,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 2,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              }
+            ]
           },
           {
             "time": "09:25",
@@ -135794,7 +137921,28 @@
               "Ferdy",
               "Petzi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Canaille +",
+                "raw": "Canaille +"
+              },
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              },
+              {
+                "index": 2,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              },
+              {
+                "index": 3,
+                "title": "Petzi",
+                "raw": "Petzi"
+              }
+            ]
           },
           {
             "time": "14:55",
@@ -138472,7 +140620,13 @@
           "description_lines": [
             "Archibald, voyageur de l'espace"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Archibald, voyageur de l'espace",
+              "raw": "Archibald, voyageur de l'espace"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -138578,7 +140732,18 @@
             "Super Durand, détective de choc",
             "Le frelon vert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand, détective de choc",
+              "raw": "Super Durand, détective de choc"
+            },
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -139417,7 +141582,13 @@
             "description_lines": [
               "Archibald, voyageur de l'espace"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Archibald, voyageur de l'espace",
+                "raw": "Archibald, voyageur de l'espace"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -139523,7 +141694,18 @@
               "Super Durand, détective de choc",
               "Le frelon vert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand, détective de choc",
+                "raw": "Super Durand, détective de choc"
+              },
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -142656,7 +144838,13 @@
           "description_lines": [
             "L''ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L''ile au trésor",
+              "raw": "L''ile au trésor"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -143626,7 +145814,13 @@
             "description_lines": [
               "L''ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L''ile au trésor",
+                "raw": "L''ile au trésor"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -144727,7 +146921,18 @@
             "Le programme jeunesse de Canal +",
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le programme jeunesse de Canal +",
+              "raw": "Le programme jeunesse de Canal +"
+            },
+            {
+              "index": 1,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -145925,7 +148130,18 @@
               "Le programme jeunesse de Canal +",
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le programme jeunesse de Canal +",
+                "raw": "Le programme jeunesse de Canal +"
+              },
+              {
+                "index": 1,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -149106,7 +151322,13 @@
           "description_lines": [
             "Les naufragés de l'île perdue"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les naufragés de l'île perdue",
+              "raw": "Les naufragés de l'île perdue"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -149162,7 +151384,13 @@
           "description_lines": [
             "Le Roi, c'est moi"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le Roi, c'est moi",
+              "raw": "Le Roi, c'est moi"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -149220,7 +151448,13 @@
           "description_lines": [
             "Petite merveille"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Petite merveille",
+              "raw": "Petite merveille"
+            }
+          ]
         },
         {
           "time": "17:45",
@@ -150081,7 +152315,13 @@
             "description_lines": [
               "Les naufragés de l'île perdue"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les naufragés de l'île perdue",
+                "raw": "Les naufragés de l'île perdue"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -150137,7 +152377,13 @@
             "description_lines": [
               "Le Roi, c'est moi"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le Roi, c'est moi",
+                "raw": "Le Roi, c'est moi"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -150195,7 +152441,13 @@
             "description_lines": [
               "Petite merveille"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Petite merveille",
+                "raw": "Petite merveille"
+              }
+            ]
           },
           {
             "time": "17:45",
@@ -150994,7 +153246,18 @@
             "Alvin et les Chimpmunks",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Alvin et les Chimpmunks",
+              "raw": "Alvin et les Chimpmunks"
+            },
+            {
+              "index": 2,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -151073,7 +153336,23 @@
             "Les Blufons",
             "Anna, Ciro et compagnie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 2,
+              "title": "Les Blufons",
+              "raw": "Les Blufons"
+            },
+            {
+              "index": 3,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
         },
         {
           "time": "16:05",
@@ -151113,7 +153392,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -152099,7 +154384,18 @@
               "Alvin et les Chimpmunks",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Alvin et les Chimpmunks",
+                "raw": "Alvin et les Chimpmunks"
+              },
+              {
+                "index": 2,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -152178,7 +154474,23 @@
               "Les Blufons",
               "Anna, Ciro et compagnie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 2,
+                "title": "Les Blufons",
+                "raw": "Les Blufons"
+              },
+              {
+                "index": 3,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
           },
           {
             "time": "16:05",
@@ -152218,7 +154530,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -155105,7 +157423,13 @@
             "Emission enfantine",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:20",
@@ -155184,7 +157508,33 @@
             "Turbolide",
             "L'île au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 2,
+              "title": "Robot Story",
+              "raw": "Robot Story"
+            },
+            {
+              "index": 3,
+              "title": "La petite merveille",
+              "raw": "La petite merveille"
+            },
+            {
+              "index": 4,
+              "title": "Turbolide",
+              "raw": "Turbolide"
+            },
+            {
+              "index": 5,
+              "title": "L'île au trésor",
+              "raw": "L'île au trésor"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -155242,7 +157592,13 @@
           "description_lines": [
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -156227,7 +158583,13 @@
               "Emission enfantine",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:20",
@@ -156306,7 +158668,33 @@
               "Turbolide",
               "L'île au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 2,
+                "title": "Robot Story",
+                "raw": "Robot Story"
+              },
+              {
+                "index": 3,
+                "title": "La petite merveille",
+                "raw": "La petite merveille"
+              },
+              {
+                "index": 4,
+                "title": "Turbolide",
+                "raw": "Turbolide"
+              },
+              {
+                "index": 5,
+                "title": "L'île au trésor",
+                "raw": "L'île au trésor"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -156364,7 +158752,13 @@
             "description_lines": [
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
@@ -157264,7 +159658,18 @@
             "Anna, Ciro et compagnie",
             "Ferdy"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            },
+            {
+              "index": 1,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            }
+          ]
         },
         {
           "time": "08:50",
@@ -158259,7 +160664,18 @@
               "Anna, Ciro et compagnie",
               "Ferdy"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              },
+              {
+                "index": 1,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              }
+            ]
           },
           {
             "time": "08:50",
@@ -159536,7 +161952,18 @@
             "Transformers",
             "Le coffret magique"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Transformers",
+              "raw": "Transformers"
+            },
+            {
+              "index": 1,
+              "title": "Le coffret magique",
+              "raw": "Le coffret magique"
+            }
+          ]
         },
         {
           "time": "08:20",
@@ -160920,7 +163347,18 @@
               "Transformers",
               "Le coffret magique"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Transformers",
+                "raw": "Transformers"
+              },
+              {
+                "index": 1,
+                "title": "Le coffret magique",
+                "raw": "Le coffret magique"
+              }
+            ]
           },
           {
             "time": "08:20",
@@ -164295,7 +166733,13 @@
             "Dessins animés",
             "T'as l'bonjour d'Albert"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 2,
+              "title": "T'as l'bonjour d'Albert",
+              "raw": "T'as l'bonjour d'Albert"
+            }
+          ]
         },
         {
           "time": "08:05",
@@ -165456,7 +167900,13 @@
               "Dessins animés",
               "T'as l'bonjour d'Albert"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 2,
+                "title": "T'as l'bonjour d'Albert",
+                "raw": "T'as l'bonjour d'Albert"
+              }
+            ]
           },
           {
             "time": "08:05",
@@ -166606,7 +169056,28 @@
             "Alvin et les Chipmunks",
             "Canaille Plus"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Le frelon vert",
+              "raw": "Le frelon vert"
+            },
+            {
+              "index": 2,
+              "title": "Transformers",
+              "raw": "Transformers"
+            },
+            {
+              "index": 3,
+              "title": "Alvin et les Chipmunks",
+              "raw": "Alvin et les Chipmunks"
+            },
+            {
+              "index": 4,
+              "title": "Canaille Plus",
+              "raw": "Canaille Plus"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -166681,7 +169152,33 @@
             "Petzi",
             "L'ile au trésor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Robostory",
+              "raw": "Robostory"
+            },
+            {
+              "index": 2,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            },
+            {
+              "index": 3,
+              "title": "Alias",
+              "raw": "Alias"
+            },
+            {
+              "index": 4,
+              "title": "Petzi",
+              "raw": "Petzi"
+            },
+            {
+              "index": 5,
+              "title": "L'ile au trésor",
+              "raw": "L'ile au trésor"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -166728,7 +169225,13 @@
             "Programme jeunesse",
             "Transformers"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Transformers",
+              "raw": "Transformers"
+            }
+          ]
         },
         {
           "time": "19:25",
@@ -167687,7 +170190,28 @@
               "Alvin et les Chipmunks",
               "Canaille Plus"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Le frelon vert",
+                "raw": "Le frelon vert"
+              },
+              {
+                "index": 2,
+                "title": "Transformers",
+                "raw": "Transformers"
+              },
+              {
+                "index": 3,
+                "title": "Alvin et les Chipmunks",
+                "raw": "Alvin et les Chipmunks"
+              },
+              {
+                "index": 4,
+                "title": "Canaille Plus",
+                "raw": "Canaille Plus"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -167762,7 +170286,33 @@
               "Petzi",
               "L'ile au trésor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Robostory",
+                "raw": "Robostory"
+              },
+              {
+                "index": 2,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              },
+              {
+                "index": 3,
+                "title": "Alias",
+                "raw": "Alias"
+              },
+              {
+                "index": 4,
+                "title": "Petzi",
+                "raw": "Petzi"
+              },
+              {
+                "index": 5,
+                "title": "L'ile au trésor",
+                "raw": "L'ile au trésor"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -167809,7 +170359,13 @@
               "Programme jeunesse",
               "Transformers"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Transformers",
+                "raw": "Transformers"
+              }
+            ]
           },
           {
             "time": "19:25",
