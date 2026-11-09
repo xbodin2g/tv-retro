@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-09T18:35:41.385795",
-  "total_dates": 74,
-  "total_programs": 3218,
+  "generated_at": "2026-11-09T18:39:06.339786",
+  "total_dates": 127,
+  "total_programs": 7277,
   "years": {
     "1980": {
       "total_programs": 3218,
@@ -301,6 +301,223 @@
         "31-12-1980": {
           "source": "archives80+depot101",
           "programs_count": 57
+        }
+      }
+    },
+    "1985": {
+      "total_programs": 4059,
+      "dates": {
+        "01-01-1985": {
+          "source": "depot101",
+          "programs_count": 62
+        },
+        "05-01-1985": {
+          "source": "depot101",
+          "programs_count": 79
+        },
+        "06-01-1985": {
+          "source": "depot101",
+          "programs_count": 37
+        },
+        "07-01-1985": {
+          "source": "depot101",
+          "programs_count": 67
+        },
+        "08-01-1985": {
+          "source": "depot101",
+          "programs_count": 72
+        },
+        "09-01-1985": {
+          "source": "depot101",
+          "programs_count": 67
+        },
+        "10-01-1985": {
+          "source": "depot101",
+          "programs_count": 61
+        },
+        "11-01-1985": {
+          "source": "depot101",
+          "programs_count": 70
+        },
+        "21-01-1985": {
+          "source": "depot101",
+          "programs_count": 73
+        },
+        "26-01-1985": {
+          "source": "depot101",
+          "programs_count": 91
+        },
+        "27-01-1985": {
+          "source": "depot101",
+          "programs_count": 66
+        },
+        "28-01-1985": {
+          "source": "depot101",
+          "programs_count": 76
+        },
+        "02-02-1985": {
+          "source": "depot101",
+          "programs_count": 88
+        },
+        "04-02-1985": {
+          "source": "depot101",
+          "programs_count": 76
+        },
+        "10-02-1985": {
+          "source": "depot101",
+          "programs_count": 72
+        },
+        "11-02-1985": {
+          "source": "depot101",
+          "programs_count": 78
+        },
+        "12-02-1985": {
+          "source": "depot101",
+          "programs_count": 85
+        },
+        "13-02-1985": {
+          "source": "depot101",
+          "programs_count": 85
+        },
+        "16-02-1985": {
+          "source": "depot101",
+          "programs_count": 90
+        },
+        "17-02-1985": {
+          "source": "depot101",
+          "programs_count": 69
+        },
+        "18-02-1985": {
+          "source": "depot101",
+          "programs_count": 79
+        },
+        "19-02-1985": {
+          "source": "depot101",
+          "programs_count": 81
+        },
+        "20-02-1985": {
+          "source": "depot101",
+          "programs_count": 83
+        },
+        "21-02-1985": {
+          "source": "depot101",
+          "programs_count": 79
+        },
+        "22-02-1985": {
+          "source": "depot101",
+          "programs_count": 80
+        },
+        "25-02-1985": {
+          "source": "depot101",
+          "programs_count": 81
+        },
+        "01-03-1985": {
+          "source": "depot101",
+          "programs_count": 78
+        },
+        "02-03-1985": {
+          "source": "depot101",
+          "programs_count": 82
+        },
+        "03-03-1985": {
+          "source": "depot101",
+          "programs_count": 38
+        },
+        "04-03-1985": {
+          "source": "depot101",
+          "programs_count": 71
+        },
+        "05-03-1985": {
+          "source": "depot101",
+          "programs_count": 68
+        },
+        "06-03-1985": {
+          "source": "depot101",
+          "programs_count": 77
+        },
+        "07-03-1985": {
+          "source": "depot101",
+          "programs_count": 74
+        },
+        "13-03-1985": {
+          "source": "depot101",
+          "programs_count": 85
+        },
+        "05-04-1985": {
+          "source": "depot101",
+          "programs_count": 59
+        },
+        "11-04-1985": {
+          "source": "depot101",
+          "programs_count": 71
+        },
+        "25-04-1985": {
+          "source": "depot101",
+          "programs_count": 76
+        },
+        "08-06-1985": {
+          "source": "depot101",
+          "programs_count": 76
+        },
+        "01-07-1985": {
+          "source": "depot101",
+          "programs_count": 73
+        },
+        "08-07-1985": {
+          "source": "depot101",
+          "programs_count": 74
+        },
+        "02-08-1985": {
+          "source": "depot101",
+          "programs_count": 83
+        },
+        "22-08-1985": {
+          "source": "depot101",
+          "programs_count": 50
+        },
+        "10-09-1985": {
+          "source": "depot101",
+          "programs_count": 86
+        },
+        "17-09-1985": {
+          "source": "depot101",
+          "programs_count": 83
+        },
+        "07-10-1985": {
+          "source": "depot101",
+          "programs_count": 87
+        },
+        "05-11-1985": {
+          "source": "depot101",
+          "programs_count": 88
+        },
+        "25-11-1985": {
+          "source": "depot101",
+          "programs_count": 91
+        },
+        "26-11-1985": {
+          "source": "depot101",
+          "programs_count": 91
+        },
+        "03-12-1985": {
+          "source": "depot101",
+          "programs_count": 87
+        },
+        "12-12-1985": {
+          "source": "depot101",
+          "programs_count": 86
+        },
+        "13-12-1985": {
+          "source": "depot101",
+          "programs_count": 94
+        },
+        "14-12-1985": {
+          "source": "depot101",
+          "programs_count": 89
+        },
+        "30-12-1985": {
+          "source": "depot101",
+          "programs_count": 95
         }
       }
     }
