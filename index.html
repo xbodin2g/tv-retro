@@ -12,6 +12,8 @@
     <link rel="manifest" href="manifest.json">
 
     <meta name="theme-color" content="#1f3a5f">
+    <meta name="color-scheme" content="light">
+
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -29,10 +31,10 @@
     >
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=6">
+    <link rel="stylesheet" href="style.css?v=7">
 
     <!-- Script principal -->
-    <script src="app.js?v=6" defer></script>
+    <script src="app.js?v=7" defer></script>
 </head>
 
 <body>
@@ -91,17 +93,72 @@
                 <p>Chargement des archives...</p>
             </div>
 
-            <!-- Les années / dates s’affichent ici -->
-            <div id="years-container" class="years-container">
-                <div class="empty-state">
-                    <div class="retro-tv">📺</div>
-                    <h2>Chargement des archives...</h2>
-                    <p>Veuillez patienter.</p>
+            <!-- Liste années / dates -->
+            <div id="browse-list">
+                <div id="years-container" class="years-container">
+                    <div class="empty-state">
+                        <div class="retro-tv">📺</div>
+                        <h2>Chargement des archives...</h2>
+                        <p>Veuillez patienter.</p>
+                    </div>
                 </div>
             </div>
 
-            <!-- Les programmes de la journée choisie s’affichent ici -->
-            <div id="programs-container" class="programs-container"></div>
+            <!-- Vue journée dédiée -->
+            <div id="day-panel" class="day-panel" hidden>
+                <div class="day-toolbar">
+                    <button class="back-btn" id="day-back-btn" type="button">
+                        ← Retour aux dates
+                    </button>
+
+                    <div class="day-heading">
+                        <h2 id="day-title">Journée</h2>
+                        <p class="day-meta-line">
+                            <span id="day-meta">0 programmes</span>
+                            ·
+                            <span id="day-source">source</span>
+                        </p>
+                    </div>
+                </div>
+
+                <section class="summary-box">
+                    <h3>🌙 Sommaire du jour</h3>
+                    <div id="day-summary" class="summary-container"></div>
+                </section>
+
+                <section class="timeline-box">
+                    <h3>🕒 Frise chronologique</h3>
+                    <div id="day-timeline" class="timeline-scroll"></div>
+                </section>
+
+                <div class="grid-toolbar">
+                    <input
+                        type="search"
+                        id="program-search"
+                        placeholder="Rechercher un programme, un animateur, un extrait..."
+                    >
+
+                    <select id="channel-filter">
+                        <option value="all">Toutes les chaînes</option>
+                    </select>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-segments" checked>
+                        Extraits / détails
+                    </label>
+
+                    <div class="toolbar-actions">
+                        <button type="button" id="expand-all" class="tiny-btn">Déplier</button>
+                        <button type="button" id="collapse-all" class="tiny-btn">Réplier</button>
+                    </div>
+                </div>
+
+                <p class="programs-count">
+                    <span id="filtered-count">0</span> programmes affichés
+                </p>
+
+                <div id="programs-groups" class="programs-groups"></div>
+            </div>
 
         </section>
 
@@ -127,12 +184,30 @@
             <div id="playlist-container" class="playlist-container">
                 <div class="empty-playlist">
                     <p>📭 Playlist vide</p>
-                    <small>Ajoutez des programmes depuis la vue Parcourir</small>
+                    <small>Ajoutez des programmes ou des extraits depuis la vue Journée</small>
                 </div>
             </div>
 
             <div class="export-section" id="export-section" style="display: none;">
                 <h3>🎶 Export pour TuneMyMusic</h3>
+
+                <div class="export-options">
+                    <label>
+                        Format
+                        <select id="export-format">
+                            <option value="title">Titre seul</option>
+                            <option value="title_channel">Titre (Chaîne)</option>
+                            <option value="title_date">Titre - Date</option>
+                            <option value="title_channel_date" selected>Titre (Chaîne) - Date</option>
+                            <option value="full">Titre (Chaîne) - Heure - Date</option>
+                        </select>
+                    </label>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="export-parent" checked>
+                        Inclure le programme parent pour les extraits
+                    </label>
+                </div>
 
                 <p>
                     Copiez cette liste, puis collez-la dans TuneMyMusic pour rechercher les programmes
@@ -187,6 +262,10 @@
                     </p>
 
                     <p>
+                        🧩 <strong>Extraits</strong> : les blocs jeunesse peuvent être détaillés programme par programme.
+                    </p>
+
+                    <p>
                         🎵 <strong>Export</strong> : liste de programmes à utiliser avec TuneMyMusic.
                     </p>
 
@@ -202,10 +281,10 @@
                         <li>Ouvrez l’onglet <strong>Parcourir</strong>.</li>
                         <li>Choisissez une <strong>année</strong>.</li>
                         <li>Sélectionnez une <strong>journée disponible</strong>.</li>
-                        <li>Parcourez les programmes par chaîne.</li>
-                        <li>Utilisez la recherche ou le filtre par chaîne si besoin.</li>
-                        <li>Ajoutez vos programmes préférés à la <strong>playlist</strong>.</li>
-                        <li>Dans <strong>Ma Playlist</strong>, cliquez sur <strong>Exporter</strong>.</li>
+                        <li>Consultez le sommaire, la frise et la grille chaîne par chaîne.</li>
+                        <li>Dépliez les blocs jeunesse pour voir les extraits.</li>
+                        <li>Ajoutez programmes ou extraits à la <strong>playlist</strong>.</li>
+                        <li>Dans <strong>Ma Playlist</strong>, choisissez le format d’export.</li>
                         <li>Copiez la liste et collez-la dans <strong>TuneMyMusic</strong>.</li>
                     </ol>
                 </div>
