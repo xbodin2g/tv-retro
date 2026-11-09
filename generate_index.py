@@ -4,7 +4,8 @@ Génère l'index des données TV rétro.
 
 Fonctions :
 - fusionne depot101 et archives80
-- supprime les doublons sur date + chaîne + heure
+- supprime les doublons sur date effective + chaîne + heure
+- corrige les programmes de nuit passés après minuit
 - conserve les description_lines
 - détecte les extraits / segments des émissions jeunesse
 - regroupe par chaîne
@@ -17,7 +18,7 @@ import json
 import os
 import re
 import unicodedata
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
@@ -411,6 +412,77 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
 
 
 # =====================================================
+# Correction des programmes de nuit / passage de minuit
+# =====================================================
+
+def _date_to_datetime(date_str: str) -> datetime:
+    return datetime.strptime(date_str, "%d-%m-%Y")
+
+
+def _assign_effective_dates(
+    programs: List[Dict[str, Any]],
+    source_date: str
+) -> List[Dict[str, Any]]:
+    """
+    Réaffecte la date effective des programmes qui passent après minuit.
+
+    Exemple :
+      page du 29-12-1986
+      TF1 20:30 ...
+      TF1 03:05 ...
+
+    Le programme 03:05 devient effectivement du 30-12-1986.
+    """
+    base_dt = _date_to_datetime(source_date)
+    last_dt_by_channel: Dict[str, datetime] = {}
+    enriched: List[Dict[str, Any]] = []
+
+    for raw_program in programs:
+        if not isinstance(raw_program, dict):
+            continue
+
+        program = dict(raw_program)
+
+        time = normalize_time(program.get("time"))
+        channel = canonical_channel(program.get("channel"))
+
+        program["time"] = time
+        program["channel"] = channel
+        program["original_date"] = source_date
+
+        if not time:
+            program["effective_date"] = source_date
+            enriched.append(program)
+            continue
+
+        hour, minute = map(int, time.split(":"))
+        candidate_dt = base_dt.replace(hour=hour, minute=minute)
+
+        last_dt = last_dt_by_channel.get(channel)
+
+        if last_dt is not None and candidate_dt + timedelta(hours=2) < last_dt:
+            # On ne bascule au jour suivant que si cela ressemble vraiment
+            # à une programmation de nuit / après minuit.
+            should_shift = (
+                hour < 6
+                or last_dt.date() > base_dt.date()
+                or (last_dt.hour >= 20 and hour < 12)
+            )
+
+            if should_shift:
+                while candidate_dt + timedelta(hours=2) < last_dt:
+                    candidate_dt += timedelta(days=1)
+
+        effective_date = candidate_dt.strftime("%d-%m-%Y")
+        program["effective_date"] = effective_date
+
+        last_dt_by_channel[channel] = candidate_dt
+        enriched.append(program)
+
+    return enriched
+
+
+# =====================================================
 # Segments / extraits
 # =====================================================
 
@@ -532,7 +604,9 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
       "Série - Épisode" ou "Personnage - Élément"
     """
     lines = program.get("description_lines") or []
-    lines = dedupe_adjacent_lines([str(line).strip() for line in lines if str(line).strip()])
+    lines = dedupe_adjacent_lines(
+        [str(line).strip() for line in lines if str(line).strip()]
+    )
 
     parent_title = clean_title(program.get("title", ""))
     norm_parent = normalize_text(parent_title)
@@ -702,7 +776,7 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION JEUNESSE COMPLÈTE")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT + JEUNESSE")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
@@ -720,6 +794,7 @@ def generate_index() -> None:
     total_source_files = 0
     total_loaded_programs = 0
     total_missing_description_lines = 0
+    total_overnight_shifted = 0
 
     for source in SOURCES:
         source_dir = Path(f"data/{source}")
@@ -740,9 +815,9 @@ def generate_index() -> None:
                 continue
 
             raw_date = data.get("date") or filepath.stem
-            date = normalize_date(raw_date)
+            source_date = normalize_date(raw_date)
 
-            if not date:
+            if not source_date:
                 print(f"⚠️ Date invalide ignorée : {filepath}")
                 continue
 
@@ -751,28 +826,37 @@ def generate_index() -> None:
             if not isinstance(programs, list):
                 continue
 
-            if date not in all_dates:
-                all_dates[date] = {
-                    "date": date,
-                    "sources": set(),
-                    "programs": {},
-                }
+            # Important : on traite d'abord dans l'ordre d'origine de la page
+            # pour détecter les programmes passés après minuit.
+            enriched_programs = _assign_effective_dates(programs, source_date)
 
-            all_dates[date]["sources"].add(source)
-
-            for program in programs:
+            for program in enriched_programs:
                 if not isinstance(program, dict):
                     continue
 
                 if "description_lines" not in program:
                     total_missing_description_lines += 1
 
-                merge_program(all_dates[date]["programs"], program)
+                effective_date = program.get("effective_date") or source_date
+
+                if effective_date != source_date:
+                    total_overnight_shifted += 1
+
+                if effective_date not in all_dates:
+                    all_dates[effective_date] = {
+                        "date": effective_date,
+                        "sources": set(),
+                        "programs": {},
+                    }
+
+                all_dates[effective_date]["sources"].add(source)
+                merge_program(all_dates[effective_date]["programs"], program)
                 total_loaded_programs += 1
 
     print("")
     print(f"✅ Fichiers sources lus : {total_source_files}")
     print(f"✅ Programmes bruts chargés : {total_loaded_programs}")
+    print(f"✅ Programmes réaffectés au jour suivant : {total_overnight_shifted}")
     print(f"✅ Dates uniques retenues : {len(all_dates)}")
 
     if total_missing_description_lines:
@@ -827,6 +911,7 @@ def generate_index() -> None:
         "total_dates": len(all_dates),
         "total_programs": sum(y["total_programs"] for y in sorted_years.values()),
         "total_segments": total_segments,
+        "total_overnight_shifted": total_overnight_shifted,
         "years": {},
     }
 
@@ -882,6 +967,7 @@ def generate_index() -> None:
     print(f"Dates totales : {index['total_dates']}")
     print(f"Programmes totaux : {index['total_programs']}")
     print(f"Extraits / segments détectés : {index['total_segments']}")
+    print(f"Programmes de nuit réaffectés : {index['total_overnight_shifted']}")
 
 
 if __name__ == "__main__":
