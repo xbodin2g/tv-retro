@@ -1,4 +1,13 @@
-# scraper/depot101_scraper.py
+#!/usr/bin/env python3
+"""
+Scraper Depot101 corrigé.
+- découverte des dates via href + texte
+- fallback décennie
+- logs de diagnostic
+- alias TV6
+- détection chaîne avec contexte
+"""
+
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
@@ -16,7 +25,10 @@ class Depot101Scraper:
     BASE_URL = "https://www.depot101.com/tele/grille"
 
     TIME_RE = re.compile(r"^\d{2}:\d{2}$")
-    DATE_HREF_RE = re.compile(r"/tele/grille/(?:date/)?(\d{2}-\d{2}-\d{4})")
+    DATE_HREF_RE = re.compile(
+        r"/tele/grilles?/(?:date/)?(\d{2}-\d{2}-\d{4})",
+        re.IGNORECASE
+    )
 
     MONTHS = {
         "janvier": 1,
@@ -47,6 +59,7 @@ class Depot101Scraper:
         "C+": "Canal+",
         "CANAL+": "Canal+",
         "CANAL": "Canal+",
+        "TV6": "TV6",
         "L5": "La Cinq",
         "LA5": "La Cinq",
         "LA 5": "La Cinq",
@@ -67,8 +80,8 @@ class Depot101Scraper:
         "C+": "Canal+",
         "CANAL+": "Canal+",
         "CANAL": "Canal+",
+        "TV6": "TV6",
         "L5": "La Cinq",
-        "LA5": "La Cinq",
         "LA5": "La Cinq",
         "LACINQ": "La Cinq",
         "CINQ": "La Cinq",
@@ -79,6 +92,7 @@ class Depot101Scraper:
 
     CHANNEL_REGEX = [
         (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
+        (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
@@ -128,12 +142,11 @@ class Depot101Scraper:
         "Cache-Control": "max-age=0",
     }
 
-    def __init__(self, delay: float = 3.5):
+    def __init__(self, delay: float = 3.0):
         self.delay = delay
 
         self._home_visited = False
         self._visited_decades: Set[str] = set()
-        self._decade_text_cache: Dict[str, str] = {}
 
         self._annual_dates_cache: Dict[str, List[str]] = {}
         self._annual_attempted: Set[str] = set()
@@ -160,12 +173,8 @@ class Depot101Scraper:
         self.scraper = self._create_scraper()
         self._home_visited = False
         self._visited_decades.clear()
-        self._decade_text_cache.clear()
-        self._annual_dates_cache.clear()
-        self._annual_attempted.clear()
-        self._annual_text_cache.clear()
-        self._annual_url_cache.clear()
         self._daily_text_cache.clear()
+        self._annual_attempted.clear()
 
     def _headers_for(self, referer: Optional[str] = None) -> Dict[str, str]:
         headers = self.BASE_HEADERS.copy()
@@ -190,8 +199,8 @@ class Depot101Scraper:
         for attempt in range(max_retries):
             try:
                 sleep_time = random.uniform(
-                    2.0 + attempt * 1.5,
-                    max(4.0, self.delay + attempt * 2.5),
+                    1.5 + attempt * 1.0,
+                    max(3.0, self.delay + attempt * 2.0),
                 )
                 time.sleep(sleep_time)
 
@@ -207,8 +216,9 @@ class Depot101Scraper:
                     )
 
                     if attempt < max_retries - 1:
+                        print(f"  ⚠️ 403 sur {url}, retry {attempt + 1}/{max_retries - 1}...")
                         self._reset_scraper()
-                        time.sleep(random.uniform(10.0, 20.0) * (attempt + 1))
+                        time.sleep(random.uniform(8.0, 16.0) * (attempt + 1))
                         continue
 
                     raise last_error
@@ -220,10 +230,12 @@ class Depot101Scraper:
                 last_error = e
 
                 if attempt < max_retries - 1:
+                    print(f"  ⚠️ Erreur sur {url}: {e}")
                     self._reset_scraper()
-                    time.sleep(random.uniform(10.0, 20.0) * (attempt + 1))
+                    time.sleep(random.uniform(8.0, 16.0) * (attempt + 1))
                     continue
 
+                print(f"  ❌ Erreur finale sur {url}: {e}")
                 raise
 
         if last_error:
@@ -234,7 +246,7 @@ class Depot101Scraper:
     def _html_to_text(self, html: str) -> str:
         soup = BeautifulSoup(html, "html.parser")
 
-        for tag in soup(["script", "style", "noscript"]):
+        for tag in soup(["script", "style"]):
             tag.decompose()
 
         return soup.get_text("\n", strip=True)
@@ -282,10 +294,11 @@ class Depot101Scraper:
 
             if response is not None:
                 self._home_visited = True
+                print("✓ Page d'accueil Depot101 visitée")
                 return True
 
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ Accueil Depot101 inaccessible: {e}")
 
         return False
 
@@ -305,47 +318,41 @@ class Depot101Scraper:
             response = self._request(url, referer=referer, max_retries=2)
 
             if response is not None:
-                text = self._html_to_text(response.text)
-                self._decade_text_cache[decade] = text
                 self._visited_decades.add(decade)
+                print(f"✓ Décennie {decade} visitée")
                 return True
 
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ Décennie {decade} inaccessible: {e}")
 
         return False
-
-    def _annual_url_candidates(self, year: int) -> List[str]:
-        year_str = str(year)
-        decade = self._decade_for_year(year)
-
-        candidates = [
-            f"{self.GRILLES_URL}/{year_str}",
-            f"{self.GRILLES_URL}/{year_str}/",
-        ]
-
-        if decade:
-            candidates.extend(
-                [
-                    f"{self.GRILLES_URL}/{decade}/{year_str}",
-                    f"{self.GRILLES_URL}/{decade}/{year_str}/",
-                ]
-            )
-
-        seen = set()
-        ordered = []
-
-        for item in candidates:
-            if item not in seen:
-                seen.add(item)
-                ordered.append(item)
-
-        return ordered
 
     def _extract_dates_from_html(self, html: str, year: Optional[int] = None) -> List[str]:
         dates: Set[str] = set()
 
-        for match in self.DATE_HREF_RE.finditer(str(html or "")):
+        if not html:
+            return []
+
+        try:
+            soup = BeautifulSoup(html, "html.parser")
+
+            for a in soup.find_all("a", href=True):
+                match = self.DATE_HREF_RE.search(a["href"])
+
+                if not match:
+                    continue
+
+                date = match.group(1)
+
+                if year is not None and not date.endswith(f"-{year}"):
+                    continue
+
+                dates.add(date)
+
+        except Exception:
+            pass
+
+        for match in self.DATE_HREF_RE.finditer(html):
             date = match.group(1)
 
             if year is not None and not date.endswith(f"-{year}"):
@@ -423,43 +430,92 @@ class Depot101Scraper:
 
         self._annual_attempted.add(year_str)
 
-        decade = self._decade_for_year(year)
+        print(f"📅 Recherche des dates Depot101 pour {year}...")
 
         self._visit_home()
-        self._visit_decade(decade)
 
-        referer = None
+        direct_candidates = [
+            f"{self.GRILLES_URL}/{year_str}",
+            f"{self.GRILLES_URL}/{year_str}/",
+        ]
 
-        if decade and decade in self._visited_decades:
-            referer = f"{self.GRILLES_URL}/{decade}"
-        elif self._home_visited:
-            referer = self.HOME_URL
+        referer = self.HOME_URL if self._home_visited else None
+        last_text: Optional[str] = None
 
-        for url in self._annual_url_candidates(year):
+        for url in direct_candidates:
             try:
                 response = self._request(url, referer=referer, max_retries=3)
             except Exception:
                 continue
 
             if response is None:
+                print(f"  ⚠️ 404: {url}")
                 continue
 
-            html = response.text
-            dates = self._extract_dates_from_html(html, year=year)
+            dates = self._extract_dates_from_html(response.text, year=year)
             text = None
 
             if not dates:
-                text = self._html_to_text(html)
+                text = self._html_to_text(response.text)
+                last_text = text
                 dates = self._extract_dates_from_text(text, year=year)
 
             if dates:
                 if text is None:
-                    text = self._html_to_text(html)
+                    text = self._html_to_text(response.text)
 
                 self._annual_dates_cache[year_str] = dates
                 self._annual_text_cache[year_str] = text
                 self._annual_url_cache[year_str] = url
+                print(f"✓ {len(dates)} dates trouvées via {url}")
                 return list(dates)
+
+        decade = self._decade_for_year(year)
+
+        if decade and self._visit_decade(decade):
+            decade_referer = f"{self.GRILLES_URL}/{decade}"
+
+            fallback_candidates = [
+                f"{self.GRILLES_URL}/{decade}/{year_str}",
+                f"{self.GRILLES_URL}/{decade}/{year_str}/",
+                f"{self.GRILLES_URL}/{year_str}",
+                f"{self.GRILLES_URL}/{year_str}/",
+            ]
+
+            for url in fallback_candidates:
+                try:
+                    response = self._request(url, referer=decade_referer, max_retries=2)
+                except Exception:
+                    continue
+
+                if response is None:
+                    continue
+
+                dates = self._extract_dates_from_html(response.text, year=year)
+                text = None
+
+                if not dates:
+                    text = self._html_to_text(response.text)
+                    last_text = text
+                    dates = self._extract_dates_from_text(text, year=year)
+
+                if dates:
+                    if text is None:
+                        text = self._html_to_text(response.text)
+
+                    self._annual_dates_cache[year_str] = dates
+                    self._annual_text_cache[year_str] = text
+                    self._annual_url_cache[year_str] = url
+                    print(f"✓ {len(dates)} dates trouvées via fallback {url}")
+                    return list(dates)
+
+        print(f"⚠️ Aucune date trouvée pour {year}")
+
+        if last_text:
+            lines = [line.strip() for line in last_text.split("\n") if line.strip()]
+            print("  🔎 Aperçu texte:")
+            for line in lines[:30]:
+                print(f"    {line}")
 
         return []
 
@@ -467,12 +523,7 @@ class Depot101Scraper:
         return list(range(1980, 2000))
 
     def get_available_dates(self, year: int) -> List[str]:
-        dates = self._get_annual_dates(year)
-
-        if dates:
-            return dates
-
-        return []
+        return self._get_annual_dates(year)
 
     def _daily_referer_candidates(self, year_str: str) -> List[Optional[str]]:
         candidates: List[Optional[str]] = []
@@ -659,6 +710,9 @@ class Depot101Scraper:
                             title = candidate
                             i += 1
 
+                if not title:
+                    continue
+
                 raw_description_lines = []
 
                 while i < n:
@@ -690,7 +744,7 @@ class Depot101Scraper:
                 programs.append(
                     {
                         "time": time_str,
-                        "title": title or "Programme non identifié",
+                        "title": title,
                         "channel": current_channel,
                         "description": " ".join(description_lines),
                         "description_lines": description_lines,
@@ -723,12 +777,14 @@ class Depot101Scraper:
             text = self._fetch_daily_text(date_str)
 
             if not text:
+                print(f"  ⚠️ Page indisponible ou bloquée : {date_str}")
                 return None
 
             programs = self._parse_programs(text)
 
             if not programs:
                 self._print_zero_debug_preview(text)
+                print(f"  ⚠️ Aucun programme trouvé : {date_str}")
                 return None
 
             return {
@@ -738,7 +794,8 @@ class Depot101Scraper:
                 "programs": programs,
             }
 
-        except Exception:
+        except Exception as e:
+            print(f"  ❌ Erreur scraping {date_str}: {e}")
             return None
 
     def scrape_year(self, year: int, output_dir: str = "data/depot101") -> None:
@@ -793,5 +850,5 @@ class Depot101Scraper:
 
 
 if __name__ == "__main__":
-    scraper = Depot101Scraper(delay=3.5)
-    scraper.scrape_year(1989)
+    scraper = Depot101Scraper(delay=3.0)
+    scraper.scrape_year(1985)
