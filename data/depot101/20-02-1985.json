@@ -1,7 +1,7 @@
 {
   "date": "20-02-1985",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:38:38.922303",
+  "scraped_at": "2026-11-09T20:28:41.068219",
   "programs": [
     {
       "time": "11:15",
@@ -481,22 +481,20 @@
       "time": "00:15",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "LE 7/9",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Les Minipouss Un bateau pour l'aventure Heathcliff et Marmaduke",
       "description_lines": [
         "Programme jeunesse",
@@ -508,7 +506,7 @@
     {
       "time": "10:20",
       "title": "ROBIN DES BOIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série anglaise",
       "description_lines": [
         "Série anglaise"
@@ -517,35 +515,35 @@
     {
       "time": "11:10",
       "title": "CHANTAL GOYA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "SAUTE MA PUCE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "LES AFFAIRES SONT LAS AFFAIRES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "RUE CARNOT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton franco-suisse avec Rosine Cadoret",
       "description_lines": [
         "Feuilleton franco-suisse avec Rosine Cadoret"
@@ -554,7 +552,7 @@
     {
       "time": "14:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Cobra Sherlock Holmes Paul et les Dizygotes Mister T Les quatre filles du Dr March",
       "description_lines": [
         "Programme jeunesse",
@@ -568,7 +566,7 @@
     {
       "time": "16:00",
       "title": "ELLIS ISLAND",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton américain avec Faye Dunaway et Richard Burton",
       "description_lines": [
         "Feuilleton américain avec Faye Dunaway et Richard Burton"
@@ -577,28 +575,28 @@
     {
       "time": "16:50",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:15",
       "title": "CONCERT ROCK",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:05",
       "title": "SURTOUT L'APRÈS-MIDI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Christophe Dechavanne Batman",
       "description_lines": [
         "Présenté par Christophe Dechavanne",
@@ -608,7 +606,7 @@
     {
       "time": "18:45",
       "title": "RUE CARNOT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton franco-suisse avec Rosine Cadoret",
       "description_lines": [
         "Feuilleton franco-suisse avec Rosine Cadoret"
@@ -617,7 +615,7 @@
     {
       "time": "19:15",
       "title": "TOUS EN SCÈNE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -626,14 +624,14 @@
     {
       "time": "20:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:05",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -642,14 +640,14 @@
     {
       "time": "20:30",
       "title": "HILL STREET BLUES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:15",
       "title": "SOAP",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -658,21 +656,21 @@
     {
       "time": "21:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:50",
       "title": "DE SI GENTILS PETITS MONSTRES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:20",
       "title": "SURTOUT L'APRÈS-MIDI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Christophe Dechavanne",
       "description_lines": [
         "Présenté par Christophe Dechavanne"
@@ -681,21 +679,21 @@
     {
       "time": "23:55",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:00",
       "title": "TROCADERO BLEU CITRON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:30",
       "title": "ROBIN DES BOIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série anglaise",
       "description_lines": [
         "Série anglaise"
@@ -704,14 +702,14 @@
     {
       "time": "02:20",
       "title": "BATMAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:45",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     }

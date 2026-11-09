@@ -1,7 +1,7 @@
 {
   "date": "01-01-1985",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:37:18.550171",
+  "scraped_at": "2026-11-09T20:24:27.704470",
   "programs": [
     {
       "time": "11:00",
@@ -368,15 +368,13 @@
       "time": "23:40",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Editions à 08.00, 08.55, 13.00, 18.00, 20.00, 22.05 et 00.30",
       "description_lines": [
         "Editions à 08.00, 08.55, 13.00, 18.00, 20.00, 22.05 et 00.30"
@@ -385,14 +383,14 @@
     {
       "time": "07:05",
       "title": "TOP 84",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:05",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Les Minipouss Mister T.",
       "description_lines": [
         "Programme jeunesse",
@@ -403,7 +401,7 @@
     {
       "time": "09:00",
       "title": "L'AUSTRALIENNE - 7ÈME ÉPISODE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton australien en 6 épisodes avec Sigrid Thornston, John Waters, Charles Tingwell",
       "description_lines": [
         "Feuilleton australien en 6 épisodes avec Sigrid Thornston, John Waters, Charles Tingwell"
@@ -412,7 +410,7 @@
     {
       "time": "09:50",
       "title": "LE MONDE FABULEUX DES EFFETS SPÉCIAUX - DEUXIÈME PARTIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -421,7 +419,7 @@
     {
       "time": "10:45",
       "title": "LE RETOUR DE DON CAMILLO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film franco-italien (1961)",
       "description_lines": [
         "Film franco-italien (1961)"
@@ -430,7 +428,7 @@
     {
       "time": "12:30",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Paul et les Dizigotes",
       "description_lines": [
         "Programme jeunesse",
@@ -440,7 +438,7 @@
     {
       "time": "13:05",
       "title": "LES AFFAIRES SONT LES AFFAIRES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -449,7 +447,7 @@
     {
       "time": "13:30",
       "title": "RUE CARNOT - NOSTALGIE (11)",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton franco-suisse avec Rosine Cadoret",
       "description_lines": [
         "Feuilleton franco-suisse avec Rosine Cadoret"
@@ -458,7 +456,7 @@
     {
       "time": "14:00",
       "title": "ADDIE TROUVE UN AMI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain avec Jason Robards",
       "description_lines": [
         "Téléfilm américain avec Jason Robards"
@@ -467,7 +465,7 @@
     {
       "time": "15:40",
       "title": "ATTENTION ! CONVOIE D'OIES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm anglais avec Ian Holmes",
       "description_lines": [
         "Téléfilm anglais avec Ian Holmes"
@@ -476,7 +474,7 @@
     {
       "time": "17:10",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Benji Max Romane",
       "description_lines": [
         "Programme jeunesse",
@@ -487,14 +485,14 @@
     {
       "time": "18:05",
       "title": "SURTOUT L'APRÈS-MIDI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:45",
       "title": "RUE CARNOT - L'EMMÉNAGEMENT (12)",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Feuilleton franco-suisse avec Rosine Cadoret",
       "description_lines": [
         "Feuilleton franco-suisse avec Rosine Cadoret"
@@ -503,7 +501,7 @@
     {
       "time": "19:15",
       "title": "TOUS EN SCÈNE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Avec Maruschka Detmers, Elizabeth Bourgine, Agnès Soral, Victoria Abril, Orélie Doizon, Sophie Marceau, Isabelle Pasco et Sophie Duez",
       "description_lines": [
         "Avec Maruschka Detmers, Elizabeth Bourgine, Agnès Soral, Victoria Abril, Orélie Doizon, Sophie Marceau, Isabelle Pasco et Sophie Duez"
@@ -512,7 +510,7 @@
     {
       "time": "20:05",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Hit-parade national des 45 tours",
       "description_lines": [
         "Hit-parade national des 45 tours"
@@ -521,7 +519,7 @@
     {
       "time": "20:30",
       "title": "COUP DE FOUDRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1983)",
       "description_lines": [
         "Film français (1983)"
@@ -530,7 +528,7 @@
     {
       "time": "22:10",
       "title": "LA GUERRE DU FEU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film (1981)",
       "description_lines": [
         "Film (1981)"
@@ -539,7 +537,7 @@
     {
       "time": "23:45",
       "title": "TOUS EN SCÈNE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Reprise",
       "description_lines": [
         "Reprise"
@@ -548,7 +546,7 @@
     {
       "time": "00:35",
       "title": "BUTCH CASSIDY ET LE KID",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1969)",
       "description_lines": [
         "Film américain (1969)"
@@ -557,7 +555,7 @@
     {
       "time": "00:20",
       "title": "NANA MOUSKOURI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le premier récital de Nana Mouskouri dans son pays",
       "description_lines": [
         "Le premier récital de Nana Mouskouri dans son pays"
