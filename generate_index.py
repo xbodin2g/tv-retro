@@ -4,12 +4,11 @@ Génère l'index des données TV rétro.
 
 Fonctions :
 - fusionne depot101 et archives80
-- supprime les doublons sur date effective + chaîne + heure
-- corrige les programmes passés après minuit
-- crée des journées synthétiques si nécessaire
+- supprime les doublons sur date + chaîne + heure
 - conserve les description_lines
 - détecte les extraits / segments des émissions jeunesse
 - regroupe par chaîne
+- tri logique : les programmes 00:00-04:59 apparaissent après 23:59
 - produit :
   - data/index.json
   - data/AAAA.json
@@ -19,7 +18,7 @@ import json
 import os
 import re
 import unicodedata
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
@@ -104,11 +103,9 @@ CHANNEL_REGEX = [
 
 TIME_RE = re.compile(r"^\d{2}:\d{2}$")
 
-# Pour la correction des programmes passés après minuit.
-# Une heure >= 18h active le mode "nuit" sur la chaîne.
-# Ensuite, seulement les heures < 05:00 sont basculées au jour suivant.
-OVERNIGHT_EVENING_HOUR = 18
-OVERNIGHT_MORNING_HOUR = 5
+# Seuil en dessous duquel une heure est considérée comme "après minuit"
+# dans l'ordre d'affichage d'une journée TV.
+NIGHT_CUTOFF_HOUR = 5
 
 
 # =====================================================
@@ -269,13 +266,6 @@ META_STARTS = (
 # =====================================================
 
 def normalize_text(value: Any) -> str:
-    """
-    Normalise un texte pour comparaison :
-    - minuscules
-    - sans accents
-    - sans ponctuation
-    - espaces réduits
-    """
     if value is None:
         return ""
 
@@ -292,10 +282,6 @@ YOUTH_NORMALIZED = tuple(normalize_text(item) for item in YOUTH_PROGRAMS)
 
 
 def normalize_date(date_str: Any) -> Optional[str]:
-    """
-    Normalise une date au format JJ-MM-AAAA.
-    Accepte aussi AAAA-MM-DD, JJ/MM/AAAA, AAAA/MM/DD.
-    """
     if not date_str:
         return None
 
@@ -328,9 +314,6 @@ def normalize_date(date_str: Any) -> Optional[str]:
 
 
 def normalize_time(value: Any) -> str:
-    """
-    Normalise une heure au format HH:MM.
-    """
     if not value:
         return ""
 
@@ -349,10 +332,37 @@ def normalize_time(value: Any) -> str:
     return f"{hour:02d}:{minute:02d}"
 
 
+def time_sort_key(time_str: str) -> int:
+    """
+    Retourne une clé de tri logique pour une heure.
+
+    Les heures 00:00-04:59 sont considérées comme "après minuit"
+    et triées après 23:59, comme dans un magazine TV.
+
+    Exemple :
+      05:00 -> 0
+      12:00 -> 420
+      20:30 -> 930
+      23:59 -> 1139
+      00:10 -> 1150
+      03:05 -> 1325
+      04:59 -> 1439
+    """
+    if not time_str or ":" not in time_str:
+        return 9999
+
+    try:
+        hour, minute = map(int, time_str.split(":"))
+    except (ValueError, AttributeError):
+        return 9999
+
+    if hour >= NIGHT_CUTOFF_HOUR:
+        return (hour - NIGHT_CUTOFF_HOUR) * 60 + minute
+    else:
+        return (hour + 24 - NIGHT_CUTOFF_HOUR) * 60 + minute
+
+
 def canonical_channel(value: Any) -> str:
-    """
-    Retourne un nom de chaîne canonique.
-    """
     raw = str(value or "").strip()
 
     if not raw:
@@ -378,9 +388,6 @@ def canonical_channel(value: Any) -> str:
 
 
 def channel_rank(channel: str) -> int:
-    """
-    Ordre d'affichage des chaînes.
-    """
     try:
         return CHANNEL_ORDER.index(channel)
     except ValueError:
@@ -388,12 +395,6 @@ def channel_rank(channel: str) -> int:
 
 
 def clean_title(value: Any) -> str:
-    """
-    Nettoie un titre.
-    Si le titre est dupliqué sous la forme :
-    'Journal de 13 heures - Journal de 13 heures'
-    on garde seulement la première partie.
-    """
     title = str(value or "").strip()
     title = re.sub(r"\s+", " ", title)
 
@@ -407,9 +408,6 @@ def clean_title(value: Any) -> str:
 
 
 def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
-    """
-    Charge un fichier JSON proprement.
-    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -419,98 +417,10 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
 
 
 # =====================================================
-# Correction des programmes de nuit / passage de minuit
-# =====================================================
-
-def _date_to_datetime(date_str: str) -> datetime:
-    return datetime.strptime(date_str, "%d-%m-%Y")
-
-
-def _assign_effective_dates(
-    programs: List[Dict[str, Any]],
-    source_date: str
-) -> List[Dict[str, Any]]:
-    """
-    Réaffecte la date effective des programmes passés après minuit.
-
-    Règle stricte :
-    - un programme de soirée (>= 18h) reste TOUJOURS sur la date de base du fichier,
-      même s'il apparaît après un programme après minuit dans la liste
-    - seulement les programmes suivants avec heure < 05:00 sont basculés au jour suivant
-    - exemple : 20:30, 22:00, 23:59 restent la veille
-    - exemple : 00:10, 03:05, 04:50 passent au lendemain s'ils sont après la soirée
-    """
-    base_dt = _date_to_datetime(source_date)
-    base_date = base_dt.date()
-    next_date = base_date + timedelta(days=1)
-
-    channel_state: Dict[str, Dict[str, Any]] = {}
-    enriched: List[Dict[str, Any]] = []
-
-    for raw_program in programs:
-        if not isinstance(raw_program, dict):
-            continue
-
-        program = dict(raw_program)
-
-        time = normalize_time(program.get("time"))
-        channel = canonical_channel(program.get("channel"))
-
-        program["time"] = time
-        program["channel"] = channel
-        program["original_date"] = source_date
-
-        state = channel_state.setdefault(
-            channel,
-            {
-                "next_date_active": False,
-                "seen_evening": False,
-            }
-        )
-
-        if not time:
-            program["effective_date"] = source_date
-            enriched.append(program)
-            continue
-
-        hour = int(time.split(":")[0])
-
-        # Programme de soirée (>= 18h) :
-        # reste TOUJOURS sur la date de base du fichier.
-        # Correction clé : on n'utilise plus current_date ici.
-        if hour >= OVERNIGHT_EVENING_HOUR:
-            state["seen_evening"] = True
-            effective_date = base_date
-
-        # Programme après minuit (< 05h) après une soirée :
-        # bascule au jour suivant.
-        elif state["seen_evening"] and hour < OVERNIGHT_MORNING_HOUR:
-            state["next_date_active"] = True
-            effective_date = next_date
-
-        # Programme entre 05h et 17h59 après une nuit :
-        # reste sur le jour suivant si la nuit a déjà commencé.
-        elif state["next_date_active"] and hour < OVERNIGHT_EVENING_HOUR:
-            effective_date = next_date
-
-        # Tous les autres cas : date de base du fichier.
-        else:
-            effective_date = base_date
-
-        program["effective_date"] = effective_date.strftime("%d-%m-%Y")
-        enriched.append(program)
-
-    return enriched
-
-
-# =====================================================
 # Segments / extraits
 # =====================================================
 
 def dedupe_adjacent_lines(lines: List[str]) -> List[str]:
-    """
-    Supprime les lignes identiques adjacentes.
-    """
     cleaned = []
 
     for line in lines:
@@ -525,9 +435,6 @@ def dedupe_adjacent_lines(lines: List[str]) -> List[str]:
 
 
 def merge_unique_lines(existing: List[str], new_lines: List[str]) -> List[str]:
-    """
-    Fusionne deux listes de lignes sans doublons, en conservant l'ordre.
-    """
     seen: Set[str] = {normalize_text(line) for line in existing}
     merged = list(existing)
 
@@ -545,9 +452,6 @@ def merge_unique_lines(existing: List[str], new_lines: List[str]) -> List[str]:
 
 
 def is_youth_title(title: str) -> bool:
-    """
-    Détecte si un titre correspond à une émission jeunesse connue.
-    """
     norm = normalize_text(title)
 
     if not norm:
@@ -557,10 +461,6 @@ def is_youth_title(title: str) -> bool:
 
 
 def is_youth_program(program: Dict[str, Any]) -> bool:
-    """
-    Détecte une émission jeunesse soit par son titre,
-    soit par la présence d'une ligne du type "Programme jeunesse".
-    """
     if is_youth_title(program.get("title", "")):
         return True
 
@@ -580,9 +480,6 @@ def is_youth_program(program: Dict[str, Any]) -> bool:
 
 
 def is_meta_line(line: str) -> bool:
-    """
-    Détecte les lignes descriptives/méta qui ne sont pas des extraits.
-    """
     norm = normalize_text(line)
 
     if not norm:
@@ -592,9 +489,6 @@ def is_meta_line(line: str) -> bool:
 
 
 def looks_like_item_line(line: str) -> bool:
-    """
-    Détecte si une ligne ressemble à un élément interne d'une émission.
-    """
     text = str(line or "").strip()
 
     if len(text) < 3 or len(text) > 160:
@@ -616,14 +510,6 @@ def looks_like_item_line(line: str) -> bool:
 
 
 def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """
-    Construit la liste des extraits / segments d'un programme.
-
-    Règle :
-    - pour une émission jeunesse reconnue, on extrait toutes les lignes utiles
-    - pour un programme non jeunesse, on extrait seulement les lignes de type
-      "Série - Épisode" ou "Personnage - Élément"
-    """
     lines = program.get("description_lines") or []
     lines = dedupe_adjacent_lines(
         [str(line).strip() for line in lines if str(line).strip()]
@@ -654,8 +540,6 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
     for idx, line in item_lines:
         has_hyphen = bool(re.search(r"\s[-–—]\s", line))
 
-        # Pour les émissions jeunesse reconnues, on accepte toutes les lignes utiles.
-        # Sinon, on reste prudent : seulement les lignes avec séparateur.
         if not youth and not has_hyphen:
             continue
 
@@ -681,15 +565,6 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
 # =====================================================
 
 def program_key(time: str, channel: str, title: str) -> str:
-    """
-    Clé de déduplication.
-
-    Règle principale :
-    - même heure + même chaîne = même programme
-
-    Si l'heure manque, on tombe en secours sur :
-    - titre normalisé + chaîne
-    """
     if time:
         return f"{time}|{channel}"
 
@@ -697,11 +572,6 @@ def program_key(time: str, channel: str, title: str) -> str:
 
 
 def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) -> None:
-    """
-    Fusionne un programme dans le dictionnaire target.
-    Si un programme existe déjà sur le même créneau/chaîne,
-    on garde les informations les plus complètes.
-    """
     time = normalize_time(program.get("time", ""))
     channel = canonical_channel(program.get("channel", ""))
     title = clean_title(program.get("title", ""))
@@ -737,43 +607,37 @@ def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) ->
 
     existing = target[key]
 
-    # Garder le titre le plus complet
     if len(title) > len(existing.get("title", "")):
         existing["title"] = title
 
-    # Garder la description la plus complète
     if len(description) > len(existing.get("description", "")):
         existing["description"] = description
 
-    # Fusionner les lignes de description sans doublons
     existing["description_lines"] = merge_unique_lines(
         existing.get("description_lines", []),
         description_lines
     )
 
-    # Si l'heure manquait mais qu'une nouvelle arrivée a une heure, on la prend
     if not existing.get("time") and time:
         existing["time"] = time
 
 
 def sort_programs(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     """
-    Trie les programmes par chaîne puis par heure.
+    Trie les programmes par chaîne puis par heure logique.
+    Les heures 00:00-04:59 apparaissent après 23:59.
     """
     return sorted(
         programs,
         key=lambda p: (
             channel_rank(p.get("channel", "")),
-            p.get("time") or "99:99",
+            time_sort_key(p.get("time", "")),
             normalize_text(p.get("title", "")),
         ),
     )
 
 
 def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
-    """
-    Regroupe les programmes par chaîne, dans l'ordre magazine TV.
-    """
     grouped: Dict[str, List[Dict[str, Any]]] = {}
 
     for program in programs:
@@ -785,7 +649,10 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
     for channel in sorted(grouped.keys(), key=channel_rank):
         ordered[channel] = sorted(
             grouped[channel],
-            key=lambda p: (p.get("time") or "99:99", normalize_text(p.get("title", ""))),
+            key=lambda p: (
+                time_sort_key(p.get("time", "")),
+                normalize_text(p.get("title", "")),
+            ),
         )
 
     return ordered
@@ -797,12 +664,11 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT CORRIGÉE V2")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION SIMPLE")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
 
-    # Nettoyage optionnel des anciens fichiers date à la racine de data/
     data_root = Path("data")
     if data_root.exists():
         for stray in data_root.glob("??-??-????.json"):
@@ -815,7 +681,6 @@ def generate_index() -> None:
     total_source_files = 0
     total_loaded_programs = 0
     total_missing_description_lines = 0
-    total_overnight_shifted = 0
 
     for source in SOURCES:
         source_dir = Path(f"data/{source}")
@@ -847,40 +712,28 @@ def generate_index() -> None:
             if not isinstance(programs, list):
                 continue
 
-            # Important : on traite d'abord dans l'ordre d'origine de la page
-            # pour détecter les programmes passés après minuit.
-            enriched_programs = _assign_effective_dates(programs, source_date)
+            if source_date not in all_dates:
+                all_dates[source_date] = {
+                    "date": source_date,
+                    "sources": set(),
+                    "programs": {},
+                }
 
-            for program in enriched_programs:
+            all_dates[source_date]["sources"].add(source)
+
+            for program in programs:
                 if not isinstance(program, dict):
                     continue
 
                 if "description_lines" not in program:
                     total_missing_description_lines += 1
 
-                effective_date = program.get("effective_date") or source_date
-
-                if effective_date != source_date:
-                    total_overnight_shifted += 1
-
-                if effective_date not in all_dates:
-                    all_dates[effective_date] = {
-                        "date": effective_date,
-                        "sources": set(),
-                        "programs": {},
-                        "origin_dates": set(),
-                    }
-
-                all_dates[effective_date]["sources"].add(source)
-                all_dates[effective_date]["origin_dates"].add(source_date)
-
-                merge_program(all_dates[effective_date]["programs"], program)
+                merge_program(all_dates[source_date]["programs"], program)
                 total_loaded_programs += 1
 
     print("")
     print(f"✅ Fichiers sources lus : {total_source_files}")
     print(f"✅ Programmes bruts chargés : {total_loaded_programs}")
-    print(f"✅ Programmes réaffectés au jour suivant : {total_overnight_shifted}")
     print(f"✅ Dates uniques retenues : {len(all_dates)}")
 
     if total_missing_description_lines:
@@ -889,7 +742,6 @@ def generate_index() -> None:
             "Pour détecter les extraits jeunesse, relance le scraping concerné."
         )
 
-    # Regrouper par année
     years: Dict[str, Dict[str, Any]] = {}
     total_segments = 0
 
@@ -898,7 +750,6 @@ def generate_index() -> None:
 
         programs_list = list(entry["programs"].values())
 
-        # Enrichissement avec segments
         for program in programs_list:
             program["description_lines"] = dedupe_adjacent_lines(
                 program.get("description_lines", [])
@@ -910,15 +761,11 @@ def generate_index() -> None:
         channels = group_by_channel(programs_list)
 
         source_label = "+".join(sorted(entry["sources"]))
-        origin_dates = sorted(entry.get("origin_dates", []))
-        night_extension = any(origin_date != date_str for origin_date in origin_dates)
 
         date_payload = {
             "date": date_str,
             "source": source_label,
             "programs_count": len(programs_list),
-            "night_extension": night_extension,
-            "origin_dates": origin_dates,
             "programs": programs_list,
             "channels": channels,
         }
@@ -939,7 +786,6 @@ def generate_index() -> None:
         "total_dates": len(all_dates),
         "total_programs": sum(y["total_programs"] for y in sorted_years.values()),
         "total_segments": total_segments,
-        "total_overnight_shifted": total_overnight_shifted,
         "years": {},
     }
 
@@ -961,8 +807,6 @@ def generate_index() -> None:
                 date_str: {
                     "source": date_data["source"],
                     "programs_count": date_data["programs_count"],
-                    "night_extension": date_data.get("night_extension", False),
-                    "origin_dates": date_data.get("origin_dates", []),
                 }
                 for date_str, date_data in sorted_dates.items()
             },
@@ -997,7 +841,6 @@ def generate_index() -> None:
     print(f"Dates totales : {index['total_dates']}")
     print(f"Programmes totaux : {index['total_programs']}")
     print(f"Extraits / segments détectés : {index['total_segments']}")
-    print(f"Programmes de nuit réaffectés : {index['total_overnight_shifted']}")
 
 
 if __name__ == "__main__":
