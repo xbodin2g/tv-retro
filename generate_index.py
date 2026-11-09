@@ -434,7 +434,8 @@ def _assign_effective_dates(
     Réaffecte la date effective des programmes passés après minuit.
 
     Règle stricte :
-    - un programme de soirée (>= 18h) ne change pas de jour
+    - un programme de soirée (>= 18h) reste TOUJOURS sur la date de base du fichier,
+      même s'il apparaît après un programme après minuit dans la liste
     - seulement les programmes suivants avec heure < 05:00 sont basculés au jour suivant
     - exemple : 20:30, 22:00, 23:59 restent la veille
     - exemple : 00:10, 03:05, 04:50 passent au lendemain s'ils sont après la soirée
@@ -462,34 +463,39 @@ def _assign_effective_dates(
         state = channel_state.setdefault(
             channel,
             {
-                "current_date": base_date,
+                "next_date_active": False,
                 "seen_evening": False,
             }
         )
 
         if not time:
-            program["effective_date"] = state["current_date"].strftime("%d-%m-%Y")
+            program["effective_date"] = source_date
             enriched.append(program)
             continue
 
         hour = int(time.split(":")[0])
 
-        # Programme de soirée : on active le mode "nuit", mais on ne le déplace pas.
+        # Programme de soirée (>= 18h) :
+        # reste TOUJOURS sur la date de base du fichier.
+        # Correction clé : on n'utilise plus current_date ici.
         if hour >= OVERNIGHT_EVENING_HOUR:
             state["seen_evening"] = True
-            effective_date = state["current_date"]
+            effective_date = base_date
 
-        # Après un programme de soirée, les heures avant 05:00 sont considérées
-        # comme étant passées après minuit.
+        # Programme après minuit (< 05h) après une soirée :
+        # bascule au jour suivant.
         elif state["seen_evening"] and hour < OVERNIGHT_MORNING_HOUR:
-            if state["current_date"] == base_date:
-                state["current_date"] = next_date
+            state["next_date_active"] = True
+            effective_date = next_date
 
-            effective_date = state["current_date"]
+        # Programme entre 05h et 17h59 après une nuit :
+        # reste sur le jour suivant si la nuit a déjà commencé.
+        elif state["next_date_active"] and hour < OVERNIGHT_EVENING_HOUR:
+            effective_date = next_date
 
-        # Autres cas : on reste sur la date courante du canal.
+        # Tous les autres cas : date de base du fichier.
         else:
-            effective_date = state["current_date"]
+            effective_date = base_date
 
         program["effective_date"] = effective_date.strftime("%d-%m-%Y")
         enriched.append(program)
@@ -791,7 +797,7 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT 05H")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT CORRIGÉE V2")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
