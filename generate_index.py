@@ -6,6 +6,7 @@ Fonctions :
 - fusionne depot101 et archives80
 - supprime les doublons sur date effective + chaîne + heure
 - corrige les programmes de nuit passés après minuit
+- crée des journées synthétiques si nécessaire
 - conserve les description_lines
 - détecte les extraits / segments des émissions jeunesse
 - regroupe par chaîne
@@ -460,17 +461,21 @@ def _assign_effective_dates(
 
         last_dt = last_dt_by_channel.get(channel)
 
-        if last_dt is not None and candidate_dt + timedelta(hours=2) < last_dt:
-            # On ne bascule au jour suivant que si cela ressemble vraiment
-            # à une programmation de nuit / après minuit.
-            should_shift = (
-                hour < 6
-                or last_dt.date() > base_dt.date()
-                or (last_dt.hour >= 20 and hour < 12)
-            )
+        if last_dt is not None and candidate_dt + timedelta(hours=4) < last_dt:
+            should_shift = False
+
+            # Si on est déjà dans une nuit commencée la veille,
+            # on continue à basculer les heures matinales.
+            if last_dt.date() > base_dt.date():
+                if hour < 12:
+                    should_shift = True
+
+            # Cas classique : 20:30 puis 03:05 sur la même page.
+            elif last_dt.hour >= 18 and hour < 8:
+                should_shift = True
 
             if should_shift:
-                while candidate_dt + timedelta(hours=2) < last_dt:
+                while candidate_dt + timedelta(hours=4) < last_dt:
                     candidate_dt += timedelta(days=1)
 
         effective_date = candidate_dt.strftime("%d-%m-%Y")
@@ -847,9 +852,12 @@ def generate_index() -> None:
                         "date": effective_date,
                         "sources": set(),
                         "programs": {},
+                        "origin_dates": set(),
                     }
 
                 all_dates[effective_date]["sources"].add(source)
+                all_dates[effective_date]["origin_dates"].add(source_date)
+
                 merge_program(all_dates[effective_date]["programs"], program)
                 total_loaded_programs += 1
 
@@ -886,11 +894,15 @@ def generate_index() -> None:
         channels = group_by_channel(programs_list)
 
         source_label = "+".join(sorted(entry["sources"]))
+        origin_dates = sorted(entry.get("origin_dates", []))
+        night_extension = any(origin_date != date_str for origin_date in origin_dates)
 
         date_payload = {
             "date": date_str,
             "source": source_label,
             "programs_count": len(programs_list),
+            "night_extension": night_extension,
+            "origin_dates": origin_dates,
             "programs": programs_list,
             "channels": channels,
         }
@@ -933,6 +945,8 @@ def generate_index() -> None:
                 date_str: {
                     "source": date_data["source"],
                     "programs_count": date_data["programs_count"],
+                    "night_extension": date_data.get("night_extension", False),
+                    "origin_dates": date_data.get("origin_dates", []),
                 }
                 for date_str, date_data in sorted_dates.items()
             },
