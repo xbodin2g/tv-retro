@@ -11,14 +11,14 @@ on:
 jobs:
   debug:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     name: Debug des structures HTML
     
     steps:
       - name: 📥 Checkout du dépôt
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main  # Force la branche main
       
       - name: 🐍 Installation de Python
         uses: actions/setup-python@v5
@@ -28,34 +28,42 @@ jobs:
       - name: 📦 Installation des dépendances
         run: |
           python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+          pip install requests beautifulsoup4 lxml cloudscraper
       
       - name: 📂 Création du dossier debug
         run: |
           mkdir -p debug
       
-      - name: 🐛 Lancement du debug
+      - name: 🐛 Lancement du debug complet
         run: |
           python debug_scraper.py
       
       - name: 🔍 Analyse URL personnalisée
         if: github.event.inputs.custom_url != ''
+        env:
+          CUSTOM_URL: ${{ github.event.inputs.custom_url }}
         run: |
-          echo "Analyse de l'URL personnalisée: ${{ github.event.inputs.custom_url }}"
+          echo "🔍 Analyse de l'URL personnalisée: $CUSTOM_URL"
           python -c "
-          import requests
+          import cloudscraper
           from bs4 import BeautifulSoup
           import os
+          import time
+          import random
           
-          url = '${{ github.event.inputs.custom_url }}'
+          url = '$CUSTOM_URL'
           print(f'Analyse de: {url}')
           
-          session = requests.Session()
-          session.headers.update({
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          scraper = cloudscraper.create_scraper(browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True})
+          scraper.headers.update({
+              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+              'Accept-Language': 'fr-FR,fr;q=0.9',
           })
           
-          response = session.get(url, timeout=30)
+          time.sleep(random.uniform(2.0, 4.0))
+          response = scraper.get(url, timeout=30)
+          
+          print(f'Status: {response.status_code}')
           
           os.makedirs('debug', exist_ok=True)
           
@@ -66,11 +74,30 @@ jobs:
           
           with open('debug/custom_page.txt', 'w', encoding='utf-8') as f:
               f.write(f'URL: {url}\n')
+              f.write(f'Status: {response.status_code}\n')
               f.write('='*80 + '\n\n')
               f.write(soup.get_text('\n', strip=True))
           
           print('✓ Fichiers créés: debug/custom_page.html et debug/custom_page.txt')
           "
+      
+      - name: 📄 Création d'un résumé des résultats
+        run: |
+          echo "## 🐛 Résultats du Debug" > debug/README.md
+          echo "" >> debug/README.md
+          echo "Date: $(date +'%Y-%m-%d %H:%M:%S')" >> debug/README.md
+          echo "" >> debug/README.md
+          echo "### 📂 Fichiers générés" >> debug/README.md
+          echo "" >> debug/README.md
+          echo "\`\`\`" >> debug/README.md
+          find debug -type f -name "*.html" -o -name "*.txt" | sort >> debug/README.md
+          echo "\`\`\`" >> debug/README.md
+          echo "" >> debug/README.md
+          echo "### 💡 Comment utiliser ces fichiers" >> debug/README.md
+          echo "" >> debug/README.md
+          echo "1. Les fichiers **.html** contiennent le code source complet" >> debug/README.md
+          echo "2. Les fichiers **.txt** contiennent le texte extrait pour une lecture facile" >> debug/README.md
+          echo "3. Ouvrez-les directement dans GitHub pour voir le contenu" >> debug/README.md
       
       - name: 💾 Commit des fichiers de debug
         run: |
@@ -82,14 +109,31 @@ jobs:
             echo "Aucun changement"
           else
             git commit -m "🐛 Debug files - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git push origin main
           fi
       
-      - name: 📋 Résumé
+      - name: 📋 Résumé pour consultation rapide
         if: always()
         run: |
-          echo "=== FICHIERS DE DEBUG CRÉÉS ==="
+          echo "==================================================="
+          echo "🎉 DEBUG TERMINÉ"
+          echo "==================================================="
+          echo ""
+          echo "📂 Fichiers créés:"
           find debug -type f 2>/dev/null | sort
           echo ""
-          echo "Pour voir les fichiers:"
-          echo "https://github.com/${{ github.repository }}/tree/main/debug"
+          echo "🔗 Pour voir les fichiers:"
+          echo "   https://github.com/${{ github.repository }}/tree/main/debug"
+          echo ""
+          echo "📖 Pour voir un fichier spécifique:"
+          echo "   Cliquez sur le fichier dans le lien ci-dessus"
+          echo "   GitHub affichera son contenu directement"
+          echo ""
+          echo "⚠️  Si vous voyez des 403, c'est que le site bloque."
+          echo "   Cloudscraper a essayé de contourner, mais certains sites"
+          echo "   ont des protections très avancées."
+      
+      - name: 📱 Notification
+        if: always()
+        run: |
+          echo "✅ Workflow terminé avec le statut: ${{ job.status }}"
