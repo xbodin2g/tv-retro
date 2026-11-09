@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Scraper Archives80 - version avec navigation simulée.
+Scraper Archives80 - version corrigée.
 
-Logique :
-- visite la page d'accueil
-- puis la page de l'année
-- puis la page du jour
-- conserve les description_lines pour détecter les extraits
-- plan B si la page annuelle est bloquée : découverte via pages journalières
+Corrections principales :
+- la navigation simulée accueil -> année -> jour est conservée
+- les pages journalières sont désormais converties en texte via BeautifulSoup
+- le parseur ne reçoit plus du HTML brut
+- conservation des description_lines pour les extraits jeunesse
+- plan B si la page annuelle est bloquée
 """
 
 import cloudscraper
@@ -127,6 +127,8 @@ class Archives80Scraper:
         self.scraper = self._create_scraper()
         self._home_visited = False
         self._warmed_years.clear()
+        self._annual_text_cache.clear()
+        self._daily_text_cache.clear()
 
     def _headers_for(self, referer: Optional[str] = None) -> Dict[str, str]:
         headers = self.BASE_HEADERS.copy()
@@ -204,6 +206,23 @@ class Archives80Scraper:
         return None
 
     # =====================================================
+    # HTML -> texte
+    # =====================================================
+
+    def _html_to_text(self, html: str) -> str:
+        """
+        Convertit le HTML en texte lisible, ligne par ligne.
+        C'est cette étape qui manquait dans la version cassée.
+        """
+        soup = BeautifulSoup(html, "html.parser")
+
+        # On retire explicitement scripts/styles pour éviter le bruit
+        for tag in soup(["script", "style", "noscript"]):
+            tag.decompose()
+
+        return soup.get_text("\n", strip=True)
+
+    # =====================================================
     # Navigation simulée
     # =====================================================
 
@@ -266,7 +285,8 @@ class Archives80Scraper:
             if response is None:
                 continue
 
-            text = response.text
+            # IMPORTANT : conversion HTML -> texte
+            text = self._html_to_text(response.text)
             dates = self._extract_dates_from_text(text, year=year)
 
             if dates:
@@ -311,6 +331,8 @@ class Archives80Scraper:
         """
         Récupère le texte d'une page journalière en simulant si possible :
         accueil -> année -> jour.
+
+        IMPORTANT : retourne du texte extrait, pas du HTML brut.
         """
         if date_str in self._daily_text_cache:
             return self._daily_text_cache[date_str]
@@ -332,7 +354,8 @@ class Archives80Scraper:
             if response is None:
                 continue
 
-            text = response.text
+            # IMPORTANT : conversion HTML -> texte
+            text = self._html_to_text(response.text)
             self._daily_text_cache[date_str] = text
             return text
 
@@ -663,9 +686,9 @@ class Archives80Scraper:
         self._debugged_zero = True
 
         lines = [line.strip() for line in text.split("\n") if line.strip()]
-        preview = lines[:40]
+        preview = lines[:50]
 
-        print("  🔎 Aperçu du texte pour diagnostic :")
+        print("  🔎 Aperçu du texte extrait pour diagnostic :")
         print("  " + "-" * 60)
         for line in preview:
             print(f"    {line}")
