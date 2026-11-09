@@ -1,0 +1,962 @@
+{
+  "date": "12-04-1987",
+  "source": "depot101",
+  "scraped_at": "2026-11-09T18:57:29.846803",
+  "programs": [
+    {
+      "time": "08:00",
+      "title": "BONJOUR LA FRANCE",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "09:00",
+      "title": "ZAPPE ZAPPEUR !",
+      "channel": "TF1",
+      "description": "Dites-moi docteur Eka Dodu dodo La vache noiraude Antivol Les Buzucks LA MAISON DE TOUTOU James Hound Satanas et Diabolo Caliméro",
+      "description_lines": [
+        "Dites-moi docteur Eka",
+        "Dodu dodo",
+        "La vache noiraude",
+        "Antivol",
+        "Les Buzucks",
+        "LA MAISON DE TOUTOU",
+        "James Hound",
+        "Satanas et Diabolo",
+        "Caliméro"
+      ]
+    },
+    {
+      "time": "10:00",
+      "title": "TARZAN - CARGAISON DANGEREUSE",
+      "channel": "TF1",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "11:00",
+      "title": "TRENTE MILLIONS D'AMIS",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "11:30",
+      "title": "AUTOMOTO",
+      "channel": "TF1",
+      "description": "Emission consacrée à l'automobile et à la moto",
+      "description_lines": [
+        "Emission consacrée à l'automobile et à la moto"
+      ]
+    },
+    {
+      "time": "12:00",
+      "title": "TÉLÉFOOT",
+      "channel": "TF1",
+      "description": "Emission sportive",
+      "description_lines": [
+        "Emission sportive"
+      ]
+    },
+    {
+      "time": "13:00",
+      "title": "JOURNAL",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:20",
+      "title": "STARSKY & HUTCH - LE PARIA",
+      "channel": "TF1",
+      "description": "Série policière américaine",
+      "description_lines": [
+        "Série policière américaine"
+      ]
+    },
+    {
+      "time": "14:20",
+      "title": "A LA FOLIE PAS DU TOUT",
+      "channel": "TF1",
+      "description": "Huckleberry Finn Tiercé à Longchamp",
+      "description_lines": [
+        "Huckleberry Finn",
+        "Tiercé à Longchamp"
+      ]
+    },
+    {
+      "time": "17:45",
+      "title": "GRAND PRIX DE FORMULE 1 DU BRÉSIL",
+      "channel": "TF1",
+      "description": "Automobile",
+      "description_lines": [
+        "Automobile"
+      ]
+    },
+    {
+      "time": "19:55",
+      "title": "TIRAGE DU LOTO SPORTIF",
+      "channel": "TF1",
+      "description": "Présentée par Gérard Holtz",
+      "description_lines": [
+        "Présentée par Gérard Holtz"
+      ]
+    },
+    {
+      "time": "20:00",
+      "title": "JOURNAL",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "20:35",
+      "title": "LE CINÉMA DU DIMANCHE SOIR - LE GENDARME SE MARIE",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "22:00",
+      "title": "SPORT DIMANCHE SOIR",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "00:00",
+      "title": "JOURNAL",
+      "channel": "TF1",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "00:20",
+      "title": "C'EST À LIRE",
+      "channel": "TF1",
+      "description": "Emission de Luce Perrot",
+      "description_lines": [
+        "Emission de Luce Perrot"
+      ]
+    },
+    {
+      "time": "08:30",
+      "title": "FLASH INFO",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "08:35",
+      "title": "LES CHEVAUX DU TIERCÉ",
+      "channel": "Antenne 2",
+      "description": "Emission de Pierrette Brès",
+      "description_lines": [
+        "Emission de Pierrette Brès"
+      ]
+    },
+    {
+      "time": "08:55",
+      "title": "LE SEMAINIER",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "09:00",
+      "title": "EMISSIONS RELIGIEUSES",
+      "channel": "Antenne 2",
+      "description": "Emissions Israëlites Présence protestante Le jour du Seigneur",
+      "description_lines": [
+        "Emissions Israëlites",
+        "Présence protestante",
+        "Le jour du Seigneur"
+      ]
+    },
+    {
+      "time": "12:05",
+      "title": "DIMANCHE MARTIN",
+      "channel": "Antenne 2",
+      "description": "Après-midi présenté par Jacques Martin Entrez les artistes A2 Midi Jacques Martin Cyclisme - Paris-Roubaix Tout le monde le sait",
+      "description_lines": [
+        "Après-midi présenté par Jacques Martin",
+        "Entrez les artistes",
+        "A2 Midi",
+        "Jacques Martin",
+        "Cyclisme - Paris-Roubaix",
+        "Tout le monde le sait"
+      ]
+    },
+    {
+      "time": "15:35",
+      "title": "CYCLISME - PARIS-ROUBAIX : L'ARRIVÉE",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "17:00",
+      "title": "EN ROUTE VERS L'ENFER - 2ÈME ÉPISODE",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "18:00",
+      "title": "MONSIEUR FESTIVAL",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "18:20",
+      "title": "STADE 2",
+      "channel": "Antenne 2",
+      "description": "Cyclisme - Paris-Roubaix Football - Bordeaux / Marseille Rugby - 1/8ème de finale du championnat Boxe - Caramanolis / Angulmo Grand Prix du Brésil Sports équestres - Finale de la Coupe du monde à Bercy Voile - Départ de la dernière étape de la Course autour du monde Golf - Masters à Augusta (Etats-Unis)",
+      "description_lines": [
+        "Cyclisme - Paris-Roubaix",
+        "Football - Bordeaux / Marseille",
+        "Rugby - 1/8ème de finale du championnat",
+        "Boxe - Caramanolis / Angulmo",
+        "Grand Prix du Brésil",
+        "Sports équestres - Finale de la Coupe du monde à Bercy",
+        "Voile - Départ de la dernière étape de la Course autour du monde",
+        "Golf - Masters à Augusta (Etats-Unis)"
+      ]
+    },
+    {
+      "time": "19:30",
+      "title": "MAGUY - L'HUMOUR EN HÉRITAGE",
+      "channel": "Antenne 2",
+      "description": "Série télé française",
+      "description_lines": [
+        "Série télé française"
+      ]
+    },
+    {
+      "time": "20:00",
+      "title": "JOURNAL",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "20:30",
+      "title": "LES ENQUÊTES CAMÉLÉON - TROU DE MÉMOIRE",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "21:55",
+      "title": "MUSIQUES AU COEUR - BOULEZ : LES SURDOUÉS DE L'AN 2000 : 10 ANS D'IRCAM",
+      "channel": "Antenne 2",
+      "description": "Emission d'Eve Ruggieri",
+      "description_lines": [
+        "Emission d'Eve Ruggieri"
+      ]
+    },
+    {
+      "time": "23:00",
+      "title": "EDITION DE LA NUIT",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "23:15",
+      "title": "FESTIVAL INTERNATIONAL DE JAZZ 1986",
+      "channel": "Antenne 2",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "08:45",
+      "title": "ESPACE 3 - BAHLSEN",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "09:00",
+      "title": "DEBOUT LES ENFANTS !",
+      "channel": "FR3",
+      "description": "Zorro - Les fuyards",
+      "description_lines": [
+        "Zorro - Les fuyards"
+      ]
+    },
+    {
+      "time": "09:25",
+      "title": "AMUSE 3",
+      "channel": "FR3",
+      "description": "CROQU'SOLEIL Ulysse 31 - Les sirènes En route pour Zanzibar - Le pays des petits lutins",
+      "description_lines": [
+        "CROQU'SOLEIL",
+        "Ulysse 31 - Les sirènes",
+        "En route pour Zanzibar - Le pays des petits lutins"
+      ]
+    },
+    {
+      "time": "10:00",
+      "title": "MOSAÏQUE",
+      "channel": "FR3",
+      "description": "Emission de l'agence de développement des relations interculturelles",
+      "description_lines": [
+        "Emission de l'agence de développement des relations interculturelles"
+      ]
+    },
+    {
+      "time": "11:30",
+      "title": "ALLEGORIA - RAPHAËL",
+      "channel": "FR3",
+      "description": "Emission d'Hubert de Maximy et Toy West",
+      "description_lines": [
+        "Emission d'Hubert de Maximy et Toy West"
+      ]
+    },
+    {
+      "time": "11:33",
+      "title": "FLIPPER LE DAUPHIN",
+      "channel": "FR3",
+      "description": "ou Dialectales",
+      "description_lines": [
+        "ou Dialectales"
+      ]
+    },
+    {
+      "time": "12:00",
+      "title": "CHEVAL MON AMI - LE CHEVAL ET L'HOMME",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "12:30",
+      "title": "ESPACE 3",
+      "channel": "FR3",
+      "description": "Voyage autour de la table Esta Montauban",
+      "description_lines": [
+        "Voyage autour de la table",
+        "Esta Montauban"
+      ]
+    },
+    {
+      "time": "13:00",
+      "title": "FLASH INFO",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:05",
+      "title": "D'UN SOLEIL À L'AUTRE",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:30",
+      "title": "FORUM RMC-FR3 - VALÉRY GISCARD D'ESTAING",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "14:30",
+      "title": "EXPRESSION DIRECTE",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "14:50",
+      "title": "SPORTS LOISIRS",
+      "channel": "FR3",
+      "description": "Superbike à Saint-Malo Jumping international de Paris - Finale de la Coupe du Monde Volvo à Bercy",
+      "description_lines": [
+        "Superbike à Saint-Malo",
+        "Jumping international de Paris - Finale de la Coupe du Monde Volvo à Bercy"
+      ]
+    },
+    {
+      "time": "17:00",
+      "title": "AMUSE 3",
+      "channel": "FR3",
+      "description": "Démétran - Le dieu de l'étang Lucky Luke - L'escorte Petzi Splendeur sauvage - L'eau et les animaux",
+      "description_lines": [
+        "Démétran - Le dieu de l'étang",
+        "Lucky Luke - L'escorte",
+        "Petzi",
+        "Splendeur sauvage - L'eau et les animaux"
+      ]
+    },
+    {
+      "time": "18:25",
+      "title": "RFO HEBDO",
+      "channel": "FR3",
+      "description": "Journal de l'Outre-Mer",
+      "description_lines": [
+        "Journal de l'Outre-Mer"
+      ]
+    },
+    {
+      "time": "18:55",
+      "title": "AMUSE 3",
+      "channel": "FR3",
+      "description": "Signé Cat's Eyes Muppet babies",
+      "description_lines": [
+        "Signé Cat's Eyes",
+        "Muppet babies"
+      ]
+    },
+    {
+      "time": "19:45",
+      "title": "CHERCHEZ LA FRANCE",
+      "channel": "FR3",
+      "description": "Jeu animé par Pierre Bonte et Vincent Perrot",
+      "description_lines": [
+        "Jeu animé par Pierre Bonte et Vincent Perrot"
+      ]
+    },
+    {
+      "time": "20:04",
+      "title": "BENNY HILL",
+      "channel": "FR3",
+      "description": "Série humoristique britannique",
+      "description_lines": [
+        "Série humoristique britannique"
+      ]
+    },
+    {
+      "time": "20:35",
+      "title": "MANIMAL - ILLUSION",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "21:25",
+      "title": "L'HOMME ET LA MUSIQUE - L'ÉCLOSION DE L'HARMONIE (2ÈME PARTIE)",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "22:25",
+      "title": "SOIR 3",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "22:45",
+      "title": "CINÉMA DE MINUIT - L'HIRONDELLE ET LA MÉSANGE",
+      "channel": "FR3",
+      "description": "Emission de Patrick Brion",
+      "description_lines": [
+        "Emission de Patrick Brion"
+      ]
+    },
+    {
+      "time": "00:05",
+      "title": "PRÉLUDE À LA NUIT",
+      "channel": "FR3",
+      "description": "Emission musicale de Charles Imbert C+",
+      "description_lines": [
+        "Emission musicale de Charles Imbert",
+        "C+"
+      ]
+    },
+    {
+      "time": "07:00",
+      "title": "CA CARTOON !",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "07:45",
+      "title": "CABOU CADIN",
+      "channel": "FR3",
+      "description": "Programme jeunesse Moi Renart Denis la Malice",
+      "description_lines": [
+        "Programme jeunesse",
+        "Moi Renart",
+        "Denis la Malice"
+      ]
+    },
+    {
+      "time": "08:35",
+      "title": "ORIANE",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "09:55",
+      "title": "L'EMPIRE CONTRE-ATTAQUE",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "12:00",
+      "title": "DESSINS ANIMÉS",
+      "channel": "FR3",
+      "description": "Bugs Bunny Bip-Bip et Coyote Rambo",
+      "description_lines": [
+        "Bugs Bunny",
+        "Bip-Bip et Coyote",
+        "Rambo"
+      ]
+    },
+    {
+      "time": "12:30",
+      "title": "PROCHAINEMENT SUR CANAL+",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:00",
+      "title": "FLASH INFO",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:05",
+      "title": "RAWHIDE",
+      "channel": "FR3",
+      "description": "Série western avec Clint Eastwood",
+      "description_lines": [
+        "Série western avec Clint Eastwood"
+      ]
+    },
+    {
+      "time": "14:00",
+      "title": "LA MAÎTRESSE DES ÎLES",
+      "channel": "FR3",
+      "description": "Téléfilm",
+      "description_lines": [
+        "Téléfilm"
+      ]
+    },
+    {
+      "time": "15:30",
+      "title": "SUR LES PAS DU DIEU PLUIE - LA MONTAGNE DES MAYAS",
+      "channel": "FR3",
+      "description": "Série documentaire",
+      "description_lines": [
+        "Série documentaire"
+      ]
+    },
+    {
+      "time": "16:35",
+      "title": "BASKET AMÉRICAIN - SIXERS PHILADELPHIE / NUGGETS DENVER",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "18:05",
+      "title": "LES 12 TRAVAUX D'ASTÉRIX",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "19:30",
+      "title": "FLASH INFO",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "19:35",
+      "title": "CA CARTOON !",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "20:30",
+      "title": "LA CORDE",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "21:45",
+      "title": "FLASH INFO",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "21:55",
+      "title": "ILS APPELLENT ÇA UN ACCIDENT",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "23:25",
+      "title": "GOLF - DERNIÈRE JOURNÉE DES MASTERS, EN DIFFERÉ D'AUGUSTA",
+      "channel": "FR3",
+      "description": "LA 5",
+      "description_lines": [
+        "LA 5"
+      ]
+    },
+    {
+      "time": "07:00",
+      "title": "KING ARTHUR",
+      "channel": "FR3",
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
+    },
+    {
+      "time": "07:30",
+      "title": "PRINCESSE SARAH",
+      "channel": "FR3",
+      "description": "Dessin animé japonais",
+      "description_lines": [
+        "Dessin animé japonais"
+      ]
+    },
+    {
+      "time": "07:55",
+      "title": "ARNOLD ET WILLY",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "08:25",
+      "title": "KING ARTHUR",
+      "channel": "FR3",
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
+    },
+    {
+      "time": "08:50",
+      "title": "PRINCESSE SARAH",
+      "channel": "FR3",
+      "description": "Dessin animé japonais",
+      "description_lines": [
+        "Dessin animé japonais"
+      ]
+    },
+    {
+      "time": "09:20",
+      "title": "ARNOLD ET WILLY",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "09:45",
+      "title": "KING ARTHUR",
+      "channel": "FR3",
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
+    },
+    {
+      "time": "10:15",
+      "title": "PRINCESSE SARAH",
+      "channel": "FR3",
+      "description": "Dessin animé japonais",
+      "description_lines": [
+        "Dessin animé japonais"
+      ]
+    },
+    {
+      "time": "10:45",
+      "title": "JAIMIE",
+      "channel": "FR3",
+      "description": "Série américaine avec Lindsay Wagner, Richard Anderson",
+      "description_lines": [
+        "Série américaine avec Lindsay Wagner, Richard Anderson"
+      ]
+    },
+    {
+      "time": "11:40",
+      "title": "STAR TREK",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "12:35",
+      "title": "SHÉRIF, FAIS-MOI PEUR !",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:25",
+      "title": "HILL STREET BLUES - LE GENRE HUMAIN",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "14:20",
+      "title": "UN CADAVRE DANS LA BIBLIOTHÈQUE - 1ÈRE PARTIE",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "15:50",
+      "title": "SHÉRIF, FAIS-MOI PEUR ! - LES CASCADEURS DE LA MORT (2ÈME PARTIE)",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "16:45",
+      "title": "KING ARTHUR",
+      "channel": "FR3",
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
+    },
+    {
+      "time": "17:15",
+      "title": "PRINCESSE SARAH",
+      "channel": "FR3",
+      "description": "Dessin animé japonais",
+      "description_lines": [
+        "Dessin animé japonais"
+      ]
+    },
+    {
+      "time": "17:45",
+      "title": "ARNOLD ET WILLY",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "18:10",
+      "title": "JAIMIE - CHASSEURS DE FANTÔMES",
+      "channel": "FR3",
+      "description": "Série américaine avec Lindsay Wagner, Richard Anderson",
+      "description_lines": [
+        "Série américaine avec Lindsay Wagner, Richard Anderson"
+      ]
+    },
+    {
+      "time": "19:05",
+      "title": "HAPPY DAYS",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "19:35",
+      "title": "K2000 - LES PROFESSIONNELS",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "20:30",
+      "title": "LE CIEL PEUT ATTENDRE",
+      "channel": "FR3",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "22:10",
+      "title": "HILL STREET BLUES - L'ARBRE EMPOISONNÉ",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "23:05",
+      "title": "MISSION IMPOSSIBLE - SILENCE ON TOURNE",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "00:00",
+      "title": "DERRICK - LE MYSTÈRE",
+      "channel": "FR3",
+      "description": "Série allemande",
+      "description_lines": [
+        "Série allemande"
+      ]
+    },
+    {
+      "time": "01:05",
+      "title": "KOJAK - AMOUR FOU",
+      "channel": "FR3",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "02:00",
+      "title": "STAR TREK - UN TOUR À BABEL",
+      "channel": "FR3",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "11:15",
+      "title": "MIDI 6",
+      "channel": "M6",
+      "description": "Variétés en direct",
+      "description_lines": [
+        "Variétés en direct"
+      ]
+    },
+    {
+      "time": "11:45",
+      "title": "ATOUKADO",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "12:45",
+      "title": "M6 LE JOURNAL",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "13:00",
+      "title": "LES ROUTES DU PARADIS - UNE GRANDE SOIF",
+      "channel": "M6",
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
+    },
+    {
+      "time": "14:00",
+      "title": "HOU LA LA",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "15:00",
+      "title": "L'ILE FANTASTIQUE - L'INVENTEUR ET LE REVERS DE LA MÉDAILLE",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "16:00",
+      "title": "REVENEZ QUAND VOUS VOULEZ",
+      "channel": "M6",
+      "description": "Emission de Philippe Meyer",
+      "description_lines": [
+        "Emission de Philippe Meyer"
+      ]
+    },
+    {
+      "time": "18:00",
+      "title": "IMAGES ET DESSERT",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "19:00",
+      "title": "LA PETITE MAISON DANS LA PRAIRIE - LA RÉINCARNATION DE NELLY",
+      "channel": "M6",
+      "description": "Avec à 19h30 : M6 le journal",
+      "description_lines": [
+        "Avec à 19h30 : M6 le journal"
+      ]
+    },
+    {
+      "time": "20:20",
+      "title": "LE 20.20.20",
+      "channel": "M6",
+      "description": "Jeu",
+      "description_lines": [
+        "Jeu"
+      ]
+    },
+    {
+      "time": "20:30",
+      "title": "CAS DE CONSCIENCE",
+      "channel": "M6",
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
+    },
+    {
+      "time": "22:00",
+      "title": "M6 LE JOURNAL",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "22:15",
+      "title": "CONCERT",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "00:00",
+      "title": "FLASH INFO",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    },
+    {
+      "time": "01:00",
+      "title": "FIN DES ÉMISSIONS",
+      "channel": "M6",
+      "description": "",
+      "description_lines": []
+    }
+  ]
+}
