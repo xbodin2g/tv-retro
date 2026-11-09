@@ -1,11 +1,10 @@
 // =====================================================
 // TV RÉTRO - Version magazine + vue journée + segments
-// Corrections :
+// - tri logique : 00:00-04:59 affichées après 23:59
 // - sommaire du soir dans un tiroir fermé
 // - frise avec une seule scrollbar
 // - clic frise -> programme fiable
 // - retour à la journée depuis la playlist
-// - affichage des journées synthétiques de nuit
 // =====================================================
 
 const state = {
@@ -30,6 +29,7 @@ const state = {
 let toastTimeout = null;
 
 const LAST_DAY_STORAGE_KEY = 'retroLastDay';
+const NIGHT_CUTOFF_HOUR = 5;
 
 const CHANNEL_ORDER = [
     'TF1',
@@ -400,6 +400,26 @@ function normalizeTime(value) {
     return `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
 }
 
+function timeSortKey(timeStr) {
+    if (!timeStr || !timeStr.includes(':')) {
+        return 9999;
+    }
+
+    const parts = timeStr.split(':');
+    const hour = Number(parts[0]);
+    const minute = Number(parts[1]);
+
+    if (Number.isNaN(hour) || Number.isNaN(minute)) {
+        return 9999;
+    }
+
+    if (hour >= NIGHT_CUTOFF_HOUR) {
+        return (hour - NIGHT_CUTOFF_HOUR) * 60 + minute;
+    } else {
+        return (hour + 24 - NIGHT_CUTOFF_HOUR) * 60 + minute;
+    }
+}
+
 function canonicalChannel(value) {
     const raw = String(value || '').trim();
 
@@ -529,11 +549,11 @@ function dedupePrograms(programs) {
             return rankA - rankB;
         }
 
-        const timeA = a.time || '99:99';
-        const timeB = b.time || '99:99';
+        const sortA = timeSortKey(a.time);
+        const sortB = timeSortKey(b.time);
 
-        if (timeA !== timeB) {
-            return timeA.localeCompare(timeB);
+        if (sortA !== sortB) {
+            return sortA - sortB;
         }
 
         return normalizeText(a.title).localeCompare(normalizeText(b.title));
@@ -568,9 +588,9 @@ function groupProgramsByChannel(programs) {
         .map(([channel, channelPrograms]) => ({
             channel,
             programs: [...channelPrograms].sort((a, b) => {
-                const timeA = a.time || '99:99';
-                const timeB = b.time || '99:99';
-                return timeA.localeCompare(timeB);
+                const sortA = timeSortKey(a.time);
+                const sortB = timeSortKey(b.time);
+                return sortA - sortB;
             })
         }));
 }
@@ -826,19 +846,12 @@ function displayDates(year) {
                     (Array.isArray(dateData.programs) ? dateData.programs.length : 0)
                 );
                 const source = dateData.source || 'inconnue';
-                const nightExtension = Boolean(dateData.night_extension);
-                const originDates = Array.isArray(dateData.origin_dates) ? dateData.origin_dates : [];
-
-                const nightBadge = nightExtension
-                    ? `<span class="date-night-badge">Nuit du ${escapeHtml(formatShortDate(originDates[0] || date))}</span>`
-                    : '';
 
                 return `
-                    <button class="date-btn${nightExtension ? ' night-extension' : ''}" onclick="selectDate('${escapeHtml(date)}')">
+                    <button class="date-btn" onclick="selectDate('${escapeHtml(date)}')">
                         <span class="date-display">${escapeHtml(formatDateLabel(date))}</span>
                         <span class="date-info">${programCount} programmes</span>
                         <span class="date-source">${escapeHtml(source)}</span>
-                        ${nightBadge}
                     </button>
                 `;
             }).join('')}
@@ -986,14 +999,7 @@ function renderDay(dateData) {
     }
 
     if (daySource) {
-        const originDates = Array.isArray(dateData.origin_dates) ? dateData.origin_dates : [];
-        const nightOrigins = originDates.filter(d => d !== (dateData.date || state.selectedDate));
-
-        if (dateData.night_extension && nightOrigins.length > 0) {
-            daySource.textContent = `${dateData.source || 'source'} · nuit du ${formatShortDate(nightOrigins[0])}`;
-        } else {
-            daySource.textContent = dateData.source || 'source inconnue';
-        }
+        daySource.textContent = dateData.source || 'source inconnue';
     }
 
     if (searchInput) {
@@ -1130,7 +1136,6 @@ function setChannelBlockCollapsed(block, collapsed) {
 function jumpToProgram(anchorId) {
     let targetEl = document.getElementById(anchorId);
 
-    // Si le programme est masqué par un filtre, on réinitialise les filtres.
     if (!targetEl) {
         state.filters.query = '';
         state.filters.channel = 'all';
@@ -1155,7 +1160,6 @@ function jumpToProgram(anchorId) {
         return;
     }
 
-    // Si la chaîne est repliée, on la déplie automatiquement.
     const block = targetEl.closest('.channel-block');
 
     if (block && block.classList.contains('collapsed')) {
@@ -1545,7 +1549,7 @@ function updatePlaylistDisplay() {
             }
         }
 
-        return String(a.time || '').localeCompare(String(b.time || ''));
+        return timeSortKey(a.time) - timeSortKey(b.time);
     });
 
     container.innerHTML = sortedPlaylist.map(program => `
@@ -1647,7 +1651,7 @@ function exportPlaylist() {
             }
         }
 
-        return String(a.time || '').localeCompare(String(b.time || ''));
+        return timeSortKey(a.time) - timeSortKey(b.time);
     });
 
     const exportData = sortedPlaylist
