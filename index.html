@@ -42,53 +42,24 @@
 
     <main class="container">
         <!-- VUE PARCOURIR -->
-        <section id="browse-view" class="view active">
-            <div class="controls">
-                <div class="control-group">
-                    <label>🔍 Mode de recherche</label>
-                    <select id="search-mode">
-                        <option value="date">Par Date</option>
-                        <option value="channel">Par Chaîne</option>
-                    </select>
-                </div>
-                
-                <div class="control-group date-controls">
-                    <label>📅 Date</label>
-                    <input type="date" id="date-picker" min="1980-01-01" max="1999-12-31">
-                    <button class="retro-btn" onclick="loadPrograms()">CHARGER</button>
-                </div>
+<section id="browse-view" class="view active">
+    <div class="info-banner">
+        <p>📺 Explorez les grilles TV des années 80/90 disponibles dans nos archives</p>
+    </div>
 
-                <div class="control-group channel-controls" style="display: none;">
-                    <label>📺 Chaîne</label>
-                    <select id="channel-select">
-                        <option value="">Choisir une chaîne...</option>
-                    </select>
-                    <button class="retro-btn" onclick="loadChannelPrograms()">AFFICHER</button>
-                </div>
+    <div class="loading" id="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Chargement...</p>
+    </div>
 
-                <div class="control-group">
-                    <label>🔗 Source des grilles</label>
-                    <select id="source-select">
-                        <option value="depot101">Depot101</option>
-                        <option value="archives80">Archives80</option>
-                        <option value="local">Données locales</option>
-                    </select>
-                </div>
-            </div>
+    <div id="years-container" class="years-container">
+        <!-- Les années et dates seront injectées ici -->
+    </div>
 
-            <div class="loading" id="loading" style="display: none;">
-                <div class="spinner"></div>
-                <p>Chargement des grilles...</p>
-            </div>
-
-            <div class="programs-container" id="programs-container">
-                <div class="empty-state">
-                    <div class="retro-tv">📺</div>
-                    <h2>Bienvenue !</h2>
-                    <p>Sélectionnez une date ou une chaîne pour voir les programmes TV</p>
-                </div>
-            </div>
-        </section>
+    <div class="programs-container" id="programs-container" style="margin-top: 2rem;">
+        <!-- Les programmes seront affichés ici -->
+    </div>
+</section>
 
         <!-- VUE PLAYLIST -->
         <section id="playlist-view" class="view">
