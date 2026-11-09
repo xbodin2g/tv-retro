@@ -18,13 +18,13 @@ on:
           - scrape_all_archives80
           - scrape_all
           - generate_index_only
-      
+
       year:
         description: 'Année à scraper (si action = scrape_one_year)'
         required: false
         default: '1980'
         type: string
-      
+
       source:
         description: 'Source (si action = scrape_one_year)'
         required: false
@@ -42,90 +42,106 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     name: Scraping des grilles TV
-    
+
     steps:
       - name: 📥 Checkout du dépôt
         uses: actions/checkout@v4
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      
+
       - name: 🐍 Installation de Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+
       - name: 📦 Installation des dépendances
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml cloudscraper
-          echo "✅ Dépendances installées:"
+          echo "✅ Dépendances installées :"
           pip list | grep -E "cloudscraper|beautifulsoup4|requests"
-      
+
       - name: 📂 Création des dossiers
         run: |
           mkdir -p data/depot101
           mkdir -p data/archives80
           mkdir -p scraper
-      
+
       - name: 🎬 Scraping - Une année
         if: github.event.inputs.action == 'scrape_one_year'
         run: |
           echo "Scraping de l'année ${{ github.event.inputs.year }} depuis ${{ github.event.inputs.source }}"
           python scrape_year.py ${{ github.event.inputs.year }} ${{ github.event.inputs.source }}
-      
+
       - name: 🎬 Scraping - Tout Depot101
         if: github.event.inputs.action == 'scrape_all_depot101'
         run: |
           echo "Scraping complet de Depot101"
           python scrape_all.py depot101
-      
+
       - name: 🎬 Scraping - Tout Archives80
         if: github.event.inputs.action == 'scrape_all_archives80'
         run: |
           echo "Scraping complet de Archives80"
           python scrape_all.py archives80
-      
+
       - name: 🎬 Scraping - Les deux sources
         if: github.event.inputs.action == 'scrape_all'
         run: |
           echo "Scraping complet des deux sources"
           python scrape_all.py depot101
           python scrape_all.py archives80
-      
+
+      - name: 🧾 Vérification des fichiers scrapés
+        if: always()
+        run: |
+          echo "=== Fichiers Depot101 ==="
+          find data/depot101 -type f -name "*.json" 2>/dev/null | wc -l
+          find data/depot101 -type f -name "*.json" 2>/dev/null | head -20
+
+          echo ""
+          echo "=== Fichiers Archives80 ==="
+          find data/archives80 -type f -name "*.json" 2>/dev/null | wc -l
+          find data/archives80 -type f -name "*.json" 2>/dev/null | head -20
+
       - name: 📊 Génération de l'index
         run: |
           echo "Génération de l'index des données"
           python generate_index.py
-      
+
       - name: 💾 Commit et push des données
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+
           git add data/
-          
+
           if git diff --staged --quiet; then
-            echo "Aucun changement à committer"
+            echo "ℹ️ Aucun changement à committer"
           else
             git commit -m "🤖 Update scraped data - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin $(git branch --show-current)
+            git push origin HEAD:${{ github.ref_name }}
           fi
-      
+
       - name: 📊 Résumé
         if: always()
         run: |
           echo "=== RÉSUMÉ DU SCRAPING ==="
-          echo "Action: ${{ github.event.inputs.action }}"
+          echo "Action : ${{ github.event.inputs.action }}"
+
           if [ "${{ github.event.inputs.action }}" = "scrape_one_year" ]; then
-            echo "Année: ${{ github.event.inputs.year }}"
-            echo "Source: ${{ github.event.inputs.source }}"
+            echo "Année : ${{ github.event.inputs.year }}"
+            echo "Source : ${{ github.event.inputs.source }}"
           fi
+
           echo ""
-          echo "Fichiers dans data/:"
+          echo "Fichiers JSON dans data/ :"
           find data -type f -name "*.json" 2>/dev/null | wc -l
-      
+
       - name: 📱 Notification de fin
         if: always()
         run: |
           echo "✅ Scraping terminé !"
-          echo "Statut: ${{ job.status }}"
-          echo "Voir le site: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "Statut : ${{ job.status }}"
+          echo "Voir le site : https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
