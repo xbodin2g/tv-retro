@@ -1,5 +1,5 @@
 // =====================================================
-// TV RÉTRO - Version magazine TV
+// TV RÉTRO - Version magazine + vue journée + segments
 // =====================================================
 
 const state = {
@@ -10,12 +10,14 @@ const state = {
     index: null,
     yearData: null,
 
+    dayOpen: false,
     currentPrograms: [],
     currentProgramMap: new Map(),
 
     filters: {
         query: '',
-        channel: 'all'
+        channel: 'all',
+        showSegments: true
     }
 };
 
@@ -50,9 +52,6 @@ const CHANNEL_ALIASES = {
     'FRANCE 5': 'France 5'
 };
 
-// Si tu préfères exporter uniquement le titre sans la chaîne, mets false.
-const EXPORT_INCLUDE_CHANNEL = true;
-
 // =====================================================
 // Initialisation
 // =====================================================
@@ -61,8 +60,11 @@ document.addEventListener('DOMContentLoaded', initializeApp);
 
 async function initializeApp() {
     setupNavigation();
+    setupDayToolbarListeners();
+    setupPlaylistListeners();
     updatePlaylistDisplay();
     registerServiceWorker();
+
     await loadIndex();
 }
 
@@ -94,6 +96,8 @@ function loadStoredPlaylist() {
                 title: program.title ? String(program.title) : '',
                 channel: program.channel ? String(program.channel) : '',
                 description: program.description ? String(program.description) : '',
+                parentTitle: program.parentTitle ? String(program.parentTitle) : '',
+                type: program.type ? String(program.type) : 'program',
                 addedAt: program.addedAt || new Date().toISOString()
             }));
     } catch (error) {
@@ -136,6 +140,12 @@ function normalizeText(value) {
         .replace(/[^a-z0-9\s]/g, ' ')
         .replace(/\s+/g, ' ')
         .trim();
+}
+
+function cssSafeId(value) {
+    return String(value || '')
+        .replace(/[^a-zA-Z0-9_-]/g, '-')
+        .replace(/^-+|-+$/g, '') || 'id';
 }
 
 // =====================================================
@@ -222,6 +232,17 @@ function formatDateLabel(dateStr) {
     } catch {
         return `${day}/${month}/${year}`;
     }
+}
+
+function formatShortDate(dateStr) {
+    const normalized = normalizeDate(dateStr);
+
+    if (!normalized) {
+        return dateStr || '';
+    }
+
+    const [day, month, year] = normalized.split('-');
+    return `${day}/${month}/${year}`;
 }
 
 function dateSortKey(dateStr) {
@@ -320,7 +341,7 @@ function cleanTitle(value) {
 }
 
 // =====================================================
-// Déduplication / regroupement
+// Déduplication / regroupement / segments
 // =====================================================
 
 function programKey(program) {
@@ -347,12 +368,14 @@ function dedupePrograms(programs) {
         const channel = canonicalChannel(rawProgram.channel);
         const title = cleanTitle(rawProgram.title);
         const description = String(rawProgram.description || '').trim().replace(/\s+/g, ' ');
+        const segments = Array.isArray(rawProgram.segments) ? rawProgram.segments : [];
 
         const program = {
             time,
             channel: channel || 'Autres',
             title: title || 'Programme non identifié',
-            description
+            description,
+            segments
         };
 
         const key = programKey(program);
@@ -374,6 +397,10 @@ function dedupePrograms(programs) {
 
         if (!existing.time && program.time) {
             existing.time = program.time;
+        }
+
+        if (!existing.segments.length && program.segments.length) {
+            existing.segments = program.segments;
         }
     }
 
@@ -431,12 +458,18 @@ function groupProgramsByChannel(programs) {
         }));
 }
 
-function makeProgramId(dateStr, program) {
+function makeProgramId(dateStr, time, channel, suffix = 'p') {
     const normalizedDate = normalizeDate(dateStr) || String(dateStr || '');
-    const time = program.time || normalizeText(program.title) || 'sans-heure';
-    const channel = slugChannel(program.channel || 'Autres');
+    const safeTime = String(time || 'sans-heure').replace(':', 'h');
+    const safeChannel = slugChannel(channel || 'Autres');
+    const safeSuffix = String(suffix || 'p').replace(/[^a-zA-Z0-9_-]/g, '-');
 
-    return `${normalizedDate}__${time}__${channel}`;
+    return `${normalizedDate}__${safeTime}__${safeChannel}__${safeSuffix}`;
+}
+
+function programAnchorId(dateStr, program) {
+    const id = makeProgramId(dateStr, program.time, program.channel, 'p');
+    return `prog-${cssSafeId(id)}`;
 }
 
 // =====================================================
@@ -507,8 +540,7 @@ function showNoData(message = 'Lance d’abord le workflow GitHub Actions pour s
         </div>
     `;
 
-    const programsContainer = document.getElementById('programs-container');
-
+    const programsContainer = document.getElementById('programs-groups');
     if (programsContainer) {
         programsContainer.innerHTML = '';
     }
@@ -556,12 +588,6 @@ function displayYears() {
             }).join('')}
         </div>
     `;
-
-    const programsContainer = document.getElementById('programs-container');
-
-    if (programsContainer) {
-        programsContainer.innerHTML = '';
-    }
 }
 
 // =====================================================
@@ -614,15 +640,10 @@ async function selectYear(year) {
 
 function displayDates(year) {
     const container = document.getElementById('years-container');
-    const programsContainer = document.getElementById('programs-container');
 
     if (!container) {
         console.error('Élément #years-container introuvable');
         return;
-    }
-
-    if (programsContainer) {
-        programsContainer.innerHTML = '';
     }
 
     if (!state.yearData || !state.yearData.dates) {
@@ -683,17 +704,11 @@ function displayDates(year) {
 }
 
 // =====================================================
-// Sélection d’une date
+// Sélection d’une date -> ouverture vue Journée
 // =====================================================
 
 function selectDate(date) {
     const normalizedDate = normalizeDate(date) || date;
-
-    state.selectedDate = normalizedDate;
-    state.filters = {
-        query: '',
-        channel: 'all'
-    };
 
     if (!state.yearData || !state.yearData.dates) {
         showToast('❌ Aucune donnée d’année chargée');
@@ -709,6 +724,13 @@ function selectDate(date) {
         return;
     }
 
+    state.selectedDate = normalizedDate;
+    state.filters = {
+        query: '',
+        channel: 'all',
+        showSegments: true
+    };
+
     let rawPrograms = [];
 
     if (Array.isArray(dateData.programs) && dateData.programs.length > 0) {
@@ -717,92 +739,130 @@ function selectDate(date) {
         rawPrograms = flattenChannels(dateData.channels);
     }
 
-    const programs = dedupePrograms(rawPrograms);
-
-    state.currentPrograms = programs;
-
-    displayPrograms(programs, normalizedDate);
+    state.currentPrograms = dedupePrograms(rawPrograms);
+    openDayView(dateData);
 }
 
-// =====================================================
-// Affichage des programmes chaîne par chaîne
-// =====================================================
+function openDayView(dateData) {
+    const browseList = document.getElementById('browse-list');
+    const dayPanel = document.getElementById('day-panel');
 
-function displayPrograms(programs, date) {
-    const container = document.getElementById('programs-container');
-
-    if (!container) {
-        console.error('Élément #programs-container introuvable');
+    if (!browseList || !dayPanel) {
+        console.error('Éléments browse-list / day-panel introuvables');
         return;
     }
 
-    state.currentPrograms = programs;
-    state.currentProgramMap = new Map();
+    state.dayOpen = true;
+    browseList.hidden = true;
+    dayPanel.hidden = false;
+
+    renderDay(dateData);
+    window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+function closeDayView() {
+    const browseList = document.getElementById('browse-list');
+    const dayPanel = document.getElementById('day-panel');
+
+    if (!browseList || !dayPanel) {
+        return;
+    }
+
+    state.dayOpen = false;
+    state.selectedDate = null;
+    dayPanel.hidden = true;
+    browseList.hidden = false;
+
+    if (state.selectedYear && state.yearData) {
+        displayDates(state.selectedYear);
+    } else {
+        displayYears();
+    }
+
+    window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+// =====================================================
+// Rendu de la vue Journée
+// =====================================================
+
+function renderDay(dateData) {
+    const dayTitle = document.getElementById('day-title');
+    const dayMeta = document.getElementById('day-meta');
+    const daySource = document.getElementById('day-source');
+    const searchInput = document.getElementById('program-search');
+    const channelFilter = document.getElementById('channel-filter');
+    const showSegmentsCheckbox = document.getElementById('show-segments');
+
+    const programs = state.currentPrograms;
+
+    if (dayTitle) {
+        dayTitle.textContent = formatDateLabel(dateData.date || state.selectedDate);
+    }
+
+    if (dayMeta) {
+        dayMeta.textContent = `${programs.length} programmes`;
+    }
+
+    if (daySource) {
+        daySource.textContent = dateData.source || 'source inconnue';
+    }
+
+    if (searchInput) {
+        searchInput.value = state.filters.query;
+    }
+
+    if (showSegmentsCheckbox) {
+        showSegmentsCheckbox.checked = state.filters.showSegments;
+    }
 
     const channels = [...new Set(programs.map(p => p.channel || 'Autres'))]
         .sort((a, b) => channelRank(a) - channelRank(b));
 
-    container.innerHTML = `
-        <div class="programs-header">
-            <button class="back-btn" onclick="displayDates('${escapeHtml(state.selectedYear || '')}')">
-                ← Retour aux dates
-            </button>
-
-            <h2>📺 ${escapeHtml(formatDateLabel(date))}</h2>
-
-            <p class="programs-count">
-                <span id="total-count">${programs.length}</span> programmes archivés ·
-                <span id="filtered-count">${programs.length}</span> affichés
-            </p>
-        </div>
-
-        <div class="grid-toolbar">
-            <input
-                type="search"
-                id="program-search"
-                placeholder="Rechercher un programme, un animateur, une description..."
-                value="${escapeHtml(state.filters.query)}"
-            >
-
-            <select id="channel-filter">
-                <option value="all"${state.filters.channel === 'all' ? ' selected' : ''}>
-                    Toutes les chaînes
+    if (channelFilter) {
+        channelFilter.innerHTML = `
+            <option value="all"${state.filters.channel === 'all' ? ' selected' : ''}>
+                Toutes les chaînes
+            </option>
+            ${channels.map(channel => `
+                <option value="${escapeHtml(channel)}"${state.filters.channel === channel ? ' selected' : ''}>
+                    ${escapeHtml(channel)}
                 </option>
-                ${channels.map(channel => `
-                    <option value="${escapeHtml(channel)}"${state.filters.channel === channel ? ' selected' : ''}>
-                        ${escapeHtml(channel)}
-                    </option>
-                `).join('')}
-            </select>
+            `).join('')}
+        `;
+    }
 
-            <div class="toolbar-actions">
-                <button type="button" id="expand-all" class="tiny-btn">Déplier</button>
-                <button type="button" id="collapse-all" class="tiny-btn">Réplier</button>
-            </div>
-        </div>
+    renderSummary(programs);
+    renderTimeline(programs);
+    applyFilters();
+}
 
-        <div id="programs-groups" class="programs-groups"></div>
-    `;
-
-    renderProgramGroups(programs, date);
-
+function setupDayToolbarListeners() {
+    const dayPanel = document.getElementById('day-panel');
     const searchInput = document.getElementById('program-search');
     const channelFilter = document.getElementById('channel-filter');
+    const showSegmentsCheckbox = document.getElementById('show-segments');
     const expandAll = document.getElementById('expand-all');
     const collapseAll = document.getElementById('collapse-all');
-    const groupsContainer = document.getElementById('programs-groups');
 
     if (searchInput) {
         searchInput.addEventListener('input', event => {
             state.filters.query = event.target.value;
-            applyFilters(date);
+            applyFilters();
         });
     }
 
     if (channelFilter) {
         channelFilter.addEventListener('change', event => {
             state.filters.channel = event.target.value;
-            applyFilters(date);
+            applyFilters();
+        });
+    }
+
+    if (showSegmentsCheckbox) {
+        showSegmentsCheckbox.addEventListener('change', event => {
+            state.filters.showSegments = event.target.checked;
+            applyFilters();
         });
     }
 
@@ -820,12 +880,162 @@ function displayPrograms(programs, date) {
         });
     }
 
-    if (groupsContainer) {
-        groupsContainer.addEventListener('click', handleProgramsClick);
+    if (dayPanel) {
+        dayPanel.addEventListener('click', handleDayClick);
     }
 }
 
-function applyFilters(date) {
+function handleDayClick(event) {
+    const backBtn = event.target.closest('#day-back-btn');
+    if (backBtn) {
+        closeDayView();
+        return;
+    }
+
+    const channelHeader = event.target.closest('.channel-header');
+    if (channelHeader) {
+        const block = channelHeader.closest('.channel-block');
+
+        if (block) {
+            const isCollapsed = block.classList.toggle('collapsed');
+            const toggle = channelHeader.querySelector('.channel-toggle');
+            channelHeader.setAttribute('aria-expanded', String(!isCollapsed));
+
+            if (toggle) {
+                toggle.textContent = isCollapsed ? '+' : '−';
+            }
+        }
+        return;
+    }
+
+    const jumpTarget = event.target.closest('[data-target-anchor]');
+    if (jumpTarget) {
+        const targetId = jumpTarget.dataset.targetAnchor;
+        const targetEl = document.getElementById(targetId);
+
+        if (targetEl) {
+            targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            targetEl.classList.add('flash-highlight');
+            setTimeout(() => targetEl.classList.remove('flash-highlight'), 1200);
+        }
+        return;
+    }
+
+    const addButton = event.target.closest('.add-to-playlist-btn');
+    if (addButton) {
+        addToPlaylist(addButton.dataset.programId);
+    }
+}
+
+// =====================================================
+// Sommaire du jour
+// =====================================================
+
+function renderSummary(programs) {
+    const container = document.getElementById('day-summary');
+
+    if (!container) {
+        return;
+    }
+
+    if (!programs || programs.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state compact">
+                <p>Aucun programme à afficher.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const evening = programs.filter(program => {
+        const time = program.time || '';
+        return time >= '18:00' && time <= '23:59';
+    });
+
+    const summarySource = evening.length > 0 ? evening : programs;
+    const limited = summarySource.slice(0, 14);
+
+    container.innerHTML = `
+        <div class="summary-grid">
+            ${limited.map(program => {
+                const anchorId = programAnchorId(state.selectedDate, program);
+
+                return `
+                    <button class="summary-chip" type="button" data-target-anchor="${escapeHtml(anchorId)}">
+                        <span class="summary-time">${escapeHtml(program.time || '--:--')}</span>
+                        <span class="summary-channel">${escapeHtml(program.channel || 'Autres')}</span>
+                        <span class="summary-title">${escapeHtml(program.title || 'Programme')}</span>
+                    </button>
+                `;
+            }).join('')}
+        </div>
+    `;
+}
+
+// =====================================================
+// Frise chronologique
+// =====================================================
+
+function renderTimeline(programs) {
+    const container = document.getElementById('day-timeline');
+
+    if (!container) {
+        return;
+    }
+
+    if (!programs || programs.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state compact">
+                <p>Aucune frise disponible.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const groups = groupProgramsByChannel(programs);
+
+    container.innerHTML = `
+        <div class="timeline-inner">
+            ${groups.map(group => `
+                <div class="timeline-row">
+                    <div class="timeline-channel">${escapeHtml(group.channel)}</div>
+                    <div class="timeline-track">
+                        ${group.programs.map(program => {
+                            const anchorId = programAnchorId(state.selectedDate, program);
+                            const shortTitle = truncateText(program.title || 'Programme', 34);
+
+                            return `
+                                <button
+                                    class="timeline-chip"
+                                    type="button"
+                                    data-target-anchor="${escapeHtml(anchorId)}"
+                                    title="${escapeHtml(`${program.time || '--:--'} ${program.title || ''}`)}"
+                                >
+                                    <span class="timeline-chip-time">${escapeHtml(program.time || '--:--')}</span>
+                                    <span class="timeline-chip-title">${escapeHtml(shortTitle)}</span>
+                                </button>
+                            `;
+                        }).join('')}
+                    </div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function truncateText(value, maxLength) {
+    const text = String(value || '');
+    if (text.length <= maxLength) {
+        return text;
+    }
+    return `${text.slice(0, maxLength - 1)}…`;
+}
+
+// =====================================================
+// Filtres + rendu des groupes chaîne
+// =====================================================
+
+function applyFilters() {
     const query = normalizeText(state.filters.query);
     const channel = state.filters.channel;
 
@@ -844,22 +1054,23 @@ function applyFilters(date) {
             program.title,
             program.description,
             program.channel,
-            program.time
+            program.time,
+            ...(program.segments || []).map(seg => seg.title)
         ].join(' '));
 
         return haystack.includes(query);
     });
 
-    renderProgramGroups(filtered, date);
-
     const filteredCount = document.getElementById('filtered-count');
-
     if (filteredCount) {
         filteredCount.textContent = String(filtered.length);
     }
+
+    renderTimeline(filtered);
+    renderGroups(filtered);
 }
 
-function renderProgramGroups(programs, date) {
+function renderGroups(programs) {
     const container = document.getElementById('programs-groups');
 
     if (!container) {
@@ -894,65 +1105,100 @@ function renderProgramGroups(programs, date) {
                 </button>
 
                 <div class="channel-programs">
-                    ${channelPrograms.map(program => {
-                        const id = makeProgramId(date, program);
-                        state.currentProgramMap.set(id, program);
-
-                        return `
-                            <article class="program-row">
-                                <div class="program-time">${escapeHtml(program.time || '--:--')}</div>
-
-                                <div class="program-content">
-                                    <div class="program-title">${escapeHtml(program.title || 'Titre inconnu')}</div>
-
-                                    ${program.description ? `
-                                        <p class="program-description">${escapeHtml(program.description)}</p>
-                                    ` : ''}
-                                </div>
-
-                                <div class="program-actions">
-                                    <button
-                                        class="add-to-playlist-btn"
-                                        type="button"
-                                        data-program-id="${escapeHtml(id)}"
-                                        aria-label="Ajouter ${escapeHtml(program.title || 'programme')} à la playlist"
-                                    >
-                                        ➕
-                                    </button>
-                                </div>
-                            </article>
-                        `;
-                    }).join('')}
+                    ${channelPrograms.map(program => renderProgramRow(program)).join('')}
                 </div>
             </section>
         `;
     }).join('');
 }
 
-function handleProgramsClick(event) {
-    const header = event.target.closest('.channel-header');
+function renderProgramRow(program) {
+    const date = state.selectedDate;
+    const parentId = makeProgramId(date, program.time, program.channel, 'p');
+    const anchorId = programAnchorId(date, program);
 
-    if (header) {
-        const block = header.closest('.channel-block');
+    state.currentProgramMap.set(parentId, {
+        id: parentId,
+        date,
+        time: program.time || '',
+        channel: program.channel || '',
+        title: program.title || '',
+        description: program.description || '',
+        parentTitle: '',
+        type: 'program'
+    });
 
-        if (block) {
-            const isCollapsed = block.classList.toggle('collapsed');
-            const toggle = header.querySelector('.channel-toggle');
-            header.setAttribute('aria-expanded', String(!isCollapsed));
+    const segments = state.filters.showSegments && Array.isArray(program.segments)
+        ? program.segments
+        : [];
 
-            if (toggle) {
-                toggle.textContent = isCollapsed ? '+' : '−';
-            }
-        }
+    const segmentsHtml = segments.length > 0 ? `
+        <details class="segments">
+            <summary>${segments.length} extrait${segments.length > 1 ? 's' : ''} détecté${segments.length > 1 ? 's' : ''}</summary>
+            <ul class="segments-list">
+                ${segments.map(segment => {
+                    const segmentId = makeProgramId(date, program.time, program.channel, `s${segment.index}`);
 
-        return;
-    }
+                    state.currentProgramMap.set(segmentId, {
+                        id: segmentId,
+                        date,
+                        time: program.time || '',
+                        channel: program.channel || '',
+                        title: segment.title || '',
+                        description: segment.raw || '',
+                        parentTitle: program.title || '',
+                        type: 'segment'
+                    });
 
-    const addButton = event.target.closest('.add-to-playlist-btn');
+                    return `
+                        <li class="segment-item">
+                            <div class="segment-content">
+                                <div class="segment-title">${escapeHtml(segment.title || 'Extrait')}</div>
+                                ${segment.raw && segment.raw !== segment.title ? `
+                                    <div class="segment-raw">${escapeHtml(segment.raw)}</div>
+                                ` : ''}
+                            </div>
+                            <button
+                                class="add-to-playlist-btn segment-add-btn"
+                                type="button"
+                                data-program-id="${escapeHtml(segmentId)}"
+                                aria-label="Ajouter ${escapeHtml(segment.title || 'extrait')} à la playlist"
+                            >
+                                ➕
+                            </button>
+                        </li>
+                    `;
+                }).join('')}
+            </ul>
+        </details>
+    ` : '';
 
-    if (addButton) {
-        addToPlaylist(addButton.dataset.programId);
-    }
+    return `
+        <article class="program-row" id="${escapeHtml(anchorId)}">
+            <div class="program-time">${escapeHtml(program.time || '--:--')}</div>
+
+            <div class="program-content">
+                <div class="program-title">${escapeHtml(program.title || 'Titre inconnu')}</div>
+
+                ${program.description ? `
+                    <p class="program-description">${escapeHtml(program.description)}</p>
+                ` : ''}
+
+                ${segmentsHtml}
+            </div>
+
+            <div class="program-actions">
+                <button
+                    class="add-to-playlist-btn"
+                    type="button"
+                    data-program-id="${escapeHtml(parentId)}"
+                    aria-label="Ajouter ${escapeHtml(program.title || 'programme')} à la playlist"
+                >
+                    ➕
+                </button>
+            </div>
+        </article>
+    `;
 }
 
 // =====================================================
@@ -960,9 +1206,7 @@ function handleProgramsClick(event) {
 // =====================================================
 
 function addToPlaylist(programId) {
-    const program =
-        state.currentProgramMap.get(programId) ||
-        state.currentPrograms.find(p => makeProgramId(state.selectedDate, p) === programId);
+    const program = state.currentProgramMap.get(programId);
 
     if (!program) {
         showToast('❌ Programme introuvable');
@@ -970,31 +1214,30 @@ function addToPlaylist(programId) {
     }
 
     if (state.playlist.some(item => item.id === programId)) {
-        showToast('⚠️ Ce programme est déjà dans la playlist');
+        showToast('⚠️ Cet élément est déjà dans la playlist');
         return;
     }
 
     state.playlist.push({
-        id: programId,
-        date: state.selectedDate,
-        time: program.time || '',
-        title: program.title || '',
-        channel: program.channel || '',
-        description: program.description || '',
+        ...program,
         addedAt: new Date().toISOString()
     });
 
     savePlaylist();
     updatePlaylistDisplay();
 
-    showToast(`✅ "${program.title || 'Programme'}" ajouté à la playlist`);
+    const label = program.type === 'segment'
+        ? `extrait "${program.title}"`
+        : `"${program.title}"`;
+
+    showToast(`✅ ${label} ajouté à la playlist`);
 }
 
 function removeFromPlaylist(programId) {
     state.playlist = state.playlist.filter(program => program.id !== programId);
     savePlaylist();
     updatePlaylistDisplay();
-    showToast('🗑️ Programme retiré de la playlist');
+    showToast('🗑️ Élément retiré de la playlist');
 }
 
 function clearPlaylist() {
@@ -1015,6 +1258,22 @@ function clearPlaylist() {
     showToast('🗑️ Playlist vidée');
 }
 
+function setupPlaylistListeners() {
+    const container = document.getElementById('playlist-container');
+
+    if (!container) {
+        return;
+    }
+
+    container.addEventListener('click', event => {
+        const removeBtn = event.target.closest('[data-remove-id]');
+
+        if (removeBtn) {
+            removeFromPlaylist(removeBtn.dataset.removeId);
+        }
+    });
+}
+
 function updatePlaylistDisplay() {
     const container = document.getElementById('playlist-container');
 
@@ -1027,7 +1286,7 @@ function updatePlaylistDisplay() {
         container.innerHTML = `
             <div class="empty-playlist">
                 <p>📭 Playlist vide</p>
-                <small>Ajoutez des programmes depuis la vue Parcourir</small>
+                <small>Ajoutez des programmes ou des extraits depuis la vue Journée</small>
             </div>
         `;
         return;
@@ -1056,7 +1315,14 @@ function updatePlaylistDisplay() {
                 <div class="program-time-inline">
                     🕐 ${escapeHtml(program.time || '--:--')}
                     ${program.channel ? ` · 📺 ${escapeHtml(program.channel)}` : ''}
+                    ${program.type === 'segment' ? ' · <span class="badge-segment">extrait</span>' : ''}
                 </div>
+
+                ${program.parentTitle ? `
+                    <div class="playlist-parent">
+                        Dans : ${escapeHtml(program.parentTitle)}
+                    </div>
+                ` : ''}
 
                 <div class="program-title">🎬 ${escapeHtml(program.title || 'Titre inconnu')}</div>
 
@@ -1070,12 +1336,6 @@ function updatePlaylistDisplay() {
             </button>
         </div>
     `).join('');
-
-    container.querySelectorAll('[data-remove-id]').forEach(button => {
-        button.addEventListener('click', () => {
-            removeFromPlaylist(button.dataset.removeId);
-        });
-    });
 }
 
 // =====================================================
@@ -1090,11 +1350,16 @@ function exportPlaylist() {
 
     const exportSection = document.getElementById('export-section');
     const exportText = document.getElementById('export-text');
+    const exportFormat = document.getElementById('export-format');
+    const exportParent = document.getElementById('export-parent');
 
     if (!exportSection || !exportText) {
         showToast('❌ Élément d’export introuvable');
         return;
     }
+
+    const format = exportFormat ? exportFormat.value : 'title_channel_date';
+    const includeParent = exportParent ? exportParent.checked : true;
 
     const sortedPlaylist = [...state.playlist].sort((a, b) => {
         const keyA = dateSortKey(a.date);
@@ -1110,15 +1375,7 @@ function exportPlaylist() {
     });
 
     const exportData = sortedPlaylist
-        .map(program => {
-            const title = program.title || 'Programme inconnu';
-
-            if (EXPORT_INCLUDE_CHANNEL && program.channel) {
-                return `${title} (${program.channel})`;
-            }
-
-            return title;
-        })
+        .map(program => formatExportLine(program, format, includeParent))
         .join('\n');
 
     exportText.value = exportData;
@@ -1126,6 +1383,40 @@ function exportPlaylist() {
     exportSection.scrollIntoView({ behavior: 'smooth' });
 
     showToast('✅ Playlist prête à être copiée');
+}
+
+function formatExportLine(program, format, includeParent) {
+    let title = program.title || 'Programme inconnu';
+
+    if (program.type === 'segment' && includeParent && program.parentTitle) {
+        title = `${program.parentTitle} : ${title}`;
+    }
+
+    const channel = program.channel || '';
+    const date = formatShortDate(program.date);
+    const time = program.time || '';
+
+    switch (format) {
+        case 'title':
+            return title;
+
+        case 'title_channel':
+            return channel ? `${title} (${channel})` : title;
+
+        case 'title_date':
+            return `${title} - ${date}`;
+
+        case 'title_channel_date':
+            return channel ? `${title} (${channel}) - ${date}` : `${title} - ${date}`;
+
+        case 'full':
+            return channel
+                ? `${title} (${channel}) - ${time} - ${date}`
+                : `${title} - ${time} - ${date}`;
+
+        default:
+            return channel ? `${title} (${channel}) - ${date}` : `${title} - ${date}`;
+    }
 }
 
 async function copyToClipboard() {
@@ -1193,8 +1484,12 @@ function setupNavigation() {
             state.currentView = view;
 
             if (view === 'browse') {
-                if (!state.index) {
+                if (state.dayOpen) {
+                    closeDayView();
+                } else if (!state.index) {
                     loadIndex();
+                } else if (state.selectedYear && state.yearData) {
+                    displayDates(state.selectedYear);
                 } else {
                     displayYears();
                 }
@@ -1263,6 +1558,7 @@ window.selectYear = selectYear;
 window.selectDate = selectDate;
 window.displayYears = displayYears;
 window.displayDates = displayDates;
+window.closeDayView = closeDayView;
 window.addToPlaylist = addToPlaylist;
 window.removeFromPlaylist = removeFromPlaylist;
 window.clearPlaylist = clearPlaylist;
