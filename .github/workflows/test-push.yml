@@ -1,0 +1,37 @@
+name: 🧪 Test Push
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Créer un fichier test
+        run: |
+          echo "Test - $(date)" > test-push.txt
+          mkdir -p debug
+          echo "Hello Debug - $(date)" > debug/hello.txt
+          ls -la
+          ls -la debug/
+      
+      - name: Commit et push
+        run: |
+          git config --local user.email "test@test.com"
+          git config --local user.name "Test Bot"
+          git add -A
+          git status
+          git commit -m "🧪 Test push" || echo "Rien à committer"
+          git push origin $(git branch --show-current)
+      
+      - name: Vérification
+        run: |
+          echo "✅ Si vous voyez ce message, le push a fonctionné"
+          echo "Allez sur GitHub et vérifiez que test-push.txt et debug/hello.txt existent"
