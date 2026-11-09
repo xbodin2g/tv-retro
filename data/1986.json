@@ -15427,7 +15427,7 @@
     "03-08-1986": {
       "date": "03-08-1986",
       "source": "depot101",
-      "programs_count": 79,
+      "programs_count": 81,
       "night_extension": true,
       "origin_dates": [
         "02-08-1986",
@@ -15841,6 +15841,24 @@
           "description": "La septième croix",
           "description_lines": [
             "La septième croix"
+          ],
+          "segments": []
+        },
+        {
+          "time": "21:55",
+          "channel": "FR3",
+          "title": "SOIR 3",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:30",
+          "channel": "FR3",
+          "title": "CINÉMA DE MINUIT",
+          "description": "Cycle Spencer Tracy. Film américain",
+          "description_lines": [
+            "Cycle Spencer Tracy. Film américain"
           ],
           "segments": []
         },
@@ -16631,6 +16649,24 @@
             "description": "La septième croix",
             "description_lines": [
               "La septième croix"
+            ],
+            "segments": []
+          },
+          {
+            "time": "21:55",
+            "channel": "FR3",
+            "title": "SOIR 3",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:30",
+            "channel": "FR3",
+            "title": "CINÉMA DE MINUIT",
+            "description": "Cycle Spencer Tracy. Film américain",
+            "description_lines": [
+              "Cycle Spencer Tracy. Film américain"
             ],
             "segments": []
           }
@@ -22312,7 +22348,7 @@
     "04-08-1986": {
       "date": "04-08-1986",
       "source": "depot101",
-      "programs_count": 108,
+      "programs_count": 107,
       "night_extension": true,
       "origin_dates": [
         "03-08-1986",
@@ -22899,16 +22935,6 @@
           "description": "Rediffusion",
           "description_lines": [
             "Rediffusion"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:30",
-          "channel": "FR3",
-          "title": "CINÉMA DE MINUIT",
-          "description": "Cycle Spencer Tracy. Film américain",
-          "description_lines": [
-            "Cycle Spencer Tracy. Film américain"
           ],
           "segments": []
         },
@@ -24003,16 +24029,6 @@
             "description": "Rediffusion",
             "description_lines": [
               "Rediffusion"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:30",
-            "channel": "FR3",
-            "title": "CINÉMA DE MINUIT",
-            "description": "Cycle Spencer Tracy. Film américain",
-            "description_lines": [
-              "Cycle Spencer Tracy. Film américain"
             ],
             "segments": []
           },
@@ -78978,7 +78994,7 @@
     "12-06-1986": {
       "date": "12-06-1986",
       "source": "depot101",
-      "programs_count": 119,
+      "programs_count": 120,
       "night_extension": true,
       "origin_dates": [
         "11-06-1986",
@@ -79120,7 +79136,7 @@
         {
           "time": "18:25",
           "channel": "TF1",
-          "title": "MINI-JOURNAL",
+          "title": "LE MINI-JOURNAL",
           "description": "Magazine présenté par Patrice Drevet",
           "description_lines": [
             "Magazine présenté par Patrice Drevet"
@@ -79430,7 +79446,8 @@
           "title": "FOOTBALL - MUNDIAL 86 : BRÉSIL CONTRE IRLANDE",
           "description": "Commenté par Bernard Pivot",
           "description_lines": [
-            "Commenté par Bernard Pivot"
+            "Commenté par Bernard Pivot",
+            "avec Bernard Pivot"
           ],
           "segments": []
         },
@@ -79440,7 +79457,8 @@
           "title": "FOOTBALL - MUNDIAL 86 : ESPAGNE CONTRE ALGÉRIE",
           "description": "Commenté par Michel Drucker",
           "description_lines": [
-            "Commenté par Michel Drucker"
+            "Commenté par Michel Drucker",
+            "avec Michel Drucker"
           ],
           "segments": []
         },
@@ -79883,6 +79901,14 @@
           "segments": []
         },
         {
+          "time": "23:50",
+          "channel": "Canal+",
+          "title": "LES 3 MOUSQUETAIRES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "00:10",
           "channel": "La Cinq",
           "title": "FLAMINGO ROAD",
@@ -80063,7 +80089,7 @@
         {
           "time": "19:30",
           "channel": "La Cinq",
-          "title": "A FOND LA CAISSE",
+          "title": "A FOND LA CAISSE : CHIPS",
           "description": "CHIPS - Contestation",
           "description_lines": [
             "CHIPS - Contestation"
@@ -80302,7 +80328,7 @@
           {
             "time": "18:25",
             "channel": "TF1",
-            "title": "MINI-JOURNAL",
+            "title": "LE MINI-JOURNAL",
             "description": "Magazine présenté par Patrice Drevet",
             "description_lines": [
               "Magazine présenté par Patrice Drevet"
@@ -80614,7 +80640,8 @@
             "title": "FOOTBALL - MUNDIAL 86 : BRÉSIL CONTRE IRLANDE",
             "description": "Commenté par Bernard Pivot",
             "description_lines": [
-              "Commenté par Bernard Pivot"
+              "Commenté par Bernard Pivot",
+              "avec Bernard Pivot"
             ],
             "segments": []
           },
@@ -80624,7 +80651,8 @@
             "title": "FOOTBALL - MUNDIAL 86 : ESPAGNE CONTRE ALGÉRIE",
             "description": "Commenté par Michel Drucker",
             "description_lines": [
-              "Commenté par Michel Drucker"
+              "Commenté par Michel Drucker",
+              "avec Michel Drucker"
             ],
             "segments": []
           },
@@ -81069,6 +81097,14 @@
             "description": "",
             "description_lines": [],
             "segments": []
+          },
+          {
+            "time": "23:50",
+            "channel": "Canal+",
+            "title": "LES 3 MOUSQUETAIRES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
           }
         ],
         "La Cinq": [
@@ -81253,7 +81289,7 @@
           {
             "time": "19:30",
             "channel": "La Cinq",
-            "title": "A FOND LA CAISSE",
+            "title": "A FOND LA CAISSE : CHIPS",
             "description": "CHIPS - Contestation",
             "description_lines": [
               "CHIPS - Contestation"
@@ -81362,7 +81398,7 @@
     "13-06-1986": {
       "date": "13-06-1986",
       "source": "depot101",
-      "programs_count": 124,
+      "programs_count": 120,
       "night_extension": true,
       "origin_dates": [
         "12-06-1986",
@@ -81534,14 +81570,6 @@
           ]
         },
         {
-          "time": "19:10",
-          "channel": "TF1",
-          "title": "LA VIE DES BOTES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:20",
           "channel": "TF1",
           "title": "LE JOURNAL DE LA UNE",
@@ -81568,14 +81596,6 @@
             "Commenté par Thierry Roland et Jean-Michel Larqué",
             "Ccommenté par Thierry Roland et Jean-Michel Larqué"
           ],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "TF1",
-          "title": "CITADELLE",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -81840,16 +81860,6 @@
           "segments": []
         },
         {
-          "time": "19:55",
-          "channel": "Antenne 2",
-          "title": "COUPE DU MONDE DE FOOTBALL (BRÉSIL /IRLANDE)",
-          "description": "avec Bernard Pivot",
-          "description_lines": [
-            "avec Bernard Pivot"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:00",
           "channel": "Antenne 2",
           "title": "JOURNAL",
@@ -81861,9 +81871,10 @@
           "time": "20:35",
           "channel": "Antenne 2",
           "title": "MÉDECINS DE NUIT - DISC-JOCKEY (8)",
-          "description": "Série française",
+          "description": "Série télé française",
           "description_lines": [
-            "Série française"
+            "Série française",
+            "Série télé française"
           ],
           "segments": []
         },
@@ -81873,18 +81884,17 @@
           "title": "APOSTROPHES - ORIENT-OCCIDENT : LE CHOC",
           "description": "Emission présentée par Bernard Pivot",
           "description_lines": [
-            "Emission présentée par Bernard Pivot"
+            "Emission présentée par Bernard Pivot",
+            "Présenté par Bernard Pivot"
           ],
           "segments": []
         },
         {
-          "time": "21:55",
+          "time": "22:35",
           "channel": "Antenne 2",
-          "title": "FOOTBALL - ESPAGNE/ALGÉRIE",
-          "description": "avec Michel Drucker",
-          "description_lines": [
-            "avec Michel Drucker"
-          ],
+          "title": "CINE CLUB : LE PLEIN DE SUPER",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -82311,9 +82321,19 @@
           "segments": []
         },
         {
+          "time": "19:55",
+          "channel": "Canal+",
+          "title": "LES TRIPLES",
+          "description": "Dessin animé",
+          "description_lines": [
+            "Dessin animé"
+          ],
+          "segments": []
+        },
+        {
           "time": "20:00",
           "channel": "Canal+",
-          "title": "LES TRIPLÉS",
+          "title": "UN TRAMWAY NOMME DESIR",
           "description": "Dessin animé",
           "description_lines": [
             "Dessin animé"
@@ -82349,14 +82369,6 @@
           "segments": []
         },
         {
-          "time": "22:25",
-          "channel": "Canal+",
-          "title": "ALLIGATORS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:55",
           "channel": "Canal+",
           "title": "INFORMATIONS",
@@ -82368,18 +82380,11 @@
           "time": "23:05",
           "channel": "Canal+",
           "title": "COBRA",
-          "description": "Film italien (1980)",
+          "description": "Dessin animé japonais",
           "description_lines": [
-            "Film italien (1980)"
+            "Film italien (1980)",
+            "Dessin animé japonais"
           ],
-          "segments": []
-        },
-        {
-          "time": "23:50",
-          "channel": "Canal+",
-          "title": "LES 3 MOUSQUETAIRES",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -82553,7 +82558,7 @@
         {
           "time": "19:30",
           "channel": "La Cinq",
-          "title": "A FOND LA CAISSE : CHIPS",
+          "title": "A FOND LA CAISSE : TONNERRE MECANIQUE",
           "description": "Tonnerre Mécanique",
           "description_lines": [
             "Tonnerre Mécanique"
@@ -82568,14 +82573,6 @@
           "description_lines": [
             "Jeu Variétés présentés par Amanda Lear et Christian Morin. Avec Marie-Paule Belle, Alice Sapritch et Dorothée"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:15",
-          "channel": "La Cinq",
-          "title": "MODE ETC",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -82639,10 +82636,20 @@
         {
           "time": "20:00",
           "channel": "TV6",
-          "title": "TONIC 6",
+          "title": "6 TONIC",
           "description": "Clips, extraits de films et de concerts",
           "description_lines": [
             "Clips, extraits de films et de concerts"
+          ],
+          "segments": []
+        },
+        {
+          "time": "23:00",
+          "channel": "TV6",
+          "title": "NRJ 6",
+          "description": "Le hit-parade d'NRJ",
+          "description_lines": [
+            "Le hit-parade d'NRJ"
           ],
           "segments": []
         }
@@ -82814,14 +82821,6 @@
             ]
           },
           {
-            "time": "19:10",
-            "channel": "TF1",
-            "title": "LA VIE DES BOTES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:20",
             "channel": "TF1",
             "title": "LE JOURNAL DE LA UNE",
@@ -82848,14 +82847,6 @@
               "Commenté par Thierry Roland et Jean-Michel Larqué",
               "Ccommenté par Thierry Roland et Jean-Michel Larqué"
             ],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "TF1",
-            "title": "CITADELLE",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -83122,16 +83113,6 @@
             "segments": []
           },
           {
-            "time": "19:55",
-            "channel": "Antenne 2",
-            "title": "COUPE DU MONDE DE FOOTBALL (BRÉSIL /IRLANDE)",
-            "description": "avec Bernard Pivot",
-            "description_lines": [
-              "avec Bernard Pivot"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:00",
             "channel": "Antenne 2",
             "title": "JOURNAL",
@@ -83143,9 +83124,10 @@
             "time": "20:35",
             "channel": "Antenne 2",
             "title": "MÉDECINS DE NUIT - DISC-JOCKEY (8)",
-            "description": "Série française",
+            "description": "Série télé française",
             "description_lines": [
-              "Série française"
+              "Série française",
+              "Série télé française"
             ],
             "segments": []
           },
@@ -83155,18 +83137,17 @@
             "title": "APOSTROPHES - ORIENT-OCCIDENT : LE CHOC",
             "description": "Emission présentée par Bernard Pivot",
             "description_lines": [
-              "Emission présentée par Bernard Pivot"
+              "Emission présentée par Bernard Pivot",
+              "Présenté par Bernard Pivot"
             ],
             "segments": []
           },
           {
-            "time": "21:55",
+            "time": "22:35",
             "channel": "Antenne 2",
-            "title": "FOOTBALL - ESPAGNE/ALGÉRIE",
-            "description": "avec Michel Drucker",
-            "description_lines": [
-              "avec Michel Drucker"
-            ],
+            "title": "CINE CLUB : LE PLEIN DE SUPER",
+            "description": "",
+            "description_lines": [],
             "segments": []
           },
           {
@@ -83597,9 +83578,19 @@
             "segments": []
           },
           {
+            "time": "19:55",
+            "channel": "Canal+",
+            "title": "LES TRIPLES",
+            "description": "Dessin animé",
+            "description_lines": [
+              "Dessin animé"
+            ],
+            "segments": []
+          },
+          {
             "time": "20:00",
             "channel": "Canal+",
-            "title": "LES TRIPLÉS",
+            "title": "UN TRAMWAY NOMME DESIR",
             "description": "Dessin animé",
             "description_lines": [
               "Dessin animé"
@@ -83635,14 +83626,6 @@
             "segments": []
           },
           {
-            "time": "22:25",
-            "channel": "Canal+",
-            "title": "ALLIGATORS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:55",
             "channel": "Canal+",
             "title": "INFORMATIONS",
@@ -83654,18 +83637,11 @@
             "time": "23:05",
             "channel": "Canal+",
             "title": "COBRA",
-            "description": "Film italien (1980)",
+            "description": "Dessin animé japonais",
             "description_lines": [
-              "Film italien (1980)"
+              "Film italien (1980)",
+              "Dessin animé japonais"
             ],
-            "segments": []
-          },
-          {
-            "time": "23:50",
-            "channel": "Canal+",
-            "title": "LES 3 MOUSQUETAIRES",
-            "description": "",
-            "description_lines": [],
             "segments": []
           }
         ],
@@ -83841,7 +83817,7 @@
           {
             "time": "19:30",
             "channel": "La Cinq",
-            "title": "A FOND LA CAISSE : CHIPS",
+            "title": "A FOND LA CAISSE : TONNERRE MECANIQUE",
             "description": "Tonnerre Mécanique",
             "description_lines": [
               "Tonnerre Mécanique"
@@ -83856,14 +83832,6 @@
             "description_lines": [
               "Jeu Variétés présentés par Amanda Lear et Christian Morin. Avec Marie-Paule Belle, Alice Sapritch et Dorothée"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:15",
-            "channel": "La Cinq",
-            "title": "MODE ETC",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -83929,10 +83897,20 @@
           {
             "time": "20:00",
             "channel": "TV6",
-            "title": "TONIC 6",
+            "title": "6 TONIC",
             "description": "Clips, extraits de films et de concerts",
             "description_lines": [
               "Clips, extraits de films et de concerts"
+            ],
+            "segments": []
+          },
+          {
+            "time": "23:00",
+            "channel": "TV6",
+            "title": "NRJ 6",
+            "description": "Le hit-parade d'NRJ",
+            "description_lines": [
+              "Le hit-parade d'NRJ"
             ],
             "segments": []
           }
@@ -87775,7 +87753,7 @@
     "14-06-1986": {
       "date": "14-06-1986",
       "source": "depot101",
-      "programs_count": 134,
+      "programs_count": 124,
       "night_extension": true,
       "origin_dates": [
         "13-06-1986",
@@ -87947,9 +87925,10 @@
           "time": "18:25",
           "channel": "TF1",
           "title": "AUTO-MOTO 1",
-          "description": "avec Jacques Bonnecarrère",
+          "description": "Présenté par Jacques Bonnecarrère",
           "description_lines": [
-            "avec Jacques Bonnecarrère"
+            "avec Jacques Bonnecarrère",
+            "Présenté par Jacques Bonnecarrère"
           ],
           "segments": []
         },
@@ -88210,16 +88189,6 @@
           "segments": []
         },
         {
-          "time": "18:05",
-          "channel": "Antenne 2",
-          "title": "CAPITOL",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
-          ],
-          "segments": []
-        },
-        {
           "time": "18:50",
           "channel": "Antenne 2",
           "title": "DES CHIFFRES ET DES LETTRES",
@@ -88270,21 +88239,11 @@
         {
           "time": "20:35",
           "channel": "Antenne 2",
-          "title": "MEDECINS DE NUIT",
+          "title": "CHAMPS-ELYSÉES",
           "description": "Présentation Michel Drucker",
           "description_lines": [
-            "Série télé française",
-            "Présentation Michel Drucker"
-          ],
-          "segments": []
-        },
-        {
-          "time": "21:30",
-          "channel": "Antenne 2",
-          "title": "APOSTROPHES",
-          "description": "Présenté par Bernard Pivot",
-          "description_lines": [
-            "Présenté par Bernard Pivot"
+            "Présentation Michel Drucker",
+            "Présenté par Michel Drucker"
           ],
           "segments": []
         },
@@ -88292,14 +88251,6 @@
           "time": "22:15",
           "channel": "Antenne 2",
           "title": "HISTOIRES DE L'AUTRE MONDE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:35",
-          "channel": "Antenne 2",
-          "title": "CINE CLUB : LE PLEIN DE SUPER",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -88829,16 +88780,6 @@
           "segments": []
         },
         {
-          "time": "18:00",
-          "channel": "Canal+",
-          "title": "DANCIN' DAYS",
-          "description": "Série brésilienne",
-          "description_lines": [
-            "Série brésilienne"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "Canal+",
           "title": "CABOU CADIN",
@@ -88863,35 +88804,9 @@
           "segments": []
         },
         {
-          "time": "19:55",
-          "channel": "Canal+",
-          "title": "LES TRIPLES",
-          "description": "Dessin animé",
-          "description_lines": [
-            "Dessin animé"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "Canal+",
-          "title": "UN TRAMWAY NOMME DESIR",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "20:30",
           "channel": "Canal+",
           "title": "ESPION A LA MODE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "Canal+",
-          "title": "PROCHAINEMENT SUR CANAL +",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -88907,11 +88822,9 @@
         {
           "time": "23:05",
           "channel": "Canal+",
-          "title": "COBRA",
-          "description": "Dessin animé japonais",
-          "description_lines": [
-            "Dessin animé japonais"
-          ],
+          "title": "GOLF",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -89039,14 +88952,6 @@
           "segments": []
         },
         {
-          "time": "18:00",
-          "channel": "La Cinq",
-          "title": "MODE ETC",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "18:45",
           "channel": "La Cinq",
           "title": "SUPER JAIMIE",
@@ -89059,7 +88964,7 @@
         {
           "time": "19:30",
           "channel": "La Cinq",
-          "title": "A FOND LA CAISSE : TONNERRE MECANIQUE",
+          "title": "CINQ SUR CINQ",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -89125,30 +89030,12 @@
           "segments": []
         },
         {
-          "time": "20:00",
-          "channel": "TV6",
-          "title": "TONIC 6",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "21:00",
           "channel": "TV6",
           "title": "6 TONIC",
           "description": "Clips, extraits de films et de concerts",
           "description_lines": [
             "Clips, extraits de films et de concerts"
-          ],
-          "segments": []
-        },
-        {
-          "time": "23:00",
-          "channel": "TV6",
-          "title": "NRJ 6",
-          "description": "Le hit-parade d'NRJ",
-          "description_lines": [
-            "Le hit-parade d'NRJ"
           ],
           "segments": []
         }
@@ -89320,9 +89207,10 @@
             "time": "18:25",
             "channel": "TF1",
             "title": "AUTO-MOTO 1",
-            "description": "avec Jacques Bonnecarrère",
+            "description": "Présenté par Jacques Bonnecarrère",
             "description_lines": [
-              "avec Jacques Bonnecarrère"
+              "avec Jacques Bonnecarrère",
+              "Présenté par Jacques Bonnecarrère"
             ],
             "segments": []
           },
@@ -89585,16 +89473,6 @@
             "segments": []
           },
           {
-            "time": "18:05",
-            "channel": "Antenne 2",
-            "title": "CAPITOL",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
-            ],
-            "segments": []
-          },
-          {
             "time": "18:50",
             "channel": "Antenne 2",
             "title": "DES CHIFFRES ET DES LETTRES",
@@ -89645,21 +89523,11 @@
           {
             "time": "20:35",
             "channel": "Antenne 2",
-            "title": "MEDECINS DE NUIT",
+            "title": "CHAMPS-ELYSÉES",
             "description": "Présentation Michel Drucker",
             "description_lines": [
-              "Série télé française",
-              "Présentation Michel Drucker"
-            ],
-            "segments": []
-          },
-          {
-            "time": "21:30",
-            "channel": "Antenne 2",
-            "title": "APOSTROPHES",
-            "description": "Présenté par Bernard Pivot",
-            "description_lines": [
-              "Présenté par Bernard Pivot"
+              "Présentation Michel Drucker",
+              "Présenté par Michel Drucker"
             ],
             "segments": []
           },
@@ -89667,14 +89535,6 @@
             "time": "22:15",
             "channel": "Antenne 2",
             "title": "HISTOIRES DE L'AUTRE MONDE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:35",
-            "channel": "Antenne 2",
-            "title": "CINE CLUB : LE PLEIN DE SUPER",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -90208,16 +90068,6 @@
             "segments": []
           },
           {
-            "time": "18:00",
-            "channel": "Canal+",
-            "title": "DANCIN' DAYS",
-            "description": "Série brésilienne",
-            "description_lines": [
-              "Série brésilienne"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "Canal+",
             "title": "CABOU CADIN",
@@ -90242,35 +90092,9 @@
             "segments": []
           },
           {
-            "time": "19:55",
-            "channel": "Canal+",
-            "title": "LES TRIPLES",
-            "description": "Dessin animé",
-            "description_lines": [
-              "Dessin animé"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "Canal+",
-            "title": "UN TRAMWAY NOMME DESIR",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "20:30",
             "channel": "Canal+",
             "title": "ESPION A LA MODE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "Canal+",
-            "title": "PROCHAINEMENT SUR CANAL +",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -90286,11 +90110,9 @@
           {
             "time": "23:05",
             "channel": "Canal+",
-            "title": "COBRA",
-            "description": "Dessin animé japonais",
-            "description_lines": [
-              "Dessin animé japonais"
-            ],
+            "title": "GOLF",
+            "description": "",
+            "description_lines": [],
             "segments": []
           }
         ],
@@ -90420,14 +90242,6 @@
             "segments": []
           },
           {
-            "time": "18:00",
-            "channel": "La Cinq",
-            "title": "MODE ETC",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "18:45",
             "channel": "La Cinq",
             "title": "SUPER JAIMIE",
@@ -90440,7 +90254,7 @@
           {
             "time": "19:30",
             "channel": "La Cinq",
-            "title": "A FOND LA CAISSE : TONNERRE MECANIQUE",
+            "title": "CINQ SUR CINQ",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -90508,30 +90322,12 @@
             "segments": []
           },
           {
-            "time": "20:00",
-            "channel": "TV6",
-            "title": "TONIC 6",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "21:00",
             "channel": "TV6",
             "title": "6 TONIC",
             "description": "Clips, extraits de films et de concerts",
             "description_lines": [
               "Clips, extraits de films et de concerts"
-            ],
-            "segments": []
-          },
-          {
-            "time": "23:00",
-            "channel": "TV6",
-            "title": "NRJ 6",
-            "description": "Le hit-parade d'NRJ",
-            "description_lines": [
-              "Le hit-parade d'NRJ"
             ],
             "segments": []
           }
@@ -90680,7 +90476,7 @@
     "15-06-1986": {
       "date": "15-06-1986",
       "source": "depot101",
-      "programs_count": 109,
+      "programs_count": 105,
       "night_extension": true,
       "origin_dates": [
         "14-06-1986",
@@ -90890,16 +90686,6 @@
           "description": "Série américaine avec Robert Wagner et Stefanie Powers",
           "description_lines": [
             "Série américaine avec Robert Wagner et Stefanie Powers"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:25",
-          "channel": "TF1",
-          "title": "AUTO MOTO",
-          "description": "Présenté par Jacques Bonnecarrère",
-          "description_lines": [
-            "Présenté par Jacques Bonnecarrère"
           ],
           "segments": []
         },
@@ -91123,9 +90909,11 @@
         {
           "time": "19:30",
           "channel": "Antenne 2",
-          "title": "JOURNAL",
-          "description": "",
-          "description_lines": [],
+          "title": "COUPE DU MONDE DE FOOTBALL (8È DE FINALE)",
+          "description": "Commenté par Bernard Pivot",
+          "description_lines": [
+            "Commenté par Bernard Pivot"
+          ],
           "segments": []
         },
         {
@@ -91139,16 +90927,6 @@
           "segments": []
         },
         {
-          "time": "20:35",
-          "channel": "Antenne 2",
-          "title": "CHAMPS ELYSÉES",
-          "description": "Présenté par Michel Drucker",
-          "description_lines": [
-            "Présenté par Michel Drucker"
-          ],
-          "segments": []
-        },
-        {
           "time": "21:55",
           "channel": "Antenne 2",
           "title": "PROJECTION PRIVÉE",
@@ -91156,14 +90934,6 @@
           "description_lines": [
             "Emission présentée par Marcel Jullian"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:45",
-          "channel": "Antenne 2",
-          "title": "LES ENFANTS DU ROCK",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -91747,10 +91517,11 @@
         {
           "time": "22:15",
           "channel": "La Cinq",
-          "title": "BOXE",
-          "description": "DIRECT avec Louis Acariès",
+          "title": "BOXE DIRECT",
+          "description": "Présenté par Louis Acariès",
           "description_lines": [
-            "DIRECT avec Louis Acariès"
+            "DIRECT avec Louis Acariès",
+            "Présenté par Louis Acariès"
           ],
           "segments": []
         },
@@ -91804,14 +91575,6 @@
           "description_lines": [
             "Clips, extraits de films et de concerts"
           ],
-          "segments": []
-        },
-        {
-          "time": "21:00",
-          "channel": "TV6",
-          "title": "TONIC 6",
-          "description": "",
-          "description_lines": [],
           "segments": []
         }
       ],
@@ -92020,16 +91783,6 @@
             "description": "Série américaine avec Robert Wagner et Stefanie Powers",
             "description_lines": [
               "Série américaine avec Robert Wagner et Stefanie Powers"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:25",
-            "channel": "TF1",
-            "title": "AUTO MOTO",
-            "description": "Présenté par Jacques Bonnecarrère",
-            "description_lines": [
-              "Présenté par Jacques Bonnecarrère"
             ],
             "segments": []
           },
@@ -92255,9 +92008,11 @@
           {
             "time": "19:30",
             "channel": "Antenne 2",
-            "title": "JOURNAL",
-            "description": "",
-            "description_lines": [],
+            "title": "COUPE DU MONDE DE FOOTBALL (8È DE FINALE)",
+            "description": "Commenté par Bernard Pivot",
+            "description_lines": [
+              "Commenté par Bernard Pivot"
+            ],
             "segments": []
           },
           {
@@ -92271,16 +92026,6 @@
             "segments": []
           },
           {
-            "time": "20:35",
-            "channel": "Antenne 2",
-            "title": "CHAMPS ELYSÉES",
-            "description": "Présenté par Michel Drucker",
-            "description_lines": [
-              "Présenté par Michel Drucker"
-            ],
-            "segments": []
-          },
-          {
             "time": "21:55",
             "channel": "Antenne 2",
             "title": "PROJECTION PRIVÉE",
@@ -92288,14 +92033,6 @@
             "description_lines": [
               "Emission présentée par Marcel Jullian"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:45",
-            "channel": "Antenne 2",
-            "title": "LES ENFANTS DU ROCK",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -92885,10 +92622,11 @@
           {
             "time": "22:15",
             "channel": "La Cinq",
-            "title": "BOXE",
-            "description": "DIRECT avec Louis Acariès",
+            "title": "BOXE DIRECT",
+            "description": "Présenté par Louis Acariès",
             "description_lines": [
-              "DIRECT avec Louis Acariès"
+              "DIRECT avec Louis Acariès",
+              "Présenté par Louis Acariès"
             ],
             "segments": []
           }
@@ -92945,14 +92683,6 @@
               "Clips, extraits de films et de concerts"
             ],
             "segments": []
-          },
-          {
-            "time": "21:00",
-            "channel": "TV6",
-            "title": "TONIC 6",
-            "description": "",
-            "description_lines": [],
-            "segments": []
           }
         ]
       }
@@ -92960,7 +92690,7 @@
     "16-06-1986": {
       "date": "16-06-1986",
       "source": "depot101",
-      "programs_count": 120,
+      "programs_count": 117,
       "night_extension": true,
       "origin_dates": [
         "15-06-1986",
@@ -93529,16 +93259,6 @@
           "segments": []
         },
         {
-          "time": "19:30",
-          "channel": "Antenne 2",
-          "title": "COUPE DU MONDE DE FOOTBALL (8È DE FINALE)",
-          "description": "Commenté par Bernard Pivot",
-          "description_lines": [
-            "Commenté par Bernard Pivot"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:35",
           "channel": "Antenne 2",
           "title": "LE PETIT BOUVARD ILLUSTRÉ",
@@ -93670,7 +93390,7 @@
         {
           "time": "19:00",
           "channel": "FR3",
-          "title": "PETIT A PETIT, PASSIONEMENT",
+          "title": "LE 19-20 DE L'INFORMATION",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -93972,14 +93692,6 @@
           "segments": []
         },
         {
-          "time": "19:50",
-          "channel": "Canal+",
-          "title": "CA CARTOON",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:55",
           "channel": "Canal+",
           "title": "LES TRIPLES",
@@ -94148,7 +93860,7 @@
         {
           "time": "20:30",
           "channel": "La Cinq",
-          "title": "LE CHANT DU BOURREAU (1È PARTIE)",
+          "title": "FLAMINGO ROAD",
           "description": "Feuilleton américain",
           "description_lines": [
             "Feuilleton américain"
@@ -94162,16 +93874,6 @@
           "description": "Série policière allemande",
           "description_lines": [
             "Série policière allemande"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:15",
-          "channel": "La Cinq",
-          "title": "BOXE DIRECT",
-          "description": "Présenté par Louis Acariès",
-          "description_lines": [
-            "Présenté par Louis Acariès"
           ],
           "segments": []
         },
@@ -94814,16 +94516,6 @@
             "segments": []
           },
           {
-            "time": "19:30",
-            "channel": "Antenne 2",
-            "title": "COUPE DU MONDE DE FOOTBALL (8È DE FINALE)",
-            "description": "Commenté par Bernard Pivot",
-            "description_lines": [
-              "Commenté par Bernard Pivot"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:35",
             "channel": "Antenne 2",
             "title": "LE PETIT BOUVARD ILLUSTRÉ",
@@ -94957,7 +94649,7 @@
           {
             "time": "19:00",
             "channel": "FR3",
-            "title": "PETIT A PETIT, PASSIONEMENT",
+            "title": "LE 19-20 DE L'INFORMATION",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -95261,14 +94953,6 @@
             "segments": []
           },
           {
-            "time": "19:50",
-            "channel": "Canal+",
-            "title": "CA CARTOON",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:55",
             "channel": "Canal+",
             "title": "LES TRIPLES",
@@ -95439,7 +95123,7 @@
           {
             "time": "20:30",
             "channel": "La Cinq",
-            "title": "LE CHANT DU BOURREAU (1È PARTIE)",
+            "title": "FLAMINGO ROAD",
             "description": "Feuilleton américain",
             "description_lines": [
               "Feuilleton américain"
@@ -95453,16 +95137,6 @@
             "description": "Série policière allemande",
             "description_lines": [
               "Série policière allemande"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:15",
-            "channel": "La Cinq",
-            "title": "BOXE DIRECT",
-            "description": "Présenté par Louis Acariès",
-            "description_lines": [
-              "Présenté par Louis Acariès"
             ],
             "segments": []
           },
@@ -114952,7 +114626,7 @@
     "22-06-1986": {
       "date": "22-06-1986",
       "source": "depot101",
-      "programs_count": 87,
+      "programs_count": 90,
       "night_extension": true,
       "origin_dates": [
         "21-06-1986",
@@ -115512,6 +115186,14 @@
           "segments": []
         },
         {
+          "time": "18:50",
+          "channel": "FR3",
+          "title": "AUTOMOBILE : GRAND PRIX DES ETATS UNIS DE FORMULE 1",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "19:00",
           "channel": "FR3",
           "title": "PETIT À PETIT, PASSIONNÈMENT",
@@ -115544,6 +115226,14 @@
           "segments": []
         },
         {
+          "time": "21:05",
+          "channel": "FR3",
+          "title": "JUSTICE POUR TOUS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "22:05",
           "channel": "FR3",
           "title": "SOIR 3",
@@ -115555,6 +115245,14 @@
           "time": "22:35",
           "channel": "FR3",
           "title": "CINÉMA DE MINUIT - LA KERMESSE HEROIQUE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "23:10",
+          "channel": "FR3",
+          "title": "ESPION A LA MODE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -116327,6 +116025,14 @@
             "segments": []
           },
           {
+            "time": "18:50",
+            "channel": "FR3",
+            "title": "AUTOMOBILE : GRAND PRIX DES ETATS UNIS DE FORMULE 1",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "19:00",
             "channel": "FR3",
             "title": "PETIT À PETIT, PASSIONNÈMENT",
@@ -116359,6 +116065,14 @@
             "segments": []
           },
           {
+            "time": "21:05",
+            "channel": "FR3",
+            "title": "JUSTICE POUR TOUS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "22:05",
             "channel": "FR3",
             "title": "SOIR 3",
@@ -116370,6 +116084,14 @@
             "time": "22:35",
             "channel": "FR3",
             "title": "CINÉMA DE MINUIT - LA KERMESSE HEROIQUE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "23:10",
+            "channel": "FR3",
+            "title": "ESPION A LA MODE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -121657,7 +121379,7 @@
     "23-06-1986": {
       "date": "23-06-1986",
       "source": "depot101",
-      "programs_count": 124,
+      "programs_count": 121,
       "night_extension": true,
       "origin_dates": [
         "22-06-1986",
@@ -122224,14 +121946,6 @@
           "segments": []
         },
         {
-          "time": "18:50",
-          "channel": "FR3",
-          "title": "AUTOMOBILE : GRAND PRIX DES ETATS UNIS DE FORMULE 1",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "FR3",
           "title": "LE 19-20 DE L'INFORMATION",
@@ -122266,14 +121980,6 @@
           "segments": []
         },
         {
-          "time": "21:05",
-          "channel": "FR3",
-          "title": "JUSTICE POUR TOUS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:20",
           "channel": "FR3",
           "title": "SOIR 3",
@@ -122285,14 +121991,6 @@
           "time": "22:45",
           "channel": "FR3",
           "title": "TOUS EN SCENE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:10",
-          "channel": "FR3",
-          "title": "ESPION A LA MODE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -123290,14 +122988,6 @@
             "segments": []
           },
           {
-            "time": "18:50",
-            "channel": "FR3",
-            "title": "AUTOMOBILE : GRAND PRIX DES ETATS UNIS DE FORMULE 1",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "FR3",
             "title": "LE 19-20 DE L'INFORMATION",
@@ -123332,14 +123022,6 @@
             "segments": []
           },
           {
-            "time": "21:05",
-            "channel": "FR3",
-            "title": "JUSTICE POUR TOUS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:20",
             "channel": "FR3",
             "title": "SOIR 3",
@@ -123351,14 +123033,6 @@
             "time": "22:45",
             "channel": "FR3",
             "title": "TOUS EN SCENE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:10",
-            "channel": "FR3",
-            "title": "ESPION A LA MODE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -133091,7 +132765,7 @@
     "25-06-1986": {
       "date": "25-06-1986",
       "source": "depot101",
-      "programs_count": 81,
+      "programs_count": 88,
       "night_extension": true,
       "origin_dates": [
         "24-06-1986",
@@ -133684,9 +133358,55 @@
           "segments": []
         },
         {
+          "time": "18:00",
+          "channel": "FR3",
+          "title": "DANCIN' DAYS",
+          "description": "Série brésilienne",
+          "description_lines": [
+            "Série brésilienne"
+          ],
+          "segments": []
+        },
+        {
+          "time": "18:30",
+          "channel": "FR3",
+          "title": "TOP 50",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "18:55",
+          "channel": "FR3",
+          "title": "MAXI-TÊTE",
+          "description": "Présenté par Sophie Favier",
+          "description_lines": [
+            "Présenté par Sophie Favier"
+          ],
+          "segments": []
+        },
+        {
           "time": "19:00",
           "channel": "FR3",
           "title": "LE 19-20 DE L'INFORMATION",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:05",
+          "channel": "FR3",
+          "title": "ZÉNITH",
+          "description": "Présenté par Michel Denisot",
+          "description_lines": [
+            "Présenté par Michel Denisot"
+          ],
+          "segments": []
+        },
+        {
+          "time": "19:45",
+          "channel": "FR3",
+          "title": "TOUT S'ACHETE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -133705,18 +133425,27 @@
           "title": "LES NOUVEAUX JEUX DE 20 HEURES",
           "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
           "description_lines": [
-            "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+            "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+            "Jeu animé par Philippe Risoli"
           ],
           "segments": []
         },
         {
           "time": "20:35",
           "channel": "FR3",
-          "title": "LA FÊTE EN FRANCE",
+          "title": "CINÉMA DANS LES SALLES",
           "description": "Présenté par Laurent Broomhead",
           "description_lines": [
             "Présenté par Laurent Broomhead"
           ],
+          "segments": []
+        },
+        {
+          "time": "21:00",
+          "channel": "FR3",
+          "title": "DROLE DE SAMEDI",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -133733,6 +133462,14 @@
           "time": "22:25",
           "channel": "FR3",
           "title": "SOIR 3",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:30",
+          "channel": "FR3",
+          "title": "JUSTICE POUR TOUS",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -134556,9 +134293,55 @@
             "segments": []
           },
           {
+            "time": "18:00",
+            "channel": "FR3",
+            "title": "DANCIN' DAYS",
+            "description": "Série brésilienne",
+            "description_lines": [
+              "Série brésilienne"
+            ],
+            "segments": []
+          },
+          {
+            "time": "18:30",
+            "channel": "FR3",
+            "title": "TOP 50",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "18:55",
+            "channel": "FR3",
+            "title": "MAXI-TÊTE",
+            "description": "Présenté par Sophie Favier",
+            "description_lines": [
+              "Présenté par Sophie Favier"
+            ],
+            "segments": []
+          },
+          {
             "time": "19:00",
             "channel": "FR3",
             "title": "LE 19-20 DE L'INFORMATION",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:05",
+            "channel": "FR3",
+            "title": "ZÉNITH",
+            "description": "Présenté par Michel Denisot",
+            "description_lines": [
+              "Présenté par Michel Denisot"
+            ],
+            "segments": []
+          },
+          {
+            "time": "19:45",
+            "channel": "FR3",
+            "title": "TOUT S'ACHETE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -134577,18 +134360,27 @@
             "title": "LES NOUVEAUX JEUX DE 20 HEURES",
             "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
             "description_lines": [
-              "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+              "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+              "Jeu animé par Philippe Risoli"
             ],
             "segments": []
           },
           {
             "time": "20:35",
             "channel": "FR3",
-            "title": "LA FÊTE EN FRANCE",
+            "title": "CINÉMA DANS LES SALLES",
             "description": "Présenté par Laurent Broomhead",
             "description_lines": [
               "Présenté par Laurent Broomhead"
             ],
+            "segments": []
+          },
+          {
+            "time": "21:00",
+            "channel": "FR3",
+            "title": "DROLE DE SAMEDI",
+            "description": "",
+            "description_lines": [],
             "segments": []
           },
           {
@@ -134605,6 +134397,14 @@
             "time": "22:25",
             "channel": "FR3",
             "title": "SOIR 3",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:30",
+            "channel": "FR3",
+            "title": "JUSTICE POUR TOUS",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -138825,7 +138625,7 @@
     "25-02-1986": {
       "date": "25-02-1986",
       "source": "depot101",
-      "programs_count": 111,
+      "programs_count": 114,
       "night_extension": false,
       "origin_dates": [
         "25-02-1986"
@@ -139817,6 +139617,14 @@
           "segments": []
         },
         {
+          "time": "18:25",
+          "channel": "Canal+",
+          "title": "LES AFFAIRES SONT LES AFFAIRES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "18:50",
           "channel": "Canal+",
           "title": "FLASH INFOS",
@@ -139843,12 +139651,32 @@
           "segments": []
         },
         {
+          "time": "19:05",
+          "channel": "Canal+",
+          "title": "ZÉNITH",
+          "description": "Présenté par Michel Denisot",
+          "description_lines": [
+            "Présenté par Michel Denisot"
+          ],
+          "segments": []
+        },
+        {
           "time": "19:35",
           "channel": "Canal+",
           "title": "TOUT S'ACHÈTE",
           "description": "Jeu présenté par Fabrice",
           "description_lines": [
             "Jeu présenté par Fabrice"
+          ],
+          "segments": []
+        },
+        {
+          "time": "19:40",
+          "channel": "Canal+",
+          "title": "TOUT S'ACHÈTE",
+          "description": "Jeu animé par Fabrice",
+          "description_lines": [
+            "Jeu animé par Fabrice"
           ],
           "segments": []
         },
@@ -139893,7 +139721,7 @@
         {
           "time": "22:05",
           "channel": "Canal+",
-          "title": "PLUS BEAU QUE MOI TU MEURS",
+          "title": "PLUS BEAU QUE MOI, TU MEURS",
           "description": "Film franco-tunisien (1982)",
           "description_lines": [
             "Film franco-tunisien (1982)"
@@ -141035,6 +140863,14 @@
             "segments": []
           },
           {
+            "time": "18:25",
+            "channel": "Canal+",
+            "title": "LES AFFAIRES SONT LES AFFAIRES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "18:50",
             "channel": "Canal+",
             "title": "FLASH INFOS",
@@ -141061,12 +140897,32 @@
             "segments": []
           },
           {
+            "time": "19:05",
+            "channel": "Canal+",
+            "title": "ZÉNITH",
+            "description": "Présenté par Michel Denisot",
+            "description_lines": [
+              "Présenté par Michel Denisot"
+            ],
+            "segments": []
+          },
+          {
             "time": "19:35",
             "channel": "Canal+",
             "title": "TOUT S'ACHÈTE",
             "description": "Jeu présenté par Fabrice",
             "description_lines": [
               "Jeu présenté par Fabrice"
+            ],
+            "segments": []
+          },
+          {
+            "time": "19:40",
+            "channel": "Canal+",
+            "title": "TOUT S'ACHÈTE",
+            "description": "Jeu animé par Fabrice",
+            "description_lines": [
+              "Jeu animé par Fabrice"
             ],
             "segments": []
           },
@@ -141111,7 +140967,7 @@
           {
             "time": "22:05",
             "channel": "Canal+",
-            "title": "PLUS BEAU QUE MOI TU MEURS",
+            "title": "PLUS BEAU QUE MOI, TU MEURS",
             "description": "Film franco-tunisien (1982)",
             "description_lines": [
               "Film franco-tunisien (1982)"
@@ -141266,7 +141122,7 @@
     "26-02-1986": {
       "date": "26-02-1986",
       "source": "depot101",
-      "programs_count": 22,
+      "programs_count": 15,
       "night_extension": true,
       "origin_dates": [
         "25-02-1986"
@@ -141372,68 +141228,6 @@
           "time": "17:25",
           "channel": "Canal+",
           "title": "CABOU CADIN",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:25",
-          "channel": "Canal+",
-          "title": "LES AFFAIRES SONT LES AFFAIRES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:05",
-          "channel": "Canal+",
-          "title": "ZÉNITH",
-          "description": "Présenté par Michel Denisot",
-          "description_lines": [
-            "Présenté par Michel Denisot"
-          ],
-          "segments": []
-        },
-        {
-          "time": "19:40",
-          "channel": "Canal+",
-          "title": "TOUT S'ACHÈTE",
-          "description": "Jeu animé par Fabrice",
-          "description_lines": [
-            "Jeu animé par Fabrice"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "Canal+",
-          "title": "TOP 50",
-          "description": "Présenté par Marc Toesca",
-          "description_lines": [
-            "Présenté par Marc Toesca"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "Canal+",
-          "title": "VIVE LES FEMMES !",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:05",
-          "channel": "Canal+",
-          "title": "PLUS BEAU QUE MOI, TU MEURS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:50",
-          "channel": "Canal+",
-          "title": "L'HOMME AU BRAS D'OR",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -141578,68 +141372,6 @@
             "description": "",
             "description_lines": [],
             "segments": []
-          },
-          {
-            "time": "18:25",
-            "channel": "Canal+",
-            "title": "LES AFFAIRES SONT LES AFFAIRES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:05",
-            "channel": "Canal+",
-            "title": "ZÉNITH",
-            "description": "Présenté par Michel Denisot",
-            "description_lines": [
-              "Présenté par Michel Denisot"
-            ],
-            "segments": []
-          },
-          {
-            "time": "19:40",
-            "channel": "Canal+",
-            "title": "TOUT S'ACHÈTE",
-            "description": "Jeu animé par Fabrice",
-            "description_lines": [
-              "Jeu animé par Fabrice"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "Canal+",
-            "title": "TOP 50",
-            "description": "Présenté par Marc Toesca",
-            "description_lines": [
-              "Présenté par Marc Toesca"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "Canal+",
-            "title": "VIVE LES FEMMES !",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:05",
-            "channel": "Canal+",
-            "title": "PLUS BEAU QUE MOI, TU MEURS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:50",
-            "channel": "Canal+",
-            "title": "L'HOMME AU BRAS D'OR",
-            "description": "",
-            "description_lines": [],
-            "segments": []
           }
         ],
         "La Cinq": [
@@ -141679,7 +141411,7 @@
     "26-06-1986": {
       "date": "26-06-1986",
       "source": "depot101",
-      "programs_count": 107,
+      "programs_count": 106,
       "night_extension": true,
       "origin_dates": [
         "25-06-1986",
@@ -142086,6 +141818,14 @@
           "segments": []
         },
         {
+          "time": "23:55",
+          "channel": "Antenne 2",
+          "title": "FIN DES ÉMISSIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "00:00",
           "channel": "FR3",
           "title": "LA CLE DES NOMBRES ET DES TAROTS",
@@ -142353,14 +142093,6 @@
           "segments": []
         },
         {
-          "time": "19:45",
-          "channel": "FR3",
-          "title": "TOUT S'ACHETE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:55",
           "channel": "FR3",
           "title": "LES ENTRECHATS",
@@ -142374,8 +142106,8 @@
           "title": "LES NOUVEAUX JEUX DE 20 HEURES",
           "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
           "description_lines": [
-            "Jeu animé par Philippe Risoli",
-            "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+            "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+            "Jeu animé par Philippe Risoli"
           ],
           "segments": []
         },
@@ -142392,23 +142124,15 @@
         {
           "time": "20:35",
           "channel": "FR3",
-          "title": "CINÉMA DANS LES SALLES",
+          "title": "DAVID, THOMAS ET LES AUTRES",
           "description": "",
           "description_lines": [],
           "segments": []
         },
         {
-          "time": "21:00",
+          "time": "22:20",
           "channel": "FR3",
-          "title": "DROLE DE SAMEDI",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:30",
-          "channel": "FR3",
-          "title": "JUSTICE POUR TOUS",
+          "title": "ZOMBIE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -143080,6 +142804,14 @@
               "Chroniques heureuses de la démerde"
             ],
             "segments": []
+          },
+          {
+            "time": "23:55",
+            "channel": "Antenne 2",
+            "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
           }
         ],
         "FR3": [
@@ -143351,14 +143083,6 @@
             "segments": []
           },
           {
-            "time": "19:45",
-            "channel": "FR3",
-            "title": "TOUT S'ACHETE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:55",
             "channel": "FR3",
             "title": "LES ENTRECHATS",
@@ -143372,8 +143096,8 @@
             "title": "LES NOUVEAUX JEUX DE 20 HEURES",
             "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
             "description_lines": [
-              "Jeu animé par Philippe Risoli",
-              "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+              "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+              "Jeu animé par Philippe Risoli"
             ],
             "segments": []
           },
@@ -143390,23 +143114,15 @@
           {
             "time": "20:35",
             "channel": "FR3",
-            "title": "CINÉMA DANS LES SALLES",
+            "title": "DAVID, THOMAS ET LES AUTRES",
             "description": "",
             "description_lines": [],
             "segments": []
           },
           {
-            "time": "21:00",
+            "time": "22:20",
             "channel": "FR3",
-            "title": "DROLE DE SAMEDI",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:30",
-            "channel": "FR3",
-            "title": "JUSTICE POUR TOUS",
+            "title": "ZOMBIE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -145869,7 +145585,7 @@
     "27-06-1986": {
       "date": "27-06-1986",
       "source": "depot101",
-      "programs_count": 130,
+      "programs_count": 124,
       "night_extension": true,
       "origin_dates": [
         "26-06-1986",
@@ -146253,14 +145969,6 @@
           "segments": []
         },
         {
-          "time": "23:55",
-          "channel": "Antenne 2",
-          "title": "FIN DES ÉMISSIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "00:01",
           "channel": "FR3",
           "title": "LA CLE DES NOMBRES ET DES TAROTS",
@@ -146458,50 +146166,12 @@
           "segments": []
         },
         {
-          "time": "18:00",
-          "channel": "FR3",
-          "title": "DANCIN' DAYS",
-          "description": "Série brésilienne",
-          "description_lines": [
-            "Série brésilienne"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "FR3",
-          "title": "TOP 50",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "FR3",
-          "title": "MAXI-TÊTE",
-          "description": "Présenté par Sophie Favier",
-          "description_lines": [
-            "Présenté par Sophie Favier"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "FR3",
           "title": "LE 19/20 DE L'INFORMATION",
           "description": "Journal présenté par Henri Sannier et Ghislaine Ottenheimer",
           "description_lines": [
             "Journal présenté par Henri Sannier et Ghislaine Ottenheimer"
-          ],
-          "segments": []
-        },
-        {
-          "time": "19:05",
-          "channel": "FR3",
-          "title": "ZÉNITH",
-          "description": "Présenté par Michel Denisot",
-          "description_lines": [
-            "Présenté par Michel Denisot"
           ],
           "segments": []
         },
@@ -146519,7 +146189,6 @@
           "title": "LES NOUVEAUX JEUX DE 20 HEURES",
           "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
           "description_lines": [
-            "Jeu animé par Philippe Risoli",
             "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
           ],
           "segments": []
@@ -146527,7 +146196,7 @@
         {
           "time": "20:35",
           "channel": "FR3",
-          "title": "DAVID, THOMAS ET LES AUTRES",
+          "title": "HISTOIRES SINGULIERES",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -146536,14 +146205,6 @@
           "time": "21:35",
           "channel": "FR3",
           "title": "TAXI",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:20",
-          "channel": "FR3",
-          "title": "ZOMBIE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -147412,14 +147073,6 @@
             "description": "",
             "description_lines": [],
             "segments": []
-          },
-          {
-            "time": "23:55",
-            "channel": "Antenne 2",
-            "title": "FIN DES ÉMISSIONS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
           }
         ],
         "FR3": [
@@ -147621,50 +147274,12 @@
             "segments": []
           },
           {
-            "time": "18:00",
-            "channel": "FR3",
-            "title": "DANCIN' DAYS",
-            "description": "Série brésilienne",
-            "description_lines": [
-              "Série brésilienne"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "FR3",
-            "title": "TOP 50",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "FR3",
-            "title": "MAXI-TÊTE",
-            "description": "Présenté par Sophie Favier",
-            "description_lines": [
-              "Présenté par Sophie Favier"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "FR3",
             "title": "LE 19/20 DE L'INFORMATION",
             "description": "Journal présenté par Henri Sannier et Ghislaine Ottenheimer",
             "description_lines": [
               "Journal présenté par Henri Sannier et Ghislaine Ottenheimer"
-            ],
-            "segments": []
-          },
-          {
-            "time": "19:05",
-            "channel": "FR3",
-            "title": "ZÉNITH",
-            "description": "Présenté par Michel Denisot",
-            "description_lines": [
-              "Présenté par Michel Denisot"
             ],
             "segments": []
           },
@@ -147682,7 +147297,6 @@
             "title": "LES NOUVEAUX JEUX DE 20 HEURES",
             "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
             "description_lines": [
-              "Jeu animé par Philippe Risoli",
               "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
             ],
             "segments": []
@@ -147690,7 +147304,7 @@
           {
             "time": "20:35",
             "channel": "FR3",
-            "title": "DAVID, THOMAS ET LES AUTRES",
+            "title": "HISTOIRES SINGULIERES",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -147699,14 +147313,6 @@
             "time": "21:35",
             "channel": "FR3",
             "title": "TAXI",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:20",
-            "channel": "FR3",
-            "title": "ZOMBIE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -160865,7 +160471,7 @@
     "29-12-1986": {
       "date": "29-12-1986",
       "source": "depot101",
-      "programs_count": 133,
+      "programs_count": 134,
       "night_extension": true,
       "origin_dates": [
         "28-12-1986",
@@ -161888,7 +161494,8 @@
           "title": "ZÉNITH - SPÉCIAL CHINE",
           "description": "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman",
           "description_lines": [
-            "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman"
+            "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman",
+            "Présenté par Michel Denisot"
           ],
           "segments": []
         },
@@ -162139,6 +161746,14 @@
           "segments": []
         },
         {
+          "time": "20:30",
+          "channel": "La Cinq",
+          "title": "DYNASTIE II",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "20:35",
           "channel": "La Cinq",
           "title": "DYNASTIE II - EPISODES 23 ET 24",
@@ -162152,9 +161767,10 @@
           "time": "22:15",
           "channel": "La Cinq",
           "title": "INSPECTEUR DERRICK - NOSTALGIE",
-          "description": "Série allemande",
+          "description": "Série policière allemande",
           "description_lines": [
-            "Série allemande"
+            "Série allemande",
+            "Série policière allemande"
           ],
           "segments": []
         },
@@ -163281,7 +162897,8 @@
             "title": "ZÉNITH - SPÉCIAL CHINE",
             "description": "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman",
             "description_lines": [
-              "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman"
+              "Présenté par Michel Denisot. Invités : France Gall, Michel Berger, Jean-Jacques Goldman",
+              "Présenté par Michel Denisot"
             ],
             "segments": []
           },
@@ -163534,6 +163151,14 @@
             "segments": []
           },
           {
+            "time": "20:30",
+            "channel": "La Cinq",
+            "title": "DYNASTIE II",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "20:35",
             "channel": "La Cinq",
             "title": "DYNASTIE II - EPISODES 23 ET 24",
@@ -163547,9 +163172,10 @@
             "time": "22:15",
             "channel": "La Cinq",
             "title": "INSPECTEUR DERRICK - NOSTALGIE",
-            "description": "Série allemande",
+            "description": "Série policière allemande",
             "description_lines": [
-              "Série allemande"
+              "Série allemande",
+              "Série policière allemande"
             ],
             "segments": []
           },
@@ -168253,7 +167879,7 @@
     "30-12-1986": {
       "date": "30-12-1986",
       "source": "depot101",
-      "programs_count": 23,
+      "programs_count": 16,
       "night_extension": true,
       "origin_dates": [
         "29-12-1986"
@@ -168368,40 +167994,6 @@
           "segments": []
         },
         {
-          "time": "18:05",
-          "channel": "Canal+",
-          "title": "SANDWICH",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:15",
-          "channel": "Canal+",
-          "title": "ZÉNITH",
-          "description": "Présenté par Michel Denisot",
-          "description_lines": [
-            "Présenté par Michel Denisot"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "Canal+",
-          "title": "SCOUT TOUJOURS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:15",
-          "channel": "Canal+",
-          "title": "DANS LE SECRET DES BLEUS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "00:30",
           "channel": "La Cinq",
           "title": "DYNASTIE II - EPISODES 23 ET 24",
@@ -168425,32 +168017,6 @@
           "time": "03:05",
           "channel": "La Cinq",
           "title": "FIN DES ÉMISSIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "La Cinq",
-          "title": "DYNASTIE II",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:15",
-          "channel": "La Cinq",
-          "title": "INSPECTEUR DERRICK",
-          "description": "Série policière allemande",
-          "description_lines": [
-            "Série policière allemande"
-          ],
-          "segments": []
-        },
-        {
-          "time": "23:30",
-          "channel": "La Cinq",
-          "title": "LOU GRANT",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -168567,40 +168133,6 @@
             "description": "",
             "description_lines": [],
             "segments": []
-          },
-          {
-            "time": "18:05",
-            "channel": "Canal+",
-            "title": "SANDWICH",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:15",
-            "channel": "Canal+",
-            "title": "ZÉNITH",
-            "description": "Présenté par Michel Denisot",
-            "description_lines": [
-              "Présenté par Michel Denisot"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "Canal+",
-            "title": "SCOUT TOUJOURS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:15",
-            "channel": "Canal+",
-            "title": "DANS LE SECRET DES BLEUS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
           }
         ],
         "La Cinq": [
@@ -168628,32 +168160,6 @@
             "time": "03:05",
             "channel": "La Cinq",
             "title": "FIN DES ÉMISSIONS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "La Cinq",
-            "title": "DYNASTIE II",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:15",
-            "channel": "La Cinq",
-            "title": "INSPECTEUR DERRICK",
-            "description": "Série policière allemande",
-            "description_lines": [
-              "Série policière allemande"
-            ],
-            "segments": []
-          },
-          {
-            "time": "23:30",
-            "channel": "La Cinq",
-            "title": "LOU GRANT",
             "description": "",
             "description_lines": [],
             "segments": []

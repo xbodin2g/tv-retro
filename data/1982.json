@@ -63034,7 +63034,7 @@
     "27-12-1982": {
       "date": "27-12-1982",
       "source": "depot101",
-      "programs_count": 52,
+      "programs_count": 53,
       "night_extension": true,
       "origin_dates": [
         "26-12-1982",
@@ -63172,8 +63172,10 @@
           "time": "18:00",
           "channel": "TF1",
           "title": "EMPREINTES - IMAGES OFFICIELLES",
-          "description": "",
-          "description_lines": [],
+          "description": "Images officielles de Franco Contini",
+          "description_lines": [
+            "Images officielles de Franco Contini"
+          ],
           "segments": []
         },
         {
@@ -63203,10 +63205,11 @@
         {
           "time": "18:50",
           "channel": "TF1",
-          "title": "HISTOIRE D'EN RIRE",
+          "title": "HISTOIRE D'EN RIRE - BERNARD HALLER",
           "description": "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
           "description_lines": [
-            "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller"
+            "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
+            "Emission présentée par Christian Morin"
           ],
           "segments": []
         },
@@ -63229,7 +63232,7 @@
         {
           "time": "19:45",
           "channel": "TF1",
-          "title": "S'IL VOUS PLAÎT",
+          "title": "S'IL VOUS PLAÎT - LE SPLENDID",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -63245,10 +63248,21 @@
         {
           "time": "20:35",
           "channel": "TF1",
-          "title": "CE FUT UN BEL ÉTÉ - 1ÈRE PARTIE",
-          "description": "Téléfilm en 2 parties",
+          "title": "CE FUT UN BEL ETE - PREMIÈRE PARTIE : L'INTRUS",
+          "description": "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
           "description_lines": [
-            "Téléfilm en 2 parties"
+            "Téléfilm en 2 parties",
+            "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent."
+          ],
+          "segments": []
+        },
+        {
+          "time": "22:00",
+          "channel": "TF1",
+          "title": "LORD JIM",
+          "description": "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie...",
+          "description_lines": [
+            "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie..."
           ],
           "segments": []
         },
@@ -63826,8 +63840,10 @@
             "time": "18:00",
             "channel": "TF1",
             "title": "EMPREINTES - IMAGES OFFICIELLES",
-            "description": "",
-            "description_lines": [],
+            "description": "Images officielles de Franco Contini",
+            "description_lines": [
+              "Images officielles de Franco Contini"
+            ],
             "segments": []
           },
           {
@@ -63857,10 +63873,11 @@
           {
             "time": "18:50",
             "channel": "TF1",
-            "title": "HISTOIRE D'EN RIRE",
+            "title": "HISTOIRE D'EN RIRE - BERNARD HALLER",
             "description": "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
             "description_lines": [
-              "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller"
+              "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
+              "Emission présentée par Christian Morin"
             ],
             "segments": []
           },
@@ -63883,7 +63900,7 @@
           {
             "time": "19:45",
             "channel": "TF1",
-            "title": "S'IL VOUS PLAÎT",
+            "title": "S'IL VOUS PLAÎT - LE SPLENDID",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -63899,10 +63916,21 @@
           {
             "time": "20:35",
             "channel": "TF1",
-            "title": "CE FUT UN BEL ÉTÉ - 1ÈRE PARTIE",
-            "description": "Téléfilm en 2 parties",
+            "title": "CE FUT UN BEL ETE - PREMIÈRE PARTIE : L'INTRUS",
+            "description": "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
             "description_lines": [
-              "Téléfilm en 2 parties"
+              "Téléfilm en 2 parties",
+              "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent."
+            ],
+            "segments": []
+          },
+          {
+            "time": "22:00",
+            "channel": "TF1",
+            "title": "LORD JIM",
+            "description": "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie...",
+            "description_lines": [
+              "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie..."
             ],
             "segments": []
           },
@@ -66424,7 +66452,7 @@
     "28-12-1982": {
       "date": "28-12-1982",
       "source": "depot101",
-      "programs_count": 63,
+      "programs_count": 61,
       "night_extension": true,
       "origin_dates": [
         "27-12-1982",
@@ -66619,16 +66647,6 @@
           "segments": []
         },
         {
-          "time": "18:00",
-          "channel": "TF1",
-          "title": "EMPREINTES - LA PHOTOGRAPHIE",
-          "description": "Images officielles de Franco Contini",
-          "description_lines": [
-            "Images officielles de Franco Contini"
-          ],
-          "segments": []
-        },
-        {
           "time": "18:10",
           "channel": "TF1",
           "title": "L'ENTREE EN PISTE DES 3 DERNIERS BOUGLIONE",
@@ -66651,10 +66669,9 @@
         {
           "time": "18:50",
           "channel": "TF1",
-          "title": "HISTOIRE D'EN RIRE - BERNARD HALLER",
+          "title": "HISTOIRE D'EN RIRE",
           "description": "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
           "description_lines": [
-            "Emission présentée par Christian Morin",
             "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller"
           ],
           "segments": []
@@ -66707,21 +66724,10 @@
         {
           "time": "20:35",
           "channel": "TF1",
-          "title": "CE FUT UN BEL ETE - PREMIÈRE PARTIE : L'INTRUS",
-          "description": "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
+          "title": "LA TRAVIATA",
+          "description": "Opéra",
           "description_lines": [
-            "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
             "Opéra"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:00",
-          "channel": "TF1",
-          "title": "LORD JIM",
-          "description": "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie...",
-          "description_lines": [
-            "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie..."
           ],
           "segments": []
         },
@@ -67396,16 +67402,6 @@
             "segments": []
           },
           {
-            "time": "18:00",
-            "channel": "TF1",
-            "title": "EMPREINTES - LA PHOTOGRAPHIE",
-            "description": "Images officielles de Franco Contini",
-            "description_lines": [
-              "Images officielles de Franco Contini"
-            ],
-            "segments": []
-          },
-          {
             "time": "18:10",
             "channel": "TF1",
             "title": "L'ENTREE EN PISTE DES 3 DERNIERS BOUGLIONE",
@@ -67428,10 +67424,9 @@
           {
             "time": "18:50",
             "channel": "TF1",
-            "title": "HISTOIRE D'EN RIRE - BERNARD HALLER",
+            "title": "HISTOIRE D'EN RIRE",
             "description": "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller",
             "description_lines": [
-              "Emission présentée par Christian Morin",
               "Emission de Georges Folgoas. Présenté par Christian Morin. Invité de la semaine : Bernard Haller"
             ],
             "segments": []
@@ -67484,21 +67479,10 @@
           {
             "time": "20:35",
             "channel": "TF1",
-            "title": "CE FUT UN BEL ETE - PREMIÈRE PARTIE : L'INTRUS",
-            "description": "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
+            "title": "LA TRAVIATA",
+            "description": "Opéra",
             "description_lines": [
-              "Téléfilm en deux parties réalisé par Jean Chapot. Avec Krystina Janda, Bruno Cremer, Maurice Ronet. Au cours de l'été 1939, à la veille de la guerre, dans une somptueuse villa à l'atmosphère très aristocratique, un trio vit un enfer feutré où les passions s'opposent.",
               "Opéra"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:00",
-            "channel": "TF1",
-            "title": "LORD JIM",
-            "description": "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie...",
-            "description_lines": [
-              "Film de Richard Brooks (1965), d'après le roman de Joseph Conrad. Avec Peter O'Toole, James Mason, Curt Jurgens, Eli Wallach, Daliah Lavi. Jim, un jeune lieutenant de la marine, embarque sur un bateau qui transporte 800 musulmans. Une tempête sème la panique, Jim s'enfuit, gagné par la peur... Il devra payer sa lâcheté toute sa vie..."
             ],
             "segments": []
           },
