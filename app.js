@@ -36,6 +36,7 @@ const CHANNEL_ORDER = [
     'FR3',
     'Canal+',
     'La Cinq',
+    'TV6', 
     'M6',
     'Arte',
     'France 2',
@@ -58,6 +59,7 @@ const CHANNEL_ALIASES = {
     'LA5': 'La Cinq',
     'LA CINQ': 'La Cinq',
     'CINQ': 'La Cinq',
+    'TV6': 'TV6', 
     'M6': 'M6',
     'ARTE': 'Arte',
     'FRANCE 5': 'France 5'
