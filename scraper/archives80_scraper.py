@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Scraper pour Archives80 - Structure corrigée
+Scraper optimisé pour Archives80
 """
 
 import cloudscraper
@@ -15,6 +15,13 @@ from typing import List, Dict, Optional
 
 class Archives80Scraper:
     BASE_URL = "https://www.archives80.com/tele/grille/date"
+    GRILLES_URL = "https://www.archives80.com/tele/grilles/an"
+    
+    MONTHS = {
+        'janvier': 1, 'février': 2, 'fevrier': 2, 'mars': 3, 'avril': 4,
+        'mai': 5, 'juin': 6, 'juillet': 7, 'août': 8, 'aout': 8,
+        'septembre': 9, 'octobre': 10, 'novembre': 11, 'décembre': 12, 'decembre': 12
+    }
     
     def __init__(self, delay: float = 2.0):
         self.delay = delay
@@ -26,36 +33,67 @@ class Archives80Scraper:
             'Accept-Language': 'fr-FR,fr;q=0.9',
         })
     
-    def get_available_years(self) -> List[int]:
-        """Récupère les années disponibles"""
-        return list(range(1980, 1990))
+    def _parse_french_date(self, date_text: str) -> Optional[str]:
+        """Convertit une date française en format JJ-MM-AAAA"""
+        date_text = date_text.lower().strip()
+        
+        # Pattern : "Mardi 1 janvier 1980" ou "Samedi 5 janvier 1980"
+        match = re.search(r'(\d{1,2})\s+(\w+)\s+(\d{4})', date_text)
+        if not match:
+            return None
+        
+        day = int(match.group(1))
+        month_name = match.group(2)
+        year = int(match.group(3))
+        
+        month = self.MONTHS.get(month_name)
+        if not month:
+            return None
+        
+        return f"{day:02d}-{month:02d}-{year}"
     
     def get_available_dates(self, year: int) -> List[str]:
-        """Génère toutes les dates possibles pour l'année"""
-        dates = []
-        
-        for month in range(1, 13):
-            for day in range(1, 32):
-                try:
-                    datetime(year, month, day)
-                    date_str = f"{day:02d}-{month:02d}-{year}"
-                    dates.append(date_str)
-                except ValueError:
-                    continue
-        
-        return dates
+        """Récupère les dates réellement disponibles"""
+        try:
+            url = f"{self.GRILLES_URL}/{year}"
+            print(f"Récupération des dates: {url}")
+            
+            time.sleep(random.uniform(1.0, 2.0))
+            response = self.scraper.get(url, timeout=30)
+            response.raise_for_status()
+            
+            soup = BeautifulSoup(response.text, 'html.parser')
+            text = soup.get_text('\n')
+            
+            dates = []
+            lines = text.split('\n')
+            
+            for line in lines:
+                line = line.strip()
+                # Chercher les lignes avec des jours de la semaine
+                if re.match(r'^(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+\d', line.lower()):
+                    parsed = self._parse_french_date(line)
+                    if parsed:
+                        dates.append(parsed)
+            
+            dates = sorted(list(set(dates)))
+            print(f"✓ {len(dates)} dates trouvées pour {year}")
+            
+            return dates
+            
+        except Exception as e:
+            print(f"❌ Erreur: {e}")
+            return []
     
     def scrape_date(self, date_str: str) -> Optional[Dict]:
         """Scrape les programmes pour une date"""
         try:
             url = f"{self.BASE_URL}/{date_str}"
-            print(f"Scraping: {url}")
             
             time.sleep(random.uniform(1.0, 2.0))
             response = self.scraper.get(url, timeout=30)
             
             if response.status_code == 404:
-                print(f"  ⚠️  Date non disponible: {date_str}")
                 return None
             
             response.raise_for_status()
@@ -66,7 +104,6 @@ class Archives80Scraper:
             programs = self._parse_programs(text)
             
             if not programs:
-                print(f"  ⚠️  Aucun programme trouvé pour {date_str}")
                 return None
             
             return {
@@ -77,7 +114,7 @@ class Archives80Scraper:
             }
             
         except Exception as e:
-            print(f"  ❌ Erreur pour {date_str}: {e}")
+            print(f"  ❌ Erreur: {e}")
             return None
     
     def _parse_programs(self, text: str) -> List[Dict]:
@@ -85,7 +122,6 @@ class Archives80Scraper:
         programs = []
         lines = text.split('\n')
         
-        # Chaînes sur Archives80 (A2 = Antenne 2)
         channel_map = {
             'TF1': 'TF1',
             'A2': 'Antenne 2',
@@ -102,27 +138,22 @@ class Archives80Scraper:
         while i < len(lines):
             line = lines[i].strip()
             
-            # Détecter une nouvelle chaîne
             if line.upper() in channels:
                 current_channel = channel_map[line.upper()]
                 i += 1
                 continue
             
-            # Chercher une heure
             if re.match(r'^\d{2}:\d{2}$', line) and current_channel:
                 time_str = line
                 
-                # Titre sur la ligne suivante
                 i += 1
                 if i < len(lines):
                     title = lines[i].strip()
                     
-                    # Description sur les lignes suivantes
                     description = []
                     i += 1
                     while i < len(lines):
                         next_line = lines[i].strip()
-                        # Arrêter si nouvelle heure, chaîne, ou section
                         if (re.match(r'^\d{2}:\d{2}$', next_line) or 
                             next_line.upper() in channels or
                             next_line.startswith('Autres programmes') or
@@ -145,16 +176,21 @@ class Archives80Scraper:
         return programs
     
     def scrape_year(self, year: int, output_dir: str = 'data/archives80') -> None:
-        """Scrape toutes les dates d'une année"""
+        """Scrape toutes les dates disponibles"""
         os.makedirs(output_dir, exist_ok=True)
         
         dates = self.get_available_dates(year)
-        print(f"Année {year}: {len(dates)} dates à tester")
+        
+        if not dates:
+            print(f"⚠️  Aucune date trouvée pour {year}")
+            return
+        
+        print(f"\n📅 Année {year}: {len(dates)} dates à scraper")
         
         success_count = 0
         
         for i, date_str in enumerate(dates, 1):
-            print(f"[{i}/{len(dates)}] {date_str}...")
+            print(f"[{i}/{len(dates)}] {date_str}...", end=" ")
             
             data = self.scrape_date(date_str)
             if data and data['programs']:
@@ -164,22 +200,20 @@ class Archives80Scraper:
                 with open(filepath, 'w', encoding='utf-8') as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)
                 
-                print(f"  ✓ {len(data['programs'])} programmes")
+                print(f"✓ {len(data['programs'])} prog")
                 success_count += 1
             else:
-                print(f"  ✗ Non disponible ou vide")
+                print("✗ échec")
         
-        print(f"\n✅ Année {year} terminée: {success_count}/{len(dates)} jours scrapés")
+        print(f"\n✅ Année {year}: {success_count}/{len(dates)} jours scrapés\n")
     
     def scrape_all(self, start_year: int = 1980, end_year: int = 1989) -> None:
         """Scrape toutes les années"""
         years = list(range(start_year, end_year + 1))
-        print(f"Scraping de {len(years)} années")
+        print(f"Scraping de {len(years)} années\n")
         
         for year in years:
-            print(f"\n{'='*50}")
-            print(f"Année {year}")
-            print('='*50)
+            print(f"{'='*60}")
             self.scrape_year(year)
 
 if __name__ == '__main__':
