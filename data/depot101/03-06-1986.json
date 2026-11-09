@@ -1,7 +1,7 @@
 {
   "date": "03-06-1986",
   "source": "depot101",
-  "scraped_at": "2026-11-09T19:02:36.306692",
+  "scraped_at": "2026-11-09T20:42:33.834974",
   "programs": [
     {
       "time": "08:25",
@@ -495,36 +495,34 @@
       "time": "01:05",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:05",
       "title": "MÉTÉO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:10",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "MÉTÉO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Pépé le putois Turbolide",
       "description_lines": [
         "Programme jeunesse",
@@ -535,7 +533,7 @@
     {
       "time": "08:00",
       "title": "VIRGINIA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série brésilienne",
       "description_lines": [
         "Série brésilienne"
@@ -544,21 +542,21 @@
     {
       "time": "08:25",
       "title": "MÉTÉO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:30",
       "title": "APRES LA REPETITION",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:40",
       "title": "CINÉMODE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine de la mode",
       "description_lines": [
         "Magazine de la mode"
@@ -567,14 +565,14 @@
     {
       "time": "10:35",
       "title": "LE TIROIR SECRET",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:30",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Robostory",
       "description_lines": [
         "Programme jeunesse",
@@ -584,7 +582,7 @@
     {
       "time": "12:00",
       "title": "LES TRIPLÉS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -593,7 +591,7 @@
     {
       "time": "12:05",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -602,7 +600,7 @@
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Gildas",
       "description_lines": [
         "Présenté par Philippe Gildas"
@@ -611,7 +609,7 @@
     {
       "time": "13:30",
       "title": "VIRGINIA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série brésilienne",
       "description_lines": [
         "Série brésilienne"
@@ -620,7 +618,7 @@
     {
       "time": "14:00",
       "title": "BARBE-BLEUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film",
       "description_lines": [
         "film"
@@ -629,14 +627,14 @@
     {
       "time": "15:55",
       "title": "TRAVAIL AU NOIR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Anna, Ciro et compagnie",
       "description_lines": [
         "Programme jeunesse",
@@ -646,14 +644,14 @@
     {
       "time": "17:55",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:00",
       "title": "DANCIN' DAYS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série brésilienne",
       "description_lines": [
         "Série brésilienne"
@@ -662,7 +660,7 @@
     {
       "time": "18:25",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -671,7 +669,7 @@
     {
       "time": "18:55",
       "title": "MAXI-TÊTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Sophie Favier",
       "description_lines": [
         "Présenté par Sophie Favier"
@@ -680,14 +678,14 @@
     {
       "time": "19:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:05",
       "title": "ZÉNITH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -696,14 +694,14 @@
     {
       "time": "19:50",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:55",
       "title": "LES TRIPLÉS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -712,7 +710,7 @@
     {
       "time": "20:00",
       "title": "MAXI-TÊTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Sophie Favier",
       "description_lines": [
         "Présenté par Sophie Favier"
@@ -721,7 +719,7 @@
     {
       "time": "20:05",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu animé par Philippe Risoli",
       "description_lines": [
         "Jeu animé par Philippe Risoli"
@@ -730,7 +728,7 @@
     {
       "time": "20:30",
       "title": "MAXI-TÊTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Sophie Favier",
       "description_lines": [
         "Présenté par Sophie Favier"
@@ -739,35 +737,35 @@
     {
       "time": "20:35",
       "title": "LE PROFESSIONNEL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:25",
       "title": "COUP DE COEUR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:10",
       "title": "L'ETOILE DU NORD",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:10",
       "title": "HOLLYWOOD BLUES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -776,16 +774,14 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "08:00",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -794,14 +790,14 @@
     {
       "time": "08:45",
       "title": "LA DERNIERE CARTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "LA CINQUIÈME DIMENSION",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -810,7 +806,7 @@
     {
       "time": "11:15",
       "title": "C'EST BEAU LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Alain Gillot-Pétré",
       "description_lines": [
         "Présenté par Alain Gillot-Pétré"
@@ -819,7 +815,7 @@
     {
       "time": "12:00",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -828,14 +824,14 @@
     {
       "time": "13:00",
       "title": "LA DERNIERE CARTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:45",
       "title": "LA CINQUIÈME DIMENSION",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -844,7 +840,7 @@
     {
       "time": "15:30",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -853,14 +849,14 @@
     {
       "time": "16:15",
       "title": "LA DERNIERE CARTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:00",
       "title": "LA CINQUIÈME DIMENSION",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -869,7 +865,7 @@
     {
       "time": "18:45",
       "title": "C'EST BEAU LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Alain Gillot-Pétré",
       "description_lines": [
         "Présenté par Alain Gillot-Pétré"
@@ -878,14 +874,14 @@
     {
       "time": "19:30",
       "title": "A FOND LA CAISSE : K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "FLAMINGO ROAD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -894,7 +890,7 @@
     {
       "time": "21:25",
       "title": "ARABESQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -903,7 +899,7 @@
     {
       "time": "22:10",
       "title": "JONATHAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Olivier de Kersauson",
       "description_lines": [
         "Présenté par Olivier de Kersauson"
@@ -912,7 +908,7 @@
     {
       "time": "23:00",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -921,7 +917,7 @@
     {
       "time": "00:00",
       "title": "FLAMINGO ROAD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -930,7 +926,7 @@
     {
       "time": "00:55",
       "title": "ARABESQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -939,7 +935,7 @@
     {
       "time": "01:50",
       "title": "JONATHAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Olivier de Kersauson",
       "description_lines": [
         "Présenté par Olivier de Kersauson"
@@ -948,7 +944,7 @@
     {
       "time": "02:30",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -957,23 +953,21 @@
     {
       "time": "03:30",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "TV6",
-      "description_lines": [
-        "TV6"
-      ]
+      "channel": "La Cinq",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "TONIC 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:00",
       "title": "SYSTEME 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Présenté par Isabelle et Childéric",
       "description_lines": [
         "Présenté par Isabelle et Childéric"
@@ -982,7 +976,7 @@
     {
       "time": "19:00",
       "title": "NRJ 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Le hit-parade d'NRJ",
       "description_lines": [
         "Le hit-parade d'NRJ"
@@ -991,14 +985,14 @@
     {
       "time": "20:00",
       "title": "TONIC 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:00",
       "title": "NRJ 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Le hit-parade d'NRJ",
       "description_lines": [
         "Le hit-parade d'NRJ"
@@ -1007,7 +1001,7 @@
     {
       "time": "00:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "",
       "description_lines": []
     }

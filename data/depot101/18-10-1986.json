@@ -1,7 +1,7 @@
 {
   "date": "18-10-1986",
   "source": "depot101",
-  "scraped_at": "2026-11-09T19:03:50.811131",
+  "scraped_at": "2026-11-09T20:46:12.517930",
   "programs": [
     {
       "time": "08:00",
@@ -540,15 +540,13 @@
       "time": "23:55",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -557,7 +555,7 @@
     {
       "time": "07:55",
       "title": "CISCO KID",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série western américaine",
       "description_lines": [
         "Série western américaine"
@@ -566,7 +564,7 @@
     {
       "time": "08:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Canaille Plus",
       "description_lines": [
         "Programme jeunesse",
@@ -576,21 +574,21 @@
     {
       "time": "08:50",
       "title": "LES RISQUES DE L'AVENTURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:20",
       "title": "LE QUATRIEME POUVOIR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "LE CROC-NOTE SHOW",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série animée",
       "description_lines": [
         "Série animée"
@@ -599,28 +597,28 @@
     {
       "time": "12:05",
       "title": "LES WUZZLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "SAMEDI, 1 HEURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine d'actualité",
       "description_lines": [
         "Magazine d'actualité"
@@ -629,14 +627,14 @@
     {
       "time": "14:00",
       "title": "UNE VIE COMME JE VEUX",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:30",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Cadichon ou les Mémoires d'un ane Ferdy",
       "description_lines": [
         "Programme jeunesse",
@@ -647,7 +645,7 @@
     {
       "time": "16:20",
       "title": "FLASH GORDON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -656,7 +654,7 @@
     {
       "time": "16:35",
       "title": "MIKE HAMMER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -665,28 +663,28 @@
     {
       "time": "17:25",
       "title": "ANIMAUX DU SOLEIL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:50",
       "title": "IMPLOSION TROIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -695,79 +693,77 @@
     {
       "time": "20:30",
       "title": "LES AVENTURES DU NOUVEAU MONDE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:20",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:10",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:20",
       "title": "HALLOWEEN II",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:50",
       "title": "SPECIAL MINI-PORNOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:20",
       "title": "LA CHAIR ET LE SANG",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:25",
       "title": "L'EMPRISE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:30",
       "title": "CHRISTINE",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "08:10",
       "title": "SHÉRIF, FAIS-MOI PEUR !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:50",
       "title": "RIPTIDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -776,7 +772,7 @@
     {
       "time": "10:40",
       "title": "THRILLER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série fantastique britannique",
       "description_lines": [
         "Série fantastique britannique"
@@ -785,7 +781,7 @@
     {
       "time": "11:50",
       "title": "KOJAK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -794,7 +790,7 @@
     {
       "time": "12:40",
       "title": "RIPTIDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -803,7 +799,7 @@
     {
       "time": "13:30",
       "title": "ARABESQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -812,7 +808,7 @@
     {
       "time": "14:20",
       "title": "THRILLER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série fantastique britannique",
       "description_lines": [
         "Série fantastique britannique"
@@ -821,7 +817,7 @@
     {
       "time": "15:30",
       "title": "KOJAK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -830,7 +826,7 @@
     {
       "time": "16:20",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -839,14 +835,14 @@
     {
       "time": "17:10",
       "title": "SHÉRIF, FAIS-MOI PEUR !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:00",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -855,14 +851,14 @@
     {
       "time": "19:40",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "THRILLER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série fantastique britannique",
       "description_lines": [
         "Série fantastique britannique"
@@ -871,7 +867,7 @@
     {
       "time": "21:40",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -880,7 +876,7 @@
     {
       "time": "22:30",
       "title": "FOOTBALL AMERICAIN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Commenté par Roger Zabel",
       "description_lines": [
         "Commenté par Roger Zabel"
@@ -889,7 +885,7 @@
     {
       "time": "23:40",
       "title": "THRILLER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série fantastique britannique",
       "description_lines": [
         "Série fantastique britannique"
@@ -898,7 +894,7 @@
     {
       "time": "00:50",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -907,7 +903,7 @@
     {
       "time": "01:40",
       "title": "FOOTBALL AMERICAIN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Commenté par Roger Zabel",
       "description_lines": [
         "Commenté par Roger Zabel"
@@ -916,16 +912,14 @@
     {
       "time": "02:50",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "TV6",
-      "description_lines": [
-        "TV6"
-      ]
+      "channel": "La Cinq",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "6 TONIC",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Clips, extraits de films et de concerts",
       "description_lines": [
         "Clips, extraits de films et de concerts"
@@ -934,7 +928,7 @@
     {
       "time": "17:00",
       "title": "SYSTEME 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Présenté par Isabelle Duhamel et Childéric Muller",
       "description_lines": [
         "Présenté par Isabelle Duhamel et Childéric Muller"
@@ -943,7 +937,7 @@
     {
       "time": "19:00",
       "title": "NRJ 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Le hit-parade d'NRJ",
       "description_lines": [
         "Le hit-parade d'NRJ"
@@ -952,7 +946,7 @@
     {
       "time": "21:00",
       "title": "6 TONIC",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Clips, extraits de films et de concerts",
       "description_lines": [
         "Clips, extraits de films et de concerts"
@@ -961,7 +955,7 @@
     {
       "time": "22:00",
       "title": "NRJ 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Le hit-parade d'NRJ",
       "description_lines": [
         "Le hit-parade d'NRJ"
@@ -970,7 +964,7 @@
     {
       "time": "23:00",
       "title": "LIVE 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Madonna en concert",
       "description_lines": [
         "Madonna en concert"
@@ -979,7 +973,7 @@
     {
       "time": "00:00",
       "title": "6 TONIC",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Clips, extraits de films et de concerts",
       "description_lines": [
         "Clips, extraits de films et de concerts"
@@ -988,7 +982,7 @@
     {
       "time": "01:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "",
       "description_lines": []
     }
