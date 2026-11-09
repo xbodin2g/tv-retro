@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tv-retro-v4';
+const CACHE_NAME = 'tv-retro-v6';
 
 const urlsToCache = [
     './',
@@ -36,11 +36,9 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     const url = new URL(event.request.url);
 
-    // On retire les paramètres de requête pour le cache des JSON
     const cacheUrl = new URL(event.request.url);
     cacheUrl.search = '';
 
-    // Réseau d'abord pour les fichiers importants et les données JSON
     const networkFirstTypes = [
         '.html',
         '.js',
@@ -71,7 +69,6 @@ self.addEventListener('fetch', event => {
         return;
     }
 
-    // Cache d'abord pour les autres ressources
     event.respondWith(
         caches.match(cacheUrl)
             .then(response => {
@@ -80,7 +77,11 @@ self.addEventListener('fetch', event => {
                 }
 
                 return fetch(event.request).then(networkResponse => {
-                    if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+                    if (
+                        !networkResponse ||
+                        networkResponse.status !== 200 ||
+                        networkResponse.type !== 'basic'
+                    ) {
                         return networkResponse;
                     }
 
