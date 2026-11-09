@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tv-retro-v3';
+const CACHE_NAME = 'tv-retro-v4';
 
 const urlsToCache = [
     './',
@@ -36,28 +36,44 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
     const url = new URL(event.request.url);
 
-    // Pour les données JSON, toujours essayer le réseau d'abord
-    if (url.pathname.includes('/data/') || url.pathname.endsWith('.json')) {
+    // On retire les paramètres de requête pour le cache des JSON
+    const cacheUrl = new URL(event.request.url);
+    cacheUrl.search = '';
+
+    // Réseau d'abord pour les fichiers importants et les données JSON
+    const networkFirstTypes = [
+        '.html',
+        '.js',
+        '.css',
+        '.json',
+        '.webmanifest'
+    ];
+
+    const shouldNetworkFirst =
+        event.request.mode === 'navigate' ||
+        networkFirstTypes.some(type => url.pathname.endsWith(type));
+
+    if (shouldNetworkFirst) {
         event.respondWith(
             fetch(event.request)
                 .then(response => {
                     const responseClone = response.clone();
 
                     caches.open(CACHE_NAME).then(cache => {
-                        cache.put(event.request, responseClone);
+                        cache.put(cacheUrl, responseClone);
                     });
 
                     return response;
                 })
-                .catch(() => caches.match(event.request))
+                .catch(() => caches.match(cacheUrl))
         );
 
         return;
     }
 
-    // Pour le reste, cache d'abord
+    // Cache d'abord pour les autres ressources
     event.respondWith(
-        caches.match(event.request)
+        caches.match(cacheUrl)
             .then(response => {
                 if (response) {
                     return response;
@@ -71,7 +87,7 @@ self.addEventListener('fetch', event => {
                     const responseClone = networkResponse.clone();
 
                     caches.open(CACHE_NAME).then(cache => {
-                        cache.put(event.request, responseClone);
+                        cache.put(cacheUrl, responseClone);
                     });
 
                     return networkResponse;
