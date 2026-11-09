@@ -106,9 +106,9 @@ TIME_RE = re.compile(r"^\d{2}:\d{2}$")
 
 # Pour la correction des programmes passés après minuit.
 # Une heure >= 18h active le mode "nuit" sur la chaîne.
-# Ensuite, seulement les heures < 12h sont basculées au jour suivant.
+# Ensuite, seulement les heures < 05:00 sont basculées au jour suivant.
 OVERNIGHT_EVENING_HOUR = 18
-OVERNIGHT_MORNING_HOUR = 12
+OVERNIGHT_MORNING_HOUR = 5
 
 
 # =====================================================
@@ -435,9 +435,9 @@ def _assign_effective_dates(
 
     Règle stricte :
     - un programme de soirée (>= 18h) ne change pas de jour
-    - seulement les programmes suivants avec heure < 12h sont basculés au jour suivant
+    - seulement les programmes suivants avec heure < 05:00 sont basculés au jour suivant
     - exemple : 20:30, 22:00, 23:59 restent la veille
-    - exemple : 00:10, 03:05, 06:30 passent au lendemain s'ils sont après la soirée
+    - exemple : 00:10, 03:05, 04:50 passent au lendemain s'ils sont après la soirée
     """
     base_dt = _date_to_datetime(source_date)
     base_date = base_dt.date()
@@ -479,7 +479,7 @@ def _assign_effective_dates(
             state["seen_evening"] = True
             effective_date = state["current_date"]
 
-        # Après un programme de soirée, les heures avant midi sont considérées
+        # Après un programme de soirée, les heures avant 05:00 sont considérées
         # comme étant passées après minuit.
         elif state["seen_evening"] and hour < OVERNIGHT_MORNING_HOUR:
             if state["current_date"] == base_date:
@@ -791,7 +791,7 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT CORRIGÉE")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT 05H")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
