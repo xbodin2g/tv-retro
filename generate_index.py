@@ -4,7 +4,7 @@ Génère l'index des données TV rétro.
 
 - Fusionne depot101 et archives80
 - Supprime les doublons
-- Regroupe par chaîne
+- Détecte les segments / extraits (notamment blocs jeunesse)
 - Produit :
   - data/index.json
   - data/AAAA.json
@@ -16,7 +16,7 @@ import re
 import unicodedata
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 
 # =====================================================
@@ -54,19 +54,62 @@ CHANNEL_ALIASES = {
     "FRANCE 5": "France 5",
 }
 
+YOUTH_KEYWORDS = [
+    "jeunesse",
+    "visiteurs",
+    "club",
+    "dorothee",
+    "youpi",
+    "amuse",
+    "mercredis",
+    "bonbons",
+    "telechat",
+    "recre",
+    "matinale",
+    "ecole est finie",
+    "l ecole est finie",
+]
+
+META_STARTS = (
+    "emission",
+    "presentation",
+    "avec",
+    "produit",
+    "film",
+    "telefilm",
+    "dessin anime",
+    "opera",
+    "jeu",
+    "debate",
+    "debats",
+    "magazine",
+    "reportage",
+    "documentaire",
+    "concert",
+    "journal",
+    "rubrique",
+    "page",
+    "pub",
+    "publicite",
+    "annonce",
+    "annonces",
+    "meteo",
+    "realisation",
+    "mise en scene",
+    "diffusion",
+    "suite",
+    "rediffusion",
+    "prochainement",
+    "coming next",
+    "speakerine",
+)
+
 
 # =====================================================
-# Helpers texte / date / heure / chaîne
+# Helpers
 # =====================================================
 
 def normalize_text(value: Any) -> str:
-    """
-    Normalise un texte pour comparaison :
-    - minuscules
-    - sans accents
-    - sans ponctuation
-    - espaces réduits
-    """
     if value is None:
         return ""
 
@@ -80,10 +123,6 @@ def normalize_text(value: Any) -> str:
 
 
 def normalize_date(date_str: Any) -> Optional[str]:
-    """
-    Normalise une date au format JJ-MM-AAAA.
-    Accepte aussi AAAA-MM-DD, JJ/MM/AAAA, AAAA/MM/DD.
-    """
     if not date_str:
         return None
 
@@ -116,9 +155,6 @@ def normalize_date(date_str: Any) -> Optional[str]:
 
 
 def normalize_time(value: Any) -> str:
-    """
-    Normalise une heure au format HH:MM.
-    """
     if not value:
         return ""
 
@@ -138,10 +174,6 @@ def normalize_time(value: Any) -> str:
 
 
 def canonical_channel(value: Any) -> str:
-    """
-    Retourne un nom de chaîne canonique.
-    Exemple : A2 -> Antenne 2
-    """
     raw = str(value or "").strip()
 
     if not raw:
@@ -159,10 +191,6 @@ def canonical_channel(value: Any) -> str:
 
 
 def channel_rank(channel: str) -> int:
-    """
-    Ordre d'affichage des chaînes.
-    Les chaînes inconnues passent après.
-    """
     try:
         return CHANNEL_ORDER.index(channel)
     except ValueError:
@@ -170,12 +198,6 @@ def channel_rank(channel: str) -> int:
 
 
 def clean_title(value: Any) -> str:
-    """
-    Nettoie un titre.
-    Si le titre est dupliqué sous la forme :
-    'Journal de 13 heures - Journal de 13 heures'
-    on garde seulement la première partie.
-    """
     title = str(value or "").strip()
     title = re.sub(r"\s+", " ", title)
 
@@ -197,37 +219,102 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
-# =====================================================
-# Déduplication / fusion
-# =====================================================
+def is_youth_title(title: str) -> bool:
+    norm = normalize_text(title)
+    return any(keyword in norm for keyword in YOUTH_KEYWORDS)
+
+
+def is_meta_line(line: str) -> bool:
+    norm = normalize_text(line)
+    return any(norm.startswith(prefix) for prefix in META_STARTS)
+
+
+def looks_like_segment(line: str, parent_title: str, youth: bool) -> bool:
+    line = str(line or "").strip()
+    if not line:
+        return False
+
+    norm_line = normalize_text(line)
+    norm_parent = normalize_text(parent_title)
+
+    if not norm_line:
+        return False
+
+    if norm_line == norm_parent:
+        return False
+
+    if is_meta_line(line):
+        return False
+
+    if len(line) < 4:
+        return False
+
+    if youth:
+        return True
+
+    # Hors bloc jeunesse, on est plus prudent :
+    # on garde surtout les lignes de type "Série - Épisode"
+    return bool(re.search(r"\s[-–—]\s", line))
+
+
+def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
+    lines = program.get("description_lines") or []
+    parent_title = program.get("title", "")
+    youth = is_youth_title(parent_title)
+
+    segments: List[Dict[str, Any]] = []
+
+    for idx, line in enumerate(lines):
+        if not looks_like_segment(line, parent_title, youth):
+            continue
+
+        segment_title = clean_title(line)
+        if not segment_title:
+            continue
+
+        if normalize_text(segment_title) == normalize_text(parent_title):
+            continue
+
+        segments.append({
+            "index": idx,
+            "title": segment_title,
+            "raw": line
+        })
+
+    return segments
+
 
 def program_key(time: str, channel: str, title: str) -> str:
-    """
-    Clé de déduplication.
-
-    Règle principale :
-    - même heure + même chaîne = même programme
-
-    Si l'heure manque, on tombe en secours sur :
-    - titre normalisé + chaîne
-    """
     if time:
         return f"{time}|{channel}"
-
     return f"{normalize_text(title)}|{channel}"
 
 
+def merge_unique_lines(existing: List[str], new_lines: List[str]) -> List[str]:
+    seen: Set[str] = {normalize_text(line) for line in existing}
+    merged = list(existing)
+
+    for line in new_lines:
+        norm = normalize_text(line)
+        if norm and norm not in seen:
+            merged.append(line)
+            seen.add(norm)
+
+    return merged
+
+
 def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) -> None:
-    """
-    Fusionne un programme dans le dictionnaire target.
-    Si un programme existe déjà sur le même créneau/chaîne,
-    on garde les informations les plus complètes.
-    """
     time = normalize_time(program.get("time", ""))
     channel = canonical_channel(program.get("channel", ""))
     title = clean_title(program.get("title", ""))
     description = str(program.get("description", "") or "").strip()
     description = re.sub(r"\s+", " ", description)
+
+    description_lines = program.get("description_lines") or []
+    if not isinstance(description_lines, list):
+        description_lines = []
+
+    description_lines = [str(line).strip() for line in description_lines if str(line).strip()]
 
     if not channel:
         channel = "Autres"
@@ -243,20 +330,23 @@ def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) ->
             "channel": channel,
             "title": title,
             "description": description,
+            "description_lines": description_lines,
         }
         return
 
     existing = target[key]
 
-    # Garder le titre le plus complet
     if len(title) > len(existing.get("title", "")):
         existing["title"] = title
 
-    # Garder la description la plus complète
     if len(description) > len(existing.get("description", "")):
         existing["description"] = description
 
-    # Si l'heure manquait mais qu'une nouvelle arrivée a une heure, on la prend
+    existing["description_lines"] = merge_unique_lines(
+        existing.get("description_lines", []),
+        description_lines
+    )
+
     if not existing.get("time") and time:
         existing["time"] = time
 
@@ -296,13 +386,11 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION MAGAZINE")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION SEGMENTS")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
 
-    # Nettoyage optionnel des anciens fichiers date à la racine de data/
-    # Exemple : data/01-01-1980.json
     data_root = Path("data")
     if data_root.exists():
         for stray in data_root.glob("??-??-????.json"):
@@ -357,13 +445,18 @@ def generate_index() -> None:
     print("")
     print(f"✅ Dates uniques retenues : {len(all_dates)}")
 
-    # Regrouper par année
     years: Dict[str, Dict[str, Any]] = {}
 
     for date_str, entry in all_dates.items():
         year = date_str.split("-")[2]
 
-        programs_list = sort_programs(list(entry["programs"].values()))
+        programs_list = list(entry["programs"].values())
+
+        # Enrichissement avec segments
+        for program in programs_list:
+            program["segments"] = build_segments(program)
+
+        programs_list = sort_programs(programs_list)
         channels = group_by_channel(programs_list)
 
         source_label = "+".join(sorted(entry["sources"]))
