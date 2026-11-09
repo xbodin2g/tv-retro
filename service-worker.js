@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tv-retro-v6';
+const CACHE_NAME = 'tv-retro-v8';
 
 const urlsToCache = [
     './',
