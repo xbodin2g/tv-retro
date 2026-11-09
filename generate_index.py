@@ -5,7 +5,7 @@ Génère l'index des données TV rétro.
 Fonctions :
 - fusionne depot101 et archives80
 - supprime les doublons sur date effective + chaîne + heure
-- corrige les programmes de nuit passés après minuit
+- corrige les programmes passés après minuit
 - crée des journées synthétiques si nécessaire
 - conserve les description_lines
 - détecte les extraits / segments des émissions jeunesse
@@ -103,6 +103,12 @@ CHANNEL_REGEX = [
 ]
 
 TIME_RE = re.compile(r"^\d{2}:\d{2}$")
+
+# Pour la correction des programmes passés après minuit.
+# Une heure >= 18h active le mode "nuit" sur la chaîne.
+# Ensuite, seulement les heures < 12h sont basculées au jour suivant.
+OVERNIGHT_EVENING_HOUR = 18
+OVERNIGHT_MORNING_HOUR = 12
 
 
 # =====================================================
@@ -425,17 +431,19 @@ def _assign_effective_dates(
     source_date: str
 ) -> List[Dict[str, Any]]:
     """
-    Réaffecte la date effective des programmes qui passent après minuit.
+    Réaffecte la date effective des programmes passés après minuit.
 
-    Exemple :
-      page du 29-12-1986
-      TF1 20:30 ...
-      TF1 03:05 ...
-
-    Le programme 03:05 devient effectivement du 30-12-1986.
+    Règle stricte :
+    - un programme de soirée (>= 18h) ne change pas de jour
+    - seulement les programmes suivants avec heure < 12h sont basculés au jour suivant
+    - exemple : 20:30, 22:00, 23:59 restent la veille
+    - exemple : 00:10, 03:05, 06:30 passent au lendemain s'ils sont après la soirée
     """
     base_dt = _date_to_datetime(source_date)
-    last_dt_by_channel: Dict[str, datetime] = {}
+    base_date = base_dt.date()
+    next_date = base_date + timedelta(days=1)
+
+    channel_state: Dict[str, Dict[str, Any]] = {}
     enriched: List[Dict[str, Any]] = []
 
     for raw_program in programs:
@@ -451,37 +459,39 @@ def _assign_effective_dates(
         program["channel"] = channel
         program["original_date"] = source_date
 
+        state = channel_state.setdefault(
+            channel,
+            {
+                "current_date": base_date,
+                "seen_evening": False,
+            }
+        )
+
         if not time:
-            program["effective_date"] = source_date
+            program["effective_date"] = state["current_date"].strftime("%d-%m-%Y")
             enriched.append(program)
             continue
 
-        hour, minute = map(int, time.split(":"))
-        candidate_dt = base_dt.replace(hour=hour, minute=minute)
+        hour = int(time.split(":")[0])
 
-        last_dt = last_dt_by_channel.get(channel)
+        # Programme de soirée : on active le mode "nuit", mais on ne le déplace pas.
+        if hour >= OVERNIGHT_EVENING_HOUR:
+            state["seen_evening"] = True
+            effective_date = state["current_date"]
 
-        if last_dt is not None and candidate_dt + timedelta(hours=4) < last_dt:
-            should_shift = False
+        # Après un programme de soirée, les heures avant midi sont considérées
+        # comme étant passées après minuit.
+        elif state["seen_evening"] and hour < OVERNIGHT_MORNING_HOUR:
+            if state["current_date"] == base_date:
+                state["current_date"] = next_date
 
-            # Si on est déjà dans une nuit commencée la veille,
-            # on continue à basculer les heures matinales.
-            if last_dt.date() > base_dt.date():
-                if hour < 12:
-                    should_shift = True
+            effective_date = state["current_date"]
 
-            # Cas classique : 20:30 puis 03:05 sur la même page.
-            elif last_dt.hour >= 18 and hour < 8:
-                should_shift = True
+        # Autres cas : on reste sur la date courante du canal.
+        else:
+            effective_date = state["current_date"]
 
-            if should_shift:
-                while candidate_dt + timedelta(hours=4) < last_dt:
-                    candidate_dt += timedelta(days=1)
-
-        effective_date = candidate_dt.strftime("%d-%m-%Y")
-        program["effective_date"] = effective_date
-
-        last_dt_by_channel[channel] = candidate_dt
+        program["effective_date"] = effective_date.strftime("%d-%m-%Y")
         enriched.append(program)
 
     return enriched
@@ -781,7 +791,7 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT + JEUNESSE")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION NUIT CORRIGÉE")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
