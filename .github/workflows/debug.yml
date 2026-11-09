@@ -1,0 +1,95 @@
+name: 🐛 Debug Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      custom_url:
+        description: 'URL personnalisée à analyser (optionnel)'
+        required: false
+        type: string
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    name: Debug des structures HTML
+    
+    steps:
+      - name: 📥 Checkout du dépôt
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+      
+      - name: 📂 Création du dossier debug
+        run: |
+          mkdir -p debug
+      
+      - name: 🐛 Lancement du debug
+        run: |
+          python debug_scraper.py
+      
+      - name: 🔍 Analyse URL personnalisée
+        if: github.event.inputs.custom_url != ''
+        run: |
+          echo "Analyse de l'URL personnalisée: ${{ github.event.inputs.custom_url }}"
+          python -c "
+          import requests
+          from bs4 import BeautifulSoup
+          import os
+          
+          url = '${{ github.event.inputs.custom_url }}'
+          print(f'Analyse de: {url}')
+          
+          session = requests.Session()
+          session.headers.update({
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          })
+          
+          response = session.get(url, timeout=30)
+          
+          os.makedirs('debug', exist_ok=True)
+          
+          with open('debug/custom_page.html', 'w', encoding='utf-8') as f:
+              f.write(response.text)
+          
+          soup = BeautifulSoup(response.text, 'html.parser')
+          
+          with open('debug/custom_page.txt', 'w', encoding='utf-8') as f:
+              f.write(f'URL: {url}\n')
+              f.write('='*80 + '\n\n')
+              f.write(soup.get_text('\n', strip=True))
+          
+          print('✓ Fichiers créés: debug/custom_page.html et debug/custom_page.txt')
+          "
+      
+      - name: 💾 Commit des fichiers de debug
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add debug/
+          
+          if git diff --staged --quiet; then
+            echo "Aucun changement"
+          else
+            git commit -m "🐛 Debug files - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+      
+      - name: 📋 Résumé
+        if: always()
+        run: |
+          echo "=== FICHIERS DE DEBUG CRÉÉS ==="
+          find debug -type f 2>/dev/null | sort
+          echo ""
+          echo "Pour voir les fichiers:"
+          echo "https://github.com/${{ github.repository }}/tree/main/debug"
