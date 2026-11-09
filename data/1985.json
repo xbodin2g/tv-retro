@@ -81985,7 +81985,7 @@
     "26-01-1985": {
       "date": "26-01-1985",
       "source": "depot101",
-      "programs_count": 86,
+      "programs_count": 85,
       "night_extension": false,
       "origin_dates": [
         "26-01-1985"
@@ -82646,14 +82646,6 @@
               "raw": "Sherlock Holmes - Episode 10"
             }
           ]
-        },
-        {
-          "time": "12:35",
-          "channel": "Canal+",
-          "title": "CABOU CADIN",
-          "description": "",
-          "description_lines": [],
-          "segments": []
         },
         {
           "time": "13:00",
@@ -83485,14 +83477,6 @@
             ]
           },
           {
-            "time": "12:35",
-            "channel": "Canal+",
-            "title": "CABOU CADIN",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "13:00",
             "channel": "Canal+",
             "title": "INFORMATIONS",
@@ -83662,7 +83646,7 @@
     "27-01-1985": {
       "date": "27-01-1985",
       "source": "depot101",
-      "programs_count": 74,
+      "programs_count": 75,
       "night_extension": true,
       "origin_dates": [
         "26-01-1985",
@@ -84288,6 +84272,14 @@
           "description_lines": [
             "Film français (1981)"
           ],
+          "segments": []
+        },
+        {
+          "time": "12:35",
+          "channel": "Canal+",
+          "title": "CABOU CADIN",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -85066,6 +85058,14 @@
             "description_lines": [
               "Film français (1981)"
             ],
+            "segments": []
+          },
+          {
+            "time": "12:35",
+            "channel": "Canal+",
+            "title": "CABOU CADIN",
+            "description": "",
+            "description_lines": [],
             "segments": []
           },
           {

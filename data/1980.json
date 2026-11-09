@@ -58518,7 +58518,7 @@
     "26-05-1980": {
       "date": "26-05-1980",
       "source": "archives80+depot101",
-      "programs_count": 42,
+      "programs_count": 41,
       "night_extension": true,
       "origin_dates": [
         "25-05-1980",
@@ -58534,19 +58534,9 @@
           "segments": []
         },
         {
-          "time": "12:00",
-          "channel": "TF1",
-          "title": "PASSEZ DONC ME VOIR",
-          "description": "Présenté par Philippe Bouvard",
-          "description_lines": [
-            "Présenté par Philippe Bouvard"
-          ],
-          "segments": []
-        },
-        {
           "time": "12:30",
           "channel": "TF1",
-          "title": "LE SECRET DE VALINCOURT",
+          "title": "MIDI-PREMIÈRE",
           "description": "Présenté par Danièle Gilbert",
           "description_lines": [
             "Présenté par Danièle Gilbert"
@@ -58930,19 +58920,9 @@
             "segments": []
           },
           {
-            "time": "12:00",
-            "channel": "TF1",
-            "title": "PASSEZ DONC ME VOIR",
-            "description": "Présenté par Philippe Bouvard",
-            "description_lines": [
-              "Présenté par Philippe Bouvard"
-            ],
-            "segments": []
-          },
-          {
             "time": "12:30",
             "channel": "TF1",
-            "title": "LE SECRET DE VALINCOURT",
+            "title": "MIDI-PREMIÈRE",
             "description": "Présenté par Danièle Gilbert",
             "description_lines": [
               "Présenté par Danièle Gilbert"
@@ -61174,7 +61154,7 @@
     "27-05-1980": {
       "date": "27-05-1980",
       "source": "archives80+depot101",
-      "programs_count": 1,
+      "programs_count": 3,
       "night_extension": true,
       "origin_dates": [
         "26-05-1980"
@@ -61187,6 +61167,24 @@
           "description": "",
           "description_lines": [],
           "segments": []
+        },
+        {
+          "time": "12:00",
+          "channel": "TF1",
+          "title": "PASSEZ DONC ME VOIR",
+          "description": "Présenté par Philippe Bouvard",
+          "description_lines": [
+            "Présenté par Philippe Bouvard"
+          ],
+          "segments": []
+        },
+        {
+          "time": "12:30",
+          "channel": "TF1",
+          "title": "LE SECRET DE VALINCOURT",
+          "description": "",
+          "description_lines": [],
+          "segments": []
         }
       ],
       "channels": {
@@ -61195,6 +61193,24 @@
             "time": "00:05",
             "channel": "TF1",
             "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:00",
+            "channel": "TF1",
+            "title": "PASSEZ DONC ME VOIR",
+            "description": "Présenté par Philippe Bouvard",
+            "description_lines": [
+              "Présenté par Philippe Bouvard"
+            ],
+            "segments": []
+          },
+          {
+            "time": "12:30",
+            "channel": "TF1",
+            "title": "LE SECRET DE VALINCOURT",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -64017,7 +64033,7 @@
         {
           "time": "20:00",
           "channel": "TF1",
-          "title": "JOURNAL",
+          "title": "Journal",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -64351,7 +64367,7 @@
           {
             "time": "20:00",
             "channel": "TF1",
-            "title": "JOURNAL",
+            "title": "Journal",
             "description": "",
             "description_lines": [],
             "segments": []

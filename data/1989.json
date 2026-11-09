@@ -4,7 +4,7 @@
     "01-01-1989": {
       "date": "01-01-1989",
       "source": "depot101",
-      "programs_count": 37,
+      "programs_count": 63,
       "night_extension": true,
       "origin_dates": [
         "31-12-1988"
@@ -329,6 +329,281 @@
           "time": "11:05",
           "channel": "FR3",
           "title": "SPÉCIAL PARIS-DAKAR",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:00",
+          "channel": "FR3",
+          "title": "REPORTERS SPECIAL",
+          "description": "Présenté par Patrick de Carolis",
+          "description_lines": [
+            "Présenté par Patrick de Carolis"
+          ],
+          "segments": []
+        },
+        {
+          "time": "12:30",
+          "channel": "FR3",
+          "title": "CINÉMA DANS LES SALLES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "13:00",
+          "channel": "FR3",
+          "title": "FLASH INFOS",
+          "description": "Présenté par Marie-France Cubadda",
+          "description_lines": [
+            "Présenté par Marie-France Cubadda"
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:05",
+          "channel": "FR3",
+          "title": "SAMEDI, 1 HEURE",
+          "description": "Magazine d'actualité",
+          "description_lines": [
+            "Magazine d'actualité"
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:25",
+          "channel": "FR3",
+          "title": "LE BEST OFF",
+          "description": "Avec Gilles Schneider",
+          "description_lines": [
+            "Avec Gilles Schneider"
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:30",
+          "channel": "FR3",
+          "title": "A FOND LA CAISSE",
+          "description": "CHASSEURS D'OMBRES K2000 Sherif, fais-moi peur !",
+          "description_lines": [
+            "CHASSEURS D'OMBRES",
+            "K2000",
+            "Sherif, fais-moi peur !"
+          ],
+          "segments": []
+        },
+        {
+          "time": "14:00",
+          "channel": "FR3",
+          "title": "LE SERMENT DU SANG",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "15:40",
+          "channel": "FR3",
+          "title": "LES ALLUMÉS DU SPORT",
+          "description": "Documentaire",
+          "description_lines": [
+            "Documentaire"
+          ],
+          "segments": []
+        },
+        {
+          "time": "16:05",
+          "channel": "FR3",
+          "title": "PAIRE D'AS",
+          "description": "Série américaine",
+          "description_lines": [
+            "Série américaine"
+          ],
+          "segments": []
+        },
+        {
+          "time": "16:25",
+          "channel": "FR3",
+          "title": "YOUPI, L'ÉCOLE EST FINIE !",
+          "description": "Les Schtroumpfs Le magicien d'Oz L'histoire du père noel Cynthia ou le rythme de la vie Olive et Tom champions de foot",
+          "description_lines": [
+            "Les Schtroumpfs",
+            "Le magicien d'Oz",
+            "L'histoire du père noel",
+            "Cynthia ou le rythme de la vie",
+            "Olive et Tom champions de foot"
+          ],
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs"
+            },
+            {
+              "index": 1,
+              "title": "Le magicien d'Oz",
+              "raw": "Le magicien d'Oz"
+            },
+            {
+              "index": 2,
+              "title": "L'histoire du père noel",
+              "raw": "L'histoire du père noel"
+            },
+            {
+              "index": 3,
+              "title": "Cynthia ou le rythme de la vie",
+              "raw": "Cynthia ou le rythme de la vie"
+            },
+            {
+              "index": 4,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "channel": "FR3",
+          "title": "OHARA",
+          "description": "Série américaine",
+          "description_lines": [
+            "Série américaine"
+          ],
+          "segments": []
+        },
+        {
+          "time": "17:50",
+          "channel": "FR3",
+          "title": "T.N.T.",
+          "description": "Série canado-américaine",
+          "description_lines": [
+            "Série canado-américaine"
+          ],
+          "segments": []
+        },
+        {
+          "time": "18:15",
+          "channel": "FR3",
+          "title": "CABOU CADIN",
+          "description": "Programme jeunesse",
+          "description_lines": [
+            "Programme jeunesse"
+          ],
+          "segments": []
+        },
+        {
+          "time": "18:30",
+          "channel": "FR3",
+          "title": "SPÉCIAL PARIS-DAKAR",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "18:55",
+          "channel": "FR3",
+          "title": "JOURNAL EN IMAGES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:00",
+          "channel": "FR3",
+          "title": "ALI BABA",
+          "description": "Avec Michel Robbe",
+          "description_lines": [
+            "Avec Michel Robbe"
+          ],
+          "segments": []
+        },
+        {
+          "time": "19:30",
+          "channel": "FR3",
+          "title": "BOULEVARD BOUVARD",
+          "description": "Présenté par Philippe Bouvard",
+          "description_lines": [
+            "Présenté par Philippe Bouvard"
+          ],
+          "segments": []
+        },
+        {
+          "time": "19:35",
+          "channel": "FR3",
+          "title": "TOP 50",
+          "description": "Présenté par Marc Toesca",
+          "description_lines": [
+            "Présenté par Marc Toesca"
+          ],
+          "segments": []
+        },
+        {
+          "time": "20:00",
+          "channel": "FR3",
+          "title": "LE JOURNAL",
+          "description": "Présenté par Marie-France Cubadda",
+          "description_lines": [
+            "Présenté par Marie-France Cubadda"
+          ],
+          "segments": []
+        },
+        {
+          "time": "20:30",
+          "channel": "FR3",
+          "title": "DEUX FLICS À MIAMI",
+          "description": "Emission humoristique",
+          "description_lines": [
+            "Emission humoristique",
+            "Série américaine"
+          ],
+          "segments": []
+        },
+        {
+          "time": "21:55",
+          "channel": "FR3",
+          "title": "ORANGS-OUTANGS",
+          "description": "Documentaire animalier",
+          "description_lines": [
+            "Documentaire animalier"
+          ],
+          "segments": []
+        },
+        {
+          "time": "22:30",
+          "channel": "FR3",
+          "title": "PARIS-DAKAR SPECIAL",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:45",
+          "channel": "FR3",
+          "title": "FLASH INFOS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:50",
+          "channel": "FR3",
+          "title": "SURPRISE : SPECIAL COLUCHE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:55",
+          "channel": "FR3",
+          "title": "LA CHEVAUCHEE FANTASTIQUE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "23:30",
+          "channel": "FR3",
+          "title": "CONCERT DES GIPSY KINGS",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -667,6 +942,281 @@
             "time": "11:05",
             "channel": "FR3",
             "title": "SPÉCIAL PARIS-DAKAR",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:00",
+            "channel": "FR3",
+            "title": "REPORTERS SPECIAL",
+            "description": "Présenté par Patrick de Carolis",
+            "description_lines": [
+              "Présenté par Patrick de Carolis"
+            ],
+            "segments": []
+          },
+          {
+            "time": "12:30",
+            "channel": "FR3",
+            "title": "CINÉMA DANS LES SALLES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "13:00",
+            "channel": "FR3",
+            "title": "FLASH INFOS",
+            "description": "Présenté par Marie-France Cubadda",
+            "description_lines": [
+              "Présenté par Marie-France Cubadda"
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:05",
+            "channel": "FR3",
+            "title": "SAMEDI, 1 HEURE",
+            "description": "Magazine d'actualité",
+            "description_lines": [
+              "Magazine d'actualité"
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:25",
+            "channel": "FR3",
+            "title": "LE BEST OFF",
+            "description": "Avec Gilles Schneider",
+            "description_lines": [
+              "Avec Gilles Schneider"
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:30",
+            "channel": "FR3",
+            "title": "A FOND LA CAISSE",
+            "description": "CHASSEURS D'OMBRES K2000 Sherif, fais-moi peur !",
+            "description_lines": [
+              "CHASSEURS D'OMBRES",
+              "K2000",
+              "Sherif, fais-moi peur !"
+            ],
+            "segments": []
+          },
+          {
+            "time": "14:00",
+            "channel": "FR3",
+            "title": "LE SERMENT DU SANG",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "15:40",
+            "channel": "FR3",
+            "title": "LES ALLUMÉS DU SPORT",
+            "description": "Documentaire",
+            "description_lines": [
+              "Documentaire"
+            ],
+            "segments": []
+          },
+          {
+            "time": "16:05",
+            "channel": "FR3",
+            "title": "PAIRE D'AS",
+            "description": "Série américaine",
+            "description_lines": [
+              "Série américaine"
+            ],
+            "segments": []
+          },
+          {
+            "time": "16:25",
+            "channel": "FR3",
+            "title": "YOUPI, L'ÉCOLE EST FINIE !",
+            "description": "Les Schtroumpfs Le magicien d'Oz L'histoire du père noel Cynthia ou le rythme de la vie Olive et Tom champions de foot",
+            "description_lines": [
+              "Les Schtroumpfs",
+              "Le magicien d'Oz",
+              "L'histoire du père noel",
+              "Cynthia ou le rythme de la vie",
+              "Olive et Tom champions de foot"
+            ],
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs"
+              },
+              {
+                "index": 1,
+                "title": "Le magicien d'Oz",
+                "raw": "Le magicien d'Oz"
+              },
+              {
+                "index": 2,
+                "title": "L'histoire du père noel",
+                "raw": "L'histoire du père noel"
+              },
+              {
+                "index": 3,
+                "title": "Cynthia ou le rythme de la vie",
+                "raw": "Cynthia ou le rythme de la vie"
+              },
+              {
+                "index": 4,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot"
+              }
+            ]
+          },
+          {
+            "time": "17:00",
+            "channel": "FR3",
+            "title": "OHARA",
+            "description": "Série américaine",
+            "description_lines": [
+              "Série américaine"
+            ],
+            "segments": []
+          },
+          {
+            "time": "17:50",
+            "channel": "FR3",
+            "title": "T.N.T.",
+            "description": "Série canado-américaine",
+            "description_lines": [
+              "Série canado-américaine"
+            ],
+            "segments": []
+          },
+          {
+            "time": "18:15",
+            "channel": "FR3",
+            "title": "CABOU CADIN",
+            "description": "Programme jeunesse",
+            "description_lines": [
+              "Programme jeunesse"
+            ],
+            "segments": []
+          },
+          {
+            "time": "18:30",
+            "channel": "FR3",
+            "title": "SPÉCIAL PARIS-DAKAR",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "18:55",
+            "channel": "FR3",
+            "title": "JOURNAL EN IMAGES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:00",
+            "channel": "FR3",
+            "title": "ALI BABA",
+            "description": "Avec Michel Robbe",
+            "description_lines": [
+              "Avec Michel Robbe"
+            ],
+            "segments": []
+          },
+          {
+            "time": "19:30",
+            "channel": "FR3",
+            "title": "BOULEVARD BOUVARD",
+            "description": "Présenté par Philippe Bouvard",
+            "description_lines": [
+              "Présenté par Philippe Bouvard"
+            ],
+            "segments": []
+          },
+          {
+            "time": "19:35",
+            "channel": "FR3",
+            "title": "TOP 50",
+            "description": "Présenté par Marc Toesca",
+            "description_lines": [
+              "Présenté par Marc Toesca"
+            ],
+            "segments": []
+          },
+          {
+            "time": "20:00",
+            "channel": "FR3",
+            "title": "LE JOURNAL",
+            "description": "Présenté par Marie-France Cubadda",
+            "description_lines": [
+              "Présenté par Marie-France Cubadda"
+            ],
+            "segments": []
+          },
+          {
+            "time": "20:30",
+            "channel": "FR3",
+            "title": "DEUX FLICS À MIAMI",
+            "description": "Emission humoristique",
+            "description_lines": [
+              "Emission humoristique",
+              "Série américaine"
+            ],
+            "segments": []
+          },
+          {
+            "time": "21:55",
+            "channel": "FR3",
+            "title": "ORANGS-OUTANGS",
+            "description": "Documentaire animalier",
+            "description_lines": [
+              "Documentaire animalier"
+            ],
+            "segments": []
+          },
+          {
+            "time": "22:30",
+            "channel": "FR3",
+            "title": "PARIS-DAKAR SPECIAL",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:45",
+            "channel": "FR3",
+            "title": "FLASH INFOS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:50",
+            "channel": "FR3",
+            "title": "SURPRISE : SPECIAL COLUCHE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:55",
+            "channel": "FR3",
+            "title": "LA CHEVAUCHEE FANTASTIQUE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "23:30",
+            "channel": "FR3",
+            "title": "CONCERT DES GIPSY KINGS",
             "description": "",
             "description_lines": [],
             "segments": []
