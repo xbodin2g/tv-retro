@@ -976,3 +976,324 @@ body {
         margin-left: auto;
     }
 }
+/* =====================================================
+   Vue Journée / segments / frise / export
+   ===================================================== */
+
+[hidden] {
+    display: none !important;
+}
+
+.day-panel {
+    animation: fadeIn 0.25s ease;
+}
+
+.day-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: rgba(255, 253, 248, 0.96);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.day-heading {
+    flex: 1;
+    min-width: 220px;
+}
+
+.day-heading h2 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    color: var(--accent-2);
+    text-transform: capitalize;
+}
+
+.day-meta-line {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.summary-box,
+.timeline-box {
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.summary-box h3,
+.timeline-box h3 {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-display);
+    color: var(--accent-2);
+    font-size: 1.15rem;
+}
+
+.summary-container {
+    min-height: 40px;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0.65rem;
+}
+
+.summary-chip,
+.timeline-chip {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+}
+
+.summary-chip:hover,
+.timeline-chip:hover {
+    border-color: var(--accent-2);
+    background: #fffdf8;
+    transform: translateY(-1px);
+}
+
+.summary-time,
+.timeline-chip-time {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-2);
+    margin-right: 0.45rem;
+}
+
+.summary-channel {
+    display: inline-block;
+    min-width: 72px;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-right: 0.45rem;
+}
+
+.summary-title,
+.timeline-chip-title {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+.timeline-scroll {
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
+
+.timeline-inner {
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.timeline-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.timeline-channel {
+    font-weight: 800;
+    color: var(--accent-2);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+}
+
+.timeline-track {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding: 0.25rem 0;
+}
+
+.timeline-chip {
+    white-space: nowrap;
+    flex: 0 0 auto;
+}
+
+.checkbox-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.programs-count {
+    margin: 0 0 0.75rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.segments {
+    margin-top: 0.65rem;
+    border-top: 1px dashed var(--rule);
+    padding-top: 0.55rem;
+}
+
+.segments summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--accent-3);
+    font-size: 0.95rem;
+}
+
+.segments-list {
+    list-style: none;
+    margin: 0.65rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+
+.segment-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.65);
+    border: 1px solid rgba(213, 204, 190, 0.7);
+    border-radius: 8px;
+    padding: 0.55rem 0.65rem;
+}
+
+.segment-content {
+    min-width: 0;
+}
+
+.segment-title {
+    font-weight: 700;
+    color: var(--ink);
+    font-size: 0.98rem;
+}
+
+.segment-raw {
+    margin-top: 0.2rem;
+    color: var(--muted);
+    font-size: 0.88rem;
+}
+
+.segment-add-btn {
+    flex: 0 0 auto;
+}
+
+.flash-highlight {
+    animation: flashHighlight 1.2s ease;
+}
+
+@keyframes flashHighlight {
+    0% {
+        background: rgba(179, 34, 34, 0.16);
+        box-shadow: 0 0 0 3px rgba(179, 34, 34, 0.12);
+    }
+    100% {
+        background: transparent;
+        box-shadow: none;
+    }
+}
+
+.badge-segment {
+    display: inline-block;
+    background: var(--accent-3);
+    color: #fff;
+    border-radius: 999px;
+    padding: 0.1rem 0.45rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.playlist-parent {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+    font-style: italic;
+}
+
+.export-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 0.9rem;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+}
+
+.export-options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--ink-soft);
+    font-weight: 600;
+}
+
+.export-options select {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    background: #fff;
+    color: var(--ink);
+}
+
+@media (max-width: 720px) {
+    .day-toolbar {
+        position: static;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .timeline-row {
+        grid-template-columns: 82px 1fr;
+    }
+
+    .timeline-inner {
+        min-width: 760px;
+    }
+
+    .segment-item {
+        flex-direction: column;
+    }
+
+    .segment-add-btn {
+        align-self: flex-end;
+    }
+
+    .export-options {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
