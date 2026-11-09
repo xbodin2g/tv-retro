@@ -31,10 +31,10 @@
     >
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=7">
+    <link rel="stylesheet" href="style.css?v=8">
 
     <!-- Script principal -->
-    <script src="app.js?v=7" defer></script>
+    <script src="app.js?v=8" defer></script>
 </head>
 
 <body>
@@ -121,10 +121,11 @@
                     </div>
                 </div>
 
-                <section class="summary-box">
-                    <h3>🌙 Sommaire du jour</h3>
+                <!-- Sommaire du soir dans un tiroir fermé par défaut -->
+                <details class="summary-box collapsible-box" id="summary-details" hidden>
+                    <summary>🌙 Sommaire du soir — à partir de 20:30</summary>
                     <div id="day-summary" class="summary-container"></div>
-                </section>
+                </details>
 
                 <section class="timeline-box">
                     <h3>🕒 Frise chronologique</h3>
@@ -166,6 +167,17 @@
         <!-- VUE PLAYLIST -->
         <!-- ================================================= -->
         <section id="playlist-view" class="view">
+
+            <div id="playlist-day-return" class="day-return-bar" hidden>
+                <span>
+                    Journée en cours :
+                    <strong id="playlist-day-label"></strong>
+                </span>
+
+                <button class="tiny-btn" type="button" onclick="returnToDayFromPlaylist()">
+                    ↩️ Retour à la journée
+                </button>
+            </div>
 
             <div class="playlist-header">
                 <h2>🎵 Ma Playlist Rétro</h2>
@@ -281,11 +293,11 @@
                         <li>Ouvrez l’onglet <strong>Parcourir</strong>.</li>
                         <li>Choisissez une <strong>année</strong>.</li>
                         <li>Sélectionnez une <strong>journée disponible</strong>.</li>
-                        <li>Consultez le sommaire, la frise et la grille chaîne par chaîne.</li>
+                        <li>Consultez la frise et la grille chaîne par chaîne.</li>
                         <li>Dépliez les blocs jeunesse pour voir les extraits.</li>
                         <li>Ajoutez programmes ou extraits à la <strong>playlist</strong>.</li>
-                        <li>Dans <strong>Ma Playlist</strong>, choisissez le format d’export.</li>
-                        <li>Copiez la liste et collez-la dans <strong>TuneMyMusic</strong>.</li>
+                        <li>Dans <strong>Ma Playlist</strong>, utilisez le bouton <strong>Retour à la journée</strong> si besoin.</li>
+                        <li>Choisissez le format d’export, puis copiez la liste dans <strong>TuneMyMusic</strong>.</li>
                     </ol>
                 </div>
 
