@@ -1,0 +1,144 @@
+{
+  "year": "1981",
+  "dates": {
+    "01-01-1981": {
+      "date": "01-01-1981",
+      "source": "archives80+depot101",
+      "programs_count": 7,
+      "programs": [
+        {
+          "time": "00:00",
+          "channel": "TF1",
+          "title": "SOIRÉE DANSANTE EN DIRECT DU PALACE",
+          "description": "Présentée par Yves Mourousi",
+          "description_lines": [
+            "Présentée par Yves Mourousi"
+          ],
+          "segments": []
+        },
+        {
+          "time": "01:30",
+          "channel": "TF1",
+          "title": "FIN DES ÉMISSIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "01:00",
+          "channel": "Antenne 2",
+          "title": "FEMMES",
+          "description": "Emission de Jean-Pierre Janssen",
+          "description_lines": [
+            "Emission de Jean-Pierre Janssen"
+          ],
+          "segments": []
+        },
+        {
+          "time": "01:30",
+          "channel": "Antenne 2",
+          "title": "FIN DES ÉMISSIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "00:05",
+          "channel": "FR3",
+          "title": "SOIR 3",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "00:20",
+          "channel": "FR3",
+          "title": "LA VEUVE JOYEUSE",
+          "description": "film américain (1934)",
+          "description_lines": [
+            "film américain (1934)"
+          ],
+          "segments": []
+        },
+        {
+          "time": "01:55",
+          "channel": "FR3",
+          "title": "FIN DES ÉMISSIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        }
+      ],
+      "channels": {
+        "TF1": [
+          {
+            "time": "00:00",
+            "channel": "TF1",
+            "title": "SOIRÉE DANSANTE EN DIRECT DU PALACE",
+            "description": "Présentée par Yves Mourousi",
+            "description_lines": [
+              "Présentée par Yves Mourousi"
+            ],
+            "segments": []
+          },
+          {
+            "time": "01:30",
+            "channel": "TF1",
+            "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ],
+        "Antenne 2": [
+          {
+            "time": "01:00",
+            "channel": "Antenne 2",
+            "title": "FEMMES",
+            "description": "Emission de Jean-Pierre Janssen",
+            "description_lines": [
+              "Emission de Jean-Pierre Janssen"
+            ],
+            "segments": []
+          },
+          {
+            "time": "01:30",
+            "channel": "Antenne 2",
+            "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ],
+        "FR3": [
+          {
+            "time": "00:05",
+            "channel": "FR3",
+            "title": "SOIR 3",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "00:20",
+            "channel": "FR3",
+            "title": "LA VEUVE JOYEUSE",
+            "description": "film américain (1934)",
+            "description_lines": [
+              "film américain (1934)"
+            ],
+            "segments": []
+          },
+          {
+            "time": "01:55",
+            "channel": "FR3",
+            "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ]
+      }
+    }
+  }
+}

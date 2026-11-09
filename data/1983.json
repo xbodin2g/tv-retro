@@ -1,0 +1,112 @@
+{
+  "year": "1983",
+  "dates": {
+    "01-01-1983": {
+      "date": "01-01-1983",
+      "source": "depot101",
+      "programs_count": 5,
+      "programs": [
+        {
+          "time": "01:35",
+          "channel": "TF1",
+          "title": "LA NUIT DES CENT ÉTOILES",
+          "description": "Emission américaine",
+          "description_lines": [
+            "Emission américaine"
+          ],
+          "segments": []
+        },
+        {
+          "time": "00:25",
+          "channel": "Antenne 2",
+          "title": "LA HUITIÈME FEMME DE BARBE-BLEU",
+          "description": "Cycle Gary Cooper. Film américain (1938), avec Gary Cooper, Claudette Colbert",
+          "description_lines": [
+            "Cycle Gary Cooper. Film américain (1938), avec Gary Cooper, Claudette Colbert"
+          ],
+          "segments": []
+        },
+        {
+          "time": "01:45",
+          "channel": "Antenne 2",
+          "title": "FIN DES ÉMISSIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "02:20",
+          "channel": "FR3",
+          "title": "PRÉLUDE À LA NUIT",
+          "description": "R2K181123-3",
+          "description_lines": [
+            "R2K181123-3"
+          ],
+          "segments": []
+        },
+        {
+          "time": "02:30",
+          "channel": "FR3",
+          "title": "BONNE ANNÉE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        }
+      ],
+      "channels": {
+        "TF1": [
+          {
+            "time": "01:35",
+            "channel": "TF1",
+            "title": "LA NUIT DES CENT ÉTOILES",
+            "description": "Emission américaine",
+            "description_lines": [
+              "Emission américaine"
+            ],
+            "segments": []
+          }
+        ],
+        "Antenne 2": [
+          {
+            "time": "00:25",
+            "channel": "Antenne 2",
+            "title": "LA HUITIÈME FEMME DE BARBE-BLEU",
+            "description": "Cycle Gary Cooper. Film américain (1938), avec Gary Cooper, Claudette Colbert",
+            "description_lines": [
+              "Cycle Gary Cooper. Film américain (1938), avec Gary Cooper, Claudette Colbert"
+            ],
+            "segments": []
+          },
+          {
+            "time": "01:45",
+            "channel": "Antenne 2",
+            "title": "FIN DES ÉMISSIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ],
+        "FR3": [
+          {
+            "time": "02:20",
+            "channel": "FR3",
+            "title": "PRÉLUDE À LA NUIT",
+            "description": "R2K181123-3",
+            "description_lines": [
+              "R2K181123-3"
+            ],
+            "segments": []
+          },
+          {
+            "time": "02:30",
+            "channel": "FR3",
+            "title": "BONNE ANNÉE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ]
+      }
+    }
+  }
+}
