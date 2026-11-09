@@ -1,6 +1,5 @@
 name: 📺 TV Rétro Scraper
 
-# 🔑 PERMISSIONS EXPLICITES
 permissions:
   contents: write
   actions: read
@@ -23,7 +22,7 @@ on:
       year:
         description: 'Année à scraper (si action = scrape_one_year)'
         required: false
-        default: '1985'
+        default: '1980'
         type: string
       
       source:
@@ -48,20 +47,20 @@ jobs:
       - name: 📥 Checkout du dépôt
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
       
       - name: 🐍 Installation de Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+      
       - name: 📦 Installation des dépendances
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml cloudscraper
           echo "✅ Dépendances installées:"
           pip list | grep -E "cloudscraper|beautifulsoup4|requests"
-
+      
       - name: 📂 Création des dossiers
         run: |
           mkdir -p data/depot101
@@ -108,7 +107,7 @@ jobs:
             echo "Aucun changement à committer"
           else
             git commit -m "🤖 Update scraped data - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push
+            git push origin $(git branch --show-current)
           fi
       
       - name: 📊 Résumé
