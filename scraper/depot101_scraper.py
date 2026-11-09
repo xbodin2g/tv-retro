@@ -1,15 +1,4 @@
-#!/usr/bin/env python3
-"""
-Scraper Depot101 - version corrigée.
-
-Corrections :
-- détection des noms courts de chaînes : A2, C+, L5, FR3, M6, etc.
-- navigation simulée : accueil -> décennie -> année
-- gestion plus robuste des 403
-- pauses plus longues pour limiter les blocages
-- conservation des description_lines pour les extraits jeunesse
-"""
-
+# scraper/depot101_scraper.py
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
@@ -27,6 +16,7 @@ class Depot101Scraper:
     BASE_URL = "https://www.depot101.com/tele/grille"
 
     TIME_RE = re.compile(r"^\d{2}:\d{2}$")
+    DATE_HREF_RE = re.compile(r"/tele/grille/(?:date/)?(\d{2}-\d{2}-\d{4})")
 
     MONTHS = {
         "janvier": 1,
@@ -46,7 +36,6 @@ class Depot101Scraper:
         "decembre": 12,
     }
 
-    # Alias de chaînes utilisés par Depot101
     CHANNEL_ALIASES = {
         "TF1": "TF1",
         "A2": "Antenne 2",
@@ -60,6 +49,7 @@ class Depot101Scraper:
         "CANAL": "Canal+",
         "L5": "La Cinq",
         "LA5": "La Cinq",
+        "LA 5": "La Cinq",
         "LA CINQ": "La Cinq",
         "CINQ": "La Cinq",
         "M6": "M6",
@@ -67,7 +57,6 @@ class Depot101Scraper:
         "FRANCE 5": "France 5",
     }
 
-    # Compact map sans espaces
     CHANNEL_COMPACT_MAP = {
         "TF1": "TF1",
         "A2": "Antenne 2",
@@ -80,6 +69,7 @@ class Depot101Scraper:
         "CANAL": "Canal+",
         "L5": "La Cinq",
         "LA5": "La Cinq",
+        "LA5": "La Cinq",
         "LACINQ": "La Cinq",
         "CINQ": "La Cinq",
         "M6": "M6",
@@ -90,6 +80,8 @@ class Depot101Scraper:
     CHANNEL_REGEX = [
         (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
+        (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
+        (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^A\s*2$", re.IGNORECASE), "Antenne 2"),
         (re.compile(r"^FR\s*3$", re.IGNORECASE), "FR3"),
         (re.compile(r"^FRANCE\s*2$", re.IGNORECASE), "France 2"),
@@ -97,8 +89,6 @@ class Depot101Scraper:
         (re.compile(r"^FRANCE\s*5$", re.IGNORECASE), "France 5"),
     ]
 
-    # Marqueurs de pied de page.
-    # Ils ne sont utilisés qu'APRÈS le début réel de la grille.
     FOOTER_MARKERS = (
         "dernières vidéos",
         "dernieres videos",
@@ -144,16 +134,16 @@ class Depot101Scraper:
         self._home_visited = False
         self._visited_decades: Set[str] = set()
         self._decade_text_cache: Dict[str, str] = {}
+
+        self._annual_dates_cache: Dict[str, List[str]] = {}
+        self._annual_attempted: Set[str] = set()
         self._annual_text_cache: Dict[str, str] = {}
         self._annual_url_cache: Dict[str, str] = {}
+
         self._daily_text_cache: Dict[str, str] = {}
         self._debugged_zero = False
 
         self.scraper = self._create_scraper()
-
-    # =====================================================
-    # Session / HTTP
-    # =====================================================
 
     def _create_scraper(self):
         scraper = cloudscraper.create_scraper(
@@ -167,11 +157,12 @@ class Depot101Scraper:
         return scraper
 
     def _reset_scraper(self) -> None:
-        print("  ♻️ Réinitialisation de la session Depot101...")
         self.scraper = self._create_scraper()
         self._home_visited = False
         self._visited_decades.clear()
         self._decade_text_cache.clear()
+        self._annual_dates_cache.clear()
+        self._annual_attempted.clear()
         self._annual_text_cache.clear()
         self._annual_url_cache.clear()
         self._daily_text_cache.clear()
@@ -194,11 +185,6 @@ class Depot101Scraper:
         referer: Optional[str] = None,
         max_retries: int = 4,
     ) -> Optional[object]:
-        """
-        Requête HTTP robuste.
-        Retourne None si 404.
-        Lève une exception si 403 persistant ou erreur finale.
-        """
         last_error: Optional[Exception] = None
 
         for attempt in range(max_retries):
@@ -221,10 +207,6 @@ class Depot101Scraper:
                     )
 
                     if attempt < max_retries - 1:
-                        print(
-                            f"  ⚠️ 403 sur {url}, "
-                            f"tentative {attempt + 1}/{max_retries - 1}..."
-                        )
                         self._reset_scraper()
                         time.sleep(random.uniform(10.0, 20.0) * (attempt + 1))
                         continue
@@ -238,12 +220,10 @@ class Depot101Scraper:
                 last_error = e
 
                 if attempt < max_retries - 1:
-                    print(f"  ⚠️ Erreur requête sur {url}: {e}")
                     self._reset_scraper()
                     time.sleep(random.uniform(10.0, 20.0) * (attempt + 1))
                     continue
 
-                print(f"  ❌ Erreur requête finale sur {url}: {e}")
                 raise
 
         if last_error:
@@ -251,14 +231,7 @@ class Depot101Scraper:
 
         return None
 
-    # =====================================================
-    # HTML -> texte
-    # =====================================================
-
     def _html_to_text(self, html: str) -> str:
-        """
-        Convertit le HTML en texte lisible, ligne par ligne.
-        """
         soup = BeautifulSoup(html, "html.parser")
 
         for tag in soup(["script", "style", "noscript"]):
@@ -266,18 +239,10 @@ class Depot101Scraper:
 
         return soup.get_text("\n", strip=True)
 
-    # =====================================================
-    # Détection chaîne
-    # =====================================================
-
     def _compact_upper(self, value: str) -> str:
         return re.sub(r"\s+", "", str(value or "").strip().upper())
 
     def detect_channel(self, line: str) -> Optional[str]:
-        """
-        Détecte un nom de chaîne Depot101, y compris les formes courtes :
-        A2, C+, L5, FR3, M6, etc.
-        """
         raw = str(line or "").strip()
 
         if not raw:
@@ -299,10 +264,6 @@ class Depot101Scraper:
 
         return None
 
-    # =====================================================
-    # Navigation simulée
-    # =====================================================
-
     def _decade_for_year(self, year: int) -> Optional[str]:
         if 1970 <= year <= 1979:
             return "70s"
@@ -313,30 +274,22 @@ class Depot101Scraper:
         return None
 
     def _visit_home(self) -> bool:
-        """
-        Visite la page d'accueil une seule fois par session.
-        """
         if self._home_visited:
             return True
 
         try:
-            print("🏠 Navigation Depot101 : page d'accueil...")
             response = self._request(self.HOME_URL, referer=None, max_retries=2)
 
             if response is not None:
                 self._home_visited = True
-                print("✓ Page d'accueil Depot101 visitée")
                 return True
 
-        except Exception as e:
-            print(f"⚠️ Impossible de visiter la page d'accueil Depot101 : {e}")
+        except Exception:
+            pass
 
         return False
 
-    def _visit_decade(self, decade: str) -> bool:
-        """
-        Visite la page de décennie, ex : /tele/grilles/80s
-        """
+    def _visit_decade(self, decade: Optional[str]) -> bool:
         if not decade:
             return False
 
@@ -349,18 +302,16 @@ class Depot101Scraper:
         referer = self.HOME_URL if self._home_visited else None
 
         try:
-            print(f"📚 Navigation Depot101 : décennie {decade}...")
             response = self._request(url, referer=referer, max_retries=2)
 
             if response is not None:
                 text = self._html_to_text(response.text)
                 self._decade_text_cache[decade] = text
                 self._visited_decades.add(decade)
-                print(f"✓ Décennie {decade} visitée")
                 return True
 
-        except Exception as e:
-            print(f"⚠️ Impossible de visiter la décennie {decade} : {e}")
+        except Exception:
+            pass
 
         return False
 
@@ -381,9 +332,9 @@ class Depot101Scraper:
                 ]
             )
 
-        # Déduplication en conservant l'ordre
         seen = set()
         ordered = []
+
         for item in candidates:
             if item not in seen:
                 seen.add(item)
@@ -391,127 +342,20 @@ class Depot101Scraper:
 
         return ordered
 
-    def _navigate_to_year(self, year: int) -> Optional[str]:
-        """
-        Simule la navigation :
-        accueil -> décennie -> année.
+    def _extract_dates_from_html(self, html: str, year: Optional[int] = None) -> List[str]:
+        dates: Set[str] = set()
 
-        Retourne le texte de la page annuelle si des dates sont trouvées.
-        """
-        year_str = str(year)
+        for match in self.DATE_HREF_RE.finditer(str(html or "")):
+            date = match.group(1)
 
-        if year_str in self._annual_text_cache:
-            return self._annual_text_cache[year_str]
-
-        decade = self._decade_for_year(year)
-
-        self._visit_home()
-        self._visit_decade(decade)
-
-        referer = None
-
-        if decade and decade in self._visited_decades:
-            referer = f"{self.GRILLES_URL}/{decade}"
-        elif self._home_visited:
-            referer = self.HOME_URL
-
-        for url in self._annual_url_candidates(year):
-            try:
-                response = self._request(url, referer=referer, max_retries=3)
-            except Exception:
+            if year is not None and not date.endswith(f"-{year}"):
                 continue
 
-            if response is None:
-                continue
+            dates.add(date)
 
-            text = self._html_to_text(response.text)
-            dates = self._extract_dates_from_text(text, year=year)
-
-            if dates:
-                self._annual_text_cache[year_str] = text
-                self._annual_url_cache[year_str] = url
-                print(f"✓ Navigation année {year} réussie : {url}")
-                return text
-
-        print(f"⚠️ Impossible de naviguer vers la page annuelle Depot101 {year}")
-        return None
-
-    def _daily_referer_candidates(self, year_str: str) -> List[Optional[str]]:
-        """
-        Candidates de Referer pour la page du jour.
-        On privilégie la navigation année -> jour.
-        """
-        candidates: List[Optional[str]] = []
-
-        annual_url = self._annual_url_cache.get(year_str)
-
-        if annual_url:
-            candidates.append(annual_url)
-
-        year_url = f"{self.GRILLES_URL}/{year_str}"
-        year_url_slash = f"{self.GRILLES_URL}/{year_str}/"
-
-        candidates.append(year_url)
-        candidates.append(year_url_slash)
-
-        if self._home_visited:
-            candidates.append(self.HOME_URL)
-
-        candidates.append(None)
-
-        # Déduplication en conservant l'ordre
-        seen = set()
-        ordered = []
-        for item in candidates:
-            if item not in seen:
-                seen.add(item)
-                ordered.append(item)
-
-        return ordered
-
-    def _fetch_daily_text(self, date_str: str) -> Optional[str]:
-        """
-        Récupère le texte d'une page journalière en simulant si possible :
-        accueil -> décennie -> année -> jour.
-        """
-        if date_str in self._daily_text_cache:
-            return self._daily_text_cache[date_str]
-
-        year_str = date_str.split("-")[2]
-
-        # Tenter la navigation annuelle si pas encore faite
-        if year_str not in self._annual_text_cache:
-            self._navigate_to_year(int(year_str))
-
-        url = f"{self.BASE_URL}/{date_str}"
-
-        for referer in self._daily_referer_candidates(year_str):
-            try:
-                response = self._request(url, referer=referer, max_retries=2)
-            except Exception:
-                continue
-
-            if response is None:
-                continue
-
-            text = self._html_to_text(response.text)
-            self._daily_text_cache[date_str] = text
-            return text
-
-        return None
-
-    # =====================================================
-    # Dates
-    # =====================================================
+        return sorted(dates)
 
     def _parse_french_date(self, date_text: str) -> Optional[str]:
-        """
-        Convertit une date française en format JJ-MM-AAAA.
-
-        Exemples :
-          mardi 1er janvier 1980 -> 01-01-1980
-          samedi 5 janvier 1980 -> 05-01-1980
-        """
         if not date_text:
             return None
 
@@ -540,17 +384,12 @@ class Depot101Scraper:
         return f"{day:02d}-{month:02d}-{year}"
 
     def _extract_dates_from_text(self, text: str, year: Optional[int] = None) -> List[str]:
-        """
-        Extrait toutes les dates françaises visibles dans le texte.
-        """
         dates: Set[str] = set()
 
         if not text:
             return []
 
-        lines = text.split("\n")
-
-        for line in lines:
+        for line in text.split("\n"):
             line = line.strip()
             if not line:
                 continue
@@ -573,62 +412,121 @@ class Depot101Scraper:
 
         return sorted(dates)
 
+    def _get_annual_dates(self, year: int) -> List[str]:
+        year_str = str(year)
+
+        if year_str in self._annual_dates_cache:
+            return list(self._annual_dates_cache[year_str])
+
+        if year_str in self._annual_attempted:
+            return []
+
+        self._annual_attempted.add(year_str)
+
+        decade = self._decade_for_year(year)
+
+        self._visit_home()
+        self._visit_decade(decade)
+
+        referer = None
+
+        if decade and decade in self._visited_decades:
+            referer = f"{self.GRILLES_URL}/{decade}"
+        elif self._home_visited:
+            referer = self.HOME_URL
+
+        for url in self._annual_url_candidates(year):
+            try:
+                response = self._request(url, referer=referer, max_retries=3)
+            except Exception:
+                continue
+
+            if response is None:
+                continue
+
+            html = response.text
+            dates = self._extract_dates_from_html(html, year=year)
+            text = None
+
+            if not dates:
+                text = self._html_to_text(html)
+                dates = self._extract_dates_from_text(text, year=year)
+
+            if dates:
+                if text is None:
+                    text = self._html_to_text(html)
+
+                self._annual_dates_cache[year_str] = dates
+                self._annual_text_cache[year_str] = text
+                self._annual_url_cache[year_str] = url
+                return list(dates)
+
+        return []
+
     def get_available_years(self) -> List[int]:
-        """
-        Retourne les années prises en charge par le projet.
-        """
         return list(range(1980, 2000))
 
     def get_available_dates(self, year: int) -> List[str]:
-        """
-        Récupère les dates réellement disponibles pour une année.
-        """
-        print(f"📅 Récupération des dates disponibles Depot101 pour {year}...")
+        dates = self._get_annual_dates(year)
 
-        try:
-            annual_text = self._navigate_to_year(year)
+        if dates:
+            return dates
 
-            if annual_text:
-                dates = self._extract_dates_from_text(annual_text, year=year)
-
-                if dates:
-                    print(f"✓ {len(dates)} dates trouvées via page annuelle pour {year}")
-                    return dates
-        except Exception as e:
-            print(f"⚠️ Échec navigation annuelle Depot101 pour {year}: {e}")
-
-        # Plan B : essayer directement la page année sans décennie
-        try:
-            response = self._request(
-                f"{self.GRILLES_URL}/{year}",
-                referer=self.HOME_URL if self._home_visited else None,
-                max_retries=2,
-            )
-
-            if response is not None:
-                text = self._html_to_text(response.text)
-                dates = self._extract_dates_from_text(text, year=year)
-
-                if dates:
-                    print(f"✓ {len(dates)} dates trouvées via fallback direct pour {year}")
-                    return dates
-        except Exception as e:
-            print(f"⚠️ Fallback direct échoué pour {year}: {e}")
-
-        print(
-            f"⚠️ Aucune date trouvée pour {year}. "
-            "Cela peut être un blocage 403 temporaire ou une structure différente."
-        )
         return []
 
-    # =====================================================
-    # Parsing grille
-    # =====================================================
+    def _daily_referer_candidates(self, year_str: str) -> List[Optional[str]]:
+        candidates: List[Optional[str]] = []
+
+        annual_url = self._annual_url_cache.get(year_str)
+
+        if annual_url:
+            candidates.append(annual_url)
+
+        candidates.append(f"{self.GRILLES_URL}/{year_str}")
+        candidates.append(f"{self.GRILLES_URL}/{year_str}/")
+
+        if self._home_visited:
+            candidates.append(self.HOME_URL)
+
+        candidates.append(None)
+
+        seen = set()
+        ordered = []
+
+        for item in candidates:
+            if item not in seen:
+                seen.add(item)
+                ordered.append(item)
+
+        return ordered
+
+    def _fetch_daily_text(self, date_str: str) -> Optional[str]:
+        if date_str in self._daily_text_cache:
+            return self._daily_text_cache[date_str]
+
+        year_str = date_str.split("-")[2]
+
+        if year_str not in self._annual_dates_cache:
+            self._get_annual_dates(int(year_str))
+
+        url = f"{self.BASE_URL}/{date_str}"
+
+        for referer in self._daily_referer_candidates(year_str):
+            try:
+                response = self._request(url, referer=referer, max_retries=2)
+            except Exception:
+                continue
+
+            if response is None:
+                continue
+
+            text = self._html_to_text(response.text)
+            self._daily_text_cache[date_str] = text
+            return text
+
+        return None
 
     def _is_footer_line(self, line: str) -> bool:
-        """
-        Détecte une ligne de pied de page.
-        """
         if not line:
             return True
 
@@ -643,16 +541,28 @@ class Depot101Scraper:
 
         return False
 
-    def _looks_like_channel_start(self, lines: List[str], index: int) -> bool:
-        """
-        Vérifie qu'une ligne de chaîne est bien le début d'une grille,
-        pas simplement un élément de menu.
+    def _next_nonempty_line(self, lines: List[str], start: int) -> Optional[str]:
+        for j in range(start, len(lines)):
+            line = lines[j].strip()
+            if line:
+                return line
+        return None
 
-        On cherche dans les lignes suivantes :
-        - Heure
-        - Titre
-        - ou une heure au format HH:MM
-        """
+    def _is_channel_context(self, lines: List[str], index: int) -> bool:
+        next_line = self._next_nonempty_line(lines, index + 1)
+
+        if not next_line:
+            return False
+
+        if next_line in ("Heure", "Titre"):
+            return True
+
+        if self.TIME_RE.match(next_line):
+            return True
+
+        return False
+
+    def _looks_like_channel_start(self, lines: List[str], index: int) -> bool:
         limit = min(index + 15, len(lines))
 
         for j in range(index + 1, limit):
@@ -675,10 +585,16 @@ class Depot101Scraper:
 
         return False
 
+    def _dedupe_adjacent_lines(self, lines: List[str]) -> List[str]:
+        cleaned = []
+
+        for line in lines:
+            if not cleaned or line != cleaned[-1]:
+                cleaned.append(line)
+
+        return cleaned
+
     def _parse_programs(self, text: str) -> List[Dict]:
-        """
-        Parse la grille TV en conservant les lignes de description.
-        """
         programs = []
         lines = [line.strip() for line in text.split("\n")]
 
@@ -695,9 +611,6 @@ class Depot101Scraper:
                 i += 1
                 continue
 
-            # -----------------------------------------
-            # Avant le début réel de la grille
-            # -----------------------------------------
             if not started:
                 detected = self.detect_channel(line)
 
@@ -705,47 +618,48 @@ class Depot101Scraper:
                     current_channel = detected
                     started = True
 
-                # On ignore tout le reste de l'en-tête / navigation
                 i += 1
                 continue
 
-            # -----------------------------------------
-            # Après le début de la grille
-            # -----------------------------------------
-
-            # Pied de page : on s'arrête seulement ici
             if self._is_footer_line(line):
                 break
 
             detected = self.detect_channel(line)
 
-            # Nouvelle chaîne
-            if detected:
+            if detected and self._is_channel_context(lines, i):
                 current_channel = detected
                 i += 1
                 continue
 
-            # En-têtes de tableau
             if line in ("Heure", "Titre"):
                 i += 1
                 continue
 
-            # Programme : heure + chaîne connue
             if self.TIME_RE.match(line) and current_channel:
                 time_str = line
-
                 i += 1
-                if i >= n:
-                    break
 
-                title = lines[i]
+                title = ""
 
-                if not title or self._is_footer_line(title):
-                    i += 1
-                    continue
+                if i < n:
+                    candidate = lines[i]
 
-                description_lines = []
-                i += 1
+                    if (
+                        candidate
+                        and not self._is_footer_line(candidate)
+                        and candidate not in ("Heure", "Titre")
+                        and not self.TIME_RE.match(candidate)
+                    ):
+                        candidate_channel = self.detect_channel(candidate)
+
+                        if not (
+                            candidate_channel
+                            and self._is_channel_context(lines, i)
+                        ):
+                            title = candidate
+                            i += 1
+
+                raw_description_lines = []
 
                 while i < n:
                     next_line = lines[i]
@@ -757,7 +671,9 @@ class Depot101Scraper:
                     if self.TIME_RE.match(next_line):
                         break
 
-                    if self.detect_channel(next_line):
+                    next_detected = self.detect_channel(next_line)
+
+                    if next_detected and self._is_channel_context(lines, i):
                         break
 
                     if next_line in ("Heure", "Titre"):
@@ -766,13 +682,15 @@ class Depot101Scraper:
                     if self._is_footer_line(next_line):
                         break
 
-                    description_lines.append(next_line)
+                    raw_description_lines.append(next_line)
                     i += 1
+
+                description_lines = self._dedupe_adjacent_lines(raw_description_lines)
 
                 programs.append(
                     {
                         "time": time_str,
-                        "title": title,
+                        "title": title or "Programme non identifié",
                         "channel": current_channel,
                         "description": " ".join(description_lines),
                         "description_lines": description_lines,
@@ -786,10 +704,6 @@ class Depot101Scraper:
         return programs
 
     def _print_zero_debug_preview(self, text: str) -> None:
-        """
-        Affiche un petit aperçu du texte seulement une fois,
-        pour aider au diagnostic si le parser ne trouve rien.
-        """
         if self._debugged_zero:
             return
 
@@ -804,26 +718,17 @@ class Depot101Scraper:
             print(f"    {line}")
         print("  " + "-" * 60)
 
-    # =====================================================
-    # Scraping
-    # =====================================================
-
     def scrape_date(self, date_str: str) -> Optional[Dict]:
-        """
-        Scrape les programmes pour une date au format JJ-MM-AAAA.
-        """
         try:
             text = self._fetch_daily_text(date_str)
 
             if not text:
-                print(f"  ⚠️ Page indisponible ou bloquée : {date_str}")
                 return None
 
             programs = self._parse_programs(text)
 
             if not programs:
                 self._print_zero_debug_preview(text)
-                print(f"  ⚠️ Aucun programme trouvé : {date_str}")
                 return None
 
             return {
@@ -833,14 +738,10 @@ class Depot101Scraper:
                 "programs": programs,
             }
 
-        except Exception as e:
-            print(f"  ❌ Erreur scraping {date_str}: {e}")
+        except Exception:
             return None
 
     def scrape_year(self, year: int, output_dir: str = "data/depot101") -> None:
-        """
-        Scrape toutes les dates disponibles d'une année.
-        """
         os.makedirs(output_dir, exist_ok=True)
 
         dates = self.get_available_dates(year)
@@ -870,7 +771,6 @@ class Depot101Scraper:
             else:
                 print("✗ échec ou vide")
 
-            # Pause stratégique pour limiter les blocages
             if index % 8 == 0:
                 print("  ⏸️ Pause anti-blocage Depot101...")
                 time.sleep(random.uniform(20.0, 35.0))
@@ -881,11 +781,7 @@ class Depot101Scraper:
         )
 
     def scrape_all(self, start_year: int = 1980, end_year: int = 1999) -> None:
-        """
-        Scrape toutes les années.
-        """
         years = list(range(start_year, end_year + 1))
-        print(f"\n🎬 Scraping Depot101 complet : {years}\n")
 
         for index, year in enumerate(years, start=1):
             print("=" * 70)
