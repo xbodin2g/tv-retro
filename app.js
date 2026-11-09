@@ -33,8 +33,20 @@ async function loadIndex() {
         displayYears();
     } catch (error) {
         console.error('Erreur chargement index:', error);
-        showToast('⚠️ Impossible de charger les données');
+        showNoData();
     }
+}
+
+// Afficher un message si pas de données
+function showNoData() {
+    const container = document.getElementById('years-container');
+    container.innerHTML = `
+        <div class="empty-state">
+            <div class="retro-tv">📺</div>
+            <h2>Aucune donnée disponible</h2>
+            <p>Lancez d'abord le workflow GitHub Actions pour scraper les données</p>
+        </div>
+    `;
 }
 
 // Afficher les années disponibles
@@ -43,13 +55,7 @@ function displayYears() {
     const years = Object.keys(state.index.years);
     
     if (years.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state">
-                <div class="retro-tv">📺</div>
-                <h2>Aucune donnée disponible</h2>
-                <p>Lancez d'abord le scraping Python</p>
-            </div>
-        `;
+        showNoData();
         return;
     }
     
@@ -191,7 +197,6 @@ function addToPlaylist(programId) {
     showToast(`✅ "${program.title}" ajouté`);
 }
 
-// Le reste des fonctions reste identique...
 function removeFromPlaylist(programId) {
     state.playlist = state.playlist.filter(p => p.id !== programId);
     savePlaylist();
