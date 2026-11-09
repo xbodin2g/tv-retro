@@ -1,6 +1,12 @@
 #!/usr/bin/env python3
 """
-Scraper Depot101 - version avec description_lines pour détecter les extraits.
+Scraper Depot101 - version corrigée.
+
+Corrections :
+- ne plus s'arrêter trop tôt sur "Toutes les grilles 1980"
+- détecter le vrai début de la grille
+- conserver description_lines pour les extraits jeunesse
+- ajouter un aperçu de debug si aucune programme n'est trouvé
 """
 
 import cloudscraper
@@ -18,6 +24,8 @@ class Depot101Scraper:
     HOME_URL = "https://www.depot101.com"
     GRILLES_URL = "https://www.depot101.com/tele/grilles"
     BASE_URL = "https://www.depot101.com/tele/grille"
+
+    TIME_RE = re.compile(r"^\d{2}:\d{2}$")
 
     MONTHS = {
         "janvier": 1,
@@ -50,7 +58,9 @@ class Depot101Scraper:
         "France 5",
     ]
 
-    STOP_MARKERS = (
+    # Marqueurs de fin de page.
+    # Ils ne doivent être pris en compte qu'APRÈS le début réel de la grille.
+    FOOTER_MARKERS = (
         "dernières vidéos",
         "dernieres videos",
         "accès rapide",
@@ -60,9 +70,6 @@ class Depot101Scraper:
         "derniers titres",
         "derniers albums",
         "top albums",
-        "grilles tv",
-        "vidéos",
-        "videos",
         "la page du jour",
         "central box",
         "page d'aide",
@@ -70,11 +77,12 @@ class Depot101Scraper:
         "©",
         "copyright",
         "silo grilles tv",
-        "toutes les grilles",
     )
 
     def __init__(self, delay: float = 2.0):
         self.delay = delay
+        self._debugged_zero = False
+
         self.scraper = cloudscraper.create_scraper(
             browser={
                 "browser": "chrome",
@@ -167,6 +175,7 @@ class Depot101Scraper:
     def _parse_french_date(self, date_text: str) -> Optional[str]:
         """
         Convertit une date française en format JJ-MM-AAAA.
+
         Exemples :
           mardi 1er janvier 1980 -> 01-01-1980
           samedi 5 janvier 1980 -> 05-01-1980
@@ -198,9 +207,9 @@ class Depot101Scraper:
 
         return f"{day:02d}-{month:02d}-{year}"
 
-    def _is_stop_line(self, line: str) -> bool:
+    def _is_footer_line(self, line: str) -> bool:
         """
-        Détecte les lignes de pied de page à ignorer.
+        Détecte une ligne de pied de page.
         """
         if not line:
             return True
@@ -210,9 +219,44 @@ class Depot101Scraper:
         if not lowered:
             return True
 
-        for marker in self.STOP_MARKERS:
+        for marker in self.FOOTER_MARKERS:
             if lowered.startswith(marker):
                 return True
+
+        return False
+
+    def _looks_like_channel_start(self, lines: List[str], index: int) -> bool:
+        """
+        Vérifie qu'une ligne de chaîne est bien le début d'une grille,
+        pas simplement un élément de menu.
+
+        On cherche dans les lignes suivantes :
+        - Heure
+        - Titre
+        - ou une heure au format HH:MM
+        """
+        limit = min(index + 12, len(lines))
+
+        for j in range(index + 1, limit):
+            line = lines[j].strip()
+
+            if not line:
+                continue
+
+            if line in ("Heure", "Titre"):
+                return True
+
+            if self.TIME_RE.match(line):
+                return True
+
+            # Si on retombe sur une autre chaîne avant d'avoir vu l'heure,
+            # ce n'est probablement pas le bon début.
+            if line in self.KNOWN_CHANNELS:
+                return False
+
+            # Si on voit un pied de page avant l'heure, ce n'est pas une grille.
+            if self._is_footer_line(line):
+                return False
 
         return False
 
@@ -271,7 +315,10 @@ class Depot101Scraper:
         url = f"{self.BASE_URL}/{date_str}"
 
         try:
-            response = self._request(url)
+            year = date_str.split("-")[2]
+            referer = f"{self.GRILLES_URL}/{year}"
+
+            response = self._request(url, referer=referer)
 
             if response is None:
                 print(f"  ⚠️ Date non disponible : {date_str}")
@@ -283,6 +330,7 @@ class Depot101Scraper:
             programs = self._parse_programs(text)
 
             if not programs:
+                self._print_zero_debug_preview(text)
                 print(f"  ⚠️ Aucun programme trouvé : {date_str}")
                 return None
 
@@ -297,59 +345,106 @@ class Depot101Scraper:
             print(f"  ❌ Erreur scraping {date_str}: {e}")
             return None
 
+    def _print_zero_debug_preview(self, text: str) -> None:
+        """
+        Affiche un petit aperçu du texte seulement une fois,
+        pour aider au diagnostic si le parser ne trouve rien.
+        """
+        if self._debugged_zero:
+            return
+
+        self._debugged_zero = True
+
+        lines = [line.strip() for line in text.split("\n") if line.strip()]
+        preview = lines[:30]
+
+        print("  🔎 Aperçu du texte pour diagnostic :")
+        print("  " + "-" * 60)
+        for line in preview:
+            print(f"    {line}")
+        print("  " + "-" * 60)
+
     def _parse_programs(self, text: str) -> List[Dict]:
         """
         Parse la grille TV en conservant les lignes de description.
+
+        Logique :
+        - ignore l'en-tête du site avant le vrai début de la grille
+        - détecte le début via une chaîne suivie de Heure / Titre / heure
+        - n'applique les marqueurs de pied de page qu'après le début
         """
         programs = []
-        lines = text.split("\n")
+        lines = [line.strip() for line in text.split("\n")]
 
         current_channel = None
-        i = 0
+        started = False
 
-        while i < len(lines):
-            line = lines[i].strip()
+        i = 0
+        n = len(lines)
+
+        while i < n:
+            line = lines[i]
 
             if not line:
                 i += 1
                 continue
 
-            if self._is_stop_line(line):
+            # -----------------------------------------
+            # Avant le début réel de la grille
+            # -----------------------------------------
+            if not started:
+                if line in self.KNOWN_CHANNELS and self._looks_like_channel_start(lines, i):
+                    current_channel = line
+                    started = True
+
+                # On ignore tout le reste de l'en-tête / navigation
+                i += 1
+                continue
+
+            # -----------------------------------------
+            # Après le début de la grille
+            # -----------------------------------------
+
+            # Pied de page : on s'arrête seulement ici
+            if self._is_footer_line(line):
                 break
 
+            # Nouvelle chaîne
             if line in self.KNOWN_CHANNELS:
                 current_channel = line
                 i += 1
                 continue
 
+            # En-têtes de tableau
             if line in ("Heure", "Titre"):
                 i += 1
                 continue
 
-            if re.match(r"^\d{2}:\d{2}$", line) and current_channel:
+            # Programme : heure + chaîne connue
+            if self.TIME_RE.match(line) and current_channel:
                 time_str = line
 
                 i += 1
-                if i >= len(lines):
+                if i >= n:
                     break
 
-                title = lines[i].strip()
+                title = lines[i]
 
-                if not title or self._is_stop_line(title):
+                if not title or self._is_footer_line(title):
                     i += 1
                     continue
 
                 description_lines = []
                 i += 1
 
-                while i < len(lines):
-                    next_line = lines[i].strip()
+                while i < n:
+                    next_line = lines[i]
 
                     if not next_line:
                         i += 1
                         continue
 
-                    if re.match(r"^\d{2}:\d{2}$", next_line):
+                    if self.TIME_RE.match(next_line):
                         break
 
                     if next_line in self.KNOWN_CHANNELS:
@@ -358,7 +453,7 @@ class Depot101Scraper:
                     if next_line in ("Heure", "Titre"):
                         break
 
-                    if self._is_stop_line(next_line):
+                    if self._is_footer_line(next_line):
                         break
 
                     description_lines.append(next_line)
@@ -413,7 +508,10 @@ class Depot101Scraper:
             else:
                 print("✗ échec ou vide")
 
-        print(f"\n✅ Depot101 {year} terminé : {success_count}/{len(dates)} journées scrapées")
+        print(
+            f"\n✅ Depot101 {year} terminé : "
+            f"{success_count}/{len(dates)} journées scrapées"
+        )
 
     def scrape_all(self, start_year: int = 1980, end_year: int = 1999) -> None:
         """
