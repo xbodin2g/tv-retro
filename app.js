@@ -47,15 +47,19 @@ const CHANNEL_ALIASES = {
     'TF1': 'TF1',
     'A2': 'Antenne 2',
     'ANTENNE 2': 'Antenne 2',
+    'FRANCE 2': 'France 2',
     'FR3': 'FR3',
     'FR 3': 'FR3',
+    'FRANCE 3': 'France 3',
+    'C+': 'Canal+',
     'CANAL+': 'Canal+',
     'CANAL': 'Canal+',
+    'L5': 'La Cinq',
+    'LA5': 'La Cinq',
     'LA CINQ': 'La Cinq',
+    'CINQ': 'La Cinq',
     'M6': 'M6',
     'ARTE': 'Arte',
-    'FRANCE 2': 'France 2',
-    'FRANCE 3': 'France 3',
     'FRANCE 5': 'France 5'
 };
 
