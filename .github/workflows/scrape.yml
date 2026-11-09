@@ -1,0 +1,125 @@
+name: 📺 TV Rétro Scraper
+
+on:
+  # Déclenchement manuel avec options
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action à effectuer'
+        required: true
+        default: 'scrape_one_year'
+        type: choice
+        options:
+          - scrape_one_year
+          - scrape_all_depot101
+          - scrape_all_archives80
+          - scrape_all
+          - generate_index_only
+      
+      year:
+        description: 'Année à scraper (si action = scrape_one_year)'
+        required: false
+        default: '1985'
+        type: string
+      
+      source:
+        description: 'Source (si action = scrape_one_year)'
+        required: false
+        default: 'depot101'
+        type: choice
+        options:
+          - depot101
+          - archives80
+
+  # Déclenchement automatique chaque semaine (optionnel)
+  schedule:
+    - cron: '0 3 * * 0'  # Tous les dimanches à 3h du matin
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    name: Scraping des grilles TV
+    
+    steps:
+      - name: 📥 Checkout du dépôt
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Installation de Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📦 Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: 📂 Création des dossiers
+        run: |
+          mkdir -p data/depot101
+          mkdir -p data/archives80
+          mkdir -p web/data
+      
+      - name: 🎬 Scraping - Une année
+        if: github.event.inputs.action == 'scrape_one_year'
+        run: |
+          echo "Scraping de l'année ${{ github.event.inputs.year }} depuis ${{ github.event.inputs.source }}"
+          python scrape_year.py ${{ github.event.inputs.year }} ${{ github.event.inputs.source }}
+      
+      - name: 🎬 Scraping - Tout Depot101
+        if: github.event.inputs.action == 'scrape_all_depot101'
+        run: |
+          echo "Scraping complet de Depot101"
+          python scrape_all.py depot101
+      
+      - name: 🎬 Scraping - Tout Archives80
+        if: github.event.inputs.action == 'scrape_all_archives80'
+        run: |
+          echo "Scraping complet de Archives80"
+          python scrape_all.py archives80
+      
+      - name: 🎬 Scraping - Les deux sources
+        if: github.event.inputs.action == 'scrape_all'
+        run: |
+          echo "Scraping complet des deux sources"
+          python scrape_all.py depot101
+          python scrape_all.py archives80
+      
+      - name: 📊 Génération de l'index
+        if: github.event.inputs.action != 'generate_index_only' || github.event.inputs.action == 'generate_index_only'
+        run: |
+          echo "Génération de l'index des données"
+          python generate_index.py
+      
+      - name: 💾 Commit et push des données
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git add web/data/
+          
+          # Vérifier s'il y a des changements
+          if git diff --staged --quiet; then
+            echo "Aucun changement à committer"
+          else
+            git commit -m "🤖 Update scraped data - $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
+      
+      - name: 📊 Résumé
+        if: always()
+        run: |
+          echo "=== RÉSUMÉ DU SCRAPING ==="
+          echo "Action: ${{ github.event.inputs.action }}"
+          if [ "${{ github.event.inputs.action }}" = "scrape_one_year" ]; then
+            echo "Année: ${{ github.event.inputs.year }}"
+            echo "Source: ${{ github.event.inputs.source }}"
+          fi
+          echo ""
+          echo "Fichiers dans data/:"
+          find data -type f -name "*.json" | wc -l
+          echo ""
+          echo "Fichiers dans web/data/:"
+          find web/data -type f -name "*.json" | wc -l
