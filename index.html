@@ -6,44 +6,54 @@
 
     <title>TV Rétro - Grilles des années 80/90</title>
 
-    <meta name="description" content="Recréez des journées TV des années 80 et 90 à partir des archives Depot101 et Archives80.">
+    <meta name="description" content="Magazine TV rétro : reconstituez des journées télé des années 80 et 90 à partir des archives Depot101 et Archives80.">
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
 
-    <meta name="theme-color" content="#ff00ff">
+    <meta name="theme-color" content="#1f3a5f">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="TV Rétro">
 
     <link rel="icon" type="image/png" href="icon-192.png">
     <link rel="apple-touch-icon" href="icon-192.png">
 
-    <!-- Fonts -->
+    <!-- Fonts magazine -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;600;700&display=swap"
         rel="stylesheet"
     >
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css?v=6">
 
     <!-- Script principal -->
-    <script src="app.js?v=5" defer></script>
+    <script src="app.js?v=6" defer></script>
 </head>
 
 <body>
-    <!-- Effet CRT -->
-    <div class="crt-effect" aria-hidden="true"></div>
+    <!-- Texture papier très légère -->
+    <div class="paper-grain" aria-hidden="true"></div>
 
-    <!-- Header -->
+    <!-- Header / masthead -->
     <header class="header">
-        <div class="logo">
-            <h1>📺 TV RÉTRO</h1>
-            <p class="tagline">Revivez les grilles TV des années 80/90</p>
+        <div class="masthead">
+            <div class="logo">
+                <h1>TV RÉTRO</h1>
+                <p class="tagline">Les grilles télé des années 80 &amp; 90</p>
+            </div>
+
+            <div class="edition-line">
+                <span>Archives Depot101</span>
+                <span>·</span>
+                <span>Archives80</span>
+                <span>·</span>
+                <span>Playlist TuneMyMusic</span>
+            </div>
         </div>
 
         <nav class="nav" aria-label="Navigation principale">
@@ -71,8 +81,8 @@
 
             <div class="info-banner">
                 <p>
-                    📺 Explorez les grilles TV des années 80/90 disponibles dans nos archives.
-                    Choisissez une année, puis une journée.
+                    Choisissez une année, puis une journée archivée.
+                    Les programmes sont présentés chaîne par chaîne, comme dans un magazine TV.
                 </p>
             </div>
 
@@ -169,7 +179,11 @@
                     </p>
 
                     <p>
-                        🎬 <strong>Sources</strong> : Depot101 et Archives80.
+                        🎬 <strong>Sources</strong> : Depot101 et Archives80, fusionnées sans doublons.
+                    </p>
+
+                    <p>
+                        🗞️ <strong>Présentation</strong> : grille chaîne par chaîne, dans l’esprit d’un magazine TV.
                     </p>
 
                     <p>
@@ -188,7 +202,8 @@
                         <li>Ouvrez l’onglet <strong>Parcourir</strong>.</li>
                         <li>Choisissez une <strong>année</strong>.</li>
                         <li>Sélectionnez une <strong>journée disponible</strong>.</li>
-                        <li>Parcourez les programmes TV.</li>
+                        <li>Parcourez les programmes par chaîne.</li>
+                        <li>Utilisez la recherche ou le filtre par chaîne si besoin.</li>
                         <li>Ajoutez vos programmes préférés à la <strong>playlist</strong>.</li>
                         <li>Dans <strong>Ma Playlist</strong>, cliquez sur <strong>Exporter</strong>.</li>
                         <li>Copiez la liste et collez-la dans <strong>TuneMyMusic</strong>.</li>
@@ -236,7 +251,7 @@
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
     <noscript>
-        <div style="padding: 2rem; text-align: center; color: #fff; background: #000;">
+        <div style="padding: 2rem; text-align: center; color: #1c2026; background: #f5f1e8;">
             <h1>JavaScript requis</h1>
             <p>Cette application nécessite JavaScript pour charger les archives TV.</p>
         </div>
