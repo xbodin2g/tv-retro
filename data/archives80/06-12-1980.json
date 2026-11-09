@@ -1,289 +1,403 @@
 {
   "date": "06-12-1980",
   "source": "archives80",
-  "scraped_at": "2026-11-09T14:49:50.535375",
+  "scraped_at": "2026-11-09T17:19:34.698952",
   "programs": [
     {
       "time": "12:00",
       "title": "Télévision régionale",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Cultivons notre jardin",
       "channel": "TF1",
-      "description": "Emission de Nicolas le jardinier"
+      "description": "Emission de Nicolas le jardinier",
+      "description_lines": [
+        "Emission de Nicolas le jardinier"
+      ]
     },
     {
       "time": "12:45",
       "title": "La vie commence demain",
       "channel": "TF1",
-      "description": "Les baccalauréats d'enseignement général Magazine de l'ONISEP"
+      "description": "Les baccalauréats d'enseignement général Magazine de l'ONISEP",
+      "description_lines": [
+        "Les baccalauréats d'enseignement général",
+        "Magazine de l'ONISEP"
+      ]
     },
     {
       "time": "13:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:30",
       "title": "Le monde de l'accordéon",
       "channel": "TF1",
-      "description": "Emission présentée par Jacqueline Huet"
+      "description": "Emission présentée par Jacqueline Huet",
+      "description_lines": [
+        "Emission présentée par Jacqueline Huet"
+      ]
     },
     {
       "time": "13:50",
       "title": "AU PLAISIR DU SAMEDI",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:10",
       "title": "Trente millions d'amis",
       "channel": "TF1",
-      "description": "Emission de Jean-Pierre Hutin"
+      "description": "Emission de Jean-Pierre Hutin",
+      "description_lines": [
+        "Emission de Jean-Pierre Hutin"
+      ]
     },
     {
       "time": "18:45",
       "title": "Auto-Moto",
       "channel": "TF1",
-      "description": "Emission de Jacques Bonnecarrère. Les Turbo : le rallye des Cévennes. Trial indoor à Bordeaux"
+      "description": "Emission de Jacques Bonnecarrère. Les Turbo : le rallye des Cévennes. Trial indoor à Bordeaux",
+      "description_lines": [
+        "Emission de Jacques Bonnecarrère. Les Turbo : le rallye des Cévennes. Trial indoor à Bordeaux"
+      ]
     },
     {
       "time": "19:10",
       "title": "Six minutes pour vous défendre",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "Les paris de TF1",
       "channel": "TF1",
-      "description": "Emission de Georges Folgoas, Claude Olivier et Jean-Paul Rouland. Invité : Jean-Claude Massoulier"
+      "description": "Emission de Georges Folgoas, Claude Olivier et Jean-Paul Rouland. Invité : Jean-Claude Massoulier",
+      "description_lines": [
+        "Emission de Georges Folgoas, Claude Olivier et Jean-Paul Rouland. Invité : Jean-Claude Massoulier"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "Le gala de l'union des artistes",
       "channel": "TF1",
-      "description": "Emission d'Evelyne Leclercq présentée par Jean-Claude Brialy"
+      "description": "Emission d'Evelyne Leclercq présentée par Jean-Claude Brialy",
+      "description_lines": [
+        "Emission d'Evelyne Leclercq présentée par Jean-Claude Brialy"
+      ]
     },
     {
       "time": "21:30",
       "title": "Les mystères de Paris",
       "channel": "TF1",
-      "description": "La ferme de Bouqueval (4) Feuilleton en 6 épisodes avec Sigmar Solbach"
+      "description": "La ferme de Bouqueval (4) Feuilleton en 6 épisodes avec Sigmar Solbach",
+      "description_lines": [
+        "La ferme de Bouqueval (4)",
+        "Feuilleton en 6 épisodes avec Sigmar Solbach"
+      ]
     },
     {
       "time": "22:30",
       "title": "Télé-Foot",
       "channel": "TF1",
-      "description": "Emission de Pierre Cangioni"
+      "description": "Emission de Pierre Cangioni",
+      "description_lines": [
+        "Emission de Pierre Cangioni"
+      ]
     },
     {
       "time": "23:30",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:55",
       "title": "Ski",
       "channel": "Antenne 2",
-      "description": "Slalom géant messieurs En direct du Val d'Isère"
+      "description": "Slalom géant messieurs En direct du Val d'Isère",
+      "description_lines": [
+        "Slalom géant messieurs",
+        "En direct du Val d'Isère"
+      ]
     },
     {
       "time": "11:45",
       "title": "Journal à l'intention des sourds et des malentendants",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "La vérité est au fond de la marmite",
       "channel": "Antenne 2",
-      "description": "Les blettes et les gratins Présenté par Michel Oliver"
+      "description": "Les blettes et les gratins Présenté par Michel Oliver",
+      "description_lines": [
+        "Les blettes et les gratins",
+        "Présenté par Michel Oliver"
+      ]
     },
     {
       "time": "12:30",
       "title": "Prochainement sur Antenne 2",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "Des animaux et des hommes",
       "channel": "Antenne 2",
-      "description": "L'homme qui aimait les ours Magazine présenté par Allain Bougrain-Dubourg et Virginie Crespeau"
+      "description": "L'homme qui aimait les ours Magazine présenté par Allain Bougrain-Dubourg et Virginie Crespeau",
+      "description_lines": [
+        "L'homme qui aimait les ours",
+        "Magazine présenté par Allain Bougrain-Dubourg et Virginie Crespeau"
+      ]
     },
     {
       "time": "14:25",
       "title": "Les jeux du stade",
       "channel": "Antenne 2",
-      "description": "Emission de Robert Chapatte et Jean Lanzi. Ski : Slalom géant messieurs ; Tennis de table : 1/4 de finale des internationaux de France ; Sport is business : Mark McCormack"
+      "description": "Emission de Robert Chapatte et Jean Lanzi. Ski : Slalom géant messieurs ; Tennis de table : 1/4 de finale des internationaux de France ; Sport is business : Mark McCormack",
+      "description_lines": [
+        "Emission de Robert Chapatte et Jean Lanzi. Ski : Slalom géant messieurs ; Tennis de table : 1/4 de finale des internationaux de France ; Sport is business : Mark McCormack"
+      ]
     },
     {
       "time": "17:20",
       "title": "Récré A2",
       "channel": "Antenne 2",
-      "description": "Pinocchio La caverne d'Abracadabra"
+      "description": "Pinocchio La caverne d'Abracadabra",
+      "description_lines": [
+        "Pinocchio",
+        "La caverne d'Abracadabra"
+      ]
     },
     {
       "time": "18:05",
       "title": "Chorus",
       "channel": "Antenne 2",
-      "description": "Delbert McClinton Emission d'Antoine de Caunes"
+      "description": "Delbert McClinton Emission d'Antoine de Caunes",
+      "description_lines": [
+        "Delbert McClinton",
+        "Emission d'Antoine de Caunes"
+      ]
     },
     {
       "time": "18:50",
       "title": "Des chiffres et des lettres",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:10",
       "title": "D'accord, pas d'accord",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "Top Club",
       "channel": "Antenne 2",
-      "description": "Variétés de Guy Lux et Lela Milcic"
+      "description": "Variétés de Guy Lux et Lela Milcic",
+      "description_lines": [
+        "Variétés de Guy Lux et Lela Milcic"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "La traque",
       "channel": "Antenne 2",
-      "description": "Le démantèlement Feuilleton en 4 épisodes avec Bruno Cremer, Gérard Lanvin.."
+      "description": "Le démantèlement Feuilleton en 4 épisodes avec Bruno Cremer, Gérard Lanvin..",
+      "description_lines": [
+        "Le démantèlement",
+        "Feuilleton en 4 épisodes avec Bruno Cremer, Gérard Lanvin.."
+      ]
     },
     {
       "time": "21:35",
       "title": "Bravo",
       "channel": "Antenne 2",
-      "description": "Emission de Pierre Douglas et Jean-Michel Brosseau. Avec Claude Chabrol, Bernadette Laffont, Louison Bobet, Sim"
+      "description": "Emission de Pierre Douglas et Jean-Michel Brosseau. Avec Claude Chabrol, Bernadette Laffont, Louison Bobet, Sim",
+      "description_lines": [
+        "Emission de Pierre Douglas et Jean-Michel Brosseau. Avec Claude Chabrol, Bernadette Laffont, Louison Bobet, Sim"
+      ]
     },
     {
       "time": "22:35",
       "title": "Les carnets de l'aventure",
       "channel": "Antenne 2",
-      "description": "L'Antarctique à la voile"
+      "description": "L'Antarctique à la voile",
+      "description_lines": [
+        "L'Antarctique à la voile"
+      ]
     },
     {
       "time": "23:25",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "Trait d'union",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Les pieds sur terre",
       "channel": "FR3",
-      "description": "Une scierie dans le Béarn"
+      "description": "Une scierie dans le Béarn",
+      "description_lines": [
+        "Une scierie dans le Béarn"
+      ]
     },
     {
       "time": "13:30",
       "title": "Arrêt des émissions",
       "channel": "FR3",
-      "description": "Avec décrochages régionaux"
+      "description": "Avec décrochages régionaux",
+      "description_lines": [
+        "Avec décrochages régionaux"
+      ]
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Un océan tout entier A vos marques !"
+      "description": "Un océan tout entier A vos marques !",
+      "description_lines": [
+        "Un océan tout entier",
+        "A vos marques !"
+      ]
     },
     {
       "time": "19:10",
       "title": "Soir 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "Télévision régionale",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "Saturnin et Compagnie",
       "channel": "FR3",
-      "description": "L'OVNI"
+      "description": "L'OVNI",
+      "description_lines": [
+        "L'OVNI"
+      ]
     },
     {
       "time": "20:00",
       "title": "Les jeux de 20 heures",
       "channel": "FR3",
-      "description": "Avec Patrick Topaloff, Christine Fabrega, Robert Rocca"
+      "description": "Avec Patrick Topaloff, Christine Fabrega, Robert Rocca",
+      "description_lines": [
+        "Avec Patrick Topaloff, Christine Fabrega, Robert Rocca"
+      ]
     },
     {
       "time": "20:35",
       "title": "Les folies du samedi soir",
       "channel": "FR3",
-      "description": "Pièce avec Martine Sarcey, Odette Laure.."
+      "description": "Pièce avec Martine Sarcey, Odette Laure..",
+      "description_lines": [
+        "Pièce avec Martine Sarcey, Odette Laure.."
+      ]
     },
     {
       "time": "22:30",
       "title": "Soir 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:50",
       "title": "Ciné regards",
       "channel": "FR3",
-      "description": "Du café-théâtre au cinéma"
+      "description": "Du café-théâtre au cinéma",
+      "description_lines": [
+        "Du café-théâtre au cinéma"
+      ]
     },
     {
       "time": "23:20",
       "title": "Fin des émissions",
       "channel": "FR3",
-      "description": "Transcription 19891210AW grille originale"
+      "description": "Transcription 19891210AW grille originale",
+      "description_lines": [
+        "Transcription 19891210AW grille originale"
+      ]
     }
   ]
 }

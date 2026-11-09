@@ -1,307 +1,441 @@
 {
   "date": "13-01-1980",
   "source": "archives80",
-  "scraped_at": "2026-11-09T14:52:12.171304",
+  "scraped_at": "2026-11-09T17:21:02.366260",
   "programs": [
     {
       "time": "09:15",
       "title": "A Bible ouverte",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "09:30",
       "title": "Chrétiens Orientaux",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:00",
       "title": "Présence protestante",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "Le jour du Seigneur",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "La séquence du spectateur",
       "channel": "TF1",
-      "description": "L'adolescente / La fureur de vaincre / La beauté du Diable Sélection de films de Claude Mionnet"
+      "description": "L'adolescente / La fureur de vaincre / La beauté du Diable Sélection de films de Claude Mionnet",
+      "description_lines": [
+        "L'adolescente / La fureur de vaincre / La beauté du Diable",
+        "Sélection de films de Claude Mionnet"
+      ]
     },
     {
       "time": "12:30",
       "title": "TF1 - TF1",
       "channel": "TF1",
-      "description": "Emission de Maurice Bruzek et Sophie Rack"
+      "description": "Emission de Maurice Bruzek et Sophie Rack",
+      "description_lines": [
+        "Emission de Maurice Bruzek et Sophie Rack"
+      ]
     },
     {
       "time": "13:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:20",
       "title": "C'est pas sérieux",
       "channel": "TF1",
-      "description": "Présenté par Jean Bertho et Jean Amadou"
+      "description": "Présenté par Jean Bertho et Jean Amadou",
+      "description_lines": [
+        "Présenté par Jean Bertho et Jean Amadou"
+      ]
     },
     {
       "time": "14:15",
       "title": "Les rendez-vous du dimanche",
       "channel": "TF1",
-      "description": "Présenté par Michel Drucker"
+      "description": "Présenté par Michel Drucker",
+      "description_lines": [
+        "Présenté par Michel Drucker"
+      ]
     },
     {
       "time": "15:30",
       "title": "Tiercé à Vincennes",
       "channel": "TF1",
-      "description": "Commentaire : André Théron"
+      "description": "Commentaire : André Théron",
+      "description_lines": [
+        "Commentaire : André Théron"
+      ]
     },
     {
       "time": "15:40",
       "title": "L'île fantastique",
       "channel": "TF1",
-      "description": "Le privé et le timide Série américaine avec Ricardo Montalban"
+      "description": "Le privé et le timide Série américaine avec Ricardo Montalban",
+      "description_lines": [
+        "Le privé et le timide",
+        "Série américaine avec Ricardo Montalban"
+      ]
     },
     {
       "time": "16:30",
       "title": "Sports Première",
       "channel": "TF1",
-      "description": "Présenté par Michel Denisot"
+      "description": "Présenté par Michel Denisot",
+      "description_lines": [
+        "Présenté par Michel Denisot"
+      ]
     },
     {
       "time": "17:55",
       "title": "Où vont les poissons rouges ?",
       "channel": "TF1",
-      "description": "Téléfilm français"
+      "description": "Téléfilm français",
+      "description_lines": [
+        "Téléfilm français"
+      ]
     },
     {
       "time": "19:25",
       "title": "Les animaux du monde",
       "channel": "TF1",
-      "description": "Qui a peur du grand méchant loup ? Emission de Marlyse de la Grange et Antoine Reille"
+      "description": "Qui a peur du grand méchant loup ? Emission de Marlyse de la Grange et Antoine Reille",
+      "description_lines": [
+        "Qui a peur du grand méchant loup ?",
+        "Emission de Marlyse de la Grange et Antoine Reille"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "Le chat et la souris",
       "channel": "TF1",
-      "description": "Film français (1975) avec Michèle Morgan"
+      "description": "Film français (1975) avec Michèle Morgan",
+      "description_lines": [
+        "Film français (1975) avec Michèle Morgan"
+      ]
     },
     {
       "time": "22:15",
       "title": "Tennis",
       "channel": "TF1",
-      "description": "Tournois des masters. Finale Commenté en direct par Christian Quidet et Jean Raynal"
+      "description": "Tournois des masters. Finale Commenté en direct par Christian Quidet et Jean Raynal",
+      "description_lines": [
+        "Tournois des masters. Finale",
+        "Commenté en direct par Christian Quidet et Jean Raynal"
+      ]
     },
     {
       "time": "23:15",
       "title": "Journal",
       "channel": "TF1",
-      "description": "Réf : 19890215"
+      "description": "Réf : 19890215",
+      "description_lines": [
+        "Réf : 19890215"
+      ]
     },
     {
       "time": "09:30",
       "title": "Même le dimanche",
       "channel": "Antenne 2",
-      "description": "Série d'émissions du CNDP"
+      "description": "Série d'émissions du CNDP",
+      "description_lines": [
+        "Série d'émissions du CNDP"
+      ]
     },
     {
       "time": "11:00",
       "title": "On we go",
       "channel": "Antenne 2",
-      "description": "Mark is ill Cours d'anglais présenté par Igor Gourine"
+      "description": "Mark is ill Cours d'anglais présenté par Igor Gourine",
+      "description_lines": [
+        "Mark is ill",
+        "Cours d'anglais présenté par Igor Gourine"
+      ]
     },
     {
       "time": "11:15",
       "title": "Chorus",
       "channel": "Antenne 2",
-      "description": "Présenté par Antoine de Caunes. The Ruts et Casino Music"
+      "description": "Présenté par Antoine de Caunes. The Ruts et Casino Music",
+      "description_lines": [
+        "Présenté par Antoine de Caunes. The Ruts et Casino Music"
+      ]
     },
     {
       "time": "12:00",
       "title": "Concert",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:25",
       "title": "Tremplin 80",
       "channel": "Antenne 2",
-      "description": "Présenté par Bernard Matignon. Avec Nicole Croisille, Marguerite, Maxime Piolot"
+      "description": "Présenté par Bernard Matignon. Avec Nicole Croisille, Marguerite, Maxime Piolot",
+      "description_lines": [
+        "Présenté par Bernard Matignon. Avec Nicole Croisille, Marguerite, Maxime Piolot"
+      ]
     },
     {
       "time": "12:45",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:20",
       "title": "Wonder woman",
       "channel": "Antenne 2",
-      "description": "Formule 407 Série américaine. Avec Lynda Carter"
+      "description": "Formule 407 Série américaine. Avec Lynda Carter",
+      "description_lines": [
+        "Formule 407",
+        "Série américaine. Avec Lynda Carter"
+      ]
     },
     {
       "time": "14:10",
       "title": "Des chiffres, des lettres pour les jeunes",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Lionel Cassan"
+      "description": "Jeu présenté par Lionel Cassan",
+      "description_lines": [
+        "Jeu présenté par Lionel Cassan"
+      ]
     },
     {
       "time": "15:00",
       "title": "Des animaux et des hommes",
       "channel": "Antenne 2",
-      "description": "Présenté par Alain Bougrain-Dubourg"
+      "description": "Présenté par Alain Bougrain-Dubourg",
+      "description_lines": [
+        "Présenté par Alain Bougrain-Dubourg"
+      ]
     },
     {
       "time": "15:50",
       "title": "Passe-passe",
       "channel": "Antenne 2",
-      "description": "Emission présentée par Gérard Majax"
+      "description": "Emission présentée par Gérard Majax",
+      "description_lines": [
+        "Emission présentée par Gérard Majax"
+      ]
     },
     {
       "time": "16:35",
       "title": "Les brigades du Tigre",
       "channel": "Antenne 2",
-      "description": "Cordialement vôtre Série française"
+      "description": "Cordialement vôtre Série française",
+      "description_lines": [
+        "Cordialement vôtre",
+        "Série française"
+      ]
     },
     {
       "time": "17:30",
       "title": "Le Muppet Show",
       "channel": "Antenne 2",
-      "description": "Harry Belafonte"
+      "description": "Harry Belafonte",
+      "description_lines": [
+        "Harry Belafonte"
+      ]
     },
     {
       "time": "18:00",
       "title": "Dessine-moi un mouton",
       "channel": "Antenne 2",
-      "description": "Présentée par Jacques Martin"
+      "description": "Présentée par Jacques Martin",
+      "description_lines": [
+        "Présentée par Jacques Martin"
+      ]
     },
     {
       "time": "19:00",
       "title": "Stade 2",
       "channel": "Antenne 2",
-      "description": "Les trophées 79 Présenté par Robert Chapatte"
+      "description": "Les trophées 79 Présenté par Robert Chapatte",
+      "description_lines": [
+        "Les trophées 79",
+        "Présenté par Robert Chapatte"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "Duel à Santa Fé",
       "channel": "Antenne 2",
-      "description": "Téléfilm américain avec Jeff Osterhage, Tom Selleck, Sam Elliot, Glenn Ford"
+      "description": "Téléfilm américain avec Jeff Osterhage, Tom Selleck, Sam Elliot, Glenn Ford",
+      "description_lines": [
+        "Téléfilm américain avec Jeff Osterhage, Tom Selleck, Sam Elliot, Glenn Ford"
+      ]
     },
     {
       "time": "22:20",
       "title": "Le petit théâtre",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:55",
       "title": "Fenêtre sur...",
       "channel": "Antenne 2",
-      "description": "Marek Helter"
+      "description": "Marek Helter",
+      "description_lines": [
+        "Marek Helter"
+      ]
     },
     {
       "time": "23:25",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": "Réf : 19890215"
+      "description": "Réf : 19890215",
+      "description_lines": [
+        "Réf : 19890215"
+      ]
     },
     {
       "time": "10:00",
       "title": "Images de...",
       "channel": "FR3",
-      "description": "Documents filmés"
+      "description": "Documents filmés",
+      "description_lines": [
+        "Documents filmés"
+      ]
     },
     {
       "time": "10:30",
       "title": "Mosaïque",
       "channel": "FR3",
-      "description": "Emission de l'agence de développement des relations interculturelles"
+      "description": "Emission de l'agence de développement des relations interculturelles",
+      "description_lines": [
+        "Emission de l'agence de développement des relations interculturelles"
+      ]
     },
     {
       "time": "12:00",
       "title": "Arrêt des émissions",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "16:00",
       "title": "Tous contre trois",
       "channel": "FR3",
-      "description": "Saint-Maximin de la Sainte-Baume Emission présentée par Georges de Caunes"
+      "description": "Saint-Maximin de la Sainte-Baume Emission présentée par Georges de Caunes",
+      "description_lines": [
+        "Saint-Maximin de la Sainte-Baume",
+        "Emission présentée par Georges de Caunes"
+      ]
     },
     {
       "time": "17:00",
       "title": "Prélude à l'après-midi",
       "channel": "FR3",
-      "description": "Le Belle Meunière de Schubert"
+      "description": "Le Belle Meunière de Schubert",
+      "description_lines": [
+        "Le Belle Meunière de Schubert"
+      ]
     },
     {
       "time": "18:10",
       "title": "Le jeu de l'amour et du hasard",
       "channel": "FR3",
-      "description": "THEATRE DE TOUJOURS. Avec Jean-Pierre Cassel, Danièle Lebrun, Claude Brasseur"
+      "description": "THEATRE DE TOUJOURS. Avec Jean-Pierre Cassel, Danièle Lebrun, Claude Brasseur",
+      "description_lines": [
+        "THEATRE DE TOUJOURS. Avec Jean-Pierre Cassel, Danièle Lebrun, Claude Brasseur"
+      ]
     },
     {
       "time": "19:45",
       "title": "Spécial DOM-TOM",
       "channel": "FR3",
-      "description": "Journal de l'Outre-Mer"
+      "description": "Journal de l'Outre-Mer",
+      "description_lines": [
+        "Journal de l'Outre-Mer"
+      ]
     },
     {
       "time": "20:00",
       "title": "Comic Palace",
       "channel": "FR3",
-      "description": "Avec Bernard Haller"
+      "description": "Avec Bernard Haller",
+      "description_lines": [
+        "Avec Bernard Haller"
+      ]
     },
     {
       "time": "20:30",
       "title": "Inventaire des campagnes",
       "channel": "FR3",
-      "description": "Les toits et les foyers (2) Série de 6 émissions de Daniel Vigne"
+      "description": "Les toits et les foyers (2) Série de 6 émissions de Daniel Vigne",
+      "description_lines": [
+        "Les toits et les foyers (2)",
+        "Série de 6 émissions de Daniel Vigne"
+      ]
     },
     {
       "time": "21:25",
       "title": "Soir 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "21:40",
       "title": "L'invité de FR3",
       "channel": "FR3",
-      "description": "Gargantua"
+      "description": "Gargantua",
+      "description_lines": [
+        "Gargantua"
+      ]
     },
     {
       "time": "22:35",
       "title": "Cinéma de Minuit",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:45",
       "title": "Fin des émissions",
       "channel": "FR3",
-      "description": "Réf : 19890215"
+      "description": "Réf : 19890215",
+      "description_lines": [
+        "Réf : 19890215"
+      ]
     }
   ]
 }

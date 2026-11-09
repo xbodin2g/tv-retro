@@ -1,289 +1,416 @@
 {
   "date": "17-01-1980",
   "source": "archives80",
-  "scraped_at": "2026-11-09T14:52:58.492311",
+  "scraped_at": "2026-11-09T17:21:36.150272",
   "programs": [
     {
       "time": "12:15",
       "title": "Réponse à tout",
       "channel": "TF1",
-      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier",
+      "description_lines": [
+        "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      ]
     },
     {
       "time": "12:30",
       "title": "Midi première",
       "channel": "TF1",
-      "description": "Emission de Danièle Gilbert"
+      "description": "Emission de Danièle Gilbert",
+      "description_lines": [
+        "Emission de Danièle Gilbert"
+      ]
     },
     {
       "time": "13:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:50",
       "title": "Objectif santé",
       "channel": "TF1",
-      "description": "Les accidents des personnes âgées à domicile Emission du Docteur Schodet"
+      "description": "Les accidents des personnes âgées à domicile Emission du Docteur Schodet",
+      "description_lines": [
+        "Les accidents des personnes âgées à domicile",
+        "Emission du Docteur Schodet"
+      ]
     },
     {
       "time": "14:00",
       "title": "Les 24 jeudis",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:00",
       "title": "TF Quatre",
       "channel": "TF1",
-      "description": "Présenté par Annik Beauchamps"
+      "description": "Présenté par Annik Beauchamps",
+      "description_lines": [
+        "Présenté par Annik Beauchamps"
+      ]
     },
     {
       "time": "18:30",
       "title": "1, RUE SÉSAME",
       "channel": "TF1",
-      "description": "L'art de la conversation"
+      "description": "L'art de la conversation",
+      "description_lines": [
+        "L'art de la conversation"
+      ]
     },
     {
       "time": "18:55",
       "title": "C'est arrivé un jour",
       "channel": "TF1",
-      "description": "La trappe du pendu Emission de Pierre Bellemare"
+      "description": "La trappe du pendu Emission de Pierre Bellemare",
+      "description_lines": [
+        "La trappe du pendu",
+        "Emission de Pierre Bellemare"
+      ]
     },
     {
       "time": "19:10",
       "title": "Une minute pour les femmes",
       "channel": "TF1",
-      "description": "Les institutions qui font fonctionner l'école Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      "description": "Les institutions qui font fonctionner l'école Emission d'Eliane Victor. Présentée par Anne-Marie Peysson",
+      "description_lines": [
+        "Les institutions qui font fonctionner l'école",
+        "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      ]
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "Tribune politique",
       "channel": "TF1",
-      "description": "La majorité"
+      "description": "La majorité",
+      "description_lines": [
+        "La majorité"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "Opération trafics",
       "channel": "TF1",
-      "description": "Drôle de pastis Série française en 6 épisodes avec Guy marchand"
+      "description": "Drôle de pastis Série française en 6 épisodes avec Guy marchand",
+      "description_lines": [
+        "Drôle de pastis",
+        "Série française en 6 épisodes avec Guy marchand"
+      ]
     },
     {
       "time": "21:30",
       "title": "L'évènement",
       "channel": "TF1",
-      "description": "Magazine d'actualité"
+      "description": "Magazine d'actualité",
+      "description_lines": [
+        "Magazine d'actualité"
+      ]
     },
     {
       "time": "22:35",
       "title": "Les grands pas classiques",
       "channel": "TF1",
-      "description": "Emission de Mario Bois"
+      "description": "Emission de Mario Bois",
+      "description_lines": [
+        "Emission de Mario Bois"
+      ]
     },
     {
       "time": "23:05",
       "title": "Journal",
       "channel": "TF1",
-      "description": "Retranscription 06.01.90 Paul Dard"
+      "description": "Retranscription 06.01.90 Paul Dard",
+      "description_lines": [
+        "Retranscription 06.01.90 Paul Dard"
+      ]
     },
     {
       "time": "10:00",
       "title": "Télévision scolaire",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "Arrêt des émissions",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:05",
       "title": "Passez donc me voir",
       "channel": "Antenne 2",
-      "description": "Emission presentée par Philippe Bouvard"
+      "description": "Emission presentée par Philippe Bouvard",
+      "description_lines": [
+        "Emission presentée par Philippe Bouvard"
+      ]
     },
     {
       "time": "12:30",
       "title": "Le roman d'un jeune homme pauvre",
       "channel": "Antenne 2",
-      "description": "4ème épisode Feuilleton français avec Alain Courivaud, Jacques Monod, Christian Charmettant, Annick Allières, Georges Aubert, Valérie Pascale"
+      "description": "4ème épisode Feuilleton français avec Alain Courivaud, Jacques Monod, Christian Charmettant, Annick Allières, Georges Aubert, Valérie Pascale",
+      "description_lines": [
+        "4ème épisode",
+        "Feuilleton français avec Alain Courivaud, Jacques Monod, Christian Charmettant, Annick Allières, Georges Aubert, Valérie Pascale"
+      ]
     },
     {
       "time": "12:45",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "Télévision régionale",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:50",
       "title": "Face à vous",
       "channel": "Antenne 2",
-      "description": "Emission de Jacqueline Alexandre"
+      "description": "Emission de Jacqueline Alexandre",
+      "description_lines": [
+        "Emission de Jacqueline Alexandre"
+      ]
     },
     {
       "time": "14:00",
       "title": "Aujourd'hui Madame",
       "channel": "Antenne 2",
-      "description": "Les femmes au mari absent"
+      "description": "Les femmes au mari absent",
+      "description_lines": [
+        "Les femmes au mari absent"
+      ]
     },
     {
       "time": "15:05",
       "title": "Le fugitif",
       "channel": "Antenne 2",
-      "description": "Capturez cet homme Série américaine. Rediffusion"
+      "description": "Capturez cet homme Série américaine. Rediffusion",
+      "description_lines": [
+        "Capturez cet homme",
+        "Série américaine. Rediffusion"
+      ]
     },
     {
       "time": "16:00",
       "title": "L'invité du jeudi",
       "channel": "Antenne 2",
-      "description": "Jean d'Ormesson Emission d'Anne Sinclair"
+      "description": "Jean d'Ormesson Emission d'Anne Sinclair",
+      "description_lines": [
+        "Jean d'Ormesson",
+        "Emission d'Anne Sinclair"
+      ]
     },
     {
       "time": "17:20",
       "title": "Fenêtre sur...",
       "channel": "Antenne 2",
-      "description": "La vallée des hommes Les paysans savants"
+      "description": "La vallée des hommes Les paysans savants",
+      "description_lines": [
+        "La vallée des hommes",
+        "Les paysans savants"
+      ]
     },
     {
       "time": "17:50",
       "title": "Récré A2",
       "channel": "Antenne 2",
-      "description": "Emilie : Emilie est malade Mes mains ont la parole : L'histoire d'une princesse Mademoiselle Rose et Charlemagne : Les facéties de Charlemagne Satanas et Diabolo : Entre l'enclume et le marteau"
+      "description": "Emilie : Emilie est malade Mes mains ont la parole : L'histoire d'une princesse Mademoiselle Rose et Charlemagne : Les facéties de Charlemagne Satanas et Diabolo : Entre l'enclume et le marteau",
+      "description_lines": [
+        "Emilie : Emilie est malade",
+        "Mes mains ont la parole : L'histoire d'une princesse",
+        "Mademoiselle Rose et Charlemagne : Les facéties de Charlemagne",
+        "Satanas et Diabolo : Entre l'enclume et le marteau"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'est la vie",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "Des chiffres et des lettres",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:10",
       "title": "D'accord, pas d'accord",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "Top Club",
       "channel": "Antenne 2",
-      "description": "Emission de variétés présentée par Guy Lux"
+      "description": "Emission de variétés présentée par Guy Lux",
+      "description_lines": [
+        "Emission de variétés présentée par Guy Lux"
+      ]
     },
     {
       "time": "20:00",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "L'acrobate",
       "channel": "Antenne 2",
-      "description": "Film français (1975) avec Claude Melki, Laurence Bru, Guy Marchand, Marion Game.."
+      "description": "Film français (1975) avec Claude Melki, Laurence Bru, Guy Marchand, Marion Game..",
+      "description_lines": [
+        "Film français (1975) avec Claude Melki, Laurence Bru, Guy Marchand, Marion Game.."
+      ]
     },
     {
       "time": "22:10",
       "title": "Des Français en Ecosse, ou \"La mort en direct\"",
       "channel": "Antenne 2",
-      "description": "Reportage de David Hanley sur le film de Bertrand Tavernier"
+      "description": "Reportage de David Hanley sur le film de Bertrand Tavernier",
+      "description_lines": [
+        "Reportage de David Hanley sur le film de Bertrand Tavernier"
+      ]
     },
     {
       "time": "23:00",
       "title": "Figaro-ci, Figaro-La",
       "channel": "Antenne 2",
-      "description": "Emission de Pierre Petit"
+      "description": "Emission de Pierre Petit",
+      "description_lines": [
+        "Emission de Pierre Petit"
+      ]
     },
     {
       "time": "23:30",
       "title": "Journal",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "Pour la jeunesse",
       "channel": "FR3",
-      "description": "Les enfants d'ailleurs : En Mélanésie aux Nouvelles-Hébrides B comme bricolage : Comment réparer un robinet qui goutte ?"
+      "description": "Les enfants d'ailleurs : En Mélanésie aux Nouvelles-Hébrides B comme bricolage : Comment réparer un robinet qui goutte ?",
+      "description_lines": [
+        "Les enfants d'ailleurs : En Mélanésie aux Nouvelles-Hébrides",
+        "B comme bricolage : Comment réparer un robinet qui goutte ?"
+      ]
     },
     {
       "time": "18:55",
       "title": "Tribune libre",
       "channel": "FR3",
-      "description": "Parti Socialiste Emission de Jean-Claude Courdy"
+      "description": "Parti Socialiste Emission de Jean-Claude Courdy",
+      "description_lines": [
+        "Parti Socialiste",
+        "Emission de Jean-Claude Courdy"
+      ]
     },
     {
       "time": "19:10",
       "title": "Soir 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "Actualités régionales",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "Télévision régionale",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "L'histoire de France en BD",
       "channel": "FR3",
-      "description": "Charlemagne roi Dessin animé"
+      "description": "Charlemagne roi Dessin animé",
+      "description_lines": [
+        "Charlemagne roi",
+        "Dessin animé"
+      ]
     },
     {
       "time": "20:00",
       "title": "Les jeux de 20 heures",
       "channel": "FR3",
-      "description": "Présenté par Maurice Favières et Jean-Pierre Descombes. Avec Daniel Hamelin, Danièle Rocca, Jean Raymond"
+      "description": "Présenté par Maurice Favières et Jean-Pierre Descombes. Avec Daniel Hamelin, Danièle Rocca, Jean Raymond",
+      "description_lines": [
+        "Présenté par Maurice Favières et Jean-Pierre Descombes. Avec Daniel Hamelin, Danièle Rocca, Jean Raymond"
+      ]
     },
     {
       "time": "20:30",
       "title": "La piscine",
       "channel": "FR3",
-      "description": "Cycle Romy Schneider. Film français (1968)"
+      "description": "Cycle Romy Schneider. Film français (1968)",
+      "description_lines": [
+        "Cycle Romy Schneider. Film français (1968)"
+      ]
     },
     {
       "time": "22:25",
       "title": "Soir 3",
       "channel": "FR3",
-      "description": "Retranscription 06.01.90 Paul Dard"
+      "description": "Retranscription 06.01.90 Paul Dard",
+      "description_lines": [
+        "Retranscription 06.01.90 Paul Dard"
+      ]
     }
   ]
 }
