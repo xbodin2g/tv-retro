@@ -8,6 +8,11 @@ on:
         required: false
         type: string
 
+# 🔑 PERMISSIONS EXPLICITES - CRUCIAL !
+permissions:
+  contents: write
+  actions: read
+
 jobs:
   debug:
     runs-on: ubuntu-latest
@@ -18,7 +23,7 @@ jobs:
       - name: 📥 Checkout du dépôt
         uses: actions/checkout@v4
         with:
-          ref: main  # Force la branche main
+          fetch-depth: 0  # Important pour le push
       
       - name: 🐍 Installation de Python
         uses: actions/setup-python@v5
@@ -29,10 +34,26 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4 lxml cloudscraper
+          echo "✅ Dépendances installées"
+      
+      - name: 🔍 Test de diagnostic Git
+        run: |
+          echo "=== DIAGNOSTIC GIT ==="
+          echo "Branche actuelle: $(git branch --show-current)"
+          echo "Utilisateur git:"
+          git config --get user.name || echo "(non configuré)"
+          echo "Remote:"
+          git remote -v
+          echo "Status avant:"
+          git status
+          echo "====================="
       
       - name: 📂 Création du dossier debug
         run: |
           mkdir -p debug
+          echo "Test de création - $(date)" > debug/test.txt
+          echo "✅ Dossier debug créé"
+          ls -la debug/
       
       - name: 🐛 Lancement du debug complet
         run: |
@@ -81,59 +102,69 @@ jobs:
           print('✓ Fichiers créés: debug/custom_page.html et debug/custom_page.txt')
           "
       
-      - name: 📄 Création d'un résumé des résultats
+      - name: 📊 Liste des fichiers créés
         run: |
-          echo "## 🐛 Résultats du Debug" > debug/README.md
-          echo "" >> debug/README.md
-          echo "Date: $(date +'%Y-%m-%d %H:%M:%S')" >> debug/README.md
-          echo "" >> debug/README.md
-          echo "### 📂 Fichiers générés" >> debug/README.md
-          echo "" >> debug/README.md
-          echo "\`\`\`" >> debug/README.md
-          find debug -type f -name "*.html" -o -name "*.txt" | sort >> debug/README.md
-          echo "\`\`\`" >> debug/README.md
-          echo "" >> debug/README.md
-          echo "### 💡 Comment utiliser ces fichiers" >> debug/README.md
-          echo "" >> debug/README.md
-          echo "1. Les fichiers **.html** contiennent le code source complet" >> debug/README.md
-          echo "2. Les fichiers **.txt** contiennent le texte extrait pour une lecture facile" >> debug/README.md
-          echo "3. Ouvrez-les directement dans GitHub pour voir le contenu" >> debug/README.md
+          echo "=== FICHIERS DANS LE DÉPÔT ==="
+          find . -type f -not -path '*/\.git/*' | head -50
+          echo ""
+          echo "=== FICHIERS DANS DEBUG/ ==="
+          find debug -type f 2>/dev/null | sort || echo "Dossier debug vide ou inexistant"
       
-      - name: 💾 Commit des fichiers de debug
+      - name: 💾 Configuration Git et Commit
         run: |
+          echo "=== CONFIGURATION GIT ==="
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add debug/
           
+          echo "=== STATUS AVANT ADD ==="
+          git status
+          
+          echo "=== AJOUT DES FICHIERS ==="
+          git add debug/
+          git add -A
+          
+          echo "=== STATUS APRÈS ADD ==="
+          git status
+          
+          echo "=== VÉRIFICATION DES CHANGEMENTS ==="
           if git diff --staged --quiet; then
-            echo "Aucun changement"
-          else
-            git commit -m "🐛 Debug files - $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin main
+            echo "⚠️  Aucun changement détecté dans le staging"
+            # Essayer de forcer
+            git add --force debug/
+            git status
           fi
       
-      - name: 📋 Résumé pour consultation rapide
+      - name: 📤 Push des changements
+        run: |
+          if git diff --staged --quiet; then
+            echo "ℹ️  Aucun changement à committer"
+          else
+            echo "=== COMMIT ==="
+            git commit -m "🐛 Debug files - $(date +'%Y-%m-%d %H:%M:%S')"
+            echo "=== PUSH ==="
+            BRANCH=$(git branch --show-current)
+            echo "Push vers la branche: $BRANCH"
+            git push origin $BRANCH
+            echo "✅ Push réussi"
+          fi
+      
+      - name: 📋 Résumé final
         if: always()
         run: |
           echo "==================================================="
-          echo "🎉 DEBUG TERMINÉ"
+          echo "🎯 RÉSUMÉ DU WORKFLOW"
+          echo "==================================================="
+          echo "Statut final: ${{ job.status }}"
+          echo "Branche: $(git branch --show-current)"
           echo "==================================================="
           echo ""
-          echo "📂 Fichiers créés:"
-          find debug -type f 2>/dev/null | sort
+          echo "📂 Fichiers dans debug/ :"
+          find debug -type f 2>/dev/null | sort || echo "(aucun)"
           echo ""
-          echo "🔗 Pour voir les fichiers:"
+          echo "🔗 Lien vers le dépôt:"
           echo "   https://github.com/${{ github.repository }}/tree/main/debug"
           echo ""
-          echo "📖 Pour voir un fichier spécifique:"
-          echo "   Cliquez sur le fichier dans le lien ci-dessus"
-          echo "   GitHub affichera son contenu directement"
-          echo ""
-          echo "⚠️  Si vous voyez des 403, c'est que le site bloque."
-          echo "   Cloudscraper a essayé de contourner, mais certains sites"
-          echo "   ont des protections très avancées."
-      
-      - name: 📱 Notification
-        if: always()
-        run: |
-          echo "✅ Workflow terminé avec le statut: ${{ job.status }}"
+          echo "⚠️  SI LE DOSSIER DEBUG N'APPARAÎT PAS :"
+          echo "   1. Vérifiez que vous êtes sur la bonne branche"
+          echo "   2. Regardez les logs ci-dessus pour les erreurs"
+          echo "   3. Vérifiez les permissions du workflow"
