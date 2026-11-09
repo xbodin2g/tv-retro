@@ -1,4 +1,13 @@
-# scraper/archives80_scraper.py
+#!/usr/bin/env python3
+"""
+Scraper Archives80 corrigé.
+- TV6 ajouté
+- détection chaîne avec contexte
+- découverte dates via href + texte
+- plan B mensuel
+- description_lines conservées
+"""
+
 import cloudscraper
 from bs4 import BeautifulSoup
 import json
@@ -18,7 +27,10 @@ class Archives80Scraper:
     BASE_URL = "https://www.archives80.com/tele/grille/date"
 
     TIME_RE = re.compile(r"^\d{2}:\d{2}$")
-    DATE_HREF_RE = re.compile(r"/tele/grille/(?:date/)?(\d{2}-\d{2}-\d{4})")
+    DATE_HREF_RE = re.compile(
+        r"/tele/grilles?/(?:date/)?(\d{2}-\d{2}-\d{4})",
+        re.IGNORECASE
+    )
 
     MONTHS = {
         "janvier": 1,
@@ -49,6 +61,7 @@ class Archives80Scraper:
         "C+": "Canal+",
         "CANAL+": "Canal+",
         "CANAL": "Canal+",
+        "TV6": "TV6",
         "L5": "La Cinq",
         "LA5": "La Cinq",
         "LA 5": "La Cinq",
@@ -71,6 +84,7 @@ class Archives80Scraper:
         "C+": "Canal+",
         "CANAL+": "Canal+",
         "CANAL": "Canal+",
+        "TV6": "TV6",
         "L5": "La Cinq",
         "LA5": "La Cinq",
         "LACINQ": "La Cinq",
@@ -82,6 +96,7 @@ class Archives80Scraper:
 
     CHANNEL_REGEX = [
         (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
+        (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
@@ -126,6 +141,7 @@ class Archives80Scraper:
         self.delay = delay
 
         self._home_visited = False
+        self._visited_decades: Set[str] = set()
 
         self._annual_dates_cache: Dict[str, List[str]] = {}
         self._annual_attempted: Set[str] = set()
@@ -151,10 +167,7 @@ class Archives80Scraper:
     def _reset_scraper(self) -> None:
         self.scraper = self._create_scraper()
         self._home_visited = False
-        self._annual_dates_cache.clear()
-        self._annual_attempted.clear()
-        self._annual_text_cache.clear()
-        self._annual_url_cache.clear()
+        self._visited_decades.clear()
         self._daily_text_cache.clear()
 
     def _headers_for(self, referer: Optional[str] = None) -> Dict[str, str]:
@@ -197,6 +210,7 @@ class Archives80Scraper:
                     )
 
                     if attempt < max_retries - 1:
+                        print(f"  ⚠️ 403 sur {url}, retry {attempt + 1}/{max_retries - 1}...")
                         self._reset_scraper()
                         time.sleep(random.uniform(5.0, 10.0) * (attempt + 1))
                         continue
@@ -210,10 +224,12 @@ class Archives80Scraper:
                 last_error = e
 
                 if attempt < max_retries - 1:
+                    print(f"  ⚠️ Erreur sur {url}: {e}")
                     self._reset_scraper()
                     time.sleep(random.uniform(5.0, 10.0) * (attempt + 1))
                     continue
 
+                print(f"  ❌ Erreur finale sur {url}: {e}")
                 raise
 
         if last_error:
@@ -224,7 +240,7 @@ class Archives80Scraper:
     def _html_to_text(self, html: str) -> str:
         soup = BeautifulSoup(html, "html.parser")
 
-        for tag in soup(["script", "style", "noscript"]):
+        for tag in soup(["script", "style"]):
             tag.decompose()
 
         return soup.get_text("\n", strip=True)
@@ -263,10 +279,11 @@ class Archives80Scraper:
 
             if response is not None:
                 self._home_visited = True
+                print("✓ Page d'accueil Archives80 visitée")
                 return True
 
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ Accueil Archives80 inaccessible: {e}")
 
         return False
 
@@ -293,7 +310,29 @@ class Archives80Scraper:
     def _extract_dates_from_html(self, html: str, year: Optional[int] = None) -> List[str]:
         dates: Set[str] = set()
 
-        for match in self.DATE_HREF_RE.finditer(str(html or "")):
+        if not html:
+            return []
+
+        try:
+            soup = BeautifulSoup(html, "html.parser")
+
+            for a in soup.find_all("a", href=True):
+                match = self.DATE_HREF_RE.search(a["href"])
+
+                if not match:
+                    continue
+
+                date = match.group(1)
+
+                if year is not None and not date.endswith(f"-{year}"):
+                    continue
+
+                dates.add(date)
+
+        except Exception:
+            pass
+
+        for match in self.DATE_HREF_RE.finditer(html):
             date = match.group(1)
 
             if year is not None and not date.endswith(f"-{year}"):
@@ -371,9 +410,12 @@ class Archives80Scraper:
 
         self._annual_attempted.add(year_str)
 
+        print(f"📅 Recherche des dates Archives80 pour {year}...")
+
         self._visit_home()
 
         referer = self.HOME_URL if self._home_visited else None
+        last_text: Optional[str] = None
 
         for url in self._annual_url_candidates(year):
             try:
@@ -382,24 +424,34 @@ class Archives80Scraper:
                 continue
 
             if response is None:
+                print(f"  ⚠️ 404: {url}")
                 continue
 
-            html = response.text
-            dates = self._extract_dates_from_html(html, year=year)
+            dates = self._extract_dates_from_html(response.text, year=year)
             text = None
 
             if not dates:
-                text = self._html_to_text(html)
+                text = self._html_to_text(response.text)
+                last_text = text
                 dates = self._extract_dates_from_text(text, year=year)
 
             if dates:
                 if text is None:
-                    text = self._html_to_text(html)
+                    text = self._html_to_text(response.text)
 
                 self._annual_dates_cache[year_str] = dates
                 self._annual_text_cache[year_str] = text
                 self._annual_url_cache[year_str] = url
+                print(f"✓ {len(dates)} dates trouvées via {url}")
                 return list(dates)
+
+        print(f"⚠️ Aucune date trouvée via page annuelle pour {year}")
+
+        if last_text:
+            lines = [line.strip() for line in last_text.split("\n") if line.strip()]
+            print("  🔎 Aperçu texte:")
+            for line in lines[:30]:
+                print(f"    {line}")
 
         return []
 
@@ -412,10 +464,12 @@ class Archives80Scraper:
         if dates:
             return dates
 
+        print(f"🧭 Plan B Archives80 : découverte mensuelle pour {year}...")
         dates = self._discover_dates_by_month_samples(year)
 
         if dates:
             self._annual_dates_cache[str(year)] = dates
+            print(f"✓ {len(dates)} dates trouvées via plan B pour {year}")
             return dates
 
         return []
@@ -461,9 +515,13 @@ class Archives80Scraper:
 
                 if same_month_dates:
                     month_dates.update(same_month_dates)
+                    print(f"  ✓ Mois {month:02d}/{year} : {len(same_month_dates)} dates via {date_str}")
                     break
 
                 time.sleep(random.uniform(1.0, 2.0))
+
+            if not month_dates:
+                print(f"  ⚠️ Mois {month:02d}/{year} : aucune date trouvée")
 
             discovered.update(month_dates)
 
@@ -551,12 +609,6 @@ class Archives80Scraper:
 
         if self.TIME_RE.match(next_line):
             return True
-
-        if self.detect_channel(next_line):
-            return False
-
-        if self._is_footer_line(next_line):
-            return False
 
         return False
 
@@ -649,6 +701,9 @@ class Archives80Scraper:
                             title = candidate
                             i += 1
 
+                if not title:
+                    continue
+
                 raw_description_lines = []
 
                 while i < n:
@@ -677,7 +732,7 @@ class Archives80Scraper:
                 programs.append(
                     {
                         "time": time_str,
-                        "title": title or "Programme non identifié",
+                        "title": title,
                         "channel": current_channel,
                         "description": " ".join(description_lines),
                         "description_lines": description_lines,
@@ -710,12 +765,14 @@ class Archives80Scraper:
             text = self._fetch_daily_text(date_str)
 
             if not text:
+                print(f"  ⚠️ Page indisponible ou bloquée : {date_str}")
                 return None
 
             programs = self._parse_programs(text)
 
             if not programs:
                 self._print_zero_debug_preview(text)
+                print(f"  ⚠️ Aucun programme trouvé : {date_str}")
                 return None
 
             return {
@@ -725,7 +782,8 @@ class Archives80Scraper:
                 "programs": programs,
             }
 
-        except Exception:
+        except Exception as e:
+            print(f"  ❌ Erreur scraping {date_str}: {e}")
             return None
 
     def scrape_year(self, year: int, output_dir: str = "data/archives80") -> None:
