@@ -172,6 +172,7 @@ YOUTH_PROGRAMS = (
     "MDK Micro Kids",
     "Le Cyberflash",
     "Cyberflash",
+    "Cabou Cadin",
 
     # La Cinq / La Cinquième
     "Youpi ! L'école est finie",
@@ -249,6 +250,9 @@ META_STARTS = (
     "un magazine",
     "un reportage",
     "un documentaire",
+    "programme",
+    "programme jeunesse",
+    "jeunesse",
 )
 
 
@@ -413,7 +417,6 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
 def dedupe_adjacent_lines(lines: List[str]) -> List[str]:
     """
     Supprime les lignes identiques adjacentes.
-    Utile car certaines sources répètent la même ligne.
     """
     cleaned = []
 
@@ -460,13 +463,32 @@ def is_youth_title(title: str) -> bool:
     return any(keyword in norm for keyword in YOUTH_NORMALIZED)
 
 
+def is_youth_program(program: Dict[str, Any]) -> bool:
+    """
+    Détecte une émission jeunesse soit par son titre,
+    soit par la présence d'une ligne du type "Programme jeunesse".
+    """
+    if is_youth_title(program.get("title", "")):
+        return True
+
+    for line in program.get("description_lines") or []:
+        norm = normalize_text(line)
+
+        if not norm:
+            continue
+
+        if norm in ("jeunesse", "programme jeunesse"):
+            return True
+
+        if norm.startswith("programme jeunesse"):
+            return True
+
+    return False
+
+
 def is_meta_line(line: str) -> bool:
     """
     Détecte les lignes descriptives/méta qui ne sont pas des extraits.
-    Exemple :
-      Emission de Pierre Bellemare
-      Film français (1961) avec Bourvil
-      Présentation de ...
     """
     norm = normalize_text(line)
 
@@ -514,7 +536,7 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
 
     parent_title = clean_title(program.get("title", ""))
     norm_parent = normalize_text(parent_title)
-    youth = is_youth_title(parent_title)
+    youth = is_youth_program(program)
 
     item_lines = []
 
