@@ -237,11 +237,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Isabelle",
-              "raw": "Présenté par Alain et Isabelle"
-            },
-            {
               "index": 1,
               "title": "Matou chat des champs et Souriceau - Entre chats",
               "raw": "Matou chat des champs et Souriceau - Entre chats"
@@ -331,18 +326,7 @@
             "Cycle Hitchcock",
             "Une femme disparaît"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Hitchcock",
-              "raw": "Cycle Hitchcock"
-            },
-            {
-              "index": 1,
-              "title": "Une femme disparaît",
-              "raw": "Une femme disparaît"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:20",
@@ -756,11 +740,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Alain et Isabelle",
-                "raw": "Présenté par Alain et Isabelle"
-              },
-              {
                 "index": 1,
                 "title": "Matou chat des champs et Souriceau - Entre chats",
                 "raw": "Matou chat des champs et Souriceau - Entre chats"
@@ -850,18 +829,7 @@
               "Cycle Hitchcock",
               "Une femme disparaît"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Hitchcock",
-                "raw": "Cycle Hitchcock"
-              },
-              {
-                "index": 1,
-                "title": "Une femme disparaît",
-                "raw": "Une femme disparaît"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -5943,13 +5911,7 @@
           "description_lines": [
             "Musique - Littérature – Arts plastiques"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Musique - Littérature – Arts plastiques",
-              "raw": "Musique - Littérature – Arts plastiques"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:15",
@@ -6346,13 +6308,7 @@
             "description_lines": [
               "Musique - Littérature – Arts plastiques"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Musique - Littérature – Arts plastiques",
-                "raw": "Musique - Littérature – Arts plastiques"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "18:15",
@@ -6522,7 +6478,13 @@
           "description_lines": [
             "Séquences : Phil, Phol et Phollet ; La forge"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Séquences : Phil, Phol et Phollet ; La forge",
+              "raw": "Séquences : Phil, Phol et Phollet ; La forge"
+            }
+          ]
         },
         {
           "time": "18:50",
@@ -6712,11 +6674,6 @@
             "Spectreman - Le monstre qui aimait la musique (2ème partie)"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Alain",
-              "raw": "Présenté par Alain"
-            },
             {
               "index": 1,
               "title": "Emilie - La dent de Stéphane",
@@ -7048,7 +7005,13 @@
             "description_lines": [
               "Séquences : Phil, Phol et Phollet ; La forge"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Séquences : Phil, Phol et Phollet ; La forge",
+                "raw": "Séquences : Phil, Phol et Phollet ; La forge"
+              }
+            ]
           },
           {
             "time": "18:50",
@@ -7240,11 +7203,6 @@
               "Spectreman - Le monstre qui aimait la musique (2ème partie)"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain",
-                "raw": "Présenté par Alain"
-              },
               {
                 "index": 1,
                 "title": "Emilie - La dent de Stéphane",
@@ -9812,18 +9770,7 @@
             "Cycle Josef Von Sternberg",
             "Fièvre sur Anatahan"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Josef Von Sternberg",
-              "raw": "Cycle Josef Von Sternberg"
-            },
-            {
-              "index": 1,
-              "title": "Fièvre sur Anatahan",
-              "raw": "Fièvre sur Anatahan"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -10347,18 +10294,7 @@
               "Cycle Josef Von Sternberg",
               "Fièvre sur Anatahan"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Josef Von Sternberg",
-                "raw": "Cycle Josef Von Sternberg"
-              },
-              {
-                "index": 1,
-                "title": "Fièvre sur Anatahan",
-                "raw": "Fièvre sur Anatahan"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -10586,9 +10522,29 @@
               "raw": "Atomas la fourmi atomique - Le ptérodactyle"
             },
             {
+              "index": 3,
+              "title": "Bricolage électronique",
+              "raw": "Bricolage électronique"
+            },
+            {
+              "index": 4,
+              "title": "Variétés : Patty Layne : une espèce de Canadienne",
+              "raw": "Variétés : Patty Layne : une espèce de Canadienne"
+            },
+            {
+              "index": 5,
+              "title": "Cirque",
+              "raw": "Cirque"
+            },
+            {
               "index": 6,
               "title": "Bugs Bunny - Chaud et froid",
               "raw": "Bugs Bunny - Chaud et froid"
+            },
+            {
+              "index": 7,
+              "title": "Variétés : Electropic : 100% samba",
+              "raw": "Variétés : Electropic : 100% samba"
             },
             {
               "index": 8,
@@ -11027,9 +10983,29 @@
                 "raw": "Atomas la fourmi atomique - Le ptérodactyle"
               },
               {
+                "index": 3,
+                "title": "Bricolage électronique",
+                "raw": "Bricolage électronique"
+              },
+              {
+                "index": 4,
+                "title": "Variétés : Patty Layne : une espèce de Canadienne",
+                "raw": "Variétés : Patty Layne : une espèce de Canadienne"
+              },
+              {
+                "index": 5,
+                "title": "Cirque",
+                "raw": "Cirque"
+              },
+              {
                 "index": 6,
                 "title": "Bugs Bunny - Chaud et froid",
                 "raw": "Bugs Bunny - Chaud et froid"
+              },
+              {
+                "index": 7,
+                "title": "Variétés : Electropic : 100% samba",
+                "raw": "Variétés : Electropic : 100% samba"
               },
               {
                 "index": 8,
@@ -11802,13 +11778,7 @@
           "description_lines": [
             "Cycle Jacques Becker. Film français (1959)"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Jacques Becker. Film français (1959)",
-              "raw": "Cycle Jacques Becker. Film français (1959)"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:00",
@@ -12370,13 +12340,7 @@
             "description_lines": [
               "Cycle Jacques Becker. Film français (1959)"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Jacques Becker. Film français (1959)",
-                "raw": "Cycle Jacques Becker. Film français (1959)"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -12774,11 +12738,6 @@
             "Barrières - L'étranger"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Julie",
-              "raw": "Présenté par Julie"
-            },
             {
               "index": 1,
               "title": "Barrières - L'étranger",
@@ -13226,11 +13185,6 @@
               "Barrières - L'étranger"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Julie",
-                "raw": "Présenté par Julie"
-              },
               {
                 "index": 1,
                 "title": "Barrières - L'étranger",
@@ -15846,7 +15800,13 @@
           "description_lines": [
             "proposé par Claude Pierrard"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "proposé par Claude Pierrard",
+              "raw": "proposé par Claude Pierrard"
+            }
+          ]
         },
         {
           "time": "17:05",
@@ -16208,7 +16168,13 @@
             "description_lines": [
               "proposé par Claude Pierrard"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "proposé par Claude Pierrard",
+                "raw": "proposé par Claude Pierrard"
+              }
+            ]
           },
           {
             "time": "17:05",
@@ -17451,11 +17417,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Presentée par Julie",
-              "raw": "Presentée par Julie"
-            },
-            {
               "index": 1,
               "title": "Quaq Quao",
               "raw": "Quaq Quao"
@@ -17920,11 +17881,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Presentée par Julie",
-                "raw": "Presentée par Julie"
-              },
-              {
                 "index": 1,
                 "title": "Quaq Quao",
                 "raw": "Quaq Quao"
@@ -18202,7 +18158,23 @@
             "Isidore le lapin",
             "Variétés"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "L'après-midi des jeunes",
+              "raw": "L'après-midi des jeunes"
+            },
+            {
+              "index": 2,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 3,
+              "title": "Variétés",
+              "raw": "Variétés"
+            }
+          ]
         },
         {
           "time": "17:55",
@@ -18564,7 +18536,23 @@
               "Isidore le lapin",
               "Variétés"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "L'après-midi des jeunes",
+                "raw": "L'après-midi des jeunes"
+              },
+              {
+                "index": 2,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 3,
+                "title": "Variétés",
+                "raw": "Variétés"
+              }
+            ]
           },
           {
             "time": "17:55",
@@ -20465,6 +20453,26 @@
               "index": 1,
               "title": "Cochonnet - Le rat Thiboise",
               "raw": "Cochonnet - Le rat Thiboise"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
+              "index": 5,
+              "title": "Bugs Bunny",
+              "raw": "Bugs Bunny"
             }
           ]
         },
@@ -20921,6 +20929,26 @@
                 "index": 1,
                 "title": "Cochonnet - Le rat Thiboise",
                 "raw": "Cochonnet - Le rat Thiboise"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
+                "index": 5,
+                "title": "Bugs Bunny",
+                "raw": "Bugs Bunny"
               }
             ]
           },
@@ -21592,11 +21620,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Isabelle Arrignon",
-              "raw": "Présenté par Isabelle Arrignon"
-            },
-            {
               "index": 1,
               "title": "Pierrot",
               "raw": "Pierrot"
@@ -22086,11 +22109,6 @@
               "Tarzan"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Isabelle Arrignon",
-                "raw": "Présenté par Isabelle Arrignon"
-              },
               {
                 "index": 1,
                 "title": "Pierrot",
@@ -27544,11 +27562,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Zabou",
-              "raw": "Présenté par Zabou"
-            },
-            {
               "index": 1,
               "title": "Pouffi-Fouki",
               "raw": "Pouffi-Fouki"
@@ -28048,11 +28061,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Zabou",
-                "raw": "Présenté par Zabou"
-              },
-              {
                 "index": 1,
                 "title": "Pouffi-Fouki",
                 "raw": "Pouffi-Fouki"
@@ -28319,9 +28327,49 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Scoubidou",
+              "raw": "Scoubidou"
+            },
+            {
+              "index": 2,
+              "title": "Cherchez la petite bête",
+              "raw": "Cherchez la petite bête"
+            },
+            {
+              "index": 3,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
               "index": 4,
               "title": "Infos-magazine - Isidore et Clémentine",
               "raw": "Infos-magazine - Isidore et Clémentine"
+            },
+            {
+              "index": 5,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
+              "index": 6,
+              "title": "Bugs Bunny",
+              "raw": "Bugs Bunny"
+            },
+            {
+              "index": 7,
+              "title": "Variétés : Magazine 60",
+              "raw": "Variétés : Magazine 60"
+            },
+            {
+              "index": 8,
+              "title": "Bricolage (suite)",
+              "raw": "Bricolage (suite)"
+            },
+            {
+              "index": 9,
+              "title": "Mon ami Ben",
+              "raw": "Mon ami Ben"
             }
           ]
         },
@@ -28657,13 +28705,7 @@
           "description_lines": [
             "Cycle Jacques Becker. Film français (1944)"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Jacques Becker. Film français (1944)",
-              "raw": "Cycle Jacques Becker. Film français (1944)"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -28843,9 +28885,49 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Scoubidou",
+                "raw": "Scoubidou"
+              },
+              {
+                "index": 2,
+                "title": "Cherchez la petite bête",
+                "raw": "Cherchez la petite bête"
+              },
+              {
+                "index": 3,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
                 "index": 4,
                 "title": "Infos-magazine - Isidore et Clémentine",
                 "raw": "Infos-magazine - Isidore et Clémentine"
+              },
+              {
+                "index": 5,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
+                "index": 6,
+                "title": "Bugs Bunny",
+                "raw": "Bugs Bunny"
+              },
+              {
+                "index": 7,
+                "title": "Variétés : Magazine 60",
+                "raw": "Variétés : Magazine 60"
+              },
+              {
+                "index": 8,
+                "title": "Bricolage (suite)",
+                "raw": "Bricolage (suite)"
+              },
+              {
+                "index": 9,
+                "title": "Mon ami Ben",
+                "raw": "Mon ami Ben"
               }
             ]
           },
@@ -29183,13 +29265,7 @@
             "description_lines": [
               "Cycle Jacques Becker. Film français (1944)"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Jacques Becker. Film français (1944)",
-                "raw": "Cycle Jacques Becker. Film français (1944)"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -35961,11 +36037,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Héléna",
-              "raw": "Présenté par Alain et Héléna"
-            },
-            {
               "index": 1,
               "title": "Cuisine exotique",
               "raw": "Cuisine exotique"
@@ -36424,11 +36495,6 @@
               "Tarzan"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Héléna",
-                "raw": "Présenté par Alain et Héléna"
-              },
               {
                 "index": 1,
                 "title": "Cuisine exotique",
@@ -37745,7 +37811,13 @@
           "description_lines": [
             "Séquences : les gouttes d'eau ; Les boules et les cubes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Séquences : les gouttes d'eau ; Les boules et les cubes",
+              "raw": "Séquences : les gouttes d'eau ; Les boules et les cubes"
+            }
+          ]
         },
         {
           "time": "18:50",
@@ -37938,11 +38010,6 @@
             "La bande à Bédé"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Ariane",
-              "raw": "Présenté par Ariane"
-            },
             {
               "index": 1,
               "title": "Si, si, si - Les éléphants",
@@ -38293,7 +38360,13 @@
             "description_lines": [
               "Séquences : les gouttes d'eau ; Les boules et les cubes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Séquences : les gouttes d'eau ; Les boules et les cubes",
+                "raw": "Séquences : les gouttes d'eau ; Les boules et les cubes"
+              }
+            ]
           },
           {
             "time": "18:50",
@@ -38488,11 +38561,6 @@
               "La bande à Bédé"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Ariane",
-                "raw": "Présenté par Ariane"
-              },
               {
                 "index": 1,
                 "title": "Si, si, si - Les éléphants",
@@ -42625,13 +42693,7 @@
           "description_lines": [
             "Cycle Jacques Becker. Film français (1953)"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Jacques Becker. Film français (1953)",
-              "raw": "Cycle Jacques Becker. Film français (1953)"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -43177,13 +43239,7 @@
             "description_lines": [
               "Cycle Jacques Becker. Film français (1953)"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Jacques Becker. Film français (1953)",
-                "raw": "Cycle Jacques Becker. Film français (1953)"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -45143,13 +45199,7 @@
           "description_lines": [
             "Présenté par Anne Sinclair"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Anne Sinclair",
-              "raw": "Présenté par Anne Sinclair"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "13:00",
@@ -45175,13 +45225,7 @@
           "description_lines": [
             "Présenté par Henri Dès et Claude Gendrot"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Henri Dès et Claude Gendrot",
-              "raw": "Présenté par Henri Dès et Claude Gendrot"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:15",
@@ -45277,13 +45321,7 @@
           "description_lines": [
             "Présenté par Jean-Marie Cavada et Michel Thoulouse"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Jean-Marie Cavada et Michel Thoulouse",
-              "raw": "Présenté par Jean-Marie Cavada et Michel Thoulouse"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "21:40",
@@ -45399,13 +45437,7 @@
           "description_lines": [
             "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane",
-              "raw": "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:25",
@@ -45616,13 +45648,7 @@
             "description_lines": [
               "Présenté par Anne Sinclair"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Anne Sinclair",
-                "raw": "Présenté par Anne Sinclair"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "13:00",
@@ -45648,13 +45674,7 @@
             "description_lines": [
               "Présenté par Henri Dès et Claude Gendrot"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Henri Dès et Claude Gendrot",
-                "raw": "Présenté par Henri Dès et Claude Gendrot"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "18:15",
@@ -45750,13 +45770,7 @@
             "description_lines": [
               "Présenté par Jean-Marie Cavada et Michel Thoulouse"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Jean-Marie Cavada et Michel Thoulouse",
-                "raw": "Présenté par Jean-Marie Cavada et Michel Thoulouse"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "21:40",
@@ -45874,13 +45888,7 @@
             "description_lines": [
               "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane",
-                "raw": "Présenté par Dorothée, Zabou, Jacky, Cabu et Ariane"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:25",
@@ -46343,11 +46351,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Héléna et Alain",
-              "raw": "Présenté par Héléna et Alain"
-            },
-            {
               "index": 1,
               "title": "Barrières - 1er épisode",
               "raw": "Barrières - 1er épisode"
@@ -46795,11 +46798,6 @@
               "Barrières - 1er épisode"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Héléna et Alain",
-                "raw": "Présenté par Héléna et Alain"
-              },
               {
                 "index": 1,
                 "title": "Barrières - 1er épisode",
@@ -49239,11 +49237,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Julie Bataille et Corbier",
-              "raw": "Présenté par Julie Bataille et Corbier"
-            },
-            {
               "index": 1,
               "title": "Yao - Le sorcier",
               "raw": "Yao - Le sorcier"
@@ -49745,11 +49738,6 @@
               "Balour et Balu - Le tyran"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Julie Bataille et Corbier",
-                "raw": "Présenté par Julie Bataille et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Yao - Le sorcier",
@@ -53029,6 +53017,16 @@
               "raw": "Le petit chien - Le petit chien et les melons"
             },
             {
+              "index": 3,
+              "title": "L'invité Isidore",
+              "raw": "L'invité Isidore"
+            },
+            {
+              "index": 4,
+              "title": "Isidore interprète \"Le rap des carottes\"",
+              "raw": "Isidore interprète \"Le rap des carottes\""
+            },
+            {
               "index": 5,
               "title": "La famille Ours au Far West - Une très trop brève",
               "raw": "La famille Ours au Far West - Une très trop brève"
@@ -53439,6 +53437,16 @@
                 "index": 2,
                 "title": "Le petit chien - Le petit chien et les melons",
                 "raw": "Le petit chien - Le petit chien et les melons"
+              },
+              {
+                "index": 3,
+                "title": "L'invité Isidore",
+                "raw": "L'invité Isidore"
+              },
+              {
+                "index": 4,
+                "title": "Isidore interprète \"Le rap des carottes\"",
+                "raw": "Isidore interprète \"Le rap des carottes\""
               },
               {
                 "index": 5,
@@ -54215,11 +54223,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée avec Jacky et Willy",
-              "raw": "Présenté par Dorothée avec Jacky et Willy"
-            },
-            {
               "index": 1,
               "title": "Les aventures d'une souris sur Mars - Le cuisinier savant",
               "raw": "Les aventures d'une souris sur Mars - Le cuisinier savant"
@@ -54905,11 +54908,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée avec Jacky et Willy",
-                "raw": "Présenté par Dorothée avec Jacky et Willy"
-              },
-              {
                 "index": 1,
                 "title": "Les aventures d'une souris sur Mars - Le cuisinier savant",
                 "raw": "Les aventures d'une souris sur Mars - Le cuisinier savant"
@@ -55259,14 +55257,49 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Maya l'abeille",
+              "raw": "Maya l'abeille"
+            },
+            {
+              "index": 1,
+              "title": "Atomas, la fourmi atomique",
+              "raw": "Atomas, la fourmi atomique"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
               "index": 3,
               "title": "Variétés - Sheila",
               "raw": "Variétés - Sheila"
             },
             {
+              "index": 4,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
+              "index": 5,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 6,
+              "title": "Bugs Bunny",
+              "raw": "Bugs Bunny"
+            },
+            {
               "index": 7,
               "title": "Variétés - Sheila",
               "raw": "Variétés - Sheila"
+            },
+            {
+              "index": 8,
+              "title": "RINTINTIN",
+              "raw": "RINTINTIN"
             }
           ]
         },
@@ -55648,14 +55681,49 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Maya l'abeille",
+                "raw": "Maya l'abeille"
+              },
+              {
+                "index": 1,
+                "title": "Atomas, la fourmi atomique",
+                "raw": "Atomas, la fourmi atomique"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
                 "index": 3,
                 "title": "Variétés - Sheila",
                 "raw": "Variétés - Sheila"
               },
               {
+                "index": 4,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
+                "index": 5,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 6,
+                "title": "Bugs Bunny",
+                "raw": "Bugs Bunny"
+              },
+              {
                 "index": 7,
                 "title": "Variétés - Sheila",
                 "raw": "Variétés - Sheila"
+              },
+              {
+                "index": 8,
+                "title": "RINTINTIN",
+                "raw": "RINTINTIN"
               }
             ]
           },
@@ -58298,13 +58366,7 @@
           "description_lines": [
             "contes, jeux, dessins animés."
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "contes, jeux, dessins animés.",
-              "raw": "contes, jeux, dessins animés."
-            }
-          ]
+          "segments": []
         },
         {
           "time": "19:10",
@@ -58617,13 +58679,7 @@
             "description_lines": [
               "contes, jeux, dessins animés."
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "contes, jeux, dessins animés.",
-                "raw": "contes, jeux, dessins animés."
-              }
-            ]
+            "segments": []
           },
           {
             "time": "19:10",
@@ -61168,13 +61224,7 @@
           "description_lines": [
             "Cycle L'URSS insolite. Film soviétique (1970)"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle L'URSS insolite. Film soviétique (1970)",
-              "raw": "Cycle L'URSS insolite. Film soviétique (1970)"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:00",
@@ -61726,13 +61776,7 @@
             "description_lines": [
               "Cycle L'URSS insolite. Film soviétique (1970)"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle L'URSS insolite. Film soviétique (1970)",
-                "raw": "Cycle L'URSS insolite. Film soviétique (1970)"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -62628,11 +62672,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Henri Dès, Claude Gendrot, François Diwo",
-              "raw": "Présenté par Henri Dès, Claude Gendrot, François Diwo"
-            },
-            {
               "index": 1,
               "title": "Débrouillamini",
               "raw": "Débrouillamini"
@@ -62891,11 +62930,6 @@
             "Candy"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
             {
               "index": 1,
               "title": "Mio Mao",
@@ -63205,11 +63239,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Henri Dès, Claude Gendrot, François Diwo",
-                "raw": "Présenté par Henri Dès, Claude Gendrot, François Diwo"
-              },
-              {
                 "index": 1,
                 "title": "Débrouillamini",
                 "raw": "Débrouillamini"
@@ -63470,11 +63499,6 @@
               "Candy"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "Mio Mao",
@@ -64831,7 +64855,13 @@
           "description_lines": [
             "La forge : le rêve. Les engrenages : faire des bulles"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "La forge : le rêve. Les engrenages : faire des bulles",
+              "raw": "La forge : le rêve. Les engrenages : faire des bulles"
+            }
+          ]
         },
         {
           "time": "18:50",
@@ -65512,7 +65542,13 @@
             "description_lines": [
               "La forge : le rêve. Les engrenages : faire des bulles"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "La forge : le rêve. Les engrenages : faire des bulles",
+                "raw": "La forge : le rêve. Les engrenages : faire des bulles"
+              }
+            ]
           },
           {
             "time": "18:50",
@@ -68514,11 +68550,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
-            {
               "index": 1,
               "title": "Casper et ses amis - Un déjeuner récalcitrant",
               "raw": "Casper et ses amis - Un déjeuner récalcitrant"
@@ -69248,11 +69279,6 @@
               "Le petit bossu"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "Casper et ses amis - Un déjeuner récalcitrant",
@@ -72902,13 +72928,7 @@
           "description_lines": [
             "Feuilleton"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Feuilleton",
-              "raw": "Feuilleton"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:00",
@@ -73393,13 +73413,7 @@
             "description_lines": [
               "Feuilleton"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Feuilleton",
-                "raw": "Feuilleton"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:00",

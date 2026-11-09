@@ -964,6 +964,26 @@
               "raw": "Oh Possum - Le vol de cornichons"
             },
             {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos nature",
+              "raw": "Infos nature"
+            },
+            {
+              "index": 5,
+              "title": "Variétés : Jean Vallée",
+              "raw": "Variétés : Jean Vallée"
+            },
+            {
               "index": 6,
               "title": "Momo et Ursul - La vedette",
               "raw": "Momo et Ursul - La vedette"
@@ -1364,6 +1384,26 @@
                 "raw": "Oh Possum - Le vol de cornichons"
               },
               {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos nature",
+                "raw": "Infos nature"
+              },
+              {
+                "index": 5,
+                "title": "Variétés : Jean Vallée",
+                "raw": "Variétés : Jean Vallée"
+              },
+              {
                 "index": 6,
                 "title": "Momo et Ursul - La vedette",
                 "raw": "Momo et Ursul - La vedette"
@@ -1756,7 +1796,38 @@
             "Variétés : Richard Clayderman",
             "Samson et Goliath"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Oh Possum",
+              "raw": "Oh Possum"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le Lapin",
+              "raw": "Isidore le Lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos-nature",
+              "raw": "Infos-nature"
+            },
+            {
+              "index": 5,
+              "title": "Variétés : Richard Clayderman",
+              "raw": "Variétés : Richard Clayderman"
+            },
+            {
+              "index": 6,
+              "title": "Samson et Goliath",
+              "raw": "Samson et Goliath"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -1902,11 +1973,6 @@
             "Le neveu d'Amérique - 21ème épisode"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par François Debièvre",
-              "raw": "Présenté par François Debièvre"
-            },
             {
               "index": 1,
               "title": "Félix le chat",
@@ -2142,7 +2208,38 @@
               "Variétés : Richard Clayderman",
               "Samson et Goliath"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Oh Possum",
+                "raw": "Oh Possum"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le Lapin",
+                "raw": "Isidore le Lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos-nature",
+                "raw": "Infos-nature"
+              },
+              {
+                "index": 5,
+                "title": "Variétés : Richard Clayderman",
+                "raw": "Variétés : Richard Clayderman"
+              },
+              {
+                "index": 6,
+                "title": "Samson et Goliath",
+                "raw": "Samson et Goliath"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -2290,11 +2387,6 @@
               "Le neveu d'Amérique - 21ème épisode"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par François Debièvre",
-                "raw": "Présenté par François Debièvre"
-              },
               {
                 "index": 1,
                 "title": "Félix le chat",
@@ -5123,13 +5215,7 @@
           "description_lines": [
             "Présenté par Guy Lux"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Guy Lux",
-              "raw": "Présenté par Guy Lux"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -5678,13 +5764,7 @@
             "description_lines": [
               "Présenté par Guy Lux"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Guy Lux",
-                "raw": "Présenté par Guy Lux"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -7050,13 +7130,7 @@
           "description_lines": [
             "Les mercredis de Madame"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les mercredis de Madame",
-              "raw": "Les mercredis de Madame"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:15",
@@ -7508,13 +7582,7 @@
             "description_lines": [
               "Les mercredis de Madame"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les mercredis de Madame",
-                "raw": "Les mercredis de Madame"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:15",
@@ -8203,13 +8271,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -8812,13 +8874,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -10956,13 +11012,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -11469,13 +11519,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -16800,7 +16844,38 @@
             "Variétés : Adamo",
             "Caliméro"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Oh Possum",
+              "raw": "Oh Possum"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le Lapin",
+              "raw": "Isidore le Lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
+              "index": 5,
+              "title": "Variétés : Adamo",
+              "raw": "Variétés : Adamo"
+            },
+            {
+              "index": 6,
+              "title": "Caliméro",
+              "raw": "Caliméro"
+            }
+          ]
         },
         {
           "time": "14:25",
@@ -16990,11 +17065,6 @@
             "Le neveu d'Amérique - Dernier épisode"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par François Debièvre",
-              "raw": "Présenté par François Debièvre"
-            },
             {
               "index": 1,
               "title": "Félix le chat - Le petit biquet n'aime pas l'exercice",
@@ -17244,7 +17314,38 @@
               "Variétés : Adamo",
               "Caliméro"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Oh Possum",
+                "raw": "Oh Possum"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le Lapin",
+                "raw": "Isidore le Lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
+                "index": 5,
+                "title": "Variétés : Adamo",
+                "raw": "Variétés : Adamo"
+              },
+              {
+                "index": 6,
+                "title": "Caliméro",
+                "raw": "Caliméro"
+              }
+            ]
           },
           {
             "time": "14:25",
@@ -17436,11 +17537,6 @@
               "Le neveu d'Amérique - Dernier épisode"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par François Debièvre",
-                "raw": "Présenté par François Debièvre"
-              },
               {
                 "index": 1,
                 "title": "Félix le chat - Le petit biquet n'aime pas l'exercice",
@@ -17954,13 +18050,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -18411,13 +18501,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -19732,6 +19816,16 @@
               "raw": "Oh Possum - Où est le trésor ?"
             },
             {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Variétés : Serge Koolenn",
+              "raw": "Variétés : Serge Koolenn"
+            },
+            {
               "index": 4,
               "title": "Caliméro - Caliméro et le repas de noce",
               "raw": "Caliméro - Caliméro et le repas de noce"
@@ -20176,6 +20270,16 @@
                 "index": 1,
                 "title": "Oh Possum - Où est le trésor ?",
                 "raw": "Oh Possum - Où est le trésor ?"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Variétés : Serge Koolenn",
+                "raw": "Variétés : Serge Koolenn"
               },
               {
                 "index": 4,
@@ -20934,13 +21038,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -21430,13 +21528,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -23888,11 +23980,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par François Debièvre",
-              "raw": "Présenté par François Debièvre"
-            },
-            {
               "index": 1,
               "title": "Félix le chat",
               "raw": "Félix le chat"
@@ -24451,11 +24538,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par François Debièvre",
-                "raw": "Présenté par François Debièvre"
-              },
-              {
                 "index": 1,
                 "title": "Félix le chat",
                 "raw": "Félix le chat"
@@ -24937,13 +25019,7 @@
             "Avec Danielle Darrieux",
             "Les mercredis"
           ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Les mercredis",
-              "raw": "Les mercredis"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:15",
@@ -25073,13 +25149,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -25519,13 +25589,7 @@
               "Avec Danielle Darrieux",
               "Les mercredis"
             ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Les mercredis",
-                "raw": "Les mercredis"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:15",
@@ -25655,13 +25719,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -26143,13 +26201,7 @@
           "description_lines": [
             "La chevauchée fantastique"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "La chevauchée fantastique",
-              "raw": "La chevauchée fantastique"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -26570,13 +26622,7 @@
             "description_lines": [
               "La chevauchée fantastique"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "La chevauchée fantastique",
-                "raw": "La chevauchée fantastique"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -26725,7 +26771,33 @@
             "Infos-Nature",
             "Aragos X-001"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La taupe peintre",
+              "raw": "La taupe peintre"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Variétés",
+              "raw": "Variétés"
+            },
+            {
+              "index": 4,
+              "title": "Infos-Nature",
+              "raw": "Infos-Nature"
+            },
+            {
+              "index": 5,
+              "title": "Aragos X-001",
+              "raw": "Aragos X-001"
+            }
+          ]
         },
         {
           "time": "14:25",
@@ -27173,7 +27245,33 @@
               "Infos-Nature",
               "Aragos X-001"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La taupe peintre",
+                "raw": "La taupe peintre"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Variétés",
+                "raw": "Variétés"
+              },
+              {
+                "index": 4,
+                "title": "Infos-Nature",
+                "raw": "Infos-Nature"
+              },
+              {
+                "index": 5,
+                "title": "Aragos X-001",
+                "raw": "Aragos X-001"
+              }
+            ]
           },
           {
             "time": "14:25",
@@ -27650,9 +27748,29 @@
               "raw": "Oh Possum - Exercice difficile"
             },
             {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
               "index": 5,
               "title": "Les histoires merveilleuses du senor Franco Cavani - Alfred l'hippopotame",
               "raw": "Les histoires merveilleuses du senor Franco Cavani - Alfred l'hippopotame"
+            },
+            {
+              "index": 6,
+              "title": "Variétés : le groupe Morne Plaine",
+              "raw": "Variétés : le groupe Morne Plaine"
             },
             {
               "index": 7,
@@ -28127,9 +28245,29 @@
                 "raw": "Oh Possum - Exercice difficile"
               },
               {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
                 "index": 5,
                 "title": "Les histoires merveilleuses du senor Franco Cavani - Alfred l'hippopotame",
                 "raw": "Les histoires merveilleuses du senor Franco Cavani - Alfred l'hippopotame"
+              },
+              {
+                "index": 6,
+                "title": "Variétés : le groupe Morne Plaine",
+                "raw": "Variétés : le groupe Morne Plaine"
               },
               {
                 "index": 7,
@@ -28902,13 +29040,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -29399,13 +29531,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -30587,6 +30713,26 @@
               "raw": "Oh Possum - Oh la salle bête"
             },
             {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
+              "index": 5,
+              "title": "Variétés : Pascal Bacoux et Patrick Métayer",
+              "raw": "Variétés : Pascal Bacoux et Patrick Métayer"
+            },
+            {
               "index": 6,
               "title": "Samson et Goliath - L'inquiétant Docteur Nesto",
               "raw": "Samson et Goliath - L'inquiétant Docteur Nesto"
@@ -30903,18 +31049,7 @@
             "Cycle Comédie musicale",
             "Ma sœur est du tonnerre"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Comédie musicale",
-              "raw": "Cycle Comédie musicale"
-            },
-            {
-              "index": 1,
-              "title": "Ma sœur est du tonnerre",
-              "raw": "Ma sœur est du tonnerre"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:00",
@@ -31129,6 +31264,26 @@
                 "index": 1,
                 "title": "Oh Possum - Oh la salle bête",
                 "raw": "Oh Possum - Oh la salle bête"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
+                "index": 5,
+                "title": "Variétés : Pascal Bacoux et Patrick Métayer",
+                "raw": "Variétés : Pascal Bacoux et Patrick Métayer"
               },
               {
                 "index": 6,
@@ -31449,18 +31604,7 @@
               "Cycle Comédie musicale",
               "Ma sœur est du tonnerre"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Comédie musicale",
-                "raw": "Cycle Comédie musicale"
-              },
-              {
-                "index": 1,
-                "title": "Ma sœur est du tonnerre",
-                "raw": "Ma sœur est du tonnerre"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -32815,13 +32959,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -33332,13 +33470,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -35682,13 +35814,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -36182,13 +36308,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -41579,13 +41699,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -42143,13 +42257,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -42640,18 +42748,7 @@
             "Les mistons",
             "Il Biscione"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les mistons",
-              "raw": "Les mistons"
-            },
-            {
-              "index": 1,
-              "title": "Il Biscione",
-              "raw": "Il Biscione"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -43120,18 +43217,7 @@
               "Les mistons",
               "Il Biscione"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les mistons",
-                "raw": "Les mistons"
-              },
-              {
-                "index": 1,
-                "title": "Il Biscione",
-                "raw": "Il Biscione"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -44505,13 +44591,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Léa Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Léa Milcic",
-              "raw": "Variétés de Guy Lux et Léa Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -45030,13 +45110,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Léa Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Léa Milcic",
-                "raw": "Variétés de Guy Lux et Léa Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -46393,13 +46467,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Leia Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Leia Milcic",
-              "raw": "Variétés de Guy Lux et Leia Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -46447,18 +46515,7 @@
             "Cycle John Ford",
             "La taverne de l'Irlandais"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle John Ford",
-              "raw": "Cycle John Ford"
-            },
-            {
-              "index": 1,
-              "title": "La taverne de l'Irlandais",
-              "raw": "La taverne de l'Irlandais"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:30",
@@ -46896,13 +46953,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Leia Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Leia Milcic",
-                "raw": "Variétés de Guy Lux et Leia Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -46950,18 +47001,7 @@
               "Cycle John Ford",
               "La taverne de l'Irlandais"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle John Ford",
-                "raw": "Cycle John Ford"
-              },
-              {
-                "index": 1,
-                "title": "La taverne de l'Irlandais",
-                "raw": "La taverne de l'Irlandais"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -47179,6 +47219,21 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Sidney l'éléphant",
+              "raw": "Sidney l'éléphant"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
               "index": 4,
               "title": "Variétés - Frédéric François",
               "raw": "Variétés - Frédéric François"
@@ -47187,6 +47242,16 @@
               "index": 5,
               "title": "Infos nature - L'aquarophilie",
               "raw": "Infos nature - L'aquarophilie"
+            },
+            {
+              "index": 6,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 7,
+              "title": "Momo et Ursule",
+              "raw": "Momo et Ursule"
             }
           ]
         },
@@ -47351,11 +47416,6 @@
             "La Panthère Rose"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Zabou",
-              "raw": "Présenté par Zabou"
-            },
             {
               "index": 1,
               "title": "Le Fantôme de l'espace",
@@ -47631,6 +47691,21 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Sidney l'éléphant",
+                "raw": "Sidney l'éléphant"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
                 "index": 4,
                 "title": "Variétés - Frédéric François",
                 "raw": "Variétés - Frédéric François"
@@ -47639,6 +47714,16 @@
                 "index": 5,
                 "title": "Infos nature - L'aquarophilie",
                 "raw": "Infos nature - L'aquarophilie"
+              },
+              {
+                "index": 6,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 7,
+                "title": "Momo et Ursule",
+                "raw": "Momo et Ursule"
               }
             ]
           },
@@ -47805,11 +47890,6 @@
               "La Panthère Rose"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Zabou",
-                "raw": "Présenté par Zabou"
-              },
               {
                 "index": 1,
                 "title": "Le Fantôme de l'espace",
@@ -51159,11 +51239,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
-            {
               "index": 1,
               "title": "Les bubblies",
               "raw": "Les bubblies"
@@ -51653,11 +51728,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
-              {
                 "index": 1,
                 "title": "Les bubblies",
                 "raw": "Les bubblies"
@@ -51937,7 +52007,23 @@
             "Infos-Magazine",
             "Momo et Ursule"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Sidney l'éléphant",
+              "raw": "Sidney l'éléphant"
+            },
+            {
+              "index": 2,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 3,
+              "title": "Momo et Ursule",
+              "raw": "Momo et Ursule"
+            }
+          ]
         },
         {
           "time": "16:40",
@@ -52281,7 +52367,23 @@
               "Infos-Magazine",
               "Momo et Ursule"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Sidney l'éléphant",
+                "raw": "Sidney l'éléphant"
+              },
+              {
+                "index": 2,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 3,
+                "title": "Momo et Ursule",
+                "raw": "Momo et Ursule"
+              }
+            ]
           },
           {
             "time": "16:40",
@@ -52778,13 +52880,7 @@
           "description_lines": [
             "Les mercredis de Madame"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les mercredis de Madame",
-              "raw": "Les mercredis de Madame"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:15",
@@ -53187,13 +53283,7 @@
             "description_lines": [
               "Les mercredis de Madame"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les mercredis de Madame",
-                "raw": "Les mercredis de Madame"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:15",
@@ -53456,11 +53546,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Une émission de Christophe Izard",
-              "raw": "Une émission de Christophe Izard"
-            },
-            {
               "index": 1,
               "title": "Les Poï-Poï",
               "raw": "Les Poï-Poï"
@@ -53690,13 +53775,7 @@
           "description_lines": [
             "Les mercredis d'aujourd'hui Madame"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les mercredis d'aujourd'hui Madame",
-              "raw": "Les mercredis d'aujourd'hui Madame"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:15",
@@ -54055,11 +54134,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Une émission de Christophe Izard",
-                "raw": "Une émission de Christophe Izard"
-              },
-              {
                 "index": 1,
                 "title": "Les Poï-Poï",
                 "raw": "Les Poï-Poï"
@@ -54291,13 +54365,7 @@
             "description_lines": [
               "Les mercredis d'aujourd'hui Madame"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les mercredis d'aujourd'hui Madame",
-                "raw": "Les mercredis d'aujourd'hui Madame"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:15",
@@ -56334,7 +56402,33 @@
             "Infos-Nature",
             "Aragos X-001"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La taupe",
+              "raw": "La taupe"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Variétés",
+              "raw": "Variétés"
+            },
+            {
+              "index": 4,
+              "title": "Infos-Nature",
+              "raw": "Infos-Nature"
+            },
+            {
+              "index": 5,
+              "title": "Aragos X-001",
+              "raw": "Aragos X-001"
+            }
+          ]
         },
         {
           "time": "14:25",
@@ -56589,13 +56683,7 @@
           "description_lines": [
             "Présenté par Guy Lux"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Guy Lux",
-              "raw": "Présenté par Guy Lux"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -56790,7 +56878,33 @@
               "Infos-Nature",
               "Aragos X-001"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La taupe",
+                "raw": "La taupe"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Variétés",
+                "raw": "Variétés"
+              },
+              {
+                "index": 4,
+                "title": "Infos-Nature",
+                "raw": "Infos-Nature"
+              },
+              {
+                "index": 5,
+                "title": "Aragos X-001",
+                "raw": "Aragos X-001"
+              }
+            ]
           },
           {
             "time": "14:25",
@@ -57047,13 +57161,7 @@
             "description_lines": [
               "Présenté par Guy Lux"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Guy Lux",
-                "raw": "Présenté par Guy Lux"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -59302,13 +59410,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -59775,13 +59877,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -60113,11 +60209,6 @@
             "Le testament"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
             {
               "index": 1,
               "title": "Emilie et l'orchestre",
@@ -60516,11 +60607,6 @@
               "Le testament"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "Emilie et l'orchestre",
@@ -61454,7 +61540,33 @@
             "Variétés",
             "Les fous du volant"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Oh Possum",
+              "raw": "Oh Possum"
+            },
+            {
+              "index": 2,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Variétés",
+              "raw": "Variétés"
+            },
+            {
+              "index": 5,
+              "title": "Les fous du volant",
+              "raw": "Les fous du volant"
+            }
+          ]
         },
         {
           "time": "18:00",
@@ -61596,11 +61708,6 @@
             "Le neveu d'Amérique"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
             {
               "index": 1,
               "title": "FELIX LE CHAT",
@@ -61820,7 +61927,33 @@
               "Variétés",
               "Les fous du volant"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Oh Possum",
+                "raw": "Oh Possum"
+              },
+              {
+                "index": 2,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Variétés",
+                "raw": "Variétés"
+              },
+              {
+                "index": 5,
+                "title": "Les fous du volant",
+                "raw": "Les fous du volant"
+              }
+            ]
           },
           {
             "time": "18:00",
@@ -61964,11 +62097,6 @@
               "Le neveu d'Amérique"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "FELIX LE CHAT",
@@ -62191,11 +62319,6 @@
             "Studio 3"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Soizic Corne, François Diwo, Sibor et Bora",
-              "raw": "Présenté par Soizic Corne, François Diwo, Sibor et Bora"
-            },
             {
               "index": 1,
               "title": "Conte à trembler debout - Le monstre du Rhône",
@@ -62489,11 +62612,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
-            {
               "index": 1,
               "title": "Le voyage de Tortillard - Le sosie de Tortillard",
               "raw": "Le voyage de Tortillard - Le sosie de Tortillard"
@@ -62597,13 +62715,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -62801,11 +62913,6 @@
               "Studio 3"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Soizic Corne, François Diwo, Sibor et Bora",
-                "raw": "Présenté par Soizic Corne, François Diwo, Sibor et Bora"
-              },
               {
                 "index": 1,
                 "title": "Conte à trembler debout - Le monstre du Rhône",
@@ -63101,11 +63208,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
-              {
                 "index": 1,
                 "title": "Le voyage de Tortillard - Le sosie de Tortillard",
                 "raw": "Le voyage de Tortillard - Le sosie de Tortillard"
@@ -63209,13 +63311,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -64143,6 +64239,26 @@
               "raw": "Sidney l'éléphant - Etre ou ne pas être"
             },
             {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 4,
+              "title": "Variétés : Bruno Guillain",
+              "raw": "Variétés : Bruno Guillain"
+            },
+            {
+              "index": 5,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
               "index": 6,
               "title": "Momo et Ursul - La cité perdues",
               "raw": "Momo et Ursul - La cité perdues"
@@ -64494,6 +64610,26 @@
                 "raw": "Sidney l'éléphant - Etre ou ne pas être"
               },
               {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 4,
+                "title": "Variétés : Bruno Guillain",
+                "raw": "Variétés : Bruno Guillain"
+              },
+              {
+                "index": 5,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
                 "index": 6,
                 "title": "Momo et Ursul - La cité perdues",
                 "raw": "Momo et Ursul - La cité perdues"
@@ -64841,6 +64977,21 @@
               "raw": "Sidney l'éléphant - Imagination"
             },
             {
+              "index": 2,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 3,
+              "title": "Infos nature",
+              "raw": "Infos nature"
+            },
+            {
+              "index": 4,
+              "title": "Variétés : Patrick Lemaitre",
+              "raw": "Variétés : Patrick Lemaitre"
+            },
+            {
               "index": 5,
               "title": "Momo et Ursul - Le trésor",
               "raw": "Momo et Ursul - Le trésor"
@@ -64998,11 +65149,6 @@
             "Satanas et Diabolo - Histoire à dormir debout"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Zabou",
-              "raw": "Présenté par Zabou"
-            },
             {
               "index": 1,
               "title": "Le fantôme de l'espace - La revanche de l'araignée",
@@ -65229,6 +65375,21 @@
                 "raw": "Sidney l'éléphant - Imagination"
               },
               {
+                "index": 2,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 3,
+                "title": "Infos nature",
+                "raw": "Infos nature"
+              },
+              {
+                "index": 4,
+                "title": "Variétés : Patrick Lemaitre",
+                "raw": "Variétés : Patrick Lemaitre"
+              },
+              {
                 "index": 5,
                 "title": "Momo et Ursul - Le trésor",
                 "raw": "Momo et Ursul - Le trésor"
@@ -65388,11 +65549,6 @@
               "Satanas et Diabolo - Histoire à dormir debout"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Zabou",
-                "raw": "Présenté par Zabou"
-              },
               {
                 "index": 1,
                 "title": "Le fantôme de l'espace - La revanche de l'araignée",
@@ -65967,13 +66123,7 @@
           "description_lines": [
             "Variétés de Guy Lux et Lela Milcic"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés de Guy Lux et Lela Milcic",
-              "raw": "Variétés de Guy Lux et Lela Milcic"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "20:00",
@@ -66531,13 +66681,7 @@
             "description_lines": [
               "Variétés de Guy Lux et Lela Milcic"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés de Guy Lux et Lela Milcic",
-                "raw": "Variétés de Guy Lux et Lela Milcic"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "20:00",
@@ -66758,6 +66902,21 @@
               "index": 1,
               "title": "Sidney l'éléphant - Le rhinocéros",
               "raw": "Sidney l'éléphant - Le rhinocéros"
+            },
+            {
+              "index": 2,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 3,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
+              "index": 4,
+              "title": "Variétés : Michael Raitner",
+              "raw": "Variétés : Michael Raitner"
             },
             {
               "index": 5,
@@ -67098,6 +67257,21 @@
                 "index": 1,
                 "title": "Sidney l'éléphant - Le rhinocéros",
                 "raw": "Sidney l'éléphant - Le rhinocéros"
+              },
+              {
+                "index": 2,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 3,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
+                "index": 4,
+                "title": "Variétés : Michael Raitner",
+                "raw": "Variétés : Michael Raitner"
               },
               {
                 "index": 5,
@@ -67471,9 +67645,24 @@
               "raw": "Oh Possum - Une sacrée marchanise"
             },
             {
+              "index": 2,
+              "title": "Isidore le lapin",
+              "raw": "Isidore le lapin"
+            },
+            {
+              "index": 3,
+              "title": "Infos nature",
+              "raw": "Infos nature"
+            },
+            {
               "index": 4,
               "title": "Caliméro - Caliméro parmis les diables et les sorcières",
               "raw": "Caliméro - Caliméro parmis les diables et les sorcières"
+            },
+            {
+              "index": 5,
+              "title": "Variété : Hervé Villard",
+              "raw": "Variété : Hervé Villard"
             },
             {
               "index": 6,
@@ -67882,9 +68071,24 @@
                 "raw": "Oh Possum - Une sacrée marchanise"
               },
               {
+                "index": 2,
+                "title": "Isidore le lapin",
+                "raw": "Isidore le lapin"
+              },
+              {
+                "index": 3,
+                "title": "Infos nature",
+                "raw": "Infos nature"
+              },
+              {
                 "index": 4,
                 "title": "Caliméro - Caliméro parmis les diables et les sorcières",
                 "raw": "Caliméro - Caliméro parmis les diables et les sorcières"
+              },
+              {
+                "index": 5,
+                "title": "Variété : Hervé Villard",
+                "raw": "Variété : Hervé Villard"
               },
               {
                 "index": 6,

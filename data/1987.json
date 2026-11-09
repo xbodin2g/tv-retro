@@ -353,11 +353,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Fabrice de Costil",
-              "raw": "Présenté par Fabrice de Costil"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra - Mimi Cracra fait un jus de fruit",
               "raw": "Mimi Cracra - Mimi Cracra fait un jus de fruit"
@@ -1638,11 +1633,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Fabrice de Costil",
-                "raw": "Présenté par Fabrice de Costil"
-              },
-              {
                 "index": 1,
                 "title": "Mimi Cracra - Mimi Cracra fait un jus de fruit",
                 "raw": "Mimi Cracra - Mimi Cracra fait un jus de fruit"
@@ -2626,7 +2616,33 @@
             "Tête à clips",
             "SuperTed"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 2,
+              "title": "Variétés : Carlos chante Gros nounours",
+              "raw": "Variétés : Carlos chante Gros nounours"
+            },
+            {
+              "index": 3,
+              "title": "L'arche de Noé, extrait du spectacle",
+              "raw": "L'arche de Noé, extrait du spectacle"
+            },
+            {
+              "index": 4,
+              "title": "Tête à clips",
+              "raw": "Tête à clips"
+            },
+            {
+              "index": 5,
+              "title": "SuperTed",
+              "raw": "SuperTed"
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -2715,7 +2731,23 @@
             "Les quatre filles du docteur March",
             "Variétés : Sabine Paturel chante Petit Bouchon"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Dare Dare Mtous",
+              "raw": "Dare Dare Mtous"
+            },
+            {
+              "index": 2,
+              "title": "Les quatre filles du docteur March",
+              "raw": "Les quatre filles du docteur March"
+            },
+            {
+              "index": 3,
+              "title": "Variétés : Sabine Paturel chante Petit Bouchon",
+              "raw": "Variétés : Sabine Paturel chante Petit Bouchon"
+            }
+          ]
         },
         {
           "time": "16:50",
@@ -3518,7 +3550,23 @@
             "Bon week-end, Mickey",
             "Donald Duck présente"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les aventures de Winnie L'Ourson",
+              "raw": "Les aventures de Winnie L'Ourson"
+            },
+            {
+              "index": 1,
+              "title": "Bon week-end, Mickey",
+              "raw": "Bon week-end, Mickey"
+            },
+            {
+              "index": 2,
+              "title": "Donald Duck présente",
+              "raw": "Donald Duck présente"
+            }
+          ]
         },
         {
           "time": "20:30",
@@ -3673,7 +3721,33 @@
               "Tête à clips",
               "SuperTed"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 2,
+                "title": "Variétés : Carlos chante Gros nounours",
+                "raw": "Variétés : Carlos chante Gros nounours"
+              },
+              {
+                "index": 3,
+                "title": "L'arche de Noé, extrait du spectacle",
+                "raw": "L'arche de Noé, extrait du spectacle"
+              },
+              {
+                "index": 4,
+                "title": "Tête à clips",
+                "raw": "Tête à clips"
+              },
+              {
+                "index": 5,
+                "title": "SuperTed",
+                "raw": "SuperTed"
+              }
+            ]
           },
           {
             "time": "12:00",
@@ -3762,7 +3836,23 @@
               "Les quatre filles du docteur March",
               "Variétés : Sabine Paturel chante Petit Bouchon"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Dare Dare Mtous",
+                "raw": "Dare Dare Mtous"
+              },
+              {
+                "index": 2,
+                "title": "Les quatre filles du docteur March",
+                "raw": "Les quatre filles du docteur March"
+              },
+              {
+                "index": 3,
+                "title": "Variétés : Sabine Paturel chante Petit Bouchon",
+                "raw": "Variétés : Sabine Paturel chante Petit Bouchon"
+              }
+            ]
           },
           {
             "time": "16:50",
@@ -4569,7 +4659,23 @@
               "Bon week-end, Mickey",
               "Donald Duck présente"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les aventures de Winnie L'Ourson",
+                "raw": "Les aventures de Winnie L'Ourson"
+              },
+              {
+                "index": 1,
+                "title": "Bon week-end, Mickey",
+                "raw": "Bon week-end, Mickey"
+              },
+              {
+                "index": 2,
+                "title": "Donald Duck présente",
+                "raw": "Donald Duck présente"
+              }
+            ]
           },
           {
             "time": "20:30",
@@ -9828,13 +9934,7 @@
           "description_lines": [
             "Série américaine. Rediffusion"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine. Rediffusion",
-              "raw": "Série américaine. Rediffusion"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -11014,13 +11114,7 @@
             "description_lines": [
               "Série américaine. Rediffusion"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine. Rediffusion",
-                "raw": "Série américaine. Rediffusion"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -12593,13 +12687,7 @@
           "description_lines": [
             "Sourire d'une nuit d'été"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Sourire d'une nuit d'été",
-              "raw": "Sourire d'une nuit d'été"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:00",
@@ -13804,13 +13892,7 @@
             "description_lines": [
               "Sourire d'une nuit d'été"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Sourire d'une nuit d'été",
-                "raw": "Sourire d'une nuit d'été"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -14648,13 +14730,7 @@
           "description_lines": [
             "Série américaine. Rediffusion"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine. Rediffusion",
-              "raw": "Série américaine. Rediffusion"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -15811,13 +15887,7 @@
             "description_lines": [
               "Série américaine. Rediffusion"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine. Rediffusion",
-                "raw": "Série américaine. Rediffusion"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -16994,13 +17064,7 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine",
-              "raw": "Série américaine"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -18264,13 +18328,7 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine",
-                "raw": "Série américaine"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -20410,6 +20468,16 @@
               "raw": "Les aventures de Winnie L'Ourson - Le tigre bricoleur"
             },
             {
+              "index": 1,
+              "title": "Les cochons sont les cochons (1954)",
+              "raw": "Les cochons sont les cochons (1954)"
+            },
+            {
+              "index": 2,
+              "title": "Donald et son double (1946)",
+              "raw": "Donald et son double (1946)"
+            },
+            {
               "index": 3,
               "title": "Gallegher - 5ème épisode",
               "raw": "Gallegher - 5ème épisode"
@@ -20418,6 +20486,11 @@
               "index": 4,
               "title": "La minute Disney - Extrait de Mary Poppins",
               "raw": "La minute Disney - Extrait de Mary Poppins"
+            },
+            {
+              "index": 5,
+              "title": "La chasse au renard (1931)",
+              "raw": "La chasse au renard (1931)"
             }
           ]
         },
@@ -21527,6 +21600,16 @@
                 "raw": "Les aventures de Winnie L'Ourson - Le tigre bricoleur"
               },
               {
+                "index": 1,
+                "title": "Les cochons sont les cochons (1954)",
+                "raw": "Les cochons sont les cochons (1954)"
+              },
+              {
+                "index": 2,
+                "title": "Donald et son double (1946)",
+                "raw": "Donald et son double (1946)"
+              },
+              {
                 "index": 3,
                 "title": "Gallegher - 5ème épisode",
                 "raw": "Gallegher - 5ème épisode"
@@ -21535,6 +21618,11 @@
                 "index": 4,
                 "title": "La minute Disney - Extrait de Mary Poppins",
                 "raw": "La minute Disney - Extrait de Mary Poppins"
+              },
+              {
+                "index": 5,
+                "title": "La chasse au renard (1931)",
+                "raw": "La chasse au renard (1931)"
               }
             ]
           },
@@ -21952,11 +22040,6 @@
             "Dick le rebelle"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Marie Dauphin et Corbier",
-              "raw": "Présenté par Dorothée, Marie Dauphin et Corbier"
-            },
             {
               "index": 1,
               "title": "Mes mains ont la parole",
@@ -22638,7 +22721,23 @@
             "Gallegher",
             "Dessin animé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Winnie l'Ourson (avec Jean Rochefort)",
+              "raw": "Winnie l'Ourson (avec Jean Rochefort)"
+            },
+            {
+              "index": 2,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
+              "index": 3,
+              "title": "Gallegher",
+              "raw": "Gallegher"
+            }
+          ]
         },
         {
           "time": "20:30",
@@ -22792,13 +22891,7 @@
           "description_lines": [
             "Présenté par Jean-Luc Bertrand"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Jean-Luc Bertrand",
-              "raw": "Présenté par Jean-Luc Bertrand"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "16:30",
@@ -23172,11 +23265,6 @@
               "Dick le rebelle"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Marie Dauphin et Corbier",
-                "raw": "Présenté par Dorothée, Marie Dauphin et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Mes mains ont la parole",
@@ -23860,7 +23948,23 @@
               "Gallegher",
               "Dessin animé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Winnie l'Ourson (avec Jean Rochefort)",
+                "raw": "Winnie l'Ourson (avec Jean Rochefort)"
+              },
+              {
+                "index": 2,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
+                "index": 3,
+                "title": "Gallegher",
+                "raw": "Gallegher"
+              }
+            ]
           },
           {
             "time": "20:30",
@@ -24016,13 +24120,7 @@
             "description_lines": [
               "Présenté par Jean-Luc Bertrand"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Jean-Luc Bertrand",
-                "raw": "Présenté par Jean-Luc Bertrand"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "16:30",
@@ -29130,7 +29228,28 @@
             "Ulysse 31",
             "En route pour Zanzibar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Winnie l'ourson",
+              "raw": "Winnie l'ourson"
+            },
+            {
+              "index": 1,
+              "title": "CROQU'SOLEIL",
+              "raw": "CROQU'SOLEIL"
+            },
+            {
+              "index": 2,
+              "title": "Ulysse 31",
+              "raw": "Ulysse 31"
+            },
+            {
+              "index": 3,
+              "title": "En route pour Zanzibar",
+              "raw": "En route pour Zanzibar"
+            }
+          ]
         },
         {
           "time": "09:45",
@@ -30154,7 +30273,28 @@
               "Ulysse 31",
               "En route pour Zanzibar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Winnie l'ourson",
+                "raw": "Winnie l'ourson"
+              },
+              {
+                "index": 1,
+                "title": "CROQU'SOLEIL",
+                "raw": "CROQU'SOLEIL"
+              },
+              {
+                "index": 2,
+                "title": "Ulysse 31",
+                "raw": "Ulysse 31"
+              },
+              {
+                "index": 3,
+                "title": "En route pour Zanzibar",
+                "raw": "En route pour Zanzibar"
+              }
+            ]
           },
           {
             "time": "09:45",
@@ -30750,13 +30890,7 @@
           "description_lines": [
             "Série américaine diffusée en 1986"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine diffusée en 1986",
-              "raw": "Série américaine diffusée en 1986"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -31910,13 +32044,7 @@
             "description_lines": [
               "Série américaine diffusée en 1986"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine diffusée en 1986",
-                "raw": "Série américaine diffusée en 1986"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -33431,11 +33559,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée et Corbier",
-              "raw": "Présenté par Dorothée et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra",
               "raw": "Mimi Cracra"
@@ -34702,11 +34825,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée et Corbier",
-                "raw": "Présenté par Dorothée et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mimi Cracra",
                 "raw": "Mimi Cracra"
@@ -35620,13 +35738,7 @@
           "description_lines": [
             "Série américaine diffusée en 1986"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine diffusée en 1986",
-              "raw": "Série américaine diffusée en 1986"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -36824,13 +36936,7 @@
             "description_lines": [
               "Série américaine diffusée en 1986"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine diffusée en 1986",
-                "raw": "Série américaine diffusée en 1986"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -38452,11 +38558,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Emmanuel",
-              "raw": "Présenté par Alain et Emmanuel"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra",
               "raw": "Mimi Cracra"
@@ -39863,11 +39964,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Alain et Emmanuel",
-                "raw": "Présenté par Alain et Emmanuel"
-              },
-              {
                 "index": 1,
                 "title": "Mimi Cracra",
                 "raw": "Mimi Cracra"
@@ -40884,13 +40980,7 @@
           "description_lines": [
             "Série américaine diffusée en 1986"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine diffusée en 1986",
-              "raw": "Série américaine diffusée en 1986"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -40914,7 +41004,28 @@
             "Les Snorkys",
             "Robot Story"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Mon petit poney",
+              "raw": "Mon petit poney"
+            },
+            {
+              "index": 2,
+              "title": "Jem et les hologrammes",
+              "raw": "Jem et les hologrammes"
+            },
+            {
+              "index": 3,
+              "title": "Les Snorkys",
+              "raw": "Les Snorkys"
+            },
+            {
+              "index": 4,
+              "title": "Robot Story",
+              "raw": "Robot Story"
+            }
+          ]
         },
         {
           "time": "17:25",
@@ -42151,13 +42262,7 @@
             "description_lines": [
               "Série américaine diffusée en 1986"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine diffusée en 1986",
-                "raw": "Série américaine diffusée en 1986"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -42181,7 +42286,28 @@
               "Les Snorkys",
               "Robot Story"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Mon petit poney",
+                "raw": "Mon petit poney"
+              },
+              {
+                "index": 2,
+                "title": "Jem et les hologrammes",
+                "raw": "Jem et les hologrammes"
+              },
+              {
+                "index": 3,
+                "title": "Les Snorkys",
+                "raw": "Les Snorkys"
+              },
+              {
+                "index": 4,
+                "title": "Robot Story",
+                "raw": "Robot Story"
+              }
+            ]
           },
           {
             "time": "17:25",
@@ -43509,7 +43635,28 @@
             "Les Snorkys",
             "Robot Story"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Mon petit poney",
+              "raw": "Mon petit poney"
+            },
+            {
+              "index": 2,
+              "title": "Jem et les hologrammes",
+              "raw": "Jem et les hologrammes"
+            },
+            {
+              "index": 3,
+              "title": "Les Snorkys",
+              "raw": "Les Snorkys"
+            },
+            {
+              "index": 4,
+              "title": "Robot Story",
+              "raw": "Robot Story"
+            }
+          ]
         },
         {
           "time": "17:20",
@@ -44697,13 +44844,7 @@
           "description_lines": [
             "Présenté par Jean-Luc Bernard"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Jean-Luc Bernard",
-              "raw": "Présenté par Jean-Luc Bernard"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "19:00",
@@ -44951,7 +45092,28 @@
               "Les Snorkys",
               "Robot Story"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Mon petit poney",
+                "raw": "Mon petit poney"
+              },
+              {
+                "index": 2,
+                "title": "Jem et les hologrammes",
+                "raw": "Jem et les hologrammes"
+              },
+              {
+                "index": 3,
+                "title": "Les Snorkys",
+                "raw": "Les Snorkys"
+              },
+              {
+                "index": 4,
+                "title": "Robot Story",
+                "raw": "Robot Story"
+              }
+            ]
           },
           {
             "time": "17:20",
@@ -46145,13 +46307,7 @@
             "description_lines": [
               "Présenté par Jean-Luc Bernard"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Jean-Luc Bernard",
-                "raw": "Présenté par Jean-Luc Bernard"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "19:00",
@@ -46309,13 +46465,7 @@
           "description_lines": [
             "Série américaine diffusée en 1986"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine diffusée en 1986",
-              "raw": "Série américaine diffusée en 1986"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -47532,13 +47682,7 @@
             "description_lines": [
               "Série américaine diffusée en 1986"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine diffusée en 1986",
-                "raw": "Série américaine diffusée en 1986"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -49145,11 +49289,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Emmanuel",
-              "raw": "Présenté par Alain et Emmanuel"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra",
               "raw": "Mimi Cracra"
@@ -50580,11 +50719,6 @@
               "Quick et Flupke"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Emmanuel",
-                "raw": "Présenté par Alain et Emmanuel"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -56806,11 +56940,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Emmanuel",
-              "raw": "Présenté par Alain et Emmanuel"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra",
               "raw": "Mimi Cracra"
@@ -58192,11 +58321,6 @@
               "Shera"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Emmanuel",
-                "raw": "Présenté par Alain et Emmanuel"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -60062,9 +60186,29 @@
               "raw": "Les aventures de Winnie L'Ourson - Une bicyclette pour cinq"
             },
             {
+              "index": 1,
+              "title": "Le petit poulet",
+              "raw": "Le petit poulet"
+            },
+            {
+              "index": 2,
+              "title": "Pépé Grillon",
+              "raw": "Pépé Grillon"
+            },
+            {
+              "index": 3,
+              "title": "Gallegher",
+              "raw": "Gallegher"
+            },
+            {
               "index": 4,
               "title": "La minute Disney - Extrait de Cendrillon",
               "raw": "La minute Disney - Extrait de Cendrillon"
+            },
+            {
+              "index": 5,
+              "title": "Comment devenir détective ?",
+              "raw": "Comment devenir détective ?"
             }
           ]
         },
@@ -61190,9 +61334,29 @@
                 "raw": "Les aventures de Winnie L'Ourson - Une bicyclette pour cinq"
               },
               {
+                "index": 1,
+                "title": "Le petit poulet",
+                "raw": "Le petit poulet"
+              },
+              {
+                "index": 2,
+                "title": "Pépé Grillon",
+                "raw": "Pépé Grillon"
+              },
+              {
+                "index": 3,
+                "title": "Gallegher",
+                "raw": "Gallegher"
+              },
+              {
                 "index": 4,
                 "title": "La minute Disney - Extrait de Cendrillon",
                 "raw": "La minute Disney - Extrait de Cendrillon"
+              },
+              {
+                "index": 5,
+                "title": "Comment devenir détective ?",
+                "raw": "Comment devenir détective ?"
               }
             ]
           },
@@ -64521,11 +64685,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par François Corbier",
-              "raw": "Présenté par François Corbier"
-            },
-            {
               "index": 1,
               "title": "Mimi Cracra",
               "raw": "Mimi Cracra"
@@ -65974,11 +66133,6 @@
               "Les maîtres de l'univers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par François Corbier",
-                "raw": "Présenté par François Corbier"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -68057,6 +68211,11 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
               "index": 2,
               "title": "Taxas - L'homme de Peter Creek",
               "raw": "Taxas - L'homme de Peter Creek"
@@ -68229,7 +68388,18 @@
             "San Ku Kaï",
             "La bande à Ovide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            },
+            {
+              "index": 1,
+              "title": "La bande à Ovide",
+              "raw": "La bande à Ovide"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -69530,6 +69700,11 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
                 "index": 2,
                 "title": "Taxas - L'homme de Peter Creek",
                 "raw": "Taxas - L'homme de Peter Creek"
@@ -69704,7 +69879,18 @@
               "San Ku Kaï",
               "La bande à Ovide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              },
+              {
+                "index": 1,
+                "title": "La bande à Ovide",
+                "raw": "La bande à Ovide"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -70962,6 +71148,16 @@
               "raw": "Les aventures de Winnie L'Ourson - Winnie construit une ruche"
             },
             {
+              "index": 1,
+              "title": "La légende du rocher du coyote (1945)",
+              "raw": "La légende du rocher du coyote (1945)"
+            },
+            {
+              "index": 2,
+              "title": "Goofy Cow-Boy (1948)",
+              "raw": "Goofy Cow-Boy (1948)"
+            },
+            {
               "index": 3,
               "title": "La minute Disney - Les trois caballeros",
               "raw": "La minute Disney - Les trois caballeros"
@@ -70970,6 +71166,11 @@
               "index": 4,
               "title": "Scarecrow l'épouvantail, le justicier des campagnes - 3ème épisode",
               "raw": "Scarecrow l'épouvantail, le justicier des campagnes - 3ème épisode"
+            },
+            {
+              "index": 5,
+              "title": "La mine d'or de Donald (1934)",
+              "raw": "La mine d'or de Donald (1934)"
             },
             {
               "index": 6,
@@ -72254,6 +72455,16 @@
                 "raw": "Les aventures de Winnie L'Ourson - Winnie construit une ruche"
               },
               {
+                "index": 1,
+                "title": "La légende du rocher du coyote (1945)",
+                "raw": "La légende du rocher du coyote (1945)"
+              },
+              {
+                "index": 2,
+                "title": "Goofy Cow-Boy (1948)",
+                "raw": "Goofy Cow-Boy (1948)"
+              },
+              {
                 "index": 3,
                 "title": "La minute Disney - Les trois caballeros",
                 "raw": "La minute Disney - Les trois caballeros"
@@ -72262,6 +72473,11 @@
                 "index": 4,
                 "title": "Scarecrow l'épouvantail, le justicier des campagnes - 3ème épisode",
                 "raw": "Scarecrow l'épouvantail, le justicier des campagnes - 3ème épisode"
+              },
+              {
+                "index": 5,
+                "title": "La mine d'or de Donald (1934)",
+                "raw": "La mine d'or de Donald (1934)"
               },
               {
                 "index": 6,
@@ -75164,11 +75380,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-            },
-            {
               "index": 1,
               "title": "Mes mains ont la parole",
               "raw": "Mes mains ont la parole"
@@ -75857,7 +76068,13 @@
             "Texas John Slaughter",
             "Dessin animé"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Texas John Slaughter",
+              "raw": "Texas John Slaughter"
+            }
+          ]
         },
         {
           "time": "21:55",
@@ -76042,7 +76259,18 @@
             "San Ku Kaï",
             "La bande à Ovide"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            },
+            {
+              "index": 1,
+              "title": "La bande à Ovide",
+              "raw": "La bande à Ovide"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -76584,11 +76812,6 @@
               "Le monde selon Georges"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-              },
               {
                 "index": 1,
                 "title": "Mes mains ont la parole",
@@ -77280,7 +77503,13 @@
               "Texas John Slaughter",
               "Dessin animé"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Texas John Slaughter",
+                "raw": "Texas John Slaughter"
+              }
+            ]
           },
           {
             "time": "21:55",
@@ -77467,7 +77696,18 @@
               "San Ku Kaï",
               "La bande à Ovide"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              },
+              {
+                "index": 1,
+                "title": "La bande à Ovide",
+                "raw": "La bande à Ovide"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -77741,18 +77981,7 @@
             "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier",
             "Dorothée et ses amis"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier"
-            },
-            {
-              "index": 1,
-              "title": "Dorothée et ses amis",
-              "raw": "Dorothée et ses amis"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "10:00",
@@ -77772,13 +78001,7 @@
           "description_lines": [
             "Pas de pitié pour les croissants"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Pas de pitié pour les croissants",
-              "raw": "Pas de pitié pour les croissants"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:00",
@@ -78187,7 +78410,18 @@
             "Winnie l'Ourson (avec Jean Rochefort)",
             "Zorro"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Winnie l'Ourson (avec Jean Rochefort)",
+              "raw": "Winnie l'Ourson (avec Jean Rochefort)"
+            },
+            {
+              "index": 1,
+              "title": "Zorro",
+              "raw": "Zorro"
+            }
+          ]
         },
         {
           "time": "08:45",
@@ -78924,18 +79158,7 @@
               "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier",
               "Dorothée et ses amis"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Lionel Gébédé et Corbier"
-              },
-              {
-                "index": 1,
-                "title": "Dorothée et ses amis",
-                "raw": "Dorothée et ses amis"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "10:00",
@@ -78955,13 +79178,7 @@
             "description_lines": [
               "Pas de pitié pour les croissants"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Pas de pitié pour les croissants",
-                "raw": "Pas de pitié pour les croissants"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:00",
@@ -79374,7 +79591,18 @@
               "Winnie l'Ourson (avec Jean Rochefort)",
               "Zorro"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Winnie l'Ourson (avec Jean Rochefort)",
+                "raw": "Winnie l'Ourson (avec Jean Rochefort)"
+              },
+              {
+                "index": 1,
+                "title": "Zorro",
+                "raw": "Zorro"
+              }
+            ]
           },
           {
             "time": "08:45",
@@ -80255,13 +80483,7 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -80439,7 +80661,6 @@
             "La cuisine (avec Gérard Vie)",
             "Avis de Recherche",
             "Généalogie (avec Jean-Louis Beaucarnot)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -80545,11 +80766,6 @@
             "Transformers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -81322,7 +81538,13 @@
           "description_lines": [
             "San Ku Kaï"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            }
+          ]
         },
         {
           "time": "12:15",
@@ -81704,13 +81926,7 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:00",
@@ -81890,7 +82106,6 @@
               "La cuisine (avec Gérard Vie)",
               "Avis de Recherche",
               "Généalogie (avec Jean-Louis Beaucarnot)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -81996,11 +82211,6 @@
               "Transformers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -82777,7 +82987,13 @@
             "description_lines": [
               "San Ku Kaï"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              }
+            ]
           },
           {
             "time": "12:15",
@@ -83205,13 +83421,7 @@
           "description_lines": [
             "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday.."
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday..",
-              "raw": "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday.."
-            }
-          ]
+          "segments": []
         },
         {
           "time": "22:15",
@@ -84184,7 +84394,23 @@
             "Super Durand",
             "Tom Sawyer"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 2,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -84615,13 +84841,7 @@
             "description_lines": [
               "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday.."
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday..",
-                "raw": "Comédie musicale avec Christian Morin, Lio, Vali, Carlos, Michel Cardoze, Alain Decaux, Michel Denisot, Jean-Pierre Foucault, David Hallyday.."
-              }
-            ]
+            "segments": []
           },
           {
             "time": "22:15",
@@ -85600,7 +85820,23 @@
               "Super Durand",
               "Tom Sawyer"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 2,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -85996,13 +86232,7 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -86179,7 +86409,6 @@
             "La couture (avec Sophie Choussy)",
             "Les objets rares (avec Philippe Regley)",
             "Les animaux domestiques (avec Yola Horn",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -86276,11 +86505,6 @@
             "Les campbells"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Récré à l'opéra",
@@ -86990,7 +87214,13 @@
           "description_lines": [
             "San Ku Kaï"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            }
+          ]
         },
         {
           "time": "12:15",
@@ -87369,13 +87599,7 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:00",
@@ -87554,7 +87778,6 @@
               "La couture (avec Sophie Choussy)",
               "Les objets rares (avec Philippe Regley)",
               "Les animaux domestiques (avec Yola Horn",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -87651,11 +87874,6 @@
               "Les campbells"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Récré à l'opéra",
@@ -88369,7 +88587,13 @@
             "description_lines": [
               "San Ku Kaï"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              }
+            ]
           },
           {
             "time": "12:15",
@@ -88815,7 +89039,38 @@
             "Inspecteur Gadget",
             "La famille Duloch"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Zorro",
+              "raw": "Zorro"
+            },
+            {
+              "index": 2,
+              "title": "09:00:00",
+              "raw": "09:00:00"
+            },
+            {
+              "index": 3,
+              "title": "AMUSE 3",
+              "raw": "AMUSE 3"
+            },
+            {
+              "index": 4,
+              "title": "Croqu'soleil",
+              "raw": "Croqu'soleil"
+            },
+            {
+              "index": 5,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget"
+            },
+            {
+              "index": 6,
+              "title": "La famille Duloch",
+              "raw": "La famille Duloch"
+            }
+          ]
         },
         {
           "time": "09:30",
@@ -89052,7 +89307,73 @@
             "PORTRAITS CRACHÉS",
             "Série humoristique anglaise de Jon Blair et John Lloyd"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La bande à Ovide",
+              "raw": "La bande à Ovide"
+            },
+            {
+              "index": 2,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 3,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 4,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            },
+            {
+              "index": 5,
+              "title": "12:25:00",
+              "raw": "12:25:00"
+            },
+            {
+              "index": 6,
+              "title": "INFOCONSOMMATION",
+              "raw": "INFOCONSOMMATION"
+            },
+            {
+              "index": 7,
+              "title": "12:30:00",
+              "raw": "12:30:00"
+            },
+            {
+              "index": 8,
+              "title": "LE JOURNAL",
+              "raw": "LE JOURNAL"
+            },
+            {
+              "index": 9,
+              "title": "12:45:00",
+              "raw": "12:45:00"
+            },
+            {
+              "index": 10,
+              "title": "LE GLAIVE ET LA BALANCE",
+              "raw": "LE GLAIVE ET LA BALANCE"
+            },
+            {
+              "index": 12,
+              "title": "13:15:00",
+              "raw": "13:15:00"
+            },
+            {
+              "index": 13,
+              "title": "PORTRAITS CRACHÉS",
+              "raw": "PORTRAITS CRACHÉS"
+            },
+            {
+              "index": 14,
+              "title": "Série humoristique anglaise de Jon Blair et John Lloyd",
+              "raw": "Série humoristique anglaise de Jon Blair et John Lloyd"
+            }
+          ]
         },
         {
           "time": "13:45",
@@ -89369,7 +89690,38 @@
               "Inspecteur Gadget",
               "La famille Duloch"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Zorro",
+                "raw": "Zorro"
+              },
+              {
+                "index": 2,
+                "title": "09:00:00",
+                "raw": "09:00:00"
+              },
+              {
+                "index": 3,
+                "title": "AMUSE 3",
+                "raw": "AMUSE 3"
+              },
+              {
+                "index": 4,
+                "title": "Croqu'soleil",
+                "raw": "Croqu'soleil"
+              },
+              {
+                "index": 5,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget"
+              },
+              {
+                "index": 6,
+                "title": "La famille Duloch",
+                "raw": "La famille Duloch"
+              }
+            ]
           },
           {
             "time": "09:30",
@@ -89608,7 +89960,73 @@
               "PORTRAITS CRACHÉS",
               "Série humoristique anglaise de Jon Blair et John Lloyd"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La bande à Ovide",
+                "raw": "La bande à Ovide"
+              },
+              {
+                "index": 2,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 3,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 4,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              },
+              {
+                "index": 5,
+                "title": "12:25:00",
+                "raw": "12:25:00"
+              },
+              {
+                "index": 6,
+                "title": "INFOCONSOMMATION",
+                "raw": "INFOCONSOMMATION"
+              },
+              {
+                "index": 7,
+                "title": "12:30:00",
+                "raw": "12:30:00"
+              },
+              {
+                "index": 8,
+                "title": "LE JOURNAL",
+                "raw": "LE JOURNAL"
+              },
+              {
+                "index": 9,
+                "title": "12:45:00",
+                "raw": "12:45:00"
+              },
+              {
+                "index": 10,
+                "title": "LE GLAIVE ET LA BALANCE",
+                "raw": "LE GLAIVE ET LA BALANCE"
+              },
+              {
+                "index": 12,
+                "title": "13:15:00",
+                "raw": "13:15:00"
+              },
+              {
+                "index": 13,
+                "title": "PORTRAITS CRACHÉS",
+                "raw": "PORTRAITS CRACHÉS"
+              },
+              {
+                "index": 14,
+                "title": "Série humoristique anglaise de Jon Blair et John Lloyd",
+                "raw": "Série humoristique anglaise de Jon Blair et John Lloyd"
+              }
+            ]
           },
           {
             "time": "13:45",
@@ -89775,13 +90193,7 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine",
-              "raw": "Série américaine"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "14:40",
@@ -89806,7 +90218,33 @@
             "Les Snorkys",
             "Robot Story"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Mon petit poney",
+              "raw": "Mon petit poney"
+            },
+            {
+              "index": 2,
+              "title": "Les Potatous",
+              "raw": "Les Potatous"
+            },
+            {
+              "index": 3,
+              "title": "Jem et les hologrammes",
+              "raw": "Jem et les hologrammes"
+            },
+            {
+              "index": 4,
+              "title": "Les Snorkys",
+              "raw": "Les Snorkys"
+            },
+            {
+              "index": 5,
+              "title": "Robot Story",
+              "raw": "Robot Story"
+            }
+          ]
         },
         {
           "time": "17:25",
@@ -91000,13 +91438,7 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine",
-                "raw": "Série américaine"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "14:40",
@@ -91031,7 +91463,33 @@
               "Les Snorkys",
               "Robot Story"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Mon petit poney",
+                "raw": "Mon petit poney"
+              },
+              {
+                "index": 2,
+                "title": "Les Potatous",
+                "raw": "Les Potatous"
+              },
+              {
+                "index": 3,
+                "title": "Jem et les hologrammes",
+                "raw": "Jem et les hologrammes"
+              },
+              {
+                "index": 4,
+                "title": "Les Snorkys",
+                "raw": "Les Snorkys"
+              },
+              {
+                "index": 5,
+                "title": "Robot Story",
+                "raw": "Robot Story"
+              }
+            ]
           },
           {
             "time": "17:25",
@@ -94688,68 +95146,7 @@
             "Le défi de Corbier",
             "Les petites nouvelles de Patrick"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-            },
-            {
-              "index": 1,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 2,
-              "title": "Les Bisounours",
-              "raw": "Les Bisounours"
-            },
-            {
-              "index": 3,
-              "title": "Jem et les Hologrammes",
-              "raw": "Jem et les Hologrammes"
-            },
-            {
-              "index": 4,
-              "title": "Les Gobots",
-              "raw": "Les Gobots"
-            },
-            {
-              "index": 5,
-              "title": "Ghostbusters",
-              "raw": "Ghostbusters"
-            },
-            {
-              "index": 6,
-              "title": "Les animaux (avec le docteur Michel Klein)",
-              "raw": "Les animaux (avec le docteur Michel Klein)"
-            },
-            {
-              "index": 7,
-              "title": "Le mot mystérieux",
-              "raw": "Le mot mystérieux"
-            },
-            {
-              "index": 8,
-              "title": "Le dessin de la semaine",
-              "raw": "Le dessin de la semaine"
-            },
-            {
-              "index": 9,
-              "title": "Clip musée",
-              "raw": "Clip musée"
-            },
-            {
-              "index": 10,
-              "title": "Le défi de Corbier",
-              "raw": "Le défi de Corbier"
-            },
-            {
-              "index": 11,
-              "title": "Les petites nouvelles de Patrick",
-              "raw": "Les petites nouvelles de Patrick"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:30",
@@ -94857,11 +95254,6 @@
             "On pense à toi"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Goldorak",
@@ -95108,11 +95500,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand Boucheroy et Emmanuelle Bataille",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand Boucheroy et Emmanuelle Bataille"
-            },
-            {
               "index": 1,
               "title": "Johan et Pirlouit",
               "raw": "Johan et Pirlouit"
@@ -95264,11 +95651,6 @@
             "Galaxy Rangers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Emmanuelle Bataille, Bertrand Boucheroy, Bernard Marsan, Jean Lacroix et François Montagut",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Emmanuelle Bataille, Bertrand Boucheroy, Bernard Marsan, Jean Lacroix et François Montagut"
-            },
             {
               "index": 1,
               "title": "Tchaou et Grodo",
@@ -96132,7 +96514,13 @@
           "description_lines": [
             "San Ku Kaï"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            }
+          ]
         },
         {
           "time": "12:15",
@@ -96381,68 +96769,7 @@
               "Le défi de Corbier",
               "Les petites nouvelles de Patrick"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-              },
-              {
-                "index": 1,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 2,
-                "title": "Les Bisounours",
-                "raw": "Les Bisounours"
-              },
-              {
-                "index": 3,
-                "title": "Jem et les Hologrammes",
-                "raw": "Jem et les Hologrammes"
-              },
-              {
-                "index": 4,
-                "title": "Les Gobots",
-                "raw": "Les Gobots"
-              },
-              {
-                "index": 5,
-                "title": "Ghostbusters",
-                "raw": "Ghostbusters"
-              },
-              {
-                "index": 6,
-                "title": "Les animaux (avec le docteur Michel Klein)",
-                "raw": "Les animaux (avec le docteur Michel Klein)"
-              },
-              {
-                "index": 7,
-                "title": "Le mot mystérieux",
-                "raw": "Le mot mystérieux"
-              },
-              {
-                "index": 8,
-                "title": "Le dessin de la semaine",
-                "raw": "Le dessin de la semaine"
-              },
-              {
-                "index": 9,
-                "title": "Clip musée",
-                "raw": "Clip musée"
-              },
-              {
-                "index": 10,
-                "title": "Le défi de Corbier",
-                "raw": "Le défi de Corbier"
-              },
-              {
-                "index": 11,
-                "title": "Les petites nouvelles de Patrick",
-                "raw": "Les petites nouvelles de Patrick"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:30",
@@ -96550,11 +96877,6 @@
               "On pense à toi"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Goldorak",
@@ -96803,11 +97125,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand Boucheroy et Emmanuelle Bataille",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand Boucheroy et Emmanuelle Bataille"
-              },
-              {
                 "index": 1,
                 "title": "Johan et Pirlouit",
                 "raw": "Johan et Pirlouit"
@@ -96959,11 +97276,6 @@
               "Galaxy Rangers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Emmanuelle Bataille, Bertrand Boucheroy, Bernard Marsan, Jean Lacroix et François Montagut",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Emmanuelle Bataille, Bertrand Boucheroy, Bernard Marsan, Jean Lacroix et François Montagut"
-              },
               {
                 "index": 1,
                 "title": "Tchaou et Grodo",
@@ -97831,7 +98143,13 @@
             "description_lines": [
               "San Ku Kaï"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              }
+            ]
           },
           {
             "time": "12:15",
@@ -98308,7 +98626,6 @@
             "Mariés bonheur",
             "L'étrange",
             "Généalogie",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": [
@@ -98923,7 +99240,83 @@
             "STARS 87",
             "Portraits de stars qui ont marqué l'année 1987"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 2,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 3,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 4,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 5,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            },
+            {
+              "index": 6,
+              "title": "12:30:00",
+              "raw": "12:30:00"
+            },
+            {
+              "index": 8,
+              "title": "12:45:00",
+              "raw": "12:45:00"
+            },
+            {
+              "index": 9,
+              "title": "TELE-PHONE",
+              "raw": "TELE-PHONE"
+            },
+            {
+              "index": 11,
+              "title": "13:30:00",
+              "raw": "13:30:00"
+            },
+            {
+              "index": 12,
+              "title": "LA MALLE DE HAMBOURG",
+              "raw": "LA MALLE DE HAMBOURG"
+            },
+            {
+              "index": 13,
+              "title": "Série française en 10 épisodes",
+              "raw": "Série française en 10 épisodes"
+            },
+            {
+              "index": 14,
+              "title": "14:30:00",
+              "raw": "14:30:00"
+            },
+            {
+              "index": 17,
+              "title": "15:00:00",
+              "raw": "15:00:00"
+            },
+            {
+              "index": 18,
+              "title": "STARS 87",
+              "raw": "STARS 87"
+            },
+            {
+              "index": 19,
+              "title": "Portraits de stars qui ont marqué l'année 1987",
+              "raw": "Portraits de stars qui ont marqué l'année 1987"
+            }
+          ]
         },
         {
           "time": "16:00",
@@ -99244,7 +99637,6 @@
               "Mariés bonheur",
               "L'étrange",
               "Généalogie",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": [
@@ -99863,7 +100255,83 @@
               "STARS 87",
               "Portraits de stars qui ont marqué l'année 1987"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 2,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 3,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 4,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 5,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              },
+              {
+                "index": 6,
+                "title": "12:30:00",
+                "raw": "12:30:00"
+              },
+              {
+                "index": 8,
+                "title": "12:45:00",
+                "raw": "12:45:00"
+              },
+              {
+                "index": 9,
+                "title": "TELE-PHONE",
+                "raw": "TELE-PHONE"
+              },
+              {
+                "index": 11,
+                "title": "13:30:00",
+                "raw": "13:30:00"
+              },
+              {
+                "index": 12,
+                "title": "LA MALLE DE HAMBOURG",
+                "raw": "LA MALLE DE HAMBOURG"
+              },
+              {
+                "index": 13,
+                "title": "Série française en 10 épisodes",
+                "raw": "Série française en 10 épisodes"
+              },
+              {
+                "index": 14,
+                "title": "14:30:00",
+                "raw": "14:30:00"
+              },
+              {
+                "index": 17,
+                "title": "15:00:00",
+                "raw": "15:00:00"
+              },
+              {
+                "index": 18,
+                "title": "STARS 87",
+                "raw": "STARS 87"
+              },
+              {
+                "index": 19,
+                "title": "Portraits de stars qui ont marqué l'année 1987",
+                "raw": "Portraits de stars qui ont marqué l'année 1987"
+              }
+            ]
           },
           {
             "time": "16:00",
@@ -100108,13 +100576,7 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -100301,7 +100763,6 @@
             "La cuisine (avec Gérard Vie)",
             "Entraide",
             "Conseils aux mamans (avec Christine Ollivier)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -100398,11 +100859,6 @@
             "Le Sourire du Dragon"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -101226,7 +101682,13 @@
           "description_lines": [
             "San Ku Kaï"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            }
+          ]
         },
         {
           "time": "12:15",
@@ -101585,13 +102047,7 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:00",
@@ -101780,7 +102236,6 @@
               "La cuisine (avec Gérard Vie)",
               "Entraide",
               "Conseils aux mamans (avec Christine Ollivier)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -101877,11 +102332,6 @@
               "Le Sourire du Dragon"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -102709,7 +103159,13 @@
             "description_lines": [
               "San Ku Kaï"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              }
+            ]
           },
           {
             "time": "12:15",
@@ -104094,7 +104550,33 @@
             "Les Minipouss",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 2,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 3,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 4,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 5,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -105450,7 +105932,33 @@
               "Les Minipouss",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 2,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 3,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 4,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 5,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -105785,13 +106293,7 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -105974,7 +106476,6 @@
             "La cuisine (avec Gérard Vie)",
             "Création (avec Françoise Fraisse)",
             "Les reves (avec Pierrette Brès)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -106069,11 +106570,6 @@
             "Galaxy Rangers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Barbapapa",
@@ -106926,7 +107422,13 @@
           "description_lines": [
             "San Ku Kaï"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "San Ku Kaï",
+              "raw": "San Ku Kaï"
+            }
+          ]
         },
         {
           "time": "12:15",
@@ -107326,13 +107828,7 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:00",
@@ -107517,7 +108013,6 @@
               "La cuisine (avec Gérard Vie)",
               "Création (avec Françoise Fraisse)",
               "Les reves (avec Pierrette Brès)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -107612,11 +108107,6 @@
               "Galaxy Rangers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Barbapapa",
@@ -108473,7 +108963,13 @@
             "description_lines": [
               "San Ku Kaï"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "San Ku Kaï",
+                "raw": "San Ku Kaï"
+              }
+            ]
           },
           {
             "time": "12:15",
@@ -108729,11 +109225,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier et Gébédé",
-              "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier et Gébédé"
-            },
-            {
               "index": 1,
               "title": "Jayce et les conquérants de la lumière - Une valeureuse escorte",
               "raw": "Jayce et les conquérants de la lumière - Une valeureuse escorte"
@@ -108840,11 +109331,6 @@
             "Capitaine Flam"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier"
-            },
             {
               "index": 1,
               "title": "Goldorak - Le déluge des nouveaux mondes",
@@ -109944,7 +110430,23 @@
             "Super Durand",
             "Tom Sawyer"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 2,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -110165,11 +110667,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier et Gébédé",
-                "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier et Gébédé"
-              },
-              {
                 "index": 1,
                 "title": "Jayce et les conquérants de la lumière - Une valeureuse escorte",
                 "raw": "Jayce et les conquérants de la lumière - Une valeureuse escorte"
@@ -110276,11 +110773,6 @@
               "Capitaine Flam"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier"
-              },
               {
                 "index": 1,
                 "title": "Goldorak - Le déluge des nouveaux mondes",
@@ -111386,7 +111878,23 @@
               "Super Durand",
               "Tom Sawyer"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 2,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -111848,7 +112356,6 @@
             "Environnement",
             "Les manipulations génétiques",
             "Astrologie",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": [
@@ -112600,9 +113107,79 @@
               "raw": "Super Durand  - Super Durand"
             },
             {
+              "index": 2,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 3,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 4,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
               "index": 5,
               "title": "Les catcheurs du Rock",
               "raw": "Les catcheurs du Rock  - Les catcheurs du Rock"
+            },
+            {
+              "index": 6,
+              "title": "12:30:00",
+              "raw": "12:30:00"
+            },
+            {
+              "index": 8,
+              "title": "12:45:00",
+              "raw": "12:45:00"
+            },
+            {
+              "index": 9,
+              "title": "TELE-PHONE",
+              "raw": "TELE-PHONE"
+            },
+            {
+              "index": 11,
+              "title": "13:30:00",
+              "raw": "13:30:00"
+            },
+            {
+              "index": 12,
+              "title": "CHER ONCLE BILL",
+              "raw": "CHER ONCLE BILL"
+            },
+            {
+              "index": 13,
+              "title": "Série américaine",
+              "raw": "Série américaine"
+            },
+            {
+              "index": 14,
+              "title": "14:00:00",
+              "raw": "14:00:00"
+            },
+            {
+              "index": 15,
+              "title": "DURAN DURAN EN CONCERT",
+              "raw": "DURAN DURAN EN CONCERT"
+            },
+            {
+              "index": 16,
+              "title": "15:00:00",
+              "raw": "15:00:00"
+            },
+            {
+              "index": 17,
+              "title": "STARS 87",
+              "raw": "STARS 87"
+            },
+            {
+              "index": 18,
+              "title": "Portraits de stars qui ont marqué l'année 1987",
+              "raw": "Portraits de stars qui ont marqué l'année 1987"
             }
           ]
         },
@@ -112965,7 +113542,6 @@
               "Environnement",
               "Les manipulations génétiques",
               "Astrologie",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": [
@@ -113721,9 +114297,79 @@
                 "raw": "Super Durand  - Super Durand"
               },
               {
+                "index": 2,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 3,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 4,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
                 "index": 5,
                 "title": "Les catcheurs du Rock",
                 "raw": "Les catcheurs du Rock  - Les catcheurs du Rock"
+              },
+              {
+                "index": 6,
+                "title": "12:30:00",
+                "raw": "12:30:00"
+              },
+              {
+                "index": 8,
+                "title": "12:45:00",
+                "raw": "12:45:00"
+              },
+              {
+                "index": 9,
+                "title": "TELE-PHONE",
+                "raw": "TELE-PHONE"
+              },
+              {
+                "index": 11,
+                "title": "13:30:00",
+                "raw": "13:30:00"
+              },
+              {
+                "index": 12,
+                "title": "CHER ONCLE BILL",
+                "raw": "CHER ONCLE BILL"
+              },
+              {
+                "index": 13,
+                "title": "Série américaine",
+                "raw": "Série américaine"
+              },
+              {
+                "index": 14,
+                "title": "14:00:00",
+                "raw": "14:00:00"
+              },
+              {
+                "index": 15,
+                "title": "DURAN DURAN EN CONCERT",
+                "raw": "DURAN DURAN EN CONCERT"
+              },
+              {
+                "index": 16,
+                "title": "15:00:00",
+                "raw": "15:00:00"
+              },
+              {
+                "index": 17,
+                "title": "STARS 87",
+                "raw": "STARS 87"
+              },
+              {
+                "index": 18,
+                "title": "Portraits de stars qui ont marqué l'année 1987",
+                "raw": "Portraits de stars qui ont marqué l'année 1987"
               }
             ]
           },

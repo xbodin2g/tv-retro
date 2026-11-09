@@ -131,13 +131,7 @@
           "description_lines": [
             "Variétés présentées par Yves Mourousi"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Variétés présentées par Yves Mourousi",
-              "raw": "Variétés présentées par Yves Mourousi"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "22:30",
@@ -858,13 +852,7 @@
             "description_lines": [
               "Variétés présentées par Yves Mourousi"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Variétés présentées par Yves Mourousi",
-                "raw": "Variétés présentées par Yves Mourousi"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "22:30",
@@ -1564,6 +1552,16 @@
               "index": 1,
               "title": "Heckle et Jeckle - L'autostop",
               "raw": "Heckle et Jeckle - L'autostop"
+            },
+            {
+              "index": 2,
+              "title": "Variété : le groupe Café Moulu",
+              "raw": "Variété : le groupe Café Moulu"
+            },
+            {
+              "index": 3,
+              "title": "Bricolage",
+              "raw": "Bricolage"
             },
             {
               "index": 4,
@@ -2380,6 +2378,16 @@
                 "raw": "Heckle et Jeckle - L'autostop"
               },
               {
+                "index": 2,
+                "title": "Variété : le groupe Café Moulu",
+                "raw": "Variété : le groupe Café Moulu"
+              },
+              {
+                "index": 3,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
                 "index": 4,
                 "title": "Docteur Snuggles - L'inquiétant sortilège de Valérie Vinaigrette",
                 "raw": "Docteur Snuggles - L'inquiétant sortilège de Valérie Vinaigrette"
@@ -3183,6 +3191,16 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Variétés : Les Koeurs interprètent Les clés du Paradis",
+              "raw": "Variétés : Les Koeurs interprètent Les clés du Paradis"
+            },
+            {
+              "index": 2,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
               "index": 3,
               "title": "Rody le petit Cid - Un village nommé Vivare",
               "raw": "Rody le petit Cid - Un village nommé Vivare"
@@ -3229,7 +3247,28 @@
             "Variétés : Guy Criaki interprète Pluie d'été",
             "Crack vacances"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 2,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 3,
+              "title": "Variétés : Guy Criaki interprète Pluie d'été",
+              "raw": "Variétés : Guy Criaki interprète Pluie d'été"
+            },
+            {
+              "index": 4,
+              "title": "Crack vacances",
+              "raw": "Crack vacances"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -3909,6 +3948,16 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Variétés : Les Koeurs interprètent Les clés du Paradis",
+                "raw": "Variétés : Les Koeurs interprètent Les clés du Paradis"
+              },
+              {
+                "index": 2,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
                 "index": 3,
                 "title": "Rody le petit Cid - Un village nommé Vivare",
                 "raw": "Rody le petit Cid - Un village nommé Vivare"
@@ -3955,7 +4004,28 @@
               "Variétés : Guy Criaki interprète Pluie d'été",
               "Crack vacances"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 2,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 3,
+                "title": "Variétés : Guy Criaki interprète Pluie d'été",
+                "raw": "Variétés : Guy Criaki interprète Pluie d'été"
+              },
+              {
+                "index": 4,
+                "title": "Crack vacances",
+                "raw": "Crack vacances"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -4959,11 +5029,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Bernard et Charlotte",
-              "raw": "Présenté par Bernard et Charlotte"
-            },
-            {
               "index": 1,
               "title": "Les Schtroumpfs",
               "raw": "Les Schtroumpfs"
@@ -5872,11 +5937,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Bernard et Charlotte",
-                "raw": "Présenté par Bernard et Charlotte"
-              },
               {
                 "index": 1,
                 "title": "Les Schtroumpfs",
@@ -8159,6 +8219,11 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
               "index": 2,
               "title": "Rody le petit Cid - Le justicier de la montagne",
               "raw": "Rody le petit Cid - Le justicier de la montagne"
@@ -8215,6 +8280,21 @@
               "index": 2,
               "title": "Les choqués de la route - Le père modèle",
               "raw": "Les choqués de la route - Le père modèle"
+            },
+            {
+              "index": 3,
+              "title": "Variétés",
+              "raw": "Variétés"
+            },
+            {
+              "index": 4,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
+              "index": 5,
+              "title": "Crack vacances",
+              "raw": "Crack vacances"
             },
             {
               "index": 6,
@@ -9041,6 +9121,11 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
                 "index": 2,
                 "title": "Rody le petit Cid - Le justicier de la montagne",
                 "raw": "Rody le petit Cid - Le justicier de la montagne"
@@ -9097,6 +9182,21 @@
                 "index": 2,
                 "title": "Les choqués de la route - Le père modèle",
                 "raw": "Les choqués de la route - Le père modèle"
+              },
+              {
+                "index": 3,
+                "title": "Variétés",
+                "raw": "Variétés"
+              },
+              {
+                "index": 4,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
+                "index": 5,
+                "title": "Crack vacances",
+                "raw": "Crack vacances"
               },
               {
                 "index": 6,
@@ -10082,18 +10182,7 @@
             "17:45:00",
             "MUSIQUE POUR LE DIMANCHE - LULLY"
           ],
-          "segments": [
-            {
-              "index": 8,
-              "title": "MUSIQUE POUR LE DIMANCHE - HAENDEL, LEOPLD HAGER",
-              "raw": "MUSIQUE POUR LE DIMANCHE - HAENDEL, LEOPLD HAGER"
-            },
-            {
-              "index": 13,
-              "title": "MUSIQUE POUR LE DIMANCHE - LULLY",
-              "raw": "MUSIQUE POUR LE DIMANCHE - LULLY"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "18:00",
@@ -10654,18 +10743,7 @@
               "17:45:00",
               "MUSIQUE POUR LE DIMANCHE - LULLY"
             ],
-            "segments": [
-              {
-                "index": 8,
-                "title": "MUSIQUE POUR LE DIMANCHE - HAENDEL, LEOPLD HAGER",
-                "raw": "MUSIQUE POUR LE DIMANCHE - HAENDEL, LEOPLD HAGER"
-              },
-              {
-                "index": 13,
-                "title": "MUSIQUE POUR LE DIMANCHE - LULLY",
-                "raw": "MUSIQUE POUR LE DIMANCHE - LULLY"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "18:00",
@@ -11417,11 +11495,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Alain et Charlotte",
-              "raw": "Présenté par Alain et Charlotte"
-            },
             {
               "index": 1,
               "title": "Image imagine",
@@ -12389,11 +12462,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Charlotte",
-                "raw": "Présenté par Alain et Charlotte"
-              },
               {
                 "index": 1,
                 "title": "Image imagine",
@@ -23043,7 +23111,58 @@
             "Heckle et Jeckle",
             "Ricky ou la belle vie"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les trois mousquetaires",
+              "raw": "Les trois mousquetaires"
+            },
+            {
+              "index": 2,
+              "title": "Pourquoi, comment ?",
+              "raw": "Pourquoi, comment ?"
+            },
+            {
+              "index": 3,
+              "title": "Les petits creux de Loula",
+              "raw": "Les petits creux de Loula"
+            },
+            {
+              "index": 4,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 5,
+              "title": "Vitaboum",
+              "raw": "Vitaboum"
+            },
+            {
+              "index": 6,
+              "title": "Madame Pepperpote",
+              "raw": "Madame Pepperpote"
+            },
+            {
+              "index": 7,
+              "title": "Variétés : Corinne Charby chante \"Ma génération\" et Christian Barham \"Les filles sont folles\"",
+              "raw": "Variétés : Corinne Charby chante \"Ma génération\" et Christian Barham \"Les filles sont folles\""
+            },
+            {
+              "index": 8,
+              "title": "Tofffsy",
+              "raw": "Tofffsy"
+            },
+            {
+              "index": 9,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 10,
+              "title": "Ricky ou la belle vie",
+              "raw": "Ricky ou la belle vie"
+            }
+          ]
         },
         {
           "time": "16:20",
@@ -23859,7 +23978,58 @@
               "Heckle et Jeckle",
               "Ricky ou la belle vie"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les trois mousquetaires",
+                "raw": "Les trois mousquetaires"
+              },
+              {
+                "index": 2,
+                "title": "Pourquoi, comment ?",
+                "raw": "Pourquoi, comment ?"
+              },
+              {
+                "index": 3,
+                "title": "Les petits creux de Loula",
+                "raw": "Les petits creux de Loula"
+              },
+              {
+                "index": 4,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 5,
+                "title": "Vitaboum",
+                "raw": "Vitaboum"
+              },
+              {
+                "index": 6,
+                "title": "Madame Pepperpote",
+                "raw": "Madame Pepperpote"
+              },
+              {
+                "index": 7,
+                "title": "Variétés : Corinne Charby chante \"Ma génération\" et Christian Barham \"Les filles sont folles\"",
+                "raw": "Variétés : Corinne Charby chante \"Ma génération\" et Christian Barham \"Les filles sont folles\""
+              },
+              {
+                "index": 8,
+                "title": "Tofffsy",
+                "raw": "Tofffsy"
+              },
+              {
+                "index": 9,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 10,
+                "title": "Ricky ou la belle vie",
+                "raw": "Ricky ou la belle vie"
+              }
+            ]
           },
           {
             "time": "16:20",
@@ -26407,11 +26577,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Marie",
-              "raw": "Présenté par Alain et Marie"
-            },
-            {
               "index": 1,
               "title": "Poochie",
               "raw": "Poochie"
@@ -27173,11 +27338,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Marie",
-                "raw": "Présenté par Alain et Marie"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -32540,6 +32700,16 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Variétés : Café Moulu interprète Magic Music Party",
+              "raw": "Variétés : Café Moulu interprète Magic Music Party"
+            },
+            {
+              "index": 2,
+              "title": "Infos magazine",
+              "raw": "Infos magazine"
+            },
+            {
               "index": 3,
               "title": "Rody le petit Cid - Sur le qui-vive",
               "raw": "Rody le petit Cid - Sur le qui-vive"
@@ -32598,6 +32768,21 @@
               "index": 2,
               "title": "Les choqués de la route - Heureux en voiture",
               "raw": "Les choqués de la route - Heureux en voiture"
+            },
+            {
+              "index": 3,
+              "title": "Infos magazine et bricolage",
+              "raw": "Infos magazine et bricolage"
+            },
+            {
+              "index": 4,
+              "title": "Variétés : Chanteurs sans frontières interprètent Ethiopie",
+              "raw": "Variétés : Chanteurs sans frontières interprètent Ethiopie"
+            },
+            {
+              "index": 5,
+              "title": "Crack vacances",
+              "raw": "Crack vacances"
             },
             {
               "index": 6,
@@ -33309,6 +33494,16 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Variétés : Café Moulu interprète Magic Music Party",
+                "raw": "Variétés : Café Moulu interprète Magic Music Party"
+              },
+              {
+                "index": 2,
+                "title": "Infos magazine",
+                "raw": "Infos magazine"
+              },
+              {
                 "index": 3,
                 "title": "Rody le petit Cid - Sur le qui-vive",
                 "raw": "Rody le petit Cid - Sur le qui-vive"
@@ -33367,6 +33562,21 @@
                 "index": 2,
                 "title": "Les choqués de la route - Heureux en voiture",
                 "raw": "Les choqués de la route - Heureux en voiture"
+              },
+              {
+                "index": 3,
+                "title": "Infos magazine et bricolage",
+                "raw": "Infos magazine et bricolage"
+              },
+              {
+                "index": 4,
+                "title": "Variétés : Chanteurs sans frontières interprètent Ethiopie",
+                "raw": "Variétés : Chanteurs sans frontières interprètent Ethiopie"
+              },
+              {
+                "index": 5,
+                "title": "Crack vacances",
+                "raw": "Crack vacances"
               },
               {
                 "index": 6,
@@ -34089,6 +34299,51 @@
               "index": 1,
               "title": "Les trois mousquetaires - Le sauveur",
               "raw": "Les trois mousquetaires - Le sauveur"
+            },
+            {
+              "index": 2,
+              "title": "Pourquoi, comment ?",
+              "raw": "Pourquoi, comment ?"
+            },
+            {
+              "index": 3,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 4,
+              "title": "Vitaboum",
+              "raw": "Vitaboum"
+            },
+            {
+              "index": 5,
+              "title": "Madame Pepperpotte",
+              "raw": "Madame Pepperpotte"
+            },
+            {
+              "index": 6,
+              "title": "Pixi Foly",
+              "raw": "Pixi Foly"
+            },
+            {
+              "index": 7,
+              "title": "Tofffsy et l'herbe musicale",
+              "raw": "Tofffsy et l'herbe musicale"
+            },
+            {
+              "index": 8,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 9,
+              "title": "Jacques Trémolin raconte",
+              "raw": "Jacques Trémolin raconte"
+            },
+            {
+              "index": 10,
+              "title": "La bataille des planètes",
+              "raw": "La bataille des planètes"
             }
           ]
         },
@@ -34839,6 +35094,51 @@
                 "index": 1,
                 "title": "Les trois mousquetaires - Le sauveur",
                 "raw": "Les trois mousquetaires - Le sauveur"
+              },
+              {
+                "index": 2,
+                "title": "Pourquoi, comment ?",
+                "raw": "Pourquoi, comment ?"
+              },
+              {
+                "index": 3,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 4,
+                "title": "Vitaboum",
+                "raw": "Vitaboum"
+              },
+              {
+                "index": 5,
+                "title": "Madame Pepperpotte",
+                "raw": "Madame Pepperpotte"
+              },
+              {
+                "index": 6,
+                "title": "Pixi Foly",
+                "raw": "Pixi Foly"
+              },
+              {
+                "index": 7,
+                "title": "Tofffsy et l'herbe musicale",
+                "raw": "Tofffsy et l'herbe musicale"
+              },
+              {
+                "index": 8,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 9,
+                "title": "Jacques Trémolin raconte",
+                "raw": "Jacques Trémolin raconte"
+              },
+              {
+                "index": 10,
+                "title": "La bataille des planètes",
+                "raw": "La bataille des planètes"
               }
             ]
           },
@@ -41924,7 +42224,43 @@
             "Variétés : Hervé Vilard",
             "Arok le barbare"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 2,
+              "title": "Variétés : José Garcimore",
+              "raw": "Variétés : José Garcimore"
+            },
+            {
+              "index": 3,
+              "title": "L'invité de Clémentine et Isidore",
+              "raw": "L'invité de Clémentine et Isidore"
+            },
+            {
+              "index": 4,
+              "title": "Docteur Snuggles",
+              "raw": "Docteur Snuggles"
+            },
+            {
+              "index": 5,
+              "title": "Infos-magazine",
+              "raw": "Infos-magazine"
+            },
+            {
+              "index": 6,
+              "title": "Variétés : Hervé Vilard",
+              "raw": "Variétés : Hervé Vilard"
+            },
+            {
+              "index": 7,
+              "title": "Arok le barbare",
+              "raw": "Arok le barbare"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -42742,7 +43078,43 @@
               "Variétés : Hervé Vilard",
               "Arok le barbare"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 2,
+                "title": "Variétés : José Garcimore",
+                "raw": "Variétés : José Garcimore"
+              },
+              {
+                "index": 3,
+                "title": "L'invité de Clémentine et Isidore",
+                "raw": "L'invité de Clémentine et Isidore"
+              },
+              {
+                "index": 4,
+                "title": "Docteur Snuggles",
+                "raw": "Docteur Snuggles"
+              },
+              {
+                "index": 5,
+                "title": "Infos-magazine",
+                "raw": "Infos-magazine"
+              },
+              {
+                "index": 6,
+                "title": "Variétés : Hervé Vilard",
+                "raw": "Variétés : Hervé Vilard"
+              },
+              {
+                "index": 7,
+                "title": "Arok le barbare",
+                "raw": "Arok le barbare"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -43564,7 +43936,13 @@
           "description_lines": [
             "Spécial Holiday on Ice"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spécial Holiday on Ice",
+              "raw": "Spécial Holiday on Ice"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -43769,11 +44147,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Alain et Marie",
-              "raw": "Présenté par Alain et Marie"
-            },
             {
               "index": 1,
               "title": "Poochie",
@@ -44303,7 +44676,13 @@
             "description_lines": [
               "Spécial Holiday on Ice"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spécial Holiday on Ice",
+                "raw": "Spécial Holiday on Ice"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -44510,11 +44889,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Marie",
-                "raw": "Présenté par Alain et Marie"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -45067,14 +45441,29 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Docteur Snuggles",
+              "raw": "Docteur Snuggles"
+            },
+            {
               "index": 2,
               "title": "Variétés : Etienne Daho chante Week-end à Rome - La Compagnie Créole",
               "raw": "Variétés : Etienne Daho chante Week-end à Rome - La Compagnie Créole"
             },
             {
+              "index": 3,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
               "index": 4,
               "title": "Bajou - La maison hantée",
               "raw": "Bajou - La maison hantée"
+            },
+            {
+              "index": 5,
+              "title": "Infos-magazine : le sumo",
+              "raw": "Infos-magazine : le sumo"
             },
             {
               "index": 6,
@@ -45361,11 +45750,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Jacky et Marie",
-              "raw": "Présenté par Jacky et Marie"
-            },
             {
               "index": 1,
               "title": "Poochie",
@@ -45990,14 +46374,29 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Docteur Snuggles",
+                "raw": "Docteur Snuggles"
+              },
+              {
                 "index": 2,
                 "title": "Variétés : Etienne Daho chante Week-end à Rome - La Compagnie Créole",
                 "raw": "Variétés : Etienne Daho chante Week-end à Rome - La Compagnie Créole"
               },
               {
+                "index": 3,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
                 "index": 4,
                 "title": "Bajou - La maison hantée",
                 "raw": "Bajou - La maison hantée"
+              },
+              {
+                "index": 5,
+                "title": "Infos-magazine : le sumo",
+                "raw": "Infos-magazine : le sumo"
               },
               {
                 "index": 6,
@@ -46286,11 +46685,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Jacky et Marie",
-                "raw": "Présenté par Jacky et Marie"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -48740,6 +49134,11 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Variétés : Diane Tell",
+              "raw": "Variétés : Diane Tell"
+            },
+            {
               "index": 2,
               "title": "Les trois mousquetaires - Le bateau fortune",
               "raw": "Les trois mousquetaires - Le bateau fortune"
@@ -48755,9 +49154,19 @@
               "raw": "Les petits creux de Loula - Mardi-Gras : les fruits déguisés"
             },
             {
+              "index": 5,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
               "index": 6,
               "title": "Vitaboum - Ghostbusters",
               "raw": "Vitaboum - Ghostbusters"
+            },
+            {
+              "index": 7,
+              "title": "Madame Pepperpotte",
+              "raw": "Madame Pepperpotte"
             },
             {
               "index": 8,
@@ -48765,9 +49174,29 @@
               "raw": "Les contes de la rue Broca - La paire de chaussures"
             },
             {
+              "index": 9,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 10,
+              "title": "Toffsy",
+              "raw": "Toffsy"
+            },
+            {
               "index": 11,
               "title": "Jacques Trémolin raconte - Une histoire d'animaux",
               "raw": "Jacques Trémolin raconte - Une histoire d'animaux"
+            },
+            {
+              "index": 12,
+              "title": "Ricky ou la belle vie",
+              "raw": "Ricky ou la belle vie"
+            },
+            {
+              "index": 13,
+              "title": "Séquence courrier",
+              "raw": "Séquence courrier"
             }
           ]
         },
@@ -49737,6 +50166,11 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Variétés : Diane Tell",
+                "raw": "Variétés : Diane Tell"
+              },
+              {
                 "index": 2,
                 "title": "Les trois mousquetaires - Le bateau fortune",
                 "raw": "Les trois mousquetaires - Le bateau fortune"
@@ -49752,9 +50186,19 @@
                 "raw": "Les petits creux de Loula - Mardi-Gras : les fruits déguisés"
               },
               {
+                "index": 5,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
                 "index": 6,
                 "title": "Vitaboum - Ghostbusters",
                 "raw": "Vitaboum - Ghostbusters"
+              },
+              {
+                "index": 7,
+                "title": "Madame Pepperpotte",
+                "raw": "Madame Pepperpotte"
               },
               {
                 "index": 8,
@@ -49762,9 +50206,29 @@
                 "raw": "Les contes de la rue Broca - La paire de chaussures"
               },
               {
+                "index": 9,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 10,
+                "title": "Toffsy",
+                "raw": "Toffsy"
+              },
+              {
                 "index": 11,
                 "title": "Jacques Trémolin raconte - Une histoire d'animaux",
                 "raw": "Jacques Trémolin raconte - Une histoire d'animaux"
+              },
+              {
+                "index": 12,
+                "title": "Ricky ou la belle vie",
+                "raw": "Ricky ou la belle vie"
+              },
+              {
+                "index": 13,
+                "title": "Séquence courrier",
+                "raw": "Séquence courrier"
               }
             ]
           },
@@ -50755,6 +51219,41 @@
               "index": 3,
               "title": "Les petits creux de Loula - Milk Shake en sol majeur",
               "raw": "Les petits creux de Loula - Milk Shake en sol majeur"
+            },
+            {
+              "index": 4,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 5,
+              "title": "Vitaboum",
+              "raw": "Vitaboum"
+            },
+            {
+              "index": 6,
+              "title": "Madame Pepperpotte",
+              "raw": "Madame Pepperpotte"
+            },
+            {
+              "index": 7,
+              "title": "Festival de la chanson pour enfants",
+              "raw": "Festival de la chanson pour enfants"
+            },
+            {
+              "index": 8,
+              "title": "Toffsy",
+              "raw": "Toffsy"
+            },
+            {
+              "index": 9,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 10,
+              "title": "Ricky ou la belle vie",
+              "raw": "Ricky ou la belle vie"
             }
           ]
         },
@@ -51703,6 +52202,41 @@
                 "index": 3,
                 "title": "Les petits creux de Loula - Milk Shake en sol majeur",
                 "raw": "Les petits creux de Loula - Milk Shake en sol majeur"
+              },
+              {
+                "index": 4,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 5,
+                "title": "Vitaboum",
+                "raw": "Vitaboum"
+              },
+              {
+                "index": 6,
+                "title": "Madame Pepperpotte",
+                "raw": "Madame Pepperpotte"
+              },
+              {
+                "index": 7,
+                "title": "Festival de la chanson pour enfants",
+                "raw": "Festival de la chanson pour enfants"
+              },
+              {
+                "index": 8,
+                "title": "Toffsy",
+                "raw": "Toffsy"
+              },
+              {
+                "index": 9,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 10,
+                "title": "Ricky ou la belle vie",
+                "raw": "Ricky ou la belle vie"
               }
             ]
           },
@@ -53093,18 +53627,7 @@
             "Cycle fantastique",
             "La chose d'un autre monde"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle fantastique",
-              "raw": "Cycle fantastique"
-            },
-            {
-              "index": 1,
-              "title": "La chose d'un autre monde",
-              "raw": "La chose d'un autre monde"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -54123,18 +54646,7 @@
               "Cycle fantastique",
               "La chose d'un autre monde"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle fantastique",
-                "raw": "Cycle fantastique"
-              },
-              {
-                "index": 1,
-                "title": "La chose d'un autre monde",
-                "raw": "La chose d'un autre monde"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -55280,7 +55792,33 @@
             "Donald Duck présente",
             "Dessin animé éducatif"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Winnie l'ourson",
+              "raw": "Winnie l'ourson"
+            },
+            {
+              "index": 1,
+              "title": "Vidéo-clip",
+              "raw": "Vidéo-clip"
+            },
+            {
+              "index": 2,
+              "title": "Bon week-end, Mickey !",
+              "raw": "Bon week-end, Mickey !"
+            },
+            {
+              "index": 3,
+              "title": "Zorro",
+              "raw": "Zorro"
+            },
+            {
+              "index": 4,
+              "title": "Donald Duck présente",
+              "raw": "Donald Duck présente"
+            }
+          ]
         },
         {
           "time": "21:50",
@@ -55308,13 +55846,7 @@
           "description_lines": [
             "Retranscription 171289"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Retranscription 171289",
-              "raw": "Retranscription 171289"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:00",
@@ -56206,7 +56738,33 @@
               "Donald Duck présente",
               "Dessin animé éducatif"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Winnie l'ourson",
+                "raw": "Winnie l'ourson"
+              },
+              {
+                "index": 1,
+                "title": "Vidéo-clip",
+                "raw": "Vidéo-clip"
+              },
+              {
+                "index": 2,
+                "title": "Bon week-end, Mickey !",
+                "raw": "Bon week-end, Mickey !"
+              },
+              {
+                "index": 3,
+                "title": "Zorro",
+                "raw": "Zorro"
+              },
+              {
+                "index": 4,
+                "title": "Donald Duck présente",
+                "raw": "Donald Duck présente"
+              }
+            ]
           },
           {
             "time": "21:50",
@@ -56234,13 +56792,7 @@
             "description_lines": [
               "Retranscription 171289"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Retranscription 171289",
-                "raw": "Retranscription 171289"
-              }
-            ]
+            "segments": []
           }
         ],
         "Canal+": [
@@ -56887,11 +57439,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Jacky, Corbier et Cabu",
-              "raw": "Présenté par Dorothée, Jacky, Corbier et Cabu"
-            },
-            {
               "index": 1,
               "title": "Les Schtroumpfs",
               "raw": "Les Schtroumpfs"
@@ -57076,7 +57623,43 @@
             "Donald Duck présente",
             "DTV"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les aventures de Winnie l'ourson",
+              "raw": "Les aventures de Winnie l'ourson"
+            },
+            {
+              "index": 1,
+              "title": "DTV",
+              "raw": "DTV"
+            },
+            {
+              "index": 2,
+              "title": "Bon Week-end Mickey",
+              "raw": "Bon Week-end Mickey"
+            },
+            {
+              "index": 3,
+              "title": "Zorro",
+              "raw": "Zorro"
+            },
+            {
+              "index": 4,
+              "title": "Disney Souvenirs",
+              "raw": "Disney Souvenirs"
+            },
+            {
+              "index": 5,
+              "title": "Donald Duck présente",
+              "raw": "Donald Duck présente"
+            },
+            {
+              "index": 6,
+              "title": "DTV",
+              "raw": "DTV"
+            }
+          ]
         },
         {
           "time": "21:55",
@@ -57776,11 +58359,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Jacky, Corbier et Cabu",
-                "raw": "Présenté par Dorothée, Jacky, Corbier et Cabu"
-              },
-              {
                 "index": 1,
                 "title": "Les Schtroumpfs",
                 "raw": "Les Schtroumpfs"
@@ -57967,7 +58545,43 @@
               "Donald Duck présente",
               "DTV"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les aventures de Winnie l'ourson",
+                "raw": "Les aventures de Winnie l'ourson"
+              },
+              {
+                "index": 1,
+                "title": "DTV",
+                "raw": "DTV"
+              },
+              {
+                "index": 2,
+                "title": "Bon Week-end Mickey",
+                "raw": "Bon Week-end Mickey"
+              },
+              {
+                "index": 3,
+                "title": "Zorro",
+                "raw": "Zorro"
+              },
+              {
+                "index": 4,
+                "title": "Disney Souvenirs",
+                "raw": "Disney Souvenirs"
+              },
+              {
+                "index": 5,
+                "title": "Donald Duck présente",
+                "raw": "Donald Duck présente"
+              },
+              {
+                "index": 6,
+                "title": "DTV",
+                "raw": "DTV"
+              }
+            ]
           },
           {
             "time": "21:55",
@@ -58485,11 +59099,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Jacky et Marie Dauphin",
-              "raw": "Présenté par Jacky et Marie Dauphin"
-            },
-            {
               "index": 1,
               "title": "La chanson de Dorothée",
               "raw": "La chanson de Dorothée"
@@ -58651,7 +59260,33 @@
             "LE DISNEY CHANNEL",
             "Les Wombles"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget"
+            },
+            {
+              "index": 1,
+              "title": "Le roi Rollo",
+              "raw": "Le roi Rollo"
+            },
+            {
+              "index": 2,
+              "title": "Les petits diables",
+              "raw": "Les petits diables"
+            },
+            {
+              "index": 3,
+              "title": "LE DISNEY CHANNEL",
+              "raw": "LE DISNEY CHANNEL"
+            },
+            {
+              "index": 4,
+              "title": "Les Wombles",
+              "raw": "Les Wombles"
+            }
+          ]
         },
         {
           "time": "10:00",
@@ -59218,11 +59853,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Jacky et Marie Dauphin",
-                "raw": "Présenté par Jacky et Marie Dauphin"
-              },
-              {
                 "index": 1,
                 "title": "La chanson de Dorothée",
                 "raw": "La chanson de Dorothée"
@@ -59386,7 +60016,33 @@
               "LE DISNEY CHANNEL",
               "Les Wombles"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget"
+              },
+              {
+                "index": 1,
+                "title": "Le roi Rollo",
+                "raw": "Le roi Rollo"
+              },
+              {
+                "index": 2,
+                "title": "Les petits diables",
+                "raw": "Les petits diables"
+              },
+              {
+                "index": 3,
+                "title": "LE DISNEY CHANNEL",
+                "raw": "LE DISNEY CHANNEL"
+              },
+              {
+                "index": 4,
+                "title": "Les Wombles",
+                "raw": "Les Wombles"
+              }
+            ]
           },
           {
             "time": "10:00",
@@ -61743,7 +62399,33 @@
             "Infos-Magazine",
             "Hurelu et Berlu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Dare dare motus",
+              "raw": "Dare dare motus"
+            },
+            {
+              "index": 2,
+              "title": "Variété",
+              "raw": "Variété"
+            },
+            {
+              "index": 3,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 4,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 5,
+              "title": "Hurelu et Berlu",
+              "raw": "Hurelu et Berlu"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -61970,11 +62652,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
             {
               "index": 1,
               "title": "Les Schtroumpfs",
@@ -62514,7 +63191,33 @@
               "Infos-Magazine",
               "Hurelu et Berlu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Dare dare motus",
+                "raw": "Dare dare motus"
+              },
+              {
+                "index": 2,
+                "title": "Variété",
+                "raw": "Variété"
+              },
+              {
+                "index": 3,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 4,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 5,
+                "title": "Hurelu et Berlu",
+                "raw": "Hurelu et Berlu"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -62743,11 +63446,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "Les Schtroumpfs",
@@ -63295,7 +63993,38 @@
             "Infos-Magazine",
             "Tout doux Dinky"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Toffsy",
+              "raw": "Toffsy"
+            },
+            {
+              "index": 2,
+              "title": "Variété",
+              "raw": "Variété"
+            },
+            {
+              "index": 3,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 4,
+              "title": "Dare dare motus",
+              "raw": "Dare dare motus"
+            },
+            {
+              "index": 5,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 6,
+              "title": "Tout doux Dinky",
+              "raw": "Tout doux Dinky"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -63555,11 +64284,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée",
-              "raw": "Présenté par Dorothée"
-            },
             {
               "index": 1,
               "title": "Poochie",
@@ -64085,7 +64809,38 @@
               "Infos-Magazine",
               "Tout doux Dinky"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Toffsy",
+                "raw": "Toffsy"
+              },
+              {
+                "index": 2,
+                "title": "Variété",
+                "raw": "Variété"
+              },
+              {
+                "index": 3,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 4,
+                "title": "Dare dare motus",
+                "raw": "Dare dare motus"
+              },
+              {
+                "index": 5,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 6,
+                "title": "Tout doux Dinky",
+                "raw": "Tout doux Dinky"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -64347,11 +65102,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée",
-                "raw": "Présenté par Dorothée"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -64843,7 +65593,58 @@
             "L'invitée du placard",
             "Séquence courrier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les Trois Mousquetaires",
+              "raw": "Les Trois Mousquetaires"
+            },
+            {
+              "index": 2,
+              "title": "Pourquoi, comment ?",
+              "raw": "Pourquoi, comment ?"
+            },
+            {
+              "index": 3,
+              "title": "Les petits creux de Lola",
+              "raw": "Les petits creux de Lola"
+            },
+            {
+              "index": 4,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 5,
+              "title": "Madame Pepperpot",
+              "raw": "Madame Pepperpot"
+            },
+            {
+              "index": 6,
+              "title": "Histoire fantastique",
+              "raw": "Histoire fantastique"
+            },
+            {
+              "index": 8,
+              "title": "Jacques Trémolin raconte...",
+              "raw": "Jacques Trémolin raconte..."
+            },
+            {
+              "index": 9,
+              "title": "Rickie ou la belle vie",
+              "raw": "Rickie ou la belle vie"
+            },
+            {
+              "index": 10,
+              "title": "L'invitée du placard",
+              "raw": "L'invitée du placard"
+            },
+            {
+              "index": 11,
+              "title": "Séquence courrier",
+              "raw": "Séquence courrier"
+            }
+          ]
         },
         {
           "time": "16:30",
@@ -65702,7 +66503,58 @@
               "L'invitée du placard",
               "Séquence courrier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les Trois Mousquetaires",
+                "raw": "Les Trois Mousquetaires"
+              },
+              {
+                "index": 2,
+                "title": "Pourquoi, comment ?",
+                "raw": "Pourquoi, comment ?"
+              },
+              {
+                "index": 3,
+                "title": "Les petits creux de Lola",
+                "raw": "Les petits creux de Lola"
+              },
+              {
+                "index": 4,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 5,
+                "title": "Madame Pepperpot",
+                "raw": "Madame Pepperpot"
+              },
+              {
+                "index": 6,
+                "title": "Histoire fantastique",
+                "raw": "Histoire fantastique"
+              },
+              {
+                "index": 8,
+                "title": "Jacques Trémolin raconte...",
+                "raw": "Jacques Trémolin raconte..."
+              },
+              {
+                "index": 9,
+                "title": "Rickie ou la belle vie",
+                "raw": "Rickie ou la belle vie"
+              },
+              {
+                "index": 10,
+                "title": "L'invitée du placard",
+                "raw": "L'invitée du placard"
+              },
+              {
+                "index": 11,
+                "title": "Séquence courrier",
+                "raw": "Séquence courrier"
+              }
+            ]
           },
           {
             "time": "16:30",
@@ -68146,7 +68998,38 @@
             "Infos-Magazine",
             "La Bataille des Planètes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Dare Dare Motus",
+              "raw": "Dare Dare Motus"
+            },
+            {
+              "index": 2,
+              "title": "Variété",
+              "raw": "Variété"
+            },
+            {
+              "index": 3,
+              "title": "Bricolage",
+              "raw": "Bricolage"
+            },
+            {
+              "index": 4,
+              "title": "Heckle et Jeckle",
+              "raw": "Heckle et Jeckle"
+            },
+            {
+              "index": 5,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 6,
+              "title": "La Bataille des Planètes",
+              "raw": "La Bataille des Planètes"
+            }
+          ]
         },
         {
           "time": "17:30",
@@ -68388,11 +69271,6 @@
             "Téléchat"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Véronique et François Corbier",
-              "raw": "Présenté par Véronique et François Corbier"
-            },
             {
               "index": 1,
               "title": "Poochie",
@@ -68925,7 +69803,38 @@
               "Infos-Magazine",
               "La Bataille des Planètes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Dare Dare Motus",
+                "raw": "Dare Dare Motus"
+              },
+              {
+                "index": 2,
+                "title": "Variété",
+                "raw": "Variété"
+              },
+              {
+                "index": 3,
+                "title": "Bricolage",
+                "raw": "Bricolage"
+              },
+              {
+                "index": 4,
+                "title": "Heckle et Jeckle",
+                "raw": "Heckle et Jeckle"
+              },
+              {
+                "index": 5,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 6,
+                "title": "La Bataille des Planètes",
+                "raw": "La Bataille des Planètes"
+              }
+            ]
           },
           {
             "time": "17:30",
@@ -69169,11 +70078,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Véronique et François Corbier",
-                "raw": "Présenté par Véronique et François Corbier"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -70049,18 +70953,7 @@
             "Cycle Marco Ferreri",
             "Pipicacadodo"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Marco Ferreri",
-              "raw": "Cycle Marco Ferreri"
-            },
-            {
-              "index": 1,
-              "title": "Pipicacadodo",
-              "raw": "Pipicacadodo"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:00",
@@ -70905,18 +71798,7 @@
               "Cycle Marco Ferreri",
               "Pipicacadodo"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Marco Ferreri",
-                "raw": "Cycle Marco Ferreri"
-              },
-              {
-                "index": 1,
-                "title": "Pipicacadodo",
-                "raw": "Pipicacadodo"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -72302,6 +73184,11 @@
               "raw": "Toffsy - Pierre et l'herbe musicale"
             },
             {
+              "index": 2,
+              "title": "Variétés : François Valéry (Mon pote le DJ) ; Bob et Ophélie (La chanson des Klaxons)",
+              "raw": "Variétés : François Valéry (Mon pote le DJ) ; Bob et Ophélie (La chanson des Klaxons)"
+            },
+            {
               "index": 3,
               "title": "Caliméro - Caliméro footballeur",
               "raw": "Caliméro - Caliméro footballeur"
@@ -73173,6 +74060,11 @@
                 "index": 1,
                 "title": "Toffsy - Pierre et l'herbe musicale",
                 "raw": "Toffsy - Pierre et l'herbe musicale"
+              },
+              {
+                "index": 2,
+                "title": "Variétés : François Valéry (Mon pote le DJ) ; Bob et Ophélie (La chanson des Klaxons)",
+                "raw": "Variétés : François Valéry (Mon pote le DJ) ; Bob et Ophélie (La chanson des Klaxons)"
               },
               {
                 "index": 3,
@@ -74268,11 +75160,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain et Marie",
-              "raw": "Présenté par Alain et Marie"
-            },
-            {
               "index": 1,
               "title": "Poochie",
               "raw": "Poochie"
@@ -75034,11 +75921,6 @@
               "Téléchat"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain et Marie",
-                "raw": "Présenté par Alain et Marie"
-              },
               {
                 "index": 1,
                 "title": "Poochie",
@@ -81448,11 +82330,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Alain",
-              "raw": "Présenté par Alain"
-            },
-            {
               "index": 1,
               "title": "La chanson de Dorothée",
               "raw": "La chanson de Dorothée"
@@ -82158,11 +83035,6 @@
               "Candy"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Alain",
-                "raw": "Présenté par Alain"
-              },
               {
                 "index": 1,
                 "title": "La chanson de Dorothée",
@@ -84352,6 +85224,11 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Caliméro",
+              "raw": "Caliméro"
+            },
+            {
               "index": 2,
               "title": "Gigi - La princesse magicienne",
               "raw": "Gigi - La princesse magicienne"
@@ -85374,6 +86251,11 @@
               "Gigi - La princesse magicienne"
             ],
             "segments": [
+              {
+                "index": 1,
+                "title": "Caliméro",
+                "raw": "Caliméro"
+              },
               {
                 "index": 2,
                 "title": "Gigi - La princesse magicienne",

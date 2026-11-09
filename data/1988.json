@@ -376,18 +376,7 @@
             "Cycle Chaplin",
             "La ruée vers l'or"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Chaplin",
-              "raw": "Cycle Chaplin"
-            },
-            {
-              "index": 1,
-              "title": "La ruée vers l'or",
-              "raw": "La ruée vers l'or"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:10",
@@ -1047,7 +1036,33 @@
             "Les Minipouss",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 2,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            },
+            {
+              "index": 3,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 4,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 5,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -1592,18 +1607,7 @@
               "Cycle Chaplin",
               "La ruée vers l'or"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Chaplin",
-                "raw": "Cycle Chaplin"
-              },
-              {
-                "index": 1,
-                "title": "La ruée vers l'or",
-                "raw": "La ruée vers l'or"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -2267,7 +2271,33 @@
               "Les Minipouss",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 2,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              },
+              {
+                "index": 3,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 4,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 5,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -2494,33 +2524,7 @@
             "Holmes et Yoyo",
             "Les clips"
           ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 2,
-              "title": "Goldorak",
-              "raw": "Goldorak"
-            },
-            {
-              "index": 3,
-              "title": "Capitaine Flam",
-              "raw": "Capitaine Flam"
-            },
-            {
-              "index": 4,
-              "title": "Holmes et Yoyo",
-              "raw": "Holmes et Yoyo"
-            },
-            {
-              "index": 5,
-              "title": "Les clips",
-              "raw": "Les clips"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "10:10",
@@ -3092,28 +3096,7 @@
             "Le monde enchanté de Lalabel",
             "Jeanne et Serge"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Robotech",
-              "raw": "Robotech"
-            },
-            {
-              "index": 1,
-              "title": "Le magicien d'Oz",
-              "raw": "Le magicien d'Oz"
-            },
-            {
-              "index": 2,
-              "title": "Le monde enchanté de Lalabel",
-              "raw": "Le monde enchanté de Lalabel"
-            },
-            {
-              "index": 3,
-              "title": "Jeanne et Serge",
-              "raw": "Jeanne et Serge"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:30",
@@ -3507,7 +3490,18 @@
             "Dessins animés classique",
             "Présenté par Patrick Sébastien"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La bande à Picsou",
+              "raw": "La bande à Picsou"
+            },
+            {
+              "index": 3,
+              "title": "Le chevalier lumière",
+              "raw": "Le chevalier lumière"
+            }
+          ]
         },
         {
           "time": "21:50",
@@ -3669,7 +3663,18 @@
             "Super Durand",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Super Durand",
+              "raw": "Super Durand"
+            },
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -3911,33 +3916,7 @@
               "Holmes et Yoyo",
               "Les clips"
             ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 2,
-                "title": "Goldorak",
-                "raw": "Goldorak"
-              },
-              {
-                "index": 3,
-                "title": "Capitaine Flam",
-                "raw": "Capitaine Flam"
-              },
-              {
-                "index": 4,
-                "title": "Holmes et Yoyo",
-                "raw": "Holmes et Yoyo"
-              },
-              {
-                "index": 5,
-                "title": "Les clips",
-                "raw": "Les clips"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "10:10",
@@ -4513,28 +4492,7 @@
               "Le monde enchanté de Lalabel",
               "Jeanne et Serge"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Robotech",
-                "raw": "Robotech"
-              },
-              {
-                "index": 1,
-                "title": "Le magicien d'Oz",
-                "raw": "Le magicien d'Oz"
-              },
-              {
-                "index": 2,
-                "title": "Le monde enchanté de Lalabel",
-                "raw": "Le monde enchanté de Lalabel"
-              },
-              {
-                "index": 3,
-                "title": "Jeanne et Serge",
-                "raw": "Jeanne et Serge"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:30",
@@ -4928,7 +4886,18 @@
               "Dessins animés classique",
               "Présenté par Patrick Sébastien"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La bande à Picsou",
+                "raw": "La bande à Picsou"
+              },
+              {
+                "index": 3,
+                "title": "Le chevalier lumière",
+                "raw": "Le chevalier lumière"
+              }
+            ]
           },
           {
             "time": "21:50",
@@ -5092,7 +5061,18 @@
               "Super Durand",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Super Durand",
+                "raw": "Super Durand"
+              },
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -6677,7 +6657,13 @@
             "Rediffusion de l'émission de vendredi",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -8352,7 +8338,13 @@
               "Rediffusion de l'émission de vendredi",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -9450,13 +9442,7 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine",
-              "raw": "Série américaine"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:15",
@@ -9542,6 +9528,11 @@
               "index": 1,
               "title": "Les aventures de Winnie l'ourson - La maison de couleur différente",
               "raw": "Les aventures de Winnie l'ourson - La maison de couleur différente"
+            },
+            {
+              "index": 3,
+              "title": "Diligence express",
+              "raw": "Diligence express"
             }
           ]
         },
@@ -9866,7 +9857,13 @@
             "Emission pour les enfants",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -10852,13 +10849,7 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine",
-                "raw": "Série américaine"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:15",
@@ -10944,6 +10935,11 @@
                 "index": 1,
                 "title": "Les aventures de Winnie l'ourson - La maison de couleur différente",
                 "raw": "Les aventures de Winnie l'ourson - La maison de couleur différente"
+              },
+              {
+                "index": 3,
+                "title": "Diligence express",
+                "raw": "Diligence express"
               }
             ]
           },
@@ -11270,7 +11266,13 @@
               "Emission pour les enfants",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -11502,33 +11504,7 @@
             "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier",
             "Tarzan"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
-              "index": 1,
-              "title": "Wallygator",
-              "raw": "Wallygator"
-            },
-            {
-              "index": 2,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 3,
-              "title": "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier",
-              "raw": "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier"
-            },
-            {
-              "index": 4,
-              "title": "Tarzan",
-              "raw": "Tarzan"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:00",
@@ -11928,33 +11904,7 @@
             "Princesse Sarah",
             "Dessins animés"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Robotech",
-              "raw": "Robotech"
-            },
-            {
-              "index": 1,
-              "title": "CATHY, LA PETITE FERMIERE",
-              "raw": "CATHY, LA PETITE FERMIERE"
-            },
-            {
-              "index": 2,
-              "title": "Dessins animés",
-              "raw": "Dessins animés"
-            },
-            {
-              "index": 3,
-              "title": "Princesse Sarah",
-              "raw": "Princesse Sarah"
-            },
-            {
-              "index": 4,
-              "title": "Dessins animés",
-              "raw": "Dessins animés"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -12718,33 +12668,7 @@
               "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier",
               "Tarzan"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
-                "index": 1,
-                "title": "Wallygator",
-                "raw": "Wallygator"
-              },
-              {
-                "index": 2,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 3,
-                "title": "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier",
-                "raw": "Pas de pitié pour les croissants : Marotte et Charly ; Les bébés ; Le bétisier"
-              },
-              {
-                "index": 4,
-                "title": "Tarzan",
-                "raw": "Tarzan"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:00",
@@ -13148,33 +13072,7 @@
               "Princesse Sarah",
               "Dessins animés"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Robotech",
-                "raw": "Robotech"
-              },
-              {
-                "index": 1,
-                "title": "CATHY, LA PETITE FERMIERE",
-                "raw": "CATHY, LA PETITE FERMIERE"
-              },
-              {
-                "index": 2,
-                "title": "Dessins animés",
-                "raw": "Dessins animés"
-              },
-              {
-                "index": 3,
-                "title": "Princesse Sarah",
-                "raw": "Princesse Sarah"
-              },
-              {
-                "index": 4,
-                "title": "Dessins animés",
-                "raw": "Dessins animés"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -14339,11 +14237,6 @@
             "Le monde magique de Chantal Goya"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin et Charlotte Kady",
-              "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -15956,11 +15849,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin et Charlotte Kady",
-                "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-              },
-              {
                 "index": 1,
                 "title": "Mimi Cracra",
                 "raw": "Mimi Cracra"
@@ -17220,11 +17108,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Candy - Les étoiles brillent dans l'étable",
               "raw": "Candy - Les étoiles brillent dans l'étable"
@@ -17772,13 +17655,7 @@
             "Magazine de R.F.O.",
             "Série américaine"
           ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Série américaine",
-              "raw": "Série américaine"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "10:45",
@@ -18302,7 +18179,13 @@
             "Dessins animés",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -18562,11 +18445,6 @@
               "Maskman - Un parcours initiatique"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Candy - Les étoiles brillent dans l'étable",
@@ -19119,13 +18997,7 @@
               "Magazine de R.F.O.",
               "Série américaine"
             ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Série américaine",
-                "raw": "Série américaine"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "10:45",
@@ -19651,7 +19523,13 @@
               "Dessins animés",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -20012,11 +19890,6 @@
             "Mini Jacky Show"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Les quatre filles du docteur March",
@@ -20865,7 +20738,28 @@
             "La minute Disney",
             "Diligence Express"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+              "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+            },
+            {
+              "index": 2,
+              "title": "Festival de cartoons",
+              "raw": "Festival de cartoons"
+            },
+            {
+              "index": 3,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
+              "index": 4,
+              "title": "Diligence Express",
+              "raw": "Diligence Express"
+            }
+          ]
         },
         {
           "time": "17:50",
@@ -21192,7 +21086,13 @@
           "description_lines": [
             "Spiral zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral zone",
+              "raw": "Spiral zone"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -21538,11 +21438,6 @@
               "Mini Jacky Show"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Les quatre filles du docteur March",
@@ -22395,7 +22290,28 @@
               "La minute Disney",
               "Diligence Express"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+                "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+              },
+              {
+                "index": 2,
+                "title": "Festival de cartoons",
+                "raw": "Festival de cartoons"
+              },
+              {
+                "index": 3,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
+                "index": 4,
+                "title": "Diligence Express",
+                "raw": "Diligence Express"
+              }
+            ]
           },
           {
             "time": "17:50",
@@ -22724,7 +22640,13 @@
             "description_lines": [
               "Spiral zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral zone",
+                "raw": "Spiral zone"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -23065,11 +22987,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -23251,7 +23168,6 @@
             "Astro-bébé",
             "Mariés bonheur",
             "Généalogie",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -23357,11 +23273,6 @@
             "Transformers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Charlotte Kady et Marie Dauphin",
-              "raw": "Présenté par Charlotte Kady et Marie Dauphin"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -23592,28 +23503,7 @@
             "Flo et les Robinson suisses",
             "Emi Magique"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Robotech",
-              "raw": "Robotech"
-            },
-            {
-              "index": 1,
-              "title": "Le magicien d'Oz",
-              "raw": "Le magicien d'Oz"
-            },
-            {
-              "index": 2,
-              "title": "Flo et les Robinson suisses",
-              "raw": "Flo et les Robinson suisses"
-            },
-            {
-              "index": 3,
-              "title": "Emi Magique",
-              "raw": "Emi Magique"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:55",
@@ -24172,7 +24062,18 @@
             "Les minipouss et la liberté",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les minipouss et la liberté",
+              "raw": "Les minipouss et la liberté"
+            },
+            {
+              "index": 1,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "08:15",
@@ -24251,7 +24152,18 @@
             "Les Minipouss",
             "Las catcheurs du rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 1,
+              "title": "Las catcheurs du rock",
+              "raw": "Las catcheurs du rock"
+            }
+          ]
         },
         {
           "time": "12:50",
@@ -24563,11 +24475,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -24751,7 +24658,6 @@
               "Astro-bébé",
               "Mariés bonheur",
               "Généalogie",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -24857,11 +24763,6 @@
               "Transformers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Charlotte Kady et Marie Dauphin",
-                "raw": "Présenté par Charlotte Kady et Marie Dauphin"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -25094,28 +24995,7 @@
               "Flo et les Robinson suisses",
               "Emi Magique"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Robotech",
-                "raw": "Robotech"
-              },
-              {
-                "index": 1,
-                "title": "Le magicien d'Oz",
-                "raw": "Le magicien d'Oz"
-              },
-              {
-                "index": 2,
-                "title": "Flo et les Robinson suisses",
-                "raw": "Flo et les Robinson suisses"
-              },
-              {
-                "index": 3,
-                "title": "Emi Magique",
-                "raw": "Emi Magique"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:55",
@@ -25676,7 +25556,18 @@
               "Les minipouss et la liberté",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les minipouss et la liberté",
+                "raw": "Les minipouss et la liberté"
+              },
+              {
+                "index": 1,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "08:15",
@@ -25755,7 +25646,18 @@
               "Les Minipouss",
               "Las catcheurs du rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 1,
+                "title": "Las catcheurs du rock",
+                "raw": "Las catcheurs du rock"
+              }
+            ]
           },
           {
             "time": "12:50",
@@ -26296,13 +26198,7 @@
           "description_lines": [
             "Présenté par Marie Dauphin et Charlotte Kady"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin et Charlotte Kady",
-              "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:20",
@@ -26780,7 +26676,6 @@
             "La télé du coeur",
             "Faites-vous des amis",
             "Province chic, province choc",
-            "De ane à... zèbre",
             "De ane à... zèbre",
             "Le jeu de la séduction"
           ],
@@ -27858,13 +27753,7 @@
             "description_lines": [
               "Présenté par Marie Dauphin et Charlotte Kady"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin et Charlotte Kady",
-                "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:20",
@@ -28344,7 +28233,6 @@
               "La télé du coeur",
               "Faites-vous des amis",
               "Province chic, province choc",
-              "De ane à... zèbre",
               "De ane à... zèbre",
               "Le jeu de la séduction"
             ],
@@ -32043,33 +31931,7 @@
             "Les Chevaliers du Zodiaque",
             "Jacky Show"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
-              "index": 1,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 2,
-              "title": "Maskman-Bioman 2",
-              "raw": "Maskman-Bioman 2"
-            },
-            {
-              "index": 3,
-              "title": "Les Chevaliers du Zodiaque",
-              "raw": "Les Chevaliers du Zodiaque"
-            },
-            {
-              "index": 4,
-              "title": "Jacky Show",
-              "raw": "Jacky Show"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "09:40",
@@ -32089,13 +31951,7 @@
           "description_lines": [
             "Pas de pitié pour les croissants"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Pas de pitié pour les croissants",
-              "raw": "Pas de pitié pour les croissants"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:00",
@@ -32167,13 +32023,7 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Série américaine",
-              "raw": "Série américaine"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "15:25",
@@ -33116,7 +32966,13 @@
           "description_lines": [
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "11:30",
@@ -33146,7 +33002,13 @@
           "description_lines": [
             "Spiral zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral zone",
+              "raw": "Spiral zone"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -33419,33 +33281,7 @@
               "Les Chevaliers du Zodiaque",
               "Jacky Show"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
-                "index": 1,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 2,
-                "title": "Maskman-Bioman 2",
-                "raw": "Maskman-Bioman 2"
-              },
-              {
-                "index": 3,
-                "title": "Les Chevaliers du Zodiaque",
-                "raw": "Les Chevaliers du Zodiaque"
-              },
-              {
-                "index": 4,
-                "title": "Jacky Show",
-                "raw": "Jacky Show"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "09:40",
@@ -33465,13 +33301,7 @@
             "description_lines": [
               "Pas de pitié pour les croissants"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Pas de pitié pour les croissants",
-                "raw": "Pas de pitié pour les croissants"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:00",
@@ -33543,13 +33373,7 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Série américaine",
-                "raw": "Série américaine"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "15:25",
@@ -34498,7 +34322,13 @@
             "description_lines": [
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "11:30",
@@ -34528,7 +34358,13 @@
             "description_lines": [
               "Spiral zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral zone",
+                "raw": "Spiral zone"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -34878,11 +34714,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -35052,7 +34883,6 @@
             "Les animaux domestiques",
             "SPA",
             "Les objets",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -35158,11 +34988,6 @@
             "Les campbell"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Charlotte Kady et Marie Dauphin",
-              "raw": "Présenté par Charlotte Kady et Marie Dauphin"
-            },
             {
               "index": 1,
               "title": "Bogus",
@@ -35369,28 +35194,7 @@
             "Le monde enchanté de Lalabel",
             "Jeanne et Serge"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Robotech",
-              "raw": "Robotech"
-            },
-            {
-              "index": 1,
-              "title": "Le magicien d'Oz",
-              "raw": "Le magicien d'Oz"
-            },
-            {
-              "index": 2,
-              "title": "Le monde enchanté de Lalabel",
-              "raw": "Le monde enchanté de Lalabel"
-            },
-            {
-              "index": 3,
-              "title": "Jeanne et Serge",
-              "raw": "Jeanne et Serge"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:25",
@@ -35960,7 +35764,13 @@
           "description_lines": [
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -36017,7 +35827,18 @@
             "Les Minipouss",
             "Las catcheurs du rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 1,
+              "title": "Las catcheurs du rock",
+              "raw": "Las catcheurs du rock"
+            }
+          ]
         },
         {
           "time": "12:50",
@@ -36328,11 +36149,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -36504,7 +36320,6 @@
               "Les animaux domestiques",
               "SPA",
               "Les objets",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -36610,11 +36425,6 @@
               "Les campbell"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Charlotte Kady et Marie Dauphin",
-                "raw": "Présenté par Charlotte Kady et Marie Dauphin"
-              },
               {
                 "index": 1,
                 "title": "Bogus",
@@ -36823,28 +36633,7 @@
               "Le monde enchanté de Lalabel",
               "Jeanne et Serge"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Robotech",
-                "raw": "Robotech"
-              },
-              {
-                "index": 1,
-                "title": "Le magicien d'Oz",
-                "raw": "Le magicien d'Oz"
-              },
-              {
-                "index": 2,
-                "title": "Le monde enchanté de Lalabel",
-                "raw": "Le monde enchanté de Lalabel"
-              },
-              {
-                "index": 3,
-                "title": "Jeanne et Serge",
-                "raw": "Jeanne et Serge"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:25",
@@ -37416,7 +37205,13 @@
             "description_lines": [
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -37473,7 +37268,18 @@
               "Les Minipouss",
               "Las catcheurs du rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 1,
+                "title": "Las catcheurs du rock",
+                "raw": "Las catcheurs du rock"
+              }
+            ]
           },
           {
             "time": "12:50",
@@ -37737,11 +37543,6 @@
             "Astro, le petit robot - Visage de pierre"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier"
-            },
             {
               "index": 1,
               "title": "Gigi - Une horrible méprise",
@@ -39195,11 +38996,6 @@
               "Astro, le petit robot - Visage de pierre"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier"
-              },
               {
                 "index": 1,
                 "title": "Gigi - Une horrible méprise",
@@ -41996,7 +41792,13 @@
           "description_lines": [
             "Spiral Zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral Zone",
+              "raw": "Spiral Zone"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -43655,7 +43457,13 @@
             "description_lines": [
               "Spiral Zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral Zone",
+                "raw": "Spiral Zone"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -44901,6 +44709,11 @@
             "Diligence express - Règlement de compte"
           ],
           "segments": [
+            {
+              "index": 1,
+              "title": "Winnie l'ourson",
+              "raw": "Winnie l'ourson"
+            },
             {
               "index": 3,
               "title": "Diligence express - Règlement de compte",
@@ -46499,6 +46312,11 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Winnie l'ourson",
+                "raw": "Winnie l'ourson"
+              },
+              {
                 "index": 3,
                 "title": "Diligence express - Règlement de compte",
                 "raw": "Diligence express - Règlement de compte"
@@ -47103,73 +46921,7 @@
             "Le dessin de la semaine",
             "Séquence animaux (avec le docteur Michel Klein)"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-            },
-            {
-              "index": 1,
-              "title": "Jayce et la force lumière",
-              "raw": "Jayce et la force lumière"
-            },
-            {
-              "index": 2,
-              "title": "Bisounours",
-              "raw": "Bisounours"
-            },
-            {
-              "index": 3,
-              "title": "Jem et les Hologrammes",
-              "raw": "Jem et les Hologrammes"
-            },
-            {
-              "index": 4,
-              "title": "Ghostbusters",
-              "raw": "Ghostbusters"
-            },
-            {
-              "index": 5,
-              "title": "La revanche des Gobots",
-              "raw": "La revanche des Gobots"
-            },
-            {
-              "index": 6,
-              "title": "Clip musée",
-              "raw": "Clip musée"
-            },
-            {
-              "index": 7,
-              "title": "Le courrier d'Ariane",
-              "raw": "Le courrier d'Ariane"
-            },
-            {
-              "index": 8,
-              "title": "Gadgets et petites nouvelles (avec Patrick)",
-              "raw": "Gadgets et petites nouvelles (avec Patrick)"
-            },
-            {
-              "index": 9,
-              "title": "Le défi de Corbier",
-              "raw": "Le défi de Corbier"
-            },
-            {
-              "index": 10,
-              "title": "Le mot mystérieux",
-              "raw": "Le mot mystérieux"
-            },
-            {
-              "index": 11,
-              "title": "Le dessin de la semaine",
-              "raw": "Le dessin de la semaine"
-            },
-            {
-              "index": 12,
-              "title": "Séquence animaux (avec le docteur Michel Klein)",
-              "raw": "Séquence animaux (avec le docteur Michel Klein)"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:05",
@@ -47280,11 +47032,6 @@
             "Les chansons de Dorothée"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Goldorak",
@@ -47521,11 +47268,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-            },
-            {
               "index": 1,
               "title": "Transformers",
               "raw": "Transformers"
@@ -47623,11 +47365,6 @@
             "Galaxy Rangers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin et Charlotte Kady",
-              "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-            },
             {
               "index": 1,
               "title": "Tchaou et Grodo",
@@ -47909,28 +47646,7 @@
             "Flo et les Robinson suisses",
             "Emi Magique"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Robotech",
-              "raw": "Robotech"
-            },
-            {
-              "index": 1,
-              "title": "Le magicien d'Oz",
-              "raw": "Le magicien d'Oz"
-            },
-            {
-              "index": 2,
-              "title": "Flo et les Robinson suisses",
-              "raw": "Flo et les Robinson suisses"
-            },
-            {
-              "index": 3,
-              "title": "Emi Magique",
-              "raw": "Emi Magique"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:55",
@@ -48779,73 +48495,7 @@
               "Le dessin de la semaine",
               "Séquence animaux (avec le docteur Michel Klein)"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-              },
-              {
-                "index": 1,
-                "title": "Jayce et la force lumière",
-                "raw": "Jayce et la force lumière"
-              },
-              {
-                "index": 2,
-                "title": "Bisounours",
-                "raw": "Bisounours"
-              },
-              {
-                "index": 3,
-                "title": "Jem et les Hologrammes",
-                "raw": "Jem et les Hologrammes"
-              },
-              {
-                "index": 4,
-                "title": "Ghostbusters",
-                "raw": "Ghostbusters"
-              },
-              {
-                "index": 5,
-                "title": "La revanche des Gobots",
-                "raw": "La revanche des Gobots"
-              },
-              {
-                "index": 6,
-                "title": "Clip musée",
-                "raw": "Clip musée"
-              },
-              {
-                "index": 7,
-                "title": "Le courrier d'Ariane",
-                "raw": "Le courrier d'Ariane"
-              },
-              {
-                "index": 8,
-                "title": "Gadgets et petites nouvelles (avec Patrick)",
-                "raw": "Gadgets et petites nouvelles (avec Patrick)"
-              },
-              {
-                "index": 9,
-                "title": "Le défi de Corbier",
-                "raw": "Le défi de Corbier"
-              },
-              {
-                "index": 10,
-                "title": "Le mot mystérieux",
-                "raw": "Le mot mystérieux"
-              },
-              {
-                "index": 11,
-                "title": "Le dessin de la semaine",
-                "raw": "Le dessin de la semaine"
-              },
-              {
-                "index": 12,
-                "title": "Séquence animaux (avec le docteur Michel Klein)",
-                "raw": "Séquence animaux (avec le docteur Michel Klein)"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:05",
@@ -48956,11 +48606,6 @@
               "Les chansons de Dorothée"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Goldorak",
@@ -49199,11 +48844,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-              },
-              {
                 "index": 1,
                 "title": "Transformers",
                 "raw": "Transformers"
@@ -49301,11 +48941,6 @@
               "Galaxy Rangers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin et Charlotte Kady",
-                "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-              },
               {
                 "index": 1,
                 "title": "Tchaou et Grodo",
@@ -49589,28 +49224,7 @@
               "Flo et les Robinson suisses",
               "Emi Magique"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Robotech",
-                "raw": "Robotech"
-              },
-              {
-                "index": 1,
-                "title": "Le magicien d'Oz",
-                "raw": "Le magicien d'Oz"
-              },
-              {
-                "index": 2,
-                "title": "Flo et les Robinson suisses",
-                "raw": "Flo et les Robinson suisses"
-              },
-              {
-                "index": 3,
-                "title": "Emi Magique",
-                "raw": "Emi Magique"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:55",
@@ -53666,11 +53280,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -53894,11 +53503,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Juliette, je t'aime",
               "raw": "Juliette, je t'aime"
@@ -54069,7 +53673,6 @@
             "Le truc (avec Laura Fronty)",
             "Journal (avec Marc Autheman et Catherine Ceylac)",
             "Journal",
-            "Journal",
             "Consommation"
           ],
           "segments": []
@@ -54094,7 +53697,6 @@
             "La animaux",
             "La couture",
             "La SPA",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -54855,7 +54457,6 @@
           "description": "Présenté par Philippe Gildas Flash infos Flash infos",
           "description_lines": [
             "Présenté par Philippe Gildas",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -55082,7 +54683,13 @@
           "description_lines": [
             "Spiral zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral zone",
+              "raw": "Spiral zone"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -55375,11 +54982,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -55603,11 +55205,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Juliette, je t'aime",
                 "raw": "Juliette, je t'aime"
@@ -55780,7 +55377,6 @@
               "Le truc (avec Laura Fronty)",
               "Journal (avec Marc Autheman et Catherine Ceylac)",
               "Journal",
-              "Journal",
               "Consommation"
             ],
             "segments": []
@@ -55805,7 +55401,6 @@
               "La animaux",
               "La couture",
               "La SPA",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -56568,7 +56163,6 @@
             "description": "Présenté par Philippe Gildas Flash infos Flash infos",
             "description_lines": [
               "Présenté par Philippe Gildas",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -56797,7 +56391,13 @@
             "description_lines": [
               "Spiral zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral zone",
+                "raw": "Spiral zone"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -58310,7 +57910,23 @@
             "Les Minipouss",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 2,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 3,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -59854,7 +59470,23 @@
               "Les Minipouss",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 2,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 3,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -65947,11 +65579,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -66001,11 +65628,6 @@
             "Les animaux (avec le docteur Michel Klein)"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -66131,11 +65753,6 @@
             "Bioman II"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Sablotins",
@@ -66315,7 +65932,6 @@
             "Santé (avec Jean-Daniel Flaysakier ou Catherine Singer)",
             "Le truc (avec Laura Fronty)",
             "Journal (avec Marc Autheman et Catherine Ceylac)",
-            "Journal",
             "Journal",
             "Vos enfants (avec Claude Lorin et Patricia Demachy)"
           ],
@@ -67335,7 +66951,13 @@
           "description_lines": [
             "Sharivan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sharivan",
+              "raw": "Sharivan"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -67643,11 +67265,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -67697,11 +67314,6 @@
               "Les animaux (avec le docteur Michel Klein)"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -67827,11 +67439,6 @@
               "Bioman II"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Sablotins",
@@ -68013,7 +67620,6 @@
               "Santé (avec Jean-Daniel Flaysakier ou Catherine Singer)",
               "Le truc (avec Laura Fronty)",
               "Journal (avec Marc Autheman et Catherine Ceylac)",
-              "Journal",
               "Journal",
               "Vos enfants (avec Claude Lorin et Patricia Demachy)"
             ],
@@ -69037,7 +68643,13 @@
             "description_lines": [
               "Sharivan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sharivan",
+                "raw": "Sharivan"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -69752,18 +69364,7 @@
             "Cycle Chaplin",
             "Les temps modernes"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Chaplin",
-              "raw": "Cycle Chaplin"
-            },
-            {
-              "index": 1,
-              "title": "Les temps modernes",
-              "raw": "Les temps modernes"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:00",
@@ -70584,7 +70185,23 @@
             "Les Minipouss",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 2,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 3,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -71322,18 +70939,7 @@
               "Cycle Chaplin",
               "Les temps modernes"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Chaplin",
-                "raw": "Cycle Chaplin"
-              },
-              {
-                "index": 1,
-                "title": "Les temps modernes",
-                "raw": "Les temps modernes"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -72158,7 +71764,23 @@
               "Les Minipouss",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 2,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 3,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -75736,11 +75358,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -75969,11 +75586,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Juliette",
               "raw": "Juliette"
@@ -76128,7 +75740,6 @@
             "Le truc (avec Laura Fronty)",
             "Journal (avec Marc Autheman et Catherine Ceylac)",
             "Journal",
-            "Journal",
             "Les astuces (avec François Sigaléa)"
           ],
           "segments": []
@@ -76153,7 +75764,6 @@
             "Consommation",
             "Beauté",
             "Conseils aux parents",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -76848,7 +76458,6 @@
           "description": "Présenté par Philippe Gildas Flash infos Flash infos",
           "description_lines": [
             "Présenté par Philippe Gildas",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -77101,7 +76710,13 @@
           "description_lines": [
             "Sharivan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sharivan",
+              "raw": "Sharivan"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -77401,11 +77016,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -77634,11 +77244,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Juliette",
                 "raw": "Juliette"
@@ -77795,7 +77400,6 @@
               "Le truc (avec Laura Fronty)",
               "Journal (avec Marc Autheman et Catherine Ceylac)",
               "Journal",
-              "Journal",
               "Les astuces (avec François Sigaléa)"
             ],
             "segments": []
@@ -77820,7 +77424,6 @@
               "Consommation",
               "Beauté",
               "Conseils aux parents",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -78517,7 +78120,6 @@
             "description": "Présenté par Philippe Gildas Flash infos Flash infos",
             "description_lines": [
               "Présenté par Philippe Gildas",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -78772,7 +78374,13 @@
             "description_lines": [
               "Sharivan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sharivan",
+                "raw": "Sharivan"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -79106,11 +78714,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Corbier, Patrick et Jacky",
-              "raw": "Présenté par Dorothée, Ariane, Corbier, Patrick et Jacky"
-            },
-            {
               "index": 1,
               "title": "GI Joe - Les sentiments forcés",
               "raw": "GI Joe - Les sentiments forcés"
@@ -79268,11 +78871,6 @@
             "L'empire des cinq"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie, Charlotte et Bertrand",
-              "raw": "Présenté par Marie, Charlotte et Bertrand"
-            },
             {
               "index": 1,
               "title": "Transformers",
@@ -80372,7 +79970,13 @@
             "Emission pour les enfants",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -80467,7 +80071,13 @@
             "Emission pour les enfants",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -80496,7 +80106,13 @@
             "Emission pour les enfants",
             "Edgar, le détective cambrioleur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            }
+          ]
         },
         {
           "time": "13:35",
@@ -80789,11 +80405,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Corbier, Patrick et Jacky",
-                "raw": "Présenté par Dorothée, Ariane, Corbier, Patrick et Jacky"
-              },
-              {
                 "index": 1,
                 "title": "GI Joe - Les sentiments forcés",
                 "raw": "GI Joe - Les sentiments forcés"
@@ -80953,11 +80564,6 @@
               "L'empire des cinq"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie, Charlotte et Bertrand",
-                "raw": "Présenté par Marie, Charlotte et Bertrand"
-              },
               {
                 "index": 1,
                 "title": "Transformers",
@@ -82061,7 +81667,13 @@
               "Emission pour les enfants",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -82156,7 +81768,13 @@
               "Emission pour les enfants",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -82185,7 +81803,13 @@
               "Emission pour les enfants",
               "Edgar, le détective cambrioleur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              }
+            ]
           },
           {
             "time": "13:35",
@@ -82652,11 +82276,6 @@
             "Les Mystérieuses Cités d'Or"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin et Charlotte Kady",
-              "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-            },
             {
               "index": 1,
               "title": "Mes mains ont la parole",
@@ -83315,7 +82934,28 @@
             "La minute Disney",
             "Diligence Express"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Winnie l'Ourson (avec Vincent Perrot)",
+              "raw": "Winnie l'Ourson (avec Vincent Perrot)"
+            },
+            {
+              "index": 2,
+              "title": "Festival de cartoons",
+              "raw": "Festival de cartoons"
+            },
+            {
+              "index": 3,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
+              "index": 4,
+              "title": "Diligence Express",
+              "raw": "Diligence Express"
+            }
+          ]
         },
         {
           "time": "18:15",
@@ -83593,7 +83233,18 @@
             "Kidd vidéo",
             "Rody, le petit Cid"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Kidd vidéo",
+              "raw": "Kidd vidéo"
+            },
+            {
+              "index": 1,
+              "title": "Rody, le petit Cid",
+              "raw": "Rody, le petit Cid"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -84121,11 +83772,6 @@
               "Les Mystérieuses Cités d'Or"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin et Charlotte Kady",
-                "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-              },
               {
                 "index": 1,
                 "title": "Mes mains ont la parole",
@@ -84786,7 +84432,28 @@
               "La minute Disney",
               "Diligence Express"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Winnie l'Ourson (avec Vincent Perrot)",
+                "raw": "Winnie l'Ourson (avec Vincent Perrot)"
+              },
+              {
+                "index": 2,
+                "title": "Festival de cartoons",
+                "raw": "Festival de cartoons"
+              },
+              {
+                "index": 3,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
+                "index": 4,
+                "title": "Diligence Express",
+                "raw": "Diligence Express"
+              }
+            ]
           },
           {
             "time": "18:15",
@@ -85066,7 +84733,18 @@
               "Kidd vidéo",
               "Rody, le petit Cid"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Kidd vidéo",
+                "raw": "Kidd vidéo"
+              },
+              {
+                "index": 1,
+                "title": "Rody, le petit Cid",
+                "raw": "Rody, le petit Cid"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -86706,7 +86384,13 @@
             "Emission pour les enfants",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -88289,7 +87973,13 @@
               "Emission pour les enfants",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -88574,11 +88264,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Mon petit poney",
               "raw": "Mon petit poney"
@@ -88797,11 +88482,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Juliette",
               "raw": "Juliette"
@@ -88950,7 +88630,6 @@
             "Le truc (avec Laura Fronty)",
             "Journal (avec Marc Autheman et Catherine Ceylac)",
             "Journal",
-            "Journal",
             "Tourisme (avec Marie-Dominique Perrin)"
           ],
           "segments": []
@@ -88975,7 +88654,6 @@
             "Jeunes talents",
             "Création",
             "Au petit bonheur",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -89985,7 +89663,13 @@
           "description_lines": [
             "Sharivan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sharivan",
+              "raw": "Sharivan"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -90305,11 +89989,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Mon petit poney",
                 "raw": "Mon petit poney"
@@ -90528,11 +90207,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Juliette",
                 "raw": "Juliette"
@@ -90683,7 +90357,6 @@
               "Le truc (avec Laura Fronty)",
               "Journal (avec Marc Autheman et Catherine Ceylac)",
               "Journal",
-              "Journal",
               "Tourisme (avec Marie-Dominique Perrin)"
             ],
             "segments": []
@@ -90708,7 +90381,6 @@
               "Jeunes talents",
               "Création",
               "Au petit bonheur",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -91722,7 +91394,13 @@
             "description_lines": [
               "Sharivan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sharivan",
+                "raw": "Sharivan"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -91957,38 +91635,7 @@
             "Jem et les Hologrammes",
             "Jacky Show"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
-              "index": 1,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 2,
-              "title": "Les Trois Mousquetaires",
-              "raw": "Les Trois Mousquetaires"
-            },
-            {
-              "index": 3,
-              "title": "Bioman",
-              "raw": "Bioman"
-            },
-            {
-              "index": 4,
-              "title": "Jem et les Hologrammes",
-              "raw": "Jem et les Hologrammes"
-            },
-            {
-              "index": 5,
-              "title": "Jacky Show",
-              "raw": "Jacky Show"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "09:35",
@@ -92008,13 +91655,7 @@
           "description_lines": [
             "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier",
-              "raw": "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:00",
@@ -93181,38 +92822,7 @@
               "Jem et les Hologrammes",
               "Jacky Show"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
-                "index": 1,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 2,
-                "title": "Les Trois Mousquetaires",
-                "raw": "Les Trois Mousquetaires"
-              },
-              {
-                "index": 3,
-                "title": "Bioman",
-                "raw": "Bioman"
-              },
-              {
-                "index": 4,
-                "title": "Jem et les Hologrammes",
-                "raw": "Jem et les Hologrammes"
-              },
-              {
-                "index": 5,
-                "title": "Jacky Show",
-                "raw": "Jacky Show"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "09:35",
@@ -93232,13 +92842,7 @@
             "description_lines": [
               "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier",
-                "raw": "Pas de pitié pour les croissants : Aucune pitié pour les séquences ; Marotte et Charlie ; Les bébés ; Tapisseries ; Les chansons ; Le bétisier"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:00",
@@ -95240,6 +94844,11 @@
           ],
           "segments": [
             {
+              "index": 1,
+              "title": "Les aventures de Winnie l'ourson",
+              "raw": "Les aventures de Winnie l'ourson"
+            },
+            {
               "index": 3,
               "title": "Diligence express - La grande course de chevaux (32)",
               "raw": "Diligence express - La grande course de chevaux (32)"
@@ -96618,6 +96227,11 @@
             ],
             "segments": [
               {
+                "index": 1,
+                "title": "Les aventures de Winnie l'ourson",
+                "raw": "Les aventures de Winnie l'ourson"
+              },
+              {
                 "index": 3,
                 "title": "Diligence express - La grande course de chevaux (32)",
                 "raw": "Diligence express - La grande course de chevaux (32)"
@@ -97334,11 +96948,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Visionary",
               "raw": "Visionary"
@@ -97540,7 +97149,6 @@
             "Généalogie (avec Jean-Louis Beaucarnot)",
             "Etrange (avec Jean-Yves Casgha)",
             "Cuisine (avec Hubert)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -97670,11 +97278,6 @@
             "Transformers"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -98891,11 +98494,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Visionary",
                 "raw": "Visionary"
@@ -99099,7 +98697,6 @@
               "Généalogie (avec Jean-Louis Beaucarnot)",
               "Etrange (avec Jean-Yves Casgha)",
               "Cuisine (avec Hubert)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -99229,11 +98826,6 @@
               "Transformers"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -101348,7 +100940,13 @@
             "Dessins animés",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "09:00",
@@ -102622,7 +102220,13 @@
               "Dessins animés",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "09:00",
@@ -106027,11 +105631,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Visionary",
               "raw": "Visionary"
@@ -106220,7 +105819,6 @@
             "Animaux (avec Yola Horn)",
             "SPA (avec Mme Sujansky)",
             "Objet insolites (avec Philippe Regley)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -106362,11 +105960,6 @@
             "Le monde magique de Chantal Goya"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -107248,7 +106841,13 @@
           "description_lines": [
             "X-Or"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "X-Or",
+              "raw": "X-Or"
+            }
+          ]
         },
         {
           "time": "13:10",
@@ -107609,11 +107208,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Visionary",
                 "raw": "Visionary"
@@ -107804,7 +107398,6 @@
               "Animaux (avec Yola Horn)",
               "SPA (avec Mme Sujansky)",
               "Objet insolites (avec Philippe Regley)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -107946,11 +107539,6 @@
               "Le monde magique de Chantal Goya"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -108836,7 +108424,13 @@
             "description_lines": [
               "X-Or"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "X-Or",
+                "raw": "X-Or"
+              }
+            ]
           },
           {
             "time": "13:10",
@@ -110292,7 +109886,13 @@
           "description_lines": [
             "Spiral zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral zone",
+              "raw": "Spiral zone"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -111777,7 +111377,13 @@
             "description_lines": [
               "Spiral zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral zone",
+                "raw": "Spiral zone"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -115312,73 +114918,7 @@
             "Le mot mystérieux",
             "Les chansons de Dorothée"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-            },
-            {
-              "index": 1,
-              "title": "Jayce et la force lumière",
-              "raw": "Jayce et la force lumière"
-            },
-            {
-              "index": 2,
-              "title": "Jem et les Hologrammes",
-              "raw": "Jem et les Hologrammes"
-            },
-            {
-              "index": 3,
-              "title": "Ghostbusters",
-              "raw": "Ghostbusters"
-            },
-            {
-              "index": 4,
-              "title": "La revanche des Gobots",
-              "raw": "La revanche des Gobots"
-            },
-            {
-              "index": 5,
-              "title": "Astro, le petit robot",
-              "raw": "Astro, le petit robot"
-            },
-            {
-              "index": 6,
-              "title": "Dragon ball",
-              "raw": "Dragon ball"
-            },
-            {
-              "index": 7,
-              "title": "Les animaux (avec le docteur Michel Klein)",
-              "raw": "Les animaux (avec le docteur Michel Klein)"
-            },
-            {
-              "index": 8,
-              "title": "Le courrier d'Ariane",
-              "raw": "Le courrier d'Ariane"
-            },
-            {
-              "index": 9,
-              "title": "Gadgets et petites nouvelles (avec Patrick)",
-              "raw": "Gadgets et petites nouvelles (avec Patrick)"
-            },
-            {
-              "index": 10,
-              "title": "Le défi de Corbier",
-              "raw": "Le défi de Corbier"
-            },
-            {
-              "index": 11,
-              "title": "Le mot mystérieux",
-              "raw": "Le mot mystérieux"
-            },
-            {
-              "index": 12,
-              "title": "Les chansons de Dorothée",
-              "raw": "Les chansons de Dorothée"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "11:30",
@@ -115494,11 +115034,6 @@
             "Le Jacky seau"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "GI Joe",
@@ -115753,11 +115288,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-            },
-            {
               "index": 1,
               "title": "Transformers",
               "raw": "Transformers"
@@ -115883,11 +115413,6 @@
             "Les Mystérieuses Cités d'Or"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-            },
             {
               "index": 1,
               "title": "Au-delà de la peur",
@@ -116426,7 +115951,13 @@
           "description_lines": [
             "Yao"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Yao",
+              "raw": "Yao"
+            }
+          ]
         },
         {
           "time": "15:00",
@@ -117063,73 +116594,7 @@
               "Le mot mystérieux",
               "Les chansons de Dorothée"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick, Corbier et Lionel Gébédé"
-              },
-              {
-                "index": 1,
-                "title": "Jayce et la force lumière",
-                "raw": "Jayce et la force lumière"
-              },
-              {
-                "index": 2,
-                "title": "Jem et les Hologrammes",
-                "raw": "Jem et les Hologrammes"
-              },
-              {
-                "index": 3,
-                "title": "Ghostbusters",
-                "raw": "Ghostbusters"
-              },
-              {
-                "index": 4,
-                "title": "La revanche des Gobots",
-                "raw": "La revanche des Gobots"
-              },
-              {
-                "index": 5,
-                "title": "Astro, le petit robot",
-                "raw": "Astro, le petit robot"
-              },
-              {
-                "index": 6,
-                "title": "Dragon ball",
-                "raw": "Dragon ball"
-              },
-              {
-                "index": 7,
-                "title": "Les animaux (avec le docteur Michel Klein)",
-                "raw": "Les animaux (avec le docteur Michel Klein)"
-              },
-              {
-                "index": 8,
-                "title": "Le courrier d'Ariane",
-                "raw": "Le courrier d'Ariane"
-              },
-              {
-                "index": 9,
-                "title": "Gadgets et petites nouvelles (avec Patrick)",
-                "raw": "Gadgets et petites nouvelles (avec Patrick)"
-              },
-              {
-                "index": 10,
-                "title": "Le défi de Corbier",
-                "raw": "Le défi de Corbier"
-              },
-              {
-                "index": 11,
-                "title": "Le mot mystérieux",
-                "raw": "Le mot mystérieux"
-              },
-              {
-                "index": 12,
-                "title": "Les chansons de Dorothée",
-                "raw": "Les chansons de Dorothée"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "11:30",
@@ -117245,11 +116710,6 @@
               "Le Jacky seau"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "GI Joe",
@@ -117506,11 +116966,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-              },
-              {
                 "index": 1,
                 "title": "Transformers",
                 "raw": "Transformers"
@@ -117636,11 +117091,6 @@
               "Les Mystérieuses Cités d'Or"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady et Bertrand Boucheroy"
-              },
               {
                 "index": 1,
                 "title": "Au-delà de la peur",
@@ -118181,7 +117631,13 @@
             "description_lines": [
               "Yao"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Yao",
+                "raw": "Yao"
+              }
+            ]
           },
           {
             "time": "15:00",
@@ -118866,11 +118322,6 @@
             "Madame Soleil"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
-            },
             {
               "index": 1,
               "title": "Mon petit poney",
@@ -120534,11 +119985,6 @@
               "Madame Soleil"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Mon petit poney",
@@ -122357,11 +121803,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Visionary",
               "raw": "Visionary"
@@ -122565,7 +122006,6 @@
             "Conseils aux parents (avec Christine Ollivier)",
             "Solidarité-entraide",
             "Cuisine (avec Hubert)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -122712,11 +122152,6 @@
             "Les Petites Canailles"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin et Charlotte Kady",
-              "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -123624,7 +123059,13 @@
           "description_lines": [
             "X-Or"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "X-Or",
+              "raw": "X-Or"
+            }
+          ]
         },
         {
           "time": "13:10",
@@ -124045,11 +123486,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Visionary",
                 "raw": "Visionary"
@@ -124255,7 +123691,6 @@
               "Conseils aux parents (avec Christine Ollivier)",
               "Solidarité-entraide",
               "Cuisine (avec Hubert)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -124402,11 +123837,6 @@
               "Les Petites Canailles"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin et Charlotte Kady",
-                "raw": "Présenté par Marie Dauphin et Charlotte Kady"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -125318,7 +124748,13 @@
             "description_lines": [
               "X-Or"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "X-Or",
+                "raw": "X-Or"
+              }
+            ]
           },
           {
             "time": "13:10",
@@ -125728,11 +125164,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Visionary",
               "raw": "Visionary"
@@ -125939,7 +125370,6 @@
             "Reves (avec Hélène Renard)",
             "Livres",
             "La cuisine (avec Hubert)",
-            "Flash infos",
             "Flash infos"
           ],
           "segments": []
@@ -126077,11 +125507,6 @@
             "Les gnons"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-              "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-            },
             {
               "index": 1,
               "title": "Mimi Cracra",
@@ -127015,7 +126440,13 @@
           "description_lines": [
             "X-Or"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "X-Or",
+              "raw": "X-Or"
+            }
+          ]
         },
         {
           "time": "13:10",
@@ -127423,11 +126854,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Visionary",
                 "raw": "Visionary"
@@ -127636,7 +127062,6 @@
               "Reves (avec Hélène Renard)",
               "Livres",
               "La cuisine (avec Hubert)",
-              "Flash infos",
               "Flash infos"
             ],
             "segments": []
@@ -127774,11 +127199,6 @@
               "Les gnons"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard",
-                "raw": "Présenté par Marie Dauphin, Charlotte Kady, Bertrand et Bernard"
-              },
               {
                 "index": 1,
                 "title": "Mimi Cracra",
@@ -128716,7 +128136,13 @@
             "description_lines": [
               "X-Or"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "X-Or",
+                "raw": "X-Or"
+              }
+            ]
           },
           {
             "time": "13:10",
@@ -129482,7 +128908,28 @@
             "Inspecteur Duflair",
             "Voltron"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Julie et Stéphanie",
+              "raw": "Julie et Stéphanie"
+            },
+            {
+              "index": 2,
+              "title": "Pitou",
+              "raw": "Pitou"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Duflair",
+              "raw": "Inspecteur Duflair"
+            },
+            {
+              "index": 4,
+              "title": "Voltron",
+              "raw": "Voltron"
+            }
+          ]
         },
         {
           "time": "17:15",
@@ -129758,28 +129205,7 @@
             "Karine, l'aventure du bout du monde",
             "Emi Magique"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Laura ou la passion du théâtre",
-              "raw": "Laura ou la passion du théâtre"
-            },
-            {
-              "index": 1,
-              "title": "Vas-y Julie !",
-              "raw": "Vas-y Julie !"
-            },
-            {
-              "index": 2,
-              "title": "Karine, l'aventure du bout du monde",
-              "raw": "Karine, l'aventure du bout du monde"
-            },
-            {
-              "index": 3,
-              "title": "Emi Magique",
-              "raw": "Emi Magique"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:45",
@@ -130546,7 +129972,13 @@
           "description_lines": [
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -131261,7 +130693,28 @@
               "Inspecteur Duflair",
               "Voltron"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Julie et Stéphanie",
+                "raw": "Julie et Stéphanie"
+              },
+              {
+                "index": 2,
+                "title": "Pitou",
+                "raw": "Pitou"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Duflair",
+                "raw": "Inspecteur Duflair"
+              },
+              {
+                "index": 4,
+                "title": "Voltron",
+                "raw": "Voltron"
+              }
+            ]
           },
           {
             "time": "17:15",
@@ -131539,28 +130992,7 @@
               "Karine, l'aventure du bout du monde",
               "Emi Magique"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Laura ou la passion du théâtre",
-                "raw": "Laura ou la passion du théâtre"
-              },
-              {
-                "index": 1,
-                "title": "Vas-y Julie !",
-                "raw": "Vas-y Julie !"
-              },
-              {
-                "index": 2,
-                "title": "Karine, l'aventure du bout du monde",
-                "raw": "Karine, l'aventure du bout du monde"
-              },
-              {
-                "index": 3,
-                "title": "Emi Magique",
-                "raw": "Emi Magique"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:45",
@@ -132329,7 +131761,13 @@
             "description_lines": [
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -132553,11 +131991,6 @@
             "Gugu Ganmo"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier. Avec Madame Soleil",
-              "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier. Avec Madame Soleil"
-            },
             {
               "index": 1,
               "title": "Mon petit poney",
@@ -133838,7 +133271,13 @@
           "description_lines": [
             "Sharivan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sharivan",
+              "raw": "Sharivan"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -134107,11 +133546,6 @@
               "Gugu Ganmo"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier. Avec Madame Soleil",
-                "raw": "Présenté par Dorothée, Ariane, Patrick, Jacky, Corbier. Avec Madame Soleil"
-              },
               {
                 "index": 1,
                 "title": "Mon petit poney",
@@ -135398,7 +134832,13 @@
             "description_lines": [
               "Sharivan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sharivan",
+                "raw": "Sharivan"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -136918,7 +136358,13 @@
           "description_lines": [
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -138415,7 +137861,13 @@
             "description_lines": [
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -142062,13 +141514,7 @@
           "description_lines": [
             "Présenté par Marie Dauphin"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Marie Dauphin",
-              "raw": "Présenté par Marie Dauphin"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "17:15",
@@ -143333,13 +142779,7 @@
             "description_lines": [
               "Présenté par Marie Dauphin"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Marie Dauphin",
-                "raw": "Présenté par Marie Dauphin"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "17:15",
@@ -145601,7 +145041,13 @@
             "Dessins animés",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -147128,7 +146574,13 @@
               "Dessins animés",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -147875,7 +147327,28 @@
             "Inspecteur Duflair",
             "Voltron"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Julie et Stéphanie",
+              "raw": "Julie et Stéphanie"
+            },
+            {
+              "index": 2,
+              "title": "Pitou",
+              "raw": "Pitou"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Duflair",
+              "raw": "Inspecteur Duflair"
+            },
+            {
+              "index": 4,
+              "title": "Voltron",
+              "raw": "Voltron"
+            }
+          ]
         },
         {
           "time": "17:15",
@@ -148184,23 +147657,7 @@
             "Karine, l'aventure du bout du monde",
             "Dessin animé non communiqué"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Laura ou la passion du théâtre",
-              "raw": "Laura ou la passion du théâtre"
-            },
-            {
-              "index": 1,
-              "title": "Vas-y Julie !",
-              "raw": "Vas-y Julie !"
-            },
-            {
-              "index": 2,
-              "title": "Karine, l'aventure du bout du monde",
-              "raw": "Karine, l'aventure du bout du monde"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:45",
@@ -148893,7 +148350,13 @@
           "description_lines": [
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -148911,7 +148374,13 @@
           "description_lines": [
             "Spirale zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spirale zone",
+              "raw": "Spirale zone"
+            }
+          ]
         },
         {
           "time": "14:05",
@@ -149581,7 +149050,28 @@
               "Inspecteur Duflair",
               "Voltron"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Julie et Stéphanie",
+                "raw": "Julie et Stéphanie"
+              },
+              {
+                "index": 2,
+                "title": "Pitou",
+                "raw": "Pitou"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Duflair",
+                "raw": "Inspecteur Duflair"
+              },
+              {
+                "index": 4,
+                "title": "Voltron",
+                "raw": "Voltron"
+              }
+            ]
           },
           {
             "time": "17:15",
@@ -149892,23 +149382,7 @@
               "Karine, l'aventure du bout du monde",
               "Dessin animé non communiqué"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Laura ou la passion du théâtre",
-                "raw": "Laura ou la passion du théâtre"
-              },
-              {
-                "index": 1,
-                "title": "Vas-y Julie !",
-                "raw": "Vas-y Julie !"
-              },
-              {
-                "index": 2,
-                "title": "Karine, l'aventure du bout du monde",
-                "raw": "Karine, l'aventure du bout du monde"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:45",
@@ -150603,7 +150077,13 @@
             "description_lines": [
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -150621,7 +150101,13 @@
             "description_lines": [
               "Spirale zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spirale zone",
+                "raw": "Spirale zone"
+              }
+            ]
           },
           {
             "time": "14:05",
@@ -150895,11 +150381,6 @@
             "Pas de pitié pour les croissants"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Touni et Litelle",
@@ -151432,28 +150913,7 @@
             "Pollyanna",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les aventures de Claire et Tipoune",
-              "raw": "Les aventures de Claire et Tipoune"
-            },
-            {
-              "index": 1,
-              "title": "Creamy, merveilleuse creamy",
-              "raw": "Creamy, merveilleuse creamy"
-            },
-            {
-              "index": 2,
-              "title": "Pollyanna",
-              "raw": "Pollyanna"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -151779,7 +151239,28 @@
             "La minute Disney",
             "Famille du dimanche"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+              "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+            },
+            {
+              "index": 2,
+              "title": "Festival de cartoons",
+              "raw": "Festival de cartoons"
+            },
+            {
+              "index": 3,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
+              "index": 4,
+              "title": "Famille du dimanche",
+              "raw": "Famille du dimanche"
+            }
+          ]
         },
         {
           "time": "17:40",
@@ -152123,7 +151604,23 @@
             "Capitaine Sheider",
             "Sharivan"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Entrechats",
+              "raw": "Les Entrechats"
+            },
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            },
+            {
+              "index": 2,
+              "title": "Sharivan",
+              "raw": "Sharivan"
+            }
+          ]
         },
         {
           "time": "19:54",
@@ -152330,11 +151827,6 @@
               "Pas de pitié pour les croissants"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Touni et Litelle",
@@ -152871,28 +152363,7 @@
               "Pollyanna",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les aventures de Claire et Tipoune",
-                "raw": "Les aventures de Claire et Tipoune"
-              },
-              {
-                "index": 1,
-                "title": "Creamy, merveilleuse creamy",
-                "raw": "Creamy, merveilleuse creamy"
-              },
-              {
-                "index": 2,
-                "title": "Pollyanna",
-                "raw": "Pollyanna"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -153218,7 +152689,28 @@
               "La minute Disney",
               "Famille du dimanche"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+                "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+              },
+              {
+                "index": 2,
+                "title": "Festival de cartoons",
+                "raw": "Festival de cartoons"
+              },
+              {
+                "index": 3,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
+                "index": 4,
+                "title": "Famille du dimanche",
+                "raw": "Famille du dimanche"
+              }
+            ]
           },
           {
             "time": "17:40",
@@ -153564,7 +153056,23 @@
               "Capitaine Sheider",
               "Sharivan"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Entrechats",
+                "raw": "Les Entrechats"
+              },
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              },
+              {
+                "index": 2,
+                "title": "Sharivan",
+                "raw": "Sharivan"
+              }
+            ]
           },
           {
             "time": "19:54",
@@ -154871,7 +154379,23 @@
             "Les Minipouss",
             "Les catcheurs du Rock"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            },
+            {
+              "index": 2,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss"
+            },
+            {
+              "index": 3,
+              "title": "Les catcheurs du Rock",
+              "raw": "Les catcheurs du Rock"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -156305,7 +155829,23 @@
               "Les Minipouss",
               "Les catcheurs du Rock"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              },
+              {
+                "index": 2,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss"
+              },
+              {
+                "index": 3,
+                "title": "Les catcheurs du Rock",
+                "raw": "Les catcheurs du Rock"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -159776,18 +159316,7 @@
             "Cycle Luis Bunuel",
             "Nazarin"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cycle Luis Bunuel",
-              "raw": "Cycle Luis Bunuel"
-            },
-            {
-              "index": 1,
-              "title": "Nazarin",
-              "raw": "Nazarin"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "00:15",
@@ -160536,7 +160065,13 @@
             "Emission pour les enfants",
             "La lucarne d'Amilcar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "La lucarne d'Amilcar",
+              "raw": "La lucarne d'Amilcar"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -160669,7 +160204,13 @@
             "Emission pour les enfants",
             "Edgar, le détective cambrioleur"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Edgar, le détective cambrioleur",
+              "raw": "Edgar, le détective cambrioleur"
+            }
+          ]
         },
         {
           "time": "13:10",
@@ -161462,18 +161003,7 @@
               "Cycle Luis Bunuel",
               "Nazarin"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cycle Luis Bunuel",
-                "raw": "Cycle Luis Bunuel"
-              },
-              {
-                "index": 1,
-                "title": "Nazarin",
-                "raw": "Nazarin"
-              }
-            ]
+            "segments": []
           }
         ],
         "FR3": [
@@ -162226,7 +161756,13 @@
               "Emission pour les enfants",
               "La lucarne d'Amilcar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "La lucarne d'Amilcar",
+                "raw": "La lucarne d'Amilcar"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -162359,7 +161895,13 @@
               "Emission pour les enfants",
               "Edgar, le détective cambrioleur"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Edgar, le détective cambrioleur",
+                "raw": "Edgar, le détective cambrioleur"
+              }
+            ]
           },
           {
             "time": "13:10",
@@ -162663,11 +162205,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Dragon ball",
               "raw": "Dragon ball"
@@ -162712,11 +162249,6 @@
             "Jeux"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -162850,11 +162382,6 @@
             "Les Chevaliers du Zodiaque"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "On pense à toi",
@@ -163416,28 +162943,7 @@
             "Cynthia ou le rythme de la vie",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Karine, l'aventure du nouveau monde",
-              "raw": "Karine, l'aventure du nouveau monde"
-            },
-            {
-              "index": 1,
-              "title": "L'histoire du père noel",
-              "raw": "L'histoire du père noel"
-            },
-            {
-              "index": 2,
-              "title": "Cynthia ou le rythme de la vie",
-              "raw": "Cynthia ou le rythme de la vie"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -164562,11 +164068,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Dragon ball",
                 "raw": "Dragon ball"
@@ -164611,11 +164112,6 @@
               "Jeux"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -164749,11 +164245,6 @@
               "Les Chevaliers du Zodiaque"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "On pense à toi",
@@ -165319,28 +164810,7 @@
               "Cynthia ou le rythme de la vie",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Karine, l'aventure du nouveau monde",
-                "raw": "Karine, l'aventure du nouveau monde"
-              },
-              {
-                "index": 1,
-                "title": "L'histoire du père noel",
-                "raw": "L'histoire du père noel"
-              },
-              {
-                "index": 2,
-                "title": "Cynthia ou le rythme de la vie",
-                "raw": "Cynthia ou le rythme de la vie"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -167890,7 +167360,13 @@
             "Emission pour les enfants",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -169589,7 +169065,13 @@
               "Emission pour les enfants",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -172820,11 +172302,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Dragon ball",
               "raw": "Dragon ball"
@@ -172871,11 +172348,6 @@
             "Le nombre d'or"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -173025,11 +172497,6 @@
             "Jeu set et match"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Juliette, je t'aime",
@@ -173620,28 +173087,7 @@
             "Pollyanna",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les aventures de Claire et Tipoune",
-              "raw": "Les aventures de Claire et Tipoune"
-            },
-            {
-              "index": 1,
-              "title": "Creamy, merveilleuse creamy",
-              "raw": "Creamy, merveilleuse creamy"
-            },
-            {
-              "index": 2,
-              "title": "Pollyanna",
-              "raw": "Pollyanna"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -174790,11 +174236,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Dragon ball",
                 "raw": "Dragon ball"
@@ -174841,11 +174282,6 @@
               "Le nombre d'or"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -174995,11 +174431,6 @@
               "Jeu set et match"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Juliette, je t'aime",
@@ -175594,28 +175025,7 @@
               "Pollyanna",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les aventures de Claire et Tipoune",
-                "raw": "Les aventures de Claire et Tipoune"
-              },
-              {
-                "index": 1,
-                "title": "Creamy, merveilleuse creamy",
-                "raw": "Creamy, merveilleuse creamy"
-              },
-              {
-                "index": 2,
-                "title": "Pollyanna",
-                "raw": "Pollyanna"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -176779,11 +176189,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Dragon ball",
               "raw": "Dragon ball"
@@ -176832,11 +176237,6 @@
             "Séqunce animaux (avec le Docteur Michel Klein)"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -176981,11 +176381,6 @@
             "Le top junior"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Sablotin",
@@ -177594,28 +176989,7 @@
             "Karine, l'aventure du nouveau monde",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cynthia ou le rythme de la vie",
-              "raw": "Cynthia ou le rythme de la vie"
-            },
-            {
-              "index": 1,
-              "title": "L'histoire du père noel",
-              "raw": "L'histoire du père noel"
-            },
-            {
-              "index": 2,
-              "title": "Karine, l'aventure du nouveau monde",
-              "raw": "Karine, l'aventure du nouveau monde"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -178717,11 +178091,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Dragon ball",
                 "raw": "Dragon ball"
@@ -178770,11 +178139,6 @@
               "Séqunce animaux (avec le Docteur Michel Klein)"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -178919,11 +178283,6 @@
               "Le top junior"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Sablotin",
@@ -179536,28 +178895,7 @@
               "Karine, l'aventure du nouveau monde",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cynthia ou le rythme de la vie",
-                "raw": "Cynthia ou le rythme de la vie"
-              },
-              {
-                "index": 1,
-                "title": "L'histoire du père noel",
-                "raw": "L'histoire du père noel"
-              },
-              {
-                "index": 2,
-                "title": "Karine, l'aventure du nouveau monde",
-                "raw": "Karine, l'aventure du nouveau monde"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -182105,7 +181443,13 @@
             "Dessins animés",
             "Capitaine Sheider"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Capitaine Sheider",
+              "raw": "Capitaine Sheider"
+            }
+          ]
         },
         {
           "time": "12:30",
@@ -183829,7 +183173,13 @@
               "Dessins animés",
               "Capitaine Sheider"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Capitaine Sheider",
+                "raw": "Capitaine Sheider"
+              }
+            ]
           },
           {
             "time": "12:30",
@@ -184091,11 +183441,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Dragon ball",
               "raw": "Dragon ball"
@@ -184139,11 +183484,6 @@
             "Punky Brewster"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -184285,11 +183625,6 @@
             "Les Chevaliers du Zodiaque"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "On pense à toi",
@@ -184912,28 +184247,7 @@
             "Pollyanna",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les aventures de Claire et Tipoune",
-              "raw": "Les aventures de Claire et Tipoune"
-            },
-            {
-              "index": 1,
-              "title": "Creamy, merveilleuse creamy",
-              "raw": "Creamy, merveilleuse creamy"
-            },
-            {
-              "index": 2,
-              "title": "Pollyanna",
-              "raw": "Pollyanna"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -186013,11 +185327,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Dragon ball",
                 "raw": "Dragon ball"
@@ -186061,11 +185370,6 @@
               "Punky Brewster"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -186207,11 +185511,6 @@
               "Les Chevaliers du Zodiaque"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "On pense à toi",
@@ -186838,28 +186137,7 @@
               "Pollyanna",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les aventures de Claire et Tipoune",
-                "raw": "Les aventures de Claire et Tipoune"
-              },
-              {
-                "index": 1,
-                "title": "Creamy, merveilleuse creamy",
-                "raw": "Creamy, merveilleuse creamy"
-              },
-              {
-                "index": 2,
-                "title": "Pollyanna",
-                "raw": "Pollyanna"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -189140,7 +188418,13 @@
           "description_lines": [
             "Spiral zone"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spiral zone",
+              "raw": "Spiral zone"
+            }
+          ]
         },
         {
           "time": "12:25",
@@ -190585,7 +189869,13 @@
             "description_lines": [
               "Spiral zone"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spiral zone",
+                "raw": "Spiral zone"
+              }
+            ]
           },
           {
             "time": "12:25",
@@ -190859,11 +190149,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Dragon ball",
               "raw": "Dragon ball"
@@ -190910,11 +190195,6 @@
             "Le nombre d'or"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "Georgie",
@@ -191065,11 +190345,6 @@
             "Les Chevaliers du Zodiaque"
           ],
           "segments": [
-            {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
             {
               "index": 1,
               "title": "On pense à toi",
@@ -191666,23 +190941,7 @@
             "Karine ou l'aventure du nouveau monde",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Cynthia ou le rythme de la vie",
-              "raw": "Cynthia ou le rythme de la vie"
-            },
-            {
-              "index": 2,
-              "title": "Karine ou l'aventure du nouveau monde",
-              "raw": "Karine ou l'aventure du nouveau monde"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -192824,11 +192083,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Dragon ball",
                 "raw": "Dragon ball"
@@ -192875,11 +192129,6 @@
               "Le nombre d'or"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "Georgie",
@@ -193030,11 +192279,6 @@
               "Les Chevaliers du Zodiaque"
             ],
             "segments": [
-              {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
               {
                 "index": 1,
                 "title": "On pense à toi",
@@ -193635,23 +192879,7 @@
               "Karine ou l'aventure du nouveau monde",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Cynthia ou le rythme de la vie",
-                "raw": "Cynthia ou le rythme de la vie"
-              },
-              {
-                "index": 2,
-                "title": "Karine ou l'aventure du nouveau monde",
-                "raw": "Karine ou l'aventure du nouveau monde"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -194855,11 +194083,6 @@
           ],
           "segments": [
             {
-              "index": 0,
-              "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-              "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-            },
-            {
               "index": 1,
               "title": "Touni et Litelle",
               "raw": "Touni et Litelle"
@@ -195430,28 +194653,7 @@
             "Pollyanna",
             "Les Schtroumpfs"
           ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les aventures de Claire et Tipoune",
-              "raw": "Les aventures de Claire et Tipoune"
-            },
-            {
-              "index": 1,
-              "title": "Creamy, merveilleuse creamy",
-              "raw": "Creamy, merveilleuse creamy"
-            },
-            {
-              "index": 2,
-              "title": "Pollyanna",
-              "raw": "Pollyanna"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            }
-          ]
+          "segments": []
         },
         {
           "time": "07:50",
@@ -195750,7 +194952,28 @@
             "La minute Disney",
             "Famille du dimanche"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 1,
+              "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+              "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+            },
+            {
+              "index": 2,
+              "title": "Festival de cartoons",
+              "raw": "Festival de cartoons"
+            },
+            {
+              "index": 3,
+              "title": "La minute Disney",
+              "raw": "La minute Disney"
+            },
+            {
+              "index": 4,
+              "title": "Famille du dimanche",
+              "raw": "Famille du dimanche"
+            }
+          ]
         },
         {
           "time": "17:50",
@@ -196336,11 +195559,6 @@
             ],
             "segments": [
               {
-                "index": 0,
-                "title": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier",
-                "raw": "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
-              },
-              {
                 "index": 1,
                 "title": "Touni et Litelle",
                 "raw": "Touni et Litelle"
@@ -196915,28 +196133,7 @@
               "Pollyanna",
               "Les Schtroumpfs"
             ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les aventures de Claire et Tipoune",
-                "raw": "Les aventures de Claire et Tipoune"
-              },
-              {
-                "index": 1,
-                "title": "Creamy, merveilleuse creamy",
-                "raw": "Creamy, merveilleuse creamy"
-              },
-              {
-                "index": 2,
-                "title": "Pollyanna",
-                "raw": "Pollyanna"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              }
-            ]
+            "segments": []
           },
           {
             "time": "07:50",
@@ -197235,7 +196432,28 @@
               "La minute Disney",
               "Famille du dimanche"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 1,
+                "title": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)",
+                "raw": "Les aventures de Winnie l'Ourson (avec Vincent Perrot)"
+              },
+              {
+                "index": 2,
+                "title": "Festival de cartoons",
+                "raw": "Festival de cartoons"
+              },
+              {
+                "index": 3,
+                "title": "La minute Disney",
+                "raw": "La minute Disney"
+              },
+              {
+                "index": 4,
+                "title": "Famille du dimanche",
+                "raw": "Famille du dimanche"
+              }
+            ]
           },
           {
             "time": "17:50",
