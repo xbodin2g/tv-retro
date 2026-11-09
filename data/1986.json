@@ -118855,13 +118855,23 @@
     "22-10-1986": {
       "date": "22-10-1986",
       "source": "depot101",
-      "programs_count": 123,
+      "programs_count": 124,
       "night_extension": true,
       "origin_dates": [
         "21-10-1986",
         "22-10-1986"
       ],
       "programs": [
+        {
+          "time": "07:15",
+          "channel": "TF1",
+          "title": "R.F.E.",
+          "description": "Merlin Gerin : courant malin",
+          "description_lines": [
+            "Merlin Gerin : courant malin"
+          ],
+          "segments": []
+        },
         {
           "time": "07:30",
           "channel": "TF1",
@@ -120243,6 +120253,16 @@
       ],
       "channels": {
         "TF1": [
+          {
+            "time": "07:15",
+            "channel": "TF1",
+            "title": "R.F.E.",
+            "description": "Merlin Gerin : courant malin",
+            "description_lines": [
+              "Merlin Gerin : courant malin"
+            ],
+            "segments": []
+          },
           {
             "time": "07:30",
             "channel": "TF1",
@@ -123781,23 +123801,13 @@
     "23-10-1986": {
       "date": "23-10-1986",
       "source": "depot101",
-      "programs_count": 125,
+      "programs_count": 124,
       "night_extension": true,
       "origin_dates": [
         "22-10-1986",
         "23-10-1986"
       ],
       "programs": [
-        {
-          "time": "07:15",
-          "channel": "TF1",
-          "title": "R.F.E.",
-          "description": "Merlin Gerin : courant malin",
-          "description_lines": [
-            "Merlin Gerin : courant malin"
-          ],
-          "segments": []
-        },
         {
           "time": "10:15",
           "channel": "TF1",
@@ -125042,16 +125052,6 @@
       ],
       "channels": {
         "TF1": [
-          {
-            "time": "07:15",
-            "channel": "TF1",
-            "title": "R.F.E.",
-            "description": "Merlin Gerin : courant malin",
-            "description_lines": [
-              "Merlin Gerin : courant malin"
-            ],
-            "segments": []
-          },
           {
             "time": "10:15",
             "channel": "TF1",
@@ -126309,7 +126309,7 @@
     "24-06-1986": {
       "date": "24-06-1986",
       "source": "depot101",
-      "programs_count": 83,
+      "programs_count": 103,
       "night_extension": true,
       "origin_dates": [
         "23-06-1986",
@@ -126696,6 +126696,134 @@
           "segments": []
         },
         {
+          "time": "07:00",
+          "channel": "FR3",
+          "title": "MÉTÉO",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "07:05",
+          "channel": "FR3",
+          "title": "CINÉMA DANS LES SALLES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "07:35",
+          "channel": "FR3",
+          "title": "CABOU CADIN",
+          "description": "Archibald, voyageur de l'espace",
+          "description_lines": [
+            "Archibald, voyageur de l'espace"
+          ],
+          "segments": [
+            {
+              "index": 0,
+              "title": "Archibald, voyageur de l'espace",
+              "raw": "Archibald, voyageur de l'espace"
+            }
+          ]
+        },
+        {
+          "time": "08:00",
+          "channel": "FR3",
+          "title": "VIRGINIA",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "08:30",
+          "channel": "FR3",
+          "title": "LA FOLLE HISTOIRE DU MONDE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "10:10",
+          "channel": "FR3",
+          "title": "ESPION A LA MODE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "11:00",
+          "channel": "FR3",
+          "title": "CABOU CADIN",
+          "description": "Ferdy Les blufons",
+          "description_lines": [
+            "Ferdy",
+            "Les blufons"
+          ],
+          "segments": [
+            {
+              "index": 0,
+              "title": "Ferdy",
+              "raw": "Ferdy"
+            },
+            {
+              "index": 1,
+              "title": "Les blufons",
+              "raw": "Les blufons"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "channel": "FR3",
+          "title": "LES TRIPLES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:05",
+          "channel": "FR3",
+          "title": "TOP 50",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:30",
+          "channel": "FR3",
+          "title": "DIRECT",
+          "description": "Présenté par Philippe Gildas",
+          "description_lines": [
+            "Présenté par Philippe Gildas"
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:30",
+          "channel": "FR3",
+          "title": "VIRGINIA",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "14:00",
+          "channel": "FR3",
+          "title": "ASSAUT",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "15:40",
+          "channel": "FR3",
+          "title": "DEAD ZONE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "17:00",
           "channel": "FR3",
           "title": "EMISSIONS REGIONALES",
@@ -126709,11 +126837,79 @@
           "segments": []
         },
         {
+          "time": "17:20",
+          "channel": "FR3",
+          "title": "CABOU CADIN",
+          "description": "Le roi, c'est moi Anna, Ciro et compagnie",
+          "description_lines": [
+            "Le roi, c'est moi",
+            "Anna, Ciro et compagnie"
+          ],
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le roi, c'est moi",
+              "raw": "Le roi, c'est moi"
+            },
+            {
+              "index": 1,
+              "title": "Anna, Ciro et compagnie",
+              "raw": "Anna, Ciro et compagnie"
+            }
+          ]
+        },
+        {
+          "time": "17:55",
+          "channel": "FR3",
+          "title": "FLASH INFOS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "18:00",
+          "channel": "FR3",
+          "title": "DANCIN' DAYS",
+          "description": "Série brésilienne",
+          "description_lines": [
+            "Série brésilienne"
+          ],
+          "segments": []
+        },
+        {
+          "time": "18:30",
+          "channel": "FR3",
+          "title": "TOP 50",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "18:55",
+          "channel": "FR3",
+          "title": "MAXI-TÊTE",
+          "description": "Présenté par Sophie Favier",
+          "description_lines": [
+            "Présenté par Sophie Favier"
+          ],
+          "segments": []
+        },
+        {
           "time": "19:00",
           "channel": "FR3",
           "title": "LE 19-20 DE L'INFORMATION",
           "description": "",
           "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:05",
+          "channel": "FR3",
+          "title": "ZÉNITH",
+          "description": "Présenté par Michel Denisot",
+          "description_lines": [
+            "Présenté par Michel Denisot"
+          ],
           "segments": []
         },
         {
@@ -126730,7 +126926,8 @@
           "title": "LES NOUVEAUX JEUX DE 20 HEURES",
           "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
           "description_lines": [
-            "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+            "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+            "Jeu animé par Philippe Risoli"
           ],
           "segments": []
         },
@@ -126747,7 +126944,15 @@
         {
           "time": "20:35",
           "channel": "FR3",
-          "title": "DUEL DANS LA BOUE",
+          "title": "LE GENDARME ET LES EXTRA-TERRESTRES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:10",
+          "channel": "FR3",
+          "title": "JOSEY WALES HORS LA LOI",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -127411,6 +127616,134 @@
             "segments": []
           },
           {
+            "time": "07:00",
+            "channel": "FR3",
+            "title": "MÉTÉO",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "07:05",
+            "channel": "FR3",
+            "title": "CINÉMA DANS LES SALLES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "07:35",
+            "channel": "FR3",
+            "title": "CABOU CADIN",
+            "description": "Archibald, voyageur de l'espace",
+            "description_lines": [
+              "Archibald, voyageur de l'espace"
+            ],
+            "segments": [
+              {
+                "index": 0,
+                "title": "Archibald, voyageur de l'espace",
+                "raw": "Archibald, voyageur de l'espace"
+              }
+            ]
+          },
+          {
+            "time": "08:00",
+            "channel": "FR3",
+            "title": "VIRGINIA",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "08:30",
+            "channel": "FR3",
+            "title": "LA FOLLE HISTOIRE DU MONDE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "10:10",
+            "channel": "FR3",
+            "title": "ESPION A LA MODE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "11:00",
+            "channel": "FR3",
+            "title": "CABOU CADIN",
+            "description": "Ferdy Les blufons",
+            "description_lines": [
+              "Ferdy",
+              "Les blufons"
+            ],
+            "segments": [
+              {
+                "index": 0,
+                "title": "Ferdy",
+                "raw": "Ferdy"
+              },
+              {
+                "index": 1,
+                "title": "Les blufons",
+                "raw": "Les blufons"
+              }
+            ]
+          },
+          {
+            "time": "12:00",
+            "channel": "FR3",
+            "title": "LES TRIPLES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:05",
+            "channel": "FR3",
+            "title": "TOP 50",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:30",
+            "channel": "FR3",
+            "title": "DIRECT",
+            "description": "Présenté par Philippe Gildas",
+            "description_lines": [
+              "Présenté par Philippe Gildas"
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:30",
+            "channel": "FR3",
+            "title": "VIRGINIA",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "14:00",
+            "channel": "FR3",
+            "title": "ASSAUT",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "15:40",
+            "channel": "FR3",
+            "title": "DEAD ZONE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "17:00",
             "channel": "FR3",
             "title": "EMISSIONS REGIONALES",
@@ -127424,11 +127757,79 @@
             "segments": []
           },
           {
+            "time": "17:20",
+            "channel": "FR3",
+            "title": "CABOU CADIN",
+            "description": "Le roi, c'est moi Anna, Ciro et compagnie",
+            "description_lines": [
+              "Le roi, c'est moi",
+              "Anna, Ciro et compagnie"
+            ],
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le roi, c'est moi",
+                "raw": "Le roi, c'est moi"
+              },
+              {
+                "index": 1,
+                "title": "Anna, Ciro et compagnie",
+                "raw": "Anna, Ciro et compagnie"
+              }
+            ]
+          },
+          {
+            "time": "17:55",
+            "channel": "FR3",
+            "title": "FLASH INFOS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "18:00",
+            "channel": "FR3",
+            "title": "DANCIN' DAYS",
+            "description": "Série brésilienne",
+            "description_lines": [
+              "Série brésilienne"
+            ],
+            "segments": []
+          },
+          {
+            "time": "18:30",
+            "channel": "FR3",
+            "title": "TOP 50",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "18:55",
+            "channel": "FR3",
+            "title": "MAXI-TÊTE",
+            "description": "Présenté par Sophie Favier",
+            "description_lines": [
+              "Présenté par Sophie Favier"
+            ],
+            "segments": []
+          },
+          {
             "time": "19:00",
             "channel": "FR3",
             "title": "LE 19-20 DE L'INFORMATION",
             "description": "",
             "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:05",
+            "channel": "FR3",
+            "title": "ZÉNITH",
+            "description": "Présenté par Michel Denisot",
+            "description_lines": [
+              "Présenté par Michel Denisot"
+            ],
             "segments": []
           },
           {
@@ -127445,7 +127846,8 @@
             "title": "LES NOUVEAUX JEUX DE 20 HEURES",
             "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
             "description_lines": [
-              "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
+              "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
+              "Jeu animé par Philippe Risoli"
             ],
             "segments": []
           },
@@ -127462,7 +127864,15 @@
           {
             "time": "20:35",
             "channel": "FR3",
-            "title": "DUEL DANS LA BOUE",
+            "title": "LE GENDARME ET LES EXTRA-TERRESTRES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:10",
+            "channel": "FR3",
+            "title": "JOSEY WALES HORS LA LOI",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -132681,7 +133091,7 @@
     "25-06-1986": {
       "date": "25-06-1986",
       "source": "depot101",
-      "programs_count": 101,
+      "programs_count": 81,
       "night_extension": true,
       "origin_dates": [
         "24-06-1986",
@@ -133253,137 +133663,9 @@
           "segments": []
         },
         {
-          "time": "07:00",
-          "channel": "FR3",
-          "title": "MÉTÉO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "07:05",
-          "channel": "FR3",
-          "title": "CINÉMA DANS LES SALLES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "07:35",
-          "channel": "FR3",
-          "title": "CABOU CADIN",
-          "description": "Archibald, voyageur de l'espace",
-          "description_lines": [
-            "Archibald, voyageur de l'espace"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Archibald, voyageur de l'espace",
-              "raw": "Archibald, voyageur de l'espace"
-            }
-          ]
-        },
-        {
-          "time": "08:00",
-          "channel": "FR3",
-          "title": "VIRGINIA",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "08:30",
-          "channel": "FR3",
-          "title": "LA FOLLE HISTOIRE DU MONDE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:10",
-          "channel": "FR3",
-          "title": "ESPION A LA MODE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:00",
-          "channel": "FR3",
-          "title": "CABOU CADIN",
-          "description": "Ferdy Les blufons",
-          "description_lines": [
-            "Ferdy",
-            "Les blufons"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Ferdy",
-              "raw": "Ferdy"
-            },
-            {
-              "index": 1,
-              "title": "Les blufons",
-              "raw": "Les blufons"
-            }
-          ]
-        },
-        {
-          "time": "12:00",
-          "channel": "FR3",
-          "title": "LES TRIPLES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:05",
-          "channel": "FR3",
-          "title": "TOP 50",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:30",
-          "channel": "FR3",
-          "title": "DIRECT",
-          "description": "Présenté par Philippe Gildas",
-          "description_lines": [
-            "Présenté par Philippe Gildas"
-          ],
-          "segments": []
-        },
-        {
-          "time": "13:30",
-          "channel": "FR3",
-          "title": "VIRGINIA",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "14:00",
-          "channel": "FR3",
-          "title": "ASSAUT",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "14:55",
           "channel": "FR3",
           "title": "ASSEMBLEE NATIONALE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "15:40",
-          "channel": "FR3",
-          "title": "DEAD ZONE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -133402,79 +133684,11 @@
           "segments": []
         },
         {
-          "time": "17:20",
-          "channel": "FR3",
-          "title": "CABOU CADIN",
-          "description": "Le roi, c'est moi Anna, Ciro et compagnie",
-          "description_lines": [
-            "Le roi, c'est moi",
-            "Anna, Ciro et compagnie"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Le roi, c'est moi",
-              "raw": "Le roi, c'est moi"
-            },
-            {
-              "index": 1,
-              "title": "Anna, Ciro et compagnie",
-              "raw": "Anna, Ciro et compagnie"
-            }
-          ]
-        },
-        {
-          "time": "17:55",
-          "channel": "FR3",
-          "title": "FLASH INFOS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:00",
-          "channel": "FR3",
-          "title": "DANCIN' DAYS",
-          "description": "Série brésilienne",
-          "description_lines": [
-            "Série brésilienne"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "FR3",
-          "title": "TOP 50",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "FR3",
-          "title": "MAXI-TÊTE",
-          "description": "Présenté par Sophie Favier",
-          "description_lines": [
-            "Présenté par Sophie Favier"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "FR3",
           "title": "LE 19-20 DE L'INFORMATION",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:05",
-          "channel": "FR3",
-          "title": "ZÉNITH",
-          "description": "Présenté par Michel Denisot",
-          "description_lines": [
-            "Présenté par Michel Denisot"
-          ],
           "segments": []
         },
         {
@@ -133491,7 +133705,6 @@
           "title": "LES NOUVEAUX JEUX DE 20 HEURES",
           "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
           "description_lines": [
-            "Jeu animé par Philippe Risoli",
             "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
           ],
           "segments": []
@@ -133499,7 +133712,7 @@
         {
           "time": "20:35",
           "channel": "FR3",
-          "title": "LE GENDARME ET LES EXTRA-TERRESTRES",
+          "title": "LA FÊTE EN FRANCE",
           "description": "Présenté par Laurent Broomhead",
           "description_lines": [
             "Présenté par Laurent Broomhead"
@@ -133514,14 +133727,6 @@
           "description_lines": [
             "Présenté par Georges Pernoud"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:10",
-          "channel": "FR3",
-          "title": "JOSEY WALES HORS LA LOI",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -134330,137 +134535,9 @@
             "segments": []
           },
           {
-            "time": "07:00",
-            "channel": "FR3",
-            "title": "MÉTÉO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "07:05",
-            "channel": "FR3",
-            "title": "CINÉMA DANS LES SALLES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "07:35",
-            "channel": "FR3",
-            "title": "CABOU CADIN",
-            "description": "Archibald, voyageur de l'espace",
-            "description_lines": [
-              "Archibald, voyageur de l'espace"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Archibald, voyageur de l'espace",
-                "raw": "Archibald, voyageur de l'espace"
-              }
-            ]
-          },
-          {
-            "time": "08:00",
-            "channel": "FR3",
-            "title": "VIRGINIA",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "08:30",
-            "channel": "FR3",
-            "title": "LA FOLLE HISTOIRE DU MONDE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:10",
-            "channel": "FR3",
-            "title": "ESPION A LA MODE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:00",
-            "channel": "FR3",
-            "title": "CABOU CADIN",
-            "description": "Ferdy Les blufons",
-            "description_lines": [
-              "Ferdy",
-              "Les blufons"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Ferdy",
-                "raw": "Ferdy"
-              },
-              {
-                "index": 1,
-                "title": "Les blufons",
-                "raw": "Les blufons"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
-            "channel": "FR3",
-            "title": "LES TRIPLES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:05",
-            "channel": "FR3",
-            "title": "TOP 50",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:30",
-            "channel": "FR3",
-            "title": "DIRECT",
-            "description": "Présenté par Philippe Gildas",
-            "description_lines": [
-              "Présenté par Philippe Gildas"
-            ],
-            "segments": []
-          },
-          {
-            "time": "13:30",
-            "channel": "FR3",
-            "title": "VIRGINIA",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "14:00",
-            "channel": "FR3",
-            "title": "ASSAUT",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "14:55",
             "channel": "FR3",
             "title": "ASSEMBLEE NATIONALE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "15:40",
-            "channel": "FR3",
-            "title": "DEAD ZONE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -134479,79 +134556,11 @@
             "segments": []
           },
           {
-            "time": "17:20",
-            "channel": "FR3",
-            "title": "CABOU CADIN",
-            "description": "Le roi, c'est moi Anna, Ciro et compagnie",
-            "description_lines": [
-              "Le roi, c'est moi",
-              "Anna, Ciro et compagnie"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Le roi, c'est moi",
-                "raw": "Le roi, c'est moi"
-              },
-              {
-                "index": 1,
-                "title": "Anna, Ciro et compagnie",
-                "raw": "Anna, Ciro et compagnie"
-              }
-            ]
-          },
-          {
-            "time": "17:55",
-            "channel": "FR3",
-            "title": "FLASH INFOS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:00",
-            "channel": "FR3",
-            "title": "DANCIN' DAYS",
-            "description": "Série brésilienne",
-            "description_lines": [
-              "Série brésilienne"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "FR3",
-            "title": "TOP 50",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "FR3",
-            "title": "MAXI-TÊTE",
-            "description": "Présenté par Sophie Favier",
-            "description_lines": [
-              "Présenté par Sophie Favier"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "FR3",
             "title": "LE 19-20 DE L'INFORMATION",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:05",
-            "channel": "FR3",
-            "title": "ZÉNITH",
-            "description": "Présenté par Michel Denisot",
-            "description_lines": [
-              "Présenté par Michel Denisot"
-            ],
             "segments": []
           },
           {
@@ -134568,7 +134577,6 @@
             "title": "LES NOUVEAUX JEUX DE 20 HEURES",
             "description": "Présenté par Jean-Pierre Descombes et Maitre Cappelo",
             "description_lines": [
-              "Jeu animé par Philippe Risoli",
               "Présenté par Jean-Pierre Descombes et Maitre Cappelo"
             ],
             "segments": []
@@ -134576,7 +134584,7 @@
           {
             "time": "20:35",
             "channel": "FR3",
-            "title": "LE GENDARME ET LES EXTRA-TERRESTRES",
+            "title": "LA FÊTE EN FRANCE",
             "description": "Présenté par Laurent Broomhead",
             "description_lines": [
               "Présenté par Laurent Broomhead"
@@ -134591,14 +134599,6 @@
             "description_lines": [
               "Présenté par Georges Pernoud"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:10",
-            "channel": "FR3",
-            "title": "JOSEY WALES HORS LA LOI",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -138825,7 +138825,7 @@
     "25-02-1986": {
       "date": "25-02-1986",
       "source": "depot101",
-      "programs_count": 102,
+      "programs_count": 111,
       "night_extension": false,
       "origin_dates": [
         "25-02-1986"
@@ -138842,6 +138842,16 @@
           "segments": []
         },
         {
+          "time": "10:25",
+          "channel": "TF1",
+          "title": "LE CHEMIN DES ECOLIERS",
+          "description": "Présenté par Monique Perriault",
+          "description_lines": [
+            "Présenté par Monique Perriault"
+          ],
+          "segments": []
+        },
+        {
           "time": "10:45",
           "channel": "TF1",
           "title": "CROQUE VACANCES",
@@ -138850,7 +138860,11 @@
             "Emission présentée par Claude Pierrard",
             "Charlotte aux fraises",
             "Les plus belles fables du monde",
-            "Scoubidou"
+            "Scoubidou",
+            "Présenté par Claude pierrard",
+            "Variétés",
+            "Infos-Magazine",
+            "Vidéo-surprise"
           ],
           "segments": [
             {
@@ -138867,6 +138881,21 @@
               "index": 3,
               "title": "Scoubidou",
               "raw": "Scoubidou"
+            },
+            {
+              "index": 5,
+              "title": "Variétés",
+              "raw": "Variétés"
+            },
+            {
+              "index": 6,
+              "title": "Infos-Magazine",
+              "raw": "Infos-Magazine"
+            },
+            {
+              "index": 7,
+              "title": "Vidéo-surprise",
+              "raw": "Vidéo-surprise"
             }
           ]
         },
@@ -138881,10 +138910,11 @@
         {
           "time": "12:00",
           "channel": "TF1",
-          "title": "TOURNEZ MANÈGE",
-          "description": "Invités : Denis Manuel et Brigitte Rousseau",
+          "title": "TOURNEZ... MANEGE",
+          "description": "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier",
           "description_lines": [
-            "Invités : Denis Manuel et Brigitte Rousseau"
+            "Invités : Denis Manuel et Brigitte Rousseau",
+            "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier"
           ],
           "segments": []
         },
@@ -138901,7 +138931,7 @@
         {
           "time": "12:35",
           "channel": "TF1",
-          "title": "TOURNEZ MANÈGE - SUITE",
+          "title": "TOURNEZ... MANEGE (SUITE)",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -138909,7 +138939,7 @@
         {
           "time": "13:00",
           "channel": "TF1",
-          "title": "JOURNAL",
+          "title": "LE JOURNAL DE LA UNE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -138937,10 +138967,11 @@
         {
           "time": "16:05",
           "channel": "TF1",
-          "title": "LE RENDEZ-VOUS DES CHAMPIONS",
+          "title": "LES RENDEZ-VOUS DES CHAMPIONS",
           "description": "Emission de Jean-Michel Larqué et Gérard Banide",
           "description_lines": [
-            "Emission de Jean-Michel Larqué et Gérard Banide"
+            "Emission de Jean-Michel Larqué et Gérard Banide",
+            "Téléfoot jeunesse"
           ],
           "segments": []
         },
@@ -138952,7 +138983,13 @@
           "description_lines": [
             "Emission présentée par Claude Pierrard",
             "Dare Dare Motus - L'invasion du Colonel K.",
-            "Ricky ou la belle vie - Douze petits amis"
+            "Ricky ou la belle vie - Douze petits amis",
+            "Présenté par Claude pierrard",
+            "Dare-dare motus",
+            "Bricolage (avec Josy Far)",
+            "Bricolage (suite)",
+            "Variété",
+            "La belle vie"
           ],
           "segments": [
             {
@@ -138964,6 +139001,31 @@
               "index": 2,
               "title": "Ricky ou la belle vie - Douze petits amis",
               "raw": "Ricky ou la belle vie - Douze petits amis"
+            },
+            {
+              "index": 4,
+              "title": "Dare-dare motus",
+              "raw": "Dare-dare motus"
+            },
+            {
+              "index": 5,
+              "title": "Bricolage (avec Josy Far)",
+              "raw": "Bricolage (avec Josy Far)"
+            },
+            {
+              "index": 6,
+              "title": "Bricolage (suite)",
+              "raw": "Bricolage (suite)"
+            },
+            {
+              "index": 7,
+              "title": "Variété",
+              "raw": "Variété"
+            },
+            {
+              "index": 8,
+              "title": "La belle vie",
+              "raw": "La belle vie"
             }
           ]
         },
@@ -138983,7 +139045,8 @@
           "title": "MINI JOURNAL",
           "description": "Magazine présenté par Patrice Drevet",
           "description_lines": [
-            "Magazine présenté par Patrice Drevet"
+            "Magazine présenté par Patrice Drevet",
+            "Présenté par Patrice Drevet"
           ],
           "segments": []
         },
@@ -138994,7 +139057,8 @@
           "description": "Emission franco-canadienne de Jean Chalopin Les Bisounours - Les pieds sur terre",
           "description_lines": [
             "Emission franco-canadienne de Jean Chalopin",
-            "Les Bisounours - Les pieds sur terre"
+            "Les Bisounours - Les pieds sur terre",
+            "Les Bisounours"
           ],
           "segments": [
             {
@@ -139021,7 +139085,8 @@
           "description": "Suite Jayce et les conquérants de la lumière - Le joueur de la galaxie",
           "description_lines": [
             "Suite",
-            "Jayce et les conquérants de la lumière - Le joueur de la galaxie"
+            "Jayce et les conquérants de la lumière - Le joueur de la galaxie",
+            "Jayce et les conquérants de la lumière"
           ],
           "segments": [
             {
@@ -139044,7 +139109,7 @@
         {
           "time": "20:00",
           "channel": "TF1",
-          "title": "JOURNAL",
+          "title": "LE JOURNAL DE LA UNE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -139073,8 +139138,20 @@
           "time": "21:35",
           "channel": "TF1",
           "title": "LA GRANDE AVENTURE DE L'INDUSTRIE - OUTILS MODERNES ET IDÉES NEUVES",
-          "description": "",
-          "description_lines": [],
+          "description": "Présenté par Roger Gicquel",
+          "description_lines": [
+            "Présenté par Roger Gicquel"
+          ],
+          "segments": []
+        },
+        {
+          "time": "22:25",
+          "channel": "TF1",
+          "title": "ETOILES ET TOILES",
+          "description": "Avec Frédéric Mitterand et Martine Jouando",
+          "description_lines": [
+            "Avec Frédéric Mitterand et Martine Jouando"
+          ],
           "segments": []
         },
         {
@@ -139096,9 +139173,37 @@
           "segments": []
         },
         {
+          "time": "23:25",
+          "channel": "TF1",
+          "title": "UNE DERNIERE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "23:40",
+          "channel": "TF1",
+          "title": "C'EST A LIRE",
+          "description": "Par Luce Perrot",
+          "description_lines": [
+            "Par Luce Perrot"
+          ],
+          "segments": []
+        },
+        {
           "time": "06:45",
           "channel": "Antenne 2",
           "title": "TELEMATIN",
+          "description": "Présenté par William Leymergie",
+          "description_lines": [
+            "Présenté par William Leymergie"
+          ],
+          "segments": []
+        },
+        {
+          "time": "08:30",
+          "channel": "Antenne 2",
+          "title": "PEYTON PLACE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -139112,9 +139217,27 @@
           "segments": []
         },
         {
+          "time": "10:00",
+          "channel": "Antenne 2",
+          "title": "LES RENDEZ-VOUS D'ANTENNE 2",
+          "description": "Avec Pierre-François Degeorges",
+          "description_lines": [
+            "Avec Pierre-François Degeorges"
+          ],
+          "segments": []
+        },
+        {
           "time": "10:30",
           "channel": "Antenne 2",
           "title": "ANTIOPE VIDÉO",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "10:55",
+          "channel": "Antenne 2",
+          "title": "HISTOIRES COURTES",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -139142,7 +139265,7 @@
         {
           "time": "12:00",
           "channel": "Antenne 2",
-          "title": "FLASH INFOS",
+          "title": "MIDI INFORMATIONS / METEO",
           "description": "Suivi de la météo",
           "description_lines": [
             "Suivi de la météo"
@@ -139160,6 +139283,16 @@
           "segments": []
         },
         {
+          "time": "12:08",
+          "channel": "Antenne 2",
+          "title": "L'ACADÉMIE DES NEUF",
+          "description": "Présenté par Jean-Pierre Foucault",
+          "description_lines": [
+            "Présenté par Jean-Pierre Foucault"
+          ],
+          "segments": []
+        },
+        {
           "time": "12:45",
           "channel": "Antenne 2",
           "title": "A2 MIDI",
@@ -139173,9 +139306,10 @@
           "time": "13:30",
           "channel": "Antenne 2",
           "title": "LA VALLÉE DES PEUPLIERS - 37ÈME ÉPISODE",
-          "description": "Feuilleton franco-italien",
+          "description": "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel",
           "description_lines": [
-            "Feuilleton franco-italien"
+            "Feuilleton franco-italien",
+            "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel"
           ],
           "segments": []
         },
@@ -139183,8 +139317,10 @@
           "time": "14:00",
           "channel": "Antenne 2",
           "title": "AUJOURD'HUI LA VIE - LES PHOBIES, COMMENT S'EN GUÉRIR ?",
-          "description": "",
-          "description_lines": [],
+          "description": "Présenté par Valérie Manuel",
+          "description_lines": [
+            "Présenté par Valérie Manuel"
+          ],
           "segments": []
         },
         {
@@ -139217,7 +139353,9 @@
             "C'est chouette",
             "Super Doc",
             "Téléchat",
-            "Les mondes engloutis"
+            "Les mondes engloutis",
+            "Présenté par Marie Dauphin et Alain Chauffour",
+            "Imagine, imagine"
           ],
           "segments": [
             {
@@ -139244,6 +139382,11 @@
               "index": 4,
               "title": "Les mondes engloutis",
               "raw": "Les mondes engloutis"
+            },
+            {
+              "index": 6,
+              "title": "Imagine, imagine",
+              "raw": "Imagine, imagine"
             }
           ]
         },
@@ -139280,7 +139423,7 @@
         {
           "time": "19:15",
           "channel": "Antenne 2",
-          "title": "JOURNAL RÉGIONAL",
+          "title": "ACTUALITES REGIONALES",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -139298,7 +139441,7 @@
         {
           "time": "20:00",
           "channel": "Antenne 2",
-          "title": "JOURNAL",
+          "title": "LE JOURNAL",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -139321,7 +139464,9 @@
           "description_lines": [
             "Présenté par Pierre Tchernia et Jacques Rouland. Invités : Tcheky Karyo et Juliette Binoche",
             "Harold et Maude",
-            "Mardi cinéma : les jeux"
+            "Mardi cinéma : les jeux",
+            "Présenté par Pierre Tchernia et Jacques Rouland",
+            "Harold et Maud"
           ],
           "segments": []
         },
@@ -139333,6 +139478,14 @@
           "description_lines": [
             "Réf. : 19890225 Anna Wax"
           ],
+          "segments": []
+        },
+        {
+          "time": "23:20",
+          "channel": "Antenne 2",
+          "title": "EDITION DE LA NUIT",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -139901,6 +140054,16 @@
             "segments": []
           },
           {
+            "time": "10:25",
+            "channel": "TF1",
+            "title": "LE CHEMIN DES ECOLIERS",
+            "description": "Présenté par Monique Perriault",
+            "description_lines": [
+              "Présenté par Monique Perriault"
+            ],
+            "segments": []
+          },
+          {
             "time": "10:45",
             "channel": "TF1",
             "title": "CROQUE VACANCES",
@@ -139909,7 +140072,11 @@
               "Emission présentée par Claude Pierrard",
               "Charlotte aux fraises",
               "Les plus belles fables du monde",
-              "Scoubidou"
+              "Scoubidou",
+              "Présenté par Claude pierrard",
+              "Variétés",
+              "Infos-Magazine",
+              "Vidéo-surprise"
             ],
             "segments": [
               {
@@ -139926,6 +140093,21 @@
                 "index": 3,
                 "title": "Scoubidou",
                 "raw": "Scoubidou"
+              },
+              {
+                "index": 5,
+                "title": "Variétés",
+                "raw": "Variétés"
+              },
+              {
+                "index": 6,
+                "title": "Infos-Magazine",
+                "raw": "Infos-Magazine"
+              },
+              {
+                "index": 7,
+                "title": "Vidéo-surprise",
+                "raw": "Vidéo-surprise"
               }
             ]
           },
@@ -139940,10 +140122,11 @@
           {
             "time": "12:00",
             "channel": "TF1",
-            "title": "TOURNEZ MANÈGE",
-            "description": "Invités : Denis Manuel et Brigitte Rousseau",
+            "title": "TOURNEZ... MANEGE",
+            "description": "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier",
             "description_lines": [
-              "Invités : Denis Manuel et Brigitte Rousseau"
+              "Invités : Denis Manuel et Brigitte Rousseau",
+              "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier"
             ],
             "segments": []
           },
@@ -139960,7 +140143,7 @@
           {
             "time": "12:35",
             "channel": "TF1",
-            "title": "TOURNEZ MANÈGE - SUITE",
+            "title": "TOURNEZ... MANEGE (SUITE)",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -139968,7 +140151,7 @@
           {
             "time": "13:00",
             "channel": "TF1",
-            "title": "JOURNAL",
+            "title": "LE JOURNAL DE LA UNE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -139996,10 +140179,11 @@
           {
             "time": "16:05",
             "channel": "TF1",
-            "title": "LE RENDEZ-VOUS DES CHAMPIONS",
+            "title": "LES RENDEZ-VOUS DES CHAMPIONS",
             "description": "Emission de Jean-Michel Larqué et Gérard Banide",
             "description_lines": [
-              "Emission de Jean-Michel Larqué et Gérard Banide"
+              "Emission de Jean-Michel Larqué et Gérard Banide",
+              "Téléfoot jeunesse"
             ],
             "segments": []
           },
@@ -140011,7 +140195,13 @@
             "description_lines": [
               "Emission présentée par Claude Pierrard",
               "Dare Dare Motus - L'invasion du Colonel K.",
-              "Ricky ou la belle vie - Douze petits amis"
+              "Ricky ou la belle vie - Douze petits amis",
+              "Présenté par Claude pierrard",
+              "Dare-dare motus",
+              "Bricolage (avec Josy Far)",
+              "Bricolage (suite)",
+              "Variété",
+              "La belle vie"
             ],
             "segments": [
               {
@@ -140023,6 +140213,31 @@
                 "index": 2,
                 "title": "Ricky ou la belle vie - Douze petits amis",
                 "raw": "Ricky ou la belle vie - Douze petits amis"
+              },
+              {
+                "index": 4,
+                "title": "Dare-dare motus",
+                "raw": "Dare-dare motus"
+              },
+              {
+                "index": 5,
+                "title": "Bricolage (avec Josy Far)",
+                "raw": "Bricolage (avec Josy Far)"
+              },
+              {
+                "index": 6,
+                "title": "Bricolage (suite)",
+                "raw": "Bricolage (suite)"
+              },
+              {
+                "index": 7,
+                "title": "Variété",
+                "raw": "Variété"
+              },
+              {
+                "index": 8,
+                "title": "La belle vie",
+                "raw": "La belle vie"
               }
             ]
           },
@@ -140042,7 +140257,8 @@
             "title": "MINI JOURNAL",
             "description": "Magazine présenté par Patrice Drevet",
             "description_lines": [
-              "Magazine présenté par Patrice Drevet"
+              "Magazine présenté par Patrice Drevet",
+              "Présenté par Patrice Drevet"
             ],
             "segments": []
           },
@@ -140053,7 +140269,8 @@
             "description": "Emission franco-canadienne de Jean Chalopin Les Bisounours - Les pieds sur terre",
             "description_lines": [
               "Emission franco-canadienne de Jean Chalopin",
-              "Les Bisounours - Les pieds sur terre"
+              "Les Bisounours - Les pieds sur terre",
+              "Les Bisounours"
             ],
             "segments": [
               {
@@ -140080,7 +140297,8 @@
             "description": "Suite Jayce et les conquérants de la lumière - Le joueur de la galaxie",
             "description_lines": [
               "Suite",
-              "Jayce et les conquérants de la lumière - Le joueur de la galaxie"
+              "Jayce et les conquérants de la lumière - Le joueur de la galaxie",
+              "Jayce et les conquérants de la lumière"
             ],
             "segments": [
               {
@@ -140103,7 +140321,7 @@
           {
             "time": "20:00",
             "channel": "TF1",
-            "title": "JOURNAL",
+            "title": "LE JOURNAL DE LA UNE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -140132,8 +140350,20 @@
             "time": "21:35",
             "channel": "TF1",
             "title": "LA GRANDE AVENTURE DE L'INDUSTRIE - OUTILS MODERNES ET IDÉES NEUVES",
-            "description": "",
-            "description_lines": [],
+            "description": "Présenté par Roger Gicquel",
+            "description_lines": [
+              "Présenté par Roger Gicquel"
+            ],
+            "segments": []
+          },
+          {
+            "time": "22:25",
+            "channel": "TF1",
+            "title": "ETOILES ET TOILES",
+            "description": "Avec Frédéric Mitterand et Martine Jouando",
+            "description_lines": [
+              "Avec Frédéric Mitterand et Martine Jouando"
+            ],
             "segments": []
           },
           {
@@ -140153,6 +140383,24 @@
               "Emission de Luce Perrot"
             ],
             "segments": []
+          },
+          {
+            "time": "23:25",
+            "channel": "TF1",
+            "title": "UNE DERNIERE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "23:40",
+            "channel": "TF1",
+            "title": "C'EST A LIRE",
+            "description": "Par Luce Perrot",
+            "description_lines": [
+              "Par Luce Perrot"
+            ],
+            "segments": []
           }
         ],
         "Antenne 2": [
@@ -140160,6 +140408,16 @@
             "time": "06:45",
             "channel": "Antenne 2",
             "title": "TELEMATIN",
+            "description": "Présenté par William Leymergie",
+            "description_lines": [
+              "Présenté par William Leymergie"
+            ],
+            "segments": []
+          },
+          {
+            "time": "08:30",
+            "channel": "Antenne 2",
+            "title": "PEYTON PLACE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -140173,9 +140431,27 @@
             "segments": []
           },
           {
+            "time": "10:00",
+            "channel": "Antenne 2",
+            "title": "LES RENDEZ-VOUS D'ANTENNE 2",
+            "description": "Avec Pierre-François Degeorges",
+            "description_lines": [
+              "Avec Pierre-François Degeorges"
+            ],
+            "segments": []
+          },
+          {
             "time": "10:30",
             "channel": "Antenne 2",
             "title": "ANTIOPE VIDÉO",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "10:55",
+            "channel": "Antenne 2",
+            "title": "HISTOIRES COURTES",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -140203,7 +140479,7 @@
           {
             "time": "12:00",
             "channel": "Antenne 2",
-            "title": "FLASH INFOS",
+            "title": "MIDI INFORMATIONS / METEO",
             "description": "Suivi de la météo",
             "description_lines": [
               "Suivi de la météo"
@@ -140221,6 +140497,16 @@
             "segments": []
           },
           {
+            "time": "12:08",
+            "channel": "Antenne 2",
+            "title": "L'ACADÉMIE DES NEUF",
+            "description": "Présenté par Jean-Pierre Foucault",
+            "description_lines": [
+              "Présenté par Jean-Pierre Foucault"
+            ],
+            "segments": []
+          },
+          {
             "time": "12:45",
             "channel": "Antenne 2",
             "title": "A2 MIDI",
@@ -140234,9 +140520,10 @@
             "time": "13:30",
             "channel": "Antenne 2",
             "title": "LA VALLÉE DES PEUPLIERS - 37ÈME ÉPISODE",
-            "description": "Feuilleton franco-italien",
+            "description": "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel",
             "description_lines": [
-              "Feuilleton franco-italien"
+              "Feuilleton franco-italien",
+              "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel"
             ],
             "segments": []
           },
@@ -140244,8 +140531,10 @@
             "time": "14:00",
             "channel": "Antenne 2",
             "title": "AUJOURD'HUI LA VIE - LES PHOBIES, COMMENT S'EN GUÉRIR ?",
-            "description": "",
-            "description_lines": [],
+            "description": "Présenté par Valérie Manuel",
+            "description_lines": [
+              "Présenté par Valérie Manuel"
+            ],
             "segments": []
           },
           {
@@ -140278,7 +140567,9 @@
               "C'est chouette",
               "Super Doc",
               "Téléchat",
-              "Les mondes engloutis"
+              "Les mondes engloutis",
+              "Présenté par Marie Dauphin et Alain Chauffour",
+              "Imagine, imagine"
             ],
             "segments": [
               {
@@ -140305,6 +140596,11 @@
                 "index": 4,
                 "title": "Les mondes engloutis",
                 "raw": "Les mondes engloutis"
+              },
+              {
+                "index": 6,
+                "title": "Imagine, imagine",
+                "raw": "Imagine, imagine"
               }
             ]
           },
@@ -140341,7 +140637,7 @@
           {
             "time": "19:15",
             "channel": "Antenne 2",
-            "title": "JOURNAL RÉGIONAL",
+            "title": "ACTUALITES REGIONALES",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -140359,7 +140655,7 @@
           {
             "time": "20:00",
             "channel": "Antenne 2",
-            "title": "JOURNAL",
+            "title": "LE JOURNAL",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -140382,7 +140678,9 @@
             "description_lines": [
               "Présenté par Pierre Tchernia et Jacques Rouland. Invités : Tcheky Karyo et Juliette Binoche",
               "Harold et Maude",
-              "Mardi cinéma : les jeux"
+              "Mardi cinéma : les jeux",
+              "Présenté par Pierre Tchernia et Jacques Rouland",
+              "Harold et Maud"
             ],
             "segments": []
           },
@@ -140394,6 +140692,14 @@
             "description_lines": [
               "Réf. : 19890225 Anna Wax"
             ],
+            "segments": []
+          },
+          {
+            "time": "23:20",
+            "channel": "Antenne 2",
+            "title": "EDITION DE LA NUIT",
+            "description": "",
+            "description_lines": [],
             "segments": []
           }
         ],
@@ -140960,7 +141266,7 @@
     "26-02-1986": {
       "date": "26-02-1986",
       "source": "depot101",
-      "programs_count": 62,
+      "programs_count": 22,
       "night_extension": true,
       "origin_dates": [
         "25-02-1986"
@@ -140970,427 +141276,6 @@
           "time": "00:00",
           "channel": "TF1",
           "title": "FIN DES ÉMISSIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:25",
-          "channel": "TF1",
-          "title": "LE CHEMIN DES ECOLIERS",
-          "description": "Présenté par Monique Perriault",
-          "description_lines": [
-            "Présenté par Monique Perriault"
-          ],
-          "segments": []
-        },
-        {
-          "time": "10:45",
-          "channel": "TF1",
-          "title": "CROQUE-VACANCES",
-          "description": "Présenté par Claude pierrard Variétés Infos-Magazine Vidéo-surprise",
-          "description_lines": [
-            "Présenté par Claude pierrard",
-            "Variétés",
-            "Infos-Magazine",
-            "Vidéo-surprise"
-          ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Variétés",
-              "raw": "Variétés"
-            },
-            {
-              "index": 2,
-              "title": "Infos-Magazine",
-              "raw": "Infos-Magazine"
-            },
-            {
-              "index": 3,
-              "title": "Vidéo-surprise",
-              "raw": "Vidéo-surprise"
-            }
-          ]
-        },
-        {
-          "time": "12:00",
-          "channel": "TF1",
-          "title": "TOURNEZ... MANEGE",
-          "description": "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier",
-          "description_lines": [
-            "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier"
-          ],
-          "segments": []
-        },
-        {
-          "time": "12:35",
-          "channel": "TF1",
-          "title": "TOURNEZ... MANEGE (SUITE)",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:00",
-          "channel": "TF1",
-          "title": "LE JOURNAL DE LA UNE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:50",
-          "channel": "TF1",
-          "title": "DALLAS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "14:35",
-          "channel": "TF1",
-          "title": "TRANSCONTINENTAL",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "16:05",
-          "channel": "TF1",
-          "title": "LES RENDEZ-VOUS DES CHAMPIONS",
-          "description": "Téléfoot jeunesse",
-          "description_lines": [
-            "Téléfoot jeunesse"
-          ],
-          "segments": []
-        },
-        {
-          "time": "16:25",
-          "channel": "TF1",
-          "title": "CROQUE-VACANCES",
-          "description": "Présenté par Claude pierrard Dare-dare motus Bricolage (avec Josy Far) Bricolage (suite) Variété La belle vie",
-          "description_lines": [
-            "Présenté par Claude pierrard",
-            "Dare-dare motus",
-            "Bricolage (avec Josy Far)",
-            "Bricolage (suite)",
-            "Variété",
-            "La belle vie"
-          ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Dare-dare motus",
-              "raw": "Dare-dare motus"
-            },
-            {
-              "index": 2,
-              "title": "Bricolage (avec Josy Far)",
-              "raw": "Bricolage (avec Josy Far)"
-            },
-            {
-              "index": 3,
-              "title": "Bricolage (suite)",
-              "raw": "Bricolage (suite)"
-            },
-            {
-              "index": 4,
-              "title": "Variété",
-              "raw": "Variété"
-            },
-            {
-              "index": 5,
-              "title": "La belle vie",
-              "raw": "La belle vie"
-            }
-          ]
-        },
-        {
-          "time": "17:25",
-          "channel": "TF1",
-          "title": "SALVATOR ET LES MOHICANS DE PARIS",
-          "description": "Feuilleton français",
-          "description_lines": [
-            "Feuilleton français"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:25",
-          "channel": "TF1",
-          "title": "MINI-JOURNAL",
-          "description": "Présenté par Patrice Drevet",
-          "description_lines": [
-            "Présenté par Patrice Drevet"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:40",
-          "channel": "TF1",
-          "title": "LA VIE DES BOTES",
-          "description": "Les Bisounours",
-          "description_lines": [
-            "Les Bisounours"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:45",
-          "channel": "TF1",
-          "title": "HUIT, ÇA SUFFIT !",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:10",
-          "channel": "TF1",
-          "title": "LA VIE DES BOTES",
-          "description": "Jayce et les conquérants de la lumière",
-          "description_lines": [
-            "Jayce et les conquérants de la lumière"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "TF1",
-          "title": "LE JOURNAL DE LA UNE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "TF1",
-          "title": "GRAND HOTEL",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "21:35",
-          "channel": "TF1",
-          "title": "LA GRANDE AVENTURE DE L'INDUSTRIE",
-          "description": "Présenté par Roger Gicquel",
-          "description_lines": [
-            "Présenté par Roger Gicquel"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:25",
-          "channel": "TF1",
-          "title": "ETOILES ET TOILES",
-          "description": "Avec Frédéric Mitterand et Martine Jouando",
-          "description_lines": [
-            "Avec Frédéric Mitterand et Martine Jouando"
-          ],
-          "segments": []
-        },
-        {
-          "time": "23:25",
-          "channel": "TF1",
-          "title": "UNE DERNIERE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:40",
-          "channel": "TF1",
-          "title": "C'EST A LIRE",
-          "description": "Par Luce Perrot",
-          "description_lines": [
-            "Par Luce Perrot"
-          ],
-          "segments": []
-        },
-        {
-          "time": "06:45",
-          "channel": "Antenne 2",
-          "title": "TÉLÉMATIN",
-          "description": "Présenté par William Leymergie",
-          "description_lines": [
-            "Présenté par William Leymergie"
-          ],
-          "segments": []
-        },
-        {
-          "time": "08:30",
-          "channel": "Antenne 2",
-          "title": "PEYTON PLACE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "09:00",
-          "channel": "Antenne 2",
-          "title": "ANTIOPE VIDEO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:00",
-          "channel": "Antenne 2",
-          "title": "LES RENDEZ-VOUS D'ANTENNE 2",
-          "description": "Avec Pierre-François Degeorges",
-          "description_lines": [
-            "Avec Pierre-François Degeorges"
-          ],
-          "segments": []
-        },
-        {
-          "time": "10:55",
-          "channel": "Antenne 2",
-          "title": "HISTOIRES COURTES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:35",
-          "channel": "Antenne 2",
-          "title": "LES CARNETS DE L'AVENTURE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "Antenne 2",
-          "title": "MIDI INFORMATIONS / METEO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:08",
-          "channel": "Antenne 2",
-          "title": "L'ACADÉMIE DES NEUF",
-          "description": "Présenté par Jean-Pierre Foucault",
-          "description_lines": [
-            "Présenté par Jean-Pierre Foucault"
-          ],
-          "segments": []
-        },
-        {
-          "time": "13:30",
-          "channel": "Antenne 2",
-          "title": "LA VALLÉE DES PEUPLIERS",
-          "description": "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel",
-          "description_lines": [
-            "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel"
-          ],
-          "segments": []
-        },
-        {
-          "time": "14:00",
-          "channel": "Antenne 2",
-          "title": "AUJOURD'HUI LA VIE",
-          "description": "Présenté par Valérie Manuel",
-          "description_lines": [
-            "Présenté par Valérie Manuel"
-          ],
-          "segments": []
-        },
-        {
-          "time": "15:00",
-          "channel": "Antenne 2",
-          "title": "HOTEL",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "17:30",
-          "channel": "Antenne 2",
-          "title": "RÉCRÉ A2",
-          "description": "Présenté par Marie Dauphin et Alain Chauffour Imagine, imagine",
-          "description_lines": [
-            "Présenté par Marie Dauphin et Alain Chauffour",
-            "Imagine, imagine"
-          ],
-          "segments": [
-            {
-              "index": 1,
-              "title": "Imagine, imagine",
-              "raw": "Imagine, imagine"
-            }
-          ]
-        },
-        {
-          "time": "18:00",
-          "channel": "Antenne 2",
-          "title": "MA SORCIÈRE BIEN-AIMÉE",
-          "description": "Série américaine",
-          "description_lines": [
-            "Série américaine"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "Antenne 2",
-          "title": "C'EST LA VIE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:15",
-          "channel": "Antenne 2",
-          "title": "ACTUALITES REGIONALES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "Antenne 2",
-          "title": "LE JOURNAL",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "Antenne 2",
-          "title": "LOTO SPORTIF",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "Antenne 2",
-          "title": "MARDI CINÉMA",
-          "description": "Présenté par Pierre Tchernia et Jacques Rouland Harold et Maud Mardi Cinéma, les jeux",
-          "description_lines": [
-            "Présenté par Pierre Tchernia et Jacques Rouland",
-            "Harold et Maud",
-            "Mardi Cinéma, les jeux"
-          ],
-          "segments": []
-        },
-        {
-          "time": "23:20",
-          "channel": "Antenne 2",
-          "title": "EDITION DE LA NUIT",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -141590,429 +141475,6 @@
             "time": "00:00",
             "channel": "TF1",
             "title": "FIN DES ÉMISSIONS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:25",
-            "channel": "TF1",
-            "title": "LE CHEMIN DES ECOLIERS",
-            "description": "Présenté par Monique Perriault",
-            "description_lines": [
-              "Présenté par Monique Perriault"
-            ],
-            "segments": []
-          },
-          {
-            "time": "10:45",
-            "channel": "TF1",
-            "title": "CROQUE-VACANCES",
-            "description": "Présenté par Claude pierrard Variétés Infos-Magazine Vidéo-surprise",
-            "description_lines": [
-              "Présenté par Claude pierrard",
-              "Variétés",
-              "Infos-Magazine",
-              "Vidéo-surprise"
-            ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Variétés",
-                "raw": "Variétés"
-              },
-              {
-                "index": 2,
-                "title": "Infos-Magazine",
-                "raw": "Infos-Magazine"
-              },
-              {
-                "index": 3,
-                "title": "Vidéo-surprise",
-                "raw": "Vidéo-surprise"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
-            "channel": "TF1",
-            "title": "TOURNEZ... MANEGE",
-            "description": "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier",
-            "description_lines": [
-              "Avec Evelyne Leclerc, Fabienne Egal et Simone Garnier"
-            ],
-            "segments": []
-          },
-          {
-            "time": "12:35",
-            "channel": "TF1",
-            "title": "TOURNEZ... MANEGE (SUITE)",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:00",
-            "channel": "TF1",
-            "title": "LE JOURNAL DE LA UNE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:50",
-            "channel": "TF1",
-            "title": "DALLAS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "14:35",
-            "channel": "TF1",
-            "title": "TRANSCONTINENTAL",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "16:05",
-            "channel": "TF1",
-            "title": "LES RENDEZ-VOUS DES CHAMPIONS",
-            "description": "Téléfoot jeunesse",
-            "description_lines": [
-              "Téléfoot jeunesse"
-            ],
-            "segments": []
-          },
-          {
-            "time": "16:25",
-            "channel": "TF1",
-            "title": "CROQUE-VACANCES",
-            "description": "Présenté par Claude pierrard Dare-dare motus Bricolage (avec Josy Far) Bricolage (suite) Variété La belle vie",
-            "description_lines": [
-              "Présenté par Claude pierrard",
-              "Dare-dare motus",
-              "Bricolage (avec Josy Far)",
-              "Bricolage (suite)",
-              "Variété",
-              "La belle vie"
-            ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Dare-dare motus",
-                "raw": "Dare-dare motus"
-              },
-              {
-                "index": 2,
-                "title": "Bricolage (avec Josy Far)",
-                "raw": "Bricolage (avec Josy Far)"
-              },
-              {
-                "index": 3,
-                "title": "Bricolage (suite)",
-                "raw": "Bricolage (suite)"
-              },
-              {
-                "index": 4,
-                "title": "Variété",
-                "raw": "Variété"
-              },
-              {
-                "index": 5,
-                "title": "La belle vie",
-                "raw": "La belle vie"
-              }
-            ]
-          },
-          {
-            "time": "17:25",
-            "channel": "TF1",
-            "title": "SALVATOR ET LES MOHICANS DE PARIS",
-            "description": "Feuilleton français",
-            "description_lines": [
-              "Feuilleton français"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:25",
-            "channel": "TF1",
-            "title": "MINI-JOURNAL",
-            "description": "Présenté par Patrice Drevet",
-            "description_lines": [
-              "Présenté par Patrice Drevet"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:40",
-            "channel": "TF1",
-            "title": "LA VIE DES BOTES",
-            "description": "Les Bisounours",
-            "description_lines": [
-              "Les Bisounours"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:45",
-            "channel": "TF1",
-            "title": "HUIT, ÇA SUFFIT !",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:10",
-            "channel": "TF1",
-            "title": "LA VIE DES BOTES",
-            "description": "Jayce et les conquérants de la lumière",
-            "description_lines": [
-              "Jayce et les conquérants de la lumière"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "TF1",
-            "title": "LE JOURNAL DE LA UNE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "TF1",
-            "title": "GRAND HOTEL",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "21:35",
-            "channel": "TF1",
-            "title": "LA GRANDE AVENTURE DE L'INDUSTRIE",
-            "description": "Présenté par Roger Gicquel",
-            "description_lines": [
-              "Présenté par Roger Gicquel"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:25",
-            "channel": "TF1",
-            "title": "ETOILES ET TOILES",
-            "description": "Avec Frédéric Mitterand et Martine Jouando",
-            "description_lines": [
-              "Avec Frédéric Mitterand et Martine Jouando"
-            ],
-            "segments": []
-          },
-          {
-            "time": "23:25",
-            "channel": "TF1",
-            "title": "UNE DERNIERE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:40",
-            "channel": "TF1",
-            "title": "C'EST A LIRE",
-            "description": "Par Luce Perrot",
-            "description_lines": [
-              "Par Luce Perrot"
-            ],
-            "segments": []
-          }
-        ],
-        "Antenne 2": [
-          {
-            "time": "06:45",
-            "channel": "Antenne 2",
-            "title": "TÉLÉMATIN",
-            "description": "Présenté par William Leymergie",
-            "description_lines": [
-              "Présenté par William Leymergie"
-            ],
-            "segments": []
-          },
-          {
-            "time": "08:30",
-            "channel": "Antenne 2",
-            "title": "PEYTON PLACE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "09:00",
-            "channel": "Antenne 2",
-            "title": "ANTIOPE VIDEO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:00",
-            "channel": "Antenne 2",
-            "title": "LES RENDEZ-VOUS D'ANTENNE 2",
-            "description": "Avec Pierre-François Degeorges",
-            "description_lines": [
-              "Avec Pierre-François Degeorges"
-            ],
-            "segments": []
-          },
-          {
-            "time": "10:55",
-            "channel": "Antenne 2",
-            "title": "HISTOIRES COURTES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:35",
-            "channel": "Antenne 2",
-            "title": "LES CARNETS DE L'AVENTURE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "Antenne 2",
-            "title": "MIDI INFORMATIONS / METEO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:08",
-            "channel": "Antenne 2",
-            "title": "L'ACADÉMIE DES NEUF",
-            "description": "Présenté par Jean-Pierre Foucault",
-            "description_lines": [
-              "Présenté par Jean-Pierre Foucault"
-            ],
-            "segments": []
-          },
-          {
-            "time": "13:30",
-            "channel": "Antenne 2",
-            "title": "LA VALLÉE DES PEUPLIERS",
-            "description": "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel",
-            "description_lines": [
-              "Feuilleton en 52 épisodes avec Rossano Brazzi, Nicole Courcel"
-            ],
-            "segments": []
-          },
-          {
-            "time": "14:00",
-            "channel": "Antenne 2",
-            "title": "AUJOURD'HUI LA VIE",
-            "description": "Présenté par Valérie Manuel",
-            "description_lines": [
-              "Présenté par Valérie Manuel"
-            ],
-            "segments": []
-          },
-          {
-            "time": "15:00",
-            "channel": "Antenne 2",
-            "title": "HOTEL",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "17:30",
-            "channel": "Antenne 2",
-            "title": "RÉCRÉ A2",
-            "description": "Présenté par Marie Dauphin et Alain Chauffour Imagine, imagine",
-            "description_lines": [
-              "Présenté par Marie Dauphin et Alain Chauffour",
-              "Imagine, imagine"
-            ],
-            "segments": [
-              {
-                "index": 1,
-                "title": "Imagine, imagine",
-                "raw": "Imagine, imagine"
-              }
-            ]
-          },
-          {
-            "time": "18:00",
-            "channel": "Antenne 2",
-            "title": "MA SORCIÈRE BIEN-AIMÉE",
-            "description": "Série américaine",
-            "description_lines": [
-              "Série américaine"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "Antenne 2",
-            "title": "C'EST LA VIE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:15",
-            "channel": "Antenne 2",
-            "title": "ACTUALITES REGIONALES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "Antenne 2",
-            "title": "LE JOURNAL",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "Antenne 2",
-            "title": "LOTO SPORTIF",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "Antenne 2",
-            "title": "MARDI CINÉMA",
-            "description": "Présenté par Pierre Tchernia et Jacques Rouland Harold et Maud Mardi Cinéma, les jeux",
-            "description_lines": [
-              "Présenté par Pierre Tchernia et Jacques Rouland",
-              "Harold et Maud",
-              "Mardi Cinéma, les jeux"
-            ],
-            "segments": []
-          },
-          {
-            "time": "23:20",
-            "channel": "Antenne 2",
-            "title": "EDITION DE LA NUIT",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -161403,7 +160865,7 @@
     "29-12-1986": {
       "date": "29-12-1986",
       "source": "depot101",
-      "programs_count": 127,
+      "programs_count": 133,
       "night_extension": true,
       "origin_dates": [
         "28-12-1986",
@@ -161429,7 +160891,7 @@
         {
           "time": "11:00",
           "channel": "TF1",
-          "title": "R.F.E.",
+          "title": "REGIE FRANCAISE DES ESPACES/TF1",
           "description": "Emission du CNDP",
           "description_lines": [
             "Emission du CNDP"
@@ -161453,7 +160915,9 @@
             "Emission présentée par Claude Pierrard",
             "Gigi - Le concert",
             "L'ATELIER DU PÈRE NOEL - Chocolat en fête",
-            "TETE A CLIPS - Poil de carotte"
+            "TETE A CLIPS - Poil de carotte",
+            "Gigi",
+            "Tête à clip"
           ],
           "segments": [
             {
@@ -161470,6 +160934,16 @@
               "index": 3,
               "title": "TETE A CLIPS - Poil de carotte",
               "raw": "TETE A CLIPS - Poil de carotte"
+            },
+            {
+              "index": 4,
+              "title": "Gigi",
+              "raw": "Gigi"
+            },
+            {
+              "index": 5,
+              "title": "Tête à clip",
+              "raw": "Tête à clip"
             }
           ]
         },
@@ -161477,6 +160951,14 @@
           "time": "12:00",
           "channel": "TF1",
           "title": "TOURNEZ MANÈGE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:02",
+          "channel": "TF1",
+          "title": "TOURNEZ MANEGE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -161502,7 +160984,7 @@
         {
           "time": "13:00",
           "channel": "TF1",
-          "title": "JOURNAL",
+          "title": "LE JOURNAL DE LA UNE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -161528,7 +161010,12 @@
             "Dare Dare Motus - Un monde de machines",
             "Les Ministars chantent \"fais pas ci, fais pas ça\" - Les Ministars chantent \"fais pas ci, fais pas ça\"",
             "C. Jérôme chante \"Dernier baiser\"",
-            "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe"
+            "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe",
+            "Lillipop dragon",
+            "Dare-dare motus",
+            "Variété",
+            "Le joueur de flute",
+            "Le vent dans les saules"
           ],
           "segments": [
             {
@@ -161555,6 +161042,31 @@
               "index": 5,
               "title": "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe",
               "raw": "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe"
+            },
+            {
+              "index": 6,
+              "title": "Lillipop dragon",
+              "raw": "Lillipop dragon"
+            },
+            {
+              "index": 7,
+              "title": "Dare-dare motus",
+              "raw": "Dare-dare motus"
+            },
+            {
+              "index": 8,
+              "title": "Variété",
+              "raw": "Variété"
+            },
+            {
+              "index": 9,
+              "title": "Le joueur de flute",
+              "raw": "Le joueur de flute"
+            },
+            {
+              "index": 10,
+              "title": "Le vent dans les saules",
+              "raw": "Le vent dans les saules"
             }
           ]
         },
@@ -161636,6 +161148,14 @@
           "segments": []
         },
         {
+          "time": "20:30",
+          "channel": "TF1",
+          "title": "LOTO SPORTIF PREMIERE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "20:35",
           "channel": "TF1",
           "title": "LE SERMENT DE ROBIN DES BOIS",
@@ -161658,7 +161178,7 @@
         {
           "time": "22:55",
           "channel": "TF1",
-          "title": "JOURNAL",
+          "title": "UNE DERNIERE",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -161687,7 +161207,8 @@
           "title": "TÉLÉMATIN",
           "description": "Présenté par William Leymergie",
           "description_lines": [
-            "Présenté par William Leymergie"
+            "Présenté par William Leymergie",
+            "Jeunes docteurs (Pour la vie)"
           ],
           "segments": []
         },
@@ -161705,6 +161226,14 @@
           "time": "09:00",
           "channel": "Antenne 2",
           "title": "ANTIOPE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "09:15",
+          "channel": "Antenne 2",
+          "title": "ANTIOPE VIDEO",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -161750,6 +161279,14 @@
           "segments": []
         },
         {
+          "time": "12:00",
+          "channel": "Antenne 2",
+          "title": "MIDI INFORMATIONS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
           "time": "12:05",
           "channel": "Antenne 2",
           "title": "LA FORCE DU DESTIN - 6ÈME ÉPISODE",
@@ -161757,6 +161294,14 @@
           "description_lines": [
             "Feuilleton français en 10 épisodes"
           ],
+          "segments": []
+        },
+        {
+          "time": "12:25",
+          "channel": "Antenne 2",
+          "title": "FLASH INFOS",
+          "description": "",
+          "description_lines": [],
           "segments": []
         },
         {
@@ -161781,8 +161326,10 @@
           "time": "13:50",
           "channel": "Antenne 2",
           "title": "AUJOURD'HUI LA VIE - A VOIR",
-          "description": "",
-          "description_lines": [],
+          "description": "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux",
+          "description_lines": [
+            "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux"
+          ],
           "segments": []
         },
         {
@@ -161914,7 +161461,15 @@
         {
           "time": "23:15",
           "channel": "Antenne 2",
-          "title": "JOURNAL",
+          "title": "EDITION DE LA NUIT",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "23:40",
+          "channel": "Antenne 2",
+          "title": "FIN DES ÉMISSIONS",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -162723,7 +162278,7 @@
           {
             "time": "11:00",
             "channel": "TF1",
-            "title": "R.F.E.",
+            "title": "REGIE FRANCAISE DES ESPACES/TF1",
             "description": "Emission du CNDP",
             "description_lines": [
               "Emission du CNDP"
@@ -162747,7 +162302,9 @@
               "Emission présentée par Claude Pierrard",
               "Gigi - Le concert",
               "L'ATELIER DU PÈRE NOEL - Chocolat en fête",
-              "TETE A CLIPS - Poil de carotte"
+              "TETE A CLIPS - Poil de carotte",
+              "Gigi",
+              "Tête à clip"
             ],
             "segments": [
               {
@@ -162764,6 +162321,16 @@
                 "index": 3,
                 "title": "TETE A CLIPS - Poil de carotte",
                 "raw": "TETE A CLIPS - Poil de carotte"
+              },
+              {
+                "index": 4,
+                "title": "Gigi",
+                "raw": "Gigi"
+              },
+              {
+                "index": 5,
+                "title": "Tête à clip",
+                "raw": "Tête à clip"
               }
             ]
           },
@@ -162771,6 +162338,14 @@
             "time": "12:00",
             "channel": "TF1",
             "title": "TOURNEZ MANÈGE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:02",
+            "channel": "TF1",
+            "title": "TOURNEZ MANEGE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -162796,7 +162371,7 @@
           {
             "time": "13:00",
             "channel": "TF1",
-            "title": "JOURNAL",
+            "title": "LE JOURNAL DE LA UNE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -162822,7 +162397,12 @@
               "Dare Dare Motus - Un monde de machines",
               "Les Ministars chantent \"fais pas ci, fais pas ça\" - Les Ministars chantent \"fais pas ci, fais pas ça\"",
               "C. Jérôme chante \"Dernier baiser\"",
-              "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe"
+              "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe",
+              "Lillipop dragon",
+              "Dare-dare motus",
+              "Variété",
+              "Le joueur de flute",
+              "Le vent dans les saules"
             ],
             "segments": [
               {
@@ -162849,6 +162429,31 @@
                 "index": 5,
                 "title": "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe",
                 "raw": "LE VENT DANS LES SAULES - Le cousin de monsieur Taupe"
+              },
+              {
+                "index": 6,
+                "title": "Lillipop dragon",
+                "raw": "Lillipop dragon"
+              },
+              {
+                "index": 7,
+                "title": "Dare-dare motus",
+                "raw": "Dare-dare motus"
+              },
+              {
+                "index": 8,
+                "title": "Variété",
+                "raw": "Variété"
+              },
+              {
+                "index": 9,
+                "title": "Le joueur de flute",
+                "raw": "Le joueur de flute"
+              },
+              {
+                "index": 10,
+                "title": "Le vent dans les saules",
+                "raw": "Le vent dans les saules"
               }
             ]
           },
@@ -162930,6 +162535,14 @@
             "segments": []
           },
           {
+            "time": "20:30",
+            "channel": "TF1",
+            "title": "LOTO SPORTIF PREMIERE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "20:35",
             "channel": "TF1",
             "title": "LE SERMENT DE ROBIN DES BOIS",
@@ -162952,7 +162565,7 @@
           {
             "time": "22:55",
             "channel": "TF1",
-            "title": "JOURNAL",
+            "title": "UNE DERNIERE",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -162983,7 +162596,8 @@
             "title": "TÉLÉMATIN",
             "description": "Présenté par William Leymergie",
             "description_lines": [
-              "Présenté par William Leymergie"
+              "Présenté par William Leymergie",
+              "Jeunes docteurs (Pour la vie)"
             ],
             "segments": []
           },
@@ -163001,6 +162615,14 @@
             "time": "09:00",
             "channel": "Antenne 2",
             "title": "ANTIOPE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "09:15",
+            "channel": "Antenne 2",
+            "title": "ANTIOPE VIDEO",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -163046,6 +162668,14 @@
             "segments": []
           },
           {
+            "time": "12:00",
+            "channel": "Antenne 2",
+            "title": "MIDI INFORMATIONS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
             "time": "12:05",
             "channel": "Antenne 2",
             "title": "LA FORCE DU DESTIN - 6ÈME ÉPISODE",
@@ -163053,6 +162683,14 @@
             "description_lines": [
               "Feuilleton français en 10 épisodes"
             ],
+            "segments": []
+          },
+          {
+            "time": "12:25",
+            "channel": "Antenne 2",
+            "title": "FLASH INFOS",
+            "description": "",
+            "description_lines": [],
             "segments": []
           },
           {
@@ -163077,8 +162715,10 @@
             "time": "13:50",
             "channel": "Antenne 2",
             "title": "AUJOURD'HUI LA VIE - A VOIR",
-            "description": "",
-            "description_lines": [],
+            "description": "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux",
+            "description_lines": [
+              "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux"
+            ],
             "segments": []
           },
           {
@@ -163210,7 +162850,15 @@
           {
             "time": "23:15",
             "channel": "Antenne 2",
-            "title": "JOURNAL",
+            "title": "EDITION DE LA NUIT",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "23:40",
+            "channel": "Antenne 2",
+            "title": "FIN DES ÉMISSIONS",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -168605,7 +168253,7 @@
     "30-12-1986": {
       "date": "30-12-1986",
       "source": "depot101",
-      "programs_count": 58,
+      "programs_count": 23,
       "night_extension": true,
       "origin_dates": [
         "29-12-1986"
@@ -168614,352 +168262,6 @@
         {
           "time": "00:10",
           "channel": "TF1",
-          "title": "FIN DES ÉMISSIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:00",
-          "channel": "TF1",
-          "title": "REGIE FRANCAISE DES ESPACES/TF1",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:30",
-          "channel": "TF1",
-          "title": "CROQUE VACANCES",
-          "description": "Gigi Tête à clip",
-          "description_lines": [
-            "Gigi",
-            "Tête à clip"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Gigi",
-              "raw": "Gigi"
-            },
-            {
-              "index": 1,
-              "title": "Tête à clip",
-              "raw": "Tête à clip"
-            }
-          ]
-        },
-        {
-          "time": "12:00",
-          "channel": "TF1",
-          "title": "FLASH INFOS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:02",
-          "channel": "TF1",
-          "title": "TOURNEZ MANEGE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:00",
-          "channel": "TF1",
-          "title": "LE JOURNAL DE LA UNE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:50",
-          "channel": "TF1",
-          "title": "LA PETITE MAISON DANS LA PRAIRIE",
-          "description": "Série américaine",
-          "description_lines": [
-            "Série américaine"
-          ],
-          "segments": []
-        },
-        {
-          "time": "14:40",
-          "channel": "TF1",
-          "title": "CROQUE VACANCES",
-          "description": "Lillipop dragon Dare-dare motus Variété Le joueur de flute Le vent dans les saules",
-          "description_lines": [
-            "Lillipop dragon",
-            "Dare-dare motus",
-            "Variété",
-            "Le joueur de flute",
-            "Le vent dans les saules"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Lillipop dragon",
-              "raw": "Lillipop dragon"
-            },
-            {
-              "index": 1,
-              "title": "Dare-dare motus",
-              "raw": "Dare-dare motus"
-            },
-            {
-              "index": 2,
-              "title": "Variété",
-              "raw": "Variété"
-            },
-            {
-              "index": 3,
-              "title": "Le joueur de flute",
-              "raw": "Le joueur de flute"
-            },
-            {
-              "index": 4,
-              "title": "Le vent dans les saules",
-              "raw": "Le vent dans les saules"
-            }
-          ]
-        },
-        {
-          "time": "16:25",
-          "channel": "TF1",
-          "title": "L'ILE MYSTERIEUSE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:25",
-          "channel": "TF1",
-          "title": "MINI JOURNAL",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:40",
-          "channel": "TF1",
-          "title": "LA VIE DES BOTES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "TF1",
-          "title": "LOTO SPORTIF PREMIERE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "21:55",
-          "channel": "TF1",
-          "title": "PAROLE D'ENFANTS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:55",
-          "channel": "TF1",
-          "title": "UNE DERNIERE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:25",
-          "channel": "TF1",
-          "title": "VIVE LE RIRE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "06:45",
-          "channel": "Antenne 2",
-          "title": "TELEMATIN",
-          "description": "Jeunes docteurs (Pour la vie)",
-          "description_lines": [
-            "Jeunes docteurs (Pour la vie)"
-          ],
-          "segments": []
-        },
-        {
-          "time": "09:15",
-          "channel": "Antenne 2",
-          "title": "ANTIOPE VIDEO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:10",
-          "channel": "Antenne 2",
-          "title": "LES RENDEZ-VOUS D'A2",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:15",
-          "channel": "Antenne 2",
-          "title": "APOSTROPHES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:30",
-          "channel": "Antenne 2",
-          "title": "ITINERAIRES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "11:55",
-          "channel": "Antenne 2",
-          "title": "MÉTÉO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "Antenne 2",
-          "title": "MIDI INFORMATIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:05",
-          "channel": "Antenne 2",
-          "title": "LA FORCE DU DESTIN",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:25",
-          "channel": "Antenne 2",
-          "title": "FLASH INFOS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:00",
-          "channel": "Antenne 2",
-          "title": "A2 MIDI",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:50",
-          "channel": "Antenne 2",
-          "title": "AUJOURD'HUI LA VIE : A VOIR",
-          "description": "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux",
-          "description_lines": [
-            "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux"
-          ],
-          "segments": []
-        },
-        {
-          "time": "15:00",
-          "channel": "Antenne 2",
-          "title": "SIMON ET SIMON",
-          "description": "Série américaine avec Jameson Parker, Gerald Mc Raney",
-          "description_lines": [
-            "Série américaine avec Jameson Parker, Gerald Mc Raney"
-          ],
-          "segments": []
-        },
-        {
-          "time": "17:35",
-          "channel": "Antenne 2",
-          "title": "RÉCRÉ A2",
-          "description": "Bouquins, copains",
-          "description_lines": [
-            "Bouquins, copains"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Bouquins, copains",
-              "raw": "Bouquins, copains"
-            }
-          ]
-        },
-        {
-          "time": "18:05",
-          "channel": "Antenne 2",
-          "title": "MA SORCIÈRE BIEN-AIMÉE",
-          "description": "Série américaine",
-          "description_lines": [
-            "Série américaine"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "Antenne 2",
-          "title": "C'EST LA VIE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:00",
-          "channel": "Antenne 2",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
-          "segments": []
-        },
-        {
-          "time": "19:05",
-          "channel": "Antenne 2",
-          "title": "DES TOQUES ET DES ETOILES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "Antenne 2",
-          "title": "LA BELLE OTERO",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:15",
-          "channel": "Antenne 2",
-          "title": "DOCUMENTAIRE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:15",
-          "channel": "Antenne 2",
-          "title": "EDITION DE LA NUIT",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:40",
-          "channel": "Antenne 2",
           "title": "FIN DES ÉMISSIONS",
           "description": "",
           "description_lines": [],
@@ -169159,354 +168461,6 @@
           {
             "time": "00:10",
             "channel": "TF1",
-            "title": "FIN DES ÉMISSIONS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:00",
-            "channel": "TF1",
-            "title": "REGIE FRANCAISE DES ESPACES/TF1",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:30",
-            "channel": "TF1",
-            "title": "CROQUE VACANCES",
-            "description": "Gigi Tête à clip",
-            "description_lines": [
-              "Gigi",
-              "Tête à clip"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Gigi",
-                "raw": "Gigi"
-              },
-              {
-                "index": 1,
-                "title": "Tête à clip",
-                "raw": "Tête à clip"
-              }
-            ]
-          },
-          {
-            "time": "12:00",
-            "channel": "TF1",
-            "title": "FLASH INFOS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:02",
-            "channel": "TF1",
-            "title": "TOURNEZ MANEGE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:00",
-            "channel": "TF1",
-            "title": "LE JOURNAL DE LA UNE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:50",
-            "channel": "TF1",
-            "title": "LA PETITE MAISON DANS LA PRAIRIE",
-            "description": "Série américaine",
-            "description_lines": [
-              "Série américaine"
-            ],
-            "segments": []
-          },
-          {
-            "time": "14:40",
-            "channel": "TF1",
-            "title": "CROQUE VACANCES",
-            "description": "Lillipop dragon Dare-dare motus Variété Le joueur de flute Le vent dans les saules",
-            "description_lines": [
-              "Lillipop dragon",
-              "Dare-dare motus",
-              "Variété",
-              "Le joueur de flute",
-              "Le vent dans les saules"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Lillipop dragon",
-                "raw": "Lillipop dragon"
-              },
-              {
-                "index": 1,
-                "title": "Dare-dare motus",
-                "raw": "Dare-dare motus"
-              },
-              {
-                "index": 2,
-                "title": "Variété",
-                "raw": "Variété"
-              },
-              {
-                "index": 3,
-                "title": "Le joueur de flute",
-                "raw": "Le joueur de flute"
-              },
-              {
-                "index": 4,
-                "title": "Le vent dans les saules",
-                "raw": "Le vent dans les saules"
-              }
-            ]
-          },
-          {
-            "time": "16:25",
-            "channel": "TF1",
-            "title": "L'ILE MYSTERIEUSE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:25",
-            "channel": "TF1",
-            "title": "MINI JOURNAL",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:40",
-            "channel": "TF1",
-            "title": "LA VIE DES BOTES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "TF1",
-            "title": "LOTO SPORTIF PREMIERE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "21:55",
-            "channel": "TF1",
-            "title": "PAROLE D'ENFANTS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:55",
-            "channel": "TF1",
-            "title": "UNE DERNIERE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:25",
-            "channel": "TF1",
-            "title": "VIVE LE RIRE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          }
-        ],
-        "Antenne 2": [
-          {
-            "time": "06:45",
-            "channel": "Antenne 2",
-            "title": "TELEMATIN",
-            "description": "Jeunes docteurs (Pour la vie)",
-            "description_lines": [
-              "Jeunes docteurs (Pour la vie)"
-            ],
-            "segments": []
-          },
-          {
-            "time": "09:15",
-            "channel": "Antenne 2",
-            "title": "ANTIOPE VIDEO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:10",
-            "channel": "Antenne 2",
-            "title": "LES RENDEZ-VOUS D'A2",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:15",
-            "channel": "Antenne 2",
-            "title": "APOSTROPHES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:30",
-            "channel": "Antenne 2",
-            "title": "ITINERAIRES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "11:55",
-            "channel": "Antenne 2",
-            "title": "MÉTÉO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "Antenne 2",
-            "title": "MIDI INFORMATIONS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:05",
-            "channel": "Antenne 2",
-            "title": "LA FORCE DU DESTIN",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:25",
-            "channel": "Antenne 2",
-            "title": "FLASH INFOS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:00",
-            "channel": "Antenne 2",
-            "title": "A2 MIDI",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:50",
-            "channel": "Antenne 2",
-            "title": "AUJOURD'HUI LA VIE : A VOIR",
-            "description": "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux",
-            "description_lines": [
-              "Avec Paul Amar, Isabelle Baechler, Pierre Dumayet et Guy Lux"
-            ],
-            "segments": []
-          },
-          {
-            "time": "15:00",
-            "channel": "Antenne 2",
-            "title": "SIMON ET SIMON",
-            "description": "Série américaine avec Jameson Parker, Gerald Mc Raney",
-            "description_lines": [
-              "Série américaine avec Jameson Parker, Gerald Mc Raney"
-            ],
-            "segments": []
-          },
-          {
-            "time": "17:35",
-            "channel": "Antenne 2",
-            "title": "RÉCRÉ A2",
-            "description": "Bouquins, copains",
-            "description_lines": [
-              "Bouquins, copains"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Bouquins, copains",
-                "raw": "Bouquins, copains"
-              }
-            ]
-          },
-          {
-            "time": "18:05",
-            "channel": "Antenne 2",
-            "title": "MA SORCIÈRE BIEN-AIMÉE",
-            "description": "Série américaine",
-            "description_lines": [
-              "Série américaine"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "Antenne 2",
-            "title": "C'EST LA VIE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:00",
-            "channel": "Antenne 2",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
-            "segments": []
-          },
-          {
-            "time": "19:05",
-            "channel": "Antenne 2",
-            "title": "DES TOQUES ET DES ETOILES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "Antenne 2",
-            "title": "LA BELLE OTERO",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:15",
-            "channel": "Antenne 2",
-            "title": "DOCUMENTAIRE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:15",
-            "channel": "Antenne 2",
-            "title": "EDITION DE LA NUIT",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:40",
-            "channel": "Antenne 2",
             "title": "FIN DES ÉMISSIONS",
             "description": "",
             "description_lines": [],
