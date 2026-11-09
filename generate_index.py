@@ -2,10 +2,13 @@
 """
 Génère l'index des données TV rétro.
 
-- Fusionne depot101 et archives80
-- Supprime les doublons
-- Détecte les segments / extraits (notamment blocs jeunesse)
-- Produit :
+Fonctions :
+- fusionne depot101 et archives80
+- supprime les doublons sur date + chaîne + heure
+- conserve les description_lines
+- détecte les extraits / segments des émissions jeunesse
+- regroupe par chaîne
+- produit :
   - data/index.json
   - data/AAAA.json
 """
@@ -28,14 +31,14 @@ SOURCES = ["depot101", "archives80"]
 CHANNEL_ORDER = [
     "TF1",
     "Antenne 2",
+    "France 2",
     "FR3",
+    "France 3",
     "Canal+",
     "La Cinq",
     "TV6",
     "M6",
     "Arte",
-    "France 2",
-    "France 3",
     "France 5",
 ]
 
@@ -50,41 +53,157 @@ CHANNEL_ALIASES = {
     "C+": "Canal+",
     "CANAL+": "Canal+",
     "CANAL": "Canal+",
+    "TV6": "TV6",
     "L5": "La Cinq",
     "LA5": "La Cinq",
+    "LA 5": "La Cinq",
     "LA CINQ": "La Cinq",
+    "LA CINQUIEME": "La Cinq",
     "CINQ": "La Cinq",
-    "TV6": "TV6", 
     "M6": "M6",
     "ARTE": "Arte",
     "FRANCE 5": "France 5",
 }
 
-YOUTH_KEYWORDS = [
-    "jeunesse",
-    "visiteurs",
-    "club",
-    "dorothee",
-    "youpi",
-    "amuse",
-    "mercredis",
-    "bonbons",
-    "telechat",
-    "recre",
-    "matinale",
-    "ecole est finie",
-    "l ecole est finie",
+CHANNEL_COMPACT_MAP = {
+    "TF1": "TF1",
+    "A2": "Antenne 2",
+    "ANTENNE2": "Antenne 2",
+    "FRANCE2": "France 2",
+    "FR3": "FR3",
+    "FRANCE3": "France 3",
+    "C+": "Canal+",
+    "CANAL+": "Canal+",
+    "CANAL": "Canal+",
+    "TV6": "TV6",
+    "L5": "La Cinq",
+    "LA5": "La Cinq",
+    "LACINQ": "La Cinq",
+    "LACINQUIEME": "La Cinq",
+    "CINQ": "La Cinq",
+    "M6": "M6",
+    "ARTE": "Arte",
+    "FRANCE5": "France 5",
+}
+
+CHANNEL_REGEX = [
+    (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
+    (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
+    (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
+    (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
+    (re.compile(r"^LA\s*CINQUIEME$", re.IGNORECASE), "La Cinq"),
+    (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
+    (re.compile(r"^A\s*2$", re.IGNORECASE), "Antenne 2"),
+    (re.compile(r"^FR\s*3$", re.IGNORECASE), "FR3"),
+    (re.compile(r"^FRANCE\s*2$", re.IGNORECASE), "France 2"),
+    (re.compile(r"^FRANCE\s*3$", re.IGNORECASE), "France 3"),
+    (re.compile(r"^FRANCE\s*5$", re.IGNORECASE), "France 5"),
 ]
+
+TIME_RE = re.compile(r"^\d{2}:\d{2}$")
+
+
+# =====================================================
+# Émissions jeunesse connues
+# =====================================================
+
+YOUTH_PROGRAMS = (
+    # TF1
+    "Les Visiteurs du mercredi",
+    "Les Visiteurs de Noël",
+    "Croque-Vacances",
+    "Le Village dans les nuages",
+    "Village dans les nuages",
+    "Vitamine",
+    "Club Dorothée",
+    "Club Dorothee",
+    "Disney Parade",
+    "Disney Club",
+    "Club Mini",
+    "À tout Spip",
+    "A tout Spip",
+    "TF! Jeunesse",
+    "TF Jeunesse",
+    "TF1 Jeunesse",
+
+    # Antenne 2 / France 2
+    "Récré A2",
+    "Recre A2",
+    "Discopuce",
+    "Chaud les glaçons",
+    "Chaud les glacons",
+    "Bécébégé",
+    "Becebege",
+    "Eric et Noëlla",
+    "Eric et Noella",
+    "Hanna-Barbera Dingue Dong",
+    "Hanna Barbera Dingue Dong",
+    "Giga",
+    "Télévisator 2",
+    "Televisator 2",
+    "Chalu Maureen",
+    "La Planète de Donkey Kong",
+    "Planète de Donkey Kong",
+
+    # FR3 / France 3
+    "FR3 Jeunesse",
+    "France 3 Jeunesse",
+    "Pour la jeunesse",
+    "Le Disney Channel",
+    "Disney Channel",
+    "Debout les enfants",
+    "Amuse 3",
+    "Samdynamite",
+    "Télétaz",
+    "Teletaz",
+    "Les Minikeums",
+    "Minikeums",
+    "C'est pas sorcier",
+    "C est pas sorcier",
+
+    # Canal+
+    "Ça cartoon",
+    "Ca cartoon",
+    "Décode pas Bunny",
+    "Decode pas Bunny",
+    "Canaille Peluche",
+    "MDK",
+    "Micro Kids",
+    "MDK Micro Kids",
+    "Le Cyberflash",
+    "Cyberflash",
+
+    # La Cinq / La Cinquième
+    "Youpi ! L'école est finie",
+    "Youpi L ecole est finie",
+    "Youpi l'école est finie",
+    "Cellulo",
+    "Les Écrans du savoir",
+    "Les Ecrans du savoir",
+    "Ecrans du savoir",
+    "Les Zouzous",
+    "Zouzous",
+
+    # M6
+    "Graffi'6",
+    "Graffi 6",
+    "M6 Kid",
+    "Multitop",
+)
 
 META_STARTS = (
     "emission",
     "presentation",
+    "presente",
+    "presentee",
     "avec",
     "produit",
     "film",
     "telefilm",
     "dessin anime",
+    "dessins anime",
     "opera",
+    "opera comique",
     "jeu",
     "debate",
     "debats",
@@ -101,6 +220,7 @@ META_STARTS = (
     "annonces",
     "meteo",
     "realisation",
+    "realise",
     "mise en scene",
     "diffusion",
     "suite",
@@ -108,14 +228,42 @@ META_STARTS = (
     "prochainement",
     "coming next",
     "speakerine",
+    "musique",
+    "chanson",
+    "interview",
+    "document",
+    "anime",
+    "anime par",
+    "ecrit",
+    "interprete",
+    "distribution",
+    "avec la participation",
+    "un film",
+    "un telefilm",
+    "un dessin",
+    "un opera",
+    "un concert",
+    "un journal",
+    "une emission",
+    "un jeu",
+    "un magazine",
+    "un reportage",
+    "un documentaire",
 )
 
 
 # =====================================================
-# Helpers
+# Helpers texte / date / heure / chaîne
 # =====================================================
 
 def normalize_text(value: Any) -> str:
+    """
+    Normalise un texte pour comparaison :
+    - minuscules
+    - sans accents
+    - sans ponctuation
+    - espaces réduits
+    """
     if value is None:
         return ""
 
@@ -128,7 +276,14 @@ def normalize_text(value: Any) -> str:
     return text
 
 
+YOUTH_NORMALIZED = tuple(normalize_text(item) for item in YOUTH_PROGRAMS)
+
+
 def normalize_date(date_str: Any) -> Optional[str]:
+    """
+    Normalise une date au format JJ-MM-AAAA.
+    Accepte aussi AAAA-MM-DD, JJ/MM/AAAA, AAAA/MM/DD.
+    """
     if not date_str:
         return None
 
@@ -161,6 +316,9 @@ def normalize_date(date_str: Any) -> Optional[str]:
 
 
 def normalize_time(value: Any) -> str:
+    """
+    Normalise une heure au format HH:MM.
+    """
     if not value:
         return ""
 
@@ -180,6 +338,9 @@ def normalize_time(value: Any) -> str:
 
 
 def canonical_channel(value: Any) -> str:
+    """
+    Retourne un nom de chaîne canonique.
+    """
     raw = str(value or "").strip()
 
     if not raw:
@@ -189,6 +350,14 @@ def canonical_channel(value: Any) -> str:
     if upper in CHANNEL_ALIASES:
         return CHANNEL_ALIASES[upper]
 
+    compact = re.sub(r"\s+", "", upper)
+    if compact in CHANNEL_COMPACT_MAP:
+        return CHANNEL_COMPACT_MAP[compact]
+
+    for regex, canonical in CHANNEL_REGEX:
+        if regex.match(raw):
+            return canonical
+
     normalized_upper = normalize_text(raw).upper()
     if normalized_upper in CHANNEL_ALIASES:
         return CHANNEL_ALIASES[normalized_upper]
@@ -197,6 +366,9 @@ def canonical_channel(value: Any) -> str:
 
 
 def channel_rank(channel: str) -> int:
+    """
+    Ordre d'affichage des chaînes.
+    """
     try:
         return CHANNEL_ORDER.index(channel)
     except ValueError:
@@ -204,6 +376,12 @@ def channel_rank(channel: str) -> int:
 
 
 def clean_title(value: Any) -> str:
+    """
+    Nettoie un titre.
+    Si le titre est dupliqué sous la forme :
+    'Journal de 13 heures - Journal de 13 heures'
+    on garde seulement la première partie.
+    """
     title = str(value or "").strip()
     title = re.sub(r"\s+", " ", title)
 
@@ -217,6 +395,9 @@ def clean_title(value: Any) -> str:
 
 
 def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
+    """
+    Charge un fichier JSON proprement.
+    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -225,60 +406,148 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
+# =====================================================
+# Segments / extraits
+# =====================================================
+
+def dedupe_adjacent_lines(lines: List[str]) -> List[str]:
+    """
+    Supprime les lignes identiques adjacentes.
+    Utile car certaines sources répètent la même ligne.
+    """
+    cleaned = []
+
+    for line in lines:
+        line = str(line or "").strip()
+        if not line:
+            continue
+
+        if not cleaned or line != cleaned[-1]:
+            cleaned.append(line)
+
+    return cleaned
+
+
+def merge_unique_lines(existing: List[str], new_lines: List[str]) -> List[str]:
+    """
+    Fusionne deux listes de lignes sans doublons, en conservant l'ordre.
+    """
+    seen: Set[str] = {normalize_text(line) for line in existing}
+    merged = list(existing)
+
+    for line in new_lines:
+        line = str(line or "").strip()
+        if not line:
+            continue
+
+        norm = normalize_text(line)
+        if norm and norm not in seen:
+            merged.append(line)
+            seen.add(norm)
+
+    return merged
+
+
 def is_youth_title(title: str) -> bool:
+    """
+    Détecte si un titre correspond à une émission jeunesse connue.
+    """
     norm = normalize_text(title)
-    return any(keyword in norm for keyword in YOUTH_KEYWORDS)
+
+    if not norm:
+        return False
+
+    return any(keyword in norm for keyword in YOUTH_NORMALIZED)
 
 
 def is_meta_line(line: str) -> bool:
+    """
+    Détecte les lignes descriptives/méta qui ne sont pas des extraits.
+    Exemple :
+      Emission de Pierre Bellemare
+      Film français (1961) avec Bourvil
+      Présentation de ...
+    """
     norm = normalize_text(line)
+
+    if not norm:
+        return True
+
     return any(norm.startswith(prefix) for prefix in META_STARTS)
 
 
-def looks_like_segment(line: str, parent_title: str, youth: bool) -> bool:
-    line = str(line or "").strip()
-    if not line:
+def looks_like_item_line(line: str) -> bool:
+    """
+    Détecte si une ligne ressemble à un élément interne d'une émission.
+    """
+    text = str(line or "").strip()
+
+    if len(text) < 3 or len(text) > 160:
         return False
 
-    norm_line = normalize_text(line)
-    norm_parent = normalize_text(parent_title)
-
-    if not norm_line:
+    if is_meta_line(text):
         return False
 
-    if norm_line == norm_parent:
+    if re.match(r"^\d{1,2}[:h.]\d{2}$", text, flags=re.IGNORECASE):
         return False
 
-    if is_meta_line(line):
+    if text.startswith(("©", "http", "www.")):
         return False
 
-    if len(line) < 4:
+    if normalize_text(text) in ("", "-", "—", "–"):
         return False
 
-    if youth:
-        return True
-
-    # Hors bloc jeunesse, on est plus prudent :
-    # on garde surtout les lignes de type "Série - Épisode"
-    return bool(re.search(r"\s[-–—]\s", line))
+    return True
 
 
 def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Construit la liste des extraits / segments d'un programme.
+
+    Règle :
+    - pour une émission jeunesse reconnue, on extrait toutes les lignes utiles
+    - pour un programme non jeunesse, on extrait seulement les lignes de type
+      "Série - Épisode" ou "Personnage - Élément"
+    """
     lines = program.get("description_lines") or []
-    parent_title = program.get("title", "")
+    lines = dedupe_adjacent_lines([str(line).strip() for line in lines if str(line).strip()])
+
+    parent_title = clean_title(program.get("title", ""))
+    norm_parent = normalize_text(parent_title)
     youth = is_youth_title(parent_title)
+
+    item_lines = []
+
+    for idx, line in enumerate(lines):
+        line = str(line or "").strip()
+
+        if not line:
+            continue
+
+        if normalize_text(line) == norm_parent:
+            continue
+
+        if not looks_like_item_line(line):
+            continue
+
+        item_lines.append((idx, line))
 
     segments: List[Dict[str, Any]] = []
 
-    for idx, line in enumerate(lines):
-        if not looks_like_segment(line, parent_title, youth):
+    for idx, line in item_lines:
+        has_hyphen = bool(re.search(r"\s[-–—]\s", line))
+
+        # Pour les émissions jeunesse reconnues, on accepte toutes les lignes utiles.
+        # Sinon, on reste prudent : seulement les lignes avec séparateur.
+        if not youth and not has_hyphen:
             continue
 
         segment_title = clean_title(line)
+
         if not segment_title:
             continue
 
-        if normalize_text(segment_title) == normalize_text(parent_title):
+        if normalize_text(segment_title) == norm_parent:
             continue
 
         segments.append({
@@ -290,26 +559,32 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
     return segments
 
 
+# =====================================================
+# Déduplication / fusion des programmes
+# =====================================================
+
 def program_key(time: str, channel: str, title: str) -> str:
+    """
+    Clé de déduplication.
+
+    Règle principale :
+    - même heure + même chaîne = même programme
+
+    Si l'heure manque, on tombe en secours sur :
+    - titre normalisé + chaîne
+    """
     if time:
         return f"{time}|{channel}"
+
     return f"{normalize_text(title)}|{channel}"
 
 
-def merge_unique_lines(existing: List[str], new_lines: List[str]) -> List[str]:
-    seen: Set[str] = {normalize_text(line) for line in existing}
-    merged = list(existing)
-
-    for line in new_lines:
-        norm = normalize_text(line)
-        if norm and norm not in seen:
-            merged.append(line)
-            seen.add(norm)
-
-    return merged
-
-
 def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) -> None:
+    """
+    Fusionne un programme dans le dictionnaire target.
+    Si un programme existe déjà sur le même créneau/chaîne,
+    on garde les informations les plus complètes.
+    """
     time = normalize_time(program.get("time", ""))
     channel = canonical_channel(program.get("channel", ""))
     title = clean_title(program.get("title", ""))
@@ -317,10 +592,13 @@ def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) ->
     description = re.sub(r"\s+", " ", description)
 
     description_lines = program.get("description_lines") or []
+
     if not isinstance(description_lines, list):
         description_lines = []
 
-    description_lines = [str(line).strip() for line in description_lines if str(line).strip()]
+    description_lines = dedupe_adjacent_lines(
+        [str(line).strip() for line in description_lines if str(line).strip()]
+    )
 
     if not channel:
         channel = "Autres"
@@ -342,22 +620,29 @@ def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) ->
 
     existing = target[key]
 
+    # Garder le titre le plus complet
     if len(title) > len(existing.get("title", "")):
         existing["title"] = title
 
+    # Garder la description la plus complète
     if len(description) > len(existing.get("description", "")):
         existing["description"] = description
 
+    # Fusionner les lignes de description sans doublons
     existing["description_lines"] = merge_unique_lines(
         existing.get("description_lines", []),
         description_lines
     )
 
+    # Si l'heure manquait mais qu'une nouvelle arrivée a une heure, on la prend
     if not existing.get("time") and time:
         existing["time"] = time
 
 
 def sort_programs(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """
+    Trie les programmes par chaîne puis par heure.
+    """
     return sorted(
         programs,
         key=lambda p: (
@@ -369,6 +654,9 @@ def sort_programs(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
 
 
 def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+    """
+    Regroupe les programmes par chaîne, dans l'ordre magazine TV.
+    """
     grouped: Dict[str, List[Dict[str, Any]]] = {}
 
     for program in programs:
@@ -392,11 +680,12 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION SEGMENTS")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION JEUNESSE COMPLÈTE")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
 
+    # Nettoyage optionnel des anciens fichiers date à la racine de data/
     data_root = Path("data")
     if data_root.exists():
         for stray in data_root.glob("??-??-????.json"):
@@ -406,6 +695,10 @@ def generate_index() -> None:
             except Exception as e:
                 print(f"⚠️ Impossible de supprimer {stray}: {e}")
 
+    total_source_files = 0
+    total_loaded_programs = 0
+    total_missing_description_lines = 0
+
     for source in SOURCES:
         source_dir = Path(f"data/{source}")
 
@@ -414,6 +707,8 @@ def generate_index() -> None:
             continue
 
         json_files = sorted(source_dir.glob("*.json"))
+        total_source_files += len(json_files)
+
         print(f"📂 Source {source} : {len(json_files)} fichiers trouvés")
 
         for filepath in json_files:
@@ -446,12 +741,27 @@ def generate_index() -> None:
             for program in programs:
                 if not isinstance(program, dict):
                     continue
+
+                if "description_lines" not in program:
+                    total_missing_description_lines += 1
+
                 merge_program(all_dates[date]["programs"], program)
+                total_loaded_programs += 1
 
     print("")
+    print(f"✅ Fichiers sources lus : {total_source_files}")
+    print(f"✅ Programmes bruts chargés : {total_loaded_programs}")
     print(f"✅ Dates uniques retenues : {len(all_dates)}")
 
+    if total_missing_description_lines:
+        print(
+            f"⚠️ {total_missing_description_lines} programmes anciens sans description_lines. "
+            "Pour détecter les extraits jeunesse, relance le scraping concerné."
+        )
+
+    # Regrouper par année
     years: Dict[str, Dict[str, Any]] = {}
+    total_segments = 0
 
     for date_str, entry in all_dates.items():
         year = date_str.split("-")[2]
@@ -460,7 +770,11 @@ def generate_index() -> None:
 
         # Enrichissement avec segments
         for program in programs_list:
+            program["description_lines"] = dedupe_adjacent_lines(
+                program.get("description_lines", [])
+            )
             program["segments"] = build_segments(program)
+            total_segments += len(program["segments"])
 
         programs_list = sort_programs(programs_list)
         channels = group_by_channel(programs_list)
@@ -490,6 +804,7 @@ def generate_index() -> None:
         "generated_at": datetime.now().isoformat(),
         "total_dates": len(all_dates),
         "total_programs": sum(y["total_programs"] for y in sorted_years.values()),
+        "total_segments": total_segments,
         "years": {},
     }
 
@@ -544,6 +859,7 @@ def generate_index() -> None:
     print(f"Années : {len(index['years'])}")
     print(f"Dates totales : {index['total_dates']}")
     print(f"Programmes totaux : {index['total_programs']}")
+    print(f"Extraits / segments détectés : {index['total_segments']}")
 
 
 if __name__ == "__main__":
