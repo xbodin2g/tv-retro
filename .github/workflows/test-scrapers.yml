@@ -1,0 +1,98 @@
+name: 🧪 Test Scrapers
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date à tester (JJ-MM-AAAA)'
+        required: true
+        default: '01-01-1980'
+      source:
+        description: 'Source'
+        required: true
+        default: 'depot101'
+        type: choice
+        options:
+          - depot101
+          - archives80
+
+permissions:
+  contents: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Installer dépendances
+        run: |
+          pip install requests beautifulsoup4 lxml cloudscraper
+      
+      - name: Tester le scraper
+        run: |
+          echo "🧪 Test de ${{ github.event.inputs.source }} pour ${{ github.event.inputs.date }}"
+          
+          if [ "${{ github.event.inputs.source }}" = "depot101" ]; then
+            python -c "
+          from scraper.depot101_scraper import Depot101Scraper
+          import json
+          
+          scraper = Depot101Scraper()
+          data = scraper.scrape_date('${{ github.event.inputs.date }}')
+          
+          if data:
+              print('✅ SUCCESS')
+              print(f'Programmes trouvés: {len(data[\"programs\"])}')
+              print()
+              for i, prog in enumerate(data['programs'][:10], 1):
+                  print(f'{i}. {prog[\"time\"]} - {prog[\"title\"]}')
+                  print(f'   Chaîne: {prog[\"channel\"]}')
+                  if prog['description']:
+                      print(f'   Desc: {prog[\"description\"][:80]}')
+                  print()
+              
+              with open('test_result.json', 'w', encoding='utf-8') as f:
+                  json.dump(data, f, ensure_ascii=False, indent=2)
+          else:
+              print('❌ AUCUN PROGRAMME')
+          "
+          else
+            python -c "
+          from scraper.archives80_scraper import Archives80Scraper
+          import json
+          
+          scraper = Archives80Scraper()
+          data = scraper.scrape_date('${{ github.event.inputs.date }}')
+          
+          if data:
+              print('✅ SUCCESS')
+              print(f'Programmes trouvés: {len(data[\"programs\"])}')
+              print()
+              for i, prog in enumerate(data['programs'][:10], 1):
+                  print(f'{i}. {prog[\"time\"]} - {prog[\"title\"]}')
+                  print(f'   Chaîne: {prog[\"channel\"]}')
+                  if prog['description']:
+                      print(f'   Desc: {prog[\"description\"][:80]}')
+                  print()
+              
+              with open('test_result.json', 'w', encoding='utf-8') as f:
+                  json.dump(data, f, ensure_ascii=False, indent=2)
+          else:
+              print('❌ AUCUN PROGRAMME')
+          "
+          fi
+      
+      - name: Commit résultat
+        run: |
+          git config --local user.email "test@test.com"
+          git config --local user.name "Test Bot"
+          git add test_result.json
+          git commit -m "🧪 Test result" || echo "Rien à committer"
+          git push origin $(git branch --show-current)
