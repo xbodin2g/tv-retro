@@ -1,332 +1,660 @@
 {
-  "generated_at": "2026-11-09T22:19:11.239592",
-  "total_dates": 584,
-  "total_programs": 35567,
-  "total_segments": 4882,
-  "total_overnight_shifted": 8260,
+  "generated_at": "2026-11-09T22:35:42.388992",
+  "total_dates": 503,
+  "total_programs": 34926,
+  "total_segments": 4853,
+  "total_overnight_shifted": 4664,
   "years": {
     "1980": {
-      "total_programs": 3212,
+      "total_programs": 3211,
       "dates": {
         "01-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "01-01-1980"
+          ]
         },
         "05-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "05-01-1980"
+          ]
         },
         "06-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": true,
+          "origin_dates": [
+            "05-01-1980",
+            "06-01-1980"
+          ]
         },
         "07-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "07-01-1980"
+          ]
         },
         "08-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "08-01-1980"
+          ]
         },
         "09-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "09-01-1980"
+          ]
         },
         "10-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "10-01-1980"
+          ]
         },
         "11-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "11-01-1980"
+          ]
         },
         "12-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "12-01-1980"
+          ]
         },
         "13-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "13-01-1980"
+          ]
         },
         "14-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "14-01-1980"
+          ]
         },
         "15-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "15-01-1980"
+          ]
         },
         "16-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "16-01-1980"
+          ]
         },
         "17-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "17-01-1980"
+          ]
         },
         "18-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "18-01-1980"
+          ]
         },
         "19-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 49
+          "programs_count": 49,
+          "night_extension": true,
+          "origin_dates": [
+            "18-01-1980",
+            "19-01-1980"
+          ]
         },
         "22-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "22-01-1980"
+          ]
         },
         "23-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "23-01-1980"
+          ]
         },
         "30-01-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "30-01-1980"
+          ]
         },
         "07-02-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "07-02-1980"
+          ]
         },
         "08-02-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "08-02-1980"
+          ]
         },
         "11-02-1980": {
           "source": "archives80+depot101",
-          "programs_count": 39
+          "programs_count": 39,
+          "night_extension": false,
+          "origin_dates": [
+            "11-02-1980"
+          ]
         },
         "25-02-1980": {
           "source": "archives80+depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "25-02-1980"
+          ]
         },
         "02-03-1980": {
           "source": "archives80+depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "02-03-1980"
+          ]
         },
         "03-03-1980": {
           "source": "archives80+depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": true,
+          "origin_dates": [
+            "02-03-1980",
+            "03-03-1980"
+          ]
         },
         "05-03-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "05-03-1980"
+          ]
         },
         "22-03-1980": {
           "source": "archives80+depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "22-03-1980"
+          ]
         },
         "22-04-1980": {
           "source": "archives80+depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "22-04-1980"
+          ]
         },
         "23-04-1980": {
           "source": "archives80+depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "23-04-1980"
+          ]
         },
         "24-04-1980": {
           "source": "archives80+depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "23-04-1980"
+          ]
         },
         "10-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "10-05-1980"
+          ]
         },
         "11-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "10-05-1980"
+          ]
         },
         "22-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "22-05-1980"
+          ]
         },
         "23-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "22-05-1980"
+          ]
         },
         "24-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "24-05-1980"
+          ]
         },
         "25-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "25-05-1980"
+          ]
         },
         "26-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 41
+          "programs_count": 42,
+          "night_extension": true,
+          "origin_dates": [
+            "25-05-1980",
+            "26-05-1980"
+          ]
         },
         "27-05-1980": {
           "source": "archives80+depot101",
-          "programs_count": 3
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "26-05-1980"
+          ]
         },
         "24-06-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "24-06-1980"
+          ]
         },
         "25-06-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "25-06-1980"
+          ]
         },
         "14-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "14-07-1980"
+          ]
         },
         "21-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 38
+          "programs_count": 38,
+          "night_extension": false,
+          "origin_dates": [
+            "21-07-1980"
+          ]
         },
         "22-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": true,
+          "origin_dates": [
+            "21-07-1980",
+            "22-07-1980"
+          ]
         },
         "26-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 33
+          "programs_count": 33,
+          "night_extension": false,
+          "origin_dates": [
+            "26-07-1980"
+          ]
         },
         "27-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 36
+          "programs_count": 36,
+          "night_extension": false,
+          "origin_dates": [
+            "27-07-1980"
+          ]
         },
         "28-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 35
+          "programs_count": 35,
+          "night_extension": true,
+          "origin_dates": [
+            "27-07-1980",
+            "28-07-1980"
+          ]
         },
         "29-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 35
+          "programs_count": 35,
+          "night_extension": false,
+          "origin_dates": [
+            "29-07-1980"
+          ]
         },
         "30-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 33
+          "programs_count": 33,
+          "night_extension": false,
+          "origin_dates": [
+            "30-07-1980"
+          ]
         },
         "31-07-1980": {
           "source": "archives80+depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "31-07-1980"
+          ]
         },
         "01-08-1980": {
           "source": "archives80+depot101",
-          "programs_count": 40
+          "programs_count": 40,
+          "night_extension": false,
+          "origin_dates": [
+            "01-08-1980"
+          ]
         },
         "26-08-1980": {
           "source": "archives80+depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "26-08-1980"
+          ]
         },
         "01-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 35
+          "programs_count": 35,
+          "night_extension": false,
+          "origin_dates": [
+            "01-09-1980"
+          ]
         },
         "06-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 36
+          "programs_count": 36,
+          "night_extension": false,
+          "origin_dates": [
+            "06-09-1980"
+          ]
         },
         "07-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 35
+          "programs_count": 35,
+          "night_extension": false,
+          "origin_dates": [
+            "07-09-1980"
+          ]
         },
         "08-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "08-09-1980"
+          ]
         },
         "09-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 39
+          "programs_count": 39,
+          "night_extension": false,
+          "origin_dates": [
+            "09-09-1980"
+          ]
         },
         "10-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "10-09-1980"
+          ]
         },
         "11-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "11-09-1980"
+          ]
         },
         "12-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "12-09-1980"
+          ]
         },
         "13-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "12-09-1980"
+          ]
         },
         "19-09-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "19-09-1980"
+          ]
         },
         "01-10-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "01-10-1980"
+          ]
         },
         "05-11-1980": {
           "source": "archives80+depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": false,
+          "origin_dates": [
+            "05-11-1980"
+          ]
         },
         "12-11-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "12-11-1980"
+          ]
         },
         "13-11-1980": {
           "source": "archives80+depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": false,
+          "origin_dates": [
+            "13-11-1980"
+          ]
         },
         "25-11-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "25-11-1980"
+          ]
         },
         "26-11-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "26-11-1980"
+          ]
         },
         "06-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "06-12-1980"
+          ]
         },
         "07-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "07-12-1980"
+          ]
         },
         "08-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": true,
+          "origin_dates": [
+            "07-12-1980",
+            "08-12-1980"
+          ]
         },
         "09-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "09-12-1980"
+          ]
         },
         "10-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "10-12-1980"
+          ]
         },
         "11-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "11-12-1980"
+          ]
         },
         "12-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 51
+          "programs_count": 51,
+          "night_extension": true,
+          "origin_dates": [
+            "11-12-1980",
+            "12-12-1980"
+          ]
         },
         "13-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "13-12-1980"
+          ]
         },
         "17-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "17-12-1980"
+          ]
         },
         "18-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "18-12-1980"
+          ]
         },
         "19-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": false,
+          "origin_dates": [
+            "19-12-1980"
+          ]
         },
         "20-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "19-12-1980"
+          ]
         },
         "31-12-1980": {
           "source": "archives80+depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "31-12-1980"
+          ]
         }
       }
     },
@@ -335,384 +663,769 @@
       "dates": {
         "01-01-1981": {
           "source": "archives80+depot101",
-          "programs_count": 7
+          "programs_count": 7,
+          "night_extension": true,
+          "origin_dates": [
+            "31-12-1980"
+          ]
         }
       }
     },
     "1982": {
-      "total_programs": 3821,
+      "total_programs": 3803,
       "dates": {
         "01-01-1982": {
           "source": "depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "01-01-1982"
+          ]
         },
         "02-01-1982": {
           "source": "depot101",
-          "programs_count": 2
+          "programs_count": 2,
+          "night_extension": true,
+          "origin_dates": [
+            "01-01-1982"
+          ]
         },
         "09-01-1982": {
           "source": "depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": false,
+          "origin_dates": [
+            "09-01-1982"
+          ]
         },
         "10-01-1982": {
           "source": "depot101",
-          "programs_count": 34
+          "programs_count": 34,
+          "night_extension": false,
+          "origin_dates": [
+            "10-01-1982"
+          ]
         },
         "12-01-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "12-01-1982"
+          ]
         },
         "17-01-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "17-01-1982"
+          ]
         },
         "18-01-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "17-01-1982"
+          ]
         },
         "20-01-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "20-01-1982"
+          ]
         },
         "25-01-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "25-01-1982"
+          ]
         },
         "26-01-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "26-01-1982"
+          ]
         },
         "27-01-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "27-01-1982"
+          ]
         },
         "28-01-1982": {
           "source": "depot101",
-          "programs_count": 49
+          "programs_count": 49,
+          "night_extension": false,
+          "origin_dates": [
+            "28-01-1982"
+          ]
         },
         "29-01-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "29-01-1982"
+          ]
         },
         "07-02-1982": {
           "source": "depot101",
-          "programs_count": 36
+          "programs_count": 36,
+          "night_extension": false,
+          "origin_dates": [
+            "07-02-1982"
+          ]
         },
         "08-02-1982": {
           "source": "depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "08-02-1982"
+          ]
         },
         "12-02-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "12-02-1982"
+          ]
         },
         "13-02-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "12-02-1982"
+          ]
         },
         "19-02-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "19-02-1982"
+          ]
         },
         "26-02-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "26-02-1982"
+          ]
         },
         "27-02-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "26-02-1982"
+          ]
         },
         "01-03-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "01-03-1982"
+          ]
         },
         "02-03-1982": {
           "source": "depot101",
-          "programs_count": 43
+          "programs_count": 43,
+          "night_extension": false,
+          "origin_dates": [
+            "02-03-1982"
+          ]
         },
         "05-03-1982": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 54,
+          "night_extension": false,
+          "origin_dates": [
+            "05-03-1982"
+          ]
         },
         "08-03-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "08-03-1982"
+          ]
         },
         "13-03-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "13-03-1982"
+          ]
         },
         "14-03-1982": {
           "source": "depot101",
-          "programs_count": 55
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "14-03-1982"
+          ]
         },
         "15-03-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": true,
+          "origin_dates": [
+            "14-03-1982",
+            "15-03-1982"
+          ]
         },
         "16-03-1982": {
           "source": "depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "16-03-1982"
+          ]
         },
         "19-03-1982": {
           "source": "depot101",
-          "programs_count": 51
+          "programs_count": 51,
+          "night_extension": false,
+          "origin_dates": [
+            "19-03-1982"
+          ]
         },
         "20-03-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "20-03-1982"
+          ]
         },
         "21-03-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "21-03-1982"
+          ]
         },
         "22-03-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "22-03-1982"
+          ]
         },
         "23-03-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "23-03-1982"
+          ]
         },
         "24-03-1982": {
           "source": "depot101",
-          "programs_count": 55
+          "programs_count": 55,
+          "night_extension": false,
+          "origin_dates": [
+            "24-03-1982"
+          ]
         },
         "25-03-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "25-03-1982"
+          ]
         },
         "26-03-1982": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 54,
+          "night_extension": false,
+          "origin_dates": [
+            "26-03-1982"
+          ]
         },
         "30-03-1982": {
           "source": "depot101",
-          "programs_count": 55
+          "programs_count": 55,
+          "night_extension": false,
+          "origin_dates": [
+            "30-03-1982"
+          ]
         },
         "01-04-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "01-04-1982"
+          ]
         },
         "02-04-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "02-04-1982"
+          ]
         },
         "03-04-1982": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 54,
+          "night_extension": false,
+          "origin_dates": [
+            "03-04-1982"
+          ]
         },
         "04-04-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "03-04-1982"
+          ]
         },
         "27-04-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "27-04-1982"
+          ]
         },
         "28-04-1982": {
           "source": "depot101",
-          "programs_count": 55
+          "programs_count": 55,
+          "night_extension": false,
+          "origin_dates": [
+            "28-04-1982"
+          ]
         },
         "01-05-1982": {
           "source": "depot101",
-          "programs_count": 12
+          "programs_count": 12,
+          "night_extension": false,
+          "origin_dates": [
+            "01-05-1982"
+          ]
         },
         "02-05-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "02-05-1982"
+          ]
         },
         "03-05-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "02-05-1982"
+          ]
         },
         "12-05-1982": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 54,
+          "night_extension": false,
+          "origin_dates": [
+            "12-05-1982"
+          ]
         },
         "29-05-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "29-05-1982"
+          ]
         },
         "05-06-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "05-06-1982"
+          ]
         },
         "06-06-1982": {
           "source": "depot101",
-          "programs_count": 40
+          "programs_count": 40,
+          "night_extension": false,
+          "origin_dates": [
+            "06-06-1982"
+          ]
         },
         "07-06-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": true,
+          "origin_dates": [
+            "06-06-1982",
+            "07-06-1982"
+          ]
         },
         "13-06-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "13-06-1982"
+          ]
         },
         "14-06-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": true,
+          "origin_dates": [
+            "13-06-1982",
+            "14-06-1982"
+          ]
         },
         "17-06-1982": {
           "source": "depot101",
-          "programs_count": 51
+          "programs_count": 51,
+          "night_extension": false,
+          "origin_dates": [
+            "17-06-1982"
+          ]
         },
         "05-07-1982": {
           "source": "depot101",
-          "programs_count": 40
+          "programs_count": 40,
+          "night_extension": false,
+          "origin_dates": [
+            "05-07-1982"
+          ]
         },
         "06-07-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "05-07-1982"
+          ]
         },
         "07-07-1982": {
           "source": "depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "07-07-1982"
+          ]
         },
         "08-07-1982": {
           "source": "depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "08-07-1982"
+          ]
         },
         "21-07-1982": {
           "source": "depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "21-07-1982"
+          ]
         },
         "23-07-1982": {
           "source": "depot101",
-          "programs_count": 40
+          "programs_count": 40,
+          "night_extension": false,
+          "origin_dates": [
+            "23-07-1982"
+          ]
         },
         "24-07-1982": {
           "source": "depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": true,
+          "origin_dates": [
+            "23-07-1982",
+            "24-07-1982"
+          ]
         },
         "07-08-1982": {
           "source": "depot101",
-          "programs_count": 39
+          "programs_count": 39,
+          "night_extension": false,
+          "origin_dates": [
+            "07-08-1982"
+          ]
         },
         "08-08-1982": {
           "source": "depot101",
-          "programs_count": 39
+          "programs_count": 39,
+          "night_extension": false,
+          "origin_dates": [
+            "08-08-1982"
+          ]
         },
         "09-08-1982": {
           "source": "depot101",
-          "programs_count": 32
+          "programs_count": 32,
+          "night_extension": false,
+          "origin_dates": [
+            "09-08-1982"
+          ]
         },
         "10-08-1982": {
           "source": "depot101",
-          "programs_count": 36
+          "programs_count": 36,
+          "night_extension": true,
+          "origin_dates": [
+            "09-08-1982",
+            "10-08-1982"
+          ]
         },
         "11-08-1982": {
           "source": "depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "11-08-1982"
+          ]
         },
         "12-08-1982": {
           "source": "depot101",
-          "programs_count": 38
+          "programs_count": 38,
+          "night_extension": false,
+          "origin_dates": [
+            "12-08-1982"
+          ]
         },
         "13-08-1982": {
           "source": "depot101",
-          "programs_count": 37
+          "programs_count": 37,
+          "night_extension": false,
+          "origin_dates": [
+            "13-08-1982"
+          ]
         },
         "18-08-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "18-08-1982"
+          ]
         },
         "04-09-1982": {
           "source": "depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": false,
+          "origin_dates": [
+            "04-09-1982"
+          ]
         },
         "05-09-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": false,
+          "origin_dates": [
+            "05-09-1982"
+          ]
         },
         "06-09-1982": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": true,
+          "origin_dates": [
+            "05-09-1982",
+            "06-09-1982"
+          ]
         },
         "07-09-1982": {
           "source": "depot101",
-          "programs_count": 46
+          "programs_count": 46,
+          "night_extension": false,
+          "origin_dates": [
+            "07-09-1982"
+          ]
         },
         "14-09-1982": {
           "source": "depot101",
-          "programs_count": 44
+          "programs_count": 44,
+          "night_extension": false,
+          "origin_dates": [
+            "14-09-1982"
+          ]
         },
         "15-09-1982": {
           "source": "depot101",
-          "programs_count": 2
+          "programs_count": 2,
+          "night_extension": true,
+          "origin_dates": [
+            "14-09-1982"
+          ]
         },
         "19-09-1982": {
           "source": "depot101",
-          "programs_count": 49
+          "programs_count": 49,
+          "night_extension": false,
+          "origin_dates": [
+            "19-09-1982"
+          ]
         },
         "20-09-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "19-09-1982"
+          ]
         },
         "03-10-1982": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "03-10-1982"
+          ]
         },
         "16-11-1982": {
           "source": "depot101",
-          "programs_count": 48
+          "programs_count": 48,
+          "night_extension": false,
+          "origin_dates": [
+            "16-11-1982"
+          ]
         },
         "17-11-1982": {
           "source": "depot101",
-          "programs_count": 53
+          "programs_count": 53,
+          "night_extension": true,
+          "origin_dates": [
+            "16-11-1982",
+            "17-11-1982"
+          ]
         },
         "20-11-1982": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 54,
+          "night_extension": false,
+          "origin_dates": [
+            "20-11-1982"
+          ]
         },
         "21-11-1982": {
           "source": "depot101",
-          "programs_count": 45
+          "programs_count": 45,
+          "night_extension": false,
+          "origin_dates": [
+            "21-11-1982"
+          ]
         },
         "01-12-1982": {
           "source": "depot101",
-          "programs_count": 51
+          "programs_count": 51,
+          "night_extension": false,
+          "origin_dates": [
+            "01-12-1982"
+          ]
         },
         "02-12-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "02-12-1982"
+          ]
         },
         "03-12-1982": {
           "source": "depot101",
-          "programs_count": 53
+          "programs_count": 53,
+          "night_extension": false,
+          "origin_dates": [
+            "03-12-1982"
+          ]
         },
         "04-12-1982": {
           "source": "depot101",
-          "programs_count": 1
+          "programs_count": 1,
+          "night_extension": true,
+          "origin_dates": [
+            "03-12-1982"
+          ]
         },
         "25-12-1982": {
           "source": "depot101",
-          "programs_count": 34
+          "programs_count": 34,
+          "night_extension": false,
+          "origin_dates": [
+            "25-12-1982"
+          ]
         },
         "26-12-1982": {
           "source": "depot101",
-          "programs_count": 33
+          "programs_count": 33,
+          "night_extension": false,
+          "origin_dates": [
+            "26-12-1982"
+          ]
         },
         "27-12-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 53,
+          "night_extension": true,
+          "origin_dates": [
+            "26-12-1982",
+            "27-12-1982"
+          ]
         },
         "28-12-1982": {
           "source": "depot101",
-          "programs_count": 58
+          "programs_count": 61,
+          "night_extension": true,
+          "origin_dates": [
+            "27-12-1982",
+            "28-12-1982"
+          ]
         },
         "29-12-1982": {
           "source": "depot101",
-          "programs_count": 65
+          "programs_count": 57,
+          "night_extension": false,
+          "origin_dates": [
+            "29-12-1982"
+          ]
         },
         "30-12-1982": {
           "source": "depot101",
-          "programs_count": 52
+          "programs_count": 52,
+          "night_extension": false,
+          "origin_dates": [
+            "30-12-1982"
+          ]
         },
         "31-12-1982": {
           "source": "depot101",
-          "programs_count": 47
+          "programs_count": 47,
+          "night_extension": false,
+          "origin_dates": [
+            "31-12-1982"
+          ]
         }
       }
     },
@@ -721,7 +1434,11 @@
       "dates": {
         "01-01-1983": {
           "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "31-12-1982"
+          ]
         }
       }
     },
@@ -730,1659 +1447,2797 @@
       "dates": {
         "01-01-1985": {
           "source": "depot101",
-          "programs_count": 59
+          "programs_count": 59,
+          "night_extension": false,
+          "origin_dates": [
+            "01-01-1985"
+          ]
         },
         "02-01-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "01-01-1985"
+          ]
         },
         "05-01-1985": {
           "source": "depot101",
-          "programs_count": 74
+          "programs_count": 74,
+          "night_extension": false,
+          "origin_dates": [
+            "05-01-1985"
+          ]
         },
         "06-01-1985": {
           "source": "depot101",
-          "programs_count": 41
+          "programs_count": 41,
+          "night_extension": true,
+          "origin_dates": [
+            "05-01-1985",
+            "06-01-1985"
+          ]
         },
         "07-01-1985": {
           "source": "depot101",
-          "programs_count": 71
+          "programs_count": 71,
+          "night_extension": true,
+          "origin_dates": [
+            "06-01-1985",
+            "07-01-1985"
+          ]
         },
         "08-01-1985": {
           "source": "depot101",
-          "programs_count": 71
+          "programs_count": 71,
+          "night_extension": true,
+          "origin_dates": [
+            "07-01-1985",
+            "08-01-1985"
+          ]
         },
         "09-01-1985": {
           "source": "depot101",
-          "programs_count": 73
+          "programs_count": 73,
+          "night_extension": true,
+          "origin_dates": [
+            "08-01-1985",
+            "09-01-1985"
+          ]
         },
         "10-01-1985": {
           "source": "depot101",
-          "programs_count": 64
+          "programs_count": 64,
+          "night_extension": true,
+          "origin_dates": [
+            "09-01-1985",
+            "10-01-1985"
+          ]
         },
         "11-01-1985": {
           "source": "depot101",
-          "programs_count": 69
+          "programs_count": 69,
+          "night_extension": true,
+          "origin_dates": [
+            "10-01-1985",
+            "11-01-1985"
+          ]
         },
         "12-01-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "11-01-1985"
+          ]
         },
         "21-01-1985": {
           "source": "depot101",
-          "programs_count": 71
+          "programs_count": 71,
+          "night_extension": false,
+          "origin_dates": [
+            "21-01-1985"
+          ]
         },
         "22-01-1985": {
           "source": "depot101",
-          "programs_count": 3
+          "programs_count": 3,
+          "night_extension": true,
+          "origin_dates": [
+            "21-01-1985"
+          ]
         },
         "26-01-1985": {
           "source": "depot101",
-          "programs_count": 85
+          "programs_count": 86,
+          "night_extension": false,
+          "origin_dates": [
+            "26-01-1985"
+          ]
         },
         "27-01-1985": {
           "source": "depot101",
-          "programs_count": 75
+          "programs_count": 74,
+          "night_extension": true,
+          "origin_dates": [
+            "26-01-1985",
+            "27-01-1985"
+          ]
         },
         "28-01-1985": {
           "source": "depot101",
-          "programs_count": 74
+          "programs_count": 74,
+          "night_extension": true,
+          "origin_dates": [
+            "27-01-1985",
+            "28-01-1985"
+          ]
         },
         "29-01-1985": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "28-01-1985"
+          ]
         },
         "02-02-1985": {
           "source": "depot101",
-          "programs_count": 81
+          "programs_count": 81,
+          "night_extension": false,
+          "origin_dates": [
+            "02-02-1985"
+          ]
         },
         "03-02-1985": {
           "source": "depot101",
-          "programs_count": 10
+          "programs_count": 10,
+          "night_extension": true,
+          "origin_dates": [
+            "02-02-1985"
+          ]
         },
         "04-02-1985": {
           "source": "depot101",
-          "programs_count": 72
+          "programs_count": 72,
+          "night_extension": false,
+          "origin_dates": [
+            "04-02-1985"
+          ]
         },
         "05-02-1985": {
           "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "04-02-1985"
+          ]
         },
         "10-02-1985": {
           "source": "depot101",
-          "programs_count": 70
+          "programs_count": 70,
+          "night_extension": false,
+          "origin_dates": [
+            "10-02-1985"
+          ]
         },
         "11-02-1985": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 79,
+          "night_extension": true,
+          "origin_dates": [
+            "10-02-1985",
+            "11-02-1985"
+          ]
         },
         "12-02-1985": {
           "source": "depot101",
-          "programs_count": 86
+          "programs_count": 86,
+          "night_extension": true,
+          "origin_dates": [
+            "11-02-1985",
+            "12-02-1985"
+          ]
         },
         "13-02-1985": {
           "source": "depot101",
-          "programs_count": 92
+          "programs_count": 92,
+          "night_extension": true,
+          "origin_dates": [
+            "12-02-1985",
+            "13-02-1985"
+          ]
         },
         "14-02-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "13-02-1985"
+          ]
         },
         "16-02-1985": {
           "source": "depot101",
-          "programs_count": 85
+          "programs_count": 85,
+          "night_extension": false,
+          "origin_dates": [
+            "16-02-1985"
+          ]
         },
         "17-02-1985": {
           "source": "depot101",
-          "programs_count": 76
+          "programs_count": 76,
+          "night_extension": true,
+          "origin_dates": [
+            "16-02-1985",
+            "17-02-1985"
+          ]
         },
         "18-02-1985": {
           "source": "depot101",
-          "programs_count": 81
+          "programs_count": 81,
+          "night_extension": true,
+          "origin_dates": [
+            "17-02-1985",
+            "18-02-1985"
+          ]
         },
         "19-02-1985": {
           "source": "depot101",
-          "programs_count": 82
+          "programs_count": 82,
+          "night_extension": true,
+          "origin_dates": [
+            "18-02-1985",
+            "19-02-1985"
+          ]
         },
         "20-02-1985": {
           "source": "depot101",
-          "programs_count": 82
+          "programs_count": 82,
+          "night_extension": true,
+          "origin_dates": [
+            "19-02-1985",
+            "20-02-1985"
+          ]
         },
         "21-02-1985": {
           "source": "depot101",
-          "programs_count": 82
+          "programs_count": 82,
+          "night_extension": true,
+          "origin_dates": [
+            "20-02-1985",
+            "21-02-1985"
+          ]
         },
         "22-02-1985": {
           "source": "depot101",
-          "programs_count": 84
+          "programs_count": 84,
+          "night_extension": true,
+          "origin_dates": [
+            "21-02-1985",
+            "22-02-1985"
+          ]
         },
         "23-02-1985": {
           "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "22-02-1985"
+          ]
         },
         "25-02-1985": {
           "source": "depot101",
-          "programs_count": 82
+          "programs_count": 82,
+          "night_extension": false,
+          "origin_dates": [
+            "25-02-1985"
+          ]
         },
         "26-02-1985": {
           "source": "depot101",
-          "programs_count": 3
+          "programs_count": 3,
+          "night_extension": true,
+          "origin_dates": [
+            "25-02-1985"
+          ]
         },
         "01-03-1985": {
           "source": "depot101",
-          "programs_count": 74
+          "programs_count": 74,
+          "night_extension": false,
+          "origin_dates": [
+            "01-03-1985"
+          ]
         },
         "02-03-1985": {
           "source": "depot101",
-          "programs_count": 84
+          "programs_count": 84,
+          "night_extension": true,
+          "origin_dates": [
+            "01-03-1985",
+            "02-03-1985"
+          ]
         },
         "03-03-1985": {
           "source": "depot101",
-          "programs_count": 42
+          "programs_count": 42,
+          "night_extension": true,
+          "origin_dates": [
+            "02-03-1985",
+            "03-03-1985"
+          ]
         },
         "04-03-1985": {
           "source": "depot101",
-          "programs_count": 72
+          "programs_count": 72,
+          "night_extension": true,
+          "origin_dates": [
+            "03-03-1985",
+            "04-03-1985"
+          ]
         },
         "05-03-1985": {
           "source": "depot101",
-          "programs_count": 70
+          "programs_count": 70,
+          "night_extension": true,
+          "origin_dates": [
+            "04-03-1985",
+            "05-03-1985"
+          ]
         },
         "06-03-1985": {
           "source": "depot101",
-          "programs_count": 77
+          "programs_count": 77,
+          "night_extension": true,
+          "origin_dates": [
+            "05-03-1985",
+            "06-03-1985"
+          ]
         },
         "07-03-1985": {
           "source": "depot101",
-          "programs_count": 66
+          "programs_count": 76,
+          "night_extension": true,
+          "origin_dates": [
+            "06-03-1985",
+            "07-03-1985"
+          ]
         },
         "08-03-1985": {
           "source": "depot101",
-          "programs_count": 10
-        },
-        "09-03-1985": {
-          "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "07-03-1985"
+          ]
         },
         "13-03-1985": {
           "source": "depot101",
-          "programs_count": 86
+          "programs_count": 86,
+          "night_extension": false,
+          "origin_dates": [
+            "13-03-1985"
+          ]
         },
         "14-03-1985": {
           "source": "depot101",
-          "programs_count": 3
+          "programs_count": 3,
+          "night_extension": true,
+          "origin_dates": [
+            "13-03-1985"
+          ]
         },
         "05-04-1985": {
           "source": "depot101",
-          "programs_count": 59
+          "programs_count": 59,
+          "night_extension": false,
+          "origin_dates": [
+            "05-04-1985"
+          ]
         },
         "11-04-1985": {
           "source": "depot101",
-          "programs_count": 71
+          "programs_count": 71,
+          "night_extension": false,
+          "origin_dates": [
+            "11-04-1985"
+          ]
         },
         "12-04-1985": {
           "source": "depot101",
-          "programs_count": 3
+          "programs_count": 3,
+          "night_extension": true,
+          "origin_dates": [
+            "11-04-1985"
+          ]
         },
         "25-04-1985": {
           "source": "depot101",
-          "programs_count": 72
+          "programs_count": 72,
+          "night_extension": false,
+          "origin_dates": [
+            "25-04-1985"
+          ]
         },
         "26-04-1985": {
           "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "25-04-1985"
+          ]
         },
         "08-06-1985": {
           "source": "depot101",
-          "programs_count": 69
+          "programs_count": 69,
+          "night_extension": false,
+          "origin_dates": [
+            "08-06-1985"
+          ]
         },
         "09-06-1985": {
           "source": "depot101",
-          "programs_count": 7
+          "programs_count": 7,
+          "night_extension": true,
+          "origin_dates": [
+            "08-06-1985"
+          ]
         },
         "01-07-1985": {
           "source": "depot101",
-          "programs_count": 73
+          "programs_count": 73,
+          "night_extension": false,
+          "origin_dates": [
+            "01-07-1985"
+          ]
         },
         "02-07-1985": {
           "source": "depot101",
-          "programs_count": 2
+          "programs_count": 2,
+          "night_extension": true,
+          "origin_dates": [
+            "01-07-1985"
+          ]
         },
         "08-07-1985": {
           "source": "depot101",
-          "programs_count": 73
+          "programs_count": 73,
+          "night_extension": false,
+          "origin_dates": [
+            "08-07-1985"
+          ]
         },
         "09-07-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "08-07-1985"
+          ]
         },
         "02-08-1985": {
           "source": "depot101",
-          "programs_count": 81
+          "programs_count": 81,
+          "night_extension": false,
+          "origin_dates": [
+            "02-08-1985"
+          ]
         },
         "03-08-1985": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "02-08-1985"
+          ]
         },
         "22-08-1985": {
           "source": "depot101",
-          "programs_count": 50
+          "programs_count": 50,
+          "night_extension": false,
+          "origin_dates": [
+            "22-08-1985"
+          ]
         },
         "10-09-1985": {
           "source": "depot101",
-          "programs_count": 90
+          "programs_count": 90,
+          "night_extension": false,
+          "origin_dates": [
+            "10-09-1985"
+          ]
         },
         "11-09-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "10-09-1985"
+          ]
         },
         "17-09-1985": {
           "source": "depot101",
-          "programs_count": 86
+          "programs_count": 86,
+          "night_extension": false,
+          "origin_dates": [
+            "17-09-1985"
+          ]
         },
         "18-09-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "17-09-1985"
+          ]
         },
         "07-10-1985": {
           "source": "depot101",
-          "programs_count": 86
+          "programs_count": 86,
+          "night_extension": false,
+          "origin_dates": [
+            "07-10-1985"
+          ]
         },
         "08-10-1985": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "07-10-1985"
+          ]
         },
         "05-11-1985": {
           "source": "depot101",
-          "programs_count": 91
+          "programs_count": 91,
+          "night_extension": false,
+          "origin_dates": [
+            "05-11-1985"
+          ]
         },
         "06-11-1985": {
           "source": "depot101",
-          "programs_count": 3
+          "programs_count": 3,
+          "night_extension": true,
+          "origin_dates": [
+            "05-11-1985"
+          ]
         },
         "25-11-1985": {
           "source": "depot101",
-          "programs_count": 95
+          "programs_count": 95,
+          "night_extension": false,
+          "origin_dates": [
+            "25-11-1985"
+          ]
         },
         "26-11-1985": {
           "source": "depot101",
-          "programs_count": 95
+          "programs_count": 95,
+          "night_extension": true,
+          "origin_dates": [
+            "25-11-1985",
+            "26-11-1985"
+          ]
         },
         "27-11-1985": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "26-11-1985"
+          ]
         },
         "03-12-1985": {
           "source": "depot101",
-          "programs_count": 88
+          "programs_count": 88,
+          "night_extension": false,
+          "origin_dates": [
+            "03-12-1985"
+          ]
         },
         "04-12-1985": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "03-12-1985"
+          ]
         },
         "12-12-1985": {
           "source": "depot101",
-          "programs_count": 91
+          "programs_count": 91,
+          "night_extension": false,
+          "origin_dates": [
+            "12-12-1985"
+          ]
         },
         "13-12-1985": {
           "source": "depot101",
-          "programs_count": 100
+          "programs_count": 100,
+          "night_extension": true,
+          "origin_dates": [
+            "12-12-1985",
+            "13-12-1985"
+          ]
         },
         "14-12-1985": {
           "source": "depot101",
-          "programs_count": 89
+          "programs_count": 89,
+          "night_extension": true,
+          "origin_dates": [
+            "13-12-1985",
+            "14-12-1985"
+          ]
         },
         "15-12-1985": {
           "source": "depot101",
-          "programs_count": 9
+          "programs_count": 9,
+          "night_extension": true,
+          "origin_dates": [
+            "14-12-1985"
+          ]
         },
         "30-12-1985": {
           "source": "depot101",
-          "programs_count": 93
+          "programs_count": 93,
+          "night_extension": false,
+          "origin_dates": [
+            "30-12-1985"
+          ]
         },
         "31-12-1985": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "30-12-1985"
+          ]
         }
       }
     },
     "1986": {
-      "total_programs": 8601,
+      "total_programs": 8489,
       "dates": {
         "01-01-1986": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 79,
+          "night_extension": false,
+          "origin_dates": [
+            "01-01-1986"
+          ]
         },
         "02-01-1986": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "01-01-1986"
+          ]
         },
         "04-01-1986": {
           "source": "depot101",
-          "programs_count": 82
+          "programs_count": 82,
+          "night_extension": false,
+          "origin_dates": [
+            "04-01-1986"
+          ]
         },
         "05-01-1986": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 79,
+          "night_extension": true,
+          "origin_dates": [
+            "04-01-1986",
+            "05-01-1986"
+          ]
         },
         "06-01-1986": {
           "source": "depot101",
-          "programs_count": 96
+          "programs_count": 96,
+          "night_extension": true,
+          "origin_dates": [
+            "05-01-1986",
+            "06-01-1986"
+          ]
         },
         "07-01-1986": {
           "source": "depot101",
-          "programs_count": 90
+          "programs_count": 90,
+          "night_extension": true,
+          "origin_dates": [
+            "06-01-1986",
+            "07-01-1986"
+          ]
         },
         "08-01-1986": {
           "source": "depot101",
-          "programs_count": 97
+          "programs_count": 97,
+          "night_extension": true,
+          "origin_dates": [
+            "07-01-1986",
+            "08-01-1986"
+          ]
         },
         "09-01-1986": {
           "source": "depot101",
-          "programs_count": 97
+          "programs_count": 97,
+          "night_extension": true,
+          "origin_dates": [
+            "08-01-1986",
+            "09-01-1986"
+          ]
         },
         "10-01-1986": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 98,
+          "night_extension": true,
+          "origin_dates": [
+            "09-01-1986",
+            "10-01-1986"
+          ]
         },
         "11-01-1986": {
           "source": "depot101",
-          "programs_count": 8
+          "programs_count": 8,
+          "night_extension": true,
+          "origin_dates": [
+            "10-01-1986"
+          ]
         },
         "21-01-1986": {
           "source": "depot101",
-          "programs_count": 90
+          "programs_count": 90,
+          "night_extension": false,
+          "origin_dates": [
+            "21-01-1986"
+          ]
         },
         "22-01-1986": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "21-01-1986"
+          ]
         },
         "28-01-1986": {
           "source": "depot101",
-          "programs_count": 93
+          "programs_count": 93,
+          "night_extension": false,
+          "origin_dates": [
+            "28-01-1986"
+          ]
         },
         "29-01-1986": {
           "source": "depot101",
-          "programs_count": 5
+          "programs_count": 5,
+          "night_extension": true,
+          "origin_dates": [
+            "28-01-1986"
+          ]
         },
         "13-02-1986": {
           "source": "depot101",
-          "programs_count": 89
+          "programs_count": 89,
+          "night_extension": false,
+          "origin_dates": [
+            "13-02-1986"
+          ]
         },
         "14-02-1986": {
           "source": "depot101",
-          "programs_count": 92
+          "programs_count": 92,
+          "night_extension": true,
+          "origin_dates": [
+            "13-02-1986",
+            "14-02-1986"
+          ]
         },
         "15-02-1986": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "14-02-1986"
+          ]
         },
         "20-02-1986": {
           "source": "depot101",
-          "programs_count": 92
+          "programs_count": 92,
+          "night_extension": false,
+          "origin_dates": [
+            "20-02-1986"
+          ]
         },
         "21-02-1986": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 102,
+          "night_extension": true,
+          "origin_dates": [
+            "20-02-1986",
+            "21-02-1986"
+          ]
         },
         "22-02-1986": {
           "source": "depot101",
-          "programs_count": 9
+          "programs_count": 9,
+          "night_extension": true,
+          "origin_dates": [
+            "21-02-1986"
+          ]
         },
         "25-02-1986": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 111,
+          "night_extension": false,
+          "origin_dates": [
+            "25-02-1986"
+          ]
         },
         "26-02-1986": {
           "source": "depot101",
-          "programs_count": 61
-        },
-        "27-02-1986": {
-          "source": "depot101",
-          "programs_count": 1
+          "programs_count": 17,
+          "night_extension": true,
+          "origin_dates": [
+            "25-02-1986"
+          ]
         },
         "03-03-1986": {
           "source": "depot101",
-          "programs_count": 77
+          "programs_count": 77,
+          "night_extension": false,
+          "origin_dates": [
+            "03-03-1986"
+          ]
         },
         "04-03-1986": {
           "source": "depot101",
-          "programs_count": 4
+          "programs_count": 4,
+          "night_extension": true,
+          "origin_dates": [
+            "03-03-1986"
+          ]
         },
         "17-03-1986": {
           "source": "depot101",
-          "programs_count": 112
+          "programs_count": 112,
+          "night_extension": false,
+          "origin_dates": [
+            "17-03-1986"
+          ]
         },
         "18-03-1986": {
           "source": "depot101",
-          "programs_count": 8
+          "programs_count": 8,
+          "night_extension": true,
+          "origin_dates": [
+            "17-03-1986"
+          ]
         },
         "24-03-1986": {
           "source": "depot101",
-          "programs_count": 116
+          "programs_count": 116,
+          "night_extension": false,
+          "origin_dates": [
+            "24-03-1986"
+          ]
         },
         "25-03-1986": {
           "source": "depot101",
-          "programs_count": 10
+          "programs_count": 10,
+          "night_extension": true,
+          "origin_dates": [
+            "24-03-1986"
+          ]
         },
         "29-03-1986": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 98,
+          "night_extension": false,
+          "origin_dates": [
+            "29-03-1986"
+          ]
         },
         "30-03-1986": {
           "source": "depot101",
-          "programs_count": 11
+          "programs_count": 11,
+          "night_extension": true,
+          "origin_dates": [
+            "29-03-1986"
+          ]
         },
         "31-03-1986": {
           "source": "depot101",
-          "programs_count": 106
+          "programs_count": 106,
+          "night_extension": false,
+          "origin_dates": [
+            "31-03-1986"
+          ]
         },
         "01-04-1986": {
           "source": "depot101",
-          "programs_count": 105
+          "programs_count": 105,
+          "night_extension": true,
+          "origin_dates": [
+            "01-04-1986",
+            "31-03-1986"
+          ]
         },
         "02-04-1986": {
           "source": "depot101",
-          "programs_count": 7
+          "programs_count": 7,
+          "night_extension": true,
+          "origin_dates": [
+            "01-04-1986"
+          ]
         },
         "03-04-1986": {
           "source": "depot101",
-          "programs_count": 55
+          "programs_count": 55,
+          "night_extension": false,
+          "origin_dates": [
+            "03-04-1986"
+          ]
         },
         "04-04-1986": {
           "source": "depot101",
-          "programs_count": 103
+          "programs_count": 103,
+          "night_extension": false,
+          "origin_dates": [
+            "04-04-1986"
+          ]
         },
         "05-04-1986": {
           "source": "depot101",
-          "programs_count": 115
+          "programs_count": 115,
+          "night_extension": true,
+          "origin_dates": [
+            "04-04-1986",
+            "05-04-1986"
+          ]
         },
         "06-04-1986": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 98,
+          "night_extension": true,
+          "origin_dates": [
+            "05-04-1986",
+            "06-04-1986"
+          ]
         },
         "07-04-1986": {
           "source": "depot101",
-          "programs_count": 121
+          "programs_count": 121,
+          "night_extension": true,
+          "origin_dates": [
+            "06-04-1986",
+            "07-04-1986"
+          ]
         },
         "08-04-1986": {
           "source": "depot101",
-          "programs_count": 125
+          "programs_count": 125,
+          "night_extension": true,
+          "origin_dates": [
+            "07-04-1986",
+            "08-04-1986"
+          ]
         },
         "09-04-1986": {
           "source": "depot101",
-          "programs_count": 119
+          "programs_count": 119,
+          "night_extension": true,
+          "origin_dates": [
+            "08-04-1986",
+            "09-04-1986"
+          ]
         },
         "10-04-1986": {
           "source": "depot101",
-          "programs_count": 75
+          "programs_count": 75,
+          "night_extension": true,
+          "origin_dates": [
+            "09-04-1986",
+            "10-04-1986"
+          ]
         },
         "11-04-1986": {
           "source": "depot101",
-          "programs_count": 117
+          "programs_count": 117,
+          "night_extension": false,
+          "origin_dates": [
+            "11-04-1986"
+          ]
         },
         "12-04-1986": {
           "source": "depot101",
-          "programs_count": 11
+          "programs_count": 11,
+          "night_extension": true,
+          "origin_dates": [
+            "11-04-1986"
+          ]
         },
         "31-05-1986": {
           "source": "depot101",
-          "programs_count": 95
+          "programs_count": 95,
+          "night_extension": false,
+          "origin_dates": [
+            "31-05-1986"
+          ]
         },
         "01-06-1986": {
           "source": "depot101",
-          "programs_count": 103
+          "programs_count": 103,
+          "night_extension": true,
+          "origin_dates": [
+            "01-06-1986",
+            "31-05-1986"
+          ]
         },
         "02-06-1986": {
           "source": "depot101",
-          "programs_count": 119
+          "programs_count": 119,
+          "night_extension": true,
+          "origin_dates": [
+            "01-06-1986",
+            "02-06-1986"
+          ]
         },
         "03-06-1986": {
           "source": "depot101",
-          "programs_count": 122
+          "programs_count": 122,
+          "night_extension": true,
+          "origin_dates": [
+            "02-06-1986",
+            "03-06-1986"
+          ]
         },
         "04-06-1986": {
           "source": "depot101",
-          "programs_count": 122
+          "programs_count": 122,
+          "night_extension": true,
+          "origin_dates": [
+            "03-06-1986",
+            "04-06-1986"
+          ]
         },
         "05-06-1986": {
           "source": "depot101",
-          "programs_count": 125
+          "programs_count": 125,
+          "night_extension": true,
+          "origin_dates": [
+            "04-06-1986",
+            "05-06-1986"
+          ]
         },
         "06-06-1986": {
           "source": "depot101",
-          "programs_count": 121
+          "programs_count": 121,
+          "night_extension": true,
+          "origin_dates": [
+            "05-06-1986",
+            "06-06-1986"
+          ]
         },
         "07-06-1986": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 102,
+          "night_extension": true,
+          "origin_dates": [
+            "06-06-1986",
+            "07-06-1986"
+          ]
         },
         "08-06-1986": {
           "source": "depot101",
-          "programs_count": 101
+          "programs_count": 101,
+          "night_extension": true,
+          "origin_dates": [
+            "07-06-1986",
+            "08-06-1986"
+          ]
         },
         "09-06-1986": {
           "source": "depot101",
-          "programs_count": 105
+          "programs_count": 105,
+          "night_extension": true,
+          "origin_dates": [
+            "08-06-1986",
+            "09-06-1986"
+          ]
         },
         "10-06-1986": {
           "source": "depot101",
-          "programs_count": 111
+          "programs_count": 111,
+          "night_extension": true,
+          "origin_dates": [
+            "09-06-1986",
+            "10-06-1986"
+          ]
         },
         "11-06-1986": {
           "source": "depot101",
-          "programs_count": 106
+          "programs_count": 106,
+          "night_extension": true,
+          "origin_dates": [
+            "10-06-1986",
+            "11-06-1986"
+          ]
         },
         "12-06-1986": {
           "source": "depot101",
-          "programs_count": 119
+          "programs_count": 120,
+          "night_extension": true,
+          "origin_dates": [
+            "11-06-1986",
+            "12-06-1986"
+          ]
         },
         "13-06-1986": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 119,
+          "night_extension": true,
+          "origin_dates": [
+            "12-06-1986",
+            "13-06-1986"
+          ]
         },
         "14-06-1986": {
           "source": "depot101",
-          "programs_count": 135
+          "programs_count": 119,
+          "night_extension": true,
+          "origin_dates": [
+            "13-06-1986",
+            "14-06-1986"
+          ]
         },
         "15-06-1986": {
           "source": "depot101",
-          "programs_count": 112
+          "programs_count": 102,
+          "night_extension": true,
+          "origin_dates": [
+            "14-06-1986",
+            "15-06-1986"
+          ]
         },
         "16-06-1986": {
           "source": "depot101",
-          "programs_count": 123
+          "programs_count": 114,
+          "night_extension": true,
+          "origin_dates": [
+            "14-06-1986",
+            "15-06-1986",
+            "16-06-1986"
+          ]
         },
         "17-06-1986": {
           "source": "depot101",
-          "programs_count": 113
+          "programs_count": 111,
+          "night_extension": true,
+          "origin_dates": [
+            "16-06-1986",
+            "17-06-1986"
+          ]
         },
         "18-06-1986": {
           "source": "depot101",
-          "programs_count": 12
+          "programs_count": 12,
+          "night_extension": true,
+          "origin_dates": [
+            "17-06-1986"
+          ]
         },
         "19-06-1986": {
           "source": "depot101",
-          "programs_count": 104
+          "programs_count": 104,
+          "night_extension": false,
+          "origin_dates": [
+            "19-06-1986"
+          ]
         },
         "20-06-1986": {
           "source": "depot101",
-          "programs_count": 108
+          "programs_count": 108,
+          "night_extension": true,
+          "origin_dates": [
+            "19-06-1986",
+            "20-06-1986"
+          ]
         },
         "21-06-1986": {
           "source": "depot101",
-          "programs_count": 111
+          "programs_count": 111,
+          "night_extension": true,
+          "origin_dates": [
+            "20-06-1986",
+            "21-06-1986"
+          ]
         },
         "22-06-1986": {
           "source": "depot101",
-          "programs_count": 87
+          "programs_count": 99,
+          "night_extension": true,
+          "origin_dates": [
+            "21-06-1986",
+            "22-06-1986"
+          ]
         },
         "23-06-1986": {
           "source": "depot101",
-          "programs_count": 121
+          "programs_count": 110,
+          "night_extension": true,
+          "origin_dates": [
+            "22-06-1986",
+            "23-06-1986"
+          ]
         },
         "24-06-1986": {
           "source": "depot101",
-          "programs_count": 85
+          "programs_count": 96,
+          "night_extension": true,
+          "origin_dates": [
+            "23-06-1986",
+            "24-06-1986"
+          ]
         },
         "25-06-1986": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 103,
+          "night_extension": true,
+          "origin_dates": [
+            "24-06-1986",
+            "25-06-1986"
+          ]
         },
         "26-06-1986": {
           "source": "depot101",
-          "programs_count": 107
+          "programs_count": 106,
+          "night_extension": true,
+          "origin_dates": [
+            "25-06-1986",
+            "26-06-1986"
+          ]
         },
         "27-06-1986": {
           "source": "depot101",
-          "programs_count": 129
+          "programs_count": 116,
+          "night_extension": true,
+          "origin_dates": [
+            "26-06-1986",
+            "27-06-1986"
+          ]
         },
         "28-06-1986": {
           "source": "depot101",
-          "programs_count": 111
+          "programs_count": 108,
+          "night_extension": true,
+          "origin_dates": [
+            "27-06-1986",
+            "28-06-1986"
+          ]
         },
         "29-06-1986": {
           "source": "depot101",
-          "programs_count": 97
+          "programs_count": 97,
+          "night_extension": true,
+          "origin_dates": [
+            "28-06-1986",
+            "29-06-1986"
+          ]
         },
         "30-06-1986": {
           "source": "depot101",
-          "programs_count": 107
+          "programs_count": 107,
+          "night_extension": true,
+          "origin_dates": [
+            "29-06-1986",
+            "30-06-1986"
+          ]
         },
         "01-07-1986": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 102,
+          "night_extension": true,
+          "origin_dates": [
+            "01-07-1986",
+            "30-06-1986"
+          ]
         },
         "02-07-1986": {
           "source": "depot101",
-          "programs_count": 7
+          "programs_count": 7,
+          "night_extension": true,
+          "origin_dates": [
+            "01-07-1986"
+          ]
         },
         "02-08-1986": {
           "source": "depot101",
-          "programs_count": 103
+          "programs_count": 103,
+          "night_extension": false,
+          "origin_dates": [
+            "02-08-1986"
+          ]
         },
         "03-08-1986": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 81,
+          "night_extension": true,
+          "origin_dates": [
+            "02-08-1986",
+            "03-08-1986"
+          ]
         },
         "04-08-1986": {
           "source": "depot101",
-          "programs_count": 108
+          "programs_count": 107,
+          "night_extension": true,
+          "origin_dates": [
+            "03-08-1986",
+            "04-08-1986"
+          ]
         },
         "05-08-1986": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "04-08-1986"
+          ]
         },
         "08-09-1986": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 98,
+          "night_extension": false,
+          "origin_dates": [
+            "08-09-1986"
+          ]
         },
         "09-09-1986": {
           "source": "depot101",
-          "programs_count": 6
+          "programs_count": 6,
+          "night_extension": true,
+          "origin_dates": [
+            "08-09-1986"
+          ]
         },
         "18-10-1986": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 102,
+          "night_extension": false,
+          "origin_dates": [
+            "18-10-1986"
+          ]
         },
         "19-10-1986": {
           "source": "depot101",
-          "programs_count": 13
+          "programs_count": 13,
+          "night_extension": true,
+          "origin_dates": [
+            "18-10-1986"
+          ]
         },
         "21-10-1986": {
           "source": "depot101",
-          "programs_count": 113
+          "programs_count": 113,
+          "night_extension": false,
+          "origin_dates": [
+            "21-10-1986"
+          ]
         },
         "22-10-1986": {
           "source": "depot101",
-          "programs_count": 123
+          "programs_count": 123,
+          "night_extension": true,
+          "origin_dates": [
+            "21-10-1986",
+            "22-10-1986"
+          ]
         },
         "23-10-1986": {
           "source": "depot101",
-          "programs_count": 125
+          "programs_count": 125,
+          "night_extension": true,
+          "origin_dates": [
+            "22-10-1986",
+            "23-10-1986"
+          ]
         },
         "24-10-1986": {
           "source": "depot101",
-          "programs_count": 121
+          "programs_count": 121,
+          "night_extension": true,
+          "origin_dates": [
+            "23-10-1986",
+            "24-10-1986"
+          ]
         },
         "25-10-1986": {
           "source": "depot101",
-          "programs_count": 14
+          "programs_count": 14,
+          "night_extension": true,
+          "origin_dates": [
+            "24-10-1986"
+          ]
         },
         "05-11-1986": {
           "source": "depot101",
-          "programs_count": 109
+          "programs_count": 109,
+          "night_extension": false,
+          "origin_dates": [
+            "05-11-1986"
+          ]
         },
         "06-11-1986": {
           "source": "depot101",
-          "programs_count": 12
+          "programs_count": 12,
+          "night_extension": true,
+          "origin_dates": [
+            "05-11-1986"
+          ]
         },
         "27-11-1986": {
           "source": "depot101",
-          "programs_count": 114
+          "programs_count": 114,
+          "night_extension": false,
+          "origin_dates": [
+            "27-11-1986"
+          ]
         },
         "28-11-1986": {
           "source": "depot101",
-          "programs_count": 8
+          "programs_count": 8,
+          "night_extension": true,
+          "origin_dates": [
+            "27-11-1986"
+          ]
         },
         "08-12-1986": {
           "source": "depot101",
-          "programs_count": 112
+          "programs_count": 112,
+          "night_extension": false,
+          "origin_dates": [
+            "08-12-1986"
+          ]
         },
         "09-12-1986": {
           "source": "depot101",
-          "programs_count": 13
+          "programs_count": 13,
+          "night_extension": true,
+          "origin_dates": [
+            "08-12-1986"
+          ]
         },
         "24-12-1986": {
           "source": "depot101",
-          "programs_count": 97
+          "programs_count": 97,
+          "night_extension": false,
+          "origin_dates": [
+            "24-12-1986"
+          ]
         },
         "25-12-1986": {
           "source": "depot101",
-          "programs_count": 100
+          "programs_count": 100,
+          "night_extension": true,
+          "origin_dates": [
+            "24-12-1986",
+            "25-12-1986"
+          ]
         },
         "26-12-1986": {
           "source": "depot101",
-          "programs_count": 117
+          "programs_count": 117,
+          "night_extension": true,
+          "origin_dates": [
+            "25-12-1986",
+            "26-12-1986"
+          ]
         },
         "27-12-1986": {
           "source": "depot101",
-          "programs_count": 107
+          "programs_count": 107,
+          "night_extension": true,
+          "origin_dates": [
+            "26-12-1986",
+            "27-12-1986"
+          ]
         },
         "28-12-1986": {
           "source": "depot101",
-          "programs_count": 100
+          "programs_count": 100,
+          "night_extension": true,
+          "origin_dates": [
+            "27-12-1986",
+            "28-12-1986"
+          ]
         },
         "29-12-1986": {
           "source": "depot101",
-          "programs_count": 127
+          "programs_count": 133,
+          "night_extension": true,
+          "origin_dates": [
+            "28-12-1986",
+            "29-12-1986"
+          ]
         },
         "30-12-1986": {
           "source": "depot101",
-          "programs_count": 55
-        },
-        "31-12-1986": {
-          "source": "depot101",
-          "programs_count": 6
+          "programs_count": 19,
+          "night_extension": true,
+          "origin_dates": [
+            "29-12-1986"
+          ]
         }
       }
     },
     "1987": {
-      "total_programs": 5621,
+      "total_programs": 5470,
       "dates": {
         "03-01-1987": {
           "source": "depot101",
-          "programs_count": 56
+          "programs_count": 86,
+          "night_extension": false,
+          "origin_dates": [
+            "03-01-1987"
+          ]
         },
         "04-01-1987": {
           "source": "depot101",
-          "programs_count": 24
+          "programs_count": 19,
+          "night_extension": true,
+          "origin_dates": [
+            "03-01-1987"
+          ]
         },
         "05-01-1987": {
           "source": "depot101",
-          "programs_count": 91
+          "programs_count": 100,
+          "night_extension": false,
+          "origin_dates": [
+            "05-01-1987"
+          ]
         },
         "06-01-1987": {
           "source": "depot101",
-          "programs_count": 95
+          "programs_count": 111,
+          "night_extension": true,
+          "origin_dates": [
+            "05-01-1987",
+            "06-01-1987"
+          ]
         },
         "07-01-1987": {
           "source": "depot101",
-          "programs_count": 45
-        },
-        "08-01-1987": {
-          "source": "depot101",
-          "programs_count": 34
-        },
-        "09-01-1987": {
-          "source": "depot101",
-          "programs_count": 13
-        },
-        "10-01-1987": {
-          "source": "depot101",
-          "programs_count": 1
+          "programs_count": 20,
+          "night_extension": true,
+          "origin_dates": [
+            "06-01-1987"
+          ]
         },
         "28-01-1987": {
           "source": "depot101",
-          "programs_count": 69
+          "programs_count": 92,
+          "night_extension": false,
+          "origin_dates": [
+            "28-01-1987"
+          ]
         },
         "29-01-1987": {
           "source": "depot101",
-          "programs_count": 24
-        },
-        "30-01-1987": {
-          "source": "depot101",
-          "programs_count": 22
-        },
-        "31-01-1987": {
-          "source": "depot101",
-          "programs_count": 10
-        },
-        "01-02-1987": {
-          "source": "depot101",
-          "programs_count": 2
+          "programs_count": 18,
+          "night_extension": true,
+          "origin_dates": [
+            "28-01-1987"
+          ]
         },
         "06-02-1987": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 102,
+          "night_extension": false,
+          "origin_dates": [
+            "06-02-1987"
+          ]
         },
         "07-02-1987": {
           "source": "depot101",
-          "programs_count": 77
+          "programs_count": 109,
+          "night_extension": true,
+          "origin_dates": [
+            "06-02-1987",
+            "07-02-1987"
+          ]
         },
         "08-02-1987": {
           "source": "depot101",
-          "programs_count": 90
+          "programs_count": 97,
+          "night_extension": true,
+          "origin_dates": [
+            "07-02-1987",
+            "08-02-1987"
+          ]
         },
         "09-02-1987": {
           "source": "depot101",
-          "programs_count": 116
+          "programs_count": 113,
+          "night_extension": true,
+          "origin_dates": [
+            "08-02-1987",
+            "09-02-1987"
+          ]
         },
         "10-02-1987": {
           "source": "depot101",
-          "programs_count": 117
+          "programs_count": 116,
+          "night_extension": true,
+          "origin_dates": [
+            "09-02-1987",
+            "10-02-1987"
+          ]
         },
         "11-02-1987": {
           "source": "depot101",
-          "programs_count": 111
+          "programs_count": 114,
+          "night_extension": true,
+          "origin_dates": [
+            "10-02-1987",
+            "11-02-1987"
+          ]
         },
         "12-02-1987": {
           "source": "depot101",
-          "programs_count": 122
+          "programs_count": 120,
+          "night_extension": true,
+          "origin_dates": [
+            "11-02-1987",
+            "12-02-1987"
+          ]
         },
         "13-02-1987": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 121,
+          "night_extension": true,
+          "origin_dates": [
+            "12-02-1987",
+            "13-02-1987"
+          ]
         },
         "14-02-1987": {
           "source": "depot101",
-          "programs_count": 99
+          "programs_count": 108,
+          "night_extension": true,
+          "origin_dates": [
+            "13-02-1987",
+            "14-02-1987"
+          ]
         },
         "15-02-1987": {
           "source": "depot101",
-          "programs_count": 53
-        },
-        "16-02-1987": {
-          "source": "depot101",
-          "programs_count": 36
-        },
-        "17-02-1987": {
-          "source": "depot101",
-          "programs_count": 13
-        },
-        "18-02-1987": {
-          "source": "depot101",
-          "programs_count": 1
+          "programs_count": 24,
+          "night_extension": true,
+          "origin_dates": [
+            "14-02-1987"
+          ]
         },
         "07-03-1987": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 99,
+          "night_extension": false,
+          "origin_dates": [
+            "07-03-1987"
+          ]
         },
         "08-03-1987": {
           "source": "depot101",
-          "programs_count": 101
+          "programs_count": 116,
+          "night_extension": true,
+          "origin_dates": [
+            "07-03-1987",
+            "08-03-1987"
+          ]
         },
         "09-03-1987": {
           "source": "depot101",
-          "programs_count": 139
+          "programs_count": 142,
+          "night_extension": true,
+          "origin_dates": [
+            "08-03-1987",
+            "09-03-1987"
+          ]
         },
         "10-03-1987": {
           "source": "depot101",
-          "programs_count": 144
+          "programs_count": 141,
+          "night_extension": true,
+          "origin_dates": [
+            "09-03-1987",
+            "10-03-1987"
+          ]
         },
         "11-03-1987": {
           "source": "depot101",
-          "programs_count": 133
+          "programs_count": 135,
+          "night_extension": true,
+          "origin_dates": [
+            "10-03-1987",
+            "11-03-1987"
+          ]
         },
         "12-03-1987": {
           "source": "depot101",
-          "programs_count": 142
+          "programs_count": 142,
+          "night_extension": true,
+          "origin_dates": [
+            "11-03-1987",
+            "12-03-1987"
+          ]
         },
         "13-03-1987": {
           "source": "depot101",
-          "programs_count": 149
+          "programs_count": 144,
+          "night_extension": true,
+          "origin_dates": [
+            "12-03-1987",
+            "13-03-1987"
+          ]
         },
         "14-03-1987": {
           "source": "depot101",
-          "programs_count": 50
-        },
-        "15-03-1987": {
-          "source": "depot101",
-          "programs_count": 29
+          "programs_count": 25,
+          "night_extension": true,
+          "origin_dates": [
+            "13-03-1987"
+          ]
         },
         "16-03-1987": {
           "source": "depot101",
-          "programs_count": 95
+          "programs_count": 112,
+          "night_extension": false,
+          "origin_dates": [
+            "16-03-1987"
+          ]
         },
         "17-03-1987": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 143,
+          "night_extension": true,
+          "origin_dates": [
+            "16-03-1987",
+            "17-03-1987"
+          ]
         },
         "18-03-1987": {
           "source": "depot101",
-          "programs_count": 53
-        },
-        "19-03-1987": {
-          "source": "depot101",
-          "programs_count": 27
-        },
-        "20-03-1987": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 27,
+          "night_extension": true,
+          "origin_dates": [
+            "17-03-1987"
+          ]
         },
         "12-04-1987": {
           "source": "depot101",
-          "programs_count": 64
+          "programs_count": 85,
+          "night_extension": false,
+          "origin_dates": [
+            "12-04-1987"
+          ]
         },
         "13-04-1987": {
           "source": "depot101",
-          "programs_count": 23
-        },
-        "14-04-1987": {
-          "source": "depot101",
-          "programs_count": 23
-        },
-        "15-04-1987": {
-          "source": "depot101",
-          "programs_count": 3
+          "programs_count": 21,
+          "night_extension": true,
+          "origin_dates": [
+            "12-04-1987"
+          ]
         },
         "18-04-1987": {
           "source": "depot101",
-          "programs_count": 74
+          "programs_count": 98,
+          "night_extension": false,
+          "origin_dates": [
+            "18-04-1987"
+          ]
         },
         "19-04-1987": {
           "source": "depot101",
-          "programs_count": 25
-        },
-        "20-04-1987": {
-          "source": "depot101",
-          "programs_count": 26
-        },
-        "21-04-1987": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 25,
+          "night_extension": true,
+          "origin_dates": [
+            "18-04-1987"
+          ]
         },
         "28-04-1987": {
           "source": "depot101",
-          "programs_count": 93
+          "programs_count": 116,
+          "night_extension": false,
+          "origin_dates": [
+            "28-04-1987"
+          ]
         },
         "29-04-1987": {
           "source": "depot101",
-          "programs_count": 29
-        },
-        "30-04-1987": {
-          "source": "depot101",
-          "programs_count": 24
-        },
-        "01-05-1987": {
-          "source": "depot101",
-          "programs_count": 3
+          "programs_count": 23,
+          "night_extension": true,
+          "origin_dates": [
+            "28-04-1987"
+          ]
         },
         "02-06-1987": {
           "source": "depot101",
-          "programs_count": 80
+          "programs_count": 102,
+          "night_extension": false,
+          "origin_dates": [
+            "02-06-1987"
+          ]
         },
         "03-06-1987": {
           "source": "depot101",
-          "programs_count": 99
+          "programs_count": 123,
+          "night_extension": true,
+          "origin_dates": [
+            "02-06-1987",
+            "03-06-1987"
+          ]
         },
         "04-06-1987": {
           "source": "depot101",
-          "programs_count": 118
+          "programs_count": 118,
+          "night_extension": true,
+          "origin_dates": [
+            "03-06-1987",
+            "04-06-1987"
+          ]
         },
         "05-06-1987": {
           "source": "depot101",
-          "programs_count": 119
+          "programs_count": 112,
+          "night_extension": true,
+          "origin_dates": [
+            "04-06-1987",
+            "05-06-1987"
+          ]
         },
         "06-06-1987": {
           "source": "depot101",
-          "programs_count": 51
-        },
-        "07-06-1987": {
-          "source": "depot101",
-          "programs_count": 26
-        },
-        "08-06-1987": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 26,
+          "night_extension": true,
+          "origin_dates": [
+            "05-06-1987"
+          ]
         },
         "07-07-1987": {
           "source": "depot101",
-          "programs_count": 81
+          "programs_count": 106,
+          "night_extension": false,
+          "origin_dates": [
+            "07-07-1987"
+          ]
         },
         "08-07-1987": {
           "source": "depot101",
-          "programs_count": 31
-        },
-        "09-07-1987": {
-          "source": "depot101",
-          "programs_count": 27
-        },
-        "10-07-1987": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 29,
+          "night_extension": true,
+          "origin_dates": [
+            "07-07-1987"
+          ]
         },
         "17-10-1987": {
           "source": "depot101",
-          "programs_count": 92
+          "programs_count": 115,
+          "night_extension": false,
+          "origin_dates": [
+            "17-10-1987"
+          ]
         },
         "18-10-1987": {
           "source": "depot101",
-          "programs_count": 31
-        },
-        "19-10-1987": {
-          "source": "depot101",
-          "programs_count": 30
-        },
-        "20-10-1987": {
-          "source": "depot101",
-          "programs_count": 3
+          "programs_count": 32,
+          "night_extension": true,
+          "origin_dates": [
+            "17-10-1987"
+          ]
         },
         "24-10-1987": {
           "source": "depot101",
-          "programs_count": 89
+          "programs_count": 112,
+          "night_extension": false,
+          "origin_dates": [
+            "24-10-1987"
+          ]
         },
         "25-10-1987": {
           "source": "depot101",
-          "programs_count": 113
+          "programs_count": 123,
+          "night_extension": true,
+          "origin_dates": [
+            "24-10-1987",
+            "25-10-1987"
+          ]
         },
         "26-10-1987": {
           "source": "depot101",
-          "programs_count": 139
+          "programs_count": 143,
+          "night_extension": true,
+          "origin_dates": [
+            "25-10-1987",
+            "26-10-1987"
+          ]
         },
         "27-10-1987": {
           "source": "depot101",
-          "programs_count": 145
+          "programs_count": 135,
+          "night_extension": true,
+          "origin_dates": [
+            "26-10-1987",
+            "27-10-1987"
+          ]
         },
         "28-10-1987": {
           "source": "depot101",
-          "programs_count": 134
+          "programs_count": 139,
+          "night_extension": true,
+          "origin_dates": [
+            "27-10-1987",
+            "28-10-1987"
+          ]
         },
         "29-10-1987": {
           "source": "depot101",
-          "programs_count": 145
+          "programs_count": 148,
+          "night_extension": true,
+          "origin_dates": [
+            "28-10-1987",
+            "29-10-1987"
+          ]
         },
         "30-10-1987": {
           "source": "depot101",
-          "programs_count": 153
+          "programs_count": 150,
+          "night_extension": true,
+          "origin_dates": [
+            "29-10-1987",
+            "30-10-1987"
+          ]
         },
         "31-10-1987": {
           "source": "depot101",
-          "programs_count": 50
-        },
-        "01-11-1987": {
-          "source": "depot101",
-          "programs_count": 26
-        },
-        "02-11-1987": {
-          "source": "depot101",
-          "programs_count": 3
+          "programs_count": 30,
+          "night_extension": true,
+          "origin_dates": [
+            "30-10-1987"
+          ]
         },
         "20-12-1987": {
           "source": "depot101",
-          "programs_count": 79
+          "programs_count": 93,
+          "night_extension": false,
+          "origin_dates": [
+            "20-12-1987"
+          ]
         },
         "21-12-1987": {
           "source": "depot101",
-          "programs_count": 21
-        },
-        "22-12-1987": {
-          "source": "depot101",
-          "programs_count": 15
-        },
-        "23-12-1987": {
-          "source": "depot101",
-          "programs_count": 2
+          "programs_count": 18,
+          "night_extension": true,
+          "origin_dates": [
+            "20-12-1987"
+          ]
         },
         "26-12-1987": {
           "source": "depot101",
-          "programs_count": 84
+          "programs_count": 106,
+          "night_extension": false,
+          "origin_dates": [
+            "26-12-1987"
+          ]
         },
         "27-12-1987": {
           "source": "depot101",
-          "programs_count": 54
+          "programs_count": 59,
+          "night_extension": true,
+          "origin_dates": [
+            "26-12-1987",
+            "27-12-1987"
+          ]
         },
         "28-12-1987": {
           "source": "depot101",
-          "programs_count": 73
+          "programs_count": 59,
+          "night_extension": true,
+          "origin_dates": [
+            "27-12-1987",
+            "28-12-1987"
+          ]
         },
         "29-12-1987": {
           "source": "depot101",
-          "programs_count": 110
+          "programs_count": 115,
+          "night_extension": true,
+          "origin_dates": [
+            "28-12-1987",
+            "29-12-1987"
+          ]
         },
         "30-12-1987": {
           "source": "depot101",
-          "programs_count": 122
+          "programs_count": 137,
+          "night_extension": true,
+          "origin_dates": [
+            "29-12-1987",
+            "30-12-1987"
+          ]
         },
         "31-12-1987": {
           "source": "depot101",
-          "programs_count": 84
+          "programs_count": 76,
+          "night_extension": true,
+          "origin_dates": [
+            "30-12-1987",
+            "31-12-1987"
+          ]
         }
       }
     },
     "1988": {
-      "total_programs": 9976,
+      "total_programs": 9689,
       "dates": {
         "01-01-1988": {
           "source": "depot101",
-          "programs_count": 112
+          "programs_count": 111,
+          "night_extension": true,
+          "origin_dates": [
+            "01-01-1988",
+            "31-12-1987"
+          ]
         },
         "02-01-1988": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 132,
+          "night_extension": true,
+          "origin_dates": [
+            "01-01-1988",
+            "02-01-1988"
+          ]
         },
         "03-01-1988": {
           "source": "depot101",
-          "programs_count": 125
+          "programs_count": 126,
+          "night_extension": true,
+          "origin_dates": [
+            "02-01-1988",
+            "03-01-1988"
+          ]
         },
         "04-01-1988": {
           "source": "depot101",
-          "programs_count": 141
+          "programs_count": 140,
+          "night_extension": true,
+          "origin_dates": [
+            "03-01-1988",
+            "04-01-1988"
+          ]
         },
         "05-01-1988": {
           "source": "depot101",
-          "programs_count": 134
+          "programs_count": 131,
+          "night_extension": true,
+          "origin_dates": [
+            "04-01-1988",
+            "05-01-1988"
+          ]
         },
         "06-01-1988": {
           "source": "depot101",
-          "programs_count": 138
+          "programs_count": 143,
+          "night_extension": true,
+          "origin_dates": [
+            "05-01-1988",
+            "06-01-1988"
+          ]
         },
         "07-01-1988": {
           "source": "depot101",
-          "programs_count": 151
+          "programs_count": 151,
+          "night_extension": true,
+          "origin_dates": [
+            "06-01-1988",
+            "07-01-1988"
+          ]
         },
         "08-01-1988": {
           "source": "depot101",
-          "programs_count": 150
+          "programs_count": 152,
+          "night_extension": true,
+          "origin_dates": [
+            "07-01-1988",
+            "08-01-1988"
+          ]
         },
         "09-01-1988": {
           "source": "depot101",
-          "programs_count": 58
-        },
-        "10-01-1988": {
-          "source": "depot101",
-          "programs_count": 30
-        },
-        "11-01-1988": {
-          "source": "depot101",
-          "programs_count": 5
+          "programs_count": 33,
+          "night_extension": true,
+          "origin_dates": [
+            "08-01-1988"
+          ]
         },
         "25-01-1988": {
           "source": "depot101",
-          "programs_count": 91
+          "programs_count": 109,
+          "night_extension": false,
+          "origin_dates": [
+            "25-01-1988"
+          ]
         },
         "26-01-1988": {
           "source": "depot101",
-          "programs_count": 29
-        },
-        "27-01-1988": {
-          "source": "depot101",
-          "programs_count": 26
-        },
-        "28-01-1988": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 31,
+          "night_extension": true,
+          "origin_dates": [
+            "25-01-1988"
+          ]
         },
         "26-02-1988": {
           "source": "depot101",
-          "programs_count": 96
+          "programs_count": 137,
+          "night_extension": false,
+          "origin_dates": [
+            "26-02-1988"
+          ]
         },
         "27-02-1988": {
           "source": "depot101",
-          "programs_count": 51
-        },
-        "28-02-1988": {
-          "source": "depot101",
-          "programs_count": 34
-        },
-        "29-02-1988": {
-          "source": "depot101",
-          "programs_count": 3
+          "programs_count": 33,
+          "night_extension": true,
+          "origin_dates": [
+            "26-02-1988"
+          ]
         },
         "04-03-1988": {
           "source": "depot101",
-          "programs_count": 113
+          "programs_count": 130,
+          "night_extension": false,
+          "origin_dates": [
+            "04-03-1988"
+          ]
         },
         "05-03-1988": {
           "source": "depot101",
-          "programs_count": 32
-        },
-        "06-03-1988": {
-          "source": "depot101",
-          "programs_count": 29
-        },
-        "07-03-1988": {
-          "source": "depot101",
-          "programs_count": 2
+          "programs_count": 37,
+          "night_extension": true,
+          "origin_dates": [
+            "04-03-1988"
+          ]
         },
         "09-03-1988": {
           "source": "depot101",
-          "programs_count": 99
+          "programs_count": 122,
+          "night_extension": false,
+          "origin_dates": [
+            "09-03-1988"
+          ]
         },
         "10-03-1988": {
           "source": "depot101",
-          "programs_count": 32
-        },
-        "11-03-1988": {
-          "source": "depot101",
-          "programs_count": 32
-        },
-        "12-03-1988": {
-          "source": "depot101",
-          "programs_count": 6
+          "programs_count": 35,
+          "night_extension": true,
+          "origin_dates": [
+            "09-03-1988"
+          ]
         },
         "09-04-1988": {
           "source": "depot101",
-          "programs_count": 97
+          "programs_count": 120,
+          "night_extension": false,
+          "origin_dates": [
+            "09-04-1988"
+          ]
         },
         "10-04-1988": {
           "source": "depot101",
-          "programs_count": 113
+          "programs_count": 131,
+          "night_extension": true,
+          "origin_dates": [
+            "09-04-1988",
+            "10-04-1988"
+          ]
         },
         "11-04-1988": {
           "source": "depot101",
-          "programs_count": 145
+          "programs_count": 144,
+          "night_extension": true,
+          "origin_dates": [
+            "10-04-1988",
+            "11-04-1988"
+          ]
         },
         "12-04-1988": {
           "source": "depot101",
-          "programs_count": 151
+          "programs_count": 147,
+          "night_extension": true,
+          "origin_dates": [
+            "11-04-1988",
+            "12-04-1988"
+          ]
         },
         "13-04-1988": {
           "source": "depot101",
-          "programs_count": 155
+          "programs_count": 158,
+          "night_extension": true,
+          "origin_dates": [
+            "12-04-1988",
+            "13-04-1988"
+          ]
         },
         "14-04-1988": {
           "source": "depot101",
-          "programs_count": 162
+          "programs_count": 163,
+          "night_extension": true,
+          "origin_dates": [
+            "13-04-1988",
+            "14-04-1988"
+          ]
         },
         "15-04-1988": {
           "source": "depot101",
-          "programs_count": 164
+          "programs_count": 160,
+          "night_extension": true,
+          "origin_dates": [
+            "14-04-1988",
+            "15-04-1988"
+          ]
         },
         "16-04-1988": {
           "source": "depot101",
-          "programs_count": 60
-        },
-        "17-04-1988": {
-          "source": "depot101",
-          "programs_count": 32
-        },
-        "18-04-1988": {
-          "source": "depot101",
-          "programs_count": 5
+          "programs_count": 38,
+          "night_extension": true,
+          "origin_dates": [
+            "15-04-1988"
+          ]
         },
         "02-05-1988": {
           "source": "depot101",
-          "programs_count": 110
+          "programs_count": 130,
+          "night_extension": false,
+          "origin_dates": [
+            "02-05-1988"
+          ]
         },
         "03-05-1988": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 164,
+          "night_extension": true,
+          "origin_dates": [
+            "02-05-1988",
+            "03-05-1988"
+          ]
         },
         "04-05-1988": {
           "source": "depot101",
-          "programs_count": 40
-        },
-        "05-05-1988": {
-          "source": "depot101",
-          "programs_count": 38
-        },
-        "06-05-1988": {
-          "source": "depot101",
-          "programs_count": 14
+          "programs_count": 41,
+          "night_extension": true,
+          "origin_dates": [
+            "02-05-1988",
+            "03-05-1988"
+          ]
         },
         "07-05-1988": {
           "source": "depot101",
-          "programs_count": 101
+          "programs_count": 125,
+          "night_extension": false,
+          "origin_dates": [
+            "07-05-1988"
+          ]
         },
         "08-05-1988": {
           "source": "depot101",
-          "programs_count": 31
+          "programs_count": 27,
+          "night_extension": true,
+          "origin_dates": [
+            "07-05-1988"
+          ]
         },
         "09-05-1988": {
           "source": "depot101",
-          "programs_count": 124
+          "programs_count": 120,
+          "night_extension": false,
+          "origin_dates": [
+            "09-05-1988"
+          ]
         },
         "10-05-1988": {
           "source": "depot101",
-          "programs_count": 35
-        },
-        "11-05-1988": {
-          "source": "depot101",
-          "programs_count": 26
-        },
-        "12-05-1988": {
-          "source": "depot101",
-          "programs_count": 8
+          "programs_count": 38,
+          "night_extension": true,
+          "origin_dates": [
+            "09-05-1988"
+          ]
         },
         "22-05-1988": {
           "source": "depot101",
-          "programs_count": 94
+          "programs_count": 113,
+          "night_extension": false,
+          "origin_dates": [
+            "22-05-1988"
+          ]
         },
         "23-05-1988": {
           "source": "depot101",
-          "programs_count": 27
-        },
-        "24-05-1988": {
-          "source": "depot101",
-          "programs_count": 23
-        },
-        "25-05-1988": {
-          "source": "depot101",
-          "programs_count": 4
+          "programs_count": 27,
+          "night_extension": true,
+          "origin_dates": [
+            "22-05-1988"
+          ]
         },
         "20-06-1988": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 120,
+          "night_extension": false,
+          "origin_dates": [
+            "20-06-1988"
+          ]
         },
         "21-06-1988": {
           "source": "depot101",
-          "programs_count": 33
-        },
-        "22-06-1988": {
-          "source": "depot101",
-          "programs_count": 31
-        },
-        "23-06-1988": {
-          "source": "depot101",
-          "programs_count": 9
+          "programs_count": 41,
+          "night_extension": true,
+          "origin_dates": [
+            "20-06-1988"
+          ]
         },
         "27-06-1988": {
           "source": "depot101",
-          "programs_count": 99
+          "programs_count": 126,
+          "night_extension": false,
+          "origin_dates": [
+            "27-06-1988"
+          ]
         },
         "28-06-1988": {
           "source": "depot101",
-          "programs_count": 24
-        },
-        "29-06-1988": {
-          "source": "depot101",
-          "programs_count": 23
-        },
-        "30-06-1988": {
-          "source": "depot101",
-          "programs_count": 13
-        },
-        "01-07-1988": {
-          "source": "depot101",
-          "programs_count": 27
+          "programs_count": 47,
+          "night_extension": true,
+          "origin_dates": [
+            "27-06-1988"
+          ]
         },
         "02-07-1988": {
           "source": "depot101",
-          "programs_count": 91
+          "programs_count": 101,
+          "night_extension": false,
+          "origin_dates": [
+            "02-07-1988"
+          ]
         },
         "03-07-1988": {
           "source": "depot101",
-          "programs_count": 119
+          "programs_count": 143,
+          "night_extension": true,
+          "origin_dates": [
+            "02-07-1988",
+            "03-07-1988"
+          ]
         },
         "04-07-1988": {
           "source": "depot101",
-          "programs_count": 137
+          "programs_count": 139,
+          "night_extension": true,
+          "origin_dates": [
+            "03-07-1988",
+            "04-07-1988"
+          ]
         },
         "05-07-1988": {
           "source": "depot101",
-          "programs_count": 138
+          "programs_count": 135,
+          "night_extension": true,
+          "origin_dates": [
+            "04-07-1988",
+            "05-07-1988"
+          ]
         },
         "06-07-1988": {
           "source": "depot101",
-          "programs_count": 146
+          "programs_count": 155,
+          "night_extension": true,
+          "origin_dates": [
+            "05-07-1988",
+            "06-07-1988"
+          ]
         },
         "07-07-1988": {
           "source": "depot101",
-          "programs_count": 152
+          "programs_count": 141,
+          "night_extension": true,
+          "origin_dates": [
+            "06-07-1988",
+            "07-07-1988"
+          ]
         },
         "08-07-1988": {
           "source": "depot101",
-          "programs_count": 133
+          "programs_count": 149,
+          "night_extension": true,
+          "origin_dates": [
+            "07-07-1988",
+            "08-07-1988"
+          ]
         },
         "09-07-1988": {
           "source": "depot101",
-          "programs_count": 65
-        },
-        "10-07-1988": {
-          "source": "depot101",
-          "programs_count": 41
-        },
-        "11-07-1988": {
-          "source": "depot101",
-          "programs_count": 9
+          "programs_count": 44,
+          "night_extension": true,
+          "origin_dates": [
+            "08-07-1988"
+          ]
         },
         "22-07-1988": {
           "source": "depot101",
-          "programs_count": 100
+          "programs_count": 119,
+          "night_extension": false,
+          "origin_dates": [
+            "22-07-1988"
+          ]
         },
         "23-07-1988": {
           "source": "depot101",
-          "programs_count": 43
-        },
-        "24-07-1988": {
-          "source": "depot101",
-          "programs_count": 23
+          "programs_count": 34,
+          "night_extension": true,
+          "origin_dates": [
+            "22-07-1988"
+          ]
         },
         "29-07-1988": {
           "source": "depot101",
-          "programs_count": 94
+          "programs_count": 130,
+          "night_extension": false,
+          "origin_dates": [
+            "29-07-1988"
+          ]
         },
         "30-07-1988": {
           "source": "depot101",
-          "programs_count": 101
+          "programs_count": 144,
+          "night_extension": true,
+          "origin_dates": [
+            "29-07-1988",
+            "30-07-1988"
+          ]
         },
         "31-07-1988": {
           "source": "depot101",
-          "programs_count": 60
-        },
-        "01-08-1988": {
-          "source": "depot101",
-          "programs_count": 42
-        },
-        "02-08-1988": {
-          "source": "depot101",
-          "programs_count": 17
-        },
-        "03-08-1988": {
-          "source": "depot101",
-          "programs_count": 18
-        },
-        "04-08-1988": {
-          "source": "depot101",
-          "programs_count": 14
+          "programs_count": 41,
+          "night_extension": true,
+          "origin_dates": [
+            "30-07-1988"
+          ]
         },
         "12-08-1988": {
           "source": "depot101",
-          "programs_count": 93
+          "programs_count": 115,
+          "night_extension": false,
+          "origin_dates": [
+            "12-08-1988"
+          ]
         },
         "13-08-1988": {
           "source": "depot101",
-          "programs_count": 42
-        },
-        "14-08-1988": {
-          "source": "depot101",
-          "programs_count": 28
-        },
-        "15-08-1988": {
-          "source": "depot101",
-          "programs_count": 6
+          "programs_count": 42,
+          "night_extension": true,
+          "origin_dates": [
+            "12-08-1988"
+          ]
         },
         "03-09-1988": {
           "source": "depot101",
-          "programs_count": 84
+          "programs_count": 105,
+          "night_extension": false,
+          "origin_dates": [
+            "03-09-1988"
+          ]
         },
         "04-09-1988": {
           "source": "depot101",
-          "programs_count": 130
+          "programs_count": 151,
+          "night_extension": true,
+          "origin_dates": [
+            "03-09-1988",
+            "04-09-1988"
+          ]
         },
         "05-09-1988": {
           "source": "depot101",
-          "programs_count": 156
+          "programs_count": 160,
+          "night_extension": true,
+          "origin_dates": [
+            "04-09-1988",
+            "05-09-1988"
+          ]
         },
         "06-09-1988": {
           "source": "depot101",
-          "programs_count": 157
+          "programs_count": 162,
+          "night_extension": true,
+          "origin_dates": [
+            "05-09-1988",
+            "06-09-1988"
+          ]
         },
         "07-09-1988": {
           "source": "depot101",
-          "programs_count": 156
+          "programs_count": 162,
+          "night_extension": true,
+          "origin_dates": [
+            "06-09-1988",
+            "07-09-1988"
+          ]
         },
         "08-09-1988": {
           "source": "depot101",
-          "programs_count": 168
+          "programs_count": 161,
+          "night_extension": true,
+          "origin_dates": [
+            "07-09-1988",
+            "08-09-1988"
+          ]
         },
         "09-09-1988": {
           "source": "depot101",
-          "programs_count": 168
+          "programs_count": 167,
+          "night_extension": true,
+          "origin_dates": [
+            "08-09-1988",
+            "09-09-1988"
+          ]
         },
         "10-09-1988": {
           "source": "depot101",
-          "programs_count": 143
+          "programs_count": 147,
+          "night_extension": true,
+          "origin_dates": [
+            "09-09-1988",
+            "10-09-1988"
+          ]
         },
         "11-09-1988": {
           "source": "depot101",
-          "programs_count": 141
+          "programs_count": 132,
+          "night_extension": true,
+          "origin_dates": [
+            "10-09-1988",
+            "11-09-1988"
+          ]
         },
         "12-09-1988": {
           "source": "depot101",
-          "programs_count": 65
-        },
-        "13-09-1988": {
-          "source": "depot101",
-          "programs_count": 23
+          "programs_count": 31,
+          "night_extension": true,
+          "origin_dates": [
+            "11-09-1988"
+          ]
         },
         "11-10-1988": {
           "source": "depot101",
-          "programs_count": 102
+          "programs_count": 118,
+          "night_extension": false,
+          "origin_dates": [
+            "11-10-1988"
+          ]
         },
         "12-10-1988": {
           "source": "depot101",
-          "programs_count": 40
-        },
-        "13-10-1988": {
-          "source": "depot101",
-          "programs_count": 21
+          "programs_count": 33,
+          "night_extension": true,
+          "origin_dates": [
+            "11-10-1988"
+          ]
         },
         "17-10-1988": {
           "source": "depot101",
-          "programs_count": 98
+          "programs_count": 118,
+          "night_extension": false,
+          "origin_dates": [
+            "17-10-1988"
+          ]
         },
         "18-10-1988": {
           "source": "depot101",
-          "programs_count": 37
-        },
-        "19-10-1988": {
-          "source": "depot101",
-          "programs_count": 25
-        },
-        "20-10-1988": {
-          "source": "depot101",
-          "programs_count": 7
+          "programs_count": 39,
+          "night_extension": true,
+          "origin_dates": [
+            "17-10-1988"
+          ]
         },
         "21-10-1988": {
           "source": "depot101",
-          "programs_count": 106
+          "programs_count": 119,
+          "night_extension": false,
+          "origin_dates": [
+            "21-10-1988"
+          ]
         },
         "22-10-1988": {
           "source": "depot101",
-          "programs_count": 35
-        },
-        "23-10-1988": {
-          "source": "depot101",
-          "programs_count": 27
-        },
-        "24-10-1988": {
-          "source": "depot101",
-          "programs_count": 10
+          "programs_count": 44,
+          "night_extension": true,
+          "origin_dates": [
+            "21-10-1988"
+          ]
         },
         "05-11-1988": {
           "source": "depot101",
-          "programs_count": 90
+          "programs_count": 115,
+          "night_extension": false,
+          "origin_dates": [
+            "05-11-1988"
+          ]
         },
         "06-11-1988": {
           "source": "depot101",
-          "programs_count": 39
-        },
-        "07-11-1988": {
-          "source": "depot101",
-          "programs_count": 35
-        },
-        "08-11-1988": {
-          "source": "depot101",
-          "programs_count": 7
+          "programs_count": 46,
+          "night_extension": true,
+          "origin_dates": [
+            "05-11-1988"
+          ]
         },
         "16-11-1988": {
           "source": "depot101",
-          "programs_count": 101
+          "programs_count": 118,
+          "night_extension": false,
+          "origin_dates": [
+            "16-11-1988"
+          ]
         },
         "17-11-1988": {
           "source": "depot101",
-          "programs_count": 41
-        },
-        "18-11-1988": {
-          "source": "depot101",
-          "programs_count": 22
-        },
-        "19-11-1988": {
-          "source": "depot101",
-          "programs_count": 11
+          "programs_count": 47,
+          "night_extension": true,
+          "origin_dates": [
+            "16-11-1988"
+          ]
         },
         "23-11-1988": {
           "source": "depot101",
-          "programs_count": 94
+          "programs_count": 109,
+          "night_extension": false,
+          "origin_dates": [
+            "23-11-1988"
+          ]
         },
         "24-11-1988": {
           "source": "depot101",
-          "programs_count": 40
-        },
-        "25-11-1988": {
-          "source": "depot101",
-          "programs_count": 24
-        },
-        "26-11-1988": {
-          "source": "depot101",
-          "programs_count": 10
+          "programs_count": 47,
+          "night_extension": true,
+          "origin_dates": [
+            "23-11-1988"
+          ]
         },
         "27-11-1988": {
           "source": "depot101",
-          "programs_count": 92
+          "programs_count": 107,
+          "night_extension": false,
+          "origin_dates": [
+            "27-11-1988"
+          ]
         },
         "28-11-1988": {
           "source": "depot101",
-          "programs_count": 37
-        },
-        "29-11-1988": {
-          "source": "depot101",
-          "programs_count": 24
-        },
-        "30-11-1988": {
-          "source": "depot101",
-          "programs_count": 5
+          "programs_count": 43,
+          "night_extension": true,
+          "origin_dates": [
+            "27-11-1988"
+          ]
         },
         "12-12-1988": {
           "source": "depot101",
-          "programs_count": 107
+          "programs_count": 126,
+          "night_extension": false,
+          "origin_dates": [
+            "12-12-1988"
+          ]
         },
         "13-12-1988": {
           "source": "depot101",
-          "programs_count": 143
+          "programs_count": 167,
+          "night_extension": true,
+          "origin_dates": [
+            "12-12-1988",
+            "13-12-1988"
+          ]
         },
         "14-12-1988": {
           "source": "depot101",
-          "programs_count": 59
-        },
-        "15-12-1988": {
-          "source": "depot101",
-          "programs_count": 32
-        },
-        "16-12-1988": {
-          "source": "depot101",
-          "programs_count": 6
+          "programs_count": 39,
+          "night_extension": true,
+          "origin_dates": [
+            "13-12-1988"
+          ]
         },
         "24-12-1988": {
           "source": "depot101",
-          "programs_count": 85
+          "programs_count": 104,
+          "night_extension": false,
+          "origin_dates": [
+            "24-12-1988"
+          ]
         },
         "25-12-1988": {
           "source": "depot101",
-          "programs_count": 114
+          "programs_count": 136,
+          "night_extension": true,
+          "origin_dates": [
+            "24-12-1988",
+            "25-12-1988"
+          ]
         },
         "26-12-1988": {
           "source": "depot101",
-          "programs_count": 165
+          "programs_count": 174,
+          "night_extension": true,
+          "origin_dates": [
+            "25-12-1988",
+            "26-12-1988"
+          ]
         },
         "27-12-1988": {
           "source": "depot101",
-          "programs_count": 182
+          "programs_count": 186,
+          "night_extension": true,
+          "origin_dates": [
+            "26-12-1988",
+            "27-12-1988"
+          ]
         },
         "28-12-1988": {
           "source": "depot101",
-          "programs_count": 180
+          "programs_count": 184,
+          "night_extension": true,
+          "origin_dates": [
+            "27-12-1988",
+            "28-12-1988"
+          ]
         },
         "29-12-1988": {
           "source": "depot101",
-          "programs_count": 186
+          "programs_count": 182,
+          "night_extension": true,
+          "origin_dates": [
+            "28-12-1988",
+            "29-12-1988"
+          ]
         },
         "30-12-1988": {
           "source": "depot101",
-          "programs_count": 189
+          "programs_count": 192,
+          "night_extension": true,
+          "origin_dates": [
+            "29-12-1988",
+            "30-12-1988"
+          ]
         },
         "31-12-1988": {
           "source": "depot101",
-          "programs_count": 158
+          "programs_count": 153,
+          "night_extension": true,
+          "origin_dates": [
+            "30-12-1988",
+            "31-12-1988"
+          ]
         }
       }
     },
     "1989": {
-      "total_programs": 109,
+      "total_programs": 37,
       "dates": {
         "01-01-1989": {
           "source": "depot101",
-          "programs_count": 68
-        },
-        "02-01-1989": {
-          "source": "depot101",
-          "programs_count": 33
-        },
-        "03-01-1989": {
-          "source": "depot101",
-          "programs_count": 8
+          "programs_count": 37,
+          "night_extension": true,
+          "origin_dates": [
+            "31-12-1988"
+          ]
         }
       }
     }

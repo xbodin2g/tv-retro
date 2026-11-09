@@ -5,6 +5,10 @@
       "date": "01-01-1980",
       "source": "archives80+depot101",
       "programs_count": 37,
+      "night_extension": false,
+      "origin_dates": [
+        "01-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -882,6 +886,10 @@
       "date": "01-08-1980",
       "source": "archives80+depot101",
       "programs_count": 40,
+      "night_extension": false,
+      "origin_dates": [
+        "01-08-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -1731,6 +1739,10 @@
       "date": "01-09-1980",
       "source": "archives80+depot101",
       "programs_count": 35,
+      "night_extension": false,
+      "origin_dates": [
+        "01-09-1980"
+      ],
       "programs": [
         {
           "time": "12:25",
@@ -2564,6 +2576,10 @@
       "date": "01-10-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "01-10-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -3793,6 +3809,10 @@
       "date": "02-03-1980",
       "source": "archives80+depot101",
       "programs_count": 50,
+      "night_extension": false,
+      "origin_dates": [
+        "02-03-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -4824,6 +4844,11 @@
       "date": "03-03-1980",
       "source": "archives80+depot101",
       "programs_count": 48,
+      "night_extension": true,
+      "origin_dates": [
+        "02-03-1980",
+        "03-03-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -5959,6 +5984,10 @@
       "date": "05-01-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "05-01-1980"
+      ],
       "programs": [
         {
           "time": "11:55",
@@ -6884,6 +6913,11 @@
       "date": "06-01-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": true,
+      "origin_dates": [
+        "05-01-1980",
+        "06-01-1980"
+      ],
       "programs": [
         {
           "time": "09:10",
@@ -7779,6 +7813,10 @@
       "date": "05-03-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "05-03-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -8688,6 +8726,10 @@
       "date": "05-11-1980",
       "source": "archives80+depot101",
       "programs_count": 48,
+      "night_extension": false,
+      "origin_dates": [
+        "05-11-1980"
+      ],
       "programs": [
         {
           "time": "07:00",
@@ -9899,6 +9941,10 @@
       "date": "06-09-1980",
       "source": "archives80+depot101",
       "programs_count": 36,
+      "night_extension": false,
+      "origin_dates": [
+        "06-09-1980"
+      ],
       "programs": [
         {
           "time": "12:30",
@@ -10690,6 +10736,10 @@
       "date": "06-12-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": false,
+      "origin_dates": [
+        "06-12-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -11709,6 +11759,10 @@
       "date": "07-01-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "07-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -12618,6 +12672,10 @@
       "date": "07-02-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": false,
+      "origin_dates": [
+        "07-02-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -13407,6 +13465,10 @@
       "date": "07-09-1980",
       "source": "archives80+depot101",
       "programs_count": 35,
+      "night_extension": false,
+      "origin_dates": [
+        "07-09-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -14102,6 +14164,10 @@
       "date": "07-12-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "07-12-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -15007,6 +15073,11 @@
       "date": "08-12-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": true,
+      "origin_dates": [
+        "07-12-1980",
+        "08-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -15934,6 +16005,10 @@
       "date": "08-01-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": false,
+      "origin_dates": [
+        "08-01-1980"
+      ],
       "programs": [
         {
           "time": "10:00",
@@ -16881,6 +16956,10 @@
       "date": "08-02-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "08-02-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -17698,6 +17777,10 @@
       "date": "08-09-1980",
       "source": "archives80+depot101",
       "programs_count": 41,
+      "night_extension": false,
+      "origin_dates": [
+        "08-09-1980"
+      ],
       "programs": [
         {
           "time": "12:05",
@@ -18647,6 +18730,10 @@
       "date": "09-01-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "09-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -19768,6 +19855,10 @@
       "date": "09-09-1980",
       "source": "archives80+depot101",
       "programs_count": 39,
+      "night_extension": false,
+      "origin_dates": [
+        "09-09-1980"
+      ],
       "programs": [
         {
           "time": "12:05",
@@ -20689,6 +20780,10 @@
       "date": "09-12-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "09-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -21674,6 +21769,10 @@
       "date": "10-01-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "10-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -22603,6 +22702,10 @@
       "date": "10-05-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "10-05-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -23594,6 +23697,10 @@
       "date": "11-05-1980",
       "source": "archives80+depot101",
       "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "10-05-1980"
+      ],
       "programs": [
         {
           "time": "00:10",
@@ -23625,6 +23732,10 @@
       "date": "10-09-1980",
       "source": "archives80+depot101",
       "programs_count": 41,
+      "night_extension": false,
+      "origin_dates": [
+        "10-09-1980"
+      ],
       "programs": [
         {
           "time": "12:05",
@@ -24746,6 +24857,10 @@
       "date": "10-12-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "10-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -25891,6 +26006,10 @@
       "date": "11-01-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "11-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -26738,6 +26857,10 @@
       "date": "11-02-1980",
       "source": "archives80+depot101",
       "programs_count": 39,
+      "night_extension": false,
+      "origin_dates": [
+        "11-02-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -27695,6 +27818,10 @@
       "date": "11-09-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "11-09-1980"
+      ],
       "programs": [
         {
           "time": "12:05",
@@ -28698,6 +28825,10 @@
       "date": "11-12-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "11-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -29669,6 +29800,11 @@
       "date": "12-12-1980",
       "source": "archives80+depot101",
       "programs_count": 51,
+      "night_extension": true,
+      "origin_dates": [
+        "11-12-1980",
+        "12-12-1980"
+      ],
       "programs": [
         {
           "time": "00:35",
@@ -30712,6 +30848,10 @@
       "date": "12-01-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": false,
+      "origin_dates": [
+        "12-01-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -31691,6 +31831,10 @@
       "date": "12-09-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": false,
+      "origin_dates": [
+        "12-09-1980"
+      ],
       "programs": [
         {
           "time": "12:05",
@@ -32786,6 +32930,10 @@
       "date": "13-09-1980",
       "source": "archives80+depot101",
       "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "12-09-1980"
+      ],
       "programs": [
         {
           "time": "00:50",
@@ -32817,6 +32965,10 @@
       "date": "12-11-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "12-11-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -33680,6 +33832,10 @@
       "date": "13-01-1980",
       "source": "archives80+depot101",
       "programs_count": 50,
+      "night_extension": false,
+      "origin_dates": [
+        "13-01-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -34669,6 +34825,10 @@
       "date": "13-11-1980",
       "source": "archives80+depot101",
       "programs_count": 48,
+      "night_extension": false,
+      "origin_dates": [
+        "13-11-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -35544,6 +35704,10 @@
       "date": "13-12-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "13-12-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -36537,6 +36701,10 @@
       "date": "14-01-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": false,
+      "origin_dates": [
+        "14-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -37514,6 +37682,10 @@
       "date": "14-07-1980",
       "source": "archives80+depot101",
       "programs_count": 37,
+      "night_extension": false,
+      "origin_dates": [
+        "14-07-1980"
+      ],
       "programs": [
         {
           "time": "09:25",
@@ -38207,6 +38379,10 @@
       "date": "15-01-1980",
       "source": "archives80+depot101",
       "programs_count": 43,
+      "night_extension": false,
+      "origin_dates": [
+        "15-01-1980"
+      ],
       "programs": [
         {
           "time": "10:00",
@@ -39152,6 +39328,10 @@
       "date": "16-01-1980",
       "source": "archives80+depot101",
       "programs_count": 45,
+      "night_extension": false,
+      "origin_dates": [
+        "16-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -40315,6 +40495,10 @@
       "date": "17-01-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": false,
+      "origin_dates": [
+        "17-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -41322,6 +41506,10 @@
       "date": "17-12-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "17-12-1980"
+      ],
       "programs": [
         {
           "time": "12:10",
@@ -42443,6 +42631,10 @@
       "date": "18-01-1980",
       "source": "archives80+depot101",
       "programs_count": 45,
+      "night_extension": false,
+      "origin_dates": [
+        "18-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -43366,6 +43558,11 @@
       "date": "19-01-1980",
       "source": "archives80+depot101",
       "programs_count": 49,
+      "night_extension": true,
+      "origin_dates": [
+        "18-01-1980",
+        "19-01-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -44451,6 +44648,10 @@
       "date": "18-12-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "18-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -45380,6 +45581,10 @@
       "date": "19-09-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": false,
+      "origin_dates": [
+        "19-09-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -46215,6 +46420,10 @@
       "date": "19-12-1980",
       "source": "archives80+depot101",
       "programs_count": 48,
+      "night_extension": false,
+      "origin_dates": [
+        "19-12-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -47176,6 +47385,10 @@
       "date": "20-12-1980",
       "source": "archives80+depot101",
       "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "19-12-1980"
+      ],
       "programs": [
         {
           "time": "00:50",
@@ -47203,6 +47416,10 @@
       "date": "21-07-1980",
       "source": "archives80+depot101",
       "programs_count": 38,
+      "night_extension": false,
+      "origin_dates": [
+        "21-07-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -48108,6 +48325,11 @@
       "date": "22-07-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": true,
+      "origin_dates": [
+        "21-07-1980",
+        "22-07-1980"
+      ],
       "programs": [
         {
           "time": "00:05",
@@ -48885,6 +49107,10 @@
       "date": "22-01-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "22-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -49672,6 +49898,10 @@
       "date": "22-03-1980",
       "source": "archives80+depot101",
       "programs_count": 45,
+      "night_extension": false,
+      "origin_dates": [
+        "22-03-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -50689,6 +50919,10 @@
       "date": "22-04-1980",
       "source": "archives80+depot101",
       "programs_count": 52,
+      "night_extension": false,
+      "origin_dates": [
+        "22-04-1980"
+      ],
       "programs": [
         {
           "time": "10:00",
@@ -51772,6 +52006,10 @@
       "date": "22-05-1980",
       "source": "archives80+depot101",
       "programs_count": 50,
+      "night_extension": false,
+      "origin_dates": [
+        "22-05-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -52739,6 +52977,10 @@
       "date": "23-05-1980",
       "source": "archives80+depot101",
       "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "22-05-1980"
+      ],
       "programs": [
         {
           "time": "00:05",
@@ -52766,6 +53008,10 @@
       "date": "23-01-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "23-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -53577,6 +53823,10 @@
       "date": "23-04-1980",
       "source": "archives80+depot101",
       "programs_count": 50,
+      "night_extension": false,
+      "origin_dates": [
+        "23-04-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -54746,6 +54996,10 @@
       "date": "24-04-1980",
       "source": "archives80+depot101",
       "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "23-04-1980"
+      ],
       "programs": [
         {
           "time": "00:00",
@@ -54773,6 +55027,10 @@
       "date": "24-05-1980",
       "source": "archives80+depot101",
       "programs_count": 46,
+      "night_extension": false,
+      "origin_dates": [
+        "24-05-1980"
+      ],
       "programs": [
         {
           "time": "12:10",
@@ -55654,6 +55912,10 @@
       "date": "24-06-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "24-06-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -56457,6 +56719,10 @@
       "date": "25-02-1980",
       "source": "archives80+depot101",
       "programs_count": 41,
+      "night_extension": false,
+      "origin_dates": [
+        "25-02-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -57418,6 +57684,10 @@
       "date": "25-05-1980",
       "source": "archives80+depot101",
       "programs_count": 45,
+      "night_extension": false,
+      "origin_dates": [
+        "25-05-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -58248,7 +58518,12 @@
     "26-05-1980": {
       "date": "26-05-1980",
       "source": "archives80+depot101",
-      "programs_count": 41,
+      "programs_count": 42,
+      "night_extension": true,
+      "origin_dates": [
+        "25-05-1980",
+        "26-05-1980"
+      ],
       "programs": [
         {
           "time": "11:00",
@@ -58259,9 +58534,19 @@
           "segments": []
         },
         {
+          "time": "12:00",
+          "channel": "TF1",
+          "title": "PASSEZ DONC ME VOIR",
+          "description": "Présenté par Philippe Bouvard",
+          "description_lines": [
+            "Présenté par Philippe Bouvard"
+          ],
+          "segments": []
+        },
+        {
           "time": "12:30",
           "channel": "TF1",
-          "title": "MIDI-PREMIÈRE",
+          "title": "LE SECRET DE VALINCOURT",
           "description": "Présenté par Danièle Gilbert",
           "description_lines": [
             "Présenté par Danièle Gilbert"
@@ -58645,9 +58930,19 @@
             "segments": []
           },
           {
+            "time": "12:00",
+            "channel": "TF1",
+            "title": "PASSEZ DONC ME VOIR",
+            "description": "Présenté par Philippe Bouvard",
+            "description_lines": [
+              "Présenté par Philippe Bouvard"
+            ],
+            "segments": []
+          },
+          {
             "time": "12:30",
             "channel": "TF1",
-            "title": "MIDI-PREMIÈRE",
+            "title": "LE SECRET DE VALINCOURT",
             "description": "Présenté par Danièle Gilbert",
             "description_lines": [
               "Présenté par Danièle Gilbert"
@@ -59030,6 +59325,10 @@
       "date": "25-06-1980",
       "source": "archives80+depot101",
       "programs_count": 47,
+      "night_extension": false,
+      "origin_dates": [
+        "25-06-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -59933,6 +60232,10 @@
       "date": "25-11-1980",
       "source": "archives80+depot101",
       "programs_count": 42,
+      "night_extension": false,
+      "origin_dates": [
+        "25-11-1980"
+      ],
       "programs": [
         {
           "time": "12:10",
@@ -60871,30 +61174,16 @@
     "27-05-1980": {
       "date": "27-05-1980",
       "source": "archives80+depot101",
-      "programs_count": 3,
+      "programs_count": 1,
+      "night_extension": true,
+      "origin_dates": [
+        "26-05-1980"
+      ],
       "programs": [
         {
           "time": "00:05",
           "channel": "TF1",
           "title": "FIN DES ÉMISSIONS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "TF1",
-          "title": "PASSEZ DONC ME VOIR",
-          "description": "Présenté par Philippe Bouvard",
-          "description_lines": [
-            "Présenté par Philippe Bouvard"
-          ],
-          "segments": []
-        },
-        {
-          "time": "12:30",
-          "channel": "TF1",
-          "title": "LE SECRET DE VALINCOURT",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -60909,24 +61198,6 @@
             "description": "",
             "description_lines": [],
             "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "TF1",
-            "title": "PASSEZ DONC ME VOIR",
-            "description": "Présenté par Philippe Bouvard",
-            "description_lines": [
-              "Présenté par Philippe Bouvard"
-            ],
-            "segments": []
-          },
-          {
-            "time": "12:30",
-            "channel": "TF1",
-            "title": "LE SECRET DE VALINCOURT",
-            "description": "",
-            "description_lines": [],
-            "segments": []
           }
         ]
       }
@@ -60935,6 +61206,10 @@
       "date": "26-07-1980",
       "source": "archives80+depot101",
       "programs_count": 33,
+      "night_extension": false,
+      "origin_dates": [
+        "26-07-1980"
+      ],
       "programs": [
         {
           "time": "12:00",
@@ -61608,6 +61883,10 @@
       "date": "26-08-1980",
       "source": "archives80+depot101",
       "programs_count": 37,
+      "night_extension": false,
+      "origin_dates": [
+        "26-08-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -62391,6 +62670,10 @@
       "date": "26-11-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "26-11-1980"
+      ],
       "programs": [
         {
           "time": "12:10",
@@ -63588,6 +63871,10 @@
       "date": "27-07-1980",
       "source": "archives80+depot101",
       "programs_count": 36,
+      "night_extension": false,
+      "origin_dates": [
+        "27-07-1980"
+      ],
       "programs": [
         {
           "time": "09:15",
@@ -63730,7 +64017,7 @@
         {
           "time": "20:00",
           "channel": "TF1",
-          "title": "Journal",
+          "title": "JOURNAL",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -64064,7 +64351,7 @@
           {
             "time": "20:00",
             "channel": "TF1",
-            "title": "Journal",
+            "title": "JOURNAL",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -64265,6 +64552,11 @@
       "date": "28-07-1980",
       "source": "archives80+depot101",
       "programs_count": 35,
+      "night_extension": true,
+      "origin_dates": [
+        "27-07-1980",
+        "28-07-1980"
+      ],
       "programs": [
         {
           "time": "00:00",
@@ -65032,6 +65324,10 @@
       "date": "29-07-1980",
       "source": "archives80+depot101",
       "programs_count": 35,
+      "night_extension": false,
+      "origin_dates": [
+        "29-07-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -65837,6 +66133,10 @@
       "date": "30-01-1980",
       "source": "archives80+depot101",
       "programs_count": 44,
+      "night_extension": false,
+      "origin_dates": [
+        "30-01-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -66958,6 +67258,10 @@
       "date": "30-07-1980",
       "source": "archives80+depot101",
       "programs_count": 33,
+      "night_extension": false,
+      "origin_dates": [
+        "30-07-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -67677,6 +67981,10 @@
       "date": "31-07-1980",
       "source": "archives80+depot101",
       "programs_count": 37,
+      "night_extension": false,
+      "origin_dates": [
+        "31-07-1980"
+      ],
       "programs": [
         {
           "time": "12:15",
@@ -68538,6 +68846,10 @@
       "date": "31-12-1980",
       "source": "archives80+depot101",
       "programs_count": 50,
+      "night_extension": false,
+      "origin_dates": [
+        "31-12-1980"
+      ],
       "programs": [
         {
           "time": "12:10",

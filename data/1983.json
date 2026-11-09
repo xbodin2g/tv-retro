@@ -5,6 +5,10 @@
       "date": "01-01-1983",
       "source": "depot101",
       "programs_count": 5,
+      "night_extension": true,
+      "origin_dates": [
+        "31-12-1982"
+      ],
       "programs": [
         {
           "time": "01:35",
