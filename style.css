@@ -1603,3 +1603,20 @@ body {
         align-items: flex-start;
     }
 }
+
+.date-btn.night-extension {
+    border-left: 5px solid var(--accent-3);
+}
+
+.date-night-badge {
+    display: inline-block;
+    margin-top: 0.35rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(47, 107, 79, 0.12);
+    color: var(--accent-3);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
