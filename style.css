@@ -1297,3 +1297,309 @@ body {
         align-items: flex-start;
     }
 }
+
+/* =====================================================
+   Refonte ergonomie journée
+   - sommaire tiroir
+   - frise une seule scrollbar
+   - retour playlist -> journée
+   ===================================================== */
+
+[hidden] {
+    display: none !important;
+}
+
+/* Sommaire du soir en tiroir */
+.collapsible-box {
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    border-left: 5px solid var(--accent-2);
+    border-radius: var(--radius);
+    padding: 0;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.collapsible-box summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 0.95rem 1rem;
+    font-family: var(--font-display);
+    font-size: 1.08rem;
+    font-weight: 700;
+    color: var(--accent-2);
+    background: var(--paper-dark);
+    border-bottom: 1px solid var(--rule);
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+}
+
+.collapsible-box summary::-webkit-details-marker {
+    display: none;
+}
+
+.collapsible-box summary::before {
+    content: '▸';
+    font-family: var(--font-mono);
+    color: var(--accent);
+    transition: transform 0.2s ease;
+}
+
+.collapsible-box[open] summary::before {
+    content: '▾';
+}
+
+.collapsible-box[open] summary {
+    border-bottom: 1px solid var(--rule);
+}
+
+.summary-container {
+    padding: 0.9rem 1rem 1rem;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 0.65rem;
+}
+
+.summary-chip {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.55rem 0.8rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+}
+
+.summary-chip:hover {
+    border-color: var(--accent-2);
+    background: #fffdf8;
+    transform: translateY(-1px);
+}
+
+.summary-time {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-2);
+}
+
+.summary-channel {
+    display: inline-block;
+    min-width: 72px;
+    color: var(--accent);
+    font-weight: 800;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.summary-title {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+/* Frise chronologique : une seule scrollbar globale */
+.timeline-box {
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.timeline-box h3 {
+    margin: 0 0 0.75rem;
+    font-family: var(--font-display);
+    color: var(--accent-2);
+    font-size: 1.15rem;
+}
+
+.timeline-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.95rem;
+    scrollbar-width: thick;
+    scrollbar-color: var(--accent-2) var(--paper-dark);
+}
+
+.timeline-scroll::-webkit-scrollbar {
+    height: 20px;
+}
+
+.timeline-scroll::-webkit-scrollbar-track {
+    background: var(--paper-dark);
+    border-radius: 999px;
+}
+
+.timeline-scroll::-webkit-scrollbar-thumb {
+    background: var(--accent-2);
+    border-radius: 999px;
+    border: 5px solid var(--paper-card);
+    min-width: 90px;
+}
+
+.timeline-scroll::-webkit-scrollbar-thumb:hover {
+    background: var(--accent);
+}
+
+.timeline-inner {
+    min-width: 1050px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+.timeline-row {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.timeline-channel {
+    font-weight: 800;
+    color: var(--accent-2);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+}
+
+.timeline-track {
+    display: flex;
+    gap: 0.5rem;
+    overflow: visible;
+    flex-wrap: nowrap;
+    padding: 0.15rem 0;
+}
+
+.timeline-chip {
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+    white-space: nowrap;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+}
+
+.timeline-chip:hover {
+    border-color: var(--accent-2);
+    background: #fffdf8;
+    transform: translateY(-1px);
+}
+
+.timeline-chip-time {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    color: var(--accent-2);
+}
+
+.timeline-chip-title {
+    color: var(--ink);
+    font-weight: 600;
+}
+
+/* Bandeau retour à la journée depuis la playlist */
+.day-return-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: var(--paper-card);
+    border: 1px solid var(--rule);
+    border-left: 5px solid var(--accent-3);
+    border-radius: var(--radius);
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.day-return-bar span {
+    color: var(--ink-soft);
+    font-weight: 600;
+}
+
+.day-return-bar strong {
+    color: var(--accent-2);
+    text-transform: capitalize;
+}
+
+/* Petit ajustement pour alléger la barre d'outils journée */
+.day-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background: rgba(255, 253, 248, 0.96);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--rule);
+    border-radius: var(--radius);
+    padding: 0.8rem 1rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+}
+
+.day-heading {
+    flex: 1;
+    min-width: 220px;
+}
+
+.day-heading h2 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1.45rem;
+    color: var(--accent-2);
+    text-transform: capitalize;
+}
+
+.day-meta-line {
+    margin: 0.2rem 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 860px) {
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 720px) {
+    .day-toolbar {
+        position: static;
+    }
+
+    .timeline-row {
+        grid-template-columns: 82px 1fr;
+    }
+
+    .timeline-inner {
+        min-width: 820px;
+    }
+
+    .day-return-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
