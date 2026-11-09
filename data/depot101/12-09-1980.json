@@ -1,295 +1,421 @@
 {
   "date": "12-09-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:43:49.762656",
+  "scraped_at": "2026-11-09T16:40:37.625447",
   "programs": [
     {
       "time": "12:05",
       "title": "RÉPONSE À TOUT",
       "channel": "TF1",
-      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier",
+      "description_lines": [
+        "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      ]
     },
     {
       "time": "12:30",
       "title": "MIDI PREMIÈRE",
       "channel": "TF1",
-      "description": "Emission présentée par Danièle Gilbert"
+      "description": "Emission présentée par Danièle Gilbert",
+      "description_lines": [
+        "Emission présentée par Danièle Gilbert"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "TF1",
-      "description": "Rediffusion des magazines présentés sur FR3"
+      "description": "Rediffusion des magazines présentés sur FR3",
+      "description_lines": [
+        "Rediffusion des magazines présentés sur FR3"
+      ]
     },
     {
       "time": "13:50",
       "title": "TENNIS - CHAMPIONNATS DE FRANCE : DEMI-FINALE SIMPLE MESSIEURS",
       "channel": "TF1",
-      "description": "Commenté par Jean Raynal et Alain Escoubé"
+      "description": "Commenté par Jean Raynal et Alain Escoubé",
+      "description_lines": [
+        "Commenté par Jean Raynal et Alain Escoubé"
+      ]
     },
     {
       "time": "17:00",
       "title": "HONG KONG FOU-FOU - LE GRAND CAMBRIOLAGE",
       "channel": "TF1",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "17:20",
       "title": "CROQUE-VACANCES",
       "channel": "TF1",
-      "description": "Emission présentée par Claude Pierrard Oh Possum - Oh la salle bête Bricolage Isidore le lapin Infos-magazine Variétés : Pascal Bacoux et Patrick Métayer Samson et Goliath - L'inquiétant Docteur Nesto"
+      "description": "Emission présentée par Claude Pierrard Oh Possum - Oh la salle bête Bricolage Isidore le lapin Infos-magazine Variétés : Pascal Bacoux et Patrick Métayer Samson et Goliath - L'inquiétant Docteur Nesto",
+      "description_lines": [
+        "Emission présentée par Claude Pierrard",
+        "Oh Possum - Oh la salle bête",
+        "Bricolage",
+        "Isidore le lapin",
+        "Infos-magazine",
+        "Variétés : Pascal Bacoux et Patrick Métayer",
+        "Samson et Goliath - L'inquiétant Docteur Nesto"
+      ]
     },
     {
       "time": "18:00",
       "title": "TF QUATRE",
       "channel": "TF1",
-      "description": "Présenté par Annik Beauchamps"
+      "description": "Présenté par Annik Beauchamps",
+      "description_lines": [
+        "Présenté par Annik Beauchamps"
+      ]
     },
     {
       "time": "18:35",
       "title": "L'ÎLE AUX ENFANTS - EMILE EST MUTÉ",
       "channel": "TF1",
-      "description": "Emission de Christophe Izard"
+      "description": "Emission de Christophe Izard",
+      "description_lines": [
+        "Emission de Christophe Izard"
+      ]
     },
     {
       "time": "18:55",
       "title": "LES INCONNUS DE 18H55",
       "channel": "TF1",
-      "description": "Jeu présenté par Patrick Sabatier. Avec Sim, Evelyne Grandjean, Robert Castel et Philippe Clay"
+      "description": "Jeu présenté par Patrick Sabatier. Avec Sim, Evelyne Grandjean, Robert Castel et Philippe Clay",
+      "description_lines": [
+        "Jeu présenté par Patrick Sabatier. Avec Sim, Evelyne Grandjean, Robert Castel et Philippe Clay"
+      ]
     },
     {
       "time": "19:10",
       "title": "UNE MINUTE POUR LES FEMMES - LES ASSURANCES DE LA RENTRÉE",
       "channel": "TF1",
-      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson",
+      "description_lines": [
+        "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "FRÉDÉRIC - 35ÈME ÉPISODE",
       "channel": "TF1",
-      "description": "Feuilleton en 52 épisodes avec François Castang"
+      "description": "Feuilleton en 52 épisodes avec François Castang",
+      "description_lines": [
+        "Feuilleton en 52 épisodes avec François Castang"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LES AIGUILLEURS",
       "channel": "TF1",
-      "description": "Pièce avec Jacques Dufilho, Georges Wilson"
+      "description": "Pièce avec Jacques Dufilho, Georges Wilson",
+      "description_lines": [
+        "Pièce avec Jacques Dufilho, Georges Wilson"
+      ]
     },
     {
       "time": "22:35",
       "title": "PLEINS FEUX",
       "channel": "TF1",
-      "description": "Le magazine du spectacle proposé par José Arthur"
+      "description": "Le magazine du spectacle proposé par José Arthur",
+      "description_lines": [
+        "Le magazine du spectacle proposé par José Arthur"
+      ]
     },
     {
       "time": "23:35",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)"
+      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)",
+      "description_lines": [
+        "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)"
+      ]
     },
     {
       "time": "10:30",
       "title": "ANTIOPE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "UNE AFFAIRE POUR MÄNNDLI - MISTER X",
       "channel": "Antenne 2",
-      "description": "Feuilleton allemand avec Rudi Walter, Marlène Riphahn"
+      "description": "Feuilleton allemand avec Rudi Walter, Marlène Riphahn",
+      "description_lines": [
+        "Feuilleton allemand avec Rudi Walter, Marlène Riphahn"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - SOUVENIRS D'ACCORDÉON",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:00",
       "title": "POLICE STORY - LE CHEF",
       "channel": "Antenne 2",
-      "description": "Série américaine avec Jame Wainright et Chuck Connors. Rediffusion"
+      "description": "Série américaine avec Jame Wainright et Chuck Connors. Rediffusion",
+      "description_lines": [
+        "Série américaine avec Jame Wainright et Chuck Connors. Rediffusion"
+      ]
     },
     {
       "time": "15:55",
       "title": "QUATRE SAISONS - AVEZ-VOUS VU PARIS AU MOIS D'AOÛT ?",
       "channel": "Antenne 2",
-      "description": "Magazine des loisirs présentée par Henri Slotine"
+      "description": "Magazine des loisirs présentée par Henri Slotine",
+      "description_lines": [
+        "Magazine des loisirs présentée par Henri Slotine"
+      ]
     },
     {
       "time": "16:55",
       "title": "TENNIS - CHAMPIONNATS DE FRANCE : DEMI-FINALE SIMPLE MESSIEURS",
       "channel": "Antenne 2",
-      "description": "Commenté par Hervé Duthu"
+      "description": "Commenté par Hervé Duthu",
+      "description_lines": [
+        "Commenté par Hervé Duthu"
+      ]
     },
     {
       "time": "17:45",
       "title": "CYCLISME - TOUR DE L'AVENIR, 4ÈRE ÉTAPE",
       "channel": "Antenne 2",
-      "description": "Commenté par Jean-Paul Ollivier"
+      "description": "Commenté par Jean-Paul Ollivier",
+      "description_lines": [
+        "Commenté par Jean-Paul Ollivier"
+      ]
     },
     {
       "time": "18:00",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Félix le chat Dino boy Titi et Gros Minet Casper et ses amis"
+      "description": "Félix le chat Dino boy Titi et Gros Minet Casper et ses amis",
+      "description_lines": [
+        "Félix le chat",
+        "Dino boy",
+        "Titi et Gros Minet",
+        "Casper et ses amis"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE L'ÉTÉ - DIS-MOI OÙ TU HABITES : RÉGION NORD PAS-DE-CALAIS",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli et Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli et Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli et Bertrand Renard"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "36 BOUTS DE CHANDELLE",
       "channel": "Antenne 2",
-      "description": "Emission de Dominique Nohain"
+      "description": "Emission de Dominique Nohain",
+      "description_lines": [
+        "Emission de Dominique Nohain"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "FORTUNATA ET JACINTA - 7ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton en 8 épisodes avec Maribel Martin"
+      "description": "Feuilleton en 8 épisodes avec Maribel Martin",
+      "description_lines": [
+        "Feuilleton en 8 épisodes avec Maribel Martin"
+      ]
     },
     {
       "time": "21:40",
       "title": "APOSTROPHES - LA GUERRE DES DICTIONNAIRES",
       "channel": "Antenne 2",
-      "description": "Emission de Bernard Pivot"
+      "description": "Emission de Bernard Pivot",
+      "description_lines": [
+        "Emission de Bernard Pivot"
+      ]
     },
     {
       "time": "23:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:05",
       "title": "CINÉ-CLUB",
       "channel": "Antenne 2",
-      "description": "Cycle Comédie musicale Ma sœur est du tonnerre"
+      "description": "Cycle Comédie musicale Ma sœur est du tonnerre",
+      "description_lines": [
+        "Cycle Comédie musicale",
+        "Ma sœur est du tonnerre"
+      ]
     },
     {
       "time": "00:50",
       "title": "FIN DES ÉMISSIONS",
       "channel": "Antenne 2",
-      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)"
+      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)",
+      "description_lines": [
+        "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)"
+      ]
     },
     {
       "time": "18:00",
       "title": "HORIZON",
       "channel": "FR3",
-      "description": "Emission du ministère de la défense"
+      "description": "Emission du ministère de la défense",
+      "description_lines": [
+        "Emission du ministère de la défense"
+      ]
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Les aventures de Lolek et Bolek Titres en poche Les contes du folklore japonais"
+      "description": "Les aventures de Lolek et Bolek Titres en poche Les contes du folklore japonais",
+      "description_lines": [
+        "Les aventures de Lolek et Bolek",
+        "Titres en poche",
+        "Les contes du folklore japonais"
+      ]
     },
     {
       "time": "18:55",
       "title": "SCÈNES DE LA VIE DE PROVINCE - UN CAVALIER QUI S'HABILLE D'ESPACE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "L'OURS PADDINGTON - LE HAMAC",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes. Invités : Pierre Desproges, Christine Fabrega et Maurice Biraud"
+      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes. Invités : Pierre Desproges, Christine Fabrega et Maurice Biraud",
+      "description_lines": [
+        "Jeu présenté par Maurice Favières et Jean-Pierre Descombes. Invités : Pierre Desproges, Christine Fabrega et Maurice Biraud"
+      ]
     },
     {
       "time": "20:30",
       "title": "V3 - LE NOUVEAU VENDREDI - AFRIQUE : LA CORNE DE LA MISÈRE",
       "channel": "FR3",
-      "description": "Reportage de Michel Honorin"
+      "description": "Reportage de Michel Honorin",
+      "description_lines": [
+        "Reportage de Michel Honorin"
+      ]
     },
     {
       "time": "21:30",
       "title": "LA CIVILISATION DE L'OLIVIER",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:30",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": "Suivi de Thalassa"
+      "description": "Suivi de Thalassa",
+      "description_lines": [
+        "Suivi de Thalassa"
+      ]
     },
     {
       "time": "23:00",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW) © 1988-2026 Depot 101"
+      "description": "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)",
+      "description_lines": [
+        "Retranscription du 21.01.1990 par Paul Dard (trame vendredi DB3+ AW)"
+      ]
     }
   ]
 }

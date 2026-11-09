@@ -1,277 +1,393 @@
 {
   "date": "22-03-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:44:26.169147",
+  "scraped_at": "2026-11-09T16:41:22.116370",
   "programs": [
     {
       "time": "12:00",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:30",
       "title": "CUISINE LÉGÈRE - POISSON RÔTI AU FOUR ET NOUILLES AU CITRON",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:50",
       "title": "LA VIE COMMENCE DEMAIN - VOEUX D'ORIENTATION : UN SECRÉTARIAT SPÉCIALISÉ",
       "channel": "TF1",
-      "description": "Présenté par Arlette Chabot"
+      "description": "Présenté par Arlette Chabot",
+      "description_lines": [
+        "Présenté par Arlette Chabot"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:30",
       "title": "LE MONDE DE L'ACCORDÉON",
       "channel": "TF1",
-      "description": "Emission présentée par Jacqueline Huet"
+      "description": "Emission présentée par Jacqueline Huet",
+      "description_lines": [
+        "Emission présentée par Jacqueline Huet"
+      ]
     },
     {
       "time": "13:50",
       "title": "AU PLAISIR DU SAMEDI",
       "channel": "TF1",
-      "description": "Emission présentée par Claude Ruben La croisière s'amuse - Chassé croisé Un nom or or Plume d'élan - Pouvoir s'arrêter au feu orange Découvertes TF1 - Les gagnants Maya l'abeille - Le triomphe de Maya Télé-troc Ardéchois coeur fidèle - 1er épisode Le magazine de l'aventure - Le ciel et la boue La vallée des dinosaures - Vol d'essai Avec des idées, que savez-vous faire ? - Un parc-promenade pour bébé"
+      "description": "Emission présentée par Claude Ruben La croisière s'amuse - Chassé croisé Un nom or or Plume d'élan - Pouvoir s'arrêter au feu orange Découvertes TF1 - Les gagnants Maya l'abeille - Le triomphe de Maya Télé-troc Ardéchois coeur fidèle - 1er épisode Le magazine de l'aventure - Le ciel et la boue La vallée des dinosaures - Vol d'essai Avec des idées, que savez-vous faire ? - Un parc-promenade pour bébé",
+      "description_lines": [
+        "Emission présentée par Claude Ruben",
+        "La croisière s'amuse - Chassé croisé",
+        "Un nom or or",
+        "Plume d'élan - Pouvoir s'arrêter au feu orange",
+        "Découvertes TF1 - Les gagnants",
+        "Maya l'abeille - Le triomphe de Maya",
+        "Télé-troc",
+        "Ardéchois coeur fidèle - 1er épisode",
+        "Le magazine de l'aventure - Le ciel et la boue",
+        "La vallée des dinosaures - Vol d'essai",
+        "Avec des idées, que savez-vous faire ? - Un parc-promenade pour bébé"
+      ]
     },
     {
       "time": "18:10",
       "title": "TRENTE MILLIONS D'AMIS",
       "channel": "TF1",
-      "description": "Emission de Jean-Pierre Hutin"
+      "description": "Emission de Jean-Pierre Hutin",
+      "description_lines": [
+        "Emission de Jean-Pierre Hutin"
+      ]
     },
     {
       "time": "18:40",
       "title": "AUTO-MOTO",
       "channel": "TF1",
-      "description": "Emission de Jacques Bonnecarrère"
+      "description": "Emission de Jacques Bonnecarrère",
+      "description_lines": [
+        "Emission de Jacques Bonnecarrère"
+      ]
     },
     {
       "time": "19:10",
       "title": "SIX MINUTES POUR VOUS DÉFENDRE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "LES INCONNUS DE 19H45",
       "channel": "TF1",
-      "description": "Emission de Georges Folgoas"
+      "description": "Emission de Georges Folgoas",
+      "description_lines": [
+        "Emission de Georges Folgoas"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "NUMÉRO UN - GÉRARD LENORMAN",
       "channel": "TF1",
-      "description": "Emission de Maritie et Gilbert Carpentier. Avec Marie-Paule Belle, Alain Chamfort, Linda de Suza, Francis Perrin, Jean-Claude Brialy"
+      "description": "Emission de Maritie et Gilbert Carpentier. Avec Marie-Paule Belle, Alain Chamfort, Linda de Suza, Francis Perrin, Jean-Claude Brialy",
+      "description_lines": [
+        "Emission de Maritie et Gilbert Carpentier. Avec Marie-Paule Belle, Alain Chamfort, Linda de Suza, Francis Perrin, Jean-Claude Brialy"
+      ]
     },
     {
       "time": "21:35",
       "title": "ANNA KARÉNINE - 8ÈME ÉPISODE",
       "channel": "TF1",
-      "description": "Série britannique avec Nicola Pafett, Stuart Wilson"
+      "description": "Série britannique avec Nicola Pafett, Stuart Wilson",
+      "description_lines": [
+        "Série britannique avec Nicola Pafett, Stuart Wilson"
+      ]
     },
     {
       "time": "22:30",
       "title": "TÉLÉ FOOT 1",
       "channel": "TF1",
-      "description": "Emission présenté par Pierre Cangioni"
+      "description": "Emission présenté par Pierre Cangioni",
+      "description_lines": [
+        "Emission présenté par Pierre Cangioni"
+      ]
     },
     {
       "time": "23:30",
       "title": "JOURNAL DE LA NUIT",
       "channel": "TF1",
-      "description": "Réf. : 19890322_Dokken"
+      "description": "Réf. : 19890322_Dokken",
+      "description_lines": [
+        "Réf. : 19890322_Dokken"
+      ]
     },
     {
       "time": "11:45",
       "title": "JOURNAL À L'INTENTION DES SOURDS ET DES MALENTENDANTS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "LA VÉRITÉ EST AU FOND DE LA MARMITE - LE POULET AU CURY",
       "channel": "Antenne 2",
-      "description": "Présenté par Michel Oliver. Invité : André Pousse"
+      "description": "Présenté par Michel Oliver. Invité : André Pousse",
+      "description_lines": [
+        "Présenté par Michel Oliver. Invité : André Pousse"
+      ]
     },
     {
       "time": "12:30",
       "title": "SAMEDI ET DEMI",
       "channel": "Antenne 2",
-      "description": "Présenté par Jean-Claude Mangeot"
+      "description": "Présenté par Jean-Claude Mangeot",
+      "description_lines": [
+        "Présenté par Jean-Claude Mangeot"
+      ]
     },
     {
       "time": "13:35",
       "title": "MONSIEUR CINÉMA",
       "channel": "Antenne 2",
-      "description": "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer"
+      "description": "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer",
+      "description_lines": [
+        "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer"
+      ]
     },
     {
       "time": "14:25",
       "title": "LES JEUX DU STADE",
       "channel": "Antenne 2",
-      "description": "Emission préparée par Jean Lanzi et Robert Chapatte"
+      "description": "Emission préparée par Jean Lanzi et Robert Chapatte",
+      "description_lines": [
+        "Emission préparée par Jean Lanzi et Robert Chapatte"
+      ]
     },
     {
       "time": "17:20",
       "title": "LES MOINS D'VINGT ANS ET LES AUTRES",
       "channel": "Antenne 2",
-      "description": "Programme jeunesse San Ku Kaï - La fin de Belda Tam-Tam - Les mouvements gauchistes après 1968"
+      "description": "Programme jeunesse San Ku Kaï - La fin de Belda Tam-Tam - Les mouvements gauchistes après 1968",
+      "description_lines": [
+        "Programme jeunesse",
+        "San Ku Kaï - La fin de Belda",
+        "Tam-Tam - Les mouvements gauchistes après 1968"
+      ]
     },
     {
       "time": "18:10",
       "title": "CHORUS",
       "channel": "Antenne 2",
-      "description": "Emission présentée par Antoine de Caunes. Avec Alexis Korner, les Specials"
+      "description": "Emission présentée par Antoine de Caunes. Avec Alexis Korner, les Specials",
+      "description_lines": [
+        "Emission présentée par Antoine de Caunes. Avec Alexis Korner, les Specials"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:10",
       "title": "D'ACCORD, PAS D'ACCORD",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Emission de variétés présentée par Guy Lux. International parade avec Karen Cheryl, Sylvie Vartan, Madness, Michel Sardou, Police, Yves Duteil, Sugar Hill Gang"
+      "description": "Emission de variétés présentée par Guy Lux. International parade avec Karen Cheryl, Sylvie Vartan, Madness, Michel Sardou, Police, Yves Duteil, Sugar Hill Gang",
+      "description_lines": [
+        "Emission de variétés présentée par Guy Lux. International parade avec Karen Cheryl, Sylvie Vartan, Madness, Michel Sardou, Police, Yves Duteil, Sugar Hill Gang"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LES ENQUÊTES DU COMMISSAIRE MAIGRET - L'AFFAIRE SAINT-FIACRE",
       "channel": "Antenne 2",
-      "description": "Série française avec Jean Richard"
+      "description": "Série française avec Jean Richard",
+      "description_lines": [
+        "Série française avec Jean Richard"
+      ]
     },
     {
       "time": "22:25",
       "title": "BASKET-BALL - FINALE DU CHAMPIONNAT DE FRANCE",
       "channel": "Antenne 2",
-      "description": "Commenté par Bernard Père et Jo Choupin"
+      "description": "Commenté par Bernard Père et Jo Choupin",
+      "description_lines": [
+        "Commenté par Bernard Père et Jo Choupin"
+      ]
     },
     {
       "time": "23:20",
       "title": "LES CARNETS DE L'AVENTURE",
       "channel": "Antenne 2",
-      "description": "Emission de Pierre-François Degeorges"
+      "description": "Emission de Pierre-François Degeorges",
+      "description_lines": [
+        "Emission de Pierre-François Degeorges"
+      ]
     },
     {
       "time": "23:50",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": "Réf. : 19890322_Dokken"
+      "description": "Réf. : 19890322_Dokken",
+      "description_lines": [
+        "Réf. : 19890322_Dokken"
+      ]
     },
     {
       "time": "13:30",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "ARRÊT DES ÉMISSIONS",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:30",
       "title": "CHARLES DUMONT ET QUATRE VOIX À LA CLÉ",
       "channel": "FR3",
-      "description": "Emission de Philippe Masson"
+      "description": "Emission de Philippe Masson",
+      "description_lines": [
+        "Emission de Philippe Masson"
+      ]
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Il était une fois… l'Homme Pony Express"
+      "description": "Il était une fois… l'Homme Pony Express",
+      "description_lines": [
+        "Il était une fois… l'Homme",
+        "Pony Express"
+      ]
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "L'OURS PADDINGTON - PADDINGTON DÉCORATEUR",
       "channel": "FR3",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES - CHAMROUSSE",
       "channel": "FR3",
-      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes"
+      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes",
+      "description_lines": [
+        "Jeu présenté par Maurice Favières et Jean-Pierre Descombes"
+      ]
     },
     {
       "time": "20:30",
       "title": "LE MARCHAND DE SABLE",
       "channel": "FR3",
-      "description": "HISTOIRES ETRANGES. Série de 4 films TV. Avec Paul le Person, Nathalie Nell"
+      "description": "HISTOIRES ETRANGES. Série de 4 films TV. Avec Paul le Person, Nathalie Nell",
+      "description_lines": [
+        "HISTOIRES ETRANGES. Série de 4 films TV. Avec Paul le Person, Nathalie Nell"
+      ]
     },
     {
       "time": "21:55",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:15",
       "title": "CINÉ REGARDS - LES MONTREURS D'IMAGES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:45",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "Réf. : 19890322_Dokken © 1988-2026 Depot 101"
+      "description": "Réf. : 19890322_Dokken",
+      "description_lines": [
+        "Réf. : 19890322_Dokken"
+      ]
     }
   ]
 }

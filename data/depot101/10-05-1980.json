@@ -1,277 +1,393 @@
 {
   "date": "10-05-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:43:34.263136",
+  "scraped_at": "2026-11-09T16:40:22.435221",
   "programs": [
     {
       "time": "12:00",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:30",
       "title": "CULTIVONS NOTRE JARDIN",
       "channel": "TF1",
-      "description": "Emission de Nicolas le jardinier"
+      "description": "Emission de Nicolas le jardinier",
+      "description_lines": [
+        "Emission de Nicolas le jardinier"
+      ]
     },
     {
       "time": "12:45",
       "title": "JEUNE PRATIQUE - ET SI VOUS CHANTIEZ ?",
       "channel": "TF1",
-      "description": "Présenté par Arlette Chabot"
+      "description": "Présenté par Arlette Chabot",
+      "description_lines": [
+        "Présenté par Arlette Chabot"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:30",
       "title": "LE MONDE DE L'ACCORDÉON",
       "channel": "TF1",
-      "description": "Avec André Verchuren"
+      "description": "Avec André Verchuren",
+      "description_lines": [
+        "Avec André Verchuren"
+      ]
     },
     {
       "time": "13:50",
       "title": "AU PLAISIR DU SAMEDI",
       "channel": "TF1",
-      "description": "Emission présentée par Claude Ruben Chapeau melon et bottes de cuir - Requiem Plume d'élan - On n'est pas en sécurité même quand on est accompagné Découvertes TF1 Maya l'abeille - Le marathon de la forêt Avec des idées, que savez-vous faire ? - Bonjour monsieur Lépine Le salon des inventeurs Les années d'illusion - 2ème épisode Tom et Jerry - Câline Temps X Holmes et Yoyo - La police est sur les dents"
+      "description": "Emission présentée par Claude Ruben Chapeau melon et bottes de cuir - Requiem Plume d'élan - On n'est pas en sécurité même quand on est accompagné Découvertes TF1 Maya l'abeille - Le marathon de la forêt Avec des idées, que savez-vous faire ? - Bonjour monsieur Lépine Le salon des inventeurs Les années d'illusion - 2ème épisode Tom et Jerry - Câline Temps X Holmes et Yoyo - La police est sur les dents",
+      "description_lines": [
+        "Emission présentée par Claude Ruben",
+        "Chapeau melon et bottes de cuir - Requiem",
+        "Plume d'élan - On n'est pas en sécurité même quand on est accompagné",
+        "Découvertes TF1",
+        "Maya l'abeille - Le marathon de la forêt",
+        "Avec des idées, que savez-vous faire ? - Bonjour monsieur Lépine",
+        "Le salon des inventeurs",
+        "Les années d'illusion - 2ème épisode",
+        "Tom et Jerry - Câline",
+        "Temps X",
+        "Holmes et Yoyo - La police est sur les dents"
+      ]
     },
     {
       "time": "18:00",
       "title": "TRENTE MILLIONS D'AMIS",
       "channel": "TF1",
-      "description": "Emission de Jean-Pierre Hutin"
+      "description": "Emission de Jean-Pierre Hutin",
+      "description_lines": [
+        "Emission de Jean-Pierre Hutin"
+      ]
     },
     {
       "time": "18:35",
       "title": "AUTO-MOTO",
       "channel": "TF1",
-      "description": "Emission de Jacques Bonnecarrère"
+      "description": "Emission de Jacques Bonnecarrère",
+      "description_lines": [
+        "Emission de Jacques Bonnecarrère"
+      ]
     },
     {
       "time": "18:55",
       "title": "LES INCONNUS DE 19H45",
       "channel": "TF1",
-      "description": "Emission de Georges Folgoas"
+      "description": "Emission de Georges Folgoas",
+      "description_lines": [
+        "Emission de Georges Folgoas"
+      ]
     },
     {
       "time": "19:10",
       "title": "SIX MINUTES POUR VOUS DÉFENDRE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "MAI-JUIN 1940, JOURNAL D'UN PRINTEMPS TRAGIQUE - L'ATTAQUE ALLEMANDE COMMENCE À L'AUBE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "NUMÉRO UN - ANNIE CORDY",
       "channel": "TF1",
-      "description": "Emission de Maritie et Gilbert Carpentier. Avec le duo Poivre et Sel, Renaud, Louis Chédid, Enrico Macias, Pascal Bacoux"
+      "description": "Emission de Maritie et Gilbert Carpentier. Avec le duo Poivre et Sel, Renaud, Louis Chédid, Enrico Macias, Pascal Bacoux",
+      "description_lines": [
+        "Emission de Maritie et Gilbert Carpentier. Avec le duo Poivre et Sel, Renaud, Louis Chédid, Enrico Macias, Pascal Bacoux"
+      ]
     },
     {
       "time": "21:35",
       "title": "COLUMBO - DES SOURIRES ET DES ARMES",
       "channel": "TF1",
-      "description": "Série américaine avec Peter Falk"
+      "description": "Série américaine avec Peter Falk",
+      "description_lines": [
+        "Série américaine avec Peter Falk"
+      ]
     },
     {
       "time": "23:10",
       "title": "TÉLÉ-FOOT",
       "channel": "TF1",
-      "description": "Emission présenté par Pierre Cangioni"
+      "description": "Emission présenté par Pierre Cangioni",
+      "description_lines": [
+        "Emission présenté par Pierre Cangioni"
+      ]
     },
     {
       "time": "00:10",
       "title": "JOURNAL DE LA NUIT",
       "channel": "TF1",
-      "description": "Réf. : 19890507_Alain_Thibault"
+      "description": "Réf. : 19890507_Alain_Thibault",
+      "description_lines": [
+        "Réf. : 19890507_Alain_Thibault"
+      ]
     },
     {
       "time": "11:45",
       "title": "JOURNAL À L'INTENTION DES SOURDS ET DES MALENTENDANTS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "LA VÉRITÉ EST AU FOND DE LA MARMITE - LES CHAMPIGNONS DE PARIS",
       "channel": "Antenne 2",
-      "description": "Présenté par Michel Oliver. Invité : Olivier de Rincquessen"
+      "description": "Présenté par Michel Oliver. Invité : Olivier de Rincquessen",
+      "description_lines": [
+        "Présenté par Michel Oliver. Invité : Olivier de Rincquessen"
+      ]
     },
     {
       "time": "12:30",
       "title": "SAMEDI ET DEMI - LA BELLE OCCASE (OU LES GARAGISTES DOUTEUX)",
       "channel": "Antenne 2",
-      "description": "Présenté par Jean-Claude Mangeot"
+      "description": "Présenté par Jean-Claude Mangeot",
+      "description_lines": [
+        "Présenté par Jean-Claude Mangeot"
+      ]
     },
     {
       "time": "13:35",
       "title": "MONSIEUR CINÉMA",
       "channel": "Antenne 2",
-      "description": "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer"
+      "description": "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer",
+      "description_lines": [
+        "Emission présentée par Pierre Tchernia, Jacques Rouland, Jean-Claude Romer"
+      ]
     },
     {
       "time": "14:25",
       "title": "LES JEUX DU STADE",
       "channel": "Antenne 2",
-      "description": "Emission de Jean Lanzi et Robert Chapatte"
+      "description": "Emission de Jean Lanzi et Robert Chapatte",
+      "description_lines": [
+        "Emission de Jean Lanzi et Robert Chapatte"
+      ]
     },
     {
       "time": "17:20",
       "title": "LES MOINS D'VINGT ANS ET LES AUTRES",
       "channel": "Antenne 2",
-      "description": "Programme jeunesse Superbug - Méfiez-vous de votre associé Tam-Tam - Taizé"
+      "description": "Programme jeunesse Superbug - Méfiez-vous de votre associé Tam-Tam - Taizé",
+      "description_lines": [
+        "Programme jeunesse",
+        "Superbug - Méfiez-vous de votre associé",
+        "Tam-Tam - Taizé"
+      ]
     },
     {
       "time": "18:10",
       "title": "CHORUS",
       "channel": "Antenne 2",
-      "description": "Emission présentée par Antoine de Caunes. Spécial Ian Hunter et The Band feat. Mick Ronson"
+      "description": "Emission présentée par Antoine de Caunes. Spécial Ian Hunter et The Band feat. Mick Ronson",
+      "description_lines": [
+        "Emission présentée par Antoine de Caunes. Spécial Ian Hunter et The Band feat. Mick Ronson"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:10",
       "title": "D'ACCORD, PAS D'ACCORD",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Emission de variétés présentée par Guy Lux"
+      "description": "Emission de variétés présentée par Guy Lux",
+      "description_lines": [
+        "Emission de variétés présentée par Guy Lux"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": "Présenté par Daniel Bilalian"
+      "description": "Présenté par Daniel Bilalian",
+      "description_lines": [
+        "Présenté par Daniel Bilalian"
+      ]
     },
     {
       "time": "20:35",
       "title": "LE FIN DU MARQUISAT D'AUREL - DERNIER ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton en 4 épisodes avec Pierre Vaneck"
+      "description": "Feuilleton en 4 épisodes avec Pierre Vaneck",
+      "description_lines": [
+        "Feuilleton en 4 épisodes avec Pierre Vaneck"
+      ]
     },
     {
       "time": "21:45",
       "title": "LES ROLLING STONES EN CONCERT",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:50",
       "title": "LES SOLITAIRES DE L'ATLANTIQUE",
       "channel": "Antenne 2",
-      "description": "Emission de François Desplats"
+      "description": "Emission de François Desplats",
+      "description_lines": [
+        "Emission de François Desplats"
+      ]
     },
     {
       "time": "23:40",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": "Réf. : 19890507_Alain_Thibault"
+      "description": "Réf. : 19890507_Alain_Thibault",
+      "description_lines": [
+        "Réf. : 19890507_Alain_Thibault"
+      ]
     },
     {
       "time": "13:30",
       "title": "BREIZ O VEVA - LES BRETONS DE LA DIASPORA",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "ARRÊT DES ÉMISSIONS",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Un regard s'arrête - Images du souvenir Enfants d'Angleterre - Un système scolaire exemplaire"
+      "description": "Un regard s'arrête - Images du souvenir Enfants d'Angleterre - Un système scolaire exemplaire",
+      "description_lines": [
+        "Un regard s'arrête - Images du souvenir",
+        "Enfants d'Angleterre - Un système scolaire exemplaire"
+      ]
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "L'HISTOIRE DE FRANCE EN BD - AU SIÈCLE DES LUMIÈRES",
       "channel": "FR3",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES - SAINT-MALO",
       "channel": "FR3",
-      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes"
+      "description": "Jeu présenté par Maurice Favières et Jean-Pierre Descombes",
+      "description_lines": [
+        "Jeu présenté par Maurice Favières et Jean-Pierre Descombes"
+      ]
     },
     {
       "time": "20:30",
       "title": "LA TISANE DE SARMENTS",
       "channel": "FR3",
-      "description": "CINEMA 16. Téléfilm avec Philippe Léotard"
+      "description": "CINEMA 16. Téléfilm avec Philippe Léotard",
+      "description_lines": [
+        "CINEMA 16. Téléfilm avec Philippe Léotard"
+      ]
     },
     {
       "time": "22:00",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:20",
       "title": "CINÉ REGARDS - ALEXANDRE TRAUNER",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:55",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "Réf. : 19890507_Alain_Thibault © 1988-2026 Depot 101"
+      "description": "Réf. : 19890507_Alain_Thibault",
+      "description_lines": [
+        "Réf. : 19890507_Alain_Thibault"
+      ]
     }
   ]
 }

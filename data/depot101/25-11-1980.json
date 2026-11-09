@@ -1,259 +1,364 @@
 {
   "date": "25-11-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:44:50.968282",
+  "scraped_at": "2026-11-09T16:41:45.659340",
   "programs": [
     {
       "time": "12:10",
       "title": "RÉPONSE À TOUT",
       "channel": "TF1",
-      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier",
+      "description_lines": [
+        "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      ]
     },
     {
       "time": "12:30",
       "title": "MIDI PREMIÈRE",
       "channel": "TF1",
-      "description": "Emission présentée par Danièle Gilbert. Invité : Mort Shuman"
+      "description": "Emission présentée par Danièle Gilbert. Invité : Mort Shuman",
+      "description_lines": [
+        "Emission présentée par Danièle Gilbert. Invité : Mort Shuman"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:45",
       "title": "FÉMININ PRÉSENT",
       "channel": "TF1",
-      "description": "Emission présentée par Evelyne Pagès Mémoire en fête Télévision scolaire Elles en question Mission impossible - Miss fait une cure Mini Show - Francis Lemarque Les recettes de mon village - Le trivoluche Tout feu, tout femme - Le taï-jitsu Dossier : maladies cardio-vasculaires A vos mains - Les pantalons La femme insolite Coup de coeur Variétés : Joëlle"
+      "description": "Emission présentée par Evelyne Pagès Mémoire en fête Télévision scolaire Elles en question Mission impossible - Miss fait une cure Mini Show - Francis Lemarque Les recettes de mon village - Le trivoluche Tout feu, tout femme - Le taï-jitsu Dossier : maladies cardio-vasculaires A vos mains - Les pantalons La femme insolite Coup de coeur Variétés : Joëlle",
+      "description_lines": [
+        "Emission présentée par Evelyne Pagès",
+        "Mémoire en fête",
+        "Télévision scolaire",
+        "Elles en question",
+        "Mission impossible - Miss fait une cure",
+        "Mini Show - Francis Lemarque",
+        "Les recettes de mon village - Le trivoluche",
+        "Tout feu, tout femme - Le taï-jitsu",
+        "Dossier : maladies cardio-vasculaires",
+        "A vos mains - Les pantalons",
+        "La femme insolite",
+        "Coup de coeur",
+        "Variétés : Joëlle"
+      ]
     },
     {
       "time": "17:55",
       "title": "TF QUATRE",
       "channel": "TF1",
-      "description": "Présenté par Annik Beauchamps"
+      "description": "Présenté par Annik Beauchamps",
+      "description_lines": [
+        "Présenté par Annik Beauchamps"
+      ]
     },
     {
       "time": "18:20",
       "title": "1, RUE SÉSAME - UNE IDÉE VIEILLE COMME LE MONDE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:45",
       "title": "AVIS DE RECHERCHE",
       "channel": "TF1",
-      "description": "Cette semaine : Michel Drucker, avec Hervé Vilard"
+      "description": "Cette semaine : Michel Drucker, avec Hervé Vilard",
+      "description_lines": [
+        "Cette semaine : Michel Drucker, avec Hervé Vilard"
+      ]
     },
     {
       "time": "19:15",
       "title": "UNE MINUTE POUR LES FEMMES",
       "channel": "TF1",
-      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson",
+      "description_lines": [
+        "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "LES PARIS DE TF1",
       "channel": "TF1",
-      "description": "Invité : Pierre Doris"
+      "description": "Invité : Pierre Doris",
+      "description_lines": [
+        "Invité : Pierre Doris"
+      ]
     },
     {
       "time": "20:30",
       "title": "LE GRAND DÉBAT - JEAN-JACQUES SERVAN-SCHREIBER",
       "channel": "TF1",
-      "description": "Emission d'Henri Marque et Patrice Duhamel"
+      "description": "Emission d'Henri Marque et Patrice Duhamel",
+      "description_lines": [
+        "Emission d'Henri Marque et Patrice Duhamel"
+      ]
     },
     {
       "time": "21:35",
       "title": "UNE FORÊT - LE BOIS VIVANT",
       "channel": "TF1",
-      "description": "Documentaire en 2 parties"
+      "description": "Documentaire en 2 parties",
+      "description_lines": [
+        "Documentaire en 2 parties"
+      ]
     },
     {
       "time": "22:35",
       "title": "RÉCITS D'ELLIS ISLAND - TRACES 1978-1980 (1)",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:35",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "ANTIOPE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:05",
       "title": "PASSEZ DONC ME VOIR",
       "channel": "Antenne 2",
-      "description": "Emission presentée par Philippe Bouvard"
+      "description": "Emission presentée par Philippe Bouvard",
+      "description_lines": [
+        "Emission presentée par Philippe Bouvard"
+      ]
     },
     {
       "time": "12:30",
       "title": "L'HOMME À L'HISPANO - 2ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton en 10 épisodes avec Gilles Segal, Cyrielle Claire, Jean-Pierre Kalfon"
+      "description": "Feuilleton en 10 épisodes avec Gilles Segal, Cyrielle Claire, Jean-Pierre Kalfon",
+      "description_lines": [
+        "Feuilleton en 10 épisodes avec Gilles Segal, Cyrielle Claire, Jean-Pierre Kalfon"
+      ]
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:50",
       "title": "FACE À VOUS",
       "channel": "Antenne 2",
-      "description": "Emission de Jacqueline Alexandre"
+      "description": "Emission de Jacqueline Alexandre",
+      "description_lines": [
+        "Emission de Jacqueline Alexandre"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - CES PROFESSEURS QUI VOUS ONT MARQUÉS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:00",
       "title": "LES CHEMINS DE LA HAUTE VILLE",
       "channel": "Antenne 2",
-      "description": "Film anglais (1958) avec Simone Signoret"
+      "description": "Film anglais (1958) avec Simone Signoret",
+      "description_lines": [
+        "Film anglais (1958) avec Simone Signoret"
+      ]
     },
     {
       "time": "17:00",
       "title": "ITINÉRAIRES - RÉSONNANCES. LA MUSIQUE BRÉSILIENNE",
       "channel": "Antenne 2",
-      "description": "Emission de Sophie Richard"
+      "description": "Emission de Sophie Richard",
+      "description_lines": [
+        "Emission de Sophie Richard"
+      ]
     },
     {
       "time": "17:20",
       "title": "FENÊTRE SUR... - POËSIE AU PLURIEL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:50",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Mes mains ont la parole Sido et Rémi C'est chouette Ces sacrés parents"
+      "description": "Mes mains ont la parole Sido et Rémi C'est chouette Ces sacrés parents",
+      "description_lines": [
+        "Mes mains ont la parole",
+        "Sido et Rémi",
+        "C'est chouette",
+        "Ces sacrés parents"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Variétés de Guy Lux et Lela Milcic"
+      "description": "Variétés de Guy Lux et Lela Milcic",
+      "description_lines": [
+        "Variétés de Guy Lux et Lela Milcic"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "D'ACCORD, PAS D'ACCORD",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "20:40",
       "title": "LES DOSSIERS DE L'ECRAN",
       "channel": "Antenne 2",
-      "description": "Présentation : Alain Jérôme Bob et Carole et Ted et Alice Débat : les couples modernes"
+      "description": "Présentation : Alain Jérôme Bob et Carole et Ted et Alice Débat : les couples modernes",
+      "description_lines": [
+        "Présentation : Alain Jérôme",
+        "Bob et Carole et Ted et Alice",
+        "Débat : les couples modernes"
+      ]
     },
     {
       "time": "23:30",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:55",
       "title": "TRIBUNE LIBRE - LES JEUNES ET LA CRÉATION",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "SATURNIN ET COMPAGNIE - LE MÉDOR EN COLÈRE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "Avec Francis Lax, Chantal Gallia, Michel Muller"
+      "description": "Avec Francis Lax, Chantal Gallia, Michel Muller",
+      "description_lines": [
+        "Avec Francis Lax, Chantal Gallia, Michel Muller"
+      ]
     },
     {
       "time": "20:30",
       "title": "LE DÉMON DES EAUX TROUBLES",
       "channel": "FR3",
-      "description": "Film américain (1954) avec Richard Widmark"
+      "description": "Film américain (1954) avec Richard Widmark",
+      "description_lines": [
+        "Film américain (1954) avec Richard Widmark"
+      ]
     },
     {
       "time": "22:05",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": "Réf:2K181128 © 1988-2026 Depot 101"
+      "description": "Réf:2K181128",
+      "description_lines": [
+        "Réf:2K181128"
+      ]
     }
   ]
 }

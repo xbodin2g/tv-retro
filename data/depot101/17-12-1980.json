@@ -1,265 +1,384 @@
 {
   "date": "17-12-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:44:11.691843",
+  "scraped_at": "2026-11-09T16:41:03.802212",
   "programs": [
     {
       "time": "12:10",
       "title": "RÉPONSE À TOUT",
       "channel": "TF1",
-      "description": "Présentation : Louis Bozon et Carole Chabrier"
+      "description": "Présentation : Louis Bozon et Carole Chabrier",
+      "description_lines": [
+        "Présentation : Louis Bozon et Carole Chabrier"
+      ]
     },
     {
       "time": "12:30",
       "title": "MIDI PREMIÈRE",
       "channel": "TF1",
-      "description": "Présentation : Danièle Gilbert. Invités : Karen Cheryl et Hugues Aufray"
+      "description": "Présentation : Danièle Gilbert. Invités : Karen Cheryl et Hugues Aufray",
+      "description_lines": [
+        "Présentation : Danièle Gilbert. Invités : Karen Cheryl et Hugues Aufray"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:40",
       "title": "LES VISITEURS DU MERCREDI",
       "channel": "TF1",
-      "description": "Présentation : Soizic Corne, François Diwo, Sibor et Bora, Jacques Trémolin, Gilles Arthur SPECIAL 6-10 ANS Le tableau bleu Siboralu Mission spatiale santé Scoubidou Les infos spécial 6-10 ans SPECIAL 10-15 ANS La bataille des planètes Bazoum Les infos spécial 10-15 ans LA PARADE DES DESSINS ANIMES Sydney l'éléphant Capitaine Caverne Bugs Bunny Les fantomes du château Studio 3"
+      "description": "Présentation : Soizic Corne, François Diwo, Sibor et Bora, Jacques Trémolin, Gilles Arthur SPECIAL 6-10 ANS Le tableau bleu Siboralu Mission spatiale santé Scoubidou Les infos spécial 6-10 ans SPECIAL 10-15 ANS La bataille des planètes Bazoum Les infos spécial 10-15 ans LA PARADE DES DESSINS ANIMES Sydney l'éléphant Capitaine Caverne Bugs Bunny Les fantomes du château Studio 3",
+      "description_lines": [
+        "Présentation : Soizic Corne, François Diwo, Sibor et Bora, Jacques Trémolin, Gilles Arthur",
+        "SPECIAL 6-10 ANS",
+        "Le tableau bleu",
+        "Siboralu",
+        "Mission spatiale santé",
+        "Scoubidou",
+        "Les infos spécial 6-10 ans",
+        "SPECIAL 10-15 ANS",
+        "La bataille des planètes",
+        "Bazoum",
+        "Les infos spécial 10-15 ans",
+        "LA PARADE DES DESSINS ANIMES",
+        "Sydney l'éléphant",
+        "Capitaine Caverne",
+        "Bugs Bunny",
+        "Les fantomes du château",
+        "Studio 3"
+      ]
     },
     {
       "time": "18:05",
       "title": "AUTOMAG",
       "channel": "TF1",
-      "description": "Emission d'Yves Gautier et François Chesneau"
+      "description": "Emission d'Yves Gautier et François Chesneau",
+      "description_lines": [
+        "Emission d'Yves Gautier et François Chesneau"
+      ]
     },
     {
       "time": "18:20",
       "title": "L'ÎLE AUX ENFANTS - LES MAUVAIS CARACTÈRES",
       "channel": "TF1",
-      "description": "Emission de Christophe Izard"
+      "description": "Emission de Christophe Izard",
+      "description_lines": [
+        "Emission de Christophe Izard"
+      ]
     },
     {
       "time": "18:45",
       "title": "AVIS DE RECHERCHE",
       "channel": "TF1",
-      "description": "Invitée : Sheila"
+      "description": "Invitée : Sheila",
+      "description_lines": [
+        "Invitée : Sheila"
+      ]
     },
     {
       "time": "19:10",
       "title": "UNE MINUTE POUR LES FEMMES - LE CODE DU BON VOISINAGE À LA CAMPAGNE",
       "channel": "TF1",
-      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson",
+      "description_lines": [
+        "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "LES PARIS DE TF1",
       "channel": "TF1",
-      "description": "Invité : Jean-Christophe Averty"
+      "description": "Invité : Jean-Christophe Averty",
+      "description_lines": [
+        "Invité : Jean-Christophe Averty"
+      ]
     },
     {
       "time": "19:45",
       "title": "TIRAGE DU LOTO",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LES AMOURS DU MAL-AIMÉ - DE LA BELLE ÉPOQUE AU TRISTE SOIR (1)",
       "channel": "TF1",
-      "description": "Téléfilm en 2 parties avec Jean-François Balmer, Maurice Benichou"
+      "description": "Téléfilm en 2 parties avec Jean-François Balmer, Maurice Benichou",
+      "description_lines": [
+        "Téléfilm en 2 parties avec Jean-François Balmer, Maurice Benichou"
+      ]
     },
     {
       "time": "22:00",
       "title": "LA RAGE DE LIRE - LA PASSION DE L'OPÉRA",
       "channel": "TF1",
-      "description": "Emission de Georges Suffert"
+      "description": "Emission de Georges Suffert",
+      "description_lines": [
+        "Emission de Georges Suffert"
+      ]
     },
     {
       "time": "23:10",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "ANTIOPE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:05",
       "title": "PASSEZ DONC ME VOIR",
       "channel": "Antenne 2",
-      "description": "Emission presentée par Philippe Bouvard"
+      "description": "Emission presentée par Philippe Bouvard",
+      "description_lines": [
+        "Emission presentée par Philippe Bouvard"
+      ]
     },
     {
       "time": "12:30",
       "title": "LES SOLITAIRES DE MYOLS - 9ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton avec Jean-François Poron"
+      "description": "Feuilleton avec Jean-François Poron",
+      "description_lines": [
+        "Feuilleton avec Jean-François Poron"
+      ]
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "Antenne 2",
-      "description": "Rediffusion des émissions présentées hier sur FR3"
+      "description": "Rediffusion des émissions présentées hier sur FR3",
+      "description_lines": [
+        "Rediffusion des émissions présentées hier sur FR3"
+      ]
     },
     {
       "time": "13:50",
       "title": "FACE À VOUS",
       "channel": "Antenne 2",
-      "description": "Emission de Jacqueline Alexandre"
+      "description": "Emission de Jacqueline Alexandre",
+      "description_lines": [
+        "Emission de Jacqueline Alexandre"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:15",
       "title": "BONANZA - LE MOULIN",
       "channel": "Antenne 2",
-      "description": "Série américaine"
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
     },
     {
       "time": "16:10",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Présentation : Dorothée Emilie Discorébus Les paladins de France Maraboud'ficelle Les aventures électriques de Zeltron Candy Wattoo Wattoo"
+      "description": "Présentation : Dorothée Emilie Discorébus Les paladins de France Maraboud'ficelle Les aventures électriques de Zeltron Candy Wattoo Wattoo",
+      "description_lines": [
+        "Présentation : Dorothée",
+        "Emilie",
+        "Discorébus",
+        "Les paladins de France",
+        "Maraboud'ficelle",
+        "Les aventures électriques de Zeltron",
+        "Candy",
+        "Wattoo Wattoo"
+      ]
     },
     {
       "time": "17:40",
       "title": "FOLLOW ME - SPÉCIAL NOËL",
       "channel": "Antenne 2",
-      "description": "Cours d'anglais présenté par Igor Gourine"
+      "description": "Cours d'anglais présenté par Igor Gourine",
+      "description_lines": [
+        "Cours d'anglais présenté par Igor Gourine"
+      ]
     },
     {
       "time": "18:00",
       "title": "AKAGERA - LES LIONS DANS KILALA (3)",
       "channel": "Antenne 2",
-      "description": "Série en 19 épisodes"
+      "description": "Série en 19 épisodes",
+      "description_lines": [
+        "Série en 19 épisodes"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Variétés de Guy Lux et Lela Milcic"
+      "description": "Variétés de Guy Lux et Lela Milcic",
+      "description_lines": [
+        "Variétés de Guy Lux et Lela Milcic"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LA BOHÈME",
       "channel": "Antenne 2",
-      "description": "Opéra en 4 actes"
+      "description": "Opéra en 4 actes",
+      "description_lines": [
+        "Opéra en 4 actes"
+      ]
     },
     {
       "time": "22:35",
       "title": "OBJECTIF DEMAIN - LES SONS DU XXIÈME SIÈCLE",
       "channel": "Antenne 2",
-      "description": "Magazine scientifique de Laurent Broomhead"
+      "description": "Magazine scientifique de Laurent Broomhead",
+      "description_lines": [
+        "Magazine scientifique de Laurent Broomhead"
+      ]
     },
     {
       "time": "23:30",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "De truc en troc Fred Basset"
+      "description": "De truc en troc Fred Basset",
+      "description_lines": [
+        "De truc en troc",
+        "Fred Basset"
+      ]
     },
     {
       "time": "18:55",
       "title": "TRIBUNE LIBRE - MOUVEMENT LE NID",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "SATURNIN ET COMPAGNIE - VACANCES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Jean Raymond, Christine Fabrega et Sim"
+      "description": "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Jean Raymond, Christine Fabrega et Sim",
+      "description_lines": [
+        "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Jean Raymond, Christine Fabrega et Sim"
+      ]
     },
     {
       "time": "20:30",
       "title": "LADY L.",
       "channel": "FR3",
-      "description": "Film franco-italien (1965) avec Sophia Loren, Paul Newman, David Niven"
+      "description": "Film franco-italien (1965) avec Sophia Loren, Paul Newman, David Niven",
+      "description_lines": [
+        "Film franco-italien (1965) avec Sophia Loren, Paul Newman, David Niven"
+      ]
     },
     {
       "time": "22:15",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": "© 1988-2026 Depot 101"
+      "description": "",
+      "description_lines": []
     }
   ]
 }

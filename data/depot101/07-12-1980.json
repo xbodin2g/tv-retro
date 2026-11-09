@@ -1,289 +1,386 @@
 {
   "date": "07-12-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:43:16.658330",
+  "scraped_at": "2026-11-09T16:40:03.870773",
   "programs": [
     {
       "time": "09:15",
       "title": "EMISSIONS ISRAËLITES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:00",
       "title": "PRÉSENCE PROTESTANTE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "LE JOUR DU SEIGNEUR",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "LA SÉQUENCE DU SPECTATEUR - LE JOUEUR ; LE CHEVAL D'ORGUEIL ; LA MARIÉE ÉTAIT TROP BELLE",
       "channel": "TF1",
-      "description": "Sélection de films de Claude Mionnet"
+      "description": "Sélection de films de Claude Mionnet",
+      "description_lines": [
+        "Sélection de films de Claude Mionnet"
+      ]
     },
     {
       "time": "12:30",
       "title": "TF1 - TF1",
       "channel": "TF1",
-      "description": "Magazine de Maurice Bruzek et Sophie Rack"
+      "description": "Magazine de Maurice Bruzek et Sophie Rack",
+      "description_lines": [
+        "Magazine de Maurice Bruzek et Sophie Rack"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:20",
       "title": "C'EST PAS SÉRIEUX",
       "channel": "TF1",
-      "description": "Actualité de la semaine commentée par Jean Bertho et Jean Amadou. Invitée : Jeane Manson"
+      "description": "Actualité de la semaine commentée par Jean Bertho et Jean Amadou. Invitée : Jeane Manson",
+      "description_lines": [
+        "Actualité de la semaine commentée par Jean Bertho et Jean Amadou. Invitée : Jeane Manson"
+      ]
     },
     {
       "time": "14:15",
       "title": "LES NOUVEAUX RENDEZ-VOUS",
       "channel": "TF1",
-      "description": "Emission présentée par Eve Ruggieri. Variétés : Serge Lama, Daniel Seff, Tony Stefanidis, Françoise Hardy et Precious Wilson"
+      "description": "Emission présentée par Eve Ruggieri. Variétés : Serge Lama, Daniel Seff, Tony Stefanidis, Françoise Hardy et Precious Wilson",
+      "description_lines": [
+        "Emission présentée par Eve Ruggieri. Variétés : Serge Lama, Daniel Seff, Tony Stefanidis, Françoise Hardy et Precious Wilson"
+      ]
     },
     {
       "time": "15:30",
       "title": "SPORTS PREMIÈRE",
       "channel": "TF1",
-      "description": "Présenté par Michel Denisot"
+      "description": "Présenté par Michel Denisot",
+      "description_lines": [
+        "Présenté par Michel Denisot"
+      ]
     },
     {
       "time": "17:25",
       "title": "LA MAISON DES BOIS - 3ÈME ÉPISODE",
       "channel": "TF1",
-      "description": "Feuilleton avec Pierre Doris. Rediffusion"
+      "description": "Feuilleton avec Pierre Doris. Rediffusion",
+      "description_lines": [
+        "Feuilleton avec Pierre Doris. Rediffusion"
+      ]
     },
     {
       "time": "18:15",
       "title": "SNOOPY",
       "channel": "TF1",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "18:30",
       "title": "STARSKY & HUTCH - LA RANDONNÉE DE LA MORT",
       "channel": "TF1",
-      "description": "Série américaine"
+      "description": "Série américaine",
+      "description_lines": [
+        "Série américaine"
+      ]
     },
     {
       "time": "19:25",
       "title": "LES ANIMAUX DU MONDE - UN DINOSAURE PARMI NOUS",
       "channel": "TF1",
-      "description": "Emission de Marlyse de la Grange et Antoine Reille"
+      "description": "Emission de Marlyse de la Grange et Antoine Reille",
+      "description_lines": [
+        "Emission de Marlyse de la Grange et Antoine Reille"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LA COLLINE DES POTENCES",
       "channel": "TF1",
-      "description": "Film américain (1958) avec Gary Cooper"
+      "description": "Film américain (1958) avec Gary Cooper",
+      "description_lines": [
+        "Film américain (1958) avec Gary Cooper"
+      ]
     },
     {
       "time": "22:15",
       "title": "LES GRAND MYSTÈRES DE LA MUSIQUE - OFFENBACH",
       "channel": "TF1",
-      "description": "Emission de Bernard Gavoty"
+      "description": "Emission de Bernard Gavoty",
+      "description_lines": [
+        "Emission de Bernard Gavoty"
+      ]
     },
     {
       "time": "23:20",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "11:25",
       "title": "FOLLOW ME - WHAT DOES SHE LOOK LIKE ?",
       "channel": "Antenne 2",
-      "description": "Cours d'anglais présenté par Igor Gourine"
+      "description": "Cours d'anglais présenté par Igor Gourine",
+      "description_lines": [
+        "Cours d'anglais présenté par Igor Gourine"
+      ]
     },
     {
       "time": "11:45",
       "title": "SALUT L'ACCORDÉON",
       "channel": "Antenne 2",
-      "description": "Avec Aimable, Jackie Noguez, Philippe Clay, Serge Gainsbourg"
+      "description": "Avec Aimable, Jackie Noguez, Philippe Clay, Serge Gainsbourg",
+      "description_lines": [
+        "Avec Aimable, Jackie Noguez, Philippe Clay, Serge Gainsbourg"
+      ]
     },
     {
       "time": "12:00",
       "title": "CONCERT - L'ORCHESTRE SYMPHONIQUE DE CHICAGO",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:35",
       "title": "PROCHAINEMENT SUR ANTENNE 2",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:15",
       "title": "SHÉRIF, FAIS-MOI PEUR ! - LES COUSINES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:05",
       "title": "POURQUOI PAS VOUS ? - LE TOUR DE CORSE EN BATEAU PNEUMATIQUE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:00",
       "title": "CIRQUE DU MONDE - CIRQUE BUSH ROLAND",
       "channel": "Antenne 2",
-      "description": "Série d'émissions de Jean Richard et Jean-Paul Bondeau"
+      "description": "Série d'émissions de Jean Richard et Jean-Paul Bondeau",
+      "description_lines": [
+        "Série d'émissions de Jean Richard et Jean-Paul Bondeau"
+      ]
     },
     {
       "time": "15:55",
       "title": "NOUVELLES DU SPECTACLE",
       "channel": "Antenne 2",
-      "description": "Magazine de Georges Bégou"
+      "description": "Magazine de Georges Bégou",
+      "description_lines": [
+        "Magazine de Georges Bégou"
+      ]
     },
     {
       "time": "17:05",
       "title": "TARENDOL - 3ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Téléfilm en 4 parties avec Jacques Penot, Florence Pernel, Michel Duchaussoy"
+      "description": "Téléfilm en 4 parties avec Jacques Penot, Florence Pernel, Michel Duchaussoy",
+      "description_lines": [
+        "Téléfilm en 4 parties avec Jacques Penot, Florence Pernel, Michel Duchaussoy"
+      ]
     },
     {
       "time": "18:00",
       "title": "LA COURSE AUTOUR DU MONDE - 7ÈME SEMAINE DE LA COURSE",
       "channel": "Antenne 2",
-      "description": "Emission de Jacques Antoine présentée par Patrice Laffont"
+      "description": "Emission de Jacques Antoine présentée par Patrice Laffont",
+      "description_lines": [
+        "Emission de Jacques Antoine présentée par Patrice Laffont"
+      ]
     },
     {
       "time": "18:55",
       "title": "STADE 2",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "PORTRAIT DE MARCEL CARNÉ",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "21:25",
       "title": "PORTRAIT DE L'UNIVERS - DU VIRUS AU CANCER",
       "channel": "Antenne 2",
-      "description": "Emission de Jean Lallier et Monique Tosello"
+      "description": "Emission de Jean Lallier et Monique Tosello",
+      "description_lines": [
+        "Emission de Jean Lallier et Monique Tosello"
+      ]
     },
     {
       "time": "22:20",
       "title": "TERRES D'INVENTAIRE - L'ALSACE EN MÉMOIRE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:05",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:00",
       "title": "MOSAÏQUE - IMAGES DE..",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:00",
       "title": "ARRÊT DES ÉMISSIONS",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:45",
       "title": "COURT MÉTRAGE FRANÇAIS - LE REGARD PICASSO",
       "channel": "FR3",
-      "description": "Film de Nelly Kaplan"
+      "description": "Film de Nelly Kaplan",
+      "description_lines": [
+        "Film de Nelly Kaplan"
+      ]
     },
     {
       "time": "16:00",
       "title": "IL N'Y A PAS QU'À PARIS - NOTRE BIEN QUOTIDIEN : BILAN D'UNE ANNÉE DU PATRIMOINE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:00",
       "title": "PRÉLUDE À L'APRÈS-MIDI - TRIO À L'ARCHIDUC DE BEETHOVEN",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:45",
       "title": "THÉÂTRE DE TOUJOURS - LA GUERRE DE TROIE N'AURA PAS LIEU",
       "channel": "FR3",
-      "description": "Pièce de Jean Giraudoux avec Caroline Cellier. Rediffusion"
+      "description": "Pièce de Jean Giraudoux avec Caroline Cellier. Rediffusion",
+      "description_lines": [
+        "Pièce de Jean Giraudoux avec Caroline Cellier. Rediffusion"
+      ]
     },
     {
       "time": "19:40",
       "title": "SPÉCIAL DOM-TOM",
       "channel": "FR3",
-      "description": "Journal de l'Outre-Mer"
+      "description": "Journal de l'Outre-Mer",
+      "description_lines": [
+        "Journal de l'Outre-Mer"
+      ]
     },
     {
       "time": "20:00",
       "title": "BENNY HILL",
       "channel": "FR3",
-      "description": "Série humoristique britannique"
+      "description": "Série humoristique britannique",
+      "description_lines": [
+        "Série humoristique britannique"
+      ]
     },
     {
       "time": "20:30",
       "title": "LA RÉVOLUTION ROMANTIQUE - LA MÉLODIE DE L'ÂME (5)",
       "channel": "FR3",
-      "description": "Série de 13 émissions de Marcel Brion et Michèle Arnaud"
+      "description": "Série de 13 émissions de Marcel Brion et Michèle Arnaud",
+      "description_lines": [
+        "Série de 13 émissions de Marcel Brion et Michèle Arnaud"
+      ]
     },
     {
       "time": "21:25",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "21:40",
       "title": "L'INVITÉS DE FR3 - LE PASTICHE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:30",
       "title": "LE MAGICIEN D'OZ",
       "channel": "FR3",
-      "description": "CINEMA DE MINUIT. HOMMAGE A JUDY GARLAND. Film amricain (1969)"
+      "description": "CINEMA DE MINUIT. HOMMAGE A JUDY GARLAND. Film amricain (1969)",
+      "description_lines": [
+        "CINEMA DE MINUIT. HOMMAGE A JUDY GARLAND. Film amricain (1969)"
+      ]
     },
     {
       "time": "00:15",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "Transcription 19891210AW grille originale © 1988-2026 Depot 101"
+      "description": "Transcription 19891210AW grille originale",
+      "description_lines": [
+        "Transcription 19891210AW grille originale"
+      ]
     }
   ]
 }

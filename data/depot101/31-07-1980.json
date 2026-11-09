@@ -1,229 +1,310 @@
 {
   "date": "31-07-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:45:08.363785",
+  "scraped_at": "2026-11-09T16:42:04.788994",
   "programs": [
     {
       "time": "12:15",
       "title": "JEUNE PRATIQUE - LE TABAC",
       "channel": "TF1",
-      "description": "Présenté par Arlette Chabot"
+      "description": "Présenté par Arlette Chabot",
+      "description_lines": [
+        "Présenté par Arlette Chabot"
+      ]
     },
     {
       "time": "12:30",
       "title": "AVIS DE RECHERCHE - DANIEL GUICHARD",
       "channel": "TF1",
-      "description": "Emission présentée par Patrick Sabatier. Avec Yves Duteil, Shake, Jean-Louis Pick"
+      "description": "Emission présentée par Patrick Sabatier. Avec Yves Duteil, Shake, Jean-Louis Pick",
+      "description_lines": [
+        "Emission présentée par Patrick Sabatier. Avec Yves Duteil, Shake, Jean-Louis Pick"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "LES HÉRITIERS - 12ÈME ÉPISODE",
       "channel": "TF1",
-      "description": "Feuilleton américain"
+      "description": "Feuilleton américain",
+      "description_lines": [
+        "Feuilleton américain"
+      ]
     },
     {
       "time": "14:25",
       "title": "OBJECTIF SANTÉ - AMIBIASE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:35",
       "title": "VISITE AU PAYS DE GUIGNOL",
       "channel": "TF1",
-      "description": "Court métrage"
+      "description": "Court métrage",
+      "description_lines": [
+        "Court métrage"
+      ]
     },
     {
       "time": "15:00",
       "title": "VIC LE VIKING - LE PRESSENTIMENT",
       "channel": "TF1",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "15:25",
       "title": "CROQUE VACANCES",
       "channel": "TF1",
-      "description": "Emission présentée par Claude Pierrard Oh Possum - Une sacrée marchanise Isidore le lapin Infos nature Caliméro - Caliméro parmis les diables et les sorcières Variété : Hervé Villard Momo et Ursul - Le collectionneur"
+      "description": "Emission présentée par Claude Pierrard Oh Possum - Une sacrée marchanise Isidore le lapin Infos nature Caliméro - Caliméro parmis les diables et les sorcières Variété : Hervé Villard Momo et Ursul - Le collectionneur",
+      "description_lines": [
+        "Emission présentée par Claude Pierrard",
+        "Oh Possum - Une sacrée marchanise",
+        "Isidore le lapin",
+        "Infos nature",
+        "Caliméro - Caliméro parmis les diables et les sorcières",
+        "Variété : Hervé Villard",
+        "Momo et Ursul - Le collectionneur"
+      ]
     },
     {
       "time": "16:10",
       "title": "REGARDS SUR LE MONDE - LANZAROTE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:00",
       "title": "JEUX OLYMPIQUES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LE CHIEN DES BASKERVILLE",
       "channel": "TF1",
-      "description": "Pièce de théatre de Jean Marcillas"
+      "description": "Pièce de théatre de Jean Marcillas",
+      "description_lines": [
+        "Pièce de théatre de Jean Marcillas"
+      ]
     },
     {
       "time": "22:45",
       "title": "COURTS MÉTRAGES RACONTÉS - LE CHANT DU STYRÈNE ET VAN GOGH",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:20",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "ANTIOPE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "AH ! QUELLE FAMILLE - LA BELLE ÉPOQUE",
       "channel": "Antenne 2",
-      "description": "Série américaine. Avec Henry Fonda, Janet Blair, Darleen Caar, Ron Howard"
+      "description": "Série américaine. Avec Henry Fonda, Janet Blair, Darleen Caar, Ron Howard",
+      "description_lines": [
+        "Série américaine. Avec Henry Fonda, Janet Blair, Darleen Caar, Ron Howard"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - POLICE, EN TOUT CIRCONSTANCE ?",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:00",
       "title": "SWITCH - QUEL EST L'AUTRE DAVID ROSS ?",
       "channel": "Antenne 2",
-      "description": "Série américaine. Avec Robert Wagner, Eddie Albert"
+      "description": "Série américaine. Avec Robert Wagner, Eddie Albert",
+      "description_lines": [
+        "Série américaine. Avec Robert Wagner, Eddie Albert"
+      ]
     },
     {
       "time": "15:55",
       "title": "L'INVITÉ DU JEUDI - YVES SIMON",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:20",
       "title": "FESTIVAL DE JAZZ DE MONTREUX 1976 - RAY CHARLES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:00",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Le fantôme de l'espace - L'arche interplanétaire Félix le chat - Grand-père fantôme vient au secours de Félix Satanas et Diabolo - Un pigeon c'est beaucoup, deux pigeons, c'est trop La panthère rose - Une aventure de Pinky"
+      "description": "Le fantôme de l'espace - L'arche interplanétaire Félix le chat - Grand-père fantôme vient au secours de Félix Satanas et Diabolo - Un pigeon c'est beaucoup, deux pigeons, c'est trop La panthère rose - Une aventure de Pinky",
+      "description_lines": [
+        "Le fantôme de l'espace - L'arche interplanétaire",
+        "Félix le chat - Grand-père fantôme vient au secours de Félix",
+        "Satanas et Diabolo - Un pigeon c'est beaucoup, deux pigeons, c'est trop",
+        "La panthère rose - Une aventure de Pinky"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES, DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Présentation : Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Présentation : Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Présentation : Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "MAMAN, SI TU ME VOYAIS - CARLOS, BOB MARLEY, AGATHE GODARD",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LES FOUS DU STADE",
       "channel": "Antenne 2",
-      "description": "Film français (1972)"
+      "description": "Film français (1972)",
+      "description_lines": [
+        "Film français (1972)"
+      ]
     },
     {
       "time": "22:00",
       "title": "GALA DES GRANDES ÉCOLES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:00",
       "title": "JEUX OLYMPIQUES",
       "channel": "Antenne 2",
-      "description": "Résumé des épreuves du jour"
+      "description": "Résumé des épreuves du jour",
+      "description_lines": [
+        "Résumé des épreuves du jour"
+      ]
     },
     {
       "time": "23:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Le lac aux perches - Le printemps Enfants de France - Deux enfants du Pays Basque"
+      "description": "Le lac aux perches - Le printemps Enfants de France - Deux enfants du Pays Basque",
+      "description_lines": [
+        "Le lac aux perches - Le printemps",
+        "Enfants de France - Deux enfants du Pays Basque"
+      ]
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "Avec Pierre Desproges, Juliette Mills, Jean-Claude Massoulier"
+      "description": "Avec Pierre Desproges, Juliette Mills, Jean-Claude Massoulier",
+      "description_lines": [
+        "Avec Pierre Desproges, Juliette Mills, Jean-Claude Massoulier"
+      ]
     },
     {
       "time": "20:30",
       "title": "ANNA DE BROOKLYN",
       "channel": "FR3",
-      "description": "Film italien (1957)"
+      "description": "Film italien (1957)",
+      "description_lines": [
+        "Film italien (1957)"
+      ]
     },
     {
       "time": "22:05",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": "© 1988-2026 Depot 101"
+      "description": "",
+      "description_lines": []
     }
   ]
 }

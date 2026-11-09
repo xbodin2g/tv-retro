@@ -1,289 +1,389 @@
 {
   "date": "11-12-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:43:44.833006",
+  "scraped_at": "2026-11-09T16:40:34.053354",
   "programs": [
     {
       "time": "12:15",
       "title": "RÉPONSE À TOUT",
       "channel": "TF1",
-      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      "description": "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier",
+      "description_lines": [
+        "Jeu d'Henri Kubnick. Présentation : Louis Bozon et Carole Chabrier"
+      ]
     },
     {
       "time": "12:30",
       "title": "MIDI PREMIÈRE",
       "channel": "TF1",
-      "description": "Présentation : Danièle Gilbert. Invitée : Chantal Goya"
+      "description": "Présentation : Danièle Gilbert. Invitée : Chantal Goya",
+      "description_lines": [
+        "Présentation : Danièle Gilbert. Invitée : Chantal Goya"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:50",
       "title": "OBJECTIF SANTÉ - LES VARICES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "TÉLÉVISION SCOLAIRE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:55",
       "title": "TF QUATRE",
       "channel": "TF1",
-      "description": "Présentation : Annik Beauchamps"
+      "description": "Présentation : Annik Beauchamps",
+      "description_lines": [
+        "Présentation : Annik Beauchamps"
+      ]
     },
     {
       "time": "18:20",
       "title": "1, RUE SÉSAME - MADAME IMPÉRATRICE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:45",
       "title": "AVIS DE RECHERCHE",
       "channel": "TF1",
-      "description": "Emission présentée par Patrick Sabatier. Avec Michel Fugain, Dave, Marie Leonor"
+      "description": "Emission présentée par Patrick Sabatier. Avec Michel Fugain, Dave, Marie Leonor",
+      "description_lines": [
+        "Emission présentée par Patrick Sabatier. Avec Michel Fugain, Dave, Marie Leonor"
+      ]
     },
     {
       "time": "19:10",
       "title": "UNE MINUTE POUR LES FEMMES - ASSURANCE VEUVAGE : UNE RÉALITÉ DÈS JANVIER 1981",
       "channel": "TF1",
-      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      "description": "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson",
+      "description_lines": [
+        "Emission d'Eliane Victor. Présentée par Anne-Marie Peysson"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "EMISSIONS PARLEMENTAIRES - LE SÉNAT",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "CONCERT - L'ORCHESTRE NATIONAL DE FRANCE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "21:50",
       "title": "DERRIÈRE LE RIDEAU : LA VIE QUOTIDIENNE EN URSS",
       "channel": "TF1",
-      "description": "Document d'Antoine Fournier"
+      "description": "Document d'Antoine Fournier",
+      "description_lines": [
+        "Document d'Antoine Fournier"
+      ]
     },
     {
       "time": "23:00",
       "title": "LES MURS ONT DES OREILLES",
       "channel": "TF1",
-      "description": "Film français (1974) avec Louis Velle, Chantal Nobel"
+      "description": "Film français (1974) avec Louis Velle, Chantal Nobel",
+      "description_lines": [
+        "Film français (1974) avec Louis Velle, Chantal Nobel"
+      ]
     },
     {
       "time": "00:35",
       "title": "FIN DES ÉMISSIONS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:00",
       "title": "TÉLÉVISION SCOLAIRE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "ANTIOPE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:05",
       "title": "PASSEZ DONC ME VOIR",
       "channel": "Antenne 2",
-      "description": "Emission presentée par Philippe Bouvard"
+      "description": "Emission presentée par Philippe Bouvard",
+      "description_lines": [
+        "Emission presentée par Philippe Bouvard"
+      ]
     },
     {
       "time": "12:30",
       "title": "LES SOLITAIRES DE MYOLS - 4ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton avec Jean-François Poron"
+      "description": "Feuilleton avec Jean-François Poron",
+      "description_lines": [
+        "Feuilleton avec Jean-François Poron"
+      ]
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "Antenne 2",
-      "description": "Rediffusion des émissions présentées hier sur FR3"
+      "description": "Rediffusion des émissions présentées hier sur FR3",
+      "description_lines": [
+        "Rediffusion des émissions présentées hier sur FR3"
+      ]
     },
     {
       "time": "13:50",
       "title": "FACE À VOUS",
       "channel": "Antenne 2",
-      "description": "Emission de Jacqueline Alexandre"
+      "description": "Emission de Jacqueline Alexandre",
+      "description_lines": [
+        "Emission de Jacqueline Alexandre"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - FEMMES D'AFGHANISTAN",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:00",
       "title": "LE SAINT - LE JEU DE LA MORT",
       "channel": "Antenne 2",
-      "description": "Série britannique avec Roger Moore"
+      "description": "Série britannique avec Roger Moore",
+      "description_lines": [
+        "Série britannique avec Roger Moore"
+      ]
     },
     {
       "time": "15:55",
       "title": "L'INVITÉ DU JEUDI - ELIANE VICTOR",
       "channel": "Antenne 2",
-      "description": "Emission d'Hélène Vida"
+      "description": "Emission d'Hélène Vida",
+      "description_lines": [
+        "Emission d'Hélène Vida"
+      ]
     },
     {
       "time": "17:20",
       "title": "FENÊTRE SUR... - RÉCIT DU VOYAGE DES PIERRES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "17:50",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Emilie - Emilie et le bateau de Stéphane Les paladins de France - L'enfant trouvé Discopuce Papivole Les quat'z'amis"
+      "description": "Emilie - Emilie et le bateau de Stéphane Les paladins de France - L'enfant trouvé Discopuce Papivole Les quat'z'amis",
+      "description_lines": [
+        "Emilie - Emilie et le bateau de Stéphane",
+        "Les paladins de France - L'enfant trouvé",
+        "Discopuce",
+        "Papivole",
+        "Les quat'z'amis"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE",
       "channel": "Antenne 2",
-      "description": "Magazine présenté par Noël Mamère"
+      "description": "Magazine présenté par Noël Mamère",
+      "description_lines": [
+        "Magazine présenté par Noël Mamère"
+      ]
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      "description": "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard",
+      "description_lines": [
+        "Jeu présenté par Patrice Laffont, Max Favalelli, Bertrand Renard"
+      ]
     },
     {
       "time": "19:10",
       "title": "D'ACCORD, PAS D'ACCORD",
       "channel": "Antenne 2",
-      "description": "Emission de l'Institut national de la consommation"
+      "description": "Emission de l'Institut national de la consommation",
+      "description_lines": [
+        "Emission de l'Institut national de la consommation"
+      ]
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Variétés de Guy Lux et Lela Milcic"
+      "description": "Variétés de Guy Lux et Lela Milcic",
+      "description_lines": [
+        "Variétés de Guy Lux et Lela Milcic"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LA FIANCÉE DU PIRATE",
       "channel": "Antenne 2",
-      "description": "Film français (1969) avec Bernadette Laffont"
+      "description": "Film français (1969) avec Bernadette Laffont",
+      "description_lines": [
+        "Film français (1969) avec Bernadette Laffont"
+      ]
     },
     {
       "time": "22:20",
       "title": "COUPS DE THÉATRE",
       "channel": "Antenne 2",
-      "description": "Magazine de Gilbert Kahn"
+      "description": "Magazine de Gilbert Kahn",
+      "description_lines": [
+        "Magazine de Gilbert Kahn"
+      ]
     },
     {
       "time": "23:20",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "POUR LA JEUNESSE",
       "channel": "FR3",
-      "description": "Brac à Bric Ki Ke Koi"
+      "description": "Brac à Bric Ki Ke Koi",
+      "description_lines": [
+        "Brac à Bric",
+        "Ki Ke Koi"
+      ]
     },
     {
       "time": "18:55",
       "title": "TRIBUNE LIBRE - INSTITUT DE LA VIE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "SATURNIN ET COMPAGNIE - LES BÊTES À CORNES D'ARSÈNE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Roger Carel, Sophie Agacinski et Jean-Marie Proslier"
+      "description": "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Roger Carel, Sophie Agacinski et Jean-Marie Proslier",
+      "description_lines": [
+        "Présentation : Maurice Favières et Jean-Pierre Descombes. Avec Roger Carel, Sophie Agacinski et Jean-Marie Proslier"
+      ]
     },
     {
       "time": "20:30",
       "title": "MOI Y'EN A VOULOIR DES SOUS",
       "channel": "FR3",
-      "description": "Film français (1972) de et avec Jean Yanne, Bernard Blier, Nicole Calfan, Michel Serrault..."
+      "description": "Film français (1972) de et avec Jean Yanne, Bernard Blier, Nicole Calfan, Michel Serrault...",
+      "description_lines": [
+        "Film français (1972) de et avec Jean Yanne, Bernard Blier, Nicole Calfan, Michel Serrault..."
+      ]
     },
     {
       "time": "22:15",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": "Transcription 19891205AW © 1988-2026 Depot 101"
+      "description": "Transcription 19891205AW",
+      "description_lines": [
+        "Transcription 19891205AW"
+      ]
     }
   ]
 }

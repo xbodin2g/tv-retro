@@ -1,313 +1,420 @@
 {
   "date": "23-04-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:44:38.237976",
+  "scraped_at": "2026-11-09T16:41:31.624683",
   "programs": [
     {
       "time": "12:15",
       "title": "RÉPONSE À TOUT",
       "channel": "TF1",
-      "description": "Jeu d'Henri Kubnick"
+      "description": "Jeu d'Henri Kubnick",
+      "description_lines": [
+        "Jeu d'Henri Kubnick"
+      ]
     },
     {
       "time": "12:30",
       "title": "MIDI PREMIÈRE",
       "channel": "TF1",
-      "description": "Une émission de Danièle Gilbert"
+      "description": "Une émission de Danièle Gilbert",
+      "description_lines": [
+        "Une émission de Danièle Gilbert"
+      ]
     },
     {
       "time": "12:00",
       "title": "TF1 ACTUALITÉS",
       "channel": "TF1",
-      "description": "Et les cours de la Bourse"
+      "description": "Et les cours de la Bourse",
+      "description_lines": [
+        "Et les cours de la Bourse"
+      ]
     },
     {
       "time": "12:35",
       "title": "LES VISITEURS DU MERCREDI",
       "channel": "TF1",
-      "description": "Une émission de Christophe Izard Les Poï-Poï La Bataille des Planètes - La cendrillon du futur Interdit aux plus de 10 ans Prince noir - Règlement de compte Spécial 10-15 ans La parade des dessins animés La main rouge - La cachette Studio 3"
+      "description": "Une émission de Christophe Izard Les Poï-Poï La Bataille des Planètes - La cendrillon du futur Interdit aux plus de 10 ans Prince noir - Règlement de compte Spécial 10-15 ans La parade des dessins animés La main rouge - La cachette Studio 3",
+      "description_lines": [
+        "Une émission de Christophe Izard",
+        "Les Poï-Poï",
+        "La Bataille des Planètes - La cendrillon du futur",
+        "Interdit aux plus de 10 ans",
+        "Prince noir - Règlement de compte",
+        "Spécial 10-15 ans",
+        "La parade des dessins animés",
+        "La main rouge - La cachette",
+        "Studio 3"
+      ]
     },
     {
       "time": "18:10",
       "title": "AUTOMAG",
       "channel": "TF1",
-      "description": "Une émission d'Yves Gautier et François Chesneau"
+      "description": "Une émission d'Yves Gautier et François Chesneau",
+      "description_lines": [
+        "Une émission d'Yves Gautier et François Chesneau"
+      ]
     },
     {
       "time": "18:35",
       "title": "L'ÎLE AUX ENFANTS - UN EMPLACEMENT IDÉAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:55",
       "title": "C'EST ARRIVÉ UN JOUR - TARTINE BEURRÉE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "UNE MINUTE POUR LES FEMMES - ETUDIANTS : UN JOB POUR L'ÉTÉ SE CHERCHE AU PRINTEMPS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "LES INCONNUS DE 19H45",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:00",
       "title": "TF1 ACTUALITÉS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:40",
       "title": "PANOMARA DE LA COUPE D'EUROPE",
       "channel": "TF1",
-      "description": "Présentation de Michel Denisot"
+      "description": "Présentation de Michel Denisot",
+      "description_lines": [
+        "Présentation de Michel Denisot"
+      ]
     },
     {
       "time": "20:55",
       "title": "FOOTBALL - COUPE D'EUROPE DES VAINQUEURS DE COUPE : VALENCE - NANTES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:45",
       "title": "LA RAGE DE LIRE - RÉVOLUTIONNAIRES ET AVENTURIERS",
       "channel": "TF1",
-      "description": "Emission de Georges Suffert"
+      "description": "Emission de Georges Suffert",
+      "description_lines": [
+        "Emission de Georges Suffert"
+      ]
     },
     {
       "time": "23:45",
       "title": "TF1 DERNIÈRE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "00:00",
       "title": "FIN DES ÉMISSIONS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:30",
       "title": "ANTIOPE A2",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "10:50",
       "title": "ARRÊT DES ÉMISSIONS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "11:30",
       "title": "ANTIOPE A2",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:05",
       "title": "PASSEZ DONC ME VOIR",
       "channel": "Antenne 2",
-      "description": "Emission de Philippe Bouvard"
+      "description": "Emission de Philippe Bouvard",
+      "description_lines": [
+        "Emission de Philippe Bouvard"
+      ]
     },
     {
       "time": "12:30",
       "title": "LA VIE DES AUTRES. L'INTRUSE - 3ÈME ÉPISODE",
       "channel": "Antenne 2",
-      "description": "Feuilleton en 10 épisodes avec Claire Dupray"
+      "description": "Feuilleton en 10 épisodes avec Claire Dupray",
+      "description_lines": [
+        "Feuilleton en 10 épisodes avec Claire Dupray"
+      ]
     },
     {
       "time": "12:45",
       "title": "ANTENNE 2 PREMIÈRE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "EMISSIONS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:50",
       "title": "FACE À VOUS",
       "channel": "Antenne 2",
-      "description": "Emission de Jacqueline Alexandre"
+      "description": "Emission de Jacqueline Alexandre",
+      "description_lines": [
+        "Emission de Jacqueline Alexandre"
+      ]
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - LES MERCREDIS D'AUJOURD'HUI MADAME",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:15",
       "title": "AU CŒUR DU TEMPS - LE RENDEZ-VOUS AVEC HIER",
       "channel": "Antenne 2",
-      "description": "Série américaine. Diffusé en 1967 et 1976"
+      "description": "Série américaine. Diffusé en 1967 et 1976",
+      "description_lines": [
+        "Série américaine. Diffusé en 1967 et 1976"
+      ]
     },
     {
       "time": "16:10",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Avec Cabu, Ariane Gil, Jean Lacroix, William Leymergie, Patrick Simpson-Jones et Dorothée Rébus Wattoo-Wattoo Les bubblies Maraboud'ficelle Les Aventures électriques de Zeltron La Panthère Rose 2000 Albator Popeye"
+      "description": "Avec Cabu, Ariane Gil, Jean Lacroix, William Leymergie, Patrick Simpson-Jones et Dorothée Rébus Wattoo-Wattoo Les bubblies Maraboud'ficelle Les Aventures électriques de Zeltron La Panthère Rose 2000 Albator Popeye",
+      "description_lines": [
+        "Avec Cabu, Ariane Gil, Jean Lacroix, William Leymergie, Patrick Simpson-Jones et Dorothée",
+        "Rébus",
+        "Wattoo-Wattoo",
+        "Les bubblies",
+        "Maraboud'ficelle",
+        "Les Aventures électriques de Zeltron",
+        "La Panthère Rose",
+        "2000",
+        "Albator",
+        "Popeye"
+      ]
     },
     {
       "time": "18:10",
       "title": "ON WE GO",
       "channel": "Antenne 2",
-      "description": "Cours d'anglais présenté par Igor Gourine"
+      "description": "Cours d'anglais présenté par Igor Gourine",
+      "description_lines": [
+        "Cours d'anglais présenté par Igor Gourine"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:45",
       "title": "CHEFS-D'OEUVRE DES MUSÉES NATIONAUX",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:45",
       "title": "TOP CLUB",
       "channel": "Antenne 2",
-      "description": "Emission de variétés présentée par Guy Lux. Avec Les Bario, Richard Clayderman. Séquence Mike Brant"
+      "description": "Emission de variétés présentée par Guy Lux. Avec Les Bario, Richard Clayderman. Séquence Mike Brant",
+      "description_lines": [
+        "Emission de variétés présentée par Guy Lux. Avec Les Bario, Richard Clayderman. Séquence Mike Brant"
+      ]
     },
     {
       "time": "20:00",
       "title": "ANTENNE 2 JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "COLLARO SHOW",
       "channel": "Antenne 2",
-      "description": "Emission mensuelle proposée par Stéphane Collaro. Variétés : Charles Aznavour, Les Claudettes, Errol Dunkley, Catherine Lara et Starshooter"
+      "description": "Emission mensuelle proposée par Stéphane Collaro. Variétés : Charles Aznavour, Les Claudettes, Errol Dunkley, Catherine Lara et Starshooter",
+      "description_lines": [
+        "Emission mensuelle proposée par Stéphane Collaro. Variétés : Charles Aznavour, Les Claudettes, Errol Dunkley, Catherine Lara et Starshooter"
+      ]
     },
     {
       "time": "21:40",
       "title": "LE GRAND JOUR OU SOURIS, T'ES HEUREUX CE JOUR-LÀ",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:55",
       "title": "SPÉCIAL BUTS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:05",
       "title": "ANTENNE 2 DERNIÈRE",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:25",
       "title": "FIN DES ÉMISSIONS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:00",
       "title": "TRAVAIL MANUEL - MÉTIER : LE MARÉCHAL FERRANT",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:25",
       "title": "PRÉSENTATION DU PROGRAMME",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "FR3 JEUNESSE",
       "channel": "FR3",
-      "description": "De truc en troc Les croquemitaines"
+      "description": "De truc en troc Les croquemitaines",
+      "description_lines": [
+        "De truc en troc",
+        "Les croquemitaines"
+      ]
     },
     {
       "time": "18:55",
       "title": "TRIBUNE LIBRE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "TÉLÉVISION RÉGIONALE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:55",
       "title": "LE PROFESSEUR BALTHAZAR - LE PINGOUIN AXEL",
       "channel": "FR3",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES - AU MANS",
       "channel": "FR3",
-      "description": "Avec Pierre Desproges, Danièle Rocca et Harold Kay"
+      "description": "Avec Pierre Desproges, Danièle Rocca et Harold Kay",
+      "description_lines": [
+        "Avec Pierre Desproges, Danièle Rocca et Harold Kay"
+      ]
     },
     {
       "time": "20:30",
       "title": "L'ŒUF",
       "channel": "FR3",
-      "description": "Film de Jean Herman d'après Félicien Marceau"
+      "description": "Film de Jean Herman d'après Félicien Marceau",
+      "description_lines": [
+        "Film de Jean Herman d'après Félicien Marceau"
+      ]
     },
     {
       "time": "21:55",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:15",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "© 1988-2026 Depot 101"
+      "description": "",
+      "description_lines": []
     }
   ]
 }

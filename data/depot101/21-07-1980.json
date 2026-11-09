@@ -1,253 +1,342 @@
 {
   "date": "21-07-1980",
   "source": "depot101",
-  "scraped_at": "2026-11-09T14:44:23.274049",
+  "scraped_at": "2026-11-09T16:41:17.818146",
   "programs": [
     {
       "time": "12:15",
       "title": "JEUNE PRATIQUE - LE CANOË-KAYAK",
       "channel": "TF1",
-      "description": "Présenté par Arlette Chabot"
+      "description": "Présenté par Arlette Chabot",
+      "description_lines": [
+        "Présenté par Arlette Chabot"
+      ]
     },
     {
       "time": "12:30",
       "title": "AVIS DE RECHERCHE",
       "channel": "TF1",
-      "description": "Présenté par Patrick Sabatier"
+      "description": "Présenté par Patrick Sabatier",
+      "description_lines": [
+        "Présenté par Patrick Sabatier"
+      ]
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "LES HÉRITIERS - 4ÈME ÉPISODE",
       "channel": "TF1",
-      "description": "Feuilleton américain"
+      "description": "Feuilleton américain",
+      "description_lines": [
+        "Feuilleton américain"
+      ]
     },
     {
       "time": "14:25",
       "title": "INTERRUPTION DES PROGRAMMES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:30",
       "title": "VIC LE VIKING - GUERRE ET PAIX SUR LA RIVIÈRE",
       "channel": "TF1",
-      "description": "Dessin animé"
+      "description": "Dessin animé",
+      "description_lines": [
+        "Dessin animé"
+      ]
     },
     {
       "time": "15:55",
       "title": "CROQUE VACANCES",
       "channel": "TF1",
-      "description": "Présenté par Claude Pierrard Sidney l'éléphant Bricolage Isidore le lapin Variétés - Frédéric François Infos nature - L'aquarophilie Bricolage Momo et Ursule"
+      "description": "Présenté par Claude Pierrard Sidney l'éléphant Bricolage Isidore le lapin Variétés - Frédéric François Infos nature - L'aquarophilie Bricolage Momo et Ursule",
+      "description_lines": [
+        "Présenté par Claude Pierrard",
+        "Sidney l'éléphant",
+        "Bricolage",
+        "Isidore le lapin",
+        "Variétés - Frédéric François",
+        "Infos nature - L'aquarophilie",
+        "Bricolage",
+        "Momo et Ursule"
+      ]
     },
     {
       "time": "16:30",
       "title": "JEUX OLYMPIQUES DE MOSCOU",
       "channel": "TF1",
-      "description": "Natation - Plongeon dames, finale tremplin de 3 mètres"
+      "description": "Natation - Plongeon dames, finale tremplin de 3 mètres",
+      "description_lines": [
+        "Natation - Plongeon dames, finale tremplin de 3 mètres"
+      ]
     },
     {
       "time": "17:40",
       "title": "JAZZ FESTIVAL - AU LINCOLN CARTER DE NEW YORK",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:30",
       "title": "TIGRIS, LE VOYAGE SUMÉRIEN DE THOR HEYERDAHL - LE JARDIN D'EDEN (1ER ÉPISODE)",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:44",
       "title": "CAMÉRA AU POING - LES CERFS DU BOUT DU MONDE (2ÈME PARTIE)",
       "channel": "TF1",
-      "description": "Emission de Christian Zuber"
+      "description": "Emission de Christian Zuber",
+      "description_lines": [
+        "Emission de Christian Zuber"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:30",
       "title": "THÉÂTRE - LA BONNE PLANQUE",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "23:10",
       "title": "GRAND-MÈRES - ODETTE ROBERTS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "00:05",
       "title": "JOURNAL",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "00:20",
       "title": "FIN DES ÉMISSIONS",
       "channel": "TF1",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "12:45",
       "title": "ANTENNE 2 MIDI",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "13:35",
       "title": "AH ! QUELLE FAMILLE ! - QUIPROQUO (15ÈME ÉPISODE)",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "AUJOURD'HUI MADAME - LA FEMME ET LES QUATRE ÉLÉMENTS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "15:05",
       "title": "SWITCH - AU LARGE DE PUERTO VALLARTE",
       "channel": "Antenne 2",
-      "description": "Série américaine, avec Robert Wagner et Eddie Albert"
+      "description": "Série américaine, avec Robert Wagner et Eddie Albert",
+      "description_lines": [
+        "Série américaine, avec Robert Wagner et Eddie Albert"
+      ]
     },
     {
       "time": "15:55",
       "title": "GAFIERIA",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "16:40",
       "title": "LE PETIT POUCET",
       "channel": "Antenne 2",
-      "description": "Film"
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
     },
     {
       "time": "18:00",
       "title": "RÉCRÉ A2",
       "channel": "Antenne 2",
-      "description": "Présenté par Zabou Le Fantôme de l'espace Mademoiselle Rose et Charlemagne Satanas et Diabolo La Panthère Rose"
+      "description": "Présenté par Zabou Le Fantôme de l'espace Mademoiselle Rose et Charlemagne Satanas et Diabolo La Panthère Rose",
+      "description_lines": [
+        "Présenté par Zabou",
+        "Le Fantôme de l'espace",
+        "Mademoiselle Rose et Charlemagne",
+        "Satanas et Diabolo",
+        "La Panthère Rose"
+      ]
     },
     {
       "time": "18:30",
       "title": "C'EST LA VIE DE L'ÉTÉ",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:50",
       "title": "DES CHIFFRES ET DES LETTRES",
       "channel": "Antenne 2",
-      "description": "Jeu télévisé"
+      "description": "Jeu télévisé",
+      "description_lines": [
+        "Jeu télévisé"
+      ]
     },
     {
       "time": "19:15",
       "title": "JEUX OLYMPIQUES DE MOSCOU - NATATION",
       "channel": "Antenne 2",
-      "description": "Présenté par Richard Diot"
+      "description": "Présenté par Richard Diot",
+      "description_lines": [
+        "Présenté par Richard Diot"
+      ]
     },
     {
       "time": "20:00",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "20:35",
       "title": "COLLARO SHOW",
       "channel": "Antenne 2",
-      "description": "Présenté par Stéphane Collaro"
+      "description": "Présenté par Stéphane Collaro",
+      "description_lines": [
+        "Présenté par Stéphane Collaro"
+      ]
     },
     {
       "time": "21:40",
       "title": "MAGAZINE MUSICAL",
       "channel": "Antenne 2",
-      "description": "Présenté par Eric Lipmann"
+      "description": "Présenté par Eric Lipmann",
+      "description_lines": [
+        "Présenté par Eric Lipmann"
+      ]
     },
     {
       "time": "22:45",
       "title": "JEUX OLYMPIQUES DE MOSCOU - RÉSUMÉ",
       "channel": "Antenne 2",
-      "description": "Présenté par Bernard Père"
+      "description": "Présenté par Bernard Père",
+      "description_lines": [
+        "Présenté par Bernard Père"
+      ]
     },
     {
       "time": "23:45",
       "title": "JOURNAL",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "00:05",
       "title": "FIN DES ÉMISSIONS",
       "channel": "Antenne 2",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "18:55",
       "title": "TRIBUNE LIBRE",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:20",
       "title": "ACTUALITÉS RÉGIONALES",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "19:40",
       "title": "FR3 JEUNESSE",
       "channel": "FR3",
-      "description": "Carroyage Hebdo jeunes"
+      "description": "Carroyage Hebdo jeunes",
+      "description_lines": [
+        "Carroyage",
+        "Hebdo jeunes"
+      ]
     },
     {
       "time": "20:00",
       "title": "LES JEUX DE 20 HEURES",
       "channel": "FR3",
-      "description": "à Fécamp"
+      "description": "à Fécamp",
+      "description_lines": [
+        "à Fécamp"
+      ]
     },
     {
       "time": "20:30",
       "title": "ANGÉLIQUE ET LE ROY",
       "channel": "FR3",
-      "description": "Film"
+      "description": "Film",
+      "description_lines": [
+        "Film"
+      ]
     },
     {
       "time": "22:10",
       "title": "SOIR 3",
       "channel": "FR3",
-      "description": ""
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "22:30",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "© 1988-2026 Depot 101"
+      "description": "",
+      "description_lines": []
     }
   ]
 }
