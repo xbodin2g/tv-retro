@@ -2,129 +2,244 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
     <title>TV Rétro - Grilles des années 80/90</title>
-    <meta name="description" content="Recréez vos journées TV des années 80 et 90">
-    
-    <!-- PWA Manifest -->
+
+    <meta name="description" content="Recréez des journées TV des années 80 et 90 à partir des archives Depot101 et Archives80.">
+
+    <!-- PWA -->
     <link rel="manifest" href="manifest.json">
-    
-    <!-- Icons -->
-    <link rel="icon" type="image/png" href="icon-192.png">
-    <link rel="apple-touch-icon" href="icon-192.png">
-    
-    <!-- Theme color -->
+
     <meta name="theme-color" content="#ff00ff">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
+    <meta name="apple-mobile-web-app-title" content="TV Rétro">
+
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=5">
+
+    <!-- Script principal -->
+    <script src="app.js?v=5" defer></script>
 </head>
+
 <body>
-    <div class="crt-effect"></div>
-    
+    <!-- Effet CRT -->
+    <div class="crt-effect" aria-hidden="true"></div>
+
+    <!-- Header -->
     <header class="header">
         <div class="logo">
             <h1>📺 TV RÉTRO</h1>
             <p class="tagline">Revivez les grilles TV des années 80/90</p>
         </div>
-        <nav class="nav">
-            <button class="nav-btn active" data-view="browse">📋 Parcourir</button>
-            <button class="nav-btn" data-view="playlist">🎵 Ma Playlist</button>
-            <button class="nav-btn" data-view="about">ℹ️ À propos</button>
+
+        <nav class="nav" aria-label="Navigation principale">
+            <button class="nav-btn active" data-view="browse" type="button">
+                📋 Parcourir
+            </button>
+
+            <button class="nav-btn" data-view="playlist" type="button">
+                🎵 Ma Playlist
+            </button>
+
+            <button class="nav-btn" data-view="about" type="button">
+                ℹ️ À propos
+            </button>
         </nav>
     </header>
 
+    <!-- Contenu principal -->
     <main class="container">
+
+        <!-- ================================================= -->
         <!-- VUE PARCOURIR -->
-<section id="browse-view" class="view active">
-    <div class="info-banner">
-        <p>📺 Explorez les grilles TV des années 80/90 disponibles dans nos archives</p>
-    </div>
+        <!-- ================================================= -->
+        <section id="browse-view" class="view active">
 
-    <div class="loading" id="loading" style="display: none;">
-        <div class="spinner"></div>
-        <p>Chargement...</p>
-    </div>
+            <div class="info-banner">
+                <p>
+                    📺 Explorez les grilles TV des années 80/90 disponibles dans nos archives.
+                    Choisissez une année, puis une journée.
+                </p>
+            </div>
 
-    <div id="years-container" class="years-container">
-        <!-- Les années et dates seront injectées ici -->
-    </div>
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Chargement des archives...</p>
+            </div>
 
-    <div class="programs-container" id="programs-container" style="margin-top: 2rem;">
-        <!-- Les programmes seront affichés ici -->
-    </div>
-</section>
-
-        <!-- VUE PLAYLIST -->
-        <section id="playlist-view" class="view">
-            <div class="playlist-header">
-                <h2>🎵 Ma Playlist Rétro</h2>
-                <div class="playlist-actions">
-                    <button class="retro-btn" onclick="exportPlaylist()">📤 Exporter</button>
-                    <button class="retro-btn" onclick="clearPlaylist()">🗑️ Vider</button>
+            <!-- Les années / dates s’affichent ici -->
+            <div id="years-container" class="years-container">
+                <div class="empty-state">
+                    <div class="retro-tv">📺</div>
+                    <h2>Chargement des archives...</h2>
+                    <p>Veuillez patienter.</p>
                 </div>
             </div>
 
-            <div class="playlist-container" id="playlist-container">
+            <!-- Les programmes de la journée choisie s’affichent ici -->
+            <div id="programs-container" class="programs-container"></div>
+
+        </section>
+
+        <!-- ================================================= -->
+        <!-- VUE PLAYLIST -->
+        <!-- ================================================= -->
+        <section id="playlist-view" class="view">
+
+            <div class="playlist-header">
+                <h2>🎵 Ma Playlist Rétro</h2>
+
+                <div class="playlist-actions">
+                    <button class="retro-btn" type="button" onclick="exportPlaylist()">
+                        📤 Exporter
+                    </button>
+
+                    <button class="retro-btn" type="button" onclick="clearPlaylist()">
+                        🗑️ Vider
+                    </button>
+                </div>
+            </div>
+
+            <div id="playlist-container" class="playlist-container">
                 <div class="empty-playlist">
-                    <p>Aucun programme dans votre playlist</p>
+                    <p>📭 Playlist vide</p>
                     <small>Ajoutez des programmes depuis la vue Parcourir</small>
                 </div>
             </div>
 
             <div class="export-section" id="export-section" style="display: none;">
-                <h3>🎶 Intégration TuneMyMusic</h3>
-                <p>Voici votre playlist au format compatible :</p>
-                <textarea id="export-text" rows="10" readonly></textarea>
+                <h3>🎶 Export pour TuneMyMusic</h3>
+
+                <p>
+                    Copiez cette liste, puis collez-la dans TuneMyMusic pour rechercher les programmes
+                    sur YouTube, Dailymotion, Odysee ou d’autres plateformes.
+                </p>
+
+                <textarea
+                    id="export-text"
+                    rows="12"
+                    readonly
+                    aria-label="Texte d’export de la playlist"
+                ></textarea>
+
                 <div class="export-links">
-                    <a href="https://www.tunemymusic.com" target="_blank" class="retro-btn">
+                    <a
+                        href="https://www.tunemymusic.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="retro-btn"
+                    >
                         🔗 Ouvrir TuneMyMusic
                     </a>
-                    <button class="retro-btn" onclick="copyToClipboard()">📋 Copier</button>
+
+                    <button class="retro-btn" type="button" onclick="copyToClipboard()">
+                        📋 Copier
+                    </button>
                 </div>
             </div>
+
         </section>
 
+        <!-- ================================================= -->
         <!-- VUE À PROPOS -->
+        <!-- ================================================= -->
         <section id="about-view" class="view">
+
             <div class="about-content">
                 <h2>À propos de TV Rétro</h2>
+
                 <div class="retro-info">
-                    <p>📺 <strong>Objectif</strong> : Reconstituer des journées TV des années 80 et 90</p>
-                    <p>🎬 <strong>Sources</strong> : Depot101 & Archives80</p>
-                    <p>🎵 <strong>Intégration</strong> : Compatible avec TuneMyMusic</p>
-                    <p>📱 <strong>Compatible</strong> : Android, iOS, PC</p>
+                    <p>
+                        📺 <strong>Objectif</strong> : reconstituer partiellement des journées TV
+                        des années 80 et 90.
+                    </p>
+
+                    <p>
+                        🎬 <strong>Sources</strong> : Depot101 et Archives80.
+                    </p>
+
+                    <p>
+                        🎵 <strong>Export</strong> : liste de programmes à utiliser avec TuneMyMusic.
+                    </p>
+
+                    <p>
+                        📱 <strong>Compatible</strong> : Android, iOS, PC via une Progressive Web App.
+                    </p>
                 </div>
 
                 <div class="instructions">
                     <h3>📖 Comment utiliser ?</h3>
+
                     <ol>
-                        <li>Allez dans <strong>Parcourir</strong></li>
-                        <li>Choisissez une date ou une chaîne</li>
-                        <li>Sélectionnez les programmes qui vous intéressent</li>
-                        <li>Cliquez sur <strong>+ Playlist</strong> pour les ajouter</li>
-                        <li>Dans <strong>Ma Playlist</strong>, exportez vers TuneMyMusic</li>
+                        <li>Ouvrez l’onglet <strong>Parcourir</strong>.</li>
+                        <li>Choisissez une <strong>année</strong>.</li>
+                        <li>Sélectionnez une <strong>journée disponible</strong>.</li>
+                        <li>Parcourez les programmes TV.</li>
+                        <li>Ajoutez vos programmes préférés à la <strong>playlist</strong>.</li>
+                        <li>Dans <strong>Ma Playlist</strong>, cliquez sur <strong>Exporter</strong>.</li>
+                        <li>Copiez la liste et collez-la dans <strong>TuneMyMusic</strong>.</li>
                     </ol>
                 </div>
 
                 <div class="tech-info">
                     <h3>💻 Technologies</h3>
-                    <p>Cette application est une PWA (Progressive Web App) qui fonctionne sur tous les appareils.</p>
-                    <p>Hébergée sur GitHub Pages avec ❤️</p>
+
+                    <p>
+                        Cette application est une PWA statique hébergée sur GitHub Pages.
+                    </p>
+
+                    <p>
+                        Les données sont générées par des scripts Python exécutés avec GitHub Actions.
+                    </p>
+
+                    <p>
+                        Les playlists sont sauvegardées localement dans votre navigateur.
+                    </p>
+                </div>
+
+                <div class="sources-info">
+                    <h3>🔗 Sources des grilles</h3>
+
+                    <p>
+                        <a href="https://www.depot101.com/tele/grilles" target="_blank" rel="noopener noreferrer">
+                            Depot101 - Grilles TV
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.archives80.com/tele/grilles" target="_blank" rel="noopener noreferrer">
+                            Archives80 - Grilles TV
+                        </a>
+                    </p>
                 </div>
             </div>
+
         </section>
+
     </main>
 
-    <!-- Notification Toast -->
-    <div class="toast" id="toast"></div>
+    <!-- Notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-    <script src="app.js"></script>
+    <noscript>
+        <div style="padding: 2rem; text-align: center; color: #fff; background: #000;">
+            <h1>JavaScript requis</h1>
+            <p>Cette application nécessite JavaScript pour charger les archives TV.</p>
+        </div>
+    </noscript>
 </body>
 </html>
