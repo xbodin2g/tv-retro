@@ -1,10 +1,11 @@
 // =====================================================
 // TV RÉTRO - Version magazine + vue journée + segments
-// Corrections ergonomie :
+// Corrections :
 // - sommaire du soir dans un tiroir fermé
 // - frise avec une seule scrollbar
 // - clic frise -> programme fiable
 // - retour à la journée depuis la playlist
+// - affichage des journées synthétiques de nuit
 // =====================================================
 
 const state = {
@@ -33,14 +34,14 @@ const LAST_DAY_STORAGE_KEY = 'retroLastDay';
 const CHANNEL_ORDER = [
     'TF1',
     'Antenne 2',
+    'France 2',
     'FR3',
+    'France 3',
     'Canal+',
     'La Cinq',
-    'TV6', 
+    'TV6',
     'M6',
     'Arte',
-    'France 2',
-    'France 3',
     'France 5'
 ];
 
@@ -55,11 +56,13 @@ const CHANNEL_ALIASES = {
     'C+': 'Canal+',
     'CANAL+': 'Canal+',
     'CANAL': 'Canal+',
+    'TV6': 'TV6',
     'L5': 'La Cinq',
     'LA5': 'La Cinq',
+    'LA 5': 'La Cinq',
     'LA CINQ': 'La Cinq',
+    'LA CINQUIEME': 'La Cinq',
     'CINQ': 'La Cinq',
-    'TV6': 'TV6', 
     'M6': 'M6',
     'ARTE': 'Arte',
     'FRANCE 5': 'France 5'
@@ -823,12 +826,19 @@ function displayDates(year) {
                     (Array.isArray(dateData.programs) ? dateData.programs.length : 0)
                 );
                 const source = dateData.source || 'inconnue';
+                const nightExtension = Boolean(dateData.night_extension);
+                const originDates = Array.isArray(dateData.origin_dates) ? dateData.origin_dates : [];
+
+                const nightBadge = nightExtension
+                    ? `<span class="date-night-badge">Nuit du ${escapeHtml(formatShortDate(originDates[0] || date))}</span>`
+                    : '';
 
                 return `
-                    <button class="date-btn" onclick="selectDate('${escapeHtml(date)}')">
+                    <button class="date-btn${nightExtension ? ' night-extension' : ''}" onclick="selectDate('${escapeHtml(date)}')">
                         <span class="date-display">${escapeHtml(formatDateLabel(date))}</span>
                         <span class="date-info">${programCount} programmes</span>
                         <span class="date-source">${escapeHtml(source)}</span>
+                        ${nightBadge}
                     </button>
                 `;
             }).join('')}
@@ -976,7 +986,14 @@ function renderDay(dateData) {
     }
 
     if (daySource) {
-        daySource.textContent = dateData.source || 'source inconnue';
+        const originDates = Array.isArray(dateData.origin_dates) ? dateData.origin_dates : [];
+        const nightOrigins = originDates.filter(d => d !== (dateData.date || state.selectedDate));
+
+        if (dateData.night_extension && nightOrigins.length > 0) {
+            daySource.textContent = `${dateData.source || 'source'} · nuit du ${formatShortDate(nightOrigins[0])}`;
+        } else {
+            daySource.textContent = dateData.source || 'source inconnue';
+        }
     }
 
     if (searchInput) {
