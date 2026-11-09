@@ -1,7 +1,6 @@
 name: 📺 TV Rétro Scraper
 
 on:
-  # Déclenchement manuel avec options
   workflow_dispatch:
     inputs:
       action:
@@ -31,7 +30,6 @@ on:
           - depot101
           - archives80
 
-  # Déclenchement automatique chaque dimanche à 3h du matin
   schedule:
     - cron: '0 3 * * 0'
 
@@ -61,7 +59,6 @@ jobs:
         run: |
           mkdir -p data/depot101
           mkdir -p data/archives80
-          mkdir -p web/data
           mkdir -p scraper
       
       - name: 🎬 Scraping - Une année
@@ -90,7 +87,6 @@ jobs:
           python scrape_all.py archives80
       
       - name: 📊 Génération de l'index
-        if: github.event.inputs.action != 'generate_index_only' || github.event.inputs.action == 'generate_index_only'
         run: |
           echo "Génération de l'index des données"
           python generate_index.py
@@ -100,9 +96,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/
-          git add web/data/
           
-          # Vérifier s'il y a des changements
           if git diff --staged --quiet; then
             echo "Aucun changement à committer"
           else
@@ -122,13 +116,10 @@ jobs:
           echo ""
           echo "Fichiers dans data/:"
           find data -type f -name "*.json" 2>/dev/null | wc -l
-          echo ""
-          echo "Fichiers dans web/data/:"
-          find web/data -type f -name "*.json" 2>/dev/null | wc -l
       
       - name: 📱 Notification de fin
         if: always()
         run: |
           echo "✅ Scraping terminé !"
           echo "Statut: ${{ job.status }}"
-          echo "Voir les données: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "Voir le site: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
