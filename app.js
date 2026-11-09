@@ -1,5 +1,10 @@
 // =====================================================
 // TV RÉTRO - Version magazine + vue journée + segments
+// Corrections ergonomie :
+// - sommaire du soir dans un tiroir fermé
+// - frise avec une seule scrollbar
+// - clic frise -> programme fiable
+// - retour à la journée depuis la playlist
 // =====================================================
 
 const state = {
@@ -22,6 +27,8 @@ const state = {
 };
 
 let toastTimeout = null;
+
+const LAST_DAY_STORAGE_KEY = 'retroLastDay';
 
 const CHANNEL_ORDER = [
     'TF1',
@@ -65,7 +72,17 @@ async function initializeApp() {
     updatePlaylistDisplay();
     registerServiceWorker();
 
-    await loadIndex();
+    const loaded = await loadIndex({ display: false });
+
+    if (!loaded) {
+        return;
+    }
+
+    const restored = await restoreLastDay();
+
+    if (!restored) {
+        displayYears();
+    }
 }
 
 // =====================================================
@@ -112,6 +129,87 @@ function savePlaylist() {
     } catch (error) {
         console.error('Erreur sauvegarde playlist:', error);
         showToast('❌ Impossible de sauvegarder la playlist localement');
+    }
+}
+
+// =====================================================
+// Storage dernière journée ouverte
+// =====================================================
+
+function setStoredLastDay(year, date) {
+    try {
+        localStorage.setItem(
+            LAST_DAY_STORAGE_KEY,
+            JSON.stringify({
+                year,
+                date,
+                updatedAt: new Date().toISOString()
+            })
+        );
+    } catch (error) {
+        console.error('Erreur sauvegarde dernière journée:', error);
+    }
+}
+
+function getStoredLastDay() {
+    try {
+        const raw = localStorage.getItem(LAST_DAY_STORAGE_KEY);
+
+        if (!raw) {
+            return null;
+        }
+
+        const parsed = JSON.parse(raw);
+
+        if (!parsed || typeof parsed !== 'object') {
+            return null;
+        }
+
+        if (!parsed.year || !parsed.date) {
+            return null;
+        }
+
+        return {
+            year: String(parsed.year),
+            date: String(parsed.date)
+        };
+    } catch (error) {
+        console.error('Erreur lecture dernière journée:', error);
+        return null;
+    }
+}
+
+function clearStoredLastDay() {
+    try {
+        localStorage.removeItem(LAST_DAY_STORAGE_KEY);
+    } catch (error) {
+        console.error('Erreur suppression dernière journée:', error);
+    }
+}
+
+async function restoreLastDay() {
+    const saved = getStoredLastDay();
+
+    if (!saved || !saved.year || !saved.date) {
+        return false;
+    }
+
+    if (!state.index || !state.index.years || !state.index.years[saved.year]) {
+        clearStoredLastDay();
+        return false;
+    }
+
+    try {
+        const yearOk = await selectYear(saved.year, { display: false });
+
+        if (!yearOk) {
+            return false;
+        }
+
+        return selectDate(saved.date) === true;
+    } catch (error) {
+        console.error('Erreur restauration dernière journée:', error);
+        return false;
     }
 }
 
@@ -340,6 +438,16 @@ function cleanTitle(value) {
     return title;
 }
 
+function truncateText(value, maxLength) {
+    const text = String(value || '');
+
+    if (text.length <= maxLength) {
+        return text;
+    }
+
+    return `${text.slice(0, maxLength - 1)}…`;
+}
+
 // =====================================================
 // Déduplication / regroupement / segments
 // =====================================================
@@ -476,7 +584,7 @@ function programAnchorId(dateStr, program) {
 // Chargement des données
 // =====================================================
 
-async function loadIndex() {
+async function loadIndex(options = {}) {
     try {
         const base = document.baseURI || window.location.href;
         const baseUrl = new URL('data/index.json', base).href;
@@ -507,20 +615,25 @@ async function loadIndex() {
             typeof state.index.years !== 'object'
         ) {
             showNoData('Le fichier data/index.json est chargé, mais sa structure est invalide.');
-            return;
+            return false;
         }
 
         const yearKeys = Object.keys(state.index.years).filter(year => /^\d{4}$/.test(String(year)));
 
         if (yearKeys.length === 0) {
             showNoData('data/index.json ne contient encore aucune année. Lance le workflow de scraping puis generate_index_only.');
-            return;
+            return false;
         }
 
-        displayYears();
+        if (options.display !== false) {
+            displayYears();
+        }
+
+        return true;
     } catch (error) {
         console.error('Erreur loadIndex:', error);
         showNoData(error.message || 'Erreur inconnue lors du chargement des données.');
+        return false;
     }
 }
 
@@ -540,9 +653,10 @@ function showNoData(message = 'Lance d’abord le workflow GitHub Actions pour s
         </div>
     `;
 
-    const programsContainer = document.getElementById('programs-groups');
-    if (programsContainer) {
-        programsContainer.innerHTML = '';
+    const programsGroups = document.getElementById('programs-groups');
+
+    if (programsGroups) {
+        programsGroups.innerHTML = '';
     }
 }
 
@@ -594,7 +708,7 @@ function displayYears() {
 // Sélection d’une année
 // =====================================================
 
-async function selectYear(year) {
+async function selectYear(year, options = {}) {
     state.selectedYear = year;
     state.selectedDate = null;
     state.yearData = null;
@@ -620,15 +734,28 @@ async function selectYear(year) {
 
         if (!state.yearData || !state.yearData.dates) {
             showToast(`⚠️ Aucune journée disponible pour ${year}`);
-            displayYears();
-            return;
+
+            if (options.display !== false) {
+                displayYears();
+            }
+
+            return false;
         }
 
-        displayDates(year);
+        if (options.display !== false) {
+            displayDates(year);
+        }
+
+        return true;
     } catch (error) {
         console.error('Erreur selectYear:', error);
         showToast(`❌ ${error.message}`);
-        displayYears();
+
+        if (options.display !== false) {
+            displayYears();
+        }
+
+        return false;
     } finally {
         showLoading(false);
     }
@@ -712,7 +839,7 @@ function selectDate(date) {
 
     if (!state.yearData || !state.yearData.dates) {
         showToast('❌ Aucune donnée d’année chargée');
-        return;
+        return false;
     }
 
     const dateData =
@@ -721,7 +848,7 @@ function selectDate(date) {
 
     if (!dateData) {
         showToast('❌ Cette date n’est pas disponible');
-        return;
+        return false;
     }
 
     state.selectedDate = normalizedDate;
@@ -740,7 +867,10 @@ function selectDate(date) {
     }
 
     state.currentPrograms = dedupePrograms(rawPrograms);
+
     openDayView(dateData);
+
+    return true;
 }
 
 function openDayView(dateData) {
@@ -757,6 +887,9 @@ function openDayView(dateData) {
     dayPanel.hidden = false;
 
     renderDay(dateData);
+    setStoredLastDay(state.selectedYear, state.selectedDate);
+    updatePlaylistReturnBar();
+
     window.scrollTo({ top: 0, behavior: 'auto' });
 }
 
@@ -770,8 +903,12 @@ function closeDayView() {
 
     state.dayOpen = false;
     state.selectedDate = null;
+    clearStoredLastDay();
+
     dayPanel.hidden = true;
     browseList.hidden = false;
+
+    updatePlaylistReturnBar();
 
     if (state.selectedYear && state.yearData) {
         displayDates(state.selectedYear);
@@ -780,6 +917,33 @@ function closeDayView() {
     }
 
     window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+function reopenDayView() {
+    if (!state.dayOpen || !state.yearData || !state.selectedDate) {
+        return false;
+    }
+
+    const dateData = state.yearData.dates[state.selectedDate];
+
+    if (!dateData) {
+        return false;
+    }
+
+    const browseList = document.getElementById('browse-list');
+    const dayPanel = document.getElementById('day-panel');
+
+    if (!browseList || !dayPanel) {
+        return false;
+    }
+
+    browseList.hidden = true;
+    dayPanel.hidden = false;
+
+    renderDay(dateData);
+    updatePlaylistReturnBar();
+
+    return true;
 }
 
 // =====================================================
@@ -793,6 +957,7 @@ function renderDay(dateData) {
     const searchInput = document.getElementById('program-search');
     const channelFilter = document.getElementById('channel-filter');
     const showSegmentsCheckbox = document.getElementById('show-segments');
+    const summaryDetails = document.getElementById('summary-details');
 
     const programs = state.currentPrograms;
 
@@ -832,7 +997,7 @@ function renderDay(dateData) {
         `;
     }
 
-    renderSummary(programs);
+    renderSummary(programs, summaryDetails);
     renderTimeline(programs);
     applyFilters();
 }
@@ -869,14 +1034,14 @@ function setupDayToolbarListeners() {
     if (expandAll) {
         expandAll.addEventListener('click', () => {
             document.querySelectorAll('#programs-groups .channel-block')
-                .forEach(block => block.classList.remove('collapsed'));
+                .forEach(block => setChannelBlockCollapsed(block, false));
         });
     }
 
     if (collapseAll) {
         collapseAll.addEventListener('click', () => {
             document.querySelectorAll('#programs-groups .channel-block')
-                .forEach(block => block.classList.add('collapsed'));
+                .forEach(block => setChannelBlockCollapsed(block, true));
         });
     }
 
@@ -897,27 +1062,16 @@ function handleDayClick(event) {
         const block = channelHeader.closest('.channel-block');
 
         if (block) {
-            const isCollapsed = block.classList.toggle('collapsed');
-            const toggle = channelHeader.querySelector('.channel-toggle');
-            channelHeader.setAttribute('aria-expanded', String(!isCollapsed));
-
-            if (toggle) {
-                toggle.textContent = isCollapsed ? '+' : '−';
-            }
+            const isCollapsed = !block.classList.contains('collapsed');
+            setChannelBlockCollapsed(block, isCollapsed);
         }
+
         return;
     }
 
     const jumpTarget = event.target.closest('[data-target-anchor]');
     if (jumpTarget) {
-        const targetId = jumpTarget.dataset.targetAnchor;
-        const targetEl = document.getElementById(targetId);
-
-        if (targetEl) {
-            targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            targetEl.classList.add('flash-highlight');
-            setTimeout(() => targetEl.classList.remove('flash-highlight'), 1200);
-        }
+        jumpToProgram(jumpTarget.dataset.targetAnchor);
         return;
     }
 
@@ -927,44 +1081,115 @@ function handleDayClick(event) {
     }
 }
 
+function setChannelBlockCollapsed(block, collapsed) {
+    if (!block) {
+        return;
+    }
+
+    if (collapsed) {
+        block.classList.add('collapsed');
+    } else {
+        block.classList.remove('collapsed');
+    }
+
+    const header = block.querySelector('.channel-header');
+    const toggle = block.querySelector('.channel-toggle');
+
+    if (header) {
+        header.setAttribute('aria-expanded', String(!collapsed));
+    }
+
+    if (toggle) {
+        toggle.textContent = collapsed ? '+' : '−';
+    }
+}
+
+function jumpToProgram(anchorId) {
+    let targetEl = document.getElementById(anchorId);
+
+    // Si le programme est masqué par un filtre, on réinitialise les filtres.
+    if (!targetEl) {
+        state.filters.query = '';
+        state.filters.channel = 'all';
+
+        const searchInput = document.getElementById('program-search');
+        const channelFilter = document.getElementById('channel-filter');
+
+        if (searchInput) {
+            searchInput.value = '';
+        }
+
+        if (channelFilter) {
+            channelFilter.value = 'all';
+        }
+
+        applyFilters();
+        targetEl = document.getElementById(anchorId);
+    }
+
+    if (!targetEl) {
+        showToast('❌ Programme introuvable dans la grille affichée');
+        return;
+    }
+
+    // Si la chaîne est repliée, on la déplie automatiquement.
+    const block = targetEl.closest('.channel-block');
+
+    if (block && block.classList.contains('collapsed')) {
+        setChannelBlockCollapsed(block, false);
+    }
+
+    targetEl.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center'
+    });
+
+    targetEl.classList.add('flash-highlight');
+
+    setTimeout(() => {
+        targetEl.classList.remove('flash-highlight');
+    }, 1200);
+}
+
 // =====================================================
-// Sommaire du jour
+// Sommaire du soir dans un tiroir
 // =====================================================
 
-function renderSummary(programs) {
+function renderSummary(programs, detailsElement) {
     const container = document.getElementById('day-summary');
 
     if (!container) {
         return;
     }
 
-    if (!programs || programs.length === 0) {
-        container.innerHTML = `
-            <div class="empty-state compact">
-                <p>Aucun programme à afficher.</p>
-            </div>
-        `;
+    const evening = programs.filter(program => {
+        const time = program.time || '';
+        return time >= '20:30';
+    });
+
+    if (evening.length === 0) {
+        if (detailsElement) {
+            detailsElement.hidden = true;
+        }
+
+        container.innerHTML = '';
         return;
     }
 
-    const evening = programs.filter(program => {
-        const time = program.time || '';
-        return time >= '18:00' && time <= '23:59';
-    });
-
-    const summarySource = evening.length > 0 ? evening : programs;
-    const limited = summarySource.slice(0, 14);
+    if (detailsElement) {
+        detailsElement.hidden = false;
+    }
 
     container.innerHTML = `
         <div class="summary-grid">
-            ${limited.map(program => {
+            ${evening.map(program => {
                 const anchorId = programAnchorId(state.selectedDate, program);
 
                 return `
                     <button class="summary-chip" type="button" data-target-anchor="${escapeHtml(anchorId)}">
                         <span class="summary-time">${escapeHtml(program.time || '--:--')}</span>
                         <span class="summary-channel">${escapeHtml(program.channel || 'Autres')}</span>
-                        <span class="summary-title">${escapeHtml(program.title || 'Programme')}</span>
+                        <span class="summary-title">${escapeHtml(truncateText(program.title || 'Programme', 55))}</span>
                     </button>
                 `;
             }).join('')}
@@ -1023,14 +1248,6 @@ function renderTimeline(programs) {
     `;
 }
 
-function truncateText(value, maxLength) {
-    const text = String(value || '');
-    if (text.length <= maxLength) {
-        return text;
-    }
-    return `${text.slice(0, maxLength - 1)}…`;
-}
-
 // =====================================================
 // Filtres + rendu des groupes chaîne
 // =====================================================
@@ -1062,6 +1279,7 @@ function applyFilters() {
     });
 
     const filteredCount = document.getElementById('filtered-count');
+
     if (filteredCount) {
         filteredCount.textContent = String(filtered.length);
     }
@@ -1095,13 +1313,14 @@ function renderGroups(programs) {
     container.innerHTML = groups.map(group => {
         const channel = group.channel;
         const channelPrograms = group.programs;
+        const collapsed = channelPrograms.length > 12;
 
         return `
-            <section class="channel-block${channelPrograms.length > 12 ? ' collapsed' : ''}" data-channel="${escapeHtml(channel)}">
-                <button class="channel-header" type="button" aria-expanded="${channelPrograms.length > 12 ? 'false' : 'true'}">
+            <section class="channel-block${collapsed ? ' collapsed' : ''}" data-channel="${escapeHtml(channel)}">
+                <button class="channel-header" type="button" aria-expanded="${!collapsed}">
                     <span class="channel-badge">${escapeHtml(channel)}</span>
                     <span class="channel-meta">${channelPrograms.length} programmes</span>
-                    <span class="channel-toggle">${channelPrograms.length > 12 ? '+' : '−'}</span>
+                    <span class="channel-toggle">${collapsed ? '+' : '−'}</span>
                 </button>
 
                 <div class="channel-programs">
@@ -1289,6 +1508,7 @@ function updatePlaylistDisplay() {
                 <small>Ajoutez des programmes ou des extraits depuis la vue Journée</small>
             </div>
         `;
+        updatePlaylistReturnBar();
         return;
     }
 
@@ -1336,6 +1556,39 @@ function updatePlaylistDisplay() {
             </button>
         </div>
     `).join('');
+
+    updatePlaylistReturnBar();
+}
+
+function updatePlaylistReturnBar() {
+    const bar = document.getElementById('playlist-day-return');
+    const label = document.getElementById('playlist-day-label');
+
+    if (!bar) {
+        return;
+    }
+
+    if (state.dayOpen && state.selectedDate) {
+        bar.hidden = false;
+
+        if (label) {
+            label.textContent = formatDateLabel(state.selectedDate);
+        }
+    } else {
+        bar.hidden = true;
+    }
+}
+
+function returnToDayFromPlaylist() {
+    setActiveView('browse');
+
+    if (!reopenDayView()) {
+        if (state.selectedYear && state.yearData) {
+            displayDates(state.selectedYear);
+        } else {
+            displayYears();
+        }
+    }
 }
 
 // =====================================================
@@ -1466,36 +1719,55 @@ function setupNavigation() {
 
     navButtons.forEach(button => {
         button.addEventListener('click', () => {
-            const view = button.dataset.view;
+            setActiveView(button.dataset.view);
+        });
+    });
+}
 
-            navButtons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
+function setActiveView(view) {
+    const navButtons = document.querySelectorAll('.nav-btn');
 
-            document.querySelectorAll('.view').forEach(section => {
-                section.classList.remove('active');
+    navButtons.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.view === view);
+    });
+
+    document.querySelectorAll('.view').forEach(section => {
+        section.classList.remove('active');
+    });
+
+    const targetView = document.getElementById(`${view}-view`);
+
+    if (targetView) {
+        targetView.classList.add('active');
+    }
+
+    state.currentView = view;
+
+    if (view === 'browse') {
+        if (!state.index) {
+            loadIndex({ display: false }).then(ok => {
+                if (!ok) {
+                    return;
+                }
+
+                if (!reopenDayView()) {
+                    displayYears();
+                }
             });
-
-            const targetView = document.getElementById(`${view}-view`);
-
-            if (targetView) {
-                targetView.classList.add('active');
-            }
-
-            state.currentView = view;
-
-            if (view === 'browse') {
-                if (state.dayOpen) {
-                    closeDayView();
-                } else if (!state.index) {
-                    loadIndex();
-                } else if (state.selectedYear && state.yearData) {
+        } else {
+            if (!reopenDayView()) {
+                if (state.selectedYear && state.yearData) {
                     displayDates(state.selectedYear);
                 } else {
                     displayYears();
                 }
             }
-        });
-    });
+        }
+    }
+
+    if (view === 'playlist') {
+        updatePlaylistReturnBar();
+    }
 }
 
 // =====================================================
@@ -1559,6 +1831,7 @@ window.selectDate = selectDate;
 window.displayYears = displayYears;
 window.displayDates = displayDates;
 window.closeDayView = closeDayView;
+window.returnToDayFromPlaylist = returnToDayFromPlaylist;
 window.addToPlaylist = addToPlaylist;
 window.removeFromPlaylist = removeFromPlaylist;
 window.clearPlaylist = clearPlaylist;
