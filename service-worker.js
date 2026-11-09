@@ -1,11 +1,11 @@
-const CACHE_NAME = 'tv-retro-v1';
+const CACHE_NAME = 'tv-retro-v3';
+
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/app.js',
-    '/manifest.json',
-    'https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap'
+    './',
+    './index.html',
+    './style.css',
+    './app.js',
+    './manifest.json'
 ];
 
 // Installation
@@ -13,6 +13,7 @@ self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => cache.addAll(urlsToCache))
+            .then(() => self.skipWaiting())
     );
 });
 
@@ -27,19 +28,54 @@ self.addEventListener('activate', event => {
                     }
                 })
             );
-        })
+        }).then(() => self.clients.claim())
     );
 });
 
-// Fetch - Stratégie Cache First
+// Fetch
 self.addEventListener('fetch', event => {
+    const url = new URL(event.request.url);
+
+    // Pour les données JSON, toujours essayer le réseau d'abord
+    if (url.pathname.includes('/data/') || url.pathname.endsWith('.json')) {
+        event.respondWith(
+            fetch(event.request)
+                .then(response => {
+                    const responseClone = response.clone();
+
+                    caches.open(CACHE_NAME).then(cache => {
+                        cache.put(event.request, responseClone);
+                    });
+
+                    return response;
+                })
+                .catch(() => caches.match(event.request))
+        );
+
+        return;
+    }
+
+    // Pour le reste, cache d'abord
     event.respondWith(
         caches.match(event.request)
             .then(response => {
                 if (response) {
                     return response;
                 }
-                return fetch(event.request);
+
+                return fetch(event.request).then(networkResponse => {
+                    if (!networkResponse || networkResponse.status !== 200 || networkResponse.type !== 'basic') {
+                        return networkResponse;
+                    }
+
+                    const responseClone = networkResponse.clone();
+
+                    caches.open(CACHE_NAME).then(cache => {
+                        cache.put(event.request, responseClone);
+                    });
+
+                    return networkResponse;
+                });
             })
     );
 });
