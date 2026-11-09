@@ -1,5 +1,5 @@
 // =====================================================
-// TV RÉTRO - Application principale
+// TV RÉTRO - Version magazine TV
 // =====================================================
 
 const state = {
@@ -7,12 +7,51 @@ const state = {
     selectedYear: null,
     selectedDate: null,
     playlist: loadStoredPlaylist(),
-    programs: [],
     index: null,
-    yearData: null
+    yearData: null,
+
+    currentPrograms: [],
+    currentProgramMap: new Map(),
+
+    filters: {
+        query: '',
+        channel: 'all'
+    }
 };
 
 let toastTimeout = null;
+
+const CHANNEL_ORDER = [
+    'TF1',
+    'Antenne 2',
+    'FR3',
+    'Canal+',
+    'La Cinq',
+    'M6',
+    'Arte',
+    'France 2',
+    'France 3',
+    'France 5'
+];
+
+const CHANNEL_ALIASES = {
+    'TF1': 'TF1',
+    'A2': 'Antenne 2',
+    'ANTENNE 2': 'Antenne 2',
+    'FR3': 'FR3',
+    'FR 3': 'FR3',
+    'CANAL+': 'Canal+',
+    'CANAL': 'Canal+',
+    'LA CINQ': 'La Cinq',
+    'M6': 'M6',
+    'ARTE': 'Arte',
+    'FRANCE 2': 'France 2',
+    'FRANCE 3': 'France 3',
+    'FRANCE 5': 'France 5'
+};
+
+// Si tu préfères exporter uniquement le titre sans la chaîne, mets false.
+const EXPORT_INCLUDE_CHANNEL = true;
 
 // =====================================================
 // Initialisation
@@ -24,7 +63,6 @@ async function initializeApp() {
     setupNavigation();
     updatePlaylistDisplay();
     registerServiceWorker();
-
     await loadIndex();
 }
 
@@ -74,7 +112,34 @@ function savePlaylist() {
 }
 
 // =====================================================
-// Helpers dates
+// Helpers texte / sécurité
+// =====================================================
+
+function escapeHtml(value) {
+    return String(value ?? '')
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function normalizeText(value) {
+    if (!value) {
+        return '';
+    }
+
+    return String(value)
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+// =====================================================
+// Helpers date / heure / chaîne
 // =====================================================
 
 function normalizeDate(dateStr) {
@@ -102,14 +167,11 @@ function normalizeDate(dateStr) {
     let month;
     let year;
 
-    // Format AAAA-MM-DD ou AAAA/MM/DD
     if (parts[0].length === 4) {
         year = parts[0];
         month = parts[1];
         day = parts[2];
-    }
-    // Format JJ-MM-AAAA ou JJ/MM/AAAA
-    else {
+    } else {
         day = parts[0];
         month = parts[1];
         year = parts[2];
@@ -144,7 +206,7 @@ function normalizeDate(dateStr) {
     return `${day}-${month}-${year}`;
 }
 
-function formatDisplayDate(dateStr) {
+function formatDateLabel(dateStr) {
     const normalized = normalizeDate(dateStr);
 
     if (!normalized) {
@@ -153,7 +215,13 @@ function formatDisplayDate(dateStr) {
 
     const [day, month, year] = normalized.split('-');
 
-    return `${day}/${month}/${year}`;
+    try {
+        const date = new Date(Number(year), Number(month) - 1, Number(day));
+        const weekday = date.toLocaleDateString('fr-FR', { weekday: 'long' });
+        return `${weekday} ${day}/${month}/${year}`;
+    } catch {
+        return `${day}/${month}/${year}`;
+    }
 }
 
 function dateSortKey(dateStr) {
@@ -164,7 +232,6 @@ function dateSortKey(dateStr) {
     }
 
     const [day, month, year] = normalized.split('-').map(Number);
-
     return [year, month, day];
 }
 
@@ -183,46 +250,193 @@ function sortDates(dates) {
     });
 }
 
-function makeProgramId(dateStr, index) {
-    const normalized = normalizeDate(dateStr) || String(dateStr);
-    return `${normalized}__${Number(index)}`;
+function normalizeTime(value) {
+    if (!value) {
+        return '';
+    }
+
+    const text = String(value).trim();
+    const match = text.match(/^(\d{1,2})[:h.](\d{2})$/i);
+
+    if (!match) {
+        return '';
+    }
+
+    const hour = Number(match[1]);
+    const minute = Number(match[2]);
+
+    if (hour > 23 || minute > 59) {
+        return '';
+    }
+
+    return `${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}`;
 }
 
-function parseProgramId(programId) {
-    if (!programId || typeof programId !== 'string') {
-        return null;
+function canonicalChannel(value) {
+    const raw = String(value || '').trim();
+
+    if (!raw) {
+        return 'Autres';
     }
 
-    const parts = programId.split('__');
+    const upper = raw.toUpperCase();
 
-    if (parts.length !== 2) {
-        return null;
+    if (CHANNEL_ALIASES[upper]) {
+        return CHANNEL_ALIASES[upper];
     }
 
-    const date = normalizeDate(parts[0]) || parts[0];
-    const index = Number.parseInt(parts[1], 10);
+    const normalizedUpper = normalizeText(raw).toUpperCase();
 
-    if (Number.isNaN(index)) {
-        return null;
+    if (CHANNEL_ALIASES[normalizedUpper]) {
+        return CHANNEL_ALIASES[normalizedUpper];
     }
 
-    return {
-        date,
-        index
-    };
+    return raw;
+}
+
+function channelRank(channel) {
+    const index = CHANNEL_ORDER.indexOf(channel);
+    return index === -1 ? CHANNEL_ORDER.length + 1 : index;
+}
+
+function slugChannel(channel) {
+    return normalizeText(channel)
+        .replace(/\s+/g, '-')
+        .replace(/^-|-$/g, '') || 'autre';
+}
+
+function cleanTitle(value) {
+    let title = String(value || '').trim().replace(/\s+/g, ' ');
+
+    const parts = title.split(/\s+[-–—]\s+/);
+
+    if (parts.length === 2) {
+        if (normalizeText(parts[0]) === normalizeText(parts[1])) {
+            return parts[0].trim();
+        }
+    }
+
+    return title;
 }
 
 // =====================================================
-// Sécurité HTML
+// Déduplication / regroupement
 // =====================================================
 
-function escapeHtml(value) {
-    return String(value ?? '')
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
+function programKey(program) {
+    const time = program.time || '';
+    const channel = program.channel || 'Autres';
+    const title = program.title || '';
+
+    if (time) {
+        return `${time}|${channel}`;
+    }
+
+    return `${normalizeText(title)}|${channel}`;
+}
+
+function dedupePrograms(programs) {
+    const map = new Map();
+
+    for (const rawProgram of programs) {
+        if (!rawProgram || typeof rawProgram !== 'object') {
+            continue;
+        }
+
+        const time = normalizeTime(rawProgram.time);
+        const channel = canonicalChannel(rawProgram.channel);
+        const title = cleanTitle(rawProgram.title);
+        const description = String(rawProgram.description || '').trim().replace(/\s+/g, ' ');
+
+        const program = {
+            time,
+            channel: channel || 'Autres',
+            title: title || 'Programme non identifié',
+            description
+        };
+
+        const key = programKey(program);
+
+        if (!map.has(key)) {
+            map.set(key, program);
+            continue;
+        }
+
+        const existing = map.get(key);
+
+        if (program.title.length > existing.title.length) {
+            existing.title = program.title;
+        }
+
+        if (program.description.length > existing.description.length) {
+            existing.description = program.description;
+        }
+
+        if (!existing.time && program.time) {
+            existing.time = program.time;
+        }
+    }
+
+    return [...map.values()].sort((a, b) => {
+        const rankA = channelRank(a.channel);
+        const rankB = channelRank(b.channel);
+
+        if (rankA !== rankB) {
+            return rankA - rankB;
+        }
+
+        const timeA = a.time || '99:99';
+        const timeB = b.time || '99:99';
+
+        if (timeA !== timeB) {
+            return timeA.localeCompare(timeB);
+        }
+
+        return normalizeText(a.title).localeCompare(normalizeText(b.title));
+    });
+}
+
+function flattenChannels(channels) {
+    if (!channels || typeof channels !== 'object') {
+        return [];
+    }
+
+    return Object.values(channels)
+        .flat()
+        .filter(Boolean);
+}
+
+function groupProgramsByChannel(programs) {
+    const map = new Map();
+
+    for (const program of programs) {
+        const channel = program.channel || 'Autres';
+
+        if (!map.has(channel)) {
+            map.set(channel, []);
+        }
+
+        map.get(channel).push(program);
+    }
+
+    return [...map.entries()]
+        .sort((a, b) => channelRank(a[0]) - channelRank(b[0]))
+        .map(([channel, channelPrograms]) => ({
+            channel,
+            programs: [...channelPrograms].sort((a, b) => {
+                const timeA = a.time || '99:99';
+                const timeB = b.time || '99:99';
+                return timeA.localeCompare(timeB);
+            })
+        }));
+}
+
+function makeProgramId(dateStr, program) {
+    const normalizedDate = normalizeDate(dateStr) || String(dateStr || '');
+    const time = program.time || normalizeText(program.title) || 'sans-heure';
+    const channel = slugChannel(program.channel || 'Autres');
+
+    return `${normalizedDate}__${time}__${channel}`;
 }
 
 // =====================================================
@@ -336,7 +550,7 @@ function displayYears() {
                 return `
                     <button class="year-btn" onclick="selectYear('${escapeHtml(year)}')">
                         <span class="year-number">${escapeHtml(year)}</span>
-                        <span class="year-info">${totalPrograms} programmes</span>
+                        <span class="year-info">${totalPrograms} programmes archivés</span>
                     </button>
                 `;
             }).join('')}
@@ -458,7 +672,7 @@ function displayDates(year) {
 
                 return `
                     <button class="date-btn" onclick="selectDate('${escapeHtml(date)}')">
-                        <span class="date-display">${escapeHtml(formatDisplayDate(date))}</span>
+                        <span class="date-display">${escapeHtml(formatDateLabel(date))}</span>
                         <span class="date-info">${programCount} programmes</span>
                         <span class="date-source">${escapeHtml(source)}</span>
                     </button>
@@ -476,6 +690,10 @@ function selectDate(date) {
     const normalizedDate = normalizeDate(date) || date;
 
     state.selectedDate = normalizedDate;
+    state.filters = {
+        query: '',
+        channel: 'all'
+    };
 
     if (!state.yearData || !state.yearData.dates) {
         showToast('❌ Aucune donnée d’année chargée');
@@ -491,23 +709,23 @@ function selectDate(date) {
         return;
     }
 
-    const programs = Array.isArray(dateData.programs)
-        ? [...dateData.programs]
-        : [];
+    let rawPrograms = [];
 
-    programs.sort((a, b) => {
-        const timeA = String(a.time || '');
-        const timeB = String(b.time || '');
-        return timeA.localeCompare(timeB);
-    });
+    if (Array.isArray(dateData.programs) && dateData.programs.length > 0) {
+        rawPrograms = dateData.programs;
+    } else if (dateData.channels && typeof dateData.channels === 'object') {
+        rawPrograms = flattenChannels(dateData.channels);
+    }
 
-    state.programs = programs;
+    const programs = dedupePrograms(rawPrograms);
+
+    state.currentPrograms = programs;
 
     displayPrograms(programs, normalizedDate);
 }
 
 // =====================================================
-// Affichage des programmes
+// Affichage des programmes chaîne par chaîne
 // =====================================================
 
 function displayPrograms(programs, date) {
@@ -518,65 +736,223 @@ function displayPrograms(programs, date) {
         return;
     }
 
-    if (!programs || programs.length === 0) {
-        container.innerHTML = `
-            <div class="programs-header">
-                <button class="back-btn" onclick="displayDates('${escapeHtml(state.selectedYear || '')}')">
-                    ← Retour aux dates
-                </button>
-                <h2>📺 Programmes du ${escapeHtml(formatDisplayDate(date))}</h2>
-            </div>
-            <div class="empty-state">
-                <div class="retro-tv">📺</div>
-                <h2>Aucun programme</h2>
-                <p>Aucun programme n’a été trouvé pour cette date.</p>
-            </div>
-        `;
-        return;
-    }
+    state.currentPrograms = programs;
+    state.currentProgramMap = new Map();
+
+    const channels = [...new Set(programs.map(p => p.channel || 'Autres'))]
+        .sort((a, b) => channelRank(a) - channelRank(b));
 
     container.innerHTML = `
         <div class="programs-header">
             <button class="back-btn" onclick="displayDates('${escapeHtml(state.selectedYear || '')}')">
                 ← Retour aux dates
             </button>
-            <h2>📺 Programmes du ${escapeHtml(formatDisplayDate(date))}</h2>
-            <p class="programs-count">${programs.length} programmes</p>
+
+            <h2>📺 ${escapeHtml(formatDateLabel(date))}</h2>
+
+            <p class="programs-count">
+                <span id="total-count">${programs.length}</span> programmes archivés ·
+                <span id="filtered-count">${programs.length}</span> affichés
+            </p>
         </div>
 
-        <div class="programs-list">
-            ${programs.map((program, index) => {
-                const programId = makeProgramId(date, index);
+        <div class="grid-toolbar">
+            <input
+                type="search"
+                id="program-search"
+                placeholder="Rechercher un programme, un animateur, une description..."
+                value="${escapeHtml(state.filters.query)}"
+            >
 
-                return `
-                    <div class="program-card">
-                        <div class="program-time">🕐 ${escapeHtml(program.time || '--:--')}</div>
-                        <div class="program-title">🎬 ${escapeHtml(program.title || 'Titre inconnu')}</div>
+            <select id="channel-filter">
+                <option value="all"${state.filters.channel === 'all' ? ' selected' : ''}>
+                    Toutes les chaînes
+                </option>
+                ${channels.map(channel => `
+                    <option value="${escapeHtml(channel)}"${state.filters.channel === channel ? ' selected' : ''}>
+                        ${escapeHtml(channel)}
+                    </option>
+                `).join('')}
+            </select>
 
-                        ${program.channel ? `
-                            <div class="program-channel">📺 ${escapeHtml(program.channel)}</div>
-                        ` : ''}
-
-                        ${program.description ? `
-                            <p class="program-description">${escapeHtml(program.description)}</p>
-                        ` : ''}
-
-                        <div class="program-actions">
-                            <button class="add-to-playlist-btn" data-program-id="${escapeHtml(programId)}">
-                                ➕ Playlist
-                            </button>
-                        </div>
-                    </div>
-                `;
-            }).join('')}
+            <div class="toolbar-actions">
+                <button type="button" id="expand-all" class="tiny-btn">Déplier</button>
+                <button type="button" id="collapse-all" class="tiny-btn">Réplier</button>
+            </div>
         </div>
+
+        <div id="programs-groups" class="programs-groups"></div>
     `;
 
-    container.querySelectorAll('[data-program-id]').forEach(button => {
-        button.addEventListener('click', () => {
-            addToPlaylist(button.dataset.programId);
+    renderProgramGroups(programs, date);
+
+    const searchInput = document.getElementById('program-search');
+    const channelFilter = document.getElementById('channel-filter');
+    const expandAll = document.getElementById('expand-all');
+    const collapseAll = document.getElementById('collapse-all');
+    const groupsContainer = document.getElementById('programs-groups');
+
+    if (searchInput) {
+        searchInput.addEventListener('input', event => {
+            state.filters.query = event.target.value;
+            applyFilters(date);
         });
+    }
+
+    if (channelFilter) {
+        channelFilter.addEventListener('change', event => {
+            state.filters.channel = event.target.value;
+            applyFilters(date);
+        });
+    }
+
+    if (expandAll) {
+        expandAll.addEventListener('click', () => {
+            document.querySelectorAll('#programs-groups .channel-block')
+                .forEach(block => block.classList.remove('collapsed'));
+        });
+    }
+
+    if (collapseAll) {
+        collapseAll.addEventListener('click', () => {
+            document.querySelectorAll('#programs-groups .channel-block')
+                .forEach(block => block.classList.add('collapsed'));
+        });
+    }
+
+    if (groupsContainer) {
+        groupsContainer.addEventListener('click', handleProgramsClick);
+    }
+}
+
+function applyFilters(date) {
+    const query = normalizeText(state.filters.query);
+    const channel = state.filters.channel;
+
+    const filtered = state.currentPrograms.filter(program => {
+        const matchesChannel = channel === 'all' || program.channel === channel;
+
+        if (!matchesChannel) {
+            return false;
+        }
+
+        if (!query) {
+            return true;
+        }
+
+        const haystack = normalizeText([
+            program.title,
+            program.description,
+            program.channel,
+            program.time
+        ].join(' '));
+
+        return haystack.includes(query);
     });
+
+    renderProgramGroups(filtered, date);
+
+    const filteredCount = document.getElementById('filtered-count');
+
+    if (filteredCount) {
+        filteredCount.textContent = String(filtered.length);
+    }
+}
+
+function renderProgramGroups(programs, date) {
+    const container = document.getElementById('programs-groups');
+
+    if (!container) {
+        console.error('Élément #programs-groups introuvable');
+        return;
+    }
+
+    state.currentProgramMap.clear();
+
+    if (!programs || programs.length === 0) {
+        container.innerHTML = `
+            <div class="empty-state compact">
+                <h3>Aucun programme trouvé</h3>
+                <p>Modifiez la recherche ou choisissez une autre chaîne.</p>
+            </div>
+        `;
+        return;
+    }
+
+    const groups = groupProgramsByChannel(programs);
+
+    container.innerHTML = groups.map(group => {
+        const channel = group.channel;
+        const channelPrograms = group.programs;
+
+        return `
+            <section class="channel-block${channelPrograms.length > 12 ? ' collapsed' : ''}" data-channel="${escapeHtml(channel)}">
+                <button class="channel-header" type="button" aria-expanded="${channelPrograms.length > 12 ? 'false' : 'true'}">
+                    <span class="channel-badge">${escapeHtml(channel)}</span>
+                    <span class="channel-meta">${channelPrograms.length} programmes</span>
+                    <span class="channel-toggle">${channelPrograms.length > 12 ? '+' : '−'}</span>
+                </button>
+
+                <div class="channel-programs">
+                    ${channelPrograms.map(program => {
+                        const id = makeProgramId(date, program);
+                        state.currentProgramMap.set(id, program);
+
+                        return `
+                            <article class="program-row">
+                                <div class="program-time">${escapeHtml(program.time || '--:--')}</div>
+
+                                <div class="program-content">
+                                    <div class="program-title">${escapeHtml(program.title || 'Titre inconnu')}</div>
+
+                                    ${program.description ? `
+                                        <p class="program-description">${escapeHtml(program.description)}</p>
+                                    ` : ''}
+                                </div>
+
+                                <div class="program-actions">
+                                    <button
+                                        class="add-to-playlist-btn"
+                                        type="button"
+                                        data-program-id="${escapeHtml(id)}"
+                                        aria-label="Ajouter ${escapeHtml(program.title || 'programme')} à la playlist"
+                                    >
+                                        ➕
+                                    </button>
+                                </div>
+                            </article>
+                        `;
+                    }).join('')}
+                </div>
+            </section>
+        `;
+    }).join('');
+}
+
+function handleProgramsClick(event) {
+    const header = event.target.closest('.channel-header');
+
+    if (header) {
+        const block = header.closest('.channel-block');
+
+        if (block) {
+            const isCollapsed = block.classList.toggle('collapsed');
+            const toggle = header.querySelector('.channel-toggle');
+            header.setAttribute('aria-expanded', String(!isCollapsed));
+
+            if (toggle) {
+                toggle.textContent = isCollapsed ? '+' : '−';
+            }
+        }
+
+        return;
+    }
+
+    const addButton = event.target.closest('.add-to-playlist-btn');
+
+    if (addButton) {
+        addToPlaylist(addButton.dataset.programId);
+    }
 }
 
 // =====================================================
@@ -584,27 +960,9 @@ function displayPrograms(programs, date) {
 // =====================================================
 
 function addToPlaylist(programId) {
-    const parsed = parseProgramId(programId);
-
-    if (!parsed) {
-        showToast('❌ Identifiant de programme invalide');
-        return;
-    }
-
-    if (!state.yearData || !state.yearData.dates) {
-        showToast('❌ Aucune donnée chargée');
-        return;
-    }
-
-    const dateData = state.yearData.dates[parsed.date];
-
-    if (!dateData) {
-        showToast('❌ Date introuvable dans les données chargées');
-        return;
-    }
-
-    const programs = Array.isArray(dateData.programs) ? dateData.programs : [];
-    const program = programs[parsed.index];
+    const program =
+        state.currentProgramMap.get(programId) ||
+        state.currentPrograms.find(p => makeProgramId(state.selectedDate, p) === programId);
 
     if (!program) {
         showToast('❌ Programme introuvable');
@@ -618,7 +976,7 @@ function addToPlaylist(programId) {
 
     state.playlist.push({
         id: programId,
-        date: parsed.date,
+        date: state.selectedDate,
         time: program.time || '',
         title: program.title || '',
         channel: program.channel || '',
@@ -691,21 +1049,23 @@ function updatePlaylistDisplay() {
     container.innerHTML = sortedPlaylist.map(program => `
         <div class="playlist-item">
             <div class="playlist-item-info">
-                <div class="program-time">
-                    📅 ${escapeHtml(formatDisplayDate(program.date))} — 🕐 ${escapeHtml(program.time || '--:--')}
+                <div class="playlist-date">
+                    📅 ${escapeHtml(formatDateLabel(program.date))}
                 </div>
-                <div class="program-title">🎬 ${escapeHtml(program.title || 'Titre inconnu')}</div>
 
-                ${program.channel ? `
-                    <div class="program-channel">📺 ${escapeHtml(program.channel)}</div>
-                ` : ''}
+                <div class="program-time-inline">
+                    🕐 ${escapeHtml(program.time || '--:--')}
+                    ${program.channel ? ` · 📺 ${escapeHtml(program.channel)}` : ''}
+                </div>
+
+                <div class="program-title">🎬 ${escapeHtml(program.title || 'Titre inconnu')}</div>
 
                 ${program.description ? `
                     <p class="program-description">${escapeHtml(program.description)}</p>
                 ` : ''}
             </div>
 
-            <button class="remove-btn" data-remove-id="${escapeHtml(program.id)}">
+            <button class="remove-btn" type="button" data-remove-id="${escapeHtml(program.id)}">
                 ✕
             </button>
         </div>
@@ -736,11 +1096,28 @@ function exportPlaylist() {
         return;
     }
 
-    const exportData = state.playlist
+    const sortedPlaylist = [...state.playlist].sort((a, b) => {
+        const keyA = dateSortKey(a.date);
+        const keyB = dateSortKey(b.date);
+
+        for (let i = 0; i < 3; i++) {
+            if (keyA[i] !== keyB[i]) {
+                return keyA[i] - keyB[i];
+            }
+        }
+
+        return String(a.time || '').localeCompare(String(b.time || ''));
+    });
+
+    const exportData = sortedPlaylist
         .map(program => {
             const title = program.title || 'Programme inconnu';
-            const channel = program.channel ? ` - ${program.channel}` : '';
-            return `${title}${channel}`;
+
+            if (EXPORT_INCLUDE_CHANNEL && program.channel) {
+                return `${title} (${program.channel})`;
+            }
+
+            return title;
         })
         .join('\n');
 
@@ -879,7 +1256,7 @@ function registerServiceWorker() {
 }
 
 // =====================================================
-// Exposition globale pour les onclick simples
+// Exposition globale
 // =====================================================
 
 window.selectYear = selectYear;
