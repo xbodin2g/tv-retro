@@ -2,38 +2,97 @@
 """
 Génère l'index des données TV rétro.
 
-Format de date supporté :
-- JJ-MM-AAAA
-- AAAA-MM-DD
-- JJ/MM/AAAA
-- AAAA/MM/DD
-
-Sortie :
-- data/index.json
-- data/AAAA.json
+- Fusionne depot101 et archives80
+- Supprime les doublons
+- Regroupe par chaîne
+- Produit :
+  - data/index.json
+  - data/AAAA.json
 """
 
 import json
 import os
-from pathlib import Path
+import re
+import unicodedata
 from datetime import datetime
-from typing import Dict, List, Optional, Any
+from pathlib import Path
+from typing import Any, Dict, List, Optional
 
 
-def normalize_date(date_str: str) -> Optional[str]:
+# =====================================================
+# Configuration
+# =====================================================
+
+SOURCES = ["depot101", "archives80"]
+
+CHANNEL_ORDER = [
+    "TF1",
+    "Antenne 2",
+    "FR3",
+    "Canal+",
+    "La Cinq",
+    "M6",
+    "Arte",
+    "France 2",
+    "France 3",
+    "France 5",
+]
+
+CHANNEL_ALIASES = {
+    "TF1": "TF1",
+    "A2": "Antenne 2",
+    "ANTENNE 2": "Antenne 2",
+    "FR3": "FR3",
+    "FR 3": "FR3",
+    "CANAL+": "Canal+",
+    "CANAL": "Canal+",
+    "LA CINQ": "La Cinq",
+    "M6": "M6",
+    "ARTE": "Arte",
+    "FRANCE 2": "France 2",
+    "FRANCE 3": "France 3",
+    "FRANCE 5": "France 5",
+}
+
+
+# =====================================================
+# Helpers texte / date / heure / chaîne
+# =====================================================
+
+def normalize_text(value: Any) -> str:
+    """
+    Normalise un texte pour comparaison :
+    - minuscules
+    - sans accents
+    - sans ponctuation
+    - espaces réduits
+    """
+    if value is None:
+        return ""
+
+    text = str(value).strip()
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def normalize_date(date_str: Any) -> Optional[str]:
     """
     Normalise une date au format JJ-MM-AAAA.
-    Retourne None si la date est invalide.
+    Accepte aussi AAAA-MM-DD, JJ/MM/AAAA, AAAA/MM/DD.
     """
     if not date_str:
         return None
 
-    date_str = str(date_str).strip()
+    value = str(date_str).strip()
 
-    if "-" in date_str:
-        parts = date_str.split("-")
-    elif "/" in date_str:
-        parts = date_str.split("/")
+    if "-" in value:
+        parts = value.split("-")
+    elif "/" in value:
+        parts = value.split("/")
     else:
         return None
 
@@ -41,41 +100,95 @@ def normalize_date(date_str: str) -> Optional[str]:
         return None
 
     try:
-        # Format AAAA-MM-DD
         if len(parts[0]) == 4:
             year = int(parts[0])
             month = int(parts[1])
             day = int(parts[2])
-        # Format JJ-MM-AAAA
         else:
             day = int(parts[0])
             month = int(parts[1])
             year = int(parts[2])
 
-        # Validation basique
         datetime(year, month, day)
-
         return f"{day:02d}-{month:02d}-{year}"
-
     except Exception:
         return None
 
 
-def date_sort_key(date_str: str):
+def normalize_time(value: Any) -> str:
     """
-    Clé de tri chronologique pour JJ-MM-AAAA.
+    Normalise une heure au format HH:MM.
+    """
+    if not value:
+        return ""
+
+    text = str(value).strip()
+    match = re.match(r"^(\d{1,2})[:h.](\d{2})$", text, flags=re.IGNORECASE)
+
+    if not match:
+        return ""
+
+    hour = int(match.group(1))
+    minute = int(match.group(2))
+
+    if hour > 23 or minute > 59:
+        return ""
+
+    return f"{hour:02d}:{minute:02d}"
+
+
+def canonical_channel(value: Any) -> str:
+    """
+    Retourne un nom de chaîne canonique.
+    Exemple : A2 -> Antenne 2
+    """
+    raw = str(value or "").strip()
+
+    if not raw:
+        return "Autres"
+
+    upper = raw.upper()
+    if upper in CHANNEL_ALIASES:
+        return CHANNEL_ALIASES[upper]
+
+    normalized_upper = normalize_text(raw).upper()
+    if normalized_upper in CHANNEL_ALIASES:
+        return CHANNEL_ALIASES[normalized_upper]
+
+    return raw
+
+
+def channel_rank(channel: str) -> int:
+    """
+    Ordre d'affichage des chaînes.
+    Les chaînes inconnues passent après.
     """
     try:
-        day, month, year = date_str.split("-")
-        return int(year), int(month), int(day)
-    except Exception:
-        return 9999, 9999, 9999
+        return CHANNEL_ORDER.index(channel)
+    except ValueError:
+        return len(CHANNEL_ORDER) + 1
+
+
+def clean_title(value: Any) -> str:
+    """
+    Nettoie un titre.
+    Si le titre est dupliqué sous la forme :
+    'Journal de 13 heures - Journal de 13 heures'
+    on garde seulement la première partie.
+    """
+    title = str(value or "").strip()
+    title = re.sub(r"\s+", " ", title)
+
+    parts = re.split(r"\s+[-–—]\s+", title)
+
+    if len(parts) == 2:
+        if normalize_text(parts[0]) == normalize_text(parts[1]):
+            return parts[0].strip()
+
+    return title
 
 
 def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
-    """
-    Charge un fichier JSON proprement.
-    """
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -84,48 +197,122 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
         return None
 
 
-def merge_programs(existing: List[Dict[str, Any]], new_programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+# =====================================================
+# Déduplication / fusion
+# =====================================================
+
+def program_key(time: str, channel: str, title: str) -> str:
     """
-    Fusionne des programmes en évitant les doublons simples.
+    Clé de déduplication.
+
+    Règle principale :
+    - même heure + même chaîne = même programme
+
+    Si l'heure manque, on tombe en secours sur :
+    - titre normalisé + chaîne
     """
-    seen = set()
+    if time:
+        return f"{time}|{channel}"
 
-    for p in existing:
-        key = (
-            p.get("time", ""),
-            p.get("title", ""),
-            p.get("channel", "")
+    return f"{normalize_text(title)}|{channel}"
+
+
+def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) -> None:
+    """
+    Fusionne un programme dans le dictionnaire target.
+    Si un programme existe déjà sur le même créneau/chaîne,
+    on garde les informations les plus complètes.
+    """
+    time = normalize_time(program.get("time", ""))
+    channel = canonical_channel(program.get("channel", ""))
+    title = clean_title(program.get("title", ""))
+    description = str(program.get("description", "") or "").strip()
+    description = re.sub(r"\s+", " ", description)
+
+    if not channel:
+        channel = "Autres"
+
+    if not title:
+        title = "Programme non identifié"
+
+    key = program_key(time, channel, title)
+
+    if key not in target:
+        target[key] = {
+            "time": time,
+            "channel": channel,
+            "title": title,
+            "description": description,
+        }
+        return
+
+    existing = target[key]
+
+    # Garder le titre le plus complet
+    if len(title) > len(existing.get("title", "")):
+        existing["title"] = title
+
+    # Garder la description la plus complète
+    if len(description) > len(existing.get("description", "")):
+        existing["description"] = description
+
+    # Si l'heure manquait mais qu'une nouvelle arrivée a une heure, on la prend
+    if not existing.get("time") and time:
+        existing["time"] = time
+
+
+def sort_programs(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return sorted(
+        programs,
+        key=lambda p: (
+            channel_rank(p.get("channel", "")),
+            p.get("time") or "99:99",
+            normalize_text(p.get("title", "")),
+        ),
+    )
+
+
+def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str, Any]]]:
+    grouped: Dict[str, List[Dict[str, Any]]] = {}
+
+    for program in programs:
+        channel = program.get("channel") or "Autres"
+        grouped.setdefault(channel, []).append(program)
+
+    ordered: Dict[str, List[Dict[str, Any]]] = {}
+
+    for channel in sorted(grouped.keys(), key=channel_rank):
+        ordered[channel] = sorted(
+            grouped[channel],
+            key=lambda p: (p.get("time") or "99:99", normalize_text(p.get("title", ""))),
         )
-        seen.add(key)
 
-    for p in new_programs:
-        key = (
-            p.get("time", ""),
-            p.get("title", ""),
-            p.get("channel", "")
-        )
-
-        if key not in seen:
-            existing.append(p)
-            seen.add(key)
-
-    # Tri par heure
-    existing.sort(key=lambda x: x.get("time", ""))
-
-    return existing
+    return ordered
 
 
-def generate_index():
+# =====================================================
+# Génération principale
+# =====================================================
+
+def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION MAGAZINE")
     print("=" * 70)
 
-    sources = ["depot101", "archives80"]
-
-    # Toutes les dates fusionnées : date_normalisée -> données
     all_dates: Dict[str, Dict[str, Any]] = {}
 
-    for source in sources:
+    # Nettoyage optionnel des anciens fichiers date à la racine de data/
+    # Exemple : data/01-01-1980.json
+    data_root = Path("data")
+    if data_root.exists():
+        for stray in data_root.glob("??-??-????.json"):
+            try:
+                stray.unlink()
+                print(f"🧹 Ancien fichier supprimé : {stray}")
+            except Exception as e:
+                print(f"⚠️ Impossible de supprimer {stray}: {e}")
+
+    for source in SOURCES:
         source_dir = Path(f"data/{source}")
 
         if not source_dir.exists():
@@ -133,7 +320,6 @@ def generate_index():
             continue
 
         json_files = sorted(source_dir.glob("*.json"))
-
         print(f"📂 Source {source} : {len(json_files)} fichiers trouvés")
 
         for filepath in json_files:
@@ -143,32 +329,30 @@ def generate_index():
                 continue
 
             raw_date = data.get("date") or filepath.stem
-            normalized_date = normalize_date(raw_date)
+            date = normalize_date(raw_date)
 
-            if not normalized_date:
+            if not date:
                 print(f"⚠️ Date invalide ignorée : {filepath}")
                 continue
 
             programs = data.get("programs", [])
 
-            if not programs:
+            if not isinstance(programs, list):
                 continue
 
-            if normalized_date not in all_dates:
-                all_dates[normalized_date] = {
-                    "date": normalized_date,
-                    "source": source,
-                    "programs": [],
-                    "scraped_at": data.get("scraped_at", datetime.now().isoformat())
+            if date not in all_dates:
+                all_dates[date] = {
+                    "date": date,
+                    "sources": set(),
+                    "programs": {},
                 }
 
-            entry = all_dates[normalized_date]
+            all_dates[date]["sources"].add(source)
 
-            # Si plusieurs sources pour la même date, on combine les sources
-            if source not in entry["source"]:
-                entry["source"] = f"{entry['source']}+{source}"
-
-            entry["programs"] = merge_programs(entry["programs"], programs)
+            for program in programs:
+                if not isinstance(program, dict):
+                    continue
+                merge_program(all_dates[date]["programs"], program)
 
     print("")
     print(f"✅ Dates uniques retenues : {len(all_dates)}")
@@ -176,74 +360,83 @@ def generate_index():
     # Regrouper par année
     years: Dict[str, Dict[str, Any]] = {}
 
-    for date_str, date_data in all_dates.items():
+    for date_str, entry in all_dates.items():
         year = date_str.split("-")[2]
+
+        programs_list = sort_programs(list(entry["programs"].values()))
+        channels = group_by_channel(programs_list)
+
+        source_label = "+".join(sorted(entry["sources"]))
+
+        date_payload = {
+            "date": date_str,
+            "source": source_label,
+            "programs_count": len(programs_list),
+            "programs": programs_list,
+            "channels": channels,
+        }
 
         if year not in years:
             years[year] = {
                 "dates": {},
-                "total_programs": 0
+                "total_programs": 0,
             }
 
-        program_count = len(date_data.get("programs", []))
+        years[year]["dates"][date_str] = date_payload
+        years[year]["total_programs"] += len(programs_list)
 
-        years[year]["dates"][date_str] = {
-            "source": date_data.get("source", "unknown"),
-            "programs_count": program_count
-        }
-
-        years[year]["total_programs"] += program_count
-
-    # Trier les années
     sorted_years = dict(sorted(years.items(), key=lambda item: int(item[0])))
 
     index = {
         "generated_at": datetime.now().isoformat(),
         "total_dates": len(all_dates),
         "total_programs": sum(y["total_programs"] for y in sorted_years.values()),
-        "years": {}
+        "years": {},
     }
 
     for year, year_data in sorted_years.items():
         sorted_dates = dict(
             sorted(
                 year_data["dates"].items(),
-                key=lambda item: date_sort_key(item[0])
+                key=lambda item: (
+                    int(item[0].split("-")[2]),
+                    int(item[0].split("-")[1]),
+                    int(item[0].split("-")[0]),
+                ),
             )
         )
 
         index["years"][year] = {
             "total_programs": year_data["total_programs"],
-            "dates": sorted_dates
+            "dates": {
+                date_str: {
+                    "source": date_data["source"],
+                    "programs_count": date_data["programs_count"],
+                }
+                for date_str, date_data in sorted_dates.items()
+            },
         }
 
-    # Sauvegarder index global
     os.makedirs("data", exist_ok=True)
 
     index_path = "data/index.json"
-
     with open(index_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
 
     print(f"✅ Index global écrit : {index_path}")
 
-    # Sauvegarder fichiers par année
-    for year, year_data in index["years"].items():
+    for year, year_data in sorted_years.items():
         year_payload = {
             "year": year,
-            "dates": {}
+            "dates": year_data["dates"],
         }
-
-        for date_str in year_data["dates"].keys():
-            if date_str in all_dates:
-                year_payload["dates"][date_str] = all_dates[date_str]
 
         year_path = f"data/{year}.json"
 
         with open(year_path, "w", encoding="utf-8") as f:
             json.dump(year_payload, f, ensure_ascii=False, indent=2)
 
-        print(f"✅ Année écrite : {year_path} ({len(year_payload['dates'])} dates)")
+        print(f"✅ Année écrite : {year_path} ({len(year_data['dates'])} dates)")
 
     print("")
     print("=" * 70)
