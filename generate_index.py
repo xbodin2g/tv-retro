@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Génère l'index des données
+Génère l'index des données directement dans data/
 """
 
 import json
@@ -52,7 +52,8 @@ def generate_index():
                 
                 index['years'][year]['dates'][date_str] = {
                     'source': source,
-                    'programs_count': len(programs)
+                    'programs_count': len(programs),
+                    'file': str(json_file)
                 }
                 
                 index['years'][year]['total_programs'] += len(programs)
@@ -67,19 +68,13 @@ def generate_index():
     for year in index['years']:
         index['years'][year]['dates'] = dict(sorted(index['years'][year]['dates'].items()))
     
-    # Sauvegarder
-    os.makedirs('data', exist_ok=True)
-    os.makedirs('web/data', exist_ok=True)
-    
+    # Sauvegarder l'index principal
     with open('data/index.json', 'w', encoding='utf-8') as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
     
-    with open('web/data/index.json', 'w', encoding='utf-8') as f:
-        json.dump(index, f, ensure_ascii=False, indent=2)
-    
-    # Fichiers par année
+    # Créer les fichiers par année (dans data/ directement)
     for year, year_data in index['years'].items():
-        year_file = f'web/data/{year}.json'
+        year_file = f'data/{year}.json'
         
         year_programs = {
             'year': year,
@@ -88,10 +83,7 @@ def generate_index():
         
         for date_str, date_info in year_data['dates'].items():
             try:
-                source = date_info['source']
-                filename = date_str.replace('/', '-')
-                filepath = f'data/{source}/{filename}.json'
-                
+                filepath = date_info['file']
                 with open(filepath, 'r', encoding='utf-8') as f:
                     data = json.load(f)
                     year_programs['dates'][date_str] = data
@@ -107,7 +99,7 @@ def generate_index():
     print(f"Années: {len(index['years'])}")
     print(f"Dates totales: {index['total_dates']}")
     print(f"Programmes totaux: {index['total_programs']}")
-    print(f"Fichiers créés: data/index.json, web/data/*.json")
+    print(f"Fichiers créés dans data/")
 
 if __name__ == '__main__':
     generate_index()
