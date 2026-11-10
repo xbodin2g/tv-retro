@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T16:18:21.212279",
-  "total_dates": 883,
-  "total_programs": 92419,
-  "total_segments": 8700,
+  "generated_at": "2026-11-10T16:20:04.603999",
+  "total_dates": 893,
+  "total_programs": 94058,
+  "total_segments": 8780,
   "years": {
     "1980": {
       "total_programs": 3218,
@@ -3613,6 +3613,51 @@
         "24-12-1997": {
           "source": "archives80",
           "programs_count": 153
+        }
+      }
+    },
+    "1998": {
+      "total_programs": 1639,
+      "dates": {
+        "07-01-1998": {
+          "source": "archives80",
+          "programs_count": 168
+        },
+        "28-02-1998": {
+          "source": "archives80",
+          "programs_count": 160
+        },
+        "12-03-1998": {
+          "source": "archives80",
+          "programs_count": 174
+        },
+        "18-04-1998": {
+          "source": "archives80",
+          "programs_count": 168
+        },
+        "30-05-1998": {
+          "source": "archives80",
+          "programs_count": 153
+        },
+        "02-06-1998": {
+          "source": "archives80",
+          "programs_count": 166
+        },
+        "03-06-1998": {
+          "source": "archives80",
+          "programs_count": 171
+        },
+        "04-06-1998": {
+          "source": "archives80",
+          "programs_count": 171
+        },
+        "05-06-1998": {
+          "source": "archives80",
+          "programs_count": 166
+        },
+        "14-07-1998": {
+          "source": "archives80",
+          "programs_count": 142
         }
       }
     }
