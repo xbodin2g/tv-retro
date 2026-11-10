@@ -4,7 +4,6 @@ Scraper Depot101 - version simplifiée.
 
 - Pas de simulation de navigation (plus rapide)
 - Teste automatiquement grilles/ et grille/ pour la page annuelle
-- Teste automatiquement grille/ pour les pages journalières
 - Conserve les description_lines pour les extraits jeunesse
 - Détection de chaîne avec contexte
 """
@@ -23,8 +22,8 @@ from typing import Dict, List, Optional, Set
 class Depot101Scraper:
     HOME_URL = "https://www.depot101.com"
     GRILLES_URLS = [
-        "https://www.depot101.com/tele/grilles",  # Avant 1989
-        "https://www.depot101.com/tele/grille",   # À partir de 1989
+        "https://www.depot101.com/tele/grilles",
+        "https://www.depot101.com/tele/grille",
     ]
     BASE_URL = "https://www.depot101.com/tele/grille"
 
@@ -56,9 +55,11 @@ class Depot101Scraper:
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE 2": "Antenne 2",
+        "F2": "France 2",
         "FRANCE 2": "France 2",
         "FR3": "FR3",
         "FR 3": "FR3",
+        "F3": "France 3",
         "FRANCE 3": "France 3",
         "C+": "Canal+",
         "CANAL+": "Canal+",
@@ -68,9 +69,14 @@ class Depot101Scraper:
         "LA5": "La Cinq",
         "LA 5": "La Cinq",
         "LA CINQ": "La Cinq",
-        "LA CINQUIEME": "La Cinq",
+        "LA CINQUIEME": "La Cinquième",
+        "LA CINQUIÈME": "La Cinquième",
         "CINQ": "La Cinq",
         "M6": "M6",
+        "LA SEPT": "La Sept",
+        "L7": "La Sept",
+        "LA7": "La Sept",
+        "LA 7": "La Sept",
         "ARTE": "Arte",
         "FRANCE 5": "France 5",
     }
@@ -79,8 +85,10 @@ class Depot101Scraper:
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE2": "Antenne 2",
+        "F2": "France 2",
         "FRANCE2": "France 2",
         "FR3": "FR3",
+        "F3": "France 3",
         "FRANCE3": "France 3",
         "C+": "Canal+",
         "CANAL+": "Canal+",
@@ -89,9 +97,12 @@ class Depot101Scraper:
         "L5": "La Cinq",
         "LA5": "La Cinq",
         "LACINQ": "La Cinq",
-        "LACINQUIEME": "La Cinq",
+        "LACINQUIEME": "La Cinquième",
         "CINQ": "La Cinq",
         "M6": "M6",
+        "LASEPT": "La Sept",
+        "L7": "La Sept",
+        "LA7": "La Sept",
         "ARTE": "Arte",
         "FRANCE5": "France 5",
     }
@@ -101,13 +112,19 @@ class Depot101Scraper:
         (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
-        (re.compile(r"^LA\s*CINQUIEME$", re.IGNORECASE), "La Cinq"),
+        (re.compile(r"^LA\s*CINQUIEME$", re.IGNORECASE), "La Cinquième"),
+        (re.compile(r"^LA\s*CINQUIÈME$", re.IGNORECASE), "La Cinquième"),
         (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
         (re.compile(r"^A\s*2$", re.IGNORECASE), "Antenne 2"),
         (re.compile(r"^FR\s*3$", re.IGNORECASE), "FR3"),
+        (re.compile(r"^F\s*2$", re.IGNORECASE), "France 2"),
+        (re.compile(r"^F\s*3$", re.IGNORECASE), "France 3"),
         (re.compile(r"^FRANCE\s*2$", re.IGNORECASE), "France 2"),
         (re.compile(r"^FRANCE\s*3$", re.IGNORECASE), "France 3"),
         (re.compile(r"^FRANCE\s*5$", re.IGNORECASE), "France 5"),
+        (re.compile(r"^LA\s*SEPT$", re.IGNORECASE), "La Sept"),
+        (re.compile(r"^L\s*7$", re.IGNORECASE), "La Sept"),
+        (re.compile(r"^LA\s*7$", re.IGNORECASE), "La Sept"),
     ]
 
     FOOTER_MARKERS = (
@@ -170,7 +187,6 @@ class Depot101Scraper:
         url: str,
         max_retries: int = 3,
     ) -> Optional[object]:
-        """Requête HTTP simple avec retries en cas de 403."""
         last_error = None
 
         for attempt in range(max_retries):
