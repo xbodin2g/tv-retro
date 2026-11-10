@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Scraper Depot101 - version simplifiée.
+Scraper Depot101 - version avec fallback de découverte de dates.
 
 - Pas de simulation de navigation (plus rapide)
 - Teste automatiquement grilles/ et grille/ pour la page annuelle
+- Fallback : si l'extraction échoue, teste directement les dates
 - Conserve les description_lines pour les extraits jeunesse
 - Détection de chaîne avec contexte
 """
@@ -15,7 +16,8 @@ import time
 import re
 import os
 import random
-from datetime import datetime
+import calendar
+from datetime import datetime, timedelta
 from typing import Dict, List, Optional, Set
 
 
@@ -335,6 +337,9 @@ class Depot101Scraper:
         return candidates
 
     def _get_annual_dates(self, year: int) -> List[str]:
+        """
+        Extrait les dates de la page annuelle avec plusieurs méthodes de fallback.
+        """
         year_str = str(year)
 
         if year_str in self._annual_dates_cache:
@@ -342,30 +347,136 @@ class Depot101Scraper:
 
         print(f"📅 Recherche des dates Depot101 pour {year}...")
 
+        # Essayer d'extraire les dates de la page annuelle
         for url in self._annual_url_candidates(year):
             try:
-                response = self._request(url, max_retries=2)
-            except Exception as e:
-                print(f"  ⚠️ Échec {url}: {e}")
-                continue
-
-            if response is None:
-                continue
-
-            dates = self._extract_dates_from_html(response.text, year=year)
-
-            if not dates:
-                text = self._html_to_text(response.text)
+                response = self._request(url, max_retries=3)
+                if response is None:
+                    continue
+                
+                html = response.text
+                
+                # Méthode 1: extraire depuis les liens HTML
+                dates = self._extract_dates_from_html(html, year=year)
+                
+                if dates:
+                    print(f"✓ {len(dates)} dates trouvées via les liens dans {url}")
+                    self._annual_dates_cache[year_str] = dates
+                    self._annual_urls_cache[year_str] = url
+                    return dates
+                
+                # Méthode 2: extraire depuis le texte de la page
+                text = self._html_to_text(html)
                 dates = self._extract_dates_from_text(text, year=year)
+                
+                if dates:
+                    print(f"✓ {len(dates)} dates trouvées via le texte dans {url}")
+                    self._annual_dates_cache[year_str] = dates
+                    self._annual_urls_cache[year_str] = url
+                    return dates
+                
+                print(f"⚠️ Aucune date trouvée dans {url}, tentative de fallback...")
+                
+            except Exception as e:
+                print(f"⚠️ Erreur avec {url}: {e}")
+                continue
 
-            if dates:
-                self._annual_dates_cache[year_str] = dates
-                self._annual_urls_cache[year_str] = url
-                print(f"✓ {len(dates)} dates trouvées via {url}")
-                return list(dates)
+        # Fallback: découvrir les dates en testant directement
+        print(f"🔍 Tentative de découverte par test direct pour {year}...")
+        discovered_dates = self._discover_dates_by_testing(year)
+        
+        if discovered_dates:
+            self._annual_dates_cache[year_str] = discovered_dates
+            print(f"✓ {len(discovered_dates)} dates découvertes par test direct")
+            return discovered_dates
 
-        print(f"⚠️ Aucune date trouvée pour {year}")
+        print(f"❌ Aucune date trouvée pour {year}")
         return []
+
+    def _discover_dates_by_testing(self, year: int) -> List[str]:
+        """
+        Découvre les dates disponibles en testant directement quelques dates par mois.
+        Utile quand l'extraction depuis la page annuelle échoue.
+        """
+        discovered: Set[str] = set()
+        
+        print(f"  Test de dates pour {year}...")
+        
+        # Tester plusieurs dates par mois
+        for month in range(1, 13):
+            _, last_day = calendar.monthrange(year, month)
+            
+            # Tester environ 5 dates par mois (1, quart, milieu, 3/4, fin)
+            test_days = [
+                1,
+                max(1, last_day // 4),
+                max(1, last_day // 2),
+                max(1, (3 * last_day) // 4),
+                last_day
+            ]
+            
+            month_found = []
+            
+            for day in test_days:
+                if day > last_day:
+                    continue
+                    
+                date_str = f"{day:02d}-{month:02d}-{year}"
+                url = f"{self.BASE_URL}/{date_str}"
+                
+                try:
+                    response = self._request(url, max_retries=1)
+                    
+                    if response is not None and response.status_code == 200:
+                        # Vérifier que c'est bien une page de programme valide
+                        if "Programme télé" in response.text or "TF1" in response.text:
+                            discovered.add(date_str)
+                            month_found.append(date_str)
+                            
+                except Exception:
+                    pass
+                
+                # Pause courte pour ne pas surcharger
+                time.sleep(random.uniform(0.3, 0.8))
+            
+            if month_found:
+                print(f"    ✓ Mois {month:02d}: {len(month_found)} dates trouvées")
+            else:
+                print(f"    ⚠️ Mois {month:02d}: aucune date trouvée")
+        
+        # Maintenant, pour chaque date trouvée, essayer de trouver les dates adjacentes
+        expanded_dates = set(discovered)
+        
+        for date_str in list(discovered):
+            day, month, year_val = map(int, date_str.split("-"))
+            
+            # Tester les 3 jours avant et après
+            for offset in [-3, -2, -1, 1, 2, 3]:
+                try:
+                    base_date = datetime(year, month, day)
+                    test_date = base_date + timedelta(days=offset)
+                    
+                    if test_date.year != year:
+                        continue
+                    
+                    test_str = test_date.strftime("%d-%m-%Y")
+                    
+                    if test_str in expanded_dates:
+                        continue
+                    
+                    url = f"{self.BASE_URL}/{test_str}"
+                    response = self._request(url, max_retries=1)
+                    
+                    if response is not None and response.status_code == 200:
+                        if "Programme télé" in response.text or "TF1" in response.text:
+                            expanded_dates.add(test_str)
+                            
+                except Exception:
+                    pass
+                
+                time.sleep(random.uniform(0.2, 0.5))
+        
+        return sorted(expanded_dates)
 
     def get_available_years(self) -> List[int]:
         return list(range(1980, 2000))
