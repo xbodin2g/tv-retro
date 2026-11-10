@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 """
-Scraper Archives80.
-
-- Conserve les description_lines pour les extraits jeunesse
-- Détection de chaîne avec contexte
+Scraper Archives80 avec détection robuste des chaînes.
 """
 
 import cloudscraper
@@ -49,6 +46,18 @@ class Archives80Scraper:
     }
 
     CHANNEL_ALIASES = {
+        # ORTF
+        "OR1": "ORTF 1",
+        "OR2": "ORTF 2",
+        "OR3": "ORTF 3",
+        "ORTF 1": "ORTF 1",
+        "ORTF 2": "ORTF 2",
+        "ORTF 3": "ORTF 3",
+        "ORTF1": "ORTF 1",
+        "ORTF2": "ORTF 2",
+        "ORTF3": "ORTF 3",
+        
+        # Chaînes classiques
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE 2": "Antenne 2",
@@ -79,6 +88,12 @@ class Archives80Scraper:
     }
 
     CHANNEL_COMPACT_MAP = {
+        "OR1": "ORTF 1",
+        "OR2": "ORTF 2",
+        "OR3": "ORTF 3",
+        "ORTF1": "ORTF 1",
+        "ORTF2": "ORTF 2",
+        "ORTF3": "ORTF 3",
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE2": "Antenne 2",
@@ -105,6 +120,12 @@ class Archives80Scraper:
     }
 
     CHANNEL_REGEX = [
+        (re.compile(r"^OR\s*1$", re.IGNORECASE), "ORTF 1"),
+        (re.compile(r"^OR\s*2$", re.IGNORECASE), "ORTF 2"),
+        (re.compile(r"^OR\s*3$", re.IGNORECASE), "ORTF 3"),
+        (re.compile(r"^ORTF\s*1$", re.IGNORECASE), "ORTF 1"),
+        (re.compile(r"^ORTF\s*2$", re.IGNORECASE), "ORTF 2"),
+        (re.compile(r"^ORTF\s*3$", re.IGNORECASE), "ORTF 3"),
         (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
         (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
@@ -245,6 +266,29 @@ class Archives80Scraper:
         for regex, canonical in self.CHANNEL_REGEX:
             if regex.match(raw):
                 return canonical
+
+        # NORMALISATION AGRESSIVE
+        normalized = re.sub(r'[\s\u00a0\u2000-\u200b\u202f\u205f\u3000]+', ' ', raw).strip()
+        normalized = re.sub(r'[^\w\s]', '', normalized)
+        
+        norm_upper = normalized.upper()
+        if norm_upper in self.CHANNEL_ALIASES:
+            return self.CHANNEL_ALIASES[norm_upper]
+
+        norm_compact = re.sub(r'\s+', '', norm_upper)
+        if norm_compact in self.CHANNEL_COMPACT_MAP:
+            return self.CHANNEL_COMPACT_MAP[norm_compact]
+
+        # Détection permissive France 2/3
+        france_match = re.match(r'^FRANCE\s*(\d)$', norm_upper)
+        if france_match:
+            num = france_match.group(1)
+            if num == '2':
+                return "France 2"
+            elif num == '3':
+                return "France 3"
+            elif num == '5':
+                return "France 5"
 
         return None
 
