@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-11-10T21:07:46.034377",
-  "total_dates": 1005,
-  "total_programs": 121004,
-  "total_segments": 10704,
+  "generated_at": "2026-11-10T21:08:56.586424",
+  "total_dates": 1009,
+  "total_programs": 121167,
+  "total_segments": 10721,
   "years": {
+    "1976": {
+      "total_programs": 163,
+      "dates": {
+        "18-01-1976": {
+          "source": "depot101",
+          "programs_count": 43
+        },
+        "19-01-1976": {
+          "source": "depot101",
+          "programs_count": 44
+        },
+        "18-02-1976": {
+          "source": "depot101",
+          "programs_count": 35
+        },
+        "21-07-1976": {
+          "source": "depot101",
+          "programs_count": 41
+        }
+      }
+    },
     "1978": {
       "total_programs": 637,
       "dates": {
