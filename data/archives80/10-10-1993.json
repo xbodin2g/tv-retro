@@ -1,7 +1,7 @@
 {
   "date": "10-10-1993",
   "source": "archives80",
-  "scraped_at": "2026-11-10T16:29:12.382067",
+  "scraped_at": "2026-11-10T23:21:04.364604",
   "programs": [
     {
       "time": "06:00",
@@ -299,15 +299,13 @@
       "time": "05:15",
       "title": "Histoires naturelles",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "Animalia",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Rediff.",
       "description_lines": [
         "Rediff."
@@ -316,21 +314,21 @@
     {
       "time": "06:50",
       "title": "Dessin animé",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:00",
       "title": "Debout les petits bouts",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "Emissions religieuses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Connaitre l'Islam",
       "description_lines": [
         "Connaitre l'Islam"
@@ -339,14 +337,14 @@
     {
       "time": "11:50",
       "title": "Midi moins sept",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "L'heure de vérité",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Bernard Tapie",
       "description_lines": [
         "Bernard Tapie"
@@ -355,14 +353,14 @@
     {
       "time": "12:55",
       "title": "Rapport du loto",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -371,7 +369,7 @@
     {
       "time": "13:20",
       "title": "Dimanche Martin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Après-midi présenté par Jacques Martin Le monde est à vous",
       "description_lines": [
         "Après-midi présenté par Jacques Martin",
@@ -381,14 +379,14 @@
     {
       "time": "18:20",
       "title": "Stade 2",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "Maguy",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -397,14 +395,14 @@
     {
       "time": "20:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "Le journal des courses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -413,7 +411,7 @@
     {
       "time": "20:50",
       "title": "Prédator",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Film de John McTierman avec Arnold Schwarzenegger",
       "description_lines": [
         "Film de John McTierman avec Arnold Schwarzenegger"
@@ -422,7 +420,7 @@
     {
       "time": "22:40",
       "title": "Raging Bull",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Film de Martin Scorsese avec Robert De Niro, Cathy Moriarty",
       "description_lines": [
         "Film de Martin Scorsese avec Robert De Niro, Cathy Moriarty"
@@ -431,7 +429,7 @@
     {
       "time": "00:45",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -440,52 +438,51 @@
     {
       "time": "01:05",
       "title": "Le cercle de minuit",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:15",
       "title": "L'heure de vérité",
-      "channel": "TF1",
-      "description": "Rediff. F3",
+      "channel": "France 2",
+      "description": "Rediff.",
       "description_lines": [
-        "Rediff.",
-        "F3"
+        "Rediff."
       ]
     },
     {
       "time": "07:15",
       "title": "BONJOUR LES PETITS LOUPS !",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "Les Minikeums",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "D'un soleil à l'autre",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:00",
       "title": "Mascarines",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "12/13",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Les titres de l'actualité",
       "description_lines": [
         "Les titres de l'actualité"
@@ -494,35 +491,35 @@
     {
       "time": "12:05",
       "title": "Le programme de votre région",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Édition nationale",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Expression directe",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:25",
       "title": "Musicales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Les grandes héroïnes de Verdi",
       "description_lines": [
         "Les grandes héroïnes de Verdi"
@@ -531,7 +528,7 @@
     {
       "time": "14:25",
       "title": "Les mystères de l'Ouest",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -540,7 +537,7 @@
     {
       "time": "15:20",
       "title": "Sports Dimanche",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Tiercé à Longchamp",
       "description_lines": [
         "Tiercé à Longchamp"
@@ -549,7 +546,7 @@
     {
       "time": "18:00",
       "title": "Répères",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Magazine",
       "description_lines": [
         "Magazine"
@@ -558,21 +555,21 @@
     {
       "time": "19:00",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:09",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:31",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Suite",
       "description_lines": [
         "Suite"
@@ -581,14 +578,14 @@
     {
       "time": "20:05",
       "title": "YACAPA",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "L'HEURE SIMENON",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Le rapport du gendarme",
       "description_lines": [
         "Le rapport du gendarme"
@@ -597,7 +594,7 @@
     {
       "time": "21:50",
       "title": "Planète chaude",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Colombie : La guerre de la drogue (2/2) Magazine",
       "description_lines": [
         "Colombie : La guerre de la drogue (2/2)",
@@ -607,14 +604,14 @@
     {
       "time": "22:55",
       "title": "Soir 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:50",
       "title": "Cinéma de minuit - Cycle Julien Duvivier",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Les cinq gentlemen maudits Drame de Julien Duvivier avec Harry Baur, René Lefebvre",
       "description_lines": [
         "Les cinq gentlemen maudits",

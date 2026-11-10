@@ -1,7 +1,7 @@
 {
   "date": "28-03-1993",
   "source": "archives80",
-  "scraped_at": "2026-11-10T16:30:34.473280",
+  "scraped_at": "2026-11-10T23:22:01.476200",
   "programs": [
     {
       "time": "05:00",
@@ -227,43 +227,41 @@
       "time": "04:45",
       "title": "Musique",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "Au-dessus des volcans",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:00",
       "title": "Debout les petits bouts",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "Emissions religieuses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "Les trains",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Hervé Claude",
       "description_lines": [
         "Présenté par Hervé Claude"
@@ -272,14 +270,14 @@
     {
       "time": "13:20",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:25",
       "title": "Dimanche Martin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jacques Martin",
       "description_lines": [
         "Présenté par Jacques Martin"
@@ -288,7 +286,7 @@
     {
       "time": "17:20",
       "title": "L'odyssée sous-marine de l'équipe Cousteau",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -297,14 +295,14 @@
     {
       "time": "18:20",
       "title": "Flash info",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:25",
       "title": "Stade 2",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Patrick Chêne",
       "description_lines": [
         "Présenté par Patrick Chêne"
@@ -313,14 +311,14 @@
     {
       "time": "19:20",
       "title": "Le journal des courses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "Soirée électorale Législatives",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Paul Amar avec Arlette Chabot, Alain Duhamel et Albert du Roy",
       "description_lines": [
         "Présenté par Paul Amar avec Arlette Chabot, Alain Duhamel et Albert du Roy"
@@ -329,7 +327,7 @@
     {
       "time": "23:35",
       "title": "Moi y'en avoir des sous",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -338,21 +336,21 @@
     {
       "time": "01:25",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:40",
       "title": "Le dernier Far-West",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:30",
       "title": "FROU-FROU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Christine Bravo. Rediffusion",
       "description_lines": [
         "Présenté par Christine Bravo. Rediffusion"
@@ -361,38 +359,37 @@
     {
       "time": "03:25",
       "title": "15 ANS, L'AVENTURE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:20",
       "title": "24 heures d'info",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:35",
       "title": "Stade 2",
-      "channel": "TF1",
-      "description": "Présenté par Patrick Chêne. Rediffusion F3",
+      "channel": "France 2",
+      "description": "Présenté par Patrick Chêne. Rediffusion",
       "description_lines": [
-        "Présenté par Patrick Chêne. Rediffusion",
-        "F3"
+        "Présenté par Patrick Chêne. Rediffusion"
       ]
     },
     {
       "time": "07:30",
       "title": "BONJOUR LES PETITS LOUPS !",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "Big Bang",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Magazine des sciences",
       "description_lines": [
         "Magazine des sciences"
@@ -401,14 +398,14 @@
     {
       "time": "10:30",
       "title": "Mascarines",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:00",
       "title": "Musicales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Alain Duault",
       "description_lines": [
         "Présenté par Alain Duault"
@@ -417,21 +414,21 @@
     {
       "time": "12:00",
       "title": "Le 12-13",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Eric Cachart",
       "description_lines": [
         "Présenté par Eric Cachart"
@@ -440,7 +437,7 @@
     {
       "time": "13:00",
       "title": "D'un soleil à l'autre",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Jean-Claude Widermann, sous-réserve Tennis : Coupe Davis",
       "description_lines": [
         "Présenté par Jean-Claude Widermann, sous-réserve Tennis : Coupe Davis"
@@ -449,14 +446,14 @@
     {
       "time": "13:30",
       "title": "Concerto pour Lady H",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:05",
       "title": "Sports Dimanche",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Nelson Monfort",
       "description_lines": [
         "Présenté par Nelson Monfort"
@@ -465,7 +462,7 @@
     {
       "time": "17:30",
       "title": "Les Simpson",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Dessin animé américain",
       "description_lines": [
         "Dessin animé américain"
@@ -474,7 +471,7 @@
     {
       "time": "18:00",
       "title": "Jamais sans mon livre",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Bernard Rapp",
       "description_lines": [
         "Présenté par Bernard Rapp"
@@ -483,21 +480,21 @@
     {
       "time": "19:00",
       "title": "Le 19-20",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:10",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "Soirée élections législatives",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Eric Cachart",
       "description_lines": [
         "Présenté par Eric Cachart"
@@ -506,14 +503,14 @@
     {
       "time": "20:30",
       "title": "Super bêtisier",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:30",
       "title": "Soirée élections législatives",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Eric Cachart",
       "description_lines": [
         "Présenté par Eric Cachart"
@@ -522,7 +519,7 @@
     {
       "time": "00:35",
       "title": "FIN DES PROGRAMMES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },

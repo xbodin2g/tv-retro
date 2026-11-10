@@ -1,7 +1,7 @@
 {
   "date": "15-05-1993",
   "source": "archives80",
-  "scraped_at": "2026-11-10T16:29:52.989299",
+  "scraped_at": "2026-11-10T23:21:33.645855",
   "programs": [
     {
       "time": "06:00",
@@ -357,15 +357,13 @@
       "time": "05:30",
       "title": "Histoires naturelles",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:10",
       "title": "Cousteau",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Rediff.",
       "description_lines": [
         "Rediff."
@@ -374,35 +372,35 @@
     {
       "time": "07:00",
       "title": "Debout les petits bouts",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "Hanna Barbera dingue dong",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "Chevaux",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:20",
       "title": "LE PRONOSTIC",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:25",
       "title": "SAMEDI AVENTURE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Dingo, chien sauvage",
       "description_lines": [
         "Dingo, chien sauvage"
@@ -411,14 +409,14 @@
     {
       "time": "10:25",
       "title": "Samedi bonheur",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:30",
       "title": "LA REVUE DE PRESSE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Avec Michèle Cotta",
       "description_lines": [
         "Avec Michèle Cotta"
@@ -427,14 +425,14 @@
     {
       "time": "12:30",
       "title": "Expression directe",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:59",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -443,7 +441,7 @@
     {
       "time": "13:25",
       "title": "GEOPOLIS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "L'Inde : La marée nationaliste",
       "description_lines": [
         "L'Inde : La marée nationaliste"
@@ -452,7 +450,7 @@
     {
       "time": "14:15",
       "title": "Animalia",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Galapagos : la révolution Darwin Présenté par Allain Bougrain-Dubourg",
       "description_lines": [
         "Galapagos : la révolution Darwin",
@@ -462,14 +460,14 @@
     {
       "time": "15:10",
       "title": "Sport passion",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:55",
       "title": "FROU-FROU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Christine Bravo. Invité : Jean-Luc Delarue",
       "description_lines": [
         "Présenté par Christine Bravo. Invité : Jean-Luc Delarue"
@@ -478,14 +476,14 @@
     {
       "time": "20:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "Le journal des courses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -494,14 +492,14 @@
     {
       "time": "20:50",
       "title": "En attendant l'Eurovision",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:00",
       "title": "38ème Concours Eurovision de la Chanson",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "En direct de Millstreet (Eire)",
       "description_lines": [
         "En direct de Millstreet (Eire)"
@@ -510,7 +508,7 @@
     {
       "time": "00:05",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -519,7 +517,7 @@
     {
       "time": "00:20",
       "title": "Le cercle de minuit",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Spécial Cannes",
       "description_lines": [
         "Spécial Cannes"
@@ -528,7 +526,7 @@
     {
       "time": "01:20",
       "title": "EUROFLICS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Chantage à Bâle",
       "description_lines": [
         "Chantage à Bâle"
@@ -537,7 +535,7 @@
     {
       "time": "02:10",
       "title": "Bouillon de Culture",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Rediff.",
       "description_lines": [
         "Rediff."
@@ -546,7 +544,7 @@
     {
       "time": "03:10",
       "title": "Magnum",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Magnum à la une (1/2) Série américaine",
       "description_lines": [
         "Magnum à la une (1/2)",
@@ -556,14 +554,14 @@
     {
       "time": "04:05",
       "title": "24 heures d'info",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:20",
       "title": "Magnum",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Magnum à la une (2/2) Série américaine",
       "description_lines": [
         "Magnum à la une (2/2)",
@@ -573,7 +571,7 @@
     {
       "time": "05:10",
       "title": "Piliers de rêve",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -582,87 +580,86 @@
     {
       "time": "05:40",
       "title": "Chevaux",
-      "channel": "TF1",
-      "description": "Rediff. F3",
+      "channel": "France 2",
+      "description": "Rediff.",
       "description_lines": [
-        "Rediff.",
-        "F3"
+        "Rediff."
       ]
     },
     {
       "time": "07:30",
       "title": "BONJOUR LES PETITS LOUPS !",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "L'heure du golf",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:30",
       "title": "Espace entreprises",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:35",
       "title": "Sports 3 magazine",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:00",
       "title": "Mascarines",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "12/13",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:05",
       "title": "Le programme de votre région",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Edition régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Édition nationale",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "SAMEDI CHEZ VOUS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:00",
       "title": "La croisière s'amuse",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -671,7 +668,7 @@
     {
       "time": "14:50",
       "title": "SAMEDI CHEZ VOUS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Suite",
       "description_lines": [
         "Suite"
@@ -680,7 +677,7 @@
     {
       "time": "15:55",
       "title": "Matlock",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Le milliardaire Série américaine",
       "description_lines": [
         "Le milliardaire",
@@ -690,7 +687,7 @@
     {
       "time": "16:45",
       "title": "SAMEDI CHEZ VOUS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Suite et fin",
       "description_lines": [
         "Suite et fin"
@@ -699,7 +696,7 @@
     {
       "time": "17:40",
       "title": "Montagne",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Sur la trace des explorateurs Magazine",
       "description_lines": [
         "Sur la trace des explorateurs",
@@ -709,7 +706,7 @@
     {
       "time": "18:25",
       "title": "Questions pour un champion",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu présenté par Julien Lepers",
       "description_lines": [
         "Jeu présenté par Julien Lepers"
@@ -718,7 +715,7 @@
     {
       "time": "18:55",
       "title": "Un livre, un jour",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présentation : Olivier Barrot",
       "description_lines": [
         "Présentation : Olivier Barrot"
@@ -727,21 +724,21 @@
     {
       "time": "19:00",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:09",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:31",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Suite",
       "description_lines": [
         "Suite"
@@ -750,14 +747,14 @@
     {
       "time": "20:05",
       "title": "Hugo délire",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:15",
       "title": "YACAPA",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Variétés, jeux et divertissements",
       "description_lines": [
         "Variétés, jeux et divertissements"
@@ -766,14 +763,14 @@
     {
       "time": "20:40",
       "title": "Hugo délire",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:45",
       "title": "Les contes d'Hoffmann",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "En direct et en exclusivité de l'opéra de Lyon",
       "description_lines": [
         "En direct et en exclusivité de l'opéra de Lyon"
@@ -782,21 +779,21 @@
     {
       "time": "23:05",
       "title": "Soir 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:30",
       "title": "Répères",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:25",
       "title": "CONTINENTALES CLUB",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
