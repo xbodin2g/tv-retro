@@ -39,8 +39,9 @@ CHANNEL_ORDER = [
     "La Cinq",
     "TV6",
     "M6",
-    "Arte",
+    "France 4",
     "France 5",
+    "Arte",
 ]
 
 CHANNEL_ALIASES = {
@@ -48,8 +49,10 @@ CHANNEL_ALIASES = {
     "A2": "Antenne 2",
     "ANTENNE 2": "Antenne 2",
     "FRANCE 2": "France 2",
+    "F2": "France 2",
     "FR3": "FR3",
     "FR 3": "FR3",
+    "F3": "France 3",
     "FRANCE 3": "France 3",
     "C+": "Canal+",
     "CANAL+": "Canal+",
@@ -63,7 +66,10 @@ CHANNEL_ALIASES = {
     "CINQ": "La Cinq",
     "M6": "M6",
     "ARTE": "Arte",
+    "F5": "France 5",
     "FRANCE 5": "France 5",
+    "F4": "France 4",
+    "FRANCE 4": "France 4",
 }
 
 CHANNEL_COMPACT_MAP = {
