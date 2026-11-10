@@ -1,9 +1,74 @@
 {
-  "generated_at": "2026-11-10T18:56:19.259035",
-  "total_dates": 990,
-  "total_programs": 120367,
-  "total_segments": 10683,
+  "generated_at": "2026-11-10T18:58:39.297853",
+  "total_dates": 1005,
+  "total_programs": 121004,
+  "total_segments": 10704,
   "years": {
+    "1978": {
+      "total_programs": 637,
+      "dates": {
+        "25-01-1978": {
+          "source": "depot101",
+          "programs_count": 40
+        },
+        "26-01-1978": {
+          "source": "depot101",
+          "programs_count": 41
+        },
+        "27-01-1978": {
+          "source": "depot101",
+          "programs_count": 40
+        },
+        "19-02-1978": {
+          "source": "depot101",
+          "programs_count": 39
+        },
+        "09-03-1978": {
+          "source": "depot101",
+          "programs_count": 50
+        },
+        "10-03-1978": {
+          "source": "depot101",
+          "programs_count": 55
+        },
+        "26-03-1978": {
+          "source": "depot101",
+          "programs_count": 57
+        },
+        "27-03-1978": {
+          "source": "depot101",
+          "programs_count": 39
+        },
+        "03-04-1978": {
+          "source": "depot101",
+          "programs_count": 45
+        },
+        "06-06-1978": {
+          "source": "depot101",
+          "programs_count": 39
+        },
+        "26-06-1978": {
+          "source": "depot101",
+          "programs_count": 39
+        },
+        "21-07-1978": {
+          "source": "depot101",
+          "programs_count": 37
+        },
+        "13-08-1978": {
+          "source": "depot101",
+          "programs_count": 41
+        },
+        "14-08-1978": {
+          "source": "depot101",
+          "programs_count": 36
+        },
+        "15-08-1978": {
+          "source": "depot101",
+          "programs_count": 39
+        }
+      }
+    },
     "1979": {
       "total_programs": 496,
       "dates": {
