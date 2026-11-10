@@ -1,7 +1,7 @@
 {
   "date": "13-01-1995",
   "source": "archives80",
-  "scraped_at": "2026-11-10T15:52:58.776481",
+  "scraped_at": "2026-11-10T23:26:35.857411",
   "programs": [
     {
       "time": "06:30",
@@ -292,15 +292,13 @@
       "time": "03:10",
       "title": "LA NUIT SUR TF1",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:30",
       "title": "Télématin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par William Leymergie",
       "description_lines": [
         "Présenté par William Leymergie"
@@ -309,21 +307,21 @@
     {
       "time": "08:30",
       "title": "Les films Lumière",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:35",
       "title": "SECRETS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "Amour, gloire et beauté",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -332,7 +330,7 @@
     {
       "time": "09:25",
       "title": "MATIN BONHEUR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Olivier Minne",
       "description_lines": [
         "Présenté par Olivier Minne"
@@ -341,14 +339,14 @@
     {
       "time": "11:10",
       "title": "FLASH INFOS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:15",
       "title": "MOTUS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu animé par Thierry Beccaro",
       "description_lines": [
         "Jeu animé par Thierry Beccaro"
@@ -357,7 +355,7 @@
     {
       "time": "11:50",
       "title": "PYRAMIDE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu animé par Patrice Laffont",
       "description_lines": [
         "Jeu animé par Patrice Laffont"
@@ -366,56 +364,56 @@
     {
       "time": "12:25",
       "title": "TOUT POUR RIRE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:55",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "LA BOURSE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:35",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:40",
       "title": "POINT ROUTE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:45",
       "title": "I.N.C.",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:50",
       "title": "UN CAS POUR DEUX",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série policière allemande",
       "description_lines": [
         "Série policière allemande"
@@ -424,14 +422,14 @@
     {
       "time": "14:50",
       "title": "DANS LA CHALEUR DE LA NUIT",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:45",
       "title": "La chance aux chansons",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Pascal Sevran",
       "description_lines": [
         "Présenté par Pascal Sevran"
@@ -440,7 +438,7 @@
     {
       "time": "16:45",
       "title": "DES CHIFFRES ET DES LETTRES",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu animé par Laurent Romejko",
       "description_lines": [
         "Jeu animé par Laurent Romejko"
@@ -449,14 +447,14 @@
     {
       "time": "17:15",
       "title": "SECONDE B",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:40",
       "title": "La fête à la maison",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -465,7 +463,7 @@
     {
       "time": "18:15",
       "title": "QUE LE MEILLEUR GAGNE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu animé par Laurence Boccolini",
       "description_lines": [
         "Jeu animé par Laurence Boccolini"
@@ -474,7 +472,7 @@
     {
       "time": "18:50",
       "title": "STUDIO GABRIEL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Michel Drucker",
       "description_lines": [
         "Présenté par Michel Drucker"
@@ -483,42 +481,42 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "L'IMAGE DU JOUR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:45",
       "title": "POINT ROUTE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "NESTOR BURMA ET LE MONSTRE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:30",
       "title": "Bouillon de Culture",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Bernard Pivot",
       "description_lines": [
         "Présenté par Bernard Pivot"
@@ -527,7 +525,7 @@
     {
       "time": "23:35",
       "title": "TARATATA",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Nagui",
       "description_lines": [
         "Présenté par Nagui"
@@ -536,79 +534,77 @@
     {
       "time": "00:40",
       "title": "Les films Lumière",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:45",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:05",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:10",
       "title": "LA NUIT SUR FRANCE 2",
-      "channel": "TF1",
-      "description": "F3",
-      "description_lines": [
-        "F3"
-      ]
+      "channel": "France 2",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "EURONEWS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:00",
       "title": "PREMIER SERVICE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:15",
       "title": "BONJOUR BABAR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:50",
       "title": "SAO TOME PRINCIPE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:45",
       "title": "LE MYSTERE DE LA COMPAGNIE AVALANCHE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:40",
       "title": "MUSIQUE ET COMPAGNIE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:40",
       "title": "LA CUISINE DES MOUSQUETAIRES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Maité et Micheline",
       "description_lines": [
         "Présenté par Maité et Micheline"
@@ -617,28 +613,28 @@
     {
       "time": "11:55",
       "title": "FLASH INFOS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "Télévision régionale",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "VINCENT A L'HEURE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Vincent Perrot",
       "description_lines": [
         "Présenté par Vincent Perrot"
@@ -647,7 +643,7 @@
     {
       "time": "14:50",
       "title": "La croisière s'amuse",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -656,7 +652,7 @@
     {
       "time": "15:40",
       "title": "MAGNUM",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -665,14 +661,14 @@
     {
       "time": "16:30",
       "title": "MINIKEUMS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:40",
       "title": "Une pêche d'enfer",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Pascal Sanchez",
       "description_lines": [
         "Présenté par Pascal Sanchez"
@@ -681,7 +677,7 @@
     {
       "time": "18:20",
       "title": "QUESTIONS POUR UN CHAMPION",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu animé par Julien Lepers",
       "description_lines": [
         "Jeu animé par Julien Lepers"
@@ -690,7 +686,7 @@
     {
       "time": "18:50",
       "title": "UN LIVRE, UN JOUR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Olivier Barrot",
       "description_lines": [
         "Présenté par Olivier Barrot"
@@ -699,14 +695,14 @@
     {
       "time": "18:55",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:05",
       "title": "FA SI LA CHANTER",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu animé par Pascal Brunner",
       "description_lines": [
         "Jeu animé par Pascal Brunner"
@@ -715,21 +711,21 @@
     {
       "time": "20:30",
       "title": "TOUT LE SPORT",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LE JOURNAL DU DAKAR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:55",
       "title": "THALASSA",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Georges Pernoud",
       "description_lines": [
         "Présenté par Georges Pernoud"
@@ -738,7 +734,7 @@
     {
       "time": "21:50",
       "title": "Faut pas rêver",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Sylvain Augier",
       "description_lines": [
         "Présenté par Sylvain Augier"
@@ -747,14 +743,14 @@
     {
       "time": "22:55",
       "title": "SOIR 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:20",
       "title": "Strip-tease",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "magazine de société",
       "description_lines": [
         "magazine de société"
@@ -763,21 +759,21 @@
     {
       "time": "00:15",
       "title": "LIBRE COURT",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:25",
       "title": "CADRAN LUNAIRE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:40",
       "title": "Fin des émissions",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
