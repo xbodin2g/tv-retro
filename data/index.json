@@ -1,9 +1,22 @@
 {
-  "generated_at": "2026-11-10T21:08:56.586424",
-  "total_dates": 1009,
-  "total_programs": 121167,
-  "total_segments": 10721,
+  "generated_at": "2026-11-10T21:14:28.190452",
+  "total_dates": 1011,
+  "total_programs": 121238,
+  "total_segments": 10722,
   "years": {
+    "1975": {
+      "total_programs": 71,
+      "dates": {
+        "12-01-1975": {
+          "source": "depot101",
+          "programs_count": 32
+        },
+        "15-06-1975": {
+          "source": "depot101",
+          "programs_count": 39
+        }
+      }
+    },
     "1976": {
       "total_programs": 163,
       "dates": {
