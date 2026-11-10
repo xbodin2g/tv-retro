@@ -38,10 +38,12 @@ const CHANNEL_ORDER = [
     'FR3',
     'France 3',
     'Canal+',
-    'La Cinq',
     'TV6',
     'M6',
+    'La Cinq',
+    'La Sept',
     'Arte',
+    'La Cinquième',
     'France 5'
 ];
 
@@ -49,9 +51,11 @@ const CHANNEL_ALIASES = {
     'TF1': 'TF1',
     'A2': 'Antenne 2',
     'ANTENNE 2': 'Antenne 2',
+    'F2': 'France 2',
     'FRANCE 2': 'France 2',
     'FR3': 'FR3',
     'FR 3': 'FR3',
+    'F3': 'France 3',
     'FRANCE 3': 'France 3',
     'C+': 'Canal+',
     'CANAL+': 'Canal+',
@@ -61,10 +65,15 @@ const CHANNEL_ALIASES = {
     'LA5': 'La Cinq',
     'LA 5': 'La Cinq',
     'LA CINQ': 'La Cinq',
-    'LA CINQUIEME': 'La Cinq',
     'CINQ': 'La Cinq',
     'M6': 'M6',
+    'LA SEPT': 'La Sept',
+    'L7': 'La Sept',
+    'LA7': 'La Sept',
+    'LA 7': 'La Sept',
     'ARTE': 'Arte',
+    'LA CINQUIEME': 'La Cinquième',
+    'LA CINQUIÈME': 'La Cinquième',
     'FRANCE 5': 'France 5'
 };
 
