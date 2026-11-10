@@ -10,9 +10,6 @@ Fonctions :
 - détecte les extraits / segments des émissions jeunesse
 - regroupe par chaîne
 - tri logique : les programmes 00:00-04:59 apparaissent après 23:59
-- produit :
-  - data/index.json
-  - data/AAAA.json
 """
 
 import json
@@ -24,13 +21,12 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set
 
 
-# =====================================================
-# Configuration
-# =====================================================
-
 SOURCES = ["depot101", "archives80"]
 
 CHANNEL_ORDER = [
+    "ORTF 1",
+    "ORTF 2",
+    "ORTF 3",
     "TF1",
     "Antenne 2",
     "France 2",
@@ -40,13 +36,31 @@ CHANNEL_ORDER = [
     "TV6",
     "M6",
     "La Cinq",
-    "La Cinquième",
     "La Sept",
     "Arte",
+    "La Cinquième",
     "France 5",
 ]
 
 CHANNEL_ALIASES = {
+    # ORTF (années 70)
+    "OR1": "ORTF 1",
+    "OR2": "ORTF 2",
+    "OR3": "ORTF 3",
+    "ORTF 1": "ORTF 1",
+    "ORTF 2": "ORTF 2",
+    "ORTF 3": "ORTF 3",
+    "ORTF1": "ORTF 1",
+    "ORTF2": "ORTF 2",
+    "ORTF3": "ORTF 3",
+    "PREMIÈRE CHAÎNE": "ORTF 1",
+    "PREMIERE CHAINE": "ORTF 1",
+    "DEUXIÈME CHAÎNE": "ORTF 2",
+    "DEUXIEME CHAINE": "ORTF 2",
+    "TROISIÈME CHAÎNE": "ORTF 3",
+    "TROISIEME CHAINE": "ORTF 3",
+    
+    # Chaînes classiques
     "TF1": "TF1",
     "A2": "Antenne 2",
     "ANTENNE 2": "Antenne 2",
@@ -77,6 +91,12 @@ CHANNEL_ALIASES = {
 }
 
 CHANNEL_COMPACT_MAP = {
+    "OR1": "ORTF 1",
+    "OR2": "ORTF 2",
+    "OR3": "ORTF 3",
+    "ORTF1": "ORTF 1",
+    "ORTF2": "ORTF 2",
+    "ORTF3": "ORTF 3",
     "TF1": "TF1",
     "A2": "Antenne 2",
     "ANTENNE2": "Antenne 2",
@@ -103,6 +123,12 @@ CHANNEL_COMPACT_MAP = {
 }
 
 CHANNEL_REGEX = [
+    (re.compile(r"^OR\s*1$", re.IGNORECASE), "ORTF 1"),
+    (re.compile(r"^OR\s*2$", re.IGNORECASE), "ORTF 2"),
+    (re.compile(r"^OR\s*3$", re.IGNORECASE), "ORTF 3"),
+    (re.compile(r"^ORTF\s*1$", re.IGNORECASE), "ORTF 1"),
+    (re.compile(r"^ORTF\s*2$", re.IGNORECASE), "ORTF 2"),
+    (re.compile(r"^ORTF\s*3$", re.IGNORECASE), "ORTF 3"),
     (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
     (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
     (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
@@ -123,11 +149,8 @@ CHANNEL_REGEX = [
 ]
 
 TIME_RE = re.compile(r"^\d{2}:\d{2}$")
-
-# Seuil en dessous duquel une heure est considérée comme "après minuit"
 NIGHT_CUTOFF_HOUR = 5
 
-# Dates clés pour les changements de noms de chaînes
 DATE_ANTENNE2_TO_FRANCE2 = datetime(1992, 9, 7)
 DATE_FR3_TO_FRANCE3 = datetime(1992, 9, 7)
 DATE_LA_CINQ_END = datetime(1992, 4, 12)
@@ -135,16 +158,15 @@ DATE_LA_CINQUIEME_START = datetime(1994, 12, 13)
 DATE_LA_SEPT_TO_ARTE = datetime(1992, 1, 1)
 
 
-# =====================================================
-# Émissions jeunesse connues
-# =====================================================
-
 YOUTH_PROGRAMS = (
+    # ORTF / années 70
+    "Le Village dans les nuages",
+    "Village dans les nuages",
+    
+    # TF1
     "Les Visiteurs du mercredi",
     "Les Visiteurs de Noël",
     "Croque-Vacances",
-    "Le Village dans les nuages",
-    "Village dans les nuages",
     "Vitamine",
     "Club Dorothée",
     "Club Dorothee",
@@ -156,6 +178,10 @@ YOUTH_PROGRAMS = (
     "TF! Jeunesse",
     "TF Jeunesse",
     "TF1 Jeunesse",
+    "Avant l'école",
+    "Avant l ecole",
+    
+    # Antenne 2 / France 2
     "Récré A2",
     "Recre A2",
     "Discopuce",
@@ -165,6 +191,7 @@ YOUTH_PROGRAMS = (
     "Becebege",
     "Eric et Noëlla",
     "Eric et Noella",
+    "Eric et compagnie",
     "Hanna-Barbera Dingue Dong",
     "Hanna Barbera Dingue Dong",
     "Giga",
@@ -173,6 +200,11 @@ YOUTH_PROGRAMS = (
     "Chalu Maureen",
     "La Planète de Donkey Kong",
     "Planète de Donkey Kong",
+    "Graffitis 5-15",
+    "Graffitis 5 15",
+    "Graffitis",
+    
+    # FR3 / France 3
     "FR3 Jeunesse",
     "France 3 Jeunesse",
     "Pour la jeunesse",
@@ -187,6 +219,8 @@ YOUTH_PROGRAMS = (
     "Minikeums",
     "C'est pas sorcier",
     "C est pas sorcier",
+    
+    # Canal+
     "Ça cartoon",
     "Ca cartoon",
     "Décode pas Bunny",
@@ -198,6 +232,11 @@ YOUTH_PROGRAMS = (
     "Le Cyberflash",
     "Cyberflash",
     "Cabou Cadin",
+    
+    # La Cinq / La Cinquième
+    "Youpi !",
+    "Youpi!",
+    "Youpi",
     "Youpi ! L'école est finie",
     "Youpi L ecole est finie",
     "Youpi l'école est finie",
@@ -207,6 +246,8 @@ YOUTH_PROGRAMS = (
     "Ecrans du savoir",
     "Les Zouzous",
     "Zouzous",
+    
+    # M6
     "Graffi'6",
     "Graffi 6",
     "M6 Kid",
@@ -277,10 +318,6 @@ META_STARTS = (
 )
 
 
-# =====================================================
-# Helpers texte / date / heure / chaîne
-# =====================================================
-
 def normalize_text(value: Any) -> str:
     if value is None:
         return ""
@@ -349,10 +386,6 @@ def normalize_time(value: Any) -> str:
 
 
 def time_sort_key(time_str: str) -> int:
-    """
-    Retourne une clé de tri logique pour une heure.
-    Les heures 00:00-04:59 sont triées après 23:59.
-    """
     if not time_str or ":" not in time_str:
         return 9999
 
@@ -368,16 +401,6 @@ def time_sort_key(time_str: str) -> int:
 
 
 def canonical_channel(value: Any, date_str: Optional[str] = None) -> str:
-    """
-    Retourne un nom de chaîne canonique avec gestion des changements de nom.
-    
-    Règles historiques :
-    - Avant 07/09/1992 : Antenne 2 et FR3
-    - À partir de 07/09/1992 : France 2 et France 3
-    - La Cinq : jusqu'en avril 1992
-    - La Cinquième : à partir du 13/12/1994
-    - La Sept : avant 1992, puis Arte
-    """
     raw = str(value or "").strip()
 
     if not raw:
@@ -386,7 +409,6 @@ def canonical_channel(value: Any, date_str: Optional[str] = None) -> str:
     upper = raw.upper()
     compact = re.sub(r"\s+", "", upper)
 
-    # Normaliser le canal brut
     if upper in CHANNEL_ALIASES:
         canonical = CHANNEL_ALIASES[upper]
     elif compact in CHANNEL_COMPACT_MAP:
@@ -398,44 +420,36 @@ def canonical_channel(value: Any, date_str: Optional[str] = None) -> str:
                 canonical = canon
                 break
 
-    # Si pas de date, on ne peut pas appliquer les règles historiques
     if not date_str:
         return canonical
 
-    # Parser la date
     try:
         date_obj = datetime.strptime(date_str, "%d-%m-%Y")
     except Exception:
         return canonical
 
-    # Règles de conversion selon la date
     norm_canonical = normalize_text(canonical)
 
-    # F2, France 2, Antenne 2
     if norm_canonical in ("f2", "france 2", "antenne 2", "a2"):
         if date_obj < DATE_ANTENNE2_TO_FRANCE2:
             return "Antenne 2"
         else:
             return "France 2"
 
-    # F3, France 3, FR3
     if norm_canonical in ("f3", "france 3", "fr3"):
         if date_obj < DATE_FR3_TO_FRANCE3:
             return "FR3"
         else:
             return "France 3"
 
-    # La Cinq : seulement jusqu'en avril 1992
     if norm_canonical in ("la cinq", "l5", "la5", "cinq"):
         return "La Cinq"
 
-    # La Cinquième : seulement à partir du 13/12/1994
     if norm_canonical in ("la cinquieme", "la cinquième"):
         if date_obj < DATE_LA_CINQUIEME_START:
             return "La Cinquième"
         return "La Cinquième"
 
-    # La Sept : avant 1992, puis devient Arte
     if norm_canonical in ("la sept", "l7", "la7"):
         if date_obj >= DATE_LA_SEPT_TO_ARTE:
             return "Arte"
@@ -472,10 +486,6 @@ def load_json_file(filepath: Path) -> Optional[Dict[str, Any]]:
         print(f"⚠️ Erreur lecture {filepath}: {e}")
         return None
 
-
-# =====================================================
-# Segments / extraits
-# =====================================================
 
 def dedupe_adjacent_lines(lines: List[str]) -> List[str]:
     cleaned = []
@@ -617,10 +627,6 @@ def build_segments(program: Dict[str, Any]) -> List[Dict[str, Any]]:
     return segments
 
 
-# =====================================================
-# Déduplication / fusion des programmes
-# =====================================================
-
 def program_key(time: str, channel: str, title: str) -> str:
     if time:
         return f"{time}|{channel}"
@@ -711,13 +717,9 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
     return ordered
 
 
-# =====================================================
-# Génération principale
-# =====================================================
-
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION AVEC CORRECTIONS HISTORIQUES")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
