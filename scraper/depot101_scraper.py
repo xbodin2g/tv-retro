@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 """
-Scraper Depot101 - version avec fallback de découverte de dates.
-
-- Pas de simulation de navigation (plus rapide)
-- Teste automatiquement grilles/ et grille/ pour la page annuelle
-- Fallback : si l'extraction échoue, teste directement les dates
-- Conserve les description_lines pour les extraits jeunesse
-- Détection de chaîne avec contexte
+Scraper Depot101 avec détection robuste des chaînes.
 """
 
 import cloudscraper
@@ -54,6 +48,18 @@ class Depot101Scraper:
     }
 
     CHANNEL_ALIASES = {
+        # ORTF
+        "OR1": "ORTF 1",
+        "OR2": "ORTF 2",
+        "OR3": "ORTF 3",
+        "ORTF 1": "ORTF 1",
+        "ORTF 2": "ORTF 2",
+        "ORTF 3": "ORTF 3",
+        "ORTF1": "ORTF 1",
+        "ORTF2": "ORTF 2",
+        "ORTF3": "ORTF 3",
+        
+        # Chaînes classiques
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE 2": "Antenne 2",
@@ -84,6 +90,12 @@ class Depot101Scraper:
     }
 
     CHANNEL_COMPACT_MAP = {
+        "OR1": "ORTF 1",
+        "OR2": "ORTF 2",
+        "OR3": "ORTF 3",
+        "ORTF1": "ORTF 1",
+        "ORTF2": "ORTF 2",
+        "ORTF3": "ORTF 3",
         "TF1": "TF1",
         "A2": "Antenne 2",
         "ANTENNE2": "Antenne 2",
@@ -110,6 +122,12 @@ class Depot101Scraper:
     }
 
     CHANNEL_REGEX = [
+        (re.compile(r"^OR\s*1$", re.IGNORECASE), "ORTF 1"),
+        (re.compile(r"^OR\s*2$", re.IGNORECASE), "ORTF 2"),
+        (re.compile(r"^OR\s*3$", re.IGNORECASE), "ORTF 3"),
+        (re.compile(r"^ORTF\s*1$", re.IGNORECASE), "ORTF 1"),
+        (re.compile(r"^ORTF\s*2$", re.IGNORECASE), "ORTF 2"),
+        (re.compile(r"^ORTF\s*3$", re.IGNORECASE), "ORTF 3"),
         (re.compile(r"^C\s*\+$", re.IGNORECASE), "Canal+"),
         (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
         (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
@@ -237,6 +255,7 @@ class Depot101Scraper:
         if not raw:
             return None
 
+        # Normalisation classique
         key = raw.upper()
         if key in self.CHANNEL_ALIASES:
             return self.CHANNEL_ALIASES[key]
@@ -248,6 +267,29 @@ class Depot101Scraper:
         for regex, canonical in self.CHANNEL_REGEX:
             if regex.match(raw):
                 return canonical
+
+        # NORMALISATION AGRESSIVE
+        normalized = re.sub(r'[\s\u00a0\u2000-\u200b\u202f\u205f\u3000]+', ' ', raw).strip()
+        normalized = re.sub(r'[^\w\s]', '', normalized)
+        
+        norm_upper = normalized.upper()
+        if norm_upper in self.CHANNEL_ALIASES:
+            return self.CHANNEL_ALIASES[norm_upper]
+
+        norm_compact = re.sub(r'\s+', '', norm_upper)
+        if norm_compact in self.CHANNEL_COMPACT_MAP:
+            return self.CHANNEL_COMPACT_MAP[norm_compact]
+
+        # Détection permissive France 2/3
+        france_match = re.match(r'^FRANCE\s*(\d)$', norm_upper)
+        if france_match:
+            num = france_match.group(1)
+            if num == '2':
+                return "France 2"
+            elif num == '3':
+                return "France 3"
+            elif num == '5':
+                return "France 5"
 
         return None
 
@@ -337,9 +379,6 @@ class Depot101Scraper:
         return candidates
 
     def _get_annual_dates(self, year: int) -> List[str]:
-        """
-        Extrait les dates de la page annuelle avec plusieurs méthodes de fallback.
-        """
         year_str = str(year)
 
         if year_str in self._annual_dates_cache:
@@ -347,7 +386,6 @@ class Depot101Scraper:
 
         print(f"📅 Recherche des dates Depot101 pour {year}...")
 
-        # Essayer d'extraire les dates de la page annuelle
         for url in self._annual_url_candidates(year):
             try:
                 response = self._request(url, max_retries=3)
@@ -356,7 +394,6 @@ class Depot101Scraper:
                 
                 html = response.text
                 
-                # Méthode 1: extraire depuis les liens HTML
                 dates = self._extract_dates_from_html(html, year=year)
                 
                 if dates:
@@ -365,7 +402,6 @@ class Depot101Scraper:
                     self._annual_urls_cache[year_str] = url
                     return dates
                 
-                # Méthode 2: extraire depuis le texte de la page
                 text = self._html_to_text(html)
                 dates = self._extract_dates_from_text(text, year=year)
                 
@@ -381,7 +417,6 @@ class Depot101Scraper:
                 print(f"⚠️ Erreur avec {url}: {e}")
                 continue
 
-        # Fallback: découvrir les dates en testant directement
         print(f"🔍 Tentative de découverte par test direct pour {year}...")
         discovered_dates = self._discover_dates_by_testing(year)
         
@@ -394,19 +429,13 @@ class Depot101Scraper:
         return []
 
     def _discover_dates_by_testing(self, year: int) -> List[str]:
-        """
-        Découvre les dates disponibles en testant directement quelques dates par mois.
-        Utile quand l'extraction depuis la page annuelle échoue.
-        """
         discovered: Set[str] = set()
         
         print(f"  Test de dates pour {year}...")
         
-        # Tester plusieurs dates par mois
         for month in range(1, 13):
             _, last_day = calendar.monthrange(year, month)
             
-            # Tester environ 5 dates par mois (1, quart, milieu, 3/4, fin)
             test_days = [
                 1,
                 max(1, last_day // 4),
@@ -428,7 +457,6 @@ class Depot101Scraper:
                     response = self._request(url, max_retries=1)
                     
                     if response is not None and response.status_code == 200:
-                        # Vérifier que c'est bien une page de programme valide
                         if "Programme télé" in response.text or "TF1" in response.text:
                             discovered.add(date_str)
                             month_found.append(date_str)
@@ -436,7 +464,6 @@ class Depot101Scraper:
                 except Exception:
                     pass
                 
-                # Pause courte pour ne pas surcharger
                 time.sleep(random.uniform(0.3, 0.8))
             
             if month_found:
@@ -444,13 +471,11 @@ class Depot101Scraper:
             else:
                 print(f"    ⚠️ Mois {month:02d}: aucune date trouvée")
         
-        # Maintenant, pour chaque date trouvée, essayer de trouver les dates adjacentes
         expanded_dates = set(discovered)
         
         for date_str in list(discovered):
             day, month, year_val = map(int, date_str.split("-"))
             
-            # Tester les 3 jours avant et après
             for offset in [-3, -2, -1, 1, 2, 3]:
                 try:
                     base_date = datetime(year, month, day)
@@ -479,7 +504,7 @@ class Depot101Scraper:
         return sorted(expanded_dates)
 
     def get_available_years(self) -> List[int]:
-        return list(range(1980, 2000))
+        return list(range(1970, 2000))
 
     def get_available_dates(self, year: int) -> List[str]:
         return self._get_annual_dates(year)
@@ -729,7 +754,7 @@ class Depot101Scraper:
 
         print(f"\n✅ Depot101 {year} : {success_count}/{len(dates)} journées")
 
-    def scrape_all(self, start_year: int = 1980, end_year: int = 1999) -> None:
+    def scrape_all(self, start_year: int = 1970, end_year: int = 1999) -> None:
         years = list(range(start_year, end_year + 1))
         for year in years:
             print("=" * 70)
