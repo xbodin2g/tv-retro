@@ -1,7 +1,7 @@
 {
   "date": "16-10-1992",
   "source": "archives80",
-  "scraped_at": "2026-11-10T15:09:04.331747",
+  "scraped_at": "2026-11-10T23:14:16.679975",
   "programs": [
     {
       "time": "06:00",
@@ -346,15 +346,13 @@
       "time": "05:35",
       "title": "Histoires naturelles",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:05",
       "title": "Falcon Crest",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -363,14 +361,14 @@
     {
       "time": "06:30",
       "title": "Télématin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:35",
       "title": "Amoureusement vôtre",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -379,7 +377,7 @@
     {
       "time": "09:00",
       "title": "Amour, gloire et beauté",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -388,21 +386,21 @@
     {
       "time": "09:20",
       "title": "Eve raconte...",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:35",
       "title": "MATIN BONHEUR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:20",
       "title": "Motus",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu présenté par Thierry Beccaro",
       "description_lines": [
         "Jeu présenté par Thierry Beccaro"
@@ -411,7 +409,7 @@
     {
       "time": "11:50",
       "title": "Pyramide",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu présenté par Patrice Laffont",
       "description_lines": [
         "Jeu présenté par Patrice Laffont"
@@ -420,14 +418,14 @@
     {
       "time": "12:25",
       "title": "Que le meilleur gagne",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -436,14 +434,14 @@
     {
       "time": "13:45",
       "title": "I.N.C.",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:50",
       "title": "Tatort",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Téléfilm de Michael Kehlmann",
       "description_lines": [
         "Téléfilm de Michael Kehlmann"
@@ -452,7 +450,7 @@
     {
       "time": "15:30",
       "title": "La chance aux chansons",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Bal viennois Présenté par Pascal Sevran",
       "description_lines": [
         "Bal viennois",
@@ -462,7 +460,7 @@
     {
       "time": "16:25",
       "title": "Des chiffres et des lettres",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Laurent Romejko",
       "description_lines": [
         "Présenté par Laurent Romejko"
@@ -471,7 +469,7 @@
     {
       "time": "16:50",
       "title": "Beaumanoir",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Le mensonge de François Feuilleton français",
       "description_lines": [
         "Le mensonge de François",
@@ -481,7 +479,7 @@
     {
       "time": "17:15",
       "title": "Giga",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Émission pour la jeunesse",
       "description_lines": [
         "Émission pour la jeunesse"
@@ -490,42 +488,42 @@
     {
       "time": "18:30",
       "title": "Le jeu",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:20",
       "title": "Que le meilleur gagne plus",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "Le journal des courses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "NESTOR BURMA",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Le soleil naît derrière le Louvre Téléfilm de Joyce Bunuel avec Guy Marchand",
       "description_lines": [
         "Le soleil naît derrière le Louvre",
@@ -535,21 +533,21 @@
     {
       "time": "22:20",
       "title": "VISAGES D'EUROPE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:25",
       "title": "SPORTISSIMO",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:40",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -558,7 +556,7 @@
     {
       "time": "00:00",
       "title": "Prick up your Ears",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Film de Stephen Frears",
       "description_lines": [
         "Film de Stephen Frears"
@@ -567,7 +565,7 @@
     {
       "time": "01:50",
       "title": "Envoyé spécial",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "magazine d'information",
       "description_lines": [
         "magazine d'information"
@@ -576,21 +574,21 @@
     {
       "time": "03:10",
       "title": "CHRISTOPHE COLOMB",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:35",
       "title": "24 heures d'info",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:50",
       "title": "Pyramide",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu présenté par Patrice Laffont",
       "description_lines": [
         "Jeu présenté par Patrice Laffont"
@@ -599,115 +597,114 @@
     {
       "time": "05:15",
       "title": "La chance aux chansons",
-      "channel": "TF1",
-      "description": "Présenté par Pascal Sevran F3",
+      "channel": "France 2",
+      "description": "Présenté par Pascal Sevran",
       "description_lines": [
-        "Présenté par Pascal Sevran",
-        "F3"
+        "Présenté par Pascal Sevran"
       ]
     },
     {
       "time": "07:30",
       "title": "C'EST LULO",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "Continentales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:30",
       "title": "Les entretiens d'Océaniques",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:25",
       "title": "Parole d'école",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:55",
       "title": "Espace 3 Entreprises",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:00",
       "title": "Carré vert",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:15",
       "title": "Le jardin des bêtes",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:30",
       "title": "CONFIDENTIEL FEMMES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:45",
       "title": "La cuisine des mousquetaires",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "Les titres de l'actualité",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:05",
       "title": "Le programme de votre région",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Drôles de crocos",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:15",
       "title": "Dona Beija",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Telenovela brésilienne",
       "description_lines": [
         "Telenovela brésilienne"
@@ -716,14 +713,14 @@
     {
       "time": "13:45",
       "title": "Français si vous parliez",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:45",
       "title": "Dynastie",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "La ville éternelle Feuilleton américain",
       "description_lines": [
         "La ville éternelle",
@@ -733,7 +730,7 @@
     {
       "time": "15:35",
       "title": "La croisière s'amuse",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -742,7 +739,7 @@
     {
       "time": "16:20",
       "title": "Zapper n'est pas jouer",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Hommage à Lino Ventura",
       "description_lines": [
         "Hommage à Lino Ventura"
@@ -751,7 +748,7 @@
     {
       "time": "17:55",
       "title": "Une pêche d'enfer",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Invitée : Elsa",
       "description_lines": [
         "Invitée : Elsa"
@@ -760,7 +757,7 @@
     {
       "time": "18:25",
       "title": "Questions pour un champion",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu présenté par Julien Lepers",
       "description_lines": [
         "Jeu présenté par Julien Lepers"
@@ -769,7 +766,7 @@
     {
       "time": "18:55",
       "title": "Un livre, un jour",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présentation : Olivier Barrot",
       "description_lines": [
         "Présentation : Olivier Barrot"
@@ -778,21 +775,21 @@
     {
       "time": "19:00",
       "title": "Le 19-20",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:05",
       "title": "Hugo délire",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:15",
       "title": "La Classe",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Emission humoristique",
       "description_lines": [
         "Emission humoristique"
@@ -801,7 +798,7 @@
     {
       "time": "20:45",
       "title": "Thalassa",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Moscou ne répond plus Magazine de la mer de Georges Pernoud",
       "description_lines": [
         "Moscou ne répond plus",
@@ -811,7 +808,7 @@
     {
       "time": "21:45",
       "title": "Caractères",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Le livre au cinéma magazine littéraire",
       "description_lines": [
         "Le livre au cinéma",
@@ -821,7 +818,7 @@
     {
       "time": "22:50",
       "title": "Ce soir",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Suivi de la météo",
       "description_lines": [
         "Suivi de la météo"
@@ -830,7 +827,7 @@
     {
       "time": "23:10",
       "title": "Traverses",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Les dieux américain Documentaire",
       "description_lines": [
         "Les dieux américain",

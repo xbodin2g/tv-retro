@@ -1,7 +1,7 @@
 {
   "date": "28-11-1992",
   "source": "archives80",
-  "scraped_at": "2026-11-10T15:09:43.302946",
+  "scraped_at": "2026-11-10T23:14:42.662597",
   "programs": [
     {
       "time": "06:00",
@@ -338,15 +338,13 @@
       "time": "01:00",
       "title": "LA NUIT SUR TF1",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:05",
       "title": "COUSTEAU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Ces incroyables machines plongeantes Rediffusion",
       "description_lines": [
         "Ces incroyables machines plongeantes",
@@ -356,7 +354,7 @@
     {
       "time": "07:00",
       "title": "DEBOUT, LES PETITS BOUTS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Bouli Camp Candy Polluards",
       "description_lines": [
         "Bouli",
@@ -367,7 +365,7 @@
     {
       "time": "08:10",
       "title": "HANNA BARBERA DINGUE DONG",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Luc Hamet Les Jetsons Les voyages fantomatiques de Scoubidou Yo-Yogi Wally gator",
       "description_lines": [
         "Présenté par Luc Hamet",
@@ -380,7 +378,7 @@
     {
       "time": "09:10",
       "title": "Le magazine du cheval",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Pierrette Brès",
       "description_lines": [
         "Présenté par Pierrette Brès"
@@ -389,7 +387,7 @@
     {
       "time": "09:30",
       "title": "DEFENDEZ-VOUS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Potion non magique",
       "description_lines": [
         "Potion non magique"
@@ -398,7 +396,7 @@
     {
       "time": "09:45",
       "title": "Samedi bonheur",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Thierry Beccaro",
       "description_lines": [
         "Présenté par Thierry Beccaro"
@@ -407,7 +405,7 @@
     {
       "time": "11:30",
       "title": "DINGBATS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Thierry Beccaro",
       "description_lines": [
         "Présenté par Thierry Beccaro"
@@ -416,7 +414,7 @@
     {
       "time": "12:00",
       "title": "NOUVELLE LUNE DE MIEL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Georges Beller",
       "description_lines": [
         "Présenté par Georges Beller"
@@ -425,28 +423,28 @@
     {
       "time": "12:35",
       "title": "Expression directe",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:20",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:25",
       "title": "GEOPOLIS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Belgique : les risques séparatistes Présenté par Claude Sérillon",
       "description_lines": [
         "Belgique : les risques séparatistes",
@@ -456,7 +454,7 @@
     {
       "time": "14:15",
       "title": "Animalia",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Seychelles à tire-d'aile Présenté par Allain Bougrain-Dubourg",
       "description_lines": [
         "Seychelles à tire-d'aile",
@@ -466,7 +464,7 @@
     {
       "time": "15:10",
       "title": "Sport passion",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jean Mamère Tiercé BASKET BALL Magazine du rugby",
       "description_lines": [
         "Présenté par Jean Mamère",
@@ -478,7 +476,7 @@
     {
       "time": "18:05",
       "title": "Matt Houston",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Piège pour Houston Série américaine",
       "description_lines": [
         "Piège pour Houston",
@@ -488,7 +486,7 @@
     {
       "time": "18:55",
       "title": "I.N.C.",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Emission de l'Institut national de la consommation",
       "description_lines": [
         "Emission de l'Institut national de la consommation"
@@ -497,7 +495,7 @@
     {
       "time": "19:00",
       "title": "FROU-FROU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Christine Bravo",
       "description_lines": [
         "Présenté par Christine Bravo"
@@ -506,28 +504,28 @@
     {
       "time": "20:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "JOURNAL DES COURSES",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:45",
       "title": "La nuit des héros",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Michel Creton et Valérie Maurice",
       "description_lines": [
         "Présenté par Michel Creton et Valérie Maurice"
@@ -536,7 +534,7 @@
     {
       "time": "22:40",
       "title": "Double jeu",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Spécial filles Présenté par Thierry Ardisson. Avec Lova Moor, Amanda Lear, Adeline Hallyday, Sophie Darel et Evelyne Leclerc",
       "description_lines": [
         "Spécial filles",
@@ -546,28 +544,28 @@
     {
       "time": "00:05",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:15",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:17",
       "title": "VISAGES D'EUROPE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:20",
       "title": "LA 25e HEURE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jacques Perrin",
       "description_lines": [
         "Présenté par Jacques Perrin"
@@ -576,14 +574,14 @@
     {
       "time": "02:00",
       "title": "Ballet",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:35",
       "title": "SPORTISSIMO",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présentation de Gérard Holtz avec Sophie Davant. Rediffusion",
       "description_lines": [
         "Présentation de Gérard Holtz avec Sophie Davant. Rediffusion"
@@ -592,38 +590,37 @@
     {
       "time": "03:50",
       "title": "Dessin animé",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:55",
       "title": "24 HEURES D'INFO",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:05",
       "title": "La nuit des héros",
-      "channel": "TF1",
-      "description": "Rediffusion F3",
+      "channel": "France 2",
+      "description": "Rediffusion",
       "description_lines": [
-        "Rediffusion",
-        "F3"
+        "Rediffusion"
       ]
     },
     {
       "time": "07:20",
       "title": "Journée spéciale Tintin",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:45",
       "title": "Puissance 4",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Déshabillés fatals Téléfilm",
       "description_lines": [
         "Déshabillés fatals",
@@ -633,14 +630,14 @@
     {
       "time": "22:05",
       "title": "Le soir",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:30",
       "title": "Strip-tease",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "magazine de société",
       "description_lines": [
         "magazine de société"
@@ -649,7 +646,7 @@
     {
       "time": "23:25",
       "title": "Salut Manu",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Variétés avec Smaïn, Syria Khan, Kannel et B. Boys Breakers",
       "description_lines": [
         "Variétés avec Smaïn, Syria Khan, Kannel et B. Boys Breakers"
@@ -658,14 +655,14 @@
     {
       "time": "00:10",
       "title": "CONTINENTALES CLUB",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:55",
       "title": "Portée de nuit",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
