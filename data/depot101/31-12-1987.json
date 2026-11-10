@@ -1,7 +1,7 @@
 {
   "date": "31-12-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:58:18.752167",
+  "scraped_at": "2026-11-10T06:25:05.871154",
   "programs": [
     {
       "time": "10:00",
@@ -151,7 +151,7 @@
       "time": "06:45",
       "title": "TÉLÉMATIN",
       "channel": "Antenne 2",
-      "description": "Présenté par Roger Zabel Météo Flash infos Jardin et balcon Chanson Le panier de Toulouse - Les meilleurs produits du marché de Rungis et une idée de recette Le conseil de forme JOURNAL Conseil diatétique Chanson A2 pour vous Edito politique L'actualité sportive Edito économique Météo JOURNAL Chanson Les trouvailles (avec Marie-José Jouan) Les quatre vérités (avec Gérard Morin) Dessin animé JOURNAL La rubrique Météo Les rendez-vous Chanson La Santé Le truc (avec Laura Fronty) Flash infos 08:30:00 MATIN BONHEUR Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée La vie au quotidien Stéphanie Santé Pierre Bachelet L'espace (avec Patrick Baudry et Philippe Dumez) La peinture La sculpture La musique Les jouets La cellule familiale La mode Desireless Cuisine Environnement Les manipulations génétiques Astrologie Flash infos Flash infos",
+      "description": "Présenté par Roger Zabel Météo Flash infos Jardin et balcon Chanson Le panier de Toulouse - Les meilleurs produits du marché de Rungis et une idée de recette Le conseil de forme JOURNAL Conseil diatétique Chanson A2 pour vous Edito politique L'actualité sportive Edito économique Météo JOURNAL Chanson Les trouvailles (avec Marie-José Jouan) Les quatre vérités (avec Gérard Morin) Dessin animé JOURNAL La rubrique Météo Les rendez-vous Chanson La Santé Le truc (avec Laura Fronty) Flash infos 08:30:00 MATIN BONHEUR Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée La vie au quotidien Stéphanie Santé Pierre Bachelet L'espace (avec Patrick Baudry et Philippe Dumez) La peinture La sculpture La musique Les jouets La cellule familiale La mode Desireless Cuisine Environnement Les manipulations génétiques Astrologie Flash infos",
       "description_lines": [
         "Présenté par Roger Zabel",
         "Météo",
@@ -202,7 +202,6 @@
         "Environnement",
         "Les manipulations génétiques",
         "Astrologie",
-        "Flash infos",
         "Flash infos"
       ]
     },
@@ -403,15 +402,13 @@
       "time": "01:35",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -420,7 +417,7 @@
     {
       "time": "07:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse 07:45:00 WOODY WOODPECKER Dessin animé 08:00:00 CBS EVENING NEWS Présenté par Dan Rather",
       "description_lines": [
         "Emission jeunesse",
@@ -435,7 +432,7 @@
     {
       "time": "08:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse",
       "description_lines": [
         "Emission jeunesse"
@@ -444,7 +441,7 @@
     {
       "time": "09:00",
       "title": "AMADEUS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1984) 11:30:00 FLASH INFOS",
       "description_lines": [
         "Film américain (1984)",
@@ -455,7 +452,7 @@
     {
       "time": "11:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse",
       "description_lines": [
         "Emission jeunesse"
@@ -464,7 +461,7 @@
     {
       "time": "12:25",
       "title": "TACHYCARDIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Roman-photo en 15 épisodes",
       "description_lines": [
         "Roman-photo en 15 épisodes"
@@ -473,7 +470,7 @@
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Risoli",
       "description_lines": [
         "Présenté par Philippe Risoli"
@@ -482,7 +479,7 @@
     {
       "time": "14:00",
       "title": "LE MARGINAL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1983) 15:35:00 LA MONTAGNE DES MARMOTTES  - LA MONTAGNE DES MARMOTTES 16:00:00 ALICE AU PAYS DES MERVEILLES",
       "description_lines": [
         "Film français (1983)",
@@ -495,7 +492,7 @@
     {
       "time": "17:15",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse 17:45:00 SUPERMAN  - SUPERMAN Série américaine",
       "description_lines": [
         "Emission jeunesse",
@@ -507,7 +504,7 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "18:20:00 ZYGO Caméra invisible belge",
       "description_lines": [
         "18:20:00",
@@ -518,7 +515,7 @@
     {
       "time": "18:25",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -527,7 +524,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présentation : Alexandra Kazan",
       "description_lines": [
         "Présentation : Alexandra Kazan"
@@ -536,14 +533,14 @@
     {
       "time": "19:25",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -552,14 +549,14 @@
     {
       "time": "20:25",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "MONTAND DE TOUS LES TEMPS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire en 3 parties 21:20:00 CATCH AMERICAIN A BERCY - CATCH AMERICAIN A BERCY avec George Eddy et Jean-Philippe Lustyk",
       "description_lines": [
         "Documentaire en 3 parties",
@@ -571,7 +568,7 @@
     {
       "time": "23:20",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "23:25:00 VIVE 88 ! - VIVE 88 ! avec Alain Chabat, Dominique Farrugia, Chantal Lauby et Bruno Carette 00:00:00 PHANTOM OF THE PARADISE",
       "description_lines": [
         "23:25:00",
@@ -584,7 +581,7 @@
     {
       "time": "01:30",
       "title": "LE JEU DE LA MORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film hongkongais (1978) avec Bruce Lee 03:10:00 MADAME DU BARRY",
       "description_lines": [
         "Film hongkongais (1978) avec Bruce Lee",
@@ -595,7 +592,7 @@
     {
       "time": "04:55",
       "title": "ON A VOLÉ CHARLIE SPENCER !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1986)",
       "description_lines": [
         "Film français (1986)"
@@ -604,16 +601,14 @@
     {
       "time": "06:30",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:55",
       "title": "LE MAGICIEN D'OZ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé 08:20:00 LE MONDE ENCHANTÉ DE LALABEL Dessin animé",
       "description_lines": [
         "Dessin animé",
@@ -625,7 +620,7 @@
     {
       "time": "08:45",
       "title": "JEANNE ET SERGE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé 09:10:00 SHERIF, FAIS-MOI PEUR ! - SHERIF, FAIS-MOI PEUR ! Série américaine 10:00:00 WONDER WOMAN Série américaine. Avec Lynda Carter 10:50:00 AU CŒUR DU TEMPS Série américaine. Diffusé en 1967 et 1976",
       "description_lines": [
         "Dessin animé",
@@ -643,7 +638,7 @@
     {
       "time": "11:40",
       "title": "BUCK ROGERS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine 12:30:00 LE JOURNAL",
       "description_lines": [
         "Série américaine",
@@ -654,7 +649,7 @@
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les Enquêtes du commissaire Maigret",
       "description_lines": [
         "Les Enquêtes du commissaire Maigret"
@@ -663,7 +658,7 @@
     {
       "time": "15:20",
       "title": "LA GRANDE VALLÉE - LA GRANDE VALLÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine 16:30:00 MAX LA MENACE Série américaine avec Don Adams",
       "description_lines": [
         "Série américaine",
@@ -675,7 +670,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ECOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Le magicien d'Oz Flo et les Robinsons suisses Emi Magique - Emi Magique 18:10:00 WONDER WOMAN Série américaine. Avec Lynda Carter",
       "description_lines": [
         "Le magicien d'Oz",
@@ -689,7 +684,7 @@
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu présenté par Michel Robbe 19:30:00 BOULEVARD BOUVARD Emission de Philippe Bouvard 20:00:00 JOURNAL  - JOURNAL 20:30:00 LES DOUZE TRAVAUX D'ASTERIX  - LES DOUZE TRAVAUX D'ASTERIX 22:00:00 LAUREL ET HARDY - LAUREL ET HARDY Courts métrages 22:30:00 BAINS DE MINUIT - BAINS DE MINUIT Avec Thierry Ardisson 00:30:00 AMOUR, DELICES... ET GOLF  - AMOUR, DELICES... ET GOLF 02:00:00 MONDO DINGO Emission présentée par Stéphane Collaro. Extraits de Cocoboy et d'émissions d'humour internationales 02:45:00 JUSTE POUR RIRE - AVEC MICHEL BOUJENAH 04:00:00 MISS UNIVERS  - MISS UNIVERS 04:55:00 K2000 Série américaine",
       "description_lines": [
         "Jeu présenté par Michel Robbe",
@@ -723,7 +718,7 @@
     {
       "time": "05:45",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

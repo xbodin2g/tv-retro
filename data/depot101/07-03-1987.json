@@ -1,7 +1,7 @@
 {
   "date": "07-03-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:57:06.284314",
+  "scraped_at": "2026-11-10T06:23:16.569106",
   "programs": [
     {
       "time": "08:00",
@@ -575,15 +575,13 @@
       "time": "00:10",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "BATMAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -592,7 +590,7 @@
     {
       "time": "07:20",
       "title": "LES TRIPLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -601,7 +599,7 @@
     {
       "time": "07:30",
       "title": "CISCO KID",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série western américaine",
       "description_lines": [
         "Série western américaine"
@@ -610,7 +608,7 @@
     {
       "time": "07:55",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le programme jeunesse de Canal + Canaille Plus Yogi et compagnie",
       "description_lines": [
         "Le programme jeunesse de Canal +",
@@ -621,21 +619,21 @@
     {
       "time": "08:45",
       "title": "GUERRE ET PASSION",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "LA NUIT DES MASQUES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "LE CROC-NOTE SHOW",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série animée",
       "description_lines": [
         "Série animée"
@@ -644,7 +642,7 @@
     {
       "time": "12:05",
       "title": "LES ANIMAUX DU SOLEIL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série animalière",
       "description_lines": [
         "Série animalière"
@@ -653,21 +651,21 @@
     {
       "time": "12:30",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "SAMEDI, 1 HEURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine d'actualité",
       "description_lines": [
         "Magazine d'actualité"
@@ -676,14 +674,14 @@
     {
       "time": "14:00",
       "title": "MARIAGE INTERDIT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:35",
       "title": "FLASH GORDON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -692,7 +690,7 @@
     {
       "time": "15:50",
       "title": "MR GUN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -701,7 +699,7 @@
     {
       "time": "16:20",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le programme jeunesse de Canal + Alvin et les Chipmunks",
       "description_lines": [
         "Le programme jeunesse de Canal +",
@@ -711,7 +709,7 @@
     {
       "time": "16:45",
       "title": "ESPION A LA MODE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -720,7 +718,7 @@
     {
       "time": "17:30",
       "title": "LES ALLUMES DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -729,21 +727,21 @@
     {
       "time": "17:55",
       "title": "L'HOPÏTAL EN FLAMMES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -752,73 +750,72 @@
     {
       "time": "20:30",
       "title": "L'ETRANGE MR RYDER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:10",
       "title": "FORCE BASQUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:55",
       "title": "CHAMPIONNAT DU MONDE DES MI-LOURS (WBC)",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:30",
       "title": "LES BAS DE SOIE NOIRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:45",
       "title": "TEMPETE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:05",
       "title": "NIJINSKI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "06:05",
       "title": "WINCHESTER A LOUER",
-      "channel": "FR3",
-      "description": "Série japonaise LA 5",
+      "channel": "Canal+",
+      "description": "Série japonaise",
       "description_lines": [
-        "Série japonaise",
-        "LA 5"
+        "Série japonaise"
       ]
     },
     {
       "time": "07:00",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "PRINCESSE SARAH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -827,7 +824,7 @@
     {
       "time": "08:00",
       "title": "ARNOLD ET WILLY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -836,7 +833,7 @@
     {
       "time": "08:50",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -845,7 +842,7 @@
     {
       "time": "09:45",
       "title": "CHIPS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -854,7 +851,7 @@
     {
       "time": "10:35",
       "title": "SUPER JAIMIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -863,7 +860,7 @@
     {
       "time": "11:30",
       "title": "MISSION IMPOSSIBLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -872,14 +869,14 @@
     {
       "time": "12:30",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "L'HOMME DE L'ATLANTIDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -888,7 +885,7 @@
     {
       "time": "14:20",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -897,7 +894,7 @@
     {
       "time": "15:15",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -906,21 +903,21 @@
     {
       "time": "16:10",
       "title": "SHERIF FAIS-MOI PEUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:00",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:25",
       "title": "PRINCESSE SARAH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -929,7 +926,7 @@
     {
       "time": "18:00",
       "title": "ARNOLD ET WILLY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -938,7 +935,7 @@
     {
       "time": "18:25",
       "title": "SUPER JAIMIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -947,7 +944,7 @@
     {
       "time": "19:15",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -956,7 +953,7 @@
     {
       "time": "19:40",
       "title": "MISSION IMPOSSIBLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -965,21 +962,21 @@
     {
       "time": "20:30",
       "title": "LES GRANDS FILMS DU PETIT ECRAN - RETOUR AUX SOURCES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:00",
       "title": "UN ECHO DE THERESA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:00",
       "title": "MISSION IMPOSSIBLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -988,7 +985,7 @@
     {
       "time": "00:05",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -997,7 +994,7 @@
     {
       "time": "00:55",
       "title": "SUPER JAIMIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1006,7 +1003,7 @@
     {
       "time": "01:45",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1015,7 +1012,7 @@
     {
       "time": "02:25",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

@@ -1,7 +1,7 @@
 {
   "date": "05-06-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:56:57.769531",
+  "scraped_at": "2026-11-10T06:23:06.619630",
   "programs": [
     {
       "time": "09:00",
@@ -610,15 +610,13 @@
       "time": "00:00",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -627,7 +625,7 @@
     {
       "time": "07:30",
       "title": "MECANIC",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série animée",
       "description_lines": [
         "Série animée"
@@ -636,7 +634,7 @@
     {
       "time": "07:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Galtar et la lance d'or",
       "description_lines": [
         "Galtar et la lance d'or"
@@ -645,7 +643,7 @@
     {
       "time": "07:40",
       "title": "FANTASTICA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film franco-canadien (1980)",
       "description_lines": [
         "Film franco-canadien (1980)"
@@ -654,7 +652,7 @@
     {
       "time": "09:40",
       "title": "SEULE CONTRE LA MAFIA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain (1986)",
       "description_lines": [
         "Téléfilm américain (1986)"
@@ -663,14 +661,14 @@
     {
       "time": "12:00",
       "title": "TOP 30",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine présenté par Philippe Gildas. Invités : François Jacob, Plastic Bertrand",
       "description_lines": [
         "Magazine présenté par Philippe Gildas. Invités : François Jacob, Plastic Bertrand"
@@ -679,7 +677,7 @@
     {
       "time": "14:00",
       "title": "LE LIEU DU CRIME",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1986)",
       "description_lines": [
         "Film français (1986)"
@@ -688,7 +686,7 @@
     {
       "time": "15:45",
       "title": "BULLITT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1968)",
       "description_lines": [
         "Film américain (1968)"
@@ -697,7 +695,7 @@
     {
       "time": "17:30",
       "title": "BATMAN - L'INÉVITABLE JOKER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -706,14 +704,14 @@
     {
       "time": "18:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:05",
       "title": "MAXI-TÊTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présentation : Sophie Favier",
       "description_lines": [
         "Présentation : Sophie Favier"
@@ -722,7 +720,7 @@
     {
       "time": "18:10",
       "title": "LA GUEULE DE L'EMPLOI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu présenté par Sophie Garel",
       "description_lines": [
         "Jeu présenté par Sophie Garel"
@@ -731,7 +729,7 @@
     {
       "time": "18:40",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -740,7 +738,7 @@
     {
       "time": "19:10",
       "title": "ZÉNITH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -749,14 +747,14 @@
     {
       "time": "19:50",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:55",
       "title": "FROG SHOW",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série humoristique",
       "description_lines": [
         "Série humoristique"
@@ -765,14 +763,14 @@
     {
       "time": "20:05",
       "title": "FOOTBALL - LES COULISSES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "FOOTBALL - 38ÈME JOURNÉE DE CHAMPIONNATS DE FRANCE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Commenté par Charles biétry, Michel Denisot et Pierre Sled",
       "description_lines": [
         "Commenté par Charles biétry, Michel Denisot et Pierre Sled"
@@ -781,14 +779,14 @@
     {
       "time": "23:30",
       "title": "INFORMATIONS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:40",
       "title": "TIREZ SUR LE PIANISTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1960) avec Charles Aznavour",
       "description_lines": [
         "Film français (1960) avec Charles Aznavour"
@@ -797,7 +795,7 @@
     {
       "time": "00:55",
       "title": "SAUVE QUI PEUT LA VIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1980) avec Isabelle Huppert, Jacques Dutronc, Nathalie Baye",
       "description_lines": [
         "Film français (1980) avec Isabelle Huppert, Jacques Dutronc, Nathalie Baye"
@@ -806,7 +804,7 @@
     {
       "time": "02:20",
       "title": "FEU SUR LE GANG",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1951) avec James Cagney",
       "description_lines": [
         "Film américain (1951) avec James Cagney"
@@ -815,7 +813,7 @@
     {
       "time": "04:00",
       "title": "SANS SOLEIL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1983)",
       "description_lines": [
         "Film français (1983)"
@@ -824,17 +822,16 @@
     {
       "time": "05:40",
       "title": "J'AI DEUX AMOURS : JOSÉPHINE BAKER",
-      "channel": "FR3",
-      "description": "Documentaire LA 5",
+      "channel": "Canal+",
+      "description": "Documentaire",
       "description_lines": [
-        "Documentaire",
-        "LA 5"
+        "Documentaire"
       ]
     },
     {
       "time": "07:05",
       "title": "ROBOTECH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -843,7 +840,7 @@
     {
       "time": "07:35",
       "title": "T'AS L'BONJOUR D'ALBERT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -852,7 +849,7 @@
     {
       "time": "08:00",
       "title": "ARNOLD ET WILLY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -861,7 +858,7 @@
     {
       "time": "08:25",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -870,7 +867,7 @@
     {
       "time": "08:55",
       "title": "HOTEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -879,7 +876,7 @@
     {
       "time": "09:50",
       "title": "MISSION IMPOSSIBLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -888,7 +885,7 @@
     {
       "time": "10:45",
       "title": "KUNG FU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -897,7 +894,7 @@
     {
       "time": "11:40",
       "title": "WONDER WOMAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine. Avec Lynda Carter",
       "description_lines": [
         "Série américaine. Avec Lynda Carter"
@@ -906,7 +903,7 @@
     {
       "time": "12:35",
       "title": "LAUREL ET HARDY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Courts métrages",
       "description_lines": [
         "Courts métrages"
@@ -915,7 +912,7 @@
     {
       "time": "13:05",
       "title": "HOTEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -924,7 +921,7 @@
     {
       "time": "14:00",
       "title": "MIKE HAMMER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série policière américaine",
       "description_lines": [
         "Série policière américaine"
@@ -933,7 +930,7 @@
     {
       "time": "14:55",
       "title": "KUNG FU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine 15:50:00 WONDER WOMAN Série américaine. Avec Lynda Carter 16:45:00 PRINCESSE SARAH Dessin animé 17:15:00 ROBOTECH Dessin animé",
       "description_lines": [
         "Série américaine",
@@ -951,7 +948,7 @@
     {
       "time": "17:40",
       "title": "T'AS L'BONJOUR D'ALBERT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -960,7 +957,7 @@
     {
       "time": "18:05",
       "title": "ARNOLD ET WILLY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -969,7 +966,7 @@
     {
       "time": "18:35",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine 19:00:00 LAUREL ET HARDY Courts métrages 19:35:00 K2000 Série américaine 20:30:00 INSPECTEUR DERRICK Série allemande",
       "description_lines": [
         "Série américaine",
@@ -987,7 +984,7 @@
     {
       "time": "21:40",
       "title": "SERPICO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -996,14 +993,14 @@
     {
       "time": "22:40",
       "title": "CASIMIR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:15",
       "title": "LAUREL ET HARDY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Courts métrages",
       "description_lines": [
         "Courts métrages"
@@ -1012,7 +1009,7 @@
     {
       "time": "00:50",
       "title": "KUNG FU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1021,7 +1018,7 @@
     {
       "time": "01:45",
       "title": "MIKE HAMMER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série policière américaine",
       "description_lines": [
         "Série policière américaine"
@@ -1030,7 +1027,7 @@
     {
       "time": "02:40",
       "title": "HOTEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"

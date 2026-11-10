@@ -1,7 +1,7 @@
 {
   "date": "29-10-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:58:10.779285",
+  "scraped_at": "2026-11-10T06:24:57.521076",
   "programs": [
     {
       "time": "06:45",
@@ -309,7 +309,7 @@
       "time": "08:30",
       "title": "MATIN BONHEUR",
       "channel": "Antenne 2",
-      "description": "Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Rubriques Matin Bonheur Gymnastique (avec Florence et Pierre Pallardy) Consommation (avec Jackie Seguin) Beauté (avec Noelle Baticle) La santé (avec Monique Carra et Michel Bontemps La cuisine (avec Gérard Vie) Entraide Conseils aux mamans (avec Christine Ollivier) Flash infos Flash infos",
+      "description": "Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Rubriques Matin Bonheur Gymnastique (avec Florence et Pierre Pallardy) Consommation (avec Jackie Seguin) Beauté (avec Noelle Baticle) La santé (avec Monique Carra et Michel Bontemps La cuisine (avec Gérard Vie) Entraide Conseils aux mamans (avec Christine Ollivier) Flash infos",
       "description_lines": [
         "Présenté par Thierry Beccaro",
         "Jeunes docteurs (Pour la vie)",
@@ -321,7 +321,6 @@
         "La cuisine (avec Gérard Vie)",
         "Entraide",
         "Conseils aux mamans (avec Christine Ollivier)",
-        "Flash infos",
         "Flash infos"
       ]
     },
@@ -708,15 +707,13 @@
       "time": "00:05",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -725,7 +722,7 @@
     {
       "time": "07:20",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -734,7 +731,7 @@
     {
       "time": "07:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Grisu, le petit dragon",
       "description_lines": [
         "Programme jeunesse",
@@ -744,14 +741,14 @@
     {
       "time": "07:50",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -760,7 +757,7 @@
     {
       "time": "08:25",
       "title": "LARRY ET BALKI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -769,35 +766,35 @@
     {
       "time": "08:45",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "CORPS ET BIENS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:45",
       "title": "LE TRIO INFERNAL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Risoli",
       "description_lines": [
         "Présenté par Philippe Risoli"
@@ -806,21 +803,21 @@
     {
       "time": "14:00",
       "title": "JE HAIS LES ACTEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:40",
       "title": "SAUVEZ LE NEPTUNE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Denis la Malice",
       "description_lines": [
         "Programme jeunesse",
@@ -830,7 +827,7 @@
     {
       "time": "17:45",
       "title": "SUPERMAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -839,21 +836,21 @@
     {
       "time": "18:10",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:15",
       "title": "MYTHO-FOLIES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:20",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -862,7 +859,7 @@
     {
       "time": "18:25",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -871,7 +868,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu animé par Alexandra Kazan",
       "description_lines": [
         "Jeu animé par Alexandra Kazan"
@@ -880,7 +877,7 @@
     {
       "time": "19:20",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Avec Philippe Gildas et Les Nuls",
       "description_lines": [
         "Avec Philippe Gildas et Les Nuls"
@@ -889,42 +886,42 @@
     {
       "time": "20:30",
       "title": "MONEY MOVERS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:05",
       "title": "LA VALLEE DE LA MORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:30",
       "title": "CARRIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:05",
       "title": "L'ENGRENAGE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:35",
       "title": "BOXE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Retransmission sportive",
       "description_lines": [
         "Retransmission sportive"
@@ -933,16 +930,14 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:15",
       "title": "LE MAGICIEN D'OZ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -951,7 +946,7 @@
     {
       "time": "07:35",
       "title": "DANS LES ALPES AVEC ANNETTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -960,7 +955,7 @@
     {
       "time": "08:00",
       "title": "JEANNE ET SERGE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -969,7 +964,7 @@
     {
       "time": "08:30",
       "title": "ROBOTECH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé américain",
       "description_lines": [
         "Dessin animé américain"
@@ -978,7 +973,7 @@
     {
       "time": "08:55",
       "title": "MARISOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série canadienne",
       "description_lines": [
         "Série canadienne"
@@ -987,7 +982,7 @@
     {
       "time": "09:20",
       "title": "TELE MEMOIRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Arsène Lupin Les cinq dernières minutes",
       "description_lines": [
         "Arsène Lupin",
@@ -997,14 +992,14 @@
     {
       "time": "11:40",
       "title": "HOTEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "LE JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Jean-Claude Bourret",
       "description_lines": [
         "Présenté par Jean-Claude Bourret"
@@ -1013,7 +1008,7 @@
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Jean-Claude Bourret",
       "description_lines": [
         "Présenté par Jean-Claude Bourret"
@@ -1022,7 +1017,7 @@
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Variétés Les saintes chéries Actualités d'antan Arsène Lupin La grande vallée Max la menace",
       "description_lines": [
         "Variétés",
@@ -1036,7 +1031,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Le magicien d'Oz Charlotte Emi Magique",
       "description_lines": [
         "Le magicien d'Oz",
@@ -1047,7 +1042,7 @@
     {
       "time": "18:10",
       "title": "RIPTIDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1056,7 +1051,7 @@
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu animé par Michel Robbe",
       "description_lines": [
         "Jeu animé par Michel Robbe"
@@ -1065,7 +1060,7 @@
     {
       "time": "19:30",
       "title": "5, RUE DU THEATRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -1074,7 +1069,7 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Marie-France Cubadda",
       "description_lines": [
         "Présenté par Marie-France Cubadda"
@@ -1083,14 +1078,14 @@
     {
       "time": "20:30",
       "title": "LA FLETRISSURE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:20",
       "title": "LES POLARS DE LA 5",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Capitaine Furillo Lou Grant Max la menace",
       "description_lines": [
         "Capitaine Furillo",
@@ -1101,7 +1096,7 @@
     {
       "time": "00:30",
       "title": "TELE-MEMOIRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les chevaliers du ciel Le temps des copains Les cinq dernières minutes",
       "description_lines": [
         "Les chevaliers du ciel",
@@ -1112,7 +1107,7 @@
     {
       "time": "02:55",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

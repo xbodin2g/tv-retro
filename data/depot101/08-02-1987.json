@@ -1,7 +1,7 @@
 {
   "date": "08-02-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:57:09.965825",
+  "scraped_at": "2026-11-10T06:23:25.974447",
   "programs": [
     {
       "time": "08:00",
@@ -422,15 +422,13 @@
       "time": "00:45",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -439,7 +437,7 @@
     {
       "time": "07:45",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Punky Brewster - 6ème épisode",
       "description_lines": [
         "Punky Brewster - 6ème épisode"
@@ -448,7 +446,7 @@
     {
       "time": "08:25",
       "title": "L'ÎLE SANGLANTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film de suspense américain (1980) avec Michael Caine",
       "description_lines": [
         "Film de suspense américain (1980) avec Michael Caine"
@@ -457,7 +455,7 @@
     {
       "time": "10:15",
       "title": "L'ANIMAL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film comique français (1986) avec Jean-Paul Belmondo, Raquel Welch, Aldo Maccione",
       "description_lines": [
         "Film comique français (1986) avec Jean-Paul Belmondo, Raquel Welch, Aldo Maccione"
@@ -466,7 +464,7 @@
     {
       "time": "12:00",
       "title": "LE CROC-NOTE SHOW",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série animée",
       "description_lines": [
         "Série animée"
@@ -475,7 +473,7 @@
     {
       "time": "12:05",
       "title": "CANAILLE PLUS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine pour enfants",
       "description_lines": [
         "Magazine pour enfants"
@@ -484,14 +482,14 @@
     {
       "time": "12:30",
       "title": "PROCHAINEMENT SUR CANAL +",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Editions à 19h30, 22h15",
       "description_lines": [
         "Editions à 19h30, 22h15"
@@ -500,14 +498,14 @@
     {
       "time": "13:05",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:00",
       "title": "VIPÈRES À HOLLYWOOD",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain (1985) avec Elizabeth Taylor",
       "description_lines": [
         "Téléfilm américain (1985) avec Elizabeth Taylor"
@@ -516,7 +514,7 @@
     {
       "time": "15:30",
       "title": "LES MONSTRES - 23ÈME ÉPISODE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -525,7 +523,7 @@
     {
       "time": "15:55",
       "title": "CISCO KID - 21ÈME ÉPISODE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série western américaine",
       "description_lines": [
         "Série western américaine"
@@ -534,14 +532,14 @@
     {
       "time": "16:25",
       "title": "BASKET-BALL AMÉRICAIN - LES ROCKETS DE HUSTON / LES PISTONS DE DETROIT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:30",
       "title": "LES PROFESSIONNELS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1966) avec Burt Lancaster, Lee Marvin",
       "description_lines": [
         "Film américain (1966) avec Burt Lancaster, Lee Marvin"
@@ -550,7 +548,7 @@
     {
       "time": "19:35",
       "title": "CA CARTOON !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -559,7 +557,7 @@
     {
       "time": "20:30",
       "title": "MACARONI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film comique italien (1985) avec Jack Lemmon, Marcello Mastroianni",
       "description_lines": [
         "Film comique italien (1985) avec Jack Lemmon, Marcello Mastroianni"
@@ -568,7 +566,7 @@
     {
       "time": "22:25",
       "title": "CINQ POUR CENT DE RISQUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film franco-belge (1980) avec Bruno Ganz, Jean-Pierre Cassel",
       "description_lines": [
         "Film franco-belge (1980) avec Bruno Ganz, Jean-Pierre Cassel"
@@ -577,7 +575,7 @@
     {
       "time": "23:55",
       "title": "UN DRÔLE DE PAROISSIEN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1963) avec Bourvil, Jean Poiret, Francis Blanche",
       "description_lines": [
         "Film français (1963) avec Bourvil, Jean Poiret, Francis Blanche"
@@ -586,17 +584,16 @@
     {
       "time": "01:15",
       "title": "EN PLEIN CAUCHEMAR",
-      "channel": "FR3",
-      "description": "Film d'horreur américain (1983) avec Cristina Raines, Emilio Estevez, Lance Henriksen LA 5",
+      "channel": "Canal+",
+      "description": "Film d'horreur américain (1983) avec Cristina Raines, Emilio Estevez, Lance Henriksen",
       "description_lines": [
-        "Film d'horreur américain (1983) avec Cristina Raines, Emilio Estevez, Lance Henriksen",
-        "LA 5"
+        "Film d'horreur américain (1983) avec Cristina Raines, Emilio Estevez, Lance Henriksen"
       ]
     },
     {
       "time": "07:00",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -605,7 +602,7 @@
     {
       "time": "08:00",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -614,7 +611,7 @@
     {
       "time": "08:50",
       "title": "RIPTIDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine. Rediffusion",
       "description_lines": [
         "Série américaine. Rediffusion"
@@ -623,7 +620,7 @@
     {
       "time": "09:45",
       "title": "SHÉRIF, FAIS-MOI PEUR !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -632,7 +629,7 @@
     {
       "time": "10:40",
       "title": "CHIPS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -641,7 +638,7 @@
     {
       "time": "11:35",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -650,7 +647,7 @@
     {
       "time": "12:35",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -659,7 +656,7 @@
     {
       "time": "13:40",
       "title": "KOJAK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -668,7 +665,7 @@
     {
       "time": "14:35",
       "title": "LES SCHTROUMPFS - DU PAIN D'ÉPICE - LE PUITS AUX SOUHAITS - UN CIRQUE POUR LE BÉBÉ SCHTROUMPF",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -677,7 +674,7 @@
     {
       "time": "15:35",
       "title": "CHIPS - PONCH RETOURNE À L'ÉCOLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine avec Larry Wilcox, Erik Estreda, Robert Pine",
       "description_lines": [
         "Série américaine avec Larry Wilcox, Erik Estreda, Robert Pine"
@@ -686,7 +683,7 @@
     {
       "time": "16:30",
       "title": "K2000 - VERDICT FINAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -695,7 +692,7 @@
     {
       "time": "17:25",
       "title": "SHÉRIF, FAIS-MOI PEUR ! - LES COUSINES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -704,7 +701,7 @@
     {
       "time": "18:15",
       "title": "SUPERCOPTER - LES FRÈRES ENNEMIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -713,7 +710,7 @@
     {
       "time": "19:10",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -722,7 +719,7 @@
     {
       "time": "19:35",
       "title": "STAR TREK - L'IMPOSTEUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -731,7 +728,7 @@
     {
       "time": "20:30",
       "title": "L'ASSOCIÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Film français (1979) avec Michel Serrault, Claudine Auger, Catherine Alric, Judith Magre",
       "description_lines": [
         "Film français (1979) avec Michel Serrault, Claudine Auger, Catherine Alric, Judith Magre"
@@ -740,7 +737,7 @@
     {
       "time": "22:10",
       "title": "KOJAK - LA RIVIÈRE SOLITAIRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -749,7 +746,7 @@
     {
       "time": "23:10",
       "title": "SUPERCOPTER - LE CULTE DU PÈRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -758,7 +755,7 @@
     {
       "time": "00:05",
       "title": "LA CINQUIÈME DIMENSION - JEUX D'OMBRES - CHANT DE GRACE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -767,7 +764,7 @@
     {
       "time": "01:00",
       "title": "KOJAK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -776,7 +773,7 @@
     {
       "time": "01:55",
       "title": "STAR TREK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -785,16 +782,14 @@
     {
       "time": "02:50",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "TV6",
-      "description_lines": [
-        "TV6"
-      ]
+      "channel": "La Cinq",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "14:00",
       "title": "LES ENVAHISSEURS",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Série américaine. Rediffusion",
       "description_lines": [
         "Série américaine. Rediffusion"
@@ -803,7 +798,7 @@
     {
       "time": "15:00",
       "title": "INSIDERS",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -812,7 +807,7 @@
     {
       "time": "16:00",
       "title": "LA GRANDE VALLÉE",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -821,7 +816,7 @@
     {
       "time": "17:00",
       "title": "6 TONIC",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Clips, extraits de films et de concerts",
       "description_lines": [
         "Clips, extraits de films et de concerts"
@@ -830,7 +825,7 @@
     {
       "time": "19:00",
       "title": "NRJ 6",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Le hit-parade d'NRJ",
       "description_lines": [
         "Le hit-parade d'NRJ"
@@ -839,7 +834,7 @@
     {
       "time": "20:00",
       "title": "LES GLOBE-TROTTERS - LE TRANSFERT",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -848,7 +843,7 @@
     {
       "time": "20:30",
       "title": "PSYCHOSE PHASE 3",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Film britannique (1978) avec Katharine Ross, Sam Elliottt",
       "description_lines": [
         "Film britannique (1978) avec Katharine Ross, Sam Elliottt"
@@ -857,7 +852,7 @@
     {
       "time": "22:10",
       "title": "TAM-TAM",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Variétés présentées en direct et en public par Alain Maneval. Invités : Status Quo, Diane Dufresne, Murray Head, Gérard Blanchard, Jean-Pierre Mader. Rediffusion",
       "description_lines": [
         "Variétés présentées en direct et en public par Alain Maneval. Invités : Status Quo, Diane Dufresne, Murray Head, Gérard Blanchard, Jean-Pierre Mader. Rediffusion"
@@ -866,7 +861,7 @@
     {
       "time": "23:40",
       "title": "6 TONIC",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Clips, extraits de films et de concerts",
       "description_lines": [
         "Clips, extraits de films et de concerts"
@@ -875,7 +870,7 @@
     {
       "time": "01:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "TV6",
       "description": "Réf. : 19881229-31 T7J-1393",
       "description_lines": [
         "Réf. : 19881229-31 T7J-1393"

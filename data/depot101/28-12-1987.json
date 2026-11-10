@@ -1,7 +1,7 @@
 {
   "date": "28-12-1987",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:58:08.962622",
+  "scraped_at": "2026-11-10T06:24:51.574315",
   "programs": [
     {
       "time": "10:00",
@@ -160,7 +160,7 @@
       "time": "06:45",
       "title": "TÉLÉMATIN",
       "channel": "Antenne 2",
-      "description": "Présenté par Roger Zabel Météo Flash infos Jardin et balcon Chanson Le panier de Toulouse - Les meilleurs produits du marché de Rungis et une idée de recette Le conseil de forme Journal Conseil diététique Chanson A2 pour vous Edito politique L'actualité sportive Edito économique Météo Journal Chanson Les trouvailles Les quatre vérités Dessin animé Journal La rubrique Météo Les rendez-vous Chanson La Santé Le truc Flash infos 08:30:00 MATIN BONHEUR Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée Gymnastique en famille Les coulisses d'A2 Tricot Santé Jeu de la photo mystère Cuisine Bébé bonheur Astro-bébé Mariés bonheur L'étrange Généalogie Flash infos Flash infos",
+      "description": "Présenté par Roger Zabel Météo Flash infos Jardin et balcon Chanson Le panier de Toulouse - Les meilleurs produits du marché de Rungis et une idée de recette Le conseil de forme Journal Conseil diététique Chanson A2 pour vous Edito politique L'actualité sportive Edito économique Météo Journal Chanson Les trouvailles Les quatre vérités Dessin animé Journal La rubrique Météo Les rendez-vous Chanson La Santé Le truc Flash infos 08:30:00 MATIN BONHEUR Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée Gymnastique en famille Les coulisses d'A2 Tricot Santé Jeu de la photo mystère Cuisine Bébé bonheur Astro-bébé Mariés bonheur L'étrange Généalogie Flash infos",
       "description_lines": [
         "Présenté par Roger Zabel",
         "Météo",
@@ -206,7 +206,6 @@
         "Mariés bonheur",
         "L'étrange",
         "Généalogie",
-        "Flash infos",
         "Flash infos"
       ]
     },
@@ -429,15 +428,13 @@
       "time": "23:55",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "07:25:00 CABOU CADIN Scoubidou Bugs Bunny 07:55:00 LES EPEES DE FEU Série américaine",
       "description_lines": [
         "07:25:00",
@@ -452,7 +449,7 @@
     {
       "time": "08:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse Lazer tag 09:00:00 LA POISON 10:20:00 FLASH INFOS 10:25:00 LEGEND",
       "description_lines": [
         "Emission jeunesse",
@@ -468,7 +465,7 @@
     {
       "time": "11:55",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse A Christmas story  - A Christmas story",
       "description_lines": [
         "Emission jeunesse",
@@ -478,7 +475,7 @@
     {
       "time": "12:25",
       "title": "TACHYCARDIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Roman-photo en 15 épisodes",
       "description_lines": [
         "Roman-photo en 15 épisodes"
@@ -487,7 +484,7 @@
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Risoli 14:00:00 NOEL DANS LA MONTAGNE MAGIQUE 15:25:00 MONTAND DE TOUS LES TEMPS 16:20:00 LA FORET D'EMERAUDE 16:25:00 TONNERRE DE FEU",
       "description_lines": [
         "Présenté par Philippe Risoli",
@@ -504,7 +501,7 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "18:16:00 ZYGO Caméra invisible belge",
       "description_lines": [
         "18:16:00",
@@ -515,7 +512,7 @@
     {
       "time": "18:25",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -524,7 +521,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présentation : Alexandra Kazan",
       "description_lines": [
         "Présentation : Alexandra Kazan"
@@ -533,14 +530,14 @@
     {
       "time": "19:25",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -549,7 +546,7 @@
     {
       "time": "20:25",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "20:30:00 ALICE AU PAYS DES MERVEILLES",
       "description_lines": [
         "20:30:00",
@@ -559,7 +556,7 @@
     {
       "time": "21:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "21:45:00 CANAL FOOT",
       "description_lines": [
         "21:45:00",
@@ -569,7 +566,7 @@
     {
       "time": "22:15",
       "title": "LES DRIVES DE CANAL PLUS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Golf",
       "description_lines": [
         "Golf"
@@ -578,14 +575,14 @@
     {
       "time": "23:20",
       "title": "FOOTBALL AMÉRICAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:15",
       "title": "CONTRE TOUTE ATTENTE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1983) 02:10:00 L'ETOFFE DES BEATLES",
       "description_lines": [
         "Film américain (1983)",
@@ -596,16 +593,14 @@
     {
       "time": "03:45",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "08:00",
       "title": "LE MAGICIEN D'OZ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -614,7 +609,7 @@
     {
       "time": "08:25",
       "title": "FLO ET LES ROBINSONS SUISSES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé 08:50:00 EMI MAGIQUE Dessin animé 09:15:00 LAUREL ET HARDY Courts métrages 09:35:00 MAX LA MENACE Série américaine avec Don Adams 10:00:00 WONDER WOMAN Série américaine. Avec Lynda Carter 10:50:00 AUTOMAN Série américaine 11:40:00 K2000 Série américaine 12:30:00 LE JOURNAL",
       "description_lines": [
         "Dessin animé",
@@ -643,7 +638,7 @@
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les Enquêtes du commissaire Maigret La grande vallée Max la menace",
       "description_lines": [
         "Les Enquêtes du commissaire Maigret",
@@ -654,7 +649,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ECOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Le magicien d'Oz Le monde enchanté de Lalabel Jeanne et Serge 18:10:00 WONDER WOMAN Série américaine. Avec Lynda Carter",
       "description_lines": [
         "Le magicien d'Oz",
@@ -668,7 +663,7 @@
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu présenté par Michel Robbe 19:30:00 BOULEVARD BOUVARD Emission de Philippe Bouvard 20:00:00 JOURNAL 20:30:00 COURAGE, FUYONS ! 22:10:00 LAUREL ET HARDY Courts métrages 22:35:00 ARTISTES ET MODELES 00:25:00 LES ENQUÊTES DU COMMISSAIRE MAIGRET Série policière française",
       "description_lines": [
         "Jeu présenté par Michel Robbe",
@@ -692,7 +687,7 @@
     {
       "time": "02:10",
       "title": "LA GRANDE VALLÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -701,7 +696,7 @@
     {
       "time": "03:20",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
