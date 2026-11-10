@@ -1,7 +1,7 @@
 {
   "date": "01-01-1996",
   "source": "archives80",
-  "scraped_at": "2026-11-10T16:32:12.695412",
+  "scraped_at": "2026-11-10T23:28:16.039111",
   "programs": [
     {
       "time": "06:00",
@@ -200,15 +200,13 @@
       "time": "03:55",
       "title": "LA NUIT SUR TF1",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:05",
       "title": "DES JOURS ET DES VIES",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -217,7 +215,7 @@
     {
       "time": "06:30",
       "title": "Télématin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par William Leymergie",
       "description_lines": [
         "Présenté par William Leymergie"
@@ -226,21 +224,21 @@
     {
       "time": "08:30",
       "title": "Les films Lumière",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:35",
       "title": "AMOUREUSEMENT VOTRE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "Amour, gloire et beauté",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -249,14 +247,14 @@
     {
       "time": "09:20",
       "title": "KUNG-FU, LA LEGENDE CONTINUE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:05",
       "title": "COULEUR MAUREEN",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présentée par Maureen Dor",
       "description_lines": [
         "Présentée par Maureen Dor"
@@ -265,42 +263,42 @@
     {
       "time": "11:15",
       "title": "CONCERT DU NOUVEL AN",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:15",
       "title": "CONCERT DU NOUVEL AN",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:35",
       "title": "KATIA",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:10",
       "title": "TIERCE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:25",
       "title": "La chance aux chansons",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Pascal Sevran",
       "description_lines": [
         "Présenté par Pascal Sevran"
@@ -309,7 +307,7 @@
     {
       "time": "16:45",
       "title": "DES CHIFFRES ET DES LETTRES",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Jeu animé par Laurent Romejko",
       "description_lines": [
         "Jeu animé par Laurent Romejko"
@@ -318,28 +316,28 @@
     {
       "time": "17:15",
       "title": "QUOI DE NEUF, DOCTEUR ?",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:45",
       "title": "LES FOUS DU STADE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:15",
       "title": "BONNE NUIT LES PETITS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:20",
       "title": "STUDIO GABRIEL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Michel Drucker",
       "description_lines": [
         "Présenté par Michel Drucker"
@@ -348,86 +346,84 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "L'IMAGE DU JOUR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:55",
       "title": "L'ALLEE DU ROI",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:55",
       "title": "CLASSIQUES STARS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:10",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:25",
       "title": "DAKAR 1996 : LE BIVOUAC",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:10",
       "title": "LA NUIT DE FRANCE 2",
-      "channel": "TF1",
-      "description": "F3",
-      "description_lines": [
-        "F3"
-      ]
+      "channel": "France 2",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "EURONEWS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:05",
       "title": "BONJOUR BABAR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:25",
       "title": "MINIKEUMS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:45",
       "title": "LES PETITS GENIES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:35",
       "title": "LA CUISINE DES MOUSQUETAIRES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Maité et Micheline",
       "description_lines": [
         "Présenté par Maité et Micheline"
@@ -436,35 +432,35 @@
     {
       "time": "11:55",
       "title": "FLASH INFOS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "GENERATION SENSATIONS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "MERIDIONALES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "JOURNAL",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "Je passe à la télé",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Georges Beller et Valérie Mairesse",
       "description_lines": [
         "Présenté par Georges Beller et Valérie Mairesse"
@@ -473,35 +469,35 @@
     {
       "time": "13:35",
       "title": "TOPAZE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "16:20",
       "title": "BRAVO LA FAMILLE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "16:35",
       "title": "MINIKEUMS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:45",
       "title": "SUR LA PISTE DU DAKAR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:20",
       "title": "QUESTIONS POUR UN CHAMPION",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu animé par Julien Lepers",
       "description_lines": [
         "Jeu animé par Julien Lepers"
@@ -510,7 +506,7 @@
     {
       "time": "18:50",
       "title": "UN LIVRE, UN JOUR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Olivier Barrot",
       "description_lines": [
         "Présenté par Olivier Barrot"
@@ -519,14 +515,14 @@
     {
       "time": "18:55",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:05",
       "title": "FA SI LA CHANTER",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Jeu animé par Pascal Brunner",
       "description_lines": [
         "Jeu animé par Pascal Brunner"
@@ -535,21 +531,21 @@
     {
       "time": "20:35",
       "title": "TOUT LE SPORT",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:40",
       "title": "LE JOURNAL DU DAKAR",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "La Dernière Séance",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Soirée présentée par Eddy Mitchell",
       "description_lines": [
         "Soirée présentée par Eddy Mitchell"
@@ -558,21 +554,21 @@
     {
       "time": "01:00",
       "title": "TEX AVERY",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:45",
       "title": "LA NUIT SUR FRANCE 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:00",
       "title": "Fin des émissions",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },

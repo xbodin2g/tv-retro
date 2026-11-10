@@ -1,7 +1,7 @@
 {
   "date": "01-09-1996",
   "source": "archives80",
-  "scraped_at": "2026-11-10T16:32:17.734749",
+  "scraped_at": "2026-11-10T23:28:19.109383",
   "programs": [
     {
       "time": "06:00",
@@ -190,22 +190,20 @@
       "time": "01:20",
       "title": "LA NUIT SUR TF1",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:10",
       "title": "COUSTEAU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:00",
       "title": "Thé ou Café",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Catherine Ceylac",
       "description_lines": [
         "Présenté par Catherine Ceylac"
@@ -214,7 +212,7 @@
     {
       "time": "07:45",
       "title": "VACANCES MAT'",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Maureen Dor",
       "description_lines": [
         "Présenté par Maureen Dor"
@@ -223,14 +221,14 @@
     {
       "time": "08:35",
       "title": "Expression directe",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "Emissions religieuses",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Connaitre l'Islam",
       "description_lines": [
         "Connaitre l'Islam"
@@ -239,7 +237,7 @@
     {
       "time": "12:00",
       "title": "Des trains pas comme les autres",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série documentaire",
       "description_lines": [
         "Série documentaire"
@@ -248,21 +246,21 @@
     {
       "time": "12:50",
       "title": "RAPPORT DU LOTO",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:25",
       "title": "Le monde est à vous",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jacques Martin",
       "description_lines": [
         "Présenté par Jacques Martin"
@@ -271,14 +269,14 @@
     {
       "time": "15:05",
       "title": "L'HOMME A LA ROLLS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:55",
       "title": "L'école des fans",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jacques Martin",
       "description_lines": [
         "Présenté par Jacques Martin"
@@ -287,21 +285,21 @@
     {
       "time": "16:45",
       "title": "COUSTEAU",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:50",
       "title": "Stade 2",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:50",
       "title": "Déjà dimanche",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jean-Luc Delarue",
       "description_lines": [
         "Présenté par Jean-Luc Delarue"
@@ -310,7 +308,7 @@
     {
       "time": "19:25",
       "title": "Déjà le retour",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jean-Luc Delarue",
       "description_lines": [
         "Présenté par Jean-Luc Delarue"
@@ -319,35 +317,35 @@
     {
       "time": "20:00",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "JE SAIS RIEN MAIS JE DIRAI TOUT",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:20",
       "title": "MISS UNIVERS PREND LE POUVOIR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:15",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:25",
       "title": "MUSIQUES AU COEUR",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Eve Ruggieri",
       "description_lines": [
         "Présenté par Eve Ruggieri"
@@ -356,7 +354,7 @@
     {
       "time": "00:40",
       "title": "FORT BOYARD",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Patrice Laffont et Cendrine Dominguez",
       "description_lines": [
         "Présenté par Patrice Laffont et Cendrine Dominguez"
@@ -365,7 +363,7 @@
     {
       "time": "02:15",
       "title": "Savoir plus santé",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par François de Clozets",
       "description_lines": [
         "Présenté par François de Clozets"
@@ -374,51 +372,49 @@
     {
       "time": "03:05",
       "title": "L'ECRAN DEVANT SOI",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:00",
       "title": "PAYSANS, LA VIE EN PRIME",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:55",
       "title": "Stade 2",
-      "channel": "TF1",
-      "description": "F3",
-      "description_lines": [
-        "F3"
-      ]
+      "channel": "France 2",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "Euronews",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:00",
       "title": "Bonjour Babar",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:55",
       "title": "Les Minikeums",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:25",
       "title": "C'EST PAS SORCIER",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Jamy Gourmaud et Frédéric Courant",
       "description_lines": [
         "Présenté par Jamy Gourmaud et Frédéric Courant"
@@ -427,14 +423,14 @@
     {
       "time": "10:50",
       "title": "Expression directe",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:00",
       "title": "Les mystères de l'Ouest",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -443,63 +439,63 @@
     {
       "time": "11:55",
       "title": "Flash infos",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "Estivales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Journal",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "Keno",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:10",
       "title": "LES QUATRE DROMADAIRES",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:00",
       "title": "Matlock",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:50",
       "title": "Sport Dimanche",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:55",
       "title": "LES DEUX FONT LA LOI",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:20",
       "title": "Y'a pire ailleurs",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Denis Vincenti",
       "description_lines": [
         "Présenté par Denis Vincenti"
@@ -508,14 +504,14 @@
     {
       "time": "18:55",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:10",
       "title": "Benny Hill",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Série humoristique britannique",
       "description_lines": [
         "Série humoristique britannique"
@@ -524,35 +520,35 @@
     {
       "time": "20:50",
       "title": "LA GUERRE DES POUX",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "LES ENFANTS DU JUGE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:15",
       "title": "Soir 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:35",
       "title": "CINEMA DE MINUIT : CELUI PAR QUI LE SCANDALE ARRIVE",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:15",
       "title": "Fin des émissions",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
