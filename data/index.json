@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T18:04:33.594494",
+  "generated_at": "2026-11-10T18:06:12.166606",
   "total_dates": 979,
-  "total_programs": 113394,
-  "total_segments": 10268,
+  "total_programs": 113733,
+  "total_segments": 10288,
   "years": {
     "1980": {
       "total_programs": 3218,
@@ -3992,31 +3992,31 @@
       }
     },
     "1999": {
-      "total_programs": 910,
+      "total_programs": 1249,
       "dates": {
         "09-01-1999": {
-          "source": "archives80",
-          "programs_count": 149
+          "source": "archives80+depot101",
+          "programs_count": 197
         },
         "10-01-1999": {
-          "source": "archives80",
-          "programs_count": 149
+          "source": "archives80+depot101",
+          "programs_count": 205
         },
         "13-02-1999": {
-          "source": "archives80",
-          "programs_count": 160
+          "source": "archives80+depot101",
+          "programs_count": 223
         },
         "11-05-1999": {
-          "source": "archives80",
-          "programs_count": 168
+          "source": "archives80+depot101",
+          "programs_count": 232
         },
         "20-11-1999": {
-          "source": "archives80",
-          "programs_count": 155
+          "source": "archives80+depot101",
+          "programs_count": 211
         },
         "31-12-1999": {
-          "source": "archives80",
-          "programs_count": 129
+          "source": "archives80+depot101",
+          "programs_count": 181
         }
       }
     }
