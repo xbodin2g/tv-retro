@@ -1,7 +1,7 @@
 {
   "date": "04-03-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:51:28.577320",
+  "scraped_at": "2026-11-10T06:32:17.110976",
   "programs": [
     {
       "time": "06:45",
@@ -521,7 +521,7 @@
       "time": "15:03",
       "title": "TÉLÉ-CAROLINE",
       "channel": "FR3",
-      "description": "Présenté par Caroline Tresca Mon héros préféré La main verte La télé du coeur Faites-vous des amis Province chic, province choc De ane à... zèbre De ane à... zèbre Le jeu de la séduction",
+      "description": "Présenté par Caroline Tresca Mon héros préféré La main verte La télé du coeur Faites-vous des amis Province chic, province choc De ane à... zèbre Le jeu de la séduction",
       "description_lines": [
         "Présenté par Caroline Tresca",
         "Mon héros préféré",
@@ -529,7 +529,6 @@
         "La télé du coeur",
         "Faites-vous des amis",
         "Province chic, province choc",
-        "De ane à... zèbre",
         "De ane à... zèbre",
         "Le jeu de la séduction"
       ]
@@ -665,15 +664,13 @@
       "time": "00:40",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le programme jeunesse de Canal + San Mao, le petit vagabond",
       "description_lines": [
         "Le programme jeunesse de Canal +",
@@ -683,14 +680,14 @@
     {
       "time": "07:10",
       "title": "VICTOR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:24",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -699,7 +696,7 @@
     {
       "time": "07:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le programme jeunesse de Canal + Starcom",
       "description_lines": [
         "Le programme jeunesse de Canal +",
@@ -709,14 +706,14 @@
     {
       "time": "07:50",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -725,63 +722,63 @@
     {
       "time": "08:25",
       "title": "LA BOUTIQUE DE CANAL +",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:50",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "UN DROLE DE FLIC",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:45",
       "title": "OPERATION JULIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:00",
       "title": "LE MIRACULE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:50",
       "title": "SALE TEMPS POUR UN FLIC",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Le programme jeunesse de Canal +",
       "description_lines": [
         "Le programme jeunesse de Canal +"
@@ -790,21 +787,21 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:16",
       "title": "DESSINS ANIMÉS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:25",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -813,7 +810,7 @@
     {
       "time": "18:26",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Hit-parade national des 45 tours",
       "description_lines": [
         "Hit-parade national des 45 tours"
@@ -822,7 +819,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -831,7 +828,7 @@
     {
       "time": "19:20",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Avec Philippe Gildas et Les Nuls",
       "description_lines": [
         "Avec Philippe Gildas et Les Nuls"
@@ -840,56 +837,56 @@
     {
       "time": "20:05",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:45",
       "title": "T'AS PAS CENT BALLES ?",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:30",
       "title": "LA FUREUR SAUVAGE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:05",
       "title": "UN HOMME ET UNE FEMME : 20 ANS DEJA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:55",
       "title": "VENDREDI 13 : CHAPITRE FINAL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:25",
       "title": "MR GUN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -898,23 +895,21 @@
     {
       "time": "05:45",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:15",
       "title": "ROBOTECH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé américain",
       "description_lines": [
         "Dessin animé américain"
@@ -923,14 +918,14 @@
     {
       "time": "07:40",
       "title": "FLO ET LES ROBINSONS SUISSES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:05",
       "title": "LE TOUR DU MONDE DE LYDIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -939,21 +934,21 @@
     {
       "time": "08:30",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:05",
       "title": "MONSIEUR LE MINISTRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -962,7 +957,7 @@
     {
       "time": "09:35",
       "title": "LES SAINTES CHÉRIES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -971,14 +966,14 @@
     {
       "time": "10:00",
       "title": "HILL STREET BLUES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:50",
       "title": "LOU GRANT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -987,14 +982,14 @@
     {
       "time": "11:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:40",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de Philippe Bouvard",
       "description_lines": [
         "Emission de Philippe Bouvard"
@@ -1003,7 +998,7 @@
     {
       "time": "12:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -1012,14 +1007,14 @@
     {
       "time": "12:30",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "VIVE LA TELE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "13: [INFORMATIONS A COMPLETER]",
       "description_lines": [
         "13:",
@@ -1029,7 +1024,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les schtroumpfs Le monde enchanté de Lalabel Embrasse moi Lucile/Lucile amour et Rock'n'roll Jeanne et Serge",
       "description_lines": [
         "Les schtroumpfs",
@@ -1041,7 +1036,7 @@
     {
       "time": "18:30",
       "title": "HAPPY DAYS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1050,14 +1045,14 @@
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -1066,7 +1061,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de Philippe Bouvard",
       "description_lines": [
         "Emission de Philippe Bouvard"
@@ -1075,21 +1070,21 @@
     {
       "time": "19:58",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LES DERNIERS BEAUX JOURS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:30",
       "title": "MISSION IMPOSSIBLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1098,7 +1093,7 @@
     {
       "time": "23:20",
       "title": "BAINS DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Avec Thierry Ardisson",
       "description_lines": [
         "Avec Thierry Ardisson"
@@ -1107,14 +1102,14 @@
     {
       "time": "00:50",
       "title": "CAPRICCIO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:00",
       "title": "ARIA DE RÊVE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Musique classique",
       "description_lines": [
         "Musique classique"

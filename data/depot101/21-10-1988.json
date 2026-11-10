@@ -1,7 +1,7 @@
 {
   "date": "21-10-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:41.919693",
+  "scraped_at": "2026-11-10T06:34:16.098901",
   "programs": [
     {
       "time": "06:27",
@@ -743,15 +743,13 @@
       "time": "00:00",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -760,28 +758,28 @@
     {
       "time": "07:44",
       "title": "VIRGUL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:15",
       "title": "LA BOUTIQUE CANAL+",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "FLAG",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -790,7 +788,7 @@
     {
       "time": "10:25",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "et à 12.40, 18.45, 19.40 et 22.50",
       "description_lines": [
         "et à 12.40, 18.45, 19.40 et 22.50"
@@ -799,7 +797,7 @@
     {
       "time": "10:30",
       "title": "JOEY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -808,7 +806,7 @@
     {
       "time": "11:45",
       "title": "LES MANDRILLS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -817,7 +815,7 @@
     {
       "time": "12:15",
       "title": "DEMAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -826,7 +824,7 @@
     {
       "time": "13:00",
       "title": "PLUS OU MOINS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu présenté par Sophie Garel",
       "description_lines": [
         "Jeu présenté par Sophie Garel"
@@ -835,7 +833,7 @@
     {
       "time": "13:30",
       "title": "TANDEM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -844,14 +842,14 @@
     {
       "time": "14:55",
       "title": "SURPRISES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:30",
       "title": "TOUCHÉ !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -860,7 +858,7 @@
     {
       "time": "17:10",
       "title": "MAX HEADROOM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -869,7 +867,7 @@
     {
       "time": "17:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -878,14 +876,14 @@
     {
       "time": "18:30",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:50",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Hit-parade national des 45 tours",
       "description_lines": [
         "Hit-parade national des 45 tours"
@@ -894,14 +892,14 @@
     {
       "time": "19:30",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LA MALÉDICTION DU PONT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm",
       "description_lines": [
         "Téléfilm"
@@ -910,14 +908,14 @@
     {
       "time": "22:00",
       "title": "LE MONDE DU CIRQUE - BARNUM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:00",
       "title": "LES CHIENS DE PAILLE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -926,7 +924,7 @@
     {
       "time": "00:50",
       "title": "LE VOYOU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -935,7 +933,7 @@
     {
       "time": "02:45",
       "title": "SPIRALE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -944,7 +942,7 @@
     {
       "time": "04:15",
       "title": "FOU À LIER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -953,7 +951,7 @@
     {
       "time": "05:30",
       "title": "LES ALLUMÉS DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -962,23 +960,21 @@
     {
       "time": "05:55",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "LAURA OU LA PASSION DU THÉÂTRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -987,7 +983,7 @@
     {
       "time": "07:55",
       "title": "VAS-Y JULIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -996,7 +992,7 @@
     {
       "time": "08:20",
       "title": "KARINE, L'AVENTURE DU NOUVEAU MONDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -1005,7 +1001,7 @@
     {
       "time": "08:45",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1014,14 +1010,14 @@
     {
       "time": "09:00",
       "title": "TÉLÉ-CHOUCHOU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:15",
       "title": "VOISIN, VOISINE - MALADE OU PAS MALADE ?",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -1030,7 +1026,7 @@
     {
       "time": "10:15",
       "title": "SEULE À PARIS - ENCORE BOB",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française en 52 épisodes, avec Sophie Agacinski",
       "description_lines": [
         "Série française en 52 épisodes, avec Sophie Agacinski"
@@ -1039,7 +1035,7 @@
     {
       "time": "10:25",
       "title": "JANIQUE AIMÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -1048,14 +1044,14 @@
     {
       "time": "10:35",
       "title": "TITRE DU 12H30",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:40",
       "title": "MADAME BAPTISTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm avec Isabelle Huppert",
       "description_lines": [
         "Téléfilm avec Isabelle Huppert"
@@ -1064,14 +1060,14 @@
     {
       "time": "12:30",
       "title": "LE JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Par Jean-Claude Bourret",
       "description_lines": [
         "Par Jean-Claude Bourret"
@@ -1080,7 +1076,7 @@
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Inspecteur Derrick - Une nuit d'octobre Bonanza - Le percepteur de l'Ouest Capitaine Furillo - Adieur monsieur Scripps",
       "description_lines": [
         "Inspecteur Derrick - Une nuit d'octobre",
@@ -1091,7 +1087,7 @@
     {
       "time": "17:00",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Pollyanna Susy aux fleurs magiques Les aventures de Claire et Tipoune Olive et Tom",
       "description_lines": [
         "Pollyanna",
@@ -1103,14 +1099,14 @@
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Par Michel Robbe",
       "description_lines": [
         "Par Michel Robbe"
@@ -1119,7 +1115,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de Philippe Bouvard",
       "description_lines": [
         "Emission de Philippe Bouvard"
@@ -1128,7 +1124,7 @@
     {
       "time": "20:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Par Guillaume Durand",
       "description_lines": [
         "Par Guillaume Durand"
@@ -1137,7 +1133,7 @@
     {
       "time": "20:30",
       "title": "UNE AFFAIRE D'ENFER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm avec Victoria Principal",
       "description_lines": [
         "Téléfilm avec Victoria Principal"
@@ -1146,7 +1142,7 @@
     {
       "time": "22:20",
       "title": "MATLOCK - LE MARIÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1155,7 +1151,7 @@
     {
       "time": "23:20",
       "title": "INSPECTEUR DERRICK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1164,14 +1160,14 @@
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "INSPECTEUR DERRICK - SUITE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1180,7 +1176,7 @@
     {
       "time": "00:25",
       "title": "CAPITAINE FURILLO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1189,7 +1185,7 @@
     {
       "time": "01:15",
       "title": "MADAME BAPTISTE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1198,14 +1194,14 @@
     {
       "time": "02:45",
       "title": "JOURNAL DE LA NUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:50",
       "title": "JANIQUE AIMÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1214,7 +1210,7 @@
     {
       "time": "03:05",
       "title": "SEULE À PARIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1223,7 +1219,7 @@
     {
       "time": "03:40",
       "title": "VOISIN, VOISINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1232,7 +1228,7 @@
     {
       "time": "04:40",
       "title": "LE CLAN BEAULIEU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton canadien",
       "description_lines": [
         "Feuilleton canadien"
@@ -1241,7 +1237,7 @@
     {
       "time": "05:05",
       "title": "VOISIN, VOISINE - RÉCLAMATIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"

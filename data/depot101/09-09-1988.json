@@ -1,7 +1,7 @@
 {
   "date": "09-09-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:09.043700",
+  "scraped_at": "2026-11-10T06:33:26.269098",
   "programs": [
     {
       "time": "06:25",
@@ -396,7 +396,7 @@
       "time": "06:45",
       "title": "TÉLÉMATIN",
       "channel": "Antenne 2",
-      "description": "Présenté par Roger Zabel Jardin et balcon Pensez-y Edito politique Conseil de forme La rubrique du jour Votre argent (avec Jean Le Berre) Santé (avec Jean-Daniel Flaysakier ou Catherine Singer) Le truc (avec Laura Fronty) Journal (avec Marc Autheman et Catherine Ceylac) Journal Journal Tourisme (avec Marie-Dominique Perrin)",
+      "description": "Présenté par Roger Zabel Jardin et balcon Pensez-y Edito politique Conseil de forme La rubrique du jour Votre argent (avec Jean Le Berre) Santé (avec Jean-Daniel Flaysakier ou Catherine Singer) Le truc (avec Laura Fronty) Journal (avec Marc Autheman et Catherine Ceylac) Journal Tourisme (avec Marie-Dominique Perrin)",
       "description_lines": [
         "Présenté par Roger Zabel",
         "Jardin et balcon",
@@ -409,7 +409,6 @@
         "Le truc (avec Laura Fronty)",
         "Journal (avec Marc Autheman et Catherine Ceylac)",
         "Journal",
-        "Journal",
         "Tourisme (avec Marie-Dominique Perrin)"
       ]
     },
@@ -417,7 +416,7 @@
       "time": "08:30",
       "title": "MATIN BONHEUR",
       "channel": "Antenne 2",
-      "description": "Présenté par Thierry Beccaro Amoureusement votre Gymnastique Tricot Santé Généalogie Astrologie Bébé bonheur Mariés bonheur Cuisine Le jeu de la photo mystère Jeunes talents Création Au petit bonheur Flash infos Flash infos",
+      "description": "Présenté par Thierry Beccaro Amoureusement votre Gymnastique Tricot Santé Généalogie Astrologie Bébé bonheur Mariés bonheur Cuisine Le jeu de la photo mystère Jeunes talents Création Au petit bonheur Flash infos",
       "description_lines": [
         "Présenté par Thierry Beccaro",
         "Amoureusement votre",
@@ -433,7 +432,6 @@
         "Jeunes talents",
         "Création",
         "Au petit bonheur",
-        "Flash infos",
         "Flash infos"
       ]
     },
@@ -782,15 +780,13 @@
       "time": "23:40",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Flash Gordon Denis la Malice Charlotte, Fléo et Benjamin",
       "description_lines": [
         "Programme jeunesse",
@@ -802,7 +798,7 @@
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -811,7 +807,7 @@
     {
       "time": "08:15",
       "title": "LARRY ET BALKI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -820,28 +816,28 @@
     {
       "time": "08:45",
       "title": "BETTY FORD, FEMME DE PRESIDENT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "GOODBYE COLUMBUS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:15",
       "title": "DEMAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot Flash infos",
       "description_lines": [
         "Présenté par Michel Denisot",
@@ -851,21 +847,21 @@
     {
       "time": "13:00",
       "title": "JUKE BOX",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "MAD MAX",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:00",
       "title": "LES ALLUMÉS DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -874,14 +870,14 @@
     {
       "time": "15:30",
       "title": "LA LOI DE MURPHY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:10",
       "title": "MAX HEADROOM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -890,7 +886,7 @@
     {
       "time": "17:40",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Bravestarr Foofur",
       "description_lines": [
         "Programme jeunesse",
@@ -901,7 +897,7 @@
     {
       "time": "18:30",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -910,14 +906,14 @@
     {
       "time": "18:45",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:50",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -926,7 +922,7 @@
     {
       "time": "19:30",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Gildas Flash infos",
       "description_lines": [
         "Présenté par Philippe Gildas",
@@ -936,14 +932,14 @@
     {
       "time": "20:05",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Commenté par Charles Biétry, Michel Platini et Pierre Sled",
       "description_lines": [
         "Commenté par Charles Biétry, Michel Platini et Pierre Sled"
@@ -952,14 +948,14 @@
     {
       "time": "22:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:45",
       "title": "EXPLOITS N°2",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -968,51 +964,49 @@
     {
       "time": "23:00",
       "title": "LES FUGITIFS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:25",
       "title": "MON BEL AMOUR, MA DECHIRURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:05",
       "title": "BLOODY BIRD",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:35",
       "title": "FUNNY BOY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:00",
       "title": "IL ETAIT UNE FOIS UN CERTAIN CALLAGHER",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "05:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "OLIVE ET TOM, CHAMPIONS DU FOOT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1021,7 +1015,7 @@
     {
       "time": "08:00",
       "title": "CYNTHIA OU LE RYTHME DE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -1030,7 +1024,7 @@
     {
       "time": "08:25",
       "title": "VAS-Y JULIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1039,14 +1033,14 @@
     {
       "time": "08:50",
       "title": "KARINE, L'AVENTURE DU NOUVEAU MONDE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:15",
       "title": "CAPITOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -1055,7 +1049,7 @@
     {
       "time": "09:40",
       "title": "VIVE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française. Rediffusion",
       "description_lines": [
         "Série française. Rediffusion"
@@ -1064,7 +1058,7 @@
     {
       "time": "10:10",
       "title": "ANNE, JOUR APRÈS JOUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français avec Sophie Barjac",
       "description_lines": [
         "Feuilleton français avec Sophie Barjac"
@@ -1073,7 +1067,7 @@
     {
       "time": "10:35",
       "title": "SCHULMEISTER, L'ESPION DE L'EMPEREUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -1082,7 +1076,7 @@
     {
       "time": "11:30",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -1091,14 +1085,14 @@
     {
       "time": "12:00",
       "title": "TITRES DU 12H30",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:05",
       "title": "CAPITOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -1107,14 +1101,14 @@
     {
       "time": "12:30",
       "title": "LE JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Jean-Claude Bourret",
       "description_lines": [
         "Présenté par Jean-Claude Bourret"
@@ -1123,7 +1117,7 @@
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Variétés Amicalement votre Actualités d'antan Bonanza Capitaine Furillo",
       "description_lines": [
         "Variétés",
@@ -1136,7 +1130,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Sandy Jonquille Pollyanna Susy aux fleurs magiques Les aventures de Claire et Tipoune OLIVE ET TOM, CHAMPIONS DU FOOT",
       "description_lines": [
         "Sandy Jonquille",
@@ -1149,14 +1143,14 @@
     {
       "time": "18:55",
       "title": "IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "L'HOMME QUI VALAIT TROIS MILLIARDS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1165,7 +1159,7 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Guillaume Durand",
       "description_lines": [
         "Présenté par Guillaume Durand"
@@ -1174,35 +1168,35 @@
     {
       "time": "20:30",
       "title": "LA RANCON MEXICAINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "TENNIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "TENNIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:00",
       "title": "CAPITAINE FURILLO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1211,7 +1205,7 @@
     {
       "time": "01:55",
       "title": "ANNE, JOUR APRÈS JOUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français avec Sophie Barjac",
       "description_lines": [
         "Feuilleton français avec Sophie Barjac"
@@ -1220,7 +1214,7 @@
     {
       "time": "02:20",
       "title": "SCHULMEISTER, L'ESPION DE L'EMPEREUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -1229,7 +1223,7 @@
     {
       "time": "03:10",
       "title": "VIVE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française. Rediffusion",
       "description_lines": [
         "Série française. Rediffusion"
@@ -1238,7 +1232,7 @@
     {
       "time": "03:50",
       "title": "LE CLAN BEAULIEU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton canadien",
       "description_lines": [
         "Feuilleton canadien"
@@ -1247,7 +1241,7 @@
     {
       "time": "04:40",
       "title": "TOP NUGGETS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

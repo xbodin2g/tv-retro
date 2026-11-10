@@ -1,7 +1,7 @@
 {
   "date": "09-04-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:04.388967",
+  "scraped_at": "2026-11-10T06:33:20.574686",
   "programs": [
     {
       "time": "07:00",
@@ -608,22 +608,20 @@
       "time": "00:35",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "GOLF : LES MASTERS D'AUGUSTA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Foofur Les télébugs Dixième Festival mondial du cirque de Paris",
       "description_lines": [
         "Programme jeunesse",
@@ -635,7 +633,7 @@
     {
       "time": "08:00",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -644,21 +642,21 @@
     {
       "time": "08:30",
       "title": "JE HAIS LES BLONDES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:15",
       "title": "DUNE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "BRAVESTARR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -667,14 +665,14 @@
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "SAMEDI, 1 HEURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine d'actualité",
       "description_lines": [
         "Magazine d'actualité"
@@ -683,14 +681,14 @@
     {
       "time": "14:00",
       "title": "LE MONDE DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:55",
       "title": "FLIC À TOUT FAIRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine avec John Ritter, Barbara Bosson, Sidney Walsh",
       "description_lines": [
         "Série américaine avec John Ritter, Barbara Bosson, Sidney Walsh"
@@ -699,7 +697,7 @@
     {
       "time": "15:20",
       "title": "THROB",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -708,7 +706,7 @@
     {
       "time": "15:40",
       "title": "STALAG 13",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -717,14 +715,14 @@
     {
       "time": "16:05",
       "title": "KOPJES-DES ILES DANS UN OCEAN D'HERBE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "16:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Rambo Pitou SOS fantômes Rahan",
       "description_lines": [
         "Programme jeunesse",
@@ -737,14 +735,14 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:18",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -753,14 +751,14 @@
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "MON ZÉNITH À MOI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -769,7 +767,7 @@
     {
       "time": "20:30",
       "title": "LE HIT-PARADE DU SIECLE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -778,59 +776,58 @@
     {
       "time": "22:55",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:00",
       "title": "SANG POUR SANG",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:35",
       "title": "GOLF : LES MASTERS D'AUGUSTA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:35",
       "title": "THE FAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:05",
       "title": "UNE BELLE PRISE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:10",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "06:05",
       "title": "MR GUN",
-      "channel": "FR3",
-      "description": "Série américaine LA 5",
+      "channel": "Canal+",
+      "description": "Série américaine",
       "description_lines": [
-        "Série américaine",
-        "LA 5"
+        "Série américaine"
       ]
     },
     {
       "time": "07:00",
       "title": "KING ARTHUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -839,7 +836,7 @@
     {
       "time": "07:25",
       "title": "LE MONDE ENCHANTÉ DE LALABEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -848,14 +845,14 @@
     {
       "time": "07:50",
       "title": "EMBRASSE-MOI LUCILE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:15",
       "title": "SHÉRIF, FAIS-MOI PEUR !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -864,14 +861,14 @@
     {
       "time": "09:05",
       "title": "BUCK ROGERS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:50",
       "title": "KOJAK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -880,7 +877,7 @@
     {
       "time": "10:40",
       "title": "BARETTA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -889,14 +886,14 @@
     {
       "time": "11:30",
       "title": "TITRES DU 13H",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:35",
       "title": "CIRCUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Magazine des sports mécaniques",
       "description_lines": [
         "Magazine des sports mécaniques"
@@ -905,7 +902,7 @@
     {
       "time": "12:00",
       "title": "RÉUSSITES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Patrick de Carolis",
       "description_lines": [
         "Présenté par Patrick de Carolis"
@@ -914,7 +911,7 @@
     {
       "time": "12:30",
       "title": "REPORTERS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Patrick de Carolis",
       "description_lines": [
         "Présenté par Patrick de Carolis"
@@ -923,21 +920,21 @@
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:15",
       "title": "LE BEST OFF",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "A FOND LA CAISSE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Superminds Galactica Wonder Woman",
       "description_lines": [
         "Superminds",
@@ -948,7 +945,7 @@
     {
       "time": "16:10",
       "title": "CHILDERIC",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Childéric Muller",
       "description_lines": [
         "Présenté par Childéric Muller"
@@ -957,7 +954,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Captain Power Jeanne et Serge Princesse Sarah Flo et les Robinson suisses Le tour du monde de Lydie",
       "description_lines": [
         "Captain Power",
@@ -970,14 +967,14 @@
     {
       "time": "18:55",
       "title": "IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:05",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu animé par Michel Robbe",
       "description_lines": [
         "Jeu animé par Michel Robbe"
@@ -986,14 +983,14 @@
     {
       "time": "19:30",
       "title": "TITRES DU 20H",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "BOULEVARD BOUVARD SPECIAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Avec Philippe Bouvard",
       "description_lines": [
         "Avec Philippe Bouvard"
@@ -1002,7 +999,7 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Marie-France Cubadda",
       "description_lines": [
         "Présenté par Marie-France Cubadda"
@@ -1011,14 +1008,14 @@
     {
       "time": "20:30",
       "title": "COMMANDO LEOPARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "INSPECTEUR DERRICK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série policière allemande",
       "description_lines": [
         "Série policière allemande"
@@ -1027,7 +1024,7 @@
     {
       "time": "23:15",
       "title": "TELE MATCHES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Pierre Cangioni",
       "description_lines": [
         "Présenté par Pierre Cangioni"
@@ -1036,14 +1033,14 @@
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:35",
       "title": "CIRCUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Magazine des sports mécaniques",
       "description_lines": [
         "Magazine des sports mécaniques"
@@ -1052,7 +1049,7 @@
     {
       "time": "02:00",
       "title": "THRILLER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série fantastique britannique",
       "description_lines": [
         "Série fantastique britannique"
@@ -1061,7 +1058,7 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

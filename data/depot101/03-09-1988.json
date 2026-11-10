@@ -1,7 +1,7 @@
 {
   "date": "03-09-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:51:24.086259",
+  "scraped_at": "2026-11-10T06:32:11.837539",
   "programs": [
     {
       "time": "06:55",
@@ -634,15 +634,13 @@
       "time": "00:40",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -651,7 +649,7 @@
     {
       "time": "07:25",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Le Rossignol de l'Empereur de Chine",
       "description_lines": [
         "Programme jeunesse",
@@ -661,7 +659,7 @@
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -670,7 +668,7 @@
     {
       "time": "08:15",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Grisou, le petit dragon Xè Festival du cirque de Paris Tchécoslovaquie",
       "description_lines": [
         "Programme jeunesse",
@@ -682,35 +680,35 @@
     {
       "time": "09:05",
       "title": "LA LOI DE MURPHY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:45",
       "title": "MON BEL AMOUR, MA DECHIRURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "SAMEDI, 1 HEURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine d'actualité",
       "description_lines": [
         "Magazine d'actualité"
@@ -719,21 +717,21 @@
     {
       "time": "14:00",
       "title": "LA GOUVERNANTE DIABOLIQUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:15",
       "title": "SURPRISES : MERLIN OU LE COURS DE L'OR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:40",
       "title": "LES ALLUMÉS DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -742,14 +740,14 @@
     {
       "time": "16:05",
       "title": "PAIRE D'AS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:00",
       "title": "OHARA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -758,7 +756,7 @@
     {
       "time": "17:50",
       "title": "LA MALÉDICTION DU LOUP-GAROU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -767,7 +765,7 @@
     {
       "time": "18:10",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Moi Renart SOS fantômes Comte Mordicus",
       "description_lines": [
         "Programme jeunesse",
@@ -779,14 +777,14 @@
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -795,72 +793,70 @@
     {
       "time": "20:30",
       "title": "AU NOM DE LA RACE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:55",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:05",
       "title": "LES SUPERS SAMEDIS SOIRS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:15",
       "title": "CONCERT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "MARYLIN MON AMOUR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:25",
       "title": "SECURITE PUBLIQUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:00",
       "title": "BLOODY BIRD",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:00",
       "title": "OPERATION JULIE",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "05:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "SANDY JONQUILLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -869,7 +865,7 @@
     {
       "time": "08:25",
       "title": "LES SCHTROUMPFS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -878,7 +874,7 @@
     {
       "time": "08:50",
       "title": "LE MONDE ENCHANTÉ DE LALABEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -887,7 +883,7 @@
     {
       "time": "09:15",
       "title": "CAPITOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -896,7 +892,7 @@
     {
       "time": "09:35",
       "title": "VIVE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française. Rediffusion",
       "description_lines": [
         "Série française. Rediffusion"
@@ -905,7 +901,7 @@
     {
       "time": "10:00",
       "title": "ANNE, JOUR APRÈS JOUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français avec Sophie Barjac",
       "description_lines": [
         "Feuilleton français avec Sophie Barjac"
@@ -914,7 +910,7 @@
     {
       "time": "10:25",
       "title": "SCHULMEISTER, L'ESPION DE L'EMPEREUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -923,7 +919,7 @@
     {
       "time": "11:10",
       "title": "AUTOMAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -932,7 +928,7 @@
     {
       "time": "12:00",
       "title": "CAPITOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -941,14 +937,14 @@
     {
       "time": "12:25",
       "title": "TITRES DU 13H00",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "REPORTERS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Magazine de Patrick de Carolis",
       "description_lines": [
         "Magazine de Patrick de Carolis"
@@ -957,7 +953,7 @@
     {
       "time": "13:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Gilles Schneider",
       "description_lines": [
         "Présenté par Gilles Schneider"
@@ -966,14 +962,14 @@
     {
       "time": "13:15",
       "title": "LE BEST OFF",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Variétés Amicalement votre Actualités d'antant Bonanza Capitaine Furillo",
       "description_lines": [
         "Variétés",
@@ -986,7 +982,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Sandy Jonquille Les Schtroumpfs Le monde enchanté de Lalabel",
       "description_lines": [
         "Sandy Jonquille",
@@ -997,7 +993,7 @@
     {
       "time": "18:10",
       "title": "AUTOMAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1006,14 +1002,14 @@
     {
       "time": "18:55",
       "title": "IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:05",
       "title": "L'HOMME QUI VALAIT TROIS MILLIARDS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1022,7 +1018,7 @@
     {
       "time": "20:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Marie-France Cubadda",
       "description_lines": [
         "Présenté par Marie-France Cubadda"
@@ -1031,14 +1027,14 @@
     {
       "time": "20:30",
       "title": "TIMIDE ET SANS COMPLEXE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:20",
       "title": "TÉLÉ-MATCHS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Magazine sportif",
       "description_lines": [
         "Magazine sportif"
@@ -1047,28 +1043,28 @@
     {
       "time": "22:25",
       "title": "TENNIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "TENNIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:05",
       "title": "CAPITAINE FURILLO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1077,14 +1073,14 @@
     {
       "time": "01:50",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:55",
       "title": "ANNE, JOUR APRÈS JOUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français avec Sophie Barjac",
       "description_lines": [
         "Feuilleton français avec Sophie Barjac"
@@ -1093,7 +1089,7 @@
     {
       "time": "02:20",
       "title": "SCHULMEISTER, L'ESPION DE L'EMPEREUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -1102,7 +1098,7 @@
     {
       "time": "03:10",
       "title": "VIVE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française. Rediffusion",
       "description_lines": [
         "Série française. Rediffusion"
@@ -1111,7 +1107,7 @@
     {
       "time": "03:40",
       "title": "LE CLAN BEAULIEU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton canadien",
       "description_lines": [
         "Feuilleton canadien"
@@ -1120,7 +1116,7 @@
     {
       "time": "04:30",
       "title": "TOP NUGGETS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

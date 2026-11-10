@@ -1,7 +1,7 @@
 {
   "date": "11-09-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:17.129870",
+  "scraped_at": "2026-11-10T06:33:41.172201",
   "programs": [
     {
       "time": "05:30",
@@ -595,15 +595,13 @@
       "time": "23:50",
       "title": "MUSIQUES, MUSIQUE",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "05:25",
       "title": "SOUS LES ÉTOILES DE NEW YORK",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain (1985)",
       "description_lines": [
         "Téléfilm américain (1985)"
@@ -612,7 +610,7 @@
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -621,14 +619,14 @@
     {
       "time": "07:50",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:35",
       "title": "DAKOTA HARRIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film australien (1985)",
       "description_lines": [
         "Film australien (1985)"
@@ -637,7 +635,7 @@
     {
       "time": "11:00",
       "title": "LES FUGITIFS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1986)",
       "description_lines": [
         "Film français (1986)"
@@ -646,7 +644,7 @@
     {
       "time": "12:30",
       "title": "AVANCE SUR IMAGE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine de la vidéo",
       "description_lines": [
         "Magazine de la vidéo"
@@ -655,14 +653,14 @@
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "MON ZÉNITH À MOI - BERNARD TAPIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -671,7 +669,7 @@
     {
       "time": "14:00",
       "title": "SIR ANTHONY BLUNT, ESPION",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm anglais (1986)",
       "description_lines": [
         "Téléfilm anglais (1986)"
@@ -680,28 +678,28 @@
     {
       "time": "15:30",
       "title": "ANIMAUX DU SOLEIL - TIMOR, ÎLE DE LUMIÈRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:55",
       "title": "FESTIVAL MONDIAL DU CIRQUE DE DEMAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:00",
       "title": "FOOTBALL AMÉRICAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:00",
       "title": "LA COCCINELLE À MONTE-CARLO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1977)",
       "description_lines": [
         "Film américain (1977)"
@@ -710,14 +708,14 @@
     {
       "time": "19:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:45",
       "title": "CA CARTOON !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -726,7 +724,7 @@
     {
       "time": "20:35",
       "title": "AGENT TROUBLE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film français (1987)",
       "description_lines": [
         "film français (1987)"
@@ -735,14 +733,14 @@
     {
       "time": "21:55",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:00",
       "title": "LES INCONNUS DANS LA MAISON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film français (1942)",
       "description_lines": [
         "film français (1942)"
@@ -751,7 +749,7 @@
     {
       "time": "23:30",
       "title": "FUNNY BOY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film français (1987)",
       "description_lines": [
         "film français (1987)"
@@ -760,7 +758,7 @@
     {
       "time": "01:00",
       "title": "MARILYN MON AMOUR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film français classé X (1983)",
       "description_lines": [
         "film français classé X (1983)"
@@ -769,24 +767,23 @@
     {
       "time": "02:15",
       "title": "LA MALÉDICTION DU LOUP-GAROU",
-      "channel": "FR3",
-      "description": "Série américaine LA 5",
+      "channel": "Canal+",
+      "description": "Série américaine",
       "description_lines": [
-        "Série américaine",
-        "LA 5"
+        "Série américaine"
       ]
     },
     {
       "time": "05:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "LES AVENTURES DE PETIT KOALA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -795,7 +792,7 @@
     {
       "time": "07:55",
       "title": "VANESSA ET LA MAGIE DES RÊVES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -804,7 +801,7 @@
     {
       "time": "08:20",
       "title": "SANDY JONQUILLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -813,7 +810,7 @@
     {
       "time": "08:45",
       "title": "LE MAGICIEN D'OZ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -822,7 +819,7 @@
     {
       "time": "09:05",
       "title": "LE MONDE ENCHANTÉ DE LALABEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -831,7 +828,7 @@
     {
       "time": "09:30",
       "title": "ROBOTECH - LE TOURNANT SPATIAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -840,7 +837,7 @@
     {
       "time": "10:30",
       "title": "CAPTAIN POWER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -849,7 +846,7 @@
     {
       "time": "10:55",
       "title": "MATTHEW STAR - PRÉMONITIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -858,7 +855,7 @@
     {
       "time": "11:45",
       "title": "CAPTAIN POWER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -867,7 +864,7 @@
     {
       "time": "12:10",
       "title": "INSIDERS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -876,14 +873,14 @@
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:25",
       "title": "RECONNUE COUPABLE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm américain",
       "description_lines": [
         "Téléfilm américain"
@@ -892,7 +889,7 @@
     {
       "time": "15:10",
       "title": "POUR L'AMOUR D'UN JEU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm américain",
       "description_lines": [
         "Téléfilm américain"
@@ -901,7 +898,7 @@
     {
       "time": "16:45",
       "title": "TÉLÉ-MATCHS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Magazine sportif de Pierre Cangioni",
       "description_lines": [
         "Magazine sportif de Pierre Cangioni"
@@ -910,7 +907,7 @@
     {
       "time": "18:00",
       "title": "AMICALEMENT VOTRE - LE COUREUR DE DOT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série britannique",
       "description_lines": [
         "Série britannique"
@@ -919,14 +916,14 @@
     {
       "time": "18:55",
       "title": "LE JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:05",
       "title": "L'HOMME QUI VALAIT TROIS MILLARDS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -935,14 +932,14 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "LE JUSTICIER DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Film américain (1983)",
       "description_lines": [
         "Film américain (1983)"
@@ -951,7 +948,7 @@
     {
       "time": "22:30",
       "title": "TENNIS - US OPEN À FLUSHING MEADOW",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

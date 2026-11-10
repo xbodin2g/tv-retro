@@ -1,7 +1,7 @@
 {
   "date": "13-04-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:27.069541",
+  "scraped_at": "2026-11-10T06:33:54.335567",
   "programs": [
     {
       "time": "06:45",
@@ -741,15 +741,13 @@
       "time": "00:05",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -758,7 +756,7 @@
     {
       "time": "07:25",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -767,7 +765,7 @@
     {
       "time": "07:26",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Bravestarr",
       "description_lines": [
         "Programme jeunesse",
@@ -777,7 +775,7 @@
     {
       "time": "07:45",
       "title": "WOODY WOODPECKER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -786,7 +784,7 @@
     {
       "time": "08:00",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -795,7 +793,7 @@
     {
       "time": "08:25",
       "title": "LA BOUTIQUE CANAL +",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Maryse et Jérôme Bonaldi",
       "description_lines": [
         "Présenté par Maryse et Jérôme Bonaldi"
@@ -804,35 +802,35 @@
     {
       "time": "08:50",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:00",
       "title": "LE CLOCHARD DE BEVERLY HILLS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:35",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:40",
       "title": "ESCROC, MACHO ET GIGOLO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:15",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse Barnabulle",
       "description_lines": [
         "Programme jeunesse",
@@ -842,7 +840,7 @@
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Risoli",
       "description_lines": [
         "Présenté par Philippe Risoli"
@@ -851,14 +849,14 @@
     {
       "time": "14:00",
       "title": "VICTOR : COURS D'ANGLAIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:10",
       "title": "UN FLIC DANS LA MAFIA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -867,7 +865,7 @@
     {
       "time": "15:00",
       "title": "LES ALLUMÉS DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -876,14 +874,14 @@
     {
       "time": "15:25",
       "title": "ROSIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:00",
       "title": "THÉRION STRATAGÈME",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire en 2 parties",
       "description_lines": [
         "Documentaire en 2 parties"
@@ -892,7 +890,7 @@
     {
       "time": "17:20",
       "title": "MAX HEADROOM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -901,7 +899,7 @@
     {
       "time": "17:45",
       "title": "THROB",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -910,21 +908,21 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:16",
       "title": "DESSINS ANIMÉS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:25",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -933,7 +931,7 @@
     {
       "time": "18:26",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -942,7 +940,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu animé par Alexandra Kazan",
       "description_lines": [
         "Jeu animé par Alexandra Kazan"
@@ -951,7 +949,7 @@
     {
       "time": "19:20",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Avec Philippe Gildas et Les Nuls",
       "description_lines": [
         "Avec Philippe Gildas et Les Nuls"
@@ -960,14 +958,14 @@
     {
       "time": "20:05",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "FOOTBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Commenté par Michel Denisot, Pierre Sled et Charles Biétry",
       "description_lines": [
         "Commenté par Michel Denisot, Pierre Sled et Charles Biétry"
@@ -976,14 +974,14 @@
     {
       "time": "22:35",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:40",
       "title": "BOXE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Retransmission sportive",
       "description_lines": [
         "Retransmission sportive"
@@ -992,21 +990,21 @@
     {
       "time": "00:00",
       "title": "THE FAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:30",
       "title": "SANS DOMICILE FIXE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:25",
       "title": "FLIC À TOUT FAIRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine avec John Ritter, Barbara Bosson, Sidney Walsh",
       "description_lines": [
         "Série américaine avec John Ritter, Barbara Bosson, Sidney Walsh"
@@ -1015,23 +1013,21 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "05:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:15",
       "title": "KING ARTHUR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1040,14 +1036,14 @@
     {
       "time": "07:40",
       "title": "FLO ET LES ROBINSON SUISSES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:05",
       "title": "LE TOUR DU MONDE DE LYDIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1056,7 +1052,7 @@
     {
       "time": "08:30",
       "title": "PRINCESSE SARAH",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -1065,7 +1061,7 @@
     {
       "time": "08:55",
       "title": "T'AS L'BONJOUR D'ALBERT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -1074,28 +1070,28 @@
     {
       "time": "09:20",
       "title": "TOP NUGGETS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:45",
       "title": "TELE CHOUCHOU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:00",
       "title": "SPENSER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:50",
       "title": "BARETTA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1104,14 +1100,14 @@
     {
       "time": "11:30",
       "title": "TITRES DU 12H30",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:40",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -1120,7 +1116,7 @@
     {
       "time": "12:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -1129,7 +1125,7 @@
     {
       "time": "12:30",
       "title": "LE JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Jean-Claude Bourret",
       "description_lines": [
         "Présenté par Jean-Claude Bourret"
@@ -1138,7 +1134,7 @@
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Jean-Claude Bourret",
       "description_lines": [
         "Présenté par Jean-Claude Bourret"
@@ -1147,7 +1143,7 @@
     {
       "time": "13:35",
       "title": "A FOND LA CAISSE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Matthew Star Galactica Shérif, fais-moi peur !",
       "description_lines": [
         "Matthew Star",
@@ -1158,7 +1154,7 @@
     {
       "time": "16:10",
       "title": "CHILDÉRIC",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de variété. Présentation : Childéric",
       "description_lines": [
         "Emission de variété. Présentation : Childéric"
@@ -1167,7 +1163,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "VANESSA Jeanne et Serge Princesse Sarah Le monde enchanté de Lalabel Embrasse-moi Lucile",
       "description_lines": [
         "VANESSA",
@@ -1180,14 +1176,14 @@
     {
       "time": "18:55",
       "title": "IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu animé par Michel Robbe",
       "description_lines": [
         "Jeu animé par Michel Robbe"
@@ -1196,7 +1192,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -1205,7 +1201,7 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Guillaume Durand",
       "description_lines": [
         "Présenté par Guillaume Durand"
@@ -1214,14 +1210,14 @@
     {
       "time": "20:30",
       "title": "AUTOPSIE D'UN CRIME",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "LES POLARS DE LA 5",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "La Loi de Los Angeles Mission impossible",
       "description_lines": [
         "La Loi de Los Angeles",
@@ -1231,7 +1227,7 @@
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Avec Pascal Pinning et Etienne Leenhardt",
       "description_lines": [
         "Avec Pascal Pinning et Etienne Leenhardt"
@@ -1240,7 +1236,7 @@
     {
       "time": "00:05",
       "title": "MATTHEW STAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1249,14 +1245,14 @@
     {
       "time": "01:00",
       "title": "GALACTICA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:55",
       "title": "CHILDÉRIC",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de variété. Présentation : Childéric",
       "description_lines": [
         "Emission de variété. Présentation : Childéric"
@@ -1265,7 +1261,7 @@
     {
       "time": "02:40",
       "title": "ARIA DE RÊVE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Musique classique",
       "description_lines": [
         "Musique classique"
@@ -1274,7 +1270,7 @@
     {
       "time": "03:10",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

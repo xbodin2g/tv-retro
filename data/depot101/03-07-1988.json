@@ -1,7 +1,7 @@
 {
   "date": "03-07-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:51:21.486845",
+  "scraped_at": "2026-11-10T06:32:08.441516",
   "programs": [
     {
       "time": "06:55",
@@ -541,15 +541,13 @@
       "time": "00:10",
       "title": "MUSIQUES, MUSIQUE - TOOTS THIELEMANS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -558,7 +556,7 @@
     {
       "time": "07:50",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission jeunesse Moi, Renart Rambo",
       "description_lines": [
         "Emission jeunesse",
@@ -569,7 +567,7 @@
     {
       "time": "08:45",
       "title": "L'APICULTEUR",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1986)",
       "description_lines": [
         "Film français (1986)"
@@ -577,18 +575,17 @@
     },
     {
       "time": "10:45",
-      "title": "10:45",
-      "channel": "FR3",
-      "description": "ATTENTION BANDITS Film français (1987)",
+      "title": "ATTENTION BANDITS",
+      "channel": "Canal+",
+      "description": "Film français (1987)",
       "description_lines": [
-        "ATTENTION BANDITS",
         "Film français (1987)"
       ]
     },
     {
       "time": "12:30",
       "title": "SOS FANTÔMES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -597,14 +594,14 @@
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "MAX HEADROOM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -613,14 +610,14 @@
     {
       "time": "13:30",
       "title": "SPORTQUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:00",
       "title": "BERGERAC - RENDEZ-VOUS À MOSCOU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série britannique",
       "description_lines": [
         "Série britannique"
@@ -629,7 +626,7 @@
     {
       "time": "14:50",
       "title": "LES DERNIERS JOURS DE PATTON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain (1986)",
       "description_lines": [
         "Téléfilm américain (1986)"
@@ -638,7 +635,7 @@
     {
       "time": "17:10",
       "title": "UN FLIC DANS LA MAFIA - LE JOUEUR SUPPLÉMENTAIRE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine avec Ken Wahl, Jonathan Banks",
       "description_lines": [
         "Série américaine avec Ken Wahl, Jonathan Banks"
@@ -647,7 +644,7 @@
     {
       "time": "18:00",
       "title": "LE RETOUR DU CHINOIS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1984)",
       "description_lines": [
         "Film américain (1984)"
@@ -656,14 +653,14 @@
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "CA CARTOON !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -672,7 +669,7 @@
     {
       "time": "20:30",
       "title": "RAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film franco-japonais (1985)",
       "description_lines": [
         "Film franco-japonais (1985)"
@@ -681,14 +678,14 @@
     {
       "time": "23:10",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:15",
       "title": "RAY BRADBURY PRÉSENTE - CHÂTIMENT SANS CRIME",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série franco anglo-canadienne en 18 épisodes",
       "description_lines": [
         "Série franco anglo-canadienne en 18 épisodes"
@@ -697,7 +694,7 @@
     {
       "time": "23:40",
       "title": "LÉO LE DERNIER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film anglais (1970)",
       "description_lines": [
         "Film anglais (1970)"
@@ -706,24 +703,23 @@
     {
       "time": "01:25",
       "title": "LES NUITS DE LA VIOLENCE",
-      "channel": "FR3",
-      "description": "Film américain (1979) LA 5",
+      "channel": "Canal+",
+      "description": "Film américain (1979)",
       "description_lines": [
-        "Film américain (1979)",
-        "LA 5"
+        "Film américain (1979)"
       ]
     },
     {
       "time": "05:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:00",
       "title": "LES SCHTROUMPFS - AZRAËL EST GÉNIAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -732,7 +728,7 @@
     {
       "time": "08:25",
       "title": "DANS LES ALPES AVEC ANNETTE - L'INTIMITÉ RETROUVÉE - LES NOUVEAUX AMIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -741,7 +737,7 @@
     {
       "time": "09:15",
       "title": "EMI MAGIQUE - UN AMOUR DE POUPÉE - ESPRIT D'ÉQUIPE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -750,14 +746,14 @@
     {
       "time": "10:05",
       "title": "TOP NUGGETS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "AUTOMAN - CLUB DIX",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -766,7 +762,7 @@
     {
       "time": "11:20",
       "title": "WONDER WOMAN - OVNI SOIT QUI MAL Y PENSE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine. Avec Lynda Carter",
       "description_lines": [
         "Série américaine. Avec Lynda Carter"
@@ -775,7 +771,7 @@
     {
       "time": "12:10",
       "title": "SUPERMINDS - LE MALÉFICE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -784,14 +780,14 @@
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "L'HOMME DE L'ATLANTIDE - LA SIRÈNE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine avec Patrick Duffy, Belinda J. Montgomery. Rediffusion",
       "description_lines": [
         "Série américaine avec Patrick Duffy, Belinda J. Montgomery. Rediffusion"
@@ -800,7 +796,7 @@
     {
       "time": "14:25",
       "title": "LA GRANDE VALLÉE - LA FIN ET LES MOYENS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -809,7 +805,7 @@
     {
       "time": "15:20",
       "title": "MISSION IMPOSSIBLE - LA LETTRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -818,7 +814,7 @@
     {
       "time": "16:15",
       "title": "STAR TREK - LA CONSCIENCE DU ROI",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -827,7 +823,7 @@
     {
       "time": "17:10",
       "title": "SHERIF, FAIS-MOI PEUR ! - RIEN QUE LA VÉRITÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -836,7 +832,7 @@
     {
       "time": "18:05",
       "title": "MONDO DINGO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission présentée par Stéphane Collaro. Extraits de Cocoboy et d'émissions d'humour internationales",
       "description_lines": [
         "Emission présentée par Stéphane Collaro. Extraits de Cocoboy et d'émissions d'humour internationales"
@@ -845,14 +841,14 @@
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:05",
       "title": "L'HOMME QUI VALAIT TROIS MILLARDS - COMPTE À REBOURS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -861,14 +857,14 @@
     {
       "time": "20:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:35",
       "title": "UN COUP DE FOLIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm américain (1986). Avec Rosanna Arquette, Eric Roberts",
       "description_lines": [
         "Téléfilm américain (1986). Avec Rosanna Arquette, Eric Roberts"
@@ -877,7 +873,7 @@
     {
       "time": "22:35",
       "title": "PRINCE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -886,7 +882,7 @@
     {
       "time": "23:25",
       "title": "STAR TREK - LA CONSCIENCE DU ROI",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -895,7 +891,7 @@
     {
       "time": "00:30",
       "title": "L'HOMME DE L'ATLANTIDE - LA SIRÈNE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine avec Patrick Duffy, Belinda J. Montgomery. Rediffusion",
       "description_lines": [
         "Série américaine avec Patrick Duffy, Belinda J. Montgomery. Rediffusion"
@@ -904,7 +900,7 @@
     {
       "time": "01:20",
       "title": "LA GRANDE VALLÉE - LA FIN ET LES MOYENS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -913,14 +909,14 @@
     {
       "time": "02:10",
       "title": "LE JOURNAL DE LA NUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:15",
       "title": "WONDER WOMAN - OVNI SOIT QUI MAL Y PENSE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine. Avec Lynda Carter",
       "description_lines": [
         "Série américaine. Avec Lynda Carter"
@@ -929,7 +925,7 @@
     {
       "time": "03:05",
       "title": "SUPERMINDS - LE MALÉFICE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -938,7 +934,7 @@
     {
       "time": "03:55",
       "title": "TOP NUGGETS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

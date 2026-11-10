@@ -1,7 +1,7 @@
 {
   "date": "31-12-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:53:14.538296",
+  "scraped_at": "2026-11-10T06:35:14.329576",
   "programs": [
     {
       "time": "06:25",
@@ -646,15 +646,13 @@
       "time": "02:25",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Dana",
       "description_lines": [
         "Présenté par Philippe Dana"
@@ -663,7 +661,7 @@
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Dan Rather",
       "description_lines": [
         "Présenté par Dan Rather"
@@ -672,7 +670,7 @@
     {
       "time": "08:15",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -681,35 +679,35 @@
     {
       "time": "09:05",
       "title": "L'ESPION AUX PATTES DE VELOURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "L'ETOFFE DES HEROS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:05",
       "title": "SAMEDI, 1 HEURE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine d'actualité",
       "description_lines": [
         "Magazine d'actualité"
@@ -718,14 +716,14 @@
     {
       "time": "14:00",
       "title": "LE SERMENT DU SANG",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:40",
       "title": "LES ALLUMÉS DU SPORT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire",
       "description_lines": [
         "Documentaire"
@@ -734,7 +732,7 @@
     {
       "time": "16:05",
       "title": "PAIRE D'AS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -743,7 +741,7 @@
     {
       "time": "17:00",
       "title": "OHARA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -752,7 +750,7 @@
     {
       "time": "17:50",
       "title": "T.N.T.",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série canado-américaine",
       "description_lines": [
         "Série canado-américaine"
@@ -761,7 +759,7 @@
     {
       "time": "18:15",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -770,14 +768,14 @@
     {
       "time": "19:30",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:35",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -786,7 +784,7 @@
     {
       "time": "20:30",
       "title": "PALACE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Emission humoristique",
       "description_lines": [
         "Emission humoristique"
@@ -795,7 +793,7 @@
     {
       "time": "21:55",
       "title": "ORANGS-OUTANGS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire animalier",
       "description_lines": [
         "Documentaire animalier"
@@ -804,65 +802,63 @@
     {
       "time": "22:45",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:50",
       "title": "SURPRISE : SPECIAL COLUCHE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:55",
       "title": "LA CHEVAUCHEE FANTASTIQUE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:20",
       "title": "L'EQUIPEE DU CANNONBALL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:00",
       "title": "NOYADE INTERDITE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:40",
       "title": "AVRIL BRISE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:20",
       "title": "LE VAGABOND DE NOEL",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:30",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "YOUPI !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les aventures de Claire et Tipoune Creamy, merveilleuse creamy Pollyanna Les Schtroumpfs",
       "description_lines": [
         "Les aventures de Claire et Tipoune",
@@ -874,14 +870,14 @@
     {
       "time": "09:10",
       "title": "TÉLÉ-CHOUCHOU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:15",
       "title": "VOISIN, VOISINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -890,7 +886,7 @@
     {
       "time": "10:05",
       "title": "LES BRIGADES DU TIGRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série télé française",
       "description_lines": [
         "Série télé française"
@@ -899,14 +895,14 @@
     {
       "time": "11:05",
       "title": "SPÉCIAL PARIS-DAKAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:00",
       "title": "REPORTERS SPECIAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Patrick de Carolis",
       "description_lines": [
         "Présenté par Patrick de Carolis"
@@ -915,7 +911,7 @@
     {
       "time": "13:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Marie-France Cubadda",
       "description_lines": [
         "Présenté par Marie-France Cubadda"
@@ -924,7 +920,7 @@
     {
       "time": "13:25",
       "title": "LE BEST OFF",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Avec Gilles Schneider",
       "description_lines": [
         "Avec Gilles Schneider"
@@ -933,7 +929,7 @@
     {
       "time": "13:30",
       "title": "A FOND LA CAISSE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "CHASSEURS D'OMBRES K2000 Sherif, fais-moi peur !",
       "description_lines": [
         "CHASSEURS D'OMBRES",
@@ -944,7 +940,7 @@
     {
       "time": "16:25",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Les Schtroumpfs Le magicien d'Oz L'histoire du père noel Cynthia ou le rythme de la vie Olive et Tom champions de foot",
       "description_lines": [
         "Les Schtroumpfs",
@@ -957,21 +953,21 @@
     {
       "time": "18:30",
       "title": "SPÉCIAL PARIS-DAKAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "ALI BABA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Avec Michel Robbe",
       "description_lines": [
         "Avec Michel Robbe"
@@ -980,7 +976,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -989,7 +985,7 @@
     {
       "time": "20:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Marie-France Cubadda",
       "description_lines": [
         "Présenté par Marie-France Cubadda"
@@ -998,7 +994,7 @@
     {
       "time": "20:30",
       "title": "DEUX FLICS À MIAMI",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1007,42 +1003,42 @@
     {
       "time": "22:30",
       "title": "PARIS-DAKAR SPECIAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:30",
       "title": "CONCERT DES GIPSY KINGS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:00",
       "title": "LE JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "CONCERT DES GIPSY KINGS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:10",
       "title": "FELICITY",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "01:40",
       "title": "DEUX FLICS À MIAMI",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1051,14 +1047,14 @@
     {
       "time": "03:20",
       "title": "BOUJENAH, L'ANGE GARDIEN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:10",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -1067,7 +1063,7 @@
     {
       "time": "04:35",
       "title": "LES BRIGADES DU TIGRE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série télé française",
       "description_lines": [
         "Série télé française"
@@ -1076,7 +1072,7 @@
     {
       "time": "05:35",
       "title": "CONCERT DES GIPSY KINGS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

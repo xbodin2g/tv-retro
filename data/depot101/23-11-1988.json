@@ -1,7 +1,7 @@
 {
   "date": "23-11-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:47.273570",
+  "scraped_at": "2026-11-10T06:34:23.787134",
   "programs": [
     {
       "time": "06:25",
@@ -725,15 +725,13 @@
       "time": "00:35",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -742,7 +740,7 @@
     {
       "time": "07:45",
       "title": "VIRGUL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -751,21 +749,21 @@
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:15",
       "title": "LA BOUTIQUE CANAL+",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:45",
       "title": "KEAN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Pièce de théâtre avec Jean-Paul Belmondo",
       "description_lines": [
         "Pièce de théâtre avec Jean-Paul Belmondo"
@@ -774,14 +772,14 @@
     {
       "time": "11:40",
       "title": "AU COEUR DU KALAHARI - UN PARADIS MENACÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:15",
       "title": "DEMAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -790,7 +788,7 @@
     {
       "time": "12:40",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "et à 18h45, 19h40, 20h25, 22h20",
       "description_lines": [
         "et à 18h45, 19h40, 20h25, 22h20"
@@ -799,7 +797,7 @@
     {
       "time": "13:00",
       "title": "PLUS OU MOINS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu présenté par Sophie Garel",
       "description_lines": [
         "Jeu présenté par Sophie Garel"
@@ -808,7 +806,7 @@
     {
       "time": "13:30",
       "title": "CONDAMNÉE AU SILENCE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm (1987)",
       "description_lines": [
         "Téléfilm (1987)"
@@ -817,7 +815,7 @@
     {
       "time": "15:05",
       "title": "LA MALÉDICTION DU LOUP-GAROU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -826,7 +824,7 @@
     {
       "time": "15:30",
       "title": "ECHEC AU ROI",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Téléfilm américain (1984)",
       "description_lines": [
         "Téléfilm américain (1984)"
@@ -835,7 +833,7 @@
     {
       "time": "17:35",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -844,14 +842,14 @@
     {
       "time": "18:30",
       "title": "CA CARTOON",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:50",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Hit-parade national des 45 tours",
       "description_lines": [
         "Hit-parade national des 45 tours"
@@ -860,21 +858,21 @@
     {
       "time": "19:30",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "CINÉMA DANS LES SALLES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "21:00",
       "title": "FUCKING FERNAND",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1987)",
       "description_lines": [
         "Film français (1987)"
@@ -883,7 +881,7 @@
     {
       "time": "22:25",
       "title": "POLICE ACADEMY",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film américain (1983)",
       "description_lines": [
         "Film américain (1983)"
@@ -892,7 +890,7 @@
     {
       "time": "00:00",
       "title": "LE CHARME DISCRET DE LA BOURGOISIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film français (1972)",
       "description_lines": [
         "Film français (1972)"
@@ -901,14 +899,14 @@
     {
       "time": "01:35",
       "title": "LES SUPERSTARS DU CATCH",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:30",
       "title": "STALAG 13",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -917,23 +915,21 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "06:00",
       "title": "LE JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "YOUPI !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Laura ou la passion du théâtre Vas-y Julie ! Karine, l'aventure du bout du monde Dessin animé non communiqué",
       "description_lines": [
         "Laura ou la passion du théâtre",
@@ -945,14 +941,14 @@
     {
       "time": "09:00",
       "title": "TÉLÉ-CHOUCHOU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:15",
       "title": "VOISIN, VOISINE - RÉACTIONS EN CHAÎNE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -961,7 +957,7 @@
     {
       "time": "10:15",
       "title": "TÉLÉ-AVENTURE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Vive la vie Miss - Miss et la montre de Mozart",
       "description_lines": [
         "Vive la vie",
@@ -971,28 +967,28 @@
     {
       "time": "11:30",
       "title": "TITRES DU 12H30",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:35",
       "title": "TÉLÉ-AVENTURE - SUITE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:30",
       "title": "LE JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Par Jean-Claude Bourret",
       "description_lines": [
         "Par Jean-Claude Bourret"
@@ -1001,7 +997,7 @@
     {
       "time": "13:30",
       "title": "SUPERCOPTER - LA TAUPE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1010,7 +1006,7 @@
     {
       "time": "14:25",
       "title": "K2000 - LES MARCHANDS DE MORT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série télé américaine",
       "description_lines": [
         "Série télé américaine"
@@ -1019,7 +1015,7 @@
     {
       "time": "15:25",
       "title": "SHERIF, FAIS-MOI PEUR ! - PAPY DUKE FAISAIT DE LA RÉSISTANCE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1028,7 +1024,7 @@
     {
       "time": "16:25",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Le tour du monde de Lydie POLYANNA Creamy, merveilleuse creamy En route pour l'aventure Les aventures de Claire et Tipoune Olive et Tom",
       "description_lines": [
         "Le tour du monde de Lydie",
@@ -1042,14 +1038,14 @@
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "ALI BABA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Michel Roobe",
       "description_lines": [
         "Présenté par Michel Roobe"
@@ -1058,7 +1054,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de Philippe Bouvard",
       "description_lines": [
         "Emission de Philippe Bouvard"
@@ -1067,7 +1063,7 @@
     {
       "time": "20:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Par Guillaume Durand",
       "description_lines": [
         "Par Guillaume Durand"
@@ -1076,7 +1072,7 @@
     {
       "time": "20:30",
       "title": "CROSIÈRE EN ENFER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Téléfilm américain",
       "description_lines": [
         "Téléfilm américain"
@@ -1085,14 +1081,14 @@
     {
       "time": "22:25",
       "title": "GENERATION PUB - LES PARENTS DÉBARQUENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:25",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1101,14 +1097,14 @@
     {
       "time": "00:00",
       "title": "JOURNAL DE MINUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:05",
       "title": "SUPERCOPTER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Suite",
       "description_lines": [
         "Suite"
@@ -1117,7 +1113,7 @@
     {
       "time": "00:25",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1126,7 +1122,7 @@
     {
       "time": "01:00",
       "title": "MISS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1135,7 +1131,7 @@
     {
       "time": "01:50",
       "title": "L'ADIEU AUX AS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1144,14 +1140,14 @@
     {
       "time": "02:50",
       "title": "JOURNAL DE LA NUIT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:55",
       "title": "VIVE LA VIE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1160,7 +1156,7 @@
     {
       "time": "03:05",
       "title": "VOISIN, VOISINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Rediffusion",
       "description_lines": [
         "Rediffusion"
@@ -1169,7 +1165,7 @@
     {
       "time": "04:05",
       "title": "LE CLAN BEAULIEU",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton canadien",
       "description_lines": [
         "Feuilleton canadien"
@@ -1178,7 +1174,7 @@
     {
       "time": "04:55",
       "title": "VOISIN, VOISINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"

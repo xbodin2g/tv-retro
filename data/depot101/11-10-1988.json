@@ -1,7 +1,7 @@
 {
   "date": "11-10-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:52:19.316781",
+  "scraped_at": "2026-11-10T06:33:44.229553",
   "programs": [
     {
       "time": "06:27",
@@ -696,15 +696,13 @@
       "time": "22:45",
       "title": "PROGRAMME RÉGIONAL",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -713,35 +711,35 @@
     {
       "time": "07:48",
       "title": "VIRGUL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:50",
       "title": "CBS EVENING NEWS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:15",
       "title": "LA BOUTIQUE CANAL+",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:05",
       "title": "FLASH INFO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:30",
       "title": "KING KONG II",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -750,7 +748,7 @@
     {
       "time": "12:15",
       "title": "DEMAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Michel Denisot",
       "description_lines": [
         "Présenté par Michel Denisot"
@@ -759,7 +757,7 @@
     {
       "time": "13:00",
       "title": "PLUS OU MOINS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu présenté par Sophie Garel",
       "description_lines": [
         "Jeu présenté par Sophie Garel"
@@ -768,14 +766,14 @@
     {
       "time": "13:30",
       "title": "FILM (TITRE NON COMMUNIQUÉ)",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "14:50",
       "title": "CINÉMODE - AUTOMNE 88",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Magazine de la mode",
       "description_lines": [
         "Magazine de la mode"
@@ -784,7 +782,7 @@
     {
       "time": "15:35",
       "title": "DEUX FLICS À CHICAGO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -793,14 +791,14 @@
     {
       "time": "17:37",
       "title": "VIRGUL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "17:40",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -809,21 +807,21 @@
     {
       "time": "18:30",
       "title": "CA CARTOON !",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:45",
       "title": "FLASH INFO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:50",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Hit-parade national des 45 tours",
       "description_lines": [
         "Hit-parade national des 45 tours"
@@ -832,14 +830,14 @@
     {
       "time": "19:30",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "ASSOCIATION DE MALFAITEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -848,31 +846,30 @@
     {
       "time": "22:10",
       "title": "FLASH INFO",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:15",
       "title": "L'ANNÉE DU DRAGON",
-      "channel": "FR3",
-      "description": "Film LA 5",
+      "channel": "Canal+",
+      "description": "Film",
       "description_lines": [
-        "Film",
-        "LA 5"
+        "Film"
       ]
     },
     {
       "time": "06:00",
       "title": "JOURNAL PERMANENT",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:30",
       "title": "LES AVENTURES DE CLAIRE ET TIPOUNE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -881,7 +878,7 @@
     {
       "time": "07:55",
       "title": "SUSY AUX FLEURS MAGIQUES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -890,7 +887,7 @@
     {
       "time": "08:20",
       "title": "POLLYANNA",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Dessin animé japonais",
       "description_lines": [
         "Dessin animé japonais"
@@ -899,7 +896,7 @@
     {
       "time": "08:45",
       "title": "CAPITOL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -908,7 +905,7 @@
     {
       "time": "09:07",
       "title": "VOISIN, VOISINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -917,7 +914,7 @@
     {
       "time": "10:05",
       "title": "SEULE À PARIS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française en 52 épisodes, avec Sophie Agacinski",
       "description_lines": [
         "Série française en 52 épisodes, avec Sophie Agacinski"
@@ -926,7 +923,7 @@
     {
       "time": "10:31",
       "title": "LES BOUSSARDEL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série française avec Nicole Courcel",
       "description_lines": [
         "Série française avec Nicole Courcel"
@@ -935,14 +932,14 @@
     {
       "time": "12:00",
       "title": "FLASH INFO",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:05",
       "title": "JANIQUE AIMÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Feuilleton français",
       "description_lines": [
         "Feuilleton français"
@@ -951,21 +948,21 @@
     {
       "time": "12:30",
       "title": "JOURNAL MAGAZINE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:00",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:30",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Inspecteur Derrick - Mort d'un Italien Bonanza - Elizabeth, mon amour Capitaine Furillo - Ca, c'est le grand amour",
       "description_lines": [
         "Inspecteur Derrick - Mort d'un Italien",
@@ -976,7 +973,7 @@
     {
       "time": "17:00",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Karine, l'aventure au bout du monde - 16ème épisode Vas-y Julie ! - Une chambre à nous Cynthia ou le rythme de la vie - En route vers la victoire Olive et Tom",
       "description_lines": [
         "Karine, l'aventure au bout du monde - 16ème épisode",
@@ -988,14 +985,14 @@
     {
       "time": "18:55",
       "title": "JOURNAL EN IMAGES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu télévisé",
       "description_lines": [
         "Jeu télévisé"
@@ -1004,7 +1001,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Emission de Philippe Bouvard",
       "description_lines": [
         "Emission de Philippe Bouvard"
@@ -1013,14 +1010,14 @@
     {
       "time": "19:57",
       "title": "JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "AH ! LES BELLES BACCHANTES",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -1029,7 +1026,7 @@
     {
       "time": "22:20",
       "title": "LE RETOUR DE MIKE HAMMER",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1038,7 +1035,7 @@
     {
       "time": "23:10",
       "title": "LES POLARS DE LA 5",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },

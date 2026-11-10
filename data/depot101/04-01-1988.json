@@ -1,7 +1,7 @@
 {
   "date": "04-01-1988",
   "source": "depot101",
-  "scraped_at": "2026-11-09T18:51:25.876946",
+  "scraped_at": "2026-11-10T06:32:14.535944",
   "programs": [
     {
       "time": "06:45",
@@ -293,7 +293,7 @@
       "time": "08:30",
       "title": "MATIN BONHEUR",
       "channel": "Antenne 2",
-      "description": "Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée Gymnastique Les coulisses d'A2 Tricot Santé Jeu de la photo mystère Cuisine Bébé bonheur Astro-bébé Mariés bonheur Généalogie Flash infos Flash infos",
+      "description": "Présenté par Thierry Beccaro Jeunes docteurs (Pour la vie) Invitée Gymnastique Les coulisses d'A2 Tricot Santé Jeu de la photo mystère Cuisine Bébé bonheur Astro-bébé Mariés bonheur Généalogie Flash infos",
       "description_lines": [
         "Présenté par Thierry Beccaro",
         "Jeunes docteurs (Pour la vie)",
@@ -308,7 +308,6 @@
         "Astro-bébé",
         "Mariés bonheur",
         "Généalogie",
-        "Flash infos",
         "Flash infos"
       ]
     },
@@ -691,15 +690,13 @@
       "time": "23:45",
       "title": "FIN DES ÉMISSIONS",
       "channel": "FR3",
-      "description": "C+",
-      "description_lines": [
-        "C+"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:00",
       "title": "MAX HEADROOM",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -708,7 +705,7 @@
     {
       "time": "07:25",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -717,7 +714,7 @@
     {
       "time": "07:30",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -726,7 +723,7 @@
     {
       "time": "07:55",
       "title": "LES EPEES DE FEU",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série Américaine",
       "description_lines": [
         "Série Américaine"
@@ -735,7 +732,7 @@
     {
       "time": "08:20",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -744,28 +741,28 @@
     {
       "time": "08:45",
       "title": "LE VOYAGEUR DE LA TOUSSAINT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:35",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "10:40",
       "title": "LA FOIRE DES TENEBRES",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:20",
       "title": "CABOU CADIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Programme jeunesse",
       "description_lines": [
         "Programme jeunesse"
@@ -774,7 +771,7 @@
     {
       "time": "12:25",
       "title": "TACHYCARDIE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Roman-photo en 15 épisodes",
       "description_lines": [
         "Roman-photo en 15 épisodes"
@@ -783,7 +780,7 @@
     {
       "time": "12:30",
       "title": "DIRECT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Philippe Risoli",
       "description_lines": [
         "Présenté par Philippe Risoli"
@@ -792,14 +789,14 @@
     {
       "time": "14:00",
       "title": "RIVIERA",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "15:30",
       "title": "MONTAND DE TOUS LES TEMPS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Documentaire en 3 parties",
       "description_lines": [
         "Documentaire en 3 parties"
@@ -808,7 +805,7 @@
     {
       "time": "16:25",
       "title": "LE MARGINAL",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "film policier",
       "description_lines": [
         "film policier"
@@ -817,21 +814,21 @@
     {
       "time": "18:15",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:20",
       "title": "DESSIN ANIMÉ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:25",
       "title": "LE PIAF",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Dessin animé",
       "description_lines": [
         "Dessin animé"
@@ -840,7 +837,7 @@
     {
       "time": "18:30",
       "title": "TOP 50",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Présenté par Marc Toesca",
       "description_lines": [
         "Présenté par Marc Toesca"
@@ -849,7 +846,7 @@
     {
       "time": "18:55",
       "title": "STAR QUIZZ",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Jeu animé par Alexandra Kazan",
       "description_lines": [
         "Jeu animé par Alexandra Kazan"
@@ -858,7 +855,7 @@
     {
       "time": "19:20",
       "title": "NULLE PART AILLEURS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Avec Philippe Gildas et Les Nuls",
       "description_lines": [
         "Avec Philippe Gildas et Les Nuls"
@@ -867,49 +864,49 @@
     {
       "time": "20:35",
       "title": "ATTENTION, ON VA S'FACHER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:05",
       "title": "FLASH INFOS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:10",
       "title": "CANAL FOOT",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:45",
       "title": "LES KO DE CANAL PLUS",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:45",
       "title": "FOOTBALL AMÉRICAIN",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "00:40",
       "title": "PHANTOM OF THE PARADISE",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "",
       "description_lines": []
     },
     {
       "time": "02:10",
       "title": "LE RETOUR DE MIKE HAMMER",
-      "channel": "FR3",
+      "channel": "Canal+",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -918,16 +915,14 @@
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
-      "description": "LA 5",
-      "description_lines": [
-        "LA 5"
-      ]
+      "channel": "Canal+",
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "07:35",
       "title": "YOUPI !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Robotech Le magicien d'Oz Flo et les Robinson suisses Emi Magique",
       "description_lines": [
         "Robotech",
@@ -939,7 +934,7 @@
     {
       "time": "09:15",
       "title": "MAX LA MENACE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine avec Don Adams",
       "description_lines": [
         "Série américaine avec Don Adams"
@@ -948,7 +943,7 @@
     {
       "time": "09:40",
       "title": "K2000",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -957,14 +952,14 @@
     {
       "time": "10:30",
       "title": "SPECIAL PARIS-ALGER-DAKAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "11:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -973,7 +968,7 @@
     {
       "time": "12:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu animé par Michel Robbe",
       "description_lines": [
         "Jeu animé par Michel Robbe"
@@ -982,14 +977,14 @@
     {
       "time": "12:30",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:35",
       "title": "VIVE LA TÉLÉ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Maigret La grande vallée Max la menace",
       "description_lines": [
         "Maigret",
@@ -1000,7 +995,7 @@
     {
       "time": "16:55",
       "title": "YOUPI, L'ÉCOLE EST FINIE !",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Le magicien d'Oz Le monde enchanté de Lalabel Jeanne et Serge",
       "description_lines": [
         "Le magicien d'Oz",
@@ -1011,14 +1006,14 @@
     {
       "time": "18:10",
       "title": "WONDER WOMAN",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:00",
       "title": "LA PORTE MAGIQUE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Jeu animé par Michel Robbe",
       "description_lines": [
         "Jeu animé par Michel Robbe"
@@ -1027,7 +1022,7 @@
     {
       "time": "19:30",
       "title": "BOULEVARD BOUVARD",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Philippe Bouvard",
       "description_lines": [
         "Présenté par Philippe Bouvard"
@@ -1036,14 +1031,14 @@
     {
       "time": "20:00",
       "title": "LE JOURNAL",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:30",
       "title": "LA PREUVE PAR CINQ",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Présenté par Pierre-Luc Séguillon",
       "description_lines": [
         "Présenté par Pierre-Luc Séguillon"
@@ -1052,21 +1047,21 @@
     {
       "time": "22:00",
       "title": "SPECIAL PARIS-ALGER-DAKAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "22:25",
       "title": "MATLOCK",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:20",
       "title": "MAIGRET",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série policière française",
       "description_lines": [
         "Série policière française"
@@ -1075,7 +1070,7 @@
     {
       "time": "01:00",
       "title": "LA GRANDE VALLÉE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine",
       "description_lines": [
         "Série américaine"
@@ -1084,7 +1079,7 @@
     {
       "time": "02:05",
       "title": "MAX LA MENACE",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "Série américaine avec Don Adams",
       "description_lines": [
         "Série américaine avec Don Adams"
@@ -1093,14 +1088,14 @@
     {
       "time": "02:30",
       "title": "SPECIAL PARIS-ALGER-DAKAR",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
     {
       "time": "03:00",
       "title": "FIN DES ÉMISSIONS",
-      "channel": "FR3",
+      "channel": "La Cinq",
       "description": "",
       "description_lines": []
     },
