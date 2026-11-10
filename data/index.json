@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T18:50:19.024388",
+  "generated_at": "2026-11-10T18:54:03.385947",
   "total_dates": 979,
-  "total_programs": 117280,
-  "total_segments": 10485,
+  "total_programs": 119871,
+  "total_segments": 10659,
   "years": {
     "1980": {
       "total_programs": 3218,
@@ -3597,175 +3597,175 @@
       }
     },
     "1996": {
-      "total_programs": 6947,
+      "total_programs": 9538,
       "dates": {
         "01-01-1996": {
-          "source": "archives80",
-          "programs_count": 136
+          "source": "archives80+depot101",
+          "programs_count": 185
         },
         "06-01-1996": {
-          "source": "archives80",
-          "programs_count": 150
+          "source": "archives80+depot101",
+          "programs_count": 210
         },
         "07-01-1996": {
-          "source": "archives80",
-          "programs_count": 141
-        },
-        "09-01-1996": {
-          "source": "archives80",
-          "programs_count": 195
-        },
-        "12-01-1996": {
-          "source": "archives80",
-          "programs_count": 174
-        },
-        "29-01-1996": {
-          "source": "archives80",
-          "programs_count": 184
-        },
-        "01-02-1996": {
-          "source": "archives80",
-          "programs_count": 195
-        },
-        "02-02-1996": {
-          "source": "archives80",
-          "programs_count": 188
-        },
-        "03-02-1996": {
-          "source": "archives80",
-          "programs_count": 153
-        },
-        "04-02-1996": {
-          "source": "archives80",
-          "programs_count": 148
-        },
-        "19-04-1996": {
-          "source": "archives80",
-          "programs_count": 180
-        },
-        "22-05-1996": {
-          "source": "archives80",
-          "programs_count": 186
-        },
-        "31-08-1996": {
-          "source": "archives80",
-          "programs_count": 151
-        },
-        "01-09-1996": {
-          "source": "archives80",
-          "programs_count": 125
-        },
-        "02-09-1996": {
-          "source": "archives80",
-          "programs_count": 171
-        },
-        "03-09-1996": {
-          "source": "archives80",
-          "programs_count": 180
-        },
-        "04-09-1996": {
-          "source": "archives80",
-          "programs_count": 147
-        },
-        "05-09-1996": {
-          "source": "archives80",
-          "programs_count": 171
-        },
-        "06-09-1996": {
-          "source": "archives80",
-          "programs_count": 172
-        },
-        "07-09-1996": {
-          "source": "archives80",
-          "programs_count": 165
-        },
-        "08-09-1996": {
-          "source": "archives80",
-          "programs_count": 131
-        },
-        "22-09-1996": {
-          "source": "archives80",
-          "programs_count": 147
-        },
-        "24-09-1996": {
-          "source": "archives80",
-          "programs_count": 157
-        },
-        "26-09-1996": {
-          "source": "archives80",
-          "programs_count": 162
-        },
-        "01-11-1996": {
-          "source": "archives80",
-          "programs_count": 144
-        },
-        "16-11-1996": {
-          "source": "archives80",
-          "programs_count": 163
-        },
-        "17-11-1996": {
-          "source": "archives80",
-          "programs_count": 142
-        },
-        "18-11-1996": {
-          "source": "archives80",
-          "programs_count": 190
-        },
-        "19-11-1996": {
-          "source": "archives80",
-          "programs_count": 197
-        },
-        "20-11-1996": {
-          "source": "archives80",
+          "source": "archives80+depot101",
           "programs_count": 193
         },
-        "21-11-1996": {
-          "source": "archives80",
-          "programs_count": 203
+        "09-01-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 267
         },
-        "22-11-1996": {
-          "source": "archives80",
-          "programs_count": 189
+        "12-01-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 239
         },
-        "09-12-1996": {
-          "source": "archives80",
+        "29-01-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 252
+        },
+        "01-02-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 268
+        },
+        "02-02-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 258
+        },
+        "03-02-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 211
+        },
+        "04-02-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 206
+        },
+        "19-04-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 249
+        },
+        "22-05-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 254
+        },
+        "31-08-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 208
+        },
+        "01-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 172
+        },
+        "02-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 236
+        },
+        "03-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 247
+        },
+        "04-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 202
+        },
+        "05-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 242
+        },
+        "06-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 239
+        },
+        "07-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 224
+        },
+        "08-09-1996": {
+          "source": "archives80+depot101",
           "programs_count": 177
         },
+        "22-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 197
+        },
+        "24-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 224
+        },
+        "26-09-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 223
+        },
+        "01-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 195
+        },
+        "16-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 220
+        },
+        "17-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 198
+        },
+        "18-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 261
+        },
+        "19-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 270
+        },
+        "20-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 262
+        },
+        "21-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 275
+        },
+        "22-11-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 262
+        },
+        "09-12-1996": {
+          "source": "archives80+depot101",
+          "programs_count": 241
+        },
         "10-12-1996": {
-          "source": "archives80",
-          "programs_count": 182
+          "source": "archives80+depot101",
+          "programs_count": 249
         },
         "11-12-1996": {
-          "source": "archives80",
-          "programs_count": 175
+          "source": "archives80+depot101",
+          "programs_count": 238
         },
         "12-12-1996": {
-          "source": "archives80",
-          "programs_count": 184
+          "source": "archives80+depot101",
+          "programs_count": 250
         },
         "13-12-1996": {
-          "source": "archives80",
-          "programs_count": 181
+          "source": "archives80+depot101",
+          "programs_count": 247
         },
         "14-12-1996": {
-          "source": "archives80",
-          "programs_count": 174
+          "source": "archives80+depot101",
+          "programs_count": 240
         },
         "15-12-1996": {
-          "source": "archives80",
-          "programs_count": 141
+          "source": "archives80+depot101",
+          "programs_count": 193
         },
         "24-12-1996": {
-          "source": "archives80",
-          "programs_count": 131
+          "source": "archives80+depot101",
+          "programs_count": 179
         },
         "25-12-1996": {
-          "source": "archives80",
-          "programs_count": 137
+          "source": "archives80+depot101",
+          "programs_count": 190
         },
         "31-12-1996": {
-          "source": "archives80",
-          "programs_count": 135
+          "source": "archives80+depot101",
+          "programs_count": 185
         }
       }
     },
