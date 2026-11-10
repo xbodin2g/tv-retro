@@ -1,9 +1,58 @@
 {
-  "generated_at": "2026-11-10T18:54:03.385947",
-  "total_dates": 979,
-  "total_programs": 119871,
-  "total_segments": 10659,
+  "generated_at": "2026-11-10T18:56:19.259035",
+  "total_dates": 990,
+  "total_programs": 120367,
+  "total_segments": 10683,
   "years": {
+    "1979": {
+      "total_programs": 496,
+      "dates": {
+        "23-01-1979": {
+          "source": "depot101",
+          "programs_count": 41
+        },
+        "24-01-1979": {
+          "source": "depot101",
+          "programs_count": 44
+        },
+        "25-02-1979": {
+          "source": "depot101",
+          "programs_count": 52
+        },
+        "28-05-1979": {
+          "source": "depot101",
+          "programs_count": 47
+        },
+        "04-06-1979": {
+          "source": "depot101",
+          "programs_count": 39
+        },
+        "02-07-1979": {
+          "source": "depot101",
+          "programs_count": 42
+        },
+        "21-07-1979": {
+          "source": "depot101",
+          "programs_count": 38
+        },
+        "15-08-1979": {
+          "source": "depot101",
+          "programs_count": 43
+        },
+        "29-10-1979": {
+          "source": "depot101",
+          "programs_count": 47
+        },
+        "08-12-1979": {
+          "source": "depot101",
+          "programs_count": 49
+        },
+        "09-12-1979": {
+          "source": "depot101",
+          "programs_count": 54
+        }
+      }
+    },
     "1980": {
       "total_programs": 3218,
       "dates": {
