@@ -5,6 +5,7 @@ Génère l'index des données TV rétro.
 Fonctions :
 - fusionne depot101 et archives80
 - supprime les doublons sur date + chaîne + heure
+- corrige les noms de chaînes selon les dates historiques
 - conserve les description_lines
 - détecte les extraits / segments des émissions jeunesse
 - regroupe par chaîne
@@ -36,21 +37,21 @@ CHANNEL_ORDER = [
     "FR3",
     "France 3",
     "Canal+",
-    "La Cinq",
     "TV6",
     "M6",
+    "La Cinq",
+    "La Cinquième",
     "La Sept",
-    "France 4",
-    "France 5",
     "Arte",
+    "France 5",
 ]
 
 CHANNEL_ALIASES = {
     "TF1": "TF1",
     "A2": "Antenne 2",
     "ANTENNE 2": "Antenne 2",
-    "FRANCE 2": "France 2",
     "F2": "France 2",
+    "FRANCE 2": "France 2",
     "FR3": "FR3",
     "FR 3": "FR3",
     "F3": "France 3",
@@ -63,25 +64,26 @@ CHANNEL_ALIASES = {
     "LA5": "La Cinq",
     "LA 5": "La Cinq",
     "LA CINQ": "La Cinq",
-    "LA CINQUIEME": "La Cinq",
+    "LA CINQUIEME": "La Cinquième",
+    "LA CINQUIÈME": "La Cinquième",
     "CINQ": "La Cinq",
     "M6": "M6",
-    "LA7" : "La Sept",
-    "LA 7" : "La Sept",
-    "LA SEPT" : "La Sept",
+    "LA SEPT": "La Sept",
+    "L7": "La Sept",
+    "LA7": "La Sept",
+    "LA 7": "La Sept",
     "ARTE": "Arte",
-    "F5": "France 5",
     "FRANCE 5": "France 5",
-    "F4": "France 4",
-    "FRANCE 4": "France 4",
 }
 
 CHANNEL_COMPACT_MAP = {
     "TF1": "TF1",
     "A2": "Antenne 2",
     "ANTENNE2": "Antenne 2",
+    "F2": "France 2",
     "FRANCE2": "France 2",
     "FR3": "FR3",
+    "F3": "France 3",
     "FRANCE3": "France 3",
     "C+": "Canal+",
     "CANAL+": "Canal+",
@@ -90,9 +92,12 @@ CHANNEL_COMPACT_MAP = {
     "L5": "La Cinq",
     "LA5": "La Cinq",
     "LACINQ": "La Cinq",
-    "LACINQUIEME": "La Cinq",
+    "LACINQUIEME": "La Cinquième",
     "CINQ": "La Cinq",
     "M6": "M6",
+    "LASEPT": "La Sept",
+    "L7": "La Sept",
+    "LA7": "La Sept",
     "ARTE": "Arte",
     "FRANCE5": "France 5",
 }
@@ -102,20 +107,32 @@ CHANNEL_REGEX = [
     (re.compile(r"^TV\s*6$", re.IGNORECASE), "TV6"),
     (re.compile(r"^L\s*5$", re.IGNORECASE), "La Cinq"),
     (re.compile(r"^LA\s*CINQ$", re.IGNORECASE), "La Cinq"),
-    (re.compile(r"^LA\s*CINQUIEME$", re.IGNORECASE), "La Cinq"),
+    (re.compile(r"^LA\s*CINQUIEME$", re.IGNORECASE), "La Cinquième"),
+    (re.compile(r"^LA\s*CINQUIÈME$", re.IGNORECASE), "La Cinquième"),
     (re.compile(r"^CINQ$", re.IGNORECASE), "La Cinq"),
     (re.compile(r"^A\s*2$", re.IGNORECASE), "Antenne 2"),
     (re.compile(r"^FR\s*3$", re.IGNORECASE), "FR3"),
+    (re.compile(r"^F\s*2$", re.IGNORECASE), "France 2"),
+    (re.compile(r"^F\s*3$", re.IGNORECASE), "France 3"),
     (re.compile(r"^FRANCE\s*2$", re.IGNORECASE), "France 2"),
     (re.compile(r"^FRANCE\s*3$", re.IGNORECASE), "France 3"),
     (re.compile(r"^FRANCE\s*5$", re.IGNORECASE), "France 5"),
+    (re.compile(r"^LA\s*SEPT$", re.IGNORECASE), "La Sept"),
+    (re.compile(r"^L\s*7$", re.IGNORECASE), "La Sept"),
+    (re.compile(r"^LA\s*7$", re.IGNORECASE), "La Sept"),
 ]
 
 TIME_RE = re.compile(r"^\d{2}:\d{2}$")
 
 # Seuil en dessous duquel une heure est considérée comme "après minuit"
-# dans l'ordre d'affichage d'une journée TV.
 NIGHT_CUTOFF_HOUR = 5
+
+# Dates clés pour les changements de noms de chaînes
+DATE_ANTENNE2_TO_FRANCE2 = datetime(1992, 9, 7)
+DATE_FR3_TO_FRANCE3 = datetime(1992, 9, 7)
+DATE_LA_CINQ_END = datetime(1992, 4, 12)
+DATE_LA_CINQUIEME_START = datetime(1994, 12, 13)
+DATE_LA_SEPT_TO_ARTE = datetime(1992, 1, 1)
 
 
 # =====================================================
@@ -123,7 +140,6 @@ NIGHT_CUTOFF_HOUR = 5
 # =====================================================
 
 YOUTH_PROGRAMS = (
-    # TF1
     "Les Visiteurs du mercredi",
     "Les Visiteurs de Noël",
     "Croque-Vacances",
@@ -140,8 +156,6 @@ YOUTH_PROGRAMS = (
     "TF! Jeunesse",
     "TF Jeunesse",
     "TF1 Jeunesse",
-
-    # Antenne 2 / France 2
     "Récré A2",
     "Recre A2",
     "Discopuce",
@@ -159,8 +173,6 @@ YOUTH_PROGRAMS = (
     "Chalu Maureen",
     "La Planète de Donkey Kong",
     "Planète de Donkey Kong",
-
-    # FR3 / France 3
     "FR3 Jeunesse",
     "France 3 Jeunesse",
     "Pour la jeunesse",
@@ -175,8 +187,6 @@ YOUTH_PROGRAMS = (
     "Minikeums",
     "C'est pas sorcier",
     "C est pas sorcier",
-
-    # Canal+
     "Ça cartoon",
     "Ca cartoon",
     "Décode pas Bunny",
@@ -188,8 +198,6 @@ YOUTH_PROGRAMS = (
     "Le Cyberflash",
     "Cyberflash",
     "Cabou Cadin",
-
-    # La Cinq / La Cinquième
     "Youpi ! L'école est finie",
     "Youpi L ecole est finie",
     "Youpi l'école est finie",
@@ -199,8 +207,6 @@ YOUTH_PROGRAMS = (
     "Ecrans du savoir",
     "Les Zouzous",
     "Zouzous",
-
-    # M6
     "Graffi'6",
     "Graffi 6",
     "M6 Kid",
@@ -345,18 +351,7 @@ def normalize_time(value: Any) -> str:
 def time_sort_key(time_str: str) -> int:
     """
     Retourne une clé de tri logique pour une heure.
-
-    Les heures 00:00-04:59 sont considérées comme "après minuit"
-    et triées après 23:59, comme dans un magazine TV.
-
-    Exemple :
-      05:00 -> 0
-      12:00 -> 420
-      20:30 -> 930
-      23:59 -> 1139
-      00:10 -> 1150
-      03:05 -> 1325
-      04:59 -> 1439
+    Les heures 00:00-04:59 sont triées après 23:59.
     """
     if not time_str or ":" not in time_str:
         return 9999
@@ -372,29 +367,81 @@ def time_sort_key(time_str: str) -> int:
         return (hour + 24 - NIGHT_CUTOFF_HOUR) * 60 + minute
 
 
-def canonical_channel(value: Any) -> str:
+def canonical_channel(value: Any, date_str: Optional[str] = None) -> str:
+    """
+    Retourne un nom de chaîne canonique avec gestion des changements de nom.
+    
+    Règles historiques :
+    - Avant 07/09/1992 : Antenne 2 et FR3
+    - À partir de 07/09/1992 : France 2 et France 3
+    - La Cinq : jusqu'en avril 1992
+    - La Cinquième : à partir du 13/12/1994
+    - La Sept : avant 1992, puis Arte
+    """
     raw = str(value or "").strip()
 
     if not raw:
         return "Autres"
 
     upper = raw.upper()
-    if upper in CHANNEL_ALIASES:
-        return CHANNEL_ALIASES[upper]
-
     compact = re.sub(r"\s+", "", upper)
-    if compact in CHANNEL_COMPACT_MAP:
-        return CHANNEL_COMPACT_MAP[compact]
 
-    for regex, canonical in CHANNEL_REGEX:
-        if regex.match(raw):
-            return canonical
+    # Normaliser le canal brut
+    if upper in CHANNEL_ALIASES:
+        canonical = CHANNEL_ALIASES[upper]
+    elif compact in CHANNEL_COMPACT_MAP:
+        canonical = CHANNEL_COMPACT_MAP[compact]
+    else:
+        canonical = raw
+        for regex, canon in CHANNEL_REGEX:
+            if regex.match(raw):
+                canonical = canon
+                break
 
-    normalized_upper = normalize_text(raw).upper()
-    if normalized_upper in CHANNEL_ALIASES:
-        return CHANNEL_ALIASES[normalized_upper]
+    # Si pas de date, on ne peut pas appliquer les règles historiques
+    if not date_str:
+        return canonical
 
-    return raw
+    # Parser la date
+    try:
+        date_obj = datetime.strptime(date_str, "%d-%m-%Y")
+    except Exception:
+        return canonical
+
+    # Règles de conversion selon la date
+    norm_canonical = normalize_text(canonical)
+
+    # F2, France 2, Antenne 2
+    if norm_canonical in ("f2", "france 2", "antenne 2", "a2"):
+        if date_obj < DATE_ANTENNE2_TO_FRANCE2:
+            return "Antenne 2"
+        else:
+            return "France 2"
+
+    # F3, France 3, FR3
+    if norm_canonical in ("f3", "france 3", "fr3"):
+        if date_obj < DATE_FR3_TO_FRANCE3:
+            return "FR3"
+        else:
+            return "France 3"
+
+    # La Cinq : seulement jusqu'en avril 1992
+    if norm_canonical in ("la cinq", "l5", "la5", "cinq"):
+        return "La Cinq"
+
+    # La Cinquième : seulement à partir du 13/12/1994
+    if norm_canonical in ("la cinquieme", "la cinquième"):
+        if date_obj < DATE_LA_CINQUIEME_START:
+            return "La Cinquième"
+        return "La Cinquième"
+
+    # La Sept : avant 1992, puis devient Arte
+    if norm_canonical in ("la sept", "l7", "la7"):
+        if date_obj >= DATE_LA_SEPT_TO_ARTE:
+            return "Arte"
+        return "La Sept"
+
+    return canonical
 
 
 def channel_rank(channel: str) -> int:
@@ -581,9 +628,9 @@ def program_key(time: str, channel: str, title: str) -> str:
     return f"{normalize_text(title)}|{channel}"
 
 
-def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) -> None:
+def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any], date_str: str) -> None:
     time = normalize_time(program.get("time", ""))
-    channel = canonical_channel(program.get("channel", ""))
+    channel = canonical_channel(program.get("channel", ""), date_str)
     title = clean_title(program.get("title", ""))
     description = str(program.get("description", "") or "").strip()
     description = re.sub(r"\s+", " ", description)
@@ -633,10 +680,6 @@ def merge_program(target: Dict[str, Dict[str, Any]], program: Dict[str, Any]) ->
 
 
 def sort_programs(programs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    Trie les programmes par chaîne puis par heure logique.
-    Les heures 00:00-04:59 apparaissent après 23:59.
-    """
     return sorted(
         programs,
         key=lambda p: (
@@ -674,7 +717,7 @@ def group_by_channel(programs: List[Dict[str, Any]]) -> Dict[str, List[Dict[str,
 
 def generate_index() -> None:
     print("=" * 70)
-    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION SIMPLE")
+    print("📊 GÉNÉRATION DE L'INDEX TV RÉTRO - VERSION AVEC CORRECTIONS HISTORIQUES")
     print("=" * 70)
 
     all_dates: Dict[str, Dict[str, Any]] = {}
@@ -738,7 +781,7 @@ def generate_index() -> None:
                 if "description_lines" not in program:
                     total_missing_description_lines += 1
 
-                merge_program(all_dates[source_date]["programs"], program)
+                merge_program(all_dates[source_date]["programs"], program, source_date)
                 total_loaded_programs += 1
 
     print("")
