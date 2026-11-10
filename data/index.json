@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10T18:47:37.045048",
+  "generated_at": "2026-11-10T18:50:19.024388",
   "total_dates": 979,
-  "total_programs": 116052,
-  "total_segments": 10473,
+  "total_programs": 117280,
+  "total_segments": 10485,
   "years": {
     "1980": {
       "total_programs": 3218,
@@ -3375,103 +3375,103 @@
       }
     },
     "1994": {
-      "total_programs": 2931,
+      "total_programs": 4159,
       "dates": {
         "01-01-1994": {
-          "source": "archives80",
-          "programs_count": 87
+          "source": "archives80+depot101",
+          "programs_count": 125
         },
         "02-01-1994": {
-          "source": "archives80",
-          "programs_count": 92
-        },
-        "03-01-1994": {
-          "source": "archives80",
-          "programs_count": 106
-        },
-        "14-02-1994": {
-          "source": "archives80",
-          "programs_count": 145
-        },
-        "22-02-1994": {
-          "source": "archives80",
-          "programs_count": 132
-        },
-        "15-03-1994": {
-          "source": "archives80",
-          "programs_count": 158
-        },
-        "21-03-1994": {
-          "source": "archives80",
-          "programs_count": 137
-        },
-        "29-03-1994": {
-          "source": "archives80",
-          "programs_count": 104
-        },
-        "30-03-1994": {
-          "source": "archives80",
-          "programs_count": 97
-        },
-        "31-03-1994": {
-          "source": "archives80",
-          "programs_count": 109
-        },
-        "01-04-1994": {
-          "source": "archives80",
-          "programs_count": 111
-        },
-        "02-04-1994": {
-          "source": "archives80",
-          "programs_count": 97
-        },
-        "03-04-1994": {
-          "source": "archives80",
-          "programs_count": 94
-        },
-        "04-04-1994": {
-          "source": "archives80",
-          "programs_count": 101
-        },
-        "18-06-1994": {
-          "source": "archives80",
-          "programs_count": 142
-        },
-        "19-06-1994": {
-          "source": "archives80",
+          "source": "archives80+depot101",
           "programs_count": 126
         },
-        "20-06-1994": {
-          "source": "archives80",
-          "programs_count": 159
+        "03-01-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 152
         },
-        "13-10-1994": {
-          "source": "archives80",
-          "programs_count": 139
+        "14-02-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 202
         },
-        "19-10-1994": {
-          "source": "archives80",
+        "22-02-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 189
+        },
+        "15-03-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 224
+        },
+        "21-03-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 195
+        },
+        "29-03-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 154
+        },
+        "30-03-1994": {
+          "source": "archives80+depot101",
           "programs_count": 143
         },
-        "30-10-1994": {
-          "source": "archives80",
-          "programs_count": 117
+        "31-03-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 160
         },
-        "06-11-1994": {
-          "source": "archives80",
-          "programs_count": 108
+        "01-04-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 162
         },
-        "13-12-1994": {
-          "source": "archives80",
-          "programs_count": 175
+        "02-04-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 141
         },
-        "24-12-1994": {
-          "source": "archives80",
+        "03-04-1994": {
+          "source": "archives80+depot101",
           "programs_count": 130
         },
+        "04-04-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 148
+        },
+        "18-06-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 200
+        },
+        "19-06-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 175
+        },
+        "20-06-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 220
+        },
+        "13-10-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 202
+        },
+        "19-10-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 207
+        },
+        "30-10-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 165
+        },
+        "06-11-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 150
+        },
+        "13-12-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 243
+        },
+        "24-12-1994": {
+          "source": "archives80+depot101",
+          "programs_count": 178
+        },
         "31-12-1994": {
-          "source": "archives80",
-          "programs_count": 122
+          "source": "archives80+depot101",
+          "programs_count": 168
         }
       }
     },
