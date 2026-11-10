@@ -1,7 +1,7 @@
 {
   "date": "14-02-1994",
   "source": "archives80",
-  "scraped_at": "2026-11-10T15:50:09.978117",
+  "scraped_at": "2026-11-10T23:24:38.362625",
   "programs": [
     {
       "time": "06:00",
@@ -327,29 +327,27 @@
       "time": "05:05",
       "title": "MUSIQUE",
       "channel": "TF1",
-      "description": "F2",
-      "description_lines": [
-        "F2"
-      ]
+      "description": "",
+      "description_lines": []
     },
     {
       "time": "05:55",
       "title": "Dessin animé",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "06:05",
       "title": "Secrets",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "06:30",
       "title": "Télématin",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par William Leymergie",
       "description_lines": [
         "Présenté par William Leymergie"
@@ -358,7 +356,7 @@
     {
       "time": "08:35",
       "title": "Amoureusement vôtre",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -367,7 +365,7 @@
     {
       "time": "09:00",
       "title": "Amour, gloire et beauté",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Feuilleton américain",
       "description_lines": [
         "Feuilleton américain"
@@ -376,14 +374,14 @@
     {
       "time": "09:25",
       "title": "Mr. Bean",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "09:55",
       "title": "Jeux Olympiques Lillehammer",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Gérard Holtz, Patrick Chêne et Michel Dhrey",
       "description_lines": [
         "Présenté par Gérard Holtz, Patrick Chêne et Michel Dhrey"
@@ -392,7 +390,7 @@
     {
       "time": "13:00",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Henri Sannier",
       "description_lines": [
         "Présenté par Henri Sannier"
@@ -401,21 +399,21 @@
     {
       "time": "13:40",
       "title": "LA BOURSE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:45",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:50",
       "title": "Le renard",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série policière allemande",
       "description_lines": [
         "Série policière allemande"
@@ -424,7 +422,7 @@
     {
       "time": "14:50",
       "title": "L'enquêteur",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série policière allemande",
       "description_lines": [
         "Série policière allemande"
@@ -433,7 +431,7 @@
     {
       "time": "15:45",
       "title": "La Chance aux Chansons",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Pascal Sevran",
       "description_lines": [
         "Présenté par Pascal Sevran"
@@ -442,7 +440,7 @@
     {
       "time": "16:40",
       "title": "Des Chiffres et des Lettres",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Laurent Romejko",
       "description_lines": [
         "Présenté par Laurent Romejko"
@@ -451,7 +449,7 @@
     {
       "time": "17:10",
       "title": "SECONDE B",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Série française",
       "description_lines": [
         "Série française"
@@ -460,14 +458,14 @@
     {
       "time": "17:40",
       "title": "Sauvés par le Gong",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "18:10",
       "title": "C'EST TOUT COFFE",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Jean-Pierre Coffe",
       "description_lines": [
         "Présenté par Jean-Pierre Coffe"
@@ -476,7 +474,7 @@
     {
       "time": "18:45",
       "title": "Un pour tous",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Christian Morin et Cendrine Dominguez",
       "description_lines": [
         "Présenté par Christian Morin et Cendrine Dominguez"
@@ -485,7 +483,7 @@
     {
       "time": "19:20",
       "title": "Que le meilleur gagne",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Nagui",
       "description_lines": [
         "Présenté par Nagui"
@@ -494,7 +492,7 @@
     {
       "time": "20:00",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Bruno Masure",
       "description_lines": [
         "Présenté par Bruno Masure"
@@ -503,14 +501,14 @@
     {
       "time": "20:45",
       "title": "Météo",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "20:50",
       "title": "L'heure de vérité",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Edouard Balladur Présenté par François-Henri de Virieu",
       "description_lines": [
         "Edouard Balladur",
@@ -520,7 +518,7 @@
     {
       "time": "22:20",
       "title": "Savoir plus",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par François de Closets et Martine Allain-Régnault",
       "description_lines": [
         "Présenté par François de Closets et Martine Allain-Régnault"
@@ -529,14 +527,14 @@
     {
       "time": "23:35",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "23:55",
       "title": "Long courrier",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Thierry Ardisson",
       "description_lines": [
         "Présenté par Thierry Ardisson"
@@ -545,7 +543,7 @@
     {
       "time": "00:45",
       "title": "LE MAGAZINE DE L'EMPLOI",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Daniela Lumbroso (R)",
       "description_lines": [
         "Présenté par Daniela Lumbroso (R)"
@@ -554,7 +552,7 @@
     {
       "time": "01:40",
       "title": "C'est votre vie",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Frédéric Mitterrand (R)",
       "description_lines": [
         "Présenté par Frédéric Mitterrand (R)"
@@ -563,7 +561,7 @@
     {
       "time": "03:25",
       "title": "Que le meilleur gagne",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "Présenté par Nagui (R)",
       "description_lines": [
         "Présenté par Nagui (R)"
@@ -572,59 +570,58 @@
     {
       "time": "03:55",
       "title": "Dessin animé",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:05",
       "title": "24 HEURES D'INFOS",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:20",
       "title": "Nam Nom l'enfant thaïlandais",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "04:50",
       "title": "LOUBARD DES NEIGES",
-      "channel": "TF1",
+      "channel": "France 2",
       "description": "",
       "description_lines": []
     },
     {
       "time": "05:05",
       "title": "La Chance aux Chansons",
-      "channel": "TF1",
-      "description": "Présenté par Pascal Sevran (R) F3",
+      "channel": "France 2",
+      "description": "Présenté par Pascal Sevran (R)",
       "description_lines": [
-        "Présenté par Pascal Sevran (R)",
-        "F3"
+        "Présenté par Pascal Sevran (R)"
       ]
     },
     {
       "time": "07:00",
       "title": "Premier service",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "07:15",
       "title": "BONJOUR LES PETITS LOUPS !",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "08:10",
       "title": "Les aventures de Tintin",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Dessin animé belge",
       "description_lines": [
         "Dessin animé belge"
@@ -633,7 +630,7 @@
     {
       "time": "08:20",
       "title": "Continentales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Alex Taylor",
       "description_lines": [
         "Présenté par Alex Taylor"
@@ -642,7 +639,7 @@
     {
       "time": "09:30",
       "title": "Génération 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Marie-Laure Augry",
       "description_lines": [
         "Présenté par Marie-Laure Augry"
@@ -651,7 +648,7 @@
     {
       "time": "11:00",
       "title": "Français, si vous parliez",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par André Bercoff",
       "description_lines": [
         "Présenté par André Bercoff"
@@ -660,7 +657,7 @@
     {
       "time": "11:45",
       "title": "La cuisine des mousquetaires",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Maïté et Micheline",
       "description_lines": [
         "Présenté par Maïté et Micheline"
@@ -669,21 +666,21 @@
     {
       "time": "12:00",
       "title": "Les titres de l'actualité",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:05",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "12:45",
       "title": "Le journal",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Anne de Coudenhove",
       "description_lines": [
         "Présenté par Anne de Coudenhove"
@@ -692,14 +689,14 @@
     {
       "time": "13:00",
       "title": "Gavilan",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "13:45",
       "title": "Votre cas nous intéresse",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Marie-Dominique Montel",
       "description_lines": [
         "Présenté par Marie-Dominique Montel"
@@ -708,7 +705,7 @@
     {
       "time": "14:30",
       "title": "Jeux Olympiques Lillehammer",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Gérard Holtz, Patrick Chêne et Michel Dhrey",
       "description_lines": [
         "Présenté par Gérard Holtz, Patrick Chêne et Michel Dhrey"
@@ -717,7 +714,7 @@
     {
       "time": "17:45",
       "title": "Une pêche d'enfer",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Pascal Sanchez",
       "description_lines": [
         "Présenté par Pascal Sanchez"
@@ -726,7 +723,7 @@
     {
       "time": "18:25",
       "title": "Questions pour un champion",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Vincent Perrot",
       "description_lines": [
         "Présenté par Vincent Perrot"
@@ -735,7 +732,7 @@
     {
       "time": "18:50",
       "title": "Un livre, un jour",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Olivier Barrot",
       "description_lines": [
         "Présenté par Olivier Barrot"
@@ -744,7 +741,7 @@
     {
       "time": "19:00",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Marc Autheman et Elise Lucet",
       "description_lines": [
         "Présenté par Marc Autheman et Elise Lucet"
@@ -753,14 +750,14 @@
     {
       "time": "19:10",
       "title": "Editions régionales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "",
       "description_lines": []
     },
     {
       "time": "19:30",
       "title": "Le 19-20 de l'information",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Marc Autheman et Elise Lucet",
       "description_lines": [
         "Présenté par Marc Autheman et Elise Lucet"
@@ -769,7 +766,7 @@
     {
       "time": "20:05",
       "title": "Le Journal des JO",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Michel Dhrey",
       "description_lines": [
         "Présenté par Michel Dhrey"
@@ -778,7 +775,7 @@
     {
       "time": "20:30",
       "title": "LE JOURNAL DES SPORTS",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Nelson Monfort",
       "description_lines": [
         "Présenté par Nelson Monfort"
@@ -787,7 +784,7 @@
     {
       "time": "20:50",
       "title": "Autant en emporte le vent",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Film",
       "description_lines": [
         "Film"
@@ -796,7 +793,7 @@
     {
       "time": "00:25",
       "title": "Soir 3",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Christine Ockrent",
       "description_lines": [
         "Présenté par Christine Ockrent"
@@ -805,7 +802,7 @@
     {
       "time": "00:45",
       "title": "Continentales",
-      "channel": "TF1",
+      "channel": "France 3",
       "description": "Présenté par Alex Taylor (R)",
       "description_lines": [
         "Présenté par Alex Taylor (R)"
