@@ -53165,16 +53165,26 @@
           "segments": []
         },
         {
-          "time": "15:50",
+          "time": "18:00",
           "channel": "Antenne 2",
-          "title": "18:00",
-          "description": "RÉCRÉ A2 Spectreman Balour et Balu",
+          "title": "RÉCRÉ A2",
+          "description": "Spectreman Balour et Balu",
           "description_lines": [
-            "RÉCRÉ A2",
             "Spectreman",
             "Balour et Balu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Spectreman",
+              "raw": "Spectreman"
+            },
+            {
+              "index": 1,
+              "title": "Balour et Balu",
+              "raw": "Balour et Balu"
+            }
+          ]
         },
         {
           "time": "18:40",
@@ -53589,16 +53599,26 @@
             "segments": []
           },
           {
-            "time": "15:50",
+            "time": "18:00",
             "channel": "Antenne 2",
-            "title": "18:00",
-            "description": "RÉCRÉ A2 Spectreman Balour et Balu",
+            "title": "RÉCRÉ A2",
+            "description": "Spectreman Balour et Balu",
             "description_lines": [
-              "RÉCRÉ A2",
               "Spectreman",
               "Balour et Balu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Spectreman",
+                "raw": "Spectreman"
+              },
+              {
+                "index": 1,
+                "title": "Balour et Balu",
+                "raw": "Balour et Balu"
+              }
+            ]
           },
           {
             "time": "18:40",
