@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-    <title>TV Rétro - Grilles des années 80/90</title>
+    <title>TV Rétro - Grilles des années 70, 80 et 90</title>
 
-    <meta name="description" content="Magazine TV rétro : reconstituez des journées télé des années 80 et 90 à partir des archives Depot101 et Archives80.">
+    <meta name="description" content="Magazine TV rétro : reconstituez des journées télé des années 70, 80 et 90 à partir des archives Depot101 et Archives80.">
 
     <!-- PWA -->
     <link rel="manifest" href="manifest.json">
@@ -31,10 +31,10 @@
     >
 
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css?v=8">
+    <link rel="stylesheet" href="style.css?v=9">
 
     <!-- Script principal -->
-    <script src="app.js?v=8" defer></script>
+    <script src="app.js?v=9" defer></script>
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         <div class="masthead">
             <div class="logo">
                 <h1>TV RÉTRO</h1>
-                <p class="tagline">Les grilles télé des années 80 &amp; 90</p>
+                <p class="tagline">Les grilles télé des années 70, 80 &amp; 90</p>
             </div>
 
             <div class="edition-line">
@@ -262,7 +262,7 @@
                 <div class="retro-info">
                     <p>
                         📺 <strong>Objectif</strong> : reconstituer partiellement des journées TV
-                        des années 80 et 90.
+                        des années 70, 80 et 90.
                     </p>
 
                     <p>
@@ -275,6 +275,10 @@
 
                     <p>
                         🧩 <strong>Extraits</strong> : les blocs jeunesse peuvent être détaillés programme par programme.
+                    </p>
+
+                    <p>
+                        🎬 <strong>Vidéos</strong> : cliquez sur ▶️ pour rechercher un programme sur INA, YouTube, Dailymotion ou Odysee.
                     </p>
 
                     <p>
@@ -295,6 +299,7 @@
                         <li>Sélectionnez une <strong>journée disponible</strong>.</li>
                         <li>Consultez la frise et la grille chaîne par chaîne.</li>
                         <li>Dépliez les blocs jeunesse pour voir les extraits.</li>
+                        <li>Cliquez sur <strong>▶️</strong> pour chercher des vidéos du programme.</li>
                         <li>Ajoutez programmes ou extraits à la <strong>playlist</strong>.</li>
                         <li>Dans <strong>Ma Playlist</strong>, utilisez le bouton <strong>Retour à la journée</strong> si besoin.</li>
                         <li>Choisissez le format d’export, puis copiez la liste dans <strong>TuneMyMusic</strong>.</li>
@@ -340,6 +345,31 @@
 
     <!-- Notification -->
     <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Panel de recherche vidéo -->
+    <div class="video-panel-overlay" id="video-panel-overlay" hidden>
+        <div class="video-panel" role="dialog" aria-modal="true" aria-labelledby="video-panel-title">
+            <button class="video-panel-close" type="button" onclick="closeVideoPanel()" aria-label="Fermer">
+                ✕
+            </button>
+
+            <div class="video-panel-header">
+                <div class="video-panel-icon">📼</div>
+                <h3 id="video-panel-title">Titre du programme</h3>
+                <p class="video-panel-meta" id="video-panel-meta"></p>
+            </div>
+
+            <p class="video-panel-intro">
+                Rechercher ce programme sur les plateformes vidéo :
+            </p>
+
+            <div class="video-panel-links" id="video-panel-links"></div>
+
+            <p class="video-panel-note">
+                💡 Astuce : l'INA est souvent la meilleure source pour les archives TV françaises.
+            </p>
+        </div>
+    </div>
 
     <noscript>
         <div style="padding: 2rem; text-align: center; color: #1c2026; background: #f5f1e8;">
