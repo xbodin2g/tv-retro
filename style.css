@@ -1930,3 +1930,106 @@ body {
         font-size: 1.3rem;
     }
 }
+/* =====================================================
+   Résultats vidéo inline (Dailymotion API + Odysee)
+   ===================================================== */
+
+.video-panel-results {
+    margin-top: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.video-inline-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-weight: 700;
+    color: var(--accent-2);
+    font-size: 1.05rem;
+    margin-bottom: 0.6rem;
+}
+
+.video-results-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+}
+
+.video-result-card {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.video-result-card:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow);
+    border-color: var(--accent-2);
+}
+
+.video-result-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    background: var(--paper-dark);
+}
+
+.video-result-thumb-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.video-result-title {
+    padding: 0.4rem 0.5rem 0.55rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.video-inline-loading,
+.video-inline-empty,
+.video-inline-fallback {
+    font-size: 0.9rem;
+    color: var(--muted);
+    padding: 0.3rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.video-inline-fallback a {
+    color: var(--accent-2);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.video-inline-fallback a:hover {
+    text-decoration: underline;
+}
+
+.video-inline-spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--rule);
+    border-top-color: var(--accent-2);
+    border-radius: 50%;
+    display: inline-block;
+    animation: spin 0.9s linear infinite;
+}
