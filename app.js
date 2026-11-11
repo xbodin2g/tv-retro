@@ -1,10 +1,11 @@
 // =====================================================
-// TV RÉTRO - Version magazine + vue journée + segments
+// TV RÉTRO - Version magazine + vue journée + segments + vidéo
 // - tri logique : 00:00-04:59 affichées après 23:59
 // - sommaire du soir dans un tiroir fermé
 // - frise avec une seule scrollbar
 // - clic frise -> programme fiable
 // - retour à la journée depuis la playlist
+// - panel de recherche vidéo (INA, YouTube, Dailymotion, Odysee)
 // =====================================================
 
 const state = {
@@ -32,6 +33,9 @@ const LAST_DAY_STORAGE_KEY = 'retroLastDay';
 const NIGHT_CUTOFF_HOUR = 5;
 
 const CHANNEL_ORDER = [
+    'ORTF 1',
+    'ORTF 2',
+    'ORTF 3',
     'TF1',
     'Antenne 2',
     'France 2',
@@ -48,6 +52,18 @@ const CHANNEL_ORDER = [
 ];
 
 const CHANNEL_ALIASES = {
+    // ORTF
+    'OR1': 'ORTF 1',
+    'OR2': 'ORTF 2',
+    'OR3': 'ORTF 3',
+    'ORTF 1': 'ORTF 1',
+    'ORTF 2': 'ORTF 2',
+    'ORTF 3': 'ORTF 3',
+    'ORTF1': 'ORTF 1',
+    'ORTF2': 'ORTF 2',
+    'ORTF3': 'ORTF 3',
+
+    // Chaînes classiques
     'TF1': 'TF1',
     'A2': 'Antenne 2',
     'ANTENNE 2': 'Antenne 2',
@@ -65,6 +81,8 @@ const CHANNEL_ALIASES = {
     'LA5': 'La Cinq',
     'LA 5': 'La Cinq',
     'LA CINQ': 'La Cinq',
+    'LA CINQUIEME': 'La Cinquième',
+    'LA CINQUIÈME': 'La Cinquième',
     'CINQ': 'La Cinq',
     'M6': 'M6',
     'LA SEPT': 'La Sept',
@@ -72,8 +90,6 @@ const CHANNEL_ALIASES = {
     'LA7': 'La Sept',
     'LA 7': 'La Sept',
     'ARTE': 'Arte',
-    'LA CINQUIEME': 'La Cinquième',
-    'LA CINQUIÈME': 'La Cinquième',
     'FRANCE 5': 'France 5'
 };
 
@@ -87,6 +103,7 @@ async function initializeApp() {
     setupNavigation();
     setupDayToolbarListeners();
     setupPlaylistListeners();
+    setupVideoPanelListeners();
     updatePlaylistDisplay();
     registerServiceWorker();
 
@@ -446,6 +463,12 @@ function canonicalChannel(value) {
 
     if (CHANNEL_ALIASES[normalizedUpper]) {
         return CHANNEL_ALIASES[normalizedUpper];
+    }
+
+    const compact = normalizedUpper.replace(/\s+/g, '');
+
+    if (CHANNEL_ALIASES[compact]) {
+        return CHANNEL_ALIASES[compact];
     }
 
     return raw;
@@ -1095,6 +1118,12 @@ function handleDayClick(event) {
         return;
     }
 
+    const videoBtn = event.target.closest('.video-search-btn');
+    if (videoBtn) {
+        openVideoPanel(videoBtn.dataset.videoId);
+        return;
+    }
+
     const channelHeader = event.target.closest('.channel-header');
     if (channelHeader) {
         const block = channelHeader.closest('.channel-block');
@@ -1413,14 +1442,26 @@ function renderProgramRow(program) {
                                     <div class="segment-raw">${escapeHtml(segment.raw)}</div>
                                 ` : ''}
                             </div>
-                            <button
-                                class="add-to-playlist-btn segment-add-btn"
-                                type="button"
-                                data-program-id="${escapeHtml(segmentId)}"
-                                aria-label="Ajouter ${escapeHtml(segment.title || 'extrait')} à la playlist"
-                            >
-                                ➕
-                            </button>
+                            <div class="segment-actions">
+                                <button
+                                    class="video-search-btn segment-video-btn"
+                                    type="button"
+                                    data-video-id="${escapeHtml(segmentId)}"
+                                    aria-label="Rechercher des vidéos de ${escapeHtml(segment.title || 'extrait')}"
+                                    title="Rechercher des vidéos"
+                                >
+                                    ▶️
+                                </button>
+                                <button
+                                    class="add-to-playlist-btn segment-add-btn"
+                                    type="button"
+                                    data-program-id="${escapeHtml(segmentId)}"
+                                    aria-label="Ajouter ${escapeHtml(segment.title || 'extrait')} à la playlist"
+                                    title="Ajouter à la playlist"
+                                >
+                                    ➕
+                                </button>
+                            </div>
                         </li>
                     `;
                 }).join('')}
@@ -1444,16 +1485,160 @@ function renderProgramRow(program) {
 
             <div class="program-actions">
                 <button
+                    class="video-search-btn"
+                    type="button"
+                    data-video-id="${escapeHtml(parentId)}"
+                    aria-label="Rechercher des vidéos de ${escapeHtml(program.title || 'programme')}"
+                    title="Rechercher des vidéos"
+                >
+                    ▶️
+                </button>
+                <button
                     class="add-to-playlist-btn"
                     type="button"
                     data-program-id="${escapeHtml(parentId)}"
                     aria-label="Ajouter ${escapeHtml(program.title || 'programme')} à la playlist"
+                    title="Ajouter à la playlist"
                 >
                     ➕
                 </button>
             </div>
         </article>
     `;
+}
+
+// =====================================================
+// Panel de recherche vidéo
+// =====================================================
+
+function buildVideoSearchQuery(program) {
+    let query = program.title || '';
+    query = String(query).trim();
+    return query;
+}
+
+function buildVideoLinks(program) {
+    const query = buildVideoSearchQuery(program);
+    const encoded = encodeURIComponent(query);
+    const year = program.date ? program.date.split('-')[2] : '';
+    const encodedWithYear = encodeURIComponent(year ? `${query} ${year}` : query);
+
+    return [
+        {
+            name: 'INA',
+            icon: '🎬',
+            className: 'ina',
+            url: `https://www.ina.fr/recherche?q=${encoded}`,
+            description: 'Archives TV françaises'
+        },
+        {
+            name: 'YouTube',
+            icon: '▶️',
+            className: 'youtube',
+            url: `https://www.youtube.com/results?search_query=${encodedWithYear}`,
+            description: 'Vidéos et extraits'
+        },
+        {
+            name: 'Dailymotion',
+            icon: '📺',
+            className: 'dailymotion',
+            url: `https://www.dailymotion.com/search/${encoded}`,
+            description: 'Vidéos et génériques'
+        },
+        {
+            name: 'Odysee',
+            icon: '🌐',
+            className: 'odysee',
+            url: `https://odysee.com/$/search?q=${encoded}`,
+            description: 'Plateforme libre'
+        }
+    ];
+}
+
+function openVideoPanel(programId) {
+    const program = state.currentProgramMap.get(programId);
+
+    if (!program) {
+        showToast('❌ Programme introuvable');
+        return;
+    }
+
+    const overlay = document.getElementById('video-panel-overlay');
+    const titleEl = document.getElementById('video-panel-title');
+    const metaEl = document.getElementById('video-panel-meta');
+    const linksContainer = document.getElementById('video-panel-links');
+
+    if (!overlay || !titleEl || !metaEl || !linksContainer) {
+        console.error('Éléments du panel vidéo introuvables');
+        return;
+    }
+
+    titleEl.textContent = program.title || 'Programme';
+
+    const metaParts = [];
+    if (program.date) {
+        metaParts.push(formatShortDate(program.date));
+    }
+    if (program.time) {
+        metaParts.push(program.time);
+    }
+    if (program.channel) {
+        metaParts.push(program.channel);
+    }
+    if (program.parentTitle && program.type === 'segment') {
+        metaParts.push(`dans ${program.parentTitle}`);
+    }
+    metaEl.textContent = metaParts.join(' · ');
+
+    const links = buildVideoLinks(program);
+
+    linksContainer.innerHTML = links.map(link => `
+        <a
+            href="${escapeHtml(link.url)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="video-link ${escapeHtml(link.className)}"
+        >
+            <span class="video-link-icon">${link.icon}</span>
+            <span class="video-link-content">
+                <span class="video-link-name">${escapeHtml(link.name)}</span>
+                <span class="video-link-desc">${escapeHtml(link.description)}</span>
+            </span>
+            <span class="video-link-arrow">↗</span>
+        </a>
+    `).join('');
+
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
+}
+
+function closeVideoPanel() {
+    const overlay = document.getElementById('video-panel-overlay');
+    if (overlay) {
+        overlay.hidden = true;
+    }
+    document.body.style.overflow = '';
+}
+
+function setupVideoPanelListeners() {
+    const overlay = document.getElementById('video-panel-overlay');
+
+    if (overlay) {
+        overlay.addEventListener('click', event => {
+            if (event.target === overlay) {
+                closeVideoPanel();
+            }
+        });
+    }
+
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+            const overlay = document.getElementById('video-panel-overlay');
+            if (overlay && !overlay.hidden) {
+                closeVideoPanel();
+            }
+        }
+    });
 }
 
 // =====================================================
@@ -1587,9 +1772,19 @@ function updatePlaylistDisplay() {
                 ` : ''}
             </div>
 
-            <button class="remove-btn" type="button" data-remove-id="${escapeHtml(program.id)}">
-                ✕
-            </button>
+            <div class="playlist-item-actions">
+                <button
+                    class="video-search-btn playlist-video-btn"
+                    type="button"
+                    data-video-id="${escapeHtml(program.id)}"
+                    title="Rechercher des vidéos"
+                >
+                    ▶️
+                </button>
+                <button class="remove-btn" type="button" data-remove-id="${escapeHtml(program.id)}">
+                    ✕
+                </button>
+            </div>
         </div>
     `).join('');
 
@@ -1873,3 +2068,5 @@ window.removeFromPlaylist = removeFromPlaylist;
 window.clearPlaylist = clearPlaylist;
 window.exportPlaylist = exportPlaylist;
 window.copyToClipboard = copyToClipboard;
+window.openVideoPanel = openVideoPanel;
+window.closeVideoPanel = closeVideoPanel;
