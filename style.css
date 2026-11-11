@@ -2191,3 +2191,18 @@ body {
     .info-thumb { width: 100%; height: 180px; }
     .tl-label { flex-basis: 76px; font-size: 0.7rem; }
 }
+/* ---------- Tooltip frise ---------- */
+.tl-tooltip { position: fixed; z-index: 10001; max-width: 260px; background: var(--ink); color: #fff; font-size: 0.8rem; font-weight: 600; line-height: 1.3; padding: 0.45rem 0.6rem; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); pointer-events: none; }
+
+/* ---------- Bouton charts ---------- */
+.charts-btn { background: transparent; color: var(--accent-3); border: 1px solid var(--accent-3); border-radius: 8px; padding: 0.45rem 0.6rem; font-size: 0.95rem; line-height: 1; cursor: pointer; transition: all 0.2s ease; }
+.charts-btn:hover { background: var(--accent-3); color: #fff; }
+
+/* ---------- Intégrations ---------- */
+.integrations { margin-top: 1.1rem; padding-top: 0.9rem; border-top: 1px dashed var(--rule); display: flex; flex-direction: column; gap: 0.7rem; }
+.integration-item { background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 0.6rem 0.7rem; }
+.integration-item strong { display: inline-block; color: var(--ink); font-size: 0.92rem; margin-right: 0.5rem; }
+.integration-item span { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; border-radius: 999px; padding: 0.1rem 0.5rem; }
+.integration-item span.ok { background: rgba(47,107,79,0.15); color: var(--accent-3); }
+.integration-item span.no { background: rgba(179,34,34,0.12); color: var(--accent); }
+.integration-item p { margin: 0.4rem 0 0; font-size: 0.83rem; color: var(--muted); line-height: 1.45; }
