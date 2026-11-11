@@ -1,15 +1,17 @@
 // =====================================================
-// TV RÉTRO - Version magazine + vue journée + segments + vidéo
+// TV RÉTRO - Version magazine + vue journée + segments + vidéo + décennies
 // - tri logique : 00:00-04:59 affichées après 23:59
 // - sommaire du soir dans un tiroir fermé
 // - frise avec une seule scrollbar
 // - clic frise -> programme fiable
 // - retour à la journée depuis la playlist
-// - panel de recherche vidéo (INA, YouTube, Dailymotion, Odysee)
+// - panel de recherche vidéo (INA, archive.org, YouTube, Dailymotion, Odysee)
+// - navigation par décennie (70s, 80s, 90s)
 // =====================================================
 
 const state = {
     currentView: 'browse',
+    selectedDecade: null,
     selectedYear: null,
     selectedDate: null,
     playlist: loadStoredPlaylist(),
@@ -722,7 +724,7 @@ function showNoData(message = 'Lance d’abord le workflow GitHub Actions pour s
 }
 
 // =====================================================
-// Vue années
+// Vue années avec navigation par décennie
 // =====================================================
 
 function displayYears() {
@@ -747,22 +749,70 @@ function displayYears() {
         return;
     }
 
-    container.innerHTML = `
-        <h2 class="years-title">📅 Choisissez une année</h2>
-        <div class="years-grid">
-            ${years.map(year => {
-                const yearData = state.index.years[year] || {};
-                const totalPrograms = Number(yearData.total_programs || 0);
+    // Grouper les années par décennie
+    const decades = {};
+    years.forEach(year => {
+        const decade = Math.floor(Number(year) / 10) * 10;
+        if (!decades[decade]) {
+            decades[decade] = [];
+        }
+        decades[decade].push(year);
+    });
 
-                return `
-                    <button class="year-btn" onclick="selectYear('${escapeHtml(year)}')">
-                        <span class="year-number">${escapeHtml(year)}</span>
-                        <span class="year-info">${totalPrograms} programmes archivés</span>
-                    </button>
-                `;
-            }).join('')}
-        </div>
+    const decadeKeys = Object.keys(decades)
+        .map(Number)
+        .sort((a, b) => a - b);
+
+    // Décennie par défaut
+    if (!state.selectedDecade || !decades[state.selectedDecade]) {
+        state.selectedDecade = String(decadeKeys[0]);
+    }
+
+    const selectedDecadeNum = Number(state.selectedDecade);
+
+    // Onglets de décennie
+    const decadeTabs = decadeKeys.map(decade => {
+        const label = `${String(decade).slice(2)}s`;
+        const count = decades[decade].length;
+        const active = decade === selectedDecadeNum;
+
+        return `
+            <button
+                class="decade-tab${active ? ' active' : ''}"
+                type="button"
+                onclick="selectDecade('${decade}')"
+            >
+                <span class="decade-label">${label}</span>
+                <span class="decade-count">${count} an${count > 1 ? 's' : ''}</span>
+            </button>
+        `;
+    }).join('');
+
+    // Années de la décennie sélectionnée
+    const decadeYears = decades[selectedDecadeNum] || [];
+
+    const yearsHtml = decadeYears.map(year => {
+        const yearData = state.index.years[year] || {};
+        const totalPrograms = Number(yearData.total_programs || 0);
+
+        return `
+            <button class="year-btn" onclick="selectYear('${escapeHtml(year)}')">
+                <span class="year-number">${escapeHtml(year)}</span>
+                <span class="year-info">${totalPrograms} programmes archivés</span>
+            </button>
+        `;
+    }).join('');
+
+    container.innerHTML = `
+        <h2 class="years-title">📅 Choisissez une décennie puis une année</h2>
+        <div class="decade-tabs">${decadeTabs}</div>
+        <div class="years-grid">${yearsHtml}</div>
     `;
+}
+
+function selectDecade(decade) {
+    state.selectedDecade = String(decade);
+    displayYears();
 }
 
 // =====================================================
@@ -1532,6 +1582,13 @@ function buildVideoLinks(program) {
             description: 'Archives TV françaises'
         },
         {
+            name: 'archive.org',
+            icon: '🏛️',
+            className: 'archive',
+            url: `https://archive.org/search?query=${encoded}`,
+            description: 'Archives libres et complètes'
+        },
+        {
             name: 'YouTube',
             icon: '▶️',
             className: 'youtube',
@@ -1542,7 +1599,7 @@ function buildVideoLinks(program) {
             name: 'Dailymotion',
             icon: '📺',
             className: 'dailymotion',
-            url: `https://www.dailymotion.com/search/${encoded}`,
+            url: `https://www.dailymotion.com/search/${encoded}/videos`,
             description: 'Vidéos et génériques'
         },
         {
@@ -1706,12 +1763,73 @@ function setupPlaylistListeners() {
     }
 
     container.addEventListener('click', event => {
-        const removeBtn = event.target.closest('[data-remove-id]');
+        const videoBtn = event.target.closest('.video-search-btn');
+        if (videoBtn) {
+            openVideoPanelFromPlaylist(videoBtn.dataset.videoId);
+            return;
+        }
 
+        const removeBtn = event.target.closest('[data-remove-id]');
         if (removeBtn) {
             removeFromPlaylist(removeBtn.dataset.removeId);
         }
     });
+}
+
+function openVideoPanelFromPlaylist(programId) {
+    const program = state.playlist.find(item => item.id === programId);
+
+    if (!program) {
+        showToast('❌ Programme introuvable dans la playlist');
+        return;
+    }
+
+    const overlay = document.getElementById('video-panel-overlay');
+    const titleEl = document.getElementById('video-panel-title');
+    const metaEl = document.getElementById('video-panel-meta');
+    const linksContainer = document.getElementById('video-panel-links');
+
+    if (!overlay || !titleEl || !metaEl || !linksContainer) {
+        return;
+    }
+
+    titleEl.textContent = program.title || 'Programme';
+
+    const metaParts = [];
+    if (program.date) {
+        metaParts.push(formatShortDate(program.date));
+    }
+    if (program.time) {
+        metaParts.push(program.time);
+    }
+    if (program.channel) {
+        metaParts.push(program.channel);
+    }
+    if (program.parentTitle && program.type === 'segment') {
+        metaParts.push(`dans ${program.parentTitle}`);
+    }
+    metaEl.textContent = metaParts.join(' · ');
+
+    const links = buildVideoLinks(program);
+
+    linksContainer.innerHTML = links.map(link => `
+        <a
+            href="${escapeHtml(link.url)}"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="video-link ${escapeHtml(link.className)}"
+        >
+            <span class="video-link-icon">${link.icon}</span>
+            <span class="video-link-content">
+                <span class="video-link-name">${escapeHtml(link.name)}</span>
+                <span class="video-link-desc">${escapeHtml(link.description)}</span>
+            </span>
+            <span class="video-link-arrow">↗</span>
+        </a>
+    `).join('');
+
+    overlay.hidden = false;
+    document.body.style.overflow = 'hidden';
 }
 
 function updatePlaylistDisplay() {
@@ -2059,6 +2177,7 @@ function registerServiceWorker() {
 
 window.selectYear = selectYear;
 window.selectDate = selectDate;
+window.selectDecade = selectDecade;
 window.displayYears = displayYears;
 window.displayDates = displayDates;
 window.closeDayView = closeDayView;
