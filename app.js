@@ -1,5 +1,5 @@
 // =====================================================
-// TV RÉTRO - frise proportionnelle + fiches enrichies
+// TV RÉTRO - frise + fiches + charts + intégrations
 // =====================================================
 
 const state = {
@@ -7,18 +7,14 @@ const state = {
     playlist: loadStoredPlaylist(), index: null, yearData: null,
     dayOpen: false, currentPrograms: [], currentProgramMap: new Map(),
     filters: { query: '', channel: 'all', showSegments: true },
-    suggestions: [],
-    timelineZoom: 2.4, timelinePrograms: [],
+    suggestions: [], timelineZoom: 2.4, timelinePrograms: [],
     tmdbKey: localStorage.getItem('retroTmdbKey') || '',
-    search: {
-        meta: null, metaLoaded: false, filtersReady: false, cache: {}, loadedYears: new Set(),
-        loading: false, query: '', genre: 'all', channel: 'all', period: 'all', year: 'all',
-        evening: false, sort: 'count', groups: [], totalMatches: 0, expanded: new Set()
-    }
+    search: { meta: null, metaLoaded: false, filtersReady: false, cache: {}, loadedYears: new Set(), loading: false, query: '', genre: 'all', channel: 'all', period: 'all', year: 'all', evening: false, sort: 'count', groups: [], totalMatches: 0, expanded: new Set() }
 };
 
-let toastTimeout = null, videoPanelToken = 0, searchDebounce = null, searchRunToken = 0, infoToken = 0;
+let toastTimeout = null, videoPanelToken = 0, searchDebounce = null, searchRunToken = 0, infoToken = 0, tlTouchArmed = null;
 const LAST_DAY_STORAGE_KEY = 'retroLastDay', NIGHT_CUTOFF_HOUR = 5, HIDDEN_GENRES = ['météo'];
+const CHARTS_BASE = 'https://xbodin2g.github.io/top-singles-hebdo/';
 
 const CHANNEL_ORDER = ['ORTF 1','ORTF 2','ORTF 3','TF1','Antenne 2','France 2','FR3','France 3','Canal+','TV6','M6','La Cinq','La Sept','Arte','La Cinquième','France 5'];
 const CHANNEL_ALIASES = {
@@ -27,15 +23,12 @@ const CHANNEL_ALIASES = {
     'C+':'Canal+','CANAL+':'Canal+','CANAL':'Canal+','TV6':'TV6','L5':'La Cinq','LA5':'La Cinq','LA 5':'La Cinq','LA CINQ':'La Cinq','LA CINQUIEME':'La Cinquième','LA CINQUIÈME':'La Cinquième','CINQ':'La Cinq','M6':'M6',
     'LA SEPT':'La Sept','L7':'La Sept','LA7':'La Sept','LA 7':'La Sept','ARTE':'Arte','FRANCE 5':'France 5'
 };
-const CHANNEL_COLORS = {
-    'ORTF 1':'#6b7280','ORTF 2':'#8b5cf6','ORTF 3':'#0ea5e9','TF1':'#1f3a5f','Antenne 2':'#8c2f39','France 2':'#c2410c','FR3':'#2f6b4f','France 3':'#15803d',
-    'Canal+':'#111827','TV6':'#db2777','M6':'#31708f','La Cinq':'#6b4f8c','La Sept':'#0f766e','Arte':'#b32222','La Cinquième':'#0891b2','France 5':'#0e7490'
-};
+const CHANNEL_COLORS = { 'ORTF 1':'#6b7280','ORTF 2':'#8b5cf6','ORTF 3':'#0ea5e9','TF1':'#1f3a5f','Antenne 2':'#8c2f39','France 2':'#c2410c','FR3':'#2f6b4f','France 3':'#15803d','Canal+':'#111827','TV6':'#db2777','M6':'#31708f','La Cinq':'#6b4f8c','La Sept':'#0f766e','Arte':'#b32222','La Cinquième':'#0891b2','France 5':'#0e7490' };
 
 document.addEventListener('DOMContentLoaded', initializeApp);
 
 async function initializeApp() {
-    injectSearchUI(); injectInfoUI();
+    injectSearchUI(); injectInfoUI(); injectTooltip();
     setupNavigation(); setupDayToolbarListeners(); setupPlaylistListeners();
     setupVideoPanelListeners(); setupSearchListeners(); setupYearsClickListener(); setupInfoListeners();
     updatePlaylistDisplay(); registerServiceWorker();
@@ -50,21 +43,13 @@ async function initializeApp() {
 function escapeHtml(v){return String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
 function normalizeText(v){if(!v)return'';return String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim();}
 function cssSafeId(v){return String(v||'').replace(/[^a-zA-Z0-9_-]/g,'-').replace(/^-+|-+$/g,'')||'id';}
-function normalizeDate(dateStr){
-    if(!dateStr)return null;const value=String(dateStr).trim();let parts;
-    if(value.includes('-'))parts=value.split('-');else if(value.includes('/'))parts=value.split('/');else return null;
-    if(parts.length!==3)return null;let day,month,year;
-    if(parts[0].length===4){year=parts[0];month=parts[1];day=parts[2];}else{day=parts[0];month=parts[1];year=parts[2];}
-    day=String(day).padStart(2,'0');month=String(month).padStart(2,'0');year=String(year);
-    const nd=Number(day),nm=Number(month),ny=Number(year);if(Number.isNaN(nd)||Number.isNaN(nm)||Number.isNaN(ny))return null;
-    const t=new Date(ny,nm-1,nd);if(t.getFullYear()!==ny||t.getMonth()!==nm-1||t.getDate()!==nd)return null;
-    return `${day}-${month}-${year}`;
-}
+function normalizeDate(d){if(!d)return null;const v=String(d).trim();let p;if(v.includes('-'))p=v.split('-');else if(v.includes('/'))p=v.split('/');else return null;if(p.length!==3)return null;let day,month,year;if(p[0].length===4){year=p[0];month=p[1];day=p[2];}else{day=p[0];month=p[1];year=p[2];}day=String(day).padStart(2,'0');month=String(month).padStart(2,'0');year=String(year);const nd=+day,nm=+month,ny=+year;if(Number.isNaN(nd)||Number.isNaN(nm)||Number.isNaN(ny))return null;const t=new Date(ny,nm-1,nd);if(t.getFullYear()!==ny||t.getMonth()!==nm-1||t.getDate()!==nd)return null;return `${day}-${month}-${year}`;}
 function dateToDate(d){const n=normalizeDate(d);if(!n)return null;const[a,b,c]=n.split('-').map(Number);return new Date(c,b-1,a);}
+function isoDate(d){const n=normalizeDate(d);if(!n)return'';const[day,month,year]=n.split('-');return `${year}-${month}-${day}`;}
 function formatDateLabel(d){const n=normalizeDate(d);if(!n)return d||'';const[day,month,year]=n.split('-');try{const dt=new Date(+year,+month-1,+day);return `${dt.toLocaleDateString('fr-FR',{weekday:'long'})} ${day}/${month}/${year}`;}catch{return `${day}/${month}/${year}`;}}
 function formatShortDate(d){const n=normalizeDate(d);if(!n)return d||'';const[day,month,year]=n.split('-');return `${day}/${month}/${year}`;}
 function dateSortKey(d){const n=normalizeDate(d);if(!n)return[9999,9999,9999];const[day,month,year]=n.split('-').map(Number);return[year,month,day];}
-function sortDates(dates){return[...dates].sort((a,b)=>{const ka=dateSortKey(a),kb=dateSortKey(b);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return 0;});}
+function sortDates(ds){return[...ds].sort((a,b)=>{const ka=dateSortKey(a),kb=dateSortKey(b);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return 0;});}
 function normalizeTime(v){if(!v)return'';const m=String(v).trim().match(/^(\d{1,2})[:h.](\d{2})$/i);if(!m)return'';const h=+m[1],min=+m[2];if(h>23||min>59)return'';return `${String(h).padStart(2,'0')}:${String(min).padStart(2,'0')}`;}
 function timeSortKey(t){if(!t||!t.includes(':'))return 9999;const[h,m]=t.split(':').map(Number);if(Number.isNaN(h)||Number.isNaN(m))return 9999;return h>=NIGHT_CUTOFF_HOUR?(h-NIGHT_CUTOFF_HOUR)*60+m:(h+24-NIGHT_CUTOFF_HOUR)*60+m;}
 function canonicalChannel(v){const raw=String(v||'').trim();if(!raw)return'Autres';const u=raw.toUpperCase();if(CHANNEL_ALIASES[u])return CHANNEL_ALIASES[u];const nu=normalizeText(raw).toUpperCase();if(CHANNEL_ALIASES[nu])return CHANNEL_ALIASES[nu];const c=nu.replace(/\s+/g,'');if(CHANNEL_ALIASES[c])return CHANNEL_ALIASES[c];return raw;}
@@ -74,252 +59,186 @@ function slugChannel(c){return normalizeText(c).replace(/\s+/g,'-').replace(/^-|
 function cleanTitle(v){let t=String(v||'').trim().replace(/\s+/g,' ');const p=t.split(/\s+[-–—]\s+/);if(p.length===2&&normalizeText(p[0])===normalizeText(p[1]))return p[0].trim();return t;}
 function truncateText(v,n){const t=String(v||'');return t.length<=n?t:`${t.slice(0,n-1)}…`;}
 
+// ---------- Charts bridge ----------
+function isChartShow(title){const t=normalizeText(title);return /\btop 50\b|\bhit machine\b|\bhit parade\b|\btop club\b|\btube d argent\b|\btop 40\b/.test(t);}
+function chartsUrl(date){return `${CHARTS_BASE}?date=${encodeURIComponent(isoDate(date))}`;}
+
+// ---------- Film meta for disambiguation ----------
+function parseFilmMeta(program){
+    const desc=String(program.description||'');
+    if(!/\bfilm\b|\btelefilm\b/i.test(desc))return null;
+    const year=(desc.match(/\((\d{4})\)/)||[])[1]||(desc.match(/\b(19\d{2}|20\d{2})\b/)||[])[1]||'';
+    let director=(desc.match(/film\s+de\s+([A-ZÀ-Ý][^,.(;]+)/i)||[])[1]||'';
+    if(!director)director=(desc.match(/\bde\s+([A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][a-zà-ÿ]+)/)||[])[1]||'';
+    director=director.trim();
+    if(!year&&!director)return null;
+    return {year,director};
+}
+
 // ---------- Storage ----------
-function loadStoredPlaylist(){try{const raw=localStorage.getItem('retroPlaylist');if(!raw)return[];const p=JSON.parse(raw);if(!Array.isArray(p))return[];return p.filter(x=>x&&typeof x==='object').filter(x=>x.id&&x.date&&x.title).map(x=>({id:String(x.id),date:String(x.date),time:x.time?String(x.time):'',title:x.title?String(x.title):'',channel:x.channel?String(x.channel):'',description:x.description?String(x.description):'',parentTitle:x.parentTitle?String(x.parentTitle):'',type:x.type?String(x.type):'program',addedAt:x.addedAt||new Date().toISOString()}));}catch(e){console.error(e);return[];}}
-function savePlaylist(){try{localStorage.setItem('retroPlaylist',JSON.stringify(state.playlist));}catch(e){showToast('❌ Sauvegarde playlist impossible');}}
+function loadStoredPlaylist(){try{const raw=localStorage.getItem('retroPlaylist');if(!raw)return[];const p=JSON.parse(raw);if(!Array.isArray(p))return[];return p.filter(x=>x&&typeof x==='object').filter(x=>x.id&&x.date&&x.title).map(x=>({id:String(x.id),date:String(x.date),time:x.time?String(x.time):'',title:x.title?String(x.title):'',channel:x.channel?String(x.channel):'',description:x.description?String(x.description):'',parentTitle:x.parentTitle?String(x.parentTitle):'',type:x.type?String(x.type):'program',addedAt:x.addedAt||new Date().toISOString()}));}catch(e){return[];}}
+function savePlaylist(){try{localStorage.setItem('retroPlaylist',JSON.stringify(state.playlist));}catch(e){showToast('❌ Sauvegarde impossible');}}
 function setStoredLastDay(y,d){try{localStorage.setItem(LAST_DAY_STORAGE_KEY,JSON.stringify({year:y,date:d,updatedAt:new Date().toISOString()}));}catch(e){}}
 function getStoredLastDay(){try{const r=localStorage.getItem(LAST_DAY_STORAGE_KEY);if(!r)return null;const p=JSON.parse(r);if(!p||!p.year||!p.date)return null;return{year:String(p.year),date:String(p.date)};}catch(e){return null;}}
 function clearStoredLastDay(){try{localStorage.removeItem(LAST_DAY_STORAGE_KEY);}catch(e){}}
 async function restoreLastDay(){const s=getStoredLastDay();if(!s)return false;if(!state.index?.years?.[s.year]){clearStoredLastDay();return false;}try{const ok=await selectYear(s.year,{display:false});if(!ok)return false;return selectDate(s.date)===true;}catch(e){return false;}}
 
 // ---------- Data ----------
-async function loadIndex(options={}){
-    try{
-        const base=document.baseURI||window.location.href;const url=new URL('data/index.json',base).href+`?t=${Date.now()}`;
-        const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);
-        const t=await r.text();if(!t.trim())throw new Error('index vide');state.index=JSON.parse(t);
-        if(!state.index?.years||typeof state.index.years!=='object'){showNoData('Structure index invalide.');return false;}
-        if(!Object.keys(state.index.years).some(y=>/^\d{4}$/.test(y))){showNoData('Aucune année. Lance generate_index_only.');return false;}
-        if(options.display!==false)displayYears();return true;
-    }catch(e){showNoData(e.message);return false;}
-}
-function showNoData(msg='Lance le workflow de scraping puis generate_index_only.'){const c=document.getElementById('years-container');if(c)c.innerHTML=`<div class="empty-state"><div class="retro-tv">📺</div><h2>Aucune donnée disponible</h2><p>${escapeHtml(msg)}</p></div>`;const p=document.getElementById('programs-groups');if(p)p.innerHTML='';}
+async function loadIndex(options={}){try{const base=document.baseURI||window.location.href;const r=await fetch(new URL('data/index.json',base).href+`?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);const t=await r.text();if(!t.trim())throw new Error('index vide');state.index=JSON.parse(t);if(!state.index?.years){showNoData('Structure index invalide.');return false;}if(!Object.keys(state.index.years).some(y=>/^\d{4}$/.test(y))){showNoData('Aucune année. Lance generate_index_only.');return false;}if(options.display!==false)displayYears();return true;}catch(e){showNoData(e.message);return false;}}
+function showNoData(msg='Lance le scraping puis generate_index_only.'){const c=document.getElementById('years-container');if(c)c.innerHTML=`<div class="empty-state"><div class="retro-tv">📺</div><h2>Aucune donnée disponible</h2><p>${escapeHtml(msg)}</p></div>`;const p=document.getElementById('programs-groups');if(p)p.innerHTML='';}
 function programKey(p){return p.time?`${p.time}|${p.channel||'Autres'}`:`${normalizeText(p.title)}|${p.channel||'Autres'}`;}
-function dedupePrograms(programs){
-    const map=new Map();
-    for(const raw of programs){if(!raw||typeof raw!=='object')continue;
-        const p={time:normalizeTime(raw.time),channel:canonicalChannel(raw.channel)||'Autres',title:cleanTitle(raw.title)||'Programme non identifié',description:String(raw.description||'').trim().replace(/\s+/g,' '),segments:Array.isArray(raw.segments)?raw.segments:[]};
-        const k=programKey(p);if(!map.has(k)){map.set(k,p);continue;}
-        const ex=map.get(k);if(p.title.length>ex.title.length)ex.title=p.title;if(p.description.length>ex.description.length)ex.description=p.description;if(!ex.time&&p.time)ex.time=p.time;if(!ex.segments.length&&p.segments.length)ex.segments=p.segments;
-    }
-    return[...map.values()].sort((a,b)=>{const ra=channelRank(a.channel),rb=channelRank(b.channel);if(ra!==rb)return ra-rb;const sa=timeSortKey(a.time),sb=timeSortKey(b.time);if(sa!==sb)return sa-sb;return normalizeText(a.title).localeCompare(normalizeText(b.title));});
-}
+function dedupePrograms(programs){const map=new Map();for(const raw of programs){if(!raw||typeof raw!=='object')continue;const p={time:normalizeTime(raw.time),channel:canonicalChannel(raw.channel)||'Autres',title:cleanTitle(raw.title)||'Programme non identifié',description:String(raw.description||'').trim().replace(/\s+/g,' '),segments:Array.isArray(raw.segments)?raw.segments:[]};const k=programKey(p);if(!map.has(k)){map.set(k,p);continue;}const ex=map.get(k);if(p.title.length>ex.title.length)ex.title=p.title;if(p.description.length>ex.description.length)ex.description=p.description;if(!ex.time&&p.time)ex.time=p.time;if(!ex.segments.length&&p.segments.length)ex.segments=p.segments;}return[...map.values()].sort((a,b)=>{const ra=channelRank(a.channel),rb=channelRank(b.channel);if(ra!==rb)return ra-rb;const sa=timeSortKey(a.time),sb=timeSortKey(b.time);if(sa!==sb)return sa-sb;return normalizeText(a.title).localeCompare(normalizeText(b.title));});}
 function flattenChannels(ch){if(!ch||typeof ch!=='object')return[];return Object.values(ch).flat().filter(Boolean);}
-function groupProgramsByChannel(programs){const m=new Map();for(const p of programs){const c=p.channel||'Autres';if(!m.has(c))m.set(c,[]);m.get(c).push(p);}return[...m.entries()].sort((a,b)=>channelRank(a[0])-channelRank(b[0])).map(([channel,ps])=>({channel,programs:[...ps].sort((a,b)=>timeSortKey(a.time)-timeSortKey(b.time))}));}
+function groupProgramsByChannel(ps){const m=new Map();for(const p of ps){const c=p.channel||'Autres';if(!m.has(c))m.set(c,[]);m.get(c).push(p);}return[...m.entries()].sort((a,b)=>channelRank(a[0])-channelRank(b[0])).map(([channel,progs])=>({channel,programs:[...progs].sort((a,b)=>timeSortKey(a.time)-timeSortKey(b.time))}));}
 function makeProgramId(date,time,channel,suffix='p'){const nd=normalizeDate(date)||String(date||'');return `${nd}__${String(time||'sans-heure').replace(':','h')}__${slugChannel(channel||'Autres')}__${String(suffix||'p').replace(/[^a-zA-Z0-9_-]/g,'-')}`;}
 function programAnchorId(date,p){return `prog-${cssSafeId(makeProgramId(date,p.time,p.channel,'p'))}`;}
 
 // ---------- Browse ----------
-function displayYears(){
-    const c=document.getElementById('years-container');if(!c)return;if(!state.index?.years){showNoData();return;}
-    const years=Object.keys(state.index.years).filter(y=>/^\d{4}$/.test(y)).sort((a,b)=>+a-+b);if(!years.length){showNoData();return;}
-    const decades={};years.forEach(y=>{const d=Math.floor(+y/10)*10;(decades[d]=decades[d]||[]).push(y);});
-    const dk=Object.keys(decades).map(Number).sort((a,b)=>a-b);
-    if(!state.selectedDecade||!decades[state.selectedDecade])state.selectedDecade=String(dk[0]);
-    const sel=+state.selectedDecade;
-    const tabs=dk.map(d=>`<button class="decade-tab${d===sel?' active':''}" type="button" onclick="selectDecade('${d}')"><span class="decade-label">${String(d).slice(2)}s</span><span class="decade-count">${decades[d].length} an${decades[d].length>1?'s':''}</span></button>`).join('');
-    const cards=(decades[sel]||[]).map(y=>`<button class="year-btn" onclick="selectYear('${escapeHtml(y)}')"><span class="year-number">${escapeHtml(y)}</span><span class="year-info">${Number(state.index.years[y].total_programs||0)} programmes archivés</span></button>`).join('');
-    c.innerHTML=`${renderSuggestionsHTML()}<h2 class="years-title">📅 Choisissez une décennie puis une année</h2><div class="decade-tabs">${tabs}</div><div class="years-grid">${cards}</div>`;
-}
+function displayYears(){const c=document.getElementById('years-container');if(!c)return;if(!state.index?.years){showNoData();return;}const years=Object.keys(state.index.years).filter(y=>/^\d{4}$/.test(y)).sort((a,b)=>+a-+b);if(!years.length){showNoData();return;}const decades={};years.forEach(y=>{const d=Math.floor(+y/10)*10;(decades[d]=decades[d]||[]).push(y);});const dk=Object.keys(decades).map(Number).sort((a,b)=>a-b);if(!state.selectedDecade||!decades[state.selectedDecade])state.selectedDecade=String(dk[0]);const sel=+state.selectedDecade;const tabs=dk.map(d=>`<button class="decade-tab${d===sel?' active':''}" type="button" onclick="selectDecade('${d}')"><span class="decade-label">${String(d).slice(2)}s</span><span class="decade-count">${decades[d].length} an${decades[d].length>1?'s':''}</span></button>`).join('');const cards=(decades[sel]||[]).map(y=>`<button class="year-btn" onclick="selectYear('${escapeHtml(y)}')"><span class="year-number">${escapeHtml(y)}</span><span class="year-info">${Number(state.index.years[y].total_programs||0)} programmes archivés</span></button>`).join('');c.innerHTML=`${renderSuggestionsHTML()}<h2 class="years-title">📅 Choisissez une décennie puis une année</h2><div class="decade-tabs">${tabs}</div><div class="years-grid">${cards}</div>`;}
 function selectDecade(d){state.selectedDecade=String(d);displayYears();}
 function setupYearsClickListener(){const c=document.getElementById('years-container');if(!c)return;c.addEventListener('click',e=>{if(e.target.closest('#reshuffle-suggestions')){buildSuggestions();displayYears();return;}const card=e.target.closest('[data-open-day]');if(card)openDay(card.dataset.openDay);});}
-async function selectYear(year,options={}){
-    state.selectedYear=year;state.selectedDate=null;state.yearData=null;showLoading(true);
-    try{const base=document.baseURI||window.location.href;const url=new URL(`data/${year}.json`,base).href+`?t=${Date.now()}`;const r=await fetch(url,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);state.yearData=await r.json();
-        if(!state.yearData?.dates){showToast(`⚠️ Aucune journée pour ${year}`);if(options.display!==false)displayYears();return false;}
-        if(options.display!==false)displayDates(year);return true;
-    }catch(e){showToast(`❌ ${e.message}`);if(options.display!==false)displayYears();return false;}finally{showLoading(false);}
-}
-function displayDates(year){
-    const c=document.getElementById('years-container');if(!c)return;const dates=state.yearData?.dates?sortDates(Object.keys(state.yearData.dates)):[];
-    if(!dates.length){c.innerHTML=`<div class="year-header"><button class="back-btn" onclick="displayYears()">← Retour aux années</button><h2>📅 ${escapeHtml(year)}</h2></div><div class="empty-state"><h2>Aucune date disponible</h2></div>`;return;}
-    c.innerHTML=`<div class="year-header"><button class="back-btn" onclick="displayYears()">← Retour aux années</button><h2>📅 ${escapeHtml(year)} — ${dates.length} journées disponibles</h2></div><div class="dates-grid">${dates.map(d=>{const dd=state.yearData.dates[d]||{};const n=Number(dd.programs_count||(Array.isArray(dd.programs)?dd.programs.length:0));return `<button class="date-btn" onclick="selectDate('${escapeHtml(d)}')"><span class="date-display">${escapeHtml(formatDateLabel(d))}</span><span class="date-info">${n} programmes</span><span class="date-source">${escapeHtml(dd.source||'inconnue')}</span></button>`;}).join('')}</div>`;
-}
-function selectDate(date){
-    const nd=normalizeDate(date)||date;if(!state.yearData?.dates){showToast('❌ Aucune donnée d’année chargée');return false;}
-    const dd=state.yearData.dates[nd]||state.yearData.dates[date];if(!dd){showToast('❌ Date indisponible');return false;}
-    state.selectedDate=nd;state.filters={query:'',channel:'all',showSegments:true};
-    let raw=Array.isArray(dd.programs)&&dd.programs.length?dd.programs:(dd.channels?flattenChannels(dd.channels):[]);
-    state.currentPrograms=dedupePrograms(raw);openDayView(dd);return true;
-}
+async function selectYear(year,options={}){state.selectedYear=year;state.selectedDate=null;state.yearData=null;showLoading(true);try{const base=document.baseURI||window.location.href;const r=await fetch(new URL(`data/${year}.json`,base).href+`?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error(`HTTP ${r.status}`);state.yearData=await r.json();if(!state.yearData?.dates){showToast(`⚠️ Aucune journée pour ${year}`);if(options.display!==false)displayYears();return false;}if(options.display!==false)displayDates(year);return true;}catch(e){showToast(`❌ ${e.message}`);if(options.display!==false)displayYears();return false;}finally{showLoading(false);}}
+function displayDates(year){const c=document.getElementById('years-container');if(!c)return;const dates=state.yearData?.dates?sortDates(Object.keys(state.yearData.dates)):[];if(!dates.length){c.innerHTML=`<div class="year-header"><button class="back-btn" onclick="displayYears()">← Retour aux années</button><h2>📅 ${escapeHtml(year)}</h2></div><div class="empty-state"><h2>Aucune date disponible</h2></div>`;return;}c.innerHTML=`<div class="year-header"><button class="back-btn" onclick="displayYears()">← Retour aux années</button><h2>📅 ${escapeHtml(year)} — ${dates.length} journées disponibles</h2></div><div class="dates-grid">${dates.map(d=>{const dd=state.yearData.dates[d]||{};const n=Number(dd.programs_count||(Array.isArray(dd.programs)?dd.programs.length:0));return `<button class="date-btn" onclick="selectDate('${escapeHtml(d)}')"><span class="date-display">${escapeHtml(formatDateLabel(d))}</span><span class="date-info">${n} programmes</span><span class="date-source">${escapeHtml(dd.source||'inconnue')}</span></button>`;}).join('')}</div>`;}
+function selectDate(date){const nd=normalizeDate(date)||date;if(!state.yearData?.dates){showToast('❌ Aucune donnée chargée');return false;}const dd=state.yearData.dates[nd]||state.yearData.dates[date];if(!dd){showToast('❌ Date indisponible');return false;}state.selectedDate=nd;state.filters={query:'',channel:'all',showSegments:true};let raw=Array.isArray(dd.programs)&&dd.programs.length?dd.programs:(dd.channels?flattenChannels(dd.channels):[]);state.currentPrograms=dedupePrograms(raw);openDayView(dd);return true;}
 function openDayView(dd){const bl=document.getElementById('browse-list'),dp=document.getElementById('day-panel');if(!bl||!dp)return;state.dayOpen=true;bl.hidden=true;dp.hidden=false;renderDay(dd);setStoredLastDay(state.selectedYear,state.selectedDate);updatePlaylistReturnBar();window.scrollTo({top:0,behavior:'auto'});}
 function closeDayView(){const bl=document.getElementById('browse-list'),dp=document.getElementById('day-panel');if(!bl||!dp)return;state.dayOpen=false;state.selectedDate=null;clearStoredLastDay();dp.hidden=true;bl.hidden=false;updatePlaylistReturnBar();if(state.selectedYear&&state.yearData)displayDates(state.selectedYear);else displayYears();window.scrollTo({top:0,behavior:'auto'});}
 function reopenDayView(){if(!state.dayOpen||!state.yearData||!state.selectedDate)return false;const dd=state.yearData.dates[state.selectedDate];if(!dd)return false;const bl=document.getElementById('browse-list'),dp=document.getElementById('day-panel');if(!bl||!dp)return false;bl.hidden=true;dp.hidden=false;renderDay(dd);updatePlaylistReturnBar();return true;}
 async function openDay(date,time,channel){const nd=normalizeDate(date);if(!nd){showToast('❌ Date invalide');return;}const y=nd.split('-')[2];setActiveView('browse');const ok=await selectYear(y,{display:false});if(!ok)return;if(selectDate(nd)&&time&&channel){const anchor=programAnchorId(nd,{time:normalizeTime(time),channel:canonicalChannel(channel)});setTimeout(()=>jumpToProgram(anchor),200);}}
 
-// ---------- Day view ----------
-function renderDay(dd){
-    const programs=state.currentPrograms;
-    const set=(id,val)=>{const el=document.getElementById(id);if(el)el.textContent=val;};
-    set('day-title',formatDateLabel(dd.date||state.selectedDate));set('day-meta',`${programs.length} programmes`);set('day-source',dd.source||'source inconnue');
-    const si=document.getElementById('program-search');if(si)si.value=state.filters.query;
-    const ss=document.getElementById('show-segments');if(ss)ss.checked=state.filters.showSegments;
-    const channels=[...new Set(programs.map(p=>p.channel||'Autres'))].sort((a,b)=>channelRank(a)-channelRank(b));
-    const cf=document.getElementById('channel-filter');if(cf)cf.innerHTML=`<option value="all">Toutes les chaînes</option>`+channels.map(c=>`<option value="${escapeHtml(c)}"${state.filters.channel===c?' selected':''}>${escapeHtml(c)}</option>`).join('');
-    renderSummary(programs,document.getElementById('summary-details'));applyFilters();
-}
+// ---------- Day ----------
+function renderDay(dd){const programs=state.currentPrograms;const set=(id,v)=>{const el=document.getElementById(id);if(el)el.textContent=v;};set('day-title',formatDateLabel(dd.date||state.selectedDate));set('day-meta',`${programs.length} programmes`);set('day-source',dd.source||'source inconnue');const si=document.getElementById('program-search');if(si)si.value=state.filters.query;const ss=document.getElementById('show-segments');if(ss)ss.checked=state.filters.showSegments;const channels=[...new Set(programs.map(p=>p.channel||'Autres'))].sort((a,b)=>channelRank(a)-channelRank(b));const cf=document.getElementById('channel-filter');if(cf)cf.innerHTML=`<option value="all">Toutes les chaînes</option>`+channels.map(c=>`<option value="${escapeHtml(c)}"${state.filters.channel===c?' selected':''}>${escapeHtml(c)}</option>`).join('');renderSummary(programs,document.getElementById('summary-details'));applyFilters();}
 function setupDayToolbarListeners(){
-    const dp=document.getElementById('day-panel');
-    const bind=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
+    const dp=document.getElementById('day-panel');const bind=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
     bind('program-search','input',e=>{state.filters.query=e.target.value;applyFilters();});
     bind('channel-filter','change',e=>{state.filters.channel=e.target.value;applyFilters();});
     bind('show-segments','change',e=>{state.filters.showSegments=e.target.checked;applyFilters();});
     bind('expand-all','click',()=>document.querySelectorAll('#programs-groups .channel-block').forEach(b=>setChannelBlockCollapsed(b,false)));
     bind('collapse-all','click',()=>document.querySelectorAll('#programs-groups .channel-block').forEach(b=>setChannelBlockCollapsed(b,true)));
-    const tl=document.getElementById('day-timeline');if(tl)tl.addEventListener('click',e=>{const z=e.target.closest('[data-tl-zoom]');if(z){setTimelineZoom(z.dataset.tlZoom);return;}const b=e.target.closest('[data-target-anchor]');if(b)jumpToProgram(b.dataset.targetAnchor);});
+    const tl=document.getElementById('day-timeline');
+    if(tl){
+        tl.addEventListener('click',e=>{
+            const z=e.target.closest('[data-tl-zoom]');if(z){setTimelineZoom(z.dataset.tlZoom);return;}
+            const b=e.target.closest('[data-target-anchor]');if(!b)return;
+            if(tlTouchArmed===b){tlTouchArmed=null;setTimeout(hideTlTooltip,1600);return;}
+            hideTlTooltip();jumpToProgram(b.dataset.targetAnchor);
+        });
+        tl.addEventListener('touchstart',e=>{const b=e.target.closest('.tl-block');if(b){tlTouchArmed=b;showTlTooltip(b);}else{tlTouchArmed=null;hideTlTooltip();}},{passive:true});
+        tl.addEventListener('mouseover',e=>{const b=e.target.closest('.tl-block');if(b)showTlTooltip(b);});
+        tl.addEventListener('mouseout',e=>{if(e.target.closest('.tl-block'))hideTlTooltip();});
+    }
     if(dp)dp.addEventListener('click',handleDayClick);
 }
 function handleDayClick(e){
     if(e.target.closest('#day-back-btn')){closeDayView();return;}
+    const charts=e.target.closest('.charts-btn');if(charts){window.open(charts.dataset.chartsUrl,'_blank','noopener');return;}
     const info=e.target.closest('.info-btn');if(info){openInfoPanel(info.dataset.infoId);return;}
     const video=e.target.closest('.video-search-btn');if(video){openVideoPanel(video.dataset.videoId);return;}
     const header=e.target.closest('.channel-header');if(header){const b=header.closest('.channel-block');if(b)setChannelBlockCollapsed(b,!b.classList.contains('collapsed'));return;}
     const jump=e.target.closest('[data-target-anchor]');if(jump){jumpToProgram(jump.dataset.targetAnchor);return;}
     const add=e.target.closest('.add-to-playlist-btn');if(add)addToPlaylist(add.dataset.programId);
 }
-function setChannelBlockCollapsed(b,collapsed){if(!b)return;b.classList.toggle('collapsed',collapsed);const h=b.querySelector('.channel-header'),t=b.querySelector('.channel-toggle');if(h)h.setAttribute('aria-expanded',String(!collapsed));if(t)t.textContent=collapsed?'+':'−';}
-function jumpToProgram(anchor){
-    let el=document.getElementById(anchor);
-    if(!el){state.filters={...state.filters,query:'',channel:'all'};const si=document.getElementById('program-search'),cf=document.getElementById('channel-filter');if(si)si.value='';if(cf)cf.value='all';applyFilters();el=document.getElementById(anchor);}
-    if(!el){showToast('❌ Programme introuvable');return;}
-    const b=el.closest('.channel-block');if(b?.classList.contains('collapsed'))setChannelBlockCollapsed(b,false);
-    el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.add('flash-highlight');setTimeout(()=>el.classList.remove('flash-highlight'),1200);
-}
-function applyFilters(){
-    const q=normalizeText(state.filters.query),ch=state.filters.channel;
-    const filtered=state.currentPrograms.filter(p=>{if(ch!=='all'&&p.channel!==ch)return false;if(!q)return true;return normalizeText([p.title,p.description,p.channel,p.time,...(p.segments||[]).map(s=>s.title)].join(' ')).includes(q);});
-    const fc=document.getElementById('filtered-count');if(fc)fc.textContent=String(filtered.length);
-    renderTimeline(filtered);renderGroups(filtered);
-}
+function setChannelBlockCollapsed(b,c){if(!b)return;b.classList.toggle('collapsed',c);const h=b.querySelector('.channel-header'),t=b.querySelector('.channel-toggle');if(h)h.setAttribute('aria-expanded',String(!c));if(t)t.textContent=c?'+':'−';}
+function jumpToProgram(anchor){let el=document.getElementById(anchor);if(!el){state.filters={...state.filters,query:'',channel:'all'};const si=document.getElementById('program-search'),cf=document.getElementById('channel-filter');if(si)si.value='';if(cf)cf.value='all';applyFilters();el=document.getElementById(anchor);}if(!el){showToast('❌ Programme introuvable');return;}const b=el.closest('.channel-block');if(b?.classList.contains('collapsed'))setChannelBlockCollapsed(b,false);el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.add('flash-highlight');setTimeout(()=>el.classList.remove('flash-highlight'),1200);}
+function applyFilters(){const q=normalizeText(state.filters.query),ch=state.filters.channel;const filtered=state.currentPrograms.filter(p=>{if(ch!=='all'&&p.channel!==ch)return false;if(!q)return true;return normalizeText([p.title,p.description,p.channel,p.time,...(p.segments||[]).map(s=>s.title)].join(' ')).includes(q);});const fc=document.getElementById('filtered-count');if(fc)fc.textContent=String(filtered.length);renderTimeline(filtered);renderGroups(filtered);}
 
-// ---------- FRISE PROPORTIONNELLE ----------
-function setTimelineZoom(mode){
-    if(mode==='in')state.timelineZoom=Math.min(6,state.timelineZoom+0.6);
-    else if(mode==='out')state.timelineZoom=Math.max(1.2,state.timelineZoom-0.6);
-    else state.timelineZoom=2.4;
-    renderTimeline(state.timelinePrograms);
-}
+// ---------- Tooltip frise ----------
+function injectTooltip(){if(!document.getElementById('tl-tooltip')){const t=document.createElement('div');t.id='tl-tooltip';t.className='tl-tooltip';t.hidden=true;document.body.appendChild(t);}}
+function showTlTooltip(block){const t=document.getElementById('tl-tooltip');if(!t)return;t.textContent=block.dataset.tip||block.getAttribute('title')||'';t.hidden=false;const r=block.getBoundingClientRect();const tw=t.offsetWidth;let left=r.left+r.width/2-tw/2;left=Math.max(8,Math.min(left,window.innerWidth-tw-8));let top=r.top-t.offsetHeight-8;if(top<8)top=r.bottom+8;t.style.left=left+'px';t.style.top=top+'px';}
+function hideTlTooltip(){const t=document.getElementById('tl-tooltip');if(t)t.hidden=true;}
+
+// ---------- Frise proportionnelle ----------
+function setTimelineZoom(mode){if(mode==='in')state.timelineZoom=Math.min(6,state.timelineZoom+0.6);else if(mode==='out')state.timelineZoom=Math.max(1.2,state.timelineZoom-0.6);else state.timelineZoom=2.4;renderTimeline(state.timelinePrograms);}
 function tlLabel(min){const h=(NIGHT_CUTOFF_HOUR+Math.floor(min/60))%24;const m=min%60;return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}`;}
 function renderTimeline(programs){
-    const container=document.getElementById('day-timeline');if(!container)return;
-    state.timelinePrograms=programs;
+    const container=document.getElementById('day-timeline');if(!container)return;state.timelinePrograms=programs;
     if(!programs||!programs.length){container.innerHTML=`<div class="empty-state compact"><p>Aucune frise disponible.</p></div>`;return;}
-    const groups=groupProgramsByChannel(programs);
-    const ppm=state.timelineZoom,TOTAL=1440,LABEL=96,width=Math.round(TOTAL*ppm);
+    const groups=groupProgramsByChannel(programs);const ppm=state.timelineZoom,TOTAL=1440,LABEL=96,width=Math.round(TOTAL*ppm);
     const ticks=[];for(let m=0;m<=TOTAL;m+=120)ticks.push(m);
     const grid=ticks.map(m=>`<span class="tl-gridline" style="left:${Math.round(m*ppm)}px"></span>`).join('');
     const axis=ticks.map(m=>`<span class="tl-tick" style="left:${Math.round(m*ppm)}px">${tlLabel(m)}</span>`).join('');
-    const rows=groups.map(g=>{
-        const ps=g.programs.filter(p=>timeSortKey(p.time)<9999);
-        const blocks=ps.map((p,i)=>{
-            const start=timeSortKey(p.time);const next=i+1<ps.length?timeSortKey(ps[i+1].time):TOTAL;
-            const dur=Math.max(12,Math.min(TOTAL-start,next-start));const left=Math.round(start*ppm),w=Math.max(18,Math.round(dur*ppm));
-            const anchor=programAnchorId(state.selectedDate,p);const color=channelColor(g.channel);
-            return `<button type="button" class="tl-block" data-target-anchor="${escapeHtml(anchor)}" style="left:${left}px;width:${w}px;--tl-color:${color}" title="${escapeHtml(`${p.time} · ${p.title}`)}"><span class="tl-block-time">${escapeHtml(p.time||'')}</span><span class="tl-block-title">${escapeHtml(p.title||'')}</span></button>`;
-        }).join('');
-        return `<div class="tl-row"><div class="tl-label"><span class="tl-channel-dot" style="background:${channelColor(g.channel)}"></span>${escapeHtml(g.channel)}</div><div class="tl-track" style="width:${width}px">${blocks}</div></div>`;
-    }).join('');
-    container.innerHTML=`
-        <div class="tl-controls">
-            <span class="tl-hint">Frise proportionnelle · 05:00 → 05:00</span>
-            <div class="tl-zoom">
-                <button type="button" class="tiny-btn" data-tl-zoom="out" title="Dézoomer">−</button>
-                <button type="button" class="tiny-btn" data-tl-zoom="reset" title="Zoom par défaut">100%</button>
-                <button type="button" class="tiny-btn" data-tl-zoom="in" title="Zoomer">+</button>
-            </div>
-        </div>
-        <div class="tl-scroll"><div class="tl-canvas" style="width:${width+LABEL}px">
-            <div class="tl-grid" style="left:${LABEL}px;width:${width}px">${grid}</div>
-            <div class="tl-axis" style="margin-left:${LABEL}px;width:${width}px">${axis}</div>
-            ${rows}
-        </div></div>`;
+    const rows=groups.map(g=>{const ps=g.programs.filter(p=>timeSortKey(p.time)<9999);const blocks=ps.map((p,i)=>{const start=timeSortKey(p.time);const next=i+1<ps.length?timeSortKey(ps[i+1].time):TOTAL;const dur=Math.max(12,Math.min(TOTAL-start,next-start));const left=Math.round(start*ppm),w=Math.max(18,Math.round(dur*ppm));const anchor=programAnchorId(state.selectedDate,p);const color=channelColor(g.channel);const tip=`${p.time||''} · ${p.title||''}`;return `<button type="button" class="tl-block" data-target-anchor="${escapeHtml(anchor)}" data-tip="${escapeHtml(tip)}" style="left:${left}px;width:${w}px;--tl-color:${color}" title="${escapeHtml(tip)}"><span class="tl-block-time">${escapeHtml(p.time||'')}</span><span class="tl-block-title">${escapeHtml(p.title||'')}</span></button>`;}).join('');return `<div class="tl-row"><div class="tl-label"><span class="tl-channel-dot" style="background:${channelColor(g.channel)}"></span>${escapeHtml(g.channel)}</div><div class="tl-track" style="width:${width}px">${blocks}</div></div>`;}).join('');
+    container.innerHTML=`<div class="tl-controls"><span class="tl-hint">Frise proportionnelle · 05:00 → 05:00 · survolez / touchez un bloc pour le titre</span><div class="tl-zoom"><button type="button" class="tiny-btn" data-tl-zoom="out">−</button><button type="button" class="tiny-btn" data-tl-zoom="reset">100%</button><button type="button" class="tiny-btn" data-tl-zoom="in">+</button></div></div><div class="tl-scroll"><div class="tl-canvas" style="width:${width+LABEL}px"><div class="tl-grid" style="left:${LABEL}px;width:${width}px">${grid}</div><div class="tl-axis" style="margin-left:${LABEL}px;width:${width}px">${axis}</div>${rows}</div></div>`;
 }
 
 // ---------- Sommaire / groupes ----------
-function renderSummary(programs,details){
-    const c=document.getElementById('day-summary');if(!c)return;const evening=programs.filter(p=>(p.time||'')>='20:30');
-    if(!evening.length){if(details)details.hidden=true;c.innerHTML='';return;}if(details)details.hidden=false;
-    c.innerHTML=`<div class="summary-grid">${evening.map(p=>`<button class="summary-chip" type="button" data-target-anchor="${escapeHtml(programAnchorId(state.selectedDate,p))}"><span class="summary-time">${escapeHtml(p.time||'--:--')}</span><span class="summary-channel">${escapeHtml(p.channel||'Autres')}</span><span class="summary-title">${escapeHtml(truncateText(p.title||'Programme',55))}</span></button>`).join('')}</div>`;
+function renderSummary(programs,details){const c=document.getElementById('day-summary');if(!c)return;const evening=programs.filter(p=>(p.time||'')>='20:30');if(!evening.length){if(details)details.hidden=true;c.innerHTML='';return;}if(details)details.hidden=false;c.innerHTML=`<div class="summary-grid">${evening.map(p=>`<button class="summary-chip" type="button" data-target-anchor="${escapeHtml(programAnchorId(state.selectedDate,p))}"><span class="summary-time">${escapeHtml(p.time||'--:--')}</span><span class="summary-channel">${escapeHtml(p.channel||'Autres')}</span><span class="summary-title">${escapeHtml(truncateText(p.title||'Programme',55))}</span></button>`).join('')}</div>`;}
+function actionButtons(id,program,date){
+    let html='';
+    if(isChartShow(program.title))html+=`<button class="charts-btn" type="button" data-charts-url="${escapeHtml(chartsUrl(date))}" title="Top de la semaine">📊</button>`;
+    html+=`<button class="info-btn" type="button" data-info-id="${escapeHtml(id)}" title="Fiche programme">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(id)}" title="Vidéos">▶️</button><button class="add-to-playlist-btn" type="button" data-program-id="${escapeHtml(id)}" title="Playlist">➕</button>`;
+    return html;
 }
-function renderGroups(programs){
-    const c=document.getElementById('programs-groups');if(!c)return;state.currentProgramMap.clear();
-    if(!programs.length){c.innerHTML=`<div class="empty-state compact"><h3>Aucun programme trouvé</h3><p>Modifiez la recherche ou la chaîne.</p></div>`;return;}
-    c.innerHTML=groupProgramsByChannel(programs).map(g=>{const collapsed=g.programs.length>12;return `<section class="channel-block${collapsed?' collapsed':''}" data-channel="${escapeHtml(g.channel)}"><button class="channel-header" type="button" aria-expanded="${!collapsed}"><span class="channel-badge" style="--channel-color:${channelColor(g.channel)}">${escapeHtml(g.channel)}</span><span class="channel-meta">${g.programs.length} programmes</span><span class="channel-toggle">${collapsed?'+':'−'}</span></button><div class="channel-programs">${g.programs.map(p=>renderProgramRow(p)).join('')}</div></section>`;}).join('');
-}
+function renderGroups(programs){const c=document.getElementById('programs-groups');if(!c)return;state.currentProgramMap.clear();if(!programs.length){c.innerHTML=`<div class="empty-state compact"><h3>Aucun programme trouvé</h3><p>Modifiez la recherche ou la chaîne.</p></div>`;return;}c.innerHTML=groupProgramsByChannel(programs).map(g=>{const collapsed=g.programs.length>12;return `<section class="channel-block${collapsed?' collapsed':''}" data-channel="${escapeHtml(g.channel)}"><button class="channel-header" type="button" aria-expanded="${!collapsed}"><span class="channel-badge" style="--channel-color:${channelColor(g.channel)}">${escapeHtml(g.channel)}</span><span class="channel-meta">${g.programs.length} programmes</span><span class="channel-toggle">${collapsed?'+':'−'}</span></button><div class="channel-programs">${g.programs.map(p=>renderProgramRow(p)).join('')}</div></section>`;}).join('');}
 function renderProgramRow(program){
     const date=state.selectedDate,pid=makeProgramId(date,program.time,program.channel,'p'),anchor=programAnchorId(date,program);
     state.currentProgramMap.set(pid,{id:pid,date,time:program.time||'',channel:program.channel||'',title:program.title||'',description:program.description||'',parentTitle:'',type:'program'});
     const segments=state.filters.showSegments&&Array.isArray(program.segments)?program.segments:[];
-    const segHtml=segments.length?`<details class="segments"><summary>${segments.length} extrait${segments.length>1?'s':''} détecté${segments.length>1?'s':''}</summary><ul class="segments-list">${segments.map(s=>{const sid=makeProgramId(date,program.time,program.channel,`s${s.index}`);state.currentProgramMap.set(sid,{id:sid,date,time:program.time||'',channel:program.channel||'',title:s.title||'',description:s.raw||'',parentTitle:program.title||'',type:'segment'});return `<li class="segment-item"><div class="segment-content"><div class="segment-title">${escapeHtml(s.title||'Extrait')}</div>${s.raw&&s.raw!==s.title?`<div class="segment-raw">${escapeHtml(s.raw)}</div>`:''}</div><div class="segment-actions"><button class="info-btn" type="button" data-info-id="${escapeHtml(sid)}" title="Fiche programme">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(sid)}" title="Vidéos">▶️</button><button class="add-to-playlist-btn" type="button" data-program-id="${escapeHtml(sid)}" title="Playlist">➕</button></div></li>`;}).join('')}</ul></details>`:'';
-    return `<article class="program-row" id="${escapeHtml(anchor)}"><div class="program-time">${escapeHtml(program.time||'--:--')}</div><div class="program-content"><div class="program-title">${escapeHtml(program.title||'Titre inconnu')}</div>${program.description?`<p class="program-description">${escapeHtml(program.description)}</p>`:''}${segHtml}</div><div class="program-actions"><button class="info-btn" type="button" data-info-id="${escapeHtml(pid)}" title="Fiche programme">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(pid)}" title="Vidéos">▶️</button><button class="add-to-playlist-btn" type="button" data-program-id="${escapeHtml(pid)}" title="Playlist">➕</button></div></article>`;
+    const segHtml=segments.length?`<details class="segments"><summary>${segments.length} extrait${segments.length>1?'s':''} détecté${segments.length>1?'s':''}</summary><ul class="segments-list">${segments.map(s=>{const sid=makeProgramId(date,program.time,program.channel,`s${s.index}`);state.currentProgramMap.set(sid,{id:sid,date,time:program.time||'',channel:program.channel||'',title:s.title||'',description:s.raw||'',parentTitle:program.title||'',type:'segment'});return `<li class="segment-item"><div class="segment-content"><div class="segment-title">${escapeHtml(s.title||'Extrait')}</div>${s.raw&&s.raw!==s.title?`<div class="segment-raw">${escapeHtml(s.raw)}</div>`:''}</div><div class="segment-actions">${actionButtons(sid,{title:s.title},date)}</div></li>`;}).join('')}</ul></details>`:'';
+    return `<article class="program-row" id="${escapeHtml(anchor)}"><div class="program-time">${escapeHtml(program.time||'--:--')}</div><div class="program-content"><div class="program-title">${escapeHtml(program.title||'Titre inconnu')}</div>${program.description?`<p class="program-description">${escapeHtml(program.description)}</p>`:''}${segHtml}</div><div class="program-actions">${actionButtons(pid,program,date)}</div></article>`;
 }
 
-// ---------- FICHES ENRICHIES (Wikipédia + TMDB) ----------
+// ---------- Fiches enrichies ----------
 function injectInfoUI(){
-    if(!document.getElementById('info-overlay')){
-        const o=document.createElement('div');o.id='info-overlay';o.className='info-overlay';o.hidden=true;
-        o.innerHTML=`<div class="info-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeInfoPanel()">✕</button><div class="info-header"><div class="info-icon">📖</div><h3 id="info-title"></h3><p id="info-meta" class="info-meta"></p></div><div id="info-body" class="info-body"></div><div class="info-footer"><button class="tiny-btn" type="button" onclick="openTmdbSettings()">⚙️ Clé TMDB</button><button class="tiny-btn" type="button" id="info-video-btn">▶️ Vidéos</button></div></div>`;
-        document.body.appendChild(o);
-    }
-    if(!document.getElementById('tmdb-overlay')){
-        const s=document.createElement('div');s.id='tmdb-overlay';s.className='info-overlay';s.hidden=true;
-        s.innerHTML=`<div class="info-panel settings-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeTmdbSettings()">✕</button><div class="info-header"><div class="info-icon">🔑</div><h3>Clé API TMDB</h3><p class="info-meta">Optionnelle — améliore les fiches séries / dessins animés</p></div><div class="info-body"><p class="settings-help">Wikipédia fonctionne sans clé. Pour ajouter affiches, synopsis et dates via TMDB, colle ta clé API (v3) gratuite. Elle reste stockée uniquement dans ton navigateur.</p><label class="settings-label">Clé API TMDB (v3)</label><input type="text" id="tmdb-key-input" class="settings-input" placeholder="ex : 0123456789abcdef..." autocomplete="off"><div class="settings-actions"><a class="retro-btn" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener noreferrer">Obtenir une clé ↗</a><button class="retro-btn" type="button" onclick="saveTmdbKey()">Enregistrer</button><button class="tiny-btn" type="button" onclick="clearTmdbKey()">Effacer</button></div><p class="settings-note">IMDb n’a pas d’API publique gratuite : TMDB est la meilleure alternative ouverte.</p></div></div>`;
-        document.body.appendChild(s);
-    }
-    const nav=document.querySelector('.nav');
-    if(nav&&!document.getElementById('settings-nav-btn')){const b=document.createElement('button');b.id='settings-nav-btn';b.className='nav-btn nav-gear';b.type='button';b.title='Configurer TMDB';b.textContent='️';b.addEventListener('click',openTmdbSettings);nav.appendChild(b);}
+    if(!document.getElementById('info-overlay')){const o=document.createElement('div');o.id='info-overlay';o.className='info-overlay';o.hidden=true;o.innerHTML=`<div class="info-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeInfoPanel()">✕</button><div class="info-header"><div class="info-icon">📖</div><h3 id="info-title"></h3><p id="info-meta" class="info-meta"></p></div><div id="info-body" class="info-body"></div><div class="info-footer"><button class="tiny-btn" type="button" onclick="openTmdbSettings()">⚙️ Clé TMDB</button><button class="tiny-btn" type="button" id="info-charts-btn" hidden>📊 Top semaine</button><button class="tiny-btn" type="button" id="info-video-btn">▶️ Vidéos</button></div></div>`;document.body.appendChild(o);}
+    if(!document.getElementById('tmdb-overlay')){const s=document.createElement('div');s.id='tmdb-overlay';s.className='info-overlay';s.hidden=true;s.innerHTML=`<div class="info-panel settings-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeTmdbSettings()">✕</button><div class="info-header"><div class="info-icon">🔑</div><h3>Clé API TMDB</h3><p class="info-meta">Optionnelle — affiches & synopsis séries / dessins animés</p></div><div class="info-body"><p class="settings-help">Wikipédia fonctionne sans clé. Pour TMDB, colle ta clé API (v3) gratuite ; elle reste dans ton navigateur.</p><label class="settings-label">Clé API TMDB (v3)</label><input type="text" id="tmdb-key-input" class="settings-input" placeholder="ex : 0123456789abcdef..." autocomplete="off"><div class="settings-actions"><a class="retro-btn" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener noreferrer">Obtenir une clé ↗</a><button class="retro-btn" type="button" onclick="saveTmdbKey()">Enregistrer</button><button class="tiny-btn" type="button" onclick="clearTmdbKey()">Effacer</button></div><div class="integrations"><div class="info-section-title">🔌 Autres intégrations</div><div class="integration-item"><strong>📊 Charts (Top Singles Hebdo)</strong><span class="ok">Disponible</span><p>Le bouton 📊 sur Top 50 / Hit Machine ouvre le top de la semaine correspondante.</p></div><div class="integration-item"><strong>🧲 Real-Debrid</strong><span class="no">Non disponible ici</span><p>L’API Real-Debrid n’autorise pas les appels directs depuis un navigateur (CORS) et exposerait ton token. Nécessite un petit serveur / proxy personnel.</p></div><div class="integration-item"><strong>📦 Freebox (serveur local)</strong><span class="no">Non disponible ici</span><p>Depuis un site public en HTTPS, le navigateur ne peut pas atteindre ton réseau local ni l’API Freebox authentifiée. Nécessite une application locale ou un proxy sur ton réseau.</p></div></div></div></div>`;document.body.appendChild(s);}
+    const nav=document.querySelector('.nav');if(nav&&!document.getElementById('settings-nav-btn')){const b=document.createElement('button');b.id='settings-nav-btn';b.className='nav-btn nav-gear';b.type='button';b.title='Configurer TMDB & intégrations';b.textContent='⚙️';b.addEventListener('click',openTmdbSettings);nav.appendChild(b);}
 }
 function setupInfoListeners(){
     const io=document.getElementById('info-overlay');if(io)io.addEventListener('click',e=>{if(e.target===io)closeInfoPanel();});
     const to=document.getElementById('tmdb-overlay');if(to)to.addEventListener('click',e=>{if(e.target===to)closeTmdbSettings();});
     document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(!document.getElementById('info-overlay')?.hidden)closeInfoPanel();if(!document.getElementById('tmdb-overlay')?.hidden)closeTmdbSettings();}});
     const vb=document.getElementById('info-video-btn');if(vb)vb.addEventListener('click',()=>{const id=vb.dataset.programId;closeInfoPanel();if(id)openVideoPanel(id);});
+    const cb=document.getElementById('info-charts-btn');if(cb)cb.addEventListener('click',()=>{if(cb.dataset.chartsUrl)window.open(cb.dataset.chartsUrl,'_blank','noopener');});
 }
-function infoSearchTitle(program){
-    let t=program.type==='segment'?program.title:(program.title||'');
-    t=String(t).replace(/\s+[-–—]\s+.*$/,'').trim();
-    t=t.replace(/^(LE|LA|LES|L')\s+/i,'$1 ');
-    return t||program.title||'';
+function infoSearchTitle(p){let t=p.type==='segment'?p.title:(p.title||'');t=String(t).replace(/\s+[-–—]\s+.*$/,'').trim();return t||p.title||'';}
+function wikiMatches(summary,meta){
+    if(!meta)return true;const text=normalizeText((summary.extract||'')+' '+(summary.title||''));
+    if(meta.director){const last=normalizeText(meta.director).split(' ').pop();if(last&&!text.includes(last))return false;}
+    if(meta.year&&!text.includes(meta.year))return false;
+    return true;
 }
-async function fetchWikipediaInfo(title){
-    const q=encodeURIComponent(title);
-    const or=await fetch(`https://fr.wikipedia.org/w/api.php?action=opensearch&search=${q}&limit=1&namespace=0&format=json&origin=*`);
-    if(!or.ok)return null;const od=await or.json();const page=od?.[1]?.[0];if(!page)return null;
-    const sr=await fetch(`https://fr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`);
-    if(!sr.ok)return null;const s=await sr.json();if(s.type==='disambiguation')return null;
-    return {source:'Wikipédia',title:s.title,extract:s.extract||'',thumb:s.thumbnail?.source||null,url:s.content_urls?.desktop?.page||`https://fr.wikipedia.org/wiki/${encodeURIComponent(page)}`};
+async function fetchWikipediaInfo(title,meta){
+    const attempts=[title];if(meta?.director)attempts.push(`${title} ${meta.director}`);if(meta?.year)attempts.push(`${title} ${meta.year} film`);
+    for(const q of attempts){
+        const or=await fetch(`https://fr.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(q)}&limit=3&namespace=0&format=json&origin=*`);
+        if(!or.ok)continue;const od=await or.json();const pages=od?.[1]||[];
+        for(const page of pages){
+            const sr=await fetch(`https://fr.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`);
+            if(!sr.ok)continue;const s=await sr.json();if(s.type==='disambiguation')continue;
+            if(wikiMatches(s,meta))return {source:'Wikipédia',title:s.title,extract:s.extract||'',thumb:s.thumbnail?.source||null,url:s.content_urls?.desktop?.page||`https://fr.wikipedia.org/wiki/${encodeURIComponent(page)}`};
+        }
+    }
+    return null;
 }
-async function fetchTmdbInfo(title,key){
-    const q=encodeURIComponent(title);
-    let r=await fetch(`https://api.themoviedb.org/3/search/tv?api_key=${encodeURIComponent(key)}&language=fr-FR&query=${q}&page=1&include_adult=false`);
+async function fetchTmdbInfo(title,key,meta){
+    const q=encodeURIComponent(title);const y=meta?.year?`&year=${meta.year}`:'';const py=meta?.year?`&primary_release_year=${meta.year}`:'';
+    let r=await fetch(`https://api.themoviedb.org/3/search/tv?api_key=${encodeURIComponent(key)}&language=fr-FR&query=${q}&page=1&include_adult=false${y}`);
     if(!r.ok)throw new Error('TMDB HTTP '+r.status);let d=await r.json();let item=d.results?.[0];let type='tv';
-    if(!item){r=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${encodeURIComponent(key)}&language=fr-FR&query=${q}&page=1&include_adult=false`);if(r.ok){d=await r.json();item=d.results?.[0];type='movie';}}
+    if(!item){r=await fetch(`https://api.themoviedb.org/3/search/movie?api_key=${encodeURIComponent(key)}&language=fr-FR&query=${q}&page=1&include_adult=false${py}`);if(r.ok){d=await r.json();item=d.results?.[0];type='movie';}}
     if(!item)return null;
     return {source:'TMDB',title:item.name||item.title||title,extract:item.overview||'',thumb:item.poster_path?`https://image.tmdb.org/t/p/w342${item.poster_path}`:null,url:`https://www.themoviedb.org/${type}/${item.id}`,date:item.first_air_date||item.release_date||'',rating:item.vote_average||0};
 }
-function infoCardHtml(data){
-    if(!data)return `<div class="info-empty">Aucune fiche trouvée.</div>`;
-    return `<div class="info-card">${data.thumb?`<img class="info-thumb" src="${escapeHtml(data.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<div class="info-thumb info-thumb-empty">📺</div>`}<div class="info-card-body"><div class="info-source">${escapeHtml(data.source)}</div><h4>${escapeHtml(data.title)}</h4>${data.date?`<div class="info-date">${escapeHtml(data.date)}${data.rating?` · ★ ${data.rating.toFixed(1)}`:''}</div>`:''}${data.extract?`<p class="info-extract">${escapeHtml(data.extract)}</p>`:`<p class="info-extract muted">Pas de synopsis disponible.</p>`}<a class="info-link" href="${escapeHtml(data.url)}" target="_blank" rel="noopener noreferrer">Ouvrir la fiche ↗</a></div></div>`;
-}
+function infoCardHtml(d){if(!d)return `<div class="info-empty">Aucune fiche fiable trouvée.</div>`;return `<div class="info-card">${d.thumb?`<img class="info-thumb" src="${escapeHtml(d.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:`<div class="info-thumb info-thumb-empty">📺</div>`}<div class="info-card-body"><div class="info-source">${escapeHtml(d.source)}</div><h4>${escapeHtml(d.title)}</h4>${d.date?`<div class="info-date">${escapeHtml(d.date)}${d.rating?` · ★ ${d.rating.toFixed(1)}`:''}</div>`:''}${d.extract?`<p class="info-extract">${escapeHtml(d.extract)}</p>`:`<p class="info-extract muted">Pas de synopsis.</p>`}<a class="info-link" href="${escapeHtml(d.url)}" target="_blank" rel="noopener noreferrer">Ouvrir la fiche ↗</a></div></div>`;}
 async function openInfoPanel(programId){
     const program=state.currentProgramMap.get(programId)||state.playlist.find(p=>p.id===programId);
     if(!program){showToast('❌ Programme introuvable');return;}
     const overlay=document.getElementById('info-overlay'),body=document.getElementById('info-body');
-    const titleEl=document.getElementById('info-title'),metaEl=document.getElementById('info-meta'),vb=document.getElementById('info-video-btn');
+    const titleEl=document.getElementById('info-title'),metaEl=document.getElementById('info-meta'),vb=document.getElementById('info-video-btn'),cb=document.getElementById('info-charts-btn');
     if(!overlay||!body)return;
     if(titleEl)titleEl.textContent=program.title||'Programme';
     const meta=[];if(program.date)meta.push(formatShortDate(program.date));if(program.time)meta.push(program.time);if(program.channel)meta.push(program.channel);if(program.parentTitle)meta.push(`dans ${program.parentTitle}`);
     if(metaEl)metaEl.textContent=meta.join(' · ');if(vb)vb.dataset.programId=program.id;
-    infoToken++;const token=infoToken;const query=infoSearchTitle(program);
+    if(cb){if(isChartShow(program.title)){cb.hidden=false;cb.dataset.chartsUrl=chartsUrl(program.date);}else cb.hidden=true;}
+    infoToken++;const token=infoToken;const query=infoSearchTitle(program);const filmMeta=parseFilmMeta(program);
     body.innerHTML=`<div class="info-section"><div class="info-section-title">📚 Wikipédia</div><div id="info-wiki"><div class="info-loading"><span class="video-inline-spinner"></span> Recherche…</div></div></div><div class="info-section"><div class="info-section-title">🎬 TMDB</div><div id="info-tmdb">${state.tmdbKey?`<div class="info-loading"><span class="video-inline-spinner"></span> Recherche…</div>`:`<div class="info-empty">Clé TMDB non configurée. <button class="tiny-btn" type="button" onclick="openTmdbSettings()">Ajouter une clé</button></div>`}</div></div>`;
     overlay.hidden=false;document.body.style.overflow='hidden';
-    fetchWikipediaInfo(query).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-wiki');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-wiki');if(el)el.innerHTML=`<div class="info-empty">Wikipédia indisponible.</div>`;}});
-    if(state.tmdbKey){fetchTmdbInfo(query,state.tmdbKey).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-tmdb');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-tmdb');if(el)el.innerHTML=`<div class="info-empty">TMDB indisponible (clé invalide ?).</div>`;}});}
+    fetchWikipediaInfo(query,filmMeta).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-wiki');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-wiki');if(el)el.innerHTML=`<div class="info-empty">Wikipédia indisponible.</div>`;}});
+    if(state.tmdbKey){fetchTmdbInfo(query,state.tmdbKey,filmMeta).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-tmdb');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-tmdb');if(el)el.innerHTML=`<div class="info-empty">TMDB indisponible (clé invalide ?).</div>`;}});}
 }
 function closeInfoPanel(){const o=document.getElementById('info-overlay');if(o)o.hidden=true;document.body.style.overflow='';infoToken++;}
 function openTmdbSettings(){const o=document.getElementById('tmdb-overlay'),i=document.getElementById('tmdb-key-input');if(i)i.value=state.tmdbKey;if(o){o.hidden=false;document.body.style.overflow='hidden';}}
 function closeTmdbSettings(){const o=document.getElementById('tmdb-overlay');if(o)o.hidden=true;document.body.style.overflow='';}
-function saveTmdbKey(){const i=document.getElementById('tmdb-key-input');const k=(i?.value||'').trim();state.tmdbKey=k;try{localStorage.setItem('retroTmdbKey',k);}catch(e){}showToast(k?'✅ Clé TMDB enregistrée':'ℹ️ Clé TMDB effacée');closeTmdbSettings();}
+function saveTmdbKey(){const i=document.getElementById('tmdb-key-input');const k=(i?.value||'').trim();state.tmdbKey=k;try{localStorage.setItem('retroTmdbKey',k);}catch(e){}showToast(k?'✅ Clé TMDB enregistrée':'ℹ️ Clé effacée');closeTmdbSettings();}
 function clearTmdbKey(){state.tmdbKey='';try{localStorage.removeItem('retroTmdbKey');}catch(e){}const i=document.getElementById('tmdb-key-input');if(i)i.value='';showToast('🗑️ Clé TMDB effacée');}
 
 // ---------- Vidéo ----------
@@ -331,82 +250,26 @@ function videoFallbackHtml(m,u){return `<div class="video-inline-fallback">${esc
 function videoResultCard(it){const t=escapeHtml(it.title||'Vidéo'),u=escapeHtml(it.url||'#'),pl=escapeHtml(it.platform||'');const th=it.thumb?`<img class="video-result-thumb" src="${escapeHtml(it.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.classList.add('video-result-thumb-empty');this.removeAttribute('src');this.textContent='📼';">`:`<div class="video-result-thumb video-result-thumb-empty">📼</div>`;return `<a class="video-result-card ${pl}" href="${u}" target="_blank" rel="noopener noreferrer" title="${t}">${th}<span class="video-result-title">${t}</span></a>`;}
 async function loadDailymotionResults(q,c,token){if(!c)return;const su=`https://www.dailymotion.com/search/${encodeURIComponent(q)}/videos`;c.innerHTML=videoSectionHeader('Dailymotion','📺')+videoLoadingHtml();try{const r=await fetch(`https://api.dailymotion.com/videos?search=${encodeURIComponent(q)}&fields=id,title,thumbnail_url&limit=6`);if(token!==videoPanelToken)return;if(!r.ok)throw new Error();const d=await r.json();const l=Array.isArray(d.list)?d.list:[];if(!l.length){c.innerHTML=videoSectionHeader('Dailymotion','📺')+videoFallbackHtml('Aucun résultat.',su);return;}c.innerHTML=videoSectionHeader('Dailymotion','📺')+`<div class="video-results-grid">${l.map(v=>videoResultCard({title:v.title,thumb:v.thumbnail_url,url:`https://www.dailymotion.com/video/${v.id}`,platform:'dailymotion'})).join('')}</div>`;}catch(e){if(token===videoPanelToken)c.innerHTML=videoSectionHeader('Dailymotion','📺')+videoFallbackHtml('Recherche directe indisponible.',su);}}
 async function loadOdyseeResults(q,c,token){if(!c)return;const su=`https://odysee.com/$/search?q=${encodeURIComponent(q)}`;c.innerHTML=videoSectionHeader('Odysee','🌐')+videoLoadingHtml();try{const r=await fetch('https://api.na-backend.odysee.com/api/v1/proxy',{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},body:JSON.stringify({jsonrpc:'2.0',id:1,method:'claim_search',params:{text:q,claim_type:['stream'],stream_types:['video'],no_totals:true,page_size:6}})});if(token!==videoPanelToken)return;if(!r.ok)throw new Error();const d=await r.json();const items=d?.result?.items||[];if(!items.length){c.innerHTML=videoSectionHeader('Odysee','🌐')+videoFallbackHtml('Aucun résultat.',su);return;}c.innerHTML=videoSectionHeader('Odysee','🌐')+`<div class="video-results-grid">${items.map(it=>{const v=it.value||{};let u=it.canonical_url||it.permanent_url||'';u=String(u).replace('lbry://','https://odysee.com/').replace(/#/g,':');return videoResultCard({title:v.title||it.name,thumb:v.thumbnail?.url||'',url:u||su,platform:'odysee'});}).join('')}</div>`;}catch(e){if(token===videoPanelToken)c.innerHTML=videoSectionHeader('Odysee','🌐')+videoFallbackHtml('Recherche directe indisponible.',su);}}
-function showVideoPanel(program){
-    const o=document.getElementById('video-panel-overlay'),t=document.getElementById('video-panel-title'),m=document.getElementById('video-panel-meta'),lc=document.getElementById('video-panel-links');if(!o||!t||!m||!lc)return;
-    t.textContent=program.title||'Programme';const mp=[];if(program.date)mp.push(formatShortDate(program.date));if(program.time)mp.push(program.time);if(program.channel)mp.push(program.channel);if(program.parentTitle&&program.type==='segment')mp.push(`dans ${program.parentTitle}`);m.textContent=mp.join(' · ');
-    lc.innerHTML=buildVideoLinks(program).map(l=>`<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer" class="video-link ${escapeHtml(l.className)}"><span class="video-link-icon">${l.icon}</span><span class="video-link-content"><span class="video-link-name">${escapeHtml(l.name)}</span><span class="video-link-desc">${escapeHtml(l.description)}</span></span><span class="video-link-arrow">↗</span></a>`).join('');
-    const panel=o.querySelector('.video-panel');let re=document.getElementById('video-panel-results');if(!re&&panel){re=document.createElement('div');re.id='video-panel-results';re.className='video-panel-results';const note=panel.querySelector('.video-panel-note');if(note)panel.insertBefore(re,note);else panel.appendChild(re);}
-    if(re)re.innerHTML=`<div class="video-inline-section" id="video-dailymotion-section"></div><div class="video-inline-section" id="video-odysee-section"></div>`;
-    const q=buildVideoSearchQuery(program);videoPanelToken++;const token=videoPanelToken;loadDailymotionResults(q,document.getElementById('video-dailymotion-section'),token);loadOdyseeResults(q,document.getElementById('video-odysee-section'),token);o.hidden=false;document.body.style.overflow='hidden';
-}
+function showVideoPanel(program){const o=document.getElementById('video-panel-overlay'),t=document.getElementById('video-panel-title'),m=document.getElementById('video-panel-meta'),lc=document.getElementById('video-panel-links');if(!o||!t||!m||!lc)return;t.textContent=program.title||'Programme';const mp=[];if(program.date)mp.push(formatShortDate(program.date));if(program.time)mp.push(program.time);if(program.channel)mp.push(program.channel);if(program.parentTitle&&program.type==='segment')mp.push(`dans ${program.parentTitle}`);m.textContent=mp.join(' · ');lc.innerHTML=buildVideoLinks(program).map(l=>`<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer" class="video-link ${escapeHtml(l.className)}"><span class="video-link-icon">${l.icon}</span><span class="video-link-content"><span class="video-link-name">${escapeHtml(l.name)}</span><span class="video-link-desc">${escapeHtml(l.description)}</span></span><span class="video-link-arrow">↗</span></a>`).join('');const panel=o.querySelector('.video-panel');let re=document.getElementById('video-panel-results');if(!re&&panel){re=document.createElement('div');re.id='video-panel-results';re.className='video-panel-results';const note=panel.querySelector('.video-panel-note');if(note)panel.insertBefore(re,note);else panel.appendChild(re);}if(re)re.innerHTML=`<div class="video-inline-section" id="video-dailymotion-section"></div><div class="video-inline-section" id="video-odysee-section"></div>`;const q=buildVideoSearchQuery(program);videoPanelToken++;const token=videoPanelToken;loadDailymotionResults(q,document.getElementById('video-dailymotion-section'),token);loadOdyseeResults(q,document.getElementById('video-odysee-section'),token);o.hidden=false;document.body.style.overflow='hidden';}
 function openVideoPanel(id){const p=state.currentProgramMap.get(id);if(!p){showToast('❌ Programme introuvable');return;}showVideoPanel(p);}
 function openVideoPanelFromPlaylist(id){const p=state.playlist.find(x=>x.id===id);if(!p){showToast('❌ Introuvable dans la playlist');return;}showVideoPanel(p);}
 function closeVideoPanel(){const o=document.getElementById('video-panel-overlay');if(o)o.hidden=true;document.body.style.overflow='';videoPanelToken++;}
 function setupVideoPanelListeners(){const o=document.getElementById('video-panel-overlay');if(o)o.addEventListener('click',e=>{if(e.target===o)closeVideoPanel();});document.addEventListener('keydown',e=>{if(e.key==='Escape'){const o=document.getElementById('video-panel-overlay');if(o&&!o.hidden)closeVideoPanel();}});}
 
 // ---------- Recherche ----------
-function injectSearchUI(){
-    const nav=document.querySelector('.nav');if(nav&&!nav.querySelector('[data-view="search"]')){const b=document.createElement('button');b.className='nav-btn';b.type='button';b.dataset.view='search';b.textContent='🔎 Recherche';const a=nav.querySelector('[data-view="about"]');if(a)nav.insertBefore(b,a);else nav.appendChild(b);}
-    const cont=document.querySelector('main.container')||document.querySelector('.container');
-    if(cont&&!document.getElementById('search-view')){const s=document.createElement('section');s.id='search-view';s.className='view';s.innerHTML=`<div class="search-panel"><h2 class="search-title">🔎 Recherche dans les archives</h2><p class="search-subtitle">Émission, série, film, présentateur… sur toutes les années ou une période.</p><div class="search-bar"><input type="search" id="search-input" placeholder="Ex. Club Dorothée, Dorothée, Columbo, jeu…" autocomplete="off"></div><div class="search-filters"><label>Période<select id="search-period"><option value="all">Toute la base</option></select></label><label>Année<select id="search-year"><option value="all">Toutes</option></select></label><label>Genre<select id="search-genre"><option value="all">Tous</option></select></label><label>Chaîne<select id="search-channel"><option value="all">Toutes</option></select></label><label class="checkbox-label search-evening"><input type="checkbox" id="search-evening"> Soirée (≥18h)</label><button type="button" id="search-reset" class="tiny-btn">Réinitialiser</button></div><div class="search-sortbar"><span id="search-status" class="search-status"></span><label class="search-sort-label">Tri<select id="search-sort"><option value="count">Nombre de diffusions</option><option value="alpha">Alphabétique</option></select></label></div><div id="search-results" class="search-results"></div></div>`;cont.appendChild(s);}
-}
-function setupSearchListeners(){
-    const bind=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
-    bind('search-input','input',e=>{state.search.query=e.target.value;scheduleSearch();});
-    bind('search-period','change',e=>{state.search.period=e.target.value;state.search.year='all';populateSearchYears();runSearch();});
-    bind('search-year','change',e=>{state.search.year=e.target.value;runSearch();});
-    bind('search-genre','change',e=>{state.search.genre=e.target.value;runSearch();});
-    bind('search-channel','change',e=>{state.search.channel=e.target.value;runSearch();});
-    bind('search-evening','change',e=>{state.search.evening=e.target.checked;runSearch();});
-    bind('search-sort','change',e=>{state.search.sort=e.target.value;renderSearchResults();});
-    bind('search-reset','click',resetSearch);
-    const r=document.getElementById('search-results');if(r)r.addEventListener('click',e=>{const h=e.target.closest('.search-group-header');if(h){toggleSearchGroup(h.dataset.groupKey);return;}const c=e.target.closest('[data-search-date]');if(c)openDay(c.dataset.searchDate,c.dataset.searchTime,c.dataset.searchChannel);});
-}
+function injectSearchUI(){const nav=document.querySelector('.nav');if(nav&&!nav.querySelector('[data-view="search"]')){const b=document.createElement('button');b.className='nav-btn';b.type='button';b.dataset.view='search';b.textContent='🔎 Recherche';const a=nav.querySelector('[data-view="about"]');if(a)nav.insertBefore(b,a);else nav.appendChild(b);}const cont=document.querySelector('main.container')||document.querySelector('.container');if(cont&&!document.getElementById('search-view')){const s=document.createElement('section');s.id='search-view';s.className='view';s.innerHTML=`<div class="search-panel"><h2 class="search-title">🔎 Recherche dans les archives</h2><p class="search-subtitle">Émission, série, film, présentateur… sur toutes les années ou une période.</p><div class="search-bar"><input type="search" id="search-input" placeholder="Ex. Club Dorothée, Dorothée, Columbo, jeu…" autocomplete="off"></div><div class="search-filters"><label>Période<select id="search-period"><option value="all">Toute la base</option></select></label><label>Année<select id="search-year"><option value="all">Toutes</option></select></label><label>Genre<select id="search-genre"><option value="all">Tous</option></select></label><label>Chaîne<select id="search-channel"><option value="all">Toutes</option></select></label><label class="checkbox-label search-evening"><input type="checkbox" id="search-evening"> Soirée (≥18h)</label><button type="button" id="search-reset" class="tiny-btn">Réinitialiser</button></div><div class="search-sortbar"><span id="search-status" class="search-status"></span><label class="search-sort-label">Tri<select id="search-sort"><option value="count">Nombre de diffusions</option><option value="alpha">Alphabétique</option></select></label></div><div id="search-results" class="search-results"></div></div>`;cont.appendChild(s);}}
+function setupSearchListeners(){const bind=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};bind('search-input','input',e=>{state.search.query=e.target.value;scheduleSearch();});bind('search-period','change',e=>{state.search.period=e.target.value;state.search.year='all';populateSearchYears();runSearch();});bind('search-year','change',e=>{state.search.year=e.target.value;runSearch();});bind('search-genre','change',e=>{state.search.genre=e.target.value;runSearch();});bind('search-channel','change',e=>{state.search.channel=e.target.value;runSearch();});bind('search-evening','change',e=>{state.search.evening=e.target.checked;runSearch();});bind('search-sort','change',e=>{state.search.sort=e.target.value;renderSearchResults();});bind('search-reset','click',resetSearch);const r=document.getElementById('search-results');if(r)r.addEventListener('click',e=>{const h=e.target.closest('.search-group-header');if(h){toggleSearchGroup(h.dataset.groupKey);return;}const c=e.target.closest('[data-search-date]');if(c)openDay(c.dataset.searchDate,c.dataset.searchTime,c.dataset.searchChannel);});}
 async function ensureSearchMeta(){if(state.search.metaLoaded)return state.search.meta;try{const base=document.baseURI||window.location.href;const r=await fetch(new URL('data/search_meta.json',base).href+`?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error();state.search.meta=await r.json();state.search.metaLoaded=true;populateSearchFilters();return state.search.meta;}catch(e){const s=document.getElementById('search-status');if(s)s.textContent='❌ Index de recherche indisponible. Lance generate_index_only.';return null;}}
-function populateSearchFilters(){
-    if(state.search.filtersReady)return;const meta=state.search.meta;if(!meta)return;
-    const decades=[...new Set((meta.years||[]).map(y=>Math.floor(y/10)*10))].sort((a,b)=>a-b);
-    const p=document.getElementById('search-period');if(p)p.innerHTML=`<option value="all">Toute la base</option>`+decades.map(d=>`<option value="${d}">Années ${String(d).slice(2)}</option>`).join('');
-    const g=document.getElementById('search-genre');if(g)g.innerHTML=`<option value="all">Tous</option>`+(meta.genres||[]).filter(x=>!HIDDEN_GENRES.includes(x)).map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');
-    const c=document.getElementById('search-channel');if(c)c.innerHTML=`<option value="all">Toutes</option>`+[...(meta.channels||[])].sort((a,b)=>channelRank(a)-channelRank(b)).map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');
-    populateSearchYears();state.search.filtersReady=true;
-}
+function populateSearchFilters(){if(state.search.filtersReady)return;const meta=state.search.meta;if(!meta)return;const decades=[...new Set((meta.years||[]).map(y=>Math.floor(y/10)*10))].sort((a,b)=>a-b);const p=document.getElementById('search-period');if(p)p.innerHTML=`<option value="all">Toute la base</option>`+decades.map(d=>`<option value="${d}">Années ${String(d).slice(2)}</option>`).join('');const g=document.getElementById('search-genre');if(g)g.innerHTML=`<option value="all">Tous</option>`+(meta.genres||[]).filter(x=>!HIDDEN_GENRES.includes(x)).map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');const c=document.getElementById('search-channel');if(c)c.innerHTML=`<option value="all">Toutes</option>`+[...(meta.channels||[])].sort((a,b)=>channelRank(a)-channelRank(b)).map(x=>`<option value="${escapeHtml(x)}">${escapeHtml(x)}</option>`).join('');populateSearchYears();state.search.filtersReady=true;}
 function populateSearchYears(){const meta=state.search.meta,y=document.getElementById('search-year');if(!meta||!y)return;let years=meta.years||[];if(state.search.period!=='all'){const d=+state.search.period;years=years.filter(x=>Math.floor(x/10)*10===d);}y.innerHTML=`<option value="all">Toutes</option>`+years.map(x=>`<option value="${x}"${String(state.search.year)===String(x)?' selected':''}>${x}</option>`).join('');}
 function getSearchYears(){const meta=state.search.meta;if(!meta)return[];if(state.search.year!=='all')return[+state.search.year];let years=meta.years||[];if(state.search.period!=='all'){const d=+state.search.period;years=years.filter(x=>Math.floor(x/10)*10===d);}return years;}
 function decodeSearchRows(data,meta){const ch=meta.channels||[],ge=meta.genres||[];return(Array.isArray(data.programs)?data.programs:[]).map(r=>{const title=r[0]||'',channel=ch[r[1]]||'Autres',date=r[2]||'',time=r[3]||'',genre=ge[r[4]]||'autre',people=r[5]||'';return{title,channel,date,time,genre,people,nt:normalizeText(title),np:normalizeText(people)};});}
-async function loadSearchData(years){const meta=state.search.meta;if(!meta)return;const missing=years.filter(y=>!state.search.loadedYears.has(y));if(!missing.length)return;state.search.loading=true;const status=document.getElementById('search-status');let done=0;const base=document.baseURI||window.location.href;await Promise.all(missing.map(async y=>{try{const r=await fetch(new URL(`data/search/${y}.json`,base).href+`?t=${Date.now()}`,{cache:'no-store'});if(r.ok){state.search.cache[y]=decodeSearchRows(await r.json(),meta);}else state.search.cache[y]=[];}catch(e){state.search.cache[y]=[];}finally{state.search.loadedYears.add(y);done++;if(status)status.textContent=`⏳ Chargement des archives… ${done}/${missing.length}`;}}));state.search.loading=false;}
+async function loadSearchData(years){const meta=state.search.meta;if(!meta)return;const missing=years.filter(y=>!state.search.loadedYears.has(y));if(!missing.length)return;state.search.loading=true;const status=document.getElementById('search-status');let done=0;const base=document.baseURI||window.location.href;await Promise.all(missing.map(async y=>{try{const r=await fetch(new URL(`data/search/${y}.json`,base).href+`?t=${Date.now()}`,{cache:'no-store'});state.search.cache[y]=r.ok?decodeSearchRows(await r.json(),meta):[];}catch(e){state.search.cache[y]=[];}finally{state.search.loadedYears.add(y);done++;if(status)status.textContent=`⏳ Chargement des archives… ${done}/${missing.length}`;}}));state.search.loading=false;}
 function resetSearch(){state.search={...state.search,query:'',genre:'all',channel:'all',period:'all',year:'all',evening:false,expanded:new Set()};['search-input','search-genre','search-channel','search-period','search-year'].forEach(id=>{const el=document.getElementById(id);if(el)el.value=id==='search-input'?'':'all';});const ev=document.getElementById('search-evening');if(ev)ev.checked=false;populateSearchYears();renderSearchPrompt();}
 function scheduleSearch(){if(searchDebounce)clearTimeout(searchDebounce);searchDebounce=setTimeout(runSearch,250);}
-async function runSearch(){
-    await ensureSearchMeta();if(!state.search.meta)return;
-    const q=normalizeText(state.search.query),words=q?q.split(' ').filter(Boolean):[];
-    const hasFilter=state.search.genre!=='all'||state.search.channel!=='all'||state.search.evening;
-    if(!words.length&&!hasFilter){renderSearchPrompt();return;}
-    const years=getSearchYears();searchRunToken++;const token=searchRunToken;await loadSearchData(years);if(token!==searchRunToken)return;
-    const groups=new Map();let total=0;
-    for(const y of years){for(const row of(state.search.cache[y]||[])){
-        if(state.search.genre!=='all'&&row.genre!==state.search.genre)continue;
-        if(state.search.channel!=='all'&&row.channel!==state.search.channel)continue;
-        if(state.search.evening){const h=row.time?+row.time.split(':')[0]:-1;if(h<18)continue;}
-        if(words.length){const hay=row.nt+' '+row.np;if(!words.every(w=>hay.includes(w)))continue;}
-        total++;const key=row.nt+'|'+row.channel;let g=groups.get(key);if(!g){g={key,title:row.title,channel:row.channel,genre:row.genre,occ:[],count:0};groups.set(key,g);}g.count++;g.occ.push({date:row.date,time:row.time});
-    }}
-    const arr=[...groups.values()];arr.forEach(g=>g.occ.sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);}));
-    state.search.groups=arr;state.search.totalMatches=total;state.search.expanded=new Set();renderSearchResults();
-}
-function renderSearchPrompt(){
-    const s=document.getElementById('search-status');if(s)s.textContent='';const r=document.getElementById('search-results');if(!r)return;const meta=state.search.meta;
-    let sug='';if(meta?.top_shows){const picks=meta.top_shows.filter(x=>x[0]).slice(0,12);sug=`<div class="search-suggestions"><p>Quelques émissions populaires :</p><div class="search-suggestion-chips">${picks.map(x=>`<button type="button" class="search-suggestion-chip" data-suggest="${escapeHtml(x[0])}">${escapeHtml(x[0])}</button>`).join('')}</div></div>`;}
-    r.innerHTML=`<div class="empty-state compact"><h3>Que voulez-vous retrouver ?</h3><p>Tapez un titre, une série, un film ou un présentateur, ou choisissez un genre / une chaîne.</p>${sug}</div>`;
-    r.querySelectorAll('[data-suggest]').forEach(b=>b.addEventListener('click',()=>{const i=document.getElementById('search-input');if(i)i.value=b.dataset.suggest;state.search.query=b.dataset.suggest;runSearch();}));
-}
-function renderSearchResults(){
-    const r=document.getElementById('search-results'),s=document.getElementById('search-status');if(!r)return;const groups=state.search.groups||[],total=state.search.totalMatches||0;
-    if(!groups.length){if(s)s.textContent='';r.innerHTML=`<div class="empty-state compact"><h3>Aucun résultat</h3><p>Essayez un autre terme, élargissez la période ou retirez un filtre.</p></div>`;return;}
-    const sorted=[...groups].sort((a,b)=>state.search.sort==='alpha'?a.title.localeCompare(b.title):b.count-a.count);const MAX=200;const shown=sorted.slice(0,MAX);
-    if(s)s.textContent=`${total} diffusion${total>1?'s':''} · ${groups.length} émission${groups.length>1?'s':''}${groups.length>MAX?` (${MAX} affichées)`:''}`;
-    r.innerHTML=shown.map(g=>{const exp=state.search.expanded.has(g.key);const dates=exp?`<div class="search-group-dates">${g.occ.map(o=>`<button type="button" class="search-date-chip" data-search-date="${escapeHtml(o.date)}" data-search-time="${escapeHtml(o.time)}" data-search-channel="${escapeHtml(g.channel)}"><span class="search-date-day">${escapeHtml(formatShortDate(o.date))}</span><span class="search-date-time">${escapeHtml(o.time||'--:--')}</span></button>`).join('')}</div>`:'';return `<div class="search-group${exp?' expanded':''}"><button type="button" class="search-group-header" data-group-key="${escapeHtml(g.key)}"><span class="search-group-title">${escapeHtml(g.title)}</span><span class="search-group-badges"><span class="search-badge-channel">${escapeHtml(g.channel)}</span><span class="search-badge-genre">${escapeHtml(g.genre)}</span><span class="search-badge-count">${g.count}</span></span><span class="search-group-toggle">${exp?'−':'+'}</span></button>${dates}</div>`;}).join('');
-}
+async function runSearch(){await ensureSearchMeta();if(!state.search.meta)return;const q=normalizeText(state.search.query),words=q?q.split(' ').filter(Boolean):[];const hasFilter=state.search.genre!=='all'||state.search.channel!=='all'||state.search.evening;if(!words.length&&!hasFilter){renderSearchPrompt();return;}const years=getSearchYears();searchRunToken++;const token=searchRunToken;await loadSearchData(years);if(token!==searchRunToken)return;const groups=new Map();let total=0;for(const y of years){for(const row of(state.search.cache[y]||[])){if(state.search.genre!=='all'&&row.genre!==state.search.genre)continue;if(state.search.channel!=='all'&&row.channel!==state.search.channel)continue;if(state.search.evening){const h=row.time?+row.time.split(':')[0]:-1;if(h<18)continue;}if(words.length){const hay=row.nt+' '+row.np;if(!words.every(w=>hay.includes(w)))continue;}total++;const key=row.nt+'|'+row.channel;let g=groups.get(key);if(!g){g={key,title:row.title,channel:row.channel,genre:row.genre,occ:[],count:0};groups.set(key,g);}g.count++;g.occ.push({date:row.date,time:row.time});}}const arr=[...groups.values()];arr.forEach(g=>g.occ.sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);}));state.search.groups=arr;state.search.totalMatches=total;state.search.expanded=new Set();renderSearchResults();}
+function renderSearchPrompt(){const s=document.getElementById('search-status');if(s)s.textContent='';const r=document.getElementById('search-results');if(!r)return;const meta=state.search.meta;let sug='';if(meta?.top_shows){const picks=meta.top_shows.filter(x=>x[0]).slice(0,12);sug=`<div class="search-suggestions"><p>Quelques émissions populaires :</p><div class="search-suggestion-chips">${picks.map(x=>`<button type="button" class="search-suggestion-chip" data-suggest="${escapeHtml(x[0])}">${escapeHtml(x[0])}</button>`).join('')}</div></div>`;}r.innerHTML=`<div class="empty-state compact"><h3>Que voulez-vous retrouver ?</h3><p>Tapez un titre, une série, un film ou un présentateur, ou choisissez un genre / une chaîne.</p>${sug}</div>`;r.querySelectorAll('[data-suggest]').forEach(b=>b.addEventListener('click',()=>{const i=document.getElementById('search-input');if(i)i.value=b.dataset.suggest;state.search.query=b.dataset.suggest;runSearch();}));}
+function renderSearchResults(){const r=document.getElementById('search-results'),s=document.getElementById('search-status');if(!r)return;const groups=state.search.groups||[],total=state.search.totalMatches||0;if(!groups.length){if(s)s.textContent='';r.innerHTML=`<div class="empty-state compact"><h3>Aucun résultat</h3><p>Essayez un autre terme, élargissez la période ou retirez un filtre.</p></div>`;return;}const sorted=[...groups].sort((a,b)=>state.search.sort==='alpha'?a.title.localeCompare(b.title):b.count-a.count);const MAX=200;const shown=sorted.slice(0,MAX);if(s)s.textContent=`${total} diffusion${total>1?'s':''} · ${groups.length} émission${groups.length>1?'s':''}${groups.length>MAX?` (${MAX} affichées)`:''}`;r.innerHTML=shown.map(g=>{const exp=state.search.expanded.has(g.key);const dates=exp?`<div class="search-group-dates">${g.occ.map(o=>`<button type="button" class="search-date-chip" data-search-date="${escapeHtml(o.date)}" data-search-time="${escapeHtml(o.time)}" data-search-channel="${escapeHtml(g.channel)}"><span class="search-date-day">${escapeHtml(formatShortDate(o.date))}</span><span class="search-date-time">${escapeHtml(o.time||'--:--')}</span></button>`).join('')}</div>`:'';return `<div class="search-group${exp?' expanded':''}"><button type="button" class="search-group-header" data-group-key="${escapeHtml(g.key)}"><span class="search-group-title">${escapeHtml(g.title)}</span><span class="search-group-badges"><span class="search-badge-channel">${escapeHtml(g.channel)}</span><span class="search-badge-genre">${escapeHtml(g.genre)}</span><span class="search-badge-count">${g.count}</span></span><span class="search-group-toggle">${exp?'−':'+'}</span></button>${dates}</div>`;}).join('');}
 function toggleSearchGroup(key){if(state.search.expanded.has(key))state.search.expanded.delete(key);else state.search.expanded.add(key);renderSearchResults();}
 
 // ---------- Suggestions ----------
@@ -414,54 +277,26 @@ function getAllDates(){const out=[];if(!state.index?.years)return out;for(const 
 function detectPeriod(t){const m=t.getMonth()+1,d=t.getDate();if((m===12&&d>=15)||(m===1&&d<=5))return'noel';if(m===7||m===8)return'ete';if(m===9&&d<=20)return'rentree';return null;}
 function inPeriod(ds,p){const dt=dateToDate(ds);if(!dt)return false;const m=dt.getMonth()+1,d=dt.getDate();if(p==='noel')return(m===12&&d>=15)||(m===1&&d<=5);if(p==='ete')return m===7||m===8;if(p==='rentree')return m===9&&d<=20;return false;}
 function shuffle(a){const x=[...a];for(let i=x.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[x[i],x[j]]=[x[j],x[i]];}return x;}
-function buildSuggestions(){
-    const all=getAllDates();if(!all.length){state.suggestions=[];return;}
-    const today=new Date(),wd=today.getDay(),cy=today.getFullYear(),period=detectPeriod(today),wn=today.toLocaleDateString('fr-FR',{weekday:'long'}),pool=[];
-    all.forEach(d=>{const dt=dateToDate(d);if(!dt)return;if(dt.getMonth()===today.getMonth()&&Math.abs(dt.getDate()-today.getDate())<=2){const diff=cy-dt.getFullYear();if(diff>0)pool.push({date:d,reason:`Il y a ${diff} ans`,priority:3});}});
-    if(period){const label=period==='noel'?'Esprit Noël 🎄':period==='ete'?'Vacances d’été ☀️':'Esprit rentrée 🎒';all.forEach(d=>{if(inPeriod(d,period))pool.push({date:d,reason:label,priority:2});});}
-    const special=wd===0||wd===3||wd===6;all.forEach(d=>{const dt=dateToDate(d);if(!dt)return;const dw=dt.getDay();if(special){if(dw===wd)pool.push({date:d,reason:`Un ${wn} comme aujourd'hui`,priority:1});}else if(dw>=1&&dw<=5&&dw!==3)pool.push({date:d,reason:'Un jour de semaine',priority:1});});
-    const picked=[],used=new Set();for(const prio of[3,2,1]){for(const c of shuffle(pool.filter(p=>p.priority===prio&&!used.has(p.date)))){if(picked.length>=4)break;picked.push(c);used.add(c.date);}if(picked.length>=4)break;}
-    if(picked.length<4)for(const c of shuffle(pool)){if(picked.length>=4)break;if(!used.has(c.date)){picked.push(c);used.add(c.date);}}
-    state.suggestions=picked.slice(0,4);
-}
+function buildSuggestions(){const all=getAllDates();if(!all.length){state.suggestions=[];return;}const today=new Date(),wd=today.getDay(),cy=today.getFullYear(),period=detectPeriod(today),wn=today.toLocaleDateString('fr-FR',{weekday:'long'}),pool=[];all.forEach(d=>{const dt=dateToDate(d);if(!dt)return;if(dt.getMonth()===today.getMonth()&&Math.abs(dt.getDate()-today.getDate())<=2){const diff=cy-dt.getFullYear();if(diff>0)pool.push({date:d,reason:`Il y a ${diff} ans`,priority:3});}});if(period){const label=period==='noel'?'Esprit Noël 🎄':period==='ete'?'Vacances d’été ☀️':'Esprit rentrée 🎒';all.forEach(d=>{if(inPeriod(d,period))pool.push({date:d,reason:label,priority:2});});}const special=wd===0||wd===3||wd===6;all.forEach(d=>{const dt=dateToDate(d);if(!dt)return;const dw=dt.getDay();if(special){if(dw===wd)pool.push({date:d,reason:`Un ${wn} comme aujourd'hui`,priority:1});}else if(dw>=1&&dw<=5&&dw!==3)pool.push({date:d,reason:'Un jour de semaine',priority:1});});const picked=[],used=new Set();for(const prio of[3,2,1]){for(const c of shuffle(pool.filter(p=>p.priority===prio&&!used.has(p.date)))){if(picked.length>=4)break;picked.push(c);used.add(c.date);}if(picked.length>=4)break;}if(picked.length<4)for(const c of shuffle(pool)){if(picked.length>=4)break;if(!used.has(c.date)){picked.push(c);used.add(c.date);}}state.suggestions=picked.slice(0,4);}
 function renderSuggestionsHTML(){if(!state.suggestions?.length)return'';return `<section class="suggest-box"><div class="suggest-head"><h3>📻 Ça s'est passé…</h3><button type="button" id="reshuffle-suggestions" class="tiny-btn">🎲 Autres</button></div><div class="suggest-grid">${state.suggestions.map(s=>`<button type="button" class="suggest-card" data-open-day="${escapeHtml(s.date)}"><span class="suggest-reason">${escapeHtml(s.reason)}</span><span class="suggest-date">${escapeHtml(formatDateLabel(s.date))}</span><span class="suggest-cta">Voir la grille →</span></button>`).join('')}</div></section>`;}
 
 // ---------- Playlist ----------
 function addToPlaylist(id){const p=state.currentProgramMap.get(id);if(!p){showToast('❌ Programme introuvable');return;}if(state.playlist.some(x=>x.id===id)){showToast('⚠️ Déjà dans la playlist');return;}state.playlist.push({...p,addedAt:new Date().toISOString()});savePlaylist();updatePlaylistDisplay();showToast(`✅ ${p.type==='segment'?`extrait "${p.title}"`:`"${p.title}"`} ajouté`);}
 function removeFromPlaylist(id){state.playlist=state.playlist.filter(p=>p.id!==id);savePlaylist();updatePlaylistDisplay();showToast('🗑️ Élément retiré');}
 function clearPlaylist(){if(!state.playlist.length){showToast('ℹ️ Playlist vide');return;}if(!confirm('Vider toute la playlist ?'))return;state.playlist=[];savePlaylist();updatePlaylistDisplay();showToast('🗑️ Playlist vidée');}
-function setupPlaylistListeners(){const c=document.getElementById('playlist-container');if(!c)return;c.addEventListener('click',e=>{const info=e.target.closest('.info-btn');if(info){openInfoPanel(info.dataset.infoId);return;}const v=e.target.closest('.video-search-btn');if(v){openVideoPanelFromPlaylist(v.dataset.videoId);return;}const r=e.target.closest('[data-remove-id]');if(r)removeFromPlaylist(r.dataset.removeId);});}
-function updatePlaylistDisplay(){
-    const c=document.getElementById('playlist-container');if(!c)return;
-    if(!state.playlist.length){c.innerHTML=`<div class="empty-playlist"><p>📭 Playlist vide</p><small>Ajoutez des programmes ou extraits depuis la vue Journée</small></div>`;updatePlaylistReturnBar();return;}
-    const sorted=[...state.playlist].sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);});
-    c.innerHTML=sorted.map(p=>`<div class="playlist-item"><div class="playlist-item-info"><div class="playlist-date">📅 ${escapeHtml(formatDateLabel(p.date))}</div><div class="program-time-inline">🕐 ${escapeHtml(p.time||'--:--')}${p.channel?` · 📺 ${escapeHtml(p.channel)}`:''}${p.type==='segment'?' · <span class="badge-segment">extrait</span>':''}</div>${p.parentTitle?`<div class="playlist-parent">Dans : ${escapeHtml(p.parentTitle)}</div>`:''}<div class="program-title">🎬 ${escapeHtml(p.title||'Titre inconnu')}</div>${p.description?`<p class="program-description">${escapeHtml(p.description)}</p>`:''}</div><div class="playlist-item-actions"><button class="info-btn" type="button" data-info-id="${escapeHtml(p.id)}" title="Fiche">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(p.id)}" title="Vidéos">▶️</button><button class="remove-btn" type="button" data-remove-id="${escapeHtml(p.id)}">✕</button></div></div>`).join('');
-    updatePlaylistReturnBar();
-}
+function setupPlaylistListeners(){const c=document.getElementById('playlist-container');if(!c)return;c.addEventListener('click',e=>{const charts=e.target.closest('.charts-btn');if(charts){window.open(charts.dataset.chartsUrl,'_blank','noopener');return;}const info=e.target.closest('.info-btn');if(info){openInfoPanel(info.dataset.infoId);return;}const v=e.target.closest('.video-search-btn');if(v){openVideoPanelFromPlaylist(v.dataset.videoId);return;}const r=e.target.closest('[data-remove-id]');if(r)removeFromPlaylist(r.dataset.removeId);});}
+function updatePlaylistDisplay(){const c=document.getElementById('playlist-container');if(!c)return;if(!state.playlist.length){c.innerHTML=`<div class="empty-playlist"><p>📭 Playlist vide</p><small>Ajoutez des programmes ou extraits depuis la vue Journée</small></div>`;updatePlaylistReturnBar();return;}const sorted=[...state.playlist].sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);});c.innerHTML=sorted.map(p=>`<div class="playlist-item"><div class="playlist-item-info"><div class="playlist-date">📅 ${escapeHtml(formatDateLabel(p.date))}</div><div class="program-time-inline">🕐 ${escapeHtml(p.time||'--:--')}${p.channel?` · 📺 ${escapeHtml(p.channel)}`:''}${p.type==='segment'?' · <span class="badge-segment">extrait</span>':''}</div>${p.parentTitle?`<div class="playlist-parent">Dans : ${escapeHtml(p.parentTitle)}</div>`:''}<div class="program-title">🎬 ${escapeHtml(p.title||'Titre inconnu')}</div>${p.description?`<p class="program-description">${escapeHtml(p.description)}</p>`:''}</div><div class="playlist-item-actions">${isChartShow(p.title)?`<button class="charts-btn" type="button" data-charts-url="${escapeHtml(chartsUrl(p.date))}" title="Top de la semaine">📊</button>`:''}<button class="info-btn" type="button" data-info-id="${escapeHtml(p.id)}" title="Fiche">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(p.id)}" title="Vidéos">▶️</button><button class="remove-btn" type="button" data-remove-id="${escapeHtml(p.id)}">✕</button></div></div>`).join('');updatePlaylistReturnBar();}
 function updatePlaylistReturnBar(){const b=document.getElementById('playlist-day-return'),l=document.getElementById('playlist-day-label');if(!b)return;if(state.dayOpen&&state.selectedDate){b.hidden=false;if(l)l.textContent=formatDateLabel(state.selectedDate);}else b.hidden=true;}
 function returnToDayFromPlaylist(){setActiveView('browse');if(!reopenDayView()){if(state.selectedYear&&state.yearData)displayDates(state.selectedYear);else displayYears();}}
 
 // ---------- Export ----------
-function exportPlaylist(){
-    if(!state.playlist.length){showToast('⚠️ Playlist vide');return;}
-    const es=document.getElementById('export-section'),et=document.getElementById('export-text'),ef=document.getElementById('export-format'),ep=document.getElementById('export-parent');if(!es||!et)return;
-    const format=ef?ef.value:'title_channel_date',inc=ep?ep.checked:true;
-    const sorted=[...state.playlist].sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);});
-    et.value=sorted.map(p=>formatExportLine(p,format,inc)).join('\n');es.style.display='block';es.scrollIntoView({behavior:'smooth'});showToast('✅ Playlist prête');
-}
+function exportPlaylist(){if(!state.playlist.length){showToast('⚠️ Playlist vide');return;}const es=document.getElementById('export-section'),et=document.getElementById('export-text'),ef=document.getElementById('export-format'),ep=document.getElementById('export-parent');if(!es||!et)return;const format=ef?ef.value:'title_channel_date',inc=ep?ep.checked:true;const sorted=[...state.playlist].sort((a,b)=>{const ka=dateSortKey(a.date),kb=dateSortKey(b.date);for(let i=0;i<3;i++)if(ka[i]!==kb[i])return ka[i]-kb[i];return timeSortKey(a.time)-timeSortKey(b.time);});et.value=sorted.map(p=>formatExportLine(p,format,inc)).join('\n');es.style.display='block';es.scrollIntoView({behavior:'smooth'});showToast('✅ Playlist prête');}
 function formatExportLine(p,format,inc){let t=p.title||'Programme';if(p.type==='segment'&&inc&&p.parentTitle)t=`${p.parentTitle} : ${t}`;const c=p.channel||'',d=formatShortDate(p.date),time=p.time||'';switch(format){case'title':return t;case'title_channel':return c?`${t} (${c})`:t;case'title_date':return`${t} - ${d}`;case'title_channel_date':return c?`${t} (${c}) - ${d}`:`${t} - ${d}`;case'full':return c?`${t} (${c}) - ${time} - ${d}`:`${t} - ${time} - ${d}`;default:return c?`${t} (${c}) - ${d}`:`${t} - ${d}`;}}
 async function copyToClipboard(){const et=document.getElementById('export-text');if(!et)return;const t=et.value;if(!t){showToast('⚠️ Rien à copier');return;}try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(t);showToast('📋 Copié !');return;}et.select();et.setSelectionRange(0,t.length);showToast(document.execCommand('copy')?'📋 Copié !':'❌ Copie impossible');}catch(e){showToast('❌ Copie impossible');}}
 
 // ---------- Navigation / UI ----------
 function setupNavigation(){document.querySelectorAll('.nav-btn[data-view]').forEach(b=>b.addEventListener('click',()=>setActiveView(b.dataset.view)));}
-function setActiveView(view){
-    document.querySelectorAll('.nav-btn[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));
-    document.querySelectorAll('.view').forEach(s=>s.classList.remove('active'));
-    const t=document.getElementById(`${view}-view`);if(t)t.classList.add('active');state.currentView=view;
-    if(view==='browse'){if(!state.index){loadIndex({display:false}).then(ok=>{if(ok&&!reopenDayView())displayYears();});}else if(!reopenDayView()){if(state.selectedYear&&state.yearData)displayDates(state.selectedYear);else displayYears();}}
-    if(view==='playlist')updatePlaylistReturnBar();
-    if(view==='search'){ensureSearchMeta().then(()=>{if(state.search.groups.length)renderSearchResults();else if(state.search.query||state.search.genre!=='all'||state.search.channel!=='all')runSearch();else renderSearchPrompt();});}
-}
+function setActiveView(view){document.querySelectorAll('.nav-btn[data-view]').forEach(b=>b.classList.toggle('active',b.dataset.view===view));document.querySelectorAll('.view').forEach(s=>s.classList.remove('active'));const t=document.getElementById(`${view}-view`);if(t)t.classList.add('active');state.currentView=view;if(view==='browse'){if(!state.index){loadIndex({display:false}).then(ok=>{if(ok&&!reopenDayView())displayYears();});}else if(!reopenDayView()){if(state.selectedYear&&state.yearData)displayDates(state.selectedYear);else displayYears();}}if(view==='playlist')updatePlaylistReturnBar();if(view==='search'){ensureSearchMeta().then(()=>{if(state.search.groups.length)renderSearchResults();else if(state.search.query||state.search.genre!=='all'||state.search.channel!=='all')runSearch();else renderSearchPrompt();});}}
 function showLoading(show){const l=document.getElementById('loading');if(l)l.style.display=show?'block':'none';}
 function showToast(msg){const t=document.getElementById('toast');if(!t)return;t.textContent=msg;t.classList.add('show');if(toastTimeout)clearTimeout(toastTimeout);toastTimeout=setTimeout(()=>t.classList.remove('show'),3000);}
 function registerServiceWorker(){if(!('serviceWorker'in navigator))return;window.addEventListener('load',()=>{navigator.serviceWorker.register('service-worker.js').then(r=>console.log('SW:',r.scope)).catch(e=>console.log('SW échec:',e));});}
