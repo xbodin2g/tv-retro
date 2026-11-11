@@ -3,9 +3,8 @@
 // - tri logique : 00:00-04:59 affichées après 23:59
 // - sommaire du soir dans un tiroir fermé
 // - frise avec une seule scrollbar
-// - clic frise -> programme fiable
 // - retour à la journée depuis la playlist
-// - panel de recherche vidéo (INA, archive.org, YouTube, Dailymotion, Odysee)
+// - panel vidéo : liens INA/YouTube/archive.org + résultats inline Dailymotion (API) + Odysee (API/repli)
 // - navigation par décennie (70s, 80s, 90s)
 // =====================================================
 
@@ -30,6 +29,7 @@ const state = {
 };
 
 let toastTimeout = null;
+let videoPanelToken = 0;
 
 const LAST_DAY_STORAGE_KEY = 'retroLastDay';
 const NIGHT_CUTOFF_HOUR = 5;
@@ -749,7 +749,6 @@ function displayYears() {
         return;
     }
 
-    // Grouper les années par décennie
     const decades = {};
     years.forEach(year => {
         const decade = Math.floor(Number(year) / 10) * 10;
@@ -763,14 +762,12 @@ function displayYears() {
         .map(Number)
         .sort((a, b) => a - b);
 
-    // Décennie par défaut
     if (!state.selectedDecade || !decades[state.selectedDecade]) {
         state.selectedDecade = String(decadeKeys[0]);
     }
 
     const selectedDecadeNum = Number(state.selectedDecade);
 
-    // Onglets de décennie
     const decadeTabs = decadeKeys.map(decade => {
         const label = `${String(decade).slice(2)}s`;
         const count = decades[decade].length;
@@ -788,7 +785,6 @@ function displayYears() {
         `;
     }).join('');
 
-    // Années de la décennie sélectionnée
     const decadeYears = decades[selectedDecadeNum] || [];
 
     const yearsHtml = decadeYears.map(year => {
@@ -1567,6 +1563,8 @@ function buildVideoSearchQuery(program) {
     return query;
 }
 
+// Liens externes (recherche). YouTube en 2e position.
+// Dailymotion et Odysee sont gérés en résultats inline (API).
 function buildVideoLinks(program) {
     const query = buildVideoSearchQuery(program);
     const encoded = encodeURIComponent(query);
@@ -1582,13 +1580,6 @@ function buildVideoLinks(program) {
             description: 'Archives TV françaises'
         },
         {
-            name: 'archive.org',
-            icon: '🏛️',
-            className: 'archive',
-            url: `https://archive.org/search?query=${encoded}`,
-            description: 'Archives libres et complètes'
-        },
-        {
             name: 'YouTube',
             icon: '▶️',
             className: 'youtube',
@@ -1596,30 +1587,171 @@ function buildVideoLinks(program) {
             description: 'Vidéos et extraits'
         },
         {
-            name: 'Dailymotion',
-            icon: '📺',
-            className: 'dailymotion',
-            url: `https://www.dailymotion.com/search/${encoded}/videos`,
-            description: 'Vidéos et génériques'
-        },
-        {
-            name: 'Odysee',
-            icon: '🌐',
-            className: 'odysee',
-            url: `https://odysee.com/$/search?q=${encoded}`,
-            description: 'Plateforme libre'
+            name: 'archive.org',
+            icon: '🏛️',
+            className: 'archive',
+            url: `https://archive.org/search?query=${encoded}`,
+            description: 'Archives libres et complètes'
         }
     ];
 }
 
-function openVideoPanel(programId) {
-    const program = state.currentProgramMap.get(programId);
+function videoSectionHeader(name, icon) {
+    return `<div class="video-inline-header"><span>${icon}</span><span>${escapeHtml(name)}</span></div>`;
+}
 
-    if (!program) {
-        showToast('❌ Programme introuvable');
+function videoLoadingHtml() {
+    return `<div class="video-inline-loading"><span class="video-inline-spinner"></span> Recherche en cours…</div>`;
+}
+
+function videoFallbackHtml(message, url) {
+    return `
+        <div class="video-inline-fallback">
+            ${escapeHtml(message)}
+            <a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">Ouvrir la recherche ↗</a>
+        </div>
+    `;
+}
+
+function videoResultCard(item) {
+    const title = escapeHtml(item.title || 'Vidéo');
+    const url = escapeHtml(item.url || '#');
+    const platform = escapeHtml(item.platform || '');
+
+    const thumb = item.thumb
+        ? `<img class="video-result-thumb" src="${escapeHtml(item.thumb)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.classList.add('video-result-thumb-empty');this.removeAttribute('src');this.textContent='📼';">`
+        : `<div class="video-result-thumb video-result-thumb-empty">📼</div>`;
+
+    return `
+        <a class="video-result-card ${platform}" href="${url}" target="_blank" rel="noopener noreferrer" title="${title}">
+            ${thumb}
+            <span class="video-result-title">${title}</span>
+        </a>
+    `;
+}
+
+// Résultats Dailymotion via API publique (CORS OK, sans clé)
+async function loadDailymotionResults(query, container, token) {
+    if (!container) {
         return;
     }
 
+    const searchUrl = `https://www.dailymotion.com/search/${encodeURIComponent(query)}/videos`;
+    container.innerHTML = videoSectionHeader('Dailymotion', '📺') + videoLoadingHtml();
+
+    try {
+        const apiUrl = `https://api.dailymotion.com/videos?search=${encodeURIComponent(query)}&fields=id,title,thumbnail_url&limit=6`;
+        const response = await fetch(apiUrl);
+
+        if (token !== videoPanelToken) {
+            return;
+        }
+
+        if (!response.ok) {
+            throw new Error('HTTP ' + response.status);
+        }
+
+        const data = await response.json();
+        const list = Array.isArray(data.list) ? data.list : [];
+
+        if (list.length === 0) {
+            container.innerHTML = videoSectionHeader('Dailymotion', '📺')
+                + videoFallbackHtml('Aucun résultat direct.', searchUrl);
+            return;
+        }
+
+        const cards = list.map(video => videoResultCard({
+            title: video.title,
+            thumb: video.thumbnail_url,
+            url: `https://www.dailymotion.com/video/${video.id}`,
+            platform: 'dailymotion'
+        })).join('');
+
+        container.innerHTML = videoSectionHeader('Dailymotion', '📺')
+            + `<div class="video-results-grid">${cards}</div>`;
+    } catch (error) {
+        if (token !== videoPanelToken) {
+            return;
+        }
+        console.warn('Dailymotion API indisponible:', error);
+        container.innerHTML = videoSectionHeader('Dailymotion', '📺')
+            + videoFallbackHtml('Recherche directe indisponible.', searchUrl);
+    }
+}
+
+// Résultats Odysee via API JSON-RPC (CORS incertain -> repli en lien)
+async function loadOdyseeResults(query, container, token) {
+    if (!container) {
+        return;
+    }
+
+    const searchUrl = `https://odysee.com/$/search?q=${encodeURIComponent(query)}`;
+    container.innerHTML = videoSectionHeader('Odysee', '🌐') + videoLoadingHtml();
+
+    try {
+        const response = await fetch('https://api.na-backend.odysee.com/api/v1/proxy', {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+            body: JSON.stringify({
+                jsonrpc: '2.0',
+                id: 1,
+                method: 'claim_search',
+                params: {
+                    text: query,
+                    claim_type: ['stream'],
+                    stream_types: ['video'],
+                    no_totals: true,
+                    page_size: 6
+                }
+            })
+        });
+
+        if (token !== videoPanelToken) {
+            return;
+        }
+
+        if (!response.ok) {
+            throw new Error('HTTP ' + response.status);
+        }
+
+        const data = await response.json();
+        const items = (data && data.result && Array.isArray(data.result.items))
+            ? data.result.items
+            : [];
+
+        if (items.length === 0) {
+            container.innerHTML = videoSectionHeader('Odysee', '🌐')
+                + videoFallbackHtml('Aucun résultat direct.', searchUrl);
+            return;
+        }
+
+        const cards = items.map(item => {
+            const value = item.value || {};
+            let url = item.canonical_url || item.permanent_url || '';
+            url = String(url).replace('lbry://', 'https://odysee.com/').replace(/#/g, ':');
+
+            return videoResultCard({
+                title: value.title || item.name,
+                thumb: value.thumbnail ? value.thumbnail.url : '',
+                url: url || searchUrl,
+                platform: 'odysee'
+            });
+        }).join('');
+
+        container.innerHTML = videoSectionHeader('Odysee', '🌐')
+            + `<div class="video-results-grid">${cards}</div>`;
+    } catch (error) {
+        if (token !== videoPanelToken) {
+            return;
+        }
+        console.warn('Odysee API indisponible (CORS ?):', error);
+        container.innerHTML = videoSectionHeader('Odysee', '🌐')
+            + videoFallbackHtml('Recherche directe indisponible.', searchUrl);
+    }
+}
+
+// Rendu commun du panel (utilisé depuis la journée ET la playlist)
+function showVideoPanel(program) {
     const overlay = document.getElementById('video-panel-overlay');
     const titleEl = document.getElementById('video-panel-title');
     const metaEl = document.getElementById('video-panel-meta');
@@ -1665,8 +1797,62 @@ function openVideoPanel(programId) {
         </a>
     `).join('');
 
+    // Conteneur de résultats inline créé dynamiquement (pas besoin de modifier index.html)
+    const panel = overlay.querySelector('.video-panel');
+    let resultsEl = document.getElementById('video-panel-results');
+
+    if (!resultsEl && panel) {
+        resultsEl = document.createElement('div');
+        resultsEl.id = 'video-panel-results';
+        resultsEl.className = 'video-panel-results';
+
+        const note = panel.querySelector('.video-panel-note');
+        if (note) {
+            panel.insertBefore(resultsEl, note);
+        } else {
+            panel.appendChild(resultsEl);
+        }
+    }
+
+    if (resultsEl) {
+        resultsEl.innerHTML = `
+            <div class="video-inline-section" id="video-dailymotion-section"></div>
+            <div class="video-inline-section" id="video-odysee-section"></div>
+        `;
+    }
+
+    const query = buildVideoSearchQuery(program);
+
+    videoPanelToken += 1;
+    const token = videoPanelToken;
+
+    loadDailymotionResults(query, document.getElementById('video-dailymotion-section'), token);
+    loadOdyseeResults(query, document.getElementById('video-odysee-section'), token);
+
     overlay.hidden = false;
     document.body.style.overflow = 'hidden';
+}
+
+function openVideoPanel(programId) {
+    const program = state.currentProgramMap.get(programId);
+
+    if (!program) {
+        showToast('❌ Programme introuvable');
+        return;
+    }
+
+    showVideoPanel(program);
+}
+
+function openVideoPanelFromPlaylist(programId) {
+    const program = state.playlist.find(item => item.id === programId);
+
+    if (!program) {
+        showToast('❌ Programme introuvable dans la playlist');
+        return;
+    }
+
+    showVideoPanel(program);
 }
 
 function closeVideoPanel() {
@@ -1675,6 +1861,7 @@ function closeVideoPanel() {
         overlay.hidden = true;
     }
     document.body.style.overflow = '';
+    videoPanelToken += 1;
 }
 
 function setupVideoPanelListeners() {
@@ -1690,8 +1877,8 @@ function setupVideoPanelListeners() {
 
     document.addEventListener('keydown', event => {
         if (event.key === 'Escape') {
-            const overlay = document.getElementById('video-panel-overlay');
-            if (overlay && !overlay.hidden) {
+            const overlayEl = document.getElementById('video-panel-overlay');
+            if (overlayEl && !overlayEl.hidden) {
                 closeVideoPanel();
             }
         }
@@ -1774,62 +1961,6 @@ function setupPlaylistListeners() {
             removeFromPlaylist(removeBtn.dataset.removeId);
         }
     });
-}
-
-function openVideoPanelFromPlaylist(programId) {
-    const program = state.playlist.find(item => item.id === programId);
-
-    if (!program) {
-        showToast('❌ Programme introuvable dans la playlist');
-        return;
-    }
-
-    const overlay = document.getElementById('video-panel-overlay');
-    const titleEl = document.getElementById('video-panel-title');
-    const metaEl = document.getElementById('video-panel-meta');
-    const linksContainer = document.getElementById('video-panel-links');
-
-    if (!overlay || !titleEl || !metaEl || !linksContainer) {
-        return;
-    }
-
-    titleEl.textContent = program.title || 'Programme';
-
-    const metaParts = [];
-    if (program.date) {
-        metaParts.push(formatShortDate(program.date));
-    }
-    if (program.time) {
-        metaParts.push(program.time);
-    }
-    if (program.channel) {
-        metaParts.push(program.channel);
-    }
-    if (program.parentTitle && program.type === 'segment') {
-        metaParts.push(`dans ${program.parentTitle}`);
-    }
-    metaEl.textContent = metaParts.join(' · ');
-
-    const links = buildVideoLinks(program);
-
-    linksContainer.innerHTML = links.map(link => `
-        <a
-            href="${escapeHtml(link.url)}"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="video-link ${escapeHtml(link.className)}"
-        >
-            <span class="video-link-icon">${link.icon}</span>
-            <span class="video-link-content">
-                <span class="video-link-name">${escapeHtml(link.name)}</span>
-                <span class="video-link-desc">${escapeHtml(link.description)}</span>
-            </span>
-            <span class="video-link-arrow">↗</span>
-        </a>
-    `).join('');
-
-    overlay.hidden = false;
-    document.body.style.overflow = 'hidden';
 }
 
 function updatePlaylistDisplay() {
