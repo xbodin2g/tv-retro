@@ -1843,3 +1843,90 @@ body {
         font-size: 1.15rem;
     }
 }
+.video-link.archive:hover {
+    border-color: #8b4513;
+    background: rgba(139, 69, 19, 0.05);
+}
+/* =====================================================
+   Navigation par décennie
+   ===================================================== */
+
+.decade-tabs {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 0.25rem 0.25rem 0.75rem;
+    margin-bottom: 1.5rem;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule-strong) transparent;
+}
+
+.decade-tabs::-webkit-scrollbar {
+    height: 8px;
+}
+
+.decade-tabs::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.decade-tabs::-webkit-scrollbar-thumb {
+    background: var(--rule-strong);
+    border-radius: 999px;
+}
+
+.decade-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+    flex: 0 0 auto;
+    min-width: 90px;
+    padding: 0.7rem 1.3rem;
+    background: var(--paper-card);
+    color: var(--ink-soft);
+    border: 1px solid var(--rule);
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: var(--shadow);
+}
+
+.decade-tab:hover {
+    border-color: var(--accent-2);
+    transform: translateY(-2px);
+}
+
+.decade-tab.active {
+    background: var(--accent-2);
+    color: #fff;
+    border-color: var(--accent-2);
+}
+
+.decade-label {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.decade-count {
+    font-size: 0.78rem;
+    opacity: 0.85;
+}
+
+@media (max-width: 520px) {
+    .decade-tabs {
+        justify-content: flex-start;
+    }
+
+    .decade-tab {
+        min-width: 78px;
+        padding: 0.6rem 1rem;
+    }
+
+    .decade-label {
+        font-size: 1.3rem;
+    }
+}
