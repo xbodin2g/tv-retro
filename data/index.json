@@ -1,18 +1,22 @@
 {
-  "generated_at": "2026-11-11T00:20:05.070211",
-  "total_dates": 1028,
-  "total_programs": 112721,
+  "generated_at": "2026-11-11T00:21:27.231159",
+  "total_dates": 1029,
+  "total_programs": 112757,
   "total_segments": 11346,
   "years": {
     "1975": {
-      "total_programs": 71,
+      "total_programs": 107,
       "dates": {
+        "05-01-1975": {
+          "source": "archives80",
+          "programs_count": 36
+        },
         "12-01-1975": {
-          "source": "depot101",
+          "source": "archives80+depot101",
           "programs_count": 32
         },
         "15-06-1975": {
-          "source": "depot101",
+          "source": "archives80+depot101",
           "programs_count": 39
         }
       }

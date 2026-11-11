@@ -3,7 +3,7 @@
   "dates": {
     "12-01-1975": {
       "date": "12-01-1975",
-      "source": "depot101",
+      "source": "archives80+depot101",
       "programs_count": 32,
       "programs": [
         {
@@ -238,8 +238,10 @@
           "time": "21:30",
           "channel": "Antenne 2",
           "title": "L'IMPRESSIONNISME - VINCENT VAN GOGH (2)",
-          "description": "",
-          "description_lines": [],
+          "description": "Vincent Van Gogh (2)",
+          "description_lines": [
+            "Vincent Van Gogh (2)"
+          ],
           "segments": []
         },
         {
@@ -523,8 +525,10 @@
             "time": "21:30",
             "channel": "Antenne 2",
             "title": "L'IMPRESSIONNISME - VINCENT VAN GOGH (2)",
-            "description": "",
-            "description_lines": [],
+            "description": "Vincent Van Gogh (2)",
+            "description_lines": [
+              "Vincent Van Gogh (2)"
+            ],
             "segments": []
           },
           {
@@ -578,7 +582,7 @@
     },
     "15-06-1975": {
       "date": "15-06-1975",
-      "source": "depot101",
+      "source": "archives80+depot101",
       "programs_count": 39,
       "programs": [
         {
@@ -799,9 +803,10 @@
           "time": "18:05",
           "channel": "Antenne 2",
           "title": "POPEYE - POPEYE ET SIMBAD LE MARIN",
-          "description": "Dessin animé",
+          "description": "Popeye et Simbad le marin Dessin animé",
           "description_lines": [
-            "Dessin animé"
+            "Dessin animé",
+            "Popeye et Simbad le marin"
           ],
           "segments": []
         },
@@ -849,9 +854,10 @@
           "time": "21:35",
           "channel": "Antenne 2",
           "title": "LA DAME DE MONSOREAU - LES ÉPÉES ET LA DAME BLONDE",
-          "description": "D'après Alexandre Dumas",
+          "description": "Les épées et la dame blonde D'après Alexandre Dumas",
           "description_lines": [
-            "D'après Alexandre Dumas"
+            "D'après Alexandre Dumas",
+            "Les épées  et la dame blonde"
           ],
           "segments": []
         },
@@ -885,8 +891,10 @@
           "time": "19:05",
           "channel": "FR3",
           "title": "LES COUSINS DE LA CONSTANCE - 6ÈME ÉPISODE ET FIN",
-          "description": "",
-          "description_lines": [],
+          "description": "6ème épisode et fin",
+          "description_lines": [
+            "6ème épisode et fin"
+          ],
           "segments": []
         },
         {
@@ -1136,9 +1144,10 @@
             "time": "18:05",
             "channel": "Antenne 2",
             "title": "POPEYE - POPEYE ET SIMBAD LE MARIN",
-            "description": "Dessin animé",
+            "description": "Popeye et Simbad le marin Dessin animé",
             "description_lines": [
-              "Dessin animé"
+              "Dessin animé",
+              "Popeye et Simbad le marin"
             ],
             "segments": []
           },
@@ -1186,9 +1195,10 @@
             "time": "21:35",
             "channel": "Antenne 2",
             "title": "LA DAME DE MONSOREAU - LES ÉPÉES ET LA DAME BLONDE",
-            "description": "D'après Alexandre Dumas",
+            "description": "Les épées et la dame blonde D'après Alexandre Dumas",
             "description_lines": [
-              "D'après Alexandre Dumas"
+              "D'après Alexandre Dumas",
+              "Les épées  et la dame blonde"
             ],
             "segments": []
           },
@@ -1224,8 +1234,10 @@
             "time": "19:05",
             "channel": "FR3",
             "title": "LES COUSINS DE LA CONSTANCE - 6ÈME ÉPISODE ET FIN",
-            "description": "",
-            "description_lines": [],
+            "description": "6ème épisode et fin",
+            "description_lines": [
+              "6ème épisode et fin"
+            ],
             "segments": []
           },
           {
@@ -1250,6 +1262,641 @@
             "title": "FR3 DERNIÈRE",
             "description": "",
             "description_lines": [],
+            "segments": []
+          }
+        ]
+      }
+    },
+    "05-01-1975": {
+      "date": "05-01-1975",
+      "source": "archives80",
+      "programs_count": 36,
+      "programs": [
+        {
+          "time": "09:15",
+          "channel": "ORTF 1",
+          "title": "TOUS EN FORME",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "09:30",
+          "channel": "ORTF 1",
+          "title": "LA SOURCE DE VIE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "10:00",
+          "channel": "ORTF 1",
+          "title": "PRÉSENCE PROTESTANTE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "10:30",
+          "channel": "ORTF 1",
+          "title": "LE JOUR DU SEIGNEUR",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:00",
+          "channel": "ORTF 1",
+          "title": "La séquence du spectateur",
+          "description": "Emission de Claude Mionnet",
+          "description_lines": [
+            "Emission de Claude Mionnet"
+          ],
+          "segments": []
+        },
+        {
+          "time": "12:30",
+          "channel": "ORTF 1",
+          "title": "C'EST PAS SÉRIEUX",
+          "description": "Variétés",
+          "description_lines": [
+            "Variétés"
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:00",
+          "channel": "ORTF 1",
+          "title": "24 heures sur la une",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "13:20",
+          "channel": "ORTF 1",
+          "title": "LE DERNIER DES CINQ",
+          "description": "Jeu",
+          "description_lines": [
+            "Jeu"
+          ],
+          "segments": []
+        },
+        {
+          "time": "14:00",
+          "channel": "ORTF 1",
+          "title": "LE SPORT EN FÊTE",
+          "description": "Sports et variétés",
+          "description_lines": [
+            "Sports et variétés"
+          ],
+          "segments": []
+        },
+        {
+          "time": "17:05",
+          "channel": "ORTF 1",
+          "title": "PLEINS PHARES",
+          "description": "Film américain de J. Arnold (1964)",
+          "description_lines": [
+            "Film américain de J. Arnold (1964)"
+          ],
+          "segments": []
+        },
+        {
+          "time": "18:40",
+          "channel": "ORTF 1",
+          "title": "MUSIQUE CLASSIQUE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:10",
+          "channel": "ORTF 1",
+          "title": "DISCORAMA",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:40",
+          "channel": "ORTF 1",
+          "title": "Météo",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:45",
+          "channel": "ORTF 1",
+          "title": "24 HEURES SUR LA UNE + SPORTS-DIMANCHE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "20:45",
+          "channel": "ORTF 1",
+          "title": "BETTY BOOP",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "20:50",
+          "channel": "ORTF 1",
+          "title": "VACANCES ROMAINES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:50",
+          "channel": "ORTF 1",
+          "title": "24 HEURES SUR LA UNE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "12:30",
+          "channel": "ORTF 2",
+          "title": "I.N.F. 2 DIMANCHE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "13:00",
+          "channel": "ORTF 2",
+          "title": "MUSIQUE CLASSIQUE",
+          "description": "1re symphonie en mi mineur de Sibelius.",
+          "description_lines": [
+            "1re symphonie en mi mineur de Sibelius."
+          ],
+          "segments": []
+        },
+        {
+          "time": "13:30",
+          "channel": "ORTF 2",
+          "title": "LES JULES",
+          "description": "Reportage",
+          "description_lines": [
+            "Reportage"
+          ],
+          "segments": []
+        },
+        {
+          "time": "14:30",
+          "channel": "ORTF 2",
+          "title": "LE SHÉRIF D'EL SOLITO",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "15:50",
+          "channel": "ORTF 2",
+          "title": "PRESTO",
+          "description": "Magazine de la musique classique",
+          "description_lines": [
+            "Magazine de la musique classique"
+          ],
+          "segments": []
+        },
+        {
+          "time": "16:40",
+          "channel": "ORTF 2",
+          "title": "À PROPOS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "17:10",
+          "channel": "ORTF 2",
+          "title": "FAMILION",
+          "description": "Jeu",
+          "description_lines": [
+            "Jeu"
+          ],
+          "segments": []
+        },
+        {
+          "time": "17:40",
+          "channel": "ORTF 2",
+          "title": "TÉLÉ-SPORTS",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:30",
+          "channel": "ORTF 2",
+          "title": "CAMÉRA AU POING",
+          "description": "Emission de Christian Zuber",
+          "description_lines": [
+            "Emission de Christian Zuber"
+          ],
+          "segments": []
+        },
+        {
+          "time": "20:00",
+          "channel": "ORTF 2",
+          "title": "I.N.F. 2",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "20:35",
+          "channel": "ORTF 2",
+          "title": "LES IMPRESSIONNISTES",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "21:30",
+          "channel": "ORTF 2",
+          "title": "ÉVOCATION : GEORGE SAND",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "23:05",
+          "channel": "ORTF 2",
+          "title": "CINÉ-CLUB : NINOTCHKA",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "01:00",
+          "channel": "ORTF 2",
+          "title": "I.N.F. 2",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:10",
+          "channel": "ORTF 3",
+          "title": "FLASH INTER 3",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:15",
+          "channel": "ORTF 3",
+          "title": "MAGAZINES RÉGIONAUX",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "19:40",
+          "channel": "ORTF 3",
+          "title": "LA JUIVE DU CHÂTEAU TROMPETTE",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "20:40",
+          "channel": "ORTF 3",
+          "title": "LE COMTE DE MONTE-CRISTO",
+          "description": "",
+          "description_lines": [],
+          "segments": []
+        },
+        {
+          "time": "22:10",
+          "channel": "ORTF 3",
+          "title": "INTER 3",
+          "description": "Journal télévisé",
+          "description_lines": [
+            "Journal télévisé"
+          ],
+          "segments": []
+        }
+      ],
+      "channels": {
+        "ORTF 1": [
+          {
+            "time": "09:15",
+            "channel": "ORTF 1",
+            "title": "TOUS EN FORME",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "09:30",
+            "channel": "ORTF 1",
+            "title": "LA SOURCE DE VIE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "10:00",
+            "channel": "ORTF 1",
+            "title": "PRÉSENCE PROTESTANTE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "10:30",
+            "channel": "ORTF 1",
+            "title": "LE JOUR DU SEIGNEUR",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "12:00",
+            "channel": "ORTF 1",
+            "title": "La séquence du spectateur",
+            "description": "Emission de Claude Mionnet",
+            "description_lines": [
+              "Emission de Claude Mionnet"
+            ],
+            "segments": []
+          },
+          {
+            "time": "12:30",
+            "channel": "ORTF 1",
+            "title": "C'EST PAS SÉRIEUX",
+            "description": "Variétés",
+            "description_lines": [
+              "Variétés"
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:00",
+            "channel": "ORTF 1",
+            "title": "24 heures sur la une",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "13:20",
+            "channel": "ORTF 1",
+            "title": "LE DERNIER DES CINQ",
+            "description": "Jeu",
+            "description_lines": [
+              "Jeu"
+            ],
+            "segments": []
+          },
+          {
+            "time": "14:00",
+            "channel": "ORTF 1",
+            "title": "LE SPORT EN FÊTE",
+            "description": "Sports et variétés",
+            "description_lines": [
+              "Sports et variétés"
+            ],
+            "segments": []
+          },
+          {
+            "time": "17:05",
+            "channel": "ORTF 1",
+            "title": "PLEINS PHARES",
+            "description": "Film américain de J. Arnold (1964)",
+            "description_lines": [
+              "Film américain de J. Arnold (1964)"
+            ],
+            "segments": []
+          },
+          {
+            "time": "18:40",
+            "channel": "ORTF 1",
+            "title": "MUSIQUE CLASSIQUE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:10",
+            "channel": "ORTF 1",
+            "title": "DISCORAMA",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:40",
+            "channel": "ORTF 1",
+            "title": "Météo",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:45",
+            "channel": "ORTF 1",
+            "title": "24 HEURES SUR LA UNE + SPORTS-DIMANCHE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "20:45",
+            "channel": "ORTF 1",
+            "title": "BETTY BOOP",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "20:50",
+            "channel": "ORTF 1",
+            "title": "VACANCES ROMAINES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:50",
+            "channel": "ORTF 1",
+            "title": "24 HEURES SUR LA UNE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ],
+        "ORTF 2": [
+          {
+            "time": "12:30",
+            "channel": "ORTF 2",
+            "title": "I.N.F. 2 DIMANCHE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "13:00",
+            "channel": "ORTF 2",
+            "title": "MUSIQUE CLASSIQUE",
+            "description": "1re symphonie en mi mineur de Sibelius.",
+            "description_lines": [
+              "1re symphonie en mi mineur de Sibelius."
+            ],
+            "segments": []
+          },
+          {
+            "time": "13:30",
+            "channel": "ORTF 2",
+            "title": "LES JULES",
+            "description": "Reportage",
+            "description_lines": [
+              "Reportage"
+            ],
+            "segments": []
+          },
+          {
+            "time": "14:30",
+            "channel": "ORTF 2",
+            "title": "LE SHÉRIF D'EL SOLITO",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "15:50",
+            "channel": "ORTF 2",
+            "title": "PRESTO",
+            "description": "Magazine de la musique classique",
+            "description_lines": [
+              "Magazine de la musique classique"
+            ],
+            "segments": []
+          },
+          {
+            "time": "16:40",
+            "channel": "ORTF 2",
+            "title": "À PROPOS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "17:10",
+            "channel": "ORTF 2",
+            "title": "FAMILION",
+            "description": "Jeu",
+            "description_lines": [
+              "Jeu"
+            ],
+            "segments": []
+          },
+          {
+            "time": "17:40",
+            "channel": "ORTF 2",
+            "title": "TÉLÉ-SPORTS",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:30",
+            "channel": "ORTF 2",
+            "title": "CAMÉRA AU POING",
+            "description": "Emission de Christian Zuber",
+            "description_lines": [
+              "Emission de Christian Zuber"
+            ],
+            "segments": []
+          },
+          {
+            "time": "20:00",
+            "channel": "ORTF 2",
+            "title": "I.N.F. 2",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "20:35",
+            "channel": "ORTF 2",
+            "title": "LES IMPRESSIONNISTES",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "21:30",
+            "channel": "ORTF 2",
+            "title": "ÉVOCATION : GEORGE SAND",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "23:05",
+            "channel": "ORTF 2",
+            "title": "CINÉ-CLUB : NINOTCHKA",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "01:00",
+            "channel": "ORTF 2",
+            "title": "I.N.F. 2",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          }
+        ],
+        "ORTF 3": [
+          {
+            "time": "19:10",
+            "channel": "ORTF 3",
+            "title": "FLASH INTER 3",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:15",
+            "channel": "ORTF 3",
+            "title": "MAGAZINES RÉGIONAUX",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "19:40",
+            "channel": "ORTF 3",
+            "title": "LA JUIVE DU CHÂTEAU TROMPETTE",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "20:40",
+            "channel": "ORTF 3",
+            "title": "LE COMTE DE MONTE-CRISTO",
+            "description": "",
+            "description_lines": [],
+            "segments": []
+          },
+          {
+            "time": "22:10",
+            "channel": "ORTF 3",
+            "title": "INTER 3",
+            "description": "Journal télévisé",
+            "description_lines": [
+              "Journal télévisé"
+            ],
             "segments": []
           }
         ]
