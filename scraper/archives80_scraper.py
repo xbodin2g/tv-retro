@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """
-Scraper Archives80 avec détection robuste des chaînes.
+Scraper Archives80 avec simulation de navigation.
+- Navigation : accueil -> page annuelle -> page journalière
+- Détection robuste des chaînes (France 2, France 3, ORTF, etc.)
+- Conservation des description_lines pour les extraits jeunesse
 """
 
 import cloudscraper
@@ -46,7 +49,7 @@ class Archives80Scraper:
     }
 
     CHANNEL_ALIASES = {
-        # ORTF
+        # ORTF (années 70)
         "OR1": "ORTF 1",
         "OR2": "ORTF 2",
         "OR3": "ORTF 3",
@@ -56,6 +59,12 @@ class Archives80Scraper:
         "ORTF1": "ORTF 1",
         "ORTF2": "ORTF 2",
         "ORTF3": "ORTF 3",
+        "1ÈRE CHAÎNE": "ORTF 1",
+        "1ERE CHAINE": "ORTF 1",
+        "2ÈME CHAÎNE": "ORTF 2",
+        "2EME CHAINE": "ORTF 2",
+        "3ÈME CHAÎNE": "ORTF 3",
+        "3EME CHAINE": "ORTF 3",
         
         # Chaînes classiques
         "TF1": "TF1",
@@ -169,12 +178,16 @@ class Archives80Scraper:
         "Accept-Encoding": "gzip, deflate, br",
         "Connection": "keep-alive",
         "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
         "Cache-Control": "max-age=0",
     }
 
     def __init__(self, delay: float = 2.5):
         self.delay = delay
         self._home_visited = False
+        self._warmed_years: Set[str] = set()
         self._annual_urls_cache: Dict[str, str] = {}
         self._annual_dates_cache: Dict[str, List[str]] = {}
         self._daily_text_cache: Dict[str, str] = {}
@@ -193,8 +206,20 @@ class Archives80Scraper:
         return scraper
 
     def _reset_scraper(self):
+        print("  ♻️ Réinitialisation de la session Archives80...")
         self.scraper = self._create_scraper()
         self._home_visited = False
+        self._warmed_years.clear()
+
+    def _headers_for(self, referer: Optional[str] = None) -> Dict[str, str]:
+        headers = self.BASE_HEADERS.copy()
+        if referer:
+            headers["Referer"] = referer
+            headers["Sec-Fetch-Site"] = "same-origin"
+        else:
+            headers.pop("Referer", None)
+            headers["Sec-Fetch-Site"] = "none"
+        return headers
 
     def _request(
         self,
@@ -206,12 +231,8 @@ class Archives80Scraper:
 
         for attempt in range(max_retries):
             try:
-                time.sleep(random.uniform(1.0, self.delay))
-
-                headers = self.BASE_HEADERS.copy()
-                if referer:
-                    headers["Referer"] = referer
-
+                time.sleep(random.uniform(1.5, self.delay + attempt))
+                headers = self._headers_for(referer)
                 response = self.scraper.get(url, headers=headers, timeout=30)
 
                 if response.status_code == 404:
@@ -222,7 +243,7 @@ class Archives80Scraper:
                     if attempt < max_retries - 1:
                         print(f"  ⚠️ 403 sur {url}, retry {attempt + 1}...")
                         self._reset_scraper()
-                        time.sleep(random.uniform(3.0, 6.0))
+                        time.sleep(random.uniform(4.0, 8.0))
                         continue
                     raise last_error
 
@@ -233,7 +254,8 @@ class Archives80Scraper:
                 last_error = e
                 if attempt < max_retries - 1:
                     print(f"  ⚠️ Erreur sur {url}: {e}")
-                    time.sleep(random.uniform(3.0, 6.0))
+                    self._reset_scraper()
+                    time.sleep(random.uniform(4.0, 8.0))
                     continue
                 raise
 
@@ -243,7 +265,7 @@ class Archives80Scraper:
 
     def _html_to_text(self, html: str) -> str:
         soup = BeautifulSoup(html, "html.parser")
-        for tag in soup(["script", "style"]):
+        for tag in soup(["script", "style", "noscript"]):
             tag.decompose()
         return soup.get_text("\n", strip=True)
 
@@ -255,6 +277,7 @@ class Archives80Scraper:
         if not raw:
             return None
 
+        # Normalisation classique
         key = raw.upper()
         if key in self.CHANNEL_ALIASES:
             return self.CHANNEL_ALIASES[key]
@@ -267,7 +290,7 @@ class Archives80Scraper:
             if regex.match(raw):
                 return canonical
 
-        # NORMALISATION AGRESSIVE
+        # NORMALISATION AGRESSIVE (fallback)
         normalized = re.sub(r'[\s\u00a0\u2000-\u200b\u202f\u205f\u3000]+', ' ', raw).strip()
         normalized = re.sub(r'[^\w\s]', '', normalized)
         
@@ -292,19 +315,76 @@ class Archives80Scraper:
 
         return None
 
+    # =====================================================
+    # NAVIGATION SIMULÉE
+    # =====================================================
+
     def _visit_home(self) -> bool:
+        """Visite la page d'accueil pour initialiser la session."""
         if self._home_visited:
             return True
 
         try:
-            response = self._request(self.HOME_URL, max_retries=2)
+            print("🏠 Navigation Archives80 : page d'accueil...")
+            response = self._request(self.HOME_URL, referer=None, max_retries=2)
             if response is not None:
                 self._home_visited = True
+                print("✓ Page d'accueil visitée")
                 return True
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"⚠️ Impossible de visiter la page d'accueil : {e}")
 
         return False
+
+    def _navigate_to_year(self, year: int) -> Optional[str]:
+        """
+        Simule la navigation : accueil -> page annuelle.
+        Retourne le texte de la page annuelle si des dates sont trouvées.
+        """
+        year_str = str(year)
+
+        if year_str in self._warmed_years:
+            return self._annual_urls_cache.get(year_str)
+
+        # Navigation humaine : accueil puis année
+        self._visit_home()
+        referer = self.HOME_URL if self._home_visited else None
+
+        candidates = [
+            f"{self.GRILLES_URL}/{year_str}",
+            f"{self.GRILLES_URL}/{year_str}/",
+            f"{self.GRILLES_ALT_URL}/{year_str}",
+            f"{self.GRILLES_ALT_URL}/{year_str}/",
+        ]
+
+        for url in candidates:
+            try:
+                response = self._request(url, referer=referer, max_retries=2)
+            except Exception:
+                continue
+
+            if response is None:
+                continue
+
+            text = self._html_to_text(response.text)
+            dates = self._extract_dates_from_text(text, year=year)
+
+            if not dates:
+                dates = self._extract_dates_from_html(response.text, year=year)
+
+            if dates:
+                self._annual_dates_cache[year_str] = dates
+                self._annual_urls_cache[year_str] = url
+                self._warmed_years.add(year_str)
+                print(f"✓ Navigation année {year} réussie : {url}")
+                return text
+
+        print(f"⚠️ Impossible de naviguer vers la page annuelle {year}")
+        return None
+
+    # =====================================================
+    # EXTRACTION DES DATES
+    # =====================================================
 
     def _extract_dates_from_html(self, html: str, year: Optional[int] = None) -> List[str]:
         dates: Set[str] = set()
@@ -383,70 +463,36 @@ class Archives80Scraper:
 
         return sorted(dates)
 
-    def _annual_url_candidates(self, year: int) -> List[str]:
-        year_str = str(year)
-        candidates = [
-            f"{self.GRILLES_URL}/{year_str}",
-            f"{self.GRILLES_URL}/{year_str}/",
-            f"{self.GRILLES_ALT_URL}/{year_str}",
-            f"{self.GRILLES_ALT_URL}/{year_str}/",
-        ]
-        return candidates
+    def get_available_years(self) -> List[int]:
+        return list(range(1970, 2000))
 
-    def _get_annual_dates(self, year: int) -> List[str]:
+    def get_available_dates(self, year: int) -> List[str]:
         year_str = str(year)
 
         if year_str in self._annual_dates_cache:
             return list(self._annual_dates_cache[year_str])
 
-        print(f"📅 Recherche des dates Archives80 pour {year}...")
+        print(f"📅 Récupération des dates Archives80 pour {year}...")
 
-        self._visit_home()
+        # Navigation simulée
+        annual_text = self._navigate_to_year(year)
 
-        referer = self.HOME_URL if self._home_visited else None
-
-        for url in self._annual_url_candidates(year):
-            try:
-                response = self._request(url, referer=referer, max_retries=2)
-            except Exception as e:
-                print(f"  ⚠️ Échec {url}: {e}")
-                continue
-
-            if response is None:
-                continue
-
-            dates = self._extract_dates_from_html(response.text, year=year)
-
-            if not dates:
-                text = self._html_to_text(response.text)
-                dates = self._extract_dates_from_text(text, year=year)
-
+        if annual_text:
+            dates = self._extract_dates_from_text(annual_text, year=year)
             if dates:
-                self._annual_dates_cache[year_str] = dates
-                self._annual_urls_cache[year_str] = url
-                print(f"✓ {len(dates)} dates trouvées via {url}")
-                return list(dates)
+                print(f"✓ {len(dates)} dates trouvées via page annuelle pour {year}")
+                return dates
 
-        print(f"⚠️ Aucune date trouvée pour {year}")
-        return []
-
-    def get_available_years(self) -> List[int]:
-        return list(range(1980, 2000))
-
-    def get_available_dates(self, year: int) -> List[str]:
-        dates = self._get_annual_dates(year)
-
-        if dates:
-            return dates
-
+        # Plan B : découverte mensuelle
         print(f"🧭 Plan B : découverte mensuelle pour {year}...")
         dates = self._discover_dates_by_month_samples(year)
 
         if dates:
-            self._annual_dates_cache[str(year)] = dates
+            self._annual_dates_cache[year_str] = dates
             print(f"✓ {len(dates)} dates trouvées via plan B pour {year}")
             return dates
 
+        print(f"⚠️ Aucune date trouvée pour {year}")
         return []
 
     def _discover_dates_by_month_samples(self, year: int) -> List[str]:
@@ -493,31 +539,65 @@ class Archives80Scraper:
 
         return sorted(discovered)
 
+    # =====================================================
+    # RÉCUPÉRATION DES PAGES JOURNALIÈRES
+    # =====================================================
+
+    def _daily_referer_candidates(self, year_str: str) -> List[Optional[str]]:
+        candidates: List[Optional[str]] = []
+
+        annual_url = self._annual_urls_cache.get(year_str)
+        if annual_url:
+            candidates.append(annual_url)
+
+        candidates.append(f"{self.GRILLES_URL}/{year_str}")
+        candidates.append(f"{self.GRILLES_ALT_URL}/{year_str}")
+
+        if self._home_visited:
+            candidates.append(self.HOME_URL)
+
+        candidates.append(None)
+
+        seen = set()
+        ordered = []
+        for item in candidates:
+            if item not in seen:
+                seen.add(item)
+                ordered.append(item)
+
+        return ordered
+
     def _fetch_daily_text(self, date_str: str) -> Optional[str]:
         if date_str in self._daily_text_cache:
             return self._daily_text_cache[date_str]
 
         year_str = date_str.split("-")[2]
 
-        if year_str not in self._annual_dates_cache:
-            self._get_annual_dates(int(year_str))
+        # S'assurer que la navigation annuelle a été faite
+        if year_str not in self._warmed_years:
+            self._navigate_to_year(int(year_str))
 
         url = f"{self.BASE_URL}/{date_str}"
 
-        annual_url = self._annual_urls_cache.get(year_str)
-        referer = annual_url or (self.HOME_URL if self._home_visited else None)
+        # Essayer avec différents referers (simulation de navigation)
+        for referer in self._daily_referer_candidates(year_str):
+            try:
+                response = self._request(url, referer=referer, max_retries=2)
+            except Exception:
+                continue
 
-        try:
-            response = self._request(url, referer=referer, max_retries=2)
-        except Exception:
-            return None
+            if response is None:
+                continue
 
-        if response is None:
-            return None
+            text = self._html_to_text(response.text)
+            self._daily_text_cache[date_str] = text
+            return text
 
-        text = self._html_to_text(response.text)
-        self._daily_text_cache[date_str] = text
-        return text
+        return None
+
+    # =====================================================
+    # PARSING DES PROGRAMMES
+    # =====================================================
 
     def _is_footer_line(self, line: str) -> bool:
         if not line:
@@ -586,6 +666,7 @@ class Archives80Scraper:
                 i += 1
                 continue
 
+            # Avant le début réel de la grille
             if not started:
                 detected = self.detect_channel(line)
                 if detected and self._looks_like_channel_start(lines, i):
@@ -594,15 +675,18 @@ class Archives80Scraper:
                 i += 1
                 continue
 
+            # Pied de page
             if self._is_footer_line(line):
                 break
 
+            # Nouvelle chaîne
             detected = self.detect_channel(line)
             if detected and self._is_channel_context(lines, i):
                 current_channel = detected
                 i += 1
                 continue
 
+            # Programme
             if self.TIME_RE.match(line) and current_channel:
                 time_str = line
                 i += 1
@@ -677,6 +761,10 @@ class Archives80Scraper:
             print(f"    {line}")
         print("  " + "-" * 60)
 
+    # =====================================================
+    # SCRAPING
+    # =====================================================
+
     def scrape_date(self, date_str: str) -> Optional[Dict]:
         try:
             text = self._fetch_daily_text(date_str)
@@ -729,13 +817,20 @@ class Archives80Scraper:
             else:
                 print("✗")
 
+            # Pause anti-blocage
             if index % 10 == 0:
-                time.sleep(random.uniform(2.0, 4.0))
+                print("  ⏸️ Pause anti-blocage...")
+                time.sleep(random.uniform(8.0, 15.0))
 
-        print(f"\n✅ Archives80 {year} : {success_count}/{len(dates)} journées")
+        print(
+            f"\n✅ Archives80 {year} terminé : "
+            f"{success_count}/{len(dates)} journées scrapées"
+        )
 
-    def scrape_all(self, start_year: int = 1980, end_year: int = 1999) -> None:
+    def scrape_all(self, start_year: int = 1970, end_year: int = 1999) -> None:
         years = list(range(start_year, end_year + 1))
+        print(f"\n🎬 Scraping Archives80 complet : {years}\n")
+
         for year in years:
             print("=" * 70)
             self.scrape_year(year)
