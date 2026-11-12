@@ -3,26 +3,116 @@ name: 🏛️ INA Enrich
 on:
   workflow_dispatch:
     inputs:
-      program:
-        description: "Titre programme INA"
-        required: true
-        default: "Club Dorothée"
-      year:
-        description: "Année (vide = toutes)"
-        required: false
-        default: "1996"
-      max_notices:
-        description: "Notices max par run"
-        required: false
-        default: "150"
       mode:
-        description: "all | index-only | notices-only"
-        required: false
-        default: "all"
+        description: "① ACTION — rebuild = corrige le cache SANS requête INA | all = index + notices | index-only = liste seule | notices-only = reprend l'index en cache"
+        type: choice
+        default: all
+        options:
+          - all
+          - rebuild
+          - index-only
+          - notices-only
+
+      program:
+        description: "② ÉMISSION — titre exact INA (les 4 premiers sont vérifiés)"
+        type: choice
+        default: Club Dorothée
+        options:
+          - Club Dorothée
+          - Récré A2
+          - Amuse 3
+          - Le réveil des babalous
+          - Vitamine
+          - Croque-Vacances
+          - Le Village dans les nuages
+          - Les Visiteurs du mercredi
+          - Disney Parade
+          - Disney Club
+          - Club Mini
+          - À tout Spip
+          - TF! Jeunesse
+          - Discopuce
+          - Giga
+          - Télévisator 2
+          - Chalu Maureen
+          - La Planète de Donkey Kong
+          - Le Disney Channel
+          - Debout les enfants
+          - Samdynamite
+          - Télétaz
+          - Les Minikeums
+          - C'est pas sorcier
+          - Cabou Cadin
+          - Ça cartoon
+          - Décode pas Bunny
+          - Canaille Peluche
+          - Youpi ! L'école est finie
+          - Cellulo
+          - Les Zouzous
+          - Graffi'6
+          - M6 Kid
+          - Multitop
+          - Salut les Musclés
+          - Premiers baisers
+          - Les années fac
+
+      program_custom:
+        description: "③ ÉMISSION AUTRE (optionnel) — si rempli, REMPLACE le menu ci-dessus. Ex: Youpi !"
+        type: string
+        default: ""
+
+      year:
+        description: "④ ANNÉE — 'toutes' balaye 1970→1999 (ignoré si mode = rebuild)"
+        type: choice
+        default: "1996"
+        options:
+          - "1996"
+          - "1995"
+          - "1997"
+          - "1998"
+          - "1999"
+          - "1994"
+          - "1993"
+          - "1992"
+          - "1991"
+          - "1990"
+          - "1989"
+          - "1988"
+          - "1987"
+          - "1986"
+          - "1985"
+          - "1984"
+          - "1983"
+          - "1982"
+          - "1981"
+          - "1980"
+          - "1979"
+          - "1978"
+          - "1977"
+          - "1976"
+          - "1975"
+          - "1974"
+          - "1973"
+          - "1972"
+          - "1971"
+          - "1970"
+          - toutes
+
+      max_notices:
+        description: "⑤ NOTICES MAX par run — 400 = une année complète | 0 = illimité (long) | ignoré si rebuild"
+        type: choice
+        default: "400"
+        options:
+          - "400"
+          - "150"
+          - "300"
+          - "600"
+          - "0"
+
       force:
-        description: "Re-télécharger le cache (true/false)"
-        required: false
-        default: "false"
+        description: "⑥ RE-TÉLÉCHARGER ce qui est déjà en cache (cocher = plus de requêtes INA)"
+        type: boolean
+        default: false
 
 concurrency:
   group: ina-enrich
@@ -34,7 +124,7 @@ permissions:
 jobs:
   enrich:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
 
     steps:
       - name: 📥 Checkout
@@ -51,21 +141,48 @@ jobs:
           pip install requests beautifulsoup4 cloudscraper
 
       - name: 🏛️ Moisson INA
+        env:
+          IN_MODE: ${{ github.event.inputs.mode }}
+          IN_PROGRAM: ${{ github.event.inputs.program }}
+          IN_CUSTOM: ${{ github.event.inputs.program_custom }}
+          IN_YEAR: ${{ github.event.inputs.year }}
+          IN_MAX: ${{ github.event.inputs.max_notices }}
+          IN_FORCE: ${{ github.event.inputs.force }}
         run: |
-          ARGS="--program \"${{ github.event.inputs.program }}\" --max-notices ${{ github.event.inputs.max_notices }} --delay 3.0"
-          if [ -n "${{ github.event.inputs.year }}" ]; then
-            ARGS="$ARGS --year ${{ github.event.inputs.year }}"
+          PROGRAM="$IN_PROGRAM"
+          if [ -n "$IN_CUSTOM" ]; then
+            PROGRAM="$IN_CUSTOM"
           fi
-          if [ "${{ github.event.inputs.mode }}" = "index-only" ]; then
-            ARGS="$ARGS --index-only"
+
+          ARGS=(--program "$PROGRAM" --delay 3.0)
+
+          case "$IN_MODE" in
+            rebuild)      ARGS+=(--rebuild) ;;
+            index-only)   ARGS+=(--index-only) ;;
+            notices-only) ARGS+=(--notices-only) ;;
+          esac
+
+          if [ "$IN_MODE" != "rebuild" ]; then
+            if [ "$IN_YEAR" != "toutes" ]; then
+              ARGS+=(--year "$IN_YEAR")
+            fi
+            ARGS+=(--max-notices "$IN_MAX")
+            if [ "$IN_FORCE" = "true" ]; then
+              ARGS+=(--force)
+            fi
           fi
-          if [ "${{ github.event.inputs.mode }}" = "notices-only" ]; then
-            ARGS="$ARGS --notices-only"
+
+          echo "──────────────────────────────────────────"
+          echo "Action    : $IN_MODE"
+          echo "Émission  : $PROGRAM"
+          if [ "$IN_MODE" != "rebuild" ]; then
+            echo "Année     : $IN_YEAR"
+            echo "Max       : $IN_MAX"
+            echo "Force     : $IN_FORCE"
           fi
-          if [ "${{ github.event.inputs.force }}" = "true" ]; then
-            ARGS="$ARGS --force"
-          fi
-          eval python scraper/ina_catalogue_scraper.py $ARGS
+          echo "──────────────────────────────────────────"
+
+          python scraper/ina_catalogue_scraper.py "${ARGS[@]}"
 
       - name: 💾 Commit
         run: |
@@ -75,6 +192,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Aucun changement."
           else
-            git commit -m "feat(ina): enrich ${{ github.event.inputs.program }} ${{ github.event.inputs.year }}"
+            git commit -m "feat(ina): ${{ github.event.inputs.mode }} — ${{ github.event.inputs.program }} ${{ github.event.inputs.year }}"
             git push
           fi
