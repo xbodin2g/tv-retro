@@ -34,7 +34,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Malicieuse kiki",
+              "raw": "Malicieuse kiki",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Bof",
+              "raw": "Bof",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_395.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_395.001/club-dorothee-programme-du-1er-janvier-1995?rang=183"
         },
         {
           "time": "07:55",
@@ -1259,7 +1280,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Malicieuse kiki",
+                "raw": "Malicieuse kiki",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Bof",
+                "raw": "Bof",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_395.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_395.001/club-dorothee-programme-du-1er-janvier-1995?rang=183"
           },
           {
             "time": "07:55",
@@ -2529,7 +2571,52 @@
           "title": "CLUB DOROTHÉE MATIN",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Jeanne et Serge",
+              "raw": "Jeanne et Serge",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Le maitre des bots",
+              "raw": "Le maitre des bots",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Fly le brave",
+              "raw": "Fly le brave",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_14230.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14230.001/club-dorothee-matin-programme-du-01-fevrier-1995?rang=376"
         },
         {
           "time": "11:50",
@@ -2580,10 +2667,54 @@
           "segments": [
             {
               "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Salut les Musclés",
+              "raw": "Salut les Musclés",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Punky Brewster",
+              "raw": "Punky Brewster",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Drôle de vie",
+              "raw": "Drôle de vie",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Harry et les Henderson",
+              "raw": "Harry et les Henderson",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Ricky ou la belle vie",
+              "raw": "Ricky ou la belle vie",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Le programme jeunesse de Dorothée",
               "raw": "Le programme jeunesse de Dorothée"
             }
-          ]
+          ],
+          "ina_notice": "TV_14245.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14245.001/club-dorothee-programme-du-01-fevrier-1995?rang=155"
         },
         {
           "time": "17:40",
@@ -3884,7 +4015,52 @@
             "title": "CLUB DOROTHÉE MATIN",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Jeanne et Serge",
+                "raw": "Jeanne et Serge",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Le maitre des bots",
+                "raw": "Le maitre des bots",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Fly le brave",
+                "raw": "Fly le brave",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_14230.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14230.001/club-dorothee-matin-programme-du-01-fevrier-1995?rang=376"
           },
           {
             "time": "11:50",
@@ -3935,10 +4111,54 @@
             "segments": [
               {
                 "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Salut les Musclés",
+                "raw": "Salut les Musclés",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Punky Brewster",
+                "raw": "Punky Brewster",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Drôle de vie",
+                "raw": "Drôle de vie",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Harry et les Henderson",
+                "raw": "Harry et les Henderson",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Ricky ou la belle vie",
+                "raw": "Ricky ou la belle vie",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Le programme jeunesse de Dorothée",
                 "raw": "Le programme jeunesse de Dorothée"
               }
-            ]
+            ],
+            "ina_notice": "TV_14245.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14245.001/club-dorothee-programme-du-01-fevrier-1995?rang=155"
           },
           {
             "time": "17:40",
@@ -5224,7 +5444,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Popples : chez le coiffeur",
+              "raw": "Popples : chez le coiffeur",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les amichaines : suivez le chef Bongo le super héros",
+              "raw": "Les amichaines : suivez le chef Bongo le super héros",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_138674.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138674.001/club-dorothee-programme-du-1er-octobre-1995?rang=136"
         },
         {
           "time": "07:25",
@@ -6613,7 +6854,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Popples : chez le coiffeur",
+                "raw": "Popples : chez le coiffeur",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les amichaines : suivez le chef Bongo le super héros",
+                "raw": "Les amichaines : suivez le chef Bongo le super héros",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_138674.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138674.001/club-dorothee-programme-du-1er-octobre-1995?rang=136"
           },
           {
             "time": "07:25",
@@ -8212,7 +8474,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44228.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44228.001/club-dorothee-programme-du-3-avril-1995?rang=180"
         },
         {
           "time": "17:35",
@@ -10445,7 +10722,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44228.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44228.001/club-dorothee-programme-du-3-avril-1995?rang=180"
           },
           {
             "time": "17:35",
@@ -12689,7 +12981,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "3 filles à la maison",
+              "raw": "3 filles à la maison",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44363.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44363.001/club-dorothee-programme-du-4-avril-1995?rang=150"
         },
         {
           "time": "17:35",
@@ -14872,7 +15185,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "3 filles à la maison",
+                "raw": "3 filles à la maison",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44363.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44363.001/club-dorothee-programme-du-4-avril-1995?rang=150"
           },
           {
             "time": "17:35",
@@ -16942,7 +17276,46 @@
           "description_lines": [
             "Avec Dorothée, Ariane, Patrick, Corbier et Jacky"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Jeanne et Serge",
+              "raw": "Jeanne et Serge",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Powers rangers",
+              "raw": "Powers rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44486.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44486.001/club-dorothee-matin-programme-du-5-avril-1995?rang=403"
         },
         {
           "time": "11:45",
@@ -17014,7 +17387,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Ici bébé",
+              "raw": "Ici bébé",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "3 filles à la maison",
+              "raw": "3 filles à la maison",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Ricky ou la belle vie",
+              "raw": "Ricky ou la belle vie",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "La vie de famille",
+              "raw": "La vie de famille",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44501.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44501.001/club-dorothee-programme-du-5-avril-1995?rang=181"
         },
         {
           "time": "17:35",
@@ -19000,7 +19412,46 @@
             "description_lines": [
               "Avec Dorothée, Ariane, Patrick, Corbier et Jacky"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Jeanne et Serge",
+                "raw": "Jeanne et Serge",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Powers rangers",
+                "raw": "Powers rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44486.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44486.001/club-dorothee-matin-programme-du-5-avril-1995?rang=403"
           },
           {
             "time": "11:45",
@@ -19072,7 +19523,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Ici bébé",
+                "raw": "Ici bébé",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "3 filles à la maison",
+                "raw": "3 filles à la maison",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Ricky ou la belle vie",
+                "raw": "Ricky ou la belle vie",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "La vie de famille",
+                "raw": "La vie de famille",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44501.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44501.001/club-dorothee-programme-du-5-avril-1995?rang=181"
           },
           {
             "time": "17:35",
@@ -21225,7 +21715,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44648.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44648.001/club-dorothee-programme-du-6-avril-1995?rang=151"
         },
         {
           "time": "17:30",
@@ -23549,7 +24054,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44648.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44648.001/club-dorothee-programme-du-6-avril-1995?rang=151"
           },
           {
             "time": "17:30",
@@ -25809,7 +26329,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Salut les musclés : hello Susy",
+              "raw": "Salut les musclés : hello Susy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_162687.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_162687.001/club-dorothee-programme-du-6-novembre-1995?rang=141"
         },
         {
           "time": "17:20",
@@ -27379,7 +27914,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Salut les musclés : hello Susy",
+                "raw": "Salut les musclés : hello Susy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_162687.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_162687.001/club-dorothee-programme-du-6-novembre-1995?rang=141"
           },
           {
             "time": "17:20",
@@ -29053,7 +29603,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_44927.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44927.001/club-dorothee-programme-du-7-avril-1995?rang=182"
         },
         {
           "time": "17:30",
@@ -31371,7 +31936,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_44927.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44927.001/club-dorothee-programme-du-7-avril-1995?rang=182"
           },
           {
             "time": "17:30",
@@ -33527,7 +34107,34 @@
           "description_lines": [
             "Présenté par Dorothée, Jacky, Corbier, Ariane, Patrick et Cyril Drevet"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Power Rangers : méfiez-vous des imitations",
+              "raw": "Power Rangers : méfiez-vous des imitations",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Goldorak",
+              "raw": "Goldorak",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_46933.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_46933.001/club-dorothee-programme-du-8-avril-1995?rang=82"
         },
         {
           "time": "10:20",
@@ -35416,7 +36023,34 @@
             "description_lines": [
               "Présenté par Dorothée, Jacky, Corbier, Ariane, Patrick et Cyril Drevet"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Power Rangers : méfiez-vous des imitations",
+                "raw": "Power Rangers : méfiez-vous des imitations",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Goldorak",
+                "raw": "Goldorak",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_46933.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_46933.001/club-dorothee-programme-du-8-avril-1995?rang=82"
           },
           {
             "time": "10:20",
@@ -37287,7 +37921,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Malicieuse Kiki",
+              "raw": "Malicieuse Kiki",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Bof",
+              "raw": "Bof",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_47111.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_47111.001/club-dorothee-programme-du-9-avril-1995?rang=152"
         },
         {
           "time": "07:55",
@@ -38939,7 +39594,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Malicieuse Kiki",
+                "raw": "Malicieuse Kiki",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Bof",
+                "raw": "Bof",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_47111.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_47111.001/club-dorothee-programme-du-9-avril-1995?rang=152"
           },
           {
             "time": "07:55",
@@ -40657,7 +41333,52 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Sophie et Virginie",
+              "raw": "Sophie et Virginie",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Bécébégé",
+              "raw": "Bécébégé",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Reporter blues",
+              "raw": "Reporter blues",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Salut les Musclés",
+              "raw": "Salut les Musclés",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_104221.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_104221.001/club-dorothee-vacances-programme-du-10-aout-1995?rang=489"
         },
         {
           "time": "11:55",
@@ -40763,7 +41484,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Le collège des coeurs brisés",
+              "raw": "Le collège des coeurs brisés",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La Croisière Foll'Amour",
+              "raw": "La Croisière Foll'Amour",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_104267.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_104267.001/club-dorothee-vacances-programme-du-10-aout-1995?rang=490"
         },
         {
           "time": "17:25",
@@ -42311,7 +43053,52 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Sophie et Virginie",
+                "raw": "Sophie et Virginie",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Bécébégé",
+                "raw": "Bécébégé",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Reporter blues",
+                "raw": "Reporter blues",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Salut les Musclés",
+                "raw": "Salut les Musclés",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_104221.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_104221.001/club-dorothee-vacances-programme-du-10-aout-1995?rang=489"
           },
           {
             "time": "11:55",
@@ -42417,7 +43204,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Le collège des coeurs brisés",
+                "raw": "Le collège des coeurs brisés",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La Croisière Foll'Amour",
+                "raw": "La Croisière Foll'Amour",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_104267.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_104267.001/club-dorothee-vacances-programme-du-10-aout-1995?rang=490"
           },
           {
             "time": "17:25",
@@ -44072,7 +44880,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Parker Lewis ne perd jamais",
+              "raw": "Parker Lewis ne perd jamais",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_4314.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_4314.001/club-dorothee-programme-du-13-janvier-1995?rang=92"
         },
         {
           "time": "17:55",
@@ -45643,7 +46472,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Parker Lewis ne perd jamais",
+                "raw": "Parker Lewis ne perd jamais",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_4314.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_4314.001/club-dorothee-programme-du-13-janvier-1995?rang=92"
           },
           {
             "time": "17:55",
@@ -52623,7 +53473,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Parker Lewis ne perd jamais",
+              "raw": "Parker Lewis ne perd jamais",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_7523.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_7523.001/club-dorothee-programme-du-20-janvier-1995?rang=259"
         },
         {
           "time": "17:55",
@@ -54314,7 +55185,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Parker Lewis ne perd jamais",
+                "raw": "Parker Lewis ne perd jamais",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_7523.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_7523.001/club-dorothee-programme-du-20-janvier-1995?rang=259"
           },
           {
             "time": "17:55",
@@ -55852,7 +56744,52 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Bécé Bégé : droit dans les yeux",
+              "raw": "Bécé Bégé : droit dans les yeux",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z : le dernier souhait",
+              "raw": "Dragon Ball Z : le dernier souhait",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom : la rencontre",
+              "raw": "Olive et Tom : la rencontre",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Denis la malice : un requin bavard ; dans la jungle ; Denis le jockey",
+              "raw": "Denis la malice : un requin bavard ; dans la jungle ; Denis le jockey",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Nick Larson : un papa surprise",
+              "raw": "Nick Larson : un papa surprise",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "La vie de famille : vive les mariés",
+              "raw": "La vie de famille : vive les mariés",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_153649.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153649.001/club-dorothee-vacances-programme-du-23-octobre-1995?rang=290"
         },
         {
           "time": "11:50",
@@ -55944,7 +56881,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Salut les musclés : bon anniversaire",
+              "raw": "Salut les musclés : bon anniversaire",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_153609.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153609.001/club-dorothee-vacances-programme-du-23-octobre-1995?rang=291"
         },
         {
           "time": "17:25",
@@ -57504,7 +58456,52 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Bécé Bégé : droit dans les yeux",
+                "raw": "Bécé Bégé : droit dans les yeux",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z : le dernier souhait",
+                "raw": "Dragon Ball Z : le dernier souhait",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom : la rencontre",
+                "raw": "Olive et Tom : la rencontre",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Denis la malice : un requin bavard ; dans la jungle ; Denis le jockey",
+                "raw": "Denis la malice : un requin bavard ; dans la jungle ; Denis le jockey",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Nick Larson : un papa surprise",
+                "raw": "Nick Larson : un papa surprise",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "La vie de famille : vive les mariés",
+                "raw": "La vie de famille : vive les mariés",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_153649.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153649.001/club-dorothee-vacances-programme-du-23-octobre-1995?rang=290"
           },
           {
             "time": "11:50",
@@ -57596,7 +58593,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Salut les musclés : bon anniversaire",
+                "raw": "Salut les musclés : bon anniversaire",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_153609.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153609.001/club-dorothee-vacances-programme-du-23-octobre-1995?rang=291"
           },
           {
             "time": "17:25",
@@ -59211,7 +60223,40 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Jeanne et Serge",
+              "raw": "Jeanne et Serge",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Fly",
+              "raw": "Fly",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_54624.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_54624.001/club-dorothee-vacances-programme-du-24-avril-1995?rang=372"
         },
         {
           "time": "10:50",
@@ -59311,7 +60356,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_53419.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_53419.001/club-dorothee-vacances-programme-du-24-avril-1995?rang=373"
         },
         {
           "time": "17:30",
@@ -60831,7 +61891,40 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Jeanne et Serge",
+                "raw": "Jeanne et Serge",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Fly",
+                "raw": "Fly",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_54624.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_54624.001/club-dorothee-vacances-programme-du-24-avril-1995?rang=372"
           },
           {
             "time": "10:50",
@@ -60931,7 +62024,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_53419.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_53419.001/club-dorothee-vacances-programme-du-24-avril-1995?rang=373"
           },
           {
             "time": "17:30",
@@ -62593,10 +63701,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Salut les musclés : quand on veut le Pérou",
+              "raw": "Salut les musclés : quand on veut le Pérou",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Le programme jeunesse de Dorothée",
               "raw": "Le programme jeunesse de Dorothée"
             }
-          ]
+          ],
+          "ina_notice": "TV_173160.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_173160.001/club-dorothee-programme-du-24-novembre-1995?rang=245"
         },
         {
           "time": "17:20",
@@ -64217,10 +65339,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Salut les musclés : quand on veut le Pérou",
+                "raw": "Salut les musclés : quand on veut le Pérou",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Le programme jeunesse de Dorothée",
                 "raw": "Le programme jeunesse de Dorothée"
               }
-            ]
+            ],
+            "ina_notice": "TV_173160.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_173160.001/club-dorothee-programme-du-24-novembre-1995?rang=245"
           },
           {
             "time": "17:20",
@@ -65687,7 +66823,34 @@
           "description_lines": [
             "avec Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Popples",
+              "raw": "Popples",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Pole position",
+              "raw": "Pole position",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "66 Chump Avenue",
+              "raw": "66 Chump Avenue",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_197005.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197005.001/club-dorothee-noel-programme-du-24-decembre-1995?rang=327"
         },
         {
           "time": "07:55",
@@ -66892,7 +68055,34 @@
             "description_lines": [
               "avec Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Popples",
+                "raw": "Popples",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Pole position",
+                "raw": "Pole position",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "66 Chump Avenue",
+                "raw": "66 Chump Avenue",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_197005.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197005.001/club-dorothee-noel-programme-du-24-decembre-1995?rang=327"
           },
           {
             "time": "07:55",
@@ -68124,7 +69314,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Goldorak",
+              "raw": "Goldorak",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_40826.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_40826.001/club-dorothee-programme-du-25-mars-1995?rang=176"
         },
         {
           "time": "10:23",
@@ -69504,7 +70715,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Goldorak",
+                "raw": "Goldorak",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_40826.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_40826.001/club-dorothee-programme-du-25-mars-1995?rang=176"
           },
           {
             "time": "10:23",
@@ -74318,7 +75550,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Denis la Malice",
+              "raw": "Denis la Malice",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Le cadeau de Noël",
+              "raw": "Le cadeau de Noël",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_197295.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197295.001/club-dorothee-noel-programme-du-25-decembre-1995?rang=328"
         },
         {
           "time": "11:45",
@@ -75587,7 +76840,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Denis la Malice",
+                "raw": "Denis la Malice",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Le cadeau de Noël",
+                "raw": "Le cadeau de Noël",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_197295.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197295.001/club-dorothee-noel-programme-du-25-decembre-1995?rang=328"
           },
           {
             "time": "11:45",
@@ -76847,7 +78121,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Malicieuse Kiki",
+              "raw": "Malicieuse Kiki",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Bof",
+              "raw": "Bof",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_40952.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_40952.001/club-dorothee-programme-du-26-mars-1995?rang=177"
         },
         {
           "time": "07:55",
@@ -78225,7 +79520,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Patrick, Jacky et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Malicieuse Kiki",
+                "raw": "Malicieuse Kiki",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Bof",
+                "raw": "Bof",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_40952.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_40952.001/club-dorothee-programme-du-26-mars-1995?rang=177"
           },
           {
             "time": "07:55",
@@ -79646,7 +80962,34 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Power rangers : lumière blanche",
+              "raw": "Power rangers : lumière blanche",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+              "raw": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Jacky show",
+              "raw": "Jacky show",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_138469.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138469.001/club-dorothee-programme-du-30-septembre-1995?rang=47"
         },
         {
           "time": "09:30",
@@ -79664,7 +81007,34 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Power rangers : lumière blanche",
+              "raw": "Power rangers : lumière blanche",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+              "raw": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Jacky show",
+              "raw": "Jacky show",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_138469.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138469.001/club-dorothee-programme-du-30-septembre-1995?rang=47"
         },
         {
           "time": "10:30",
@@ -81002,7 +82372,34 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Power rangers : lumière blanche",
+                "raw": "Power rangers : lumière blanche",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+                "raw": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Jacky show",
+                "raw": "Jacky show",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_138469.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138469.001/club-dorothee-programme-du-30-septembre-1995?rang=47"
           },
           {
             "time": "09:30",
@@ -81020,7 +82417,34 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Power rangers : lumière blanche",
+                "raw": "Power rangers : lumière blanche",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+                "raw": "Inspecteur Gadget : tout ce qui brille n'est pas or",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Jacky show",
+                "raw": "Jacky show",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_138469.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_138469.001/club-dorothee-programme-du-30-septembre-1995?rang=47"
           },
           {
             "time": "10:30",
@@ -82351,7 +83775,52 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Bécé Bégé : Paul et son double",
+              "raw": "Bécé Bégé : Paul et son double",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z : la défaite de Freezer",
+              "raw": "Dragon Ball Z : la défaite de Freezer",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom : le grand jour",
+              "raw": "Olive et Tom : le grand jour",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Denis la malice : le monstre du marais ; dans la jungle ; Denis président des US",
+              "raw": "Denis la malice : le monstre du marais ; dans la jungle ; Denis président des US",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Nicky Larson : une fille d'honneur",
+              "raw": "Nicky Larson : une fille d'honneur",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "La vie de famille : le hold-up",
+              "raw": "La vie de famille : le hold-up",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_158297.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_158297.001/club-dorothee-vacances-programme-du-30-octobre-1995?rang=297"
         },
         {
           "time": "11:50",
@@ -82443,7 +83912,22 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Salut les musclés : Hector",
+              "raw": "Salut les musclés : Hector",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_158280.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_158280.001/club-dorothee-vacances-programme-du-30-octobre-1995?rang=273"
         },
         {
           "time": "17:20",
@@ -83950,7 +85434,52 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Bécé Bégé : Paul et son double",
+                "raw": "Bécé Bégé : Paul et son double",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z : la défaite de Freezer",
+                "raw": "Dragon Ball Z : la défaite de Freezer",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom : le grand jour",
+                "raw": "Olive et Tom : le grand jour",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Denis la malice : le monstre du marais ; dans la jungle ; Denis président des US",
+                "raw": "Denis la malice : le monstre du marais ; dans la jungle ; Denis président des US",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Nicky Larson : une fille d'honneur",
+                "raw": "Nicky Larson : une fille d'honneur",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "La vie de famille : le hold-up",
+                "raw": "La vie de famille : le hold-up",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_158297.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_158297.001/club-dorothee-vacances-programme-du-30-octobre-1995?rang=297"
           },
           {
             "time": "11:50",
@@ -84042,7 +85571,22 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Salut les musclés : Hector",
+                "raw": "Salut les musclés : Hector",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_158280.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_158280.001/club-dorothee-vacances-programme-du-30-octobre-1995?rang=273"
           },
           {
             "time": "17:20",
@@ -85742,7 +87286,28 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Parker Lewis ne perd jamais",
+              "raw": "Parker Lewis ne perd jamais",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Arnold et Willy",
+              "raw": "Arnold et Willy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_13907.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_13907.001/club-dorothee-programme-du-31-janvier-1995?rang=7"
         },
         {
           "time": "17:55",
@@ -87416,7 +88981,28 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Parker Lewis ne perd jamais",
+                "raw": "Parker Lewis ne perd jamais",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Arnold et Willy",
+                "raw": "Arnold et Willy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_13907.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_13907.001/club-dorothee-programme-du-31-janvier-1995?rang=7"
           },
           {
             "time": "17:55",
@@ -88985,7 +90571,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Sophie et Virginie",
+              "raw": "Sophie et Virginie",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Bécébégé",
+              "raw": "Bécébégé",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Salut les Musclés",
+              "raw": "Salut les Musclés",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_99346.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_99346.001/club-dorothee-vacances-programme-du-31-juillet-1995?rang=408"
         },
         {
           "time": "11:50",
@@ -89097,7 +90722,28 @@
           "description_lines": [
             "Présenté par Dorothée"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Le collège des coeurs brisés",
+              "raw": "Le collège des coeurs brisés",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La Croisière Foll'Amour",
+              "raw": "La Croisière Foll'Amour",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_99397.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_99397.001/club-dorothee-vacances-programme-du-31-juillet-1995?rang=409"
         },
         {
           "time": "17:40",
@@ -90992,7 +92638,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky, Patrick et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Sophie et Virginie",
+                "raw": "Sophie et Virginie",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Bécébégé",
+                "raw": "Bécébégé",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Salut les Musclés",
+                "raw": "Salut les Musclés",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_99346.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_99346.001/club-dorothee-vacances-programme-du-31-juillet-1995?rang=408"
           },
           {
             "time": "11:50",
@@ -91104,7 +92789,28 @@
             "description_lines": [
               "Présenté par Dorothée"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Le collège des coeurs brisés",
+                "raw": "Le collège des coeurs brisés",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La Croisière Foll'Amour",
+                "raw": "La Croisière Foll'Amour",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_99397.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_99397.001/club-dorothee-vacances-programme-du-31-juillet-1995?rang=409"
           },
           {
             "time": "17:40",
