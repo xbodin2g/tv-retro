@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
 """
-Moissonneur INA Catalogue — récupère uniquement les ŒUVRES diffusées dans une émission.
+Moissonneur INA Catalogue — œuvres diffusées dans une émission.
 
-On ne conserve PAS les timecodes, durées, plateaux, génériques ni la structure
-des notices. On conserve seulement : chaîne, date, heure de début (pour le
-rapprochement interne) et la liste des titres d'œuvres.
+Requête PAR ANNÉE (ti=<année>) : contourne la pagination JavaScript du catalogue.
+On ne conserve que : chaîne, date, heure de début (rapprochement interne) et les
+titres d'œuvres canonicalisés. Aucun timecode de segment, aucune durée.
 
 Usage :
-  python scraper/ina_catalogue_scraper.py --program "Club Dorothée" --year 1996 --max-notices 150
-  python scraper/ina_catalogue_scraper.py --program "Récré A2" --index-only
-  python scraper/ina_catalogue_scraper.py --program "Club Dorothée" --year 1996 --notices-only
-
-Sorties :
-  data/ina/index/<slug>.json
-  data/ina/notices/<NOTICE_ID>.json   -> { programme, channel, date, start, elements[] }
+  python scraper/ina_catalogue_scraper.py --program "Club Dorothée" --year 1996 --max-notices 400
+  python scraper/ina_catalogue_scraper.py --program "Club Dorothée"            # toutes les années
+  python scraper/ina_catalogue_scraper.py --program "Club Dorothée" --rebuild  # 0 requête, re-normalise le cache
 """
 
 import argparse
@@ -24,7 +20,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set, Tuple
 from urllib.parse import urljoin, urlencode
 
 import requests
@@ -32,21 +28,22 @@ from bs4 import BeautifulSoup
 
 BASE = "https://catalogue.ina.fr"
 LIST_PATH = "/docListe/TV-RADIO"
+PAGE_SIZE = 500
 
 NOTICE_RE = re.compile(r"/doc/TV-RADIO/(TV_[0-9]+\.[0-9]+)", re.IGNORECASE)
 DATE_RE = re.compile(r"\b(\d{2})/(\d{2})/(\d{4})\b")
 TIME_RE = re.compile(r"\b(\d{2}:\d{2}:\d{2})(?::\d{2})?\b")
+TOTAL_RE = re.compile(r"sur\s+([\d\s\u00a0]{1,12})\b")
 ITEM_RE = re.compile(r"^\s*(\d+)\.\s*(.+?)\s*$", re.MULTILINE)
 TIMECODE_LINE_RE = re.compile(r"^\s*à\s*\d{2}:\d{2}:\d{2}", re.IGNORECASE)
 INLINE_TIME_RE = re.compile(r"\s+à\s+\d{2}:\d{2}:\d{2}.*$", re.IGNORECASE)
+PART_SUFFIX_RE = re.compile(r"\s*:\s*\[?\s*\d+\s*(?:ere|ère|er|e|eme|ème)\s+partie\s*\]?\s*$", re.IGNORECASE)
+BRACKET_PART_RE = re.compile(r"\s*\[\s*\d+\s*(?:ere|ère|er|e|eme|ème)\s+partie\s*\]\s*$", re.IGNORECASE)
+DATE_SUFFIX_RE = re.compile(r"\s*:?\s*\[?\s*(?:[ée]mission|programme|diffusion)\s+du[^\]]*\]?\s*$", re.IGNORECASE)
 
-KNOWN_CHANNELS = [
-    "ORTF 1", "ORTF 2", "ORTF 3", "TF1", "Antenne 2", "France 2",
-    "FR3", "France 3", "Canal+", "Canal Plus", "TV6", "M6",
-    "La Cinq", "La Sept", "Arte", "La Cinquième", "France 5",
-]
+KNOWN_CHANNELS = ["ORTF 1","ORTF 2","ORTF 3","TF1","Antenne 2","France 2","FR3","France 3",
+                  "Canal+","Canal Plus","TV6","M6","La Cinq","La Sept","Arte","La Cinquième","France 5"]
 
-# Éléments sans intérêt pour retrouver un média : on les écarte.
 EXCLUDE_PATTERNS = [
     r"^plateau\b", r"\bplateau\s*:", r"^animation\b", r"^pr[ée]sentation\b",
     r"interprogramme", r"publicit", r"^\s*pub\s*$", r"bande annonce",
@@ -58,11 +55,63 @@ EXCLUDE_PATTERNS = [
     r"^concours\b", r"^jeu concours\b", r"^d[ée]dicaces\b", r"^courrier\b",
 ]
 
+# Canonicalisation : alias exacts (clés normalisées) puis règles regex.
+CANON_EXACT = {
+    "mask": "Mask", "ferdy": "Ferdy", "popples": "Popples", "conan": "Conan",
+    "cadichon": "Cadichon", "nick larson": "Nick Larson", "nico larson": "Nick Larson",
+    "city hunter": "City Hunter", "sailormoon": "Sailor Moon", "sailor moon": "Sailor Moon",
+    "power rangers": "Power Rangers", "power rangers zeo": "Power Rangers Zeo",
+    "dragon ball z": "Dragon Ball Z", "dragon ball": "Dragon Ball",
+    "les minipouss": "Les Minipouss", "minipouss": "Les Minipouss",
+    "jeanne et serge": "Jeanne et Serge", "shera": "She-Ra", "he man": "He-Man",
+    "mon petit poney": "Mon petit poney", "my little pony": "Mon petit poney",
+    "sophie et virginie": "Sophie et Virginie", "denis la malice": "Denis la Malice",
+    "inspecteur gadget": "Inspecteur Gadget", "lucky luke": "Lucky Luke",
+    "les schtroumpfs": "Les Schtroumpfs", "schtroumpfs": "Les Schtroumpfs",
+    "tom et jerry": "Tom et Jerry", "titi et gros minet": "Titi et Grosminet",
+    "bugs bunny": "Bugs Bunny", "daffy duck": "Daffy Duck", "scooby doo": "Scooby-Doo",
+    "la panthere rose": "La Panthère rose", "les flintstones": "Les Pierrafeu",
+    "les jetson": "Les Jetson", "yogi": "Yogi Bear", "quick et flupke": "Quick et Flupke",
+    "la pimpa": "La Pimpa", "mimi cracra": "Mimi Cracra", "bogus": "Bogus",
+    "les fables d esope": "Les Fables d'Ésope", "non non non et non": "Non, non, non et non",
+    "petit ours brun": "Petit Ours Brun", "naturimages": "Naturimages",
+    "les enfants des terrasses": "Les enfants des terrasses", "souris noire": "Souris noire",
+    "les petits malins": "Les petits malins", "galaxie express 99": "Galaxie Express 99",
+    "visionaries": "Visionaries", "tarzan": "Tarzan", "winnie l ourson": "Winnie l'ourson",
+    "les gummies": "Les Gummies", "les gummi": "Les Gummies", "superboy": "Superboy",
+    "super boy": "Superboy", "rick hunter": "Rick Hunter", "columbo": "Columbo",
+    "starsky et hutch": "Starsky et Hutch", "starsky hutch": "Starsky et Hutch",
+    "k 2000": "K 2000", "k2000": "K 2000", "l agence tous risques": "L'Agence tous risques",
+    "drôles de dames": "Drôles de dames", "droles de dames": "Drôles de dames",
+    "hawai police d etat": "Hawaï, police d'État", "magnum": "Magnum",
+    "l homme qui tombe a pic": "L'Homme qui tombe à pic", "sherlock holmes": "Sherlock Holmes",
+    "les aventures de sherlock holmes": "Sherlock Holmes",
+}
+
+CANON_RULES: List[Tuple[re.Pattern, str]] = [
+    (re.compile(r"^le\s+bisounours$"), "Les Bisounours"),
+    (re.compile(r"^(?:les\s+)?bisounours$"), "Les Bisounours"),
+    (re.compile(r"^les\s+chevaliers\s+du\s+zodiaque?s?$"), "Les Chevaliers du Zodiaque"),
+    (re.compile(r"^les\s+amichain(?:e|ê)s?$"), "Les Amichaînes"),
+    (re.compile(r"^la\s+croisi[èe]re\s+foll?\s*amour$"), "La Croisière Foll'Amour"),
+    (re.compile(r"^les\s+ann[ée]es\s+fac$"), "Les Années fac"),
+    (re.compile(r"^premiers\s+baisers$"), "Premiers baisers"),
+    (re.compile(r"^salut\s+les\s+muscl[ée]s$"), "Salut les Musclés"),
+    (re.compile(r"^cadichon.*$"), "Cadichon"),
+    (re.compile(r"^b[ée]c[ée]\s*b[ée]g[ée]$"), "Bécébégé"),
+    (re.compile(r"^tico\s+et\s+ses\s+amis$"), "Tico et ses amis"),
+    (re.compile(r"^l\s*[ée]cole\s+des\s+champions$"), "L'école des champions"),
+    (re.compile(r"^les\s+visiteurs$"), "Les Visiteurs"),
+    (re.compile(r"^le\s+college\s+fou\s*fou\s*fou$"), "Le Collège fou fou fou"),
+    (re.compile(r"^juliette\s+je\s+t\s+aime$"), "Juliette je t'aime"),
+    (re.compile(r"^cynthia\s+ou\s+le\s+rythme\s+de\s+la\s+vie$"), "Cynthia ou le rythme de la vie"),
+    (re.compile(r"^emily$"), "Emily"),
+    (re.compile(r"^lucie$"), "Lucie"),
+]
+
 HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    ),
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.7",
     "Connection": "keep-alive",
@@ -71,19 +120,80 @@ HEADERS = {
 
 
 # =====================================================
-# Utils
+# Normalisation / canonicalisation
 # =====================================================
 
 def norm(value: str) -> str:
     text = str(value or "").strip().lower()
-    for src, dst in (("é","e"),("è","e"),("ê","e"),("ë","e"),("à","a"),("â","a"),
-                     ("ù","u"),("û","u"),("ô","o"),("î","i"),("ï","i"),("ç","c")):
-        text = text.replace(src, dst)
+    for a, b in (("é","e"),("è","e"),("ê","e"),("ë","e"),("à","a"),("â","a"),("ä","a"),
+                 ("ù","u"),("û","u"),("ü","u"),("ô","o"),("ö","o"),("î","i"),("ï","i"),
+                 ("ì","i"),("ç","c"),("ñ","n")):
+        text = text.replace(a, b)
+    text = re.sub(r"['’]", " ", text)
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", text)).strip()
 
 
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", norm(value)).strip("-") or "programme"
+
+
+def canon_title(title: str) -> str:
+    key = norm(title)
+    if not key:
+        return title
+    if key in CANON_EXACT:
+        return CANON_EXACT[key]
+    for pattern, canonical in CANON_RULES:
+        if pattern.match(key):
+            return canonical
+    return title
+
+
+def clean_title(raw: str) -> str:
+    title = INLINE_TIME_RE.sub("", str(raw or "").strip())
+    title = DATE_SUFFIX_RE.sub("", title)
+    title = PART_SUFFIX_RE.sub("", title)
+    title = BRACKET_PART_RE.sub("", title)
+    if title.startswith("[") and title.endswith("]"):
+        title = title[1:-1].strip()
+    title = re.sub(r"\s+", " ", title).strip(" .;:-–—")
+    # "Titre : Titre" (répétition INA) -> "Titre"
+    parts = title.split(":", 1)
+    if len(parts) == 2:
+        left, right = parts[0].strip(), parts[1].strip()
+        if left and norm(left) == norm(right):
+            title = left
+    title = PART_SUFFIX_RE.sub("", title).strip(" .;:-–—")
+    return title
+
+
+def is_useful(title: str, program_norm: str) -> bool:
+    if not title or len(title) < 3 or len(title) > 140:
+        return False
+    low = title.lower()
+    for pattern in EXCLUDE_PATTERNS:
+        if re.search(pattern, low):
+            return False
+    key = norm(title)
+    if not key or key == program_norm or re.fullmatch(r"[\d\s]+", title):
+        return False
+    return True
+
+
+def build_elements(raw_titles: List[str], program: str) -> List[str]:
+    program_norm = norm(program)
+    out: List[str] = []
+    seen: Set[str] = set()
+    for raw in raw_titles:
+        title = canon_title(clean_title(raw))
+        if not is_useful(title, program_norm):
+            continue
+        key = norm(title)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(title)
+    return out
 
 
 def ensure_dir(path: Path) -> None:
@@ -102,31 +212,6 @@ def read_json(path: Path) -> Optional[Any]:
             return json.load(f)
     except Exception:
         return None
-
-
-def clean_title(raw: str) -> str:
-    title = INLINE_TIME_RE.sub("", raw.strip())
-    title = re.sub(r"\s*:\s*\[\s*(?:[ée]mission|programme|diffusion)[^\]]*\]\s*$", "", title, flags=re.IGNORECASE)
-    title = re.sub(r"\s*\[\s*(?:[ée]mission|programme) du[^\]]*\]\s*$", "", title, flags=re.IGNORECASE)
-    if title.startswith("[") and title.endswith("]"):
-        title = title[1:-1].strip()
-    title = re.sub(r"\s+", " ", title).strip(" .;:-–—")
-    return title
-
-
-def is_useful(title: str, program_norm: str) -> bool:
-    if not title or len(title) < 3 or len(title) > 120:
-        return False
-    low = title.lower()
-    for pattern in EXCLUDE_PATTERNS:
-        if re.search(pattern, low):
-            return False
-    key = norm(title)
-    if not key or key == program_norm:
-        return False
-    if re.fullmatch(r"[\d\s]+", title):
-        return False
-    return True
 
 
 # =====================================================
@@ -191,23 +276,34 @@ class InaClient:
 
 
 # =====================================================
-# Phase A — index des notices
+# Phase A — index par année
 # =====================================================
 
-def build_list_url(program: str, variant: int) -> str:
+def build_year_url(program: str, year: Optional[int], variant: int = 0) -> str:
+    params = {"base_label": "TVNAT", "sujets_filter": "Sujet", "bool_operator": "AND", "nbLignes": str(PAGE_SIZE)}
     if variant == 0:
-        params = {"base_label":"TVNAT","sujets_filter":"Sujet","tiprog":program,"ti":program,"bool_operator":"AND","nbLignes":"500"}
+        params["tiprog"] = program
+        params["ti"] = str(year) if year else program
     elif variant == 1:
-        params = {"base_label":"TVNAT","sujets_filter":"Sujet","tiprog":f'"{program}"',"bool_operator":"AND","nbLignes":"500"}
-    elif variant == 2:
-        params = {"base_label":"TVNAT","sujets_filter":"Sujet","tiprog":program,"bool_operator":"AND","nbLignes":"500"}
+        params["tiprog"] = f'"{program}"'
+        if year: params["ti"] = str(year)
     else:
-        params = {"base_label":"TVNAT","sujets_filter":"Sujet","ti":program,"bool_operator":"AND","nbLignes":"500"}
+        params["ti"] = f"{program} {year}" if year else program
     return f"{BASE}{LIST_PATH}?{urlencode(params)}"
 
 
-def parse_list_rows(html: str) -> List[Dict[str, Any]]:
+def declared_total(soup: BeautifulSoup) -> Optional[int]:
+    text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True))
+    match = TOTAL_RE.search(text)
+    if not match:
+        return None
+    digits = re.sub(r"[^\d]", "", match.group(1))
+    return int(digits) if digits else None
+
+
+def parse_list_rows(html: str, program: str, include_subnotices: bool) -> Tuple[List[Dict[str, Any]], Optional[int]]:
     soup = BeautifulSoup(html, "html.parser")
+    program_norm = norm(program)
     rows: List[Dict[str, Any]] = []
     seen: Set[str] = set()
 
@@ -219,9 +315,14 @@ def parse_list_rows(html: str) -> List[Dict[str, Any]]:
         if notice_id in seen:
             continue
 
+        label = link.get_text(" ", strip=True)
+        label_norm = norm(label)
+        if not include_subnotices and program_norm and program_norm not in label_norm:
+            continue
+
         row = link.find_parent("tr")
         cells = [c.get_text(" ", strip=True) for c in row.find_all("td")] if row else []
-        blob = " | ".join(cells) if cells else link.get_text(" ", strip=True)
+        blob = " | ".join(cells) if cells else label
 
         date_match = DATE_RE.search(blob)
         if not date_match:
@@ -243,71 +344,58 @@ def parse_list_rows(html: str) -> List[Dict[str, Any]]:
             "start": times[0] if times else "",
         })
 
-    return rows
+    return rows, declared_total(soup)
 
 
-def find_next_page(html: str, current_url: str) -> Optional[str]:
-    soup = BeautifulSoup(html, "html.parser")
-    for link in soup.find_all("a", href=True):
-        if "suivant" in link.get_text(" ", strip=True).lower():
-            href = link["href"].strip()
-            if href and not href.startswith("#") and "javascript" not in href.lower():
-                return urljoin(current_url, href)
-    return None
-
-
-def harvest_index(client: InaClient, program: str, max_pages: int) -> List[Dict[str, Any]]:
-    start_url = None
-    for variant in range(4):
-        candidate = build_list_url(program, variant)
-        print(f"🔎 Test requête : {candidate}")
-        html = client.get(candidate)
-        if not html:
-            continue
-        if parse_list_rows(html):
-            start_url = candidate
-            print("✓ Requête retenue")
-            break
-        print("  · aucune notice liée sur cette variante")
-
-    if not start_url:
-        print(f"⚠️ Aucune notice liée trouvée pour « {program} »")
-        return []
-
-    all_rows: Dict[str, Dict[str, Any]] = {}
-    url = start_url
-    page = 0
-    visited: Set[str] = set()
-
-    while url and page < max_pages:
-        if url in visited:
-            break
-        visited.add(url)
-        page += 1
+def harvest_year(client: InaClient, program: str, year: Optional[int],
+                 include_subnotices: bool) -> List[Dict[str, Any]]:
+    label = str(year) if year else "global"
+    for variant in range(3):
+        url = build_year_url(program, year, variant)
         html = client.get(url)
         if not html:
-            break
-        rows = parse_list_rows(html)
-        new_count = 0
+            continue
+        rows, total = parse_list_rows(html, program, include_subnotices)
+        if rows:
+            kept = len(rows)
+            message = f"  📅 {label} : {kept} notices mères"
+            if total is not None:
+                message += f" (résultats annoncés : {total})"
+                if total > PAGE_SIZE:
+                    message += " ⚠️ TRONQUÉ — relance avec --include-subnotices désactivé ou affine"
+            print(message)
+            return rows
+        if total == 0:
+            print(f"  📅 {label} : 0")
+            return []
+    print(f"  📅 {label} : aucune notice mère liée")
+    return []
+
+
+def harvest_index(client: InaClient, program: str, year: Optional[int],
+                  year_start: int, year_end: int, include_subnotices: bool) -> List[Dict[str, Any]]:
+    all_rows: Dict[str, Dict[str, Any]] = {}
+
+    def absorb(rows: List[Dict[str, Any]]) -> None:
         for row in rows:
-            if row["notice_id"] not in all_rows:
-                all_rows[row["notice_id"]] = row
-                new_count += 1
-        print(f"  📄 Page {page} : {len(rows)} lignes, {new_count} nouvelles (total {len(all_rows)})")
-        if not rows:
-            break
-        url = find_next_page(html, url)
+            all_rows.setdefault(row["notice_id"], row)
+
+    if year:
+        absorb(harvest_year(client, program, year, include_subnotices))
+    else:
+        for y in range(year_start, year_end + 1):
+            absorb(harvest_year(client, program, y, include_subnotices))
+        absorb(harvest_year(client, program, None, include_subnotices))
 
     return sorted(all_rows.values(), key=lambda r: (
-        r["date"].split("-")[2], r["date"].split("-")[1], r["date"].split("-")[0], r["start"]
-    ))
+        r["date"].split("-")[2], r["date"].split("-")[1], r["date"].split("-")[0], r["start"]))
 
 
 # =====================================================
-# Phase B — uniquement les titres d'œuvres
+# Phase B — titres d'œuvres uniquement
 # =====================================================
 
-def parse_notice(html: str, notice_id: str, url: str, program_query: str) -> Dict[str, Any]:
+def parse_notice(html: str, notice_id: str, url: str, program: str) -> Dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     fields: Dict[str, str] = {}
 
@@ -339,60 +427,83 @@ def parse_notice(html: str, notice_id: str, url: str, program_query: str) -> Dic
     start_match = TIME_RE.search(field("Heure de diffusion"))
     start = start_match.group(1)[:5] if start_match else ""
 
-    programme = field("Titre programme") or program_query
-    program_norm = norm(programme)
+    programme = field("Titre programme") or program
 
-    elements: List[str] = []
-    seen: Set[str] = set()
-
+    titles_raw: List[str] = []
     sommaire = field("Sommaire")
     if sommaire:
         for line in sommaire.split("\n"):
             if TIMECODE_LINE_RE.match(line):
                 continue
             item = ITEM_RE.match(line)
-            raw = item.group(2) if item else line
-            title = clean_title(raw)
-            if not is_useful(title, program_norm):
-                continue
-            key = norm(title)
-            if key in seen:
-                continue
-            seen.add(key)
-            elements.append(title)
+            raw = (item.group(2) if item else line).strip()
+            if raw:
+                titles_raw.append(raw)
 
     return {
         "notice_id": notice_id,
         "url": url,
         "source": "ina",
+        "parser_version": 2,
         "scraped_at": datetime.now().isoformat(),
-        "program_query": program_query,
+        "program_query": program,
         "programme": programme,
         "channel": field("Chaîne de diffusion", "Chaine de diffusion"),
         "date": date_str,
         "start": start,
-        "elements": elements,
+        "titles_raw": titles_raw,
+        "elements": build_elements(titles_raw, programme),
     }
+
+
+def rebuild_cache(program: Optional[str]) -> None:
+    directory = Path("data/ina/notices")
+    if not directory.exists():
+        print("❌ Aucun cache data/ina/notices")
+        return
+    slug_filter = slugify(program) if program else None
+    changed = total = 0
+    for path in sorted(directory.glob("*.json")):
+        notice = read_json(path)
+        if not notice:
+            continue
+        if slug_filter and norm(notice.get("program_query", "")) != norm(program):
+            continue
+        total += 1
+        source_titles = notice.get("titles_raw") or notice.get("elements") or []
+        programme = notice.get("programme") or notice.get("program_query") or ""
+        elements = build_elements(source_titles, programme)
+        if elements != notice.get("elements") or "titles_raw" not in notice:
+            notice["elements"] = elements
+            notice.setdefault("titles_raw", source_titles)
+            notice["parser_version"] = 2
+            notice["rebuilt_at"] = datetime.now().isoformat()
+            write_json(path, notice)
+            changed += 1
+    print(f"✅ Rebuild sans requête : {changed}/{total} notices mises à jour")
 
 
 # =====================================================
 # Orchestration
 # =====================================================
 
-def run(program: str, year: Optional[int], max_notices: int, index_only: bool,
-        notices_only: bool, force: bool, delay: float, max_pages: int) -> None:
+def run(args: argparse.Namespace) -> None:
+    if args.rebuild:
+        rebuild_cache(args.program)
+        return
+
+    program = args.program
     slug = slugify(program)
     index_path = Path("data/ina/index") / f"{slug}.json"
     notices_dir = Path("data/ina/notices")
     ensure_dir(notices_dir)
-
-    client = InaClient(delay=delay)
+    client = InaClient(delay=args.delay)
 
     print("=" * 70)
-    print(f"🏛️ INA — {program}" + (f" · {year}" if year else ""))
+    print(f"🏛️ INA — {program}" + (f" · {args.year}" if args.year else f" · {args.year_start}-{args.year_end}"))
     print("=" * 70)
 
-    if notices_only:
+    if args.notices_only:
         cached = read_json(index_path)
         if not cached:
             print(f"❌ Index absent : {index_path}")
@@ -400,39 +511,46 @@ def run(program: str, year: Optional[int], max_notices: int, index_only: bool,
         rows = cached.get("notices", [])
         print(f"📂 Index en cache : {len(rows)} notices")
     else:
-        rows = harvest_index(client, program, max_pages)
+        rows = harvest_index(client, program, args.year, args.year_start, args.year_end, args.include_subnotices)
+        previous = read_json(index_path) or {}
+        merged = {r["notice_id"]: r for r in previous.get("notices", [])}
+        for row in rows:
+            merged[row["notice_id"]] = row
+        rows = sorted(merged.values(), key=lambda r: (
+            r["date"].split("-")[2], r["date"].split("-")[1], r["date"].split("-")[0], r["start"]))
         write_json(index_path, {
             "program": program, "slug": slug,
             "harvested_at": datetime.now().isoformat(),
             "count": len(rows), "notices": rows,
         })
-        print(f"✅ Index écrit : {index_path} ({len(rows)} notices)")
+        print(f"✅ Index : {index_path} ({len(rows)} notices cumulées)")
 
-    if index_only or not rows:
+    if not rows:
         return
 
-    if year:
-        rows = [r for r in rows if r["date"].endswith(f"-{year}")]
-        print(f"🎯 Filtre année {year} : {len(rows)} notices")
+    if args.year:
+        rows = [r for r in rows if r["date"].endswith(f"-{args.year}")]
+        print(f"🎯 Année {args.year} : {len(rows)} notices")
 
     pending, already = [], 0
     for row in rows:
-        if (notices_dir / f"{row['notice_id']}.json").exists() and not force:
+        path = notices_dir / f"{row['notice_id']}.json"
+        existing = read_json(path) if path.exists() else None
+        if existing and not args.force and existing.get("parser_version") == 2:
             already += 1
         else:
             pending.append(row)
 
-    print(f"♻️ En cache : {already} · à télécharger : {len(pending)}")
-    if max_notices > 0:
-        pending = pending[:max_notices]
-    print(f"▶️ {len(pending)} notices (délai ~{delay}s)\n")
+    print(f"♻️ En cache (v2) : {already} · à télécharger : {len(pending)}")
+    if args.max_notices > 0:
+        pending = pending[:args.max_notices]
+    print(f"▶️ {len(pending)} notices (délai ~{args.delay}s)\n")
 
     ok = with_elements = total_elements = failures = 0
 
     for position, row in enumerate(pending, start=1):
         notice_id = row["notice_id"]
         print(f"[{position}/{len(pending)}] {notice_id} · {row['date']} {row['start'][:5]} ...", end=" ", flush=True)
-
         html = client.get(row["url"])
         if not html:
             failures += 1
@@ -441,7 +559,6 @@ def run(program: str, year: Optional[int], max_notices: int, index_only: bool,
                 print("\n🛑 Trop d'échecs — arrêt propre (relance plus tard).")
                 break
             continue
-
         try:
             notice = parse_notice(html, notice_id, row["url"], program)
         except Exception as error:
@@ -456,39 +573,50 @@ def run(program: str, year: Optional[int], max_notices: int, index_only: bool,
         write_json(notices_dir / f"{notice_id}.json", notice)
         ok += 1
         failures = 0
-
         count = len(notice["elements"])
         if count:
             with_elements += 1
             total_elements += count
-            preview = " · ".join(notice["elements"][:4])
-            print(f"✓ {count} œuvres — {preview}")
+            print(f"✓ {count} — {' · '.join(notice['elements'][:4])}")
         else:
-            print("✓ notice sans sommaire exploitable")
+            print("✓ sans sommaire exploitable")
 
     print("\n" + "=" * 70)
     print("🎉 TERMINÉ")
     print("=" * 70)
-    print(f"Notices téléchargées : {ok}")
-    print(f"Avec œuvres          : {with_elements}")
-    print(f"Œuvres relevées      : {total_elements}")
-    print(f"Cache total          : {len(list(notices_dir.glob('*.json')))} notices")
-    print("\n💡 Relance la même commande pour continuer (le cache évite les re-téléchargements).")
+    print(f"Téléchargées : {ok} · Avec œuvres : {with_elements} · Œuvres : {total_elements}")
+    print(f"Cache total  : {len(list(notices_dir.glob('*.json')))} notices")
+    print("\n💡 Relance la même commande pour continuer.")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Moissonneur INA — œuvres diffusées")
     parser.add_argument("--program", required=True)
     parser.add_argument("--year", type=int, default=None)
-    parser.add_argument("--max-notices", type=int, default=150)
+    parser.add_argument("--year-start", type=int, default=1970)
+    parser.add_argument("--year-end", type=int, default=1999)
+    parser.add_argument("--max-notices", type=int, default=300)
     parser.add_argument("--max-pages", type=int, default=20)
     parser.add_argument("--index-only", action="store_true")
     parser.add_argument("--notices-only", action="store_true")
+    parser.add_argument("--include-subnotices", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument("--rebuild", action="store_true", help="Re-normalise le cache sans aucune requête")
     parser.add_argument("--delay", type=float, default=3.0)
     args = parser.parse_args()
-    run(args.program, args.year, args.max_notices, args.index_only,
-        args.notices_only, args.force, args.delay, args.max_pages)
+
+    if args.index_only and not args.rebuild:
+        slug = slugify(args.program)
+        client = InaClient(delay=args.delay)
+        rows = harvest_index(client, args.program, args.year, args.year_start, args.year_end, args.include_subnotices)
+        write_json(Path("data/ina/index") / f"{slug}.json", {
+            "program": args.program, "slug": slug,
+            "harvested_at": datetime.now().isoformat(),
+            "count": len(rows), "notices": rows})
+        print(f"✅ Index seul : {len(rows)} notices")
+        return
+
+    run(args)
 
 
 if __name__ == "__main__":
