@@ -1,9 +1,646 @@
 {
   "program": "Club Dorothée",
   "slug": "club-dorothee",
-  "harvested_at": "2026-11-12T22:08:03.400197",
-  "count": 955,
+  "harvested_at": "2026-11-12T22:09:33.656554",
+  "count": 1046,
   "notices": [
+    {
+      "notice_id": "DA_CPA87007924",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87007924/club-dorothee-emission-du-2-septembre-1987?rang=47",
+      "channel": "TF1",
+      "date": "02-09-1987",
+      "start": "14:43:45"
+    },
+    {
+      "notice_id": "DA_CPA87008164",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008164/club-dorothee-emission-du-7-septembre-1987?rang=48",
+      "channel": "TF1",
+      "date": "07-09-1987",
+      "start": "16:47:30"
+    },
+    {
+      "notice_id": "DA_CPA87008166",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008166/club-dorothee-emission-du-8-septembre-1987?rang=50",
+      "channel": "TF1",
+      "date": "08-09-1987",
+      "start": "16:44:00"
+    },
+    {
+      "notice_id": "DA_CPA87008169",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008169/club-dorothee-emission-du-9-septembre-1987?rang=67",
+      "channel": "TF1",
+      "date": "09-09-1987",
+      "start": "14:52:00"
+    },
+    {
+      "notice_id": "DA_CPA87008170",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008170/club-dorothee-emission-du-10-septembre-1987?rang=1",
+      "channel": "TF1",
+      "date": "10-09-1987",
+      "start": "16:47:15"
+    },
+    {
+      "notice_id": "DA_CPA87008171",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008171/club-dorothe-emission-du-11-septembre-1987?rang=49",
+      "channel": "TF1",
+      "date": "11-09-1987",
+      "start": "16:44:15"
+    },
+    {
+      "notice_id": "DA_CPA87008316",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008316/club-dorothee-emission-du-14-septembre-1987?rang=2",
+      "channel": "TF1",
+      "date": "14-09-1987",
+      "start": "16:47:35"
+    },
+    {
+      "notice_id": "DA_CPA87008325",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008325/club-dorothee-emission-du-15-septembre-1987?rang=3",
+      "channel": "TF1",
+      "date": "15-09-1987",
+      "start": "16:47:05"
+    },
+    {
+      "notice_id": "DA_CPA87008332",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008332/club-dorothee-emission-du-16-septembre-1987?rang=51",
+      "channel": "TF1",
+      "date": "16-09-1987",
+      "start": "14:51:50"
+    },
+    {
+      "notice_id": "DA_CPA87008340",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008340/club-dorothee-emission-du-17-septembre-1987?rang=22",
+      "channel": "TF1",
+      "date": "17-09-1987",
+      "start": "16:44:10"
+    },
+    {
+      "notice_id": "DA_CPA87008347",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008347/club-dorothee-emission-du-18-septembre-1987?rang=52",
+      "channel": "TF1",
+      "date": "18-09-1987",
+      "start": "16:51:00"
+    },
+    {
+      "notice_id": "DA_CPA87008662",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008662/club-dorothee-emission-du-21-septembre-1987?rang=5",
+      "channel": "TF1",
+      "date": "21-09-1987",
+      "start": "16:43:50"
+    },
+    {
+      "notice_id": "DA_CPA87008670",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008670/club-dorothee-emission-du-22-septembre-1987?rang=68",
+      "channel": "TF1",
+      "date": "22-09-1987",
+      "start": "16:49:15"
+    },
+    {
+      "notice_id": "DA_CPA87008678",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008678/club-dorothee-emission-du-23-septembre-1987?rang=4",
+      "channel": "TF1",
+      "date": "23-09-1987",
+      "start": "14:56:05"
+    },
+    {
+      "notice_id": "DA_CPA87008692",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008692/club-dorothee-emission-du-24-septembre-1987?rang=23",
+      "channel": "TF1",
+      "date": "24-09-1987",
+      "start": "16:47:20"
+    },
+    {
+      "notice_id": "DA_CPA87008701",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008701/club-dorothee-emission-du-25-septembre-1987?rang=6",
+      "channel": "TF1",
+      "date": "25-09-1987",
+      "start": "16:48:20"
+    },
+    {
+      "notice_id": "DA_CPA87008882",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008882/club-dorothee-emission-du-28-septembre-1987?rang=53",
+      "channel": "TF1",
+      "date": "28-09-1987",
+      "start": "16:44:45"
+    },
+    {
+      "notice_id": "DA_CPA87008883",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008883/club-dorothee-emission-du-29-septembre-1987?rang=24",
+      "channel": "TF1",
+      "date": "29-09-1987",
+      "start": "16:49:25"
+    },
+    {
+      "notice_id": "DA_CPA87008886",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008886/club-dorothee-emission-du-30-septembre-1987?rang=25",
+      "channel": "TF1",
+      "date": "30-09-1987",
+      "start": "14:52:35"
+    },
+    {
+      "notice_id": "DA_CPA87008887",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008887/club-dorothee-emission-du-1er-octobre-1987?rang=69",
+      "channel": "TF1",
+      "date": "01-10-1987",
+      "start": "16:50:45"
+    },
+    {
+      "notice_id": "DA_CPA87008888",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008888/club-dorothee-emission-du-2-octobre-1987?rang=26",
+      "channel": "TF1",
+      "date": "02-10-1987",
+      "start": "16:50:50"
+    },
+    {
+      "notice_id": "DA_CPA87009284",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009284/club-dorothee-emission-du-5-octobre-1987?rang=7",
+      "channel": "TF1",
+      "date": "05-10-1987",
+      "start": "16:47:15"
+    },
+    {
+      "notice_id": "DA_CPA87009285",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009285/club-dorothee-emission-du-6-octobre-1987?rang=27",
+      "channel": "TF1",
+      "date": "06-10-1987",
+      "start": "16:47:30"
+    },
+    {
+      "notice_id": "DA_CPA87009287",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009287/club-dorothee-emission-du-7-octobre-1987?rang=54",
+      "channel": "TF1",
+      "date": "07-10-1987",
+      "start": "14:50:05"
+    },
+    {
+      "notice_id": "DA_CPA87009289",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009289/club-dorothee-emission-du-8-octobre-1987?rang=28",
+      "channel": "TF1",
+      "date": "08-10-1987",
+      "start": "16:49:00"
+    },
+    {
+      "notice_id": "DA_CPA87009290",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009290/club-dorothee-emission-du-9-octobre-1987?rang=65",
+      "channel": "TF1",
+      "date": "09-10-1987",
+      "start": "16:51:45"
+    },
+    {
+      "notice_id": "DA_CPA87009622",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009622/club-dorothee-emission-du-12-octobre-1987?rang=55",
+      "channel": "TF1",
+      "date": "12-10-1987",
+      "start": "16:43:00"
+    },
+    {
+      "notice_id": "DA_CPA87009623",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009623/club-dorothee-emission-du-13-octobre-1987?rang=8",
+      "channel": "TF1",
+      "date": "13-10-1987",
+      "start": "16:43:05"
+    },
+    {
+      "notice_id": "DA_CPA87009624",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009624/club-dorothee-emission-du-14-octobre-1987?rang=56",
+      "channel": "TF1",
+      "date": "14-10-1987",
+      "start": "14:51:20"
+    },
+    {
+      "notice_id": "DA_CPA87009625",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009625/club-dorothee-emission-du-15-octobre-1987?rang=29",
+      "channel": "TF1",
+      "date": "15-10-1987",
+      "start": "16:49:35"
+    },
+    {
+      "notice_id": "DA_CPA87009626",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009626/club-dorothee-emission-du-16-octobre-1987?rang=57",
+      "channel": "TF1",
+      "date": "16-10-1987",
+      "start": "16:40:50"
+    },
+    {
+      "notice_id": "DA_CPA87009950",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009950/club-dorothee-emission-du-19-octobre-1987?rang=70",
+      "channel": "TF1",
+      "date": "19-10-1987",
+      "start": "16:44:45"
+    },
+    {
+      "notice_id": "DA_CPA87009951",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009951/club-dorothee-emission-du-20-octobre-1987?rang=9",
+      "channel": "TF1",
+      "date": "20-10-1987",
+      "start": "16:43:40"
+    },
+    {
+      "notice_id": "DA_CPA87009953",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009953/club-dorothee-emission-du-21-octobre-1987?rang=58",
+      "channel": "TF1",
+      "date": "21-10-1987",
+      "start": "14:53:20"
+    },
+    {
+      "notice_id": "DA_CPA87009954",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009954/club-dorothee-emission-du-22-octobre-1987?rang=10",
+      "channel": "TF1",
+      "date": "22-10-1987",
+      "start": "16:46:15"
+    },
+    {
+      "notice_id": "DA_CPA87009955",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009955/club-dorothee-emission-du-23-octobre-1987?rang=11",
+      "channel": "TF1",
+      "date": "23-10-1987",
+      "start": "16:45:00"
+    },
+    {
+      "notice_id": "DA_CPA87010406",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010406/club-dorothee-emission-du-26-octobre-1987?rang=30",
+      "channel": "TF1",
+      "date": "26-10-1987",
+      "start": "16:42:50"
+    },
+    {
+      "notice_id": "DA_CPA87010407",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010407/club-dorothee-emission-du-27-octobre-1987?rang=59",
+      "channel": "TF1",
+      "date": "27-10-1987",
+      "start": "16:41:45"
+    },
+    {
+      "notice_id": "DA_CPA87010426",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010426/club-dorothee-emission-du-28-octobre-1987?rang=31",
+      "channel": "TF1",
+      "date": "28-10-1987",
+      "start": "14:53:50"
+    },
+    {
+      "notice_id": "DA_CPA87010408",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010408/club-dorothee-emission-du-29-octobre-1987?rang=12",
+      "channel": "TF1",
+      "date": "29-10-1987",
+      "start": "16:45:00"
+    },
+    {
+      "notice_id": "DA_CPA87010409",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010409/club-dorothee-emission-du-30-octobre-1987?rang=60",
+      "channel": "TF1",
+      "date": "30-10-1987",
+      "start": "16:44:30"
+    },
+    {
+      "notice_id": "DA_CPA87010659",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010659/club-dorothee-vacances-emission-du-2-novembre-1987?rang=82",
+      "channel": "TF1",
+      "date": "02-11-1987",
+      "start": "14:45:20"
+    },
+    {
+      "notice_id": "DA_CPA87010660",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010660/club-dorothee-vacances-emission-du-3-novembre-1987?rang=74",
+      "channel": "TF1",
+      "date": "03-11-1987",
+      "start": "14:49:20"
+    },
+    {
+      "notice_id": "DA_CPA87010661",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010661/club-dorothee-emission-du-4-novembre-1987?rang=32",
+      "channel": "TF1",
+      "date": "04-11-1987",
+      "start": "15:09:30"
+    },
+    {
+      "notice_id": "DA_CPA87010662",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010662/club-dorothee-vacances-emission-du-5-novembre-1987?rang=75",
+      "channel": "TF1",
+      "date": "05-11-1987",
+      "start": "14:46:20"
+    },
+    {
+      "notice_id": "DA_CPA87010663",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010663/club-dorothee-vacances-emission-du-6-novembre-1987?rang=91",
+      "channel": "TF1",
+      "date": "06-11-1987",
+      "start": "14:51:05"
+    },
+    {
+      "notice_id": "DA_CPA87011117",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011117/club-dorothee-emission-du-9-novembre-1987?rang=66",
+      "channel": "TF1",
+      "date": "09-11-1987",
+      "start": "16:50:05"
+    },
+    {
+      "notice_id": "DA_CPA87011119",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011119/club-dorothee-emission-du-10-novembre-1987?rang=71",
+      "channel": "TF1",
+      "date": "10-11-1987",
+      "start": "16:52:10"
+    },
+    {
+      "notice_id": "DA_CPA87011121",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011121/club-dorothee-emission-du-12-novembre-1987?rang=13",
+      "channel": "TF1",
+      "date": "12-11-1987",
+      "start": "16:44:50"
+    },
+    {
+      "notice_id": "DA_CPA87011122",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011122/club-dorothee-emission-du-13-novembre-1987?rang=33",
+      "channel": "TF1",
+      "date": "13-11-1987",
+      "start": "16:51:55"
+    },
+    {
+      "notice_id": "DA_CPA87011347",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011347/club-dorothee-emission-du-16-novembre-1987?rang=34",
+      "channel": "TF1",
+      "date": "16-11-1987",
+      "start": "16:46:55"
+    },
+    {
+      "notice_id": "DA_CPA87011348",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011348/club-dorothee-emission-du-17-novembre-1987?rang=72",
+      "channel": "TF1",
+      "date": "17-11-1987",
+      "start": "16:43:50"
+    },
+    {
+      "notice_id": "DA_CPA87011349",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011349/club-dorothee-emission-du-18-novembre-1987?rang=35",
+      "channel": "TF1",
+      "date": "18-11-1987",
+      "start": "14:52:35"
+    },
+    {
+      "notice_id": "DA_CPA87011350",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011350/club-dorothee-emission-du-19-novembre-1987?rang=15",
+      "channel": "TF1",
+      "date": "19-11-1987",
+      "start": "16:47:10"
+    },
+    {
+      "notice_id": "DA_CPA87011351",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011351/club-dorothee-emission-du-20-novembre-1987?rang=36",
+      "channel": "TF1",
+      "date": "20-11-1987",
+      "start": "16:47:20"
+    },
+    {
+      "notice_id": "DA_CPA87011593",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011593/club-dorothee-emission-du-23-novembre-1987?rang=14",
+      "channel": "TF1",
+      "date": "23-11-1987",
+      "start": "16:44:20"
+    },
+    {
+      "notice_id": "DA_CPA87011594",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011594/club-dorothee-emission-du-24-novembre-1987?rang=61",
+      "channel": "TF1",
+      "date": "24-11-1987",
+      "start": "16:47:35"
+    },
+    {
+      "notice_id": "DA_CPA87011595",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011595/club-dorothee-emission-du-25-novembre-1987?rang=37",
+      "channel": "TF1",
+      "date": "25-11-1987",
+      "start": "14:52:10"
+    },
+    {
+      "notice_id": "DA_CPA87011596",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011596/club-dorothee-emission-du-26-novembre-1987?rang=16",
+      "channel": "TF1",
+      "date": "26-11-1987",
+      "start": "16:45:30"
+    },
+    {
+      "notice_id": "DA_CPA87011597",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011597/club-dorothee-emission-du-27-novembre-1987?rang=62",
+      "channel": "TF1",
+      "date": "27-11-1987",
+      "start": "16:43:45"
+    },
+    {
+      "notice_id": "DA_CPA87011852",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011852/club-dorothee-emission-du-30-novembre-1987?rang=38",
+      "channel": "TF1",
+      "date": "30-11-1987",
+      "start": "16:48:30"
+    },
+    {
+      "notice_id": "DA_CPA87011854",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011854/club-dorothee-emission-du-1er-decembre-1987?rang=17",
+      "channel": "TF1",
+      "date": "01-12-1987",
+      "start": "16:43:55"
+    },
+    {
+      "notice_id": "DA_CPA87011857",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011857/club-dorothee-emission-du-2-decembre-1987?rang=39",
+      "channel": "TF1",
+      "date": "02-12-1987",
+      "start": "14:51:05"
+    },
+    {
+      "notice_id": "DA_CPA87011858",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011858/club-dorothee-emission-du-3-decembre-1987?rang=20",
+      "channel": "TF1",
+      "date": "03-12-1987",
+      "start": "16:45:15"
+    },
+    {
+      "notice_id": "DA_CPA87011860",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011860/club-dorothee-emission-du-4-decembre-1987?rang=18",
+      "channel": "TF1",
+      "date": "04-12-1987",
+      "start": "16:45:15"
+    },
+    {
+      "notice_id": "DA_CPA87012251",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012251/club-dorothee-emission-du-7-decembre-1987?rang=63",
+      "channel": "TF1",
+      "date": "07-12-1987",
+      "start": "16:46:20"
+    },
+    {
+      "notice_id": "DA_CPA87012252",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012252/club-dorothee-emission-du-8-decembre-1987?rang=19",
+      "channel": "TF1",
+      "date": "08-12-1987",
+      "start": "16:47:55"
+    },
+    {
+      "notice_id": "DA_CPA87012253",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012253/club-dorothee-emission-du-9-decembre-1987?rang=40",
+      "channel": "TF1",
+      "date": "09-12-1987",
+      "start": "14:54:45"
+    },
+    {
+      "notice_id": "DA_CPA87012254",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012254/club-dorothee-emission-du-10-decembre-1987?rang=21",
+      "channel": "TF1",
+      "date": "10-12-1987",
+      "start": "16:45:55"
+    },
+    {
+      "notice_id": "DA_CPA87012255",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012255/club-dorothee-emission-du-11-decembre-1987?rang=64",
+      "channel": "TF1",
+      "date": "11-12-1987",
+      "start": "16:45:40"
+    },
+    {
+      "notice_id": "DA_CPA87012617",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012617/club-dorothee-emission-du-14-decembre-1987?rang=41",
+      "channel": "TF1",
+      "date": "14-12-1987",
+      "start": "16:47:55"
+    },
+    {
+      "notice_id": "DA_CPA87012618",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012618/club-dorothee-emission-du-15-decembre-1987?rang=44",
+      "channel": "TF1",
+      "date": "15-12-1987",
+      "start": "16:44:10"
+    },
+    {
+      "notice_id": "DA_CPA87012651",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012651/club-dorothee-emission-du-16-decembre-1987?rang=42",
+      "channel": "TF1",
+      "date": "16-12-1987",
+      "start": "14:50:45"
+    },
+    {
+      "notice_id": "DA_CPA87012619",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012619/club-dorothee-emission-du-17-decembre-1987?rang=45",
+      "channel": "TF1",
+      "date": "17-12-1987",
+      "start": "16:45:25"
+    },
+    {
+      "notice_id": "DA_CPA87012620",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012620/club-dorothee-emission-du-18-decembre-1987?rang=43",
+      "channel": "TF1",
+      "date": "18-12-1987",
+      "start": "16:48:00"
+    },
+    {
+      "notice_id": "DA_CPA87012892",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012892/club-dorothee-noel-emission-du-21-decembre-1987?rang=76",
+      "channel": "TF1",
+      "date": "21-12-1987",
+      "start": "09:07:05"
+    },
+    {
+      "notice_id": "DA_CPA87012893",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012893/club-dorothee-noel-emission-du-21-decembre-1987?rang=77",
+      "channel": "TF1",
+      "date": "21-12-1987",
+      "start": "14:26:25"
+    },
+    {
+      "notice_id": "DA_CPA87012894",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012894/club-dorothee-noel-emission-du-22-decembre-1987?rang=86",
+      "channel": "TF1",
+      "date": "22-12-1987",
+      "start": "09:06:35"
+    },
+    {
+      "notice_id": "DA_CPA87012895",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012895/club-dorothee-noel-emission-du-22-decembre-1987?rang=87",
+      "channel": "TF1",
+      "date": "22-12-1987",
+      "start": "14:33:05"
+    },
+    {
+      "notice_id": "DA_CPA87012901",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012901/club-dorothee-emission-du-23-decembre-1987?rang=73",
+      "channel": "TF1",
+      "date": "23-12-1987",
+      "start": "14:29:10"
+    },
+    {
+      "notice_id": "DA_CPA87012896",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012896/club-dorothee-noel-emission-du-24-decembre-1987?rang=78",
+      "channel": "TF1",
+      "date": "24-12-1987",
+      "start": "09:06:35"
+    },
+    {
+      "notice_id": "DA_CPA87012897",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012897/club-dorothee-noel-emission-du-24-decembre-1987?rang=79",
+      "channel": "TF1",
+      "date": "24-12-1987",
+      "start": "14:26:25"
+    },
+    {
+      "notice_id": "DA_CPA87012898",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012898/club-dorothee-noel-emission-du-25-decembre-1987?rang=89",
+      "channel": "TF1",
+      "date": "25-12-1987",
+      "start": "09:05:25"
+    },
+    {
+      "notice_id": "DA_CPA87012973",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012973/club-dorothee-noel-emission-du-25-decembre-1987?rang=83",
+      "channel": "TF1",
+      "date": "25-12-1987",
+      "start": "15:35:45"
+    },
+    {
+      "notice_id": "DA_CPA87013261",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013261/club-dorothee-noel-emission-du-28-decembre-1987?rang=84",
+      "channel": "TF1",
+      "date": "28-12-1987",
+      "start": "09:04:45"
+    },
+    {
+      "notice_id": "DA_CPA87013263",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013263/club-dorothee-noel-emission-du-28-decembre-1987?rang=85",
+      "channel": "TF1",
+      "date": "28-12-1987",
+      "start": "14:27:25"
+    },
+    {
+      "notice_id": "DA_CPA87013264",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013264/club-dorothee-noel-emission-du-29-decembre-1987?rang=88",
+      "channel": "TF1",
+      "date": "29-12-1987",
+      "start": "09:04:15"
+    },
+    {
+      "notice_id": "DA_CPA87013266",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013266/club-dorothee-noel-emission-du-29-decembre-1987?rang=90",
+      "channel": "TF1",
+      "date": "29-12-1987",
+      "start": "14:27:00"
+    },
+    {
+      "notice_id": "DA_CPA87013323",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013323/club-dorothee-emission-du-30-decembre-1987?rang=46",
+      "channel": "TF1",
+      "date": "30-12-1987",
+      "start": "14:30:30"
+    },
+    {
+      "notice_id": "DA_CPA87013268",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013268/club-dorothee-noel-emission-du-31-decembre-1987?rang=80",
+      "channel": "TF1",
+      "date": "31-12-1987",
+      "start": "09:05:50"
+    },
+    {
+      "notice_id": "DA_CPA87013271",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013271/club-dorothee-noel-emission-du-31-decembre-1987?rang=81",
+      "channel": "TF1",
+      "date": "31-12-1987",
+      "start": "14:26:45"
+    },
     {
       "notice_id": "TV_395.001",
       "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_395.001/club-dorothee-programme-du-1er-janvier-1995?rang=183",
