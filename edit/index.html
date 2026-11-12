@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TV Rétro · Éditeur</title>
+<link rel="stylesheet" href="edit.css">
+<script src="edit.js" defer></script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><h1>✏️ TV Rétro · Éditeur</h1><p>Corrections permanentes — couche overrides</p></div>
+  <div class="top-actions">
+    <span id="conn-state" class="pill off">non connecté</span>
+    <button id="btn-settings" class="btn">⚙️ Réglages</button>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab active" data-tab="search">🔎 Recherche</button>
+  <button class="tab" data-tab="day">📅 Par journée</button>
+  <button class="tab" data-tab="pending">💾 Modifications <span id="pending-badge" class="badge">0</span></button>
+</nav>
+
+<main>
+  <section id="tab-search" class="panel active">
+    <div class="filters">
+      <input type="search" id="q" placeholder="Émission, série, film, présentateur…">
+      <select id="f-period"><option value="all">Toute la base</option></select>
+      <select id="f-year"><option value="all">Toutes années</option></select>
+      <select id="f-genre"><option value="all">Tous genres</option></select>
+      <select id="f-channel"><option value="all">Toutes chaînes</option></select>
+      <button id="btn-reset" class="btn small">Réinitialiser</button>
+    </div>
+    <p id="search-status" class="status"></p>
+    <div id="search-results" class="results"></div>
+  </section>
+
+  <section id="tab-day" class="panel">
+    <div class="filters">
+      <select id="d-year"></select>
+      <select id="d-date"></select>
+      <button id="btn-load-day" class="btn">Charger</button>
+      <button id="btn-add-program" class="btn primary">➕ Ajouter un programme</button>
+    </div>
+    <p id="day-status" class="status"></p>
+    <div id="day-results" class="results"></div>
+  </section>
+
+  <section id="tab-pending" class="panel">
+    <div class="pending-head">
+      <p class="status">Ces corrections sont enregistrées dans <code>data/overrides/AAAA.json</code> et réappliquées à chaque génération.</p>
+      <div class="row-btns">
+        <button id="btn-commit" class="btn primary">💾 Enregistrer sur GitHub</button>
+        <button id="btn-discard" class="btn danger">🗑️ Tout annuler</button>
+      </div>
+    </div>
+    <div id="pending-list" class="results"></div>
+  </section>
+</main>
+
+<div id="editor-overlay" class="overlay" hidden>
+  <div class="modal">
+    <button class="close" id="ed-close">✕</button>
+    <h2 id="ed-title">Éditer</h2>
+    <p id="ed-sub" class="status"></p>
+    <div class="grid2">
+      <label>Date<input type="text" id="ed-date" placeholder="JJ-MM-AAAA"></label>
+      <label>Heure<input type="text" id="ed-time" placeholder="HH:MM"></label>
+      <label>Chaîne<input type="text" id="ed-channel" list="channels-list"></label>
+      <label>Action<select id="ed-action"><option value="patch">Corriger</option><option value="add">Ajouter</option><option value="hide">Masquer</option></select></label>
+    </div>
+    <label>Titre<input type="text" id="ed-name"></label>
+    <label>Description<textarea id="ed-desc" rows="2"></textarea></label>
+    <div class="elements-head">
+      <strong>Détails / œuvres</strong>
+      <label class="inline"><input type="radio" name="ed-mode" value="merge" checked> Fusionner</label>
+      <label class="inline"><input type="radio" name="ed-mode" value="replace"> Remplacer tout</label>
+      <label class="inline"><input type="checkbox" id="ed-locked"> 🔒 Ignorer l'INA</label>
+    </div>
+    <div id="ed-elements" class="elements"></div>
+    <div class="row-btns">
+      <input type="text" id="ed-new-element" placeholder="Ajouter une œuvre (ex. Dragon Ball Z)">
+      <button id="btn-add-element" class="btn small">➕</button>
+    </div>
+    <label>Note<textarea id="ed-note" rows="2" placeholder="Note interne (optionnel)"></textarea></label>
+    <div class="modal-actions">
+      <button id="ed-save" class="btn primary">✔ Mettre en attente</button>
+      <button id="ed-remove" class="btn danger">Retirer cette correction</button>
+    </div>
+  </div>
+</div>
+
+<div id="settings-overlay" class="overlay" hidden>
+  <div class="modal">
+    <button class="close" id="st-close">✕</button>
+    <h2>⚙️ Réglages</h2>
+    <p class="status">Token GitHub <strong>fine-grained</strong>, limité à ce dépôt, permission <em>Contents: Read and write</em>. Il reste uniquement dans ton navigateur.</p>
+    <div class="grid2">
+      <label>Propriétaire<input type="text" id="st-owner" placeholder="xbodin2g"></label>
+      <label>Dépôt<input type="text" id="st-repo" placeholder="tv-retro"></label>
+      <label>Branche<input type="text" id="st-branch" placeholder="main"></label>
+      <label>Dossier données<input type="text" id="st-path" placeholder="data"></label>
+    </div>
+    <label>Token<input type="password" id="st-token" placeholder="github_pat_…" autocomplete="off"></label>
+    <div class="modal-actions">
+      <button id="st-save" class="btn primary">💾 Enregistrer</button>
+      <button id="st-test" class="btn">🔌 Tester</button>
+      <button id="st-clear" class="btn danger">Effacer le token</button>
+    </div>
+    <p id="st-status" class="status"></p>
+    <p class="warn">⚠️ Après enregistrement, relance <code>generate_index_only</code> pour appliquer tes corrections au site.</p>
+  </div>
+</div>
+
+<datalist id="channels-list"></datalist>
+<div id="toast" class="toast"></div>
+</body>
+</html>
