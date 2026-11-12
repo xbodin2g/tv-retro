@@ -1,0 +1,80 @@
+name: 🏛️ INA Enrich
+
+on:
+  workflow_dispatch:
+    inputs:
+      program:
+        description: "Titre programme INA"
+        required: true
+        default: "Club Dorothée"
+      year:
+        description: "Année (vide = toutes)"
+        required: false
+        default: "1996"
+      max_notices:
+        description: "Notices max par run"
+        required: false
+        default: "150"
+      mode:
+        description: "all | index-only | notices-only"
+        required: false
+        default: "all"
+      force:
+        description: "Re-télécharger le cache (true/false)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: ina-enrich
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+
+      - name: 🐍 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 📦 Dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 cloudscraper
+
+      - name: 🏛️ Moisson INA
+        run: |
+          ARGS="--program \"${{ github.event.inputs.program }}\" --max-notices ${{ github.event.inputs.max_notices }} --delay 3.0"
+          if [ -n "${{ github.event.inputs.year }}" ]; then
+            ARGS="$ARGS --year ${{ github.event.inputs.year }}"
+          fi
+          if [ "${{ github.event.inputs.mode }}" = "index-only" ]; then
+            ARGS="$ARGS --index-only"
+          fi
+          if [ "${{ github.event.inputs.mode }}" = "notices-only" ]; then
+            ARGS="$ARGS --notices-only"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          eval python scraper/ina_catalogue_scraper.py $ARGS
+
+      - name: 💾 Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ina
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "feat(ina): enrich ${{ github.event.inputs.program }} ${{ github.event.inputs.year }}"
+            git push
+          fi
