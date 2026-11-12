@@ -8862,11 +8862,14 @@
           ],
           "segments": [
             {
-              "index": 1,
-              "title": "Salut les musclés",
-              "raw": "Salut les musclés"
+              "index": 0,
+              "title": "Salut les Musclés",
+              "raw": "Salut les Musclés",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "TV_436246.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_436246.001/club-dorothee-programme-du-1-novembre-1996?rang=454"
         },
         {
           "time": "17:35",
@@ -10266,11 +10269,14 @@
             ],
             "segments": [
               {
-                "index": 1,
-                "title": "Salut les musclés",
-                "raw": "Salut les musclés"
+                "index": 0,
+                "title": "Salut les Musclés",
+                "raw": "Salut les Musclés",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "TV_436246.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_436246.001/club-dorothee-programme-du-1-novembre-1996?rang=454"
           },
           {
             "time": "17:35",
@@ -22196,6 +22202,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Premiers baisers",
+              "raw": "Premiers baisers",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Parker Lewis ne perd jamais",
               "raw": "Parker Lewis ne perd jamais"
@@ -22204,11 +22216,6 @@
               "index": 2,
               "title": "La rubrique animalière du docteur Michel Klein",
               "raw": "La rubrique animalière du docteur Michel Klein"
-            },
-            {
-              "index": 3,
-              "title": "Premiers baisers",
-              "raw": "Premiers baisers"
             },
             {
               "index": 4,
@@ -22220,7 +22227,9 @@
               "title": "Le jeu",
               "raw": "Le jeu"
             }
-          ]
+          ],
+          "ina_notice": "TV_390897.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_390897.001/club-dorothee-programme-du-3-septembre-1996?rang=316"
         },
         {
           "time": "17:35",
@@ -24114,6 +24123,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Premiers baisers",
+                "raw": "Premiers baisers",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Parker Lewis ne perd jamais",
                 "raw": "Parker Lewis ne perd jamais"
@@ -24122,11 +24137,6 @@
                 "index": 2,
                 "title": "La rubrique animalière du docteur Michel Klein",
                 "raw": "La rubrique animalière du docteur Michel Klein"
-              },
-              {
-                "index": 3,
-                "title": "Premiers baisers",
-                "raw": "Premiers baisers"
               },
               {
                 "index": 4,
@@ -24138,7 +24148,9 @@
                 "title": "Le jeu",
                 "raw": "Le jeu"
               }
-            ]
+            ],
+            "ina_notice": "TV_390897.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_390897.001/club-dorothee-programme-du-3-septembre-1996?rang=316"
           },
           {
             "time": "17:35",
@@ -28721,7 +28733,34 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Conan",
+              "raw": "Conan",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_391076.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391076.001/club-dorothee-programme-du-4-septembre-1996?rang=296"
         },
         {
           "time": "11:45",
@@ -30138,7 +30177,34 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Conan",
+                "raw": "Conan",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_391076.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391076.001/club-dorothee-programme-du-4-septembre-1996?rang=296"
           },
           {
             "time": "11:45",
@@ -31734,6 +31800,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Premiers baisers",
+              "raw": "Premiers baisers",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Parker Lewis ne perd jamais",
               "raw": "Parker Lewis ne perd jamais"
@@ -31742,11 +31814,6 @@
               "index": 2,
               "title": "La rubrique animalière du docteur Michel Klein",
               "raw": "La rubrique animalière du docteur Michel Klein"
-            },
-            {
-              "index": 3,
-              "title": "Premiers baisers",
-              "raw": "Premiers baisers"
             },
             {
               "index": 4,
@@ -31758,7 +31825,9 @@
               "title": "Le jeu",
               "raw": "Le jeu"
             }
-          ]
+          ],
+          "ina_notice": "TV_391078.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391078.001/club-dorothee-programme-du-5-septembre-1996?rang=312"
         },
         {
           "time": "17:35",
@@ -33621,6 +33690,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Premiers baisers",
+                "raw": "Premiers baisers",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Parker Lewis ne perd jamais",
                 "raw": "Parker Lewis ne perd jamais"
@@ -33629,11 +33704,6 @@
                 "index": 2,
                 "title": "La rubrique animalière du docteur Michel Klein",
                 "raw": "La rubrique animalière du docteur Michel Klein"
-              },
-              {
-                "index": 3,
-                "title": "Premiers baisers",
-                "raw": "Premiers baisers"
               },
               {
                 "index": 4,
@@ -33645,7 +33715,9 @@
                 "title": "Le jeu",
                 "raw": "Le jeu"
               }
-            ]
+            ],
+            "ina_notice": "TV_391078.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391078.001/club-dorothee-programme-du-5-septembre-1996?rang=312"
           },
           {
             "time": "17:35",
@@ -38498,6 +38570,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Premiers baisers",
+              "raw": "Premiers baisers",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Parker Lewis ne perd jamais",
               "raw": "Parker Lewis ne perd jamais"
@@ -38506,11 +38584,6 @@
               "index": 2,
               "title": "La rubrique animalière du docteur Michel Klein",
               "raw": "La rubrique animalière du docteur Michel Klein"
-            },
-            {
-              "index": 3,
-              "title": "Premiers baisers",
-              "raw": "Premiers baisers"
             },
             {
               "index": 4,
@@ -38522,7 +38595,9 @@
               "title": "LE JEU",
               "raw": "LE JEU"
             }
-          ]
+          ],
+          "ina_notice": "TV_391233.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391233.001/club-dorothee-programme-du-6-septembre-1996?rang=297"
         },
         {
           "time": "17:35",
@@ -40400,6 +40475,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Premiers baisers",
+                "raw": "Premiers baisers",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Parker Lewis ne perd jamais",
                 "raw": "Parker Lewis ne perd jamais"
@@ -40408,11 +40489,6 @@
                 "index": 2,
                 "title": "La rubrique animalière du docteur Michel Klein",
                 "raw": "La rubrique animalière du docteur Michel Klein"
-              },
-              {
-                "index": 3,
-                "title": "Premiers baisers",
-                "raw": "Premiers baisers"
               },
               {
                 "index": 4,
@@ -40424,7 +40500,9 @@
                 "title": "LE JEU",
                 "raw": "LE JEU"
               }
-            ]
+            ],
+            "ina_notice": "TV_391233.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_391233.001/club-dorothee-programme-du-6-septembre-1996?rang=297"
           },
           {
             "time": "17:35",
@@ -44890,7 +44968,28 @@
           "description_lines": [
             "Avec Dorothée, Jacky, Patrick, Corbier et Ariane"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sophie et Virginie",
+              "raw": "Sophie et Virginie",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Bisounours",
+              "raw": "Les Bisounours",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mask",
+              "raw": "Mask",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_394727.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_394727.001/club-dorothee-programme-du-7-septembre-1996?rang=317"
         },
         {
           "time": "08:30",
@@ -46546,7 +46645,28 @@
             "description_lines": [
               "Avec Dorothée, Jacky, Patrick, Corbier et Ariane"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sophie et Virginie",
+                "raw": "Sophie et Virginie",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Bisounours",
+                "raw": "Les Bisounours",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mask",
+                "raw": "Mask",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_394727.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_394727.001/club-dorothee-programme-du-7-septembre-1996?rang=317"
           },
           {
             "time": "08:30",
@@ -90973,6 +91093,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Salut les Musclés : une main innocente",
+              "raw": "Salut les Musclés : une main innocente",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Salut les musclés",
               "raw": "Salut les musclés"
@@ -90987,7 +91113,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_450533.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_450533.001/club-dorothee-programme-du-18-novembre-1996?rang=461"
         },
         {
           "time": "17:30",
@@ -92945,6 +93073,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Salut les Musclés : une main innocente",
+                "raw": "Salut les Musclés : une main innocente",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Salut les musclés",
                 "raw": "Salut les musclés"
@@ -92959,7 +93093,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_450533.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_450533.001/club-dorothee-programme-du-18-novembre-1996?rang=461"
           },
           {
             "time": "17:30",
@@ -98381,6 +98517,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Salut les Musclés : Mimi",
+              "raw": "Salut les Musclés : Mimi",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Salut les musclés",
               "raw": "Salut les musclés"
@@ -98395,7 +98537,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_451777.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_451777.001/club-dorothee-programme-du-19-novembre-1996?rang=460"
         },
         {
           "time": "17:35",
@@ -100435,6 +100579,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Salut les Musclés : Mimi",
+                "raw": "Salut les Musclés : Mimi",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Salut les musclés",
                 "raw": "Salut les musclés"
@@ -100449,7 +100599,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_451777.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_451777.001/club-dorothee-programme-du-19-novembre-1996?rang=460"
           },
           {
             "time": "17:35",
@@ -110922,24 +111074,33 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Sailormoon",
-              "raw": "Sailormoon"
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Dragon Ball Z",
-              "raw": "Dragon Ball Z"
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Power Rangers",
-              "raw": "Power Rangers"
+              "title": "La Croisière Foll'Amour",
+              "raw": "La Croisière Foll'Amour",
+              "source": "ina"
             },
             {
-              "index": 4,
-              "title": "La croisière Foll'amour",
-              "raw": "La croisière Foll'amour"
+              "index": 1,
+              "title": "Sailormoon",
+              "raw": "Sailormoon"
             },
             {
               "index": 5,
@@ -110951,7 +111112,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_315058.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_315058.001/club-dorothee-programme-du-22-mai-1996?rang=4"
         },
         {
           "time": "11:40",
@@ -111050,9 +111213,10 @@
           ],
           "segments": [
             {
-              "index": 1,
-              "title": "Les années fac",
-              "raw": "Les années fac"
+              "index": 0,
+              "title": "Les Années fac",
+              "raw": "Les Années fac",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -111064,7 +111228,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_315037.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_315037.001/club-dorothee-programme-du-22-mai-1996?rang=5"
         },
         {
           "time": "16:30",
@@ -112813,24 +112979,33 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Sailormoon",
-                "raw": "Sailormoon"
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Dragon Ball Z",
-                "raw": "Dragon Ball Z"
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Power Rangers",
-                "raw": "Power Rangers"
+                "title": "La Croisière Foll'Amour",
+                "raw": "La Croisière Foll'Amour",
+                "source": "ina"
               },
               {
-                "index": 4,
-                "title": "La croisière Foll'amour",
-                "raw": "La croisière Foll'amour"
+                "index": 1,
+                "title": "Sailormoon",
+                "raw": "Sailormoon"
               },
               {
                 "index": 5,
@@ -112842,7 +113017,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_315058.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_315058.001/club-dorothee-programme-du-22-mai-1996?rang=4"
           },
           {
             "time": "11:40",
@@ -112941,9 +113118,10 @@
             ],
             "segments": [
               {
-                "index": 1,
-                "title": "Les années fac",
-                "raw": "Les années fac"
+                "index": 0,
+                "title": "Les Années fac",
+                "raw": "Les Années fac",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -112955,7 +113133,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_315037.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_315037.001/club-dorothee-programme-du-22-mai-1996?rang=5"
           },
           {
             "time": "16:30",
@@ -121719,6 +121899,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Premiers baisers",
+              "raw": "Premiers baisers",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Premiers baisers - Le retour de Finlande",
               "raw": "Premiers baisers - Le retour de Finlande"
@@ -121733,7 +121919,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_404768.056",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_404768.056/club-dorothee-programme-du-24-septembre-1996?rang=320"
         },
         {
           "time": "17:35",
@@ -123376,6 +123564,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Premiers baisers",
+                "raw": "Premiers baisers",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Premiers baisers - Le retour de Finlande",
                 "raw": "Premiers baisers - Le retour de Finlande"
@@ -123390,7 +123584,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_404768.056",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_404768.056/club-dorothee-programme-du-24-septembre-1996?rang=320"
           },
           {
             "time": "17:35",
@@ -130093,11 +130289,14 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Premiers baisers",
-              "raw": "Premiers baisers"
+              "raw": "Premiers baisers",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "TV_404919.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_404919.001/club-dorothee-programme-du-26-septembre-1996?rang=474"
         },
         {
           "time": "17:35",
@@ -131663,11 +131862,14 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Premiers baisers",
-                "raw": "Premiers baisers"
+                "raw": "Premiers baisers",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "TV_404919.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_404919.001/club-dorothee-programme-du-26-septembre-1996?rang=474"
           },
           {
             "time": "17:35",

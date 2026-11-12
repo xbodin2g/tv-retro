@@ -7932,7 +7932,18 @@
             "Alice au pays des merveilles",
             "Les pastagums"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Les pastagums",
+              "raw": "Les pastagums"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -9387,7 +9398,18 @@
               "Alice au pays des merveilles",
               "Les pastagums"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Les pastagums",
+                "raw": "Les pastagums"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -10986,7 +11008,48 @@
             "Les histoires du père Castor",
             "Babar"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Twinckle",
+              "raw": "Twinckle"
+            },
+            {
+              "index": 1,
+              "title": "Les contes de la rue Broca",
+              "raw": "Les contes de la rue Broca"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Petit ours",
+              "raw": "Petit ours"
+            },
+            {
+              "index": 4,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 5,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            },
+            {
+              "index": 6,
+              "title": "Les histoires du père Castor",
+              "raw": "Les histoires du père Castor"
+            },
+            {
+              "index": 7,
+              "title": "Babar",
+              "raw": "Babar"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -12782,7 +12845,48 @@
               "Les histoires du père Castor",
               "Babar"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Twinckle",
+                "raw": "Twinckle"
+              },
+              {
+                "index": 1,
+                "title": "Les contes de la rue Broca",
+                "raw": "Les contes de la rue Broca"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Petit ours",
+                "raw": "Petit ours"
+              },
+              {
+                "index": 4,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 5,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              },
+              {
+                "index": 6,
+                "title": "Les histoires du père Castor",
+                "raw": "Les histoires du père Castor"
+              },
+              {
+                "index": 7,
+                "title": "Babar",
+                "raw": "Babar"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -24504,7 +24608,18 @@
             "Twinkie",
             "Les contes de la rue Broca"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Twinkie",
+              "raw": "Twinkie"
+            },
+            {
+              "index": 1,
+              "title": "Les contes de la rue Broca",
+              "raw": "Les contes de la rue Broca"
+            }
+          ]
         },
         {
           "time": "07:55",
@@ -26431,7 +26546,18 @@
               "Twinkie",
               "Les contes de la rue Broca"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Twinkie",
+                "raw": "Twinkie"
+              },
+              {
+                "index": 1,
+                "title": "Les contes de la rue Broca",
+                "raw": "Les contes de la rue Broca"
+              }
+            ]
           },
           {
             "time": "07:55",
@@ -28372,7 +28498,43 @@
             "Ma petite planète chérie",
             "Pingu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les moomins",
+              "raw": "Les moomins"
+            },
+            {
+              "index": 1,
+              "title": "Budgie le petit hélicoptère",
+              "raw": "Budgie le petit hélicoptère"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 4,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 5,
+              "title": "Ma petite planète chérie",
+              "raw": "Ma petite planète chérie"
+            },
+            {
+              "index": 6,
+              "title": "Pingu",
+              "raw": "Pingu"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -30237,7 +30399,43 @@
               "Ma petite planète chérie",
               "Pingu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les moomins",
+                "raw": "Les moomins"
+              },
+              {
+                "index": 1,
+                "title": "Budgie le petit hélicoptère",
+                "raw": "Budgie le petit hélicoptère"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 4,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 5,
+                "title": "Ma petite planète chérie",
+                "raw": "Ma petite planète chérie"
+              },
+              {
+                "index": 6,
+                "title": "Pingu",
+                "raw": "Pingu"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -45659,7 +45857,43 @@
             "Ma petite planète chérie",
             "Pingu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les moomins",
+              "raw": "Les moomins"
+            },
+            {
+              "index": 1,
+              "title": "Budgie le petit hélicoptère",
+              "raw": "Budgie le petit hélicoptère"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 4,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 5,
+              "title": "Ma petite planète chérie",
+              "raw": "Ma petite planète chérie"
+            },
+            {
+              "index": 6,
+              "title": "Pingu",
+              "raw": "Pingu"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -47515,7 +47749,43 @@
               "Ma petite planète chérie",
               "Pingu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les moomins",
+                "raw": "Les moomins"
+              },
+              {
+                "index": 1,
+                "title": "Budgie le petit hélicoptère",
+                "raw": "Budgie le petit hélicoptère"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 4,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 5,
+                "title": "Ma petite planète chérie",
+                "raw": "Ma petite planète chérie"
+              },
+              {
+                "index": 6,
+                "title": "Pingu",
+                "raw": "Pingu"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -52828,7 +53098,43 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 4,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 5,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 6,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:10",
@@ -54634,7 +54940,43 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 4,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 5,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 6,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:10",
@@ -56346,7 +56688,18 @@
             "Twinkle",
             "Les contes de la rue Broca"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Twinkle",
+              "raw": "Twinkle"
+            },
+            {
+              "index": 1,
+              "title": "Les contes de la rue Broca",
+              "raw": "Les contes de la rue Broca"
+            }
+          ]
         },
         {
           "time": "07:50",
@@ -57878,7 +58231,18 @@
               "Twinkle",
               "Les contes de la rue Broca"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Twinkle",
+                "raw": "Twinkle"
+              },
+              {
+                "index": 1,
+                "title": "Les contes de la rue Broca",
+                "raw": "Les contes de la rue Broca"
+              }
+            ]
           },
           {
             "time": "07:50",
@@ -59506,7 +59870,18 @@
             "Alice au pays des merveilles",
             "Coup de bleu dans les étoiles"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -61390,7 +61765,18 @@
               "Alice au pays des merveilles",
               "Coup de bleu dans les étoiles"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -63326,7 +63712,18 @@
             "Les moomins",
             "Les Bonhommes"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les moomins",
+              "raw": "Les moomins"
+            },
+            {
+              "index": 1,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            }
+          ]
         },
         {
           "time": "07:20",
@@ -65130,7 +65527,18 @@
               "Les moomins",
               "Les Bonhommes"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les moomins",
+                "raw": "Les moomins"
+              },
+              {
+                "index": 1,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              }
+            ]
           },
           {
             "time": "07:20",
@@ -66949,7 +67357,43 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 4,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 5,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 6,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:10",
@@ -68777,7 +69221,43 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 4,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 5,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 6,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:10",
@@ -76932,7 +77412,43 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 4,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 5,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 6,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:10",
@@ -78699,7 +79215,43 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 4,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 5,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 6,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:10",
@@ -91894,7 +92446,43 @@
             "Ma petite planète chérie",
             "Pingu"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les moomins",
+              "raw": "Les moomins"
+            },
+            {
+              "index": 1,
+              "title": "Budgie le petit hélicoptère",
+              "raw": "Budgie le petit hélicoptère"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 4,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 5,
+              "title": "Ma petite planète chérie",
+              "raw": "Ma petite planète chérie"
+            },
+            {
+              "index": 6,
+              "title": "Pingu",
+              "raw": "Pingu"
+            }
+          ]
         },
         {
           "time": "08:35",
@@ -93744,7 +94332,43 @@
               "Ma petite planète chérie",
               "Pingu"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les moomins",
+                "raw": "Les moomins"
+              },
+              {
+                "index": 1,
+                "title": "Budgie le petit hélicoptère",
+                "raw": "Budgie le petit hélicoptère"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 4,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 5,
+                "title": "Ma petite planète chérie",
+                "raw": "Ma petite planète chérie"
+              },
+              {
+                "index": 6,
+                "title": "Pingu",
+                "raw": "Pingu"
+              }
+            ]
           },
           {
             "time": "08:35",
@@ -108655,7 +109279,43 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Les pastagums",
+              "raw": "Les pastagums"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 4,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 5,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 6,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:10",
@@ -110509,7 +111169,43 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Les pastagums",
+                "raw": "Les pastagums"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 4,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 5,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 6,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:10",
@@ -112399,7 +113095,18 @@
             "Alice au pays des merveilles",
             "Les pastagums"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Alice au pays des merveilles",
+              "raw": "Alice au pays des merveilles"
+            },
+            {
+              "index": 1,
+              "title": "Les pastagums",
+              "raw": "Les pastagums"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -114343,7 +115050,18 @@
               "Alice au pays des merveilles",
               "Les pastagums"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Alice au pays des merveilles",
+                "raw": "Alice au pays des merveilles"
+              },
+              {
+                "index": 1,
+                "title": "Les pastagums",
+                "raw": "Les pastagums"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -116142,7 +116860,38 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "ALICE AUX PAYS DES MERVEILLES",
+              "raw": "ALICE AUX PAYS DES MERVEILLES"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Petit ours",
+              "raw": "Petit ours"
+            },
+            {
+              "index": 4,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 5,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -117773,7 +118522,38 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "ALICE AUX PAYS DES MERVEILLES",
+                "raw": "ALICE AUX PAYS DES MERVEILLES"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Petit ours",
+                "raw": "Petit ours"
+              },
+              {
+                "index": 4,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 5,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -123312,7 +124092,38 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "ALICE AUX PAYS DES MERVEILLES",
+              "raw": "ALICE AUX PAYS DES MERVEILLES"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Petit ours",
+              "raw": "Petit ours"
+            },
+            {
+              "index": 4,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 5,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:30",
@@ -124954,7 +125765,38 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "ALICE AUX PAYS DES MERVEILLES",
+                "raw": "ALICE AUX PAYS DES MERVEILLES"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Petit ours",
+                "raw": "Petit ours"
+              },
+              {
+                "index": 4,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 5,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:30",
@@ -130545,7 +131387,38 @@
             "Les belles histoires de Pomme d'Api",
             "Les histoires du père Castor"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Petite souris dans la prairie",
+              "raw": "Petite souris dans la prairie"
+            },
+            {
+              "index": 1,
+              "title": "Capitaine Z et la patrouille des rêves",
+              "raw": "Capitaine Z et la patrouille des rêves"
+            },
+            {
+              "index": 2,
+              "title": "Les Bonhommes",
+              "raw": "Les Bonhommes"
+            },
+            {
+              "index": 3,
+              "title": "Léo et Popi",
+              "raw": "Léo et Popi"
+            },
+            {
+              "index": 4,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            },
+            {
+              "index": 5,
+              "title": "Les histoires du père Castor",
+              "raw": "Les histoires du père Castor"
+            }
+          ]
         },
         {
           "time": "08:30",
@@ -132475,7 +133348,38 @@
               "Les belles histoires de Pomme d'Api",
               "Les histoires du père Castor"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Petite souris dans la prairie",
+                "raw": "Petite souris dans la prairie"
+              },
+              {
+                "index": 1,
+                "title": "Capitaine Z et la patrouille des rêves",
+                "raw": "Capitaine Z et la patrouille des rêves"
+              },
+              {
+                "index": 2,
+                "title": "Les Bonhommes",
+                "raw": "Les Bonhommes"
+              },
+              {
+                "index": 3,
+                "title": "Léo et Popi",
+                "raw": "Léo et Popi"
+              },
+              {
+                "index": 4,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              },
+              {
+                "index": 5,
+                "title": "Les histoires du père Castor",
+                "raw": "Les histoires du père Castor"
+              }
+            ]
           },
           {
             "time": "08:30",
@@ -134319,7 +135223,18 @@
             "ALICE AUX PAYS DES MERVEILLES",
             "Coup de bleu dans les étoiles"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "ALICE AUX PAYS DES MERVEILLES",
+              "raw": "ALICE AUX PAYS DES MERVEILLES"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            }
+          ]
         },
         {
           "time": "08:00",
@@ -136080,7 +136995,18 @@
               "ALICE AUX PAYS DES MERVEILLES",
               "Coup de bleu dans les étoiles"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "ALICE AUX PAYS DES MERVEILLES",
+                "raw": "ALICE AUX PAYS DES MERVEILLES"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              }
+            ]
           },
           {
             "time": "08:00",
@@ -137830,7 +138756,38 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "ALICE AUX PAYS DES MERVEILLES",
+              "raw": "ALICE AUX PAYS DES MERVEILLES"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Petit ours",
+              "raw": "Petit ours"
+            },
+            {
+              "index": 4,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 5,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -139527,7 +140484,38 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "ALICE AUX PAYS DES MERVEILLES",
+                "raw": "ALICE AUX PAYS DES MERVEILLES"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Petit ours",
+                "raw": "Petit ours"
+              },
+              {
+                "index": 4,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 5,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:40",
@@ -144120,7 +145108,38 @@
             "Pingu",
             "Les belles histoires de Pomme d'Api"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "ALICE AUX PAYS DES MERVEILLES",
+              "raw": "ALICE AUX PAYS DES MERVEILLES"
+            },
+            {
+              "index": 1,
+              "title": "Coup de bleu dans les étoiles",
+              "raw": "Coup de bleu dans les étoiles"
+            },
+            {
+              "index": 2,
+              "title": "Oui-Oui",
+              "raw": "Oui-Oui"
+            },
+            {
+              "index": 3,
+              "title": "Petit ours",
+              "raw": "Petit ours"
+            },
+            {
+              "index": 4,
+              "title": "Pingu",
+              "raw": "Pingu"
+            },
+            {
+              "index": 5,
+              "title": "Les belles histoires de Pomme d'Api",
+              "raw": "Les belles histoires de Pomme d'Api"
+            }
+          ]
         },
         {
           "time": "08:40",
@@ -145778,7 +146797,38 @@
               "Pingu",
               "Les belles histoires de Pomme d'Api"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "ALICE AUX PAYS DES MERVEILLES",
+                "raw": "ALICE AUX PAYS DES MERVEILLES"
+              },
+              {
+                "index": 1,
+                "title": "Coup de bleu dans les étoiles",
+                "raw": "Coup de bleu dans les étoiles"
+              },
+              {
+                "index": 2,
+                "title": "Oui-Oui",
+                "raw": "Oui-Oui"
+              },
+              {
+                "index": 3,
+                "title": "Petit ours",
+                "raw": "Petit ours"
+              },
+              {
+                "index": 4,
+                "title": "Pingu",
+                "raw": "Pingu"
+              },
+              {
+                "index": 5,
+                "title": "Les belles histoires de Pomme d'Api",
+                "raw": "Les belles histoires de Pomme d'Api"
+              }
+            ]
           },
           {
             "time": "08:40",
