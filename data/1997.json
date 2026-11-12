@@ -121,26 +121,38 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Les filles d'à côté",
-              "raw": "Les filles d'à côté"
+              "raw": "Les filles d'à côté",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Les années fac",
-              "raw": "Les années fac"
+              "title": "Les Années fac",
+              "raw": "Les Années fac",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Les vacances de l'amour",
-              "raw": "Les vacances de l'amour"
+              "raw": "Les vacances de l'amour",
+              "source": "ina"
             },
             {
               "index": 4,
-              "title": "La croisière Foll'amour",
-              "raw": "La croisière Foll'amour"
+              "title": "La Croisière Foll'Amour",
+              "raw": "La Croisière Foll'Amour",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "TV_483655.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_483655.001/club-dorothee-noel-programme-du-1-janvier-1997?rang=92"
         },
         {
           "time": "11:45",
@@ -2001,26 +2013,38 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Les filles d'à côté",
-                "raw": "Les filles d'à côté"
+                "raw": "Les filles d'à côté",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Les années fac",
-                "raw": "Les années fac"
+                "title": "Les Années fac",
+                "raw": "Les Années fac",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Les vacances de l'amour",
-                "raw": "Les vacances de l'amour"
+                "raw": "Les vacances de l'amour",
+                "source": "ina"
               },
               {
                 "index": 4,
-                "title": "La croisière Foll'amour",
-                "raw": "La croisière Foll'amour"
+                "title": "La Croisière Foll'Amour",
+                "raw": "La Croisière Foll'Amour",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "TV_483655.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_483655.001/club-dorothee-noel-programme-du-1-janvier-1997?rang=92"
           },
           {
             "time": "11:45",
@@ -3850,21 +3874,37 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les Popples",
-              "raw": "Les Popples"
+              "title": "Les popples",
+              "raw": "Les popples",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Le rêve de Jeanie",
+              "raw": "Le rêve de Jeanie",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les Minipouss",
+              "raw": "Les Minipouss",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Le reve de Jeannie",
               "raw": "Le reve de Jeannie"
-            },
-            {
-              "index": 3,
-              "title": "Les Minipouss",
-              "raw": "Les Minipouss"
             }
-          ]
+          ],
+          "ina_notice": "TV_530575.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_530575.001/club-dorothee-programme-du-1-mars-1997?rang=4"
         },
         {
           "time": "08:30",
@@ -5591,21 +5631,37 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les Popples",
-                "raw": "Les Popples"
+                "title": "Les popples",
+                "raw": "Les popples",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Le rêve de Jeanie",
+                "raw": "Le rêve de Jeanie",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les Minipouss",
+                "raw": "Les Minipouss",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Le reve de Jeannie",
                 "raw": "Le reve de Jeannie"
-              },
-              {
-                "index": 3,
-                "title": "Les Minipouss",
-                "raw": "Les Minipouss"
               }
-            ]
+            ],
+            "ina_notice": "TV_530575.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_530575.001/club-dorothee-programme-du-1-mars-1997?rang=4"
           },
           {
             "time": "08:30",
@@ -20589,7 +20645,52 @@
           "description_lines": [
             "avec Dorothée, Ariane, Jacky et Eric Gaillano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Juliette",
+              "raw": "Juliette",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_556673.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_556673.001/club-dorothee-vacances-programme-du-7-avril-1997?rang=75"
         },
         {
           "time": "11:10",
@@ -22254,7 +22355,52 @@
             "description_lines": [
               "avec Dorothée, Ariane, Jacky et Eric Gaillano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Juliette",
+                "raw": "Juliette",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_556673.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_556673.001/club-dorothee-vacances-programme-du-7-avril-1997?rang=75"
           },
           {
             "time": "11:10",
@@ -23926,6 +24072,30 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les filles d'à côté",
+              "raw": "Les filles d'à côté",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les aznnées Fac",
+              "raw": "Les aznnées Fac",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les vacances de l'amour",
+              "raw": "Les vacances de l'amour",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Inspecteur Gadget",
               "raw": "Inspecteur Gadget"
@@ -23955,7 +24125,9 @@
               "title": "Le clip",
               "raw": "Le clip"
             }
-          ]
+          ],
+          "ina_notice": "TV_484993.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_484993.001/club-dorothee-programme-du-8-janvier-1997?rang=28"
         },
         {
           "time": "11:35",
@@ -25860,6 +26032,30 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les filles d'à côté",
+                "raw": "Les filles d'à côté",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les aznnées Fac",
+                "raw": "Les aznnées Fac",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les vacances de l'amour",
+                "raw": "Les vacances de l'amour",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Inspecteur Gadget",
                 "raw": "Inspecteur Gadget"
@@ -25889,7 +26085,9 @@
                 "title": "Le clip",
                 "raw": "Le clip"
               }
-            ]
+            ],
+            "ina_notice": "TV_484993.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_484993.001/club-dorothee-programme-du-8-janvier-1997?rang=28"
           },
           {
             "time": "11:35",
@@ -27817,7 +28015,52 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Juliette",
+              "raw": "Juliette",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_557060.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_557060.001/club-dorothee-vacances-programme-du-8-avril-1997?rang=76"
         },
         {
           "time": "11:10",
@@ -29714,7 +29957,52 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Juliette",
+                "raw": "Juliette",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_557060.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_557060.001/club-dorothee-vacances-programme-du-8-avril-1997?rang=76"
           },
           {
             "time": "11:10",
@@ -35158,7 +35446,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_556813.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_556813.001/club-dorothee-vacances-programme-du-9-avril-1997?rang=77"
         },
         {
           "time": "11:10",
@@ -36639,7 +36966,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_556813.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_556813.001/club-dorothee-vacances-programme-du-9-avril-1997?rang=77"
           },
           {
             "time": "11:10",
@@ -41755,7 +42121,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_515324.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515324.001/club-dorothee-vacances-programme-du-10-fevrier-1997?rang=83"
         },
         {
           "time": "11:10",
@@ -43453,7 +43858,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_515324.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515324.001/club-dorothee-vacances-programme-du-10-fevrier-1997?rang=83"
           },
           {
             "time": "11:10",
@@ -45166,7 +45610,52 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Juliette je t'aime",
+              "raw": "Juliette je t'aime",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Nicky Larson",
+              "raw": "Nicky Larson",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_557077.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_557077.001/club-dorothee-vacances-programme-du-10-avril-1997?rang=78"
         },
         {
           "time": "11:10",
@@ -47054,7 +47543,52 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Juliette je t'aime",
+                "raw": "Juliette je t'aime",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Nicky Larson",
+                "raw": "Nicky Larson",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_557077.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_557077.001/club-dorothee-vacances-programme-du-10-avril-1997?rang=78"
           },
           {
             "time": "11:10",
@@ -48941,6 +49475,30 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Le miel et les abeilles",
+              "raw": "Le miel et les abeilles",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La philo selon Philippe",
+              "raw": "La philo selon Philippe",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les filles d'à côté",
+              "raw": "Les filles d'à côté",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Sophie et Virginie",
               "raw": "Sophie et Virginie"
@@ -48965,7 +49523,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_496614.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_496614.001/club-dorothee-programme-du-11-janvier-1997?rang=7"
         },
         {
           "time": "08:30",
@@ -50655,6 +51215,30 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Le miel et les abeilles",
+                "raw": "Le miel et les abeilles",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La philo selon Philippe",
+                "raw": "La philo selon Philippe",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les filles d'à côté",
+                "raw": "Les filles d'à côté",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Sophie et Virginie",
                 "raw": "Sophie et Virginie"
@@ -50679,7 +51263,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_496614.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_496614.001/club-dorothee-programme-du-11-janvier-1997?rang=7"
           },
           {
             "time": "08:30",
@@ -52418,7 +53004,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_515328.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515328.001/club-dorothee-vacances-programme-du-11-fevrier-1997?rang=84"
         },
         {
           "time": "11:10",
@@ -54256,7 +54881,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_515328.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515328.001/club-dorothee-vacances-programme-du-11-fevrier-1997?rang=84"
           },
           {
             "time": "11:10",
@@ -59187,7 +59851,40 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_514976.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_514976.001/club-dorothee-programme-du-12-fevrier-1997?rang=10"
         },
         {
           "time": "11:35",
@@ -61078,7 +61775,40 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_514976.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_514976.001/club-dorothee-programme-du-12-fevrier-1997?rang=10"
           },
           {
             "time": "11:35",
@@ -62971,21 +63701,37 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Les Popples",
-              "raw": "Les Popples"
+              "raw": "Les Popples",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Le rêve de Jeanie",
+              "raw": "Le rêve de Jeanie",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Conan l'aventurier",
+              "raw": "Conan l'aventurier",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Le reve de Jeannie",
               "raw": "Le reve de Jeannie"
-            },
-            {
-              "index": 3,
-              "title": "Conan l'aventurier",
-              "raw": "Conan l'aventurier"
             }
-          ]
+          ],
+          "ina_notice": "TV_560576.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_560576.001/club-dorothee-programme-du-12-avril-1997?rang=22"
         },
         {
           "time": "08:30",
@@ -64782,21 +65528,37 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Les Popples",
-                "raw": "Les Popples"
+                "raw": "Les Popples",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Le rêve de Jeanie",
+                "raw": "Le rêve de Jeanie",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Conan l'aventurier",
+                "raw": "Conan l'aventurier",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Le reve de Jeannie",
                 "raw": "Le reve de Jeannie"
-              },
-              {
-                "index": 3,
-                "title": "Conan l'aventurier",
-                "raw": "Conan l'aventurier"
               }
-            ]
+            ],
+            "ina_notice": "TV_560576.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_560576.001/club-dorothee-programme-du-12-avril-1997?rang=22"
           },
           {
             "time": "08:30",
@@ -66626,7 +67388,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champion de foot",
+              "raw": "Olive et Tom champion de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_515494.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515494.001/club-dorothee-vacances-programme-du-13-fevrier-1997?rang=85"
         },
         {
           "time": "11:10",
@@ -68486,7 +69287,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champion de foot",
+                "raw": "Olive et Tom champion de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_515494.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515494.001/club-dorothee-vacances-programme-du-13-fevrier-1997?rang=85"
           },
           {
             "time": "11:10",
@@ -76739,7 +77579,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_515496.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515496.001/club-dorothee-vacances-programme-du-14-fevrier-1997?rang=69"
         },
         {
           "time": "11:10",
@@ -78538,7 +79417,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Eric Galliano"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_515496.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_515496.001/club-dorothee-vacances-programme-du-14-fevrier-1997?rang=69"
           },
           {
             "time": "11:10",
@@ -85857,7 +86775,52 @@
           "title": "CLUB DOROTHÉE VACANCES",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Juliette je t'aime",
+              "raw": "Juliette je t'aime",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_561437.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_561437.001/club-dorothee-vacances-programme-du-17-avril-1997?rang=88"
         },
         {
           "time": "11:10",
@@ -87255,7 +88218,52 @@
             "title": "CLUB DOROTHÉE VACANCES",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Juliette je t'aime",
+                "raw": "Juliette je t'aime",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_561437.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_561437.001/club-dorothee-vacances-programme-du-17-avril-1997?rang=88"
           },
           {
             "time": "11:10",
@@ -91708,19 +92716,51 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Terre, attention danger",
-              "raw": "Terre, attention danger"
+              "title": "Terre attention danger",
+              "raw": "Terre attention danger",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Club sciences",
+              "raw": "Club sciences",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Inspecteur Gadget",
+              "raw": "Inspecteur Gadget",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Sailor Moon",
+              "raw": "Sailor Moon",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Juliette je t'aime",
+              "raw": "Juliette je t'aime",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Nick Larson",
+              "raw": "Nick Larson",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Club Science",
               "raw": "Club Science"
-            },
-            {
-              "index": 3,
-              "title": "Inspecteur Gadget",
-              "raw": "Inspecteur Gadget"
             },
             {
               "index": 4,
@@ -91737,7 +92777,9 @@
               "title": "Le clip",
               "raw": "Le clip"
             }
-          ]
+          ],
+          "ina_notice": "TV_565115.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_565115.001/club-dorothee-vacances-programme-du-21-avril-1997?rang=80"
         },
         {
           "time": "11:10",
@@ -93590,19 +94632,51 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Terre, attention danger",
-                "raw": "Terre, attention danger"
+                "title": "Terre attention danger",
+                "raw": "Terre attention danger",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Club sciences",
+                "raw": "Club sciences",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Inspecteur Gadget",
+                "raw": "Inspecteur Gadget",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Sailor Moon",
+                "raw": "Sailor Moon",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Juliette je t'aime",
+                "raw": "Juliette je t'aime",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Nick Larson",
+                "raw": "Nick Larson",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Club Science",
                 "raw": "Club Science"
-              },
-              {
-                "index": 3,
-                "title": "Inspecteur Gadget",
-                "raw": "Inspecteur Gadget"
               },
               {
                 "index": 4,
@@ -93619,7 +94693,9 @@
                 "title": "Le clip",
                 "raw": "Le clip"
               }
-            ]
+            ],
+            "ina_notice": "TV_565115.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_565115.001/club-dorothee-vacances-programme-du-21-avril-1997?rang=80"
           },
           {
             "time": "11:10",
@@ -98469,24 +99545,45 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les misérables",
-              "raw": "Les misérables"
+              "title": "Les Misérables",
+              "raw": "Les Misérables",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Nadia",
-              "raw": "Nadia"
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Olive et Tom",
               "raw": "Olive et Tom"
-            },
-            {
-              "index": 4,
-              "title": "Robocop",
-              "raw": "Robocop"
             },
             {
               "index": 5,
@@ -98503,7 +99600,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_536699.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_536699.001/club-dorothee-vacances-programme-du-24-fevrier-1997?rang=66"
         },
         {
           "time": "11:10",
@@ -100285,24 +101384,45 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les misérables",
-                "raw": "Les misérables"
+                "title": "Les Misérables",
+                "raw": "Les Misérables",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Nadia",
-                "raw": "Nadia"
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Olive et Tom",
                 "raw": "Olive et Tom"
-              },
-              {
-                "index": 4,
-                "title": "Robocop",
-                "raw": "Robocop"
               },
               {
                 "index": 5,
@@ -100319,7 +101439,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_536699.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_536699.001/club-dorothee-vacances-programme-du-24-fevrier-1997?rang=66"
           },
           {
             "time": "11:10",
@@ -108566,24 +109688,45 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les misérables",
-              "raw": "Les misérables"
+              "title": "Les Misérables",
+              "raw": "Les Misérables",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Nadia",
-              "raw": "Nadia"
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Olive et Tom",
               "raw": "Olive et Tom"
-            },
-            {
-              "index": 4,
-              "title": "Robocop",
-              "raw": "Robocop"
             },
             {
               "index": 5,
@@ -108600,7 +109743,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_538002.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_538002.001/club-dorothee-vacances-programme-du-25-fevrier-1997?rang=67"
         },
         {
           "time": "11:10",
@@ -110452,24 +111597,45 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les misérables",
-                "raw": "Les misérables"
+                "title": "Les Misérables",
+                "raw": "Les Misérables",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Nadia",
-                "raw": "Nadia"
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Olive et Tom",
                 "raw": "Olive et Tom"
-              },
-              {
-                "index": 4,
-                "title": "Robocop",
-                "raw": "Robocop"
               },
               {
                 "index": 5,
@@ -110486,7 +111652,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_538002.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_538002.001/club-dorothee-vacances-programme-du-25-fevrier-1997?rang=67"
           },
           {
             "time": "11:10",
@@ -112340,14 +113508,33 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les misérables",
-              "raw": "Les misérables"
+              "title": "Nadia",
+              "raw": "Nadia",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Nadia",
-              "raw": "Nadia"
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les misérables",
+              "raw": "Les misérables"
             },
             {
               "index": 3,
@@ -112374,7 +113561,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_525372.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_525372.001/club-dorothee-programme-du-26-fevrier-1997?rang=11"
         },
         {
           "time": "11:35",
@@ -114291,14 +115480,33 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les misérables",
-                "raw": "Les misérables"
+                "title": "Nadia",
+                "raw": "Nadia",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Nadia",
-                "raw": "Nadia"
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les misérables",
+                "raw": "Les misérables"
               },
               {
                 "index": 3,
@@ -114325,7 +115533,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_525372.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_525372.001/club-dorothee-programme-du-26-fevrier-1997?rang=11"
           },
           {
             "time": "11:35",
@@ -119615,7 +120825,46 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane et Jacky"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Lucile amour et rock'n'roll",
+              "raw": "Lucile amour et rock'n'roll",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Max et compagnie",
+              "raw": "Max et compagnie",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les Chevaliers du Zodiaque",
+              "raw": "Les Chevaliers du Zodiaque",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "L'école des champions",
+              "raw": "L'école des champions",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les animaux disparus du 20ème siècle",
+              "raw": "Les animaux disparus du 20ème siècle",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "TV_614092.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_614092.001/club-dorothee-vacances-programme-du-27-juin-1997?rang=129"
         },
         {
           "time": "11:00",
@@ -121576,7 +122825,46 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane et Jacky"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Lucile amour et rock'n'roll",
+                "raw": "Lucile amour et rock'n'roll",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Max et compagnie",
+                "raw": "Max et compagnie",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les Chevaliers du Zodiaque",
+                "raw": "Les Chevaliers du Zodiaque",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "L'école des champions",
+                "raw": "L'école des champions",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les animaux disparus du 20ème siècle",
+                "raw": "Les animaux disparus du 20ème siècle",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "TV_614092.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_614092.001/club-dorothee-vacances-programme-du-27-juin-1997?rang=129"
           },
           {
             "time": "11:00",
@@ -126891,24 +128179,45 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les misérables",
-              "raw": "Les misérables"
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Nadia",
-              "raw": "Nadia"
+              "raw": "Nadia",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Olive et Tom champions de foot",
+              "raw": "Olive et Tom champions de foot",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robocop",
+              "raw": "Robocop",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les Misérables",
+              "raw": "Les Misérables",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Olive et Tom",
               "raw": "Olive et Tom"
-            },
-            {
-              "index": 4,
-              "title": "Robocop",
-              "raw": "Robocop"
             },
             {
               "index": 5,
@@ -126925,7 +128234,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_541093.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_541093.001/club-dorothee-vacances-programme-du-28-fevrier-1997?rang=72"
         },
         {
           "time": "11:10",
@@ -128773,24 +130084,45 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les misérables",
-                "raw": "Les misérables"
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Nadia",
-                "raw": "Nadia"
+                "raw": "Nadia",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Olive et Tom champions de foot",
+                "raw": "Olive et Tom champions de foot",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robocop",
+                "raw": "Robocop",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les Misérables",
+                "raw": "Les Misérables",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Olive et Tom",
                 "raw": "Olive et Tom"
-              },
-              {
-                "index": 4,
-                "title": "Robocop",
-                "raw": "Robocop"
               },
               {
                 "index": 5,
@@ -128807,7 +130139,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_541093.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_541093.001/club-dorothee-vacances-programme-du-28-fevrier-1997?rang=72"
           },
           {
             "time": "11:10",
@@ -134581,6 +135915,42 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les années Fac : un rendez vous d'affaire",
+              "raw": "Les années Fac : un rendez vous d'affaire",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les vacances de l'amour : le menteur",
+              "raw": "Les vacances de l'amour : le menteur",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Dragon Ball Z",
+              "raw": "Dragon Ball Z",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Power Rangers",
+              "raw": "Power Rangers",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "La Croisière Foll'Amour",
+              "raw": "La Croisière Foll'Amour",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Les filles d'à côté",
               "raw": "Les filles d'à côté"
@@ -134605,7 +135975,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "TV_508447.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_508447.001/club-dorothee-programme-du-29-janvier-1997?rang=9"
         },
         {
           "time": "11:10",
@@ -136349,6 +137721,42 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les années Fac : un rendez vous d'affaire",
+                "raw": "Les années Fac : un rendez vous d'affaire",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les vacances de l'amour : le menteur",
+                "raw": "Les vacances de l'amour : le menteur",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Dragon Ball Z",
+                "raw": "Dragon Ball Z",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Power Rangers",
+                "raw": "Power Rangers",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "La Croisière Foll'Amour",
+                "raw": "La Croisière Foll'Amour",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Les filles d'à côté",
                 "raw": "Les filles d'à côté"
@@ -136373,7 +137781,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "TV_508447.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_508447.001/club-dorothee-programme-du-29-janvier-1997?rang=9"
           },
           {
             "time": "11:10",
@@ -141580,10 +142990,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "[Plateau",
+              "raw": "[Plateau",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Pas de pitié pour les croissants",
+              "raw": "Pas de pitié pour les croissants",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Le programme jeunesse de Dorothée",
               "raw": "Le programme jeunesse de Dorothée"
             }
-          ]
+          ],
+          "ina_notice": "TV_657682.001",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_657682.001/club-dorothee-programme-du-30-aout-1997?rang=63"
         },
         {
           "time": "08:28",
@@ -143048,10 +144472,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "[Plateau",
+                "raw": "[Plateau",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Pas de pitié pour les croissants",
+                "raw": "Pas de pitié pour les croissants",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Le programme jeunesse de Dorothée",
                 "raw": "Le programme jeunesse de Dorothée"
               }
-            ]
+            ],
+            "ina_notice": "TV_657682.001",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_657682.001/club-dorothee-programme-du-30-aout-1997?rang=63"
           },
           {
             "time": "08:28",
