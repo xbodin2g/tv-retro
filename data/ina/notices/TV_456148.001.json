@@ -2,7 +2,7 @@
   "notice_id": "TV_456148.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_456148.001/club-dorothee-programme-du-26-novembre-1996?rang=112",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:40:43.156409",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les Musclés : HTB cherche JF jolie"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.564954"
 }

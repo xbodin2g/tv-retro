@@ -2,7 +2,7 @@
   "notice_id": "TV_483543.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_483543.001/club-dorothee-noel-programme-du-31-decembre-1996?rang=327",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:42:42.136391",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -42,5 +42,6 @@
     "Nick Larson",
     "Power Rangers",
     "La croisière foll amour : la mega baffe"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.586673"
 }

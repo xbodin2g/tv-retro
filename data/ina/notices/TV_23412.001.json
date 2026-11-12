@@ -2,7 +2,7 @@
   "notice_id": "TV_23412.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_23412.001/club-dorothee-programme-du-20-fevrier-1995?rang=167",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:15:44.870886",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "[Plateau",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.392522"
 }

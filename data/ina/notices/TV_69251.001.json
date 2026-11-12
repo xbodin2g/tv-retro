@@ -2,7 +2,7 @@
   "notice_id": "TV_69251.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_69251.001/club-dorothee-programme-du-31-mai-1995?rang=215",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:26:16.615670",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.690473"
 }

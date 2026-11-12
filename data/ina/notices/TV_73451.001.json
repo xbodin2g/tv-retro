@@ -2,7 +2,7 @@
   "notice_id": "TV_73451.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_73451.001/club-dorothee-programme-du-10-juin-1995?rang=219",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:27:02.042115",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -32,5 +32,6 @@
     "Défi virtuel",
     "Jacky show",
     "Avant première"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.695479"
 }

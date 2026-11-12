@@ -2,7 +2,7 @@
   "notice_id": "TV_108148.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_108148.001/club-dorothee-vacances-programme-du-16-aout-1995?rang=418",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:32:41.783338",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Le collège des coeurs brisés",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.292746"
 }

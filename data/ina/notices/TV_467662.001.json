@@ -2,7 +2,7 @@
   "notice_id": "TV_467662.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_467662.001/club-dorothee-programme-du-10-decembre-1996?rang=119",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:41:29.867823",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les Musclés : le retour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.571665"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_168436.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_168436.001/club-dorothee-programme-du-13-novembre-1995?rang=66",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:46:10.671997",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,5 +21,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : je veux grandir"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.348048"
 }

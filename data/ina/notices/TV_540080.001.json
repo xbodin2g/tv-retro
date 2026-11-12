@@ -2,7 +2,7 @@
   "notice_id": "TV_540080.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_540080.001/club-dorothee-vacances-programme-du-27-fevrier-1997?rang=68",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:31:14.220876",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -35,5 +35,6 @@
     "Olive et Tom champions de foot",
     "Robocop",
     "Les Misérables"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.612096"
 }

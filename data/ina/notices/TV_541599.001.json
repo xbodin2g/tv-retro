@@ -2,7 +2,7 @@
   "notice_id": "TV_541599.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_541599.001/club-dorothee-programme-du-19-mars-1997?rang=6",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:31:45.584743",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -32,5 +32,6 @@
     "Sherlock Holmes",
     "Sailor Moon",
     "Power Rangers"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.613648"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_376823.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_376823.001/club-dorothee-vacances-programme-du-12-aout-1996?rang=289",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:35:53.501238",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -40,5 +40,6 @@
     "Olive et Tom champions de foot",
     "Nick Larson",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.510502"
 }

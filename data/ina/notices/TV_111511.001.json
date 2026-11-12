@@ -2,7 +2,7 @@
   "notice_id": "TV_111511.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_111511.001/club-dorothee-vacances-programme-du-21-aout-1995?rang=280",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:33:08.773929",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Sailor Moon",
     "Bécébégé",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.296130"
 }

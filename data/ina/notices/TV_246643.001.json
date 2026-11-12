@@ -2,7 +2,7 @@
   "notice_id": "TV_246643.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_246643.001/super-club-dorothee-programme-du-28-fevrier-1996?rang=359",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:27:05.491857",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -20,5 +20,6 @@
     "Charles s'en charge",
     "[Plateau",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.406289"
 }

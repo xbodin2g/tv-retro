@@ -2,7 +2,7 @@
   "notice_id": "TV_161230.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_161230.001/club-dorothee-vacances-programme-du-4-novembre-1995?rang=325",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:40:49.056500",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,6 @@
     "[Plateau",
     "VR Troopers : nom d'un chien",
     "Inspecteur Gadget : invasion"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.344283"
 }

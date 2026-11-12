@@ -2,7 +2,7 @@
   "notice_id": "TV_158470.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_158470.001/club-dorothee-vacances-programme-du-1er-novembre-1995?rang=302",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:40:28.457255",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.341377"
 }

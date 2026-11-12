@@ -2,7 +2,7 @@
   "notice_id": "TV_27885.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_27885.001/club-dorothee-vacances-programme-du-1er-mars-1995?rang=383",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:17:09.155764",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -40,5 +40,6 @@
     "Parker Lewis ne perd jamais",
     "Arnold et Willy",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.447047"
 }

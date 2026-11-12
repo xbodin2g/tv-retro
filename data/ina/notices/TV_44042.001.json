@@ -2,7 +2,7 @@
   "notice_id": "TV_44042.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_44042.001/club-dorothee-programme-du-2-avril-1995?rang=81",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:20:20.768251",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,6 @@
     "[Plateau",
     "Malicieuse Kiki",
     "Bof"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.554822"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_73803.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_73803.001/club-dorothee-programme-du-14-juin-1995?rang=231",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:27:18.599707",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.696437"
 }

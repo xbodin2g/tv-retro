@@ -2,7 +2,7 @@
   "notice_id": "TV_785.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_785.001/club-dorothee-noel-programme-du-2-janvier-1995?rang=426",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:11:29.186145",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -23,5 +23,6 @@
     "[Plateau",
     "Arnold et willy",
     "Parker Lewis ne perd jamais"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.700652"
 }

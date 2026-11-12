@@ -2,7 +2,7 @@
   "notice_id": "TV_14230.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14230.001/club-dorothee-matin-programme-du-01-fevrier-1995?rang=376",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:13:43.166794",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -45,5 +45,6 @@
     "Le maitre des bots",
     "Fly le brave",
     "Power Rangers"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.325603"
 }

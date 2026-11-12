@@ -2,7 +2,7 @@
   "notice_id": "TV_540680.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_540680.001/club-dorothee-programme-du-15-mars-1997?rang=13",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:31:41.231310",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Polpples",
     "Le rêve de Jeanie",
     "Conan l'aventurier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.612523"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_50565.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_50565.001/club-dorothee-vacances-programme-du-19-avril-1995?rang=496",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:22:04.709713",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -34,5 +34,6 @@
     "Ricky ou la belle vie",
     "Arnold et Willy",
     "La vie de famille"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.595432"
 }

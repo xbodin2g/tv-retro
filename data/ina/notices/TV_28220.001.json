@@ -2,7 +2,7 @@
   "notice_id": "TV_28220.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_28220.001/club-dorothee-vacances-programme-du-03-mars-1995?rang=385",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:17:24.857411",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,6 @@
     "[Plateau",
     "3 filles a la maison",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.452410"
 }

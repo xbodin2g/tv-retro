@@ -2,7 +2,7 @@
   "notice_id": "TV_546148.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_546148.001/club-dorothee-programme-du-22-mars-1997?rang=14",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:31:49.495736",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Popples",
     "Le rêve de Jeanie",
     "Conan l'aventurier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.614080"
 }

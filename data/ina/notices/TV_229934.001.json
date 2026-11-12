@@ -2,7 +2,7 @@
   "notice_id": "TV_229934.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_229934.001/club-dorothee-samedi-programme-du-3-fevrier-1996?rang=350",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:24:40.117904",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nSamedi",
@@ -24,5 +24,6 @@
     "Ferdy",
     "Mask",
     "Pole position"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.389359"
 }

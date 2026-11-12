@@ -2,7 +2,7 @@
   "notice_id": "TV_384940.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_384940.001/club-dorothee-vacances-programme-du-27-aout-1996?rang=298",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:37:45.213424",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -19,5 +19,6 @@
   "elements": [
     "[Plateau",
     "Premiers baisers"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.522818"
 }

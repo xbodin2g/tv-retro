@@ -2,7 +2,7 @@
   "notice_id": "TV_604022.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_604022.001/club-dorothee-programme-du-14-juin-1997?rang=47",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:35:30.873367",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,5 +29,6 @@
     "Les Popples",
     "Le rêve de Jeannie",
     "Conan l'aventurier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.644460"
 }

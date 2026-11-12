@@ -2,7 +2,7 @@
   "notice_id": "TV_447926.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_447926.001/super-club-dorothee-programme-du-13-novembre-1996?rang=315",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:39:44.689866",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -32,5 +32,6 @@
     "Conan l'aventurier",
     "Power Rangers",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.561563"
 }

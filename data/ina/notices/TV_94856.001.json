@@ -2,7 +2,7 @@
   "notice_id": "TV_94856.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_94856.001/club-dorothee-vacances-programme-du-20-juillet-1995?rang=404",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:29:50.857608",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Sailor Moon",
     "L'école des champions",
     "Le collège des coeurs brisés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.714674"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_262078.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_262078.001/club-dorothee-vacances-programme-du-2-mars-1996?rang=394",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:27:26.077698",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -24,5 +24,6 @@
     "Ferdy",
     "Popples",
     "Mask"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.409924"
 }

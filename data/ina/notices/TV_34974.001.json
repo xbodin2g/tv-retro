@@ -2,7 +2,7 @@
   "notice_id": "TV_34974.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_34974.001/club-dorothee-programme-du-15-mars-1995?rang=174",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:18:37.697569",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -36,5 +36,6 @@
     "Ici bébé",
     "Arnold et Willy",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.492326"
 }

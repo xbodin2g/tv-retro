@@ -2,7 +2,7 @@
   "notice_id": "TV_241581.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_241581.001/club-dorothee-vacances-programme-du-19-fevrier-1996?rang=379",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:26:02.824134",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -38,5 +38,6 @@
     "Dragon Ball Z",
     "Nick Larson",
     "Pas de pitié pour les croissants"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.399159"
 }

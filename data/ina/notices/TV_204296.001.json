@@ -2,7 +2,7 @@
   "notice_id": "TV_204296.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_204296.001/club-dorothee-noel-programme-du-1-janvier-1996?rang=341",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:22:44.866405",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -22,5 +22,6 @@
     "[Plateau",
     "Dorothée rock'n'roll show",
     "Le super bêtisier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.371002"
 }

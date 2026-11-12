@@ -2,7 +2,7 @@
   "notice_id": "TV_112582.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_112582.001/club-dorothee-vacances-programme-du-25-aout-1995?rang=344",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:33:39.215025",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Sailor Moon",
     "Reporter blues",
     "Le collège des coeurs brisés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.298710"
 }

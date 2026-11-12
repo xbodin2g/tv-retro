@@ -2,7 +2,7 @@
   "notice_id": "TV_648940.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_648940.001/club-dorothee-vacances-programme-du-19-aout-1997?rang=149",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:39:18.091588",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "L'école des champions",
     "Les Chevaliers du Zodiaque",
     "Animaux rescapés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.678760"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_134535.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_134535.001/club-dorothee-programme-du-27-septembre-1995?rang=46",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:36:56.709680",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Ici bébé",
     "Parker Lewis ne perd jamais",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.317260"
 }

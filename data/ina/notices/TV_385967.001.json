@@ -2,7 +2,7 @@
   "notice_id": "TV_385967.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_385967.001/club-dorothee-vacances-programme-du-29-aout-1996?rang=280",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:37:56.488779",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,6 @@
     "Olive et Tom champions de foot",
     "Nick Larson",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.525450"
 }

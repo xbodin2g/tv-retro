@@ -2,7 +2,7 @@
   "notice_id": "TV_197005.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197005.001/club-dorothee-noel-programme-du-24-decembre-1995?rang=327",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:49:34.187418",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -23,5 +23,6 @@
     "Popples",
     "Pole position",
     "66 Chump Avenue"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.370224"
 }

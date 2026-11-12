@@ -2,7 +2,7 @@
   "notice_id": "TV_230338.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_230338.001/super-club-dorothee-programme-du-7-fevrier-1996?rang=366",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:24:56.199930",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.389867"
 }

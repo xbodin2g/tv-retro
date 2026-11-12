@@ -2,7 +2,7 @@
   "notice_id": "TV_241217.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_241217.001/club-dorothee-vacances-programme-du-20-fevrier-1996?rang=354",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:26:15.420278",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -21,5 +21,6 @@
     "[Plateau",
     "Le miel et les abeilles",
     "Charles s'en charge"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.398493"
 }

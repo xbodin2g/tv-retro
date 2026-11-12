@@ -2,7 +2,7 @@
   "notice_id": "TV_614789.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_614789.001/club-dorothee-vacances-programme-du-3-juillet-1997?rang=131",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:36:20.182919",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -33,5 +33,6 @@
     "Les Chevaliers du Zodiaque",
     "L'école des champions",
     "Les animaux disparus du 20ème siècle"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.651683"
 }

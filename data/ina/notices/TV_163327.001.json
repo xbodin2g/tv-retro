@@ -2,7 +2,7 @@
   "notice_id": "TV_163327.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_163327.001/club-dorothee-programme-du-9-novembre-1995?rang=106",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:41:25.917042",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : HTB cherche JF jolie"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.346448"
 }

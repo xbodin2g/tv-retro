@@ -2,7 +2,7 @@
   "notice_id": "TV_236714.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_236714.001/club-dorothee-programme-du-16-fevrier-1996?rang=148",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:25:55.951663",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Le miel et les abeilles",
     "Charles s'en charge"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.396193"
 }

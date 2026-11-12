@@ -2,7 +2,7 @@
   "notice_id": "TV_3606.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_3606.001/club-dorothee-programme-du-09-janvier-1995?rang=91",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:12:01.428033",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "Punky Brewster",
     "Parker Lewis ne perd jamais",
     "Arnold et Willy : l'éclat"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.501224"
 }

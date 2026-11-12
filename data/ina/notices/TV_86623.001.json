@@ -2,7 +2,7 @@
   "notice_id": "TV_86623.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_86623.001/club-dorothee-vacances-programme-du-11-juillet-1995?rang=465",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:28:50.803599",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -19,5 +19,6 @@
   "elements": [
     "[Plateau",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.707690"
 }

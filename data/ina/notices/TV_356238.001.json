@@ -2,7 +2,7 @@
   "notice_id": "TV_356238.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_356238.001/club-dorothee-vacances-programme-du-17-juillet-1996?rang=216",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:33:55.296635",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Parker Lewis ne perd jamais",
     "Premiers baisers"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.498542"
 }

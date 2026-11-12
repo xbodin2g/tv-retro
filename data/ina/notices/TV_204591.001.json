@@ -2,7 +2,7 @@
   "notice_id": "TV_204591.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_204591.001/club-dorothee-noel-programme-du-5-janvier-1996?rang=346",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:23:11.875513",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Pas de pitié pour les croissants",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.374427"
 }

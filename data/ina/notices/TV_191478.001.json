@@ -2,7 +2,7 @@
   "notice_id": "TV_191478.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_191478.001/club-dorothee-programme-du-20-decembre-1995?rang=122",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:49:30.517986",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "La vie de famille",
     "Parker Lewis ne perd jamais",
     "Papa et moi"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.369396"
 }

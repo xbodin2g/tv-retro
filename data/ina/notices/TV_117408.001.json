@@ -2,7 +2,7 @@
   "notice_id": "TV_117408.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_117408.001/club-dorothee-vacances-programme-du-1er-septembre-1995?rang=286",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:34:30.141162",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.306099"
 }

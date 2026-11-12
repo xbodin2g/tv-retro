@@ -2,7 +2,7 @@
   "notice_id": "TV_436110.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_436110.001/club-dorothee-vacances-programme-du-31-octobre-1996?rang=309",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:39:19.730021",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -44,5 +44,6 @@
     "Dragon Ball Z",
     "Power Rangers",
     "La croisière Foll'amour : les contes en délire"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.553041"
 }

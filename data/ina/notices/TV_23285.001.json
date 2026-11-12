@@ -2,7 +2,7 @@
   "notice_id": "TV_23285.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_23285.001/club-dorothee-programme-du-18-fevrier-1995?rang=12",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:15:33.234473",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "[Plateau",
     "Power Rangers",
     "Goldorak"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.392202"
 }

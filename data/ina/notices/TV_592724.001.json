@@ -2,7 +2,7 @@
   "notice_id": "TV_592724.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_592724.001/club-dorothee-programme-du-24-mai-1997?rang=36",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:34:41.754120",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,5 +29,6 @@
     "Les Popples",
     "Le rêve de Jeannie",
     "Conan l'aventurier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.640302"
 }

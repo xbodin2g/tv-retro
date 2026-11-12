@@ -2,7 +2,7 @@
   "notice_id": "TV_14245.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14245.001/club-dorothee-programme-du-01-fevrier-1995?rang=155",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:14:06.764220",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -48,5 +48,6 @@
     "Harry et les Henderson",
     "Ricky ou la belle vie",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.326549"
 }

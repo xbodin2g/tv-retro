@@ -2,7 +2,7 @@
   "notice_id": "TV_142990.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_142990.001/club-dorothee-programme-du-7-octobre-1995?rang=27",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:37:39.550349",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "Inspecteur Gadget : Hollywood",
     "Denis la malice : un visiteur venu d'ailleurs",
     "Jacky show"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.327009"
 }

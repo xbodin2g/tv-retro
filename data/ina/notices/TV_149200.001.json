@@ -2,7 +2,7 @@
   "notice_id": "TV_149200.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_149200.001/club-dorothee-programme-du-18-octobre-1995?rang=138",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:38:55.414636",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -33,5 +33,6 @@
     "Denis la malice : la course du siècle ; une vie de chien",
     "Sailormoon : la baguette du coeur lunaire",
     "Power Rangers : le jour des citrouilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.331813"
 }

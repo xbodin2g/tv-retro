@@ -2,7 +2,7 @@
   "notice_id": "TV_7305.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_7305.001/club-dorothee-programme-du-18-janvier-1995?rang=188",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:12:44.496628",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -47,5 +47,6 @@
     "Harry et les Henderson",
     "Ricky ou la belle vie",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.694949"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_91203.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_91203.001/club-dorothee-vacances-programme-du-17-juillet-1995?rang=470",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:29:33.255487",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Sailor Moon",
     "Nicky Larson",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.712456"
 }

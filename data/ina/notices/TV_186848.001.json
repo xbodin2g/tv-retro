@@ -2,7 +2,7 @@
   "notice_id": "TV_186848.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_186848.001/club-dorothee-programme-du-13-decembre-1995?rang=118",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:48:58.913845",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "La vie de famille : La fuite",
     "Parker Lewis ne perd jamais : Danger location",
     "Papa et moi : Je t'aime Samantha"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.363729"
 }

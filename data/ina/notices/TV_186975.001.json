@@ -2,7 +2,7 @@
   "notice_id": "TV_186975.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_186975.001/club-dorothee-programme-du-15-decembre-1995?rang=119",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:49:06.478643",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : Pour quelques signatures"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.364783"
 }

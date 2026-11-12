@@ -2,7 +2,7 @@
   "notice_id": "TV_483655.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_483655.001/club-dorothee-noel-programme-du-1-janvier-1997?rang=92",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:29:12.465811",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -32,5 +32,6 @@
     "Les Années fac",
     "Les vacances de l'amour",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.587244"
 }

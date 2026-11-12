@@ -2,7 +2,7 @@
   "notice_id": "TV_186420.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_186420.001/club-dorothee-programme-du-12-decembre-1995?rang=117",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:48:22.878138",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : Copies conformes"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.362644"
 }

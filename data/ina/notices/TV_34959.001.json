@@ -2,7 +2,7 @@
   "notice_id": "TV_34959.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_34959.001/club-dorothee-matin-programme-du-15-mars-1995?rang=402",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:18:33.991687",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -37,5 +37,6 @@
     "Jeanne et Serge",
     "Nick Larson",
     "Power Rangers"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.491679"
 }

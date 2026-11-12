@@ -2,7 +2,7 @@
   "notice_id": "TV_271257.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_271257.001/club-dorothee-vacances-programme-du-16-mars-1996?rang=413",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:29:13.984613",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -24,5 +24,6 @@
     "Ferdy",
     "Popples",
     "Mask"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.439796"
 }

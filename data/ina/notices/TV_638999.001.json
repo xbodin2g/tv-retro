@@ -2,7 +2,7 @@
   "notice_id": "TV_638999.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_638999.001/club-dorothee-vacances-programme-du-5-aout-1997?rang=112",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:38:12.771482",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -33,5 +33,6 @@
     "L'école des champions",
     "Les Chevaliers du Zodiaque",
     "Animaux en danger"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.671378"
 }

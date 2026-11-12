@@ -2,7 +2,7 @@
   "notice_id": "TV_37727.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_37727.001/club-dorothee-programme-du-22-mars-1995?rang=76",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:19:08.278927",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,5 +39,6 @@
     "Ricky ou la belle vie",
     "Arnold et Willy",
     "La vie de famille"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.515375"
 }

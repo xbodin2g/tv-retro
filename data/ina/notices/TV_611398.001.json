@@ -2,7 +2,7 @@
   "notice_id": "TV_611398.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_611398.001/club-dorothee-vacances-programme-du-23-juin-1997?rang=126",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:35:42.716748",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,6 @@
     "Les Chevaliers du Zodiaque",
     "L'école des champions",
     "Les animaux disparus au 20ème siècle"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.646659"
 }

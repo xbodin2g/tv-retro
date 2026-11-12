@@ -2,7 +2,7 @@
   "notice_id": "TV_356302.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_356302.001/club-dorothee-vacances-programme-du-18-juillet-1996?rang=211",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:33:59.716097",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -30,5 +30,6 @@
     "Conan",
     "Dragon Ball Z",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.499594"
 }

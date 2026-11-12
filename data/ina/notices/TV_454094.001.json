@@ -2,7 +2,7 @@
   "notice_id": "TV_454094.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_454094.001/club-dorothee-programme-du-21-novembre-1996?rang=111",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:40:36.205799",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les Musclés : un concours boiteux"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.563906"
 }

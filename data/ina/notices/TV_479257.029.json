@@ -2,7 +2,7 @@
   "notice_id": "TV_479257.029",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_479257.029/club-dorothee-noel-programme-du-26-decembre-1996?rang=323",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:42:29.563388",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -42,5 +42,6 @@
     "Max et compagnie",
     "Power Rangers",
     "La croisière Foll amour : la révolte des haricots"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.583453"
 }

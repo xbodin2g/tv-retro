@@ -2,7 +2,7 @@
   "notice_id": "TV_382319.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_382319.001/club-dorothee-vacances-programme-du-20-aout-1996?rang=274",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:36:39.591511",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Olive et Tom champions de foot",
     "Nick Larson",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.518468"
 }

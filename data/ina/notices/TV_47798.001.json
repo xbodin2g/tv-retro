@@ -2,7 +2,7 @@
   "notice_id": "TV_47798.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_47798.001/club-dorothee-vacances-programme-du-12-avril-1995?rang=493",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:21:17.477641",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -43,5 +43,6 @@
     "Ricky ou la belle vie",
     "Arnold et Willy",
     "La vie de famille"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.582400"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_477104.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_477104.001/club-dorothee-noel-programme-du-21-decembre-1996?rang=332",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:42:16.972989",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -26,5 +26,6 @@
     "Sophie et Virginie",
     "Les Bisounours",
     "Les Minipouss"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.579397"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_373228.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_373228.001/club-dorothee-vacances-programme-du-8-aout-1996?rang=287",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:35:34.653373",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -35,5 +35,6 @@
     "Conan",
     "Olive et Tom champions de foot",
     "Nick Larson"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.507350"
 }

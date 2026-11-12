@@ -2,7 +2,7 @@
   "notice_id": "TV_266524.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_266524.001/club-dorothee-vacances-programme-du-12-mars-1996?rang=400",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:28:40.852873",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,6 @@
     "Dragon Ball Z",
     "Nick Larson",
     "Pas de pitié pour les croissants"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.416969"
 }

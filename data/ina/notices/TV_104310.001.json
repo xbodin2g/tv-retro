@@ -2,7 +2,7 @@
   "notice_id": "TV_104310.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_104310.001/club-dorothee-vacances-programme-du-11-aout-1995?rang=414",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:31:47.739338",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,6 @@
     "Bécébégé",
     "Reporter blues",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.288642"
 }

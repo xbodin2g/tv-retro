@@ -2,7 +2,7 @@
   "notice_id": "TV_456243.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_456243.001/club-dorothee-programme-du-27-novembre-1996?rang=113",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:40:46.461882",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -37,5 +37,6 @@
     "Sailor Moon",
     "Power Rangers",
     "La croisière foll amour : le sens des affaires"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.566286"
 }

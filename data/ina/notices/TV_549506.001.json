@@ -2,7 +2,7 @@
   "notice_id": "TV_549506.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_549506.001/club-dorothee-programme-du-29-mars-1997?rang=19",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:32:24.095172",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Les popples",
     "Le rêve de Jeanie",
     "Conan l'aventurier"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.616862"
 }

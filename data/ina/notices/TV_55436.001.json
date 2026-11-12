@@ -2,7 +2,7 @@
   "notice_id": "TV_55436.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_55436.001/club-dorothee-vacances-programme-du-29-avril-1995?rang=499",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:23:38.467021",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -28,5 +28,6 @@
     "Power Rangers",
     "VR Troopers",
     "Jacky show"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.618409"
 }

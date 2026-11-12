@@ -2,7 +2,7 @@
   "notice_id": "TV_418261.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_418261.001/super-club-dorothee-programme-du-9-octobre-1996?rang=256",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:38:45.862875",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -32,5 +32,6 @@
     "Conan l'aventurier",
     "Power Rangers",
     "Les Chevaliers du Zodiaque"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.543449"
 }

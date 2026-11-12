@@ -2,7 +2,7 @@
   "notice_id": "TV_341399.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_341399.001/club-dorothee-vacances-programme-du-26-juin-1996?rang=239",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:32:05.443850",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -29,5 +29,6 @@
     "Sailor Moon",
     "Dragon Ball Z",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.484423"
 }

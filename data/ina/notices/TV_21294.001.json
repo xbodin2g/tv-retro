@@ -2,7 +2,7 @@
   "notice_id": "TV_21294.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_21294.001/club-dorothee-programme-du-15-fevrier-1995?rang=165",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:15:14.395861",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -40,5 +40,6 @@
     "Drôle de vie",
     "Ricky ou la belle vie",
     "Arnold et Willy"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.383087"
 }

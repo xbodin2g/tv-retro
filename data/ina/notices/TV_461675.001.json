@@ -2,7 +2,7 @@
   "notice_id": "TV_461675.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_461675.001/club-dorothee-programme-du-6-decembre-1996?rang=117",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:41:18.125826",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les Musclés : machine arrière"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.569292"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_623248.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_623248.001/club-dorothee-vacances-programme-du-15-juillet-1997?rang=102",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:36:57.767578",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -33,5 +33,6 @@
     "L'école des champions",
     "Les Chevaliers du Zodiaque",
     "Les animaux disparus au 20ème siècle"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.657974"
 }

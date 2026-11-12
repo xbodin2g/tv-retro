@@ -2,7 +2,7 @@
   "notice_id": "TV_80367.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_80367.001/club-dorothee-vacances-programme-du-26-juin-1995?rang=436",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:28:06.201665",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Arnold et Willy : les cloches du mariage"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.701743"
 }

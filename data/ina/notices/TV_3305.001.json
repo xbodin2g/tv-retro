@@ -2,7 +2,7 @@
   "notice_id": "TV_3305.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_3305.001/club-dorothee-programme-du-7-janvier-1995?rang=89",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:11:53.865262",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -41,5 +41,6 @@
     "Goldorack",
     "Clip Hélène : le miracle de l'amour",
     "Pierre Layani"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.480175"
 }

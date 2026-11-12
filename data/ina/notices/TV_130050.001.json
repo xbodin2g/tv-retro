@@ -2,7 +2,7 @@
   "notice_id": "TV_130050.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_130050.001/club-dorothee-programme-du-17-septembre-1995?rang=38",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:36:10.619414",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Popples",
     "Les Amichaînes"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.313660"
 }

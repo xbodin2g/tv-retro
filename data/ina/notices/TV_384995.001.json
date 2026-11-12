@@ -2,7 +2,7 @@
   "notice_id": "TV_384995.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_384995.001/club-dorothee-vacances-programme-du-28-aout-1996?rang=252",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:37:53.037641",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -26,5 +26,6 @@
     "La Croisière Foll'Amour",
     "Les nouvelles filles d'à côté",
     "Les Années fac"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.523895"
 }

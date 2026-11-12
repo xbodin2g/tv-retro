@@ -2,7 +2,7 @@
   "notice_id": "TV_482913.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_482913.001/club-dorothee-noel-programme-du-28-decembre-1996?rang=322",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:42:33.803320",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -24,5 +24,6 @@
     "Sophie et Virginie",
     "Les Bisounours",
     "Les Minipouss"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.585127"
 }

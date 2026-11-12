@@ -2,7 +2,7 @@
   "notice_id": "TV_144425.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_144425.001/club-dorothee-programme-du-11-octobre-1995?rang=53",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:38:29.244717",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "La vie de famille : entre les deux mon coeur balance",
     "Parker Lewis ne perd jamais : un séminaire de tout repos",
     "La croisière Foll' Amour : la surprise"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.328829"
 }

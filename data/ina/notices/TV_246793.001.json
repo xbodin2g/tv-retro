@@ -2,7 +2,7 @@
   "notice_id": "TV_246793.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_246793.001/club-dorothee-vacances-programme-du-1-mars-1996?rang=393",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:27:21.668875",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Charles s'en charge",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.408053"
 }

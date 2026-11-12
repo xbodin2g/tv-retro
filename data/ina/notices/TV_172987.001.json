@@ -2,7 +2,7 @@
   "notice_id": "TV_172987.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_172987.001/club-dorothee-programme-du-22-novembre-1995?rang=110",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:46:52.901542",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -38,5 +38,6 @@
     "Sailormoon : une guerrière en danger",
     "Ranma 1/2 : Adeline et Ranma sont en froid",
     "Power Rangers : Zed FM"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.352390"
 }

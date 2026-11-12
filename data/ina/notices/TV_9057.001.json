@@ -2,7 +2,7 @@
   "notice_id": "TV_9057.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_9057.001/club-dorothee-matin-programme-du-25-janvier-1995?rang=431",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:13:11.869680",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -38,5 +38,6 @@
     "Jeanne et Serge",
     "Power Rangers",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.711044"
 }

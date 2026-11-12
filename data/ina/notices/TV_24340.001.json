@@ -2,7 +2,7 @@
   "notice_id": "TV_24340.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_24340.001/club-dorothee-vacances-programme-du-23-fevrier-1995?rang=395",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:16:05.360717",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -36,5 +36,6 @@
     "Jeanne et Serge",
     "Nick Larson",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.403600"
 }

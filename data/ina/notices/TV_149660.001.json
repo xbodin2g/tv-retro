@@ -2,7 +2,7 @@
   "notice_id": "TV_149660.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_149660.001/club-dorothee-programme-du-20-octobre-1995?rang=34",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:39:08.347090",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : Camille"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.332819"
 }

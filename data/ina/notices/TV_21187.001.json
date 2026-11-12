@@ -2,7 +2,7 @@
   "notice_id": "TV_21187.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_21187.001/club-dorothee-vacances-programme-du-13-fevrier-1995?rang=268",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:14:54.820536",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -36,5 +36,6 @@
     "Dragon Ball Z : le jour de la délivrance",
     "Nick Larson : la belle océanographe",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.381683"
 }

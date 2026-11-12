@@ -2,7 +2,7 @@
   "notice_id": "TV_122718.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_122718.001/club-dorothee-programme-du-6-septembre-1995?rang=16",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:35:22.287093",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -33,5 +33,6 @@
     "Arnold et Willy",
     "Parker Lewis ne perd jamais",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.309712"
 }

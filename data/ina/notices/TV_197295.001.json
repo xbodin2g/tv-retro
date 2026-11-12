@@ -2,7 +2,7 @@
   "notice_id": "TV_197295.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197295.001/club-dorothee-noel-programme-du-25-decembre-1995?rang=328",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:49:38.910424",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -22,5 +22,6 @@
     "[Plateau",
     "Denis la Malice",
     "Le cadeau de Noël"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.370571"
 }

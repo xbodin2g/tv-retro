@@ -2,7 +2,7 @@
   "notice_id": "TV_80101.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_80101.001/club-dorothee-programme-du-25-juin-1995?rang=234",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:27:58.352460",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,5 +21,6 @@
     "[Plateau",
     "Malicieuse Kiki : Un témoin génant",
     "Les minipouss : La cité perdue"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.701490"
 }

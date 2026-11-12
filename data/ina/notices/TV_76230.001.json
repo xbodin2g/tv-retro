@@ -2,7 +2,7 @@
   "notice_id": "TV_76230.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_76230.001/club-dorothee-programme-du-17-juin-1995?rang=236",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:27:29.162495",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,5 +29,6 @@
     "Power rangers : [L'enlèvement de Kelly]",
     "VR Troopers : [La petite cousine]",
     "Jacky show maxi music"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.698813"
 }

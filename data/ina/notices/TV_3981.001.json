@@ -2,7 +2,7 @@
   "notice_id": "TV_3981.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_3981.001/club-dorothee-matin-programme-du-11-janvier-1995?rang=429",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:12:08.843333",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -43,5 +43,6 @@
     "Jeanne et Serge",
     "Power Rangers",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.532381"
 }

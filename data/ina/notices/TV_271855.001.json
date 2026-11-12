@@ -2,7 +2,7 @@
   "notice_id": "TV_271855.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_271855.001/club-dorothee-programme-du-22-mars-1996?rang=172",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:29:37.703530",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
   "elements": [
     "[Plateau",
     "Le miel et les abeilles"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.441403"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_509917.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_509917.001/club-dorothee-programme-du-5-fevrier-1997?rang=31",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:30:01.796618",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,5 +23,6 @@
     "[Plateau",
     "Les années Fac : un poing vengeur",
     "Les vacances de l'amour : la dette"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.598094"
 }

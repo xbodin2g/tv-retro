@@ -2,7 +2,7 @@
   "notice_id": "TV_164623.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_164623.001/club-dorothee-programme-du-22-octobre-1995?rang=140",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:39:16.289635",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Popples : la victoire",
     "Les amichaines : bataille pour un parc"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.347048"
 }

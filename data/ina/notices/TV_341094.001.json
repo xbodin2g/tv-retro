@@ -2,7 +2,7 @@
   "notice_id": "TV_341094.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_341094.001/club-dorothee-vacances-programme-du-24-juin-1996?rang=195",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:31:57.297247",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -32,5 +32,6 @@
     "Conan",
     "Dragon Ball Z",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.483125"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_181644.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_181644.001/club-dorothee-programme-du-6-decembre-1995?rang=253",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:47:54.643738",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -34,5 +34,6 @@
     "Sailormoon : L'union fait la force",
     "Ranma : Roland ou celui qui ne trouve jamais",
     "Power Rangers : Le transfert de pouvoir"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.359110"
 }

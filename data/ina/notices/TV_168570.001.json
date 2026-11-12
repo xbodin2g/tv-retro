@@ -2,7 +2,7 @@
   "notice_id": "TV_168570.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_168570.001/club-dorothee-programme-du-15-novembre-1995?rang=69",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:46:19.883491",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -37,5 +37,6 @@
     "Ranma 1/2 : Julian s'interroge",
     "Power Rangers : incident diplomatique",
     "Denis la malice : Henri la malice"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.348987"
 }

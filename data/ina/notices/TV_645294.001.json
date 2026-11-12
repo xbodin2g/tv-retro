@@ -2,7 +2,7 @@
   "notice_id": "TV_645294.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_645294.001/club-dorothee-vacances-programme-du-14-aout-1997?rang=160",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:39:01.188372",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "L'école des champions",
     "Les Chevaliers du Zodiaque",
     "Animaux rescapés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.676460"
 }

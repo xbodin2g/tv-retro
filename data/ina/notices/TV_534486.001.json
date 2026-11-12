@@ -2,7 +2,7 @@
   "notice_id": "TV_534486.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_534486.001/club-dorothee-programme-du-8-mars-1997?rang=12",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:31:32.410584",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Popples",
     "Le rêve de Jeanie",
     "Les Minipouss"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.607389"
 }

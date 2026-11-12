@@ -2,7 +2,7 @@
   "notice_id": "TV_224360.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_224360.001/super-club-dorothee-programme-du-31-janvier-1996?rang=365",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:24:30.151232",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.387870"
 }

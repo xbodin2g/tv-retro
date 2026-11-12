@@ -2,7 +2,7 @@
   "notice_id": "TV_435631.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_435631.001/super-club-dorothee-vacances-programme-du-30-octobfe-1996?rang=421",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T19:39:15.607453",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée\nvacances",
@@ -34,5 +34,6 @@
     "Conan l'aventurier",
     "Power Rangers",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.551505"
 }

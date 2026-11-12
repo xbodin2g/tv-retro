@@ -2,7 +2,7 @@
   "notice_id": "TV_49797.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_49797.001/club-dorothee-vacances-programme-du-15-avril-1995?rang=494",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:21:38.578165",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -26,5 +26,6 @@
     "[Plateau",
     "Power Rangers",
     "Goldorak"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.590907"
 }

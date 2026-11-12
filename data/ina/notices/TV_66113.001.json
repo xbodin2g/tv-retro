@@ -2,7 +2,7 @@
   "notice_id": "TV_66113.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_66113.001/club-dorothee-programme-du-24-mai-1995?rang=193",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:25:32.199021",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "[Plateau"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.687474"
 }

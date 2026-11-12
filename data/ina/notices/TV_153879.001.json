@@ -2,7 +2,7 @@
   "notice_id": "TV_153879.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153879.001/club-dorothee-vacances-programme-du-26-octobre-1995?rang=358",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:39:49.190597",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -18,5 +18,6 @@
   "elements": [
     "[Plateau",
     "Salut les musclés : Mimi"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.336460"
 }

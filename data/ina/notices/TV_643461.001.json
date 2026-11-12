@@ -2,7 +2,7 @@
   "notice_id": "TV_643461.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_643461.001/club-dorothee-programme-du-9-aout-1997?rang=62",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:38:44.062990",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,6 @@
     "Les Popples",
     "Le rêve de Jeannie",
     "Les jumeaux du bout du monde"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.673817"
 }

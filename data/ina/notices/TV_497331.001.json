@@ -2,7 +2,7 @@
   "notice_id": "TV_497331.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_497331.001/club-dorothee-programme-du-15-janvier-1997?rang=61",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:29:37.201840",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -37,5 +37,6 @@
     "Les vacances de l'amour",
     "Power Rangers",
     "La Croisière Foll'Amour"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.590511"
 }

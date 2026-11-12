@@ -2,7 +2,7 @@
   "notice_id": "TV_504608.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_504608.001/club-dorothee-programme-du-22-janvier-1997?rang=29",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:29:44.974525",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,5 +23,6 @@
     "[Plateau",
     "Les années fac : dur à avaler",
     "Les vacances de l'amour : des adieux qui font mal"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.593506"
 }

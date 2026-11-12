@@ -2,7 +2,7 @@
   "notice_id": "TV_483899.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_483899.001/club-dorothee-noel-programme-du-2-janvier-1997?rang=94",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T21:29:15.661999",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -38,5 +38,6 @@
     "Les vacances de l'amour",
     "Power Rangers",
     "La croisière foll amour : l'art d'être maman"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.587946"
 }

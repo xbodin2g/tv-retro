@@ -2,7 +2,7 @@
   "notice_id": "TV_21551.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_21551.001/club-dorothee-vacances-programme-du-17-fevrier-1995?rang=378",
   "source": "ina",
-  "parser_version": 2,
+  "parser_version": 3,
   "scraped_at": "2026-11-12T20:15:25.786538",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Dragon Ball Z",
     "Nick Larson",
     "Salut les Musclés"
-  ]
+  ],
+  "rebuilt_at": "2026-11-12T22:06:46.385025"
 }
