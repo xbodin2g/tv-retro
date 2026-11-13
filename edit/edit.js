@@ -1,6 +1,6 @@
 // =====================================================
 // TV RÉTRO ÉDITEUR — couche overrides persistante
-// v2 : chargement auto de la source + garde-fous anti-écrasement
+// v3 : fermeture auto des réglages + reprise du chargement
 // =====================================================
 const CFG_KEY='tvretroEditCfg';
 const state={cfg:JSON.parse(localStorage.getItem(CFG_KEY)||'{}'),meta:null,cache:{},loaded:new Set(),yearCache:{},
@@ -16,11 +16,11 @@ function shortDate(d){const n=nDate(d);if(!n)return d||'';const[a,b,c]=n.split('
 function dKey(d){const n=nDate(d);if(!n)return[9999,9999,9999];const[a,b,c]=n.split('-').map(Number);return[c,b,a];}
 function nTime(v){const m=String(v||'').trim().match(/^(\d{1,2})[:h.](\d{2})$/);if(!m)return'';const h=+m[1],mi=+m[2];return h>23||mi>59?'':`${String(h).padStart(2,'0')}:${String(mi).padStart(2,'0')}`;}
 function tKey(t){if(!t||!t.includes(':'))return 9999;const[h,m]=t.split(':').map(Number);return h>=5?(h-5)*60+m:(h+19)*60+m;}
-// DOIT rester identique à makeProgramId de app.js / generate_index.py
 function progId(date,time,channel){return `${nDate(date)||date}__${String(time||'sans-heure').replace(':','h')}__${slug(channel)}__p`;}
 function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),3400);}
 function b64(str){const b=new TextEncoder().encode(str);let s='';b.forEach(x=>s+=String.fromCharCode(x));return btoa(s);}
 function unb64(s){const bin=atob(s.replace(/\n/g,''));const b=Uint8Array.from(bin,c=>c.charCodeAt(0));return new TextDecoder().decode(b);}
+function siteUrl(){return `https://${state.cfg.owner||'xbodin2g'}.github.io/${state.cfg.repo||'tv-retro'}/edit/`;}
 
 // ---------- GitHub ----------
 const configured=()=>state.cfg.owner&&state.cfg.repo&&state.cfg.token;
@@ -38,34 +38,36 @@ async function loadOverrideYear(year){
   data.programs=data.programs||{};state.overrides[year]=data;return data;
 }
 
-// ---------- Source (données générées) ----------
+// ---------- Source ----------
 async function ensureYearLoaded(year){
   if(state.yearCache[year])return state.yearCache[year];
   const r=await fetch(`../data/${year}.json?t=`+Date.now(),{cache:'no-store'});
   if(!r.ok)return null;
   const d=await r.json();state.yearCache[year]=d;return d;
 }
-function sourceDay(date){
-  const y=date.split('-')[2];
-  return state.yearCache[y]?.dates?.[date]||state.dayData?.dates?.[date]||null;
-}
-function findProgram(date,time,channel){
-  const d=sourceDay(date);if(!d)return null;
-  return (d.programs||[]).find(p=>p.time===time&&p.channel===channel)||null;
-}
+function sourceDay(date){const y=date.split('-')[2];return state.yearCache[y]?.dates?.[date]||state.dayData?.dates?.[date]||null;}
+function findProgram(date,time,channel){const d=sourceDay(date);if(!d)return null;return (d.programs||[]).find(p=>p.time===time&&p.channel===channel)||null;}
 
-// ---------- Métadonnées / recherche ----------
+// ---------- Métadonnées ----------
 async function loadMeta(){
-  const r=await fetch('../data/search_meta.json?t='+Date.now(),{cache:'no-store'});
-  if(!r.ok)throw new Error('search_meta.json introuvable — lance generate_index_only');
-  state.meta=await r.json();
-  const dec=[...new Set((state.meta.years||[]).map(y=>Math.floor(y/10)*10))].sort();
-  $('#f-period').innerHTML='<option value="all">Toute la base</option>'+dec.map(d=>`<option value="${d}">Années ${String(d).slice(2)}</option>`).join('');
-  $('#f-genre').innerHTML='<option value="all">Tous genres</option>'+(state.meta.genres||[]).map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
-  $('#f-channel').innerHTML='<option value="all">Toutes chaînes</option>'+(state.meta.channels||[]).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
-  $('#channels-list').innerHTML=(state.meta.channels||[]).map(c=>`<option value="${esc(c)}">`).join('');
-  $('#d-year').innerHTML=(state.meta.years||[]).slice().reverse().map(y=>`<option value="${y}">${y}</option>`).join('');
-  fillYears();
+  if(location.protocol==='file:'){
+    $('#search-status').innerHTML=`⚠️ Fichier ouvert en local : les données ne peuvent pas être lues. Ouvre plutôt <code>${esc(siteUrl())}</code>`;
+    return false;
+  }
+  try{
+    const r=await fetch('../data/search_meta.json?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw new Error('search_meta.json introuvable — lance generate_index_only');
+    state.meta=await r.json();
+    const dec=[...new Set((state.meta.years||[]).map(y=>Math.floor(y/10)*10))].sort();
+    $('#f-period').innerHTML='<option value="all">Toute la base</option>'+dec.map(d=>`<option value="${d}">Années ${String(d).slice(2)}</option>`).join('');
+    $('#f-genre').innerHTML='<option value="all">Tous genres</option>'+(state.meta.genres||[]).map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
+    $('#f-channel').innerHTML='<option value="all">Toutes chaînes</option>'+(state.meta.channels||[]).map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('');
+    $('#channels-list').innerHTML=(state.meta.channels||[]).map(c=>`<option value="${esc(c)}">`).join('');
+    $('#d-year').innerHTML=(state.meta.years||[]).slice().reverse().map(y=>`<option value="${y}">${y}</option>`).join('');
+    fillYears();
+    $('#search-status').textContent=`Base chargée : ${state.meta.total_programs} programmes · ${(state.meta.years||[]).length} années`;
+    return true;
+  }catch(e){$('#search-status').textContent='❌ '+e.message;return false;}
 }
 function fillYears(){let ys=state.meta?.years||[];if(state.period!=='all')ys=ys.filter(y=>Math.floor(y/10)*10===+state.period);$('#f-year').innerHTML='<option value="all">Toutes années</option>'+ys.map(y=>`<option value="${y}">${y}</option>`).join('');}
 function searchYears(){if(state.year!=='all')return[+state.year];let ys=state.meta?.years||[];if(state.period!=='all')ys=ys.filter(y=>Math.floor(y/10)*10===+state.period);return ys;}
@@ -119,7 +121,7 @@ async function loadDay(){
   const y=$('#d-year').value;if(!y)return;
   $('#day-status').textContent='⏳ Chargement…';
   const d=await ensureYearLoaded(y);
-  if(!d){$('#day-status').textContent='Année introuvable.';return;}
+  if(!d){$('#day-status').textContent='Année introuvable (ouvre le site en ligne, pas le fichier local).';return;}
   const dates=Object.keys(d.dates||{}).sort((a,b)=>{const x=dKey(a),z=dKey(b);for(let i=0;i<3;i++)if(x[i]!==z[i])return x[i]-z[i];return 0;});
   state.dayYear=y;state.dayData=d;
   $('#d-date').innerHTML=dates.map(x=>`<option value="${esc(x)}">${esc(shortDate(x))}</option>`).join('');
@@ -237,16 +239,33 @@ async function commitAll(){
 
 // ---------- Réglages ----------
 function openSettings(){const c=state.cfg;$('#st-owner').value=c.owner||'xbodin2g';$('#st-repo').value=c.repo||'tv-retro';$('#st-branch').value=c.branch||'main';$('#st-path').value=c.path||'data';$('#st-token').value=c.token||'';$('#st-status').textContent='';$('#settings-overlay').hidden=false;}
-function saveSettings(){state.cfg={owner:$('#st-owner').value.trim(),repo:$('#st-repo').value.trim(),branch:$('#st-branch').value.trim()||'main',path:$('#st-path').value.trim()||'data',token:$('#st-token').value.trim()};localStorage.setItem(CFG_KEY,JSON.stringify(state.cfg));state.overrides={};state.shas={};refreshConn();toast('💾 Réglages enregistrés');}
+function closeSettings(){$('#settings-overlay').hidden=true;}
+async function saveSettings(){
+  state.cfg={owner:$('#st-owner').value.trim(),repo:$('#st-repo').value.trim(),branch:$('#st-branch').value.trim()||'main',path:$('#st-path').value.trim()||'data',token:$('#st-token').value.trim()};
+  localStorage.setItem(CFG_KEY,JSON.stringify(state.cfg));
+  state.overrides={};state.shas={};refreshConn();
+  closeSettings();
+  toast('💾 Réglages enregistrés');
+  if(!state.meta)await loadMeta();
+  if(state.currentTab==='day'&&state.dayData)renderDay();
+}
 function refreshConn(){const p=$('#conn-state');if(configured()){p.textContent=`${state.cfg.owner}/${state.cfg.repo}`;p.className='pill on';}else{p.textContent='non connecté';p.className='pill off';}}
-async function testConn(){try{const r=await fetch(`https://api.github.com/repos/${$('#st-owner').value.trim()}/${$('#st-repo').value.trim()}`,{headers:{Authorization:`Bearer ${$('#st-token').value.trim()}`,Accept:'application/vnd.github+json'}});if(!r.ok)throw new Error('HTTP '+r.status);const j=await r.json();$('#st-status').textContent=`✅ Connecté à ${j.full_name} (branche par défaut : ${j.default_branch})`;}catch(e){$('#st-status').textContent='❌ '+e.message;}}
+async function testConn(){
+  $('#st-status').textContent='⏳ Test en cours…';
+  try{
+    const r=await fetch(`https://api.github.com/repos/${$('#st-owner').value.trim()}/${$('#st-repo').value.trim()}`,{headers:{Authorization:`Bearer ${$('#st-token').value.trim()}`,Accept:'application/vnd.github+json'}});
+    if(!r.ok)throw new Error('HTTP '+r.status);
+    const j=await r.json();
+    $('#st-status').textContent=`✅ Connecté à ${j.full_name} — clique maintenant « Enregistrer »`;
+  }catch(e){$('#st-status').textContent='❌ '+e.message;}
+}
 
 // ---------- Init ----------
 function setTab(t){state.currentTab=t;document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='tab-'+t));if(t==='day'&&!state.dayData)loadDay();if(t==='pending')updatePending();}
 document.addEventListener('DOMContentLoaded',async()=>{
   refreshConn();updatePending();injectOriginButton();
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
-  $('#btn-settings').onclick=openSettings;$('#st-close').onclick=()=>$('#settings-overlay').hidden=true;
+  $('#btn-settings').onclick=openSettings;$('#st-close').onclick=closeSettings;
   $('#st-save').onclick=saveSettings;$('#st-test').onclick=testConn;
   $('#st-clear').onclick=()=>{state.cfg.token='';localStorage.setItem(CFG_KEY,JSON.stringify(state.cfg));$('#st-token').value='';refreshConn();toast('🗑️ Token effacé');};
   $('#q').oninput=e=>{state.q=e.target.value;schedule();};
@@ -264,6 +283,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
   $('#ed-remove').onclick=()=>{const e=state.editing;if(e?.id&&state.pending[e.year]){delete state.pending[e.year][e.id];updatePending();}$('#editor-overlay').hidden=true;toast('Correction retirée de la file');};
   $('#btn-add-element').onclick=()=>{const v=$('#ed-new-element').value.trim();if(!v)return;renderElements([...readElements(),v]);$('#ed-new-element').value='';};
   $('#ed-new-element').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();$('#btn-add-element').click();}};
+  $('#st-token').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();saveSettings();}};
   document.addEventListener('click',e=>{
     const t=e.target.closest('[data-toggle]');if(t){const k=t.dataset.toggle;state.expanded.has(k)?state.expanded.delete(k):state.expanded.add(k);renderGroups();return;}
     const ed=e.target.closest('[data-edit]');if(ed){const[d,ti,c,tt]=ed.dataset.edit.split('|');openEditor(d,ti,c,tt);return;}
@@ -274,7 +294,6 @@ document.addEventListener('DOMContentLoaded',async()=>{
   });
   ['#editor-overlay','#settings-overlay'].forEach(s=>$(s).addEventListener('click',e=>{if(e.target===$(s))$(s).hidden=true;}));
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){['#editor-overlay','#settings-overlay'].forEach(s=>$(s).hidden=true);}});
-  try{await loadMeta();$('#search-status').textContent=`Base chargée : ${state.meta.total_programs} programmes · ${(state.meta.years||[]).length} années`;}
-  catch(e){$('#search-status').textContent='❌ '+e.message;}
+  await loadMeta();
   if(!configured())openSettings();
 });
