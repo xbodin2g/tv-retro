@@ -1,10 +1,11 @@
 // =====================================================
 // TV RÉTRO ÉDITEUR — couche overrides persistante
+// v2 : chargement auto de la source + garde-fous anti-écrasement
 // =====================================================
 const CFG_KEY='tvretroEditCfg';
-const state={cfg:JSON.parse(localStorage.getItem(CFG_KEY)||'{}'),meta:null,cache:{},loaded:new Set(),
+const state={cfg:JSON.parse(localStorage.getItem(CFG_KEY)||'{}'),meta:null,cache:{},loaded:new Set(),yearCache:{},
   q:'',period:'all',year:'all',genre:'all',channel:'all',groups:[],expanded:new Set(),
-  dayYear:null,dayDate:null,dayPrograms:[],overrides:{},shas:{},pending:{},editing:null};
+  dayYear:null,dayDate:null,dayData:null,dayPrograms:[],overrides:{},shas:{},pending:{},editing:null,currentTab:'search'};
 
 const $=s=>document.querySelector(s);
 const esc=v=>String(v??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
@@ -17,7 +18,7 @@ function nTime(v){const m=String(v||'').trim().match(/^(\d{1,2})[:h.](\d{2})$/);
 function tKey(t){if(!t||!t.includes(':'))return 9999;const[h,m]=t.split(':').map(Number);return h>=5?(h-5)*60+m:(h+19)*60+m;}
 // DOIT rester identique à makeProgramId de app.js / generate_index.py
 function progId(date,time,channel){return `${nDate(date)||date}__${String(time||'sans-heure').replace(':','h')}__${slug(channel)}__p`;}
-function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),3200);}
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),3400);}
 function b64(str){const b=new TextEncoder().encode(str);let s='';b.forEach(x=>s+=String.fromCharCode(x));return btoa(s);}
 function unb64(s){const bin=atob(s.replace(/\n/g,''));const b=Uint8Array.from(bin,c=>c.charCodeAt(0));return new TextDecoder().decode(b);}
 
@@ -25,19 +26,35 @@ function unb64(s){const bin=atob(s.replace(/\n/g,''));const b=Uint8Array.from(bi
 const configured=()=>state.cfg.owner&&state.cfg.repo&&state.cfg.token;
 function apiUrl(path){const c=state.cfg;return `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}?ref=${encodeURIComponent(c.branch||'main')}`;}
 async function ghGet(path){const r=await fetch(apiUrl(path),{headers:{Authorization:`Bearer ${state.cfg.token}`,Accept:'application/vnd.github+json'},cache:'no-store'});if(r.status===404)return null;if(!r.ok)throw new Error(`GitHub ${r.status} sur ${path}`);return r.json();}
-async function ghPut(path,content,message){const c=state.cfg;const body={message,content:b64(content),branch:c.branch||'main'};const sha=state.shas[path];if(sha)body.sha=sha;const r=await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}`,{method:'PUT',headers:{Authorization:`Bearer ${c.token}`,Accept:'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok){throw new Error(`Écriture ${r.status} : ${(await r.text()).slice(0,200)}`);}const j=await r.json();state.shas[path]=j.content?.sha;return j;}
+async function ghPut(path,content,message){const c=state.cfg;const body={message,content:b64(content),branch:c.branch||'main'};const sha=state.shas[path];if(sha)body.sha=sha;const r=await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}`,{method:'PUT',headers:{Authorization:`Bearer ${c.token}`,Accept:'application/vnd.github+json','Content-Type':'application/json'},body:JSON.stringify(body)});if(!r.ok)throw new Error(`Écriture ${r.status} : ${(await r.text()).slice(0,200)}`);const j=await r.json();state.shas[path]=j.content?.sha;return j;}
 
 async function loadOverrideYear(year){
   if(state.overrides[year])return state.overrides[year];
   let data={year:Number(year),programs:{}};
   if(configured()){
-    try{const f=await ghGet(`${state.cfg.path||'data'}/overrides/${year}.json`);if(f){state.shas[`${state.cfg.path||'data'}/overrides/${year}.json`]=f.sha;data=JSON.parse(unb64(f.content));}}
+    try{const p=`${state.cfg.path||'data'}/overrides/${year}.json`;const f=await ghGet(p);if(f){state.shas[p]=f.sha;data=JSON.parse(unb64(f.content));}}
     catch(e){console.warn(e);toast('⚠️ Lecture overrides impossible : '+e.message);}
   }
   data.programs=data.programs||{};state.overrides[year]=data;return data;
 }
 
-// ---------- Données ----------
+// ---------- Source (données générées) ----------
+async function ensureYearLoaded(year){
+  if(state.yearCache[year])return state.yearCache[year];
+  const r=await fetch(`../data/${year}.json?t=`+Date.now(),{cache:'no-store'});
+  if(!r.ok)return null;
+  const d=await r.json();state.yearCache[year]=d;return d;
+}
+function sourceDay(date){
+  const y=date.split('-')[2];
+  return state.yearCache[y]?.dates?.[date]||state.dayData?.dates?.[date]||null;
+}
+function findProgram(date,time,channel){
+  const d=sourceDay(date);if(!d)return null;
+  return (d.programs||[]).find(p=>p.time===time&&p.channel===channel)||null;
+}
+
+// ---------- Métadonnées / recherche ----------
 async function loadMeta(){
   const r=await fetch('../data/search_meta.json?t='+Date.now(),{cache:'no-store'});
   if(!r.ok)throw new Error('search_meta.json introuvable — lance generate_index_only');
@@ -77,7 +94,7 @@ async function runSearch(){
     if(!o){o={key:k,title:r.title,channel:r.channel,genre:r.genre,occ:[]};g.set(k,o);}
     o.occ.push({date:r.date,time:r.time});
   }
-  const arr=[...g.values()];arr.forEach(o=>o.occ.sort((a,b)=>{const x=dKey(a.date),y2=dKey(b.date);for(let i=0;i<3;i++)if(x[i]!==y2[i])return x[i]-y2[i];return tKey(a.time)-tKey(b.time);}));
+  const arr=[...g.values()];arr.forEach(o=>o.occ.sort((a,b)=>{const x=dKey(a.date),z=dKey(b.date);for(let i=0;i<3;i++)if(x[i]!==z[i])return x[i]-z[i];return tKey(a.time)-tKey(b.time);}));
   arr.sort((a,b)=>b.occ.length-a.occ.length);
   state.groups=arr;state.expanded=new Set();
   $('#search-status').textContent=`${total} diffusions · ${arr.length} émissions`;
@@ -86,8 +103,8 @@ async function runSearch(){
 async function renderGroups(){
   const box=$('#search-results');
   if(!state.groups.length){box.innerHTML='<p class="status">Aucun résultat.</p>';return;}
-  const yearsNeeded=[...new Set(state.groups.slice(0,150).flatMap(g=>g.occ.map(o=>o.date.split('-')[2])))];
-  if(configured())await Promise.all(yearsNeeded.map(loadOverrideYear));
+  const ys=[...new Set(state.groups.slice(0,150).flatMap(g=>g.occ.map(o=>o.date.split('-')[2])))];
+  if(configured())await Promise.all(ys.map(loadOverrideYear));
   box.innerHTML=state.groups.slice(0,150).map(g=>{
     const open=state.expanded.has(g.key);
     const dates=open?`<div class="dates">${g.occ.map(o=>{
@@ -101,47 +118,43 @@ async function renderGroups(){
 async function loadDay(){
   const y=$('#d-year').value;if(!y)return;
   $('#day-status').textContent='⏳ Chargement…';
-  const r=await fetch(`../data/${y}.json?t=`+Date.now(),{cache:'no-store'});
-  if(!r.ok){$('#day-status').textContent='Année introuvable.';return;}
-  const d=await r.json();const dates=Object.keys(d.dates||{}).sort((a,b)=>{const x=dKey(a),z=dKey(b);for(let i=0;i<3;i++)if(x[i]!==z[i])return x[i]-z[i];return 0;});
-  state.dayYear=y;state.dayDates=dates;state.dayData=d;
+  const d=await ensureYearLoaded(y);
+  if(!d){$('#day-status').textContent='Année introuvable.';return;}
+  const dates=Object.keys(d.dates||{}).sort((a,b)=>{const x=dKey(a),z=dKey(b);for(let i=0;i<3;i++)if(x[i]!==z[i])return x[i]-z[i];return 0;});
+  state.dayYear=y;state.dayData=d;
   $('#d-date').innerHTML=dates.map(x=>`<option value="${esc(x)}">${esc(shortDate(x))}</option>`).join('');
   if(!state.dayDate||!dates.includes(state.dayDate))state.dayDate=dates[0];
   $('#d-date').value=state.dayDate||'';
   await renderDay();
 }
 async function renderDay(){
-  const date=$('#d-date').value||state.dayDate;if(!date||!state.dayData)return;
+  const date=$('#d-date').value||state.dayDate;if(!date)return;
   state.dayDate=date;
   if(configured())await loadOverrideYear(date.split('-')[2]);
-  const dd=state.dayData.dates[date];
-  let ps=(dd?.programs)||[];
-  ps=ps.slice().sort((a,b)=>tKey(a.time)-tKey(b.time));
+  const dd=sourceDay(date);
+  const ps=((dd?.programs)||[]).slice().sort((a,b)=>tKey(a.time)-tKey(b.time));
   state.dayPrograms=ps;
   $('#day-status').textContent=`${shortDate(date)} · ${ps.length} programmes`;
   const ovMap=state.overrides[date.split('-')[2]]?.programs||{};
   $('#day-results').innerHTML=ps.map(p=>{
-    const id=progId(date,p.time,p.channel);const ov=ovMap[id];
+    const ov=ovMap[progId(date,p.time,p.channel)];
     const els=(p.segments||[]).map(s=>s.title).join(' · ');
     return `<div class="prow${ov?' edited':''}"><div class="ptime">${esc(p.time||'--:--')}</div><div class="pbody"><b>${esc(p.title)} ${ov?'<span class="tag ed">corrigé</span>':''}</b><small>${esc(p.channel)}${p.description?' — '+esc(p.description):''}</small>${els?`<div class="pels">🧩 ${esc(els)}</div>`:''}</div><button class="btn small" data-edit="${esc(date)}|${esc(p.time)}|${esc(p.channel)}|${esc(p.title)}">✏️</button></div>`;
   }).join('')||'<p class="status">Aucun programme.</p>';
 }
 
 // ---------- Éditeur ----------
-function findProgram(date,time,channel){
-  const dd=state.dayData?.dates?.[date];
-  if(dd)return (dd.programs||[]).find(p=>p.time===time&&p.channel===channel)||null;
-  return null;
-}
 async function openEditor(date,time,channel,title){
   const year=date.split('-')[2];
+  if(!state.yearCache[year]){toast('⏳ Chargement des détails d\'origine…');await ensureYearLoaded(year);}
   if(configured())await loadOverrideYear(year);
   const id=progId(date,time,channel);
   const ov=state.overrides[year]?.programs?.[id];
   const src=findProgram(date,time,channel);
-  state.editing={date,time,channel,id,year,isNew:false};
+  const srcEls=(src?.segments||[]).map(s=>s.title);
+  state.editing={date,time,channel,id,year,isNew:false,srcCount:srcEls.length};
   $('#ed-title').textContent=ov?'Modifier la correction':'Corriger le programme';
-  $('#ed-sub').textContent=`${shortDate(date)} · ${time||'--:--'} · ${channel}${src?'':' (source non chargée : onglet Par journée pour voir les détails)'}`;
+  $('#ed-sub').textContent=`${shortDate(date)} · ${time||'--:--'} · ${channel} — ${src?srcEls.length+' détail(s) d\'origine chargés':'⚠️ source introuvable'}`;
   $('#ed-date').value=date;$('#ed-time').value=time;$('#ed-channel').value=channel;
   $('#ed-action').value=ov?.action||'patch';
   $('#ed-name').value=ov?.title??title??src?.title??'';
@@ -150,19 +163,15 @@ async function openEditor(date,time,channel,title){
   $('#ed-locked').checked=!!ov?.locked;
   const mode=ov?.elements_mode||'merge';
   document.querySelectorAll('input[name=ed-mode]').forEach(r=>r.checked=r.value===mode);
-  let els;
-  if(ov&&Array.isArray(ov.elements))els=ov.elements.slice();
-  else els=(src?.segments||[]).map(s=>s.title);
-  renderElements(els);
+  renderElements(ov&&Array.isArray(ov.elements)?ov.elements.slice():srcEls);
   $('#editor-overlay').hidden=false;
 }
 function openNewProgram(){
-  const date=state.dayDate||nDate(new Date().toLocaleDateString('fr-FR'));
-  const year=(date||'1996-01-01').split('-')[2];
-  state.editing={date,time:'',channel:'',id:null,year,isNew:true};
+  const date=state.dayDate||nDate(new Date().toLocaleDateString('fr-FR'))||'1996-01-01';
+  state.editing={date,time:'',channel:'',id:null,year:date.split('-')[2],isNew:true,srcCount:0};
   $('#ed-title').textContent='Ajouter un programme';
-  $('#ed-sub').textContent='Il sera créé dans la couche overrides.';
-  $('#ed-date').value=date||'';$('#ed-time').value='';$('#ed-channel').value='';
+  $('#ed-sub').textContent='Nouveau programme créé dans la couche overrides.';
+  $('#ed-date').value=date;$('#ed-time').value='';$('#ed-channel').value='';
   $('#ed-action').value='add';$('#ed-name').value='';$('#ed-desc').value='';$('#ed-note').value='';
   $('#ed-locked').checked=true;
   document.querySelectorAll('input[name=ed-mode]').forEach(r=>r.checked=r.value==='replace');
@@ -172,18 +181,31 @@ function renderElements(list){
   $('#ed-elements').innerHTML=list.map((t,i)=>`<div class="el"><input type="text" value="${esc(t)}" data-el="${i}"><button data-up="${i}" title="Monter">↑</button><button data-down="${i}" title="Descendre">↓</button><button data-del="${i}" title="Supprimer">✕</button></div>`).join('')||'<p class="status">Aucun détail.</p>';
 }
 function readElements(){return [...document.querySelectorAll('#ed-elements input[data-el]')].map(i=>i.value.trim()).filter(Boolean);}
+function injectOriginButton(){
+  const row=$('#btn-add-element')?.parentElement;
+  if(!row||$('#btn-reload-origin'))return;
+  const b=document.createElement('button');
+  b.id='btn-reload-origin';b.className='btn small';b.type='button';b.textContent='↺ Origine';
+  b.title='Recharger les détails depuis les données générées';
+  b.onclick=()=>{const e=state.editing;if(!e)return;const src=findProgram(e.date,e.time,e.channel);const els=(src?.segments||[]).map(s=>s.title);renderElements(els);toast(els.length?`↺ ${els.length} détails d'origine rechargés`:'Aucun détail d\'origine');};
+  row.appendChild(b);
+}
 function savePending(){
   const e=state.editing;if(!e)return;
   const date=nDate($('#ed-date').value);const time=nTime($('#ed-time').value);const channel=$('#ed-channel').value.trim();
   if(!date||!channel){toast('❌ Date et chaîne obligatoires');return;}
   const action=$('#ed-action').value;
   if(action==='add'&&!time){toast('❌ Heure obligatoire pour un ajout');return;}
+  const mode=document.querySelector('input[name=ed-mode]:checked').value;
+  const els=readElements();
+  if(mode==='replace'&&e.srcCount>0&&els.length<e.srcCount){
+    if(!confirm(`⚠️ Mode « Remplacer tout ».\n\nLa source contient ${e.srcCount} détail(s).\nTu vas en enregistrer ${els.length}.\n\nLes détails non listés seront SUPPRIMÉS pour ce programme.\n\nContinuer ?`))return;
+  }
   const year=date.split('-')[2];
   const id=action==='add'?progId(date,time,channel):e.id||progId(date,time,channel);
-  const payload={date,time,channel,action,title:$('#ed-name').value.trim(),description:$('#ed-desc').value.trim(),
-    elements:readElements(),elements_mode:document.querySelector('input[name=ed-mode]:checked').value,
-    locked:$('#ed-locked').checked,note:$('#ed-note').value.trim(),updated_at:new Date().toISOString()};
-  state.pending[year]=state.pending[year]||{};state.pending[year][id]=payload;
+  state.pending[year]=state.pending[year]||{};
+  state.pending[year][id]={date,time,channel,action,title:$('#ed-name').value.trim(),description:$('#ed-desc').value.trim(),
+    elements:els,elements_mode:mode,locked:$('#ed-locked').checked,note:$('#ed-note').value.trim(),updated_at:new Date().toISOString()};
   $('#editor-overlay').hidden=true;updatePending();toast('✔ Mis en attente — pense à enregistrer sur GitHub');
 }
 function updatePending(){
@@ -201,6 +223,7 @@ async function commitAll(){
   try{
     for(const y of years){
       const path=`${state.cfg.path||'data'}/overrides/${y}.json`;
+      delete state.overrides[y];
       const remote=await loadOverrideYear(y);
       const merged={year:Number(y),updated_at:new Date().toISOString(),programs:{...(remote.programs||{}),...state.pending[y]}};
       await ghPut(path,JSON.stringify(merged,null,2),`edit(overrides): ${y} — ${Object.keys(state.pending[y]).length} correction(s)`);
@@ -221,7 +244,7 @@ async function testConn(){try{const r=await fetch(`https://api.github.com/repos/
 // ---------- Init ----------
 function setTab(t){state.currentTab=t;document.querySelectorAll('.tab').forEach(b=>b.classList.toggle('active',b.dataset.tab===t));document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id==='tab-'+t));if(t==='day'&&!state.dayData)loadDay();if(t==='pending')updatePending();}
 document.addEventListener('DOMContentLoaded',async()=>{
-  refreshConn();updatePending();
+  refreshConn();updatePending();injectOriginButton();
   document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>setTab(b.dataset.tab));
   $('#btn-settings').onclick=openSettings;$('#st-close').onclick=()=>$('#settings-overlay').hidden=true;
   $('#st-save').onclick=saveSettings;$('#st-test').onclick=testConn;
