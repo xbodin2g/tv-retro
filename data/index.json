@@ -1,9 +1,14 @@
 {
-  "generated_at": "2026-11-12T23:03:01.819645",
+  "generated_at": "2026-11-12T23:59:49.938518",
   "total_dates": 1029,
   "total_programs": 112757,
   "total_segments": 11799,
   "ina_enriched": 103,
+  "overrides": {
+    "patched": 0,
+    "hidden": 0,
+    "added": 0
+  },
   "years": {
     "1975": {
       "total_programs": 107,
