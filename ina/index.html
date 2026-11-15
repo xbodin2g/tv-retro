@@ -25,6 +25,7 @@
 
 <main class="wrap">
   <div class="note" id="note" hidden></div>
+  <div class="perm" id="perm-alert" hidden></div>
   <div class="health" id="health" hidden></div>
 
   <section class="kpis">
@@ -76,7 +77,8 @@
         <option value="10">10</option><option value="25" selected>25</option><option value="50">50</option><option value="100">100</option></select></div>
       <div class="f"><label for="o-mode">Mode du workflow</label><select id="o-mode">
         <option value="all">all — indexe + moissonne</option><option value="index-only">index-only — liste seule</option>
-        <option value="notices-only">notices-only — cache d'index</option></select></div>
+        <option value="notices-only">notices-only — cache d'index</option>
+        <option value="report-only">report-only — tableau (0 req INA)</option></select></div>
       <div class="orch-actions">
         <button class="btn primary" id="btn-launch">▶ Lancer la série</button>
         <button class="btn" id="btn-pause" disabled>⏸ Pause</button>
@@ -130,15 +132,21 @@
 </aside>
 
 <div class="scrim" id="sscrim" hidden></div>
-<aside class="drawer" id="sdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="s-title">
+<aside class="drawer wide" id="sdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="s-title">
   <header><div><h2 id="s-title">🔑 Connexion GitHub</h2><p class="status">Indispensable pour lancer les workflows depuis cette page.</p></div><button class="icon" id="s-close" aria-label="Fermer">✕</button></header>
   <div class="body">
     <div class="callout">
       <strong>Permissions du token fine-grained</strong>
-      <ul><li><b>Actions</b> : Read and write ← lancer et annuler les runs</li>
-      <li><b>Contents</b> : Read and write ← lire la couverture, écrire les overrides</li>
-      <li><b>Metadata</b> : Read-only (automatique)</li></ul>
-      <a class="btn small" href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">↗ Gérer mes tokens</a>
+      <ul>
+        <li><b>Actions</b> → <b>Read and write</b> ← lancer et annuler les runs. <em>C'est ce qui manque si tu as des 403.</em></li>
+        <li><b>Contents</b> → <b>Read and write</b> ← lire la couverture, écrire les overrides</li>
+        <li><b>Metadata</b> → Read-only (automatique)</li>
+      </ul>
+      <p class="hint">Un fine-grained s'édite sans régénérer : ouvre ton token, change Actions, puis <b>Update token</b>. La valeur ne change pas.</p>
+      <div class="row-btns">
+        <a class="btn small" id="tok-edit" href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">↗ Éditer mes tokens</a>
+        <a class="btn small" id="tok-new" href="#" target="_blank" rel="noopener">↗ Nouveau token pré-rempli</a>
+      </div>
     </div>
     <div class="grid2">
       <div class="f"><label for="s-owner">Propriétaire</label><input id="s-owner" placeholder="xbodin2g"></div>
@@ -148,9 +156,18 @@
     </div>
     <div class="f"><label for="s-token">Token</label><input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></div>
     <p class="status" id="s-status"></p>
+
+    <section class="diag">
+      <header><strong>Diagnostic des permissions</strong><span class="sp"></span>
+        <button class="mini" id="diag-run">▶ Tester la lecture</button>
+        <button class="mini" id="diag-write">✍ Tester l'écriture</button></header>
+      <p class="hint">Le test d'écriture déclenche un vrai run en mode <b>report-only</b> : il régénère le tableau et ne fait <b>aucune requête à l'INA</b>.</p>
+      <div class="diag-out" id="diag-out"><p class="status">Lance le diagnostic pour savoir précisément quelle permission manque.</p></div>
+    </section>
+
     <p class="hint">Le token reste dans ce navigateur (localStorage), jamais dans le dépôt. Sans token, la page fonctionne en <b>simulation</b> : tout le flux est démontrable mais aucun run réel n'est déclenché.</p>
   </div>
-  <footer><button class="btn primary" id="s-save">💾 Enregistrer et fermer</button><button class="btn" id="s-test">🔌 Tester</button><button class="btn danger ghost" id="s-clear">Effacer</button><button class="btn ghost" id="s-close2">Fermer</button></footer>
+  <footer><button class="btn primary" id="s-save">💾 Enregistrer et fermer</button><button class="btn" id="s-test">🔌 Test rapide</button><button class="btn danger ghost" id="s-clear">Effacer</button><button class="btn ghost" id="s-close2">Fermer</button></footer>
 </aside>
 
 <div class="tip" id="tip" hidden></div>
