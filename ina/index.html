@@ -16,10 +16,11 @@
   <div class="head-right">
     <span class="pill" id="src-pill">…</span>
     <span class="pill" id="gh-pill">hors ligne</span>
+    <button class="btn ghost icon-btn" id="btn-sound" title="Signal sonore des runs">🔔</button>
     <button class="btn" id="btn-targets">🎯 Cibles</button>
     <button class="btn" id="btn-settings">🔑 GitHub</button>
     <a class="btn ghost" id="wf-link" href="#" target="_blank" rel="noopener">↗ Actions</a>
-    <button class="btn ghost" id="btn-reload" title="Recharger les données">↻</button>
+    <button class="btn ghost" id="btn-reload" title="Recharger couverture + runs">↻</button>
   </div>
 </header>
 
@@ -45,7 +46,7 @@
     <div class="f"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-state">État</label><select id="f-state">
       <option value="all">Tout</option><option value="virgin">Jamais indexé</option>
-      <option value="todo">En cours</option><option value="done">Complet</option>
+      <option value="todo">En cours de moisson</option><option value="done">Complet</option>
       <option value="old">Ancienne version</option><option value="active">Déjà commencé</option></select></div>
     <div class="f"><label for="f-sort">Tri</label><select id="f-sort">
       <option value="prio">Priorité</option><option value="left">Reste ↓</option>
@@ -53,20 +54,23 @@
     <div class="f"><label for="f-view">Vue</label><select id="f-view"><option value="matrix">Matrice</option><option value="list">Liste</option></select></div>
     <div class="f"><label for="f-batch">Lot</label><select id="f-batch"><option value="400">400</option><option value="200">200</option><option value="600">600</option><option value="1000">1000</option></select></div>
     <div class="f"><label for="f-names">Noms</label><select id="f-names"><option value="short">Courts</option><option value="full">Complets</option></select></div>
-    <div class="f btns"><button class="btn small" id="btn-view-save" title="Enregistrer la vue">⭐</button><button class="btn small ghost" id="btn-reset" title="Réinitialiser">↺</button></div>
+    <div class="f btns"><button class="btn small" id="btn-view-save" title="Enregistrer la vue">⭐</button><button class="btn small ghost" id="btn-reset" title="Réinitialiser les filtres">↺</button></div>
   </section>
   <div class="views" id="views"></div>
 
   <section class="orch">
     <header>
-      <strong>Plan de moisson</strong><span class="cnt" id="plan-count">0</span>
+      <strong>File de moisson</strong><span class="cnt" id="plan-count">0</span>
       <span class="sp"></span>
       <button class="mini" id="btn-start">🌱 Démarrer 10</button>
       <button class="mini" id="btn-fill">⚡ Compléter 10</button>
+      <button class="mini hot" id="btn-archive">🧹 Archiver terminées</button>
+      <button class="mini" id="btn-newseries">♻️ Nouvelle série</button>
+      <button class="mini" id="btn-history">🗄 Historique</button>
       <button class="mini" id="btn-copy-plan">📋</button>
       <button class="mini" id="btn-csv">📥</button>
-      <button class="mini danger" id="btn-plan-clear">Vider</button>
     </header>
+
     <div class="orch-controls">
       <div class="f"><label for="o-strategy">Enchaînement</label><select id="o-strategy">
         <option value="serial">Séquentiel — attend la fin de chaque run</option>
@@ -79,6 +83,7 @@
         <option value="all">all — indexe + moissonne</option><option value="index-only">index-only — liste seule</option>
         <option value="notices-only">notices-only — cache d'index</option>
         <option value="report-only">report-only — tableau (0 req INA)</option></select></div>
+      <label class="chk wide"><input type="checkbox" id="o-autoarchive"> Archiver automatiquement les réussites</label>
       <div class="orch-actions">
         <button class="btn primary" id="btn-launch">▶ Lancer la série</button>
         <button class="btn" id="btn-pause" disabled>⏸ Pause</button>
@@ -86,8 +91,27 @@
         <button class="mini" id="btn-retry">↻ Réessayer les échecs</button>
       </div>
     </div>
+
     <div class="orch-bar"><div class="track big"><i id="orch-progress"></i></div><p class="status" id="orch-status"></p></div>
     <p class="hint" id="orch-hint"></p>
+
+    <div class="pf">
+      <button class="pft active" data-pf="active">Actives <span id="pf-active">0</span></button>
+      <button class="pft" data-pf="done">Terminées <span id="pf-done">0</span></button>
+      <button class="pft" data-pf="all">Toutes <span id="pf-all">0</span></button>
+      <span class="sp"></span>
+      <label class="chk"><input type="checkbox" id="bulk-all"> Tout sélectionner</label>
+    </div>
+
+    <div class="bulk" id="plan-bulk" hidden>
+      <span><b id="bulk-count">0</b> tâche(s) sélectionnée(s)</span>
+      <span class="sp"></span>
+      <button class="mini" id="btn-bulk-requeue">↻ Remettre en file</button>
+      <button class="mini" id="btn-bulk-archive">🗄 Archiver</button>
+      <button class="mini danger" id="btn-bulk-remove">✕ Retirer</button>
+      <button class="mini ghost" id="btn-bulk-none">Annuler la sélection</button>
+    </div>
+
     <div class="plan-body" id="plan-body"></div>
   </section>
 
@@ -103,7 +127,8 @@
   <div class="legend">
     <span>états</span><i class="lv"></i><span>jamais indexé</span>
     <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span>
-    <span class="sp"></span><span>clic = détail · ⇧clic = au plan</span>
+    <i class="ld"></i><span>déjà traité</span>
+    <span class="sp"></span><span>clic = détail · ⇧clic = à la file</span>
   </div>
   <section class="orph" id="orph" hidden></section>
 </main>
@@ -112,7 +137,7 @@
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <header><div><h2 id="d-title">Détail</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" aria-label="Fermer">✕</button></header>
   <div class="body" id="d-body"></div>
-  <footer><button class="btn primary" id="d-run">▶ Lancer maintenant</button><button class="btn" id="d-add">➕ Au plan</button><button class="btn ghost" id="d-copy">📋</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
+  <footer><button class="btn primary" id="d-run">▶ Lancer maintenant</button><button class="btn" id="d-add">➕ À la file</button><button class="btn ghost" id="d-copy">📋</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
 </aside>
 
 <div class="scrim" id="tscrim" hidden></div>
@@ -131,6 +156,16 @@
   <footer><button class="btn primary" id="t-export">📥 Exporter targets.json</button><label class="btn" for="t-file">📂 Importer</label><input type="file" id="t-file" accept=".json" hidden><button class="btn ghost" id="t-close2">Fermer</button></footer>
 </aside>
 
+<div class="scrim" id="hscrim" hidden></div>
+<aside class="drawer wide" id="hdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="h-title">
+  <header><div><h2 id="h-title">🗄 Historique des moissons</h2><p class="status" id="h-sub">Tâches archivées — restaurables à tout moment.</p></div><button class="icon" id="h-close" aria-label="Fermer">✕</button></header>
+  <div class="body">
+    <div class="hstat" id="h-stat"></div>
+    <div class="hlist" id="h-body"></div>
+  </div>
+  <footer><button class="btn" id="h-export">📥 Exporter CSV</button><button class="btn danger ghost" id="h-clear">🗑 Vider l'historique</button><button class="btn ghost" id="h-close2">Fermer</button></footer>
+</aside>
+
 <div class="scrim" id="sscrim" hidden></div>
 <aside class="drawer wide" id="sdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="s-title">
   <header><div><h2 id="s-title">🔑 Connexion GitHub</h2><p class="status">Indispensable pour lancer les workflows depuis cette page.</p></div><button class="icon" id="s-close" aria-label="Fermer">✕</button></header>
@@ -138,7 +173,7 @@
     <div class="callout">
       <strong>Permissions du token fine-grained</strong>
       <ul>
-        <li><b>Actions</b> → <b>Read and write</b> ← lancer et annuler les runs. <em>C'est ce qui manque si tu as des 403.</em></li>
+        <li><b>Actions</b> → <b>Read and write</b> ← lancer et annuler les runs</li>
         <li><b>Contents</b> → <b>Read and write</b> ← lire la couverture, écrire les overrides</li>
         <li><b>Metadata</b> → Read-only (automatique)</li>
       </ul>
@@ -156,15 +191,13 @@
     </div>
     <div class="f"><label for="s-token">Token</label><input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></div>
     <p class="status" id="s-status"></p>
-
     <section class="diag">
       <header><strong>Diagnostic des permissions</strong><span class="sp"></span>
         <button class="mini" id="diag-run">▶ Tester la lecture</button>
         <button class="mini" id="diag-write">✍ Tester l'écriture</button></header>
       <p class="hint">Le test d'écriture déclenche un vrai run en mode <b>report-only</b> : il régénère le tableau et ne fait <b>aucune requête à l'INA</b>.</p>
-      <div class="diag-out" id="diag-out"><p class="status">Lance le diagnostic pour savoir précisément quelle permission manque.</p></div>
+      <div class="diag-out" id="diag-out"></div>
     </section>
-
     <p class="hint">Le token reste dans ce navigateur (localStorage), jamais dans le dépôt. Sans token, la page fonctionne en <b>simulation</b> : tout le flux est démontrable mais aucun run réel n'est déclenché.</p>
   </div>
   <footer><button class="btn primary" id="s-save">💾 Enregistrer et fermer</button><button class="btn" id="s-test">🔌 Test rapide</button><button class="btn danger ghost" id="s-clear">Effacer</button><button class="btn ghost" id="s-close2">Fermer</button></footer>
