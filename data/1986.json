@@ -111196,7 +111196,15 @@
           "description_lines": [
             "Jayce et les conquérants de la lumière"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Jayce et les conquérants de la lumière",
+              "raw": "Jayce et les conquérants de la lumière",
+              "source": "manual"
+            }
+          ],
+          "edited": true
         },
         {
           "time": "19:40",
@@ -112216,7 +112224,15 @@
             "description_lines": [
               "Jayce et les conquérants de la lumière"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Jayce et les conquérants de la lumière",
+                "raw": "Jayce et les conquérants de la lumière",
+                "source": "manual"
+              }
+            ],
+            "edited": true
           },
           {
             "time": "19:40",
