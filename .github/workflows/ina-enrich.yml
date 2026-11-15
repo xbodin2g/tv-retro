@@ -4,10 +4,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "① ACTION — all = moisson | diagnose = état du cache (0 req) | report-only = tableau | rebuild = re-normalise | index-only | notices-only"
+        description: "① ACTION — all = moisson | targets = crée le registre des cibles (0 req) | report-only = tableau | diagnose | rebuild | index-only | notices-only"
         type: choice
         default: all
-        options: [all, diagnose, report-only, rebuild, index-only, notices-only]
+        options: [all, targets, report-only, diagnose, rebuild, index-only, notices-only]
       program:
         description: "② ÉMISSION"
         type: choice
@@ -16,40 +16,40 @@ on:
           - Club Dorothée
           - Récré A2
           - Amuse 3
-          - Le réveil des babalous
+          - Cabou Cadin
           - Vitamine
+          - Youpi ! L'école est finie
+          - Les Visiteurs du mercredi
           - Croque-Vacances
           - Le Village dans les nuages
-          - Les Visiteurs du mercredi
-          - Disney Parade
-          - Disney Club
-          - Club Mini
-          - À tout Spip
-          - TF! Jeunesse
+          - Le réveil des babalous
           - Discopuce
           - Giga
-          - Télévisator 2
-          - Chalu Maureen
+          - Ça cartoon
+          - Canaille Peluche
+          - Décode pas Bunny
           - Le Disney Channel
           - Debout les enfants
           - Samdynamite
           - Télétaz
           - Les Minikeums
-          - Cabou Cadin
-          - Ça cartoon
-          - Décode pas Bunny
-          - Canaille Peluche
-          - Youpi ! L'école est finie
-          - Cellulo
+          - Disney Parade
+          - Disney Club
+          - Club Mini
+          - À tout Spip
+          - TF! Jeunesse
+          - Télévisator 2
+          - Chalu Maureen
           - Graffi'6
           - M6 Kid
           - Multitop
           - Salut les Musclés
           - Premiers baisers
           - Les années fac
+          - Cellulo
       program_custom: {description: "③ ÉMISSION AUTRE — remplace le menu si rempli", type: string, default: ""}
       year:
-        description: "④ ANNÉE — 'toutes' balaye 1970→1999"
+        description: "④ ANNÉE — 'toutes' balaye la plage de l'émission"
         type: choice
         default: "1989"
         options: ["1989","1988","1987","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971","1970","toutes"]
@@ -83,6 +83,7 @@ jobs:
         run: |
           PROGRAM="$P"; [ -n "$C" ] && PROGRAM="$C"
           case "$M" in
+            targets)     ARGS=(--targets-only) ;;
             report-only) ARGS=(--report-only) ;;
             diagnose)    ARGS=(--diagnose --program "$PROGRAM") ;;
             rebuild)     ARGS=(--rebuild --program "$PROGRAM") ;;
@@ -94,7 +95,7 @@ jobs:
               [ "$RS" = "true" ] && ARGS+=(--refresh-stale)
               ;;
           esac
-          if [ "$M" != "report-only" ] && [ "$Y" != "toutes" ]; then ARGS+=(--year "$Y"); fi
+          case "$M" in targets|report-only) ;; *) [ "$Y" != "toutes" ] && ARGS+=(--year "$Y") ;; esac
           printf '%s\n' "─────────────────────────────" "Action : $M" "Émission : $PROGRAM" "Année : $Y" "Max : $N" "─────────────────────────────"
           python scraper/ina_catalogue_scraper.py "${ARGS[@]}"
       - name: 💾 Commit
