@@ -18,21 +18,23 @@
 
 <main class="wrap">
   <div class="note" id="note" hidden></div>
+  <div class="health" id="health" hidden></div>
 
   <section class="kpis">
-    <div class="kpi k1"><b id="k-indexed">—</b><span>notices indexées</span></div>
+    <div class="kpi k1"><b id="k-indexed">—</b><span>indexées</span></div>
     <div class="kpi k2"><b id="k-cached">—</b><span>en cache</span></div>
     <div class="kpi k3"><b id="k-works">—</b><span>avec œuvres</span></div>
-    <div class="kpi k4"><b id="k-left">—</b><span>reste à prendre</span></div>
-    <div class="kpi k5"><b id="k-elements">—</b><span>œuvres relevées</span></div>
+    <div class="kpi k4"><b id="k-left">—</b><span>reste</span></div>
+    <div class="kpi k5"><b id="k-elements">—</b><span>œuvres</span></div>
     <div class="kpi k6"><b id="k-runs">—</b><span>runs restants</span></div>
+    <div class="kpi k7"><b id="k-old">—</b><span>à re-normaliser</span></div>
   </section>
 
   <section class="bar">
-    <div class="f grow"><label for="q">Émission</label><input id="q" type="search" placeholder="Filtrer les émissions…  ( / )" autocomplete="off"></div>
+    <div class="f grow"><label for="q">Émission</label><input id="q" type="search" placeholder="Filtrer…  ( / )" autocomplete="off"></div>
     <div class="f"><label for="f-decade">Décennie</label><select id="f-decade"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
-    <div class="f"><label for="f-state">État</label><select id="f-state"><option value="all">Tout</option><option value="todo">Incomplet</option><option value="done">Complet</option><option value="virgin">Non commencé</option></select></div>
+    <div class="f"><label for="f-state">État</label><select id="f-state"><option value="all">Tout</option><option value="todo">Incomplet</option><option value="done">Complet</option><option value="virgin">Non commencé</option><option value="old">Ancienne version</option></select></div>
     <div class="f"><label for="f-sort">Tri</label><select id="f-sort"><option value="left">Reste ↓</option><option value="cov">Couverture ↑</option><option value="alpha">A → Z</option><option value="works">Œuvres ↓</option></select></div>
     <div class="f"><label for="f-view">Vue</label><select id="f-view"><option value="matrix">Matrice</option><option value="list">Liste</option></select></div>
     <div class="f"><label for="f-batch">Lot</label><select id="f-batch"><option value="400">400</option><option value="200">200</option><option value="600">600</option><option value="1000">1000</option></select></div>
@@ -40,7 +42,7 @@
   </section>
   <div class="views" id="views"></div>
 
-  <section class="plan" id="plan">
+  <section class="plan">
     <header><strong>Plan de moisson</strong><span class="cnt" id="plan-count">0</span><span class="sp"></span>
       <button class="mini" id="btn-auto">⚡ Auto (10 plus gros)</button>
       <button class="mini" id="btn-copy-plan">📋 Copier</button>
@@ -52,14 +54,15 @@
 
   <p class="status" id="status"></p>
   <section class="board" id="board"></section>
-  <div class="legend"><span>couverture</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span><span class="sp"></span><span>clic = détail · ⇧clic = ajouter au plan</span></div>
+  <div class="legend"><span>couverture</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span><span class="sp"></span><span>clic = détail · ⇧clic = plan</span></div>
+  <section class="orph" id="orph" hidden></section>
 </main>
 
 <div class="scrim" id="scrim" hidden></div>
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <header><div><h2 id="d-title">Détail</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" aria-label="Fermer">✕</button></header>
   <div class="body" id="d-body"></div>
-  <footer><button class="btn primary" id="d-add">➕ Ajouter au plan</button><button class="btn" id="d-copy">📋 Copier les paramètres</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
+  <footer><button class="btn primary" id="d-add">➕ Ajouter au plan</button><button class="btn" id="d-copy">📋 Paramètres</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
 </aside>
 
 <div class="toasts" id="toasts" aria-live="polite"></div>
