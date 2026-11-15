@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-15 à 21:06:15 — parser v5_
+_Généré le 2026-11-15 à 21:09:01 — parser v5_
 
 > **En cache = le fichier de la notice existe.** La version ne force jamais de re-téléchargement ;
 > les notices d'ancienne version sont re-normalisées localement (0 requête).
