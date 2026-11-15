@@ -1,41 +1,287 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T00:00:00",
+  "updated_at": "2026-11-15T22:41:09.965034",
   "note": "Registre des cibles de moisson INA. Éditable à la main ou depuis le tableau de bord (bouton Cibles). from/to = plage de diffusion indicative, ajustable.",
   "programs": [
-    { "program": "Club Dorothée", "channel": "TF1", "from": 1987, "to": 1997, "priority": 1 },
-    { "program": "Récré A2", "channel": "Antenne 2", "from": 1978, "to": 1987, "priority": 1 },
-    { "program": "Amuse 3", "channel": "FR3", "from": 1985, "to": 1997, "priority": 1 },
-    { "program": "Cabou Cadin", "channel": "Canal+", "from": 1985, "to": 1993, "priority": 2 },
-    { "program": "Vitamine", "channel": "TF1", "from": 1983, "to": 1987, "priority": 2 },
-    { "program": "Youpi ! L'école est finie", "channel": "La Cinq", "from": 1987, "to": 1992, "priority": 2 },
-    { "program": "Les Visiteurs du mercredi", "channel": "TF1", "from": 1975, "to": 1983, "priority": 2 },
-    { "program": "Croque-Vacances", "channel": "TF1", "from": 1981, "to": 1987, "priority": 3 },
-    { "program": "Le Village dans les nuages", "channel": "TF1", "from": 1982, "to": 1986, "priority": 3 },
-    { "program": "Le réveil des babalous", "channel": "FR3", "from": 1986, "to": 1991, "priority": 3 },
-    { "program": "Discopuce", "channel": "Antenne 2", "from": 1978, "to": 1987, "priority": 3 },
-    { "program": "Giga", "channel": "Antenne 2", "from": 1987, "to": 1996, "priority": 2 },
-    { "program": "Ça cartoon", "channel": "Canal+", "from": 1986, "to": 1999, "priority": 2 },
-    { "program": "Canaille Peluche", "channel": "Canal+", "from": 1986, "to": 1993, "priority": 3 },
-    { "program": "Décode pas Bunny", "channel": "Canal+", "from": 1990, "to": 1996, "priority": 3 },
-    { "program": "Le Disney Channel", "channel": "FR3", "from": 1988, "to": 1996, "priority": 2 },
-    { "program": "Debout les enfants", "channel": "FR3", "from": 1987, "to": 1994, "priority": 3 },
-    { "program": "Samdynamite", "channel": "FR3", "from": 1987, "to": 1993, "priority": 3 },
-    { "program": "Télétaz", "channel": "FR3", "from": 1988, "to": 1993, "priority": 3 },
-    { "program": "Les Minikeums", "channel": "France 3", "from": 1993, "to": 1999, "priority": 2 },
-    { "program": "Disney Parade", "channel": "TF1", "from": 1989, "to": 1998, "priority": 3 },
-    { "program": "Disney Club", "channel": "TF1", "from": 1990, "to": 1996, "priority": 3 },
-    { "program": "Club Mini", "channel": "TF1", "from": 1990, "to": 1996, "priority": 4 },
-    { "program": "À tout Spip", "channel": "TF1", "from": 1993, "to": 1996, "priority": 4 },
-    { "program": "TF! Jeunesse", "channel": "TF1", "from": 1997, "to": 1999, "priority": 3 },
-    { "program": "Télévisator 2", "channel": "France 2", "from": 1993, "to": 1995, "priority": 4 },
-    { "program": "Chalu Maureen", "channel": "France 2", "from": 1994, "to": 1996, "priority": 4 },
-    { "program": "Graffi'6", "channel": "M6", "from": 1987, "to": 1991, "priority": 3 },
-    { "program": "M6 Kid", "channel": "M6", "from": 1990, "to": 1999, "priority": 3 },
-    { "program": "Multitop", "channel": "M6", "from": 1987, "to": 1996, "priority": 3 },
-    { "program": "Salut les Musclés", "channel": "TF1", "from": 1987, "to": 1997, "priority": 4 },
-    { "program": "Premiers baisers", "channel": "TF1", "from": 1991, "to": 1997, "priority": 4 },
-    { "program": "Les années fac", "channel": "TF1", "from": 1995, "to": 1998, "priority": 4 },
-    { "program": "Cellulo", "channel": "La Cinquième", "from": 1995, "to": 1999, "priority": 4 }
+    {
+      "program": "Club Dorothée",
+      "channel": "TF1",
+      "from": 1987,
+      "to": 1997,
+      "priority": 1,
+      "slug": "club-dorothee"
+    },
+    {
+      "program": "Récré A2",
+      "channel": "Antenne 2",
+      "from": 1978,
+      "to": 1987,
+      "priority": 1,
+      "slug": "recre-a2"
+    },
+    {
+      "program": "Amuse 3",
+      "channel": "FR3",
+      "from": 1985,
+      "to": 1997,
+      "priority": 1,
+      "slug": "amuse-3"
+    },
+    {
+      "program": "Cabou Cadin",
+      "channel": "Canal+",
+      "from": 1985,
+      "to": 1993,
+      "priority": 2,
+      "slug": "cabou-cadin"
+    },
+    {
+      "program": "Vitamine",
+      "channel": "TF1",
+      "from": 1983,
+      "to": 1987,
+      "priority": 2,
+      "slug": "vitamine"
+    },
+    {
+      "program": "Youpi ! L'école est finie",
+      "channel": "La Cinq",
+      "from": 1987,
+      "to": 1992,
+      "priority": 2,
+      "slug": "youpi-l-ecole-est-finie"
+    },
+    {
+      "program": "Les Visiteurs du mercredi",
+      "channel": "TF1",
+      "from": 1975,
+      "to": 1983,
+      "priority": 2,
+      "slug": "les-visiteurs-du-mercredi"
+    },
+    {
+      "program": "Croque-Vacances",
+      "channel": "TF1",
+      "from": 1981,
+      "to": 1987,
+      "priority": 3,
+      "slug": "croque-vacances"
+    },
+    {
+      "program": "Le Village dans les nuages",
+      "channel": "TF1",
+      "from": 1982,
+      "to": 1986,
+      "priority": 3,
+      "slug": "le-village-dans-les-nuages"
+    },
+    {
+      "program": "Le réveil des babalous",
+      "channel": "FR3",
+      "from": 1986,
+      "to": 1991,
+      "priority": 3,
+      "slug": "le-reveil-des-babalous"
+    },
+    {
+      "program": "Discopuce",
+      "channel": "Antenne 2",
+      "from": 1978,
+      "to": 1987,
+      "priority": 3,
+      "slug": "discopuce"
+    },
+    {
+      "program": "Giga",
+      "channel": "Antenne 2",
+      "from": 1987,
+      "to": 1996,
+      "priority": 2,
+      "slug": "giga"
+    },
+    {
+      "program": "Ça cartoon",
+      "channel": "Canal+",
+      "from": 1986,
+      "to": 1999,
+      "priority": 2,
+      "slug": "ca-cartoon"
+    },
+    {
+      "program": "Canaille Peluche",
+      "channel": "Canal+",
+      "from": 1986,
+      "to": 1993,
+      "priority": 3,
+      "slug": "canaille-peluche"
+    },
+    {
+      "program": "Décode pas Bunny",
+      "channel": "Canal+",
+      "from": 1990,
+      "to": 1996,
+      "priority": 3,
+      "slug": "decode-pas-bunny"
+    },
+    {
+      "program": "Le Disney Channel",
+      "channel": "FR3",
+      "from": 1988,
+      "to": 1996,
+      "priority": 2,
+      "slug": "le-disney-channel"
+    },
+    {
+      "program": "Debout les enfants",
+      "channel": "FR3",
+      "from": 1987,
+      "to": 1994,
+      "priority": 3,
+      "slug": "debout-les-enfants"
+    },
+    {
+      "program": "Samdynamite",
+      "channel": "FR3",
+      "from": 1987,
+      "to": 1993,
+      "priority": 3,
+      "slug": "samdynamite"
+    },
+    {
+      "program": "Télétaz",
+      "channel": "FR3",
+      "from": 1988,
+      "to": 1993,
+      "priority": 3,
+      "slug": "teletaz"
+    },
+    {
+      "program": "Les Minikeums",
+      "channel": "France 3",
+      "from": 1993,
+      "to": 1999,
+      "priority": 2,
+      "slug": "les-minikeums"
+    },
+    {
+      "program": "Disney Parade",
+      "channel": "TF1",
+      "from": 1989,
+      "to": 1998,
+      "priority": 3,
+      "slug": "disney-parade"
+    },
+    {
+      "program": "Disney Club",
+      "channel": "TF1",
+      "from": 1990,
+      "to": 1996,
+      "priority": 3,
+      "slug": "disney-club"
+    },
+    {
+      "program": "Club Mini",
+      "channel": "TF1",
+      "from": 1990,
+      "to": 1996,
+      "priority": 4,
+      "slug": "club-mini"
+    },
+    {
+      "program": "À tout Spip",
+      "channel": "TF1",
+      "from": 1993,
+      "to": 1996,
+      "priority": 4,
+      "slug": "a-tout-spip"
+    },
+    {
+      "program": "TF! Jeunesse",
+      "channel": "TF1",
+      "from": 1997,
+      "to": 1999,
+      "priority": 3,
+      "slug": "tf-jeunesse"
+    },
+    {
+      "program": "Télévisator 2",
+      "channel": "France 2",
+      "from": 1993,
+      "to": 1995,
+      "priority": 4,
+      "slug": "televisator-2"
+    },
+    {
+      "program": "Chalu Maureen",
+      "channel": "France 2",
+      "from": 1994,
+      "to": 1996,
+      "priority": 4,
+      "slug": "chalu-maureen"
+    },
+    {
+      "program": "Graffi'6",
+      "channel": "M6",
+      "from": 1987,
+      "to": 1991,
+      "priority": 3,
+      "slug": "graffi-6"
+    },
+    {
+      "program": "M6 Kid",
+      "channel": "M6",
+      "from": 1990,
+      "to": 1999,
+      "priority": 3,
+      "slug": "m6-kid"
+    },
+    {
+      "program": "Multitop",
+      "channel": "M6",
+      "from": 1987,
+      "to": 1996,
+      "priority": 3,
+      "slug": "multitop"
+    },
+    {
+      "program": "Salut les Musclés",
+      "channel": "TF1",
+      "from": 1987,
+      "to": 1997,
+      "priority": 4,
+      "slug": "salut-les-muscles"
+    },
+    {
+      "program": "Premiers baisers",
+      "channel": "TF1",
+      "from": 1991,
+      "to": 1997,
+      "priority": 4,
+      "slug": "premiers-baisers"
+    },
+    {
+      "program": "Les années fac",
+      "channel": "TF1",
+      "from": 1995,
+      "to": 1998,
+      "priority": 4,
+      "slug": "les-annees-fac"
+    },
+    {
+      "program": "Cellulo",
+      "channel": "La Cinquième",
+      "from": 1995,
+      "to": 1999,
+      "priority": 4,
+      "slug": "cellulo"
+    },
+    {
+      "program": "Club Dorothée",
+      "slug": "club-dorothee",
+      "channel": "TF1",
+      "from": 1987,
+      "to": 1997,
+      "priority": 3
+    }
   ]
 }
