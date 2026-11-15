@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>INA · Tableau de moisson</title>
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="ina.css">
+<script src="ina.js" defer></script>
+</head>
+<body>
+<div class="bg" aria-hidden="true"><span class="halo h1"></span><span class="halo h2"></span><span class="lines"></span></div>
+
+<header class="head">
+  <div class="id"><span class="rec"></span><div><h1>INA <em>· MOISSON</em></h1><p id="stamp">chargement…</p></div></div>
+  <div class="head-right"><span class="pill" id="src-pill">…</span><a class="btn ghost" id="wf-link" href="#" target="_blank" rel="noopener">▶ Workflow</a><button class="btn ghost" id="btn-reload">↻ Recharger</button></div>
+</header>
+
+<main class="wrap">
+  <div class="note" id="note" hidden></div>
+
+  <section class="kpis">
+    <div class="kpi k1"><b id="k-indexed">—</b><span>notices indexées</span></div>
+    <div class="kpi k2"><b id="k-cached">—</b><span>en cache</span></div>
+    <div class="kpi k3"><b id="k-works">—</b><span>avec œuvres</span></div>
+    <div class="kpi k4"><b id="k-left">—</b><span>reste à prendre</span></div>
+    <div class="kpi k5"><b id="k-elements">—</b><span>œuvres relevées</span></div>
+    <div class="kpi k6"><b id="k-runs">—</b><span>runs restants</span></div>
+  </section>
+
+  <section class="bar">
+    <div class="f grow"><label for="q">Émission</label><input id="q" type="search" placeholder="Filtrer les émissions…  ( / )" autocomplete="off"></div>
+    <div class="f"><label for="f-decade">Décennie</label><select id="f-decade"><option value="all">Toutes</option></select></div>
+    <div class="f"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
+    <div class="f"><label for="f-state">État</label><select id="f-state"><option value="all">Tout</option><option value="todo">Incomplet</option><option value="done">Complet</option><option value="virgin">Non commencé</option></select></div>
+    <div class="f"><label for="f-sort">Tri</label><select id="f-sort"><option value="left">Reste ↓</option><option value="cov">Couverture ↑</option><option value="alpha">A → Z</option><option value="works">Œuvres ↓</option></select></div>
+    <div class="f"><label for="f-view">Vue</label><select id="f-view"><option value="matrix">Matrice</option><option value="list">Liste</option></select></div>
+    <div class="f"><label for="f-batch">Lot</label><select id="f-batch"><option value="400">400</option><option value="200">200</option><option value="600">600</option><option value="1000">1000</option></select></div>
+    <div class="f btns"><button class="btn small" id="btn-view-save">⭐ Vue</button><button class="btn small ghost" id="btn-reset">↺</button></div>
+  </section>
+  <div class="views" id="views"></div>
+
+  <section class="plan" id="plan">
+    <header><strong>Plan de moisson</strong><span class="cnt" id="plan-count">0</span><span class="sp"></span>
+      <button class="mini" id="btn-auto">⚡ Auto (10 plus gros)</button>
+      <button class="mini" id="btn-copy-plan">📋 Copier</button>
+      <button class="mini" id="btn-csv">📥 CSV</button>
+      <button class="mini danger" id="btn-plan-clear">Vider</button>
+    </header>
+    <div class="plan-body" id="plan-body"></div>
+  </section>
+
+  <p class="status" id="status"></p>
+  <section class="board" id="board"></section>
+  <div class="legend"><span>couverture</span><i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span><span class="sp"></span><span>clic = détail · ⇧clic = ajouter au plan</span></div>
+</main>
+
+<div class="scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
+  <header><div><h2 id="d-title">Détail</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" aria-label="Fermer">✕</button></header>
+  <div class="body" id="d-body"></div>
+  <footer><button class="btn primary" id="d-add">➕ Ajouter au plan</button><button class="btn" id="d-copy">📋 Copier les paramètres</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
+</aside>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+</body>
+</html>
