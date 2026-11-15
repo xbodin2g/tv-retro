@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>INA · Tableau de moisson</title>
+<title>INA · Régie de moisson</title>
 <meta name="color-scheme" content="dark">
 <link rel="stylesheet" href="ina.css">
 <script src="ina.js" defer></script>
@@ -12,12 +12,14 @@
 <div class="bg" aria-hidden="true"><span class="halo h1"></span><span class="halo h2"></span><span class="halo h3"></span><span class="lines"></span><span class="grain"></span></div>
 
 <header class="head">
-  <div class="id"><span class="rec"></span><div><h1>INA <em>· MOISSON</em></h1><p id="stamp">chargement…</p></div></div>
+  <div class="id"><span class="rec" id="rec"></span><div><h1>INA <em>· RÉGIE DE MOISSON</em></h1><p id="stamp">chargement…</p></div></div>
   <div class="head-right">
     <span class="pill" id="src-pill">…</span>
+    <span class="pill" id="gh-pill">hors ligne</span>
     <button class="btn" id="btn-targets">🎯 Cibles</button>
-    <a class="btn ghost" id="wf-link" href="#" target="_blank" rel="noopener">▶ Workflow</a>
-    <button class="btn ghost" id="btn-reload">↻</button>
+    <button class="btn" id="btn-settings">🔑 GitHub</button>
+    <a class="btn ghost" id="wf-link" href="#" target="_blank" rel="noopener">↗ Actions</a>
+    <button class="btn ghost" id="btn-reload" title="Recharger les données">↻</button>
   </div>
 </header>
 
@@ -33,11 +35,11 @@
     <div class="kpi k4"><b id="k-left">—</b><span>reste connu</span></div>
     <div class="kpi k5"><b id="k-elements">—</b><span>œuvres</span></div>
     <div class="kpi k6"><b id="k-runs">—</b><span>runs estimés</span></div>
-    <div class="kpi k7"><b id="k-old">—</b><span>à re-normaliser</span></div>
+    <div class="kpi k7"><b id="k-active">0</b><span>runs en cours</span></div>
   </section>
 
   <section class="bar">
-    <div class="f grow"><label for="q">Émission</label><input id="q" type="search" placeholder="Filtrer…  ( / )" autocomplete="off"></div>
+    <div class="f grow"><label for="q">Émission / chaîne</label><input id="q" type="search" placeholder="Filtrer…  ( / )" autocomplete="off"></div>
     <div class="f"><label for="f-decade">Décennie</label><select id="f-decade"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-state">État</label><select id="f-state">
@@ -49,19 +51,49 @@
       <option value="cov">Couverture ↑</option><option value="alpha">A → Z</option><option value="works">Œuvres ↓</option></select></div>
     <div class="f"><label for="f-view">Vue</label><select id="f-view"><option value="matrix">Matrice</option><option value="list">Liste</option></select></div>
     <div class="f"><label for="f-batch">Lot</label><select id="f-batch"><option value="400">400</option><option value="200">200</option><option value="600">600</option><option value="1000">1000</option></select></div>
-    <div class="f btns"><button class="btn small" id="btn-view-save">⭐</button><button class="btn small ghost" id="btn-reset">↺</button></div>
+    <div class="f"><label for="f-names">Noms</label><select id="f-names"><option value="short">Courts</option><option value="full">Complets</option></select></div>
+    <div class="f btns"><button class="btn small" id="btn-view-save" title="Enregistrer la vue">⭐</button><button class="btn small ghost" id="btn-reset" title="Réinitialiser">↺</button></div>
   </section>
   <div class="views" id="views"></div>
 
-  <section class="plan">
-    <header><strong>Plan de moisson</strong><span class="cnt" id="plan-count">0</span><span class="sp"></span>
+  <section class="orch">
+    <header>
+      <strong>Plan de moisson</strong><span class="cnt" id="plan-count">0</span>
+      <span class="sp"></span>
       <button class="mini" id="btn-start">🌱 Démarrer 10</button>
       <button class="mini" id="btn-fill">⚡ Compléter 10</button>
-      <button class="mini" id="btn-copy-plan">📋 Copier</button>
-      <button class="mini" id="btn-csv">📥 CSV</button>
+      <button class="mini" id="btn-copy-plan">📋</button>
+      <button class="mini" id="btn-csv">📥</button>
       <button class="mini danger" id="btn-plan-clear">Vider</button>
     </header>
+    <div class="orch-controls">
+      <div class="f"><label for="o-strategy">Enchaînement</label><select id="o-strategy">
+        <option value="serial">Séquentiel — attend la fin de chaque run</option>
+        <option value="burst">Rafale — envoi espacé (avancé)</option></select></div>
+      <div class="f"><label for="o-delay">Délai entre envois</label><select id="o-delay">
+        <option value="2000">2 s</option><option value="4000">4 s</option><option value="8000">8 s</option></select></div>
+      <div class="f"><label for="o-cap">Plafond de runs</label><select id="o-cap">
+        <option value="10">10</option><option value="25" selected>25</option><option value="50">50</option><option value="100">100</option></select></div>
+      <div class="f"><label for="o-mode">Mode du workflow</label><select id="o-mode">
+        <option value="all">all — indexe + moissonne</option><option value="index-only">index-only — liste seule</option>
+        <option value="notices-only">notices-only — cache d'index</option></select></div>
+      <div class="orch-actions">
+        <button class="btn primary" id="btn-launch">▶ Lancer la série</button>
+        <button class="btn" id="btn-pause" disabled>⏸ Pause</button>
+        <button class="btn danger ghost" id="btn-stop" disabled>⏹ Arrêter</button>
+        <button class="mini" id="btn-retry">↻ Réessayer les échecs</button>
+      </div>
+    </div>
+    <div class="orch-bar"><div class="track big"><i id="orch-progress"></i></div><p class="status" id="orch-status"></p></div>
+    <p class="hint" id="orch-hint"></p>
     <div class="plan-body" id="plan-body"></div>
+  </section>
+
+  <section class="runs">
+    <header><strong>Console des runs</strong><span class="cnt" id="runs-count">0</span><span class="sp"></span>
+      <label class="chk"><input type="checkbox" id="runs-mine" checked> Mes envois seulement</label>
+      <button class="mini" id="btn-runs-refresh">↻ Actualiser</button></header>
+    <div class="runs-body" id="runs-body"></div>
   </section>
 
   <p class="status" id="status"></p>
@@ -69,7 +101,7 @@
   <div class="legend">
     <span>états</span><i class="lv"></i><span>jamais indexé</span>
     <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span>
-    <i class="ln"></i><span>hors plage</span><span class="sp"></span><span>clic = détail · ⇧clic = plan</span>
+    <span class="sp"></span><span>clic = détail · ⇧clic = au plan</span>
   </div>
   <section class="orph" id="orph" hidden></section>
 </main>
@@ -78,12 +110,12 @@
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <header><div><h2 id="d-title">Détail</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" aria-label="Fermer">✕</button></header>
   <div class="body" id="d-body"></div>
-  <footer><button class="btn primary" id="d-add">➕ Au plan</button><button class="btn" id="d-copy">📋 Paramètres</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
+  <footer><button class="btn primary" id="d-run">▶ Lancer maintenant</button><button class="btn" id="d-add">➕ Au plan</button><button class="btn ghost" id="d-copy">📋</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
 </aside>
 
 <div class="scrim" id="tscrim" hidden></div>
 <aside class="drawer wide" id="tdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="t-title">
-  <header><div><h2 id="t-title">🎯 Registre des cibles</h2><p class="status">Émissions × plages d'années visées. Toute modification est immédiate sur la matrice.</p></div><button class="icon" id="t-close" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="t-title">🎯 Registre des cibles</h2><p class="status">Émissions × plages visées. Modification immédiate sur la matrice.</p></div><button class="icon" id="t-close" aria-label="Fermer">✕</button></header>
   <div class="body">
     <div class="tadd">
       <input id="t-new" placeholder="Nouvelle émission — titre INA exact">
@@ -97,6 +129,31 @@
   <footer><button class="btn primary" id="t-export">📥 Exporter targets.json</button><label class="btn" for="t-file">📂 Importer</label><input type="file" id="t-file" accept=".json" hidden><button class="btn ghost" id="t-close2">Fermer</button></footer>
 </aside>
 
+<div class="scrim" id="sscrim" hidden></div>
+<aside class="drawer" id="sdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="s-title">
+  <header><div><h2 id="s-title">🔑 Connexion GitHub</h2><p class="status">Indispensable pour lancer les workflows depuis cette page.</p></div><button class="icon" id="s-close" aria-label="Fermer">✕</button></header>
+  <div class="body">
+    <div class="callout">
+      <strong>Permissions du token fine-grained</strong>
+      <ul><li><b>Actions</b> : Read and write ← lancer et annuler les runs</li>
+      <li><b>Contents</b> : Read and write ← lire la couverture, écrire les overrides</li>
+      <li><b>Metadata</b> : Read-only (automatique)</li></ul>
+      <a class="btn small" href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">↗ Gérer mes tokens</a>
+    </div>
+    <div class="grid2">
+      <div class="f"><label for="s-owner">Propriétaire</label><input id="s-owner" placeholder="xbodin2g"></div>
+      <div class="f"><label for="s-repo">Dépôt</label><input id="s-repo" placeholder="tv-retro"></div>
+      <div class="f"><label for="s-branch">Branche</label><input id="s-branch" placeholder="main"></div>
+      <div class="f"><label for="s-workflow">Fichier workflow</label><input id="s-workflow" placeholder="ina-enrich.yml"></div>
+    </div>
+    <div class="f"><label for="s-token">Token</label><input type="password" id="s-token" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></div>
+    <p class="status" id="s-status"></p>
+    <p class="hint">Le token reste dans ce navigateur (localStorage), jamais dans le dépôt. Sans token, la page fonctionne en <b>simulation</b> : tout le flux est démontrable mais aucun run réel n'est déclenché.</p>
+  </div>
+  <footer><button class="btn primary" id="s-save">💾 Enregistrer et fermer</button><button class="btn" id="s-test">🔌 Tester</button><button class="btn danger ghost" id="s-clear">Effacer</button><button class="btn ghost" id="s-close2">Fermer</button></footer>
+</aside>
+
+<div class="tip" id="tip" hidden></div>
 <div class="toasts" id="toasts" aria-live="polite"></div>
 </body>
 </html>
