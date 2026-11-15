@@ -2,7 +2,7 @@
   "notice_id": "TV_472672.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_472672.001/club-dorothee-programme-du-20-decembre-1996?rang=135",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:42:12.810023",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
     "[Plateau",
     "Salut les Musclés : les pantoufles"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.577226"
+  "rebuilt_at": "2026-11-12T22:06:46.577226",
+  "normalized_at": "2026-11-15T21:06:15.648971"
 }

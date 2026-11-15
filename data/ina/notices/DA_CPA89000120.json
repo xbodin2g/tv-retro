@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89000120",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89000120/club-dorothee-emission-du-17-janvier-1989?rang=60",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:00:28.911978",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:50",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.323813"
 }

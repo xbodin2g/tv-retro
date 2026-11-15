@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T20:27:59.123330",
-  "parser_version": 4,
+  "generated_at": "2026-11-15T21:06:15.848096",
+  "parser_version": 5,
   "programs": [
     {
       "program": "Amuse 3",
@@ -9,11 +9,12 @@
       "years": [],
       "totals": {
         "indexed": 0,
-        "downloaded": 0,
+        "cached": 0,
+        "current": 0,
+        "outdated": 0,
         "with_elements": 0,
         "empty": 0,
         "remaining": 0,
-        "stale": 0,
         "elements": 0,
         "days": 0,
         "coverage": 0.0
@@ -27,170 +28,112 @@
         {
           "year": 1987,
           "indexed": 91,
-          "downloaded": 0,
-          "with_elements": 0,
-          "empty": 0,
-          "remaining": 91,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "DA_CPA87007924",
-            "DA_CPA87008164",
-            "DA_CPA87008166",
-            "DA_CPA87008169",
-            "DA_CPA87008170",
-            "DA_CPA87008171",
-            "DA_CPA87008316",
-            "DA_CPA87008325",
-            "DA_CPA87008332",
-            "DA_CPA87008340",
-            "DA_CPA87008347",
-            "DA_CPA87008662"
-          ],
-          "coverage": 0.0
+          "cached": 91,
+          "current": 91,
+          "outdated": 0,
+          "with_elements": 64,
+          "empty": 27,
+          "remaining": 0,
+          "elements": 166,
+          "days": 62,
+          "sample": [],
+          "coverage": 100.0
         },
         {
           "year": 1988,
           "indexed": 482,
-          "downloaded": 0,
-          "with_elements": 0,
-          "empty": 0,
-          "remaining": 482,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "DA_CPA87013272",
-            "DA_CPA87013273",
-            "DA_CPA87013515",
-            "DA_CPA87013539",
-            "DA_CPA87013554",
-            "DA_CPA87013584",
-            "DA_CPA87013594",
-            "DA_CPA87013712",
-            "DA_CPA87013713",
-            "DA_CPA87013714",
-            "DA_CPA87013715",
-            "DA_CPA87013716"
-          ],
-          "coverage": 0.0
+          "cached": 482,
+          "current": 482,
+          "outdated": 0,
+          "with_elements": 106,
+          "empty": 376,
+          "remaining": 0,
+          "elements": 324,
+          "days": 92,
+          "sample": [],
+          "coverage": 100.0
         },
         {
           "year": 1989,
           "indexed": 500,
-          "downloaded": 0,
-          "with_elements": 0,
-          "empty": 0,
-          "remaining": 500,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
+          "cached": 439,
+          "current": 439,
+          "outdated": 0,
+          "with_elements": 44,
+          "empty": 395,
+          "remaining": 61,
+          "elements": 183,
+          "days": 34,
           "sample": [
-            "DA_CPA88015533",
-            "DA_CPA88015543",
-            "DA_CPA88015547",
-            "DA_CPA88015534",
-            "DA_CPA88015544",
-            "DA_CPA88015548",
-            "DA_CPA88015535",
-            "DA_CPA88015546",
-            "DA_CPA88015536",
-            "DA_CPA88015550",
-            "DA_CPA88015537",
-            "DA_CPA88015551"
+            "DA_CPA89009895",
+            "DA_CPA89009896",
+            "DA_CPA89010143",
+            "DA_CPA89010144",
+            "DA_CPA89010145",
+            "DA_CPA89010146",
+            "DA_CPA89010147",
+            "DA_CPA89010373",
+            "DA_CPA89010374",
+            "DA_CPA89010376",
+            "DA_CPA89010377",
+            "DA_CPA89010378"
           ],
-          "coverage": 0.0
+          "coverage": 87.8
         },
         {
           "year": 1995,
           "indexed": 449,
-          "downloaded": 0,
-          "with_elements": 0,
+          "cached": 449,
+          "current": 449,
+          "outdated": 0,
+          "with_elements": 449,
           "empty": 0,
-          "remaining": 449,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "TV_395.001",
-            "TV_759.001",
-            "TV_785.001",
-            "TV_1167.001",
-            "TV_1190.001",
-            "TV_1360.001",
-            "TV_1371.001",
-            "TV_1851.001",
-            "TV_1930.001",
-            "TV_3305.001",
-            "TV_3382.001",
-            "TV_3606.001"
-          ],
-          "coverage": 0.0
+          "remaining": 0,
+          "elements": 1692,
+          "days": 333,
+          "sample": [],
+          "coverage": 100.0
         },
         {
           "year": 1996,
           "indexed": 366,
-          "downloaded": 0,
-          "with_elements": 0,
-          "empty": 0,
-          "remaining": 366,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "TV_204296.001",
-            "TV_204374.001",
-            "TV_204325.001",
-            "TV_204425.001",
-            "TV_204406.001",
-            "TV_204530.001",
-            "TV_204508.001",
-            "TV_204604.001",
-            "TV_204591.001",
-            "TV_208007.001",
-            "TV_208033.001",
-            "TV_208144.001"
-          ],
-          "coverage": 0.0
+          "cached": 366,
+          "current": 366,
+          "outdated": 0,
+          "with_elements": 365,
+          "empty": 1,
+          "remaining": 0,
+          "elements": 1349,
+          "days": 266,
+          "sample": [],
+          "coverage": 100.0
         },
         {
           "year": 1997,
           "indexed": 140,
-          "downloaded": 0,
-          "with_elements": 0,
+          "cached": 140,
+          "current": 140,
+          "outdated": 0,
+          "with_elements": 140,
           "empty": 0,
-          "remaining": 140,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "TV_483655.001",
-            "TV_483899.001",
-            "TV_484021.001",
-            "TV_484509.001",
-            "TV_484993.001",
-            "TV_496614.001",
-            "TV_497331.001",
-            "TV_504030.001",
-            "TV_504608.001",
-            "TV_507931.001",
-            "TV_508447.001",
-            "TV_509175.001"
-          ],
-          "coverage": 0.0
+          "remaining": 0,
+          "elements": 760,
+          "days": 140,
+          "sample": [],
+          "coverage": 100.0
         }
       ],
       "totals": {
         "indexed": 2028,
-        "downloaded": 0,
-        "with_elements": 0,
-        "empty": 0,
-        "remaining": 2028,
-        "stale": 0,
-        "elements": 0,
-        "days": 0,
-        "coverage": 0.0
+        "cached": 1967,
+        "current": 1967,
+        "outdated": 0,
+        "with_elements": 1168,
+        "empty": 799,
+        "remaining": 61,
+        "elements": 4474,
+        "days": 927,
+        "coverage": 97.0
       }
     },
     {
@@ -200,11 +143,12 @@
       "years": [],
       "totals": {
         "indexed": 0,
-        "downloaded": 0,
+        "cached": 0,
+        "current": 0,
+        "outdated": 0,
         "with_elements": 0,
         "empty": 0,
         "remaining": 0,
-        "stale": 0,
         "elements": 0,
         "days": 0,
         "coverage": 0.0
@@ -218,89 +162,57 @@
         {
           "year": 1987,
           "indexed": 25,
-          "downloaded": 0,
-          "with_elements": 0,
-          "empty": 0,
-          "remaining": 25,
-          "stale": 0,
-          "elements": 0,
-          "days": 0,
-          "sample": [
-            "DA_CPA86014075",
-            "DA_CPA86014229",
-            "DA_CPA87000162",
-            "DA_CPA87000349",
-            "DA_CPA87000548",
-            "DA_CPA87000713",
-            "DA_CPA87000993",
-            "DA_CPA87001239",
-            "DA_CPA87001475",
-            "DA_CPA87001683",
-            "DA_CPA87001939",
-            "DA_CPA87002104"
-          ],
-          "coverage": 0.0
+          "cached": 25,
+          "current": 0,
+          "outdated": 25,
+          "with_elements": 22,
+          "empty": 3,
+          "remaining": 0,
+          "elements": 104,
+          "days": 22,
+          "sample": [],
+          "coverage": 100.0
         }
       ],
       "totals": {
         "indexed": 25,
-        "downloaded": 0,
-        "with_elements": 0,
-        "empty": 0,
-        "remaining": 25,
-        "stale": 0,
-        "elements": 0,
-        "days": 0,
-        "coverage": 0.0
+        "cached": 25,
+        "current": 0,
+        "outdated": 25,
+        "with_elements": 22,
+        "empty": 3,
+        "remaining": 0,
+        "elements": 104,
+        "days": 22,
+        "coverage": 100.0
       }
     }
   ],
+  "orphans": [],
   "totals": {
     "indexed": 2053,
-    "downloaded": 0,
-    "with_elements": 0,
-    "empty": 0,
-    "remaining": 2053,
-    "stale": 0,
-    "elements": 0,
-    "days": 0,
-    "coverage": 0.0
+    "cached": 1992,
+    "current": 1967,
+    "outdated": 25,
+    "with_elements": 1190,
+    "empty": 802,
+    "remaining": 61,
+    "elements": 4578,
+    "days": 949,
+    "coverage": 97.0
   },
   "queue": [
     {
       "program": "Club Dorothée",
       "year": 1989,
-      "remaining": 500
-    },
-    {
-      "program": "Club Dorothée",
-      "year": 1988,
-      "remaining": 482
-    },
-    {
-      "program": "Club Dorothée",
-      "year": 1995,
-      "remaining": 449
-    },
-    {
-      "program": "Club Dorothée",
-      "year": 1996,
-      "remaining": 366
-    },
-    {
-      "program": "Club Dorothée",
-      "year": 1997,
-      "remaining": 140
-    },
-    {
-      "program": "Club Dorothée",
-      "year": 1987,
-      "remaining": 91
-    },
-    {
-      "program": "salut les petits loups",
-      "year": 1987,
-      "remaining": 25
+      "remaining": 61
     }
-  ]
+  ],
+  "health": {
+    "outdated": 25,
+    "orphans": 0,
+    "advice": [
+      "25 notice(s) d'ancienne version : elles sont DÉJÀ en cache. Un rebuild local suffit (0 requête)."
+    ]
+  }
 }

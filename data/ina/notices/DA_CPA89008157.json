@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89008157",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89008157/club-dorothee-vacances-emission-du-10-aout-1989?rang=430",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:25:42.579980",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -12,5 +12,6 @@
   "start": "16:34",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.371813"
 }

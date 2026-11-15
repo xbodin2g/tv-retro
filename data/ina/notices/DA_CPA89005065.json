@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89005065",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89005065/club-dorothee-emission-du-10-mai-1989?rang=79",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:14:09.354804",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,6 @@
     "\"GI Joe : héros sans frontière\"",
     "\"Les Chevaliers du Zodiaque\". \"Bioman : l'ultime combat \"",
     "\"Ken le Survivant\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.351888"
 }

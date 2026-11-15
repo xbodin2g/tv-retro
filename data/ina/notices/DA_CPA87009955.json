@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009955",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009955/club-dorothee-emission-du-23-octobre-1987?rang=11",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:12:04.048070",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "L'équipe propose quelques bandes dessinées"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.206342"
 }

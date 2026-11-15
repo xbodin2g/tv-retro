@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89001705",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89001705/club-dorothee-matin-emission-du-22-fevrier-1989?rang=207",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:05:05.988017",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:44",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.333218"
 }

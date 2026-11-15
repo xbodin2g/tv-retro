@@ -2,7 +2,7 @@
   "notice_id": "TV_395.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_395.001/club-dorothee-programme-du-1er-janvier-1995?rang=183",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:11:20.169915",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,6 @@
     "Malicieuse kiki",
     "Bof"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.530376"
+  "rebuilt_at": "2026-11-12T22:06:46.530376",
+  "normalized_at": "2026-11-15T21:06:15.606942"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006663",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006663/club-dorothee-emission-du-1er-juin-1988?rang=31",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:14:23.280285",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "JACKY SEAU : Jacky reçoit son seau d'eau à 15h 58'29''précise"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.272053"
 }

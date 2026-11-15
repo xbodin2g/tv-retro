@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88013138",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88013138/club-dorothee-emission-du-10-novembre-1988?rang=176",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:54:46.375010",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:53",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.307081"
 }

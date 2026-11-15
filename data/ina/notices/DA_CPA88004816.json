@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88004816",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88004816/club-dorothee-emission-du-18-avril-1988?rang=120",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:35:07.584456",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Annonce d'une nouvelle rubrique : diffusion de clips et de chansons, à la demande des jeunes téléspectateurs ; exemple : le premier clip diffusé est la chanson de la série \"Bioman\"."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.245469"
 }

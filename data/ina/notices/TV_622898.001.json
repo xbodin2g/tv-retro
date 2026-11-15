@@ -2,7 +2,7 @@
   "notice_id": "TV_622898.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_622898.001/club-dorothee-programme-du-12-juillet-1997?rang=49",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:36:53.295153",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -31,5 +31,6 @@
     "Le rêve de Jeannie",
     "Les jumeaux du bout du monde"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.657217"
+  "rebuilt_at": "2026-11-12T22:06:46.657217",
+  "normalized_at": "2026-11-15T21:06:15.728219"
 }

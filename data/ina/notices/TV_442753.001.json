@@ -2,7 +2,7 @@
   "notice_id": "TV_442753.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_442753.001/super-club-dorothee-programme-du-6-novembre-1996?rang=314",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:39:37.237346",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -33,5 +33,6 @@
     "Power Rangers",
     "Salut les Musclés"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.557210"
+  "rebuilt_at": "2026-11-12T22:06:46.557210",
+  "normalized_at": "2026-11-15T21:06:15.630768"
 }

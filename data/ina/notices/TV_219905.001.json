@@ -2,7 +2,7 @@
   "notice_id": "TV_219905.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_219905.001/club-dorothee-programme-du-22-janvier-1996?rang=155",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:23:56.356747",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Drôle de vie"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.385308"
+  "rebuilt_at": "2026-11-12T22:06:46.385308",
+  "normalized_at": "2026-11-15T21:06:15.479467"
 }

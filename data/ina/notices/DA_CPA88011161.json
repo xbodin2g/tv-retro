@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88011161",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88011161/club-dorothee-matin-emission-du-4-octobre-1988?rang=248",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:51:27.005697",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:42",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.298985"
 }

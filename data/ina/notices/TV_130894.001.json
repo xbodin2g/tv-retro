@@ -2,7 +2,7 @@
   "notice_id": "TV_130894.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_130894.001/club-dorothee-programme-du-20-septembre-1995?rang=130",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:36:21.620967",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -31,5 +31,6 @@
     "Sailor Moon",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.314600"
+  "rebuilt_at": "2026-11-12T22:06:46.314600",
+  "normalized_at": "2026-11-15T21:06:15.410364"
 }

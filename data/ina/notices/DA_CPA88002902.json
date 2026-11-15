@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002902",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002902/club-dorothee-emission-du-15-mars-1988?rang=69",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:08:43.350960",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
   "elements": [
     ", \"Et si un jour\"",
     ", \"Gigi\" : \"un jeu de fillette\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.239267"
 }

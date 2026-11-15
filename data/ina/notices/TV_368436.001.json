@@ -2,7 +2,7 @@
   "notice_id": "TV_368436.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_368436.001/club-dorothee-vacances-programme-du-30-juillet-1996?rang=219",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:35:01.887115",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,6 @@
     "Parker Lewis ne perd jamais",
     "Premiers baisers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.503385"
+  "rebuilt_at": "2026-11-12T22:06:46.503385",
+  "normalized_at": "2026-11-15T21:06:15.582311"
 }

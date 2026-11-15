@@ -2,7 +2,7 @@
   "notice_id": "TV_468207.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_468207.001/club-dorothee-programme-du-13-decembre-1996?rang=128",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:41:46.531628",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Salut les Musclés : la gangsteuse"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.573514"
+  "rebuilt_at": "2026-11-12T22:06:46.573514",
+  "normalized_at": "2026-11-15T21:06:15.645739"
 }

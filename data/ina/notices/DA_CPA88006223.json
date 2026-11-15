@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006223",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006223/club-dorothee-matin-emission-du-10-mai-1988?rang=334",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:11:49.376489",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Nouvelle émission pour les enfants diffusée le matin à 7 heures 30, sur le même principe que les autres émissions de Dorothée"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.252858"
 }

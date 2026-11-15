@@ -2,7 +2,7 @@
   "notice_id": "TV_85932.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_85932.001/club-dorothee-vacances-programme-du-5-juillet-1995?rang=448",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:28:20.748865",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,6 @@
     "Nick Larson",
     "Les Z'invincibles"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.705646"
+  "rebuilt_at": "2026-11-12T22:06:46.705646",
+  "normalized_at": "2026-11-15T21:06:15.783351"
 }

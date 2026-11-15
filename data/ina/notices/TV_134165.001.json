@@ -2,7 +2,7 @@
   "notice_id": "TV_134165.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_134165.001/club-dorothee-programme-du-23-septembre-1995?rang=40",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:36:37.697152",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,6 @@
     "Inspecteur Gadget",
     "Jacky show"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.315874"
+  "rebuilt_at": "2026-11-12T22:06:46.315874",
+  "normalized_at": "2026-11-15T21:06:15.411582"
 }

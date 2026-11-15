@@ -2,7 +2,7 @@
   "notice_id": "TV_557060.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_557060.001/club-dorothee-vacances-programme-du-8-avril-1997?rang=76",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:32:43.969460",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,6 @@
     "Juliette",
     "Nick Larson"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.620922"
+  "rebuilt_at": "2026-11-12T22:06:46.620922",
+  "normalized_at": "2026-11-15T21:06:15.692427"
 }

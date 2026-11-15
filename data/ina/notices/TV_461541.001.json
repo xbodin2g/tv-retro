@@ -2,7 +2,7 @@
   "notice_id": "TV_461541.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_461541.001/club-dorothee-programme-du-5-decembre-1996?rang=103",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:41:14.765905",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Salut les Musclés : la Saint Valentin"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.568987"
+  "rebuilt_at": "2026-11-12T22:06:46.568987",
+  "normalized_at": "2026-11-15T21:06:15.641821"
 }

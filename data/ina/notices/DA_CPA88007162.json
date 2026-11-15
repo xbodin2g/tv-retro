@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88007162",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88007162/club-dorothee-emission-du-15-juin-1988?rang=35",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:15:35.279222",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Achats : \"Les chevaliers du zodiaque\", \"Goldorak\", \"Silverhawks\", feuilletons \"Spielvan\" (Helen est de retour), \"Bioman\" (2ème épisode)"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.276069"
 }

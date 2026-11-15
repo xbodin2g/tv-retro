@@ -2,7 +2,7 @@
   "notice_id": "TV_108097.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_108097.001/club-dorothee-vacances-programme-du-16-aout-1995?rang=340",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:32:37.082967",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -41,5 +41,6 @@
     "Reporter blues",
     "Salut les Musclés"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.292448"
+  "rebuilt_at": "2026-11-12T22:06:46.292448",
+  "normalized_at": "2026-11-15T21:06:15.390185"
 }

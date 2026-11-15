@@ -2,7 +2,7 @@
   "notice_id": "TV_21279.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_21279.001/club-dorothee-matin-programme-du-15-fevrier-1995?rang=391",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:15:10.822095",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -41,5 +41,6 @@
     "Fly",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.382371"
+  "rebuilt_at": "2026-11-12T22:06:46.382371",
+  "normalized_at": "2026-11-15T21:06:15.476580"
 }

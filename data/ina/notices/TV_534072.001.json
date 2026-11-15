@@ -2,7 +2,7 @@
   "notice_id": "TV_534072.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_534072.001/club-dorothee-vacances-programme-du-20-fevrier-1997?rang=65",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:30:49.220568",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -35,5 +35,6 @@
     "Robocop",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.606713"
+  "rebuilt_at": "2026-11-12T22:06:46.606713",
+  "normalized_at": "2026-11-15T21:06:15.678306"
 }

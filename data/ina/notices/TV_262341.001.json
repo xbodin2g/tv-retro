@@ -2,7 +2,7 @@
   "notice_id": "TV_262341.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_262341.001/club-dorothee-vacances-programme-du-5-mars-1996?rang=395",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:27:36.579158",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -40,5 +40,6 @@
     "Nick Larson",
     "Pas de pitié pour les croissants"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.411882"
+  "rebuilt_at": "2026-11-12T22:06:46.411882",
+  "normalized_at": "2026-11-15T21:06:15.503592"
 }

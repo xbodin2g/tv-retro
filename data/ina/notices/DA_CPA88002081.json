@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002081",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002081/club-dorothee-vacances-emission-du-26-fevrier-1988?rang=361",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:07:49.785728",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -19,5 +19,6 @@
   "elements": [
     "Décor de chalet de montagne. CORBIER brandit une pancarte \"Plus que 4 jours avant l'heureux jour\" et refuse d'en dévoiler l'explication",
     "Dessins animés : \"Gigi\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.235638"
 }

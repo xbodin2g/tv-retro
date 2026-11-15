@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88005125",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88005125/club-dorothee-emission-du-28-avril-1988?rang=108",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:11:13.878772",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -25,5 +25,6 @@
     ", \"Mon petit poney\", animation",
     ", \"Candy\" (achat), \"Dragon ball\" (achat)",
     ", \"Spielvan\" : \"Un gouvernement d'ANDRO. Des sur la terre\", (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.247315"
 }

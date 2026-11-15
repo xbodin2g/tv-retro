@@ -2,7 +2,7 @@
   "notice_id": "TV_210166.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_210166.001/club-dorothee-programme-du-17-janvier-1996?rang=164",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:23:46.012030",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -34,5 +34,6 @@
     "Un garçon formidable",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.378889"
+  "rebuilt_at": "2026-11-12T22:06:46.378889",
+  "normalized_at": "2026-11-15T21:06:15.473223"
 }

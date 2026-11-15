@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014388",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014388/club-dorothee-emission-du-7-decembre-1988?rang=184",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:57:20.386934",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "JEUX : \"le mot mystérieux\",\"Tu chantes, tu gagnes \",\" Le jacky seau \",\" Le jeu de l'abc \",\" le top junior \""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.311080"
 }

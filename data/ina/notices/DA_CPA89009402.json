@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89009402",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89009402/club-dorothee-emission-du-18-septembre-1989?rang=117",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T19:08:38.425707",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:57",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.377054"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002062",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002062/club-dorothee-vacances-emission-du-22-fevrier-1988?rang=328",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:07:22.259388",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -19,5 +19,6 @@
   "elements": [
     "Dessin animé : \"Gigi\"",
     "Clip : Jacky chante \"Tout augmente sauf l'amour\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.234451"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89004012",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89004012/club-dorothee-matin-emission-du-21-avril-1989?rang=238",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:12:03.012614",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:44",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.346841"
 }

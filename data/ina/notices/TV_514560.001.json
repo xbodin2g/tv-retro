@@ -2,7 +2,7 @@
   "notice_id": "TV_514560.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_514560.001/club-dorothee-programme-du-8-fevrier-1997?rang=2",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:30:06.203267",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "Le rêve de Jeanie",
     "Les Minipouss"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.598511"
+  "rebuilt_at": "2026-11-12T22:06:46.598511",
+  "normalized_at": "2026-11-15T21:06:15.670214"
 }

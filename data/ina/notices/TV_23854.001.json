@@ -2,7 +2,7 @@
   "notice_id": "TV_23854.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_23854.001/club-dorothee-programme-du-22-fevrier-1995?rang=161",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:16:01.658919",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -40,5 +40,6 @@
     "La Croisière Foll'Amour",
     "Arnold et Willy"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.397471"
+  "rebuilt_at": "2026-11-12T22:06:46.397471",
+  "normalized_at": "2026-11-15T21:06:15.490286"
 }

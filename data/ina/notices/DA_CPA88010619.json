@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88010619",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88010619/club-dorothee-emission-du-23-septembre-1988?rang=167",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:50:51.535685",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:46",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.297459"
 }

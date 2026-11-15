@@ -2,7 +2,7 @@
   "notice_id": "TV_172758.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_172758.001/club-dorothee-programme-du-20-novembre-1995?rang=109",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:46:44.169183",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,5 +21,6 @@
     "[Plateau",
     "Salut les musclés : les mains dans la farine"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.351375"
+  "rebuilt_at": "2026-11-12T22:06:46.351375",
+  "normalized_at": "2026-11-15T21:06:15.447828"
 }

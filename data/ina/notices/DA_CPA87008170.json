@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008170",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008170/club-dorothee-emission-du-10-septembre-1987?rang=1",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:09:52.229305",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Dorothée et ses amis présentent l'émission et parlent de celle de Jacky"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.197499"
 }

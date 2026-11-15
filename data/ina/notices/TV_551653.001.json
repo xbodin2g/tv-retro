@@ -2,7 +2,7 @@
   "notice_id": "TV_551653.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_551653.001/club-dorothee-programme-du-31-mars-1997?rang=20",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:32:27.435413",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -35,5 +35,6 @@
     "Les filles d'à côté : un gros chagrin",
     "Ici bébé : le clip"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.617967"
+  "rebuilt_at": "2026-11-12T22:06:46.617967",
+  "normalized_at": "2026-11-15T21:06:15.689612"
 }

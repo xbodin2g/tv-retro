@@ -2,7 +2,7 @@
   "notice_id": "TV_561298.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_561298.001/club-dorothee-vacances-programme-du-16-avril-1997?rang=73",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:33:11.530147",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,6 @@
     "Sailor Moon",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.624889"
+  "rebuilt_at": "2026-11-12T22:06:46.624889",
+  "normalized_at": "2026-11-15T21:06:15.696048"
 }

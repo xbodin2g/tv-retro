@@ -2,7 +2,7 @@
   "notice_id": "TV_147933.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_147933.001/club-dorothee-programme-du-14-octobre-1995?rang=32",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:38:40.480774",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,6 @@
     "Inspecteur Gadget : le parc d'actraction",
     "Jacky show"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.330261"
+  "rebuilt_at": "2026-11-12T22:06:46.330261",
+  "normalized_at": "2026-11-15T21:06:15.425826"
 }

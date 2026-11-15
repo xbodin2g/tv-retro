@@ -2,7 +2,7 @@
   "notice_id": "TV_52311.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_52311.001/club-dorothee-vacances-programme-du-22-avril-1995?rang=498",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:22:25.459165",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -29,5 +29,6 @@
     "Power Rangers",
     "Jacky show"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.602756"
+  "rebuilt_at": "2026-11-12T22:06:46.602756",
+  "normalized_at": "2026-11-15T21:06:15.674675"
 }

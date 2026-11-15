@@ -2,7 +2,7 @@
   "notice_id": "TV_639101.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_639101.001/club-dorothee-vacances-programme-du-6-aout-1997?rang=146",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:38:33.088347",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -42,5 +42,6 @@
     "Les Chevaliers du Zodiaque",
     "Animaux en liberté"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.672107"
+  "rebuilt_at": "2026-11-12T22:06:46.672107",
+  "normalized_at": "2026-11-15T21:06:15.743824"
 }

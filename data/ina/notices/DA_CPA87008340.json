@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008340",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008340/club-dorothee-emission-du-17-septembre-1987?rang=22",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:10:13.428887",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "L'émission se compose du dessin animé \"Clair de lune\" et du vidéoclip \"Les Bisounours\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.199105"
 }

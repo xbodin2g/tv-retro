@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88009242",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88009242/club-dorothee-vacances-emission-du-23-aout-1988?rang=231",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:47:27.856297",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -12,5 +12,6 @@
   "start": "09:40",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.291660"
 }

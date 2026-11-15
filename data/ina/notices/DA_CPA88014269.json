@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014269",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014269/club-dorothee-matin-emission-du-30-novembre-1988?rang=411",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:56:43.189494",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:41",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.308537"
 }

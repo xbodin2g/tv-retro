@@ -2,7 +2,7 @@
   "notice_id": "TV_576156.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_576156.001/club-dorothee-programme-du-26-avril-1997?rang=23",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:33:51.701252",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "Le rêve de Jeanie",
     "Conan l'aventurier"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.632032"
+  "rebuilt_at": "2026-11-12T22:06:46.632032",
+  "normalized_at": "2026-11-15T21:06:15.703510"
 }

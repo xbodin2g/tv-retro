@@ -2,7 +2,7 @@
   "notice_id": "TV_504030.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_504030.001/club-dorothee-programme-du-18-janvier-1997?rang=8",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:29:40.820090",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -27,5 +27,6 @@
     "Je rêve de Jeanie",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.593124"
+  "rebuilt_at": "2026-11-12T22:06:46.593124",
+  "normalized_at": "2026-11-15T21:06:15.664785"
 }

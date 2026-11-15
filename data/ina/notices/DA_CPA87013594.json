@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87013594",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013594/club-dorothee-emission-du-8-janvier-1988?rang=56",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:32:58.668171",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:41",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.223031"
 }

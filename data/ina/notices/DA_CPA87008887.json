@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008887",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008887/club-dorothee-emission-du-1er-octobre-1987?rang=69",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:10:54.724297",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Dessin animé : \"Clair de lune : Le voleur de rêves\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.202354"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008883",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008883/club-dorothee-emission-du-29-septembre-1987?rang=24",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:10:45.321902",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "L'équipe du Club décrit le contenu de l'"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.201429"
 }

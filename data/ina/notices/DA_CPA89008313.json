@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89008313",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89008313/club-dorothee-matin-emission-du-16-aout-1989?rang=308",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:26:18.308025",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:43",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.372143"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89007393",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89007393/club-dorothee-vacances-emission-du-17-juillet-1989?rang=418",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:22:16.733004",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -12,5 +12,6 @@
   "start": "08:56",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.366008"
 }

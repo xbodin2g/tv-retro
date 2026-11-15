@@ -2,7 +2,7 @@
   "notice_id": "TV_69170.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_69170.001/club-dorothee-programme-du-30-mai-1995?rang=227",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:26:08.271395",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "La vie de famille"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.689731"
+  "rebuilt_at": "2026-11-12T22:06:46.689731",
+  "normalized_at": "2026-11-15T21:06:15.761420"
 }

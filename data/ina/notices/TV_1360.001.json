@@ -2,7 +2,7 @@
   "notice_id": "TV_1360.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_1360.001/club-dorothee-noel-programme-du-4-janvier-1995?rang=427",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:11:40.868740",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -46,5 +46,6 @@
     "Power Rangers",
     "Salut les Musclés"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.319406"
+  "rebuilt_at": "2026-11-12T22:06:46.319406",
+  "normalized_at": "2026-11-15T21:06:15.415293"
 }

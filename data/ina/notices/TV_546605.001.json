@@ -2,7 +2,7 @@
   "notice_id": "TV_546605.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_546605.001/club-dorothee-programme-du-26-mars-1997?rang=15",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:32:19.392925",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -33,5 +33,6 @@
     "Sailor Moon",
     "Power Rangers"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.615029"
+  "rebuilt_at": "2026-11-12T22:06:46.615029",
+  "normalized_at": "2026-11-15T21:06:15.686655"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_648994.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_648994.001/club-dorothee-vacances-programme-du-20-aout-1997?rang=150",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T21:39:22.487358",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -42,5 +42,6 @@
     "Les Chevaliers du Zodiaque",
     "Animaux rescapés"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.679468"
+  "rebuilt_at": "2026-11-12T22:06:46.679468",
+  "normalized_at": "2026-11-15T21:06:15.751721"
 }

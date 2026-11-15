@@ -1,63 +1,58 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-15 à 20:27:59 — parser v4_
+_Généré le 2026-11-15 à 21:06:15 — parser v5_
 
-Une notice est **en cache** dès qu'elle est parsée, même sans œuvre. `Reste` = notices indexées non téléchargées.
+> **En cache = le fichier de la notice existe.** La version ne force jamais de re-téléchargement ;
+> les notices d'ancienne version sont re-normalisées localement (0 requête).
 
 ## Total
 
-- Notices indexées : **2053**
-- En cache : **0** (0.0 %)
-- Avec œuvres : **0** · sans œuvre : 0
-- Œuvres relevées : **0**
-- **Reste à télécharger : 2053**
+- Indexées : **2053** · En cache : **1992** (97.0 %)
+- Version courante : 1967 · à re-normaliser : 25
+- Avec œuvres : **1190** · sans œuvre : 802
+- Œuvres relevées : **4578** · jours couverts : 949
+- **Reste à télécharger : 61**
 
 ## Par émission
 
-| Émission | Indexées | Cache | Avec œuvres | Reste | Couverture |
+| Émission | Indexées | Cache | Œuvrées | Reste | % |
 |---|---:|---:|---:|---:|---:|
-| Club Dorothée | 2028 | 0 | 0 | 2028 | 0.0 % |
-| salut les petits loups | 25 | 0 | 0 | 25 | 0.0 % |
+| Club Dorothée | 2028 | 1967 | 1168 | 61 | 97.0 % |
 | Amuse 3 | 0 | 0 | 0 | 0 | 0.0 % |
 | Récré A2 | 0 | 0 | 0 | 0 | 0.0 % |
+| salut les petits loups | 25 | 25 | 22 | 0 | 100.0 % |
 
 ## Détail par année
 
 ### Amuse 3
 
-| Année | Indexées | Cache | Avec œuvres | Sans œuvre | Reste | Œuvres | Jours |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| Année | Indexées | Cache | v courante | Ancienne | Œuvrées | Sans œuvre | Reste | Œuvres | Jours |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 
 ### Club Dorothée
 
-| Année | Indexées | Cache | Avec œuvres | Sans œuvre | Reste | Œuvres | Jours |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| 1987 | 91 | 0 | 0 | 0 | 91 | 0 | 0 |
-| 1988 | 482 | 0 | 0 | 0 | 482 | 0 | 0 |
-| 1989 | 500 | 0 | 0 | 0 | 500 | 0 | 0 |
-| 1995 | 449 | 0 | 0 | 0 | 449 | 0 | 0 |
-| 1996 | 366 | 0 | 0 | 0 | 366 | 0 | 0 |
-| 1997 | 140 | 0 | 0 | 0 | 140 | 0 | 0 |
+| Année | Indexées | Cache | v courante | Ancienne | Œuvrées | Sans œuvre | Reste | Œuvres | Jours |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1987 | 91 | 91 | 91 | 0 | 64 | 27 | 0 | 166 | 62 |
+| 1988 | 482 | 482 | 482 | 0 | 106 | 376 | 0 | 324 | 92 |
+| 1989 | 500 | 439 | 439 | 0 | 44 | 395 | 61 | 183 | 34 |
+| 1995 | 449 | 449 | 449 | 0 | 449 | 0 | 0 | 1692 | 333 |
+| 1996 | 366 | 366 | 366 | 0 | 365 | 1 | 0 | 1349 | 266 |
+| 1997 | 140 | 140 | 140 | 0 | 140 | 0 | 0 | 760 | 140 |
 
 ### Récré A2
 
-| Année | Indexées | Cache | Avec œuvres | Sans œuvre | Reste | Œuvres | Jours |
-|---|---:|---:|---:|---:|---:|---:|---:|
+| Année | Indexées | Cache | v courante | Ancienne | Œuvrées | Sans œuvre | Reste | Œuvres | Jours |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 
 ### salut les petits loups
 
-| Année | Indexées | Cache | Avec œuvres | Sans œuvre | Reste | Œuvres | Jours |
-|---|---:|---:|---:|---:|---:|---:|---:|
-| 1987 | 25 | 0 | 0 | 0 | 25 | 0 | 0 |
+| Année | Indexées | Cache | v courante | Ancienne | Œuvrées | Sans œuvre | Reste | Œuvres | Jours |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 1987 | 25 | 25 | 0 | 25 | 22 | 3 | 0 | 104 | 22 |
 
 ## Prochains runs conseillés
 
 | Émission | Année | Reste | Runs à 400 |
 |---|---|---:|---:|
-| Club Dorothée | 1989 | 500 | 2 |
-| Club Dorothée | 1988 | 482 | 2 |
-| Club Dorothée | 1995 | 449 | 2 |
-| Club Dorothée | 1996 | 366 | 1 |
-| Club Dorothée | 1997 | 140 | 1 |
-| Club Dorothée | 1987 | 91 | 1 |
-| salut les petits loups | 1987 | 25 | 1 |
+| Club Dorothée | 1989 | 61 | 1 |

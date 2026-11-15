@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006230",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006230/club-dorothee-matin-emission-du-11-mai-1988?rang=269",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:11:57.110184",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -24,5 +24,6 @@
     "Diffusion de \"Rémi\" (DA) et \"Punky Brewster\" (feuilleton)",
     "Dessin de GEDEBE",
     "Arrivée de Carlos et explications de jeux"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.253217"
 }

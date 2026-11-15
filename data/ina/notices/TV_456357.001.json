@@ -2,7 +2,7 @@
   "notice_id": "TV_456357.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_456357.001/club-dorothee-programme-du-28-novembre-1996?rang=123",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:40:54.467303",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Salut les Musclés : beeeh"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.566576"
+  "rebuilt_at": "2026-11-12T22:06:46.566576",
+  "normalized_at": "2026-11-15T21:06:15.639550"
 }

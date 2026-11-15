@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88003937",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88003937/club-dorothee-vacances-emission-du-8-avril-1988?rang=367",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:34:48.592216",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Diffusion d'un épisode des feuilletons suivants : Visionaries, GI Joe, Spielman, Dragon Ball. Plateau : recherche de la phrase mystérieuse."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.243915"
 }

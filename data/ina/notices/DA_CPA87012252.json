@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87012252",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012252/club-dorothee-emission-du-8-decembre-1987?rang=19",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:14:36.573057",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire : DA \"Mon petit poney\". Jeu de la chanson Dorothée"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.215012"
 }

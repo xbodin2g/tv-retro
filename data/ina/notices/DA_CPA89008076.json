@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89008076",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89008076/club-dorothee-matin-emission-du-7-aout-1989?rang=425",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:25:05.372106",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -22,5 +22,6 @@
     "LE JEU DU NOMBRE D'OR : le 1",
     "LE JARDIN DES CHANSONS",
     "DESSINS ANIMES : \"Candy\", \"DISNEY CLASSIQUE\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.370041"
 }

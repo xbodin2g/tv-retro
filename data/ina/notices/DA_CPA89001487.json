@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89001487",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89001487/club-dorothee-vacances-emission-du-17-fevrier-1989?rang=354",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:04:39.115720",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -12,5 +12,6 @@
   "start": "16:30",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.332424"
 }

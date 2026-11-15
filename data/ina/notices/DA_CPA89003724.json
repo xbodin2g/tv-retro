@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89003724",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89003724/club-dorothee-vacances-emission-du-3-avril-1989?rang=226",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:09:31.853185",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -24,5 +24,6 @@
     "Les Chevaliers du Zodiaque",
     "\"Mes tendres années\"",
     "Document d'archives : les Musclés chantent \"La fête au village\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.344649"
 }

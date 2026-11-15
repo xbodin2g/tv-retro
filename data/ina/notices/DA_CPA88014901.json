@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014901",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014901/club-dorothee-matin-emission-du-20-decembre-1988?rang=384",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:58:49.174439",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:43",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.313188"
 }

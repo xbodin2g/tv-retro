@@ -2,7 +2,7 @@
   "notice_id": "TV_436373.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_436373.001/club-dorothee-vacances-programme-du-1-novembre-1996?rang=311",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T19:39:26.714844",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -43,5 +43,6 @@
     "Power Rangers",
     "La croisière foll amour : vampires and Co"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.554020"
+  "rebuilt_at": "2026-11-12T22:06:46.554020",
+  "normalized_at": "2026-11-15T21:06:15.627826"
 }

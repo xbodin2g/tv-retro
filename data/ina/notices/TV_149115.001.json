@@ -2,7 +2,7 @@
   "notice_id": "TV_149115.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_149115.001/club-dorothee-programme-du-17-octobre-1995?rang=56",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:38:52.420853",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Salut les musclés : les musclettes balls"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.331208"
+  "rebuilt_at": "2026-11-12T22:06:46.331208",
+  "normalized_at": "2026-11-15T21:06:15.426757"
 }

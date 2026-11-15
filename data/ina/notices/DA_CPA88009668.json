@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88009668",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88009668/club-dorothee-vacances-emission-du-29-aout-1988?rang=307",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:26:33.050859",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "MADAME SOLEIL donne l'état du ciel astral des enfants \"Bélier\" et des conseils aux parents"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.293040"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88015535",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88015535/club-dorothee-matin-emission-du-4-janvier-1989?rang=182",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T19:59:19.591655",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -12,5 +12,6 @@
   "start": "07:40",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.320761"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008164",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008164/club-dorothee-emission-du-7-septembre-1987?rang=48",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:09:40.494637",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Caliméro"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.196191"
 }

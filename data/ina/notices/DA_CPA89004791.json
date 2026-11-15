@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89004791",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89004791/club-dorothee-emission-du-4-mai-1989?rang=22",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:13:38.134819",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:38",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.350720"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89008957",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89008957/club-dorothee-emission-du-6-septembre-1989?rang=114",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T19:08:05.743602",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   ],
   "elements": [
     "Au sommaire"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.376209"
 }

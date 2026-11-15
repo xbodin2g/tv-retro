@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009951",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009951/club-dorothee-emission-du-20-octobre-1987?rang=9",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:11:51.450099",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "CORBIER présente une méthode de guitare électrique à SIMPSON-JONES ; Ariane donne les programmes du lendemain mercredi"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.205591"
 }

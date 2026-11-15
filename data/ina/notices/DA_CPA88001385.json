@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001385",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001385/club-dorothee-vacances-emission-du-12-fevrier-1988?rang=358",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:06:21.054837",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -28,5 +28,6 @@
     "Jeu de la photo mystère",
     "Clip \"La bamba\"",
     "Bomber X (d.A.): achat"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.229930"
 }

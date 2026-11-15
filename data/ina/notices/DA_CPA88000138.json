@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88000138",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88000138/club-dorothee-emission-du-22-janvier-1988?rang=95",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:04:57.646354",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   "elements": [
     "Diffusion d'un épisode du Petit Poney",
     "Vidéoclip de Dorothée \"Docteur\""
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.225516"
 }

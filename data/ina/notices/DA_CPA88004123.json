@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88004123",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88004123/club-dorothee-emission-du-13-avril-1988?rang=104",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T16:10:29.643754",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "Au sommaire de l'après midi",
     "Des jeux : le Joué Club, le gâteau d'anniversaire Papy BROSSARD, le Jacky Seau et le Top Junior"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.244901"
 }

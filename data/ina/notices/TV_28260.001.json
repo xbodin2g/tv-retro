@@ -2,7 +2,7 @@
   "notice_id": "TV_28260.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_28260.001/club-dorothee-vacances-programme-du-03-mars-1995?rang=384",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:17:21.769031",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,6 @@
     "Nick Larson",
     "Salut les Musclés"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.453479"
+  "rebuilt_at": "2026-11-12T22:06:46.453479",
+  "normalized_at": "2026-11-15T21:06:15.531839"
 }

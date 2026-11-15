@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88004124",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88004124/club-dorothee-vacances-emission-du-14-avril-1988?rang=333",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T17:35:00.476270",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Jacky s'exprime en morse, CORBIER présente le livre \"Saperlipopette\", écrit par un instituteur, Patrick présente le \"guide Pélican de la météo\". Le reste de l'émission se compose d'un feuilleton et d'un dessin animé (achats)."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.245066"
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_76524.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_76524.001/club-dorothee-programme-du-20-juin-1995?rang=205",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T20:27:41.128396",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,5 +19,6 @@
     "[Plateau",
     "Arnold et Willy : [Hollywood nous voilà)"
   ],
-  "rebuilt_at": "2026-11-12T22:06:46.699658"
+  "rebuilt_at": "2026-11-12T22:06:46.699658",
+  "normalized_at": "2026-11-15T21:06:15.777188"
 }

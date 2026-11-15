@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011854",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011854/club-dorothee-emission-du-1er-decembre-1987?rang=17",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:14:18.463912",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Jacky et les autres présentent le dessin animé \"Mon petit poney\" (\"Pauvre de moi \"), et le clip de Dorothée"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:06:15.213647"
 }

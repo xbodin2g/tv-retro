@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89005531",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89005531/club-dorothee-emission-du-23-mai-1989?rang=27",
   "source": "ina",
-  "parser_version": 4,
+  "parser_version": 5,
   "scraped_at": "2026-11-15T20:15:16.843810",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -12,5 +12,6 @@
   "start": "16:58",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-15T21:06:15.353699"
 }
