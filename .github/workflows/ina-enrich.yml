@@ -1,15 +1,16 @@
 name: 🏛️ INA Enrich
+run-name: 🏛️ ${{ inputs.program_custom || inputs.program }} · ${{ inputs.year }} · ${{ inputs.mode }}
 
 on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "① ACTION — all = moisson | targets = crée le registre des cibles (0 req) | report-only = tableau | diagnose | rebuild | index-only | notices-only"
+        description: "① ACTION — all = moisson | targets = registre (0 req) | report-only = tableau | diagnose | rebuild | index-only | notices-only"
         type: choice
         default: all
         options: [all, targets, report-only, diagnose, rebuild, index-only, notices-only]
       program:
-        description: "② ÉMISSION"
+        description: "② ÉMISSION (menu) — ignorée si ③ est rempli"
         type: choice
         default: Club Dorothée
         options:
@@ -47,18 +48,39 @@ on:
           - Premiers baisers
           - Les années fac
           - Cellulo
-      program_custom: {description: "③ ÉMISSION AUTRE — remplace le menu si rempli", type: string, default: ""}
+      program_custom:
+        description: "③ ÉMISSION EXACTE — prioritaire sur le menu (utilisé par le tableau de bord)"
+        type: string
+        default: ""
       year:
         description: "④ ANNÉE — 'toutes' balaye la plage de l'émission"
         type: choice
         default: "1989"
         options: ["1989","1988","1987","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971","1970","toutes"]
-      max_notices: {description: "⑤ NOTICES MAX ce run — 0 = illimité", type: choice, default: "400", options: ["400","200","600","1000","0"]}
-      retry_empty: {description: "⑥ Retenter celles sans œuvre", type: boolean, default: false}
-      refresh_stale: {description: "⑦ Re-télécharger les anciennes versions (rarement utile)", type: boolean, default: false}
+      max_notices:
+        description: "⑤ NOTICES MAX ce run — 0 = illimité"
+        type: choice
+        default: "400"
+        options: ["400","200","600","1000","0"]
+      retry_empty:
+        description: "⑥ Retenter celles sans œuvre"
+        type: boolean
+        default: false
+      refresh_stale:
+        description: "⑦ Re-télécharger les anciennes versions (rarement utile)"
+        type: boolean
+        default: false
+      origin:
+        description: "⑧ ORIGINE — manual | dashboard (traçabilité)"
+        type: string
+        default: manual
 
-concurrency: {group: ina-enrich, cancel-in-progress: false}
-permissions: {contents: write}
+concurrency:
+  group: ina-enrich
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   enrich:
@@ -96,11 +118,11 @@ jobs:
               ;;
           esac
           case "$M" in targets|report-only) ;; *) [ "$Y" != "toutes" ] && ARGS+=(--year "$Y") ;; esac
-          printf '%s\n' "─────────────────────────────" "Action : $M" "Émission : $PROGRAM" "Année : $Y" "Max : $N" "─────────────────────────────"
+          printf '%s\n' "─────────────────────────────" "Action : $M" "Émission : $PROGRAM" "Année : $Y" "Max : $N" "Origine : ${{ github.event.inputs.origin }}" "─────────────────────────────"
           python scraper/ina_catalogue_scraper.py "${ARGS[@]}"
       - name: 💾 Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ina
-          git diff --staged --quiet || (git commit -m "chore(ina): ${{ github.event.inputs.mode }} ${{ github.event.inputs.program }} ${{ github.event.inputs.year }}" && git push)
+          git diff --staged --quiet || (git commit -m "chore(ina): ${{ github.event.inputs.mode }} ${{ github.event.inputs.program_custom || github.event.inputs.program }} ${{ github.event.inputs.year }}" && git push)
