@@ -32,7 +32,7 @@
 <main class="wrap">
   <div class="banner" id="demo-banner" hidden></div>
 
-  <section class="stats" id="stats">
+  <section class="stats">
     <div class="stat s1"><b id="stat-programs">—</b><span>programmes</span></div>
     <div class="stat s2"><b id="stat-shows">—</b><span>émissions</span></div>
     <div class="stat s3"><b id="stat-years">—</b><span>années</span></div>
@@ -81,8 +81,12 @@
 
 <div class="scrim" id="drawer-scrim" hidden></div>
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="dr-title">
-  <header class="drawer-head"><div><h2 id="dr-title">Éditer</h2><p class="status" id="dr-sub"></p></div><button class="icon" id="dr-close" type="button" aria-label="Fermer">✕</button></header>
-  <div class="drawer-body">
+  <header class="drawer-head">
+    <div><h2 id="dr-title">Éditer</h2><p class="status" id="dr-sub"></p></div>
+    <button class="icon" id="dr-close" type="button" aria-label="Fermer">✕</button>
+  </header>
+
+  <div class="drawer-body" id="drawer-body">
     <div class="grid2">
       <div class="field"><label for="ed-date">Date</label><input id="ed-date" placeholder="JJ-MM-AAAA"></div>
       <div class="field"><label for="ed-time">Heure</label><input id="ed-time" placeholder="HH:MM"></div>
@@ -91,18 +95,36 @@
     </div>
     <div class="field"><label for="ed-name">Titre</label><input id="ed-name"></div>
     <div class="field"><label for="ed-desc">Description</label><textarea id="ed-desc" rows="2"></textarea></div>
-    <div class="el-head">
-      <strong>Détails / œuvres</strong>
-      <label class="radio"><input type="radio" name="ed-mode" value="merge" checked> Fusionner</label>
-      <label class="radio"><input type="radio" name="ed-mode" value="replace"> Remplacer</label>
-      <label class="radio lock"><input type="checkbox" id="ed-locked"> 🔒 Ignorer l'INA</label>
-    </div>
-    <p class="hint" id="el-hint">Glisse ⠿ pour réordonner.</p>
-    <div class="elements" id="ed-elements"></div>
-    <div class="el-add"><input id="ed-new" placeholder="Ajouter une œuvre — ex. Dragon Ball Z"><button class="btn small" id="btn-add-el" type="button">➕</button><button class="btn small ghost" id="btn-origin" type="button" title="Recharger les détails d'origine">↺</button></div>
+
+    <section class="details" id="details-block">
+      <header class="details-head">
+        <strong>Détails / œuvres</strong>
+        <span class="count-pill" id="el-count">0</span>
+        <span class="spacer"></span>
+        <button class="mini" id="btn-clear-els" type="button" title="Vider la liste">Vider</button>
+        <button class="mini" id="btn-origin" type="button" title="Recharger les détails d'origine">↺ Origine</button>
+      </header>
+      <div class="details-modes">
+        <label class="radio"><input type="radio" name="ed-mode" value="merge" checked> Fusionner avec l'existant</label>
+        <label class="radio"><input type="radio" name="ed-mode" value="replace"> Remplacer tout</label>
+        <label class="radio lock"><input type="checkbox" id="ed-locked"> 🔒 Ignorer l'INA</label>
+      </div>
+      <div class="elements" id="ed-elements" tabindex="-1"></div>
+      <div class="el-add">
+        <input id="ed-new" placeholder="Ajouter une œuvre — ex. Dragon Ball Z">
+        <button class="btn small primary" id="btn-add-el" type="button">➕ Ajouter</button>
+      </div>
+      <p class="hint" id="el-hint"></p>
+    </section>
+
     <div class="field"><label for="ed-note">Note interne</label><textarea id="ed-note" rows="2"></textarea></div>
   </div>
-  <footer class="drawer-foot"><button class="btn primary" id="dr-save" type="button">✔ Mettre en attente</button><button class="btn ghost" id="dr-cancel" type="button">Fermer</button><button class="btn danger ghost" id="dr-delete" type="button">Retirer</button></footer>
+
+  <footer class="drawer-foot">
+    <button class="btn primary" id="dr-save" type="button">✔ Mettre en attente</button>
+    <button class="btn ghost" id="dr-cancel" type="button">Fermer</button>
+    <button class="btn danger ghost" id="dr-delete" type="button">Retirer</button>
+  </footer>
 </aside>
 
 <div class="scrim" id="settings-scrim" hidden></div>
@@ -119,7 +141,12 @@
     <div class="field"><label for="st-token">Token</label><input type="password" id="st-token" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></div>
     <p class="status" id="st-status"></p>
   </div>
-  <footer class="dialog-foot"><button class="btn primary" id="st-save" type="button">💾 Enregistrer et fermer</button><button class="btn" id="st-test" type="button">🔌 Tester</button><button class="btn ghost" id="st-close2" type="button">Fermer</button><button class="btn danger ghost" id="st-clear" type="button">Effacer le token</button></footer>
+  <footer class="dialog-foot">
+    <button class="btn primary" id="st-save" type="button">💾 Enregistrer et fermer</button>
+    <button class="btn" id="st-test" type="button">🔌 Tester</button>
+    <button class="btn ghost" id="st-close2" type="button">Fermer</button>
+    <button class="btn danger ghost" id="st-clear" type="button">Effacer le token</button>
+  </footer>
 </div>
 
 <datalist id="channels-list"></datalist>
