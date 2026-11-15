@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000993",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000993/salut-les-petits-loups-plateau-emission-du-18-fevrier-1987?rang=5",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:50:15.120983",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -25,5 +25,6 @@
     "LE CADDY D'ORLY : Tirage d'un petit loup gagnant. Il gagne une luge",
     "LES LOUFOQUES : Anne LORRIC et Teddy Boy, débitent un texte loufoque à la manière des comédiens du Français",
     "BANANA ROCK : Teddy évoque la carrière de Jerry Lee LEWIS et fredonne l'un de ses succès"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.756504"
 }

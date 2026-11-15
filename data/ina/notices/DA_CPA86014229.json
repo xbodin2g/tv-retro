@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA86014229",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA86014229/salut-les-petits-loups-plateau-emission-du-14-janvier-1987?rang=12",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:49:52.457906",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -29,5 +29,6 @@
     "LE BULLETIN D'ORLY : c'est sous la neige qu'ORLY présente la fête des rois et se partage une galette avec Teddy, Marie Pierre et Anne",
     "LES PETITES HISTOIRES DE Victor ET Philomène : qu'est-ce qu'un mirage ? (REA : Serge WITTA)",
     "BANANA ROCK : Teddy, accompagné par Claude SITRUK, retrace la biographie d'Hank Williams"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.753083"
 }

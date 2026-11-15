@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000548",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000548/salut-les-petits-loups-plateau-emission-du-4-fevrier-1987?rang=14",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:50:05.728254",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -22,5 +22,6 @@
     "Les mangeurs d'histoire : la petite souris qui passe lorsqu'on perd une dent",
     "Fluophone : des dessins à devinettes proposés aux enfants par téléphone",
     "Le caddy d'ORLY : un bruit à deviner pour gagner les cadeaux du caddy (un brossage de dents)"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.754925"
 }

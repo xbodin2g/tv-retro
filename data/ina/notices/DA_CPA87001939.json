@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87001939",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87001939/salut-les-petits-loups-plateau-emission-du-18-mars-1987?rang=16",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:50:33.626589",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -25,5 +25,6 @@
     "LE FLUOPHONE : jeu vidéo ; dans une image, il faut retrouver des objets cachés",
     "LE CADDY D'ORLY : Son à découvrir (Donald) et cadeaux à gagner",
     "BANANAROCK : Teddy Boy raconte Ricky Nelson"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.759175"
 }

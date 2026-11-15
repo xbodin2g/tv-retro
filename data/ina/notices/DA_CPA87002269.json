@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87002269",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87002269/salut-les-petits-loups-plateau-emission-du-1er-avril-1987?rang=18",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:50:41.728300",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -21,5 +21,6 @@
   ],
   "elements": [
     "FLUOPHONE : 1er jeu animé par Teddy et Marie-Pierre ; le 2ème par Anne et Le Chat ; le 3ème par Marie-Pierre et Anne"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.760764"
 }

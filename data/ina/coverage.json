@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T21:09:01.552220",
+  "generated_at": "2026-11-15T21:14:32.186406",
   "parser_version": 5,
   "programs": [
     {
@@ -23,7 +23,7 @@
     {
       "program": "Club Dorothée",
       "slug": "club-dorothee",
-      "harvested_at": "2026-11-15T19:58:52.660107",
+      "harvested_at": "2026-11-15T21:10:13.741714",
       "years": [
         {
           "year": 1987,
@@ -56,29 +56,16 @@
         {
           "year": 1989,
           "indexed": 500,
-          "cached": 439,
-          "current": 439,
+          "cached": 500,
+          "current": 500,
           "outdated": 0,
-          "with_elements": 44,
-          "empty": 395,
-          "remaining": 61,
-          "elements": 183,
-          "days": 34,
-          "sample": [
-            "DA_CPA89009895",
-            "DA_CPA89009896",
-            "DA_CPA89010143",
-            "DA_CPA89010144",
-            "DA_CPA89010145",
-            "DA_CPA89010146",
-            "DA_CPA89010147",
-            "DA_CPA89010373",
-            "DA_CPA89010374",
-            "DA_CPA89010376",
-            "DA_CPA89010377",
-            "DA_CPA89010378"
-          ],
-          "coverage": 87.8
+          "with_elements": 56,
+          "empty": 444,
+          "remaining": 0,
+          "elements": 243,
+          "days": 46,
+          "sample": [],
+          "coverage": 100.0
         },
         {
           "year": 1995,
@@ -125,15 +112,15 @@
       ],
       "totals": {
         "indexed": 2028,
-        "cached": 1967,
-        "current": 1967,
+        "cached": 2028,
+        "current": 2028,
         "outdated": 0,
-        "with_elements": 1168,
-        "empty": 799,
-        "remaining": 61,
-        "elements": 4474,
-        "days": 927,
-        "coverage": 97.0
+        "with_elements": 1180,
+        "empty": 848,
+        "remaining": 0,
+        "elements": 4534,
+        "days": 939,
+        "coverage": 100.0
       }
     },
     {
@@ -163,8 +150,8 @@
           "year": 1987,
           "indexed": 25,
           "cached": 25,
-          "current": 0,
-          "outdated": 25,
+          "current": 25,
+          "outdated": 0,
           "with_elements": 22,
           "empty": 3,
           "remaining": 0,
@@ -177,8 +164,8 @@
       "totals": {
         "indexed": 25,
         "cached": 25,
-        "current": 0,
-        "outdated": 25,
+        "current": 25,
+        "outdated": 0,
         "with_elements": 22,
         "empty": 3,
         "remaining": 0,
@@ -191,28 +178,20 @@
   "orphans": [],
   "totals": {
     "indexed": 2053,
-    "cached": 1992,
-    "current": 1967,
-    "outdated": 25,
-    "with_elements": 1190,
-    "empty": 802,
-    "remaining": 61,
-    "elements": 4578,
-    "days": 949,
-    "coverage": 97.0
+    "cached": 2053,
+    "current": 2053,
+    "outdated": 0,
+    "with_elements": 1202,
+    "empty": 851,
+    "remaining": 0,
+    "elements": 4638,
+    "days": 961,
+    "coverage": 100.0
   },
-  "queue": [
-    {
-      "program": "Club Dorothée",
-      "year": 1989,
-      "remaining": 61
-    }
-  ],
+  "queue": [],
   "health": {
-    "outdated": 25,
+    "outdated": 0,
     "orphans": 0,
-    "advice": [
-      "25 notice(s) d'ancienne version : elles sont DÉJÀ en cache. Un rebuild local suffit (0 requête)."
-    ]
+    "advice": []
   }
 }

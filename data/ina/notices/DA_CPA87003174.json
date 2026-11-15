@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87003174",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87003174/salut-les-petits-loups-plateau-emission-du-29-avril-1987?rang=20",
   "source": "ina",
-  "parser_version": 3,
+  "parser_version": 5,
   "scraped_at": "2026-11-12T22:50:59.361169",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -25,5 +25,6 @@
     "Le Caddy d'ORLY : ORLY présente tous les jouets à gagner cette semaine",
     "Les Loufoques : Anne LORRIC fait une démonstration de lasso et tente d'attaquer une banque imaginaire ; mais elle est désarmée par le Chat",
     "Bananarock : Teddy Boy fait une imitation de Elvis PRESLEY en chante \"Do'nt be cruel\". Extraits de chansons chantées par Elvis PRESLEY"
-  ]
+  ],
+  "normalized_at": "2026-11-15T21:14:31.778826"
 }
