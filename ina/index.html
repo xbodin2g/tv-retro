@@ -46,7 +46,7 @@
     <div class="f"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-state">État</label><select id="f-state">
       <option value="all">Tout</option><option value="virgin">Jamais indexé</option>
-      <option value="todo">En cours de moisson</option><option value="done">Complet</option>
+      <option value="todo">Reste à télécharger</option><option value="done">Complet</option>
       <option value="old">Ancienne version</option><option value="active">Déjà commencé</option></select></div>
     <div class="f"><label for="f-sort">Tri</label><select id="f-sort">
       <option value="prio">Priorité</option><option value="left">Reste ↓</option>
@@ -125,8 +125,9 @@
   <p class="status" id="status"></p>
   <section class="board" id="board"></section>
   <div class="legend">
-    <span>états</span><i class="lv"></i><span>jamais indexé</span>
-    <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>0 → 100 %</span>
+    <span>états</span>
+    <i class="lv"></i><span>? jamais indexé</span>
+    <i class="l0"></i><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i><span>couverture 0 → 100 %</span>
     <i class="ld"></i><span>déjà traité</span>
     <span class="sp"></span><span>clic = détail · ⇧clic = à la file</span>
   </div>
@@ -137,6 +138,7 @@
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <header><div><h2 id="d-title">Détail</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" aria-label="Fermer">✕</button></header>
   <div class="body" id="d-body"></div>
+  <p class="why" id="d-why"></p>
   <footer><button class="btn primary" id="d-run">▶ Lancer maintenant</button><button class="btn" id="d-add">➕ À la file</button><button class="btn ghost" id="d-copy">📋</button><button class="btn ghost" id="d-close2">Fermer</button></footer>
 </aside>
 
