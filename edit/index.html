@@ -2,118 +2,127 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>TV Rétro · Éditeur</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>TV Rétro · Régie — éditeur d'archives</title>
+<meta name="color-scheme" content="dark">
 <link rel="stylesheet" href="edit.css">
 <script src="edit.js" defer></script>
 </head>
 <body>
-<header class="top">
-  <div class="brand"><h1>✏️ TV Rétro · Éditeur</h1><p>Corrections permanentes — couche overrides</p></div>
-  <div class="top-actions">
-    <span id="conn-state" class="pill off">non connecté</span>
-    <button id="btn-settings" class="btn">⚙️ Réglages</button>
+<div class="bg-layers" aria-hidden="true"><span class="glow g1"></span><span class="glow g2"></span><span class="glow g3"></span><span class="scan"></span><span class="grain"></span></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="onair" id="onair-dot"></span>
+    <div><h1>TV&nbsp;RÉTRO <em>· RÉGIE</em></h1><p>Éditeur d'archives — couche <code>overrides</code> permanente</p></div>
+  </div>
+  <div class="topbar-right">
+    <span class="pill" id="status-mode">…</span>
+    <span class="pill" id="status-conn">non connecté</span>
+    <button class="btn ghost" id="btn-settings" type="button">⚙️ Réglages</button>
   </div>
 </header>
 
-<nav class="tabs">
-  <button class="tab active" data-tab="search">🔎 Recherche</button>
-  <button class="tab" data-tab="day">📅 Par journée</button>
-  <button class="tab" data-tab="pending">💾 Modifications <span id="pending-badge" class="badge">0</span></button>
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="search" role="tab" type="button">🔎 Recherche</button>
+  <button class="tab" data-tab="day" role="tab" type="button">📅 Par journée</button>
+  <button class="tab" data-tab="pending" role="tab" type="button">💾 Modifications <span class="count" id="pending-badge">0</span></button>
 </nav>
 
-<main>
+<main class="wrap">
+  <div class="banner" id="demo-banner" hidden></div>
+
+  <section class="stats" id="stats">
+    <div class="stat s1"><b id="stat-programs">—</b><span>programmes</span></div>
+    <div class="stat s2"><b id="stat-shows">—</b><span>émissions</span></div>
+    <div class="stat s3"><b id="stat-years">—</b><span>années</span></div>
+    <div class="stat s4"><b id="stat-edits">0</b><span>corrections</span></div>
+  </section>
+
   <section id="tab-search" class="panel active">
+    <div class="views" id="views-row"></div>
     <div class="filters">
-      <input type="search" id="q" placeholder="Émission, série, film, présentateur…">
-      <select id="f-period"><option value="all">Toute la base</option></select>
-      <select id="f-year"><option value="all">Toutes années</option></select>
-      <select id="f-genre"><option value="all">Tous genres</option></select>
-      <select id="f-channel"><option value="all">Toutes chaînes</option></select>
-      <button id="btn-reset" class="btn small">Réinitialiser</button>
+      <div class="field grow"><label for="q">Recherche</label><input type="search" id="q" placeholder="Émission, série, film, présentateur…  ( / )" autocomplete="off"></div>
+      <div class="field"><label for="f-period">Période</label><select id="f-period"><option value="all">Toute la base</option></select></div>
+      <div class="field"><label for="f-year">Année</label><select id="f-year"><option value="all">Toutes</option></select></div>
+      <div class="field"><label for="f-genre">Genre</label><select id="f-genre"><option value="all">Tous</option></select></div>
+      <div class="field"><label for="f-channel">Chaîne</label><select id="f-channel"><option value="all">Toutes</option></select></div>
+      <div class="field"><label for="f-sort">Tri</label><select id="f-sort"><option value="count">Diffusions ↓</option><option value="alpha">A → Z</option><option value="recent">Plus récentes</option></select></div>
+      <div class="field btns"><button class="btn small" id="btn-save-view" type="button">⭐ Vue</button><button class="btn small ghost" id="btn-reset" type="button">↺</button></div>
     </div>
-    <p id="search-status" class="status"></p>
-    <div id="search-results" class="results"></div>
+    <p class="status" id="search-status"></p>
+    <div class="results" id="search-results"></div>
   </section>
 
   <section id="tab-day" class="panel">
     <div class="filters">
-      <select id="d-year"></select>
-      <select id="d-date"></select>
-      <button id="btn-load-day" class="btn">Charger</button>
-      <button id="btn-add-program" class="btn primary">➕ Ajouter un programme</button>
+      <div class="field"><label for="d-year">Année</label><select id="d-year"></select></div>
+      <div class="field grow"><label for="d-date">Journée</label><select id="d-date"></select></div>
+      <div class="field"><label for="d-channel">Chaîne</label><select id="d-channel"><option value="all">Toutes</option></select></div>
+      <div class="field btns"><button class="btn" id="btn-load-day" type="button">Charger</button><button class="btn primary" id="btn-add" type="button">➕ Programme</button></div>
     </div>
-    <p id="day-status" class="status"></p>
-    <div id="day-results" class="results"></div>
+    <p class="status" id="day-status"></p>
+    <div class="results" id="day-results"></div>
   </section>
 
   <section id="tab-pending" class="panel">
     <div class="pending-head">
-      <p class="status">Ces corrections sont enregistrées dans <code>data/overrides/AAAA.json</code> et réappliquées à chaque génération.</p>
-      <div class="row-btns">
-        <button id="btn-commit" class="btn primary">💾 Enregistrer sur GitHub</button>
-        <button id="btn-discard" class="btn danger">🗑️ Tout annuler</button>
+      <p>Les corrections sont écrites dans <code>data/overrides/AAAA.json</code>, jamais dans les fichiers générés : elles survivent à toutes les régénérations.</p>
+      <div class="actions">
+        <button class="btn primary" id="btn-commit" type="button">💾 Enregistrer sur GitHub</button>
+        <button class="btn" id="btn-export" type="button">📥 Exporter JSON</button>
+        <button class="btn danger ghost" id="btn-discard" type="button">🗑️ Tout annuler</button>
       </div>
     </div>
-    <div id="pending-list" class="results"></div>
+    <div class="bulk" id="bulk-bar" hidden><span><b id="bulk-count">0</b> sélectionnée(s)</span><button class="btn small danger" id="btn-bulk-delete" type="button">Supprimer la sélection</button></div>
+    <div class="results" id="pending-list"></div>
   </section>
 </main>
 
-<div id="editor-overlay" class="overlay" hidden>
-  <div class="modal">
-    <button class="close" id="ed-close">✕</button>
-    <h2 id="ed-title">Éditer</h2>
-    <p id="ed-sub" class="status"></p>
+<div class="scrim" id="drawer-scrim" hidden></div>
+<aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="dr-title">
+  <header class="drawer-head"><div><h2 id="dr-title">Éditer</h2><p class="status" id="dr-sub"></p></div><button class="icon" id="dr-close" type="button" aria-label="Fermer">✕</button></header>
+  <div class="drawer-body">
     <div class="grid2">
-      <label>Date<input type="text" id="ed-date" placeholder="JJ-MM-AAAA"></label>
-      <label>Heure<input type="text" id="ed-time" placeholder="HH:MM"></label>
-      <label>Chaîne<input type="text" id="ed-channel" list="channels-list"></label>
-      <label>Action<select id="ed-action"><option value="patch">Corriger</option><option value="add">Ajouter</option><option value="hide">Masquer</option></select></label>
+      <div class="field"><label for="ed-date">Date</label><input id="ed-date" placeholder="JJ-MM-AAAA"></div>
+      <div class="field"><label for="ed-time">Heure</label><input id="ed-time" placeholder="HH:MM"></div>
+      <div class="field"><label for="ed-channel">Chaîne</label><input id="ed-channel" list="channels-list"></div>
+      <div class="field"><label for="ed-action">Action</label><select id="ed-action"><option value="patch">Corriger</option><option value="add">Ajouter</option><option value="hide">Masquer</option></select></div>
     </div>
-    <label>Titre<input type="text" id="ed-name"></label>
-    <label>Description<textarea id="ed-desc" rows="2"></textarea></label>
-    <div class="elements-head">
+    <div class="field"><label for="ed-name">Titre</label><input id="ed-name"></div>
+    <div class="field"><label for="ed-desc">Description</label><textarea id="ed-desc" rows="2"></textarea></div>
+    <div class="el-head">
       <strong>Détails / œuvres</strong>
-      <label class="inline"><input type="radio" name="ed-mode" value="merge" checked> Fusionner</label>
-      <label class="inline"><input type="radio" name="ed-mode" value="replace"> Remplacer tout</label>
-      <label class="inline"><input type="checkbox" id="ed-locked"> 🔒 Ignorer l'INA</label>
+      <label class="radio"><input type="radio" name="ed-mode" value="merge" checked> Fusionner</label>
+      <label class="radio"><input type="radio" name="ed-mode" value="replace"> Remplacer</label>
+      <label class="radio lock"><input type="checkbox" id="ed-locked"> 🔒 Ignorer l'INA</label>
     </div>
-    <div id="ed-elements" class="elements"></div>
-    <div class="row-btns">
-      <input type="text" id="ed-new-element" placeholder="Ajouter une œuvre (ex. Dragon Ball Z)">
-      <button id="btn-add-element" class="btn small">➕</button>
-    </div>
-    <label>Note<textarea id="ed-note" rows="2" placeholder="Note interne (optionnel)"></textarea></label>
-    <div class="modal-actions">
-      <button id="ed-save" class="btn primary">✔ Mettre en attente</button>
-      <button id="ed-remove" class="btn danger">Retirer cette correction</button>
-    </div>
+    <p class="hint" id="el-hint">Glisse ⠿ pour réordonner.</p>
+    <div class="elements" id="ed-elements"></div>
+    <div class="el-add"><input id="ed-new" placeholder="Ajouter une œuvre — ex. Dragon Ball Z"><button class="btn small" id="btn-add-el" type="button">➕</button><button class="btn small ghost" id="btn-origin" type="button" title="Recharger les détails d'origine">↺</button></div>
+    <div class="field"><label for="ed-note">Note interne</label><textarea id="ed-note" rows="2"></textarea></div>
   </div>
-</div>
+  <footer class="drawer-foot"><button class="btn primary" id="dr-save" type="button">✔ Mettre en attente</button><button class="btn ghost" id="dr-cancel" type="button">Fermer</button><button class="btn danger ghost" id="dr-delete" type="button">Retirer</button></footer>
+</aside>
 
-<div id="settings-overlay" class="overlay" hidden>
-  <div class="modal">
-    <button class="close" id="st-close">✕</button>
-    <h2>⚙️ Réglages</h2>
-    <p class="status">Token GitHub <strong>fine-grained</strong>, limité à ce dépôt, permission <em>Contents: Read and write</em>. Il reste uniquement dans ton navigateur.</p>
+<div class="scrim" id="settings-scrim" hidden></div>
+<div class="dialog" id="settings" hidden role="dialog" aria-modal="true" aria-labelledby="st-title">
+  <header class="dialog-head"><h2 id="st-title">⚙️ Réglages</h2><button class="icon" id="st-close" type="button" aria-label="Fermer">✕</button></header>
+  <div class="dialog-body">
+    <p class="hint">Token GitHub <em>fine-grained</em> limité à ce dépôt, permission <strong>Contents : Read and write</strong>. Il reste dans ton navigateur, jamais dans le dépôt.</p>
     <div class="grid2">
-      <label>Propriétaire<input type="text" id="st-owner" placeholder="xbodin2g"></label>
-      <label>Dépôt<input type="text" id="st-repo" placeholder="tv-retro"></label>
-      <label>Branche<input type="text" id="st-branch" placeholder="main"></label>
-      <label>Dossier données<input type="text" id="st-path" placeholder="data"></label>
+      <div class="field"><label for="st-owner">Propriétaire</label><input id="st-owner" placeholder="xbodin2g"></div>
+      <div class="field"><label for="st-repo">Dépôt</label><input id="st-repo" placeholder="tv-retro"></div>
+      <div class="field"><label for="st-branch">Branche</label><input id="st-branch" placeholder="main"></div>
+      <div class="field"><label for="st-path">Dossier données</label><input id="st-path" placeholder="data"></div>
     </div>
-    <label>Token<input type="password" id="st-token" placeholder="github_pat_…" autocomplete="off"></label>
-    <div class="modal-actions">
-      <button id="st-save" class="btn primary">💾 Enregistrer</button>
-      <button id="st-test" class="btn">🔌 Tester</button>
-      <button id="st-clear" class="btn danger">Effacer le token</button>
-    </div>
-    <p id="st-status" class="status"></p>
-    <p class="warn">⚠️ Après enregistrement, relance <code>generate_index_only</code> pour appliquer tes corrections au site.</p>
+    <div class="field"><label for="st-token">Token</label><input type="password" id="st-token" placeholder="github_pat_…" autocomplete="off" spellcheck="false"></div>
+    <p class="status" id="st-status"></p>
   </div>
+  <footer class="dialog-foot"><button class="btn primary" id="st-save" type="button">💾 Enregistrer et fermer</button><button class="btn" id="st-test" type="button">🔌 Tester</button><button class="btn ghost" id="st-close2" type="button">Fermer</button><button class="btn danger ghost" id="st-clear" type="button">Effacer le token</button></footer>
 </div>
 
 <datalist id="channels-list"></datalist>
-<div id="toast" class="toast"></div>
+<div class="toasts" id="toasts" aria-live="polite"></div>
 </body>
 </html>
