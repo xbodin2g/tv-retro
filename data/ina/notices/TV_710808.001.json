@@ -1,0 +1,43 @@
+{
+  "notice_id": "TV_710808.001",
+  "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_710808.001/tf-jeunesse-programme-du-11-novembre-1997?rang=156",
+  "source": "ina",
+  "parser_version": 5,
+  "scraped_at": "2026-11-16T20:40:20.471238",
+  "program_query": "TF! Jeunesse",
+  "programme": "TF\n! Jeunesse",
+  "base": "Dépôt Légal TV",
+  "channel": "TF1",
+  "date": "11-11-1997",
+  "start": "09:10",
+  "elements_field": "Sommaire",
+  "titles_raw": [
+    "[Plateau : 1ère partie]",
+    "Kangoo : [émission du 11 novembre 1997]",
+    "[Plateau : 2ème partie]",
+    "[Interprogrammes de 9 heures : TF1 publicité]",
+    "[Plateau : 3ème partie]",
+    "Les aventures de Sonic : [émission du 11 novembre 1997]",
+    "[Plateau : 4ème partie]",
+    "[Interprogrammes TF1 de 9 heures : TF1 publicité]",
+    "[Plateau : 5ème partie]",
+    "Les petites sorcières : [émission du 11 novembre 1997]",
+    "[Plateau : 6ème partie]",
+    "[Interprogrammes TF1 de 10 heures : TF1 publicité]",
+    "[Plateau : 7ème partie]",
+    "Dr Globule : [émission du 11 novembre 1997]",
+    "[Plateau : 8ème partie]",
+    "[Interprogrammes TF1 de 10 heures : TF1 publicité]",
+    "[Plateau : 9ème partie]",
+    "Beethoven : [émission du 11 novembre 1997]",
+    "[Plateau : 10ème partie]"
+  ],
+  "elements": [
+    "[Plateau",
+    "Kangoo",
+    "Les aventures de Sonic",
+    "Les petites sorcières",
+    "Dr Globule",
+    "Beethoven"
+  ]
+}

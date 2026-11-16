@@ -1,0 +1,25 @@
+{
+  "notice_id": "TV_753483.001",
+  "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_753483.001/tf-jeunesse-programme-du-22-decembre-1997?rang=55",
+  "source": "ina",
+  "parser_version": 5,
+  "scraped_at": "2026-11-16T20:44:12.452413",
+  "program_query": "TF! Jeunesse",
+  "programme": "TF\n! Jeunesse",
+  "base": "Dépôt Légal TV",
+  "channel": "TF1",
+  "date": "22-12-1997",
+  "start": "06:57",
+  "elements_field": "Sommaire",
+  "titles_raw": [
+    "[Présentation : 1ère partie]",
+    "Les aventures de Madison : [émission du 22 décembre 1997]",
+    "[Présentation : 2ème partie]",
+    "Salut les toons : [programme du 22 décembre 1997]"
+  ],
+  "elements": [
+    "[Présentation",
+    "Les aventures de Madison",
+    "Salut les toons"
+  ]
+}

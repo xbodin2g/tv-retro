@@ -1,0 +1,31 @@
+{
+  "notice_id": "TV_677070.001",
+  "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_677070.001/tf-jeunesse-programme-du-6-septembre-1997?rang=60",
+  "source": "ina",
+  "parser_version": 5,
+  "scraped_at": "2026-11-16T20:33:30.501275",
+  "program_query": "TF! Jeunesse",
+  "programme": "TF\n! Jeunesse",
+  "base": "Dépôt Légal TV",
+  "channel": "TF1",
+  "date": "06-09-1997",
+  "start": "06:55",
+  "elements_field": "Sommaire",
+  "titles_raw": [
+    "[Présentation : 1ère partie]",
+    "[interprogrammes TF1 de 6 heures : programmes du 6 septembre 1997]",
+    "Les aventures de Madison : [émission du 6 septembre 1997]",
+    "[Interprogrammes TF1 de 7 heures : BA Salut les toons]",
+    "[Présentation : 2ème partie]",
+    "Salut les toons : [programme du 6 septembre 1997]",
+    "[Interprogrammes TF1 de 7 heures : BA Salut les toons]",
+    "[Présentation : 3ème partie]",
+    "[Interprogrammes TF1 de 7 heures : TF1 publicité]",
+    "Les aventures de Madison : [émission du 6 septembre 1997]"
+  ],
+  "elements": [
+    "[Présentation",
+    "Les aventures de Madison",
+    "Salut les toons"
+  ]
+}
