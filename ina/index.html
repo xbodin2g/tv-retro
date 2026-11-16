@@ -47,7 +47,8 @@
     <div class="f"><label for="f-state">État</label><select id="f-state">
       <option value="all">Tout</option><option value="virgin">Jamais indexé</option>
       <option value="todo">Reste à télécharger</option><option value="done">Complet</option>
-      <option value="old">Ancienne version</option><option value="active">Déjà commencé</option></select></div>
+      <option value="old">Ancienne version</option><option value="active">Déjà commencé</option>
+      <option value="nochannel">Sans chaîne</option></select></div>
     <div class="f"><label for="f-sort">Tri</label><select id="f-sort">
       <option value="prio">Priorité</option><option value="left">Reste ↓</option>
       <option value="cov">Couverture ↑</option><option value="alpha">A → Z</option><option value="works">Œuvres ↓</option></select></div>
@@ -83,7 +84,12 @@
         <option value="all">all — indexe + moissonne</option><option value="index-only">index-only — liste seule</option>
         <option value="notices-only">notices-only — cache d'index</option>
         <option value="report-only">report-only — tableau (0 req INA)</option></select></div>
-      <label class="chk wide"><input type="checkbox" id="o-autoarchive"> Archiver automatiquement les réussites</label>
+      <div class="f"><label for="o-strategies">Méthodes de recherche</label><select id="o-strategies">
+        <option value="both">both — A ancienne + B canal + C hybride</option>
+        <option value="channel">channel — B canal seulement</option>
+        <option value="legacy">legacy — A ancienne seulement</option>
+        <option value="hybrid">hybrid — C canal + année</option></select></div>
+      <label class="chk wide"><input type="checkbox" id="o-autoarchive"> Archiver auto les réussites</label>
       <div class="orch-actions">
         <button class="btn primary" id="btn-launch">▶ Lancer la série</button>
         <button class="btn" id="btn-pause" disabled>⏸ Pause</button>
@@ -144,15 +150,17 @@
 
 <div class="scrim" id="tscrim" hidden></div>
 <aside class="drawer wide" id="tdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="t-title">
-  <header><div><h2 id="t-title">🎯 Registre des cibles</h2><p class="status">Émissions × plages visées. Modification immédiate sur la matrice.</p></div><button class="icon" id="t-close" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="t-title">🎯 Registre des cibles</h2><p class="status">La chaîne active la méthode B (ch+tiprog). Sans elle, seule l'ancienne méthode tourne.</p></div><button class="icon" id="t-close" aria-label="Fermer">✕</button></header>
   <div class="body">
     <div class="tadd">
       <input id="t-new" placeholder="Nouvelle émission — titre INA exact">
+      <input id="t-ch" list="ch-list" placeholder="Chaîne">
       <input id="t-from" type="number" min="1960" max="2010" value="1987" aria-label="De">
       <input id="t-to" type="number" min="1960" max="2010" value="1997" aria-label="À">
       <button class="btn small primary" id="t-add">➕</button>
     </div>
-    <p class="hint">Glisse ⠿ pour changer la priorité de moisson.</p>
+    <div class="thead"><span></span><span>Émission</span><span>Chaîne</span><span>De</span><span>À</span><span></span></div>
+    <p class="hint">Glisse ⠿ pour changer la priorité. FR3 ↔ France 3 et Antenne 2 ↔ France 2 sont essayés automatiquement.</p>
     <div class="tlist" id="t-body"></div>
   </div>
   <footer><button class="btn primary" id="t-export">📥 Exporter targets.json</button><label class="btn" for="t-file">📂 Importer</label><input type="file" id="t-file" accept=".json" hidden><button class="btn ghost" id="t-close2">Fermer</button></footer>
@@ -200,11 +208,16 @@
       <p class="hint">Le test d'écriture déclenche un vrai run en mode <b>report-only</b> : il régénère le tableau et ne fait <b>aucune requête à l'INA</b>.</p>
       <div class="diag-out" id="diag-out"></div>
     </section>
-    <p class="hint">Le token reste dans ce navigateur (localStorage), jamais dans le dépôt. Sans token, la page fonctionne en <b>simulation</b> : tout le flux est démontrable mais aucun run réel n'est déclenché.</p>
+    <p class="hint">Le token reste dans ce navigateur (localStorage), jamais dans le dépôt. Sans token, la page fonctionne en <b>simulation</b>.</p>
   </div>
   <footer><button class="btn primary" id="s-save">💾 Enregistrer et fermer</button><button class="btn" id="s-test">🔌 Test rapide</button><button class="btn danger ghost" id="s-clear">Effacer</button><button class="btn ghost" id="s-close2">Fermer</button></footer>
 </aside>
 
+<datalist id="ch-list">
+  <option value="TF1"><option value="Antenne 2"><option value="France 2"><option value="FR3"><option value="France 3">
+  <option value="Canal+"><option value="La Cinq"><option value="M6"><option value="TV6"><option value="La Sept">
+  <option value="Arte"><option value="La Cinquième"><option value="ORTF 1"><option value="ORTF 2"><option value="ORTF 3">
+</datalist>
 <div class="tip" id="tip" hidden></div>
 <div class="toasts" id="toasts" aria-live="polite"></div>
 </body>
