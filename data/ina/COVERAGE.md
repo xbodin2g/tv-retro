@@ -1,16 +1,16 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 09:44:29 — parser v5_
+_Généré le 2026-11-16 à 10:00:05 — parser v5_
 
 > Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
 > En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
 
 ## Total
 
-- Cibles jamais indexées : **241** (≈ 55428 notices estimées)
-- Indexées : **7037** · En cache : **7035** (100.0 %)
-- Avec œuvres : **4524** · sans œuvre : 2511
-- Œuvres relevées : **19245** · reste connu : **2**
+- Cibles jamais indexées : **240** (≈ 54822 notices estimées)
+- Indexées : **7248** · En cache : **7246** (100.0 %)
+- Avec œuvres : **4718** · sans œuvre : 2528
+- Œuvres relevées : **19802** · reste connu : **2**
 
 ## Par émission
 
@@ -20,7 +20,7 @@ _Généré le 2026-11-16 à 09:44:29 — parser v5_
 | Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
 | Récré A2 | Antenne 2 | 1978→1987 | 0 | 2076 | 2074 | 1914 | 2 | 99.9 % |
 | Cabou Cadin | Canal+ | 1985→1993 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
-| Giga | Antenne 2 | 1987→1996 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
+| Giga | Antenne 2 | 1987→1996 | 9 | 211 | 211 | 194 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Minikeums | France 3 | 1993→1999 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -59,64 +59,64 @@ _Généré le 2026-11-16 à 09:44:29 — parser v5_
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Cabou Cadin
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Canaille Peluche
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Cellulo
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Chalu Maureen
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Club Dorothée
 
@@ -154,229 +154,229 @@ _Généré le 2026-11-16 à 09:44:29 — parser v5_
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Croque-Vacances
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Debout les enfants
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Discopuce
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1978 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1979 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1980 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1978 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1979 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1980 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Disney Club
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Disney Parade
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Décode pas Bunny
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Giga
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1990 | complet | 211 | 211 | 194 | 0 | — |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
 
 ### Graffi'6
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Le Disney Channel
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Le réveil des babalous
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Le Village dans les nuages
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Les années fac
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Les Minikeums
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Les Visiteurs du mercredi
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1975 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1976 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1977 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1978 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1979 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1980 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1975 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1976 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1977 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1978 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1979 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1980 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### M6 Kid
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Multitop
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Premiers baisers
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Récré A2
 
@@ -398,17 +398,17 @@ _Généré le 2026-11-16 à 09:44:29 — parser v5_
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### salut les petits loups
 
@@ -420,124 +420,124 @@ _Généré le 2026-11-16 à 09:44:29 — parser v5_
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### TF! Jeunesse
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Télétaz
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Télévisator 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Vitamine
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Youpi ! L'école est finie
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### À tout Spip
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ### Ça cartoon
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
-| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 228 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 227 |
 
 ## Démarrages conseillés (jamais indexés)
 
 | Émission | Année | Volume estimé |
 |---|---|---:|
-| Amuse 3 | 1985 | 228 |
-| Amuse 3 | 1986 | 228 |
-| Amuse 3 | 1987 | 228 |
-| Amuse 3 | 1988 | 228 |
-| Amuse 3 | 1989 | 228 |
-| Amuse 3 | 1990 | 228 |
-| Amuse 3 | 1991 | 228 |
+| Amuse 3 | 1985 | 227 |
+| Amuse 3 | 1986 | 227 |
+| Amuse 3 | 1987 | 227 |
+| Amuse 3 | 1988 | 227 |
+| Amuse 3 | 1989 | 227 |
+| Amuse 3 | 1990 | 227 |
+| Amuse 3 | 1991 | 227 |
 | Club Dorothée | 1992 | 308 |
-| Amuse 3 | 1992 | 228 |
+| Amuse 3 | 1992 | 227 |
 | Club Dorothée | 1993 | 308 |
-| Amuse 3 | 1993 | 228 |
+| Amuse 3 | 1993 | 227 |
 | Club Dorothée | 1994 | 308 |
-| Amuse 3 | 1994 | 228 |
-| Amuse 3 | 1995 | 228 |
-| Amuse 3 | 1996 | 228 |
-| Amuse 3 | 1997 | 228 |
-| Les Visiteurs du mercredi | 1975 | 228 |
-| Les Visiteurs du mercredi | 1976 | 228 |
-| Les Visiteurs du mercredi | 1977 | 228 |
-| Les Visiteurs du mercredi | 1978 | 228 |
-| Les Visiteurs du mercredi | 1979 | 228 |
-| Les Visiteurs du mercredi | 1980 | 228 |
-| Les Visiteurs du mercredi | 1981 | 228 |
-| Les Visiteurs du mercredi | 1982 | 228 |
-| Vitamine | 1983 | 228 |
-| Les Visiteurs du mercredi | 1983 | 228 |
-| Vitamine | 1984 | 228 |
-| Cabou Cadin | 1985 | 228 |
-| Vitamine | 1985 | 228 |
-| Cabou Cadin | 1986 | 228 |
+| Amuse 3 | 1994 | 227 |
+| Amuse 3 | 1995 | 227 |
+| Amuse 3 | 1996 | 227 |
+| Amuse 3 | 1997 | 227 |
+| Les Visiteurs du mercredi | 1975 | 227 |
+| Les Visiteurs du mercredi | 1976 | 227 |
+| Les Visiteurs du mercredi | 1977 | 227 |
+| Les Visiteurs du mercredi | 1978 | 227 |
+| Les Visiteurs du mercredi | 1979 | 227 |
+| Les Visiteurs du mercredi | 1980 | 227 |
+| Les Visiteurs du mercredi | 1981 | 227 |
+| Les Visiteurs du mercredi | 1982 | 227 |
+| Vitamine | 1983 | 227 |
+| Les Visiteurs du mercredi | 1983 | 227 |
+| Vitamine | 1984 | 227 |
+| Cabou Cadin | 1985 | 227 |
+| Vitamine | 1985 | 227 |
+| Cabou Cadin | 1986 | 227 |
 
 ## Complétions conseillées
 

@@ -1,7 +1,1485 @@
 {
   "program": "Giga",
   "slug": "giga",
-  "harvested_at": "2026-11-16T09:44:28.869408",
-  "count": 0,
-  "notices": []
+  "harvested_at": "2026-11-16T09:45:01.052239",
+  "count": 211,
+  "notices": [
+    {
+      "notice_id": "DA_CPB90001915",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001915/giga-emission-du-19-fevrier-1990?rang=1",
+      "channel": "Antenne 2",
+      "date": "19-02-1990",
+      "start": "17:28:52"
+    },
+    {
+      "notice_id": "DA_CPB90002538",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002538/giga-emission-du-20-fevrier-1990?rang=3",
+      "channel": "Antenne 2",
+      "date": "20-02-1990",
+      "start": "17:05:07"
+    },
+    {
+      "notice_id": "DA_CPB90001917",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001917/giga-emission-du-21-fevrier-1990?rang=33",
+      "channel": "Antenne 2",
+      "date": "21-02-1990",
+      "start": "17:02:27"
+    },
+    {
+      "notice_id": "DA_CPB90001918",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001918/giga-emission-du-22-fevrier-1990?rang=34",
+      "channel": "Antenne 2",
+      "date": "22-02-1990",
+      "start": "17:01:45"
+    },
+    {
+      "notice_id": "DA_CPB90001919",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001919/giga-emission-du-23-fevrier-1990?rang=37",
+      "channel": "Antenne 2",
+      "date": "23-02-1990",
+      "start": "17:01:54"
+    },
+    {
+      "notice_id": "DA_CPB90001920",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001920/giga-emission-du-26-fevrier-1990?rang=2",
+      "channel": "Antenne 2",
+      "date": "26-02-1990",
+      "start": "17:05:25"
+    },
+    {
+      "notice_id": "DA_CPB90001921",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001921/giga-emission-du-27-fevrier-1990?rang=155",
+      "channel": "Antenne 2",
+      "date": "27-02-1990",
+      "start": "17:24:58"
+    },
+    {
+      "notice_id": "DA_CPB90001922",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001922/giga-emission-du-28-fevrier-1990?rang=200",
+      "channel": "Antenne 2",
+      "date": "28-02-1990",
+      "start": "17:22:34"
+    },
+    {
+      "notice_id": "DA_CPB90001923",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001923/giga-emission-du-1er-mars-1990?rang=163",
+      "channel": "Antenne 2",
+      "date": "01-03-1990",
+      "start": "17:26:36"
+    },
+    {
+      "notice_id": "DA_CPB90001924",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001924/giga-emission-du-2-mars-1990?rang=35",
+      "channel": "Antenne 2",
+      "date": "02-03-1990",
+      "start": "17:25:34"
+    },
+    {
+      "notice_id": "DA_CPB90001925",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001925/giga-emission-du-5-mars-1990?rang=201",
+      "channel": "Antenne 2",
+      "date": "05-03-1990",
+      "start": "17:16:56"
+    },
+    {
+      "notice_id": "DA_CPB90001926",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001926/giga-emission-du-6-mars-1990?rang=38",
+      "channel": "Antenne 2",
+      "date": "06-03-1990",
+      "start": "17:19:23"
+    },
+    {
+      "notice_id": "DA_CPB90001927",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001927/giga-emission-du-7-mars-1990?rang=202",
+      "channel": "Antenne 2",
+      "date": "07-03-1990",
+      "start": "17:19:55"
+    },
+    {
+      "notice_id": "DA_CPB90001928",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001928/giga-emission-du-8-mars-1990?rang=203",
+      "channel": "Antenne 2",
+      "date": "08-03-1990",
+      "start": "17:17:54"
+    },
+    {
+      "notice_id": "DA_CPB90001929",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001929/giga-emission-du-9-mars-1990?rang=36",
+      "channel": "Antenne 2",
+      "date": "09-03-1990",
+      "start": "17:17:04"
+    },
+    {
+      "notice_id": "DA_CPB90001931",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001931/giga-emission-du-13-mars-1990?rang=177",
+      "channel": "Antenne 2",
+      "date": "13-03-1990",
+      "start": "17:20:13"
+    },
+    {
+      "notice_id": "DA_CPB90001932",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001932/giga-emission-du-14-mars-1990?rang=204",
+      "channel": "Antenne 2",
+      "date": "14-03-1990",
+      "start": "17:20:23"
+    },
+    {
+      "notice_id": "DA_CPB90001933",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001933/giga-emission-du-15-mars-1990?rang=205",
+      "channel": "Antenne 2",
+      "date": "15-03-1990",
+      "start": "17:20:24"
+    },
+    {
+      "notice_id": "DA_CPB90001934",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001934/giga-emission-du-16-mars-1990?rang=39",
+      "channel": "Antenne 2",
+      "date": "16-03-1990",
+      "start": "18:13:02"
+    },
+    {
+      "notice_id": "DA_CPB90002790",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002790/giga-emission-du-19-mars-1990?rang=40",
+      "channel": "Antenne 2",
+      "date": "19-03-1990",
+      "start": "17:15:42"
+    },
+    {
+      "notice_id": "DA_CPB90002791",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002791/giga-emission-du-20-mars-1990?rang=153",
+      "channel": "Antenne 2",
+      "date": "20-03-1990",
+      "start": "17:19:00"
+    },
+    {
+      "notice_id": "DA_CPB90002793",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002793/giga-emission-du-22-mars-1990?rang=41",
+      "channel": "Antenne 2",
+      "date": "22-03-1990",
+      "start": "17:19:12"
+    },
+    {
+      "notice_id": "DA_CPB90002794",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002794/giga-emission-du-23-mars-1990?rang=154",
+      "channel": "Antenne 2",
+      "date": "23-03-1990",
+      "start": "17:21:57"
+    },
+    {
+      "notice_id": "DA_CPB90003026",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003026/giga-emission-du-26-mars-1990?rang=4",
+      "channel": "Antenne 2",
+      "date": "26-03-1990",
+      "start": "17:13:04"
+    },
+    {
+      "notice_id": "DA_CPB90003055",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003055/giga-emission-du-27-mars-1990?rang=206",
+      "channel": "Antenne 2",
+      "date": "27-03-1990",
+      "start": "17:17:50"
+    },
+    {
+      "notice_id": "DA_CPB90003056",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003056/giga-emission-du-28-mars-1990?rang=207",
+      "channel": "Antenne 2",
+      "date": "28-03-1990",
+      "start": "17:19:25"
+    },
+    {
+      "notice_id": "DA_CPB90003057",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003057/giga-emission-du-29-mars-1990?rang=51",
+      "channel": "Antenne 2",
+      "date": "29-03-1990",
+      "start": "17:22:49"
+    },
+    {
+      "notice_id": "DA_CPB90003058",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003058/giga-emission-du-30-mars-1990?rang=5",
+      "channel": "Antenne 2",
+      "date": "30-03-1990",
+      "start": "17:18:13"
+    },
+    {
+      "notice_id": "DA_CPB90003059",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003059/giga-emission-du-2-avril-1990?rang=178",
+      "channel": "Antenne 2",
+      "date": "02-04-1990",
+      "start": "17:17:10"
+    },
+    {
+      "notice_id": "DA_CPB90003060",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003060/giga-emission-du-3-avril-1990?rang=42",
+      "channel": "Antenne 2",
+      "date": "03-04-1990",
+      "start": "17:21:31"
+    },
+    {
+      "notice_id": "DA_CPB90003061",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003061/giga-emission-du-4-avril-1990?rang=52",
+      "channel": "Antenne 2",
+      "date": "04-04-1990",
+      "start": "17:27:09"
+    },
+    {
+      "notice_id": "DA_CPB90003062",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003062/giga-emission-du-5-avril-1990?rang=6",
+      "channel": "Antenne 2",
+      "date": "05-04-1990",
+      "start": "17:22:10"
+    },
+    {
+      "notice_id": "DA_CPB90003063",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003063/giga-emission-du-6-avril-1990?rang=43",
+      "channel": "Antenne 2",
+      "date": "06-04-1990",
+      "start": "17:21:42"
+    },
+    {
+      "notice_id": "DA_CPB90003847",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003847/giga-emission-du-9-avril-1990?rang=179",
+      "channel": "Antenne 2",
+      "date": "09-04-1990",
+      "start": "17:19:02"
+    },
+    {
+      "notice_id": "DA_CPB90006534",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006534/giga-emission-du-10-avril-1990?rang=7",
+      "channel": "Antenne 2",
+      "date": "10-04-1990",
+      "start": "17:26:12"
+    },
+    {
+      "notice_id": "DA_CPB90008009",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008009/giga-emission-du-11-avril-1990?rang=53",
+      "channel": "Antenne 2",
+      "date": "11-04-1990",
+      "start": "17:24:08"
+    },
+    {
+      "notice_id": "DA_CPB90006126",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006126/giga-emission-du-12-avril-1990?rang=8",
+      "channel": "Antenne 2",
+      "date": "12-04-1990",
+      "start": "17:23:35"
+    },
+    {
+      "notice_id": "DA_CPB90006135",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006135/giga-emission-du-13-avril-1990?rang=54",
+      "channel": "Antenne 2",
+      "date": "13-04-1990",
+      "start": "17:27:25"
+    },
+    {
+      "notice_id": "DA_CPB90008010",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008010/giga-emission-du-16-avril-1990?rang=9",
+      "channel": "Antenne 2",
+      "date": "16-04-1990",
+      "start": "17:07:32"
+    },
+    {
+      "notice_id": "DA_CPB90008011",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008011/giga-emission-du-17-avril-1990?rang=55",
+      "channel": "Antenne 2",
+      "date": "17-04-1990",
+      "start": "17:00:56"
+    },
+    {
+      "notice_id": "DA_CPB90008393",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008393/giga-emission-du-18-avril-1990?rang=44",
+      "channel": "Antenne 2",
+      "date": "18-04-1990",
+      "start": "17:23:41"
+    },
+    {
+      "notice_id": "DA_CPB90008012",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008012/giga-emission-du-19-avril-1990?rang=10",
+      "channel": "Antenne 2",
+      "date": "19-04-1990",
+      "start": "17:25:43"
+    },
+    {
+      "notice_id": "DA_CPB90008013",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008013/giga-emission-du-20-avril-1990?rang=45",
+      "channel": "Antenne 2",
+      "date": "20-04-1990",
+      "start": "17:25:37"
+    },
+    {
+      "notice_id": "DA_CPB90008014",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008014/giga-emission-du-23-avril-1990?rang=46",
+      "channel": "Antenne 2",
+      "date": "23-04-1990",
+      "start": "17:18:08"
+    },
+    {
+      "notice_id": "DA_CPB90008016",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008016/giga-emission-du-24-avril-1990?rang=47",
+      "channel": "Antenne 2",
+      "date": "24-04-1990",
+      "start": "17:22:26"
+    },
+    {
+      "notice_id": "DA_CPB90008017",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008017/giga-emission-du-25-avril-1990?rang=56",
+      "channel": "Antenne 2",
+      "date": "25-04-1990",
+      "start": "17:22:50"
+    },
+    {
+      "notice_id": "DA_CPB90008018",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008018/giga-emission-du-26-avril-1990?rang=11",
+      "channel": "Antenne 2",
+      "date": "26-04-1990",
+      "start": "17:22:19"
+    },
+    {
+      "notice_id": "DA_CPB90008020",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008020/giga-emission-du-27-avril-1990?rang=48",
+      "channel": "Antenne 2",
+      "date": "27-04-1990",
+      "start": "17:19:40"
+    },
+    {
+      "notice_id": "DA_CPB90003910",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003910/giga-emission-du-30-avril-1990?rang=57",
+      "channel": "Antenne 2",
+      "date": "30-04-1990",
+      "start": "17:19:02"
+    },
+    {
+      "notice_id": "DA_CPB90003911",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003911/giga-emission-du-1er-mai-1990?rang=49",
+      "channel": "Antenne 2",
+      "date": "01-05-1990",
+      "start": "17:23:09"
+    },
+    {
+      "notice_id": "DA_CPB90003912",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003912/giga-emission-du-2-mai-1990?rang=58",
+      "channel": "Antenne 2",
+      "date": "02-05-1990",
+      "start": "17:24:22"
+    },
+    {
+      "notice_id": "DA_CPB90003913",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003913/giga-emission-du-3-mai-1990?rang=12",
+      "channel": "Antenne 2",
+      "date": "03-05-1990",
+      "start": "17:26:06"
+    },
+    {
+      "notice_id": "DA_CPB90003914",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003914/giga-emission-du-4-mai-1990?rang=156",
+      "channel": "Antenne 2",
+      "date": "04-05-1990",
+      "start": "17:23:40"
+    },
+    {
+      "notice_id": "DA_CPB90003915",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003915/giga-emission-du-7-mai-1990?rang=13",
+      "channel": "Antenne 2",
+      "date": "07-05-1990",
+      "start": "17:23:19"
+    },
+    {
+      "notice_id": "DA_CPB90003916",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003916/giga-emission-du-8-mai-1990?rang=59",
+      "channel": "Antenne 2",
+      "date": "08-05-1990",
+      "start": "17:26:48"
+    },
+    {
+      "notice_id": "DA_CPB90003917",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003917/giga-emission-du-9-mai-1990?rang=50",
+      "channel": "Antenne 2",
+      "date": "09-05-1990",
+      "start": "17:24:19"
+    },
+    {
+      "notice_id": "DA_CPB90003918",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003918/giga-emission-du-10-mai-1990?rang=60",
+      "channel": "Antenne 2",
+      "date": "10-05-1990",
+      "start": "17:24:04"
+    },
+    {
+      "notice_id": "DA_CPB90003919",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003919/giga-emission-du-11-mai-1990?rang=208",
+      "channel": "Antenne 2",
+      "date": "11-05-1990",
+      "start": "17:24:58"
+    },
+    {
+      "notice_id": "DA_CPB90004525",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004525/giga-emission-du-14-mai-1990?rang=209",
+      "channel": "Antenne 2",
+      "date": "14-05-1990",
+      "start": "17:14:54"
+    },
+    {
+      "notice_id": "DA_CPB90004526",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004526/giga-emission-du-15-mai-1990?rang=14",
+      "channel": "Antenne 2",
+      "date": "15-05-1990",
+      "start": "17:20:31"
+    },
+    {
+      "notice_id": "DA_CPB90004527",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004527/giga-emission-du-16-mai-1990?rang=61",
+      "channel": "Antenne 2",
+      "date": "16-05-1990",
+      "start": "17:18:40"
+    },
+    {
+      "notice_id": "DA_CPB90004528",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004528/giga-emission-du-17-mai-1990?rang=210",
+      "channel": "Antenne 2",
+      "date": "17-05-1990",
+      "start": "17:25:54"
+    },
+    {
+      "notice_id": "DA_CPB90004529",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004529/giga-emission-du-18-mai-1990?rang=16",
+      "channel": "Antenne 2",
+      "date": "18-05-1990",
+      "start": "17:21:20"
+    },
+    {
+      "notice_id": "DA_CPB90004530",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004530/giga-emission-du-21-mai-1990?rang=180",
+      "channel": "Antenne 2",
+      "date": "21-05-1990",
+      "start": "17:22:56"
+    },
+    {
+      "notice_id": "DA_CPB90004531",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004531/giga-emission-du-22-mai-1990?rang=181",
+      "channel": "Antenne 2",
+      "date": "22-05-1990",
+      "start": "17:17:58"
+    },
+    {
+      "notice_id": "DA_CPB90004532",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004532/giga-emission-du-23-mai-1990?rang=15",
+      "channel": "Antenne 2",
+      "date": "23-05-1990",
+      "start": "17:15:56"
+    },
+    {
+      "notice_id": "DA_CPB90004533",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004533/giga-emission-du-24-mai-1990?rang=62",
+      "channel": "Antenne 2",
+      "date": "24-05-1990",
+      "start": "17:51:00"
+    },
+    {
+      "notice_id": "DA_CPB90004534",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004534/giga-emission-du-25-mai-1990?rang=182",
+      "channel": "Antenne 2",
+      "date": "25-05-1990",
+      "start": "17:19:32"
+    },
+    {
+      "notice_id": "DA_CPB90005692",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005692/giga-emission-du-11-juin-1990?rang=17",
+      "channel": "Antenne 2",
+      "date": "11-06-1990",
+      "start": "17:20:42"
+    },
+    {
+      "notice_id": "DA_CPB90005805",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005805/giga-emission-du-12-juin-1990?rang=64",
+      "channel": "Antenne 2",
+      "date": "12-06-1990",
+      "start": "17:24:01"
+    },
+    {
+      "notice_id": "DA_CPB90005810",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005810/giga-emission-du-13-juin-1990?rang=165",
+      "channel": "Antenne 2",
+      "date": "13-06-1990",
+      "start": "18:50:12"
+    },
+    {
+      "notice_id": "DA_CPB90005861",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005861/giga-emission-du-14-juin-1990?rang=18",
+      "channel": "Antenne 2",
+      "date": "14-06-1990",
+      "start": "17:24:05"
+    },
+    {
+      "notice_id": "DA_CPB90005862",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005862/giga-emission-du-15-juin-1990?rang=166",
+      "channel": "Antenne 2",
+      "date": "15-06-1990",
+      "start": "17:27:02"
+    },
+    {
+      "notice_id": "DA_CPB90005838",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005838/giga-emission-du-18-juin-1990?rang=167",
+      "channel": "Antenne 2",
+      "date": "18-06-1990",
+      "start": "17:20:43"
+    },
+    {
+      "notice_id": "DA_CPB90005839",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005839/giga-emission-du-19-juin-1990?rang=65",
+      "channel": "Antenne 2",
+      "date": "19-06-1990",
+      "start": "17:04:29"
+    },
+    {
+      "notice_id": "DA_CPB90005840",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005840/giga-emission-du-20-juin-1990?rang=91",
+      "channel": "Antenne 2",
+      "date": "20-06-1990",
+      "start": "17:25:51"
+    },
+    {
+      "notice_id": "DA_CPB90005841",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005841/giga-emission-du-21-juin-1990?rang=211",
+      "channel": "Antenne 2",
+      "date": "21-06-1990",
+      "start": "17:25:25"
+    },
+    {
+      "notice_id": "DA_CPB90005842",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005842/giga-emission-du-22-juin-1990?rang=92",
+      "channel": "Antenne 2",
+      "date": "22-06-1990",
+      "start": "17:31:19"
+    },
+    {
+      "notice_id": "DA_CPB90005928",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005928/giga-emission-du-25-juin-1990?rang=19",
+      "channel": "Antenne 2",
+      "date": "25-06-1990",
+      "start": "17:21:28"
+    },
+    {
+      "notice_id": "DA_CPB90005929",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005929/giga-emission-du-26-juin-1990?rang=66",
+      "channel": "Antenne 2",
+      "date": "26-06-1990",
+      "start": "17:03:39"
+    },
+    {
+      "notice_id": "DA_CPB90005930",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005930/giga-emission-du-27-juin-1990?rang=184",
+      "channel": "Antenne 2",
+      "date": "27-06-1990",
+      "start": "17:11:31"
+    },
+    {
+      "notice_id": "DA_CPB90005931",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005931/giga-emission-du-28-juin-1990?rang=93",
+      "channel": "Antenne 2",
+      "date": "28-06-1990",
+      "start": "17:03:52"
+    },
+    {
+      "notice_id": "DA_CPB90005932",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005932/giga-emission-du-29-juin-1990?rang=20",
+      "channel": "Antenne 2",
+      "date": "29-06-1990",
+      "start": "17:06:50"
+    },
+    {
+      "notice_id": "DA_CPB90006207",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006207/giga-emission-du-2-juillet-1990?rang=21",
+      "channel": "Antenne 2",
+      "date": "02-07-1990",
+      "start": "18:21:09"
+    },
+    {
+      "notice_id": "DA_CPB90006200",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006200/giga-emission-du-3-juillet-1990?rang=158",
+      "channel": "Antenne 2",
+      "date": "03-07-1990",
+      "start": "17:35:34"
+    },
+    {
+      "notice_id": "DA_CPB90006208",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006208/giga-emission-du-4-juillet-1990?rang=22",
+      "channel": "Antenne 2",
+      "date": "04-07-1990",
+      "start": "18:23:37"
+    },
+    {
+      "notice_id": "DA_CPB90006209",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006209/giga-emission-du-5-juillet-1990?rang=94",
+      "channel": "Antenne 2",
+      "date": "05-07-1990",
+      "start": "18:27:37"
+    },
+    {
+      "notice_id": "DA_CPB90006210",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006210/giga-emission-du-6-juillet-1990?rang=67",
+      "channel": "Antenne 2",
+      "date": "06-07-1990",
+      "start": "18:25:12"
+    },
+    {
+      "notice_id": "DA_CPB90006195",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006195/giga-emission-du-9-juillet-1990?rang=185",
+      "channel": "Antenne 2",
+      "date": "09-07-1990",
+      "start": "18:30:45"
+    },
+    {
+      "notice_id": "DA_CPB90006196",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006196/giga-emission-du-10-juillet-1990?rang=95",
+      "channel": "Antenne 2",
+      "date": "10-07-1990",
+      "start": "18:30:09"
+    },
+    {
+      "notice_id": "DA_CPB90006197",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006197/giga-emission-du-11-juillet-1990?rang=159",
+      "channel": "Antenne 2",
+      "date": "11-07-1990",
+      "start": "18:55:23"
+    },
+    {
+      "notice_id": "DA_CPB90006198",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006198/giga-emission-du-12-juillet-1990?rang=68",
+      "channel": "Antenne 2",
+      "date": "12-07-1990",
+      "start": "18:32:55"
+    },
+    {
+      "notice_id": "DA_CPB90006199",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006199/giga-emission-du-13-juillet-1990?rang=96",
+      "channel": "Antenne 2",
+      "date": "13-07-1990",
+      "start": "18:35:41"
+    },
+    {
+      "notice_id": "DA_CPB90006545",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006545/giga-emission-du-16-juillet-1990?rang=69",
+      "channel": "Antenne 2",
+      "date": "16-07-1990",
+      "start": "17:35:54"
+    },
+    {
+      "notice_id": "DA_CPB90006552",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006552/giga-emission-du-17-juillet-1990?rang=70",
+      "channel": "Antenne 2",
+      "date": "17-07-1990",
+      "start": "17:45:52"
+    },
+    {
+      "notice_id": "DA_CPB90006555",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006555/giga-emission-du-18-juillet-1990?rang=186",
+      "channel": "Antenne 2",
+      "date": "18-07-1990",
+      "start": "17:44:28"
+    },
+    {
+      "notice_id": "DA_CPB90006560",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006560/giga-emission-du-19-juillet-1990?rang=97",
+      "channel": "Antenne 2",
+      "date": "19-07-1990",
+      "start": "17:44:58"
+    },
+    {
+      "notice_id": "DA_CPB90006564",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006564/giga-emission-du-20-juillet-1990?rang=98",
+      "channel": "Antenne 2",
+      "date": "20-07-1990",
+      "start": "17:42:15"
+    },
+    {
+      "notice_id": "DA_CPB90006592",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006592/giga-emission-du-23-juillet-1990?rang=99",
+      "channel": "Antenne 2",
+      "date": "23-07-1990",
+      "start": "17:56:49"
+    },
+    {
+      "notice_id": "DA_CPB90006719",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006719/giga-emission-du-24-juillet-1990?rang=168",
+      "channel": "Antenne 2",
+      "date": "24-07-1990",
+      "start": "17:56:31"
+    },
+    {
+      "notice_id": "DA_CPB90006725",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006725/giga-emission-du-25-juillet-1990?rang=23",
+      "channel": "Antenne 2",
+      "date": "25-07-1990",
+      "start": "18:00:21"
+    },
+    {
+      "notice_id": "DA_CPB90006730",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006730/giga-emission-du-26-juillet-1990?rang=187",
+      "channel": "Antenne 2",
+      "date": "26-07-1990",
+      "start": "18:01:11"
+    },
+    {
+      "notice_id": "DA_CPB90006950",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006950/giga-emission-du-27-juillet-1990?rang=188",
+      "channel": "Antenne 2",
+      "date": "27-07-1990",
+      "start": "18:01:38"
+    },
+    {
+      "notice_id": "DA_CPB90006951",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006951/giga-emission-du-30-juillet-1990?rang=169",
+      "channel": "Antenne 2",
+      "date": "30-07-1990",
+      "start": "18:00:26"
+    },
+    {
+      "notice_id": "DA_CPB90006952",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006952/giga-emission-du-31-juillet-1990?rang=71",
+      "channel": "Antenne 2",
+      "date": "31-07-1990",
+      "start": "18:01:24"
+    },
+    {
+      "notice_id": "DA_CPB90006953",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006953/giga-emission-du-1er-aout-1990?rang=189",
+      "channel": "Antenne 2",
+      "date": "01-08-1990",
+      "start": "18:01:44"
+    },
+    {
+      "notice_id": "DA_CPB90006954",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006954/giga-emission-du-2-aout-1990?rang=183",
+      "channel": "Antenne 2",
+      "date": "02-08-1990",
+      "start": "18:03:59"
+    },
+    {
+      "notice_id": "DA_CPB90006955",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006955/giga-emission-du-3-aout-1990?rang=24",
+      "channel": "Antenne 2",
+      "date": "03-08-1990",
+      "start": "18:01:06"
+    },
+    {
+      "notice_id": "DA_CPB90006956",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006956/giga-emission-du-6-aout-1990?rang=25",
+      "channel": "Antenne 2",
+      "date": "06-08-1990",
+      "start": "17:58:38"
+    },
+    {
+      "notice_id": "DA_CPB90006957",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006957/giga-emission-du-7-aout-1990?rang=120",
+      "channel": "Antenne 2",
+      "date": "07-08-1990",
+      "start": "17:59:34"
+    },
+    {
+      "notice_id": "DA_CPB90006958",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006958/giga-emission-du-8-aout-1990?rang=170",
+      "channel": "Antenne 2",
+      "date": "08-08-1990",
+      "start": "17:58:31"
+    },
+    {
+      "notice_id": "DA_CPB90006959",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006959/giga-emission-du-9-aout-1990?rang=27",
+      "channel": "Antenne 2",
+      "date": "09-08-1990",
+      "start": "17:57:25"
+    },
+    {
+      "notice_id": "DA_CPB90006960",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006960/giga-emission-du-10-aout-1990?rang=121",
+      "channel": "Antenne 2",
+      "date": "10-08-1990",
+      "start": "17:57:17"
+    },
+    {
+      "notice_id": "DA_CPB90007360",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007360/giga-emission-du-13-aout-1990?rang=26",
+      "channel": "Antenne 2",
+      "date": "13-08-1990",
+      "start": "18:03:58"
+    },
+    {
+      "notice_id": "DA_CPB90007361",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007361/giga-emission-du-14-aout-1990?rang=190",
+      "channel": "Antenne 2",
+      "date": "14-08-1990",
+      "start": "18:03:41"
+    },
+    {
+      "notice_id": "DA_CPB90007362",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007362/giga-emission-du-15-aout-1990?rang=122",
+      "channel": "Antenne 2",
+      "date": "15-08-1990",
+      "start": "18:01:56"
+    },
+    {
+      "notice_id": "DA_CPB90007363",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007363/giga-emission-du-16-aout-1990?rang=171",
+      "channel": "Antenne 2",
+      "date": "16-08-1990",
+      "start": "17:38:30"
+    },
+    {
+      "notice_id": "DA_CPB90007364",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007364/giga-emission-du-17-aout-1990?rang=28",
+      "channel": "Antenne 2",
+      "date": "17-08-1990",
+      "start": "17:37:33"
+    },
+    {
+      "notice_id": "DA_CPB90007411",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007411/giga-emission-du-20-aout-1990?rang=191",
+      "channel": "Antenne 2",
+      "date": "20-08-1990",
+      "start": "17:34:09"
+    },
+    {
+      "notice_id": "DA_CPB90007412",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007412/giga-emission-du-21-aout-1990?rang=192",
+      "channel": "Antenne 2",
+      "date": "21-08-1990",
+      "start": "17:35:43"
+    },
+    {
+      "notice_id": "DA_CPB90007413",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007413/giga-emission-du-22-aout-1990?rang=193",
+      "channel": "Antenne 2",
+      "date": "22-08-1990",
+      "start": "17:37:41"
+    },
+    {
+      "notice_id": "DA_CPB90007414",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007414/giga-emission-du-23-aout-1990?rang=194",
+      "channel": "Antenne 2",
+      "date": "23-08-1990",
+      "start": "17:34:21"
+    },
+    {
+      "notice_id": "DA_CPB90007415",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007415/giga-emission-du-24-aout-1990?rang=195",
+      "channel": "Antenne 2",
+      "date": "24-08-1990",
+      "start": "17:33:09"
+    },
+    {
+      "notice_id": "DA_CPB90007436",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007436/giga-emission-du-27-aout-1990?rang=72",
+      "channel": "Antenne 2",
+      "date": "27-08-1990",
+      "start": "17:29:59"
+    },
+    {
+      "notice_id": "DA_CPB90007437",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007437/giga-emission-du-28-aout-1990?rang=73",
+      "channel": "Antenne 2",
+      "date": "28-08-1990",
+      "start": "17:33:15"
+    },
+    {
+      "notice_id": "DA_CPB90007438",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007438/giga-emission-du-29-aout-1990?rang=123",
+      "channel": "Antenne 2",
+      "date": "29-08-1990",
+      "start": "17:32:17"
+    },
+    {
+      "notice_id": "DA_CPB90007439",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007439/giga-emission-du-30-aout-1990?rang=74",
+      "channel": "Antenne 2",
+      "date": "30-08-1990",
+      "start": "17:32:43"
+    },
+    {
+      "notice_id": "DA_CPB90007440",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007440/giga-emission-du-31-aout-1990?rang=124",
+      "channel": "Antenne 2",
+      "date": "31-08-1990",
+      "start": "17:38:04"
+    },
+    {
+      "notice_id": "DA_CPB90007806",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007806/giga-emission-du-3-septembre-1990?rang=125",
+      "channel": "Antenne 2",
+      "date": "03-09-1990",
+      "start": "17:37:56"
+    },
+    {
+      "notice_id": "DA_CPB90007807",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007807/giga-emission-du-4-septembre-1990?rang=30",
+      "channel": "Antenne 2",
+      "date": "04-09-1990",
+      "start": "17:33:19"
+    },
+    {
+      "notice_id": "DA_CPB90007808",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007808/giga-emission-du-5-septembre-1990?rang=75",
+      "channel": "Antenne 2",
+      "date": "05-09-1990",
+      "start": "17:30:43"
+    },
+    {
+      "notice_id": "DA_CPB90007809",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007809/giga-emission-du-6-septembre-1990?rang=29",
+      "channel": "Antenne 2",
+      "date": "06-09-1990",
+      "start": "17:29:15"
+    },
+    {
+      "notice_id": "DA_CPB90007810",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007810/giga-emission-du-7-septembre-1990?rang=31",
+      "channel": "Antenne 2",
+      "date": "07-09-1990",
+      "start": "17:35:52"
+    },
+    {
+      "notice_id": "DA_CPB90007967",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007967/giga-emission-du-10-septembre-1990?rang=126",
+      "channel": "Antenne 2",
+      "date": "10-09-1990",
+      "start": "17:25:27"
+    },
+    {
+      "notice_id": "DA_CPB90007968",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007968/giga-emission-du-11-septembre-1990?rang=32",
+      "channel": "Antenne 2",
+      "date": "11-09-1990",
+      "start": "17:28:26"
+    },
+    {
+      "notice_id": "DA_CPB90007969",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007969/giga-emission-du-12-septembre-1990?rang=76",
+      "channel": "Antenne 2",
+      "date": "12-09-1990",
+      "start": "17:32:55"
+    },
+    {
+      "notice_id": "DA_CPB90007970",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007970/giga-emission-du-13-septembre-1990?rang=127",
+      "channel": "Antenne 2",
+      "date": "13-09-1990",
+      "start": "17:36:06"
+    },
+    {
+      "notice_id": "DA_CPB90007971",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007971/giga-emission-du-14-septembre-1990?rang=77",
+      "channel": "Antenne 2",
+      "date": "14-09-1990",
+      "start": "17:30:04"
+    },
+    {
+      "notice_id": "DA_CPB90008043",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008043/giga-emission-du-17-septembre-1990?rang=196",
+      "channel": "Antenne 2",
+      "date": "17-09-1990",
+      "start": "16:59:59"
+    },
+    {
+      "notice_id": "DA_CPB90008044",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008044/giga-emission-du-18-septembre-1990?rang=197",
+      "channel": "Antenne 2",
+      "date": "18-09-1990",
+      "start": "17:04:30"
+    },
+    {
+      "notice_id": "DA_CPB90008045",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008045/giga-emission-du-19-septembre-1990?rang=78",
+      "channel": "Antenne 2",
+      "date": "19-09-1990",
+      "start": "16:59:59"
+    },
+    {
+      "notice_id": "DA_CPB90008046",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008046/giga-emission-du-20-septembre-1990?rang=128",
+      "channel": "Antenne 2",
+      "date": "20-09-1990",
+      "start": "17:01:42"
+    },
+    {
+      "notice_id": "DA_CPB90008047",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008047/giga-emission-du-21-septembre-1990?rang=160",
+      "channel": "Antenne 2",
+      "date": "21-09-1990",
+      "start": "17:03:19"
+    },
+    {
+      "notice_id": "DA_CPB90008348",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008348/giga-emission-du-24-septembre-1990?rang=100",
+      "channel": "Antenne 2",
+      "date": "24-09-1990",
+      "start": "16:57:43"
+    },
+    {
+      "notice_id": "DA_CPB90008349",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008349/giga-emission-du-25-septembre-1990?rang=79",
+      "channel": "Antenne 2",
+      "date": "25-09-1990",
+      "start": "17:09:18"
+    },
+    {
+      "notice_id": "DA_CPB90008350",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008350/giga-emission-du-26-septembre-1990?rang=129",
+      "channel": "Antenne 2",
+      "date": "26-09-1990",
+      "start": "16:57:49"
+    },
+    {
+      "notice_id": "DA_CPB90008351",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008351/giga-emission-du-27-septembre-1990?rang=101",
+      "channel": "Antenne 2",
+      "date": "27-09-1990",
+      "start": "17:04:28"
+    },
+    {
+      "notice_id": "DA_CPB90008352",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008352/giga-emission-du-28-septembre-1990?rang=80",
+      "channel": "Antenne 2",
+      "date": "28-09-1990",
+      "start": "17:04:13"
+    },
+    {
+      "notice_id": "DA_CPB90008512",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008512/giga-emission-du-1er-octobre-1990?rang=172",
+      "channel": "Antenne 2",
+      "date": "01-10-1990",
+      "start": "17:04:10"
+    },
+    {
+      "notice_id": "DA_CPB90008513",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008513/giga-emission-du-2-octobre-1990?rang=81",
+      "channel": "Antenne 2",
+      "date": "02-10-1990",
+      "start": "16:57:49"
+    },
+    {
+      "notice_id": "DA_CPB90008514",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008514/giga-emission-du-3-octobre-1990?rang=82",
+      "channel": "Antenne 2",
+      "date": "03-10-1990",
+      "start": "16:54:50"
+    },
+    {
+      "notice_id": "DA_CPB90008515",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008515/giga-emission-du-4-octobre-1990?rang=130",
+      "channel": "Antenne 2",
+      "date": "04-10-1990",
+      "start": "17:05:51"
+    },
+    {
+      "notice_id": "DA_CPB90008516",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008516/giga-emission-du-5-octobre-1990?rang=83",
+      "channel": "Antenne 2",
+      "date": "05-10-1990",
+      "start": "17:04:33"
+    },
+    {
+      "notice_id": "DA_CPB90008517",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008517/giga-emission-du-8-octobre-1990?rang=84",
+      "channel": "Antenne 2",
+      "date": "08-10-1990",
+      "start": "17:09:52"
+    },
+    {
+      "notice_id": "DA_CPB90008518",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008518/giga-emission-du-9-octobre-1990?rang=102",
+      "channel": "Antenne 2",
+      "date": "09-10-1990",
+      "start": "17:03:44"
+    },
+    {
+      "notice_id": "DA_CPB90008519",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008519/giga-emission-du-10-octobre-1990?rang=131",
+      "channel": "Antenne 2",
+      "date": "10-10-1990",
+      "start": "16:58:51"
+    },
+    {
+      "notice_id": "DA_CPB90008520",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008520/giga-emission-du-11-octobre-1990?rang=85",
+      "channel": "Antenne 2",
+      "date": "11-10-1990",
+      "start": "16:55:36"
+    },
+    {
+      "notice_id": "DA_CPB90008521",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008521/giga-emission-du-12-octobre-1990?rang=132",
+      "channel": "Antenne 2",
+      "date": "12-10-1990",
+      "start": "17:05:04"
+    },
+    {
+      "notice_id": "DA_CPB90009339",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009339/giga-emission-du-15-octobre-1990?rang=103",
+      "channel": "Antenne 2",
+      "date": "15-10-1990",
+      "start": "17:20:15"
+    },
+    {
+      "notice_id": "DA_CPB90009331",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009331/giga-emission-du-16-octobre-1990?rang=86",
+      "channel": "Antenne 2",
+      "date": "16-10-1990",
+      "start": "17:04:44"
+    },
+    {
+      "notice_id": "DA_CPB90009366",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009366/giga-emission-du-17-octobre-1990?rang=104",
+      "channel": "Antenne 2",
+      "date": "17-10-1990",
+      "start": "16:48:38"
+    },
+    {
+      "notice_id": "DA_CPB90009469",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009469/giga-emission-du-18-octobre-1990?rang=133",
+      "channel": "Antenne 2",
+      "date": "18-10-1990",
+      "start": "16:57:21"
+    },
+    {
+      "notice_id": "DA_CPB90009470",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009470/giga-emission-du-19-octobre-1990?rang=173",
+      "channel": "Antenne 2",
+      "date": "19-10-1990",
+      "start": "17:04:52"
+    },
+    {
+      "notice_id": "DA_CPB90009471",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009471/giga-emission-du-22-octobre-1990?rang=87",
+      "channel": "Antenne 2",
+      "date": "22-10-1990",
+      "start": "17:11:35"
+    },
+    {
+      "notice_id": "DA_CPB90009472",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009472/giga-emission-du-23-octobre-1990?rang=88",
+      "channel": "Antenne 2",
+      "date": "23-10-1990",
+      "start": "17:01:24"
+    },
+    {
+      "notice_id": "DA_CPB90009473",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009473/giga-emission-du-24-octobre-1990?rang=89",
+      "channel": "Antenne 2",
+      "date": "24-10-1990",
+      "start": "16:57:21"
+    },
+    {
+      "notice_id": "DA_CPB90009474",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009474/giga-emission-du-25-octobre-1990?rang=105",
+      "channel": "Antenne 2",
+      "date": "25-10-1990",
+      "start": "17:02:04"
+    },
+    {
+      "notice_id": "DA_CPB90009475",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009475/giga-emission-du-26-octobre-1990?rang=134",
+      "channel": "Antenne 2",
+      "date": "26-10-1990",
+      "start": "17:05:01"
+    },
+    {
+      "notice_id": "DA_CPB90009523",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009523/giga-emission-du-29-octobre-1990?rang=174",
+      "channel": "Antenne 2",
+      "date": "29-10-1990",
+      "start": "17:11:50"
+    },
+    {
+      "notice_id": "DA_CPB90009524",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009524/giga-emission-du-30-octobre-1990?rang=106",
+      "channel": "Antenne 2",
+      "date": "30-10-1990",
+      "start": "17:07:28"
+    },
+    {
+      "notice_id": "DA_CPB90009529",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009529/giga-emission-du-1er-novembre-1990?rang=175",
+      "channel": "Antenne 2",
+      "date": "01-11-1990",
+      "start": "17:07:04"
+    },
+    {
+      "notice_id": "DA_CPB90009531",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009531/giga-emission-du-2-novembre-1990?rang=107",
+      "channel": "Antenne 2",
+      "date": "02-11-1990",
+      "start": "17:00:16"
+    },
+    {
+      "notice_id": "DA_CPB90009849",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009849/giga-emission-du-5-novembre-1990?rang=108",
+      "channel": "Antenne 2",
+      "date": "05-11-1990",
+      "start": "17:44:06"
+    },
+    {
+      "notice_id": "DA_CPB90009850",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009850/giga-emission-du-6-novembre-1990?rang=90",
+      "channel": "Antenne 2",
+      "date": "06-11-1990",
+      "start": "17:46:38"
+    },
+    {
+      "notice_id": "DA_CPB90009853",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009853/giga-emission-du-7-novembre-1990?rang=164",
+      "channel": "Antenne 2",
+      "date": "07-11-1990",
+      "start": "17:48:36"
+    },
+    {
+      "notice_id": "DA_CPB90009854",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009854/giga-emission-du-8-novembre-1990?rang=109",
+      "channel": "Antenne 2",
+      "date": "08-11-1990",
+      "start": "17:49:31"
+    },
+    {
+      "notice_id": "DA_CPB90009856",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009856/giga-emission-du-9-novembre-1990?rang=135",
+      "channel": "Antenne 2",
+      "date": "09-11-1990",
+      "start": "17:46:19"
+    },
+    {
+      "notice_id": "DA_CPB90010453",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010453/giga-emission-du-12-novembre-1990?rang=198",
+      "channel": "Antenne 2",
+      "date": "12-11-1990",
+      "start": "17:49:15"
+    },
+    {
+      "notice_id": "DA_CPB90010454",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010454/giga-emission-du-13-novembre-1990?rang=136",
+      "channel": "Antenne 2",
+      "date": "13-11-1990",
+      "start": "17:46:47"
+    },
+    {
+      "notice_id": "DA_CPB90010455",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010455/giga-emission-du-14-novembre-1990?rang=110",
+      "channel": "Antenne 2",
+      "date": "14-11-1990",
+      "start": "17:50:50"
+    },
+    {
+      "notice_id": "DA_CPB90010456",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010456/giga-emission-du-15-novembre-1990?rang=162",
+      "channel": "Antenne 2",
+      "date": "15-11-1990",
+      "start": "17:41:50"
+    },
+    {
+      "notice_id": "DA_CPB90010457",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010457/giga-emission-du-16-novembre-1990?rang=144",
+      "channel": "Antenne 2",
+      "date": "16-11-1990",
+      "start": "17:45:20"
+    },
+    {
+      "notice_id": "DA_CPB90010458",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010458/giga-emission-du-19-novembre-1990?rang=137",
+      "channel": "Antenne 2",
+      "date": "19-11-1990",
+      "start": "17:43:34"
+    },
+    {
+      "notice_id": "DA_CPB90010459",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010459/giga-emission-du-20-novembre-1990?rang=145",
+      "channel": "Antenne 2",
+      "date": "20-11-1990",
+      "start": "17:45:34"
+    },
+    {
+      "notice_id": "DA_CPB90010461",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010461/giga-emission-du-22-novembre-1990?rang=138",
+      "channel": "Antenne 2",
+      "date": "22-11-1990",
+      "start": "17:49:57"
+    },
+    {
+      "notice_id": "DA_CPB90010462",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010462/giga-emission-du-23-novembre-1990?rang=157",
+      "channel": "Antenne 2",
+      "date": "23-11-1990",
+      "start": "17:48:14"
+    },
+    {
+      "notice_id": "DA_CPB90010885",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010885/giga-emission-du-26-novembre-1990?rang=146",
+      "channel": "Antenne 2",
+      "date": "26-11-1990",
+      "start": "17:41:23"
+    },
+    {
+      "notice_id": "DA_CPB90010886",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010886/giga-emission-du-27-novembre-1990?rang=112",
+      "channel": "Antenne 2",
+      "date": "27-11-1990",
+      "start": "17:45:33"
+    },
+    {
+      "notice_id": "DA_CPB90010887",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010887/giga-emission-du-28-novembre-1990?rang=139",
+      "channel": "Antenne 2",
+      "date": "28-11-1990",
+      "start": "17:51:26"
+    },
+    {
+      "notice_id": "DA_CPB90010888",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010888/giga-emission-du-29-novembre-1990?rang=111",
+      "channel": "Antenne 2",
+      "date": "29-11-1990",
+      "start": "17:45:54"
+    },
+    {
+      "notice_id": "DA_CPB90010889",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010889/giga-emission-du-30-novembre-1990?rang=140",
+      "channel": "Antenne 2",
+      "date": "30-11-1990",
+      "start": "17:43:31"
+    },
+    {
+      "notice_id": "DA_CPB90011465",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011465/giga-emission-du-3-decembre-1990?rang=147",
+      "channel": "Antenne 2",
+      "date": "03-12-1990",
+      "start": "17:51:52"
+    },
+    {
+      "notice_id": "DA_CPB90011466",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011466/giga-emission-du-4-decembre-1990?rang=141",
+      "channel": "Antenne 2",
+      "date": "04-12-1990",
+      "start": "17:43:42"
+    },
+    {
+      "notice_id": "DA_CPB90011467",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011467/giga-emission-du-5-decembre-1990?rang=113",
+      "channel": "Antenne 2",
+      "date": "05-12-1990",
+      "start": "17:46:44"
+    },
+    {
+      "notice_id": "DA_CPB90011468",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011468/giga-emission-du-6-decembre-1990?rang=148",
+      "channel": "Antenne 2",
+      "date": "06-12-1990",
+      "start": "17:42:23"
+    },
+    {
+      "notice_id": "DA_CPB90011469",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011469/giga-emission-du-7-decembre-1990?rang=176",
+      "channel": "Antenne 2",
+      "date": "07-12-1990",
+      "start": "17:43:30"
+    },
+    {
+      "notice_id": "DA_CPB90011470",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011470/giga-emission-du-10-decembre-1990?rang=142",
+      "channel": "Antenne 2",
+      "date": "10-12-1990",
+      "start": "17:41:35"
+    },
+    {
+      "notice_id": "DA_CPB90011471",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011471/giga-emission-du-11-decembre-1990?rang=149",
+      "channel": "Antenne 2",
+      "date": "11-12-1990",
+      "start": "17:40:38"
+    },
+    {
+      "notice_id": "DA_CPB90011472",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011472/giga-emission-du-12-decmbre-1990?rang=115",
+      "channel": "Antenne 2",
+      "date": "12-12-1990",
+      "start": "17:48:18"
+    },
+    {
+      "notice_id": "DA_CPB90011473",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011473/giga-emission-du-13-decmbre-1990?rang=143",
+      "channel": "Antenne 2",
+      "date": "13-12-1990",
+      "start": "17:43:00"
+    },
+    {
+      "notice_id": "DA_CPB90011474",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011474/giga-emission-du-14-decmbre-1990?rang=114",
+      "channel": "Antenne 2",
+      "date": "14-12-1990",
+      "start": "17:42:16"
+    },
+    {
+      "notice_id": "DA_CPB90012863",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012863/giga-emission-du-17-decmbre-1990?rang=116",
+      "channel": "Antenne 2",
+      "date": "17-12-1990",
+      "start": "17:40:18"
+    },
+    {
+      "notice_id": "DA_CPB90012864",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012864/giga-emission-du-18-decembre-1990?rang=150",
+      "channel": "Antenne 2",
+      "date": "18-12-1990",
+      "start": "17:41:04"
+    },
+    {
+      "notice_id": "DA_CPB90012867",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012867/giga-emission-du-20-decembre-1990?rang=117",
+      "channel": "Antenne 2",
+      "date": "20-12-1990",
+      "start": "17:47:15"
+    },
+    {
+      "notice_id": "DA_CPB90012851",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012851/giga-emission-du-21-decembre-1990?rang=151",
+      "channel": "Antenne 2",
+      "date": "21-12-1990",
+      "start": "17:37:17"
+    },
+    {
+      "notice_id": "DA_CPB90013312",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013312/giga-emission-du-24-decmbre-1990?rang=118",
+      "channel": "Antenne 2",
+      "date": "24-12-1990",
+      "start": "17:48:44"
+    },
+    {
+      "notice_id": "DA_CPB90013314",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013314/giga-emission-du-25-decmbre-1990?rang=63",
+      "channel": "Antenne 2",
+      "date": "25-12-1990",
+      "start": "17:51:14"
+    },
+    {
+      "notice_id": "DA_CPB90013316",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013316/giga-emission-du-26-decmbre-1990?rang=199",
+      "channel": "Antenne 2",
+      "date": "26-12-1990",
+      "start": "17:53:24"
+    },
+    {
+      "notice_id": "DA_CPB90013317",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013317/giga-emission-du-27-decmbre-1990?rang=119",
+      "channel": "Antenne 2",
+      "date": "27-12-1990",
+      "start": "17:49:24"
+    },
+    {
+      "notice_id": "DA_CPB90013318",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013318/giga-emission-du-28-decmbre-1990?rang=161",
+      "channel": "Antenne 2",
+      "date": "28-12-1990",
+      "start": "17:45:47"
+    },
+    {
+      "notice_id": "DA_CPB90014374",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014374/giga-emission-du-31-decembre-1990?rang=152",
+      "channel": "Antenne 2",
+      "date": "31-12-1990",
+      "start": "17:52:53"
+    }
+  ]
 }
