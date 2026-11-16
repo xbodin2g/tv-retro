@@ -1,13 +1,13 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 19:26:33 — parser v5_
+_Généré le 2026-11-16 à 19:43:14 — parser v5_
 
 > Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
 > En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
 
 ## Total
 
-- Cibles jamais indexées : **236** (≈ 53783 notices estimées)
+- Cibles jamais indexées : **266** (≈ 60563 notices estimées)
 - Indexées : **8124** · En cache : **8123** (100.0 %)
 - Avec œuvres : **5506** · sans œuvre : 2617
 - Œuvres relevées : **22099** · reste connu : **1**
@@ -35,6 +35,7 @@ _Généré le 2026-11-16 à 19:26:33 — parser v5_
 | Disney Club | TF1 | 1990→1996 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
 | Disney Parade | TF1 | 1989→1998 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
 | Décode pas Bunny | Canal+ | 1990→1996 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| FR3 jeunesse |  | 1970→1999 | 30 | 0 | 0 | 0 | 0 | 0.0 % |
 | Graffi'6 | M6 | 1987→1991 | 5 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le réveil des babalous | FR3 | 1986→1991 | 6 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le Village dans les nuages | TF1 | 1982→1986 | 5 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -240,6 +241,41 @@ _Généré le 2026-11-16 à 19:26:33 — parser v5_
 | 1994 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+
+### FR3 jeunesse
+
+| Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
+|---|---|---:|---:|---:|---:|---:|
+| 1970 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1971 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1972 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1973 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1974 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1975 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1976 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1977 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1978 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1979 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1980 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1990 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1997 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1998 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
+| 1999 | jamais indexé | 0 | 0 | 0 | 0 | 226 |
 
 ### Giga
 

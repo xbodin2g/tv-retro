@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T22:41:09.965034",
+  "updated_at": "2026-11-16T19:43:12.896805",
   "note": "Registre des cibles de moisson INA. Éditable à la main ou depuis le tableau de bord (bouton Cibles). from/to = plage de diffusion indicative, ajustable.",
   "programs": [
     {
@@ -281,6 +281,14 @@
       "channel": "TF1",
       "from": 1987,
       "to": 1997,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "slug": "fr3-jeunesse",
+      "channel": "",
+      "from": 1970,
+      "to": 1999,
       "priority": 3
     }
   ]

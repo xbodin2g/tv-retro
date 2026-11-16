@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:26:33.714237",
+  "generated_at": "2026-11-16T19:43:14.020963",
   "parser_version": 5,
   "global_avg": 226,
   "programs": [
@@ -5170,6 +5170,511 @@
       }
     },
     {
+      "program": "FR3 jeunesse",
+      "slug": "fr3-jeunesse",
+      "channel": "",
+      "priority": 3,
+      "from": 1970,
+      "to": 1999,
+      "harvested_at": "2026-11-16T19:43:12.896506",
+      "years": [
+        {
+          "year": 1970,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1971,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1972,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1973,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1974,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1975,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1976,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1977,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1978,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1979,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1980,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1981,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1982,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1983,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1984,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1985,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1986,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1987,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1988,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1989,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1990,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1991,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1992,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1993,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1994,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1995,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1996,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1997,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1998,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        },
+        {
+          "year": 1999,
+          "indexed": 0,
+          "cached": 0,
+          "current": 0,
+          "outdated": 0,
+          "with_elements": 0,
+          "empty": 0,
+          "remaining": 0,
+          "elements": 0,
+          "days": 0,
+          "coverage": 0.0,
+          "sample": [],
+          "virgin": true,
+          "estimate": 226
+        }
+      ],
+      "totals": {
+        "indexed": 0,
+        "cached": 0,
+        "current": 0,
+        "outdated": 0,
+        "with_elements": 0,
+        "empty": 0,
+        "remaining": 0,
+        "elements": 0,
+        "days": 0,
+        "coverage": 0.0,
+        "virgin": 30,
+        "estimate": 6780
+      }
+    },
+    {
       "program": "salut les petits loups",
       "slug": "salut-les-petits-loups",
       "channel": "",
@@ -5224,8 +5729,8 @@
     "elements": 22099,
     "days": 4967,
     "coverage": 100.0,
-    "virgin": 236,
-    "estimate": 53783
+    "virgin": 266,
+    "estimate": 60563
   },
   "queue": [
     {
@@ -5797,7 +6302,70 @@
       "priority": 2
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1970,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1971,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1972,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1973,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1974,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1975,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1976,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
+      "year": 1977,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Discopuce",
+      "year": 1978,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1978,
       "remaining": 226,
       "virgin": true,
@@ -5811,7 +6379,21 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1979,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Discopuce",
+      "year": 1980,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1980,
       "remaining": 226,
       "virgin": true,
@@ -5832,6 +6414,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1981,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Croque-Vacances",
       "year": 1982,
       "remaining": 226,
@@ -5853,6 +6442,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1982,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Croque-Vacances",
       "year": 1983,
       "remaining": 226,
@@ -5868,6 +6464,13 @@
     },
     {
       "program": "Discopuce",
+      "year": 1983,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1983,
       "remaining": 226,
       "virgin": true,
@@ -5889,6 +6492,13 @@
     },
     {
       "program": "Discopuce",
+      "year": 1984,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1984,
       "remaining": 226,
       "virgin": true,
@@ -5910,6 +6520,13 @@
     },
     {
       "program": "Discopuce",
+      "year": 1985,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1985,
       "remaining": 226,
       "virgin": true,
@@ -5945,6 +6562,13 @@
     },
     {
       "program": "Canaille Peluche",
+      "year": 1986,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1986,
       "remaining": 226,
       "virgin": true,
@@ -6001,6 +6625,13 @@
     },
     {
       "program": "Multitop",
+      "year": 1987,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1987,
       "remaining": 226,
       "virgin": true,
@@ -6050,6 +6681,13 @@
     },
     {
       "program": "Multitop",
+      "year": 1988,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1988,
       "remaining": 226,
       "virgin": true,
@@ -6106,6 +6744,13 @@
     },
     {
       "program": "Multitop",
+      "year": 1989,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1989,
       "remaining": 226,
       "virgin": true,
@@ -6189,6 +6834,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1990,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Le réveil des babalous",
       "year": 1991,
       "remaining": 226,
@@ -6260,6 +6912,13 @@
     },
     {
       "program": "Multitop",
+      "year": 1991,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1991,
       "remaining": 226,
       "virgin": true,
@@ -6336,6 +6995,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1992,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Canaille Peluche",
       "year": 1993,
       "remaining": 226,
@@ -6406,6 +7072,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1993,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Décode pas Bunny",
       "year": 1994,
       "remaining": 226,
@@ -6455,6 +7128,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1994,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Décode pas Bunny",
       "year": 1995,
       "remaining": 226,
@@ -6490,6 +7170,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1995,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Décode pas Bunny",
       "year": 1996,
       "remaining": 226,
@@ -6519,6 +7206,13 @@
     },
     {
       "program": "Multitop",
+      "year": 1996,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1996,
       "remaining": 226,
       "virgin": true,
@@ -6546,6 +7240,13 @@
       "priority": 3
     },
     {
+      "program": "FR3 jeunesse",
+      "year": 1997,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
       "program": "Disney Parade",
       "year": 1998,
       "remaining": 226,
@@ -6561,6 +7262,13 @@
     },
     {
       "program": "M6 Kid",
+      "year": 1998,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1998,
       "remaining": 226,
       "virgin": true,
@@ -6575,6 +7283,13 @@
     },
     {
       "program": "M6 Kid",
+      "year": 1999,
+      "remaining": 226,
+      "virgin": true,
+      "priority": 3
+    },
+    {
+      "program": "FR3 jeunesse",
       "year": 1999,
       "remaining": 226,
       "virgin": true,
@@ -6891,10 +7606,10 @@
   ],
   "health": {
     "outdated": 0,
-    "virgin": 236,
+    "virgin": 266,
     "orphans": 0,
     "advice": [
-      "236 couple(s) émission × année jamais indexés : volume estimé 53783 notices."
+      "266 couple(s) émission × année jamais indexés : volume estimé 60563 notices."
     ]
   }
 }
