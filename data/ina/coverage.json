@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:33:22.687732",
+  "generated_at": "2026-11-16T23:35:42.637708",
   "parser_version": 5,
   "global_avg": 208,
   "programs": [
@@ -2839,7 +2839,7 @@
       "priority": 3,
       "from": 1987,
       "to": 1993,
-      "harvested_at": "2026-11-16T23:33:21.008876",
+      "harvested_at": "2026-11-16T23:35:41.261540",
       "methods": [],
       "discovery": [
         {
@@ -2878,43 +2878,43 @@
           "note": ""
         },
         {
-          "method": "A/1987/v0",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1987",
+          "method": "A/1989/v0",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1989",
           "found": 0,
           "total": null,
           "note": ""
         },
         {
-          "method": "A/1987/v1",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22&ti=1987",
+          "method": "A/1989/v1",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22&ti=1989",
           "found": 0,
           "total": null,
           "note": ""
         },
         {
-          "method": "A/1987/v2",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1987",
+          "method": "A/1989/v2",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1989",
           "found": 0,
           "total": null,
           "note": ""
         },
         {
-          "method": "A/1987/v3",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&tiprog=Samdynamite&ti=1987",
+          "method": "A/1989/v3",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&tiprog=Samdynamite&ti=1989",
           "found": 0,
           "total": null,
           "note": ""
         },
         {
-          "method": "C/FR3/1987",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "method": "C/FR3/1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1989",
           "found": 0,
           "total": null,
           "note": ""
         },
         {
-          "method": "C/France 3/1987",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "method": "C/France 3/1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1989",
           "found": 0,
           "total": null,
           "note": ""

@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 23:33:22 — parser v5_
+_Généré le 2026-11-16 à 23:35:42 — parser v5_
 
 > Deux méthodes de recherche sont fusionnées : **A** `tiprog+ti` (ancienne) et **B** `ch+tiprog` (sans ti).
 > **C** `ch+tiprog+ti` resserre les années manquantes, **D** `tiprog` seul sert de filet.
@@ -474,12 +474,12 @@ _Généré le 2026-11-16 à 23:33:22 — parser v5_
 | `B/ch=France 3` | 0 | 44 |  |
 | `B/ch=France 3/quotes` | 0 | 44 |  |
 | `D/loose` | 0 | 705 |  |
-| `A/1987/v0` | 0 | — |  |
-| `A/1987/v1` | 0 | — |  |
-| `A/1987/v2` | 0 | — |  |
-| `A/1987/v3` | 0 | — |  |
-| `C/FR3/1987` | 0 | — |  |
-| `C/France 3/1987` | 0 | — |  |
+| `A/1989/v0` | 0 | — |  |
+| `A/1989/v1` | 0 | — |  |
+| `A/1989/v2` | 0 | — |  |
+| `A/1989/v3` | 0 | — |  |
+| `C/FR3/1989` | 0 | — |  |
+| `C/France 3/1989` | 0 | — |  |
 
 </details>
 
