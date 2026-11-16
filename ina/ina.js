@@ -1,8 +1,8 @@
 /* =====================================================
    INA · RÉGIE DE MOISSON
-   File de moisson persistante : les tâches terminées
-   n'occupent plus le slot (program, année) et s'archivent
-   en un clic. Sélection multiple, historique restaurable.
+   Une année sans notice indexée = JAMAIS INDEXÉE (virgin),
+   jamais « complète ». Le ✓ ne peut apparaître que si
+   indexed > 0 et remaining = 0.
    ===================================================== */
 const CFG='tvretroEditCfg',VIEWS='inaBoardViews',PLAN='inaBoardPlan',HIST='inaBoardHistory',TGT='inaBoardTargets',ORCH='inaBoardOrch',SND='inaBoardSound';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
@@ -17,11 +17,13 @@ const blank=y=>({year:y,...Object.fromEntries(KEYS.map(k=>[k,0])),coverage:0,sam
 const fmtDur=s=>{s=Math.max(0,Math.round(s));const m=Math.floor(s/60);return m?`${m} min ${String(s%60).padStart(2,'0')} s`:`${s} s`;};
 const fmtDate=t=>{if(!t)return'';const d=new Date(t);return d.toLocaleDateString('fr-FR',{day:'2-digit',month:'2-digit'})+' '+d.toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});};
 const unb64=s=>{const bin=atob(String(s).replace(/\s/g,''));return new TextDecoder().decode(Uint8Array.from(bin,c=>c.charCodeAt(0)));};
-const LIVE=['idle','queued','dispatched','running'];
-const DONE=['success','failure','error','cancelled','skipped'];
+const LIVE=['idle','queued','dispatched','running'],DONE=['success','failure','error','cancelled','skipped'];
 const st=t=>t.state||'idle';
 const isLive=t=>LIVE.includes(st(t));
 const isDone=t=>DONE.includes(st(t));
+/* règle unique : aucune notice indexée => jamais indexé */
+const virginOf=e=>!e||!(Number(e.indexed)>0);
+const volumeOf=e=>virginOf(e)?(Number(e.estimate)||0):Math.max(0,Number(e.remaining)||0);
 
 const DEFAULT_TARGETS=[["Club Dorothée","TF1",1987,1997,1],["Récré A2","Antenne 2",1978,1987,1],["Amuse 3","FR3",1985,1997,1],
 ["Cabou Cadin","Canal+",1985,1993,2],["Vitamine","TF1",1983,1987,2],["Youpi ! L'école est finie","La Cinq",1987,1992,2],
@@ -61,8 +63,7 @@ function blip(kind){
    o.type=kind==='ko'?'sawtooth':'sine';o.frequency.value=f;
    g.gain.setValueAtTime(0,t0);g.gain.linearRampToValueAtTime(kind==='ko'?.05:.045,t0+.012);
    g.gain.exponentialRampToValueAtTime(.0001,t0+.16);
-   o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+.18);
-  });
+   o.connect(g);g.connect(AC.destination);o.start(t0);o.stop(t0+.18);});
  }catch(e){}
 }
 function renderSound(){const b=$('#btn-sound');b.textContent=S.sound?'🔔':'🔕';b.classList.toggle('off',!S.sound);
@@ -197,7 +198,10 @@ async function runDiag(){
   return {...r,ok:!miss.length,detail:miss.length?`Champs absents : ${miss.join(', ')} → remplace le fichier workflow`:'workflow_dispatch + program_custom + origin présents'};});
  await step('Lecture de la couverture','Contents: read',async()=>{
   const r=await rawGh(`/contents/data/ina/coverage.json?ref=${encodeURIComponent(c.branch)}`,{},c);
-  return {...r,detail:r.ok?'coverage.json lisible':explain(r)+' (normal si jamais généré)'};});
+  if(!r.ok)return {...r,detail:explain(r)+' (normal si jamais généré)'};
+  let n=0,v=0;try{const j=JSON.parse(unb64(r.data.content||''));
+   (j.programs||[]).forEach(p=>(p.years||[]).forEach(e=>{n++;if(!(Number(e.indexed)>0))v++;}));}catch(e){}
+  return {...r,detail:`coverage.json lisible · ${n} couple(s) dont ${v} jamais indexé(s)`};});
  const ko=S.diag.filter(d=>d.state==='ko').length;
  toast(ko?`${ko} point(s) bloquant(s) — voir le détail.`:'Lecture OK. Teste maintenant l\'écriture.',ko?'err':'ok');
 }
@@ -298,10 +302,8 @@ async function pollOnce(){try{await fetchRuns();syncTasks();persistPlan();}catch
 function startPolling(){if(S.pollTimer)clearInterval(S.pollTimer);
  S.pollTimer=setInterval(()=>{if(activeTasks().length||S.orch.running||!live())pollOnce();else if(!S.runs.length)pollOnce();},12000);}
 
-/* ---------- archivage / sélection ---------- */
-function visibleTasks(){
- return S.plan.map((t,i)=>({t,i})).filter(({t})=>S.planFilter==='all'?true:S.planFilter==='done'?isDone(t):isLive(t));
-}
+/* ---------- file : sélection / archivage ---------- */
+function visibleTasks(){return S.plan.map((t,i)=>({t,i})).filter(({t})=>S.planFilter==='all'?true:S.planFilter==='done'?isDone(t):isLive(t));}
 function archiveTasks(list,label){
  if(!list.length){toast('Rien à archiver.','warn');return;}
  const bp=[...S.plan],bh=[...S.history],ids=new Set(list.map(t=>t.id));
@@ -318,14 +320,13 @@ function newSeries(){
  const bp=[...S.plan],bh=[...S.history];
  if(S.plan.length)S.history=[...S.plan.map(t=>({...t,archivedAt:Date.now()})),...S.history].slice(0,500);
  S.plan=[];S.sel.clear();S.planFilter='active';
- persistPlan();persistHistory();renderAll();
- refreshCoverage(true);
+ persistPlan();persistHistory();renderAll();refreshCoverage(true);
  toast('Nouvelle série prête — file vidée, couverture actualisée.','ok',
   {label:'Annuler',fn:()=>{S.plan=bp;S.history=bh;persistPlan();persistHistory();renderAll();}});
 }
 function removeSelected(){
  const ids=new Set(S.sel);if(!ids.size)return;
- const bp=[...S.plan];const n=S.plan.filter(t=>ids.has(t.id)).length;
+ const bp=[...S.plan],n=S.plan.filter(t=>ids.has(t.id)).length;
  S.plan=S.plan.filter(t=>!ids.has(t.id));S.sel.clear();persistPlan();renderAll();
  toast(`${n} tâche(s) retirée(s).`,'warn',{label:'Annuler',fn:()=>{S.plan=bp;persistPlan();renderAll();}});
 }
@@ -339,22 +340,22 @@ function restoreFromHistory(id){
  if(inPlan(h.program,h.year)){toast('Déjà dans la file active.','warn');return;}
  S.history=S.history.filter(t=>t.id!==id);
  S.plan.push({...h,id:uid(),state:'idle',runId:null,url:null,sentAt:null,endedAt:null,error:undefined,demo:undefined});
- syncTaskVolumes();persistPlan();persistHistory();renderAll();renderHistory();
+ syncTaskVolumes();persistPlan();persistHistory();renderAll();
  toast(`${h.program} ${h.year} restaurée dans la file.`,'ok');
 }
 
 /* ---------- couverture ---------- */
 function seedReport(){
  const programs=DEFAULT_TARGETS.slice(0,12).map((t,i)=>{
-  const years={};
+  const years=[];
   for(let y=t.from;y<=Math.min(t.to,t.from+4+i%3);y++){
    const indexed=60+((i*37+y*13)%460);
    const cached=Math.min(indexed,Math.round(indexed*(((i*7+y)%11)/10)));
    const outdated=(i+y)%4===0?Math.round(cached*.3):0;
    const withE=Math.round(cached*(.45+((i+y)%5)/12));
-   years[y]={year:y,indexed,cached,current:cached-outdated,outdated,with_elements:withE,empty:cached-withE,
+   years.push({year:y,indexed,cached,current:cached-outdated,outdated,with_elements:withE,empty:cached-withE,
     remaining:indexed-cached,elements:withE*(3+i%4),days:Math.round(withE*.7),
-    coverage:+(100*cached/indexed).toFixed(1),sample:Array.from({length:Math.min(5,indexed-cached)},(_,k)=>`TV_${100000+i*9000+y+k}.001`)};}
+    coverage:+(100*cached/indexed).toFixed(1),sample:Array.from({length:Math.min(5,indexed-cached)},(_,k)=>`TV_${100000+i*9000+y+k}.001`)});}
   return {program:t.program,slug:t.slug,years,harvested_at:new Date().toISOString()};});
  return {generated_at:new Date().toISOString(),parser_version:5,programs,orphans:[],health:{advice:[]}};
 }
@@ -362,44 +363,60 @@ function ingestReport(){
  S.raw={};
  (S.report.programs||[]).forEach(p=>{
   const slug=p.slug||slugify(p.program),years={};
-  (p.years||[]).forEach(e=>{const cached=e.cached??e.downloaded??0;
-   years[e.year]={...e,cached,current:e.current??cached,outdated:e.outdated||0,coverage:e.indexed?+(100*cached/e.indexed).toFixed(1):0};});
+  (p.years||[]).forEach(e=>{
+   const indexed=Number(e.indexed)||0,cached=Number(e.cached??e.downloaded)||0;
+   years[e.year]={...e,indexed,cached,current:Number(e.current??cached)||0,outdated:Number(e.outdated)||0,
+    remaining:Number(e.remaining)||0,estimate:Number(e.estimate)||0,
+    coverage:indexed?+(100*cached/indexed).toFixed(1):0,virgin:indexed===0,
+    sample:Array.isArray(e.sample)?e.sample:[]};});
   S.raw[slug]={program:p.program,years,harvested_at:p.harvested_at||''};
-  if(!S.targets.some(t=>t.slug===slug)){const ys=Object.keys(years).map(Number);
+  if(!S.targets.some(t=>t.slug===slug)){
+   const ys=Object.keys(years).map(Number).filter(y=>years[y].indexed>0);
    S.targets.push({program:p.program,slug,channel:'',from:ys.length?Math.min(...ys):1970,to:ys.length?Math.max(...ys):1999,priority:9});}});
 }
+function makeCell(r,y,avg){
+ if(virginOf(r)){
+  const est=Number(r?.estimate)||avg||S.globalAvg||150;
+  return {...blank(y),...(r||{}),year:y,indexed:0,cached:0,current:0,outdated:0,with_elements:0,empty:0,
+   remaining:0,elements:Number(r?.elements)||0,days:Number(r?.days)||0,coverage:0,
+   sample:Array.isArray(r?.sample)?r.sample:[],virgin:true,estimate:est};
+ }
+ return {...r,year:y,virgin:false,estimate:0,coverage:Number(r.indexed)?+(100*(Number(r.cached)||0)/Number(r.indexed)).toFixed(1):0,
+  sample:Array.isArray(r.sample)?r.sample:[]};
+}
 function rebuild(){
- const known=[];Object.values(S.raw).forEach(r=>Object.values(r.years).forEach(e=>{if(e.indexed)known.push(e.indexed);}));
+ const known=[];Object.values(S.raw).forEach(r=>Object.values(r.years).forEach(e=>{if(Number(e.indexed)>0)known.push(Number(e.indexed));}));
  S.globalAvg=known.length?Math.round(known.reduce((a,b)=>a+b,0)/known.length):150;
  const programs=[],used=new Set();
  S.targets.forEach(t=>{
   const slug=t.slug||slugify(t.program);used.add(slug);
   const raw=S.raw[slug]||{program:t.program,years:{}};
-  const ky=Object.values(raw.years).filter(e=>e.indexed).map(e=>e.indexed);
+  const ky=Object.values(raw.years).filter(e=>Number(e.indexed)>0).map(e=>Number(e.indexed));
   const avg=ky.length?Math.round(ky.reduce((a,b)=>a+b,0)/ky.length):S.globalAvg;
   const from=Math.min(t.from,t.to),to=Math.max(t.from,t.to),years=[];
-  for(let y=from;y<=to;y++){const r=raw.years[y];years.push(r?{...r,virgin:false,estimate:0}:{...blank(y),estimate:avg});}
-  Object.values(raw.years).forEach(r=>{if(r.year<from||r.year>to)years.push({...r,virgin:false,estimate:0});});
+  for(let y=from;y<=to;y++)years.push(makeCell(raw.years[y],y,avg));
+  Object.values(raw.years).forEach(r=>{if(r.year<from||r.year>to)years.push(makeCell(r,r.year,avg));});
   years.sort((a,b)=>a.year-b.year);
-  const totals=Object.fromEntries(KEYS.map(k=>[k,years.reduce((s,e)=>s+(e[k]||0),0)]));
+  const totals=Object.fromEntries(KEYS.map(k=>[k,years.reduce((s,e)=>s+(Number(e[k])||0),0)]));
   totals.coverage=totals.indexed?+(100*totals.cached/totals.indexed).toFixed(1):0;
   totals.virgin=years.filter(e=>e.virgin).length;
-  totals.estimate=years.reduce((s,e)=>s+(e.estimate||0),0);
+  totals.estimate=years.reduce((s,e)=>s+(Number(e.estimate)||0),0);
   programs.push({program:t.program,slug,channel:t.channel||'',priority:t.priority||9,from,to,harvested_at:raw.harvested_at||'',years,totals});});
  Object.entries(S.raw).forEach(([slug,raw])=>{
   if(used.has(slug))return;
-  const years=Object.values(raw.years).sort((a,b)=>a.year-b.year).map(e=>({...e,virgin:false,estimate:0}));
-  const totals=Object.fromEntries(KEYS.map(k=>[k,years.reduce((s,e)=>s+(e[k]||0),0)]));
-  totals.coverage=totals.indexed?+(100*totals.cached/totals.indexed).toFixed(1):0;totals.virgin=0;totals.estimate=0;
+  const years=Object.values(raw.years).sort((a,b)=>a.year-b.year).map(r=>makeCell(r,r.year,S.globalAvg));
+  const totals=Object.fromEntries(KEYS.map(k=>[k,years.reduce((s,e)=>s+(Number(e[k])||0),0)]));
+  totals.coverage=totals.indexed?+(100*totals.cached/totals.indexed).toFixed(1):0;
+  totals.virgin=years.filter(e=>e.virgin).length;totals.estimate=years.reduce((s,e)=>s+(Number(e.estimate)||0),0);
   programs.push({program:raw.program,slug,channel:'',priority:9,from:null,to:null,years,totals});});
  const totals=Object.fromEntries(KEYS.map(k=>[k,programs.reduce((s,p)=>s+p.totals[k],0)]));
  totals.coverage=totals.indexed?+(100*totals.cached/totals.indexed).toFixed(1):0;
  totals.virgin=programs.reduce((s,p)=>s+p.totals.virgin,0);
  totals.estimate=programs.reduce((s,p)=>s+p.totals.estimate,0);
- const queue=programs.flatMap(p=>p.years.filter(e=>e.remaining>0).map(e=>({program:p.program,year:e.year,remaining:e.remaining,virgin:false}))).sort((a,b)=>b.remaining-a.remaining);
+ const queue=programs.flatMap(p=>p.years.filter(e=>!e.virgin&&e.remaining>0).map(e=>({program:p.program,year:e.year,remaining:e.remaining,virgin:false}))).sort((a,b)=>b.remaining-a.remaining);
  const frontier=programs.flatMap(p=>p.years.filter(e=>e.virgin).map(e=>({program:p.program,year:e.year,remaining:e.estimate||S.globalAvg,virgin:true,priority:p.priority}))).sort((a,b)=>a.priority-b.priority||a.year-b.year);
  const advice=[...(S.report?.health?.advice||[])];
- if(totals.virgin)advice.push(`${nf(totals.virgin)} cible(s) jamais indexée(s) — volume estimé ${nf(totals.estimate)} notices.`);
+ if(totals.virgin)advice.push(`${nf(totals.virgin)} cible(s) jamais indexée(s) — volume estimé ${nf(totals.estimate)} notices. Elles sont planifiables : le premier run indexe puis moissonne.`);
  if(totals.outdated)advice.push(`${nf(totals.outdated)} notice(s) d'ancienne version : déjà en cache, re-normalisation locale automatique.`);
  S.cov={generated_at:S.report?.generated_at,parser_version:S.report?.parser_version||5,programs,totals,queue,frontier,orphans:S.report?.orphans||[],health:{advice}};
 }
@@ -408,9 +425,8 @@ function syncTaskVolumes(){
  S.plan.forEach(t=>{
   if(st(t)!=='idle')return;
   const e=cellOf(t.program,t.year);if(!e)return;
-  t.virgin=!!e.virgin;t.remaining=e.virgin?(e.estimate||S.globalAvg):e.remaining;
+  t.virgin=!!e.virgin;t.remaining=volumeOf(e)||S.globalAvg;
  });
- S.plan=S.plan.filter(t=>st(t)!=='idle'||t.remaining>0);
  persistPlan();
 }
 async function refreshCoverage(silent){
@@ -479,12 +495,12 @@ function cells(){
  out.sort((a,b)=>S.f.sort==='alpha'?a.program.localeCompare(b.program,'fr')||a.year-b.year
   :S.f.sort==='cov'?(a.virgin?-1:a.coverage)-(b.virgin?-1:b.coverage)||b.remaining-a.remaining
   :S.f.sort==='works'?b.elements-a.elements
-  :S.f.sort==='left'?(b.virgin?b.estimate:b.remaining)-(a.virgin?a.estimate:a.remaining)||a.program.localeCompare(b.program,'fr')
+  :S.f.sort==='left'?volumeOf(b)-volumeOf(a)||a.program.localeCompare(b.program,'fr')
   :a.priority-b.priority||a.program.localeCompare(b.program,'fr')||a.year-b.year);
  return out;
 }
 function kpis(){
- const c=cells(),t=c.reduce((a,e)=>{KEYS.forEach(k=>a[k]+=e[k]||0);a.virgin+=e.virgin?1:0;a.est+=e.virgin?(e.estimate||0):(e.remaining||0);return a;},
+ const c=cells(),t=c.reduce((a,e)=>{KEYS.forEach(k=>a[k]+=Number(e[k])||0);a.virgin+=e.virgin?1:0;a.est+=volumeOf(e);return a;},
   {virgin:0,est:0,...Object.fromEntries(KEYS.map(k=>[k,0]))});
  $('#k-virgin').textContent=nf(t.virgin);$('#k-indexed').textContent=nf(t.indexed);
  $('#k-cached').textContent=nf(t.cached);$('#k-works').textContent=nf(t.with_elements);
@@ -494,10 +510,14 @@ function kpis(){
  $('#rec').className='rec'+(act||S.orch.running?' busy':'');
 }
 const cls=c=>c>=99.5?'c4':c>=75?'c3':c>=40?'c2':c>0?'c1':'c0';
+function cellTitle(program,e){
+ if(e.virgin)return `${program} ${e.year} — JAMAIS INDEXÉ · volume estimé ≈ ${nf(e.estimate)} notices · planifiable`;
+ return `${program} ${e.year} — ${nf(e.cached)}/${nf(e.indexed)} en cache (${e.coverage} %) · reste ${nf(e.remaining)}${e.remaining?'':' · COMPLET'}`;
+}
 function render(){
  kpis();const c=cells(),board=$('#board');
  board.classList.toggle('full-names',S.f.names==='full');
- $('#status').textContent=`${nf(c.length)} cible(s) · ${nf(new Set(c.map(x=>x.program)).size)} émission(s) · ${nf(c.filter(x=>x.virgin).length)} jamais indexée(s)`;
+ $('#status').textContent=`${nf(c.length)} cible(s) · ${nf(new Set(c.map(x=>x.program)).size)} émission(s) · ${nf(c.filter(x=>x.virgin).length)} jamais indexée(s) · ${nf(c.filter(x=>!x.virgin&&!x.remaining).length)} complète(s)`;
  if(!c.length){board.innerHTML='<div class="empty"><b>Aucune cible ne correspond</b>Élargis les filtres, ou ajoute une émission via 🎯 Cibles.</div>';return;}
  if(S.f.view==='list'){
   board.innerHTML='<div class="rows">'+c.slice(0,700).map(e=>`<div class="row${e.virgin?' v':''}" data-cell="${esc(e.program)}|${e.year}"><div class="nm"><b>${esc(e.program)}</b><small>${e.year}${e.channel?' · '+esc(e.channel):''} · ${e.virgin?`jamais indexé — ≈ ${nf(e.estimate)} notices`:`${nf(e.cached)}/${nf(e.indexed)} en cache · ${nf(e.with_elements)} œuvrées`}</small></div><div class="track"><i style="width:${e.virgin?0:e.coverage}%"></i></div><div class="num ${e.virgin?'vg':e.remaining?'left':'ok'}">${e.virgin?'?':e.remaining?'−'+nf(e.remaining):'✓'}</div></div>`).join('')+'</div>';
@@ -505,14 +525,14 @@ function render(){
  const progs=[...new Set(c.map(x=>x.program))],years=[...new Set(c.map(x=>x.year))].sort((a,b)=>a-b);
  const map=new Map(c.map(e=>[e.program+'|'+e.year,e])),meta=new Map(S.cov.programs.map(p=>[p.program,p]));
  board.innerHTML=`<table><thead><tr><th class="col-name">Émission</th>${years.map(y=>`<th>${y}</th>`).join('')}<th>Reste</th></tr></thead><tbody>${
-  progs.map(p=>{const m=meta.get(p);const tot=c.filter(x=>x.program===p).reduce((s,x)=>s+(x.virgin?0:x.remaining),0);
+  progs.map(p=>{const m=meta.get(p);const tot=c.filter(x=>x.program===p&&!x.virgin).reduce((s,x)=>s+x.remaining,0);
    const vg=c.filter(x=>x.program===p&&x.virgin).length;
    const sub=`${m?.channel?m.channel+' · ':''}${vg?vg+' à démarrer':'tout indexé'}`;
    return `<tr><th class="col-name"><span class="nm-line" data-tip="${esc(p)}">${esc(p)}</span><span class="nm-sub">${esc(sub)}</span></th>${years.map(y=>{const e=map.get(p+'|'+y);
     if(!e)return '<td><span class="cell na">·</span></td>';
-    const done=hasDone(p,y)?' hasdone':'';
-    if(e.virgin)return `<td><span class="cell virgin${done}${inPlan(p,y)?' picked':''}" data-cell="${esc(p)}|${y}" title="${esc(p)} ${y} — jamais indexé, ≈ ${e.estimate} notices">?</span></td>`;
-    return `<td><span class="cell ${cls(e.coverage)}${done}${e.outdated?' old':''}${inPlan(p,y)?' picked':''}" data-cell="${esc(p)}|${y}" title="${esc(p)} ${y} — ${e.cached}/${e.indexed} en cache (${e.coverage} %), reste ${e.remaining}">${e.remaining?e.remaining:'✓'}</span></td>`;}).join('')}<td class="num ${tot?'left':'ok'}">${tot?nf(tot):'✓'}</td></tr>`;}).join('')
+    const done=hasDone(p,y)?' hasdone':'',pick=inPlan(p,y)?' picked':'';
+    if(e.virgin)return `<td><span class="cell virgin${done}${pick}" data-cell="${esc(p)}|${y}" title="${esc(cellTitle(p,e))}">?</span></td>`;
+    return `<td><span class="cell ${cls(e.coverage)}${done}${pick}${e.outdated?' old':''}" data-cell="${esc(p)}|${y}" title="${esc(cellTitle(p,e))}">${e.remaining?nf(e.remaining):'✓'}</span></td>`;}).join('')}<td class="num ${tot?'left':'ok'}">${tot?nf(tot):'✓'}</td></tr>`;}).join('')
  }</tbody></table>`;
 }
 function renderOrph(){
@@ -540,13 +560,11 @@ function renderPlan(){
   b.innerHTML=`<div class="empty"><b>File vide — prête pour une nouvelle série</b>
    ⇧clic une case de la matrice, ou les boutons 🌱 Démarrer / ⚡ Compléter.
    ${S.history.length?`<br><button class="btn small" id="empty-hist">🗄 Voir l'historique (${S.history.length})</button>`:''}</div>`;
-  const eh=$('#empty-hist');if(eh)eh.onclick=openHistory;
-  persistPlan();return;}
+  const eh=$('#empty-hist');if(eh)eh.onclick=openHistory;persistPlan();return;}
  if(!vis.length){
   b.innerHTML=`<div class="empty"><b>Aucune tâche dans ce filtre</b>
    ${nDone?`${nDone} tâche(s) terminée(s) attendent d'être archivées.<br><button class="btn small primary" id="empty-arch">🧹 Archiver les terminées</button>`:'Change de filtre ci-dessus.'}</div>`;
-  const ea=$('#empty-arch');if(ea)ea.onclick=archiveDone;
-  persistPlan();return;}
+  const ea=$('#empty-arch');if(ea)ea.onclick=archiveDone;persistPlan();return;}
  b.innerHTML=vis.map(({t,i})=>{
   const s=st(t),dur=t.sentAt?fmtDur(((t.endedAt||Date.now())-t.sentAt)/1000):'';
   return `<div class="pitem st-${s}${S.sel.has(t.id)?' sel':''}" draggable="true" data-pi="${i}">
@@ -566,12 +584,11 @@ function renderPlan(){
  persistPlan();
 }
 function renderOrch(){
- const live_=S.plan.filter(isLive),done=S.plan.filter(isDone);
- const total=live_.length+done.length,fin=done.length;
- $('#orch-progress').style.width=(total?100*fin/total:0)+'%';
+ const lv=S.plan.filter(isLive),dn=S.plan.filter(isDone),total=lv.length+dn.length;
+ $('#orch-progress').style.width=(total?100*dn.length/total:0)+'%';
  const act=activeTasks().length;
  $('#orch-status').textContent=total
-  ?`${fin}/${total} terminée(s) · ${act} active(s) · ${nf(pendingTasks().length)} à lancer`+(S.orch.startedAt?` · écoulé ${fmtDur((Date.now()-S.orch.startedAt)/1000)}`:'')
+  ?`${dn.length}/${total} terminée(s) · ${act} active(s) · ${nf(pendingTasks().length)} à lancer`+(S.orch.startedAt?` · écoulé ${fmtDur((Date.now()-S.orch.startedAt)/1000)}`:'')
   :'File vide — ajoute des cibles pour démarrer une série.';
  $('#btn-launch').disabled=S.orch.running||!pendingTasks().length;
  $('#btn-pause').disabled=!S.orch.running;
@@ -601,9 +618,10 @@ function renderRuns(){
 function addToPlan(program,year,silent){
  const e=cellOf(program,year);
  if(!e){if(!silent)toast('Cible introuvable.','warn');return false;}
- if(!e.virgin&&!e.remaining){if(!silent)toast('Rien à moissonner ici — déjà complet.','warn');return false;}
+ const vol=volumeOf(e)||(e.virgin?S.globalAvg:0);
+ if(!vol){if(!silent)toast('Cette année est déjà complète — rien à moissonner.','warn');return false;}
  if(inPlan(program,year)){if(!silent)toast('Déjà dans la file active.','warn');return false;}
- S.plan.push({id:uid(),program,year,remaining:e.virgin?(e.estimate||S.globalAvg):e.remaining,virgin:!!e.virgin,max:S.f.batch,state:'idle'});
+ S.plan.push({id:uid(),program,year,remaining:vol,virgin:!!e.virgin,max:S.f.batch,state:'idle'});
  if(S.planFilter==='done')S.planFilter='active';
  persistPlan();renderPlan();renderOrch();render();
  if(!silent)toast(`${program} ${year} ajouté à la file.`,'ok',
@@ -615,7 +633,7 @@ function bulkAdd(list,label){
  list.forEach(t=>{if(addToPlan(t.program,t.year,true))n++;});
  if(S.planFilter==='done')S.planFilter='active';
  persistPlan();renderPlan();renderOrch();render();
- if(!n)return toast('Rien de nouveau à ajouter — tout est déjà dans la file ou complet.','warn');
+ if(!n)return toast('Rien de nouveau — tout est déjà dans la file ou complet.','warn');
  toast(`${n} ${label} ajoutée(s).`,'ok',{label:'Annuler',fn:()=>{S.plan=S.plan.slice(0,before);persistPlan();renderPlan();renderOrch();render();}});
 }
 
@@ -624,30 +642,40 @@ function anyOpen(){return ['#drawer','#tdrawer','#hdrawer','#sdrawer'].some(s=>!
 function lock(){document.body.style.overflow=anyOpen()?'hidden':'';}
 function openDetail(program,year){
  const p=S.cov.programs.find(x=>x.program===program),e=p?.years.find(x=>x.year===year);if(!e)return;
- const vol=e.virgin?(e.estimate||S.globalAvg):e.remaining;
- S.detail={program,year,remaining:vol,virgin:!!e.virgin};
+ const virgin=!!e.virgin,vol=volumeOf(e)||(virgin?S.globalAvg:0);
+ S.detail={program,year,remaining:vol,virgin};
  $('#d-title').textContent=program;
- $('#d-sub').textContent=`${year}${p.channel?' · '+p.channel:''} — ${e.virgin?'jamais indexé':'indexé'}`;
+ $('#d-sub').textContent=`${year}${p.channel?' · '+p.channel:''} — plage ${p.from}→${p.to}`;
  const batch=S.f.batch,runs=Math.max(1,Math.ceil(vol/batch)),per=Math.min(vol,batch)||batch;
  const past=[...S.plan.filter(isDone),...S.history].filter(t=>t.program===program&&t.year===year).sort((a,b)=>(b.endedAt||0)-(a.endedAt||0))[0];
- const pastHtml=past?`<div class="kv"><span>Dernier passage</span><b>${esc(LBL[st(past)]||st(past))}</b><span>Le</span><b>${esc(fmtDate(past.endedAt||past.sentAt))}</b></div>`:'';
- $('#d-body').innerHTML=(e.virgin?`
-  <div class="kv"><span>État</span><b style="color:var(--magenta)">jamais indexé</b>
-  <span>Volume estimé</span><b>≈ ${nf(vol)}</b><span>Base</span><b>${p.years.some(x=>x.indexed)?'moyenne émission':'moyenne globale'}</b>
-  <span>Plage</span><b>${p.from}→${p.to}</b><span>Priorité</span><b>${p.priority}</b></div>
-  <p class="status">Le premier run <b>indexe l'année puis moissonne</b>. Le volume réel sera connu à l'issue de ce run.</p>`
- :`<div class="kv"><span>Indexées</span><b>${nf(e.indexed)}</b>
-  <span>En cache</span><b style="color:var(--phos)">${nf(e.cached)}</b>
-  <span>— version courante</span><b>${nf(e.current)}</b><span>— ancienne</span><b style="color:var(--amber)">${nf(e.outdated)}</b>
-  <span>Avec œuvres</span><b>${nf(e.with_elements)}</b><span>Sans œuvre</span><b>${nf(e.empty)}</b>
-  <span>Reste</span><b style="color:var(--red)">${nf(e.remaining)}</b>
-  <span>Œuvres</span><b>${nf(e.elements)}</b><span>Jours</span><b>${nf(e.days)}</b><span>Couverture</span><b>${e.coverage} %</b></div>
-  <div class="track big"><i style="width:${e.coverage}%"></i></div>`)
-  +pastHtml
-  +`<p class="status">Lot de ${batch} → <b>${runs}</b> run(s) · ≈ ${Math.round((per*3.2+Math.floor(per/40)*22)/60)} min par run.</p>
-  <div class="cmd">mode: ${esc(S.orch.mode)}\nprogram: ${esc(program)}\nyear: ${year}\nmax_notices: ${per}</div>
-  ${e.sample?.length?`<div><p class="status">Notices manquantes (exemples)</p><div class="ids">${e.sample.map(s=>`<code>${esc(s)}</code>`).join('')}</div></div>`:''}`;
- $('#d-run').disabled=!vol;$('#d-add').disabled=!vol||inPlan(program,year);
+ const banner=virgin
+  ?`<div class="state-banner v"><b>? JAMAIS INDEXÉ</b> — aucune notice répertoriée pour cette année. Le premier run indexe l'année puis moissonne.</div>`
+  :e.remaining>0
+   ?`<div class="state-banner p"><b>EN COURS</b> — ${nf(e.remaining)} notice(s) restent à télécharger sur ${nf(e.indexed)} indexée(s).</div>`
+   :`<div class="state-banner c"><b>✓ COMPLET</b> — les ${nf(e.indexed)} notice(s) indexée(s) sont toutes en cache.</div>`;
+ const stats=virgin
+  ?`<div class="kv"><span>Notices indexées</span><b>0</b>
+    <span>Volume estimé</span><b>≈ ${nf(vol)}</b>
+    <span>Base de l'estimation</span><b>${p.years.some(x=>x.indexed>0)?'moyenne émission':'moyenne globale'}</b>
+    <span>Priorité</span><b>${p.priority}</b></div>`
+  :`<div class="kv"><span>Indexées</span><b>${nf(e.indexed)}</b>
+    <span>En cache</span><b style="color:var(--phos)">${nf(e.cached)}</b>
+    <span>— version courante</span><b>${nf(e.current)}</b><span>— ancienne</span><b style="color:var(--amber)">${nf(e.outdated)}</b>
+    <span>Avec œuvres</span><b>${nf(e.with_elements)}</b><span>Sans œuvre</span><b>${nf(e.empty)}</b>
+    <span>Reste</span><b style="color:var(--red)">${nf(e.remaining)}</b>
+    <span>Œuvres</span><b>${nf(e.elements)}</b><span>Jours</span><b>${nf(e.days)}</b><span>Couverture</span><b>${e.coverage} %</b></div>
+    <div class="track big"><i style="width:${e.coverage}%"></i></div>`;
+ $('#d-body').innerHTML=banner+stats
+  +(past?`<div class="kv"><span>Dernier passage</span><b>${esc(LBL[st(past)]||st(past))}</b><span>Le</span><b>${esc(fmtDate(past.endedAt||past.sentAt))}</b></div>`:'')
+  +(vol?`<p class="status">Lot de ${batch} → <b>${runs}</b> run(s) · ≈ ${Math.round((per*3.2+Math.floor(per/40)*22)/60)} min par run.</p>
+    <div class="cmd">mode: ${esc(S.orch.mode)}\nprogram: ${esc(program)}\nyear: ${year}\nmax_notices: ${per}</div>`:'')
+  +(e.sample?.length?`<div><p class="status">Notices manquantes (exemples)</p><div class="ids">${e.sample.map(s=>`<code>${esc(s)}</code>`).join('')}</div></div>`:'');
+ const queued=inPlan(program,year),why=$('#d-why');
+ why.className='why '+(queued?'no':vol?(virgin?'v':''):'ok');
+ why.textContent=queued?'Déjà dans la file active — retire-la ou lance-la depuis la file.'
+  :vol?(virgin?'Année vierge : le volume est une estimation, elle devient exacte après le premier run.':'Prêt à être ajouté ou lancé immédiatement.')
+  :'Année complète : aucun bouton actif, c\'est normal. Choisis une année « ? » ou avec un reste.';
+ $('#d-run').disabled=!vol;$('#d-add').disabled=!vol||queued;
  $('#scrim').hidden=false;$('#drawer').hidden=false;lock();
 }
 function closeDetail(){$('#scrim').hidden=true;$('#drawer').hidden=true;lock();}
@@ -660,12 +688,11 @@ function renderTargets(){
   <button class="del" data-tdel="${i}" title="Retirer">✕</button></div>`).join('')||'<p class="status">Registre vide.</p>';
 }
 function persistTargets(){localStorage.setItem(TGT,JSON.stringify({version:1,updated_at:new Date().toISOString(),programs:S.targets}));}
-function targetsChanged(){persistTargets();rebuild();refreshFilters();renderHealth();render();renderTargets();}
+function targetsChanged(){persistTargets();rebuild();syncTaskVolumes();refreshFilters();renderHealth();renderAll();renderTargets();}
 function openTargets(){renderTargets();$('#tscrim').hidden=false;$('#tdrawer').hidden=false;lock();}
 function closeTargets(){$('#tscrim').hidden=true;$('#tdrawer').hidden=true;lock();}
 function renderHistory(){
- const h=S.history;
- const ok=h.filter(t=>t.state==='success').length,ko=h.filter(t=>['failure','error'].includes(st(t))).length;
+ const h=S.history,ok=h.filter(t=>t.state==='success').length,ko=h.filter(t=>['failure','error'].includes(st(t))).length;
  $('#h-stat').innerHTML=`<span class="badge">${h.length} archivée(s)</span><span class="badge success">${ok} réussie(s)</span><span class="badge failure">${ko} échec(s)</span>`;
  $('#h-sub').textContent=h.length?`${h.length} tâche(s) archivée(s) — restaurables à tout moment.`:'Aucune tâche archivée pour l\'instant.';
  $('#h-body').innerHTML=h.length?h.slice(0,300).map(t=>`<div class="pitem st-${st(t)}"><span class="grip"></span>
@@ -696,11 +723,11 @@ async function saveSettings(){
 }
 async function testSettings(){
  $('#s-status').textContent='⏳ Test…';
- const c=diagCfg();const a=await rawGh('',{},c);
+ const c=diagCfg(),a=await rawGh('',{},c);
  if(!a.ok){$('#s-status').textContent='❌ '+explain(a);return;}
  const w=await rawGh('/actions/workflows?per_page=100',{},c);
  if(!w.ok){$('#s-status').innerHTML=`✅ dépôt ok · ❌ workflows : ${esc(explain(w))}`;return;}
- const file=c.workflow.replace(/^.*\//,'');const found=(w.data.workflows||[]).find(x=>x.path.endsWith('/'+file));
+ const file=c.workflow.replace(/^.*\//,''),found=(w.data.workflows||[]).find(x=>x.path.endsWith('/'+file));
  $('#s-status').innerHTML=`✅ <b>${esc(a.data.full_name)}</b> · ${w.data.total_count} workflow(s)${found?` · <b>${esc(file)}</b> id ${found.id}`:` — <b>${esc(file)}</b> introuvable`}. Lance le diagnostic pour vérifier l'écriture.`;
 }
 function renderViews(){
@@ -784,7 +811,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
  $('#t-body').addEventListener('input',e=>{const f=e.target.dataset.tf;if(!f)return;
   const t=S.targets[+e.target.dataset.i];if(!t)return;
   if(f==='program'){t.program=e.target.value;t.slug=slugify(e.target.value);}else t[f]=+e.target.value||t[f];
-  persistTargets();rebuild();refreshFilters();render();});
+  persistTargets();rebuild();syncTaskVolumes();refreshFilters();renderAll();});
  $('#h-close').onclick=$('#h-close2').onclick=$('#hscrim').onclick=closeHistory;
  $('#h-export').onclick=()=>{if(!S.history.length)return toast('Historique vide.','warn');
   dl('historique-moisson-ina.csv','program,year,state,sent_at,ended_at,run_id\n'+S.history.map(t=>`"${t.program}",${t.year},${st(t)},${t.sentAt?new Date(t.sentAt).toISOString():''},${t.endedAt?new Date(t.endedAt).toISOString():''},${t.runId||''}`).join('\n'),'text/csv');
@@ -800,8 +827,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
  document.addEventListener('mouseout',e=>{if(e.target.closest('[data-tip]'))hideTip();});
  document.addEventListener('change',e=>{
   const p=e.target.closest('[data-sel-task]');
-  if(p){p.checked?S.sel.add(p.dataset.selTask):S.sel.delete(p.dataset.selTask);renderPlan();}
- });
+  if(p){p.checked?S.sel.add(p.dataset.selTask):S.sel.delete(p.dataset.selTask);renderPlan();}});
  document.addEventListener('click',async e=>{
   const vd=e.target.closest('[data-vd]');if(vd){S.views=S.views.filter(v=>v.id!==vd.dataset.vd);localStorage.setItem(VIEWS,JSON.stringify(S.views));renderViews();return;}
   const vw=e.target.closest('[data-v]');if(vw){const v=S.views.find(x=>x.id===vw.dataset.v);if(!v)return;S.f={...v.f};
