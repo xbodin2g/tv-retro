@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:05:57.468113",
+  "generated_at": "2026-11-16T23:33:22.687732",
   "parser_version": 5,
   "global_avg": 208,
   "programs": [
@@ -11,6 +11,8 @@
       "from": 1987,
       "to": 1997,
       "harvested_at": "2026-11-15T23:19:01.438624",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -212,6 +214,8 @@
       "from": 1978,
       "to": 1987,
       "harvested_at": "2026-11-16T19:26:32.381074",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1978,
@@ -389,8 +393,7 @@
           "sample": [],
           "coverage": 100.0,
           "virgin": false,
-          "estimate": 0,
-          "out_of_range": true
+          "estimate": 0
         }
       ],
       "totals": {
@@ -416,6 +419,8 @@
       "from": 1985,
       "to": 1997,
       "harvested_at": "2026-11-16T22:34:01.204851",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1985,
@@ -649,6 +654,8 @@
       "from": 1985,
       "to": 1993,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1985,
@@ -818,6 +825,8 @@
       "from": 1983,
       "to": 1987,
       "harvested_at": "2026-11-16T23:02:32.466828",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1983,
@@ -923,6 +932,8 @@
       "from": 1987,
       "to": 1992,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -1044,6 +1055,8 @@
       "from": 1975,
       "to": 1983,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1975,
@@ -1213,6 +1226,8 @@
       "from": 1981,
       "to": 1987,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1981,
@@ -1350,6 +1365,8 @@
       "from": 1982,
       "to": 1986,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1982,
@@ -1455,6 +1472,8 @@
       "from": 1986,
       "to": 1991,
       "harvested_at": "2026-11-16T22:50:45.811577",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1986,
@@ -1576,6 +1595,8 @@
       "from": 1978,
       "to": 1987,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1978,
@@ -1761,6 +1782,8 @@
       "from": 1987,
       "to": 1996,
       "harvested_at": "2026-11-16T17:27:24.758980",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -1946,6 +1969,8 @@
       "from": 1986,
       "to": 1999,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1986,
@@ -2195,6 +2220,8 @@
       "from": 1986,
       "to": 1993,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1986,
@@ -2348,6 +2375,8 @@
       "from": 1990,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1990,
@@ -2485,6 +2514,8 @@
       "from": 1988,
       "to": 1996,
       "harvested_at": "2026-11-16T22:48:14.951307",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1988,
@@ -2654,6 +2685,8 @@
       "from": 1987,
       "to": 1994,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -2806,7 +2839,87 @@
       "priority": 3,
       "from": 1987,
       "to": 1993,
-      "harvested_at": "2026-11-16T23:05:56.470847",
+      "harvested_at": "2026-11-16T23:33:21.008876",
+      "methods": [],
+      "discovery": [
+        {
+          "method": "B/ch=FR3",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 0,
+          "total": 661,
+          "note": ""
+        },
+        {
+          "method": "B/ch=FR3/quotes",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=%22Samdynamite%22&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 0,
+          "total": 661,
+          "note": ""
+        },
+        {
+          "method": "B/ch=France 3",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 0,
+          "total": 44,
+          "note": ""
+        },
+        {
+          "method": "B/ch=France 3/quotes",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=%22Samdynamite%22&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 0,
+          "total": 44,
+          "note": ""
+        },
+        {
+          "method": "D/loose",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?sujets_filter=Sujet&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 0,
+          "total": 705,
+          "note": ""
+        },
+        {
+          "method": "A/1987/v0",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        },
+        {
+          "method": "A/1987/v1",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        },
+        {
+          "method": "A/1987/v2",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        },
+        {
+          "method": "A/1987/v3",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&tiprog=Samdynamite&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        },
+        {
+          "method": "C/FR3/1987",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        },
+        {
+          "method": "C/France 3/1987",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": ""
+        }
+      ],
       "years": [
         {
           "year": 1987,
@@ -2944,6 +3057,8 @@
       "from": 1988,
       "to": 1993,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1988,
@@ -3065,6 +3180,8 @@
       "from": 1993,
       "to": 1999,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1993,
@@ -3202,6 +3319,8 @@
       "from": 1989,
       "to": 1998,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1989,
@@ -3387,6 +3506,8 @@
       "from": 1990,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1990,
@@ -3524,6 +3645,8 @@
       "from": 1990,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1990,
@@ -3661,6 +3784,8 @@
       "from": 1993,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1993,
@@ -3750,6 +3875,8 @@
       "from": 1997,
       "to": 1999,
       "harvested_at": "2026-11-16T21:56:15.231623",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1997,
@@ -3823,6 +3950,8 @@
       "from": 1993,
       "to": 1995,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1993,
@@ -3896,6 +4025,8 @@
       "from": 1994,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1994,
@@ -3969,6 +4100,8 @@
       "from": 1987,
       "to": 1991,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -4074,6 +4207,8 @@
       "from": 1990,
       "to": 1999,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1990,
@@ -4259,6 +4394,8 @@
       "from": 1987,
       "to": 1996,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -4444,6 +4581,8 @@
       "from": 1987,
       "to": 1997,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -4645,6 +4784,8 @@
       "from": 1991,
       "to": 1997,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1991,
@@ -4782,6 +4923,8 @@
       "from": 1995,
       "to": 1998,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1995,
@@ -4871,6 +5014,8 @@
       "from": 1995,
       "to": 1999,
       "harvested_at": "",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1995,
@@ -4976,6 +5121,8 @@
       "from": 1987,
       "to": 1997,
       "harvested_at": "2026-11-15T23:19:01.438624",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1987,
@@ -5177,6 +5324,8 @@
       "from": 1970,
       "to": 1999,
       "harvested_at": "2026-11-16T22:32:48.365274",
+      "methods": [],
+      "discovery": [],
       "years": [
         {
           "year": 1970,
@@ -5681,7 +5830,6 @@
       "priority": 9,
       "from": null,
       "to": null,
-      "harvested_at": "2026-11-12T22:49:43.292396",
       "years": [
         {
           "year": 1987,
@@ -5714,7 +5862,8 @@
         "virgin": 0,
         "estimate": 0
       },
-      "untargeted": true
+      "methods": [],
+      "discovery": []
     }
   ],
   "orphans": [],
@@ -7588,7 +7737,8 @@
     "virgin": 263,
     "orphans": 0,
     "advice": [
-      "263 couple(s) émission × année jamais indexés : volume estimé 52081 notices."
+      "263 couple(s) jamais indexés — volume estimé 52081 notices.",
+      "2 émission(s) sans chaîne renseignée : la méthode B (canal) est désactivée pour elles. Renseigne la chaîne dans 🎯 Cibles."
     ]
   }
 }

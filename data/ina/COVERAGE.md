@@ -1,62 +1,63 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 23:05:57 — parser v5_
+_Généré le 2026-11-16 à 23:33:22 — parser v5_
 
-> Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
-> En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
+> Deux méthodes de recherche sont fusionnées : **A** `tiprog+ti` (ancienne) et **B** `ch+tiprog` (sans ti).
+> **C** `ch+tiprog+ti` resserre les années manquantes, **D** `tiprog` seul sert de filet.
+> En cache = le fichier notice existe. `?` = jamais indexé, volume estimé.
 
 ## Total
 
-- Cibles jamais indexées : **263** (≈ 52081 notices estimées)
+- Jamais indexés : **263** (≈ 52081 notices)
 - Indexées : **8317** · En cache : **8316** (100.0 %)
 - Avec œuvres : **5694** · sans œuvre : 2622
-- Œuvres relevées : **22773** · reste connu : **1**
+- Œuvres : **22773** · reste connu : **1**
 
 ## Par émission
 
-| Émission | Chaîne | Plage | Jamais indexé | Indexées | Cache | Œuvrées | Reste | % |
-|---|---|---|---:|---:|---:|---:|---:|---:|
-| Amuse 3 | FR3 | 1985→1997 | 12 | 5 | 5 | 0 | 0 | 100.0 % |
-| Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
-| Récré A2 | Antenne 2 | 1978→1987 | 0 | 2077 | 2076 | 1914 | 1 | 100.0 % |
-| Cabou Cadin | Canal+ | 1985→1993 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
-| Giga | Antenne 2 | 1987→1996 | 5 | 1086 | 1086 | 982 | 0 | 100.0 % |
-| Le Disney Channel | FR3 | 1988→1996 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
-| Les Minikeums | France 3 | 1993→1999 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| Les Visiteurs du mercredi | TF1 | 1975→1983 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
-| Vitamine | TF1 | 1983→1987 | 4 | 20 | 20 | 20 | 0 | 100.0 % |
-| Youpi ! L'école est finie | La Cinq | 1987→1992 | 6 | 0 | 0 | 0 | 0 | 0.0 % |
-| Ça cartoon | Canal+ | 1986→1999 | 14 | 0 | 0 | 0 | 0 | 0.0 % |
-| Canaille Peluche | Canal+ | 1986→1993 | 8 | 0 | 0 | 0 | 0 | 0.0 % |
-| Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
-| Croque-Vacances | TF1 | 1981→1987 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| Debout les enfants | FR3 | 1987→1994 | 8 | 0 | 0 | 0 | 0 | 0.0 % |
-| Discopuce | Antenne 2 | 1978→1987 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
-| Disney Club | TF1 | 1990→1996 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| Disney Parade | TF1 | 1989→1998 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
-| Décode pas Bunny | Canal+ | 1990→1996 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| FR3 jeunesse |  | 1970→1999 | 30 | 0 | 0 | 0 | 0 | 0.0 % |
-| Graffi'6 | M6 | 1987→1991 | 5 | 0 | 0 | 0 | 0 | 0.0 % |
-| Le réveil des babalous | FR3 | 1986→1991 | 6 | 0 | 0 | 0 | 0 | 0.0 % |
-| Le Village dans les nuages | TF1 | 1982→1986 | 5 | 0 | 0 | 0 | 0 | 0.0 % |
-| M6 Kid | M6 | 1990→1999 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
-| Multitop | M6 | 1987→1996 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
-| Samdynamite | FR3 | 1987→1993 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| TF! Jeunesse | TF1 | 1997→1999 | 2 | 168 | 168 | 168 | 0 | 100.0 % |
-| Télétaz | FR3 | 1988→1993 | 6 | 0 | 0 | 0 | 0 | 0.0 % |
-| Cellulo | La Cinquième | 1995→1999 | 5 | 0 | 0 | 0 | 0 | 0.0 % |
-| Chalu Maureen | France 2 | 1994→1996 | 3 | 0 | 0 | 0 | 0 | 0.0 % |
-| Club Mini | TF1 | 1990→1996 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| Les années fac | TF1 | 1995→1998 | 4 | 0 | 0 | 0 | 0 | 0.0 % |
-| Premiers baisers | TF1 | 1991→1997 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
-| Salut les Musclés | TF1 | 1987→1997 | 11 | 0 | 0 | 0 | 0 | 0.0 % |
-| Télévisator 2 | France 2 | 1993→1995 | 3 | 0 | 0 | 0 | 0 | 0.0 % |
-| À tout Spip | TF1 | 1993→1996 | 4 | 0 | 0 | 0 | 0 | 0.0 % |
-| salut les petits loups |  | ?→? | 0 | 25 | 25 | 22 | 0 | 100.0 % |
+| Émission | Chaîne | Plage | Méthodes | Jamais indexé | Indexées | Cache | Œuvrées | Reste | % |
+|---|---|---|---|---:|---:|---:|---:|---:|---:|
+| Amuse 3 | FR3 | 1985→1997 | — | 12 | 5 | 5 | 0 | 0 | 100.0 % |
+| Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
+| Récré A2 | Antenne 2 | 1978→1987 | — | 0 | 2077 | 2076 | 1914 | 1 | 100.0 % |
+| Cabou Cadin | Canal+ | 1985→1993 | — | 9 | 0 | 0 | 0 | 0 | 0.0 % |
+| Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 1086 | 982 | 0 | 100.0 % |
+| Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0.0 % |
+| Les Minikeums | France 3 | 1993→1999 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| Les Visiteurs du mercredi | TF1 | 1975→1983 | — | 9 | 0 | 0 | 0 | 0 | 0.0 % |
+| Vitamine | TF1 | 1983→1987 | — | 4 | 20 | 20 | 20 | 0 | 100.0 % |
+| Youpi ! L'école est finie | La Cinq | 1987→1992 | — | 6 | 0 | 0 | 0 | 0 | 0.0 % |
+| Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0.0 % |
+| Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0.0 % |
+| Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
+| Croque-Vacances | TF1 | 1981→1987 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| Debout les enfants | FR3 | 1987→1994 | — | 8 | 0 | 0 | 0 | 0 | 0.0 % |
+| Discopuce | Antenne 2 | 1978→1987 | — | 10 | 0 | 0 | 0 | 0 | 0.0 % |
+| Disney Club | TF1 | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| Disney Parade | TF1 | 1989→1998 | — | 10 | 0 | 0 | 0 | 0 | 0.0 % |
+| Décode pas Bunny | Canal+ | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| FR3 jeunesse | — | 1970→1999 | — | 30 | 0 | 0 | 0 | 0 | 0.0 % |
+| Graffi'6 | M6 | 1987→1991 | — | 5 | 0 | 0 | 0 | 0 | 0.0 % |
+| Le réveil des babalous | FR3 | 1986→1991 | — | 6 | 0 | 0 | 0 | 0 | 0.0 % |
+| Le Village dans les nuages | TF1 | 1982→1986 | — | 5 | 0 | 0 | 0 | 0 | 0.0 % |
+| M6 Kid | M6 | 1990→1999 | — | 10 | 0 | 0 | 0 | 0 | 0.0 % |
+| Multitop | M6 | 1987→1996 | — | 10 | 0 | 0 | 0 | 0 | 0.0 % |
+| Samdynamite | FR3 | 1987→1993 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| TF! Jeunesse | TF1 | 1997→1999 | — | 2 | 168 | 168 | 168 | 0 | 100.0 % |
+| Télétaz | FR3 | 1988→1993 | — | 6 | 0 | 0 | 0 | 0 | 0.0 % |
+| Cellulo | La Cinquième | 1995→1999 | — | 5 | 0 | 0 | 0 | 0 | 0.0 % |
+| Chalu Maureen | France 2 | 1994→1996 | — | 3 | 0 | 0 | 0 | 0 | 0.0 % |
+| Club Mini | TF1 | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| Les années fac | TF1 | 1995→1998 | — | 4 | 0 | 0 | 0 | 0 | 0.0 % |
+| Premiers baisers | TF1 | 1991→1997 | — | 7 | 0 | 0 | 0 | 0 | 0.0 % |
+| Salut les Musclés | TF1 | 1987→1997 | — | 11 | 0 | 0 | 0 | 0 | 0.0 % |
+| Télévisator 2 | France 2 | 1993→1995 | — | 3 | 0 | 0 | 0 | 0 | 0.0 % |
+| À tout Spip | TF1 | 1993→1996 | — | 4 | 0 | 0 | 0 | 0 | 0.0 % |
+| salut les petits loups | — | ?→? | — | 0 | 25 | 25 | 22 | 0 | 100.0 % |
 
 ## Détail par année
 
-### Amuse 3
+### Amuse 3 · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -74,7 +75,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 5 |
 | 1997 | jamais indexé | 0 | 0 | 0 | 0 | 5 |
 
-### Cabou Cadin
+### Cabou Cadin · Canal+
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -88,7 +89,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1992 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1993 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Canaille Peluche
+### Canaille Peluche · Canal+
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -101,7 +102,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1992 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1993 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Cellulo
+### Cellulo · La Cinquième
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -111,7 +112,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Chalu Maureen
+### Chalu Maureen · France 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -119,7 +120,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Club Dorothée
+### Club Dorothée · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -135,7 +136,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1996 | complet | 366 | 366 | 365 | 0 | — |
 | 1997 | complet | 140 | 140 | 140 | 0 | — |
 
-### Club Dorothée
+### Club Dorothée · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -151,7 +152,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1996 | complet | 366 | 366 | 365 | 0 | — |
 | 1997 | complet | 140 | 140 | 140 | 0 | — |
 
-### Club Mini
+### Club Mini · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -163,7 +164,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Croque-Vacances
+### Croque-Vacances · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -175,7 +176,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1986 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1987 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Debout les enfants
+### Debout les enfants · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -188,7 +189,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1993 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1994 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Discopuce
+### Discopuce · Antenne 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -203,7 +204,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1986 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1987 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Disney Club
+### Disney Club · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -215,7 +216,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Disney Parade
+### Disney Parade · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -230,7 +231,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1997 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Décode pas Bunny
+### Décode pas Bunny · Canal+
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -277,7 +278,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Giga
+### Giga · Antenne 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -292,7 +293,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 217 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 217 |
 
-### Graffi'6
+### Graffi'6 · M6
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -302,7 +303,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1990 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1991 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Le Disney Channel
+### Le Disney Channel · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -316,7 +317,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Le réveil des babalous
+### Le réveil des babalous · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -327,7 +328,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1990 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1991 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Le Village dans les nuages
+### Le Village dans les nuages · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -337,7 +338,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1985 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1986 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Les années fac
+### Les années fac · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -346,7 +347,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1997 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Les Minikeums
+### Les Minikeums · France 3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -358,7 +359,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Les Visiteurs du mercredi
+### Les Visiteurs du mercredi · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -372,7 +373,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1982 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1983 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### M6 Kid
+### M6 Kid · M6
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -387,7 +388,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Multitop
+### Multitop · M6
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -402,7 +403,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Premiers baisers
+### Premiers baisers · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -414,7 +415,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1997 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Récré A2
+### Récré A2 · Antenne 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -430,7 +431,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1987 | complet | 14 | 14 | 4 | 0 | — |
 | 1988 | complet | 2 | 2 | 0 | 0 | — |
 
-### Salut les Musclés
+### Salut les Musclés · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -452,7 +453,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 |---|---|---:|---:|---:|---:|---:|
 | 1987 | complet | 25 | 25 | 22 | 0 | — |
 
-### Samdynamite
+### Samdynamite · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -464,7 +465,25 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1992 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1993 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### TF! Jeunesse
+<details><summary>Requêtes tentées</summary>
+
+| Méthode | Trouvées | Annoncées | Note |
+|---|---:|---:|---|
+| `B/ch=FR3` | 0 | 661 |  |
+| `B/ch=FR3/quotes` | 0 | 661 |  |
+| `B/ch=France 3` | 0 | 44 |  |
+| `B/ch=France 3/quotes` | 0 | 44 |  |
+| `D/loose` | 0 | 705 |  |
+| `A/1987/v0` | 0 | — |  |
+| `A/1987/v1` | 0 | — |  |
+| `A/1987/v2` | 0 | — |  |
+| `A/1987/v3` | 0 | — |  |
+| `C/FR3/1987` | 0 | — |  |
+| `C/France 3/1987` | 0 | — |  |
+
+</details>
+
+### TF! Jeunesse · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -472,7 +491,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 168 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 168 |
 
-### Télétaz
+### Télétaz · FR3
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -483,7 +502,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1992 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1993 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Télévisator 2
+### Télévisator 2 · France 2
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -491,7 +510,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1994 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Vitamine
+### Vitamine · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -501,7 +520,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1986 | jamais indexé | 0 | 0 | 0 | 0 | 20 |
 | 1987 | complet | 20 | 20 | 20 | 0 | — |
 
-### Youpi ! L'école est finie
+### Youpi ! L'école est finie · La Cinq
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -512,7 +531,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1991 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1992 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### À tout Spip
+### À tout Spip · TF1
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -521,7 +540,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1995 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1996 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-### Ça cartoon
+### Ça cartoon · Canal+
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
@@ -540,7 +559,7 @@ _Généré le 2026-11-16 à 23:05:57 — parser v5_
 | 1998 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 | 1999 | jamais indexé | 0 | 0 | 0 | 0 | 208 |
 
-## Démarrages conseillés (jamais indexés)
+## Démarrages conseillés
 
 | Émission | Année | Volume estimé |
 |---|---|---:|
