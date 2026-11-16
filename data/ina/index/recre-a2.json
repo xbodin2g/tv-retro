@@ -1,8 +1,8 @@
 {
   "program": "Récré A2",
   "slug": "recre-a2",
-  "harvested_at": "2026-11-16T08:03:38.359897",
-  "count": 1569,
+  "harvested_at": "2026-11-16T08:29:09.845391",
+  "count": 1776,
   "notices": [
     {
       "notice_id": "DA_CPB78050711",
@@ -10981,11 +10981,1460 @@
       "start": "17:23:00"
     },
     {
+      "notice_id": "DA_CPB85051979",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051979/recre-a2-emission-du-03-janvier-1985?rang=210",
+      "channel": "Antenne 2",
+      "date": "03-01-1985",
+      "start": "17:43:29"
+    },
+    {
+      "notice_id": "DA_CPB85051986",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051986/recre-a2-emission-du-04-janvier-1985?rang=246",
+      "channel": "Antenne 2",
+      "date": "04-01-1985",
+      "start": "17:42:09"
+    },
+    {
+      "notice_id": "DA_CPB86009199",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009199/recre-a2-emission-du-05-janvier-1985?rang=378",
+      "channel": "Antenne 2",
+      "date": "05-01-1985",
+      "start": "17:32:31"
+    },
+    {
+      "notice_id": "DA_CPB85050025",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050025/recre-a2-emission-du-06-janvier-1985?rang=245",
+      "channel": "Antenne 2",
+      "date": "06-01-1985",
+      "start": "00:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85051685",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051685/recre-a2-emission-du-10-janvier-1985?rang=374",
+      "channel": "Antenne 2",
+      "date": "10-01-1985",
+      "start": "17:47:43"
+    },
+    {
+      "notice_id": "DA_CPB85051693",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051693/recre-a2-emission-du-11-janvier-1985?rang=247",
+      "channel": "Antenne 2",
+      "date": "11-01-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB91004243",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004243/recre-a2-emission-du-12-janvier-1985?rang=213",
+      "channel": "Antenne 2",
+      "date": "12-01-1985",
+      "start": "17:35:00"
+    },
+    {
+      "notice_id": "DA_CPB85050284",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050284/recre-a2-emission-du-13-janvier-1985?rang=379",
+      "channel": "Antenne 2",
+      "date": "13-01-1985",
+      "start": "00:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85052921",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052921/recre-a2-emission-du-14-janvier-1985?rang=382",
+      "channel": "Antenne 2",
+      "date": "14-01-1985",
+      "start": "17:41:40"
+    },
+    {
+      "notice_id": "DA_CPB85050627",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050627/recre-a2-emission-du-15-janvier-1985?rang=248",
+      "channel": "Antenne 2",
+      "date": "15-01-1985",
+      "start": "17:47:00"
+    },
+    {
+      "notice_id": "DA_CPB85050638",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050638/recre-a2-emission-du-17-janvier-1985?rang=214",
+      "channel": "Antenne 2",
+      "date": "17-01-1985",
+      "start": "17:41:00"
+    },
+    {
+      "notice_id": "DA_CPB85050644",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050644/recre-a2-emission-du-18-janvier-1985?rang=380",
+      "channel": "Antenne 2",
+      "date": "18-01-1985",
+      "start": "17:36:46"
+    },
+    {
+      "notice_id": "DA_CPB85050371",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050371/recre-a2-emission-du-20-janvier-1985?rang=217",
+      "channel": "Antenne 2",
+      "date": "20-01-1985",
+      "start": "10:04:45"
+    },
+    {
+      "notice_id": "DA_CPB85050442",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050442/recre-a2-emission-du-21-janvier-1985?rang=384",
+      "channel": "Antenne 2",
+      "date": "21-01-1985",
+      "start": "17:37:01"
+    },
+    {
+      "notice_id": "DA_CPB85050185",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050185/recre-a2-emission-du-22-janvier-1985?rang=381",
+      "channel": "Antenne 2",
+      "date": "22-01-1985",
+      "start": "17:46:00"
+    },
+    {
+      "notice_id": "DA_CPB85050193",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050193/recre-a2-emission-du-24-janvier-1985?rang=251",
+      "channel": "Antenne 2",
+      "date": "24-01-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB85050199",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050199/recre-a2-emission-du-25-janvier-1985?rang=218",
+      "channel": "Antenne 2",
+      "date": "25-01-1985",
+      "start": "17:46:00"
+    },
+    {
+      "notice_id": "DA_CPB85051899",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051899/recre-a2-emission-du-26-janvier-1985?rang=250",
+      "channel": "Antenne 2",
+      "date": "26-01-1985",
+      "start": "17:31:03"
+    },
+    {
+      "notice_id": "DA_CPB85050926",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050926/recre-a2-emission-du-27-janvier-1985?rang=385",
+      "channel": "Antenne 2",
+      "date": "27-01-1985",
+      "start": "10:02:04"
+    },
+    {
+      "notice_id": "DA_CPB85050296",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050296/recre-a2-emission-du-28-janvier-1985?rang=220",
+      "channel": "Antenne 2",
+      "date": "28-01-1985",
+      "start": "17:40:00"
+    },
+    {
+      "notice_id": "DA_CPB85050714",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050714/recre-a2-emission-du-29-janvier-1985?rang=257",
+      "channel": "Antenne 2",
+      "date": "29-01-1985",
+      "start": "17:41:13"
+    },
+    {
+      "notice_id": "DA_CPB85050724",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050724/recre-a2-emission-du-31-janvier-1985?rang=255",
+      "channel": "Antenne 2",
+      "date": "31-01-1985",
+      "start": "17:42:25"
+    },
+    {
+      "notice_id": "DA_CPB85050729",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050729/recre-a2-emission-du-01-fevrier-1985?rang=222",
+      "channel": "Antenne 2",
+      "date": "01-02-1985",
+      "start": "17:46:16"
+    },
+    {
+      "notice_id": "DA_CPB85050097",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050097/recre-a2-emission-du-02-fevrier-1985?rang=386",
+      "channel": "Antenne 2",
+      "date": "02-02-1985",
+      "start": "14:54:48"
+    },
+    {
+      "notice_id": "DA_CPB85051715",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051715/recre-a2-emission-du-03-fevrier-1985?rang=259",
+      "channel": "Antenne 2",
+      "date": "03-02-1985",
+      "start": "10:05:00"
+    },
+    {
+      "notice_id": "DA_CPB85051322",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051322/recre-a2-emission-du-04-fevrier-1985?rang=224",
+      "channel": "Antenne 2",
+      "date": "04-02-1985",
+      "start": "17:40:10"
+    },
+    {
+      "notice_id": "DA_CPB85050948",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050948/recre-a2-emission-du-05-fevrier-1985?rang=226",
+      "channel": "Antenne 2",
+      "date": "05-02-1985",
+      "start": "17:48:42"
+    },
+    {
+      "notice_id": "DA_CPB85050957",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050957/recre-a2-emission-du-07-fevrier-1985?rang=258",
+      "channel": "Antenne 2",
+      "date": "07-02-1985",
+      "start": "17:43:35"
+    },
+    {
+      "notice_id": "DA_CPB13004874",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004874/recre-a2-emission-du-08-fevrier-1985?rang=228",
+      "channel": "Antenne 2",
+      "date": "08-02-1985",
+      "start": "17:45:20"
+    },
+    {
+      "notice_id": "DA_CPB85050402",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050402/recre-a2-emission-du-09-fevrier-1985?rang=230",
+      "channel": "Antenne 2",
+      "date": "09-02-1985",
+      "start": "17:40:25"
+    },
+    {
+      "notice_id": "DA_CPB8505081801",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8505081801/recre-a2-emission-du-10-fevrier-1985?rang=387",
+      "channel": "Antenne 2",
+      "date": "10-02-1985",
+      "start": "10:07:36"
+    },
+    {
+      "notice_id": "DA_CPB85052026",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052026/recre-a2-emission-du-11-fevrier-1985?rang=388",
+      "channel": "Antenne 2",
+      "date": "11-02-1985",
+      "start": "17:38:00"
+    },
+    {
+      "notice_id": "DA_CPB85051923",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051923/recre-a2-emission-du-12-fevrier-1985?rang=261",
+      "channel": "Antenne 2",
+      "date": "12-02-1985",
+      "start": "17:40:00"
+    },
+    {
+      "notice_id": "DA_CPB85051934",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051934/recre-a2-emission-du-14-fevrier-1985?rang=231",
+      "channel": "Antenne 2",
+      "date": "14-02-1985",
+      "start": "17:38:52"
+    },
+    {
+      "notice_id": "DA_CPB85052193",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052193/recre-a2-emission-du-15-fevrier-1985?rang=233",
+      "channel": "Antenne 2",
+      "date": "15-02-1985",
+      "start": "17:43:10"
+    },
+    {
+      "notice_id": "DA_CPB85100236",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100236/recre-a2-emission-du-16-fevrier-1985?rang=234",
+      "channel": "Antenne 2",
+      "date": "16-02-1985",
+      "start": "17:34:00"
+    },
+    {
+      "notice_id": "DA_CPB85101489",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101489/recre-a2-emission-du-17-fevrier-1985?rang=389",
+      "channel": "Antenne 2",
+      "date": "17-02-1985",
+      "start": "10:06:35"
+    },
+    {
+      "notice_id": "DA_CPB85053020",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053020/recre-a2-emission-du-18-fevrier-1985?rang=263",
+      "channel": "Antenne 2",
+      "date": "18-02-1985",
+      "start": "17:36:25"
+    },
+    {
+      "notice_id": "DA_CPB85050541",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050541/recre-a2-emission-du-19-fevrier-1985?rang=391",
+      "channel": "Antenne 2",
+      "date": "19-02-1985",
+      "start": "17:46:28"
+    },
+    {
+      "notice_id": "DA_CPB85050549",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050549/recre-a2-emission-du-21-fevrier-1985?rang=235",
+      "channel": "Antenne 2",
+      "date": "21-02-1985",
+      "start": "17:41:44"
+    },
+    {
+      "notice_id": "DA_CPB85050556",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050556/recre-a2-emission-du-22-fevrier-1985?rang=237",
+      "channel": "Antenne 2",
+      "date": "22-02-1985",
+      "start": "17:38:55"
+    },
+    {
+      "notice_id": "DA_CPB86006433",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006433/recre-a2-emission-du-23-fevrier-1985?rang=393",
+      "channel": "Antenne 2",
+      "date": "23-02-1985",
+      "start": "17:30:32"
+    },
+    {
+      "notice_id": "DA_CPB85050145",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050145/recre-a2-emission-du-24-fevrier-1985?rang=396",
+      "channel": "Antenne 2",
+      "date": "24-02-1985",
+      "start": "10:04:23"
+    },
+    {
+      "notice_id": "DA_CPB85050231",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050231/recre-a2-emission-du-25-fevrier-1985?rang=239",
+      "channel": "Antenne 2",
+      "date": "25-02-1985",
+      "start": "17:41:36"
+    },
+    {
+      "notice_id": "DA_CPB85050665",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050665/recre-a2-emission-du-26-fevrier-1985?rang=394",
+      "channel": "Antenne 2",
+      "date": "26-02-1985",
+      "start": "17:46:09"
+    },
+    {
+      "notice_id": "DA_CPB85050675",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050675/recre-a2-emission-du-28-fevrier-1985?rang=241",
+      "channel": "Antenne 2",
+      "date": "28-02-1985",
+      "start": "17:45:39"
+    },
+    {
+      "notice_id": "DA_CPB85050680",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050680/recre-a2-emission-du-01-mars-1985?rang=398",
+      "channel": "Antenne 2",
+      "date": "01-03-1985",
+      "start": "17:42:29"
+    },
+    {
+      "notice_id": "DA_CPB85051256",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051256/recre-a2-emission-du-02-mars-1985?rang=397",
+      "channel": "Antenne 2",
+      "date": "02-03-1985",
+      "start": "17:37:50"
+    },
+    {
+      "notice_id": "DA_CPB85103055",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103055/recre-a2-emission-du-3-mars-1985?rang=399",
+      "channel": "Antenne 2",
+      "date": "03-03-1985",
+      "start": "10:06:00"
+    },
+    {
+      "notice_id": "DA_CPB85051726",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051726/recre-a2-emission-du-04-mars-1985?rang=400",
+      "channel": "Antenne 2",
+      "date": "04-03-1985",
+      "start": "17:41:50"
+    },
+    {
+      "notice_id": "DA_CPB85050413",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050413/recre-a2-emission-du-05-mars-1985?rang=242",
+      "channel": "Antenne 2",
+      "date": "05-03-1985",
+      "start": "17:46:52"
+    },
+    {
+      "notice_id": "DA_CPB85050430",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050430/recre-a2-emission-du-07-mars-1985?rang=265",
+      "channel": "Antenne 2",
+      "date": "07-03-1985",
+      "start": "17:46:10"
+    },
+    {
+      "notice_id": "DA_CPB85050433",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050433/recre-a2-emission-du-08-mars-1985?rang=264",
+      "channel": "Antenne 2",
+      "date": "08-03-1985",
+      "start": "17:47:16"
+    },
+    {
+      "notice_id": "DA_CPB85052167",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052167/recre-a2-emission-du-09-mars-1985?rang=402",
+      "channel": "Antenne 2",
+      "date": "09-03-1985",
+      "start": "17:29:07"
+    },
+    {
+      "notice_id": "DA_CPB85051525",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051525/recre-a2-emission-du-10-mars-1985?rang=403",
+      "channel": "Antenne 2",
+      "date": "10-03-1985",
+      "start": "10:05:00"
+    },
+    {
+      "notice_id": "DA_CPB85051849",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051849/recre-a2-emission-du-11-mars-1985?rang=243",
+      "channel": "Antenne 2",
+      "date": "11-03-1985",
+      "start": "17:40:00"
+    },
+    {
+      "notice_id": "DA_CPB13004992",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004992/recre-a2-emission-du-14-mars-1985?rang=244",
+      "channel": "Antenne 2",
+      "date": "14-03-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB13004995",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004995/recre-a2-emission-du-15-mars-1985?rang=441",
+      "channel": "Antenne 2",
+      "date": "15-03-1985",
+      "start": "17:46:53"
+    },
+    {
+      "notice_id": "DA_CPB86005017",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005017/recre-a2-emission-du-16-mars-1985?rang=404",
+      "channel": "Antenne 2",
+      "date": "16-03-1985",
+      "start": "17:35:58"
+    },
+    {
+      "notice_id": "DA_CPB85051192",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051192/recre-a2-emission-du-17-mars-1985?rang=405",
+      "channel": "Antenne 2",
+      "date": "17-03-1985",
+      "start": "10:07:00"
+    },
+    {
+      "notice_id": "DA_CPB13004999",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004999/recre-a2-emission-du-18-mars-1985?rang=442",
+      "channel": "Antenne 2",
+      "date": "18-03-1985",
+      "start": "17:39:37"
+    },
+    {
+      "notice_id": "DA_CPB85051278",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051278/recre-a2-emission-du-19-mars-1985?rang=269",
+      "channel": "Antenne 2",
+      "date": "19-03-1985",
+      "start": "17:48:10"
+    },
+    {
+      "notice_id": "DA_CPB85051287",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051287/recre-a2-emission-du-21-mars-1985?rang=266",
+      "channel": "Antenne 2",
+      "date": "21-03-1985",
+      "start": "17:43:00"
+    },
+    {
+      "notice_id": "DA_CPB85051291",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051291/recre-a2-emission-du-22-mars-1985?rang=268",
+      "channel": "Antenne 2",
+      "date": "22-03-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB91006506",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91006506/recre-a2-emission-du-23-mars-1985?rang=271",
+      "channel": "Antenne 2",
+      "date": "23-03-1985",
+      "start": "17:31:00"
+    },
+    {
+      "notice_id": "DA_CPB85053541",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053541/recre-a2-emission-du-24-mars-1985?rang=444",
+      "channel": "Antenne 2",
+      "date": "24-03-1985",
+      "start": "10:04:00"
+    },
+    {
+      "notice_id": "DA_CPB85052115",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052115/recre-a2-emission-du-25-mars-1985?rang=272",
+      "channel": "Antenne 2",
+      "date": "25-03-1985",
+      "start": "17:39:41"
+    },
+    {
+      "notice_id": "DA_CPB85051779",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051779/recre-a2-emission-du-26-mars-1985?rang=270",
+      "channel": "Antenne 2",
+      "date": "26-03-1985",
+      "start": "17:45:08"
+    },
+    {
+      "notice_id": "DA_CPB85051787",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051787/recre-a2-emission-du-28-mars-1985?rang=445",
+      "channel": "Antenne 2",
+      "date": "28-03-1985",
+      "start": "17:44:16"
+    },
+    {
+      "notice_id": "DA_CPB85051790",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051790/recre-a2-emission-du-29-mars-1985?rang=407",
+      "channel": "Antenne 2",
+      "date": "29-03-1985",
+      "start": "17:46:07"
+    },
+    {
+      "notice_id": "DA_CPB85050562",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050562/recre-a2-emission-du-30-mars-1985?rang=408",
+      "channel": "Antenne 2",
+      "date": "30-03-1985",
+      "start": "17:34:04"
+    },
+    {
+      "notice_id": "DA_CPB85051375",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051375/recre-a2-emission-du-31-mars-1985?rang=446",
+      "channel": "Antenne 2",
+      "date": "31-03-1985",
+      "start": "10:05:00"
+    },
+    {
+      "notice_id": "DA_CPB85053698",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053698/recre-a2-emission-du-01-avril-1985?rang=274",
+      "channel": "Antenne 2",
+      "date": "01-04-1985",
+      "start": "17:36:50"
+    },
+    {
+      "notice_id": "DA_CPB86008054",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008054/recre-a2-emission-du-02-avril-1985?rang=409",
+      "channel": "Antenne 2",
+      "date": "02-04-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB86010333",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010333/recre-a2-emission-du-4-avril-1985?rang=410",
+      "channel": "Antenne 2",
+      "date": "04-04-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB86010345",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010345/recre-a2-emission-du-05-avril-1985?rang=411",
+      "channel": "Antenne 2",
+      "date": "05-04-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB86008558",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008558/recre-a2-emission-du-06-avril-1985?rang=276",
+      "channel": "Antenne 2",
+      "date": "06-04-1985",
+      "start": "17:08:19"
+    },
+    {
+      "notice_id": "DA_CPB85051613",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051613/recre-a2-emission-du-07-avril-1985?rang=447",
+      "channel": "Antenne 2",
+      "date": "07-04-1985",
+      "start": "00:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85053552",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053552/recre-a2-emission-du-08-avril-1985?rang=448",
+      "channel": "Antenne 2",
+      "date": "08-04-1985",
+      "start": "18:02:11"
+    },
+    {
+      "notice_id": "DA_CPB91004793",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004793/recre-a2-emission-du-09-avril-1985?rang=412",
+      "channel": "Antenne 2",
+      "date": "09-04-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB14000502",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000502/recre-a2-emission-du-11-avril-1985?rang=450",
+      "channel": "Antenne 2",
+      "date": "11-04-1985",
+      "start": "17:48:00"
+    },
+    {
+      "notice_id": "DA_CPB94002671",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002671/recre-a2-emission-du-14-avril-1985?rang=277",
+      "channel": "Antenne 2",
+      "date": "12-04-1985",
+      "start": "17:46:30"
+    },
+    {
+      "notice_id": "DA_CPB85051208",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051208/recre-a2-emission-du-13-avril-1985?rang=278",
+      "channel": "Antenne 2",
+      "date": "13-04-1985",
+      "start": "17:10:24"
+    },
+    {
+      "notice_id": "DA_CPB85050328",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050328/recre-a2-emission-du-14-avril-1985?rang=414",
+      "channel": "Antenne 2",
+      "date": "14-04-1985",
+      "start": "10:06:23"
+    },
+    {
+      "notice_id": "DA_CPB85053774",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053774/recre-a2-emission-du-15-avril-1985?rang=451",
+      "channel": "Antenne 2",
+      "date": "15-04-1985",
+      "start": "17:39:00"
+    },
+    {
+      "notice_id": "DA_CPB85052389",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052389/recre-a2-emission-du-16-avril-1985?rang=413",
+      "channel": "Antenne 2",
+      "date": "16-04-1985",
+      "start": "17:45:50"
+    },
+    {
+      "notice_id": "DA_CPB85052397",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052397/recre-a2-emission-du-18-avril-1985?rang=279",
+      "channel": "Antenne 2",
+      "date": "18-04-1985",
+      "start": "17:42:05"
+    },
+    {
+      "notice_id": "DA_CPB85052404",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052404/recre-a2-emission-du-19-avril-1985?rang=452",
+      "channel": "Antenne 2",
+      "date": "19-04-1985",
+      "start": "17:42:05"
+    },
+    {
+      "notice_id": "DA_CPB85052012",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052012/recre-a2-emission-du-20-avril-1985?rang=454",
+      "channel": "Antenne 2",
+      "date": "20-04-1985",
+      "start": "14:48:00"
+    },
+    {
+      "notice_id": "DA_CPB85052198",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052198/recre-a2-emission-du-21-avril-1985?rang=415",
+      "channel": "Antenne 2",
+      "date": "21-04-1985",
+      "start": "10:03:00"
+    },
+    {
+      "notice_id": "DA_CPB85052492",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052492/recre-a2-emission-du-22-avril-1985?rang=281",
+      "channel": "Antenne 2",
+      "date": "22-04-1985",
+      "start": "17:39:50"
+    },
+    {
+      "notice_id": "DA_CPB85051220",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051220/recre-a2-emission-du-23-avril-1985?rang=455",
+      "channel": "Antenne 2",
+      "date": "23-04-1985",
+      "start": "17:44:00"
+    },
+    {
+      "notice_id": "DA_CPB85051216",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051216/recre-a2-emission-du-25-avril-1985?rang=280",
+      "channel": "Antenne 2",
+      "date": "25-04-1985",
+      "start": "17:41:00"
+    },
+    {
+      "notice_id": "DA_CPB85051231",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051231/recre-a2-emission-du-26-avril-1985?rang=284",
+      "channel": "Antenne 2",
+      "date": "26-04-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB85051428",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051428/recre-a2-emission-du-27-avril-1985?rang=456",
+      "channel": "Antenne 2",
+      "date": "27-04-1985",
+      "start": "17:02:04"
+    },
+    {
+      "notice_id": "DA_CPB14000702",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000702/recre-a2-emission-du-28-avril-1985?rang=283",
+      "channel": "Antenne 2",
+      "date": "28-04-1985",
+      "start": "10:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85053170",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053170/recre-a2-emission-du-29-avril-1985?rang=286",
+      "channel": "Antenne 2",
+      "date": "29-04-1985",
+      "start": "17:36:00"
+    },
+    {
+      "notice_id": "DA_CPB91014026",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014026/recre-a2-emission-du-30-avril-1985?rang=416",
+      "channel": "Antenne 2",
+      "date": "30-04-1985",
+      "start": "17:48:13"
+    },
+    {
+      "notice_id": "DA_CPB86011214",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011214/recre-a2-emission-du-2-mai-1985?rang=288",
+      "channel": "Antenne 2",
+      "date": "02-05-1985",
+      "start": "17:25:00"
+    },
+    {
+      "notice_id": "DA_CPB91004900",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004900/recre-a2-emission-du-03-mai-1985?rang=418",
+      "channel": "Antenne 2",
+      "date": "03-05-1985",
+      "start": "17:44:00"
+    },
+    {
+      "notice_id": "DA_CPB14000721",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000721/recre-a2-emission-du-04-mai-1985?rang=290",
+      "channel": "Antenne 2",
+      "date": "04-05-1985",
+      "start": "17:03:21"
+    },
+    {
+      "notice_id": "DA_CPB85051808",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051808/recre-a2-emission-du-05-mai-1985?rang=417",
+      "channel": "Antenne 2",
+      "date": "05-05-1985",
+      "start": "10:06:29"
+    },
+    {
+      "notice_id": "DA_CPB85052420",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052420/recre-a2-emission-du-06-mai-1985?rang=457",
+      "channel": "Antenne 2",
+      "date": "06-05-1985",
+      "start": "17:41:00"
+    },
+    {
+      "notice_id": "DA_CPB85052103",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052103/recre-a2-emission-du-07-mai-1985?rang=459",
+      "channel": "Antenne 2",
+      "date": "07-05-1985",
+      "start": "17:45:00"
+    },
+    {
+      "notice_id": "DA_CPB85052110",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052110/recre-a2-emission-du-09-mai-1985?rang=461",
+      "channel": "Antenne 2",
+      "date": "09-05-1985",
+      "start": "17:42:14"
+    },
+    {
+      "notice_id": "DA_CPB85052181",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052181/recre-a2-emission-du-10-mai-1985?rang=463",
+      "channel": "Antenne 2",
+      "date": "10-05-1985",
+      "start": "17:46:32"
+    },
+    {
+      "notice_id": "DA_CPB85053762",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053762/recre-a2-emission-du-11-mai-1985?rang=420",
+      "channel": "Antenne 2",
+      "date": "11-05-1985",
+      "start": "17:05:07"
+    },
+    {
+      "notice_id": "DA_CPB86006637",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006637/recre-a2-emission-du-12-mai-1985?rang=419",
+      "channel": "Antenne 2",
+      "date": "12-05-1985",
+      "start": "10:05:00"
+    },
+    {
+      "notice_id": "DA_CPB14000728",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000728/recre-a2-emission-du-13-mai-1985?rang=464",
+      "channel": "Antenne 2",
+      "date": "13-05-1985",
+      "start": "17:35:50"
+    },
+    {
+      "notice_id": "DA_CPB85051448",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051448/recre-a2-emission-du-14-mai-1985?rang=465",
+      "channel": "Antenne 2",
+      "date": "14-05-1985",
+      "start": "17:44:39"
+    },
+    {
+      "notice_id": "DA_CPB85051456",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051456/recre-a2-emission-du-16-mai-1985?rang=425",
+      "channel": "Antenne 2",
+      "date": "16-05-1985",
+      "start": "17:41:33"
+    },
+    {
+      "notice_id": "DA_CPB85053010",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053010/recre-a2-emission-du-18-mai-1985?rang=427",
+      "channel": "Antenne 2",
+      "date": "18-05-1985",
+      "start": "17:03:58"
+    },
+    {
+      "notice_id": "DA_CPB85052482",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052482/recre-a2-emission-du-19-mai-1985?rang=467",
+      "channel": "Antenne 2",
+      "date": "19-05-1985",
+      "start": "10:05:00"
+    },
+    {
+      "notice_id": "DA_CPB85052300",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052300/recre-a2-emission-du-20-mai-1985?rang=421",
+      "channel": "Antenne 2",
+      "date": "20-05-1985",
+      "start": "17:41:19"
+    },
+    {
+      "notice_id": "DA_CPB85052415",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052415/recre-a2-emission-du-21-mai-1985?rang=423",
+      "channel": "Antenne 2",
+      "date": "21-05-1985",
+      "start": "17:41:00"
+    },
+    {
+      "notice_id": "DA_CPB91005052",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005052/recre-a2-emission-du-24-mai-1985?rang=430",
+      "channel": "Antenne 2",
+      "date": "24-05-1985",
+      "start": "17:42:00"
+    },
+    {
+      "notice_id": "DA_CPB85052248",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052248/recre-a2-emission-du-25-mai-1985?rang=468",
+      "channel": "Antenne 2",
+      "date": "25-05-1985",
+      "start": "17:05:30"
+    },
+    {
+      "notice_id": "DA_CPB14000803",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000803/recre-a2-emission-du-27-mai-1985?rang=428",
+      "channel": "Antenne 2",
+      "date": "27-05-1985",
+      "start": "17:41:37"
+    },
+    {
+      "notice_id": "DA_CPB85000038",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000038/recre-a2-emission-du-28-mai-1985?rang=469",
+      "channel": "Antenne 2",
+      "date": "28-05-1985",
+      "start": "17:44:00"
+    },
+    {
+      "notice_id": "DA_CPB85000066",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000066/recre-a2-emission-du-31-mai-1985?rang=432",
+      "channel": "Antenne 2",
+      "date": "31-05-1985",
+      "start": "17:48:00"
+    },
+    {
+      "notice_id": "DA_CPB85101068",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101068/recre-a2-emission-du-1-juin-1985?rang=429",
+      "channel": "Antenne 2",
+      "date": "01-06-1985",
+      "start": "17:32:38"
+    },
+    {
+      "notice_id": "DA_CPB86004681",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004681/recre-a2-emission-du-2-juin-1985?rang=431",
+      "channel": "Antenne 2",
+      "date": "02-06-1985",
+      "start": "10:07:00"
+    },
+    {
+      "notice_id": "DA_CPB85053054",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053054/recre-a2-emission-du-03-juin-1985?rang=471",
+      "channel": "Antenne 2",
+      "date": "03-06-1985",
+      "start": "17:41:20"
+    },
+    {
+      "notice_id": "DA_CPB85052526",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052526/recre-a2-emission-du-04-juin-1985?rang=472",
+      "channel": "Antenne 2",
+      "date": "04-06-1985",
+      "start": "17:47:52"
+    },
+    {
+      "notice_id": "DA_CPB85052536",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052536/recre-a2-emission-du-06-juin-1985?rang=434",
+      "channel": "Antenne 2",
+      "date": "06-06-1985",
+      "start": "17:42:32"
+    },
+    {
+      "notice_id": "DA_CPB85052540",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052540/recre-a2-emission-du-07-juin-1985?rang=474",
+      "channel": "Antenne 2",
+      "date": "07-06-1985",
+      "start": "17:47:02"
+    },
+    {
+      "notice_id": "DA_CPB85052971",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052971/recre-a2-emission-du-08-juin-1985?rang=476",
+      "channel": "Antenne 2",
+      "date": "08-06-1985",
+      "start": "17:04:13"
+    },
+    {
+      "notice_id": "DA_CPB85051653",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051653/recre-a2-emission-du-11-juin-1985?rang=436",
+      "channel": "Antenne 2",
+      "date": "11-06-1985",
+      "start": "17:46:50"
+    },
+    {
+      "notice_id": "DA_CPB85105948",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105948/recre-a2-emission-du-16-juin-1985?rang=438",
+      "channel": "Antenne 2",
+      "date": "16-06-1985",
+      "start": "10:06:30"
+    },
+    {
+      "notice_id": "DA_CPB91005323",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005323/recre-a2-emission-du-17-juin-1985?rang=437",
+      "channel": "Antenne 2",
+      "date": "17-06-1985",
+      "start": "17:40:00"
+    },
+    {
+      "notice_id": "DA_CPB14000870",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000870/recre-a2-emission-du-21-juin-1985?rang=477",
+      "channel": "Antenne 2",
+      "date": "21-06-1985",
+      "start": "17:45:20"
+    },
+    {
       "notice_id": "DA_CPB86003607",
       "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003607/recre-a2-emission-du-22-juin-1982?rang=261",
       "channel": "Antenne 2",
       "date": "22-06-1985",
       "start": "17:02:53"
+    },
+    {
+      "notice_id": "DA_CPB85103038",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103038/recre-a2-plateau-emission-du-26-juin-1985?rang=478",
+      "channel": "Antenne 2",
+      "date": "26-06-1985",
+      "start": "10:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85103047",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103047/recre-a2-emission-du-26-juin-1985?rang=479",
+      "channel": "Antenne 2",
+      "date": "26-06-1985",
+      "start": "13:45:00"
+    },
+    {
+      "notice_id": "DA_CPB85103089",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103089/recre-a2-emission-du-30-juin-1985?rang=480",
+      "channel": "Antenne 2",
+      "date": "30-06-1985",
+      "start": "10:40:00"
+    },
+    {
+      "notice_id": "DA_CPB91005404",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005404/recre-a2-emission-du-07-juillet-1985?rang=439",
+      "channel": "Antenne 2",
+      "date": "07-07-1985",
+      "start": "10:40:00"
+    },
+    {
+      "notice_id": "DA_CPB85100008",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100008/recre-a2-emission-du-08-juillet-1985?rang=481",
+      "channel": "Antenne 2",
+      "date": "08-07-1985",
+      "start": "18:02:00"
+    },
+    {
+      "notice_id": "DA_CPB91005422",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005422/recre-a2-emission-du-09-juillet-1985?rang=482",
+      "channel": "Antenne 2",
+      "date": "09-07-1985",
+      "start": "18:01:51"
+    },
+    {
+      "notice_id": "DA_CPB91005425",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005425/recre-a2-emission-du-10-juillet-1985?rang=440",
+      "channel": "Antenne 2",
+      "date": "10-07-1985",
+      "start": "18:01:00"
+    },
+    {
+      "notice_id": "DA_CPB91005430",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005430/recre-a2-emission-du-11-juillet-1985?rang=483",
+      "channel": "Antenne 2",
+      "date": "11-07-1985",
+      "start": "18:01:00"
+    },
+    {
+      "notice_id": "DA_CPB91005451",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005451/recre-a2-emission-du-12-juillet-1985?rang=484",
+      "channel": "Antenne 2",
+      "date": "12-07-1985",
+      "start": "18:05:00"
+    },
+    {
+      "notice_id": "DA_CPB14000901",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000901/recre-a2-emission-du-15-juillet-1985?rang=291",
+      "channel": "Antenne 2",
+      "date": "15-07-1985",
+      "start": "18:46:00"
+    },
+    {
+      "notice_id": "DA_CPB86004945",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004945/recre-a2-emission-du-16-juillet-1985?rang=485",
+      "channel": "Antenne 2",
+      "date": "16-07-1985",
+      "start": "18:01:12"
+    },
+    {
+      "notice_id": "DA_CPB85103717",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103717/recre-a2-emission-du-17-juillet-1985?rang=292",
+      "channel": "Antenne 2",
+      "date": "17-07-1985",
+      "start": "18:01:38"
+    },
+    {
+      "notice_id": "DA_CPB86004936",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004936/recre-a2-emission-du-18-juillet-1985?rang=293",
+      "channel": "Antenne 2",
+      "date": "18-07-1985",
+      "start": "18:02:43"
+    },
+    {
+      "notice_id": "DA_CPB85103759",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103759/recre-a2-emission-du-21-juillet-1985?rang=295",
+      "channel": "Antenne 2",
+      "date": "21-07-1985",
+      "start": "10:46:20"
+    },
+    {
+      "notice_id": "DA_CPB85101770",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101770/recre-a2-emission-du-22-juillet-1985?rang=486",
+      "channel": "Antenne 2",
+      "date": "22-07-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85102850",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102850/recre-a2-emission-du-23-juillet-1985?rang=294",
+      "channel": "Antenne 2",
+      "date": "23-07-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85102880",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102880/recre-a2-emission-du-25-juillet-1985?rang=487",
+      "channel": "Antenne 2",
+      "date": "25-07-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB14000961",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000961/recre-a2-emission-du-21-juillet-1985?rang=488",
+      "channel": "Antenne 2",
+      "date": "28-07-1985",
+      "start": "10:46:20"
+    },
+    {
+      "notice_id": "DA_CPB85000313",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000313/recre-a2-emission-du-01-aout-1985?rang=489",
+      "channel": "Antenne 2",
+      "date": "01-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85000317",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000317/recre-a2-emission-du-02-aout-1985?rang=490",
+      "channel": "Antenne 2",
+      "date": "02-08-1985",
+      "start": "18:10:00"
+    },
+    {
+      "notice_id": "DA_CPB85100032",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100032/recre-a2-emission-du-5-aout-1985?rang=299",
+      "channel": "Antenne 2",
+      "date": "05-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB86009567",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009567/recre-a2-emission-du-6-aout-1985?rang=296",
+      "channel": "Antenne 2",
+      "date": "06-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85000296",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000296/recre-a2-emission-du-7-aout-1985?rang=297",
+      "channel": "Antenne 2",
+      "date": "07-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB86009791",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009791/recre-a2-emission-du-8-aout-1985?rang=300",
+      "channel": "Antenne 2",
+      "date": "08-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB86009826",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009826/recre-a2-emission-du-9-aout-1985?rang=491",
+      "channel": "Antenne 2",
+      "date": "09-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB98005460",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB98005460/recre-a2-emission-du-11-aout-1985?rang=298",
+      "channel": "Antenne 2",
+      "date": "11-08-1985",
+      "start": "10:40:01"
+    },
+    {
+      "notice_id": "DA_CPB91005580",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005580/recre-a2-emission-du-13-aout-1985?rang=301",
+      "channel": "Antenne 2",
+      "date": "13-08-1985",
+      "start": "18:06:00"
+    },
+    {
+      "notice_id": "DA_CPB91005588",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005588/recre-a2-emission-du-15-aout-1985?rang=303",
+      "channel": "Antenne 2",
+      "date": "15-08-1985",
+      "start": "18:07:07"
+    },
+    {
+      "notice_id": "DA_CPB91005595",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005595/recre-a2-emission-du-16-aout-1985?rang=492",
+      "channel": "Antenne 2",
+      "date": "16-08-1985",
+      "start": "18:05:07"
+    },
+    {
+      "notice_id": "DA_CPB86004814",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004814/recre-a2-emission-du-18-aout-1985?rang=302",
+      "channel": "Antenne 2",
+      "date": "18-08-1985",
+      "start": "10:40:32"
+    },
+    {
+      "notice_id": "DA_CPB85102950",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102950/recre-a2-emission-du-20-aout-1985?rang=305",
+      "channel": "Antenne 2",
+      "date": "20-08-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB86004111",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004111/recre-a2-emission-du-21-aout-1985?rang=304",
+      "channel": "Antenne 2",
+      "date": "21-08-1985",
+      "start": "17:48:40"
+    },
+    {
+      "notice_id": "DA_CPB85102906",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102906/recre-a2-emission-du-23-aout-1985?rang=493",
+      "channel": "Antenne 2",
+      "date": "23-08-1985",
+      "start": "18:04:00"
+    },
+    {
+      "notice_id": "DA_CPB85000033",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000033/recre-a2-emission-du-26-aout-1985?rang=494",
+      "channel": "Antenne 2",
+      "date": "26-08-1985",
+      "start": "18:07:32"
+    },
+    {
+      "notice_id": "DA_CPB85000141",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000141/recre-a2-emission-du-28-aout-1985?rang=306",
+      "channel": "Antenne 2",
+      "date": "28-08-1985",
+      "start": "18:06:04"
+    },
+    {
+      "notice_id": "DA_CPB85000171",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000171/recre-a2-emission-du-30-aout-1985?rang=495",
+      "channel": "Antenne 2",
+      "date": "30-08-1985",
+      "start": "18:03:27"
+    },
+    {
+      "notice_id": "DA_CPB85100041",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100041/recre-a2-emission-du-3-septembre-1985?rang=307",
+      "channel": "Antenne 2",
+      "date": "03-09-1985",
+      "start": "17:59:55"
+    },
+    {
+      "notice_id": "DA_CPB85100076",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100076/recre-a2-emission-du-4-septembre-1985?rang=496",
+      "channel": "Antenne 2",
+      "date": "04-09-1985",
+      "start": "18:06:00"
+    },
+    {
+      "notice_id": "DA_CPB85100092",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100092/recre-a2-emission-du-5-septembre-1985?rang=497",
+      "channel": "Antenne 2",
+      "date": "05-09-1985",
+      "start": "18:00:00"
+    },
+    {
+      "notice_id": "DA_CPB85100133",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100133/recre-a2-emission-du-6-septembre-1985?rang=308",
+      "channel": "Antenne 2",
+      "date": "06-09-1985",
+      "start": "18:05:21"
+    },
+    {
+      "notice_id": "DA_CPB85100169",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100169/recre-a2-emission-du-9-septembre-1985?rang=309",
+      "channel": "Antenne 2",
+      "date": "09-09-1985",
+      "start": "17:25:57"
+    },
+    {
+      "notice_id": "DA_CPB85100241",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100241/recre-a2-emission-du-10-septembre-1985?rang=498",
+      "channel": "Antenne 2",
+      "date": "10-09-1985",
+      "start": "17:30:00"
+    },
+    {
+      "notice_id": "DA_CPB85100479",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100479/recre-a2-plateau-emission-du-11-septembre-1985?rang=499",
+      "channel": "Antenne 2",
+      "date": "11-09-1985",
+      "start": "15:31:25"
+    },
+    {
+      "notice_id": "DA_CPB85100561",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100561/recre-a2-emission-du-12-septembre-1985?rang=310",
+      "channel": "Antenne 2",
+      "date": "12-09-1985",
+      "start": "17:32:25"
+    },
+    {
+      "notice_id": "DA_CPB85100623",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100623/recre-a2-emission-du-13-septembre-1985?rang=500",
+      "channel": "Antenne 2",
+      "date": "13-09-1985",
+      "start": "17:26:07"
+    },
+    {
+      "notice_id": "DA_CPB85100668",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100668/recre-a2-emission-du-14-septembre-1985?rang=311",
+      "channel": "Antenne 2",
+      "date": "14-09-1985",
+      "start": "17:57:53"
+    },
+    {
+      "notice_id": "DA_CPB85101259",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101259/recre-a2-emission-du-20-septembre-1985?rang=323",
+      "channel": "Antenne 2",
+      "date": "20-09-1985",
+      "start": "17:28:47"
+    },
+    {
+      "notice_id": "DA_CPB85101341",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101341/recre-a2-emission-du-23-septembre-1985?rang=312",
+      "channel": "Antenne 2",
+      "date": "23-09-1985",
+      "start": "17:31:53"
+    },
+    {
+      "notice_id": "DA_CPB85101519",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101519/recre-a2-emission-du-27-septembre-1985?rang=315",
+      "channel": "Antenne 2",
+      "date": "27-09-1985",
+      "start": "17:30:30"
+    },
+    {
+      "notice_id": "DA_CPB85101531",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101531/recre-a2-emission-du-28-septembre-1985?rang=314",
+      "channel": "Antenne 2",
+      "date": "28-09-1985",
+      "start": "18:02:57"
+    },
+    {
+      "notice_id": "DA_CPB85101540",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101540/recre-a2-emission-du-29-septembre-1985?rang=316",
+      "channel": "Antenne 2",
+      "date": "29-09-1985",
+      "start": "09:58:05"
+    },
+    {
+      "notice_id": "DA_CPB85102584",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102584/recre-a2-emission-du-3-octobre-1985?rang=318",
+      "channel": "Antenne 2",
+      "date": "03-10-1985",
+      "start": "17:28:40"
+    },
+    {
+      "notice_id": "DA_CPB85102629",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102629/recre-a2-emission-du-5-octobre-1985?rang=317",
+      "channel": "Antenne 2",
+      "date": "05-10-1985",
+      "start": "17:59:53"
+    },
+    {
+      "notice_id": "DA_CPB85102666",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102666/recre-a2-emission-du-8-octobre-1985?rang=331",
+      "channel": "Antenne 2",
+      "date": "08-10-1985",
+      "start": "17:28:07"
+    },
+    {
+      "notice_id": "DA_CPB85102846",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102846/recre-a2-emission-du-12-octobre-1985?rang=327",
+      "channel": "Antenne 2",
+      "date": "12-10-1985",
+      "start": "18:04:55"
+    },
+    {
+      "notice_id": "DA_CPB85103131",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103131/recre-a2-emission-du-14-octobre-1985?rang=328",
+      "channel": "Antenne 2",
+      "date": "14-10-1985",
+      "start": "17:30:00"
+    },
+    {
+      "notice_id": "DA_CPB85103355",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103355/recre-a2-emission-du-17-octobre-1985?rang=338",
+      "channel": "Antenne 2",
+      "date": "17-10-1985",
+      "start": "17:27:31"
+    },
+    {
+      "notice_id": "DA_CPB85103680",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103680/recre-a2-emission-du-19-octobre-1985?rang=336",
+      "channel": "Antenne 2",
+      "date": "19-10-1985",
+      "start": "18:02:35"
+    },
+    {
+      "notice_id": "DA_CPB85103214",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103214/recre-a2-emission-du-20-octobre-1985?rang=337",
+      "channel": "Antenne 2",
+      "date": "20-10-1985",
+      "start": "10:00:31"
+    },
+    {
+      "notice_id": "DA_CPB85104316",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104316/recre-a2-emission-du-10-novembre-1985?rang=351",
+      "channel": "Antenne 2",
+      "date": "10-11-1985",
+      "start": "10:02:30"
+    },
+    {
+      "notice_id": "DA_CPB85104530",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104530/recre-a2-emission-du-14-novembre-1985?rang=353",
+      "channel": "Antenne 2",
+      "date": "14-11-1985",
+      "start": "17:28:07"
+    },
+    {
+      "notice_id": "DA_CPB85104892",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104892/recre-a2-emission-du-19-novembre-1985?rang=356",
+      "channel": "Antenne 2",
+      "date": "19-11-1985",
+      "start": "17:26:56"
+    },
+    {
+      "notice_id": "DA_CPB85105079",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105079/recre-a2-emission-du-26-novembre-1985?rang=357",
+      "channel": "Antenne 2",
+      "date": "26-11-1985",
+      "start": "17:24:47"
+    },
+    {
+      "notice_id": "DA_CPB85105058",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105058/recre-a2-emission-du-29-novembre-1985?rang=361",
+      "channel": "Antenne 2",
+      "date": "29-11-1985",
+      "start": "17:29:35"
+    },
+    {
+      "notice_id": "DA_CPB85105055",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105055/recre-a2-emission-du-30-novembre-1985?rang=359",
+      "channel": "Antenne 2",
+      "date": "30-11-1985",
+      "start": "17:59:30"
+    },
+    {
+      "notice_id": "DA_CPB85105042",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105042/recre-a2-emission-du-1er-decembre-1985?rang=360",
+      "channel": "Antenne 2",
+      "date": "01-12-1985",
+      "start": "09:59:50"
+    },
+    {
+      "notice_id": "DA_CPB85105259",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105259/recre-a2-emission-du-03-decembre-1985?rang=358",
+      "channel": "Antenne 2",
+      "date": "03-12-1985",
+      "start": "17:25:32"
+    },
+    {
+      "notice_id": "DA_CPB85105263",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105263/recre-a2-emission-du-7-decembre-1985?rang=362",
+      "channel": "Antenne 2",
+      "date": "07-12-1985",
+      "start": "18:05:53"
+    },
+    {
+      "notice_id": "DA_CPB85105635",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105635/recre-a2-emission-du-13-decembre-1985?rang=363",
+      "channel": "Antenne 2",
+      "date": "13-12-1985",
+      "start": "17:27:40"
+    },
+    {
+      "notice_id": "DA_CPB85105779",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105779/recre-a2-emission-du-14-decembre-1985?rang=364",
+      "channel": "Antenne 2",
+      "date": "14-12-1985",
+      "start": "18:01:33"
+    },
+    {
+      "notice_id": "DA_CPB85105636",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105636/recre-a2-emission-du-15-decembre-1985?rang=365",
+      "channel": "Antenne 2",
+      "date": "15-12-1985",
+      "start": "09:59:22"
+    },
+    {
+      "notice_id": "DA_CPB85105638",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105638/recre-a2-emission-du-17-decembre-1985?rang=367",
+      "channel": "Antenne 2",
+      "date": "17-12-1985",
+      "start": "17:21:26"
+    },
+    {
+      "notice_id": "DA_CPB85106615",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106615/recre-a2-emission-du-18-decembre-1985?rang=366",
+      "channel": "Antenne 2",
+      "date": "18-12-1985",
+      "start": "09:14:29"
+    },
+    {
+      "notice_id": "DA_CPB85106704",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106704/recre-a2-emission-du-27-decembre-1985?rang=368",
+      "channel": "Antenne 2",
+      "date": "27-12-1985",
+      "start": "17:29:27"
+    },
+    {
+      "notice_id": "DA_CPB85106705",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106705/recre-a2-plateau-emission-du-28-decembre-1985?rang=370",
+      "channel": "Antenne 2",
+      "date": "28-12-1985",
+      "start": "18:03:27"
+    },
+    {
+      "notice_id": "DA_CPB86000049",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000049/recre-a2-emission-du-31-decembre-1985?rang=371",
+      "channel": "Antenne 2",
+      "date": "31-12-1985",
+      "start": "17:29:39"
     }
   ]
 }
