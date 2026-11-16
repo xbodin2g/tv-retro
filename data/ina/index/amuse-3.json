@@ -1,7 +1,43 @@
 {
   "program": "Amuse 3",
   "slug": "amuse-3",
-  "harvested_at": "2026-11-16T19:20:36.420036",
-  "count": 0,
-  "notices": []
+  "harvested_at": "2026-11-16T19:45:00.050008",
+  "count": 5,
+  "notices": [
+    {
+      "notice_id": "DA_CPC90006894",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC90006894/presentation-amuse-3-du-7-janvier-1990?rang=5",
+      "channel": "FR3",
+      "date": "07-01-1990",
+      "start": "17:35:00"
+    },
+    {
+      "notice_id": "DA_CPC90006897",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC90006897/presentation-amuse-3-du-14-janvier-1990?rang=1",
+      "channel": "FR3",
+      "date": "14-01-1990",
+      "start": "17:35:00"
+    },
+    {
+      "notice_id": "DA_CPC90006900",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC90006900/presentation-amuse-3-du-21-janvier-1990?rang=2",
+      "channel": "FR3",
+      "date": "21-01-1990",
+      "start": "17:38:00"
+    },
+    {
+      "notice_id": "DA_CPC90007150",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC90007150/presentation-amuse-3-du-28-juillet-1990?rang=3",
+      "channel": "FR3",
+      "date": "28-01-1990",
+      "start": "17:32:00"
+    },
+    {
+      "notice_id": "DA_CPC91009143",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC91009143/amuse-3-presentation-du-18-fevrier-1990?rang=4",
+      "channel": "FR3",
+      "date": "18-02-1990",
+      "start": "17:58:00"
+    }
+  ]
 }
