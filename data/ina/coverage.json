@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:00:05.729689",
+  "generated_at": "2026-11-16T10:23:48.012631",
   "parser_version": 5,
   "global_avg": 227,
   "programs": [
@@ -1762,7 +1762,7 @@
       "priority": 2,
       "from": 1987,
       "to": 1996,
-      "harvested_at": "2026-11-16T09:45:01.052239",
+      "harvested_at": "2026-11-16T10:06:46.265663",
       "years": [
         {
           "year": 1987,
@@ -1778,7 +1778,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1988,
@@ -1794,7 +1794,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1989,
@@ -1810,7 +1810,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1990,
@@ -1830,19 +1830,19 @@
         },
         {
           "year": 1991,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 235,
+          "cached": 235,
+          "current": 235,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 205,
+          "empty": 30,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "coverage": 0.0,
+          "elements": 554,
+          "days": 205,
           "sample": [],
-          "virgin": true,
-          "estimate": 211
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1992,
@@ -1858,7 +1858,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1993,
@@ -1874,7 +1874,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1994,
@@ -1890,7 +1890,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1995,
@@ -1906,7 +1906,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         },
         {
           "year": 1996,
@@ -1922,22 +1922,22 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 211
+          "estimate": 223
         }
       ],
       "totals": {
-        "indexed": 211,
-        "cached": 211,
-        "current": 211,
+        "indexed": 446,
+        "cached": 446,
+        "current": 446,
         "outdated": 0,
-        "with_elements": 194,
-        "empty": 17,
+        "with_elements": 399,
+        "empty": 47,
         "remaining": 0,
-        "elements": 557,
-        "days": 194,
+        "elements": 1111,
+        "days": 399,
         "coverage": 100.0,
-        "virgin": 9,
-        "estimate": 1899
+        "virgin": 8,
+        "estimate": 1784
       }
     },
     {
@@ -5216,18 +5216,18 @@
   ],
   "orphans": [],
   "totals": {
-    "indexed": 7248,
-    "cached": 7246,
-    "current": 7246,
+    "indexed": 7483,
+    "cached": 7481,
+    "current": 7481,
     "outdated": 0,
-    "with_elements": 4718,
-    "empty": 2528,
+    "with_elements": 4923,
+    "empty": 2558,
     "remaining": 2,
-    "elements": 19802,
-    "days": 4179,
+    "elements": 20356,
+    "days": 4384,
     "coverage": 100.0,
-    "virgin": 240,
-    "estimate": 54822
+    "virgin": 239,
+    "estimate": 54707
   },
   "queue": [
     {
@@ -5492,7 +5492,7 @@
     {
       "program": "Giga",
       "year": 1987,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5520,7 +5520,7 @@
     {
       "program": "Giga",
       "year": 1988,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5555,7 +5555,7 @@
     {
       "program": "Giga",
       "year": 1989,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5616,13 +5616,6 @@
       "priority": 2
     },
     {
-      "program": "Giga",
-      "year": 1991,
-      "remaining": 211,
-      "virgin": true,
-      "priority": 2
-    },
-    {
       "program": "Ça cartoon",
       "year": 1991,
       "remaining": 227,
@@ -5653,7 +5646,7 @@
     {
       "program": "Giga",
       "year": 1992,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5681,7 +5674,7 @@
     {
       "program": "Giga",
       "year": 1993,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5709,7 +5702,7 @@
     {
       "program": "Giga",
       "year": 1994,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5737,7 +5730,7 @@
     {
       "program": "Giga",
       "year": 1995,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -5765,7 +5758,7 @@
     {
       "program": "Giga",
       "year": 1996,
-      "remaining": 211,
+      "remaining": 223,
       "virgin": true,
       "priority": 2
     },
@@ -6927,10 +6920,10 @@
   ],
   "health": {
     "outdated": 0,
-    "virgin": 240,
+    "virgin": 239,
     "orphans": 0,
     "advice": [
-      "240 couple(s) émission × année jamais indexés : volume estimé 54822 notices."
+      "239 couple(s) émission × année jamais indexés : volume estimé 54707 notices."
     ]
   }
 }

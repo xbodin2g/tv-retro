@@ -1,16 +1,16 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 10:00:05 — parser v5_
+_Généré le 2026-11-16 à 10:23:48 — parser v5_
 
 > Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
 > En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
 
 ## Total
 
-- Cibles jamais indexées : **240** (≈ 54822 notices estimées)
-- Indexées : **7248** · En cache : **7246** (100.0 %)
-- Avec œuvres : **4718** · sans œuvre : 2528
-- Œuvres relevées : **19802** · reste connu : **2**
+- Cibles jamais indexées : **239** (≈ 54707 notices estimées)
+- Indexées : **7483** · En cache : **7481** (100.0 %)
+- Avec œuvres : **4923** · sans œuvre : 2558
+- Œuvres relevées : **20356** · reste connu : **2**
 
 ## Par émission
 
@@ -20,7 +20,7 @@ _Généré le 2026-11-16 à 10:00:05 — parser v5_
 | Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
 | Récré A2 | Antenne 2 | 1978→1987 | 0 | 2076 | 2074 | 1914 | 2 | 99.9 % |
 | Cabou Cadin | Canal+ | 1985→1993 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
-| Giga | Antenne 2 | 1987→1996 | 9 | 211 | 211 | 194 | 0 | 100.0 % |
+| Giga | Antenne 2 | 1987→1996 | 8 | 446 | 446 | 399 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Minikeums | France 3 | 1993→1999 | 7 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -245,16 +245,16 @@ _Généré le 2026-11-16 à 10:00:05 — parser v5_
 
 | Année | État | Indexées | Cache | Œuvrées | Reste | Estimation |
 |---|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1988 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1989 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
 | 1990 | complet | 211 | 211 | 194 | 0 | — |
-| 1991 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
-| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1991 | complet | 235 | 235 | 205 | 0 | — |
+| 1992 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1993 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1994 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1995 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
+| 1996 | jamais indexé | 0 | 0 | 0 | 0 | 223 |
 
 ### Graffi'6
 
