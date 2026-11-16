@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 19:20:38 — parser v5_
+_Généré le 2026-11-16 à 19:22:37 — parser v5_
 
 > Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
 > En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
@@ -8,9 +8,9 @@ _Généré le 2026-11-16 à 19:20:38 — parser v5_
 ## Total
 
 - Cibles jamais indexées : **236** (≈ 53783 notices estimées)
-- Indexées : **8123** · En cache : **8121** (100.0 %)
-- Avec œuvres : **5506** · sans œuvre : 2615
-- Œuvres relevées : **22099** · reste connu : **2**
+- Indexées : **8124** · En cache : **8123** (100.0 %)
+- Avec œuvres : **5506** · sans œuvre : 2617
+- Œuvres relevées : **22099** · reste connu : **1**
 
 ## Par émission
 
@@ -18,7 +18,7 @@ _Généré le 2026-11-16 à 19:20:38 — parser v5_
 |---|---|---|---:|---:|---:|---:|---:|---:|
 | Amuse 3 | FR3 | 1985→1997 | 13 | 0 | 0 | 0 | 0 | 0.0 % |
 | Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
-| Récré A2 | Antenne 2 | 1978→1987 | 0 | 2076 | 2074 | 1914 | 2 | 99.9 % |
+| Récré A2 | Antenne 2 | 1978→1987 | 0 | 2077 | 2076 | 1914 | 1 | 100.0 % |
 | Cabou Cadin | Canal+ | 1985→1993 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
 | Giga | Antenne 2 | 1987→1996 | 5 | 1086 | 1086 | 982 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -392,7 +392,7 @@ _Généré le 2026-11-16 à 19:20:38 — parser v5_
 | 1985 | complet | 208 | 208 | 192 | 0 | — |
 | 1986 | complet | 285 | 285 | 239 | 0 | — |
 | 1987 | complet | 14 | 14 | 4 | 0 | — |
-| 1988 | en cours | 1 | 0 | 0 | 1 | — |
+| 1988 | complet | 2 | 2 | 0 | 0 | — |
 
 ### Salut les Musclés
 
@@ -544,4 +544,3 @@ _Généré le 2026-11-16 à 19:20:38 — parser v5_
 | Émission | Année | Reste | Runs à 400 |
 |---|---|---:|---:|
 | Récré A2 | 1980 | 1 | 1 |
-| Récré A2 | 1988 | 1 | 1 |

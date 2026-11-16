@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T19:20:38.129742",
+  "generated_at": "2026-11-16T19:22:37.769042",
   "parser_version": 5,
   "global_avg": 226,
   "programs": [
@@ -211,7 +211,7 @@
       "priority": 1,
       "from": 1978,
       "to": 1987,
-      "harvested_at": "2026-11-16T09:41:13.570261",
+      "harvested_at": "2026-11-16T19:22:28.007449",
       "years": [
         {
           "year": 1978,
@@ -377,35 +377,33 @@
         },
         {
           "year": 1988,
-          "indexed": 1,
-          "cached": 0,
-          "current": 0,
+          "indexed": 2,
+          "cached": 2,
+          "current": 2,
           "outdated": 0,
           "with_elements": 0,
-          "empty": 0,
-          "remaining": 1,
+          "empty": 2,
+          "remaining": 0,
           "elements": 0,
           "days": 0,
-          "sample": [
-            "DA_CPB87007930"
-          ],
-          "coverage": 0.0,
+          "sample": [],
+          "coverage": 100.0,
           "virgin": false,
           "estimate": 0,
           "out_of_range": true
         }
       ],
       "totals": {
-        "indexed": 2076,
-        "cached": 2074,
-        "current": 2074,
+        "indexed": 2077,
+        "cached": 2076,
+        "current": 2076,
         "outdated": 0,
         "with_elements": 1914,
-        "empty": 160,
-        "remaining": 2,
+        "empty": 162,
+        "remaining": 1,
         "elements": 9233,
         "days": 1891,
-        "coverage": 99.9,
+        "coverage": 100.0,
         "virgin": 0,
         "estimate": 0
       }
@@ -5216,13 +5214,13 @@
   ],
   "orphans": [],
   "totals": {
-    "indexed": 8123,
-    "cached": 8121,
-    "current": 8121,
+    "indexed": 8124,
+    "cached": 8123,
+    "current": 8123,
     "outdated": 0,
     "with_elements": 5506,
-    "empty": 2615,
-    "remaining": 2,
+    "empty": 2617,
+    "remaining": 1,
     "elements": 22099,
     "days": 4967,
     "coverage": 100.0,
@@ -5233,12 +5231,6 @@
     {
       "program": "Récré A2",
       "year": 1980,
-      "remaining": 1,
-      "virgin": false
-    },
-    {
-      "program": "Récré A2",
-      "year": 1988,
       "remaining": 1,
       "virgin": false
     }
