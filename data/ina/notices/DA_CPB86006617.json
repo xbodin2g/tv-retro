@@ -1,0 +1,30 @@
+{
+  "notice_id": "DA_CPB86006617",
+  "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006617/recre-a2-emission-du-10-avril-1986?rang=189",
+  "source": "ina",
+  "parser_version": 5,
+  "scraped_at": "2026-11-16T09:03:26.631713",
+  "program_query": "Récré A2",
+  "programme": "Récré\nA2",
+  "base": "Archives TV Pro",
+  "channel": "Antenne 2",
+  "date": "10-04-1986",
+  "start": "17:34",
+  "elements_field": "Résumé documentaire",
+  "titles_raw": [
+    "François et Valérie présentent l'émission composée aujourd'hui des séquences suivantes :",
+    "\"Téléchat \"",
+    "\"IMAGE IMAGINE\"",
+    "\"MES MAINS ONT LA PAROLE \"",
+    "\"LATULU ET LIRELI\"",
+    "\"PAC -MAN \"(achat)"
+  ],
+  "elements": [
+    "François et Valérie présentent l'émission composée aujourd'hui des séquences suivantes",
+    "\"Téléchat \"",
+    "\"IMAGE IMAGINE\"",
+    "Mes mains ont la parole",
+    "\"LATULU ET LIRELI\"",
+    "\"PAC -MAN \"(achat)"
+  ]
+}
