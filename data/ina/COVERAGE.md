@@ -1,16 +1,16 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-16 à 06:35:57 — parser v5_
+_Généré le 2026-11-16 à 06:57:50 — parser v5_
 
 > Le tableau liste **toutes les cibles** du registre `targets.json`, y compris non commencées.
 > En cache = le fichier de la notice existe. `?` = jamais indexé, volume estimé.
 
 ## Total
 
-- Cibles jamais indexées : **248** (≈ 63373 notices estimées)
-- Indexées : **5548** · En cache : **5548** (100.0 %)
-- Avec œuvres : **3170** · sans œuvre : 2378
-- Œuvres relevées : **12674** · reste connu : **0**
+- Cibles jamais indexées : **247** (≈ 63274 notices estimées)
+- Indexées : **5808** · En cache : **5807** (100.0 %)
+- Avec œuvres : **3410** · sans œuvre : 2397
+- Œuvres relevées : **13815** · reste connu : **1**
 
 ## Par émission
 
@@ -18,7 +18,7 @@ _Généré le 2026-11-16 à 06:35:57 — parser v5_
 |---|---|---|---:|---:|---:|---:|---:|---:|
 | Amuse 3 | FR3 | 1985→1997 | 13 | 0 | 0 | 0 | 0 | 0.0 % |
 | Club Dorothée | TF1 | 1987→1997 | 3 | 2468 | 2468 | 1294 | 0 | 100.0 % |
-| Récré A2 | Antenne 2 | 1978→1987 | 7 | 587 | 587 | 560 | 0 | 100.0 % |
+| Récré A2 | Antenne 2 | 1978→1987 | 6 | 847 | 846 | 800 | 1 | 99.9 % |
 | Cabou Cadin | Canal+ | 1985→1993 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
 | Giga | Antenne 2 | 1987→1996 | 10 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | 9 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -384,14 +384,14 @@ _Généré le 2026-11-16 à 06:35:57 — parser v5_
 |---|---|---:|---:|---:|---:|---:|
 | 1978 | complet | 98 | 98 | 94 | 0 | — |
 | 1979 | complet | 231 | 231 | 216 | 0 | — |
-| 1980 | complet | 258 | 258 | 250 | 0 | — |
-| 1981 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
-| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 195 |
+| 1980 | en cours | 259 | 258 | 250 | 1 | — |
+| 1981 | complet | 259 | 259 | 240 | 0 | — |
+| 1982 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1983 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1984 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1985 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1986 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
+| 1987 | jamais indexé | 0 | 0 | 0 | 0 | 211 |
 
 ### Salut les Musclés
 
@@ -507,15 +507,14 @@ _Généré le 2026-11-16 à 06:35:57 — parser v5_
 
 | Émission | Année | Volume estimé |
 |---|---|---:|
-| Récré A2 | 1981 | 195 |
-| Récré A2 | 1982 | 195 |
-| Récré A2 | 1983 | 195 |
-| Récré A2 | 1984 | 195 |
-| Récré A2 | 1985 | 195 |
+| Récré A2 | 1982 | 211 |
+| Récré A2 | 1983 | 211 |
+| Récré A2 | 1984 | 211 |
+| Récré A2 | 1985 | 211 |
 | Amuse 3 | 1985 | 256 |
-| Récré A2 | 1986 | 195 |
+| Récré A2 | 1986 | 211 |
 | Amuse 3 | 1986 | 256 |
-| Récré A2 | 1987 | 195 |
+| Récré A2 | 1987 | 211 |
 | Amuse 3 | 1987 | 256 |
 | Amuse 3 | 1988 | 256 |
 | Amuse 3 | 1989 | 256 |
@@ -537,3 +536,10 @@ _Généré le 2026-11-16 à 06:35:57 — parser v5_
 | Les Visiteurs du mercredi | 1979 | 256 |
 | Les Visiteurs du mercredi | 1980 | 256 |
 | Les Visiteurs du mercredi | 1981 | 256 |
+| Les Visiteurs du mercredi | 1982 | 256 |
+
+## Complétions conseillées
+
+| Émission | Année | Reste | Runs à 400 |
+|---|---|---:|---:|
+| Récré A2 | 1980 | 1 | 1 |

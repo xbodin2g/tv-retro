@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:35:57.507792",
+  "generated_at": "2026-11-16T06:57:50.606006",
   "parser_version": 5,
   "global_avg": 256,
   "programs": [
@@ -211,7 +211,7 @@
       "priority": 1,
       "from": 1978,
       "to": 1987,
-      "harvested_at": "2026-11-16T06:16:18.693966",
+      "harvested_at": "2026-11-16T06:38:46.125219",
       "years": [
         {
           "year": 1978,
@@ -247,35 +247,37 @@
         },
         {
           "year": 1980,
-          "indexed": 258,
+          "indexed": 259,
           "cached": 258,
           "current": 258,
           "outdated": 0,
           "with_elements": 250,
           "empty": 8,
-          "remaining": 0,
+          "remaining": 1,
           "elements": 1262,
           "days": 246,
-          "sample": [],
-          "coverage": 100.0,
+          "sample": [
+            "DA_CPB90014778"
+          ],
+          "coverage": 99.6,
           "virgin": false,
           "estimate": 0
         },
         {
           "year": 1981,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 259,
+          "cached": 259,
+          "current": 259,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 240,
+          "empty": 19,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "coverage": 0.0,
+          "elements": 1141,
+          "days": 239,
           "sample": [],
-          "virgin": true,
-          "estimate": 195
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1982,
@@ -291,7 +293,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         },
         {
           "year": 1983,
@@ -307,7 +309,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         },
         {
           "year": 1984,
@@ -323,7 +325,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         },
         {
           "year": 1985,
@@ -339,7 +341,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         },
         {
           "year": 1986,
@@ -355,7 +357,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         },
         {
           "year": 1987,
@@ -371,22 +373,22 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 195
+          "estimate": 211
         }
       ],
       "totals": {
-        "indexed": 587,
-        "cached": 587,
-        "current": 587,
+        "indexed": 847,
+        "cached": 846,
+        "current": 846,
         "outdated": 0,
-        "with_elements": 560,
-        "empty": 27,
-        "remaining": 0,
-        "elements": 2662,
-        "days": 555,
-        "coverage": 100.0,
-        "virgin": 7,
-        "estimate": 1365
+        "with_elements": 800,
+        "empty": 46,
+        "remaining": 1,
+        "elements": 3803,
+        "days": 794,
+        "coverage": 99.9,
+        "virgin": 6,
+        "estimate": 1266
       }
     },
     {
@@ -5195,53 +5197,53 @@
   ],
   "orphans": [],
   "totals": {
-    "indexed": 5548,
-    "cached": 5548,
-    "current": 5548,
+    "indexed": 5808,
+    "cached": 5807,
+    "current": 5807,
     "outdated": 0,
-    "with_elements": 3170,
-    "empty": 2378,
-    "remaining": 0,
-    "elements": 12674,
-    "days": 2649,
+    "with_elements": 3410,
+    "empty": 2397,
+    "remaining": 1,
+    "elements": 13815,
+    "days": 2888,
     "coverage": 100.0,
-    "virgin": 248,
-    "estimate": 63373
+    "virgin": 247,
+    "estimate": 63274
   },
-  "queue": [],
+  "queue": [
+    {
+      "program": "Récré A2",
+      "year": 1980,
+      "remaining": 1,
+      "virgin": false
+    }
+  ],
   "frontier": [
     {
       "program": "Récré A2",
-      "year": 1981,
-      "remaining": 195,
-      "virgin": true,
-      "priority": 1
-    },
-    {
-      "program": "Récré A2",
       "year": 1982,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
     {
       "program": "Récré A2",
       "year": 1983,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
     {
       "program": "Récré A2",
       "year": 1984,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
     {
       "program": "Récré A2",
       "year": 1985,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
@@ -5255,7 +5257,7 @@
     {
       "program": "Récré A2",
       "year": 1986,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
@@ -5269,7 +5271,7 @@
     {
       "program": "Récré A2",
       "year": 1987,
-      "remaining": 195,
+      "remaining": 211,
       "virgin": true,
       "priority": 1
     },
@@ -6949,10 +6951,10 @@
   ],
   "health": {
     "outdated": 0,
-    "virgin": 248,
+    "virgin": 247,
     "orphans": 0,
     "advice": [
-      "248 couple(s) émission × année jamais indexés : volume estimé 63373 notices."
+      "247 couple(s) émission × année jamais indexés : volume estimé 63274 notices."
     ]
   }
 }
