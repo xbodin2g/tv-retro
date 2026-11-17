@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-17 à 07:00:11 — parser v9 · fetch=auto_
+_Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
 
 > INA n'est pas structuré uniformément : le nom de l'émission est tantôt dans le **titre propre**,
 > tantôt dans la colonne **Titre programme**, tantôt dans les deux. **A** et **B** sont cumulées,
@@ -474,12 +474,10 @@ _Généré le 2026-11-17 à 07:00:11 — parser v9 · fetch=auto_
 |---|---:|---:|---:|---:|---:|---:|---|
 | `B/ch=FR3` | 660 | 661 | 660 | 0 | 0 | 660 | paginé via page · 660/661 |
 | `B/ch=France 3` | 44 | 44 | 44 | 0 | 0 | 44 | complet |
-| `A/1987/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1987/v1` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1987/v2` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1987/v3` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `C/FR3/1987` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `C/France 3/1987` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1989/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1989/v1` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1989/v2` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1989/v3` | 0 | — | 0 | 0 | 0 | 0 |  |
 
 </details>
 
