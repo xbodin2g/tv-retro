@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "① ACTION — all = moisson | probe = diagnostic requêtes (0 écriture) | targets | report-only | diagnose | rebuild | index-only | notices-only"
+        description: "① ACTION — all = moisson | probe = diagnostic (0 écriture) | targets | report-only | diagnose | rebuild | index-only | notices-only"
         type: choice
         default: all
         options: [all, probe, targets, report-only, diagnose, rebuild, index-only, notices-only]
@@ -55,29 +55,34 @@ on:
         default: ""
         options: ["", "Antenne 2", "FR3", "France 3", "TF1", "France 2", "Canal+", "La Cinq", "M6", "TV6", "La Sept", "Arte", "La Cinquième", "ORTF 1", "ORTF 2", "ORTF 3"]
       strategies:
-        description: "⑤ MÉTHODES — both = A ∪ B ∪ C, ne jamais remplacer l'une par l'autre"
+        description: "⑤ MÉTHODES — both = A ∪ B ∪ C. Ne jamais remplacer l'une par l'autre"
         type: choice
         default: both
         options: [both, channel, legacy, hybrid]
       match:
-        description: "⑥ CORRESPONDANCE — any = colonne Titre programme OU titre propre (recommandé)"
+        description: "⑥ CORRESPONDANCE — any = colonne Titre programme OU titre propre"
         type: choice
         default: any
         options: [any, programme, title, both]
+      fetch:
+        description: "⑦ TÉLÉCHARGEMENT — auto = seulement ce que la liste n'apprend pas (recommandé)"
+        type: choice
+        default: auto
+        options: [auto, mothers, all, none]
       year:
-        description: "⑦ ANNÉE — 'toutes' balaye la plage de l'émission"
+        description: "⑧ ANNÉE — 'toutes' balaye la plage from→to de l'émission"
         type: choice
         default: "toutes"
         options: ["toutes","1989","1988","1987","1990","1991","1992","1993","1994","1995","1996","1997","1998","1999","1986","1985","1984","1983","1982","1981","1980","1979","1978","1977","1976","1975","1974","1973","1972","1971","1970"]
       max_notices:
-        description: "⑧ NOTICES MAX ce run — 0 = illimité. Les lignes sans lien ne consomment rien"
+        description: "⑨ NOTICES MAX ce run — 0 = illimité"
         type: choice
         default: "400"
         options: ["400","200","600","1000","0"]
-      allow_all: {description: "⑨ Tout accepter sans filtre d'appartenance (debug)", type: boolean, default: false}
-      retry_empty: {description: "⑩ Retenter les notices sans œuvre", type: boolean, default: false}
-      refresh_stale: {description: "⑪ Re-télécharger les anciennes versions", type: boolean, default: false}
-      origin: {description: "⑫ ORIGINE — manual | dashboard | diagnostic", type: string, default: manual}
+      all_years: {description: "⑩ Garder les entrées hors plage from→to", type: boolean, default: false}
+      allow_all: {description: "⑪ Tout accepter sans filtre d'appartenance (debug)", type: boolean, default: false}
+      retry_empty: {description: "⑫ Retenter les notices sans œuvre", type: boolean, default: false}
+      origin: {description: "⑬ ORIGINE — manual | dashboard | diagnostic", type: string, default: manual}
 
 concurrency: {group: ina-enrich, cancel-in-progress: false}
 permissions: {contents: write}
@@ -101,32 +106,34 @@ jobs:
           CH: ${{ github.event.inputs.channel }}
           ST: ${{ github.event.inputs.strategies }}
           MA: ${{ github.event.inputs.match }}
+          FE: ${{ github.event.inputs.fetch }}
           Y: ${{ github.event.inputs.year }}
           N: ${{ github.event.inputs.max_notices }}
+          AY: ${{ github.event.inputs.all_years }}
           AA: ${{ github.event.inputs.allow_all }}
           RE: ${{ github.event.inputs.retry_empty }}
-          RS: ${{ github.event.inputs.refresh_stale }}
         run: |
           PROGRAM="$P"; [ -n "$C" ] && PROGRAM="$C"
           case "$M" in
-            targets)     ARGS=(--targets-only) ;;
-            report-only) ARGS=(--report-only) ;;
+            targets)     ARGS=(--targets-only --fetch "$FE") ;;
+            report-only) ARGS=(--report-only --fetch "$FE") ;;
             diagnose)    ARGS=(--diagnose --program "$PROGRAM") ;;
-            rebuild)     ARGS=(--rebuild --program "$PROGRAM") ;;
-            probe)       ARGS=(--probe --program "$PROGRAM" --strategies "$ST" --match "$MA" --delay 3.0)
-                         [ -n "$CH" ] && ARGS+=(--channel "$CH") ;;
+            rebuild)     ARGS=(--rebuild --program "$PROGRAM" --fetch "$FE") ;;
+            probe)       ARGS=(--probe --program "$PROGRAM" --strategies "$ST" --match "$MA" --fetch "$FE" --delay 3.0)
+                         [ -n "$CH" ] && ARGS+=(--channel "$CH")
+                         [ "$AY" = "true" ] && ARGS+=(--all-years) ;;
             *)
-              ARGS=(--program "$PROGRAM" --max-notices "$N" --delay 3.0 --strategies "$ST" --match "$MA")
+              ARGS=(--program "$PROGRAM" --max-notices "$N" --delay 3.0 --strategies "$ST" --match "$MA" --fetch "$FE")
               [ -n "$CH" ] && ARGS+=(--channel "$CH")
               [ "$M" = "index-only" ] && ARGS+=(--index-only)
               [ "$M" = "notices-only" ] && ARGS+=(--notices-only)
+              [ "$AY" = "true" ] && ARGS+=(--all-years)
               [ "$AA" = "true" ] && ARGS+=(--allow-all)
               [ "$RE" = "true" ] && ARGS+=(--retry-empty)
-              [ "$RS" = "true" ] && ARGS+=(--refresh-stale)
               ;;
           esac
           case "$M" in targets|report-only) ;; *) [ "$Y" != "toutes" ] && ARGS+=(--year "$Y") ;; esac
-          printf '%s\n' "─────────────────────────────" "Action : $M" "Émission : $PROGRAM" "Chaîne : ${CH:-registre}" "Méthodes : $ST" "Match : $MA" "Année : $Y" "Max : $N" "─────────────────────────────"
+          printf '%s\n' "─────────────────────────────" "Action : $M" "Émission : $PROGRAM" "Chaîne : ${CH:-registre}" "Méthodes : $ST" "Match : $MA" "Fetch : $FE" "Année : $Y" "Max : $N" "─────────────────────────────"
           python scraper/ina_catalogue_scraper.py "${ARGS[@]}"
       - name: 💾 Commit
         run: |
