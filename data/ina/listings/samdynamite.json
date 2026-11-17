@@ -2,7 +2,7 @@
   "program": "Samdynamite",
   "slug": "samdynamite",
   "channel": "FR3",
-  "updated_at": "2026-11-17T07:08:11.102486",
+  "updated_at": "2026-11-17T07:29:42.990087",
   "parser_version": 9,
   "match_mode": "any",
   "fetch_mode": "auto",
@@ -12,6 +12,7 @@
   ],
   "dropped_out_of_range": 33,
   "methods": [
+    "A",
     "B"
   ],
   "discovery": [
@@ -64,9 +65,9 @@
       }
     },
     {
-      "method": "A/1989/v0",
+      "method": "A/global/v0",
       "letter": "A",
-      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1989",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=Samdynamite",
       "found": 0,
       "total": null,
       "note": "",
@@ -79,9 +80,57 @@
       "columns": {}
     },
     {
-      "method": "A/1989/v1",
+      "method": "A/global/v1",
       "letter": "A",
-      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22&ti=1989",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22",
+      "found": 704,
+      "total": 705,
+      "note": "paginé via page · 704/705",
+      "by_programme": 704,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 704,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {
+        "chaine": 1,
+        "date": 2,
+        "start": 3,
+        "duration": 4,
+        "title": 5,
+        "collection": 6,
+        "programme": 7,
+        "genre": 8
+      }
+    },
+    {
+      "method": "A/global/v2",
+      "letter": "A",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite",
+      "found": 1,
+      "total": 1,
+      "note": "complet",
+      "by_programme": 0,
+      "by_title": 1,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 1,
+      "columns": {
+        "chaine": 1,
+        "date": 2,
+        "start": 3,
+        "duration": 4,
+        "title": 5,
+        "collection": 6,
+        "programme": 7,
+        "genre": 8
+      }
+    },
+    {
+      "method": "A/1987/v0",
+      "letter": "A",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1987",
       "found": 0,
       "total": null,
       "note": "",
@@ -94,9 +143,9 @@
       "columns": {}
     },
     {
-      "method": "A/1989/v2",
+      "method": "A/1987/v2",
       "letter": "A",
-      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1989",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1987",
       "found": 0,
       "total": null,
       "note": "",
@@ -109,9 +158,84 @@
       "columns": {}
     },
     {
-      "method": "A/1989/v3",
+      "method": "A/1988/v0",
       "letter": "A",
-      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&tiprog=Samdynamite&ti=1989",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1988",
+      "found": 0,
+      "total": null,
+      "note": "",
+      "by_programme": 0,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {}
+    },
+    {
+      "method": "A/1988/v2",
+      "letter": "A",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1988",
+      "found": 0,
+      "total": null,
+      "note": "",
+      "by_programme": 0,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {}
+    },
+    {
+      "method": "C/FR3/1987",
+      "letter": "C",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+      "found": 0,
+      "total": null,
+      "note": "",
+      "by_programme": 0,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {}
+    },
+    {
+      "method": "C/France 3/1987",
+      "letter": "C",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+      "found": 0,
+      "total": null,
+      "note": "",
+      "by_programme": 0,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {}
+    },
+    {
+      "method": "C/FR3/1988",
+      "letter": "C",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1988",
+      "found": 0,
+      "total": null,
+      "note": "",
+      "by_programme": 0,
+      "by_title": 0,
+      "by_both": 0,
+      "works_known": 0,
+      "listings": 0,
+      "mothers": 0,
+      "columns": {}
+    },
+    {
+      "method": "C/France 3/1988",
+      "letter": "C",
+      "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1988",
       "found": 0,
       "total": null,
       "note": "",
@@ -126,21 +250,24 @@
   ],
   "year_profile": {
     "1989": {
-      "total": 49,
+      "total": 50,
       "via": {
+        "A": 50,
         "B": 49
       },
       "match": {
+        "title": 1,
         "programme": 49
       },
       "works": 4,
       "known": 49,
-      "need": 0,
-      "mothers": 0
+      "need": 1,
+      "mothers": 1
     },
     "1990": {
       "total": 399,
       "via": {
+        "A": 399,
         "B": 399
       },
       "match": {
@@ -154,6 +281,7 @@
     "1991": {
       "total": 173,
       "via": {
+        "A": 173,
         "B": 173
       },
       "match": {
@@ -167,6 +295,7 @@
     "1992": {
       "total": 42,
       "via": {
+        "A": 42,
         "B": 42
       },
       "match": {
@@ -180,6 +309,7 @@
     "1993": {
       "total": 8,
       "via": {
+        "A": 8,
         "B": 8
       },
       "match": {
@@ -191,8 +321,27 @@
       "mothers": 0
     }
   },
-  "count": 671,
+  "count": 672,
   "entries": [
+    {
+      "notice_id": "DA_CPC90002016",
+      "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC90002016/samdynamite?rang=1",
+      "kind": "notice",
+      "channel": "FR3",
+      "date": "08-04-1989",
+      "start": "08:00",
+      "start_raw": "08:00:00",
+      "duration": "00:00:00:00",
+      "title": "Samdynamite",
+      "title_raw": "Samdynamite",
+      "collection": "",
+      "programme": "",
+      "genre": "Tranche horaire",
+      "work": "",
+      "mother": true,
+      "match_by": "title",
+      "via": "A"
+    },
     {
       "notice_id": "DA_CPC89004602",
       "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPC89004602/videohhh?rang=164",
@@ -210,7 +359,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577",
@@ -229,7 +378,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89010881",
@@ -248,7 +397,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89010901",
@@ -267,7 +416,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89010950",
@@ -286,7 +435,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011031",
@@ -305,7 +454,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011097",
@@ -324,7 +473,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011142",
@@ -343,7 +492,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011150",
@@ -362,7 +511,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011176",
@@ -381,7 +530,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011361",
@@ -400,7 +549,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011371",
@@ -419,7 +568,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011438",
@@ -438,7 +587,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011452",
@@ -457,7 +606,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011464",
@@ -476,7 +625,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011478",
@@ -495,7 +644,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011488",
@@ -514,7 +663,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011663",
@@ -533,7 +682,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011778",
@@ -552,7 +701,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011852",
@@ -571,7 +720,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011857",
@@ -590,7 +739,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011880",
@@ -609,7 +758,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011886",
@@ -628,7 +777,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012104",
@@ -647,7 +796,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012118",
@@ -666,7 +815,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012122",
@@ -685,7 +834,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011904",
@@ -704,7 +853,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89010901-1",
@@ -723,7 +872,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011911",
@@ -742,7 +891,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011912",
@@ -761,7 +910,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011914",
@@ -780,7 +929,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012079",
@@ -799,7 +948,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012081",
@@ -818,7 +967,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012285",
@@ -837,7 +986,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003868",
@@ -856,7 +1005,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012585",
@@ -875,7 +1024,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012587",
@@ -894,7 +1043,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012797",
@@ -913,7 +1062,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704",
@@ -932,7 +1081,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012984",
@@ -951,7 +1100,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012985",
@@ -970,7 +1119,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012986",
@@ -989,7 +1138,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013012",
@@ -1008,7 +1157,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013024",
@@ -1027,7 +1176,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013330",
@@ -1046,7 +1195,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "TV_7931874.001",
@@ -1065,7 +1214,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003690",
@@ -1084,7 +1233,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-1",
@@ -1103,7 +1252,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013022",
@@ -1122,7 +1271,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000372",
@@ -1141,7 +1290,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000385",
@@ -1160,7 +1309,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000395",
@@ -1179,7 +1328,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000409",
@@ -1198,7 +1347,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006734",
@@ -1217,7 +1366,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006736",
@@ -1236,7 +1385,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000421",
@@ -1255,7 +1404,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000452",
@@ -1274,7 +1423,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000469",
@@ -1293,7 +1442,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000478",
@@ -1312,7 +1461,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000490",
@@ -1331,7 +1480,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000514",
@@ -1350,7 +1499,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006802",
@@ -1369,7 +1518,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006803",
@@ -1388,7 +1537,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000605",
@@ -1407,7 +1556,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006881",
@@ -1426,7 +1575,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006882",
@@ -1445,7 +1594,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000775",
@@ -1464,7 +1613,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90001100",
@@ -1483,7 +1632,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90001538",
@@ -1502,7 +1651,7 @@
       "work": "Opération Mozart",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007147",
@@ -1521,7 +1670,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90001102",
@@ -1540,7 +1689,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002015",
@@ -1559,7 +1708,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002014",
@@ -1578,7 +1727,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002017",
@@ -1597,7 +1746,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007159",
@@ -1616,7 +1765,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002019",
@@ -1635,7 +1784,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC10005439",
@@ -1654,7 +1803,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002256",
@@ -1673,7 +1822,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007162",
@@ -1692,7 +1841,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002257",
@@ -1711,7 +1860,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002258",
@@ -1730,7 +1879,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002264",
@@ -1749,7 +1898,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002265",
@@ -1768,7 +1917,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007163",
@@ -1787,7 +1936,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002267",
@@ -1806,7 +1955,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002266",
@@ -1825,7 +1974,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002294",
@@ -1844,7 +1993,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002295",
@@ -1863,7 +2012,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007164",
@@ -1882,7 +2031,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002297",
@@ -1901,7 +2050,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002424",
@@ -1920,7 +2069,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002427",
@@ -1939,7 +2088,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002428",
@@ -1958,7 +2107,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002429",
@@ -1977,7 +2126,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002436",
@@ -1996,7 +2145,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007165",
@@ -2015,7 +2164,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437",
@@ -2034,7 +2183,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438",
@@ -2053,7 +2202,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002554",
@@ -2072,7 +2221,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002556",
@@ -2091,7 +2240,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007166",
@@ -2110,7 +2259,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002598",
@@ -2129,7 +2278,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002971",
@@ -2148,7 +2297,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007167",
@@ -2167,7 +2316,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002972",
@@ -2186,7 +2335,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002973",
@@ -2205,7 +2354,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002976",
@@ -2224,7 +2373,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002977",
@@ -2243,7 +2392,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007168",
@@ -2262,7 +2411,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002978",
@@ -2281,7 +2430,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002979",
@@ -2300,7 +2449,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002994",
@@ -2319,7 +2468,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002995",
@@ -2338,7 +2487,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007169",
@@ -2357,7 +2506,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002996",
@@ -2376,7 +2525,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002548",
@@ -2395,7 +2544,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007170",
@@ -2414,7 +2563,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002019-1",
@@ -2433,7 +2582,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003213",
@@ -2452,7 +2601,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002551",
@@ -2471,7 +2620,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002552",
@@ -2490,7 +2639,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002257-2",
@@ -2509,7 +2658,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003328",
@@ -2528,7 +2677,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003329",
@@ -2547,7 +2696,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007171",
@@ -2566,7 +2715,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002266-1",
@@ -2585,7 +2734,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002266-2",
@@ -2604,7 +2753,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003422",
@@ -2623,7 +2772,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007172",
@@ -2642,7 +2791,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003423",
@@ -2661,7 +2810,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002297-1",
@@ -2680,7 +2829,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002297-2",
@@ -2699,7 +2848,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003434",
@@ -2718,7 +2867,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003435",
@@ -2737,7 +2886,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003436",
@@ -2756,7 +2905,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007173",
@@ -2775,7 +2924,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002428-1",
@@ -2794,7 +2943,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002428-2",
@@ -2813,7 +2962,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003258",
@@ -2832,7 +2981,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003522",
@@ -2851,7 +3000,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007174",
@@ -2870,7 +3019,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-1",
@@ -2889,7 +3038,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-2",
@@ -2908,7 +3057,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003281",
@@ -2927,7 +3076,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003534",
@@ -2946,7 +3095,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002598-1",
@@ -2965,7 +3114,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002598-2",
@@ -2984,7 +3133,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003271",
@@ -3003,7 +3152,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002972-1",
@@ -3022,7 +3171,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002972-2",
@@ -3041,7 +3190,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003569",
@@ -3060,7 +3209,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013014",
@@ -3079,7 +3228,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003593",
@@ -3098,7 +3247,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007176",
@@ -3117,7 +3266,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002979-1",
@@ -3136,7 +3285,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002979-2",
@@ -3155,7 +3304,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003674",
@@ -3174,7 +3323,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003676",
@@ -3193,7 +3342,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003677",
@@ -3212,7 +3361,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000372-1",
@@ -3231,7 +3380,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000372-2",
@@ -3250,7 +3399,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002996-1",
@@ -3269,7 +3418,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002996-2",
@@ -3288,7 +3437,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003686",
@@ -3307,7 +3456,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688",
@@ -3326,7 +3475,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003689",
@@ -3345,7 +3494,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003690-1",
@@ -3364,7 +3513,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007177",
@@ -3383,7 +3532,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002019-2",
@@ -3402,7 +3551,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000385-1",
@@ -3421,7 +3570,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000385-2",
@@ -3440,7 +3589,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-3",
@@ -3459,7 +3608,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-4",
@@ -3478,7 +3627,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003464",
@@ -3497,7 +3646,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003700",
@@ -3516,7 +3665,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002257-1",
@@ -3535,7 +3684,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007159-1",
@@ -3554,7 +3703,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007159-2",
@@ -3573,7 +3722,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000395-1",
@@ -3592,7 +3741,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000395-2",
@@ -3611,7 +3760,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003487",
@@ -3630,7 +3779,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007178",
@@ -3649,7 +3798,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000409-1",
@@ -3668,7 +3817,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000409-2",
@@ -3687,7 +3836,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002266-3",
@@ -3706,7 +3855,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002266-4",
@@ -3725,7 +3874,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003489",
@@ -3744,7 +3893,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003490",
@@ -3763,7 +3912,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007180",
@@ -3782,7 +3931,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000452-1",
@@ -3801,7 +3950,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000452-2",
@@ -3820,7 +3969,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002297-3",
@@ -3839,7 +3988,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002297-4",
@@ -3858,7 +4007,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003722",
@@ -3877,7 +4026,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003724",
@@ -3896,7 +4045,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000469-1",
@@ -3915,7 +4064,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000469-2",
@@ -3934,7 +4083,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002428-3",
@@ -3953,7 +4102,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002428-4",
@@ -3972,7 +4121,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003775",
@@ -3991,7 +4140,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003783",
@@ -4010,7 +4159,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-5",
@@ -4029,7 +4178,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002438-6",
@@ -4048,7 +4197,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000478-1",
@@ -4067,7 +4216,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000478-2",
@@ -4086,7 +4235,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007163-1",
@@ -4105,7 +4254,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007163-2",
@@ -4124,7 +4273,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003795",
@@ -4143,7 +4292,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003800",
@@ -4162,7 +4311,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003802",
@@ -4181,7 +4330,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007162-1",
@@ -4200,7 +4349,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007162-2",
@@ -4219,7 +4368,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000490-1",
@@ -4238,7 +4387,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000490-2",
@@ -4257,7 +4406,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002598-3",
@@ -4276,7 +4425,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002598-4",
@@ -4295,7 +4444,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004194",
@@ -4314,7 +4463,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004206",
@@ -4333,7 +4482,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007181",
@@ -4352,7 +4501,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002972-4",
@@ -4371,7 +4520,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000514-1",
@@ -4390,7 +4539,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90000514-2",
@@ -4409,7 +4558,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002972-3",
@@ -4428,7 +4577,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007187",
@@ -4447,7 +4596,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007186",
@@ -4466,7 +4615,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007989",
@@ -4485,7 +4634,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002979-3",
@@ -4504,7 +4653,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002979-4",
@@ -4523,7 +4672,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007164-1",
@@ -4542,7 +4691,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007164-2",
@@ -4561,7 +4710,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007997",
@@ -4580,7 +4729,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007998",
@@ -4599,7 +4748,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999",
@@ -4618,7 +4767,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008000",
@@ -4637,7 +4786,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002996-3",
@@ -4656,7 +4805,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002996-4",
@@ -4675,7 +4824,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005368",
@@ -4694,7 +4843,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008028",
@@ -4713,7 +4862,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005369",
@@ -4732,7 +4881,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005432",
@@ -4751,7 +4900,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008271",
@@ -4770,7 +4919,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005437",
@@ -4789,7 +4938,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005443",
@@ -4808,7 +4957,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005445",
@@ -4827,7 +4976,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447",
@@ -4846,7 +4995,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008283",
@@ -4865,7 +5014,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008286",
@@ -4884,7 +5033,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008287",
@@ -4903,7 +5052,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008288",
@@ -4922,7 +5071,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008441",
@@ -4941,7 +5090,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008442",
@@ -4960,7 +5109,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008443",
@@ -4979,7 +5128,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008450",
@@ -4998,7 +5147,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008451",
@@ -5017,7 +5166,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008452",
@@ -5036,7 +5185,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008453",
@@ -5055,7 +5204,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004698",
@@ -5074,7 +5223,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004699",
@@ -5093,7 +5242,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004700",
@@ -5112,7 +5261,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008893",
@@ -5131,7 +5280,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006001",
@@ -5150,7 +5299,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC16004001",
@@ -5169,7 +5318,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC11001174",
@@ -5188,7 +5337,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004728",
@@ -5207,7 +5356,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004729",
@@ -5226,7 +5375,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008900",
@@ -5245,7 +5394,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004730",
@@ -5264,7 +5413,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004731",
@@ -5283,7 +5432,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004732",
@@ -5302,7 +5451,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004733",
@@ -5321,7 +5470,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004345",
@@ -5340,7 +5489,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004346",
@@ -5359,7 +5508,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004347",
@@ -5378,7 +5527,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006004",
@@ -5397,7 +5546,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006005",
@@ -5416,7 +5565,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004381",
@@ -5435,7 +5584,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004382",
@@ -5454,7 +5603,7 @@
       "work": "Auto Vélo Bravo",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004383",
@@ -5473,7 +5622,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004404",
@@ -5492,7 +5641,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004405",
@@ -5511,7 +5660,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004406",
@@ -5530,7 +5679,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009028",
@@ -5549,7 +5698,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004762",
@@ -5568,7 +5717,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004763",
@@ -5587,7 +5736,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006082",
@@ -5606,7 +5755,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006084",
@@ -5625,7 +5774,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004803",
@@ -5644,7 +5793,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004804",
@@ -5663,7 +5812,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004805",
@@ -5682,7 +5831,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004806",
@@ -5701,7 +5850,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004807",
@@ -5720,7 +5869,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005154",
@@ -5739,7 +5888,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005155",
@@ -5758,7 +5907,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009278",
@@ -5777,7 +5926,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006086",
@@ -5796,7 +5945,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006087",
@@ -5815,7 +5964,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005302",
@@ -5834,7 +5983,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005305",
@@ -5853,7 +6002,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005307",
@@ -5872,7 +6021,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308",
@@ -5891,7 +6040,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005309",
@@ -5910,7 +6059,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005328",
@@ -5929,7 +6078,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005329",
@@ -5948,7 +6097,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006088",
@@ -5967,7 +6116,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006089",
@@ -5986,7 +6135,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005338",
@@ -6005,7 +6154,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005339",
@@ -6024,7 +6173,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005345",
@@ -6043,7 +6192,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005346",
@@ -6062,7 +6211,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005348",
@@ -6081,7 +6230,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005684",
@@ -6100,7 +6249,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005685",
@@ -6119,7 +6268,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006091",
@@ -6138,7 +6287,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006090",
@@ -6157,7 +6306,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005707",
@@ -6176,7 +6325,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005708",
@@ -6195,7 +6344,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005709",
@@ -6214,7 +6363,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005710",
@@ -6233,7 +6382,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005711",
@@ -6252,7 +6401,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005730",
@@ -6271,7 +6420,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005732",
@@ -6290,7 +6439,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006102",
@@ -6309,7 +6458,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006103",
@@ -6328,7 +6477,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005762",
@@ -6347,7 +6496,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005763",
@@ -6366,7 +6515,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005764",
@@ -6385,7 +6534,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005766",
@@ -6404,7 +6553,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005765",
@@ -6423,7 +6572,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009910",
@@ -6442,7 +6591,7 @@
       "work": "Les comptines du vieux continent",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005998",
@@ -6461,7 +6610,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90010104",
@@ -6480,7 +6629,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006104",
@@ -6499,7 +6648,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006105",
@@ -6518,7 +6667,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005926",
@@ -6537,7 +6686,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006023",
@@ -6556,7 +6705,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006024",
@@ -6575,7 +6724,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006025",
@@ -6594,7 +6743,7 @@
       "work": "Paroles de bêtes",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-2",
@@ -6613,7 +6762,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-1",
@@ -6632,7 +6781,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006636",
@@ -6651,7 +6800,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011880-1",
@@ -6670,7 +6819,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011880-2",
@@ -6689,7 +6838,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-1",
@@ -6708,7 +6857,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-2",
@@ -6727,7 +6876,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005307-1",
@@ -6746,7 +6895,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-1",
@@ -6765,7 +6914,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005998-1",
@@ -6784,7 +6933,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005998-2",
@@ -6803,7 +6952,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308-1",
@@ -6822,7 +6971,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005766-1",
@@ -6841,7 +6990,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005998-3",
@@ -6860,7 +7009,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005998-4",
@@ -6879,7 +7028,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005338-1",
@@ -6898,7 +7047,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005443-1",
@@ -6917,7 +7066,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005443-2",
@@ -6936,7 +7085,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005368-1",
@@ -6955,7 +7104,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005368-2",
@@ -6974,7 +7123,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-4",
@@ -6993,7 +7142,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-5",
@@ -7012,7 +7161,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007186-1",
@@ -7031,7 +7180,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90008142",
@@ -7050,7 +7199,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_VDC15148463",
@@ -7069,7 +7218,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004194-1",
@@ -7088,7 +7237,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003674-1",
@@ -7107,7 +7256,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003674-2",
@@ -7126,7 +7275,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007997-1",
@@ -7145,7 +7294,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90004345-1",
@@ -7164,7 +7313,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005302-1",
@@ -7183,7 +7332,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006401",
@@ -7202,7 +7351,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006402",
@@ -7221,7 +7370,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90012870",
@@ -7240,7 +7389,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005345-1",
@@ -7259,7 +7408,7 @@
       "work": "Minimôme",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006421",
@@ -7278,7 +7427,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006422",
@@ -7297,7 +7446,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009072",
@@ -7316,7 +7465,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-3",
@@ -7335,7 +7484,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006423",
@@ -7354,7 +7503,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006424",
@@ -7373,7 +7522,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92001976",
@@ -7392,7 +7541,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC10005442",
@@ -7411,7 +7560,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006521",
@@ -7430,7 +7579,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006522",
@@ -7449,7 +7598,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92001991",
@@ -7468,7 +7617,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009251",
@@ -7487,7 +7636,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92003083",
@@ -7506,7 +7655,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006523",
@@ -7525,7 +7674,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006801",
@@ -7544,7 +7693,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006524",
@@ -7563,7 +7712,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002479",
@@ -7582,7 +7731,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009355",
@@ -7601,7 +7750,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92003088",
@@ -7620,7 +7769,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006525",
@@ -7639,7 +7788,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006526",
@@ -7658,7 +7807,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006525-1",
@@ -7677,7 +7826,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002480",
@@ -7696,7 +7845,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90009569",
@@ -7715,7 +7864,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92004685",
@@ -7734,7 +7883,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006527",
@@ -7753,7 +7902,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006528",
@@ -7772,7 +7921,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006527-1",
@@ -7791,7 +7940,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002481",
@@ -7810,7 +7959,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90010044",
@@ -7829,7 +7978,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92004719",
@@ -7848,7 +7997,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006529",
@@ -7867,7 +8016,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006530",
@@ -7886,7 +8035,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006529-1",
@@ -7905,7 +8054,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002482",
@@ -7924,7 +8073,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90010223",
@@ -7943,7 +8092,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006531",
@@ -7962,7 +8111,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006532",
@@ -7981,7 +8130,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006531-1",
@@ -8000,7 +8149,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012978",
@@ -8019,7 +8168,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002483",
@@ -8038,7 +8187,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90010800",
@@ -8057,7 +8206,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006541",
@@ -8076,7 +8225,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006542",
@@ -8095,7 +8244,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006541-1",
@@ -8114,7 +8263,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002484",
@@ -8133,7 +8282,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90011555",
@@ -8152,7 +8301,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006543",
@@ -8171,7 +8320,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006544",
@@ -8190,7 +8339,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006543-1",
@@ -8209,7 +8358,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002485",
@@ -8228,7 +8377,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90011618",
@@ -8247,7 +8396,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006545",
@@ -8266,7 +8415,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006546",
@@ -8285,7 +8434,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006545-1",
@@ -8304,7 +8453,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002486",
@@ -8323,7 +8472,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90012618",
@@ -8342,7 +8491,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006547",
@@ -8361,7 +8510,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006548",
@@ -8380,7 +8529,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006547-1",
@@ -8399,7 +8548,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002487",
@@ -8418,7 +8567,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90013553",
@@ -8437,7 +8586,7 @@
       "work": "Génies en herbe international",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005346-1",
@@ -8456,7 +8605,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005346-2",
@@ -8475,7 +8624,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC93008662",
@@ -8494,7 +8643,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011649",
@@ -8513,7 +8662,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006549",
@@ -8532,7 +8681,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006550",
@@ -8551,7 +8700,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006549-1",
@@ -8570,7 +8719,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002488",
@@ -8589,7 +8738,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC93008661",
@@ -8608,7 +8757,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011806",
@@ -8627,7 +8776,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006551",
@@ -8646,7 +8795,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006552",
@@ -8665,7 +8814,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC15006551-1",
@@ -8684,7 +8833,7 @@
       "work": "Graine d'infos",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002489",
@@ -8703,7 +8852,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC96004703",
@@ -8722,7 +8871,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC96004706",
@@ -8741,7 +8890,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011807",
@@ -8760,7 +8909,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002490",
@@ -8779,7 +8928,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002491",
@@ -8798,7 +8947,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-2",
@@ -8817,7 +8966,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011810",
@@ -8836,7 +8985,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC92002492",
@@ -8855,7 +9004,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011813",
@@ -8874,7 +9023,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006680",
@@ -8893,7 +9042,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006684",
@@ -8912,7 +9061,7 @@
       "work": "Pas bête",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011815",
@@ -8931,7 +9080,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007078",
@@ -8950,7 +9099,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447-3",
@@ -8969,7 +9118,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011816",
@@ -8988,7 +9137,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011817",
@@ -9007,7 +9156,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007533",
@@ -9026,7 +9175,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011818",
@@ -9045,7 +9194,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011880-3",
@@ -9064,7 +9213,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89011880-4",
@@ -9083,7 +9232,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011819",
@@ -9102,7 +9251,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008099",
@@ -9121,7 +9270,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006523",
@@ -9140,7 +9289,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011821",
@@ -9159,7 +9308,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006925",
@@ -9178,7 +9327,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006673",
@@ -9197,7 +9346,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011822",
@@ -9216,7 +9365,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006924",
@@ -9235,7 +9384,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91006926",
@@ -9254,7 +9403,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011823",
@@ -9273,7 +9422,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007138",
@@ -9292,7 +9441,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007139",
@@ -9311,7 +9460,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-3",
@@ -9330,7 +9479,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-4",
@@ -9349,7 +9498,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011824",
@@ -9368,7 +9517,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007457",
@@ -9387,7 +9536,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007458",
@@ -9406,7 +9555,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011825",
@@ -9425,7 +9574,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007704",
@@ -9444,7 +9593,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007705",
@@ -9463,7 +9612,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011826",
@@ -9482,7 +9631,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007818",
@@ -9501,7 +9650,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91007828",
@@ -9520,7 +9669,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011827",
@@ -9539,7 +9688,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008063",
@@ -9558,7 +9707,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008064",
@@ -9577,7 +9726,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011828",
@@ -9596,7 +9745,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008467",
@@ -9615,7 +9764,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008469",
@@ -9634,7 +9783,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011829",
@@ -9653,7 +9802,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008622",
@@ -9672,7 +9821,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008502",
@@ -9691,7 +9840,7 @@
       "work": "Babar",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008623",
@@ -9710,7 +9859,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011830",
@@ -9729,7 +9878,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008762",
@@ -9748,7 +9897,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008764",
@@ -9767,7 +9916,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-2",
@@ -9786,7 +9935,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011831",
@@ -9805,7 +9954,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008831",
@@ -9824,7 +9973,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008832",
@@ -9843,7 +9992,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011832",
@@ -9862,7 +10011,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009117",
@@ -9881,7 +10030,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009114",
@@ -9900,7 +10049,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011834",
@@ -9919,7 +10068,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009379",
@@ -9938,7 +10087,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009380",
@@ -9957,7 +10106,7 @@
       "work": "Babar",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009381",
@@ -9976,7 +10125,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011835",
@@ -9995,7 +10144,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011422",
@@ -10014,7 +10163,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009493",
@@ -10033,7 +10182,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011665",
@@ -10052,7 +10201,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009779",
@@ -10071,7 +10220,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009780",
@@ -10090,7 +10239,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-1",
@@ -10109,7 +10258,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-2",
@@ -10128,7 +10277,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011666",
@@ -10147,7 +10296,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009896",
@@ -10166,7 +10315,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009994",
@@ -10185,7 +10334,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009995",
@@ -10204,7 +10353,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010020",
@@ -10223,7 +10372,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-4",
@@ -10242,7 +10391,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010035",
@@ -10261,7 +10410,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010044",
@@ -10280,7 +10429,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010050",
@@ -10299,7 +10448,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010124",
@@ -10318,7 +10467,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010214",
@@ -10337,7 +10486,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010250",
@@ -10356,7 +10505,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010258",
@@ -10375,7 +10524,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010259",
@@ -10394,7 +10543,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010297",
@@ -10413,7 +10562,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010335",
@@ -10432,7 +10581,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010342",
@@ -10451,7 +10600,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010366",
@@ -10470,7 +10619,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010373",
@@ -10489,7 +10638,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010380",
@@ -10508,7 +10657,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010395",
@@ -10527,7 +10676,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010401",
@@ -10546,7 +10695,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-3",
@@ -10565,7 +10714,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011649-1",
@@ -10584,7 +10733,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011649-2",
@@ -10603,7 +10752,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010613",
@@ -10622,7 +10771,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010615",
@@ -10641,7 +10790,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010617",
@@ -10660,7 +10809,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010618",
@@ -10679,7 +10828,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010620",
@@ -10698,7 +10847,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010711",
@@ -10717,7 +10866,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011806-1",
@@ -10736,7 +10885,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011806-2",
@@ -10755,7 +10904,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010744",
@@ -10774,7 +10923,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010759",
@@ -10793,7 +10942,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010764",
@@ -10812,7 +10961,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012945",
@@ -10831,7 +10980,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010768",
@@ -10850,7 +10999,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010772",
@@ -10869,7 +11018,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010819",
@@ -10888,7 +11037,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011807-2",
@@ -10907,7 +11056,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011807-3",
@@ -10926,7 +11075,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010835",
@@ -10945,7 +11094,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-5",
@@ -10964,7 +11113,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-6",
@@ -10983,7 +11132,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010837",
@@ -11002,7 +11151,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012978-1",
@@ -11021,7 +11170,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012978-2",
@@ -11040,7 +11189,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010839",
@@ -11059,7 +11208,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010841",
@@ -11078,7 +11227,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010843",
@@ -11097,7 +11246,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91010875",
@@ -11116,7 +11265,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011036",
@@ -11135,7 +11284,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011073",
@@ -11154,7 +11303,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013330-1",
@@ -11173,7 +11322,7 @@
       "work": "Etrange institut à Berlin",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89013330-2",
@@ -11192,7 +11341,7 @@
       "work": "Etrange institut à Berlin",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011090",
@@ -11211,7 +11360,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011109",
@@ -11230,7 +11379,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006734-1",
@@ -11249,7 +11398,7 @@
       "work": "SOS sur l'île au phare",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006734-2",
@@ -11268,7 +11417,7 @@
       "work": "SOS sur l'île au phare",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-3",
@@ -11287,7 +11436,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011160",
@@ -11306,7 +11455,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006802-1",
@@ -11325,7 +11474,7 @@
       "work": "MOZART à Vienne",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90006802-2",
@@ -11344,7 +11493,7 @@
       "work": "MOZART à Vienne",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011167",
@@ -11363,7 +11512,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011823-1",
@@ -11382,7 +11531,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011187",
@@ -11401,7 +11550,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011218",
@@ -11420,7 +11569,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011226",
@@ -11439,7 +11588,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011238",
@@ -11458,7 +11607,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-3",
@@ -11477,7 +11626,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-4",
@@ -11496,7 +11645,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011247",
@@ -11515,7 +11664,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011255",
@@ -11534,7 +11683,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011292",
@@ -11553,7 +11702,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-6",
@@ -11572,7 +11721,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-7",
@@ -11591,7 +11740,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011438",
@@ -11610,7 +11759,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447-4",
@@ -11629,7 +11778,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011444",
@@ -11648,7 +11797,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011460",
@@ -11667,7 +11816,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011472",
@@ -11686,7 +11835,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011512",
@@ -11705,7 +11854,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011818-2",
@@ -11724,7 +11873,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011542",
@@ -11743,7 +11892,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011558",
@@ -11762,7 +11911,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308-2",
@@ -11781,7 +11930,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011567",
@@ -11800,7 +11949,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011577",
@@ -11819,7 +11968,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011581",
@@ -11838,7 +11987,7 @@
       "work": "Les incollables",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011587",
@@ -11857,7 +12006,7 @@
       "work": "Génies en herbe",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011819-2",
@@ -11876,7 +12025,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011817-1",
@@ -11895,7 +12044,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011818-1",
@@ -11914,7 +12063,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011819-1",
@@ -11933,7 +12082,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011821-2",
@@ -11952,7 +12101,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011822-2",
@@ -11971,7 +12120,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008502-1",
@@ -11990,7 +12139,7 @@
       "work": "Babar",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008622-1",
@@ -12009,7 +12158,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008762-1",
@@ -12028,7 +12177,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008762-2",
@@ -12047,7 +12196,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008831-1",
@@ -12066,7 +12215,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-5",
@@ -12085,7 +12234,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011422-1",
@@ -12104,7 +12253,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009117-1",
@@ -12123,7 +12272,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009379-1",
@@ -12142,7 +12291,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009779-1",
@@ -12161,7 +12310,7 @@
       "work": "Naturimages",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-4",
@@ -12180,7 +12329,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91008502-2",
@@ -12199,7 +12348,7 @@
       "work": "Babar",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91009380-2",
@@ -12218,7 +12367,7 @@
       "work": "Babar",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-7",
@@ -12237,7 +12386,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-8",
@@ -12256,7 +12405,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308-3",
@@ -12275,7 +12424,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-4",
@@ -12294,7 +12443,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011807-1",
@@ -12313,7 +12462,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011807-4",
@@ -12332,7 +12481,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-5",
@@ -12351,7 +12500,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-6",
@@ -12370,7 +12519,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-8",
@@ -12389,7 +12538,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-9",
@@ -12408,7 +12557,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447-5",
@@ -12427,7 +12576,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308-4",
@@ -12446,7 +12595,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-6",
@@ -12465,7 +12614,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011821-1",
@@ -12484,7 +12633,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-5",
@@ -12503,7 +12652,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011822-1",
@@ -12522,7 +12671,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011831-1",
@@ -12541,7 +12690,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-9",
@@ -12560,7 +12709,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-10",
@@ -12579,7 +12728,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91011832-1",
@@ -12598,7 +12747,7 @@
       "work": "Science cartoon",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-5",
@@ -12617,7 +12766,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-7",
@@ -12636,7 +12785,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90003688-8",
@@ -12655,7 +12804,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-10",
@@ -12674,7 +12823,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90007999-11",
@@ -12693,7 +12842,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447-6",
@@ -12712,7 +12861,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005308-5",
@@ -12731,7 +12880,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-6",
@@ -12750,7 +12899,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90002437-6",
@@ -12769,7 +12918,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC90005447-7",
@@ -12788,7 +12937,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-7",
@@ -12807,7 +12956,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-11",
@@ -12826,7 +12975,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89012704-12",
@@ -12845,7 +12994,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-7",
@@ -12864,7 +13013,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012978-3",
@@ -12883,7 +13032,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC91012978-4",
@@ -12902,7 +13051,7 @@
       "work": "Tilion",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89007577-8",
@@ -12921,7 +13070,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     },
     {
       "notice_id": "DA_CPC89004602-8",
@@ -12940,7 +13089,7 @@
       "work": "Denver, le dernier dinosaure",
       "mother": false,
       "match_by": "programme",
-      "via": "B"
+      "via": "AB"
     }
   ]
 }

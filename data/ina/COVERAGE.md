@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
+_Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
 
 > INA n'est pas structuré uniformément : le nom de l'émission est tantôt dans le **titre propre**,
 > tantôt dans la colonne **Titre programme**, tantôt dans les deux. **A** et **B** sont cumulées,
@@ -12,8 +12,8 @@ _Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
 ## Total
 
 - Jamais indexés : **258** (≈ 48396)
-- Entrées : **8988** · Connues sans téléchargement : **671**
-- À télécharger : **8317** · En cache : **8987** (100.0 %)
+- Entrées : **8989** · Connues sans téléchargement : **671**
+- À télécharger : **8318** · En cache : **8988** (100.0 %)
 - Œuvres distinctes : **34** · Reste : **1**
 
 ## Par émission
@@ -45,7 +45,7 @@ _Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
 | Le Village dans les nuages | TF1 | 1982→1986 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | M6 Kid | M6 | 1990→1999 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Multitop | M6 | 1987→1996 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Samdynamite | FR3 | 1987→1993 | B | 2 | 671 | 671 | 0 | 671 | 0 | 100.0 % |
+| Samdynamite | FR3 | 1987→1993 | A,B | 2 | 672 | 671 | 1 | 672 | 0 | 100.0 % |
 | TF! Jeunesse | TF1 | 1997→1999 | — | 2 | 168 | 0 | 168 | 168 | 0 | 100.0 % |
 | Télétaz | FR3 | 1988→1993 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Cellulo | La Cinquième | 1995→1999 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -462,11 +462,11 @@ _Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
 | 1987 | jamais indexé | 0 | — | — | 0 | 0 | 0 | 0 | 0 |
 | 1988 | jamais indexé | 0 | — | — | 0 | 0 | 0 | 0 | 0 |
-| 1989 | complet | 49 | B:49 | programme:49 | 49 | 0 | 49 | 4 | 0 |
-| 1990 | complet | 399 | B:399 | programme:399 | 399 | 0 | 399 | 13 | 0 |
-| 1991 | complet | 173 | B:173 | programme:173 | 173 | 0 | 173 | 11 | 0 |
-| 1992 | complet | 42 | B:42 | programme:42 | 42 | 0 | 42 | 4 | 0 |
-| 1993 | complet | 8 | B:8 | programme:8 | 8 | 0 | 8 | 2 | 0 |
+| 1989 | complet | 50 | A:50, B:49 | programme:49, title:1 | 49 | 1 | 50 | 4 | 0 |
+| 1990 | complet | 399 | A:399, B:399 | programme:399 | 399 | 0 | 399 | 13 | 0 |
+| 1991 | complet | 173 | A:173, B:173 | programme:173 | 173 | 0 | 173 | 11 | 0 |
+| 1992 | complet | 42 | A:42, B:42 | programme:42 | 42 | 0 | 42 | 4 | 0 |
+| 1993 | complet | 8 | A:8, B:8 | programme:8 | 8 | 0 | 8 | 2 | 0 |
 
 <details><summary>Requêtes tentées</summary>
 
@@ -474,10 +474,17 @@ _Généré le 2026-11-17 à 07:08:12 — parser v9 · fetch=auto_
 |---|---:|---:|---:|---:|---:|---:|---|
 | `B/ch=FR3` | 660 | 661 | 660 | 0 | 0 | 660 | paginé via page · 660/661 |
 | `B/ch=France 3` | 44 | 44 | 44 | 0 | 0 | 44 | complet |
-| `A/1989/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1989/v1` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1989/v2` | 0 | — | 0 | 0 | 0 | 0 |  |
-| `A/1989/v3` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/global/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/global/v1` | 704 | 705 | 704 | 0 | 0 | 704 | paginé via page · 704/705 |
+| `A/global/v2` | 1 | 1 | 0 | 1 | 0 | 0 | complet |
+| `A/1987/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1987/v2` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1988/v0` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `A/1988/v2` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `C/FR3/1987` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `C/France 3/1987` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `C/FR3/1988` | 0 | — | 0 | 0 | 0 | 0 |  |
+| `C/France 3/1988` | 0 | — | 0 | 0 | 0 | 0 |  |
 
 </details>
 

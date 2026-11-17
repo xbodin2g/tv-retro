@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:08:12.874728",
+  "generated_at": "2026-11-17T07:29:48.440280",
   "parser_version": 9,
   "global_avg": 197,
   "fetch_mode": "auto",
@@ -3718,8 +3718,9 @@
       "priority": 3,
       "from": 1987,
       "to": 1993,
-      "harvested_at": "2026-11-17T07:08:11.102486",
+      "harvested_at": "2026-11-17T07:29:42.990087",
       "methods": [
+        "A",
         "B"
       ],
       "discovery": [
@@ -3772,9 +3773,9 @@
           }
         },
         {
-          "method": "A/1989/v0",
+          "method": "A/global/v0",
           "letter": "A",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=Samdynamite",
           "found": 0,
           "total": null,
           "note": "",
@@ -3787,9 +3788,57 @@
           "columns": {}
         },
         {
-          "method": "A/1989/v1",
+          "method": "A/global/v1",
           "letter": "A",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22&ti=1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=%22Samdynamite%22",
+          "found": 704,
+          "total": 705,
+          "note": "paginé via page · 704/705",
+          "by_programme": 704,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 704,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {
+            "chaine": 1,
+            "date": 2,
+            "start": 3,
+            "duration": 4,
+            "title": 5,
+            "collection": 6,
+            "programme": 7,
+            "genre": 8
+          }
+        },
+        {
+          "method": "A/global/v2",
+          "letter": "A",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite",
+          "found": 1,
+          "total": 1,
+          "note": "complet",
+          "by_programme": 0,
+          "by_title": 1,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 1,
+          "columns": {
+            "chaine": 1,
+            "date": 2,
+            "start": 3,
+            "duration": 4,
+            "title": 5,
+            "collection": 6,
+            "programme": 7,
+            "genre": 8
+          }
+        },
+        {
+          "method": "A/1987/v0",
+          "letter": "A",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1987",
           "found": 0,
           "total": null,
           "note": "",
@@ -3802,9 +3851,9 @@
           "columns": {}
         },
         {
-          "method": "A/1989/v2",
+          "method": "A/1987/v2",
           "letter": "A",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1987",
           "found": 0,
           "total": null,
           "note": "",
@@ -3817,9 +3866,84 @@
           "columns": {}
         },
         {
-          "method": "A/1989/v3",
+          "method": "A/1988/v0",
           "letter": "A",
-          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&tiprog=Samdynamite&ti=1989",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Samdynamite&ti=1988",
+          "found": 0,
+          "total": null,
+          "note": "",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {}
+        },
+        {
+          "method": "A/1988/v2",
+          "letter": "A",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&ti=Samdynamite+1988",
+          "found": 0,
+          "total": null,
+          "note": "",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {}
+        },
+        {
+          "method": "C/FR3/1987",
+          "letter": "C",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": "",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {}
+        },
+        {
+          "method": "C/France 3/1987",
+          "letter": "C",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1987",
+          "found": 0,
+          "total": null,
+          "note": "",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {}
+        },
+        {
+          "method": "C/FR3/1988",
+          "letter": "C",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=FR3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1988",
+          "found": 0,
+          "total": null,
+          "note": "",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 0,
+          "works_known": 0,
+          "listings": 0,
+          "mothers": 0,
+          "columns": {}
+        },
+        {
+          "method": "C/France 3/1988",
+          "letter": "C",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=France+3&tiprog=Samdynamite&bool_operator=AND&tri=score1&nbLignes=500&ti=1988",
           "found": 0,
           "total": null,
           "note": "",
@@ -3834,21 +3958,24 @@
       ],
       "year_profile": {
         "1989": {
-          "total": 49,
+          "total": 50,
           "via": {
+            "A": 50,
             "B": 49
           },
           "match": {
+            "title": 1,
             "programme": 49
           },
           "works": 4,
           "known": 49,
-          "need": 0,
-          "mothers": 0
+          "need": 1,
+          "mothers": 1
         },
         "1990": {
           "total": 399,
           "via": {
+            "A": 399,
             "B": 399
           },
           "match": {
@@ -3862,6 +3989,7 @@
         "1991": {
           "total": 173,
           "via": {
+            "A": 173,
             "B": 173
           },
           "match": {
@@ -3875,6 +4003,7 @@
         "1992": {
           "total": 42,
           "via": {
+            "A": 42,
             "B": 42
           },
           "match": {
@@ -3888,6 +4017,7 @@
         "1993": {
           "total": 8,
           "via": {
+            "A": 8,
             "B": 8
           },
           "match": {
@@ -3945,21 +4075,23 @@
         },
         {
           "year": 1989,
-          "indexed": 49,
-          "cached": 49,
-          "current": 49,
+          "indexed": 50,
+          "cached": 50,
+          "current": 50,
           "outdated": 0,
-          "with_elements": 49,
+          "with_elements": 50,
           "empty": 0,
           "remaining": 0,
-          "elements": 49,
+          "elements": 61,
           "days": 42,
           "known": 49,
-          "need": 0,
+          "need": 1,
           "via": {
+            "A": 50,
             "B": 49
           },
           "match": {
+            "title": 1,
             "programme": 49
           },
           "sample": [],
@@ -3982,6 +4114,7 @@
           "known": 399,
           "need": 0,
           "via": {
+            "A": 399,
             "B": 399
           },
           "match": {
@@ -4007,6 +4140,7 @@
           "known": 173,
           "need": 0,
           "via": {
+            "A": 173,
             "B": 173
           },
           "match": {
@@ -4032,6 +4166,7 @@
           "known": 42,
           "need": 0,
           "via": {
+            "A": 42,
             "B": 42
           },
           "match": {
@@ -4057,6 +4192,7 @@
           "known": 8,
           "need": 0,
           "via": {
+            "A": 8,
             "B": 8
           },
           "match": {
@@ -4070,17 +4206,17 @@
         }
       ],
       "totals": {
-        "indexed": 671,
-        "cached": 671,
-        "current": 671,
+        "indexed": 672,
+        "cached": 672,
+        "current": 672,
         "outdated": 0,
-        "with_elements": 671,
+        "with_elements": 672,
         "empty": 0,
         "remaining": 0,
-        "elements": 671,
+        "elements": 683,
         "days": 331,
         "known": 671,
-        "need": 0,
+        "need": 1,
         "coverage": 100.0,
         "works": 34,
         "virgin": 2,
@@ -7741,17 +7877,17 @@
   ],
   "orphans": [],
   "totals": {
-    "indexed": 8988,
-    "cached": 8987,
-    "current": 8987,
+    "indexed": 8989,
+    "cached": 8988,
+    "current": 8988,
     "outdated": 0,
-    "with_elements": 6395,
+    "with_elements": 6396,
     "empty": 2593,
     "remaining": 1,
-    "elements": 23671,
+    "elements": 23683,
     "days": 5438,
     "known": 671,
-    "need": 8317,
+    "need": 8318,
     "coverage": 100.0,
     "works": 34,
     "virgin": 258,
@@ -9576,7 +9712,6 @@
   "health": {
     "advice": [
       "2 émission(s) sans chaîne : méthode B inactive. Renseigne-la dans 🎯 Cibles.",
-      "B seule répond pour : Samdynamite. L'union est indispensable.",
       "671 entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger pour elles.",
       "258 couple(s) jamais indexés — ≈ 48396 entrées estimées."
     ],
