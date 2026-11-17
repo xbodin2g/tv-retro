@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008269",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008269/recre-a2-emission-du-11-juin-1986?rang=410",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:08:35.539300",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -32,7 +32,8 @@
     "Clip \"Clémentine\" par Marie Dauphin",
     "Tom Sawyer",
     "Clip Warner Bros",
-    "La Bande à Bédé",
+    "La bande à BéDé",
     "Clip \"Les mondes engloutis\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.374552"
 }

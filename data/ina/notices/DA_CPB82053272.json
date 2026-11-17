@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053272/recre-a2-emission-du-9-juin-1982?rang=376",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:10:20.923991",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -59,5 +59,6 @@
     "Bouquin Bouquine",
     "Clip Gotainer \"Le sampa\"",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.911069"
 }

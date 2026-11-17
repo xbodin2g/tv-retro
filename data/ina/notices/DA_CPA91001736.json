@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91001736",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91001736/club-dorothee-emission-du-30-janvier-1991?rang=37",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:12:48.086234",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Séries : \"Punky Brewster\", \"Sophie et Virginie\", \"JIBAN\", \"Les chevaliers du Zodiaque\", \"Nicky LARSON\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.484641"
 }

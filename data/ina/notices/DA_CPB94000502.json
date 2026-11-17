@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000502",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000502/recre-a2-emission-du-30-decembre-1983?rang=343",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:00:17.657815",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,10 +28,11 @@
   ],
   "elements": [
     "La princesse insensible",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Dessin animé",
     "Silas",
     "Harold LLyod's",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.659092"
 }

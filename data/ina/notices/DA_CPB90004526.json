@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004526",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004526/giga-emission-du-15-mai-1990?rang=14",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:49:00.660252",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,6 +23,8 @@
   "elements": [
     "Au sommaire de ce numéro",
     "SERIE : Un toit pour dix (achat),",
+    "METIER VETERINAIRE : Luc MARAJ accueille un chat qui se présente à sa porte et explique les plaisirs qu'il tire de son métier de vétérinaire (1'35\")",
     "SERIE : Les années collège (la rupture)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.499024"
 }

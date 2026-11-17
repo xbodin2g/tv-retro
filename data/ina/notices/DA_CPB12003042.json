@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003042",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003042/recre-a2-emission-du-31-janvier-1980?rang=46",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:17:45.351923",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,6 @@
     "Mademoiselle Rose et Charlemagne",
     "Félix le chat",
     "Sido et Rémi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.534812"
 }

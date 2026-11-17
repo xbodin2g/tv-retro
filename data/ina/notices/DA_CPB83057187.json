@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83057187",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057187/recre-a2-emission-du-19-fevrier-1983?rang=52",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:43:06.377830",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Bande 89126"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.069764"
 }

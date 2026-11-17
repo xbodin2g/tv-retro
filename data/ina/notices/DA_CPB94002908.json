@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002908",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002908/giga-emission-du-11-avril-1994?rang=133",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:48:12.290844",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
     "\"Seconde B \": re",
     "\"Les années collège\" : achat",
     "Diffusion d'un court extrait d'un clip de NIRVANA, et d'un extrait du spectacle de Julien CLERC à l'Olympia"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.690130"
 }

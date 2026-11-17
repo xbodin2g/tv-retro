@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012072",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012072/giga-emission-du-27-septembre-1991?rang=146",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:19:21.880240",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de ce Giga",
     "Les séries \"Sauvés par le gong\" et \"Les années collège\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.127451"
 }

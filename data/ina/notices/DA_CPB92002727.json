@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002727",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002727/giga-emission-du-23-avril-1992?rang=87",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:32:14.427331",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "Diffusion des trois séries américaines : \"Sois prof et tais toi\", \"Sauvé par le gong\", \"Le prince de Bel Air\"",
     "LES INFOS DE GIGA : présentation de la prochaine émission célébrant la 500 ème de GIGA"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.275537"
 }

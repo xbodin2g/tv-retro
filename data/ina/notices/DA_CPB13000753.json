@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13000753",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13000753/recre-a2-emission-du-13-mars-1982?rang=71",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:05:12.681589",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,7 +21,8 @@
   ],
   "elements": [
     "Wattoo Wattoo",
-    "La bande à Bédé",
+    "La bande à BéDé",
     "La révolte Irlandaise"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.578893"
 }

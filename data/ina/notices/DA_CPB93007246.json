@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007246",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007246/giga-emission-du-25-juin-1993?rang=115",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:24:32.547064",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,6 @@
     "HAPPY DAYS : série américaine",
     "SECONDE B : Passion Interdite",
     "REPORTAGE : à Saint Etienne sur les tramways"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.549797"
 }

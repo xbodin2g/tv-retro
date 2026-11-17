@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010407",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010407/giga-emission-du-17-juillet-1991?rang=133",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:15:58.299720",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   ],
   "elements": [
     "Reportages sur 3 métiers pouvant intéresser les jeunes"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.091956"
 }

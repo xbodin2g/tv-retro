@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053737",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053737/recre-a2-emission-du-30-juillet-1982?rang=384",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:13:21.486344",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -24,5 +24,6 @@
     "Spectreman",
     "Balour et Balu",
     "Casper et ses amis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.919162"
 }

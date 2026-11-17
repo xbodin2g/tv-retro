@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010133",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010133/recre-a2-emission-du-12-aout-1986?rang=489",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:12:26.176245",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -22,5 +22,6 @@
     "Les Schtroumpfs",
     "Jacky fait des tentatives de record sous l'eau",
     "Tom Sawyer"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.406290"
 }

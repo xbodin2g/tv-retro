@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003616",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003616/recre-a2-emission-du-22-fevrier-1983?rang=39",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:43:15.207823",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Jean qui pleure Jean qui rit",
     "Latulu et Lireli",
-    "La Bande à Bédé",
+    "La bande à BéDé",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.256763"
 }

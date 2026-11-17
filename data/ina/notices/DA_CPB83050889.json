@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050889",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050889/recre-a2-emission-du-02-avril-1983?rang=168",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:45:32.964875",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Bde 79796"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.000212"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003108",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003108/recre-a2-emission-du-20-decembre-1978?rang=165",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:26:43.501420",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,5 +38,6 @@
     "Discopuce",
     "Papivole",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.631494"
 }

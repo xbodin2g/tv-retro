@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002354",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002354/giga-emission-du-15-mars-1994?rang=65",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:47:00.256935",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Cette émission est uniquement composée de deux séries : Seconde B \"liaisons dangereuses\" (CPB94002042) et Les années collèges \"les grandes espérances\" (achat)."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:10.681046"
 }

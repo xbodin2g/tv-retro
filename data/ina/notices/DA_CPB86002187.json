@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86002187",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002187/recre-a2-emission-du-10-janvier-1986?rang=141",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:56:18.405318",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,6 @@
     "Latulu et Lireli",
     "Téléchat",
     "Les maîtres de l'Univers"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.243691"
 }

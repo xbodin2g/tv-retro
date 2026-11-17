@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006958",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006958/giga-emission-du-14-juin-1993?rang=196",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:23:38.409491",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,6 +21,8 @@
   ],
   "elements": [
     "L'émission se déroule en présence des élèves de première du lycée RABELAIS de Meudon",
-    "FEUILLETONS : Quoi de Neuf Docteur, La Fête à la Maison, Seconde B"
-  ]
+    "FEUILLETONS : Quoi de Neuf Docteur, La Fête à la Maison, Seconde B",
+    "Docteur GIGA : Thierry JOLY répond à des questions relatives à la mauvaise haleine, aux saignements de nez, à la voix enrouée, au mal des transports"
+  ],
+  "normalized_at": "2026-11-17T07:00:10.540252"
 }

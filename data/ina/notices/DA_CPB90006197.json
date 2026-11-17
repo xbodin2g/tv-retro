@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006197",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006197/giga-emission-du-11-juillet-1990?rang=159",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:51:18.705024",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "SERIE GIGA : \"ALF\" (feuilleton américain)",
     "GIGACLIP d'Elton JOHN : \"Club at the end of the street\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.522777"
 }

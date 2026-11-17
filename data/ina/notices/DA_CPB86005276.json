@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005276",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005276/recre-a2-emission-du-4-mars-1986?rang=305",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:00:27.240603",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,10 +24,11 @@
   "elements": [
     "François CORBIER joue un policier daltonien puis bègue pour présenter les différentes rubriques",
     "Téléchat",
-    "Image Imagine",
+    "Image imagine",
     "C'est chouette",
     "Super DOC : L'échelle (1)",
     "Latulu et Lireli",
     "Les mondes engloutis (Gog et Magog, 1ère partie )"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.293369"
 }

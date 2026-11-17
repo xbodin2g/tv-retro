@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012447",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012447/giga-emission-du-13-decembre-1993?rang=250",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:32:51.091660",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire de ce nouveau numéro de \"GIGA\" : \"Un toit pour dix\", \"Sauvés par le gong\", \"Le Prince de Bel air\" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.645169"
 }

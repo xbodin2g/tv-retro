@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92007047",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92007047/giga-emission-du-24-juillet-1992?rang=201",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:35:44.519303",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "Série \"Quoi de neuf docteur ?\" (achat),",
     "Jeu Quizako,",
     "Clip de Mickaël JACKSON,"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.327589"
 }

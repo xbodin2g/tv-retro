@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000863",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000863/recre-a2-emission-du-03-novembre-1982?rang=425",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:20:43.909403",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -53,5 +53,6 @@
     "Lippy le lion",
     "La Panthère rose",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.885604"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008153",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008153/giga-emission-du-21-juillet-1993?rang=220",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:25:35.288165",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "SERIES : \"Happy days\", \"Prince de bel air\" (achats)",
     "REPORTAGES : le skate à moteur, le vélo couché (re",
     "POSEIDON : interview de Michel LEFEBVRE, responsable du projet Pose. Don, un satellite chargé de l'étude des océans"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.570088"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014294",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014294/giga-emission-du-23-novembre-1992?rang=119",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:41:25.173658",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "Série : \"Sauvé par le gong\" (achat)",
     "Série : \"Un toit pour dix\" (achat)",
     "Série : \"Le prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.392548"
 }

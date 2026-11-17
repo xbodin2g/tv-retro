@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006401",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006401/recre-a2-emission-du-2-avril-1986?rang=466",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:02:54.250841",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -52,5 +52,6 @@
     "Clip Bibifoc",
     "X-Or",
     "Discopuce"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.318582"
 }

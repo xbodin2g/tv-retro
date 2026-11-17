@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001946",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001946/giga-emission-du-25-janvier-1993?rang=145",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:16:42.686223",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
     "SERIE : \"Major dad \" (achat)."
   ],
   "elements": [
+    "Elevage de chiens SHARPE dans les Landes, [gros plan] chiots, dressage des chiens. L'éleveur décrit le caractère du chien très proche de son maître",
     "SERIE : \"Quoi de neuf docteur \"(achat)",
     "SERIE : \"le prince de Bel Air\" (achat)",
     "SERIE : \"Major dad \" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.433218"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010312",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010312/giga-emission-du-4-octobre-1993?rang=46",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:29:19.117195",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
     "\"La Fête à la Maison\" (Achat)",
     "\"TV 101\" (Achat)",
     "\"Le Prince de Bel Air\" (Achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.606129"
 }

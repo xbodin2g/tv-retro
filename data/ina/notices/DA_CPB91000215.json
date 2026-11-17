@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000215",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000215/recre-a2-emission-du-16-decembre-1981?rang=395",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:57:10.846814",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -56,5 +56,6 @@
     "Tilt",
     "les Troubadours chantent \"El Huachi torito\"",
     "La Panthère rose"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.863117"
 }

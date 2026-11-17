@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000503",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000503/giga-emission-du-7-janvier-1992?rang=176",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:26:35.984068",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,6 @@
     "Images de l'escale d'Antoine au Portugal (Polygram Video)",
     "Questions du jeu et images des cadeaux à gagner",
     "Pour conclure, sommaire en images du prochain numéro"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.191380"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002037",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002037/recre-a2-emission-du-13-avril-1983?rang=466",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:46:28.925079",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,10 +46,11 @@
     "Maraboud'ficelle",
     "Discopuce",
     "Télétactica",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Zeltron",
     "Démonstration pompiers",
     "Les Schtroumpfs",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.939304"
 }

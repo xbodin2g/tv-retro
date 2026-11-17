@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009288",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009288/giga-emission-du-2-septembre-1993?rang=165",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:27:59.558588",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au programme de cet après-midi : les deux séries \"Happy days\" et \"Le Prince de Bel Air\". Il n'y a pas eu de reportage"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.592146"
 }

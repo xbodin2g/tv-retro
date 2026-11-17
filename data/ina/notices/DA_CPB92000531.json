@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000531",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000531/giga-emission-du-18-decembre-1991?rang=180",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:23:13.961409",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "Diffusion de la série Salut les copains, Un toit pour dix, Quizako, et reportages",
     "Dodon BEN RADIS. Interview de Dodo et Jano, les deux auteurs de la BD \"Bonjour les Indes\". BT planches de dessins"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.193937"
 }

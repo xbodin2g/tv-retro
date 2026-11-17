@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000215",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000215/giga-emission-du-4-janvier-1993?rang=87",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:15:42.914539",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de Giga \"Sauvés Par le Gong\" et \"Matt Houston\"",
     "Sur le parvis de la Défense à Paris a été érigé un musée de l'automobile de collection où se côtoient Cadillac des années 30, et DELAHAYE"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.414778"
 }

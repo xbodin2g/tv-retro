@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002671",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002671/recre-a2-emission-du-14-avril-1985?rang=277",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:35:18.058667",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,9 +25,10 @@
   "elements": [
     "Poochie",
     "Anim'A2 Résumé",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Chanson Corbier",
     "Les maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.687529"
 }

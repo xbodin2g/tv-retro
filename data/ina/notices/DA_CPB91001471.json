@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001471",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001471/recre-a2-emission-du-25-janvier-1983?rang=44",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:41:18.261623",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Julie"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Yok Yok",
     "Il était une fois le cirque",
-    "La bande à bédé",
+    "La bande à BéDé",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.914185"
 }

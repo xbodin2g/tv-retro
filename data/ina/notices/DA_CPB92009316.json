@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009316",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009316/giga-emission-du-13-aout-1992?rang=24",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:35:59.671466",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "Les années collège",
     "Carré d'as (cf au doc)",
     "Pas de reportage"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.330170"
 }

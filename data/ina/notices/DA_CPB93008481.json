@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008481",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008481/giga-emission-du-4-aout-1993?rang=177",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:26:12.884491",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
     "Emission composée de la façon suivante",
     "HAPPY DAYS : série américaine",
     "LE PRINCE DE BEL AIR : série américaine"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.579712"
 }

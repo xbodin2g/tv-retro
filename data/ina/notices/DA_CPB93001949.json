@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001949",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001949/giga-emission-du-27-janvier-1993?rang=146",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:16:49.622555",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
     "SERIE : Major Dad \"Echecs postaux\" (achat)."
   ],
   "elements": [
+    "INFOS DE GIGA : l'opération Pièces Jaunes Soleil est destinée à collecter des fonds pour améliorer l'accueil des parents d'enfants hospitalisés",
     "SERIE : Quoi de neuf docteur ? (achat)",
     "SERIE : Le prince de Bel Air \"Le haut du panier\" (achat)",
     "SERIE : Major Dad \"Echecs postaux\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.435143"
 }

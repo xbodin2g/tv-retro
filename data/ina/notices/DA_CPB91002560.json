@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002560",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002560/recre-a2-emission-du-16-janvier-1984?rang=360",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:03:53.328461",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Tom Sawyer",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.957481"
 }

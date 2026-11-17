@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90011472",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011472/giga-emission-du-12-decmbre-1990?rang=115",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:59:17.257419",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Emission composée d'une interview de David HALLYDAY, d'infos et de la série \"les Années collège : il m'aime, il ne m'aime pas\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.629911"
 }

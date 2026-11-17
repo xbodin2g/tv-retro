@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009386",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009386/giga-emission-du-9-septembre-1993?rang=167",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:28:19.138905",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Cette émission sans plateau est composée de trois séries (achats), d'un reportage et d'une interview",
     "Séries : \"La fête à la maison\", \"TV 101\" et \"Le prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.595714"
 }

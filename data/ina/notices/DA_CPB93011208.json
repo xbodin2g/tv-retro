@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011208",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011208/giga-emission-du-11-novembre-1993?rang=9",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:31:22.600011",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "Diffusion des séries \"Sauvés par le gong\" et \"Le Prince de Bel Air\""
   ],
   "elements": [
+    "Reportage sur le Salon international de l'insecte qui a lieu à Paris à l'espace Champerret. Interview d'un écolier qui veut être entomologiste",
     "Pierre Emmanuel ROUBAUD décrit les Phasmes qui sont des insectes qui ressemblent aux feuilles des arbres",
     "Henri LIPS (?) est un éleveur d'araignées et élève 500 araignées",
     "Diffusion des séries \"Sauvés par le gong\" et \"Le Prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.629233"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205905402",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205905402/recre-a2-emission-du-09-novembre-1982?rang=127",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:21:01.431846",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Julie"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Si Si Si",
     "Sido et Rémi",
     "C'est chouette",
     "Drôles d'enfants"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.981749"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053091",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053091/recre-a2-emission-du-12-mars-1983?rang=156",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:44:25.059187",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Bde 83776"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.043364"
 }

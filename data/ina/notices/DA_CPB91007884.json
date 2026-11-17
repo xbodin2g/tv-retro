@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007884",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007884/giga-emission-du-24-avril-1991?rang=191",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:12:35.498752",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
   "elements": [
     "(indexation indépendante)",
     "\"Un toit pour 10\" (achat) / \"Quoi de neuf docteur\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.045455"
 }

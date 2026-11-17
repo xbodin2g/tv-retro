@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86002983",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002983/recre-a2-emission-du-13-janvier-1986?rang=328",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:56:28.787887",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,8 +21,9 @@
   ],
   "elements": [
     "Dans un décor de commissariat de police, Charlotte et Bernard présentent les sujets qui composent l'émission",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Téléchat",
     "Cobra"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.244224"
 }

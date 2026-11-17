@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80057332",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80057332/recre-a2-emission-du-07-mai-1980?rang=350",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:23:01.318447",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,5 +46,6 @@
     "Félix le chat",
     "Albator",
     "Popeye"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.771725"
 }

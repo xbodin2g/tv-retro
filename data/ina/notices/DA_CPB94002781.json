@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002781",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002781/giga-emission-du-5-avril-1994?rang=100",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:47:59.608141",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Emission composée de deux séries : Seconde B (rediffusion) et Les années collège (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.688697"
 }

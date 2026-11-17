@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005282",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005282/giga-emission-du-18-fevrier-1991?rang=77",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:08:51.268997",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "GIGA propose après la diffusion de la série \"Sauvés par le gong\" trois reportages",
     "Jimmy BOY : Dominique DAVID, dessinatrice de bande dessinée à Bruxelles présente son héros et le thème de la BD"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.991139"
 }

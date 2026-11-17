@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011141",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011141/giga-emission-du-26-aout-1991?rang=107",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:17:25.749702",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire de \"Giga\" : \"Quoi de neuf docteur\" (achat) et \"La famille Fontaine\" (rediffusion)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.107126"
 }

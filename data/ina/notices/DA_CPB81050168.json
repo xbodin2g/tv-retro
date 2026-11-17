@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050168",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050168/recre-a2-emission-du-26-mars-1981?rang=79",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:43:37.561590",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,6 +23,7 @@
     "Émilie",
     "Discopuce",
     "Félix le chat",
-    "La bande à Bédé"
-  ]
+    "La bande à BéDé"
+  ],
+  "normalized_at": "2026-11-17T07:00:08.774584"
 }

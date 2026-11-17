@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050969",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050969/recre-a2-emission-du-12-janvier-1983?rang=461",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:40:32.335727",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -50,5 +50,6 @@
     "Les petits môts de Jean Lacroix",
     "La Panthère rose",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.001849"
 }

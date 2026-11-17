@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003916",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003916/recre-a2-emission-du-27-decembre-1983?rang=344",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:00:04.522592",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,11 +29,12 @@
   ],
   "elements": [
     "Papivole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Sido et Rémi",
     "Princesse insensible",
     "Dessin animé : L'étoile de Bethléem",
     "Dessin animé : Douze mois",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.983211"
 }

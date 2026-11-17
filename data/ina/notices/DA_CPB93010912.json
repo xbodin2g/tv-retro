@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010912",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010912/giga-emission-du-3-novembre-1993?rang=10",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:30:59.561865",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Sans générique de début. La série \"L'annexe\" commence avec son propre générique. Suivent les autres séries (achat) : \"Sauvés par le gong\" et \"Sois prof et tais toi\"."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:10.625070"
 }

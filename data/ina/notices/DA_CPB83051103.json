@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051103",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051103/recre-a2-emission-du-23-avril-1983?rang=229",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:47:07.475879",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,5 +14,8 @@
   "titles_raw": [
     "Clôture du jeu concours de poésie avec résultats. Remise des cadeaux et présentation de l'oeuvre qui a reçu le prix spécial du jury.(Bande 94606)"
   ],
-  "elements": []
+  "elements": [
+    "Clôture du jeu concours de poésie avec résultats. Remise des cadeaux et présentation de l'oeuvre qui a reçu le prix spécial du jury.(Bande 94606)"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.003502"
 }

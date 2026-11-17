@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003914",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003914/giga-emission-du-4-mai-1990?rang=156",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:48:33.420511",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "L'émission alterne entre ces reportages et deux séries, \"Les deux font la loi\" et \"Les années collège\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.492529"
 }

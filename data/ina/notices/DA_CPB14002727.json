@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14002727",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14002727/recre-a2-emission-du-16-mai-1979?rang=373",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:12:55.802268",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -65,5 +65,6 @@
     "Spot Récré A2",
     "Discorébus",
     "Les Bubblies"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.619633"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050488",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050488/recre-a2-emission-du-09-mars-1983?rang=465",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:44:08.164732",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -56,5 +56,6 @@
     "Les Schtroumpfs",
     "Heidi",
     "Combat à l'épée par deux cascadeurs de l'équipe de C. Carllez avec Dorothée"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.992914"
 }

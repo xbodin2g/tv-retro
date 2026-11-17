@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008349",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008349/giga-emission-du-25-septembre-1990?rang=79",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:55:07.658869",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "INFOS GIGA. Tina TURNER en concert. GIGA SERIE. Larry et Blalki",
     "INFOS GIGA. Johnny HALLYDAY en concert"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.578202"
 }

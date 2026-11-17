@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014876",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014876/giga-emission-du-9-janvier-1991?rang=227",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:07:11.683445",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Au sommaire de l'émission"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.826234"
 }

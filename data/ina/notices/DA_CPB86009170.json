@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009170",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009170/recre-a2-emission-du-6-juillet-1986?rang=475",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:09:39.902635",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -23,5 +23,6 @@
     "Mafalda",
     "Super DOC : Dans le sac (2)",
     "La révolte Irlandaise"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.386084"
 }

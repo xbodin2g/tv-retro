@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90004852",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90004852/club-dorothee-emission-du-6-juin-1990?rang=100",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T22:51:53.092524",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,6 @@
   "elements": [
     "\"JEU DES GENIES\" (questions sur des séries, dessins animés, chansons...), \"JEU DE l'ABC\" (Jacky reçoit le seau d'eau)",
     "\"DRAGON BALL\", \"LES SAMOURAIS DE L'ETERNEL\", \"LE COLLEGE FOU FOU FOU\", \"LES CHEVALIERS DU ZODIAQUE\" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.399525"
 }

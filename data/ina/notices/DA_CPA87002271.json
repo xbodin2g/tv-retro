@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87002271",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87002271/vitamine-emission-du-1er-avril-1987?rang=14",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T22:52:06.231284",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -23,7 +23,9 @@
   ],
   "elements": [
     "MUSIK : Jacky et les musiciens, déguisés, imitent le groupe Indochine et chantent \"Tes yeux noirs\"",
+    "CINE : Jacky présente un extrait de \"Bisounours\" truqué (c'est Jacky qui dit la bande son), puis le bon extrait et pose la question du concours",
     "MODE LOOK : Pascale montre comment décorer un T-shirt troué",
     "CASCADE : Pascale et les musiciens jouent une bagarre puis explique ses mouvements sur les images au ralenti"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:07.892258"
 }

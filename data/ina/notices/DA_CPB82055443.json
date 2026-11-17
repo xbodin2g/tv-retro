@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055443",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055443/recre-a2-emission-du-08-janvier-1982?rang=98",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:01:12.062325",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,6 @@
     "Pouffi et Fouki",
     "Le petit écho de la forêt",
     "Dick le rebelle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.950538"
 }

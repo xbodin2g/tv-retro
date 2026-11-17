@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006312",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006312/recre-a2-emission-du-24-mars-1986?rang=313",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:02:15.449322",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,7 +21,8 @@
   "elements": [
     "Véronique déguisée en Geisha et CORBIER se livrent aux Arts Martiaux",
     "Téléchat",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Cobra"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.315286"
 }

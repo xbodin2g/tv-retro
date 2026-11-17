@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004753",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004753/recre-a2-emission-du-25-fevrier-1986?rang=304",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:59:55.859672",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,10 +26,11 @@
   "elements": [
     "Marie DAUPHIN a invité un grand chef d'orchestre, le BEETHOVEN du XXème siècle, pour présenter l'émission",
     "Téléchat",
-    "Image Imagine",
+    "Image imagine",
     "C'est chouette",
     "Super Doc : Plus d'un savon (1)",
     "Latulu et Lireli",
-    "Les Mondes Engloutis"
-  ]
+    "Les mondes engloutis"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.285291"
 }

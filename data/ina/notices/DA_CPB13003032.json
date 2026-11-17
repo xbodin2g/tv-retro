@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13003032",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13003032/recre-a2-emission-du-13-octobre-1983?rang=217",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:56:13.159505",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,8 +29,9 @@
     "Les aventures d'une souris sur mars",
     "Yakari",
     "Mes mains ont la parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Jane de la jungle",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.597721"
 }

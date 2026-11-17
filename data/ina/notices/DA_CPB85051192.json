@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051192",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051192/recre-a2-emission-du-17-mars-1985?rang=405",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:33:26.906612",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,6 @@
     "DOROTHEE chante \"qu'il est bête\"",
     "Candy",
     "Wiliam chante \"Pac-Man\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.163862"
 }

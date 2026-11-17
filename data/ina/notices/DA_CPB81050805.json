@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050805",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050805/recre-a2-emission-du-25-mars-1981?rang=369",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:43:33.072212",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -60,5 +60,6 @@
     "Boule et Bill",
     "Holiday on Ice",
     "Dessin animé Warner Bros"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.784879"
 }

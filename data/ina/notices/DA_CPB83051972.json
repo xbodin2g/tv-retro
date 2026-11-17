@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051972",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051972/recre-a2-emission-du-20-avril-1983?rang=455",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:46:54.485652",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -56,5 +56,6 @@
     "MARTIN \"Que sont mes amis devenus\"",
     "Heidi",
     "J. MADD fait quelques numéros de prestidigitation"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.024333"
 }

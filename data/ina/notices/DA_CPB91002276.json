@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002276",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002276/recre-a2-emission-du-21-mai-1983?rang=185",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:49:10.399691",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,7 +25,8 @@
   "elements": [
     "Georges de la jungle",
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les croque monstres"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.950755"
 }

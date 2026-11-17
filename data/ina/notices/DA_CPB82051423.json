@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051423",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051423/recre-a2-emission-du-15-avril-1982?rang=148",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:06:33.358388",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,6 @@
     "Le petit écho de la forêt",
     "Tilt",
     "Si on jouait au théâtre"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.876840"
 }

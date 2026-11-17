@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010276",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010276/recre-a2-emission-du-14-aout-1986?rang=423",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:12:34.173989",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -20,6 +20,7 @@
   "elements": [
     "Les Schtroumpfs",
     "SUPER DOC : Le temps libre (1)",
-    "LES MONDES ENGLOUTIS"
-  ]
+    "Les mondes engloutis"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.407299"
 }

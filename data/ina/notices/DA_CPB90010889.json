@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010889",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010889/giga-emission-du-30-novembre-1990?rang=140",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:58:26.064523",
   "program_query": "Giga",
   "programme": "Giga",
@@ -31,5 +31,6 @@
     "Reportage : JOURNEE DU CHEVAL",
     "Reportage : LES Garçons Bouchers",
     "Dernière information Giga : présentation du Cirque Barbarie, le premier cirque féminin du monde"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.622667"
 }

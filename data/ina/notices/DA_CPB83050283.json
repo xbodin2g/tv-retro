@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050283",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050283/recre-a2-emission-du-04-avril-1983?rang=166",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:45:58.070517",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,7 +25,8 @@
   "elements": [
     "Le petit écho de la forêt",
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Tom Sawyer"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.987651"
 }

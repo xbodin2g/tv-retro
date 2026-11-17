@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006887",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006887/recre-a2-emission-du-25-avril-1986?rang=99",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:04:52.949793",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,8 @@
   "elements": [
     "Téléchat",
     "Super Doc : Gare aux explosions (2)",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "She-ra princesse du pouvoir"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.335669"
 }

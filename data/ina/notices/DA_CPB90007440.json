@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007440",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007440/giga-emission-du-31-aout-1990?rang=124",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:54:05.107412",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,5 +14,8 @@
   "titles_raw": [
     "Reportage sur un sport nouveau que l'on peut pratiquer dans les Alpes à partir de 12 ans : le canoning. Les années Collège (série américaine)."
   ],
-  "elements": []
+  "elements": [
+    "Reportage sur un sport nouveau que l'on peut pratiquer dans les Alpes à partir de 12 ans : le canoning. Les années Collège (série américaine)"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.559619"
 }

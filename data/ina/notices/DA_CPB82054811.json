@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054811",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054811/recre-a2-emission-du-03-fevrier-1982?rang=402",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:02:42.297363",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -55,7 +55,7 @@
     "Discorébus : L. DE SUZA chante \"petite pluie\"",
     "Pouffi et Fouki",
     "Casper et ses amis",
-    "Le Petit écho de la forêt",
+    "Le petit écho de la forêt",
     "Reportage sur Lewis Caroll",
     "Chronos : REP. Sur le salon nautique après la fermeture. Le conseil constitutionnel expliqué à l'aide de dessins",
     "Bouquin Bouquine",
@@ -69,5 +69,6 @@
     "Lippy le lion",
     "Candy",
     "Dorothée chante \"Compère Guilleri\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.942821"
 }

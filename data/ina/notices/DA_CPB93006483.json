@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006483",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006483/giga-emission-du-31-mai-1993?rang=195",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:22:59.922613",
   "program_query": "Giga",
   "programme": "Giga",
@@ -12,5 +12,6 @@
   "start": "18:15",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:10.527505"
 }

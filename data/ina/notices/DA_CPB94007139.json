@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94007139",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94007139/giga-emission-du-22-aout-1994?rang=23",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:53:44.496295",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "\"Quoi de neuf docteur : les colocataires \"",
     "\"La fête à la maison : pauvre papa\"",
     "Pas de reportages"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.727511"
 }

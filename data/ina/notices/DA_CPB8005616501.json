@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8005616501",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8005616501/recre-a2-emission-du-16-juin-1980?rang=193",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:24:40.333207",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,6 @@
     "Les Bubblies",
     "Miss Rose et Charlemagne",
     "Albator"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.769565"
 }

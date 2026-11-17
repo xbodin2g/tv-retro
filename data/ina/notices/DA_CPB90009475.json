@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009475",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009475/giga-emission-du-26-octobre-1990?rang=134",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:56:58.310879",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Feuilleton \"Larry et Balky\" (ACHAT)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.598899"
 }

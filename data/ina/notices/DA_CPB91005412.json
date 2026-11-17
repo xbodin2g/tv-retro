@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005412",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005412/giga-emission-du-27-fevrier-1991?rang=6",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:09:30.352972",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "série : zorro",
     "Hit énergie"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.997825"
 }

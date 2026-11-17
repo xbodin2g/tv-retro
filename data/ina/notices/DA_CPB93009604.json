@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009604",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009604/giga-emission-du-14-septembre-1993?rang=183",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:28:25.815975",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Diffusion des séries : La fête à la maison, Tv 101, Le prince de Bel Air (séries américaines)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.597206"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008443",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008443/giga-emission-du-13-aout-1993?rang=210",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:26:39.172842",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,7 +17,9 @@
     "Reportage : \"Cross canin\" (jou Ludovic KUPEZAK) déjà diffusé le 13/01/93."
   ],
   "elements": [
+    "L'",
     "Les 2 séries : HAPPY DAYS \"cohabitation\" (achat) ; LE PRINCE DE BEL AIR (achat)",
     "Reportage : \"Cross canin\" (jou Ludovic KUPEZAK) déjà diffusé le 13/01/93"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.577666"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94004001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94004001/giga-emission-du-19-mai-1994?rang=104",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:50:27.272597",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
     "Emission composée de deux séries américaines",
     "La première fois",
     "Les années collège"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.704043"
 }

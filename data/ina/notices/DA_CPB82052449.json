@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052449",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052449/recre-a2-emission-du-10-novembre-1982?rang=366",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:21:06.117115",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -51,5 +51,6 @@
     "Bouquin bouquine",
     "La Panthère rose",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.891743"
 }

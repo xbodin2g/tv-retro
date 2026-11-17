@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012861",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012861/giga-emission-du-25-octobre-1991?rang=164",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:20:34.539313",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Au sommaire de ce numéro de GIGA",
     "\"Sauvés par le gong\", \"la fête à la maison\", achats"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.141235"
 }

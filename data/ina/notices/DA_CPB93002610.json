@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002610",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002610/giga-emission-du-15-fevrier-1993?rang=73",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:37.218171",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,6 @@
     "Anniversaire : Giga fête ses trois ans cette semaine. Jean-François BOUQUET présente les rubriques",
     "SERIES",
     "(achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.451443"
 }

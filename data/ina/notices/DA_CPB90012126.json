@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012126",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012126/recre-a2-emission-du-07-aout-1978?rang=63",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:20:29.698411",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,6 @@
   "elements": [
     "Goldorak",
     "Professor Popper's problems"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.635564"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010713",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010713/giga-emission-du-19-octobre-1993?rang=50",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:30:16.319123",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire de cette émission : \"Goal : les pieds du Pékin\", \"L'annexe : Miss Pizzanex\" et \"Promo 96\"(Achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.617195"
 }

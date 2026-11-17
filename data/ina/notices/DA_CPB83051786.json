@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051786",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051786/recre-a2-emission-du-21-juin-1983?rang=193",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:50:54.328537",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,9 +21,10 @@
     "Plateau Julie"
   ],
   "elements": [
-    "Latulu et lireli",
-    "Pic Pic Pic",
+    "Latulu et Lireli",
+    "Pic pic pic",
     "Sido et Rémi",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.017741"
 }

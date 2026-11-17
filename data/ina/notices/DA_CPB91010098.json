@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010098",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010098/giga-emission-du-9-juillet-1991?rang=31",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:15:42.259842",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Seul élément de l'émission, diffusion de la série américaine \"Quoi de neuf docteur\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.088564"
 }

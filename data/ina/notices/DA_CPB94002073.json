@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002073",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002073/giga-emission-du-10-mars-1994?rang=87",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:46:48.481704",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "2 series au programme de l'émission d'aujourd'hui : \"Seconde B\" (indexé à part) et \"Les années collège\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.679860"
 }

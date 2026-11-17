@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006487",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006487/giga-emission-du-4-juin-1993?rang=110",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:23:15.611993",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   ],
   "elements": [
     "\"Le Prince de Bel Air\" et \"Major Dad\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.532118"
 }

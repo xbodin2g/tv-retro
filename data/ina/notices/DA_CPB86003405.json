@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003405",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003405/recre-a2-emission-du-22-janvier-1986?rang=441",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:57:06.892522",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -49,9 +49,10 @@
     "Itw Martin créateur du personnage d'Alix",
     "Le monde selon Georges",
     "Itw Dupa, créateur du chien Cubitus",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Mafalda",
     "L'Empire des 5",
     "X OR"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.251089"
 }

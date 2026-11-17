@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84055556",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84055556/recre-a2-emission-du-10-avril-1984?rang=398",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:06:50.967346",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,10 +26,11 @@
   ],
   "elements": [
     "Papivole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Télétactica",
     "Terre des bêtes",
     "C'est chouette",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.128200"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84050777",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84050777/recre-a2-emission-du-05-avril-1984?rang=467",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:06:07.840007",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,10 +24,11 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Mes mains ont la parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Albator 84",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.084633"
 }

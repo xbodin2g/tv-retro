@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011148",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011148/giga-emission-du-6-septembre-1991?rang=109",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:17:59.070338",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "SERIE : \"Quoi de neuf Docteur? \". REPORTAGE : Deux-chevaux nautiques à Lorient (rediffusion)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.110849"
 }

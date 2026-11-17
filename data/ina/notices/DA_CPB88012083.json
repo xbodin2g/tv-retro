@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB88012083",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB88012083/recre-a2-emission-du-28-decembre-1983?rang=319",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:00:09.290218",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -45,5 +45,6 @@
     "\"Le retour d'Ivanoé\"(achat)",
     "Discopuce",
     "LES MYSTERIEUSES CITES D'OR"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.443648"
 }

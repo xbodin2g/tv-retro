@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010886",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010886/giga-emission-du-27-novembre-1990?rang=112",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:58:13.945912",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,7 +21,9 @@
   ],
   "elements": [
     "INFOS GIGA : extrait du spectacle de Pierre PALMADE \"On s'connaît ?\"",
+    "Extrait du film \"Pretty woman\" puis interview des 2 acteurs principaux : Richard GERE et Julia ROBERTS ainsi que du metteur en scène Gary MARSHALL",
     "Jean Pierre STARK est shaper, façonneur de planches de surf. Il parle de son métier et explique la fabrication d'une planche",
     ", \"Larry et Balky\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.619085"
 }

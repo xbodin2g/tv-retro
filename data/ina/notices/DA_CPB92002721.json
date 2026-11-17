@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002721",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002721/giga-emission-du-15-avril-1992?rang=8",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:31:25.030756",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de l'émission : -séries \"Salut les copains\" / \"Sois prof et tais-toi\" / \"Sauvés par le gong\"",
     "Jeu Quizako"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.269999"
 }

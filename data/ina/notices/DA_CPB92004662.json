@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004662",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004662/giga-emission-du-9-juin-1992?rang=93",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:33:33.000663",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Feuilletons : \"Les Années Collège\", \"Le Prince de Bel Air \" et Goal"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.299198"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006492",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006492/giga-emission-du-11-juin-1993?rang=237",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:23:34.523698",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,6 +19,8 @@
   ],
   "elements": [
     "Manuel GELIN et Clémentine présentent les rubriques et séries composant l'émission",
+    "REPORTAGE : interview de la chanteuse ZAZIE qui, sur des images de son dernier clip, parle de sa carrière, de son enfance et de sa personnalité",
     "SERIES : \"Quoi de neuf docteur\", \"La fête à la maison\" (achats); \"Seconde B\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.536830"
 }

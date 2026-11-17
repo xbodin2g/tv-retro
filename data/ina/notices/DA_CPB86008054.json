@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008054",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008054/recre-a2-emission-du-02-avril-1985?rang=409",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:34:21.802128",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,9 +31,10 @@
     "Poochie",
     "Les Viratatoums",
     "Anim'A2",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Marie chante \"Teddy\"",
     "Terre des bêtes",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.367844"
 }

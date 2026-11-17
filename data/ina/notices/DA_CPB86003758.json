@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003758",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003758/recre-a2-emission-du-29-janvier-1986?rang=498",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:57:42.558332",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -30,5 +30,6 @@
     "Clip \"Allo Mr l'ordinateur\" chanté par Dorothée",
     "Clip \"Les Poupies\" chanté par véronique",
     "Flip et Bouc"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.261065"
 }

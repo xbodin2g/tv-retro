@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012532",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012532/giga-emission-du-9-octobre-1992?rang=152",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:39:04.469549",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "SERIES : \"La fête à la maison\"; \"Lycée alpin\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.368144"
 }

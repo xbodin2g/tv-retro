@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007299",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007299/recre-a2-special-vacances-emission-du-27-avril-1981?rang=336",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:45:39.234695",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,5 +19,6 @@
   "elements": [
     "Mister Magoo",
     "Wattoo Wattoo"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.553667"
 }

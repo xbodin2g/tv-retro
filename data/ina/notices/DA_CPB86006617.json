@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006617",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006617/recre-a2-emission-du-10-avril-1986?rang=189",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:03:26.631713",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,10 +21,11 @@
   ],
   "elements": [
     "François et Valérie présentent l'émission composée aujourd'hui des séquences suivantes",
-    "\"Téléchat \"",
-    "\"IMAGE IMAGINE\"",
+    "Téléchat",
+    "Image imagine",
     "Mes mains ont la parole",
-    "\"LATULU ET LIRELI\"",
+    "Latulu et Lireli",
     "\"PAC -MAN \"(achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.321999"
 }

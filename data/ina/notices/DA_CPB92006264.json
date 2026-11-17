@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006264",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006264/giga-emission-du-3-juillet-1992?rang=96",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:34:58.753073",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   ],
   "elements": [
     "Au sommaire, trois séries (achats) : \"Sois prof et tais-toi\"; \"Les Années collège\"; \"Le Prince de Bel-Air\" et trois sujets"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.320268"
 }

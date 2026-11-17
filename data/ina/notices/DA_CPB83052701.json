@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052701",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052701/recre-a2-emission-du-03-decembre-1983?rang=300",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:59:01.538681",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "(bde 27435)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.036371"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000402",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000402/recre-a2-emission-du-24-avril-1981?rang=158",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:45:30.757312",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,6 @@
   "elements": [
     "Félix le chat",
     "Tarzan"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.867792"
 }

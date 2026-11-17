@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051983",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051983/recre-a2-emission-du-28-decembre-1982?rang=247",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:24:01.052724",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,7 +27,8 @@
     "Casper et ses amis",
     "C'est chouette",
     "DOROTHEE chante \"si jolie mignone \"",
-    "La bande à Bédé",
+    "La bande à BéDé",
     "Le petit cheval Bossu"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.885761"
 }

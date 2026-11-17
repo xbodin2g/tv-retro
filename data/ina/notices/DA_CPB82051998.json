@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051998",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051998/recre-a2-emission-du-30-decembre-1982?rang=260",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:24:09.471479",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,5 +26,6 @@
     "Histoires comme ça",
     "Pataud dans la tempête",
     "DOROTHEE chante \"V'lal'bon vent\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.886303"
 }

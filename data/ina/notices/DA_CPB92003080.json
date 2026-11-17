@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003080",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003080/giga-emission-du-1er-mai-1992?rang=90",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:32:37.579360",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   ],
   "elements": [
     "Au sommaire, des séries, le jeu Quizako et des reportages"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.283479"
 }

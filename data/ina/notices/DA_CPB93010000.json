@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010000",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010000/giga-emission-du-1er-octobre-1993?rang=45",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:29:15.198860",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "L'émission, sans plateau, se compose de",
     "3 séries américaines \"La fête à la maison,\" TV 101 \"et\" Le prince de Bel Air \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.605525"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003596",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003596/recre-a2-emission-du-24-fevrier-1983?rang=129",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:43:24.504274",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
-    "Latulu et lireli",
+    "Pic pic pic",
+    "Latulu et Lireli",
     "Mes mains ont la parole",
     "Candy",
     "Les trois questions"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.255741"
 }

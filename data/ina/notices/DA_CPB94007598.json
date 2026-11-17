@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94007598",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94007598/giga-emission-du-13-septembre-1994?rang=155",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:54:33.977762",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire \"COOPER et Nous\" (achat) et \"la Fête à la Maison\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.732660"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050147",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050147/recre-a2-emission-du-26-fevrier-1982?rang=191",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:04:24.679933",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,6 @@
     "Les Quat'z Amis",
     "Le petit écho de la forêt",
     "Dick le rebelle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.854987"
 }

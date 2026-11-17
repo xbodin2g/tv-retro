@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94007141",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94007141/giga-emission-du-24-aout-1994?rang=31",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:53:52.803848",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
     "\"Quoi de neuf docteur : la liste suspecte \"(achat)",
     "\"La fête à la maison : coup bas\" (achat)",
     "Pas de reportages"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.728485"
 }

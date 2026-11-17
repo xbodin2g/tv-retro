@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012343",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012343/giga-emission-du-8-decembre-1993?rang=16",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:32:39.772638",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "GIGA propose trois séries \"l'Annexe\" , \"Sauvés par le gong\" (achat), \"le Prince de Bel Air\" (achat) et la BA du dernier film de Patrice BRUEL \"Profil Bas\"."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:10.641933"
 }

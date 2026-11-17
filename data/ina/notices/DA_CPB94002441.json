@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002441",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002441/giga-emission-du-22-mars-1994?rang=90",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:47:18.982963",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "SERIES : \"Seconde B\"; \"les Années collège \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.683126"
 }

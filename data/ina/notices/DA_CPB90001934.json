@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001934",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001934/giga-emission-du-16-mars-1990?rang=39",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:46:11.368020",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Au sommaire, plusieurs reportages : Zingaro, le kendo, le festival du cinéma du réel, et un vidéoclip",
     "Vidéoclip de Tony Scott : \"Get into it\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.470063"
 }

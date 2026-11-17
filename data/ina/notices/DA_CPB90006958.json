@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006958",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006958/giga-emission-du-8-aout-1990?rang=170",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:52:38.332737",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Vanessa PARADIS dit quelques mots de ses projets",
     "Diffusion des séries américaines \"Alf\" et \"Les années collège\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.547199"
 }

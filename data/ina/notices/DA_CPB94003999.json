@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003999",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003999/giga-emission-du-17-mai-1994?rang=74",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:50:19.961694",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire de Giga : \"Les premières fois\" et \"Les années collège\", deux séries (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.703217"
 }

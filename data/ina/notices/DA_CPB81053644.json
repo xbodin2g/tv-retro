@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81053644",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81053644/recre-a2-emission-du-04-avril-1981?rang=82",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:44:05.383646",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Bande 62778"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.818998"
 }

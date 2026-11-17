@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001546",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001546/giga-emission-du-21-janvier-1993?rang=64",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:16:33.854007",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   ],
   "elements": [
     "Etude de 3 ouvrages traitant du sang, des vampires et du Comte DRACULA (à propos de la sortie du film\" Dracula \"de Francis F. COPPOLA)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.429620"
 }

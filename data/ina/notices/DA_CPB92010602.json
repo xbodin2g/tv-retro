@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92010602",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010602/giga-emission-du-4-septembre-1992?rang=222",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:37:02.863543",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Pour ce Giga estival, pas de plateau, mais trois séries (achats) : \"Quoi de neuf docteur\", \"Les années collège\" et \"La fête à la maison\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.342384"
 }

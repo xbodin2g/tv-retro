@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009522",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009522/giga-emission-du-17-juin-1991?rang=70",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:14:12.943071",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "Au sommaire, reportages et séries",
     "SERIE: \"Un toit pour dix \" (achat)",
     "SERIE: \"Quoi de neuf, docteur \" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.073404"
 }

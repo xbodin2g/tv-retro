@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011757",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011757/giga-emission-du-25-septembre-1992?rang=31",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:38:29.046506",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Diffusion des séries La fête à la maison, Quoi de neuf docteur et Sois prof et tais toi ; et du Quizako",
     "Reportage : la course d'orientation"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.358599"
 }

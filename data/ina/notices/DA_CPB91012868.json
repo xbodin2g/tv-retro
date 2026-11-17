@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012868",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012868/giga-emission-du-5-novembre-1991?rang=155",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:20:59.709614",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Astérix : Dans ce second volet Jean-Louis BRUNAUX, chercheur au CNRS, parle de ce que furent les celtes ; présentation de quelques livres",
     "CINEMA : Armand BENATAR, Président de Cinaxe, procédé de cinéma géant qui équipe le Parc de la Villette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.147733"
 }

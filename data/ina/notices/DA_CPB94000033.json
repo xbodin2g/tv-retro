@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000033",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000033/giga-emission-du-4-janvier-1994?rang=108",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:43:36.492205",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Diffusion de trois séries (achats) : Un toit pour dix \"Mon roi, ma reine\", Sauvés par le gong \"Suivis par le gang\" et Le prince de Bel Air"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.652439"
 }

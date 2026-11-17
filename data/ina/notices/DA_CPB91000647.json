@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000647",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000647/giga-emission-du-23-janvier-1991?rang=230",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:07:45.762834",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Diffusion d'un épisode de Zorro"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.876021"
 }

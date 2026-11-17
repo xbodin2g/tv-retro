@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052875",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052875/recre-a2-emission-du-10-octobre-1983?rang=358",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:56:06.651309",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Les Schtroumpfs",
-    "Latulu et lireli",
-    "Le tour du monde en 80 jours",
+    "Latulu et Lireli",
+    "Le Tour du monde en 80 jours",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.039614"
 }

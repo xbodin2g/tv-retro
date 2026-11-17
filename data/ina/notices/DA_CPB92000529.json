@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000529",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000529/giga-emission-du-16-decembre-1991?rang=224",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:23:05.823139",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,7 +20,9 @@
   ],
   "elements": [
     "Reportage sur l'exposition \"Opéra Bulle\" à la Grande Halle de La Villette à Paris",
+    "Int. de Yolande BACOT, organisatrice, qui explique que l'exposition est conçue autour de quelques dessinateurs emblématiques (Goscinni, BILAL, etc.)",
     "Int. de Philippe LEDUC et Marc-Antoine Mathieu qui expliquent comment ils ont conçu les espaces",
     "Int. de BILAL, qui apprécie beaucoup l'expo"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.192195"
 }

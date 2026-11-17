@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010050",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010050/recre-a2-emission-du-5-aout-1986?rang=486",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:11:59.169545",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Diffusion de Pac Man et Tom SAWYER"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.402411"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92015950",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015950/giga-emission-du-4-decembre-1992?rang=161",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:42:01.489626",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "SERIES (achats) : \"Sauvés par le gong : une maison pour Noël\", 2ème partie. \"Le prince de Bel Air : question de couleur\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.402910"
 }

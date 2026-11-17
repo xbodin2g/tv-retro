@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002485",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002485/giga-emission-du-12-fevrier-1993?rang=96",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:33.325073",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "SERIE : QUOI DE NEUF DOCTEUR ? (La rentrée des classes, achat)",
     "SERIE : SOIS PROF ET TAIS TOI ! (achat)",
     "SERIE : MAJOR DAD (L'anniversaire, achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.450140"
 }

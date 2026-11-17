@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001654",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001654/giga-emission-du-28-fevrier-1994?rang=84",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:46:17.036504",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "information TURBO : Salon Croisi-Mer au musée de la Marine",
     "Information CONCERT : Chris REA en tournée"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.676036"
 }

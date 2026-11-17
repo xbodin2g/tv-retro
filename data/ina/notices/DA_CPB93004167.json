@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004167",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004167/giga-emission-du-29-mars-1993?rang=156",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:19:56.637859",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "SONDAGE : jusqu'où peut on aller par amour ? interviews de jeunes répondant à la question. (Pas de grandes folies)",
     "LES APPELS : Thierry JOLY répond à plusieurs questions, le sida du chat, la fiabilité des tests du sida, la boulimie, les bébés éprouvettes",
     "BD : Turf, dessinateur de BD parle de l'inspiration et de l'importance des arbres et des ruines dans ses dessins"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.479403"
 }

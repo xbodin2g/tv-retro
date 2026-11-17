@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053043",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053043/recre-a2-emission-du-26-mai-1982?rang=408",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:09:12.302600",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -32,11 +32,13 @@
   "elements": [
     "Méthanie",
     "Discopuce",
+    "Bricolages insolites : Gaëtan explique le principe d'un instrument appelé \"mando\" et confectionne avec une bouteille de plastique et une ficelle",
     "Bouquin Bouquine",
     "Les survivants de l'ombre",
     "F. CORBIER chante la chanson de la semaine \"la faute a mon chat\"",
     "Maraboud'ficelle : Micha raconte l'enlèvement de DOROTHEE pour la planète du masque noir. CABU illustre l'histoire par son dessin",
     "La Panthère rose",
     "Chronos : Int. de Laure travaillant à la salle d'écoute de S.V.P. Int. de M. DRUON à propos de l'Académie française"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.905811"
 }

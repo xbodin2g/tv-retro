@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011333",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011333/recre-a2-emission-du-24-septembre-1986?rang=437",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:15:33.878127",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -38,7 +38,7 @@
     "Série de d.A.(Achats): \"Yakari\",\"Teddy \",\" Quick et Flupke \",\" Tom SAWYER \"",
     "LE CIRQUE BONHEUR",
     "Clip de Dorothée : \"Chère Elise\"",
-    "LE MONDE SELON Georges",
+    "Le monde selon Georges",
     "\"Les aventures de Dorothée \": série de BT (dessins de CABU représentant Dorothée avec son walkman",
     "\"Quick et Flupke\"(d. A)",
     "\"Le vol du dragon\"(d.A.)",
@@ -47,5 +47,6 @@
     "Reportage : Présentation de : \" Cendrillon\"à l'Opéra comique, pièce entièrement jouée par des enfants, avec interviewes des jeunes vedettes",
     "Jacques MARTIN répond aux questions des enfants posées sur Minitel",
     "\"Les maîtres de l'univers \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.432728"
 }

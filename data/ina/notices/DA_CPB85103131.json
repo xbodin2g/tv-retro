@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85103131",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103131/recre-a2-emission-du-14-octobre-1985?rang=328",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:43:30.175135",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,9 +29,10 @@
     "Chapi chapo : Ma course d'auto",
     "Image imagine",
     "Super DOC : à toi, à moi (1)",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Tchaou et Grodo",
     "Cobra",
     "Les aventures de Monsieur DEMO"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.215802"
 }

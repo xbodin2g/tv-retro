@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85105635",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105635/recre-a2-emission-du-13-decembre-1985?rang=363",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:44:49.747963",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,10 +29,11 @@
     "Image imagine",
     "Histoires comme çà",
     "Super Doc : Nez à nez (2)",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Bibifoc",
     "Le Carnet de bord de l'école en bateau",
     "Les Maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.226357"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007656",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007656/giga-emission-du-8-juillet-1993?rang=205",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:25:03.374930",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de ce format d'été de Giga deux séries : \"Le Prince de Bel Air\" et \"Major Dad\" et deux reportages",
     "\"Tigres Blancs \" (Jou : Charles CHAMPAIN) Re"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.563859"
 }

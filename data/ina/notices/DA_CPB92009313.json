@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009313",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009313/giga-emission-du-10-aout-1992?rang=219",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:35:48.553510",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,6 @@
     "Diffusion d'une nouvelle série française",
     "Carré d'as",
     "Rediffusion des reportages sur la montgolfière et le TGV"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.328204"
 }

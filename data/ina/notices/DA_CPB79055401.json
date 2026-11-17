@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79055401",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79055401/recre-a2-emission-du-27-juin-1979?rang=393",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:14:39.775711",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -49,5 +49,6 @@
     "Spot Récré A2",
     "Discorébus",
     "Wattoo Wattoo"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.694883"
 }

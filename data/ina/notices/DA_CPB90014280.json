@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014280",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014280/recre-a2-emission-du-16-octobre-1980?rang=140",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:31:05.092952",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,6 @@
     "Discopuce",
     "Mes mains ont la parole",
     "Les Quat'z Amis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.791374"
 }

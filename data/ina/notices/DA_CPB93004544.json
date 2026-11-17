@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004544",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004544/giga-emission-du-5-avril-1993?rang=80",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:20:15.517845",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
   "elements": [
     "Manuel GELIN et CLEMENTINE animent l'émission",
     "Reportage en hommage à Brandon LEE, fils de Bruce LEE, décédé la semaine dernière et probablement assassiné"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.488167"
 }

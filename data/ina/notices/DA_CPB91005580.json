@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005580",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005580/recre-a2-emission-du-13-aout-1985?rang=301",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:41:31.053038",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,6 @@
     "Wattoo Wattoo",
     "Les Viratatoums",
     "Zora la rousse"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.008546"
 }

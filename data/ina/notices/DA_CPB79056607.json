@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79056607",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79056607/recre-a2-emission-du-06-juin-1979?rang=356",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:13:45.167287",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,5 +36,6 @@
     "Discobus : Plateau Ariane Gil, L'Echo du Bayou interprète \"au pays des bayous\"",
     "Il court, il court, le courrier",
     "Discorébus"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.703444"
 }

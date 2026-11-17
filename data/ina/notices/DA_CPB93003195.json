@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003195",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003195/giga-emission-du-1er-mars-1993?rang=74",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:18:43.695076",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,5 +28,6 @@
     "SERIE : Happy days \"La première bagnole\" (achat)",
     "SERIE : La fête à la maison (achat)",
     "SERIE : Major dad \"Premier anniversaire\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.461018"
 }

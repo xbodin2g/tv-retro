@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84052136",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84052136/recre-a2-emission-du-30-mars-1984?rang=392",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:05:55.880330",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,8 +26,9 @@
   "elements": [
     "Annie : Annie et le bureaucrate",
     "Chanson Télétactica",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.096700"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB15003841",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB15003841/recre-a2-emission-du-26-novembre-1986?rang=439",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:16:47.443862",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -46,5 +46,6 @@
     "C'est chouette",
     "Les maîtres de l'univers",
     "Clip Dorothée\"Maman\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.645357"
 }

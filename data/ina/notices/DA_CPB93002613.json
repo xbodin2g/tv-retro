@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002613",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002613/giga-emission-du-18-fevrier-1993?rang=149",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:47.873559",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Franck DAVID présente l'émission à l'occasion du troisième anniversaire de Giga"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.454831"
 }

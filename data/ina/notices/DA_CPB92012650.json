@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012650",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012650/giga-emission-du-16-octobre-1992?rang=224",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:39:24.273013",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "Jeu QUIZAKO,",
     "SERIE : \"Lycée alpin\" (Les aveux),",
     "SERIE : \"Sauvés par le gong\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.370531"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007883",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007883/giga-emission-du-23-avril-1991?rang=20",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:12:02.817218",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Au programme de ce GIGA",
     "SERIES : \"Un Toit pour dix\"; \"Quoi de neuf docteur ? \" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.043892"
 }

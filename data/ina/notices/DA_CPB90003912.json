@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003912",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003912/giga-emission-du-2-mai-1990?rang=58",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:48:27.177077",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   ],
   "elements": [
     "Au sommaire: SERIES: \"Les deux font la loi\", \"Les années collège\" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.490318"
 }

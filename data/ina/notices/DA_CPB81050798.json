@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050798",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050798/recre-a2-emission-du-06-mars-1981?rang=102",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:42:33.685879",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,6 @@
     "Mes mains ont la parole",
     "Les aventures électrique de Zeltron",
     "Zora la rousse"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.783494"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051576",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051576/recre-a2-emission-du-29-decembre-1983?rang=221",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:00:13.147342",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,10 +33,11 @@
     "Papivole",
     "Mes mains ont la parole",
     "La princesse insensible",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Robinson Crusoé",
     "Jane de la jungle",
     "C'est chouette",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.013674"
 }

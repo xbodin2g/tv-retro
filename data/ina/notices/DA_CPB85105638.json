@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85105638",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105638/recre-a2-emission-du-17-decembre-1985?rang=367",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:45:02.147049",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,10 +33,11 @@
     "C'est chouette",
     "Il était une fois le cirque",
     "Super Doc : Dans les bois (2)",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les aventures de Mr DEMO",
     "Le Carnet de bord de l'école en bateau",
     "Les mondes engloutis",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.227830"
 }

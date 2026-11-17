@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001170",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001170/recre-a2-emission-du-15-decembre-1982?rang=428",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:22:59.107340",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -25,7 +25,8 @@
     "DESSINS ANIMES : CASPER et ses amis, Lippy le lion, Méthanie, Georges de la Jungle, la panthère rose",
     "FEUILLETON : Heïdi",
     "MARABOUD'FICELLE : avec les dessins de CABU, inspiré par le royaume de Diguedondaine et les défis des téléspectateurs",
-    "TELETACTICA",
+    "Télétactica",
     "Un reportage sur l'exposition, \"l'oreille oubliée\", au Centre Beaubourg. Des enfants en testent les principales installations"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.444708"
 }

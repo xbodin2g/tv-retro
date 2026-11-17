@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010802",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010802/giga-emission-du-29-octobre-1993?rang=25",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:30:48.254064",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "SERIES : \"Sois prof et tais-toi\"; \"Sauvés par le gong \" (ACHATS);\"L'annexe \": voir document correspondant du même jour"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.622954"
 }

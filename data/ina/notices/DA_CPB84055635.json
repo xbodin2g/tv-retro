@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84055635",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84055635/recre-a2-emission-du-08-octobre-1984?rang=311",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:14:41.004261",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,10 +27,11 @@
   ],
   "elements": [
     "Dessins animés la pimpa",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les Schtroumpfs",
     "Tchaou et Grodo",
     "Pac Man",
     "Corbier chante \"nous les mille pattes\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.129467"
 }

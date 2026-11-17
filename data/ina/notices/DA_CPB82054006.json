@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054006",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054006/recre-a2-emission-du-28-janvier-1982?rang=101",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:02:21.706002",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,6 @@
     "Le petit écho de la forêt",
     "Tilt",
     "Je veux être toi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.925837"
 }

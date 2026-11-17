@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002460",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002460/giga-emission-du-3-avril-1992?rang=82",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:30:54.281001",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "GIGA propose ses deux séries habituelles \"Sois prof et tais toi\" et \"Sauvés par le Gong\" et la surprise Giga",
     "JEU DU QUIZAKO"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.263664"
 }

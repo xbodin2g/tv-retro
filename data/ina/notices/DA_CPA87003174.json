@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87003174",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87003174/salut-les-petits-loups-plateau-emission-du-29-avril-1987?rang=20",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-12T22:50:59.361169",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "Emission présentée par ORLY, Marie Pierre, Anne LORRIC, Teddy Boy et le Chat avec les rubriques suivantes",
+    "Les mangeurs d'histoires : Anne LORRIC propose une recette de cornflakes au chocolat et raconte l'origine de la tradition du muguet au 1er mai",
+    "Fluophone : jeu vidéo électronique animé par Teddy Boy et Anne LORRIC et qui permet à des enfants, appelés au téléphone de gagner des disques",
     "Le Caddy d'ORLY : ORLY présente tous les jouets à gagner cette semaine",
     "Les Loufoques : Anne LORRIC fait une démonstration de lasso et tente d'attaquer une banque imaginaire ; mais elle est désarmée par le Chat",
     "Bananarock : Teddy Boy fait une imitation de Elvis PRESLEY en chante \"Do'nt be cruel\". Extraits de chansons chantées par Elvis PRESLEY"
   ],
-  "normalized_at": "2026-11-15T21:14:31.778826"
+  "normalized_at": "2026-11-17T07:00:07.900262"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051899",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051899/recre-a2-emission-du-26-janvier-1985?rang=250",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:30:17.946538",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,6 @@
   "elements": [
     "Les Schtroumpfs",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.177478"
 }

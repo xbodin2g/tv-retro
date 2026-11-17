@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81053217",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81053217/recre-a2-emission-du-23-decembre-1981?rang=402",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:57:31.804431",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -50,5 +50,6 @@
     "Boule et Bill",
     "Petit reportage sur le village des enfants au Trocadéro",
     "La Panthère rose"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.813480"
 }

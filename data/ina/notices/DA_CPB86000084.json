@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86000084",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000084/recre-a2-emission-du-03-janvier-1986?rang=260",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:55:56.033221",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,11 +23,12 @@
     ", les Maîtres de l'univers et Téléchat."
   ],
   "elements": [
-    "Image Imagine",
+    "Image imagine",
     "Histoires comme ça (le chat qui s'en va tout seul)",
     "Super Doc : Dans la terre (2)",
     "Latulu et Lireli",
     "Le Carnet de bord de l'école en bateau",
     ", les Maîtres de l'univers et Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.239772"
 }

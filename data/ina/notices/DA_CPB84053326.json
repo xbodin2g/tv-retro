@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053326",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053326/recre-a2-emission-du-11-mai-1984?rang=412",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:08:28.474639",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,9 +28,10 @@
   "elements": [
     "Émilie",
     "Les Quat'z Amis",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "ALAIN chante \"les maîtres de l'univers \"",
     "Les maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.103226"
 }

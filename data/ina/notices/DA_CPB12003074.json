@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003074",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003074/recre-a2-special-vacances-emission-du-08-avril-1980?rang=308",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:21:08.595984",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Le Prince et le pauvre"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.537754"
 }

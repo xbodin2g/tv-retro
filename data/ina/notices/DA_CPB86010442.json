@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010442",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010442/recre-a2-emission-du-26-aout-1986?rang=396",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:13:45.154419",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Présentation par Alain et Lia de cette émission composée des \"Schtroumpfs\" et de \"Tom SAWYER\"."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:09.414893"
 }

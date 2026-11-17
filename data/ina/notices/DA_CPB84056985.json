@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84056985",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84056985/recre-a2-emission-du-14-decembre-1984?rang=346",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:16:26.819643",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,8 +26,9 @@
   "elements": [
     "Poochie",
     "Un court-métrage de Daniel musa, \"sphères\"",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.138081"
 }

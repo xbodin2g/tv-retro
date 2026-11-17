@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050470",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050470/recre-a2-emission-du-01-fevrier-1983?rang=122",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:41:41.798571",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Qu'est-ce, qu'est-ce, qu'est-ce ? : Le voyage",
     "Sido et Rémi",
     "Il était une fois le cirque",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.990855"
 }

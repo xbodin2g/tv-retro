@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91004243",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004243/recre-a2-emission-du-12-janvier-1985?rang=213",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:29:35.918856",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -12,5 +12,6 @@
   "start": "17:35",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:09.983760"
 }

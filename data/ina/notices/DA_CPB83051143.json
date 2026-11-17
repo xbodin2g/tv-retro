@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051143",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051143/recre-a2-emission-du-31-mai-1983?rang=244",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:49:37.755363",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,10 +28,11 @@
   ],
   "elements": [
     "Mio and Mao",
-    "Pic Pic Pic",
-    "Latulu et lireli",
+    "Pic pic pic",
+    "Latulu et Lireli",
     "Balour et Balu",
-    "La bande à Bédé",
+    "La bande à BéDé",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.004670"
 }

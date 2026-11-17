@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012862",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012862/giga-emission-du-28-octobre-1991?rang=165",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:20:37.985498",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Série : SAUVES PAR LE GONG : LA CHORALE",
     "Série : LA FETE A LA MAISON"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.142038"
 }

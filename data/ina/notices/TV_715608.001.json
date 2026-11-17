@@ -2,7 +2,7 @@
   "notice_id": "TV_715608.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_715608.001/tf-jeunesse-programme-du-20-novembre-1997?rang=161",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T20:41:03.305188",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -34,5 +34,6 @@
     "[Interogrammes TF1 de 16 heures",
     "[Cococinel",
     "Beetleborgs, une BD d'enfer"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:11.490940"
 }

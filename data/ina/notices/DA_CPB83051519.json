@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051519",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051519/recre-a2-emission-du-08-fevrier-1983?rang=125",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:42:07.966243",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,9 +23,10 @@
     "Plateau Véronique"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Ces sacrés parents",
-    "La bande à Bédé",
+    "La bande à BéDé",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.012868"
 }

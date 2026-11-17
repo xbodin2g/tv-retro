@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053787",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053787/recre-a2-emission-du-07-novembre-1983?rang=286",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:57:27.955139",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Tom Sawyer",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.055566"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79053617",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79053617/recre-a2-emission-du-3-octobre-1979?rang=389",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:19:21.624302",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -43,5 +43,6 @@
     "Tarzan",
     "Émilie",
     "Discorébus"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.687010"
 }

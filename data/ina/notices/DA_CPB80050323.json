@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050323",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050323/recre-a2-emission-du-1er-avril-1980?rang=349",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:20:52.799828",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,6 +36,7 @@
     "Plateau fin"
   ],
   "elements": [
+    "En cette journée du 1er avril, DOROTHEE présente l'émission en direct du théâtre de l'empire avec la participation de toute l'équipe de Récré A2",
     "Discorébus : Plateau A. gil et Dorothée, Martin propose une devinette à partir de sa chanson \"pour faire une java\"",
     "Émilie",
     "Wattoo Wattoo",
@@ -49,5 +50,6 @@
     "La Panthère rose",
     "Popeye",
     "Albator"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.718518"
 }

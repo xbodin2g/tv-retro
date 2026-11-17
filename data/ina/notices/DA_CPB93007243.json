@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007243",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007243/giga-emission-du-22-juin-1993?rang=112",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:24:04.329494",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,5 +28,6 @@
     "\"Happy days \"(achat)",
     "\"Seconde B \"(voir indexation à part)",
     "Sur le plateau, les jeunes commentent le reportage"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.546594"
 }

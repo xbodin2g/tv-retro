@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010459",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010459/giga-emission-du-20-novembre-1990?rang=145",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:57:58.111391",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Au sommaire : la série \"Larry et Balki\". Un clip \"pretty woman\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.614584"
 }

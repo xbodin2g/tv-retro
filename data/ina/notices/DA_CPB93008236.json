@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008236",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008236/giga-emission-du-28-juillet-1993?rang=176",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:25:53.151378",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "HAPPY DAYS, série, achat",
     "LE PRINCE DE BEL AIR, série, achat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.573347"
 }

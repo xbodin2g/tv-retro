@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051729",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051729/recre-a2-emission-du-17-novembre-1982?rang=367",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:21:31.053134",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -57,5 +57,6 @@
     "Extrait Disney \"Tron\"",
     "La Panthère rose",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.883184"
 }

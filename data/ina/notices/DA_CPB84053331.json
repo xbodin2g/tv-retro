@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053331",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053331/recre-a2-emission-du-10-mai-1984?rang=410",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:08:23.545246",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,10 +24,11 @@
     "Plateau Marie"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Mes mains ont la parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Albator 84",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.104004"
 }

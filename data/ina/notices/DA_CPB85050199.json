@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050199",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050199/recre-a2-emission-du-25-janvier-1985?rang=218",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:30:14.777600",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,9 +27,10 @@
     "Poochie",
     "Anim'a2",
     "Clip Marie \"Récré A2\"",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les maîtres de l'univers",
     "Clip William \"Pac-Man\"",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.148314"
 }

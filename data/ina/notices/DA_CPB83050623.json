@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050623",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050623/recre-a2-emission-du-17-mars-1983?rang=149",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:44:38.717162",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,9 +23,10 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Mes mains ont la parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.996552"
 }

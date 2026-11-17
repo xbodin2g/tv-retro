@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002033",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002033/recre-a2-emission-du-12-avril-1983?rang=171",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:46:25.313418",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,10 +25,11 @@
     "Plateau Charlotte"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Ces sacrés parents",
     "Sido et Rémi",
     "Latulu et Lireli",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.937651"
 }

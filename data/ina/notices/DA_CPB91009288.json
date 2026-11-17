@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009288",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009288/giga-emission-du-10-juin-1991?rang=209",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:13:54.185380",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   ],
   "elements": [
     "Dans leur loge, les deux comédiens parlent de leur fascination pour les deux hommes"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.067569"
 }

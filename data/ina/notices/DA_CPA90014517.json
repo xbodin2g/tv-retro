@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90014517",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90014517/club-dorothee-emission-du-9-janvier-1991?rang=16",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:11:38.967012",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Emission présentée par DOROTHEE, qui en particulier présente en chanson le groupe Benny B"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.478443"
 }

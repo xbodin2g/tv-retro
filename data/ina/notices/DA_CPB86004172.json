@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004172",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004172/recre-a2-emission-du-6-fevrier-1986?rang=292",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:58:32.008702",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,11 +24,12 @@
     "Plateau Corbier et Marie"
   ],
   "elements": [
-    "Image Imagine",
+    "Image imagine",
     "Mes mains ont la parole, \"petit garçon malin\"",
     "Latulu et Lireli, \"quel monstre\"",
     "L'école en bateau, No 25",
     "Téléchat",
     "Les mondes engloutis, dessin animé"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.268946"
 }

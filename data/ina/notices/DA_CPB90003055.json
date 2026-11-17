@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003055",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003055/giga-emission-du-27-mars-1990?rang=206",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:46:35.755243",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
+    "SERIE ; Quoi de neuf docteur ? Elvira (réalisation NUMA Roda-Gil) : Elvira, alias Cassandra PETERSON joue dans le film \"Elvira maîtresse des ténébres\"",
     "Simulateur de vol : à la Cité des Sciences de La Villette : savourer l'impression de conduire un avion type Mirage, c'est possible",
     "Extrait du dessin animé \"Merlin l'enchanteur\"",
     "SERIE : Les années collège : la pétition"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.477616"
 }

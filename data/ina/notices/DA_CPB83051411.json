@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051411",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051411/recre-a2-emission-du-22-mars-1983?rang=161",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:44:56.686520",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,9 +29,10 @@
   "elements": [
     "Le petit écho de la forêt",
     "Qu'est-ce, qu'est-ce, qu'est-ce ? Le fantôme",
-    "Pic Pic Pic",
-    "La bande à Bédé",
-    "Latulu et lireli",
+    "Pic pic pic",
+    "La bande à BéDé",
+    "Latulu et Lireli",
     "C'est chouette"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.008262"
 }

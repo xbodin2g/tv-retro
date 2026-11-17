@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003692",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003692/giga-emission-du-4-mai-1992?rang=11",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:32:41.532435",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
   "elements": [
     "QUIZAKO",
     "Au cours de l'émission, diffusion d'épisodes des feuilletons (achats) \"Sois prof et tais toi\", \"Les années collège\", \"Le prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.286531"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003048",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003048/recre-a2-emission-du-15-octobre-1980?rang=364",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:31:01.581885",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -48,5 +48,6 @@
     "A2000",
     "Wattoo Watoo",
     "Maraboud'ficelle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.628564"
 }

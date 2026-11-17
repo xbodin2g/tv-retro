@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012344",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012344/giga-emission-du-9-decembre-1993?rang=35",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:32:42.993043",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Au sommaire : Un Toit Pour Dix, Sauvés Par le Gong, Le Prince de Bel Air"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.642389"
 }

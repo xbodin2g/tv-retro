@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050627",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050627/recre-a2-emission-du-15-janvier-1985?rang=248",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:29:47.250816",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,10 +26,11 @@
   "elements": [
     "Poochie",
     "Anim'a2",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Sido et Rémi",
     "Terre des bêtes",
     "C'est chouette",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.156559"
 }

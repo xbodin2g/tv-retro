@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009887",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009887/recre-a2-emission-du-31-juillet-1986?rang=420",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:11:37.018611",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -23,5 +23,6 @@
     "Mafalda",
     "Super DOC : L'escalade (1)",
     "Clémentine"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.399784"
 }

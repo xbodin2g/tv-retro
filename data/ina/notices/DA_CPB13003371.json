@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13003371",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13003371/recre-a2-emission-du10-janvier-1984?rang=356",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:03:50.036097",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,9 +28,10 @@
   "elements": [
     "Papivole",
     "Télétactica",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Sido et Rémi",
     "Mio and Mao",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.599586"
 }

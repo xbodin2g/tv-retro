@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053659",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053659/recre-a2-emission-du-14-octobre-1983?rang=360",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:56:18.027108",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Bde 116432"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.054969"
 }

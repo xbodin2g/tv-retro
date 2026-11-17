@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002473",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002473/giga-emission-du-10-fevrier-1993?rang=67",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:25.433622",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,6 +23,8 @@
   "elements": [
     "SERIE : quoi de neuf docteur. ACHAT",
     "SERIE : sois prof et tais toi. ACHAT",
-    "SERIES : la fête à la maison (ACHAT) Major dad (ACHAT)"
-  ]
+    "SERIES : la fête à la maison (ACHAT) Major dad (ACHAT)",
+    "REPORTAGE sur le simulateur de vol d'un Boeing. Sujet ANIMA WAY en collaboration avec Air France et le Ministère de la Recherche et de la Technologie"
+  ],
+  "normalized_at": "2026-11-17T07:00:10.448352"
 }

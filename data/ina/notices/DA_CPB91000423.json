@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000423",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000423/recre-a2-emission-du-23-janvier-1982?rang=181",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:02:04.756644",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -12,5 +12,6 @@
   "start": "17:22",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:09.868046"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050361",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050361/recre-a2-emission-du-11-mars-1981?rang=381",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:42:47.117027",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -48,5 +48,6 @@
     "Echecs et mat",
     "Imbert et Moreau chantent \"les nouveaux parents\"",
     "Maraboud'ficelle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.776346"
 }

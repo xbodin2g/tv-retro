@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80056100",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80056100/recre-a2-emission-du-23-octobre-1980?rang=220",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:31:54.149549",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,6 @@
     "Discopuce",
     "Mes mains ont la parole",
     "Les Quat'z Amis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.768968"
 }

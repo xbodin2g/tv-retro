@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003077",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003077/giga-emission-du-28-avril-1992?rang=12",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:32:26.383078",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "SERIES : \"Sois prof et tais-toi\"; \"les Années collèges \"; le Prince de Bel-Air\"",
     "CINEMA : Extrait de \"Loulou Graffiti\", film de Christian Legalé ; Jean RENO parle du film et des autres interprètes"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.279610"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009517",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009517/giga-emission-du-17-aout-1992?rang=100",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:36:07.602697",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "QUOI DE NEUF DOCTEUR (Achat)",
     "LES ANNEES COLLEGE (Achat)",
     "CARRE D'AS (cf cpb92009678)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.331523"
 }

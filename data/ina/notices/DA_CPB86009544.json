@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009544",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009544/recre-a2-emission-du-22-juillet-1986?rang=416",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:11:02.719921",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -14,5 +14,6 @@
   "titles_raw": [
     "Présentation de l'émission par Marie DAUPHIN et Alain CHAUFOUR ; achat : DA \"Tom SAWYER\" (Le charlatan)."
   ],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:09.393747"
 }

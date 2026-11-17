@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000106",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000106/giga-emission-du-28-decembre-1993?rang=39",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:33:53.009412",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,6 @@
     "promotion du film \"Les valeurs de la famille ADAMS\"",
     "\"Sauvés par le Gong\" (Achat)",
     "\"Le Prince de Bel-Air\" (Achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.656725"
 }

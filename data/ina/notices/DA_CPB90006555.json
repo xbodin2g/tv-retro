@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006555",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006555/giga-emission-du-18-juillet-1990?rang=186",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:51:39.637170",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Au sommaire",
     "2 séries : Alf et Throb"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.532772"
 }

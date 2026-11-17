@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002353",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002353/giga-emission-du-5-fevrier-1993?rang=147",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:13.678343",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
     "\"Quoi de Neuf Docteur ? \"\"Sois Prof et Tais-toi \"",
     "\"La Fête à la Maison\"",
     "\"Major Dad \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.441840"
 }

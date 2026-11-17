@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010712",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010712/giga-emission-du-18-octobre-1993?rang=49",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:29:57.090797",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "SERIE : \"Goal\" (CPB93010718)",
     "SERIE : \"L'Annexe\" (CPB93010724)",
     "SERIE : \"Promo 96\" (ACHAT)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.616737"
 }

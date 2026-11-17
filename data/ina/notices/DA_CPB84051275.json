@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84051275",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84051275/recre-a2-emission-du-24-avril-1984?rang=471",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:07:38.424258",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,10 +27,11 @@
   ],
   "elements": [
     "Papivole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Télétactica",
     "Terre des bêtes",
     "C'est chouette",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.086938"
 }

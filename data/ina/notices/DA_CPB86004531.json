@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004531",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004531/recre-a2-emission-du-16-fevrier-1986?rang=280",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:59:16.555100",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -38,5 +38,6 @@
     "Véronique chante \"Les poupies\"",
     "L'empire des 5",
     "Dorothée chante \"Les petits Ewock\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.277127"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002611",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002611/giga-emission-du-31-mars-1994?rang=99",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:47:46.540360",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Diffusion des séries seconde B (Opération anti-rackett, rediffusion) et Les Années collège (Prends tes responsabilités)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.686506"
 }

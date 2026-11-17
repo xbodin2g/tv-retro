@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012864",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012864/giga-emission-du-18-decembre-1990?rang=150",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:59:33.664810",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   ],
   "elements": [
     "Au sommaire de l'émission, la série \"Les années collège\" et des reportages"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.692283"
 }

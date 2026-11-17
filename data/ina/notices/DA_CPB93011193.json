@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011193",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011193/giga-emission-du-8-novembre-1993?rang=55",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:31:11.953019",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   ],
   "elements": [
     "Diffusion des séries \"Sauvés par le gong\" et \"Sois prof et tais toi\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.627334"
 }

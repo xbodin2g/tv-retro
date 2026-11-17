@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85104530",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104530/recre-a2-emission-du-14-novembre-1985?rang=353",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:43:51.466693",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,10 +32,11 @@
     "Image imagine",
     "Super Doc : Plein la vue (1)",
     "Mes mains ont la parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Terre des bêtes",
     "Bibifoc : La chasse à la tortue",
     "Les mondes engloutis",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.219634"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001517",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001517/recre-a2-emission-du-02-fevrier-1983?rang=452",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:41:46.124303",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -54,5 +54,6 @@
     "Méthanie",
     "Les Schtroumpfs",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.916944"
 }

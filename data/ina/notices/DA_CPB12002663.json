@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002663",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002663/recre-a2-emission-du-22-septembre-1978?rang=98",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:22:41.396652",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,6 @@
     "La Caverne d'Abracadabra",
     "La Panthère rose",
     "Félix le chat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.519620"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85101259",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101259/recre-a2-emission-du-20-septembre-1985?rang=323",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:42:52.266935",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,10 +28,11 @@
     "Poochie",
     "Dessin animé : beep Beep",
     "Ploom",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Terre des bêtes",
     "Les maîtres de l'univers",
     "Qu'est-ce, qu'est-ce, qu'est ce ? La musique",
     "\"Hardi les gars ! (Good Bye farewell) \" par les récréamis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.205519"
 }

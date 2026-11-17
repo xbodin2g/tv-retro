@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92013446",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92013446/giga-emission-du-26-octobre-1992?rang=156",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:39:45.254436",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "\"Le lycée alpin\" (indexé à part). \"La Fête à la maison\" (achat). \"Sauvés par le gong : cavaliers aux enchères\" (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.374056"
 }

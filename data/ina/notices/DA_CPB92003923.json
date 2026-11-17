@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003923",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003923/giga-emission-du-20-mai-1992?rang=92",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:33:22.836433",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Au sommmaire de ce numéro de Giga : Sois Prof et Tais Toi, Les Années Collège, Le Prince de Bel Air"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.296942"
 }

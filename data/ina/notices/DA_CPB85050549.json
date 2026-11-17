@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050549",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050549/recre-a2-emission-du-21-fevrier-1985?rang=235",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:32:02.007954",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,8 +26,9 @@
     "Poochie",
     "Mes mains ont la parole",
     "Viratatoums",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Mr Merlin",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.154976"
 }

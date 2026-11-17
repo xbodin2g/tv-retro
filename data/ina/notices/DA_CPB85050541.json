@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050541",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050541/recre-a2-emission-du-19-fevrier-1985?rang=391",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:31:58.768440",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,12 +29,13 @@
   "elements": [
     "Poochie",
     "Les Viratatoums",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Anim'A2",
     "Latuli et lireli",
     "Terre des bêtes",
     "C'est chouette",
     "Clip Warner Bros Buggs Bunny",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.154406"
 }

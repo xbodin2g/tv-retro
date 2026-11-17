@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14000502",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000502/recre-a2-emission-du-11-avril-1985?rang=450",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:35:14.239225",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,8 +27,9 @@
     "Poochie",
     "Mes mains ont la parole",
     "Les viratatoums",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les légendes indiennes",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.612388"
 }

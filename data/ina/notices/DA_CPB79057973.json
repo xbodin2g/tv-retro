@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79057973",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79057973/recre-a2-apres-midi-emission-du-04-avril-1979?rang=395",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:10:35.503573",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -25,5 +25,6 @@
     "La Caverne d'Abracadabra",
     "Discorébus",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.709464"
 }

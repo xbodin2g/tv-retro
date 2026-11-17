@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001841",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001841/recre-a2-emission-du-19-juin-1982?rang=91",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:10:52.564786",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "Série : Barrières"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.928073"
 }

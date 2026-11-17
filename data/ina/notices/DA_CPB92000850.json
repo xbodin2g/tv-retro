@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000850",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000850/giga-emission-du-4-fevrier-1992?rang=204",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:27:53.174961",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Au sommaire de Giga : Les deux séries américaines \"Sois prof et tais-toi\" et \"Sauvés par le gong\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.212985"
 }

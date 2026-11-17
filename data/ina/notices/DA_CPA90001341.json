@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001341",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001341/club-dorothee-vacances-emission-du-23-fevrier-1990?rang=187",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T22:44:36.265584",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -22,5 +22,6 @@
     "\"LE MOT INTERDIT\" (Enrico au téléphone doit faire prononcer le mot \"télé\" à Patrick), \"LES 365 SOLEILS\"",
     "\"MES TENDRES ANNEES\", \"MASK \"",
     "\"CAP DANGER\" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.358884"
 }

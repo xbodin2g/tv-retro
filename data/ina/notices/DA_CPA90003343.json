@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90003343",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90003343/club-dorothee-vacances-emission-du-16-avril-1990?rang=250",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T22:48:09.772756",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Dorothée en compagnie de son chien Roxan présente le sommaire de l'émission ; Diffusion d'un épisode de Caroline"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.380608"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009605",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009605/giga-emission-du-15-septembre-1993?rang=184",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:28:29.836878",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de ce Giga : un appel pour la \"Virade de l'Espoir\" et des conseils pour parrainer l'AFLM (lutte contre la mucoviscidose)",
     "Feuilletons : La Fête à la Maison et le Prince de Bel Air"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.597881"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006343",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006343/giga-emission-du-9-juillet-1992?rang=218",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:35:14.107826",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Au sommaire de Giga \"le Prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.323462"
 }

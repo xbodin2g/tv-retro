@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92010606",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010606/giga-emission-du-10-septembre-1992?rang=107",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:37:20.253249",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
     "SERIE : LA FETE A LA MAISON (achat)",
     "SERIE : QUOI DE NEUF DOCTEUR (achat)",
     "JEU DU QUIZAKO"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.346539"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002220",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002220/recre-a2-emission-du-12-mai-1983?rang=233",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:48:10.181952",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,10 +24,11 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Mes mains ont la parole",
     "Le petit écho de la forêt",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.948425"
 }

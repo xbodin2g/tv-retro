@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205110801",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205110801/recre-a2-emission-du-20-septembre-1982?rang=112",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:17:45.423263",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,6 @@
     "Les Quat'z Amis",
     "Télétactica",
     "Jane de la jungle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.872575"
 }

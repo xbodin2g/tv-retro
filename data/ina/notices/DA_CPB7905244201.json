@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905244201",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905244201/recre-a2-emission-du-21-novembre-1979?rang=391",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:21:52.741425",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -50,5 +50,6 @@
     "Numéros de clowns par le trio les barios : numéro de claquettes",
     "Émilie",
     "Discorébus"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.675225"
 }

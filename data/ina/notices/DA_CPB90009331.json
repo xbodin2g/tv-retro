@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009331",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009331/giga-emission-du-16-octobre-1990?rang=86",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:56:24.680859",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Au sommaire de l'émission",
     "Série américaine Larry ET BALKI : OH QUELLE NUIT"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.590032"
 }

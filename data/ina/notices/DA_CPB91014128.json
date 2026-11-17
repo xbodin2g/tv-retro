@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91014128",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014128/giga-emission-du-12-decembre-1991?rang=178",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:22:56.949747",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     ", Hippofolies A2. Quizako",
     ", achats, \"Un toit pour 10\". \"Quoi de neuf docteur ?\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.179217"
 }

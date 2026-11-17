@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052389",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052389/recre-a2-emission-du-16-avril-1985?rang=413",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:35:34.765415",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,9 +27,10 @@
     "Poochie",
     "Les Viratatoums",
     "Sido et Rémi",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Terre des bêtes",
     "C'est chouette",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.186556"
 }

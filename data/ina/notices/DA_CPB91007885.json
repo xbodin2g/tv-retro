@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007885",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007885/giga-emission-du-25-avril-1991?rang=19",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:12:39.632901",
   "program_query": "Giga",
   "programme": "Giga",
@@ -30,5 +30,6 @@
     "SERIE : \"quoi de neuf docteur\"",
     "\"Les femmes comiques \"",
     "\"Steve WYNN\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.046214"
 }

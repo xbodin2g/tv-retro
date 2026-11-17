@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81055223",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81055223/recre-a2-emission-du-07-octobre-1981?rang=397",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:53:07.838489",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -42,5 +42,6 @@
     "Tilt",
     "Boule et Bill",
     "Extrait du film \"Condorman\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.839620"
 }

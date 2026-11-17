@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051965",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051965/recre-a2-emission-du-23-novembre-1982?rang=236",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:21:52.543721",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,9 +26,10 @@
   ],
   "elements": [
     "Émilie",
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Sido et Rémi",
     "C'est chouette",
     "Drôles d'enfants"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.885070"
 }

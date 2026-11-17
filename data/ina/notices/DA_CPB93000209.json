@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000209",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000209/giga-emission-du-28-decembre-1992?rang=192",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:43:03.495162",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,6 @@
     "Questions sur les séries diffusées le 25 décembre",
     "\"La Famille JACKSON\"",
     "\"Mac Gyver\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.412262"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85104972",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104972/recre-a2-emission-du-2-mars-1983?rang=464",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:43:44.379670",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -55,9 +55,10 @@
     "Discopuce",
     "Extrait Asterix",
     "Télétactica",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Zeltron",
     "Les Schtroumpfs",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.221868"
 }

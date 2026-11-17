@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009764",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009764/giga-emission-du-20-septembre-1993?rang=42",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:28:40.845154",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "GIGA composée de ses rubriques habituelles propose deux séries \"La fête à la maison\" et \"TV 101\" (achats)",
     "des archives et une interview de Paul MC CARTNEY sur le succès de \"Yesterday\" illustrent la sortie des CD des Beatles"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.599667"
 }

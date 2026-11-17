@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006250",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006250/recre-a2-emission-du-21-mars-1986?rang=219",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:02:02.840533",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Téléchat du 29 novembre 1985 (Le Gluon du Delco) ; Achats : Superdoc (Equilibre à 3, 2ème partie), DA \"Shera la princesse du pouvoir\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.312713"
 }

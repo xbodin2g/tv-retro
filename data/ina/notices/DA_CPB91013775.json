@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013775",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013775/giga-emission-du-20-novembre-1991?rang=168",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:21:57.719871",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   ],
   "elements": [
     "SERIES ; Sauvés par le gong: \"Sans espoir \"; Quoi de neuf docteur: \"Photos de nues \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.161051"
 }

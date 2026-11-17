@@ -2,7 +2,7 @@
   "notice_id": "TV_688428.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_688428.001/tf-jeunesse-programme-du-10-octobre-1997?rang=24",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T20:36:49.872656",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -22,5 +22,6 @@
   "elements": [
     "[Présentation",
     "Beetleborgs, une BD d'enfer"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:11.435735"
 }

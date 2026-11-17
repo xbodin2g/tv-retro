@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002352",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002352/giga-emission-du-4-fevrier-1993?rang=93",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:17:09.834344",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de ce Giga",
     "Les séries : \"Quoi de neuf Docteur\", \"Sois prof et tais-toi \", \"La fête à la maison\", \"Major Dad\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.441314"
 }

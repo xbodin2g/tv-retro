@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014202",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014202/recre-a2-emission-du-30-septembre-1980?rang=86",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:30:08.165844",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,9 +23,11 @@
     "Plateau Laurence et Alain"
   ],
   "elements": [
+    "La cuisine sans maman : Laurence DELPIERRE et Alain Chauffour propose une nouvelle recette sans cuisson intitulée \"La charlotte au chocolat Russe\"",
     "Les voyages de tortillard",
     "Sido et Rémi",
     "Mes mains ont la parole",
     "Ces sacré parents"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.784782"
 }

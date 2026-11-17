@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004214",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004214/recre-a2-emission-du-8-fevrier-1986?rang=277",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:58:39.609372",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,5 +19,6 @@
   "elements": [
     "Téléchat",
     "Les mondes engloutis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.270065"
 }

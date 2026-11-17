@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010847",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010847/recre-a2-emission-du-11-septembre-1986?rang=132",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:14:46.437482",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,6 +23,7 @@
   "elements": [
     "Super Doc : Restons calmes ! (1)",
     "Quick et Flupke",
-    "Les mondes Engloutis"
-  ]
+    "Les mondes engloutis"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.423748"
 }

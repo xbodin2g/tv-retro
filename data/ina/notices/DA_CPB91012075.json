@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012075",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012075/giga-emission-du-2-octobre-1991?rang=151",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:19:29.808312",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,6 @@
   "elements": [
     "Série : SAUVES PAR LE GONG",
     "HIT NRJ"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.128743"
 }

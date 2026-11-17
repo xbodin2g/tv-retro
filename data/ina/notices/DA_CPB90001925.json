@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001925",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001925/giga-emission-du-5-mars-1990?rang=201",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:45:42.107652",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,6 +21,8 @@
   ],
   "elements": [
     "Au sommaire de \"GIGA\"",
-    "SERIES : \"Quoi de neuf docteur ?\" et \"La fête à la maison\" (achats)"
-  ]
+    "SERIES : \"Quoi de neuf docteur ?\" et \"La fête à la maison\" (achats)",
+    "SPECTACLE : extrait d'un spectacle adapté de ceux des Monty Python, M GOLAVTCHINER parle de leur humour et du côté surréaliste de ce spectacle"
+  ],
+  "normalized_at": "2026-11-17T07:00:09.460272"
 }

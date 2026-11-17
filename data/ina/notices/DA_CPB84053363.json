@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053363",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053363/recre-a2-emission-du-5-juin-1984?rang=422",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:10:08.195733",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,10 +28,11 @@
   "elements": [
     "Yakari",
     "Le petit écho de la forêt",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Sido et Rémi",
     "Terre des bêtes",
     "C'est chouette",
     "Chanson Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.104631"
 }

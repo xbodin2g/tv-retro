@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001009",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001009/giga-emission-du-31-janvier-1994?rang=128",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:44:51.936868",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "Au sommaire de ce Giga",
     "Les séries \"Lycée alpin\",(rediffusion) et \"Sauvés par le gong\" série américaine"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.659722"
 }

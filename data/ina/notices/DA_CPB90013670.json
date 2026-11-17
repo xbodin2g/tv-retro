@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013670",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013670/recre-a2-emission-du-26-decembre-1979?rang=300",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:23:18.634642",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,6 @@
   "elements": [
     "Un bébé phoque à la maison",
     "Goldorak"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.745887"
 }

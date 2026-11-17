@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82057149",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82057149/recre-a2-emission-du-16-septembre-1982?rang=109",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:17:33.001249",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,8 +21,9 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Mariolino",
     "Si Si Si"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.980080"
 }

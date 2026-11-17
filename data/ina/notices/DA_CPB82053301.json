@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053301",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053301/recre-a2-emission-du-01-fevrier-1982?rang=102",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:02:33.814585",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,6 @@
     "Pouffi et Fouki",
     "Le petit écho de la forêt",
     "Tarzan"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.912206"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007940",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007940/recre-a2-emission-du-30-mai-1986?rang=250",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:07:43.639292",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,8 @@
   "elements": [
     "Téléchat",
     "Super Doc : Boucler le circuit (2)",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "She-ra princesse du pouvoir"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.362012"
 }

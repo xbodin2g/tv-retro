@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002760",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002760/recre-a2-emission-du-22-novembre-1979?rang=291",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T00:21:56.647043",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,6 @@
     "Wattoo Wattoo",
     "Mes mains ont la parole",
     "Kaléidoscope"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.524312"
 }

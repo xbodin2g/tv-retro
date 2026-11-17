@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004849",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004849/giga-emission-du-15-avril-1993?rang=81",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:20:49.279585",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,5 +28,6 @@
     "HAPPY DAYS (ACHAT)",
     "QUOI DE NEUF DOCTEUR (ACHAT)",
     "MAJOR DAD (ACHAT)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.497788"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008440",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008440/giga-emission-du-10-aout-1993?rang=241",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:26:28.051102",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "REPORTAGES",
     "Le centre Nausicaa de Boulogne sur Mer (re",
     "Reportage sur le baseball, extraits d'une partie et interview d'un jeune joueur"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.576010"
 }

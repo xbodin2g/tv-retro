@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007909",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007909/giga-emission-du-14-juillet-1993?rang=199",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:25:20.116325",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,7 +22,9 @@
   ],
   "elements": [
     "\"Happy days \", série, achat",
+    "re",
     "\"Prince de Bel Air\", série, achat",
     "les membres du groupe parlent de leur courte carrière et du marasme actuel dans l'industrie du disque. Extrait de clip"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.566620"
 }

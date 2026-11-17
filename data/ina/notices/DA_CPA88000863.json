@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88000863",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88000863/club-dorothee-emission-du-2-fevrier-1988?rang=63",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T17:33:26.818692",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,6 +14,8 @@
   "titles_raw": [
     "Ariane, François et Patrick présentent l'émission composée d'un dessin animé, \"Mon petit poney\" (achat), et du vidéoclip de Dorothée \"Docteur\"."
   ],
-  "elements": [],
-  "normalized_at": "2026-11-15T21:06:15.227126"
+  "elements": [
+    "Ariane, François et Patrick présentent l'émission composée d'un dessin animé, \"Mon petit poney\" (achat), et du vidéoclip de Dorothée \"Docteur\""
+  ],
+  "normalized_at": "2026-11-17T07:00:07.983655"
 }

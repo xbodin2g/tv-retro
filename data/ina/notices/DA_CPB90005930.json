@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005930",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005930/giga-emission-du-27-juin-1990?rang=184",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:50:38.309826",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,6 +23,8 @@
   "elements": [
     "A u sommaire de l'émission",
     "Série : Alf,",
+    "BLONDIN : (reportage Patrick MARSAULT) le chanteur est interviéwé sur les quais de la Seine. Très court extrait de \"Paris au bord des larmes\"",
     "Série : Throb"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.517571"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94005323",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94005323/giga-emission-du-8-juin-1994?rang=3",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:50:40.591519",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "Au sommaire de GIGA deux séries \"Les Premières Fois : Néon vomit\" et \"Les Années Collège : Le spectacle\"",
     "Dans le cadre de l'opération \"3000 scénarios contre un virus\" est diffusé \"Le Flic\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.705878"
 }

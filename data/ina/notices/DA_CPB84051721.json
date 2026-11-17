@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84051721",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84051721/recre-a2-emission-du-20-avril-1984?rang=477",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:07:21.357491",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Histoires comme ça",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Les maîtres de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.092491"
 }

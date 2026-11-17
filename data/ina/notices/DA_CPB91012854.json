@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012854",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012854/giga-emission-du-15-octobre-1991?rang=219",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:20:01.009590",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "\"Sauvés par le gong\",\"la fête à la maison \" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.136246"
 }

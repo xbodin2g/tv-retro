@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001496",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001496/giga-emission-du-20-fevrier-1992?rang=75",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:28:39.130853",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "SERIES : \"Sauvés par le gong\", \"Sois prof et tais-toi \"",
     "RUBRIQUE MICRO : Présentation de nouveau jeu vidéo ; extrait d'\"Envoyé Spécial \" diffusé le soir sur le même sujet"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.227934"
 }

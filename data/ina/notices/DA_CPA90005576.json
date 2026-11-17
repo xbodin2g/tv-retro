@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90005576",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90005576/club-dorothee-vacances-emission-du-29-juin-1990?rang=204",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T22:53:44.690664",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -26,5 +26,6 @@
     "SPECIAL CROISSANTS : \"Futur croissant 2\" (rediffusion)",
     "JEU : \"le jeu de génies \"",
     "LE VIDEOCLIP DEDICACE"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.407795"
 }

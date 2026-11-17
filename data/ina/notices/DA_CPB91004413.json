@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91004413",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004413/giga-emission-du-12-fevrier-1991?rang=189",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:08:40.038904",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,6 @@
   "elements": [
     "SERIES: \"Sauvés par le gong\"; \"Zorro\"",
     "CLIP: \"All I want is you\" par Lightning Seeds"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.985763"
 }

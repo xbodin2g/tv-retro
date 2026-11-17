@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003196",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003196/giga-emission-du-2-mars-1993?rang=151",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:18:47.194892",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,9 +24,11 @@
   "elements": [
     "Avec aussi",
     "QUOI DE NEUF DOCTEUR (série, achat)",
+    "Reportage dans un cours de rock acrobatique avec de brefs interview d'élèves, Jean-Pascal Hervé et KAMEL ZAKNOUNI, et du professeur, Gérard LOUAS",
     "LES JOURS HEUREUX (Echec ou mat, série, achat)",
     "Deux adolescents se racontent leur premier baiser. Avec des images en noir et blanc d'un couple s'embrassant",
     "LA FETE A LA MAISON (série, achat)",
     "MAJOR DAD (série, achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.462050"
 }

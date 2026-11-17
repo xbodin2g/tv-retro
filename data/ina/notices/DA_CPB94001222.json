@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001222",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001222/giga-emission-du-16-fevrier-1994?rang=80",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:45:38.695540",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Deux séries au sommaire du magazine des jeunes"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.671795"
 }

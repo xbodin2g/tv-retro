@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000720",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000720/giga-emission-du-13-janvier-1992?rang=182",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:26:50.944858",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Au sommaire : deux séries (achats) : \"Sois Prof et tais-toi\"; \"Sauvés par le gong \"",
     "Quizako : jeu interactif : questions sur les deux reportages"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.199523"
 }

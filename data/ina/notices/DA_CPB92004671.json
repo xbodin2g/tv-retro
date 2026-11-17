@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004671",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004671/giga-emission-du-23-juin-1992?rang=46",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:34:08.482236",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "LES ANNEES COLLEGE (série, achat)",
     "LE PRINCE DE BEL AIR (série, achat)",
     "JEU QUIZAKO portant sur les séries diffusées pendant l'émission"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.310579"
 }

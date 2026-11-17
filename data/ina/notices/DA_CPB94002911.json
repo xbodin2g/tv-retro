@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002911",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002911/giga-emission-du-14-avril-1994?rang=134",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T12:48:24.752938",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   "elements": [
     "Au sommaire de ce Giga : \"Seconde B \": rediffusion",
     "\"Les années collège \": achat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.692001"
 }

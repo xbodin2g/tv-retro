@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008046",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008046/giga-emission-du-20-septembre-1990?rang=128",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:54:55.605750",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,6 @@
     "INFOS GIGA : annonces de concerts",
     "GIGA SERIE : Larry ET BALKI (achat)",
     "BIBLIOTHEQUE DE GIGA : Présentation de livres"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.575945"
 }

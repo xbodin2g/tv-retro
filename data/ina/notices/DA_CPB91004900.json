@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91004900",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004900/recre-a2-emission-du-03-mai-1985?rang=418",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:36:31.468024",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,6 @@
     "Les maîtres de l'univers",
     "Jacky, en concierge, et Charlotte",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.989089"
 }

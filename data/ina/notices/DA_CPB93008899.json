@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008899",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008899/giga-emission-du-18-aout-1993?rang=164",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:26:50.400575",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "SERIES (Achats). Happy Days : \"Hollywood, 3ème partie\". Le Prince de Bel-Air : \"Un service en vaut un autre\". Major Dad : \"Echecs postaux\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.588210"
 }

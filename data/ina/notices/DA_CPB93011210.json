@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011210",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011210/giga-emission-du-12-novembre-1993?rang=56",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:31:26.800037",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,6 @@
     "SERIE : L'ANNEXE (voir document)",
     "QUIZANNEXE : jeu par téléphone à propos de la série",
     "SERIES : \"Sauvés par le gong\" et \"Le Prince de Bel Air\" (achats)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.630445"
 }

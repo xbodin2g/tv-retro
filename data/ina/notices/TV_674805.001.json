@@ -2,7 +2,7 @@
   "notice_id": "TV_674805.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_674805.001/tf-jeunesse-programme-du-4-septembre-1997?rang=208",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T20:33:15.175731",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -24,5 +24,6 @@
     "[Présentation",
     "Les aventures de Madison",
     "Salut les toons"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:11.407069"
 }

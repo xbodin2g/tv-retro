@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010911",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010911/giga-emission-du-2-novembre-1993?rang=26",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:30:54.979315",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
     "SERIE : L'ANNEXE : \"Enfin seules\"",
     "SERIE : \"Sauvés par le gong\" (Achat)",
     "SERIE : \"Sois prof et tais toi\" (Achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.624651"
 }

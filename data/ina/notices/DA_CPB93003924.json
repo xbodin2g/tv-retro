@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003924",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003924/giga-emission-du-18-mars-1993?rang=106",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:19:31.195265",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,5 +28,6 @@
     "\"Quoi de neuf Docteur ?\"(Achat)",
     "\"Major Dad\"(Achat)",
     "Manuel GELIN et CLEMENTINE concluent"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.474805"
 }

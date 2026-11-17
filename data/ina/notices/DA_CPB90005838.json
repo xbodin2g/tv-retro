@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005838",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005838/giga-emission-du-18-juin-1990?rang=167",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:49:54.020264",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,6 @@
   "elements": [
     "L'émission se partage entre reportages et séries américaines",
     "SERIE GIGA : \"Un toit pour dix\" et \"Throb\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.508084"
 }

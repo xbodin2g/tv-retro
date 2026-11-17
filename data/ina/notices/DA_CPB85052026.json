@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052026",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052026/recre-a2-emission-du-11-fevrier-1985?rang=388",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:31:15.707933",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,11 +24,13 @@
     "Téléchat"
   ],
   "elements": [
+    "JACKY, coiffe d'un canotier et Charlotte en costume fin Xixème présentent l'émission en pique-niquant sur fond d'herbe verte et de berge ombragée",
     "Poochie",
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Pac-Man",
     "Tchaou et Grodo",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.181305"
 }

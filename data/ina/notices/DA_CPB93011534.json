@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011534",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011534/giga-emission-du-15-novembre-1993?rang=29",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:31:30.351845",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "SERIES (Achats): Sauvés Per le gong : \"La guerre des collèges\"; Sois prof et tais-toi : \"Ode à Simone\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.631029"
 }

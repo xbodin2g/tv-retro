@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054507",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054507/recre-a2-emission-du-01-avril-1982?rang=199",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:05:57.878418",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Dessin animé",
-    "Le petit echo de la forêt",
+    "Le petit écho de la forêt",
     "Tilt",
     "Si ont jouait au théâtre"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.936340"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009387",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009387/giga-emission-du-10-septembre-1993?rang=216",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:28:22.601425",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,6 @@
   ],
   "elements": [
     "SERIES (ACHATS): La fête à la maison: \"Amour maison \"; Le prince de Bel-Air: \"Un juge, deux touches \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.596641"
 }

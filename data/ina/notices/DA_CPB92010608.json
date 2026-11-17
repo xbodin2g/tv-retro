@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92010608",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010608/giga-emission-du-11-septembre-1992?rang=108",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:37:24.247669",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Jean-François BOUQUET annonce le programme de l'émission en voix off",
     "(achats) : \"La fête à la maison : la terreur blonde\". \"Quoi de neuf, Docteur ? \""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.348091"
 }

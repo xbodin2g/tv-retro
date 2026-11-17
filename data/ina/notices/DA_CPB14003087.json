@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003087",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003087/recre-a2-emission-du-10-decembre-1980?rang=366",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:35:02.206562",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,5 +39,6 @@
     "Wattoo Wattoo",
     "Les blancs jouent et gagnent",
     "G. Lenorman chante habillé en clochard \"si j'étais président\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.629493"
 }

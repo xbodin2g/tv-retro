@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055429",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055429/recre-a2-emission-du-06-janvier-1982?rang=401",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:01:05.134890",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -50,7 +50,7 @@
     "Dorothée accueille à l'occasion de l'Epiphanie, M. TOURNIER qu'elle interroge sur son dernier livre \"GASPARD, Melchior et Balthazar \"",
     "Pouffi et Fouki",
     "Casper et ses amis",
-    "Le Petit écho de la forêt",
+    "Le petit écho de la forêt",
     "Discopuce",
     "Les petits malheurs : F. CORBIER interprète une chanson qu'il a composée à partir de confidences d'enfants sur leurs petits malheurs",
     "Bouquin Bouquine",
@@ -62,5 +62,6 @@
     "Maraboud'ficelle",
     "Candy",
     "DOROTHEE chante \"les rois mages\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.949674"
 }

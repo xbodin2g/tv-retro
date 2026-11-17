@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90013085",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90013085/club-dorothee-noel-emission-du-24-decembre-1990?rang=334",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:07:41.176944",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -18,5 +18,6 @@
   "elements": [
     "Dorothée et son équipe présentent l'émission",
     "Série \"Super boy\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.470114"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001919",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001919/giga-emission-du-23-fevrier-1990?rang=37",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:45:21.313873",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,10 +25,12 @@
   "elements": [
     "Emission quotidienne dédiée aux adolescents",
     "Série : \"Quoi de neuf docteur?\"",
+    "Reportage : Le film \"Rendez-vous au tas de sable\" de Richard Gotainer. Interview du chanteur sur la genèse du projet entrecoupée d'extraits du film",
     "Sélection de livres",
     "Onomatopées d'Europe : Interview d'Agnès Rosentiehl et Pierre Gay pour leur glossaire des \"Cris d'Europe\"",
     "Série : \"La fête à la maison\"",
     "Sélection disques",
     "Images de repérage du tracé du premier raid motoneige de Sibérie"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.450779"
 }

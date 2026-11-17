@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003657",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003657/recre-a2-emission-du-27-janvier-1986?rang=287",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:57:31.189619",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,9 +20,10 @@
     "Fin de l'émission au garage : CORBIER décide de mettre la voiture à la casse, Valérie jette les lunettes de CORBIER à la poubelle."
   ],
   "elements": [
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Téléchat",
     "Cobra",
     "Fin de l'émission au garage : CORBIER décide de mettre la voiture à la casse, Valérie jette les lunettes de CORBIER à la poubelle"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.257988"
 }

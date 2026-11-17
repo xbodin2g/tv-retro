@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053668",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053668/recre-a2-emission-du-19-mai-1982?rang=407",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:08:50.732724",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,6 +41,7 @@
     "Méthanie",
     "Les aventures d'une souris sur Mars",
     "Discopuce",
+    "Bricolages insolites : Gaëtan explique comment fabriquer un pentographe à l'aide de pailles coudées, de bouchons, d'épingles et de mines de crayon",
     "Reportage sur le Musée Grévin : Reportage dans les ateliers du musée ou sont fabriquées les figures de cire",
     "Les survivants de l'ombre",
     "Les petits malheurs : F. CORBIER chante la chanson de la semaine \"la faute a mon chat\"",
@@ -50,5 +51,6 @@
     "La Panthère rose",
     "Maraboud'ficelle",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.917731"
 }

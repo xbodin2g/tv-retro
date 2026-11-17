@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003080",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003080/giga-emission-du-24-fevrier-1993?rang=150",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:18:32.555696",
   "program_query": "Giga",
   "programme": "Giga",
@@ -29,5 +29,6 @@
     "SOIS PROF ET TAIS TOI (kermesse scientifique, achat)",
     "LA FETE A LA MAISON (achat)",
     "MAJOR DAD (achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.456776"
 }

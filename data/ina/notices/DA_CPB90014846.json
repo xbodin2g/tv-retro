@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014846",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014846/recre-a2-emission-du-31-janvier-1981?rang=94",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:40:28.631159",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,6 @@
   "elements": [
     "Pinocchio",
     "La Caverne d'Abracadabra"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.822545"
 }

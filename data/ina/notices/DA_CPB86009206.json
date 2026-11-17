@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009206",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009206/recre-a2-emission-du-10-juillet-1986?rang=476",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:09:55.928501",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -24,5 +24,6 @@
     "Mafalda",
     "Super DOC : Les rouges et les noires (1)",
     "Clémentine"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.387546"
 }

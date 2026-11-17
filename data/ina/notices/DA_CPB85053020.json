@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85053020",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053020/recre-a2-emission-du-18-fevrier-1985?rang=263",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:31:39.846432",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,9 +25,10 @@
   "elements": [
     "Poochie",
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Pac-Man",
     "Tchaou et Grodo",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.193747"
 }

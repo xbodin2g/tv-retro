@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008482",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008482/giga-emission-du-5-aout-1993?rang=178",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:26:17.262894",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Diffusion des séries \"Happy days\" et \"Le prince de Bel Air\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.580059"
 }

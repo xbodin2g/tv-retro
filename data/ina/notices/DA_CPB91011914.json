@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011914",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011914/recre-a2-emission-du-27-octobre-1983?rang=285",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:56:54.597341",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,8 +26,9 @@
   "elements": [
     "Yakari",
     "Mes mains ont ma parole",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Jane de la jungle",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.118165"
 }

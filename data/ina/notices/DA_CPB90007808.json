@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007808",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007808/giga-emission-du-5-septembre-1990?rang=75",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:54:15.889261",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "SERIE : \"Les années collège\" (feuilleton américain=achat) INFOS GIGA : annonce du concert de Johnny HALLYDAY à Bercy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.563701"
 }

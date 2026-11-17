@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051427",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051427/recre-a2-emission-du-03-mai-1982?rang=149",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:07:54.296002",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,6 @@
     "Casper et ses amis",
     "Le petit écho de la forêt",
     "Tarzan"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.877433"
 }

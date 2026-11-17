@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78052108",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78052108/recre-a2-emission-du-21-septembre-1978?rang=132",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T23:22:37.321121",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,7 +19,9 @@
     "Candy"
   ],
   "elements": [
+    "Trois personnages sont dans une chambre. Deux d'entre eux jouent aux cartes. Le troisième raconte l'histoire du mot \"fanfreluche \". Bde 56223",
     "Goldorak",
     "Candy"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.652672"
 }

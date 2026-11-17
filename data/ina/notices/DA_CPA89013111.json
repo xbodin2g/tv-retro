@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89013111",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89013111/club-dorothee-emission-du-10-janvier-1990?rang=61",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-15T22:41:45.981163",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,6 +20,8 @@
     "Diffusion du vidéoclip de Dorothée \"C'est comme\"."
   ],
   "elements": [
+    "Diffusion des dessins animés suivants : \"Wingman\", \"Dragon Ball \", \"Le collège fou fou fou\", \"Ken le survivant\", \"Les chevaliers du zodiaque\"",
     "Le feuilleton \"Cap danger\""
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.338892"
 }

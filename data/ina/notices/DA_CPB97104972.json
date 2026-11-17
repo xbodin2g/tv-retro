@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB97104972",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB97104972/recre-a2-emission-du-11-mars-1987?rang=28",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T09:41:34.469460",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -12,5 +12,6 @@
   "start": "09:02",
   "elements_field": "",
   "titles_raw": [],
-  "elements": []
+  "elements": [],
+  "normalized_at": "2026-11-17T07:00:10.733708"
 }

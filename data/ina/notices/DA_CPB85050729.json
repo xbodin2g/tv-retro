@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050729",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050729/recre-a2-emission-du-01-fevrier-1985?rang=222",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:30:38.248664",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,9 +26,10 @@
   "elements": [
     "Poochie",
     "Anim'A2",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Clip : La petite M. MERCIER chante la chanson Tchaou et Grodo",
     "Les maître de l'univers",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.161262"
 }

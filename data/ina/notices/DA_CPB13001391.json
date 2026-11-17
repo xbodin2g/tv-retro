@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13001391",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13001391/recre-a2-emission-du-22-avril-1982?rang=205",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:07:23.702419",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -36,5 +36,6 @@
     "Yok Yok",
     "Tilt",
     "Drôles d'enfants"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.581550"
 }

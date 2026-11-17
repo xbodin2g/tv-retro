@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81051859",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81051859/recre-a2-emission-du-28-janvier-1981?rang=371",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:40:16.559571",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -52,5 +52,6 @@
     "DOROTHEE : \"c'est la récré\"",
     "Tilt",
     "Boule et Bill"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.798005"
 }

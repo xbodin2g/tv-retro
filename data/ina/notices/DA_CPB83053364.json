@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053364",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053364/recre-a2-emission-du-05-novembre-1983?rang=378",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:57:24.522020",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,8 +24,9 @@
   ],
   "elements": [
     "Les Schtroumpfs",
-    "Latulu et lireli",
+    "Latulu et Lireli",
     "Harold Llyod's",
     "Téléchat"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.048571"
 }

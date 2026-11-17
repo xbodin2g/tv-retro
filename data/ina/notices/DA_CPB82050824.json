@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050824",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050824/recre-a2-emission-du-21-septembre-1982?rang=110",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:17:49.565978",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,11 +27,12 @@
     "Plateau Julie"
   ],
   "elements": [
-    "Pic Pic Pic",
+    "Pic pic pic",
     "Yok Yok",
     "Les Quat'z Amis",
     "Matou chat des champs et souriceau",
     "C'est chouette",
-    "La bande à bédé"
-  ]
+    "La bande à BéDé"
+  ],
+  "normalized_at": "2026-11-17T07:00:08.864710"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008154",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008154/giga-emission-du-22-juillet-1993?rang=120",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:25:38.999670",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,6 @@
   "elements": [
     "Série : LES JOURS HEUREUX \"le jour J est arrivé\" (ACHAT)",
     "Série : LE PRINCE DE BEL AIR. (ACHAT)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.570883"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001501",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001501/giga-emission-du-28-fevrier-1992?rang=175",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:29:18.580729",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,6 @@
   "elements": [
     "Spectacle, sport, artisanat et aventure au sommaire de ce GIGA agrémenté des deux séries \"Sois prof et tais toi\" et \"Sauvés par le gong\"",
     "Visite à l'atelier de Mr BONVALLET qui répare les automates et nous en explique les origines et les secrets"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.234416"
 }

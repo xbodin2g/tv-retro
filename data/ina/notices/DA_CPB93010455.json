@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010455",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010455/giga-emission-du-12-octobre-1993?rang=21",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:29:41.876346",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,6 @@
   ],
   "elements": [
     "Diffusion des séries : TV 101 et la rentrée 2/2"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.611925"
 }

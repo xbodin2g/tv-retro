@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001892",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001892/recre-a2-emission-du-26-mars-1983?rang=154",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:45:12.458696",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,6 @@
     "Les Schtroumpfs",
     "Latulu et Lireli",
     "Les croque-monstres"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.931048"
 }

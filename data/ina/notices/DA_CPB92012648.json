@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012648",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012648/giga-emission-du-14-octobre-1992?rang=33",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T10:39:15.961825",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,5 +16,6 @@
   ],
   "elements": [
     "Diffusion des séries La fête à la maison, Le lycée alpin et Sauvés par le gong"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.369476"
 }

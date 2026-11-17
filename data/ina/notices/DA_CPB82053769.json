@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053769",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053769/recre-a2-emission-du-17-aout-1982?rang=353",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:14:26.031514",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -25,5 +25,6 @@
     "Spectreman",
     "Les Quat'z Amis",
     "Casper et ses amis"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.919770"
 }

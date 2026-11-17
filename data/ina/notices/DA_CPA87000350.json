@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000350",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000350/vitamine-emission-du-28-janvier-1987?rang=2",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T22:51:34.067280",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -21,5 +21,6 @@
   "elements": [
     "DANSE. Pascale donne un cours de danse en groupe, avec musique non identifiée",
     "LOOK. Défilé de mode junior présenté par Pascale"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:07.873522"
 }

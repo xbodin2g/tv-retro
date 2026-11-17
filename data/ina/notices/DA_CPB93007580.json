@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007580",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007580/giga-emission-du-2-juillet-1993?rang=117",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:24:48.623892",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,6 @@
     "\"Happy days : Fonzie est amoureux \"(série, achat)",
     "REPORTAGE",
     "\"Le Prince de Bel Air : On ne touche pas\" (série, achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.560645"
 }

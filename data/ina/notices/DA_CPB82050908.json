@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050908",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050908/recre-a2-emission-du-01-decembre-1982?rang=427",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:22:12.863176",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -33,5 +33,6 @@
     "Bouquin bouquine",
     "La Panthère rose",
     "Heidi"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.867552"
 }

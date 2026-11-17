@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055761",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055761/recre-a2-emission-du-14-avril-1982?rang=371",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T07:06:29.812437",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -43,5 +43,6 @@
     "Les petits malheurs : F. CORBIER chante la chanson de la semaine \"le petit frère\"",
     "La Panthère rose",
     "Zeltron"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.968053"
 }

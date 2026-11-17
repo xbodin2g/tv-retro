@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003365",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003365/recre-a2-emission-du-27-janvier-1981?rang=142",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:40:12.297992",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,6 @@
     "Émilie",
     "C'est chouette",
     "3,2,1 contact"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.555860"
 }

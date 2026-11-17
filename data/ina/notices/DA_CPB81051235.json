@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81051235",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81051235/recre-a2-emission-du-06-mai-1981?rang=377",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T06:46:08.676205",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -48,5 +48,6 @@
     "Casper",
     "Dorothée",
     "La Panthère rose"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:08.792779"
 }

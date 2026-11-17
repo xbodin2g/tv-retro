@@ -2,7 +2,7 @@
   "notice_id": "TV_745440.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_745440.001/tf-jeunesse-programme-du-30-decembre-1997?rang=138",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T20:45:31.155465",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -48,5 +48,6 @@
     "Beethoven",
     "Les singes de l'espace",
     "Dog Tracer"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:11.539704"
 }

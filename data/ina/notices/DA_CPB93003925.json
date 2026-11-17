@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003925",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003925/giga-emission-du-19-mars-1993?rang=107",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T11:19:35.284622",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,6 @@
     "SERIE : HAPPY DAYS (Achat)",
     "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
     "SERIE : MAJOR DAD (Achat)"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:10.475983"
 }

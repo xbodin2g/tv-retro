@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003973",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003973/recre-a2-emission-du-2-fevrier-1986?rang=159",
   "source": "ina",
-  "parser_version": 5,
+  "parser_version": 9,
   "scraped_at": "2026-11-16T08:57:56.992161",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -38,5 +38,6 @@
     "Mafalda",
     "L'Empire des 5",
     "Clip Pac-Man"
-  ]
+  ],
+  "normalized_at": "2026-11-17T07:00:09.263697"
 }
