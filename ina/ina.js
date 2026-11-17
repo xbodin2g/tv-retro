@@ -434,7 +434,7 @@ async function launch(){
  }
  const noCh=todo.slice(0,n).filter(t=>!progOf(t.program)?.channel).length;
  if(!live()){if(!confirm(`Pas de token GitHub : la série sera SIMULÉE (${n} tâche(s)).\n\nAucun run réel. Continuer ?`))return;}
- else if(n>3&&!confirm(`Lancer ${n} run(s) GitHub réels ?\n\nMéthodes ${S.orch.strategies} · match ${S.orch.match} · fetch ${S.orch.fetch}\nEnchaînement : ${S.orch.strategy==='serial'?'séquentiel':'rafale espacée'}${noCh?`\n⚠️ ${noCh} sans chaîne : méthode B inactive:':''}`:''}`))return;
+ else if(n>3&&!confirm(`Lancer ${n} run(s) GitHub réels ?\n\nMéthodes ${S.orch.strategies} · match ${S.orch.match} · fetch ${S.orch.fetch}\nEnchaînement : ${S.orch.strategy==='serial'?'séquentiel':'rafale espacée'}${noCh?`\n⚠️ ${noCh} sans chaîne : méthode B inactive.`:''}`))return;
  S.orch.running=true;S.orch.paused=false;S.orch.startedAt=Date.now();S.orch.sent=0;
  const token=++S.loopToken;renderOrch();renderPlan();
  try{
