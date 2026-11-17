@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
+_Généré le 2026-11-17 à 21:45:00 — parser v9 · fetch=auto_
 
 > INA n'est pas structuré uniformément : le nom de l'émission est tantôt dans le **titre propre**,
 > tantôt dans la colonne **Titre programme**, tantôt dans les deux. **A** et **B** sont cumulées,
@@ -11,10 +11,10 @@ _Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **258** (≈ 48396)
-- Entrées : **8989** · Connues sans téléchargement : **671**
-- À télécharger : **8318** · En cache : **8988** (100.0 %)
-- Œuvres distinctes : **34** · Reste : **1**
+- Jamais indexés : **258** (≈ 97655)
+- Entrées : **15719** · Connues sans téléchargement : **7009**
+- À télécharger : **8710** · En cache : **15289** (97.3 %)
+- Œuvres distinctes : **614** · Reste : **430**
 
 ## Par émission
 
@@ -22,7 +22,7 @@ _Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | Amuse 3 | FR3 | 1985→1997 | — | 12 | 5 | 0 | 5 | 5 | 0 | 100.0 % |
 | Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 0 | 2468 | 2468 | 0 | 100.0 % |
-| Récré A2 | Antenne 2 | 1978→1987 | — | 0 | 2077 | 0 | 2077 | 2076 | 1 | 100.0 % |
+| Récré A2 | Antenne 2 | 1978→1987 | A,B | 0 | 8807 | 6338 | 2469 | 8377 | 430 | 95.1 % |
 | Cabou Cadin | Canal+ | 1985→1993 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 0 | 1086 | 1086 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -422,17 +422,29 @@ _Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
 
 | Année | État | Entrées | Via | Correspondance | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---|---:|---:|---:|---:|---:|
-| 1978 | complet | 98 | — | ?:98 | 0 | 98 | 98 | 0 | 0 |
-| 1979 | complet | 231 | — | ?:231 | 0 | 231 | 231 | 0 | 0 |
-| 1980 | en cours | 259 | — | ?:259 | 0 | 259 | 258 | 0 | 1 |
-| 1981 | complet | 259 | — | ?:259 | 0 | 259 | 259 | 0 | 0 |
-| 1982 | complet | 288 | — | ?:288 | 0 | 288 | 288 | 0 | 0 |
-| 1983 | complet | 267 | — | ?:267 | 0 | 267 | 267 | 0 | 0 |
-| 1984 | complet | 166 | — | ?:166 | 0 | 166 | 166 | 0 | 0 |
-| 1985 | complet | 208 | — | ?:208 | 0 | 208 | 208 | 0 | 0 |
-| 1986 | complet | 285 | — | ?:285 | 0 | 285 | 285 | 0 | 0 |
-| 1987 | complet | 14 | — | ?:14 | 0 | 14 | 14 | 0 | 0 |
-| 1988 | complet (hors plage) | 2 | — | ?:2 | 0 | 2 | 2 | 0 | 0 |
+| 1978 | en cours | 343 | B:343 | both:118, programme:225 | 223 | 120 | 321 | 33 | 22 |
+| 1979 | en cours | 691 | A:1, B:691 | both:235, programme:456 | 465 | 226 | 689 | 46 | 2 |
+| 1980 | complet | 630 | A:365, B:630 | both:261, programme:369 | 374 | 256 | 630 | 21 | 0 |
+| 1981 | en cours | 697 | A:1, B:697 | both:260, programme:437 | 439 | 258 | 696 | 27 | 1 |
+| 1982 | complet | 850 | B:850 | both:288, programme:562 | 563 | 287 | 850 | 47 | 0 |
+| 1983 | en cours | 929 | B:929 | both:285, programme:644 | 646 | 283 | 910 | 46 | 19 |
+| 1984 | en cours | 1196 | B:1196 | both:334, programme:862 | 862 | 334 | 1028 | 71 | 168 |
+| 1985 | en cours | 1436 | B:1436 | both:415, programme:1021 | 1024 | 412 | 1229 | 48 | 207 |
+| 1986 | en cours | 1171 | B:1171 | both:297, programme:874 | 890 | 281 | 1163 | 84 | 8 |
+| 1987 | en cours | 864 | B:864 | both:18, programme:846 | 852 | 12 | 861 | 157 | 3 |
+
+<details><summary>Requêtes tentées</summary>
+
+| Méthode | Entrées | Annoncées | Colonne | Libellé | Les deux | Œuvre connue | Note |
+|---|---:|---:|---:|---:|---:|---:|---|
+| `B/ch=Antenne 2` | 9476 | 9486 | 6963 | 0 | 2513 | 7004 | paginé via page · 9476/9486 |
+| `B/ch=France 2` | 629 | 629 | 629 | 0 | 0 | 629 | paginé via page |
+| `A/1980/v0` | 367 | 367 | 109 | 0 | 258 | 113 | complet |
+| `A/1980/v1` | 367 | 367 | 109 | 0 | 258 | 113 | complet |
+| `A/1980/v2` | 258 | 258 | 0 | 0 | 258 | 4 | complet |
+| `A/1980/v3` | 367 | 367 | 109 | 0 | 258 | 113 | complet |
+
+</details>
 
 ### Salut les Musclés · TF1
 
@@ -568,4 +580,11 @@ _Généré le 2026-11-17 à 07:29:48 — parser v9 · fetch=auto_
 
 | Émission | Année | Reste à télécharger |
 |---|---|---:|
-| Récré A2 | 1980 | 1 |
+| Récré A2 | 1985 | 207 |
+| Récré A2 | 1984 | 168 |
+| Récré A2 | 1978 | 22 |
+| Récré A2 | 1983 | 19 |
+| Récré A2 | 1986 | 8 |
+| Récré A2 | 1987 | 3 |
+| Récré A2 | 1979 | 2 |
+| Récré A2 | 1981 | 1 |
