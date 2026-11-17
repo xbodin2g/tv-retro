@@ -48,7 +48,10 @@ on:
           - Premiers baisers
           - Les années fac
           - Cellulo
-      program_custom: {description: "③ ÉMISSION EXACTE — prioritaire sur le menu", type: string, default: ""}
+      program_custom:
+        description: "③ ÉMISSION EXACTE — prioritaire sur le menu"
+        type: string
+        default: ""
       channel:
         description: "④ CHAÎNE — active B. A tourne dans tous les cas. Vide = chaîne du registre"
         type: choice
@@ -65,7 +68,7 @@ on:
         default: any
         options: [any, programme, title, both]
       fetch:
-        description: "⑦ TÉLÉCHARGEMENT — auto = seulement ce que la liste n'apprend pas (recommandé)"
+        description: "⑦ TÉLÉCHARGEMENT — auto = seulement ce que la liste n'apprend pas"
         type: choice
         default: auto
         options: [auto, mothers, all, none]
@@ -79,13 +82,33 @@ on:
         type: choice
         default: "400"
         options: ["400","200","600","1000","0"]
-      all_years: {description: "⑩ Garder les entrées hors plage from→to", type: boolean, default: false}
-      allow_all: {description: "⑪ Tout accepter sans filtre d'appartenance (debug)", type: boolean, default: false}
-      retry_empty: {description: "⑫ Retenter les notices sans œuvre", type: boolean, default: false}
-      origin: {description: "⑬ ORIGINE — manual | dashboard | diagnostic", type: string, default: manual}
+      all_years:
+        description: "⑩ Garder les entrées hors plage from→to"
+        type: boolean
+        default: false
+      allow_all:
+        description: "⑪ Tout accepter sans filtre d'appartenance (debug)"
+        type: boolean
+        default: false
+      retry_empty:
+        description: "⑫ Retenter les notices sans œuvre"
+        type: boolean
+        default: false
+      refresh_stale:
+        description: "⑬ Re-télécharger les notices d'ancienne version de parseur"
+        type: boolean
+        default: false
+      origin:
+        description: "⑭ ORIGINE — manual | dashboard | diagnostic"
+        type: string
+        default: manual
 
-concurrency: {group: ina-enrich, cancel-in-progress: false}
-permissions: {contents: write}
+concurrency:
+  group: ina-enrich
+  cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   enrich:
@@ -112,6 +135,7 @@ jobs:
           AY: ${{ github.event.inputs.all_years }}
           AA: ${{ github.event.inputs.allow_all }}
           RE: ${{ github.event.inputs.retry_empty }}
+          RS: ${{ github.event.inputs.refresh_stale }}
         run: |
           PROGRAM="$P"; [ -n "$C" ] && PROGRAM="$C"
           case "$M" in
@@ -130,6 +154,7 @@ jobs:
               [ "$AY" = "true" ] && ARGS+=(--all-years)
               [ "$AA" = "true" ] && ARGS+=(--allow-all)
               [ "$RE" = "true" ] && ARGS+=(--retry-empty)
+              [ "$RS" = "true" ] && ARGS+=(--refresh-stale)
               ;;
           esac
           case "$M" in targets|report-only) ;; *) [ "$Y" != "toutes" ] && ARGS+=(--year "$Y") ;; esac
