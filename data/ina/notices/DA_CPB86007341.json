@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007341",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007341/recre-a2-emission-du-7-mai-1986?rang=472",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:43.759822",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -26,7 +26,6 @@
     "Clip \"Le Bon-Dieu\" par Dorothée"
   ],
   "elements": [
-    "Dorothée présente \"Récré A2 mercredi\" avec des poupons braillards pleins les bras qui l'empêchent de raconter l'épopée du Général LA FAYETTE",
     "Les Schtroumpfs",
     "Discopuce",
     "Les Poupies",
@@ -36,5 +35,8 @@
     "La bande à BéDé",
     "Clip \"Le Bon-Dieu\" par Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:09.346599"
+  "normalized_at": "2026-11-18T21:59:45.433674",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

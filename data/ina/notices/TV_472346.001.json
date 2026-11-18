@@ -2,7 +2,7 @@
   "notice_id": "TV_472346.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_472346.001/club-dorothee-programme-du-17-decembre-1996?rang=107",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:41:57.132180",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Salut les Musclés : Gigi"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.575328",
-  "normalized_at": "2026-11-17T07:00:11.199560"
+  "normalized_at": "2026-11-18T21:59:46.957495",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

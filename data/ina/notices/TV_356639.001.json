@@ -2,7 +2,7 @@
   "notice_id": "TV_356639.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_356639.001/club-dorothee-vacances-programme-du-19-juillet-1996?rang=246",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:34:33.112002",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -31,5 +31,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.500409",
-  "normalized_at": "2026-11-17T07:00:11.072353"
+  "normalized_at": "2026-11-18T21:59:46.849740",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012590",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012590/recre-a2-emission-du-1er-fevrier-1979?rang=199",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:08:35.003449",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Papivole",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.668790"
+  "normalized_at": "2026-11-18T21:59:45.697012",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

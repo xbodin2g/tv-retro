@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001248",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001248/recre-a2-emission-du-21-decembre-1982?rang=429",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:23:36.657878",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -28,5 +28,8 @@
     "C'est chouette",
     "Sido et Rémi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.902774"
+  "normalized_at": "2026-11-18T21:59:45.898358",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

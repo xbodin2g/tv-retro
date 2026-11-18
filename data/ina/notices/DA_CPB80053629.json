@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80053629",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80053629/recre-a2-emission-du-16-janvier-1980?rang=344",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:17:01.874843",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -34,17 +34,16 @@
   ],
   "elements": [
     "La Panthère rose",
-    "Eddy, ALAIN et Gilles (3 clowns de l'école du cirque P. ETAIX et A. FRATELLINI) interprètent \"le jus d'orange\"",
     "Maraboud'ficelle",
     "Anagrammes",
     "A2000",
     "Zeltron",
-    "Flash sport P. S JONES : Le patinage artistique",
     "Albator",
-    "Eddy, ALAIN et Gilles (3 clowns de l'école du cirque P. ETAIX et A. FRATELLINI) interprètent \"Les acrobates\"",
-    "Dotation A2000 : 3 jeunes garçons expliquent leur projet : recherche de la température a la surface du soleil",
     "Émilie",
     "Récré A2"
   ],
-  "normalized_at": "2026-11-17T07:00:08.746112"
+  "normalized_at": "2026-11-18T21:59:44.826076",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

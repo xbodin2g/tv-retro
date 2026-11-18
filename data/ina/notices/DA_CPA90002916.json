@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90002916",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90002916/club-dorothee-emission-du-4-avril-1990?rang=70",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:47:06.492829",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,13 +20,9 @@
     "JEUX : \"Le mot mystérieux\", \"Jeu des cloches de Pâques \", \"Jeu des génies\", \"Jeu de l'ABC\"",
     "TOP JEUNES : brefs extraits des clips au hit-parade des jeunes, du n10 Jean-Pierre FRANCOIS au n1 Roch VOISINE"
   ],
-  "elements": [
-    "SALUT LES MUSCLES : Les fleurs (voir à ce titre)",
-    "DESSINS ANIMES : \"Wingman : deux amies\", \"Dragon ball\", \"Le collège fou fou fou\", \"Ken le survivant\", \"Les chevaliers du zodiaque\"",
-    "SERIE : \"Benji : Zax and the alien prince\"",
-    "MAROTTE ET Charlie : La nuit de la terreur \"(voir à ce titre)",
-    "JEUX : \"Le mot mystérieux\", \"Jeu des cloches de Pâques \", \"Jeu des génies\", \"Jeu de l'ABC\"",
-    "TOP JEUNES : brefs extraits des clips au hit-parade des jeunes, du n10 Jean-Pierre FRANCOIS au n1 Roch VOISINE"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.373466"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.494229",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

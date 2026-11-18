@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB15006681",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB15006681/recre-a2-emission-du-11-octobre-1978?rang=100",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:23:22.226882",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,7 +27,6 @@
     "Plateau Patrick, Dorothée"
   ],
   "elements": [
-    "Enregistrement à partir de 17:58:00 K7 2/5 et 3/5 manquantes",
     "Entre les lignes",
     "Maraboud'ficelle",
     "Discopuce",
@@ -35,5 +34,8 @@
     "Monsieur Rosée",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.648406"
+  "normalized_at": "2026-11-18T21:59:44.750724",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

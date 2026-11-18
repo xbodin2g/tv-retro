@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80051851",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80051851/recre-a2-emission-du-05-novembre-1980?rang=337",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:32:38.596375",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,5 +46,8 @@
     "Les petits poètes",
     "A2000"
   ],
-  "normalized_at": "2026-11-17T07:00:08.731429"
+  "normalized_at": "2026-11-18T21:59:44.815081",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

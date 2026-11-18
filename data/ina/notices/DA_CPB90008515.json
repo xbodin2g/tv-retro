@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008515",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008515/giga-emission-du-4-octobre-1990?rang=130",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:33.769267",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Au sommaire de cette émission, INFOS GIGA et Larry et Balky.",
     "INFOS GIGAS : GIGAS OBJETS : Visite de la société \"Clin d'Oeil\" en compagnie de son directeur. A partir d'une commande bien précise d'un client, cette société crée des personnages. Au départ, ce travail exige un grand une recherche documentaire puis un travail de peintre et de sculpteur. Les personnages sont ensuite conçus en polytyrène et peints au pistolet."
   ],
-  "elements": [
-    "Au sommaire de cette émission, INFOS GIGA et Larry et Balky"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.584288"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.623689",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

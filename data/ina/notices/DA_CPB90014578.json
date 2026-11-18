@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014578",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014578/recre-a2-emission-du-15-decembre-1980?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:35:16.718371",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "La cuisine sans maman : Zabou et Alain propose la \"Le gâteau Gala\""
   ],
-  "elements": [
-    "La cuisine sans maman : Zabou et Alain propose la \"Le gâteau Gala\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.809076"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.821550",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

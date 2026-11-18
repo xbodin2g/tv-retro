@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91008696",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91008696/giga-emission-du-16-mai-1991?rang=195",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:13:27.703630",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,8 @@
     "REPORTAGES",
     "(Emission écourtée pour cause d'Edith CRESSON)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.060539"
+  "normalized_at": "2026-11-18T21:59:46.039802",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

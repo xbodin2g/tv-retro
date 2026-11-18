@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003047",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003047/recre-a2-emission-du-08-octobre-1980?rang=354",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:30:37.750912",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,5 +40,8 @@
     "Clip Rolling Stone",
     "Wattoo Watoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.627160"
+  "normalized_at": "2026-11-18T21:59:44.732894",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

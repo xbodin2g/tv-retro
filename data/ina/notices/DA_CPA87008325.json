@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008325",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008325/club-dorothee-emission-du-15-septembre-1987?rang=3",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:10:04.875438",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,9 +17,11 @@
     "-Une chanson de François CORBIER."
   ],
   "elements": [
-    "Au sommaire du \"Club Dorothée\" présenté par Dorothée et toute l'équipe (qui se chamaille)",
     "Un dessin animé : \"Clair de lune\" (achat)",
     "Une chanson de François CORBIER"
   ],
-  "normalized_at": "2026-11-17T07:00:07.925976"
+  "normalized_at": "2026-11-18T21:59:44.046343",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

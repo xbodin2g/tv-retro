@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80054571",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80054571/recre-a2-emission-du-22-janvier-1980?rang=160",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:17:18.378227",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Mes mains ont la parole",
     "Les Quat'z Amis"
   ],
-  "normalized_at": "2026-11-17T07:00:08.752475"
+  "normalized_at": "2026-11-18T21:59:44.831118",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001924",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001924/giga-emission-du-2-mars-1990?rang=35",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:38.160050",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "\"QUOI DE NEUF DOCTEUR : Les amygdales de Ben \"(série américaine)",
     "Daffy hait l'aspirateur",
-    "court sujet expliquant à l'aide de schémas animés et d'extraits de film noir et blanc le phénomène de la dérive des continents",
     "GIGA SERIE : LA FETE A LA MAISON"
   ],
-  "normalized_at": "2026-11-17T07:00:09.459073"
+  "normalized_at": "2026-11-18T21:59:45.531946",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

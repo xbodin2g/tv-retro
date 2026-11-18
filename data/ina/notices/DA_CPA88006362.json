@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006362",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006362/club-dorothee-emission-du-25-mai-1988?rang=190",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:13:40.585816",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -25,16 +25,12 @@
     "JEU DE L'ABC : un candidat joue par téléphone avec EMMANUELLE."
   ],
   "elements": [
-    "En direct du studio de La Plaine Saint Denis,Dorothée et son équipe présente l'émission. [Différents plans] du public de jeunes enfants. Au sommaire",
     "FEUILLETON : \"Punky BREWSTER\" (achat)",
-    "En régie, le réalisateur danse le slow, ainsi qu'un couple de deux messieurs",
-    "LE JEU DU TELEPHONE : Rachid joue avec l'équipe",
-    "JACKY SEAU : EMMANUELLE jette toute une série de seaux d'eau à JACKY qui en redemande",
     "Tirage du fruito-dingo",
-    "Goûter d'anniversaire Papy BROSSARD : arrivée des petits candidats qui rejoignent la table des animateurs, description des cadeaux",
-    "HIT PARADE DES CHANSONS : courts extraits des chansons classées au hit parade junior",
-    "FEUILLETONS: \"BIOMAN \",\" SPIDMAN \" (achats)",
-    "JEU DE L'ABC : un candidat joue par téléphone avec EMMANUELLE"
+    "FEUILLETONS: \"BIOMAN \",\" SPIDMAN \" (achats)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.045726"
+  "normalized_at": "2026-11-18T21:59:44.141441",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

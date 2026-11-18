@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002422",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002422/recre-a2-emission-du-21-mars-1981?rang=75",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:43:20.435888",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Pinocchio",
     "La Caverne d'Abracadabra"
   ],
-  "normalized_at": "2026-11-17T07:00:08.517065"
+  "normalized_at": "2026-11-18T21:59:44.631924",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

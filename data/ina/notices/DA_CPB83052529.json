@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052529",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052529/recre-a2-emission-du-29-juillet-1983?rang=478",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:12.393742",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -21,8 +21,10 @@
   ],
   "elements": [
     "Quac Quao",
-    "Latulu et lireli : Bleu je veux de Gisèle Bienne illustré par Gisèle MORGENSTERN",
     "Zora la rousse"
   ],
-  "normalized_at": "2026-11-17T07:00:09.035078"
+  "normalized_at": "2026-11-18T21:59:45.054832",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

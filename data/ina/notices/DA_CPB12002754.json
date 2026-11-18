@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002754",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002754/recre-a2-emission-du-06-decembre-1979?rang=116",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:22:36.050830",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Mes mains ont la parole",
     "Kaléidoscope"
   ],
-  "normalized_at": "2026-11-17T07:00:08.523085"
+  "normalized_at": "2026-11-18T21:59:44.637739",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

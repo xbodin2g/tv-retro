@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90012023",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90012023/club-dorothee-emission-du-19-decembre-1990?rang=158",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:07:25.147851",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,15 +23,13 @@
     "Arrivée de Dorothée et des Musclés dans le studio, venant de l'Olympia."
   ],
   "elements": [
-    "Emission réalisée en duplex entre l'Olympia, où se trouvent DOROTHEE et LES MUSCLES et le studio 7 où est le reste de l'équipe",
-    "De l'Olympia : réactions de Dorothée et des Musclés avant leur passage sur scène",
     "DESSIN ANIME : \"Dragon ball\" (achat)",
-    "DESSIN ANIME : \"Sophie et Virginie\" : \"Seules\" (voir document)",
     "DESSIN ANIME : \"Jiban\" (achat)",
     "DESSIN ANIME : \"Les Chevaliers du zodiaque\" (achat)",
-    "DESSIN ANIME : \"Nicky LARSON\" (achat)",
-    "SALUT LES MUSCLES : Rencontres du 2ème type (voir document)",
-    "Arrivée de Dorothée et des Musclés dans le studio, venant de l'Olympia"
+    "DESSIN ANIME : \"Nicky LARSON\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.468361"
+  "normalized_at": "2026-11-18T21:59:44.587479",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002454",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002454/giga-emission-du-8-fevrier-1993?rang=94",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:17:17.625062",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,8 @@
     "SERIE : LA FETE A LA MAISON (achat)",
     "SERIE : MAJOR DAD (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.443388"
+  "normalized_at": "2026-11-18T21:59:46.327235",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

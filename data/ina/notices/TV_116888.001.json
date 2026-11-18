@@ -2,7 +2,7 @@
   "notice_id": "TV_116888.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_116888.001/club-dorothee-vacances-programme-du-28-aout-1995?rang=284",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:33:55.517789",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -38,5 +38,8 @@
     "Le collège des coeurs brisés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.302476",
-  "normalized_at": "2026-11-17T07:00:10.771048"
+  "normalized_at": "2026-11-18T21:59:46.596994",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

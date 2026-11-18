@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055546",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055546/recre-a2-emission-du-27-decembre-1982?rang=246",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:23:57.422593",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Bande 2385, 54436"
   ],
-  "normalized_at": "2026-11-17T07:00:08.964516"
+  "normalized_at": "2026-11-18T21:59:44.995347",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

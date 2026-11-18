@@ -2,7 +2,7 @@
   "notice_id": "TV_657682.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_657682.001/club-dorothee-programme-du-30-aout-1997?rang=63",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:40:02.054538",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -25,5 +25,8 @@
     "Pas de pitié pour les croissants"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.685944",
-  "normalized_at": "2026-11-17T07:00:11.391850"
+  "normalized_at": "2026-11-18T21:59:47.113029",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

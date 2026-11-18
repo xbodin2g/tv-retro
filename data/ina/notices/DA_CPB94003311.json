@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003311",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003311/giga-emission-du-25-avril-1994?rang=114",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:48:53.046324",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Sans plateau, l'émission diffuse deux séries américaines : \"La famille JACKSON\" et \"Les années collège\" (achats)."
   ],
-  "elements": [
-    "Sans plateau, l'émission diffuse deux séries américaines : \"La famille JACKSON\" et \"Les années collège\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.695799"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.524222",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

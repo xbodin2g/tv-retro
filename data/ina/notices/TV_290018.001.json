@@ -2,7 +2,7 @@
   "notice_id": "TV_290018.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_290018.001/club-dorothee-vacances-programme-du-17-avril-1996?rang=236",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:30:37.632415",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -21,5 +21,8 @@
     "Le miel et les abeilles"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.461609",
-  "normalized_at": "2026-11-17T07:00:11.006635"
+  "normalized_at": "2026-11-18T21:59:46.788346",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

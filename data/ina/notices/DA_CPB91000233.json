@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000233",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000233/recre-a2-emission-du-26-decembre-1981?rang=306",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:57:35.965514",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "La revolte irlandaise"
   ],
-  "normalized_at": "2026-11-17T07:00:09.863930"
+  "normalized_at": "2026-11-18T21:59:45.869122",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

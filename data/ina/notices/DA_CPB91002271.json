@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002271",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002271/recre-a2-emission-du-21-aout-1982?rang=351",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:14:43.072030",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,11 +22,13 @@
     "Plateau Doogy dog et Elfie"
   ],
   "elements": [
-    "DOGGY dog et Elfie présentent les diff parties de l'émission",
     "Lippy the lion and Hardy har har",
     "Casper et ses amis",
     "Chanson Dorothée",
     "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.950205"
+  "normalized_at": "2026-11-18T21:59:45.940780",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011442",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011442/recre-a2-plateau-emission-du-28-septembre-1986?rang=135",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:15:45.492262",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Clip vidéo des Ministars : \"La gigue d'Arcadia\"."
   ],
   "elements": [
-    "Dorothée et toute l'équipe de RécréA2 sont présents sur le plateau",
     "Au sommaire",
     "Mafalda (d.A.)",
     "Cosmocats (d.A.)",
@@ -33,5 +32,8 @@
     "CA C'EST DU CINEMA",
     "Clip vidéo des Ministars : \"La gigue d'Arcadia\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.435228"
+  "normalized_at": "2026-11-18T21:59:45.510644",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

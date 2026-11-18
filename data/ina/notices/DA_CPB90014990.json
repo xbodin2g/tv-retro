@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014990",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014990/recre-a2-emission-du-26-aout-1981?rang=218",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:51:14.236637",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,8 @@
     "Spécial tahiti",
     "Pinocchio"
   ],
-  "normalized_at": "2026-11-17T07:00:09.834751"
+  "normalized_at": "2026-11-18T21:59:45.844304",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

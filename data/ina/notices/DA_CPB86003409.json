@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003409",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003409/recre-a2-emission-du-22-janvier-1986?rang=444",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:57:11.547645",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -24,7 +24,6 @@
     "Dorothée chante \"Mon Dieu qu'il est bête\" (CLIP)."
   ],
   "elements": [
-    "A bord du vaisseau de Christophe COLOMB (alias Jacky) : départ, jours de dérive, apparition de la terre, découverte du tabac",
     "Les Schtroumpfs",
     "Les Poupies",
     "Clémentine",
@@ -32,5 +31,8 @@
     "Flip et Bouc",
     "Dorothée chante \"Mon Dieu qu'il est bête\" (CLIP)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.251899"
+  "normalized_at": "2026-11-18T21:59:45.355226",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

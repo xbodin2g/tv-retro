@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054517",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054517/recre-a2-emission-du-21-avril-1982?rang=335",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:07:19.590832",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,7 +41,6 @@
     "Matou chat des champs et souriceau",
     "Doggy-dog chante \"Les petits verre à musique\"",
     "Méthanie",
-    "Bricolages insolites : Gaëtan BLOOM montre comment fabriquer un colleur de timbre",
     "Discopuce",
     "James HODGES, ventriloque",
     "Casper et ses amis",
@@ -49,11 +48,13 @@
     "Maraboud'ficelle : dessins de CABU",
     "Elfie et Doggy-dog chantent \"Les fameux détective\"",
     "Zeltron",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine \"Le roi du skate-board\"",
     "La Panthère rose",
     "Maraboud'ficelle",
     "Candy",
     "Elfie et Doggy-dog chantent \"Elfie et Doggy\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.937768"
+  "normalized_at": "2026-11-18T21:59:44.981191",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

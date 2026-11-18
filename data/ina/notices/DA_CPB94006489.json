@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006489",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006489/giga-emission-du-29-juillet-1994?rang=147",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:04.703232",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "\"Goal : pannes de coeur \"",
     "\"Génération musique\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.720496"
+  "normalized_at": "2026-11-18T21:59:46.546476",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

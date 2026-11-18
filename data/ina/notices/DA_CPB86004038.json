@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004038",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004038/recre-a2-emission-du-4-fevrier-1986?rang=273",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:58:04.836451",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Téléchat",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.264956"
+  "normalized_at": "2026-11-18T21:59:45.365902",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002609",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002609/giga-emission-du-29-mars-1994?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:47:38.832822",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   "elements": [
     "Au sommaire de ce GIGA, 2 séries",
     "SECONDE B : \"Le choix de Nadia\" (re",
-    "LES ANNEES COLLEGE : \"Ras le bol les parents\" (achat)",
     "Pas de reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.685696"
+  "normalized_at": "2026-11-18T21:59:46.515920",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

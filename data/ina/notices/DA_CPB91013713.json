@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013713",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013713/giga-emission-du-13-novembre-1991?rang=157",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:21:40.058916",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,8 +23,10 @@
     "Emission composée de",
     "La série \"Salut les copains\"",
     "La série Américaine \"Sauvés par le gong\"",
-    "Nouveauté en matière de BD : Didier COMES, auteur de la BD \"Iris\" en raconte l'argument (BT de quelques uns de ces dessins)",
     "\"La fête à la maison \" :série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:10.155111"
+  "normalized_at": "2026-11-18T21:59:46.112988",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

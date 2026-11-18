@@ -2,7 +2,7 @@
   "notice_id": "TV_27870.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_27870.001/club-dorothee-vacances-programme-du-1er-mars-1995?rang=382",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:17:05.849209",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -42,5 +42,8 @@
     "Power Rangers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.445842",
-  "normalized_at": "2026-11-17T07:00:10.989059"
+  "normalized_at": "2026-11-18T21:59:46.775465",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

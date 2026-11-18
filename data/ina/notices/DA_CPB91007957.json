@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007957",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007957/giga-emission-du-6-mai-1991?rang=58",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:13:06.047239",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,11 +24,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "reportage sur la F3 au grand Prix du Pas de Calais, avec interview d'Eric HELARY (champion de France)",
     "UN TOIT POUR DIX : feuilleton (achat)",
-    "reportage Giga dans le parc naturel de Gascogne, avec un groupe d'enfants découvrant la nature en compagnie du naturaliste Jacques HIPPOLYTE",
-    "QUOI DE NEUF DOCTEUR : Feuilleton américain (achat)",
-    "interview de Suzanna HOFFS à propos de sa chanson mi-sexy mi-sentimentale \"Les coins du lit\" (avec extrait de clip) et de l'évolution de sa carrière"
+    "QUOI DE NEUF DOCTEUR : Feuilleton américain (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.053939"
+  "normalized_at": "2026-11-18T21:59:46.034982",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

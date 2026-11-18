@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007565",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007565/giga-emission-du-5-avril-1991?rang=46",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:11:16.220335",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,11 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
-    "Extrait de clips : Les Inconnus \"Nous sommes issus d'un monde\"; Muriel ROBIN : sketch",
     "Les nominations",
-    "[Différents plans] Georges CRAVENNE, Rufus, Francis HUSTER",
-    "\"La fête à la maison\"; \"Quoi de neuf docteur ? \""
+    "[Différents plans] Georges CRAVENNE, Rufus, Francis HUSTER"
   ],
-  "normalized_at": "2026-11-17T07:00:10.034840"
+  "normalized_at": "2026-11-18T21:59:46.020801",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

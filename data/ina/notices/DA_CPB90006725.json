@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006725",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006725/giga-emission-du-25-juillet-1990?rang=23",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:00.185813",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "SERIES : Alf ; Throp",
     "ROCKS : Intws et extraits de clips de"
   ],
-  "normalized_at": "2026-11-17T07:00:09.536770"
+  "normalized_at": "2026-11-18T21:59:45.587715",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

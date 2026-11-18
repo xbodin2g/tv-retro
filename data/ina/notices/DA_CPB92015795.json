@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92015795",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015795/giga-emission-du-8-decembre-1992?rang=162",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:09.905741",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
   ],
   "elements": [
     "Après le sommaire en images",
-    "QUIZAKO",
-    "GIGA SERIE / SAUVES PAR LE GONG : Le baiser de trop (achat)",
-    "GIGA SERIE / LE PRINCE DE BEL AIR : Il fallait que ça arrive (achat)"
+    "QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.396656"
+  "normalized_at": "2026-11-18T21:59:46.292153",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

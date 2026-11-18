@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002718",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002718/giga-emission-du-10-avril-1992?rang=209",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:31:13.300920",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Au sommaire : Séries américaines \"Sois prof et tais-toi\" et \"Sauvé par le gong\".",
     "Reportage : \"Briser l'isolement à l'hôpital\": Une opération d'enseignement interactif à distance a été mise en place à Lyon, en collaboration entre le Centre anti-cancéreux Léon Bérard et un lycée. [Différents plans] enfants malades suivant les cours sur un écran TV et communicant avec le professeur par la télématique. Int. Dr Favrot : les enfants peuvent communiquer avec les professeurs. Int. professeur d'anglais : le système est interactif. Int. Stéphane, hospitalisé : on se sent moins isolé. En France 100000 enfants sont hospitalisés pour des périodes longues et des maladies chroniques. Cela perturbe leur scolarité et les isole des autres. Ce système de télé-enseignement permet de conserver le lien avec l'école sans gèner la thérapeutique."
   ],
-  "elements": [
-    "Au sommaire : Séries américaines \"Sois prof et tais-toi\" et \"Sauvé par le gong\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.267437"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.198338",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

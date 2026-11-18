@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004848",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004848/giga-emission-du-14-avril-1993?rang=159",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:44.516779",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,11 +23,12 @@
     "Série\" Major Dad \"."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission dans le décor cafétéria, en compagnie de Clémentine",
     "Série \"La fête à la maison\"",
     "Série \"Happy days\"",
-    "Docteur GIGA. Le Dr Thierry JOLY répond à des questions posées par téléphone : insomnie, problèmes digestifs, streptocoque, teigne",
     "Série\" Major Dad \""
   ],
-  "normalized_at": "2026-11-17T07:00:10.496482"
+  "normalized_at": "2026-11-18T21:59:46.362976",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

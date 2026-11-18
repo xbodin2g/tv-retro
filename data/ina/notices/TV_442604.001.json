@@ -2,7 +2,7 @@
   "notice_id": "TV_442604.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_442604.001/club-dorothee-vacances-programme-du-4-novembre-1996?rang=312",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:39:29.937520",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -44,5 +44,8 @@
     "La croisière Foll'Amour : drôle de scoumoune"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.556410",
-  "normalized_at": "2026-11-17T07:00:11.167789"
+  "normalized_at": "2026-11-18T21:59:46.930140",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

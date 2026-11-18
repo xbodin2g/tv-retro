@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90009956",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90009956/club-dorothee-emission-du-7-novembre-1990?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:04:44.956458",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,10 +16,9 @@
     "SERIES : \"Dragon ball\", \"Les chevaliers du zodiaque\", \"Nicky LARSON\", \"Salut les musclés\".",
     "JEU : jeu des super chansons de Dorothée : extrait de 14 chansons de Dorothée parmi lesquelles les enfants doivent désigner leur préférée."
   ],
-  "elements": [
-    "DOROTHEE, Ariane, JACKY et CORBIER présentent la suite de l'émission de ce matin dans un programme quasi semblable",
-    "SERIES : \"Dragon ball\", \"Les chevaliers du zodiaque\", \"Nicky LARSON\", \"Salut les musclés\"",
-    "JEU : jeu des super chansons de Dorothée : extrait de 14 chansons de Dorothée parmi lesquelles les enfants doivent désigner leur préférée"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.452244"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.574857",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

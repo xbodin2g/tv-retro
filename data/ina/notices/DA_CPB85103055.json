@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85103055",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103055/recre-a2-emission-du-3-mars-1985?rang=399",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:32:39.383622",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Candy",
     "Corbier chante \"Les mille-pattes\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.214622"
+  "normalized_at": "2026-11-18T21:59:45.295302",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

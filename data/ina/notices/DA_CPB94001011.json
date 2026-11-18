@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001011",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001011/giga-emission-du-2-fevrier-1994?rang=42",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:44:58.419679",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,9 +15,9 @@
     "SERIES : \"Sauvés par le gong\"; \"Lycée alpin\" (rediffusion).",
     "SEMAINE DE LA CHANSON FRANCAISE : interview de Bruno MAMAN sur son univers musical, comparant mélodies et parfums."
   ],
-  "elements": [
-    "SERIES : \"Sauvés par le gong\"; \"Lycée alpin\" (rediffusion)",
-    "SEMAINE DE LA CHANSON FRANCAISE : interview de Bruno MAMAN sur son univers musical, comparant mélodies et parfums"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.660942"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.495375",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

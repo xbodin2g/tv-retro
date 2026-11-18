@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012905",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012905/club-dorothee-noel-emission-du-1er-janvier-1990?rang=359",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:41:14.220383",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -17,11 +17,9 @@
     "Dessins animés (achats) : \"Makko\", \"Le collège fou, fou, fou\", \"Juliette je t'aime\".",
     "Spécial croissants (Réal Pat LE GUEN) : \"les croissants des pyramides\" avec Gilbert MONTAGNE \"."
   ],
-  "elements": [
-    "Dorothée, CORBIER, Jacky, Ariane, Pat et les Musclés gisent au milieu des confettis et des serpentins",
-    "Jeux : Jeu du soleil ; splitch, splatch, splotch, vlan ; le nombre d'or ; le clip dédicacé",
-    "Dessins animés (achats) : \"Makko\", \"Le collège fou, fou, fou\", \"Juliette je t'aime\"",
-    "Spécial croissants (Réal Pat LE GUEN) : \"les croissants des pyramides\" avec Gilbert MONTAGNE \""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.333759"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.461029",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

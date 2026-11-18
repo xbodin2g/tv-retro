@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006210",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006210/giga-emission-du-6-juillet-1990?rang=67",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:51:05.968607",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,11 @@
   ],
   "elements": [
     "Au programme de GIGA",
-    "1) Reportage sur une école de voile pour petits enfants qui s'initient à ce sport sur des optimistes",
-    "Reportage sur une île au large du Costa Rica où une équipe d'aventuriers recherche un trésor (achat)",
-    "Visite des ateliers de costumes de la SFP, avec des interviews d'un chef d'atelier et de costumières",
     "CINEMA : extrait de \"Fantasia\" de Walt Dysney",
     "Séries : ALF et Throb"
   ],
-  "normalized_at": "2026-11-17T07:00:09.530276"
+  "normalized_at": "2026-11-18T21:59:45.582435",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

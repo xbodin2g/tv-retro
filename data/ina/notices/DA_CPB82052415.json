@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052415",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052415/recre-a2-emission-du-27-septembre-1982?rang=114",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:18:08.958905",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,8 @@
     "Le petit écho de la forêt",
     "Jane de la jungle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.890549"
+  "normalized_at": "2026-11-18T21:59:44.945953",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

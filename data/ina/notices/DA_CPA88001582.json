@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001582",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001582/club-dorothee-vacances-emission-du-12-fevrier-1988?rang=323",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:06:16.697812",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -17,9 +17,11 @@
     "-Un clip de Dorothée : \"Vive les vacances\"."
   ],
   "elements": [
-    "Toujours dans son chalet de sports d'hiver, l'équipe du Club Dorothée propose",
     "Gigi (d.A.): achat",
     "Un clip de Dorothée : \"Vive les vacances\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.991433"
+  "normalized_at": "2026-11-18T21:59:44.100345",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008887",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008887/club-dorothee-emission-du-1er-octobre-1987?rang=69",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:10:54.724297",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -15,8 +15,9 @@
     "Plateau : blagues et devinettes avec Dorothée, Ariane, Jacky, Patrick et CORBIER.",
     "Dessin animé : \"Clair de lune : Le voleur de rêves\""
   ],
-  "elements": [
-    "Dessin animé : \"Clair de lune : Le voleur de rêves\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.933265"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.052166",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

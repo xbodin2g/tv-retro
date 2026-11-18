@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005810",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005810/giga-emission-du-13-juin-1990?rang=165",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:41.478568",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion de la série \"Les années collège \".( Le générique de l'émission ne correspond pas à son contenu, seule la série a été diffusée)."
   ],
-  "elements": [
-    "Diffusion de la série \"Les années collège \".( Le générique de l'émission ne correspond pas à son contenu, seule la série a été diffusée)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.506999"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.566000",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009333",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009333/giga-emission-du-30-aout-1993?rang=213",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:27:46.852206",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce numéro de Giga, les fueilletons : Happy Days et le Prince de Bel Air. Rediffusion du sujet consacré aux curieux instruments de musique des frères BASCHET (15 février 1993). Rediffusion du sujet Automates diffusé le 28 février 1992."
   ],
-  "elements": [
-    "Au sommaire de ce numéro de Giga, les fueilletons : Happy Days et le Prince de Bel Air. Re"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.592988"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.440352",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

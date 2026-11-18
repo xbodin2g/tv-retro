@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005717",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005717/recre-a2-emission-du-16-mars-1986?rang=179",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:01:46.155039",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,15 +26,16 @@
     "Videoclip \"Cobra\" chanté par Olivier Constantin et co-produit par A2 et Narcisse X4."
   ],
   "elements": [
-    "L'émission est présentée par Hervé et Charlotte",
     "Dorothée chante \"I went to the market\"",
     "Bibifoc : \"Sauve qui peut\"",
     "Bibifoc : La grande bleue\"",
     "Mafalda",
     "L'école des fées",
     "Zorro",
-    "L'empire des 5",
-    "Videoclip \"Cobra\" chanté par Olivier Constantin et co-produit par A2 et Narcisse X4"
+    "L'empire des 5"
   ],
-  "normalized_at": "2026-11-17T07:00:09.301861"
+  "normalized_at": "2026-11-18T21:59:45.397366",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

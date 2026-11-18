@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78050711",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78050711/recre-a2-emission-du-03-juillet-1978?rang=56",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:19:35.505804",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,5 +16,8 @@
     "Diffusion du premier épisode de Goldorak"
   ],
   "elements": [],
-  "normalized_at": "2026-11-17T07:00:08.651158"
+  "normalized_at": "2026-11-18T21:59:44.753406",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

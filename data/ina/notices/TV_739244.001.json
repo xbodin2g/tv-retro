@@ -2,7 +2,7 @@
   "notice_id": "TV_739244.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_739244.001/tf-jeunesse-programme-du-22-decembre-1997?rang=56",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:44:16.650486",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -48,5 +48,8 @@
     "Les singes de l'espace",
     "Pif et Hercule"
   ],
-  "normalized_at": "2026-11-17T07:00:11.529889"
+  "normalized_at": "2026-11-18T21:59:47.221325",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

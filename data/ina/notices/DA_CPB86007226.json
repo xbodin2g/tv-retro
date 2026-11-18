@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007226",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007226/recre-a2-emission-du-6-mai-1986?rang=106",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:35.711496",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,9 +26,11 @@
     "Téléchat",
     "Image imagine",
     "C'est chouette",
-    "Super Doc : Les animaux malades de la rage (1)",
     "Latulu et Lireli",
     "Bibifoc"
   ],
-  "normalized_at": "2026-11-17T07:00:09.344560"
+  "normalized_at": "2026-11-18T21:59:45.432089",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

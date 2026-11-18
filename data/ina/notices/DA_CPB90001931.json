@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001931",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001931/giga-emission-du-13-mars-1990?rang=177",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:46:01.201209",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,9 +22,10 @@
   ],
   "elements": [
     "Jean François BOUQUET (off) annonce les différentes rubriques",
-    "GIGA séries : \"Quoi de neuf docteur\" et \"Les années collège\"",
-    "GIGA reportages",
-    "Maxivélo de 26 cyclistes se promenant à Paris. Tandem pour couple fâché (l'homme et la femme se tournent le dos)"
+    "GIGA reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:09.465796"
+  "normalized_at": "2026-11-18T21:59:45.536844",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

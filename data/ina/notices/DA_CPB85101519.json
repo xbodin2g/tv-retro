@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85101519",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101519/recre-a2-emission-du-27-septembre-1985?rang=315",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:42:59.913482",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,7 +25,6 @@
     "Plateau Charlotte"
   ],
   "elements": [
-    "Bernard s'est cassé une jambe. Il présente avec charlotte dans une chambre d'hôpital",
     "Poochie",
     "Dessin animé : Orscotch",
     "Ploom",
@@ -35,5 +34,8 @@
     "Les maîtres de l'univers",
     "Qu'est-ce, Qu'est-ce, Qu'est-ce ?"
   ],
-  "normalized_at": "2026-11-17T07:00:09.207592"
+  "normalized_at": "2026-11-18T21:59:45.282622",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

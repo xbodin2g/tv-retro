@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009315",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009315/giga-emission-du-12-aout-1992?rang=220",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:35:55.992942",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
     "Diffusion des séries américaines",
     "\"Quoi de neuf docteur ? \"",
     "Les années collège\"",
-    "Série française : \"Carré d'as\"",
-    "Rediffusion de reportages sur un supermarché biologique et sur le \"SPACE camp\""
+    "Série française : \"Carré d'as\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.329651"
+  "normalized_at": "2026-11-18T21:59:46.242995",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

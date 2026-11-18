@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010032",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010032/recre-a2-emission-du-3-aout-1986?rang=419",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:50.781513",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -20,10 +20,12 @@
     "Plateau Corbier et Lia"
   ],
   "elements": [
-    "CORBIER et lia installés sur le toit d'une maison tunisienne",
     "Pac Man",
     "Super DOC : au bord de l'eau... (2)",
     "La révolte irlandaise"
   ],
-  "normalized_at": "2026-11-17T07:00:09.401292"
+  "normalized_at": "2026-11-18T21:59:45.481914",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

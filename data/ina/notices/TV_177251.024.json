@@ -2,7 +2,7 @@
   "notice_id": "TV_177251.024",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_177251.024/club-dorothee-programme-du-25-novembre-1995?rang=112",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:47:08.704754",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -24,5 +24,8 @@
     "Inspecteur Gadget : le piège de Mad"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.353895",
-  "normalized_at": "2026-11-17T07:00:10.865716"
+  "normalized_at": "2026-11-18T21:59:46.673871",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

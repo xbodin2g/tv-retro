@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001444",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001444/recre-a2-emission-du-19-avril-1982?rang=202",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:07:11.111750",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Le petit écho de la forêt",
     "Tarzan"
   ],
-  "normalized_at": "2026-11-17T07:00:09.912033"
+  "normalized_at": "2026-11-18T21:59:45.906757",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

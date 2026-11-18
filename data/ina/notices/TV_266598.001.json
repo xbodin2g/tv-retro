@@ -2,7 +2,7 @@
   "notice_id": "TV_266598.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_266598.001/club-dorothee-vacances-programme-du-13-mars-1996?rang=372",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:28:50.081315",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -35,5 +35,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.437819",
-  "normalized_at": "2026-11-17T07:00:10.976729"
+  "normalized_at": "2026-11-18T21:59:46.764824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006960",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006960/giga-emission-du-16-juin-1993?rang=143",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:46.606191",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,9 +17,10 @@
     "Série : L'équipée du poney express : \"Le jour du jugement\" (ACHAT)."
   ],
   "elements": [
-    "Aucun reportage dans cette émission",
-    "Série : Seconde B : \"Aux urnes citoyens\": voir document correspondant",
-    "Série : L'équipée du poney express : \"Le jour du jugement\" (ACHAT)"
+    "Aucun reportage dans cette émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.542173"
+  "normalized_at": "2026-11-18T21:59:46.400402",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

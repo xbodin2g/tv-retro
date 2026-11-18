@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82057096",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82057096/recre-a2-emission-du-22-novembre-1982?rang=254",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:21:48.402257",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Le petit écho de la forêt",
     "Jane de la jungle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.979062"
+  "normalized_at": "2026-11-18T21:59:45.007927",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80051070",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80051070/recre-a2-emission-du-22-mai-1980?rang=187",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:23:40.863647",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Ces sacrés parents",
     "Sido et Rémi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.728390"
+  "normalized_at": "2026-11-18T21:59:44.812833",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

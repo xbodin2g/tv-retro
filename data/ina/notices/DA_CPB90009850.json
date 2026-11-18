@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009850",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009850/giga-emission-du-6-novembre-1990?rang=90",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:57:21.260078",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "LES TRACTOSAURES. Reportage sur une exhibition de TRACTOSAURES : énormes tracteurs avec moteurs gonflés et pneus énormes tirant très lourde charge ; un tractosaure particulièrement impressionnant, moteur marchant à l'alcool et roues tournant à 300 km/h. Un AUTOSAURE : voiture de série avec moteur gonflé et pneus de tracteurs, tirant un poids énorme.",
     "Au sujet du film \"Ghosts\": interviews de deux des acteurs sur leurs rôles, Demi MOORE et Patrick SWAYZE."
   ],
-  "elements": [
-    "Au sujet du film \"Ghosts\": interviews de deux des acteurs sur leurs rôles, Demi MOORE et Patrick SWAYZE"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.604175"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.638820",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85104892",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104892/recre-a2-emission-du-19-novembre-1985?rang=356",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:56.268849",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Téléchat."
   ],
   "elements": [
-    "Charlotte et CORBIER présentent l'émission composée de",
     "Image imagine",
     "C'est chouette",
     "Il était une fois le cirque",
@@ -33,5 +32,8 @@
     "Les mondes engloutis",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.220316"
+  "normalized_at": "2026-11-18T21:59:45.318263",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

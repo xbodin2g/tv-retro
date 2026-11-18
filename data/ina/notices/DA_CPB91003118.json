@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003118",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003118/recre-a2-emission-du-17-septembre-1983?rang=348",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:54:40.808993",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Les Schtroumpfs",
     "Harold Llyod's"
   ],
-  "normalized_at": "2026-11-17T07:00:09.964732"
+  "normalized_at": "2026-11-18T21:59:45.961438",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

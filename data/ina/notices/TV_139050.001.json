@@ -2,7 +2,7 @@
   "notice_id": "TV_139050.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_139050.001/club-dorothee-programme-du-4-octobre-1995?rang=49",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:37:22.593223",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -30,10 +30,12 @@
     "[Plateau",
     "Bécé Bégé : trois fois plus",
     "Dragon Ball Z : un seul souhait",
-    "Denis la malice : génie de la lampe ; à la chaîne, Denis Bogart",
     "Sailormoon : épilogue",
     "Power rangers : les deux monstres"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.322844",
-  "normalized_at": "2026-11-17T07:00:10.809225"
+  "normalized_at": "2026-11-18T21:59:46.628182",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

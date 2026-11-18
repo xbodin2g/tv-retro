@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050460",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050460/recre-a2-emission-du-13-fevrier-1980?rang=332",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:18:16.662952",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,7 +36,6 @@
     "La Panthère rose",
     "Maraboud'ficelle",
     "Anagrammes",
-    "Flash sport P. S JONES : Le ski balai",
     "Zeltron",
     "Maradboud'ficelle",
     "Popeye",
@@ -46,5 +45,8 @@
     "Émilie",
     "Récré A2"
   ],
-  "normalized_at": "2026-11-17T07:00:08.722028"
+  "normalized_at": "2026-11-18T21:59:44.806824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

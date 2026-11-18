@@ -2,7 +2,7 @@
   "notice_id": "TV_614087.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_614087.001/club-dorothee-vacances-programme-du-26-juin-1997?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:35:56.451228",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,8 @@
     "Les animaux disparus du 20ème siècle"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.648017",
-  "normalized_at": "2026-11-17T07:00:11.326025"
+  "normalized_at": "2026-11-18T21:59:47.062668",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

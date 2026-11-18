@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85102629",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102629/recre-a2-emission-du-5-octobre-1985?rang=317",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:17.804224",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "DOROTHEE annonce l'ouverture du concours anim A2",
     "Les aventures de Simbad le marin (1)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.210315"
+  "normalized_at": "2026-11-18T21:59:45.287144",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

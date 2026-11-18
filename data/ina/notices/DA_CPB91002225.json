@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002225",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002225/recre-a2-emission-du-18-aout-1982?rang=354",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:14:29.511438",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -19,9 +19,11 @@
     "Plateau Doogy Dog et Elfie"
   ],
   "elements": [
-    "DOGGY dog et Elfie présentent les diff parties de l'émission et se livrent a quelques facéties",
     "Lippy the lion and hardy har har",
     "Yao"
   ],
-  "normalized_at": "2026-11-17T07:00:09.948974"
+  "normalized_at": "2026-11-18T21:59:45.939727",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

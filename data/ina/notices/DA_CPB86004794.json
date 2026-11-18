@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004794",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004794/recre-a2-emission-du-26-fevrier-1986?rang=457",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:00:04.123263",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -25,7 +25,6 @@
     "Clip Dorothée \"J'ai retrouvé ma valise\""
   ],
   "elements": [
-    "Le thème du jour : Charlemagne. Dorothée joue les historiennes chevronnées",
     "Les Schtroumfs",
     "Les Poupies",
     "Clip \"Pac-Man\"",
@@ -34,5 +33,8 @@
     "Flip Bouc",
     "Clip Dorothée \"J'ai retrouvé ma valise\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.287130"
+  "normalized_at": "2026-11-18T21:59:45.384489",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

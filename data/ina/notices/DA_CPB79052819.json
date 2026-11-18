@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79052819",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79052819/recre-a2-emission-du-10-octobre-1979?rang=357",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:19:40.475019",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,18 +37,17 @@
   ],
   "elements": [
     "La Panthère rose",
-    "Discobus : Plateau Dorothée, CLOVIS interprète quelques airs à l'aide de gadgets",
     "Samsong atelier balai",
     "maraboud'ficelle",
-    "Discobus : Plateau Dorothée, Jacques DOUAI chante : la chanson de Marianne",
-    "Label Récré A2 : \"Les visiteurs d'un autre monde\"",
     "A2000",
     "Zeltron",
-    "Discobus : Plateau Dorothée, Jacques DOUAI chante : \"PINGO LES NOIX\" et \"un air d'harmonica\"",
     "Tarzan",
     "Les Bubblies",
     "Zanett et Pierre Dudan",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.677724"
+  "normalized_at": "2026-11-18T21:59:44.774639",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

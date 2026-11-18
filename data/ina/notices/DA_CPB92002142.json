@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002142",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002142/giga-emission-du-24-mars-1992?rang=68",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:30:25.023445",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
   "elements": [
     "QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.255782"
+  "normalized_at": "2026-11-18T21:59:46.189533",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

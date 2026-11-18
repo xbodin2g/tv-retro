@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010457",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010457/giga-emission-du-14-octobre-1993?rang=174",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:29:49.019936",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,10 @@
     "PAS DE REPORTAGE."
   ],
   "elements": [
-    "Au sommaire, trois séries : GOAL : \"Le grand frère d'Amérique\", coproduction",
-    "TV 101 : \"Romane nouvelle vague\", 1ère partie, achat",
-    "PROMO 96 : \"Star malgré lui\", 1ère partie, achat",
     "PAS DE REPORTAGE"
   ],
-  "normalized_at": "2026-11-17T07:00:10.613246"
+  "normalized_at": "2026-11-18T21:59:46.456997",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

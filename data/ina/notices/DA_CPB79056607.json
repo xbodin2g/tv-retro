@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79056607",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79056607/recre-a2-emission-du-06-juin-1979?rang=356",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:13:45.167287",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -27,15 +27,15 @@
     "Plateau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, D.M. Neil chante \"ceux qui vivent, ceux qui meurent\"",
     "La Panthère rose",
     "A2000",
     "Flash Récré A2",
-    "Discobus : Plateau Ariane Gil, R. CLAYDERMAN interprète au piano \"ballade pour Adeline\"",
     "Maraboud'ficelle",
-    "Discobus : Plateau Ariane Gil, L'Echo du Bayou interprète \"au pays des bayous\"",
     "Il court, il court, le courrier",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.703444"
+  "normalized_at": "2026-11-18T21:59:44.792841",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

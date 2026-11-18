@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052599",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052599/recre-a2-emission-du-04-fevrier-1981?rang=367",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:40:40.070730",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,7 +37,6 @@
   ],
   "elements": [
     "Les Paladins de France",
-    "Discorébus : H. DES chante \"faire de la musique\"",
     "Félix le chat",
     "DOROTHEE chante \"Récré A2\" en costume 1900",
     "Maraboud'ficelle",
@@ -49,8 +48,10 @@
     "La Panthère rose",
     "Echecs et mat",
     "H. DES chante \"papier ribouldingue et punaise\"",
-    "Théâtre : Extraits de \"la belle sarrazine\" au théâtre 13;int. des personnages ; présentation des interprètes et des auteurs",
     "Tilt"
   ],
-  "normalized_at": "2026-11-17T07:00:08.805260"
+  "normalized_at": "2026-11-18T21:59:44.871591",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

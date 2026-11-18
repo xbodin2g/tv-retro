@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010878",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010878/recre-a2-plateau-emission-du-15-septembre-1986?rang=86",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:14:57.381670",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,10 +19,12 @@
     "LADY OSCAR."
   ],
   "elements": [
-    "Sont présentés dans cette émission",
     "SUPERDOC, marionnettes, achat",
     "Quick et Flupke : la tour de BABEL",
     "LADY OSCAR"
   ],
-  "normalized_at": "2026-11-17T07:00:09.425539"
+  "normalized_at": "2026-11-18T21:59:45.503341",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

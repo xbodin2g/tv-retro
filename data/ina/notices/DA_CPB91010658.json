@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010658",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010658/giga-emission-du-6-aout-1991?rang=102",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:16:31.495182",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     ": \"LES SURPRISE DE GIGA\" : \"METIERS, DOUBLAGE DESSIN ANIME\" : Ce petit reportage nous fait découvrir le métier de doubleur au cinéma que pratiquent Jacques FRANTZ et Richard DARBOIS, en train de doubler le dessin animé \"Charlie\" au studio Sonodi. Nous les voyons en train de doubler devant la table de mixage, expliquant comment ils travaillent et la liberté qu'ils trouvent dans ce métier. Une adolescente travaillant également au doublage, Alexandra GARIJO, parle de ce travail et du trac qu'elle a éprouvé avant de commencer."
   ],
   "elements": [
-    "Au menu de l'émission, les séries et un reportage",
     "\"Quoi de neuf docteur\", \"La famille Fontaine\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.096901"
+  "normalized_at": "2026-11-18T21:59:46.068020",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009290",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009290/giga-emission-du-12-juin-1991?rang=196",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:01.690965",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "Série \"Un toit pour dix\" (achat)",
     "LA BIBLIOTHEQUE : sélection de récentes parutions"
   ],
-  "normalized_at": "2026-11-17T07:00:10.070001"
+  "normalized_at": "2026-11-18T21:59:46.046744",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

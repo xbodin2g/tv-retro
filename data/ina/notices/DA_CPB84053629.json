@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053629",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053629/recre-a2-emission-du-26-mai-1984?rang=416",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:09:15.334791",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Emission présentée par ALAIN et composée de deux dessins animés (achats): \"le petit écho de la forêt\" et \"Georges de la jungle \". Bde : 60528."
   ],
-  "elements": [
-    "Emission présentée par ALAIN et composée de deux dessins animés (achats): \"le petit écho de la forêt\" et \"Georges de la jungle \". Bde : 60528"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.107494"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.145574",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

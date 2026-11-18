@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003917",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003917/giga-emission-du-9-mai-1990?rang=50",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:48:46.320125",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,10 +17,9 @@
     "Interview de Roch VOISINE sur son rapport à la scène, aux grands du folk (extrait concert).",
     "SERIES : Un toit pour dix ; les Années collège."
   ],
-  "elements": [
-    "Reportage sur la remise du BUS d'ACIER aux Négresses vertes ; les Rita Mitsouko reçoivent le bus d'acier de la décennie (boeuf)",
-    "Interview de Roch VOISINE sur son rapport à la scène, aux grands du folk (extrait concert)",
-    "SERIES : Un toit pour dix ; les Années collège"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.495102"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.556969",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

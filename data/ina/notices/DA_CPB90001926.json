@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001926",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001926/giga-emission-du-6-mars-1990?rang=38",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:46.391271",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,10 @@
   "elements": [
     "Emission composée de",
     "Quoi de neuf docteur (série américaine)",
-    "Reportage : des jeunes parlent de leur passion pour la mobylette et discutent de la sécurité à deux roues",
-    "Le grand Bleu : extrait de ce film avec commentaires off. Le film ainsi que des séquences du tournage est sorti en K7 Vidéo",
-    "The Christians : interview anglais doublé français de ce groupe irlandais",
     "La fête à la maison : série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:09.461298"
+  "normalized_at": "2026-11-18T21:59:45.533553",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_186848.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_186848.001/club-dorothee-programme-du-13-decembre-1995?rang=118",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:48:58.913845",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,8 @@
     "Papa et moi : Je t'aime Samantha"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.363729",
-  "normalized_at": "2026-11-17T07:00:10.882301"
+  "normalized_at": "2026-11-18T21:59:46.687785",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012001/club-dorothee-emission-du-6-decembre-1989?rang=146",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T21:13:34.591217",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,12 +20,9 @@
     "Variétés : clip d'Ariane : Dragon Ball. Clip de Dorothée : Tremblement de terre.",
     "Toute l'équipe de l'émission chante en choeur \"tremblement de terre\" à la fin de l'émission."
   ],
-  "elements": [
-    "Dessins animés. Cap Danger, Dragon Ball, Le Collège fou fou fou, Wingman, Les Chevaliers du zodiaque",
-    "Les Jeux. Le mot mysterieux. La ronde des cadeaux. Le jeu des soleils. Le jacky seau. Top jeunes. Top flèche. Jeu de l'ABC. Jeu Benco",
-    "En régie, Pat LE GUEN habillé en noir tape avec un martinet Jacky, puis en plateau, monte au milieu des enfants en brandissant son martinet",
-    "Variétés : clip d'Ariane : Dragon Ball. Clip de Dorothée : Tremblement de terre",
-    "Toute l'équipe de l'émission chante en choeur \"tremblement de terre\" à la fin de l'émission"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.326317"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.454059",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010409",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010409/giga-emission-du-19-juillet-1991?rang=210",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:16:01.707206",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "Au sommaire de Giga aujourd'hui, deux séries",
     "(achat) et"
   ],
-  "normalized_at": "2026-11-17T07:00:10.092644"
+  "normalized_at": "2026-11-18T21:59:46.064217",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

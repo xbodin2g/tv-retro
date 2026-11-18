@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006960",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006960/giga-emission-du-10-aout-1990?rang=121",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:46.690991",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     ": \"LES ANNEES COLLEGES\", \"ALF\" (achats)."
   ],
   "elements": [
-    "L'émission propose séries et reportages conscrés aux activités pour jeunes",
     "\"LES ANNEES COLLEGES\", \"ALF\" (achats)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.549339"
+  "normalized_at": "2026-11-18T21:59:45.596722",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

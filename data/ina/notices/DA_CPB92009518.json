@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009518",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009518/giga-emission-du-18-aout-1992?rang=26",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:11.026997",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "LES ANNEES COLLEGE (Achat)",
     "CARRE D'AS (cf cpf92009679)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.332704"
+  "normalized_at": "2026-11-18T21:59:46.245599",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002307",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002307/recre-a2-emission-du-28-aout-1982?rang=358",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:15:09.836646",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -25,5 +25,8 @@
     "Casper et ses amis",
     "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.952919"
+  "normalized_at": "2026-11-18T21:59:45.943024",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

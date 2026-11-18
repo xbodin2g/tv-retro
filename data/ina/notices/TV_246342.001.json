@@ -2,7 +2,7 @@
   "notice_id": "TV_246342.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_246342.001/club-dorothee-vacances-programme-du-24-fevrier-1996?rang=382",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:26:43.914896",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -26,5 +26,8 @@
     "Mask"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.403960",
-  "normalized_at": "2026-11-17T07:00:10.952985"
+  "normalized_at": "2026-11-18T21:59:46.745111",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

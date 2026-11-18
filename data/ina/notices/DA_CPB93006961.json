@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006961",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006961/giga-emission-du-17-juin-1993?rang=111",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:51.484355",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,10 @@
     "Reportage (très court) sur une troupe d'enfants cambodgiens qui se produisent en France et pratiquent l'art raffiné de la danse cambodgienne. Bernadette LAFONT en compagnie d'un petit garçon informe les téléspectateurs sur les parrainages d'enfants ; 130frs par mois pour permettre à un enfant de manger. Date des représentations, et adresse pour les parrainages."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine CARTIER présentent l'émission, composée de",
-    "Les séries \"Quoi de neuf Docteur\" et \"Happy days\" (achats)",
     "\"Seconde B \": Mariage au noir (CPB93006961)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.542959"
+  "normalized_at": "2026-11-18T21:59:46.401057",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

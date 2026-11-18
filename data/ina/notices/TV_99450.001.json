@@ -2,7 +2,7 @@
   "notice_id": "TV_99450.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_99450.001/club-dorothee-vacances-programme-du-1er-aout-1995?rang=480",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:30:39.438556",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -41,5 +41,8 @@
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.719724",
-  "normalized_at": "2026-11-17T07:00:11.589059"
+  "normalized_at": "2026-11-18T21:59:47.271208",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

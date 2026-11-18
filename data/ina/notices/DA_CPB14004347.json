@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14004347",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14004347/recre-a2-emission-du-23-fevrier-1983?rang=463",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:43:20.023937",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -55,5 +55,8 @@
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.642805"
+  "normalized_at": "2026-11-18T21:59:44.744645",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

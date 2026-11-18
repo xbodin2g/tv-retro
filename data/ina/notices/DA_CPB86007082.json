@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007082",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007082/recre-a2-matin-emission-du-30-avril-1986?rang=404",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:12.820093",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -16,5 +16,8 @@
     "Séquences composant l'émission : \"Heïdi \",\" Mafalda \",\" Méthanie ville \",\" Latulu et lireli \",\" Tchaou et Grodo \",\" Le monde selon Georges \",\" Les Schtroumpfs \",\" Pacman \",\" Jane de la jungle \" et\"X Or \"."
   ],
   "elements": [],
-  "normalized_at": "2026-11-17T07:00:09.339274"
+  "normalized_at": "2026-11-18T21:59:45.429142",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

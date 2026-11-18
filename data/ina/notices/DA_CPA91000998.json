@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91000998",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91000998/club-dorothee-emission-du-23-janvier-1991?rang=35",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:12:26.078841",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,12 +20,14 @@
     "D.A. Nicky LARSON (achat)."
   ],
   "elements": [
-    "DOROTHEE, Ariane, CORBIER et JACKY présentent l'émission en direct du studio de La Plaine Saint Denis devant un public d'enfants hurlant",
     "SERIE : \"Punkie Bruster \"(achat)",
     "SERIE :\" JIBAN \"(achat)",
     "D.A.\" Les chevaliers du zodiaque \"(achat)",
     "JEU DES GENIES",
     "D.A. Nicky LARSON (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.482856"
+  "normalized_at": "2026-11-18T21:59:44.600546",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

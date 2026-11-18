@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006686",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006686/giga-emission-du-4-aout-1994?rang=21",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:20.390847",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "GOAL : TERRAIN INTERDIT (voir document)",
     "GENERATION MUSIQUE (série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.722625"
+  "normalized_at": "2026-11-18T21:59:46.548443",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

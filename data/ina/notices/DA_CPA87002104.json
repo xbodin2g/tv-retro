@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87002104",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87002104/salut-les-petits-loups-plateau-emission-du-25-mars-1987?rang=17",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:50:37.857223",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -25,12 +25,10 @@
   "elements": [
     "Rubriques habituelles",
     "Gymnastique sous la direction d'ORLY",
-    "\"Le fluophone \" :jeu vidéo avec les jeunes téléspectateurs",
-    "Le bulletin météo avec ORLY",
-    "Le caddy d'ORLY qui présente ses dernières acquisitions et parle du Salon du modélisme et de la maquette",
-    "\"Les loufoques\" : La quête du Saint Graal \" :parodie de l'histoire, jouée par Anne LORRIC (la reine) et Marie Pierre (Le Roi Arthur)",
-    "\"Bananarock\" : Teddy Boy évoque la période du rockabilly et la carrière de Carl PERKINS. Il chante \"Blue Suède shoes\" et \"Match box\"",
-    "Teddy Boy, Marie-Pierre et le Chat font les transitions entre les différentes séquences à la manière de Laurel et HARDY"
+    "Le bulletin météo avec ORLY"
   ],
-  "normalized_at": "2026-11-17T07:00:07.888245"
+  "normalized_at": "2026-11-18T21:59:44.023028",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

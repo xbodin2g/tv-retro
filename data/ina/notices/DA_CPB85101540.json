@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85101540",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101540/recre-a2-emission-du-29-septembre-1985?rang=316",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:08.205195",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "Dorothée chante \"Fleur d'épine\"",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.208619"
+  "normalized_at": "2026-11-18T21:59:45.283536",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

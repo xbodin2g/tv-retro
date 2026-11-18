@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001659",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001659/club-dorothee-vacances-emission-du-27-fevrier-1990?rang=185",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:44:51.877502",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -18,5 +18,8 @@
   "elements": [
     "Bernard MINET chante\"Juliette je t'aime (Videoclip)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.359879"
+  "normalized_at": "2026-11-18T21:59:44.481698",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

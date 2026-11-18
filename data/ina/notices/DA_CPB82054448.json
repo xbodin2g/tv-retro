@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054448",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054448/recre-a2-emission-du-24-aout-1982?rang=391",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:14:51.725521",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -25,5 +25,8 @@
     "Les Quat'z Amis",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.935810"
+  "normalized_at": "2026-11-18T21:59:44.979718",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

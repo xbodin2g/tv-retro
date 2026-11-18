@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81054141",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81054141/recre-a2-emission-du-14-janvier-1981?rang=380",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:39:29.906419",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,10 +37,8 @@
     "Plateau fin"
   ],
   "elements": [
-    "DOROTHEE a invité ses amis de Récré A2 pour une surprise party",
     "Les Paladins de France",
     "Félix le chat",
-    "Discorébus : J. RAFAEL chante : \"qui suis je ? \"",
     "Les blancs jouent et gagnent",
     "Zeltron",
     "Maraboud'ficelle",
@@ -52,5 +50,8 @@
     "La Panthère rose",
     "Titi et grosminet"
   ],
-  "normalized_at": "2026-11-17T07:00:08.826802"
+  "normalized_at": "2026-11-18T21:59:44.894346",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

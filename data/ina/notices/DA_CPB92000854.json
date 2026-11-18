@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000854",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000854/giga-emission-du-7-fevrier-1992?rang=205",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:04.802272",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,9 +23,11 @@
   "elements": [
     "Au sommaire de ce numéro de GIGA",
     "Série américaine : SOIS PROF ET TAIS TOI",
-    "SUJET : La flamme olympique \"Le parcours\". Document PTT",
     "Série américaine : SAUVES PAR LE GONG",
     "JEU Quisako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.215351"
+  "normalized_at": "2026-11-18T21:59:46.162378",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004172",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004172/giga-emission-du-2-avril-1993?rang=230",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:11.297872",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,11 +20,10 @@
     "Le pédiatre Thierry JOLY répond par téléphone à des problèmes sexuels et médicaux d'adolescents."
   ],
   "elements": [
-    "Manuel GELIN entouré d'adolescents à la cafétéria, présente l'émission, composée de",
-    "Les séries : \"La fête à la maison\", \"Happy days \", \"Quoi de neuf Docteur\" et \"Major Dad\"",
-    "Les reportages",
-    "COUP DE FOUDRE : qu'est ce que le \"coup de foudre ? \": définitions et témoignages d'adolescents",
-    "Le pédiatre Thierry JOLY répond par téléphone à des problèmes sexuels et médicaux d'adolescents"
+    "Les reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.483817"
+  "normalized_at": "2026-11-18T21:59:46.354083",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

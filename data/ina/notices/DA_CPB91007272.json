@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007272/giga-emission-du-28-mars-1991?rang=205",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:52.269875",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,8 @@
     "Sujet Vilzek",
     "Série \"Quoi de neuf docteur\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.030664"
+  "normalized_at": "2026-11-18T21:59:46.017471",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

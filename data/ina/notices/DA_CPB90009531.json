@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009531",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009531/giga-emission-du-2-novembre-1990?rang=107",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:57:13.927525",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,10 @@
   ],
   "elements": [
     "Quatre reportages au sommaire de cette émission",
-    "BOULANGER : UN GIGA METIER. Interview du boulanger POILANE sur son métier",
-    "PARACHUTISME ASCENSIONNEL. Quand le pratiquer. Son intérêt par rapport au parachutisme normal",
-    "COLOMBOPHILIE. Interview de Pascal EGGER sur les habitudes des pigeons et le déroulement des courses",
     ", (achat), \"Larry et Balky"
   ],
-  "normalized_at": "2026-11-17T07:00:09.602139"
+  "normalized_at": "2026-11-18T21:59:45.637262",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

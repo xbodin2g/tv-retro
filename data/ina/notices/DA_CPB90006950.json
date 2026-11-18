@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006950",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006950/giga-emission-du-27-juillet-1990?rang=188",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:09.205561",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
   "elements": [
     "Au sommaire de l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:09.538968"
+  "normalized_at": "2026-11-18T21:59:45.589320",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

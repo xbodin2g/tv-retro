@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88007365",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88007365/club-dorothee-emission-du-22-juin-1988?rang=91",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:16:34.353579",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -25,7 +25,6 @@
     "- \"Bioman : la Méditation \"."
   ],
   "elements": [
-    "Dorothée et son équipe animent l'émission en direct devant le public d'enfants",
     "\"Punky Brewster \"",
     "Les Chevaliers du Zodiaque",
     "Goldorak",
@@ -34,5 +33,8 @@
     "\"SYLVER HAWKS : le Vaisseau fantôme\"",
     "\"Bioman : la Méditation \""
   ],
-  "normalized_at": "2026-11-17T07:00:08.062431"
+  "normalized_at": "2026-11-18T21:59:44.156930",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003501",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003501/recre-a2-emission-du-24-janvier-1986?rang=150",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:57:19.290256",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,11 +20,13 @@
     "Plateau Alain et Charlotte"
   ],
   "elements": [
-    "Dans un décor de gare, Charlotte en voyageuse pressée et Alain en chef de gare annoncent le sommaire",
     "Super Doc : à la poubelle (2)",
     "Latulu et Lireli",
     "Téléchat",
     "She-ra princesse du pouvoir (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.253414"
+  "normalized_at": "2026-11-18T21:59:45.356320",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

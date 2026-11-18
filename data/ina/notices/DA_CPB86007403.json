@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007403",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007403/recre-a2-emission-du-11-mai-1986?rang=243",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:56.132744",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Plateau Charlotte et Alain"
   ],
   "elements": [
-    "Charlotte et Alain présentent l'émission. Au sommaire",
     "Clip de Dorothée \"L'ami bidassr\"",
     "CLEMENTINE",
     "Mafalda",
@@ -31,5 +30,8 @@
     "La cuisine au beurre",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.348390"
+  "normalized_at": "2026-11-18T21:59:45.435227",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

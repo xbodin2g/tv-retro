@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013780",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013780/giga-emission-du-27-novembre-1991?rang=125",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:22:12.965696",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,8 @@
   "elements": [
     "GIGA GAMELLES (reportage prod MGA)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.165581"
+  "normalized_at": "2026-11-18T21:59:46.120466",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

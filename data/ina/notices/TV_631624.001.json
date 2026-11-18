@@ -2,7 +2,7 @@
   "notice_id": "TV_631624.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_631624.001/club-dorothee-vacances-programme-du-29-juillet-1997?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:37:45.681484",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,8 @@
     "Animaux en danger"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.666777",
-  "normalized_at": "2026-11-17T07:00:11.359889"
+  "normalized_at": "2026-11-18T21:59:47.088018",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

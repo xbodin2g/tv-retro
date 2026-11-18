@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005900",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005900/giga-emission-du-17-mai-1993?rang=109",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:38.984478",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,11 +20,10 @@
     ". Interview des membres du groupe, extraits de clips et passages sur scène."
   ],
   "elements": [
-    "Manuel GELIN anime l'émission, en compagnie de Clémentine CARTIER",
-    "Diffusion des séries La fête à la maison, Seconde B, Quoi de neuf docteur et Major Dad",
-    "REPORTAGES",
-    "Interview des auteurs de sa biographie \"La passion Cyril COLLARD\", Jean Philippe GUERAND et Martine MORICONI, avec extraits du film \"Les nuits fauves\"",
-    "Interview des membres du groupe, extraits de clips et passages sur scène"
+    "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.521646"
+  "normalized_at": "2026-11-18T21:59:46.384946",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

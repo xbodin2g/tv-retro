@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004681",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004681/recre-a2-emission-du-2-juin-1985?rang=431",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:38:27.761928",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Candy",
     "Clip Pac man chanté par Leymergie"
   ],
-  "normalized_at": "2026-11-17T07:00:09.282836"
+  "normalized_at": "2026-11-18T21:59:45.381254",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

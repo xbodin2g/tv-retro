@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85000066",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000066/recre-a2-emission-du-31-mai-1985?rang=432",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:38:19.388060",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,8 @@
     "Clip Tchaou et Grodo par Marie Mercié",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.143211"
+  "normalized_at": "2026-11-18T21:59:45.203164",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

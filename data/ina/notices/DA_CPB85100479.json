@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85100479",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100479/recre-a2-plateau-emission-du-11-septembre-1985?rang=499",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:42:35.983072",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "DOROTHEE, charlotte, JACKY et ALAIN se retrouvent dans un restaurant tenu par Jean LACROIX et évoquent leurs souvenirs de vacances respectifs."
   ],
-  "elements": [
-    "DOROTHEE, charlotte, JACKY et ALAIN se retrouvent dans un restaurant tenu par Jean LACROIX et évoquent leurs souvenirs de vacances respectifs"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.202267"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.273836",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

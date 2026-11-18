@@ -2,7 +2,7 @@
   "notice_id": "TV_127056.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_127056.001/club-dorothee-programme-du-15-septembre-1995?rang=21",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:36:03.361113",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.312962",
-  "normalized_at": "2026-11-17T07:00:10.791159"
+  "normalized_at": "2026-11-18T21:59:46.612223",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000852",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000852/giga-emission-du-5-fevrier-1992?rang=55",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:57.139292",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "LA REINE DU PATINAGE. Reportage sur la jeune championne de patinage artistique Surya BONALY, espoir français aux prochains JO d'hiver à Albertville. On la voit effectuant de très belles figures sur glaçe, puis un interview : elle parle de son entraînement en vue des JO, 5 à 6 heures par jour de travail, plus de l'entraînement physique, du footing, etc."
   ],
   "elements": [
-    "SERIE Sois prof et tais-toi : \"Play it again Woody\"",
     "SERIE Sauvés par le gong : \"College war\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.213849"
+  "normalized_at": "2026-11-18T21:59:46.158771",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

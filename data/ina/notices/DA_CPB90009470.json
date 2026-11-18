@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009470",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009470/giga-emission-du-19-octobre-1990?rang=173",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:56:36.480546",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,10 @@
     "INFOS GIGA : extrait du dernier clip de C. LAURE pour annoncer son passage au \"Bataclan\"."
   ],
   "elements": [
-    "Au sommaire de Giga, deux reportages, de brèves informations et une série américaine",
-    "\"Larry et Balky\"",
-    "INFOS GIGA : extrait du film \"L'aventure COUSTEAU\" à propos de la participation du commandant COUSTEAU à Giga la semaine prochaine",
-    "interview (VO +traduction off) du chanteur Australien et extraits du vidéoclip \"Hey LITTLE girl\"",
-    "Sélection de nouveaux disques illustrée par la présentation des pochettes",
-    "INFOS GIGA : extrait du dernier clip de C. LAURE pour annoncer son passage au \"Bataclan\""
+    "\"Larry et Balky\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.594318"
+  "normalized_at": "2026-11-18T21:59:45.631204",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

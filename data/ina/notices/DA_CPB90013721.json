@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013721",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013721/recre-a2-emission-du-1er-juillet-1980?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:25:45.575024",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Satanas et Diabolo",
     "Sophie la sorcière"
   ],
-  "normalized_at": "2026-11-17T07:00:09.749678"
+  "normalized_at": "2026-11-18T21:59:45.771679",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_742499.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_742499.001/tf-jeunesse-programme-du-26-decembre-1997?rang=134",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:45:05.679442",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -46,5 +46,8 @@
     "Les singes de l'espace",
     "Pif et Hercule"
   ],
-  "normalized_at": "2026-11-17T07:00:11.534395"
+  "normalized_at": "2026-11-18T21:59:47.224696",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

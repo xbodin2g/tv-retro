@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008351",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008351/giga-emission-du-27-septembre-1990?rang=101",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:15.904748",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "GIGA COMIQUE : Extrait du spectacle de Jean-Baptiste PLAIT \"PLAIT dit ALLAIS\" et interview de l'acteur-auteur avec une série de BT de comiques et d'Alphonse ALLAIS."
   ],
   "elements": [
-    "SERIE Larry ET BALKI : Achat",
-    "COLLECTION VW : Reportage chez Jacky MOREL, journaliste et collectionneur passionné par les \"coccinelles\" VW miniaturisées"
+    "SERIE Larry ET BALKI : Achat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.580079"
+  "normalized_at": "2026-11-18T21:59:45.620318",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

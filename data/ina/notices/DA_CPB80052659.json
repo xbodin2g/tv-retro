@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80052659",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80052659/recre-a2-emission-du-26-novembre-1980?rang=363",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:33:52.053253",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,21 +38,19 @@
   ],
   "elements": [
     "Les voyages de Tortillard",
-    "Discorébus : Maren BERG chante \"c'est un savon extraordinaire",
     "Lippy le lion",
     "Zeltron",
     "Les blancs jouent et gagnent",
     "Maraboud'ficelle",
     "Félix le chat",
-    "Anagrammes : Jean LACROIX propose des anagrammes sur le thème du repas",
-    "Flash sport P. S JONES : Le curling, Patrick explique les règles de ce jeu tandis que nous voyons de nombreux plans de joueurs en action sur la glace",
-    "Philippe CHATEL, assis dans ce décor de restaurant, chante \"maman, papa\"",
     "Candy",
-    "Extrait du film , y a t il un pilote dans l'avion",
     "Wattoo Wattoo",
     "Anagrammes",
     "La Panthère rose",
     "Extrait les 101 dalmatiens"
   ],
-  "normalized_at": "2026-11-17T07:00:08.738549"
+  "normalized_at": "2026-11-18T21:59:44.820427",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

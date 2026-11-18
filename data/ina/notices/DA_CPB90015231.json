@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90015231",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90015231/recre-a2-emission-du-05-novembre-1981?rang=246",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:54:58.192647",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,10 +22,12 @@
   ],
   "elements": [
     "Casper et ses amis",
-    "Le monde de la ferme présenté par Basle Marie-Josée (6) réal : Saintout Jean",
     "Je veux être toi",
     "Discopuce",
     "La Caverne d'Abracadabra"
   ],
-  "normalized_at": "2026-11-17T07:00:09.850491"
+  "normalized_at": "2026-11-18T21:59:45.857065",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

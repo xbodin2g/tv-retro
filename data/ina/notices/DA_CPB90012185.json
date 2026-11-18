@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012185",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012185/recre-a2-emission-du-30-aout-1978?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:21:15.520986",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Casper et ses amis",
     "Lippy le lion"
   ],
-  "normalized_at": "2026-11-17T07:00:09.640025"
+  "normalized_at": "2026-11-18T21:59:45.669171",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

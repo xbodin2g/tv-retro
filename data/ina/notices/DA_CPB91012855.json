@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012855",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012855/giga-emission-du-16-octobre-1991?rang=118",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:20:04.775713",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,8 @@
     "Au sommaire de Giga",
     "SERIE : Sauvés par le gong"
   ],
-  "normalized_at": "2026-11-17T07:00:10.137102"
+  "normalized_at": "2026-11-18T21:59:46.099684",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

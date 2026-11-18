@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87002105",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87002105/vitamine-emission-du-25-mars-1987?rang=13",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:52:01.823405",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -20,12 +20,9 @@
     "Ciné : Extrait de \"La cité de l'or perdu\".",
     "Dessins animés (achats ou rediffusions) : \"Mon petit poney et ses amis\", \"Les Potatous : le rallye des tacots\", \"Les snorky : histoire de baleine\", \"Robostory\" et \"Les ghostbusters\"."
   ],
-  "elements": [
-    "Alain CHAMFORT, invité d'honneur, participe aux différentes rubriques de l'émission avec Jacky et Pascale et chante 2 chansons",
-    "Danse : Pascale et ses petits amis dansent sur la chanson de Jacky \"Tout augmente sauf l'amour\"",
-    "Séquence Poisson d'avril : François présente quelques gags culinaires",
-    "Sport : Ronan PENSEC, cycliste, parle de cyclisme, de ce qu'il aime et de ce qu'il fait dans la vie à part son sport. Extrait du Paris-Nice 1987",
-    "Ciné : Extrait de \"La cité de l'or perdu\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.889435"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.023760",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

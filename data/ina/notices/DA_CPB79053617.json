@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79053617",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79053617/recre-a2-emission-du-3-octobre-1979?rang=389",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:19:21.624302",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -32,11 +32,8 @@
   ],
   "elements": [
     "La Panthère rose",
-    "Label Récré A2 : Concours de dessins \"Folies folies\",",
     "Zanett et Pierre Dudan",
-    "Discobus : Plateau Dorothée, Michel FUGAIN chante \"les ailes dans le dos\"",
     "Maraboud'ficelle",
-    "Discobus : Plateau Dorothée, Michel FUGAIN chante \"Joe dis moi c'que t'en pense \"",
     "A2000",
     "Zeltron",
     "Flash Récré A2 : P. S JONES",
@@ -44,5 +41,8 @@
     "Émilie",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.687010"
+  "normalized_at": "2026-11-18T21:59:44.779852",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010400",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010400/recre-a2-emission-du-4-mars-1982?rang=143",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:04:42.930196",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,12 +24,14 @@
   ],
   "elements": [
     "Pierrôt",
-    "La cuisine exotique sans maman : Les kiwis de Nouvelle-Zélande",
     "Casper et ses amis",
     "La cuisine exotique sans maman",
     "Le petit écho de la forêt",
     "Tilt",
     "Si ont jouait au théâtre"
   ],
-  "normalized_at": "2026-11-17T07:00:10.609143"
+  "normalized_at": "2026-11-18T21:59:46.453846",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

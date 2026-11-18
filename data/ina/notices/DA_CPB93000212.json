@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000212",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000212/giga-emission-du-31-decembre-1992?rang=142",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:43:14.215385",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,12 @@
   ],
   "elements": [
     "Au sommaire de Giga",
-    "Trois séries de questions sur l'épisode de \"Un toit pour dix\" diffusé le 24 décembre, sur Pow Wow et sur Etienne DAHO",
     "\"La Famille JACKSON\"",
     "\"Un toit pour dix\"",
     "\"Sauvés par le Gong\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.413651"
+  "normalized_at": "2026-11-18T21:59:46.305278",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

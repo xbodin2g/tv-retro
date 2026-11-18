@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014337",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014337/recre-a2-emission-du-07-novembre-1980?rang=147",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:32:47.063997",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,10 +21,12 @@
     "Plateau Alain et Zabou"
   ],
   "elements": [
-    "La cuisine sans maman : Alain et Zabou propose la recette de la \"Mousse au chocolat\"",
     "Les aventures électrique de Zeltron",
     "Les voyages de tortillard",
     "San Ku Kai"
   ],
-  "normalized_at": "2026-11-17T07:00:09.795292"
+  "normalized_at": "2026-11-18T21:59:45.809930",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

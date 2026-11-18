@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002291",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002291/club-dorothee-emission-du-1er-mars-1988?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:08:02.328253",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "L'équipe continue de repeindre le studio. DESSIN animé : Gigi. CLIP : \"la Chanson de Candy\"."
   ],
-  "elements": [
-    "L'équipe continue de repeindre le studio. DESSIN animé : Gigi. CLIP : \"la Chanson de Candy\""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.001942"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.108445",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

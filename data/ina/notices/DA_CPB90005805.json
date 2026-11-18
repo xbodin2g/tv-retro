@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005805",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005805/giga-emission-du-12-juin-1990?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:38.138140",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "SERIE : \"Un toit pour dix\" (25'42)",
-    "SERIE GIGA \"Les années collège : Examens de passage (25'42)"
+    "SERIE : \"Un toit pour dix\" (25'42)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.506567"
+  "normalized_at": "2026-11-18T21:59:45.565645",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

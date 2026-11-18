@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001101",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001101/giga-emission-du-30-janvier-1991?rang=36",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:06.256380",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "Au sommaire",
     "\"ZORRO : Les chasseurs de prime\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.890806"
+  "normalized_at": "2026-11-18T21:59:45.890938",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

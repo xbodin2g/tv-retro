@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006491",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006491/giga-emission-du-10-juin-1993?rang=141",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:31.296569",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,11 @@
   "elements": [
     "Manuel GELIN et Clémentine animent ce Giga écourté",
     "SERIE : Quoi de neuf docteur (achat)",
-    "Antoine de CAUNES parle de son livre \"Bien entendu, je plaisante\" qui retrace ses prestations sur Canal Plus dans l'émission \"Nulle part ailleurs\"",
     "SERIE : La fête à la maison (achat)",
-    "Docteur GIGA (Thierry JOLY), pédiatre répond aux questions d'adolescents au téléphone",
     "SERIE : Second B (cf au sujet)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.535998"
+  "normalized_at": "2026-11-18T21:59:46.395679",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

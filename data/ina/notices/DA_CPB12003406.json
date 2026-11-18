@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003406",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003406/recre-a2-emission-du-12-mai-1981?rang=161",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:46:23.724244",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "C'est chouette",
     "1,2,3 contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.559882"
+  "normalized_at": "2026-11-18T21:59:44.677010",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

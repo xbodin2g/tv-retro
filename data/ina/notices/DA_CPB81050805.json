@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050805",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050805/recre-a2-emission-du-25-mars-1981?rang=369",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:43:33.072212",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -43,14 +43,12 @@
     "Plateau fin"
   ],
   "elements": [
-    "L'émission, placée cette semaine sous le signe du voyage, est illustrée par des extraits du spectacle \"Holiday on Ice\"",
     "Émilie",
     "Discorébus : Holiday on Ice",
     "Qua Quao",
     "DOROTHEE chante \"Récré A2\"",
     "Lippy le lion",
     "Félix le chat",
-    "Jean Pierre TOUR, accompagné par ses deux petites filles, chante\"monsieur Hector MALOT \"",
     "Casper et ses amis",
     "Les blancs jouent et gagnent",
     "Candy",
@@ -61,5 +59,8 @@
     "Holiday on Ice",
     "Dessin animé Warner Bros"
   ],
-  "normalized_at": "2026-11-17T07:00:08.784879"
+  "normalized_at": "2026-11-18T21:59:44.856945",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

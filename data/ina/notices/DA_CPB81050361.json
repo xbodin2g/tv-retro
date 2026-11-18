@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050361",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050361/recre-a2-emission-du-11-mars-1981?rang=381",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:42:47.117027",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,7 +38,6 @@
     "Félix le chat",
     "DOROTHEE chante \"Récré A2\"",
     "Numéro de danse par Jacky et Zabou",
-    "Maraboud'ficelle : W. LEYMERGIE donne les résultats du concours-CABU propose une nouvelle histoire",
     "Chanson Zeltron par les récréamis",
     "Boule et Bill",
     "Casper et ses amis",
@@ -49,5 +48,8 @@
     "Imbert et Moreau chantent \"les nouveaux parents\"",
     "Maraboud'ficelle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.776346"
+  "normalized_at": "2026-11-18T21:59:44.850255",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81050420",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81050420/recre-a2-emission-du-20-mai-1981?rang=378",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:46:47.686794",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -48,12 +48,8 @@
     "Plateau fin"
   ],
   "elements": [
-    "Thème central de l'émission : les marionnettes de la Compagnie Jacques Vincent et guignol",
     "Émilie",
-    "Jacques VINCENT présente une technique rapide de fabrication de marionnettes avec une bouteille de détergent, un bouchon, une bande à plâtrer",
-    "Extraits du spectacle du Cirque de Pékin présenté au palais de congrès",
     "Dessin animé",
-    "Maraboud'ficelle : William et CABU proposent une mini bande-dessinée qui met en scène un théâtre de marionnettes",
     "Zeltron",
     "Les blancs jouent et gagnent",
     "Boule et Bill",
@@ -66,5 +62,8 @@
     "Tilt",
     "La Panthère rose"
   ],
-  "normalized_at": "2026-11-17T07:00:08.779227"
+  "normalized_at": "2026-11-18T21:59:44.852273",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

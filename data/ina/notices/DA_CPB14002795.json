@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14002795",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14002795/recre-a2-emission-du-26-septembre-1979?rang=339",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:19:10.210218",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -34,21 +34,18 @@
     "Plateau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Dorothée, Brault et Frechette: \"Les p'tits coeurs \",",
-    "Label Récré A2 : Extrait du film \"Folies folies\",",
-    "Flash Récré A2 : P. S JONES présente les spectacles de la semaine",
     "Samsong atelier balai",
     "Maraboud'ficelle",
-    "Discobus : Plateau Dorothée, P Lafontaine chante\"Ca ne va pas Monsieur\"",
     "La Panthère rose",
     "A2000",
-    "Discobus : Plateau Dorothée, Brault et Frechette: \"Mets du jaune dans ton soleil\"",
     "Flash Récré A2 : P. S JONES",
     "Tarzan",
     "Les Bubblies",
-    "Discobus : Plateau Dorothée, H Auffray chante \"Emilie Emilia\"",
     "Émilie",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.622882"
+  "normalized_at": "2026-11-18T21:59:44.729675",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

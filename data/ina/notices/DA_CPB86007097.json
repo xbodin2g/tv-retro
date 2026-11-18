@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007097",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007097/recre-a2-emission-du-1er-mai-1986?rang=104",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:16.127617",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Latulu et Lireli",
     "PAC MAN"
   ],
-  "normalized_at": "2026-11-17T07:00:09.339909"
+  "normalized_at": "2026-11-18T21:59:45.429668",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

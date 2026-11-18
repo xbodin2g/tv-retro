@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011754",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011754/giga-emission-du-22-septembre-1992?rang=196",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:15.882408",
   "program_query": "Giga",
   "programme": "Giga",
@@ -29,5 +29,8 @@
     "\"La fête à la maison \"(achat)",
     "\"Quoi de neuf docteur\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.356220"
+  "normalized_at": "2026-11-18T21:59:46.261724",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

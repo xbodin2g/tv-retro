@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001331",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001331/club-dorothee-vacances-emission-du-19-fevrier-1990?rang=183",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:44:07.618178",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -15,8 +15,9 @@
     "Dorothée et les autres présentent les rubriques et dessins animés de l'émission :",
     ": \"LE NOMBRE D'OR\", \"SPLITCH SPLATCH SPLOTCH VLAN\" (Yann au téléphone, Jacky s'arrose ).< DESSINS ANIMES> : \"DRAGON BALL\", \"LES MONDES ENGLOUTIS\", \"WINGMAN\" (achats)."
   ],
-  "elements": [
-    "Dorothée et les autres présentent les rubriques et dessins animés de l'émission"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.354513"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.477270",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051121",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051121/recre-a2-emission-du-13-mai-1983?rang=234",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:48:15.393888",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Latulu et Lireli",
     "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.004039"
+  "normalized_at": "2026-11-18T21:59:45.030026",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

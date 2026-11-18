@@ -2,7 +2,7 @@
   "notice_id": "TV_690406.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_690406.001/tf-jeunesse-programme-du-14-octobre-1997?rang=28",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:37:11.182485",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -22,8 +22,10 @@
     "[Présentation : 4ème partie]"
   ],
   "elements": [
-    "[Présentation",
     "Beetleborgs, une BD d'enfer"
   ],
-  "normalized_at": "2026-11-17T07:00:11.442368"
+  "normalized_at": "2026-11-18T21:59:47.152148",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

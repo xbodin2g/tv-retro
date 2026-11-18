@@ -2,7 +2,7 @@
   "notice_id": "TV_484993.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_484993.001/club-dorothee-programme-du-8-janvier-1997?rang=28",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:29:28.239995",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,5 +29,8 @@
     "Les vacances de l'amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.589446",
-  "normalized_at": "2026-11-17T07:00:11.224813"
+  "normalized_at": "2026-11-18T21:59:46.976392",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

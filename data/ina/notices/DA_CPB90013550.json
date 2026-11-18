@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013550",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013550/recre-a2-emission-du-30-novembre-1979?rang=292",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:22:19.694480",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Zanett",
     "Le Prince et le pauvre"
   ],
-  "normalized_at": "2026-11-17T07:00:09.738815"
+  "normalized_at": "2026-11-18T21:59:45.762388",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

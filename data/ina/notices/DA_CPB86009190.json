@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009190",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009190/recre-a2-emission-du-9-juillet-1986?rang=377",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:09:52.835901",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,10 +19,12 @@
     "Plateau Corbier"
   ],
   "elements": [
-    "Emmanuelle attend CORBIER sur un terrain de minigolf, Il apparaît tout petit en \"minigolfeur\"",
     "Bibifoc",
     "Corbier fait une démonstration mais tord son club",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.386637"
+  "normalized_at": "2026-11-18T21:59:45.468292",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

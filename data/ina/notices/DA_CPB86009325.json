@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009325",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009325/recre-a2-emission-du-13-juillet-1986?rang=478",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:10:07.234118",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -20,11 +20,12 @@
     "Plateau Corbier et lia"
   ],
   "elements": [
-    "CORBIER et Lia sur le toit d'une maison au bord de l'eau (décor) présentent l'émission",
     "Mafalda",
     "Super Doc : Dans le bain (1)",
-    "Sur la plage ils mangent en jetant leurs détritus par terre et se plaignent que les gens prennent la plage pour une poubelle",
     "La Révolte irlandaise"
   ],
-  "normalized_at": "2026-11-17T07:00:09.389419"
+  "normalized_at": "2026-11-18T21:59:45.470707",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94005417",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94005417/giga-emission-du-14-juin-1994?rang=106",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:50:54.580741",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "GOAL \"Penalty\" (Rediffusion)",
     "GENERATIONS MUSIQUE \"Le premier engagement\" (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.707571"
+  "normalized_at": "2026-11-18T21:59:46.534585",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

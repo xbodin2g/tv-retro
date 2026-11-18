@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004528",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004528/giga-emission-du-17-mai-1990?rang=210",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:07.833846",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,10 @@
     "Europa : groupe d'adolescents chantant représentant les12 pays de la communauté européenne. Ils interprètent \"United feelings of Europe\" (CLIP)"
   ],
   "elements": [
-    "Au sommaire",
-    "SERIES \"Un toit pour dix\" et \"Les années collège\" (achats)",
-    "Europa : groupe d'adolescents chantant représentant les12 pays de la communauté européenne. Ils interprètent \"United feelings of Europe\" (CLIP)"
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:09.500945"
+  "normalized_at": "2026-11-18T21:59:45.561109",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

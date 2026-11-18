@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002906",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002906/club-dorothee-emission-du-18-mars-1988?rang=102",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:08:55.335433",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,9 +17,11 @@
     ", \"Gigi\" : \"La soucoupe volante\" (Achat)."
   ],
   "elements": [
-    "En plateau, CORBIER affligé d'une rage de dents refuse d'aller chez le dentiste",
     ", \"Bisous, bisounours\"",
     ", \"Gigi\" : \"La soucoupe volante\" (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.009447"
+  "normalized_at": "2026-11-18T21:59:44.114526",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

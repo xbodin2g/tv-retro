@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051934",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051934/recre-a2-emission-du-14-fevrier-1985?rang=231",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:31:23.418861",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Mr Merlin",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.178648"
+  "normalized_at": "2026-11-18T21:59:45.248922",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

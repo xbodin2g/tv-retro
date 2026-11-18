@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004661",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004661/giga-emission-du-8-juin-1992?rang=44",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:33:29.831577",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,11 +19,10 @@
     "Diverses questions sur les épisodes des séries précedentes."
   ],
   "elements": [
-    "Au sommaire de ce numéro de GIGA",
-    "\"GOAL\", première diffusion de cette nouvelle série française dont le premier volet est intitulé \"Coup d'Envoi\"",
-    "\"LES ANNEES COLLEGES\", Un dîner et un Spectacle (Achat)",
-    "\"LE PRINCE DE BEL AIR\", Dis moi que tu m'aimes (Achat)",
-    "Diverses questions sur les épisodes des séries précedentes"
+    "Au sommaire de ce numéro de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:10.298591"
+  "normalized_at": "2026-11-18T21:59:46.220940",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

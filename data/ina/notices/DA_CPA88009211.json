@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88009211",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88009211/club-dorothee-vacances-emission-du-22-aout-1988?rang=301",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:25:33.931028",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "L'équipe habituelle anime l'émission, avec le jeu Kellogs et les DA Candy, Goldorak, Capitaine Flam. Séquence astrale avec MADAME SOLEIL."
   ],
-  "elements": [
-    "L'équipe habituelle anime l'émission, avec le jeu Kellogs et les DA Candy, Goldorak, Capitaine Flam. Séquence astrale avec MADAME SOLEIL"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.096471"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.192732",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

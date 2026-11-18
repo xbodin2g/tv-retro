@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014288",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014288/giga-emission-du-13-novembre-1992?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:02.072925",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,12 @@
     "Sauvés par le gong (achat)."
   ],
   "elements": [
-    "Enquête auprès des téléspectateurs de Giga : qu'est-ce qui influence le plus votre look ?",
     "Le Prince de Bel Air (achat)",
     "Jeu interactif",
     "Sauvés par le gong (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.387252"
+  "normalized_at": "2026-11-18T21:59:46.284920",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

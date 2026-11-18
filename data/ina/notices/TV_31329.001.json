@@ -2,7 +2,7 @@
   "notice_id": "TV_31329.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_31329.001/club-dorothee-vacances-programme-du-07-mars-1995?rang=387",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:17:45.934290",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -38,5 +38,8 @@
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.475293",
-  "normalized_at": "2026-11-17T07:00:11.030160"
+  "normalized_at": "2026-11-18T21:59:46.812971",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

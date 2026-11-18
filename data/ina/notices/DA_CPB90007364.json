@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007364",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007364/giga-emission-du-17-aout-1990?rang=28",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:53:04.655854",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,8 @@
   "elements": [
     "Au sommaire de l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:09.553614"
+  "normalized_at": "2026-11-18T21:59:45.600004",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001546",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001546/giga-emission-du-21-janvier-1993?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:33.854007",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,9 @@
     "Alain POZZUOLI parle de\" L'invité de Dracula \"de Bram STOKER, recueil de nouvelles publié après sa mort ; l'intérêt de ce recueil est qu'il présente toutes les orientations de l'écriture de STOKER (description de paysages, art du fantastique, aspect philosophique...); STOKER est\" un auteur cinématographique \".",
     "Arlette FARGE, auteur de\" Affaires de sang \", parle du symbolisme de la fonction double du sang : horreur ou vie, la mort mais aussi le sang véhiculant l'âme dans les veines ; quelques mots sur le personnage du vampire."
   ],
-  "elements": [
-    "Etude de 3 ouvrages traitant du sang, des vampires et du Comte DRACULA (à propos de la sortie du film\" Dracula \"de Francis F. COPPOLA)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.429620"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.317228",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

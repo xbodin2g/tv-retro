@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87012973",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012973/club-dorothee-noel-emission-du-25-decembre-1987?rang=83",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:16:15.464194",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -17,5 +17,8 @@
   "elements": [
     "Diffusion de Wally Gator"
   ],
-  "normalized_at": "2026-11-17T07:00:07.968180"
+  "normalized_at": "2026-11-18T21:59:44.080407",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_191314.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_191314.001/club-dorothee-programme-du-19-decembre-1995?rang=243",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:49:22.561051",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,8 @@
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.368412",
-  "normalized_at": "2026-11-17T07:00:10.893083"
+  "normalized_at": "2026-11-18T21:59:46.694514",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78056272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78056272/recre-a2-emission-du-13-septembre-1978?rang=54",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:21:43.396631",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,5 +26,8 @@
     "Casper et ses amis",
     "Lippy le lion and Hardy Har Har"
   ],
-  "normalized_at": "2026-11-17T07:00:08.661422"
+  "normalized_at": "2026-11-18T21:59:44.762348",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

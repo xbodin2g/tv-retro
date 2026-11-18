@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006485",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006485/giga-emission-du-2-juin-1993?rang=108",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:07.766552",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,10 +19,10 @@
     "(achat)."
   ],
   "elements": [
-    "Des jeunes en visite à Roland GARROS confient leurs impressions sur l'ambiance générale, les lieux, leurs joueurs favoris",
-    "Philippe LAVIL, en habitué, répond sur la mentalité actuelle des tennismen différente de celle des anciens champions",
-    "sélection de jeunes tennismen de tous horizons et futurs champions",
     "(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.529019"
+  "normalized_at": "2026-11-18T21:59:46.390575",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

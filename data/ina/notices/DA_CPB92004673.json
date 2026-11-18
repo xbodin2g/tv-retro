@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004673",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004673/giga-emission-du-25-juin-1992?rang=20",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:34:17.153979",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,12 @@
     "JEU du Quisako."
   ],
   "elements": [
-    "SERIE : GOAL (n° 13) \"surface de réparation\" réa C. LEHERISSEY",
     "SERIE : LES ANNEES COLLEGE \"chassé croisé\" (ACHAT)",
-    "SERIE : LE PRINCE DE BEL AIR \"donner c'est donner\" (ACHAT)",
     "REPORTAGES BANDE DESSINEE",
-    "Nouveau fanzine LE GOINFRE. Interview de son rédacteur en chef David COCHARD qui explique son élaboration et son financement",
     "JEU du Quisako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.312511"
+  "normalized_at": "2026-11-18T21:59:46.230275",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

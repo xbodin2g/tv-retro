@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78051561",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78051561/recre-a2-emission-du-31-aout-1978?rang=67",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:21:19.144206",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Goldorak",
     "Papivole"
   ],
-  "normalized_at": "2026-11-17T07:00:08.651627"
+  "normalized_at": "2026-11-18T21:59:44.753824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

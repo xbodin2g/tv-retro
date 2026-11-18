@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011762",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011762/giga-emission-du-2-octobre-1992?rang=32",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:48.499312",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "LA FETE A LA MAISON : série américaine (achat)",
-    "Reportage en Asie centrale, au Kirghizistan : images de la ville de Bishkek, à l'occasion de l'étape du Rallye Paris-Moscou-Pékin",
-    "QUOI DE NEUF DOCTEUR ? : série américaine (achat)",
     "SAUVES PAR LE GONG : série (achat)",
     "QUIZAKO : jeu"
   ],
-  "normalized_at": "2026-11-17T07:00:10.363710"
+  "normalized_at": "2026-11-18T21:59:46.267145",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

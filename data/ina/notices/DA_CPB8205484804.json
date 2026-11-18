@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205484804",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205484804/recre-a2-emission-du-04-mai-1982?rang=150",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:07:58.040552",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Yok Yok",
     "3,2,1 contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.943434"
+  "normalized_at": "2026-11-18T21:59:44.985890",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

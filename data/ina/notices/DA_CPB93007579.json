@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007579",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007579/giga-emission-du-1er-juillet-1993?rang=198",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:45.423302",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,8 @@
     "SERIES (Achats). \"Quoi de neuf docteur\" (titre non indiqué). \"Les jours heureux\": \"Fonzie est amoureux \", 1ère partie.\"Le prince de Bel-Air\": \"En avant la musique \"."
   ],
   "elements": [],
-  "normalized_at": "2026-11-17T07:00:10.558890"
+  "normalized_at": "2026-11-18T21:59:46.411435",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

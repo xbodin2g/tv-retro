@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054105",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054105/recre-a2-emission-du-31-mars-1982?rang=406",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:05:54.049169",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -43,7 +43,6 @@
     "Plateau Dorothée, Corbier, Jacky"
   ],
   "elements": [
-    "Les rubriques habituelles chanson : \"j'irai pas chez le dentiste \"",
     "Casper et ses amis",
     "Discorébus : Yok Yok",
     "Extrait Holyday on ice",
@@ -51,14 +50,15 @@
     "Le petit écho de la forêt",
     "Discopuce",
     "Méthanie",
-    "Chronos : Reportage dans les classes de la maîtrise de l'ORTF. Des intws d'élèves et de professeurs permettent de mieux la connaître",
     "Les môts croisés de Jean Lacroix",
     "La Panthère rose",
     "Maraboud'ficelle",
     "Bouquin bouquine",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine :\"j'irai pas chez le dentiste \"",
     "Zeltron",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.928001"
+  "normalized_at": "2026-11-18T21:59:44.974004",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

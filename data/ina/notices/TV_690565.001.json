@@ -2,7 +2,7 @@
   "notice_id": "TV_690565.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_690565.001/tf-jeunesse-programme-du-15-octobre-1997?rang=75",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:37:14.832290",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -37,11 +37,13 @@
   ],
   "elements": [
     "[Plateau",
-    "La grande chasse de Nonook : le secret du boiteux",
     "Les Petites Sorcières",
     "Dr Globule",
     "Zorro la légende continue",
     "Jonny Quest"
   ],
-  "normalized_at": "2026-11-17T07:00:11.443571"
+  "normalized_at": "2026-11-18T21:59:47.153071",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

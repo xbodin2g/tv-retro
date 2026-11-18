@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004729",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004729/recre-a2-emission-du-23-fevrier-1986?rang=303",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:48.969474",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,10 +32,12 @@
     "Bibifoc : Sous la glace",
     "Bibifoc : Le grand appel",
     "Mafalda",
-    "Chicago 1927 : un homme chargé arrive au bar. Il transporte le casier judiciaire d'Al Papone",
     "Zorro",
     "L'empire des 5",
     "Les ministars chantent \"Les mondes engloutis\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.283986"
+  "normalized_at": "2026-11-18T21:59:45.382068",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

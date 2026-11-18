@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79058015",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79058015/recre-a2-emission-du-24-janvier-1979?rang=359",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:08:16.751284",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,18 +40,16 @@
   ],
   "elements": [
     "Mini histoires",
-    "Discobus : Bonnie TYLER chante \"my guns are loaded\" et plateau Ariane Gil",
     "A2000",
-    "Discobus : F. WERTHEIMER chante \"Monsieur JO\" et plateau Ariane Gil",
     "Flash Récré A2",
-    "Maraboud'ficelle avec W Leymergie et Isabelle Arrignon et Cabu",
-    "Discobus : M.P Belle chante \"La Bicyclette\" et plateau Ariane Gil",
     "La Caverne d'Abracadabra",
-    "Discobus : M.P Belle chante \"Show business\" et plateau Ariane Gil",
     "Il court, il court, le courrier",
     "Je veux être toi",
     "Discopuce",
     "Wattoo wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.710895"
+  "normalized_at": "2026-11-18T21:59:44.798433",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

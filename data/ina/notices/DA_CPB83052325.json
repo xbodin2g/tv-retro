@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052325",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052325/recre-a2-emission-du-28-juin-1983?rang=258",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:51:16.252361",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "La bande à BéDé",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.029703"
+  "normalized_at": "2026-11-18T21:59:45.049874",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

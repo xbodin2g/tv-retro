@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003389",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003389/recre-a2-emission-du-21-janvier-1986?rang=146",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:57:02.272458",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Plateau Alain et Charlotte"
   ],
   "elements": [
-    "Reth Alan espère séduire Charlotte Omara, dans sa plantation de coton, en lui offrant une cigarette de sa fabrique. Mais Charlotte préfère chiquer",
     "Image imagine",
     "C'est chouette",
     "Super Doc : à la poubelle (1)",
@@ -31,5 +30,8 @@
     "Téléchat",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.249624"
+  "normalized_at": "2026-11-18T21:59:45.353463",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

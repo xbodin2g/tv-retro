@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009767",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009767/giga-emission-du-23-septembre-1993?rang=43",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:28:52.571559",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "GIGA propose ce jour trois séries : \"la fête à la maison\" (achat), \"TV 101 (achat), et\" le Prince de Bel Air \"(achat)."
   ],
-  "elements": [
-    "GIGA propose ce jour trois séries : \"la fête à la maison\" (achat), \"TV 101 (achat), et\" le Prince de Bel Air \"(achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.601958"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.447569",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

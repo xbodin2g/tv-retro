@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007747",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007747/recre-a2-emission-du-25-mai-1986?rang=110",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:06:50.649301",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "LES MONDES ENGLOUTIS\"."
   ],
   "elements": [
-    "L'émission est présentée par CORBIER et Véronique",
     "CLEMENTINE",
     "L'école des fées",
     "Mafalda",
@@ -31,5 +30,8 @@
     "Chanson françois Corbier",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.357380"
+  "normalized_at": "2026-11-18T21:59:45.443500",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

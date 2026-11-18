@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053973",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053973/recre-a2-emission-du-11-mai-1982?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:08:21.501010",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "C'est chouette",
     "3,2,1 contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.923886"
+  "normalized_at": "2026-11-18T21:59:44.970686",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

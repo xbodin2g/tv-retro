@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050791",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050791/recre-a2-emission-du-12-juin-1980?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:24:31.420187",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Emission non analysée pour cause de grève (bande 26460)."
   ],
-  "elements": [
-    "Emission non analysée pour cause de grève (bande 26460)"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.725492"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.810630",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

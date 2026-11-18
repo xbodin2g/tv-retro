@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011537",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011537/giga-emission-du-18-novembre-1993?rang=58",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:31:42.434224",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "SERIES (Achats): Sauvés par le gong : \"le bal annuel du collège\"; Le prince de Bel-Air."
   ],
   "elements": [
-    "PAS DE REPORTAGES",
-    "SERIES (Achats): Sauvés par le gong : \"le bal annuel du collège\"; Le prince de Bel-Air"
+    "PAS DE REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.632796"
+  "normalized_at": "2026-11-18T21:59:46.472599",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

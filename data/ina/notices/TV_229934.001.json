@@ -2,7 +2,7 @@
   "notice_id": "TV_229934.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_229934.001/club-dorothee-samedi-programme-du-3-fevrier-1996?rang=350",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:24:40.117904",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nSamedi",
@@ -26,5 +26,8 @@
     "Pole position"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.389359",
-  "normalized_at": "2026-11-17T07:00:10.928450"
+  "normalized_at": "2026-11-18T21:59:46.724371",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

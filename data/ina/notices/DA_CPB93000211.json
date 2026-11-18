@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000211",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000211/giga-emission-du-29-decembre-1992?rang=230",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:43:07.341927",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au programme d'aujourd'hui, annoncé en voix off, jeu Quizako puis 2 séries (achats) : \"la Famille JACKSON\" et \"Mac Gyver : muiets comme la tombe\"."
   ],
-  "elements": [
-    "Au programme d'aujourd'hui, annoncé en voix off, jeu Quizako puis 2 séries (achats) : \"la Famille JACKSON\" et \"Mac Gyver : muiets comme la tombe\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.412739"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.304620",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

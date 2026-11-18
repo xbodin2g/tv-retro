@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85104972",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104972/recre-a2-emission-du-2-mars-1983?rang=464",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:43:44.379670",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,8 +46,6 @@
     "Plateau Corbier, Jacky, Dorothée, Doggy-dog, Elfie"
   ],
   "elements": [
-    "Thème de l'émission : \"le village gaulois\"; tous les participants sont habillés en Gaulois",
-    "Sketch : \"Défilé de mode-gag\" présenté par Dorothée : des \"Gaulois\" présentent des boucliers \"branchés\"",
     "Chapi chapo",
     "Matou chat des champs et Souriceau",
     "Maraboud'ficelle",
@@ -60,5 +58,8 @@
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.221868"
+  "normalized_at": "2026-11-18T21:59:45.320984",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

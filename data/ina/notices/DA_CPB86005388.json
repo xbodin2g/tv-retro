@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005388",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005388/recre-a2-emission-du-10-mars-1986?rang=173",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:00:55.071959",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Latulu et Lireli",
     "Cobra"
   ],
-  "normalized_at": "2026-11-17T07:00:09.297721"
+  "normalized_at": "2026-11-18T21:59:45.394062",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

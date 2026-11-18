@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012651",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012651/giga-emission-du-19-octobre-1992?rang=154",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:27.823432",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "Une série Giga : \"LA FETE A LA MAISON\" (feuilleton américain)",
     "QUIZAKO : jeu portant sur la série diffusée",
-    "Un feuilleton franco allemand LE LYCEE ALPIN (cf CPB92013076)",
     "Une série Giga : \"SAUVES PAR LE GONG\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.371425"
+  "normalized_at": "2026-11-18T21:59:46.273231",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

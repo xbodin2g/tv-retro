@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008149",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008149/recre-a2-emission-du-05-juin-1986?rang=254",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:07.202274",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "Plateau Marie"
   ],
   "elements": [
-    "Marie présente les différentes séquences qui composent l'émission dans un décor de forêt avec château hanté",
     "Téléchat",
     "Image imagine",
     "Mes mains ont la parole",
@@ -30,5 +29,8 @@
     "Olivier Constantin chante \"Cobra\"",
     "Pac Man"
   ],
-  "normalized_at": "2026-11-17T07:00:09.368528"
+  "normalized_at": "2026-11-18T21:59:45.452705",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

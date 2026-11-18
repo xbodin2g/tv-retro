@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87013715",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87013715/club-dorothee-emission-du-14-janvier-1988?rang=59",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:04:33.051314",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Dessin animé \"Mon petit poney et ses amis\" : épisode n5, 17ème partie, fin de \"Plaisir valley\""
   ],
-  "elements": [
-    "Dessin animé \"Mon petit poney et ses amis\" : épisode n5, 17ème partie, fin de \"Plaisir valley\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.977277"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.088459",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

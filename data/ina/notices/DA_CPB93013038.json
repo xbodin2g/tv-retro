@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93013038",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93013038/giga-emission-du-23-decembre-1993?rang=38",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:33:41.945658",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,12 @@
     "\"Le prince de Bel Air \"."
   ],
   "elements": [
-    "Le magazine est constitué de trois séries américaines, annoncées par une voix off",
     "\"Un toit pour dix \"",
     "\"Sauvés par le gong\"",
     "\"Le prince de Bel Air \""
   ],
-  "normalized_at": "2026-11-17T07:00:10.650059"
+  "normalized_at": "2026-11-18T21:59:46.486946",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

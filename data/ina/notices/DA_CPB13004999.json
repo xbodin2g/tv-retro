@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13004999",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004999/recre-a2-emission-du-18-mars-1985?rang=442",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:33:30.302165",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Pac-Man",
     "Clip Warner Bros Buggs Bunny"
   ],
-  "normalized_at": "2026-11-17T07:00:08.610891"
+  "normalized_at": "2026-11-18T21:59:44.718488",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

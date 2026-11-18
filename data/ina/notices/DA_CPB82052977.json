@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052977",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052977/recre-a2-emission-du-07-octobre-1982?rang=117",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:18:44.615743",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Les Quat'z Amis",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.903699"
+  "normalized_at": "2026-11-18T21:59:44.954403",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

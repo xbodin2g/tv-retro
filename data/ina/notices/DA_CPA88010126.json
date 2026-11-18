@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88010126",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88010126/club-dorothee-emission-du-7-septembre-1988?rang=165",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:27:43.823387",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,13 +21,10 @@
     "JEU DE L'ABC : Ariane en est la victime."
   ],
   "elements": [
-    "Face à un public enfantin, Dorothée et ses complices présentent jeux et dessins animés. Quelques chansons ponctuent l'après-midi",
-    "DESSINS ANIMES : Sablotin, les Chevaliers du Zodiaque, Lamu, GI Joe, les Bioniques, Ken le Survivant, Bioman 2 Maskman",
-    "LE MOT MYSTERIEUX (jeu)",
-    "LE GOUTER D'ANNIVERSAIRE DE PAPY BROSSARD (distribution de cadeaux aux natifs du jour sélectionnés dans le public)",
-    "LE JACKY SEAU : Aujourd'hui Jacky est arrosé à 16h42'14 \"",
-    "TOP JUNIOR : Hit parade établi à partir des votes des téléspectateurs. Brefs extraits off des chansons",
-    "JEU DE L'ABC : Ariane en est la victime"
+    "LE MOT MYSTERIEUX (jeu)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.107485"
+  "normalized_at": "2026-11-18T21:59:44.220491",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

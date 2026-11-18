@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007267",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007267/giga-emission-du-27-mars-1991?rang=193",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:48.040198",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,9 +24,10 @@
   ],
   "elements": [
     "Au sommaire de ce numéro de \"Giga\"",
-    "SERIES : \"La fête à la maison\" et \"Quoi de neuf docteur\"",
-    "REPORTAGES",
-    "PAS SI BETES : les hyènes (Prod Cineteve, achat)"
+    "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.029598"
+  "normalized_at": "2026-11-18T21:59:46.016686",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

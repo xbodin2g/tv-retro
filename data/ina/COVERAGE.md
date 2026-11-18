@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-18 à 21:22:07 — parser v10 · fetch=auto_
+_Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -14,9 +14,9 @@ _Généré le 2026-11-18 à 21:22:07 — parser v10 · fetch=auto_
 ## Total
 
 - Jamais indexés : **258** (≈ 97655)
-- Entrées : **15719** · Connues sans téléchargement : **7009**
-- À télécharger : **8710** · En cache : **15289** (97.3 %)
-- Œuvres distinctes : **614** · Reste : **430**
+- Entrées : **15720** · Connues sans téléchargement : **7009**
+- À télécharger : **8711** · En cache : **15690** (99.8 %)
+- Œuvres distinctes : **614** · Reste : **30**
 
 ## Par émission
 
@@ -24,7 +24,7 @@ _Généré le 2026-11-18 à 21:22:07 — parser v10 · fetch=auto_
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | Amuse 3 | FR3 | 1985→1997 | — | 12 | 5 | 0 | 5 | 5 | 0 | 100.0 % |
 | Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 0 | 2468 | 2468 | 0 | 100.0 % |
-| Récré A2 | Antenne 2 | 1978→1987 | A,B | 0 | 8807 | 6338 | 2469 | 8377 | 430 | 95.1 % |
+| Récré A2 | Antenne 2 | 1978→1987 | A,B | 0 | 8808 | 6338 | 2470 | 8778 | 30 | 99.7 % |
 | Cabou Cadin | Canal+ | 1985→1993 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 0 | 1086 | 1086 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -422,18 +422,20 @@ _Généré le 2026-11-18 à 21:22:07 — parser v10 · fetch=auto_
 
 ### Récré A2 · Antenne 2
 
+**Œuvres citées au niveau émission** : "Le Cerf-volant, achat, bde 119750, la grotte, un canotier
+
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1978 | en cours | 343 | B:343 | 223 | 120 | 321 | 33 | 22 |
-| 1979 | en cours | 691 | A:1, B:691 | 465 | 226 | 689 | 46 | 2 |
-| 1980 | complet | 630 | A:365, B:630 | 374 | 256 | 630 | 21 | 0 |
-| 1981 | en cours | 697 | A:1, B:697 | 439 | 258 | 696 | 27 | 1 |
-| 1982 | complet | 850 | B:850 | 563 | 287 | 850 | 47 | 0 |
-| 1983 | en cours | 929 | B:929 | 646 | 283 | 910 | 46 | 19 |
-| 1984 | en cours | 1196 | B:1196 | 862 | 334 | 1028 | 71 | 168 |
-| 1985 | en cours | 1436 | B:1436 | 1024 | 412 | 1229 | 48 | 207 |
-| 1986 | en cours | 1171 | B:1171 | 890 | 281 | 1163 | 84 | 8 |
-| 1987 | en cours | 864 | B:864 | 852 | 12 | 861 | 157 | 3 |
+| 1978 | complet | 343 | A:118, B:343 | 223 | 120 | 343 | 33 | 0 |
+| 1979 | complet | 691 | A:236, B:691 | 465 | 226 | 691 | 46 | 0 |
+| 1980 | complet | 630 | A:368, B:630 | 374 | 256 | 630 | 21 | 0 |
+| 1981 | complet | 697 | A:261, B:697 | 439 | 258 | 697 | 27 | 0 |
+| 1982 | complet | 850 | A:288, B:850 | 563 | 287 | 850 | 47 | 0 |
+| 1983 | complet | 930 | A:286, B:929 | 646 | 284 | 930 | 46 | 0 |
+| 1984 | complet | 1196 | A:334, B:1196 | 862 | 334 | 1196 | 71 | 0 |
+| 1985 | en cours | 1436 | A:415, B:1436 | 1024 | 412 | 1417 | 48 | 19 |
+| 1986 | en cours | 1171 | A:297, B:1171 | 890 | 281 | 1163 | 84 | 8 |
+| 1987 | en cours | 864 | A:18, B:864 | 852 | 12 | 861 | 157 | 3 |
 
 ### Salut les Musclés · TF1
 
@@ -549,11 +551,6 @@ _Généré le 2026-11-18 à 21:22:07 — parser v10 · fetch=auto_
 
 | Émission | Année | Reste |
 |---|---|---:|
-| Récré A2 | 1985 | 207 |
-| Récré A2 | 1984 | 168 |
-| Récré A2 | 1978 | 22 |
-| Récré A2 | 1983 | 19 |
+| Récré A2 | 1985 | 19 |
 | Récré A2 | 1986 | 8 |
 | Récré A2 | 1987 | 3 |
-| Récré A2 | 1979 | 2 |
-| Récré A2 | 1981 | 1 |

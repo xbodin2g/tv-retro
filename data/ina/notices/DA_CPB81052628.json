@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052628",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052628/recre-a2-emission-du-13-janvier-1981?rang=53",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:39:25.772801",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "C'est chouette",
     "3,2,1contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.805793"
+  "normalized_at": "2026-11-18T21:59:44.872069",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

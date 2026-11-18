@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81055924",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81055924/recre-a2-emission-du-23-octobre-1981?rang=287",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:54:17.314960",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "Mes mains ont la parole",
-    "Le monde de la ferme présenté par Basle Marie-Josée (4) réal : Saintout Jean",
     "En attendant Tistou",
     "Babar en Amérique"
   ],
-  "normalized_at": "2026-11-17T07:00:08.845770"
+  "normalized_at": "2026-11-18T21:59:44.909542",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

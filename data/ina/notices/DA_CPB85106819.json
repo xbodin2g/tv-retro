@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85106819",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106819/recre-a2-emission-du-29-septembre-1983?rang=273",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:55:35.087613",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,11 +23,13 @@
     "Plateau Alain"
   ],
   "elements": [
-    "Les voyages de Tortillard : \"Un moustique dans l'engrenage\"",
     "Yakari",
     "Mes mains ont la parole",
     "Latulu et Lireli",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.235565"
+  "normalized_at": "2026-11-18T21:59:45.340001",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

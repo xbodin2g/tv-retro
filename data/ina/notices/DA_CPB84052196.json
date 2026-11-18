@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84052196",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84052196/recre-a2-emission-du-19-mai-1984?rang=414",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:08:52.004711",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "George de la jungle",
     "Chanson Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.097154"
+  "normalized_at": "2026-11-18T21:59:45.131761",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

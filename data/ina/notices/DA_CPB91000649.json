@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000649",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000649/giga-emission-du-25-janvier-1991?rang=34",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:53.572250",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
   ],
   "elements": [
     "Au programme de GIGA",
-    "SERIES : \"Sauvés par le gong\"; \"Zorro \" (achats)",
     "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:09.879018"
+  "normalized_at": "2026-11-18T21:59:45.881385",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

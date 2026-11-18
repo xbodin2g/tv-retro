@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007217",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007217/giga-emission-du-13-mars-1991?rang=9",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:07.451078",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,9 +27,10 @@
     "Au sommaire",
     "HIT NRJ (cf CPB91007216)",
     "Infos Giga : annonce du Salon de l'Etudiant",
-    "SERIE GIGA : \"Sauvés par le gong\" (feuilleton américain)",
-    "SERIE GIGA : \"Zorro\" (achat)",
-    "Reportage sur le Super Kart 250 par Christine DEVARS, avec images du Championnat de France (pl. plans de la course) et des intws de concurrents"
+    "SERIE GIGA : \"Zorro\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.023934"
+  "normalized_at": "2026-11-18T21:59:46.012532",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90013932",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90013932/club-dorothee-noel-emission-du-3-janvier-1991?rang=78",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:11:12.964162",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -32,5 +32,8 @@
     "PAS DE PITIE POUR LES CROISSANTS,",
     "Lola ET LES SARDINES"
   ],
-  "normalized_at": "2026-11-17T07:00:08.476044"
+  "normalized_at": "2026-11-18T21:59:44.594121",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_435493.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_435493.001/club-dorothee-vacances-programme-du-29-octobre-1996?rang=320",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:39:06.736057",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -44,5 +44,8 @@
     "La croisière Foll' Amour : le vaisseau fantôme"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.550849",
-  "normalized_at": "2026-11-17T07:00:11.158681"
+  "normalized_at": "2026-11-18T21:59:46.922830",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

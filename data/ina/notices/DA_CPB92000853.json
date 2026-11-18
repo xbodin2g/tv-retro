@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000853",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000853/giga-emission-du-6-fevrier-1992?rang=56",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:00.323347",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,8 @@
   "elements": [
     "Pas de reportage"
   ],
-  "normalized_at": "2026-11-17T07:00:10.214182"
+  "normalized_at": "2026-11-18T21:59:46.161554",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010461",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010461/giga-emission-du-22-novembre-1990?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:58:01.917283",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "Extrait du clip \"Thunderstuck\" d'AC/DC pour annoncer leur concert."
   ],
   "elements": [
-    "Au sommaire",
-    "Larry ET BALKI : Ca c'est de la musique (série américaine, 22'48)",
-    "Extrait du clip \"Thunderstuck\" d'AC/DC pour annoncer leur concert"
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:09.615744"
+  "normalized_at": "2026-11-18T21:59:45.647315",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

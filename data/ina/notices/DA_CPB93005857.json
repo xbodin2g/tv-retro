@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005857",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005857/giga-emission-du-13-mai-1993?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:31.973087",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,10 +16,9 @@
     "Docteur GIGA : le pédiatre Thierry JOLY répond aux questions des adolescents sur des douleurs au talon, les pellicules, la rhinite.",
     "SERIES : \"La fête à la maison\", \"Seconde B\", \"Happy days\" et \"Major dad\"."
   ],
-  "elements": [
-    "Manuel GELIN et Clémentine présentent les séries composant l'émission",
-    "Docteur GIGA : le pédiatre Thierry JOLY répond aux questions des adolescents sur des douleurs au talon, les pellicules, la rhinite",
-    "SERIES : \"La fête à la maison\", \"Seconde B\", \"Happy days\" et \"Major dad\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.520003"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.383723",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

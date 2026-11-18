@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005839",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005839/giga-emission-du-19-juin-1990?rang=65",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:57.137556",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "SERIES : \"Un toit pour 10\"; \"Throb \"",
     "Championnat du monde de vélos kangourous (Images Videofast)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.509242"
+  "normalized_at": "2026-11-18T21:59:45.567627",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

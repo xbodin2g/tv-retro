@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13003700",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13003700/recre-a2-emission-du-12-avril-1984?rang=247",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:06:54.135492",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Albator 84",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:08.601168"
+  "normalized_at": "2026-11-18T21:59:44.709530",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

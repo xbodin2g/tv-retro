@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90005244",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90005244/club-dorothee-emission-du-13-juin-1990?rang=180",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:52:19.945247",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,10 +17,9 @@
     "JEUX : le jeu des génies, le top jeune et le jeu de l'ABC.",
     "Sur le plateau trois jeunes champions font une démonstration de skateboard."
   ],
-  "elements": [
-    "Dorothée et son équipe accueillent à l'américaine l'invité de l'émission, Glenn MEDEIROS qui dit quelques mots sur ce qu'il aime en France",
-    "JEUX : le jeu des génies, le top jeune et le jeu de l'ABC",
-    "Sur le plateau trois jeunes champions font une démonstration de skateboard"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.401259"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.520427",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

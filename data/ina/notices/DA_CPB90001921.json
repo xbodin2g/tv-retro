@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001921",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001921/giga-emission-du-27-fevrier-1990?rang=155",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:27.937664",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,9 +23,10 @@
   ],
   "elements": [
     "Au menu du 7ème numéro de Giga",
-    "Série Giga : \"Quoi de neuf docteur ?\"",
-    "Interview de Vanessa PARADIS qui affirme vivre sa vie comme son métier à 200 à l'heure. Bande-annonce de \"Noce blanche\" de Jean-Claude BRISSEAU",
-    "Série Giga : \"La fête à la maison : Au revoir monsieur l'ours\""
+    "Série Giga : \"Quoi de neuf docteur ?\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.455037"
+  "normalized_at": "2026-11-18T21:59:45.529137",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

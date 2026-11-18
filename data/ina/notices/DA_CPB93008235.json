@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008235",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008235/giga-emission-du-29-juillet-1993?rang=240",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:25:56.205972",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "Séries : Le Prince de Bel Air et Major Dad (achats)."
   ],
   "elements": [
-    "Au sommaire",
-    "Séries : Le Prince de Bel Air et Major Dad (achats)"
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:10.572641"
+  "normalized_at": "2026-11-18T21:59:46.422142",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

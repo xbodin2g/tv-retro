@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051422",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051422/recre-a2-emission-du-13-avril-1982?rang=75",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:06:26.032397",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "C'est chouette",
-    "La cuisine exotique sans maman : Rondelles de paprika de Hongrie",
     "Les aventures d'une souris sur Mars",
     "3,2,1 contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.876022"
+  "normalized_at": "2026-11-18T21:59:44.934088",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

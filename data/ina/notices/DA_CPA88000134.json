@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88000134",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88000134/club-dorothee-emission-du-18-janvier-1988?rang=52",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:04:40.854481",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Episode de \"Mon Petit Poney\". Vidéoclip de Goldorak."
   ],
-  "elements": [
-    "Episode de \"Mon Petit Poney\". Vidéoclip de Goldorak"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.978069"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.089185",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89001485",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89001485/club-dorothee-emission-du-15-fevrier-1989?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:03:49.858200",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,10 +16,9 @@
     "Jeux du mot mystérieux, du Jacky seau, tu chantes tu gagnes, du nombre d'or, de l'ABC. Top junior (hit de la semaine).",
     "Diffusion des DA Willy Boy, Lamu, GI Joe, Dragon Ball, Chevaliers du zodiaque, Ken le survivant."
   ],
-  "elements": [
-    "Show Dorothée dans les studio de La Plaine Saint Denis. Toute l'équipe est habillée en tenue de sports d'hiver, et monte un décor chalet-neige-sapin",
-    "Jeux du mot mystérieux, du Jacky seau, tu chantes tu gagnes, du nombre d'or, de l'ABC. Top junior (hit de la semaine)",
-    "Diffusion des DA Willy Boy, Lamu, GI Joe, Dragon Ball, Chevaliers du zodiaque, Ken le survivant"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.192987"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.308571",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

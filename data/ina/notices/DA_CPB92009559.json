@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009559",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009559/giga-emission-du-28-aout-1992?rang=103",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:43.781738",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,9 +15,9 @@
     "Diffusion des séries Quoi de neuf docteur et Les années collège.",
     "Rediffusions des sujets : les pompiers, Voltige aérienne, L'hippodelta, Le surfer d'argent."
   ],
-  "elements": [
-    "Diffusion des séries Quoi de neuf docteur et Les années collège",
-    "Rediffusions des sujets : les pompiers, Voltige aérienne, L'hippodelta, Le surfer d'argent"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.340404"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.250136",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

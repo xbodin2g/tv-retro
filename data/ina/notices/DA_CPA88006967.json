@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006967",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006967/club-dorothee-emission-du-8-juin-1988?rang=33",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:15:00.334573",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,20 +28,18 @@
     "Jeu de l'ABC."
   ],
   "elements": [
-    "Dorothée et son équipe présentent cette émission composée de dessins animés, de jeux et de chansons. L'émission se déroule de la façon suivante",
     "Punky Brewster : D.A",
-    "Le mot mystérieux : tirage au sort par ordinateur de ceux qui l'ont trouvé",
     "Les chevaliers du zodiaque : D.A",
     "Goldorak : Opération plongée (D. A)",
-    "Dorothée reçoit Martine ALLAIN REGNAULT qui présente l'émission sur les greffes d'organes qui sera diffusée le lendemain \"Un oui pour la vie\"",
     "Spielman (D. A)",
     "Iceberg goes south : (D. A)",
     "J. I Joe : (D. A)",
-    "Goûters d'anniversaire offerts aux enfants dont c'est l'anniversaire ce jour là",
     "Silverhawks : le piège (D. A)",
-    "Top Junior : les enfants doivent voter pour choisir leur chanson préférée",
     "Bioman : les statues volées (D. A)",
     "Jeu de l'ABC"
   ],
-  "normalized_at": "2026-11-17T07:00:08.055850"
+  "normalized_at": "2026-11-18T21:59:44.150672",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

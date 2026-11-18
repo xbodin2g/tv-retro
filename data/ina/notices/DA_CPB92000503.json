@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000503",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000503/giga-emission-du-7-janvier-1992?rang=176",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:26:35.984068",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,11 +20,12 @@
     "Pour conclure, sommaire en images du prochain numéro."
   ],
   "elements": [
-    "Au sommaire de Giga, les séries habituelles et une nouvelle étape du tour du monde en 80 jours d'Antoine",
     "ACHAT",
     "Images de l'escale d'Antoine au Portugal (Polygram Video)",
-    "Questions du jeu et images des cadeaux à gagner",
     "Pour conclure, sommaire en images du prochain numéro"
   ],
-  "normalized_at": "2026-11-17T07:00:10.191380"
+  "normalized_at": "2026-11-18T21:59:46.139483",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

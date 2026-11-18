@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91004421",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004421/giga-emission-du-13-fevrier-1991?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:42.973961",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de l'émission : Hit NRJ et Série : \"Zorro : la légende : le signe de Zorro\"."
   ],
-  "elements": [
-    "Au sommaire de l'émission : Hit NRJ et Série : \"Zorro : la légende : le signe de Zorro\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.986186"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.983164",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

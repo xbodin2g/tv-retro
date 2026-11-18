@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013745",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013745/recre-a2-emission-du-09-juillet-1980?rang=71",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:26:11.248411",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Satanas et Diabolo",
     "Dino Boy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.753023"
+  "normalized_at": "2026-11-18T21:59:45.774397",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

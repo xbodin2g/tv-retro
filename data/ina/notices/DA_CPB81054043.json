@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81054043",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81054043/recre-a2-emission-du-21-octobre-1981?rang=398",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:54:09.280033",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -47,13 +47,14 @@
     "Maraboud'ficelle",
     "Pierrôt : L'ours-pop et la poupée",
     "Bouquin Bouquine",
-    "Petit reportage sur le Cirque Gruss : six cavaliers font différentes figures acrobatiques",
     "Candy",
     "Zeltron",
     "Tilt",
-    "Amélie MORIN en play-back : \"j'étais venu pour dire bonjour\"",
     "Boule et Bill",
     "La Panthère rose"
   ],
-  "normalized_at": "2026-11-17T07:00:08.825516"
+  "normalized_at": "2026-11-18T21:59:44.893426",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

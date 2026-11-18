@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011328",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011328/recre-a2-plateau-emission-du-22-septembre-1986?rang=88",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:15:26.282761",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Charlotte et Emmanuelle présentent l'émission au cours de laquelle sont diffusés les achats suivants : \"Super DOC\", \"Quick et Flurke \" et\"Lady Oscar \"."
   ],
-  "elements": [
-    "Charlotte et Emmanuelle présentent l'émission au cours de laquelle sont diffusés les achats suivants : \"Super DOC\", \"Quick et Flurke \" et\"Lady Oscar \""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.430932"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.507513",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

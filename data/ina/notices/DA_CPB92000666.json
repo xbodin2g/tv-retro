@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000666",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000666/giga-emission-du-8-janvier-1992?rang=167",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:26:39.845558",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,12 +25,13 @@
   ],
   "elements": [
     "Au sommaire",
-    "GIGA série : SALUT LES COPAINS : \"Help\" (cf CPB92000667)",
     "Images sur l'exposition \"Opéra Bulles\" à La Villette",
     "GIGA série : SOIS PROF'ET TAIS TOI (achat)",
     "GIGA série : DELIRE ET DS LARMES (achat)",
-    "GIGA reportage : LE TOUR DU MONDE EN QUATRE VINGT JOURS D'ANTOINE : LES ILES DU Cap Vert (film d'Antoine. K7 Polygram Vidéo)",
     "QUIZAKO : jeu"
   ],
-  "normalized_at": "2026-11-17T07:00:10.196619"
+  "normalized_at": "2026-11-18T21:59:46.143146",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001340",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001340/club-dorothee-vacances-emission-du-22-fevrier-1990?rang=234",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:44:29.021395",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -20,12 +20,11 @@
     "JEU : les 100 soleils présenté par Patrick SIMPSON-JONES. JACKY présente le clip dédicacé."
   ],
   "elements": [
-    "Toute l'équipe anime l'émission en direct du studio de la Plaine SaintDenis devant un public d'enfants",
     "D.A. \"Nos tendres années\" (achat)",
-    "SERIE \"cap danger\"(achat)",
-    "JEU : le mot interdit présenté par CORBIER",
-    "SALUT LES MUSCLES : \"l'anniversaire de minet \"(AB PRODUCTIONS)",
-    "JEU : les 100 soleils présenté par Patrick SIMPSON-JONES. JACKY présente le clip dédicacé"
+    "SERIE \"cap danger\"(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.358243"
+  "normalized_at": "2026-11-18T21:59:44.480272",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

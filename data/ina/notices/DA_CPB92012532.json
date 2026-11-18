@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012532",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012532/giga-emission-du-9-octobre-1992?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:04.469549",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "LES JEUNES ET LA LECTURE : Reportage autour de l'écrivain Daniel PENNAC ; interview libraire, débat-FNAC ; interview Denis CHEYSSOUX, au studio de France-Inter, sur les livres pour enfants.",
     "SERIES : \"La fête à la maison\"; \"Lycée alpin\"."
   ],
-  "elements": [
-    "SERIES : \"La fête à la maison\"; \"Lycée alpin\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.368144"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.270313",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

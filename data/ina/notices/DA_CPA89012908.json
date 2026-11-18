@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012908",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012908/club-dorothee-noel-emission-du-2-janvier-1990?rang=240",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:41:25.657290",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -18,10 +18,11 @@
     "SALUT LES MUSCLES : cf au titre."
   ],
   "elements": [
-    "Dorothée, Ariane, Jacky, CORBIER, Pat, accompagnés des Musclés animent cette émission devant un parterre d'enfants aux anges",
     "JEU : ABC, Le mot interdit",
-    "Document extérieur : \"Cap Danger\", \"Les chevaliers du zodiaque\"",
     "SALUT LES MUSCLES : cf au titre"
   ],
-  "normalized_at": "2026-11-17T07:00:08.335669"
+  "normalized_at": "2026-11-18T21:59:44.462606",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053506",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053506/recre-a2-emission-du-22-decembre-1983?rang=400",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:59:49.835236",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -37,5 +37,8 @@
     "Jane de la jungle",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.051672"
+  "normalized_at": "2026-11-18T21:59:45.069767",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

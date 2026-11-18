@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001948",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001948/giga-emission-du-26-janvier-1993?rang=226",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:46.504489",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
   "elements": [
     "Au sommaire de l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.434104"
+  "normalized_at": "2026-11-18T21:59:46.320389",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

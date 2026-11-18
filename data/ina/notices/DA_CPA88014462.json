@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014462",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014462/club-dorothee-emission-du-30-novembre-1988?rang=150",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T17:56:46.132686",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,8 +20,10 @@
   ],
   "elements": [
     ", Bioman-Maskman 2 : \"le biosurf d'assaut\" (achat)",
-    ", le mot mystérieux",
-    "Tu chantes, tu gagnes : Thomas chante : \"Juliette, je t'aime\". Le goûter d'anniversaire de Papy Brossard. Le jeu de l'ABC"
+    ", le mot mystérieux"
   ],
-  "normalized_at": "2026-11-17T07:00:08.151839"
+  "normalized_at": "2026-11-18T21:59:44.265984",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

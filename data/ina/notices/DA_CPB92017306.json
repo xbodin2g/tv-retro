@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92017306",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017306/giga-emission-du-15-decembre-1992?rang=140",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:29.764320",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,12 @@
     "Série : \"Le prince de Bel Air\" (achat)."
   ],
   "elements": [
-    "Jeu QUIZAKO avec des questions sur les séries diffusées la veille",
     "Série : \"Sauvé par le gong\" (achat)",
     "Série : \"Un toit pour dix\" (achat)",
     "Série : \"Le prince de Bel Air\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.405031"
+  "normalized_at": "2026-11-18T21:59:46.298503",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90009656",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90009656/club-dorothee-vacances-emission-du-29-octobre-1990?rang=305",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:03:47.986647",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -20,12 +20,13 @@
     "Grand Jeu des super chansons de Dorothée."
   ],
   "elements": [
-    "Emission présentée par Dorothée et son équipe et composée de",
     "Cadeau club Dorothée (jeu)",
     "Mask (Dessin animé)",
     "Sherlock HOLMES : les trois étudiants",
-    "Nick LARSON : (D. A). Salut les Musclés : la leçon de musique",
     "Grand Jeu des super chansons de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:08.448223"
+  "normalized_at": "2026-11-18T21:59:44.570555",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

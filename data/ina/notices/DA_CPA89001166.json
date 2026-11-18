@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89001166",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89001166/club-dorothee-vacances-emission-du-6-fevrier-1989?rang=347",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:02:41.545702",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -20,10 +20,10 @@
     "\"Punky Brewster\" : 211ème épisode."
   ],
   "elements": [
-    "Diffusion de docs ext",
-    "\"Mon petit poney \" :\"Quatre fers à cheval en or\"",
-    "\"Mes Tendres années \" :2ème épisode",
-    "\"Punky Brewster\" : 211ème épisode"
+    "Diffusion de docs ext"
   ],
-  "normalized_at": "2026-11-17T07:00:08.185315"
+  "normalized_at": "2026-11-18T21:59:44.301228",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

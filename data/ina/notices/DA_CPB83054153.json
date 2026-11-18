@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83054153",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83054153/recre-a2-emission-du-15-avril-1983?rang=224",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:46:37.532786",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Bande 51275"
   ],
-  "normalized_at": "2026-11-17T07:00:09.057746"
+  "normalized_at": "2026-11-18T21:59:45.074818",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

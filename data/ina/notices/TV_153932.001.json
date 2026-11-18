@@ -2,7 +2,7 @@
   "notice_id": "TV_153932.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_153932.001/club-dorothee-vacances-programme-du-26-octobre-1995?rang=357",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:39:44.377470",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -32,12 +32,12 @@
   "elements": [
     "[Plateau",
     "Bécé Bégé : De mal en pis",
-    "Dragon Ball Z : les dernières minutes avant l'explosion",
     "Olive et Tom : la première victoire",
-    "Denis la malice : le complexe sportif ; aventures en Alaska ; panique sur le ter",
-    "Nicky Larson : au secours je t'aime",
-    "La vie de famille : tout est permis sans permis"
+    "Nicky Larson : au secours je t'aime"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.337164",
-  "normalized_at": "2026-11-17T07:00:10.835556"
+  "normalized_at": "2026-11-18T21:59:46.649377",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

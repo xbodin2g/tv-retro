@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007362",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007362/giga-emission-du-15-aout-1990?rang=122",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:57.151227",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
   "elements": [
     "Diffusion de Alf"
   ],
-  "normalized_at": "2026-11-17T07:00:09.552082"
+  "normalized_at": "2026-11-18T21:59:45.598831",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

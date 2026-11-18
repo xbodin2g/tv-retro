@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011638",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011638/giga-emission-du-18-septembre-1992?rang=30",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:08.274365",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,11 @@
   ],
   "elements": [
     "Au sommaire de ce Giga, les séries",
-    "\"La fête à la maison \"et\" Quoi de neuf Docteur \"",
     "Reportages",
-    "Concert au Casino de Paris le 19 Septembre, dont le bénéfice ira à la lutte contre le Sida",
     "Le jeu du QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.353759"
+  "normalized_at": "2026-11-18T21:59:46.259963",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90002791",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002791/giga-emission-du-20-mars-1990?rang=153",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:46:19.292792",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,10 +19,9 @@
     "-Bande-annonce du film \"La Nuit de l'Iguane\" avec Ava GARDNER.",
     "-SERIES : \"Quoi de neuf docteur ? \"; \"Les années collège\"."
   ],
-  "elements": [
-    "L'Ecole \"Le Cordon Bleu\" donne des cours de cuisine à des enfants. Ils apprennent en s'amusant à confectionner leurs plats et gâteaux préférés",
-    "Bande-annonce du film \"La Nuit de l'Iguane\" avec Ava GARDNER",
-    "SERIES : \"Quoi de neuf docteur ? \"; \"Les années collège\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.473367"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.541819",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

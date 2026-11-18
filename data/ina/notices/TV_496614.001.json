@@ -2,7 +2,7 @@
   "notice_id": "TV_496614.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_496614.001/club-dorothee-programme-du-11-janvier-1997?rang=7",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:29:32.279290",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,8 @@
     "Les filles d'à côté"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.589875",
-  "normalized_at": "2026-11-17T07:00:11.225585"
+  "normalized_at": "2026-11-18T21:59:46.977051",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

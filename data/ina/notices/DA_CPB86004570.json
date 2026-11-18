@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004570",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004570/recre-a2-emission-du-20-fevrier-1986?rang=299",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:35.361928",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,12 +22,14 @@
     "Plateau Charlotte et Bernard"
   ],
   "elements": [
-    "Petit gag : une répétition sabotée d'une pièce de théâtre : l'acteur s'est trompé de pièce",
     "Téléchat",
     "Image imagine",
     "Mes mains ont la parole",
     "Latulu et Lireli",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.281391"
+  "normalized_at": "2026-11-18T21:59:45.378989",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

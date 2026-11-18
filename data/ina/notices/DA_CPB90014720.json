@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014720",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014720/recre-a2-emission-du-05-janvier-1981?rang=51",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:38:58.593764",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Avec FABRICE et ses marionnettes :piquemboule, so et sie, poussé-moussu, rapidos, toucancan et belle-belle."
   ],
-  "elements": [
-    "Avec FABRICE et ses marionnettes :piquemboule, so et sie, poussé-moussu, rapidos, toucancan et belle-belle"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.814416"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.826438",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

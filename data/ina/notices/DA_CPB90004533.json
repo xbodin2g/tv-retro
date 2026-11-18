@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004533",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004533/giga-emission-du-24-mai-1990?rang=62",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:27.896428",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   "elements": [
     "Sont diffusés dand GIGA",
     "Un toit pour dix",
-    "Histoires... D'en parler, et les enfants vous diront merci : Super mamie !",
     "Les années collège"
   ],
-  "normalized_at": "2026-11-17T07:00:09.503872"
+  "normalized_at": "2026-11-18T21:59:45.563625",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

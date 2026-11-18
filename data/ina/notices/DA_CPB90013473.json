@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013473",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013473/recre-a2-emission-du-06-novembre-1979?rang=112",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:20:51.624914",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Mes mains ont la parole",
     "Les Quat'z Amis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.732523"
+  "normalized_at": "2026-11-18T21:59:45.757218",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

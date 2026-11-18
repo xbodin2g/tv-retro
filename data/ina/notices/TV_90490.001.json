@@ -2,7 +2,7 @@
   "notice_id": "TV_90490.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_90490.001/club-dorothee-programme-du-16-juillet-1995?rang=235",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:29:30.005617",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,8 @@
     "Les Minipouss"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.710323",
-  "normalized_at": "2026-11-17T07:00:11.572099"
+  "normalized_at": "2026-11-18T21:59:47.257741",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

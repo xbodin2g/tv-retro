@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000109",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000109/recre-a2-emission-du-19-mars-1981?rang=106",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:43:13.071373",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Sido et Rémi",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:09.859187"
+  "normalized_at": "2026-11-18T21:59:45.864878",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

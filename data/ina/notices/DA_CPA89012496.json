@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012496",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012496/club-dorothee-emission-du-20-decembre-1989?rang=151",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T21:14:10.108363",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,8 +16,9 @@
     ": \"Le mot mystérieux\", \"On pense à toi\", \"Top jeunes\", \"365 soleils\", \"Jacky seau\", \"Top flèche\", \"ABC\", \"Le mot mystérieux\".",
     ": \"La vache de Rome\", 2ème partie (Dagobert Production): L'action se déroule pendant le règne de l'empereur \"Patius\" à Rome. La vache sacrée du Capitole a disparu. Dorothéa va consulter la Pythie pour tenter de la retrouver."
   ],
-  "elements": [
-    "\"Le mot mystérieux\", \"On pense à toi\", \"Top jeunes\", \"365 soleils\", \"Jacky seau\", \"Top flèche\", \"ABC\", \"Le mot mystérieux\""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.330529"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.458209",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001917",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001917/giga-emission-du-21-fevrier-1990?rang=33",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:13.116184",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,10 @@
     "-Reportage sur un chien caissier aux USA. Il rend la monnaie aux clients et fait lui-même ses courses."
   ],
   "elements": [
-    "Au programme de cette émission",
-    "Reportage aux USA sur une méthode révolutionnaire pour enseigner à des jeunes enfants à jouer d'instruments de musique",
-    "CLIP : \"Driving\" par le groupe EVERYTHING BUT THE GIRL",
-    "Séries : 1)\"Quoi de neuf docteur ? \"; 2) \"La fête à la maison\"",
-    "Reportage sur un chien caissier aux USA. Il rend la monnaie aux clients et fait lui-même ses courses"
+    "Au programme de cette émission"
   ],
-  "normalized_at": "2026-11-17T07:00:09.448476"
+  "normalized_at": "2026-11-18T21:59:45.521123",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

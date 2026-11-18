@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007413",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007413/giga-emission-du-22-aout-1990?rang=193",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:53:37.964343",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "Au sommaire de l'émission",
     "Série : les années collège : Que choisir"
   ],
-  "normalized_at": "2026-11-17T07:00:09.555403"
+  "normalized_at": "2026-11-18T21:59:45.601663",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

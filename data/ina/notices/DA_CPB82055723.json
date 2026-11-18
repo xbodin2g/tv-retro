@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055723",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055723/recre-a2-emission-du-11-novembre-1982?rang=251",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:21:10.250009",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Mariolino",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.966545"
+  "normalized_at": "2026-11-18T21:59:44.997229",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

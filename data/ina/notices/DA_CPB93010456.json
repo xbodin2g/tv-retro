@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010456",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010456/giga-emission-du-13-octobre-1993?rang=248",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:29:44.989678",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "LES INFOS : après un bref montage d'extraits de films et de photos sur l'action d'Amnesty international, son directeur en France, Michel FORST, explique ce qu'on peut faire au niveau individuel. Sur la bande annonce du film \"The snapper\" de Stephen FREARS, annonce de la nuit du cinéma organisé par Amnesty."
   ],
   "elements": [
-    "Au sommaire de \"Giga\"",
-    "SERIES : \"Goal\" (cpb93010461), \"TV 101\", \"Promo 96\" (achats)"
+    "Au sommaire de \"Giga\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.612620"
+  "normalized_at": "2026-11-18T21:59:46.456512",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

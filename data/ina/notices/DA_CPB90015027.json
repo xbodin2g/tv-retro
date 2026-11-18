@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90015027",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90015027/recre-a2-emission-du-03-septembre-1981?rang=223",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:51:35.907609",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,5 +26,8 @@
     "Super Jo",
     "Robonics"
   ],
-  "normalized_at": "2026-11-17T07:00:09.837221"
+  "normalized_at": "2026-11-18T21:59:45.846930",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

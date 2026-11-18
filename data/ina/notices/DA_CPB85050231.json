@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050231",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050231/recre-a2-emission-du-25-fevrier-1985?rang=239",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:32:20.763579",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Tchaou et Grodo",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.148849"
+  "normalized_at": "2026-11-18T21:59:45.213105",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009011",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009011/giga-emission-du-25-aout-1993?rang=245",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:27:33.904793",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,9 +17,11 @@
     "\"Traiteur sur gages\"."
   ],
   "elements": [
-    "Au sommaire de ce numéro de Giga deux séries (Achat)",
     "\"KO par amour\"",
     "\"Traiteur sur gages\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.590142"
+  "normalized_at": "2026-11-18T21:59:46.437796",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

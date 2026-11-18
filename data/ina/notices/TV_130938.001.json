@@ -2,7 +2,7 @@
   "notice_id": "TV_130938.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_130938.001/club-dorothee-programme-du-20-septembre-1995?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:36:25.735221",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.315000",
-  "normalized_at": "2026-11-17T07:00:10.794889"
+  "normalized_at": "2026-11-18T21:59:46.615345",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006342",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006342/giga-emission-du-8-juillet-1992?rang=217",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:35:09.550526",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "\"Les années collège\"",
     "\"Le prince de bel air\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.322802"
+  "normalized_at": "2026-11-18T21:59:46.237393",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85103717",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103717/recre-a2-emission-du-17-juillet-1985?rang=292",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:40:01.902674",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "MARIE et CORBIER présentent ensemble l'émission ; au sommaire : \"les mystérieuses cotes d'or\"."
   ],
-  "elements": [
-    "MARIE et CORBIER présentent ensemble l'émission ; au sommaire : \"les mystérieuses cotes d'or\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.217957"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.306892",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

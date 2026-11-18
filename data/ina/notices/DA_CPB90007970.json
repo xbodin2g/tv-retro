@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007970",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007970/giga-emission-du-13-septembre-1990?rang=127",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:54:37.624488",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Tc in 00.01.13 - Tc out 00.02.33 : images Patrice Gaulupeau (sans musique , ni chansons)"
   ],
   "elements": [
-    "Diffusion de la série \"Les années collège (achat)",
-    "Tc in 00.01.13 - Tc out 00.02.33 : images Patrice Gaulupeau (sans musique , ni chansons)"
+    "Diffusion de la série \"Les années collège (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.568129"
+  "normalized_at": "2026-11-18T21:59:45.609841",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

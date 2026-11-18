@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005931",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005931/giga-emission-du-28-juin-1990?rang=93",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:50:41.249039",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "SERIE : \"THROB : l'autobus de mes rêves\" (achat)."
   ],
   "elements": [
-    "SERIE : ALF : \"Les idées claires \"(achat)",
-    "DODO et BEN RADIS, dessinateur et scénariste ont monté un groupe : \"les closh \". Ils parlent de leurs débuts dans la bande déssinée",
-    "SERIE : \"THROB : l'autobus de mes rêves\" (achat)"
+    "SERIE : ALF : \"Les idées claires \"(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.518770"
+  "normalized_at": "2026-11-18T21:59:45.574360",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

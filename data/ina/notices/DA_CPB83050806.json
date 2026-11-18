@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050806",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050806/recre-a2-emission-du-11-juillet-1983?rang=489",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:51:50.586259",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,5 +22,8 @@
     "Latulu et lireli : Les chevaux du Tzigane",
     "Le Tour du monde en 80 jours"
   ],
-  "normalized_at": "2026-11-17T07:00:08.998105"
+  "normalized_at": "2026-11-18T21:59:45.024974",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

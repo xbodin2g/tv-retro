@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003197",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003197/giga-emission-du-3-mars-1993?rang=101",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:18:50.635822",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,12 @@
     "Diffusion de quatre séries (achats) : \"Quoi de neuf docteur ?\"; \" Happy days\"; \"La fête à la maison\"; \"Major Dad \"(\"L'enfant de troupe\")."
   ],
   "elements": [
-    "Thierry JOLY, pédiâtre répond à trois appels téléphoniques de jeun es sur leurs problèmes et leur donne des conseils",
     "Diffusion de deux reportages",
     "1)",
-    "2)",
-    "Diffusion de quatre séries (achats) : \"Quoi de neuf docteur ?\"; \" Happy days\"; \"La fête à la maison\"; \"Major Dad \"(\"L'enfant de troupe\")"
+    "2)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.463500"
+  "normalized_at": "2026-11-18T21:59:46.339929",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009997",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009997/giga-emission-du-28-septembre-1993?rang=44",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:29:03.589665",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
   ],
   "elements": [
     "Au sommaire de \"GIGA\"",
-    "SERIES : \"La fête à la maison\"; \"TV 101\"; \"Le prince de bel air \" (achats)",
-    "REPORTAGES",
-    "CINEMA : montage d'extraits du reportage d'\"Envoyé spécial \" sur le tournage du film\"Germinal \""
+    "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.603593"
+  "normalized_at": "2026-11-18T21:59:46.448828",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

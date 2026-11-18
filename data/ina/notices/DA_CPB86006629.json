@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006629",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006629/recre-a2-emission-du-11-avril-1986?rang=230",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:03:30.926324",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,11 +20,11 @@
     "\"SHE-RA princesse du pouvoir : Le prix de la liberté"
   ],
   "elements": [
-    "L'émission, présentée par Valérie et François contient les rubriques suivantes",
-    "Téléchat : Bonne fête à tous les coquetiers \"",
     "SUPER DOC : Alerter (2)",
-    "Latulu et Lireli",
-    "\"SHE-RA princesse du pouvoir : Le prix de la liberté"
+    "Latulu et Lireli"
   ],
-  "normalized_at": "2026-11-17T07:00:09.322694"
+  "normalized_at": "2026-11-18T21:59:45.415857",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

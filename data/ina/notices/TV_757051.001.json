@@ -2,7 +2,7 @@
   "notice_id": "TV_757051.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_757051.001/tf-jeunesse-programme-du-28-decembre-1997?rang=59",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:45:13.955526",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -18,9 +18,11 @@
     "Salut les toons : [programme du 28 décembre 1997]"
   ],
   "elements": [
-    "[Présentation",
     "Les aventures de Madison",
     "Salut les toons"
   ],
-  "normalized_at": "2026-11-17T07:00:11.544159"
+  "normalized_at": "2026-11-18T21:59:47.232282",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

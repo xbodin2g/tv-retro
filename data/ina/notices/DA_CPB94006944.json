@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006944",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006944/giga-emission-du-19-aout-1994?rang=22",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:39.900222",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Au sommaire de ce numéro de Giga",
-    "QUOI DE NEUF DOCTEUR ? \"Le Vent de la Révolte\" (Achat)",
     "LA FETE A LA MAISON \"La Croisière\" (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.726946"
+  "normalized_at": "2026-11-18T21:59:46.552738",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

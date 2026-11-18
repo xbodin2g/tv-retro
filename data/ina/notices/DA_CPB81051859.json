@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81051859",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81051859/recre-a2-emission-du-28-janvier-1981?rang=371",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:40:16.559571",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,7 +37,6 @@
   "elements": [
     "Le Récré A2 express",
     "Émilie",
-    "Discorébus : G. LAFFAILLE chante : \"je suis un caméléon \"",
     "Félix le chat",
     "Maraboud'ficelle",
     "Casper et ses amis",
@@ -47,11 +46,13 @@
     "G. LAFFAILLE chante : \"l'interrogation écrite \"",
     "Candy",
     "La Panthère rose",
-    "Echecs et mat : Alain FAYART donne la solution du problème propose",
     "Extrait du film Fantasia",
     "DOROTHEE : \"c'est la récré\"",
     "Tilt",
     "Boule et Bill"
   ],
-  "normalized_at": "2026-11-17T07:00:08.798005"
+  "normalized_at": "2026-11-18T21:59:44.865580",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

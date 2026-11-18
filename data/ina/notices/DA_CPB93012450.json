@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012450",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012450/giga-emission-du-16-decembre-1993?rang=251",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:33:23.384034",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Trois séries au sommaire de \"GIGA\" : \"Un toit pour dix\", \"Sauvés par le gong\"; \"Le prince de Bel air \"(achats)."
   ],
-  "elements": [
-    "Trois séries au sommaire de \"GIGA\" : \"Un toit pour dix\", \"Sauvés par le gong\"; \"Le prince de Bel air \"(achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.646351"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.483604",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

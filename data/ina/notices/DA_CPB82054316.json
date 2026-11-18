@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82054316",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82054316/recre-a2-emission-du-13-janvier-1982?rang=339",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:01:28.083027",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -54,7 +54,6 @@
     "Le petit écho de la forêt",
     "Discopuce",
     "Ouvre moi ta porte",
-    "Les petits malheurs : F. CORBIER interprète \"sapristi quelle journée\"",
     "Boule et Bill",
     "Bouquin Bouquine",
     "Jean Louis SALMON interprète \"Nicolas\"",
@@ -64,5 +63,8 @@
     "La Panthère rose",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.932624"
+  "normalized_at": "2026-11-18T21:59:44.977407",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

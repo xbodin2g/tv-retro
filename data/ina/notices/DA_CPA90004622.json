@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90004622",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90004622/club-dorothee-emission-du-30-mai-1990?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:51:25.794094",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,10 +16,9 @@
     "Avec le Top jeunes, le vote sur le dernier tube des Musclés (Merguez partie), une séquence décor tente d'émir.",
     "Feuilletons et dessins animés : Dragon Ball, Les Samouraïs de l'éternel, Un collège fou fou fou, Ken le survivant, Les chevaliers du zodiaque."
   ],
-  "elements": [
-    "L'équipe dans le studio 7 de La Plaine Saint Denis, avec les Musclés et Justine (Camille RAYMOND)",
-    "Avec le Top jeunes, le vote sur le dernier tube des Musclés (Merguez partie), une séquence décor tente d'émir",
-    "Feuilletons et dessins animés : Dragon Ball, Les Samouraïs de l'éternel, Un collège fou fou fou, Ken le survivant, Les chevaliers du zodiaque"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.396982"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.515881",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010000",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010000/giga-emission-du-1er-octobre-1993?rang=45",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:29:15.198860",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Une interview de Johnny CLEGG, à l'occasion de sa tournée en France : le chanteur raconte que la célébrité a changé sa vie, mais qu'il essaie de vivre normalement en dehors des périodes de concerts. Il évoque les actions d'éducation civique opérées par son association caritative en Afrique du Sud (anglais, traduction off). On voit quelques extraits de ses concerts."
   ],
   "elements": [
-    "L'émission, sans plateau, se compose de",
-    "3 séries américaines \"La fête à la maison,\" TV 101 \"et\" Le prince de Bel Air \""
+    "L'émission, sans plateau, se compose de"
   ],
-  "normalized_at": "2026-11-17T07:00:10.605525"
+  "normalized_at": "2026-11-18T21:59:46.450617",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

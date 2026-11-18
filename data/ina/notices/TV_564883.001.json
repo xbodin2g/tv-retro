@@ -2,7 +2,7 @@
   "notice_id": "TV_564883.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_564883.001/club-dorothee-programme-du-19-avril-1997?rang=32",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:33:24.986255",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,5 +29,8 @@
     "Conan l'aventurier"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.628056",
-  "normalized_at": "2026-11-17T07:00:11.291677"
+  "normalized_at": "2026-11-18T21:59:47.035305",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

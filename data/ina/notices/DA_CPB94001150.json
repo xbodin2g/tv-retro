@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001150",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001150/giga-emission-du-11-fevrier-1994?rang=129",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:45:24.840680",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "\"Seconde B : SOS tendresse \"",
     "SERIE : \"Sauvés par le gong\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.670414"
+  "normalized_at": "2026-11-18T21:59:46.502267",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13002831",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002831/recre-a2-emission-du-9-mai-1983?rang=88",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:47:56.730165",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Les Schtroumpfs",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:08.593213"
+  "normalized_at": "2026-11-18T21:59:44.702133",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

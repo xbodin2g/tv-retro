@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90003987",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90003987/club-dorothee-emission-du-9-mai-1990?rang=177",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:50:10.444650",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,9 +20,10 @@
   ],
   "elements": [
     "Jeu des génies",
-    "Jeu de l'ABC",
-    "Le Top Jeune, en 10, Claude FRANCOIS, en 1, Roch VOISINE",
-    "Jean Pierre FRANCOIS est accueilli sue le plateau [plan américain] une équipe \"Poussins\" de footballers"
+    "Jeu de l'ABC"
   ],
-  "normalized_at": "2026-11-17T07:00:08.389267"
+  "normalized_at": "2026-11-18T21:59:44.508718",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

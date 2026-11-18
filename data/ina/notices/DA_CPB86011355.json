@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011355",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011355/recre-a2-emission-du-25-septembre-1986?rang=321",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:15:37.355087",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Emmanuelle et Charlotte, déguisées en vieilles radoteuses, présentent l'émission qui comporte \"Quick et Flupke\", \"Le vol du dragon\" et \"Super DOC\"."
   ],
-  "elements": [
-    "Emmanuelle et Charlotte, déguisées en vieilles radoteuses, présentent l'émission qui comporte \"Quick et Flupke\", \"Le vol du dragon\" et \"Super DOC\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.433178"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.509010",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

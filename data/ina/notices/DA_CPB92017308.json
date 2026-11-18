@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92017308",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017308/giga-emission-du-17-decembre-1992?rang=164",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:37.429345",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,10 +19,11 @@
     "SERIE : LE PRINCE DE BEL AIR. ACHAT."
   ],
   "elements": [
-    "Reportage Jermaine JACKSON d'Armando VILLALPANDO au sujet de la série TV la famille JACKSON. ACHAT (Los Angeles)",
     "JEU : QUIZAKO",
-    "SERIE : SAUVES PAR LE GONG \"la Saint Valentin\". ACHAT",
     "SERIE : LE PRINCE DE BEL AIR. ACHAT"
   ],
-  "normalized_at": "2026-11-17T07:00:10.406305"
+  "normalized_at": "2026-11-18T21:59:46.299575",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002295",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002295/club-dorothee-emission-du-3-mars-1988?rang=99",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:08:10.785253",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Toute l'équipe présente l'émission depuis la régie, le décor du studio s'étant effrondé. Patrick explique comment fonctionne une régie."
   ],
-  "elements": [
-    "Toute l'équipe présente l'émission depuis la régie, le décor du studio s'étant effrondé. Patrick explique comment fonctionne une régie"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.003077"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.109261",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

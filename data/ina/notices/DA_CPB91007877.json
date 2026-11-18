@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007877",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007877/giga-emission-du-22-avril-1991?rang=56",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:11:59.157154",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,8 @@
     "SERIE : \"UN TOIT POUR DIX \"(achat)",
     "SERIE :\" QUOI DE NEUF DOCTEUR ? \"(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.042682"
+  "normalized_at": "2026-11-18T21:59:46.026888",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

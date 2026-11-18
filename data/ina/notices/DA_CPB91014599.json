@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91014599",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014599/giga-emission-du-1er-janvier-1992?rang=165",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:26:20.809259",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,10 @@
     "GIGA SERIE/ Les Twist (nos amis les fantômes, achat)."
   ],
   "elements": [
-    "Au sommaire",
-    "Les voeux de Manu KATCHE aux fidèles de Giga",
-    "GIGA SERIE : Sois prof et tais toi (you'[vue d'ensemble] have got a friend)",
-    "GIGA SERIE/ Les Twist (nos amis les fantômes, achat)"
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:10.185368"
+  "normalized_at": "2026-11-18T21:59:46.134853",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

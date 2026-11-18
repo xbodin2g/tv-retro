@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000513",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000513/giga-emission-du-14-janvier-1991?rang=74",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:22.806293",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Séries : les Twist ; les Années Collège. Bde-annonce Giga 25/Janv \"les New Kids on the blocks\"."
   ],
-  "elements": [
-    "Séries : les Twist ; les Années Collège. Bde-annonce Giga 25/Janv \"les New Kids on the blocks\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.869486"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.874091",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

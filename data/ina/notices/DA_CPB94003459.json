@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003459",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003459/giga-emission-du-2-mai-1994?rang=71",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:49:38.662379",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion des séries américaines \"La famille JACKSON\" et \"les années collège\" (pas de reportages)."
   ],
-  "elements": [
-    "Diffusion des séries américaines \"La famille JACKSON\" et \"les années collège\" (pas de reportages)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.697936"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.526030",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

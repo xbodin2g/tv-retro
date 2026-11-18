@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012385",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012385/recre-a2-emission-du-24-novembre-1978?rang=88",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:25:02.252306",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,9 +20,11 @@
     "Wattoo Wattoo"
   ],
   "elements": [
-    "La lettre de nouvelle France (1er épisode)",
     "Papivole",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.653805"
+  "normalized_at": "2026-11-18T21:59:45.683216",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010100",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010100/giga-emission-du-12-juillet-1991?rang=87",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:15:50.283972",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au programme de cette émission, diffusion d'un épisode de la série américaine \"Quoi de neuf docteur ? \"."
   ],
-  "elements": [
-    "Au programme de cette émission, diffusion d'un épisode de la série américaine \"Quoi de neuf docteur ? \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.089901"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.062089",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

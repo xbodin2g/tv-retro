@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009558",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009558/giga-emission-du-27-aout-1992?rang=102",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:39.127823",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,11 @@
   ],
   "elements": [
     "Au sommaire de Giga",
-    "SERIE : Quoi de neuf docteur ? ( \"Le monde entier est un théâtre\")",
     "SERIE : Les années Collège ( \"Les monstres\")",
     "REPORTAGES : les élèves charpentiers de marine (re"
   ],
-  "normalized_at": "2026-11-17T07:00:10.339897"
+  "normalized_at": "2026-11-18T21:59:46.249754",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

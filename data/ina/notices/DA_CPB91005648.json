@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005648",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005648/recre-a2-matin-emission-du-31-decembre-1986?rang=440",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:17:07.933595",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -13,5 +13,8 @@
   "elements_field": "",
   "titles_raw": [],
   "elements": [],
-  "normalized_at": "2026-11-17T07:00:10.010262"
+  "normalized_at": "2026-11-18T21:59:46.002780",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

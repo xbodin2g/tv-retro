@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005402",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005402/giga-emission-du-27-avril-1993?rang=231",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:21:43.203205",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     ": \"La fête à la maison\", \"Happy days\", \"Quoi de neuf docteur ?\", \"Major Dad\"."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission en compagnie de Clémentine",
-    "AU SOMMAIRE",
-    "\"La fête à la maison\", \"Happy days\", \"Quoi de neuf docteur ?\", \"Major Dad\""
+    "AU SOMMAIRE"
   ],
-  "normalized_at": "2026-11-17T07:00:10.507634"
+  "normalized_at": "2026-11-18T21:59:46.370484",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84057048",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84057048/recre-a2-emission-du-09-octobre-1984?rang=312",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:14:45.172625",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,13 +27,14 @@
     "Plateau Véronique et Alain"
   ],
   "elements": [
-    "Marie MERCIER chantant la chanson du générique de tchaou, le petit chien. Bande 119980",
     "Les Quat'z Amis",
     "Latulu et Lireli",
     "Sido et Rémi",
     "Terre des bêtes",
-    "C'est chouette",
-    "Marie MERCIER chante la chanson du générique de tchaou, le petit chien"
+    "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.139805"
+  "normalized_at": "2026-11-18T21:59:45.194612",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

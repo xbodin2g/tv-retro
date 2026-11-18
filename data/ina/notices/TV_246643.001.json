@@ -2,7 +2,7 @@
   "notice_id": "TV_246643.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_246643.001/super-club-dorothee-programme-du-28-fevrier-1996?rang=359",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:27:05.491857",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -22,5 +22,8 @@
     "Le miel et les abeilles"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.406289",
-  "normalized_at": "2026-11-17T07:00:10.956878"
+  "normalized_at": "2026-11-18T21:59:46.748268",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

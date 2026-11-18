@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006370",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006370/recre-a2-emission-du-28-mars-1986?rang=223",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:34.202321",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,11 +20,13 @@
     "Plateau Véronique et Corbier"
   ],
   "elements": [
-    "Véronique et CORBIER présentent l'émission",
     "Téléchat",
     "Super DOC : Porter (2)",
     "Latulu et Lireli",
     "She-Ra la princesse du pouvoir"
   ],
-  "normalized_at": "2026-11-17T07:00:09.315853"
+  "normalized_at": "2026-11-18T21:59:45.408934",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

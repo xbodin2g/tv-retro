@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004895",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004895/recre-a2-emission-du-24-decembre-1983?rang=404",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:59:57.112747",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -15,8 +15,9 @@
     "Au cours de cette émission présentée par DOROTHEE, sont diffusées les émissions suivantes : \"l'arbre de Noël\" (animation-achat); \"latulu et lireli\"; \"la vie de jésus \" (animation réalisée par Jan TRMAL-achat);\"la princesse insensible \" (copro);\"the snowman \" (dessin animé-achat);\"le Noël des schtroumpfs \" (dessin animé-achat).",
     "DOROTHEE chante\"un petit garçon aux yeux clairs \". EVC 831224 N + O."
   ],
-  "elements": [
-    "DOROTHEE chante\"un petit garçon aux yeux clairs \". EVC 831224 N + O"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.288336"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.385845",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

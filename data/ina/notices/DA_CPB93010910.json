@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010910",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010910/giga-emission-du-1er-novembre-1993?rang=53",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:30:51.198247",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "Sauvé par le gong",
     "Sois prof et tais-toi"
   ],
-  "normalized_at": "2026-11-17T07:00:10.623509"
+  "normalized_at": "2026-11-18T21:59:46.465144",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

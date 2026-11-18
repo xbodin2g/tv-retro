@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007907",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007907/giga-emission-du-16-juillet-1993?rang=119",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:25:27.896604",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     ": [différents plans] Dick RIVERS au Canada : dans sa voiture / à la cafétéria / interview brève dans laquelle il parle du Canada / signant des autographes / en répétition. (Achat \"Musique Plus\" Montréal)."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine CARTIER présentent l'émission en direct",
     "(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.564972"
+  "normalized_at": "2026-11-18T21:59:46.416247",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

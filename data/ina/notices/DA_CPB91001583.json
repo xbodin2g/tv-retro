@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001583",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001583/recre-a2-emission-du-12-fevrier-1983?rang=126",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:42:23.734572",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Tableau célèbre",
     "Les croque-monstres"
   ],
-  "normalized_at": "2026-11-17T07:00:09.919538"
+  "normalized_at": "2026-11-18T21:59:45.913204",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

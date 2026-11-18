@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205648301",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205648301/recre-a2-emission-du-24-mars-1982?rang=405",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:05:38.655144",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -45,12 +45,10 @@
   ],
   "elements": [
     "Les aventures d'une souris sur Mars",
-    "JULIE et Bastien chantent : \"si j'étais une puce\"",
     "Casper et ses amis",
     "Le petit écho de la forêt",
     "Discopuce",
     "Maraboud'ficelle",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine :\"Fastoches mathématiques\"",
     "Méthanie",
     "Bouquin Bouquine",
     "Dorothée chante \"Bonjour bonjour\"",
@@ -60,5 +58,8 @@
     "Candy",
     "Dorothée chante \"Rox et Rouky\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.975750"
+  "normalized_at": "2026-11-18T21:59:45.005100",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

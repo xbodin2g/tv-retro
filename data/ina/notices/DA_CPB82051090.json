@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051090",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051090/recre-a2-emission-du-10-aout-1982?rang=388",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:14:00.418209",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "Les Quat'z Amis",
-    "Festival international des marionnettes de Charleville-Mézières : Le Maroc",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.871484"
+  "normalized_at": "2026-11-18T21:59:44.930397",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87012895",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012895/club-dorothee-noel-emission-du-22-decembre-1987?rang=87",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:15:53.446777",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -20,12 +20,12 @@
     "Et vous avez échappé à tout çà : avec tous les \"ratés\" de l'émission."
   ],
   "elements": [
-    "Emission présentée par Dorothée et son équipe et composée des sujets suivants",
     "Goldorak : dessin animé (achat)",
     "Punky Brewster : feuilleton (achat)",
-    "Bioman : (achat)",
-    "Pas de pitié pour les croissants : le retour du croissant masqué (re",
-    "Et vous avez échappé à tout çà : avec tous les \"ratés\" de l'émission"
+    "Bioman : (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:07.966139"
+  "normalized_at": "2026-11-18T21:59:44.078477",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

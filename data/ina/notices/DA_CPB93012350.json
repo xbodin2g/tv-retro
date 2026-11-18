@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012350",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012350/giga-emission-du-21-decembre-1993?rang=5",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:33:35.685336",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce Giga, trois séries américaines: \"Un toit pour dix\", \"Sauvés par le gong \" et\"Le Prince de Bel Air \"."
   ],
-  "elements": [
-    "Au sommaire de ce Giga, trois séries américaines: \"Un toit pour dix\", \"Sauvés par le gong \" et\"Le Prince de Bel Air \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.644039"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.481691",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

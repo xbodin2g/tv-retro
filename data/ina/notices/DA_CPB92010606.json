@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92010606",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010606/giga-emission-du-10-septembre-1992?rang=107",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:37:20.253249",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,5 +22,8 @@
     "SERIE : QUOI DE NEUF DOCTEUR (achat)",
     "JEU DU QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.346539"
+  "normalized_at": "2026-11-18T21:59:46.254913",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

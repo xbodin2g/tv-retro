@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88005139",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88005139/club-dorothee-emission-du-27-avril-1988?rang=121",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:11:09.492216",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,14 +20,9 @@
     "DESSINS ANIMES : \"les Mini POUSS\", \"Le chevalier du zodiac\", \"Goldorak\", \"GI Joe\", \"Silverhawks\" et \"Jem\".",
     "FEUILLETONS : \"Punky Brewster\" et \"Bioman : la capture des enfants\"."
   ],
-  "elements": [
-    "Dorothée, Jacky, Ariane, Patrick et CORBIER animent l'émission sur scène et devant un public d'enfants",
-    "LE JACKY SEAU : Jacky reçoit un seau de la part de Dorothée",
-    "Les goûters d'anniversaire de Papy BROSSARD : Les gagnants vont fêter leur anniversaire et reçoivent cadeaux et gâteaux",
-    "JEU Léo : Nathalie répond aux questions par téléphone",
-    "JEU DE L'ABC : Patrick reçoit la douche !!!",
-    "DESSINS ANIMES : \"les Mini POUSS\", \"Le chevalier du zodiac\", \"Goldorak\", \"GI Joe\", \"Silverhawks\" et \"Jem\"",
-    "FEUILLETONS : \"Punky Brewster\" et \"Bioman : la capture des enfants\""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.029709"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.128958",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

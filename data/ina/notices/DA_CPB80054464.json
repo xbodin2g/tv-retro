@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80054464",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80054464/recre-a2-emission-du-04-juin-1980?rang=353",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:24:09.037949",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,12 +41,14 @@
     "Le fantôme de l'espace",
     "Maraboud'ficelle",
     "La Panthère rose",
-    "Anagrammes : Anagrammes sur le thème des instruments de musique",
     "Tom et Jerry",
     "Zeltron",
     "Anagrammes",
     "Candy",
     "Extrait Cendrillon"
   ],
-  "normalized_at": "2026-11-17T07:00:08.751730"
+  "normalized_at": "2026-11-18T21:59:44.830605",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

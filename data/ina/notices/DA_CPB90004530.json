@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004530",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004530/giga-emission-du-21-mai-1990?rang=180",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:16.575498",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Au programme de GIGA plusieurs séries",
-    "1) \"Un toit pour dix\" (achat)",
-    "2) \"Histoire d'en parler : Les hospitaliers\" (A2, Sygma, SFP, JE TU IL ); 3) \"Les années Collège\" (achat);- \"ALF\" (achat)"
+    "1) \"Un toit pour dix\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.502154"
+  "normalized_at": "2026-11-18T21:59:45.562122",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

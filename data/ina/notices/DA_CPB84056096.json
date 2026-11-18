@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84056096",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84056096/recre-a2-emission-du-21-octobre-1984?rang=320",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:15:05.571832",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Candy",
     "Alain chante \"Les maîtres de l'univers\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.133826"
+  "normalized_at": "2026-11-18T21:59:45.183226",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

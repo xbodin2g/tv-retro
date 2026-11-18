@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85101489",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85101489/recre-a2-emission-du-17-fevrier-1985?rang=389",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:31:35.305119",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,10 +19,12 @@
     "Plateau Jacky et Charlotte"
   ],
   "elements": [
-    "JACKY prend son bain dans la tasse de thé de charlotte (trucage vidéo)",
     "Clip DOROTHEE \"Le bon Dieu\"",
     "Candy",
     "Clip \"les maîtres de l'univers\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.206825"
+  "normalized_at": "2026-11-18T21:59:45.282005",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

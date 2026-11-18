@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013317",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013317/giga-emission-du-27-decmbre-1990?rang=119",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:59:55.987172",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,12 +21,13 @@
     "Série américaine \"Les années collège : surprise... Partie\"."
   ],
   "elements": [
-    "Série \"Les TWIST : Le fantôme de la décharge\"",
     "LE SAUT A L'ELASTIQUE (JOU : Christophe WANTZ)",
     "LE SURFER D'ARGENT (JOU : Christophe WANTZ)",
     "FREE STYLE (JOU : Christophe WANTZ)",
-    "REFUGE DE L'ARCHE (JOU : Nadine KUHN )",
-    "Série américaine \"Les années collège : surprise... Partie\""
+    "REFUGE DE L'ARCHE (JOU : Nadine KUHN )"
   ],
-  "normalized_at": "2026-11-17T07:00:09.722229"
+  "normalized_at": "2026-11-18T21:59:45.748292",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010316",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010316/giga-emission-du-8-octobre-1993?rang=173",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:29:34.537137",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,11 @@
     "GIGA REPORTAGE : très brève interview de Michel HIDALGO à la suite du tournage de la deuxième série de \"Goal\". Il parle de l'ambiance du tournage et des \"comédiens joueurs\"."
   ],
   "elements": [
-    "Au sommaire de ce Giga 3 séries : La Fête à la Maison",
     "TV 101",
     "Le Prince de Bel Air"
   ],
-  "normalized_at": "2026-11-17T07:00:10.608441"
+  "normalized_at": "2026-11-18T21:59:46.453268",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

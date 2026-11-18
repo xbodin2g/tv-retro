@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012329",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012329/club-dorothee-emission-du-13-decembre-1989?rang=148",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T21:13:50.967508",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,18 +28,18 @@
     "Ken le survivant : dessin animé."
   ],
   "elements": [
-    "Dorothée et son équipe présentent cette émission composée de",
     "Club Danger (série améraicaine)",
     "Dragon Ball : dessin animé",
-    "Jacky seau : trois gagnants qui ont deviné l'heure exacte à laquelle le seau tombe gagnent",
     "Top Jeune : jeu",
     "Le collège fou fou fou (dessin animé japonais)",
     "Le jeu du soleil",
     "Les chevaliers du zodiaque : dessin animé",
-    "Top flèche : atteindre une cible grâce à une flèche qui se déplace sur un écran télévisé",
     "Spécial croissants : la vache Rome (rediffusion)",
     "Jeu de l'ABC",
     "Ken le survivant : dessin animé"
   ],
-  "normalized_at": "2026-11-17T07:00:08.328827"
+  "normalized_at": "2026-11-18T21:59:44.456372",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

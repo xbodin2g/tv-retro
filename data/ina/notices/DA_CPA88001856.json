@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001856",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001856/club-dorothee-vacances-emission-du-16-fevrier-1988?rang=379",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:06:54.674421",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -16,8 +16,10 @@
     "Dessin animé \"Gigi\" et clip de \"Goldorak\"."
   ],
   "elements": [
-    "Au chalet tout le monde prépare Mardi Gras sauf Jacky qui n'a toujours pas de masque",
     "Dessin animé \"Gigi\" et clip de \"Goldorak\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.994943"
+  "normalized_at": "2026-11-18T21:59:44.103493",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

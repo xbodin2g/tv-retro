@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007242",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007242/giga-emission-du-21-juin-1993?rang=144",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:00.051335",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,8 +24,10 @@
   "elements": [
     "\"QUOI DE NEUF DOCTEUR \"(série, achat)",
     "\"HAPPY DAYS\" (série, achat)",
-    "\"SECONDE B \"(série française)",
-    "Thierry JOLY, pédiatre, répond aux questions de jeunes téléspectateurs sur leurs petits problèmes personnels"
+    "\"SECONDE B \"(série française)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.545017"
+  "normalized_at": "2026-11-18T21:59:46.402583",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

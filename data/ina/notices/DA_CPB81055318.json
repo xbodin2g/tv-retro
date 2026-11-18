@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81055318",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81055318/recre-a2-emission-du-04-decembre-1981?rang=255",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:56:49.285411",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,9 +20,10 @@
     "Plateau Jean-Jacques Chardeau"
   ],
   "elements": [
-    "Mes mains ont la parole",
-    "Le monde de la ferme présenté par Basle Marie-Josée (14) réal : Saintout Jean",
-    "Le prince du soleil'3ème épisode)"
+    "Mes mains ont la parole"
   ],
-  "normalized_at": "2026-11-17T07:00:08.842238"
+  "normalized_at": "2026-11-18T21:59:44.906731",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

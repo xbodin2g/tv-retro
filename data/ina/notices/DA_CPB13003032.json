@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13003032",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13003032/recre-a2-emission-du-13-octobre-1983?rang=217",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:56:13.159505",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,8 @@
     "Jane de la jungle",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:08.597721"
+  "normalized_at": "2026-11-18T21:59:44.706419",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

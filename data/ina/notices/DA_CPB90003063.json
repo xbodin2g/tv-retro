@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003063",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003063/giga-emission-du-6-avril-1990?rang=43",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:47:04.659405",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,10 @@
   ],
   "elements": [
     "Emission composée de séries et reportages",
-    "LE TETE BALLE : Reportage sur un nouveau sport : le tête balle, démonstration et interview de joueurs",
-    "RUBRIQUE LIVRES : sélection des dernières nouveautés et présentation par Jean Renaud du livre \"Les Vikings et la Normandie\"",
-    "L'Europe (Doc. La Cité La Villette)",
-    "SERIES : \"Quoi de neuf Docteur ? \" et\" Les Années College \"(achats)"
+    "L'Europe (Doc. La Cité La Villette)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.485676"
+  "normalized_at": "2026-11-18T21:59:45.550128",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

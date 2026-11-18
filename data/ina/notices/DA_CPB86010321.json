@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010321",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010321/recre-a2-emission-du-21-aout-1986?rang=397",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:13:02.534111",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -18,10 +18,12 @@
     "Les mondes engloutis"
   ],
   "elements": [
-    "L'émission est présentée par Marie DAUPHIN et François CORBIER installés sur des chaises longues dans un décor de plage",
     "Les Schtroumpfs",
     "Super Doc : Manque d'air (1)",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.411170"
+  "normalized_at": "2026-11-18T21:59:45.491197",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051525",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051525/recre-a2-emission-du-10-mars-1985?rang=403",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:33:05.104795",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Candy",
     "Marie chante\"Récré A2\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.171664"
+  "normalized_at": "2026-11-18T21:59:45.240875",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

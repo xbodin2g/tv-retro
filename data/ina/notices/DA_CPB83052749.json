@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052749",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052749/recre-a2-emission-du-04-juillet-1983?rang=117",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:51:28.842006",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "DOROTHEE présente cette première émission d'été de récré a2 avec un plumeau. Bde 98041"
   ],
-  "elements": [
-    "DOROTHEE présente cette première émission d'été de récré a2 avec un plumeau. Bde 98041"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.036752"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.056555",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

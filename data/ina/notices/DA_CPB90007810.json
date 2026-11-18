@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007810",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007810/giga-emission-du-7-septembre-1990?rang=31",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:54:22.662426",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Reportage sur les lycées lorsqu'arrivent les vacances scolaires. Feuilleton : Les années collège."
   ],
-  "elements": [
-    "Reportage sur les lycées lorsqu'arrivent les vacances scolaires. Feuilleton : Les années collège"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.564749"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.607195",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

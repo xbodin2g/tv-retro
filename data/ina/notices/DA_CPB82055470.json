@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055470",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055470/recre-a2-emission-du-29-septembre-1982?rang=400",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:18:16.996709",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -42,7 +42,6 @@
     "JACKY et DOROTHEE \"oh la menteuse\"."
   ],
   "elements": [
-    "Thème de l'émission : Le journal de Récré A2",
     "Boule et Bill",
     "Casper et ses amis",
     "Matou chat des champs et souriceau",
@@ -53,12 +52,14 @@
     "Reportage Ecole de Danse de L'Opéra",
     "Corbier",
     "Télétactica",
-    "Corbier, Doggy-dog : DOGGY dog donne la recette de la bossa nova",
     "F. CORBIER chante \"bébé superman\"",
     "Zeltron",
     "La Panthère rose",
     "Candy",
     "JACKY et DOROTHEE \"oh la menteuse\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.951944"
+  "normalized_at": "2026-11-18T21:59:44.993291",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

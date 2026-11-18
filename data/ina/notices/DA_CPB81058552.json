@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81058552",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81058552/recre-a2-emission-du-07-mai-1981?rang=192",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:46:12.661022",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Les Quat'z Amis",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:08.848842"
+  "normalized_at": "2026-11-18T21:59:44.912145",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

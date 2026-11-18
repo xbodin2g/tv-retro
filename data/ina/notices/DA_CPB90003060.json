@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003060",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003060/giga-emission-du-3-avril-1990?rang=42",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:46:54.678933",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,9 @@
     "BD SUR Camille CLAUDEL : Chantal Montélier, auteur d'une bande dessinée sur Camille CLAUDEL, parle de sa rencontre avec le sculpteur, tout en se promenant dans les salles du musée Rodin. Pl. de sculptures et de planches de dessins.",
     "Diffusion des séries : \"Quoi de neuf Docteur\" et \"les années collège\" (achats)."
   ],
-  "elements": [
-    "Diffusion des séries : \"Quoi de neuf Docteur\" et \"les années collège\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.482793"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.548009",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

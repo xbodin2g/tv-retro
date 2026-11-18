@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052341",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052341/recre-a2-emission-du-28-septembre-1983?rang=272",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:55:31.148017",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -48,8 +48,10 @@
     "Ana grille avec Jean Lacroix",
     "Les Schtroumpfs",
     "Jean qui pleure Jean qui rit",
-    "Georges de la jungle",
-    "Les mystérieuses cités d'or (matériel 4 ; de 00:04:32"
+    "Georges de la jungle"
   ],
-  "normalized_at": "2026-11-17T07:00:09.031281"
+  "normalized_at": "2026-11-18T21:59:45.051189",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

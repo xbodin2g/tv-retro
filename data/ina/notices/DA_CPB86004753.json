@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004753",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004753/recre-a2-emission-du-25-fevrier-1986?rang=304",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:55.859672",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Plateau Marie et Bernard"
   ],
   "elements": [
-    "Marie DAUPHIN a invité un grand chef d'orchestre, le BEETHOVEN du XXème siècle, pour présenter l'émission",
     "Téléchat",
     "Image imagine",
     "C'est chouette",
@@ -32,5 +31,8 @@
     "Latulu et Lireli",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.285291"
+  "normalized_at": "2026-11-18T21:59:45.383093",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

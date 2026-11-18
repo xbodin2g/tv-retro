@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005595",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005595/recre-a2-emission-du-16-aout-1985?rang=492",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:41:38.365554",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Les Viratatoums",
     "Les mystérieuses cités d'or"
   ],
-  "normalized_at": "2026-11-17T07:00:10.009468"
+  "normalized_at": "2026-11-18T21:59:46.001792",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

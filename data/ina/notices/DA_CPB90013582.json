@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013582",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013582/recre-a2-emission-du-07-decembre-1979?rang=117",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:22:40.129526",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Zanett",
     "Le Prince et le pauvre"
   ],
-  "normalized_at": "2026-11-17T07:00:09.740463"
+  "normalized_at": "2026-11-18T21:59:45.763854",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

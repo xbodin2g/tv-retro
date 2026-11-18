@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87012617",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012617/club-dorothee-emission-du-14-decembre-1987?rang=41",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:14:52.772164",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,8 +16,10 @@
     "Chanson de Dorothée \"Les filles et les garçons\"."
   ],
   "elements": [
-    "Jacky, Ariane, Cobier et P SIMPSON JONES racontent des histoires droles, présentent des livres et le dessin animé \"Mon petit poney\" (achat)",
     "Chanson de Dorothée \"Les filles et les garçons\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.960792"
+  "normalized_at": "2026-11-18T21:59:44.074399",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

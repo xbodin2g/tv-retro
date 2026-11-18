@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81056004",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81056004/recre-a2-emission-du-13-fevrier-1981?rang=60",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:41:07.184589",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Mes mains ont la parole",
     "Zora la rousse"
   ],
-  "normalized_at": "2026-11-17T07:00:08.847866"
+  "normalized_at": "2026-11-18T21:59:44.911258",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

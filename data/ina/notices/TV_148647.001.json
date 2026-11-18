@@ -2,7 +2,7 @@
   "notice_id": "TV_148647.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_148647.001/club-dorothee-programme-du-15-octobre-1995?rang=55",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:38:45.089139",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -25,5 +25,8 @@
     "Popples : le bowling"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.330693",
-  "normalized_at": "2026-11-17T07:00:10.823534"
+  "normalized_at": "2026-11-18T21:59:46.640001",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

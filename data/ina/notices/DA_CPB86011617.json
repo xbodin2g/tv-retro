@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011617",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011617/recre-a2-emission-du-3-octobre-1986?rang=129",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:16:02.097605",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Marie et Charlotte présentent l'émission composée de \"Mes mains ont la parole\", \"Quick et flupke\" et \"She-ra\"."
   ],
-  "elements": [
-    "Marie et Charlotte présentent l'émission composée de \"Mes mains ont la parole\", \"Quick et flupke\" et \"She-ra\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.437295"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.512276",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

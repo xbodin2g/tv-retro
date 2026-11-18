@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006490",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006490/giga-emission-du-9-juin-1993?rang=219",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:26.940601",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,12 @@
     "SECONDE B : série française."
   ],
   "elements": [
-    "Emission présentée par Mauel GELIN et Clémentine CARTIER et articulée de la façon suivante",
     "QUOI DE NEUF DOCTEUR : série américaine",
     "LA FETE A LA MAISON : série américaine",
     "SECONDE B : série française"
   ],
-  "normalized_at": "2026-11-17T07:00:10.535126"
+  "normalized_at": "2026-11-18T21:59:46.394959",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

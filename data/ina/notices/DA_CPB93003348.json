@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003348",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003348/giga-emission-du-8-mars-1993?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:02.381206",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,12 @@
   ],
   "elements": [
     "QUOI DE NEUF DOCTEUR (série, achat)",
-    "sur ce que les jeunes hommes aiment chez les femmes",
     "HAPPY DAYS (série, achat)",
     "LA FETE A LA MAISON (série, achat)",
     "MAJOR DAD (série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.466466"
+  "normalized_at": "2026-11-18T21:59:46.342053",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005861",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005861/giga-emission-du-14-juin-1990?rang=18",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:45.183025",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,10 +16,9 @@
     "Reportage sur le métier de soigneur réalisé à Thoiry. Essentiel dans la vie d'un zoo. Ce métier exige une grande disponibilité.",
     "INFOS : une nouvelle BD\" le Non Sens de la Vie \". Un nouveau spectacle\" la Cigale et la Fourmi \"au théâtre du Lucernaire."
   ],
-  "elements": [
-    "Au sommaire de ce numéro de Giga \"Un Toit Pour Deux\" (achat) et les Années College \"(achat)",
-    "Reportage sur le métier de soigneur réalisé à Thoiry. Essentiel dans la vie d'un zoo. Ce métier exige une grande disponibilité",
-    "INFOS : une nouvelle BD\" le Non Sens de la Vie \". Un nouveau spectacle\" la Cigale et la Fourmi \"au théâtre du Lucernaire"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.513633"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.570706",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

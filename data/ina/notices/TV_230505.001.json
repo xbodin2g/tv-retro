@@ -2,7 +2,7 @@
   "notice_id": "TV_230505.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_230505.001/club-dorothee-programme-du-8-fevrier-1996?rang=144",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:25:00.247421",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Le monde de Dave"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.391033",
-  "normalized_at": "2026-11-17T07:00:10.931181"
+  "normalized_at": "2026-11-18T21:59:46.726805",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

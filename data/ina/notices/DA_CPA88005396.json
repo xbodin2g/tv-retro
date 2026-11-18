@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88005396",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88005396/club-dorothee-emission-du-2-mai-1988?rang=122",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:11:22.257037",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,10 +18,12 @@
     "JEM : RETOUR AU PAYS."
   ],
   "elements": [
-    "Dorothée, ARIAN, Patrick, Jacky et CORBIER lisent les dédicaces des jeunes téléspectateurs, présentent le jeu de \"l'ABC\" et lancent les dessins animés",
     "Candy : UN MERVEILLEUX BAL",
     "SPIELVAN : LE ROCK DE L'ENFER",
     "JEM : RETOUR AU PAYS"
   ],
-  "normalized_at": "2026-11-17T07:00:08.030378"
+  "normalized_at": "2026-11-18T21:59:44.129466",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

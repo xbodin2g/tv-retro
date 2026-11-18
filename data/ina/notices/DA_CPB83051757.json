@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051757",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051757/recre-a2-emission-du-14-mai-1983?rang=184",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:48:20.272401",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Latulu et Lireli",
     "Les croque-monstres"
   ],
-  "normalized_at": "2026-11-17T07:00:09.015951"
+  "normalized_at": "2026-11-18T21:59:45.038283",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

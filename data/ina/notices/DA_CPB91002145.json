@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002145",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002145/recre-a2-emission-du-28-avril-1983?rang=230",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:47:18.850441",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Candy",
     "Les trois questions"
   ],
-  "normalized_at": "2026-11-17T07:00:09.944714"
+  "normalized_at": "2026-11-18T21:59:45.935850",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

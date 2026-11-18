@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011005",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011005/giga-emission-du-14-aout-1991?rang=92",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:16:53.937831",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,11 @@
   ],
   "elements": [
     "Au sommaire de ce numéro",
-    "<2CV CROSS> : Reportage sur une course de \"2CV\" bricolées à Berck Plage. Première diffusion le 23 août 1990",
     "SERIE GIGA/ QUOI DE NEUF DOCTEUR (achat)",
-    "LE HIT NRJ SUR A2",
-    "Reportage sur la championne de voltige aérienne, Catherine MAUNOURY. Première diffusion le 2 août 1990",
-    "Reportage consacré à l'utilisation d'un cheval pour tracter une aile delta et à un interview de son promoteur. Première diffusion le 2 août 1990",
-    "Reportage consacré à l'apprentissage du vol à voile par des adolescents. Rediffusion"
+    "LE HIT NRJ SUR A2"
   ],
-  "normalized_at": "2026-11-17T07:00:10.101996"
+  "normalized_at": "2026-11-18T21:59:46.072075",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

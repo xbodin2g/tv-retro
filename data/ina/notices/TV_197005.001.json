@@ -2,7 +2,7 @@
   "notice_id": "TV_197005.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_197005.001/club-dorothee-noel-programme-du-24-decembre-1995?rang=327",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:49:34.187418",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -25,5 +25,8 @@
     "66 Chump Avenue"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.370224",
-  "normalized_at": "2026-11-17T07:00:10.896232"
+  "normalized_at": "2026-11-18T21:59:46.697210",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

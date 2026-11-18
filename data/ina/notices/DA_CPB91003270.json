@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003270",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003270/recre-a2-emission-du-24-mai-1984?rang=489",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:09:07.428997",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Latuli et lireli",
     "Albator 84"
   ],
-  "normalized_at": "2026-11-17T07:00:09.966336"
+  "normalized_at": "2026-11-18T21:59:45.963929",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011049",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011049/giga-emission-du-22-aout-1991?rang=214",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:17:17.252806",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion de la série américaine \"Quoi de neuf docteur\". RD d'un reportage sur l'élevage de bisons en Normandie."
   ],
-  "elements": [
-    "Diffusion de la série américaine \"Quoi de neuf docteur\". RD d'un reportage sur l'élevage de bisons en Normandie"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.105889"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.075184",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

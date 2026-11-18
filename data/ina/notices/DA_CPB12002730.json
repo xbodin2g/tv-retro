@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002730",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002730/recre-a2-emission-du-21-decembre-1979?rang=298",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:23:14.757449",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Lippy the lion and Hardy Har Har",
     "Le Prince et le pauvre"
   ],
-  "normalized_at": "2026-11-17T07:00:08.521530"
+  "normalized_at": "2026-11-18T21:59:44.636230",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

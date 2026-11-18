@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004168",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004168/giga-emission-du-30-mars-1993?rang=126",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:01.155988",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,9 +23,9 @@
     ". Interview de Clint EASTWOOD, qui vient de recevoir l'oscar du meilleur film pour \"Impitoyable\". Il parle (vo traduction off) de son enfance, de son caractère (introverti). Bande-annonce de \"Impitoyable\".",
     "."
   ],
-  "elements": [
-    "Manuel GELIN présente l'émission avec Clémentine",
-    "Des adolescents parlent des amis-confidents et de leur rôle"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.480487"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.351670",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

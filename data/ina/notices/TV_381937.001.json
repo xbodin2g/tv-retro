@@ -2,7 +2,7 @@
   "notice_id": "TV_381937.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_381937.001/club-dorothee-vacances-programme-du-17-aout-1996?rang=273",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:36:29.634227",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -24,5 +24,8 @@
     "Mask"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.516560",
-  "normalized_at": "2026-11-17T07:00:11.099168"
+  "normalized_at": "2026-11-18T21:59:46.872826",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

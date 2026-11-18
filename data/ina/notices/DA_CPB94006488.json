@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006488",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006488/giga-emission-du-28-juillet-1994?rang=126",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:01.123033",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "L'émission, sans plateau, propose",
     "Deux séries : \"GOAL\" et \"Génération musique\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.719994"
+  "normalized_at": "2026-11-18T21:59:46.545972",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

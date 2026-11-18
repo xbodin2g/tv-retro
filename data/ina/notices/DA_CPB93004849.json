@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004849",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004849/giga-emission-du-15-avril-1993?rang=81",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:49.279585",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,11 +23,13 @@
     "Plateau, Thierry JOLY alias Docteur GIGA répond aux questions des jeunes téléspectateurs sur l'utilisation des préservatifs, l'éjaculation précoce, la spasmophilie, la dyslexie et comment devient-on pédiatre."
   ],
   "elements": [
-    "Manuel GELIN anime le plateau de GIGA et lance les séries",
     "LA FETE A LA MAISON (ACHAT)",
     "HAPPY DAYS (ACHAT)",
     "QUOI DE NEUF DOCTEUR (ACHAT)",
     "MAJOR DAD (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.497788"
+  "normalized_at": "2026-11-18T21:59:46.363896",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

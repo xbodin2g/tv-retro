@@ -2,7 +2,7 @@
   "notice_id": "TV_31655.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_31655.001/club-dorothee-vacances-programme-du-9-mars-1995?rang=389",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:18:01.405254",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -31,11 +31,13 @@
   "elements": [
     "[Plateau",
     "Sailor Moon : Premier amour",
-    "Dragon Ball Z : un championnat qui s'annonce mal",
     "Jeanne et Serge : un choix difficile",
     "Nick Larson",
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.477758",
-  "normalized_at": "2026-11-17T07:00:11.034435"
+  "normalized_at": "2026-11-18T21:59:46.816656",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

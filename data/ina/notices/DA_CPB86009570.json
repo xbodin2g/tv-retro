@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009570",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009570/recre-a2-emission-du-23-juillet-1986?rang=380",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:07.285922",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -22,5 +22,8 @@
     "Bibifoc",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.394603"
+  "normalized_at": "2026-11-18T21:59:45.475657",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

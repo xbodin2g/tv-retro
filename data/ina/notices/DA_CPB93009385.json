@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009385",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009385/giga-emission-du-8-septembre-1993?rang=182",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:28:15.409416",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Reportage : depuis les objets trouvés KARL ZERO présente son film\"Le tronc \", dans lequel il dit régler des comptes de façon sympathique. Il cherche des producteurs pour les films suivants..."
   ],
   "elements": [
-    "Au sommaire de ce Giga",
-    "Les séries : \"La fête à la maison\", \"TV 101 \" et\"Le prince de Bel Air \" (achats)"
+    "Au sommaire de ce Giga"
   ],
-  "normalized_at": "2026-11-17T07:00:10.594848"
+  "normalized_at": "2026-11-18T21:59:46.441876",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_461355.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_461355.001/club-dorothee-programme-du-3-decembre-1996?rang=116",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:41:06.307166",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Salut les Musclés : c'est le flash"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.567800",
-  "normalized_at": "2026-11-17T07:00:11.187090"
+  "normalized_at": "2026-11-18T21:59:46.947267",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

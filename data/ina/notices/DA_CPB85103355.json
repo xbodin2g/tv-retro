@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85103355",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85103355/recre-a2-emission-du-17-octobre-1985?rang=338",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:34.202813",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,11 +32,13 @@
     "SUPER DOC : JEU DE MAINS (1)",
     "Mes mains ont la parole",
     "Latulu et Lireli",
-    "Corbier chante un extrait de \"Il fait trop chaud pour travailler\"",
     "TERRE DES BETES",
     "BIBIFOC : LA RADIO",
     "Les mondes engloutis",
     "LES AVENTURES DE Mr DEMO"
   ],
-  "normalized_at": "2026-11-17T07:00:09.217098"
+  "normalized_at": "2026-11-18T21:59:45.299954",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

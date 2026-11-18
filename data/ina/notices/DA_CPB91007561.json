@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007561",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007561/giga-emission-du-4-avril-1991?rang=13",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:11:12.013069",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "SERIES GIGA : La fête à la maison et Quoi de neuf docteur",
     "Bande-annonce de la tournée de UB40"
   ],
-  "normalized_at": "2026-11-17T07:00:10.033998"
+  "normalized_at": "2026-11-18T21:59:46.020153",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

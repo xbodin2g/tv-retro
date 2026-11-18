@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79055026",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79055026/recre-a2-emission-du-02-mai-1979?rang=372",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:11:51.158621",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -44,23 +44,22 @@
     "Plateau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, Classical Mechanics chantent \"Woman on ice\"",
     "Mini histoires",
     "La Panthère rose",
     "Direct",
     "A2000",
-    "Discobus : Plateau Ariane Gil, P. CHATEL chante : \"ma lycéenne\"",
     "Flash Récré A2",
     "Maraboud'ficelle",
     "Bus parade : Plateau Ariane Gil",
     "Il court, il court, le courrier",
-    "Discobus : Plateau Ariane Gil, P. CHATEL chante : \"papa donne moi du courage\"",
     "La Caverne d'Abracadabra",
-    "Discobus : Plateau Ariane Gil, F. MOREAU et F. IMBERT : \"petite cousine nougatine\"",
     "Quartier de la mandarine",
     "Discorébus",
     "Mio and Mao",
     "La fée raconte"
   ],
-  "normalized_at": "2026-11-17T07:00:08.691158"
+  "normalized_at": "2026-11-18T21:59:44.782945",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

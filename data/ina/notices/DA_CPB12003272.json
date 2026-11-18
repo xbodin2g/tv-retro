@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003272/recre-a2-emission-du-04-novembre-1980?rang=97",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:32:35.142355",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,12 +25,14 @@
     "Plateau Alain et Zabou"
   ],
   "elements": [
-    "La cuisine sans maman : Alain et Zabou propose la recette du \"Cocktail esquimeau\"",
     "Les aventures électrique de Zeltron",
     "les voyages de tortillard",
     "Mes mains ont la parole",
     "C'est chouette",
     "Je veux être toi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.551885"
+  "normalized_at": "2026-11-18T21:59:44.668957",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

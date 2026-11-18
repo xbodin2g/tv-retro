@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003656",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003656/giga-emission-du-9-mai-1994?rang=118",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:49:57.247086",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,5 +24,8 @@
     "\"Les premières fois : 85 bonnet A \"(achat)",
     "\"Les années collège : examens de passage\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.700234"
+  "normalized_at": "2026-11-18T21:59:46.528194",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

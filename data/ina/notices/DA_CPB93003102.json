@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003102",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003102/giga-emission-du-26-fevrier-1993?rang=100",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:18:40.470422",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,9 +17,10 @@
     "SERIE : \"Major Dad : l'enfant des années soixante \".( Achat)."
   ],
   "elements": [
-    "Au sommaire de l'émission",
-    "SERIE : \"quoi de neuf docteur : sois prof et tais toi \". (achat)",
-    "SERIE : \"Major Dad : l'enfant des années soixante \".( Achat)"
+    "Au sommaire de l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.459956"
+  "normalized_at": "2026-11-18T21:59:46.337339",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

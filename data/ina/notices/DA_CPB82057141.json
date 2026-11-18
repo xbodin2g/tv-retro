@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82057141",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82057141/recre-a2-emission-du-14-septembre-1982?rang=222",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:17:00.687743",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "C'est chouette",
     "Drôles d'enfants"
   ],
-  "normalized_at": "2026-11-17T07:00:08.979629"
+  "normalized_at": "2026-11-18T21:59:45.008377",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

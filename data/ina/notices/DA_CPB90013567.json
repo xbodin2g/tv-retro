@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013567",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013567/recre-a2-emission-du-07-janvier-1980?rang=157",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:16:31.064451",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Félix le Chat",
     "Albator (1)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.739478"
+  "normalized_at": "2026-11-18T21:59:45.762994",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012190",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012190/recre-a2-emission-du-1er-septembre-1978?rang=50",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:21:23.314983",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "La grotte aux fées",
     "Entre les lignes"
   ],
-  "normalized_at": "2026-11-17T07:00:09.640447"
+  "normalized_at": "2026-11-18T21:59:45.669629",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

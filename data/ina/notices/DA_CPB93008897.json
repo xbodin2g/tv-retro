@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008897",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008897/giga-emission-du-16-aout-1993?rang=162",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:43.177306",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "SERIES (Achats): Happy days : \"Hollywood\" (1ère partie). Le prince de Bel-Air : \"Méfiez-vous des apparences\". Major Dad : \"Concours du soir, espoir\"."
   ],
   "elements": [
-    "AUCUN REPORTAGE",
-    "SERIES (Achats): Happy days : \"Hollywood\" (1ère partie). Le prince de Bel-Air : \"Méfiez-vous des apparences\". Major Dad : \"Concours du soir, espoir\""
+    "AUCUN REPORTAGE"
   ],
-  "normalized_at": "2026-11-17T07:00:10.586296"
+  "normalized_at": "2026-11-18T21:59:46.434526",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

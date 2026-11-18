@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052073",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052073/recre-a2-emission-du-05-aout-1983?rang=482",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:33.699679",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -21,8 +21,10 @@
   ],
   "elements": [
     "Quac Quao",
-    "Latulu et lireli : Le chateau des enfants volés de Maria Gripe",
     "Zora la rousse"
   ],
-  "normalized_at": "2026-11-17T07:00:09.026059"
+  "normalized_at": "2026-11-18T21:59:45.046796",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013011",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013011/recre-a2-emission-du-19-juillet-1979?rang=161",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:15:59.922655",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "Candy",
     "Robonics"
   ],
-  "normalized_at": "2026-11-17T07:00:09.704178"
+  "normalized_at": "2026-11-18T21:59:45.727160",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

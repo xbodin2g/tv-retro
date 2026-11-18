@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000848",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000848/giga-emission-du-31-janvier-1992?rang=54",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:44.442218",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,11 +19,9 @@
     "SERIE GIGA : Sauvé par le gong (n° 22) .",
     "REPORTAGE : Le Salon des Collectionneurs avec une interview de Me FILLIOU-WAGNER qui collectionne les poupées anciennes, Jean-François BOURBIGOT qui amasse les aspirateurs, Yves LEVASSEUR qui reconstitue des boutiques de commerces et d'artisans de 1900 à 1940 et Carmen INFANTE qui s'entoure de robes de mariées."
   ],
-  "elements": [
-    "REPORTAGE : (Document Polygram vidéo) \"Un tour du monde en 80 jours\" avec Antoine qui se trouve en Californie au terme de son voyage",
-    "SERIE GIGA : Sois prof et tais-toi.(N° 30 )",
-    "REPORTAGE : interview de Oliver STONE qui présente son film \"JFK\" illustré par de nombreux extraits",
-    "SERIE GIGA : Sauvé par le gong (n° 22)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.211300"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.154284",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

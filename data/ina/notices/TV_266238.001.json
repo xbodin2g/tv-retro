@@ -2,7 +2,7 @@
   "notice_id": "TV_266238.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_266238.001/club-dorothee-vacances-programme-du-9-mars-1996?rang=399",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:28:27.692839",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -25,5 +25,8 @@
     "Mask"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.415053",
-  "normalized_at": "2026-11-17T07:00:10.971489"
+  "normalized_at": "2026-11-18T21:59:46.760561",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8105599001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8105599001/recre-a2-emission-du-11-fevrier-1981?rang=372",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:41:00.738489",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,14 +38,12 @@
   ],
   "elements": [
     "Les Paladins de France",
-    "Discorébus : M. MARIE chante \"aux marches du palais\"",
     "Félix le chat",
     "DOROTHEE chante \"Récré A2\" en costume",
     "Maraboud'ficelle",
     "Zeltron",
     "Les blancs jouent et gagnent",
     "Casper et ses amis",
-    "Les contrepétries : R. BEAUVAIS initie le jeune public de Récré A2 a l'art de la contrepèterie",
     "Candy",
     "DOROTHEE chante \"çà va chanter c'est la récré\"",
     "La Panthère rose",
@@ -54,5 +52,8 @@
     "Echecs et mat",
     "Boule et Bill"
   ],
-  "normalized_at": "2026-11-17T07:00:08.847414"
+  "normalized_at": "2026-11-18T21:59:44.910824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

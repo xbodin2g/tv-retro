@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006063",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006063/giga-emission-du-5-juillet-1994?rang=10",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:51:54.126027",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au programme de Giga, la rediffusion d'un épisode de la série \"Goal\" : \"Sukiyaki\"."
   ],
-  "elements": [
-    "Au programme de Giga, la rediffusion d'un épisode de la série \"Goal\" : \"Sukiyaki\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.715231"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.541391",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

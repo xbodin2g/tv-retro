@@ -2,7 +2,7 @@
   "notice_id": "TV_47913.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_47913.001/club-dorothee-programme-du-13-avril-1995?rang=83",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:21:26.001943",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Arnold et Willy : l'enlèvement"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.582668",
-  "normalized_at": "2026-11-17T07:00:11.211626"
+  "normalized_at": "2026-11-18T21:59:46.967113",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91006364",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91006364/recre-a2-emission-du-19-decembre-1986?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:17:00.048472",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -15,8 +15,9 @@
     "Emission regroupant les séries \"Mimi CRACRA\", \"Lire lire lire\", \"mes mains ont la parole\" ainsi qu'une petite séquence humoristique de tricheurs au poker.",
     "Diffusion des dessins animés \"Shera, princesse du pouvoir\" et \"Quick et flupke\" -achats-."
   ],
-  "elements": [
-    "Diffusion des dessins animés \"Shera, princesse du pouvoir\" et \"Quick et flupke\" -achats"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.010769"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.003207",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

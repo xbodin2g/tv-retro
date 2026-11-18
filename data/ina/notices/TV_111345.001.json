@@ -2,7 +2,7 @@
   "notice_id": "TV_111345.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_111345.001/club-dorothee-vacances-programme-du-20-aout-1995?rang=341",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:33:05.434639",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,8 @@
     "Les Minipouss"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.295543",
-  "normalized_at": "2026-11-17T07:00:10.760204"
+  "normalized_at": "2026-11-18T21:59:46.585065",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050049",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050049/recre-a2-emission-du-17-fevrier-1982?rang=342",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:03:55.029592",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -47,13 +47,11 @@
     "Mio and Mao",
     "Wattoo Wattoo",
     "Goldorak",
-    "Discorébus : N. PEREIRA chante : \"maculele maculala \"",
     "Les aventures d'une souris sur Mars",
     "Le petit écho de la forêt",
     "Discopuce",
     "Méthanie",
     "Chronos",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine : \"SOS DOROTHEE\"",
     "Bouquin Bouquine",
     "Les môts croisés de Jean Lacroix",
     "Zeltron",
@@ -61,5 +59,8 @@
     "Candy",
     "Dorothée chante \"Viens, viens t'amuser\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.852634"
+  "normalized_at": "2026-11-18T21:59:44.915173",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

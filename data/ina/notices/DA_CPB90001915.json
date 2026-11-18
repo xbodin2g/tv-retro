@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001915",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001915/giga-emission-du-19-fevrier-1990?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:05.219731",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,12 +23,10 @@
     "LA FETE A LA MAISON (un peu de tendresse, série américaine)."
   ],
   "elements": [
-    "Emission quotidienne du lundi au vendredi, le magazine \"Giga\" s'adresse aux adolescents",
-    "Au sommaire de ce premier numéro de GIGA",
-    "QUOI DE NEUF DOCTEUR (un nouveau job pour Mike, série américaine)",
-    "De brèves images des différents secteurs de la Cité des Sciences de La Villette pour évoquer off la collaboration entre cet organisme et l'émission",
-    "Un reportage américain consacré aux jeux entre des adolescents et des dauphins dans un parc de Floride",
-    "LA FETE A LA MAISON (un peu de tendresse, série américaine)"
+    "Au sommaire de ce premier numéro de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:09.447122"
+  "normalized_at": "2026-11-18T21:59:45.520221",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

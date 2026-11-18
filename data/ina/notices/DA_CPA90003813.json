@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90003813",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90003813/club-dorothee-emission-du-2-mai-1990?rang=176",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:49:17.491871",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "La présentation de l'après-midi est effectuée par Les Forbans et DOROTHEE accompagnée de son équipe habituelle."
   ],
-  "elements": [
-    "La présentation de l'après-midi est effectuée par Les Forbans et DOROTHEE accompagnée de son équipe habituelle"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.387307"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.506824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

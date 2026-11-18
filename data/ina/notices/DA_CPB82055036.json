@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055036",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055036/recre-a2-emission-du-30-septembre-1982?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:18:21.012053",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Mariolino",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.947219"
+  "normalized_at": "2026-11-18T21:59:44.989434",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

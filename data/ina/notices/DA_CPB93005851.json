@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005851",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005851/giga-emission-du-10-mai-1993?rang=192",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:20.057207",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,11 @@
     "."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine présentent l'émission depuis \"la cafétéria\"",
     "(achat)",
-    "Sur le plateau, réactions des jeunes après ce reportage",
     "Thierry JOLY, pédiatre, répond aux questions par téléphone"
   ],
-  "normalized_at": "2026-11-17T07:00:10.517780"
+  "normalized_at": "2026-11-18T21:59:46.381276",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

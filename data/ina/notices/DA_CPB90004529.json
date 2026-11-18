@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004529",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004529/giga-emission-du-18-mai-1990?rang=16",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:12.069446",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   "elements": [
     "Au sommaire de ce numéro",
     "SERIE GIGA : Un toit pour dix (achat),",
-    "HISTOIRES D'EN PARLER (j'te crois, j'te crois pas),",
-    "SERIE GIGA : les années collège (personne n'est parfait)"
+    "HISTOIRES D'EN PARLER (j'te crois, j'te crois pas),"
   ],
-  "normalized_at": "2026-11-17T07:00:09.501598"
+  "normalized_at": "2026-11-18T21:59:45.561664",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

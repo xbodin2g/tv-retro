@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012077",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012077/giga-emission-du-4-octobre-1991?rang=159",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:19:36.169893",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,9 +16,9 @@
     "En voix off le journaliste propose ensuite de découvrir une sélection de nouveautés.",
     "En fin d'émission un grand concours NBC/A2 est proposé avec deux questions sur la série \"Sauvés par le gong\"."
   ],
-  "elements": [
-    "En voix off le journaliste propose ensuite de découvrir une sélection de nouveautés",
-    "En fin d'émission un grand concours NBC/A2 est proposé avec deux questions sur la série \"Sauvés par le gong\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.130266"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.094206",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

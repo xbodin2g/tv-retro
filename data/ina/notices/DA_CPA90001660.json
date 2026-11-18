@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001660",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001660/club-dorothee-emission-du-28-fevrier-1990?rang=169",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:44:56.487676",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,9 +18,10 @@
     "Dessins animés et séries : \"Cap danger\", \"Wing man\", \"Dragon ball\", \"College fou fou fou\", \"les chevaliers du zodiaque\" et \"Ken le survivant\" (achats)."
   ],
   "elements": [
-    "Jeux habituels : Le mot mystérieux, le jeu des soleils, le jeu de l'ABC",
-    "Vidéoclip : Ariane chante \"Dragon Ball\"",
-    "Dessins animés et séries : \"Cap danger\", \"Wing man\", \"Dragon ball\", \"College fou fou fou\", \"les chevaliers du zodiaque\" et \"Ken le survivant\" (achats)"
+    "Vidéoclip : Ariane chante \"Dragon Ball\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.360641"
+  "normalized_at": "2026-11-18T21:59:44.482370",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009469",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009469/giga-emission-du-18-octobre-1990?rang=133",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:56:32.689386",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "REPORTAGE/LES CREATEURS AFRICAINS : A l'occasion d'un défilé de mode patronné par Air Afrique, Yves ROLLAND BILLECART, PDG de la compagnie, évoque les espoirs placés dans cette manifestation. De jeunes stylistes africains parlent de leur spécificité, des problèmes des créateurs en Afrique, de l'influence de leur continent d'origine sur leur style, de l'apport de l'Europe."
   ],
   "elements": [
-    "Au sommaire de ce numéro",
-    "INFOS GIGA : Bande-annonce de la tournée de Dépêche Mode",
-    "SERIE GIGA : Larry et Balki (à toute vitesse, achat)"
+    "Au sommaire de ce numéro"
   ],
-  "normalized_at": "2026-11-17T07:00:09.593087"
+  "normalized_at": "2026-11-18T21:59:45.630425",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

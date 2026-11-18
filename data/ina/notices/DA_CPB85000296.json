@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85000296",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85000296/recre-a2-emission-du-7-aout-1985?rang=297",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:40:48.388166",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Dorothée chante \"C'est dur de travailler\" clip",
     "Les mystérieuses cités d'or"
   ],
-  "normalized_at": "2026-11-17T07:00:09.144642"
+  "normalized_at": "2026-11-18T21:59:45.206255",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

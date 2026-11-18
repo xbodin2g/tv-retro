@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008519",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008519/giga-emission-du-10-octobre-1990?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:48.858779",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,8 @@
   "elements": [
     "Diffusion de la série Larry et Balki"
   ],
-  "normalized_at": "2026-11-17T07:00:09.586743"
+  "normalized_at": "2026-11-18T21:59:45.625892",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

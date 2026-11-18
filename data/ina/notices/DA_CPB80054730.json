@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80054730",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80054730/recre-a2-emission-du-05-mars-1980?rang=345",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:19:36.085112",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -32,7 +32,6 @@
     "Plateau fin"
   ],
   "elements": [
-    "DOROTHEE déguisée en olive, assure les enchaînements sur le thème des aventures de popeye et olive",
     "Popeye",
     "Discorébus : J. MARTIN chante \"le pompier\"",
     "Les Bubblies",
@@ -40,5 +39,8 @@
     "Zeltron",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:08.755425"
+  "normalized_at": "2026-11-18T21:59:44.833434",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

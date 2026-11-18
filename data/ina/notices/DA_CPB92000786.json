@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000786",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000786/giga-emission-du-21-janvier-1992?rang=183",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:13.326589",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "REPORTAGE : Extrait de la vidéo\"le Tour du monde en quatre-vingt jours \" du chanteur Antoine : Séquence 12. Bornéo (VA fleuve ; danses traditionnelles ; centre de rééducation des orang-outang)."
   ],
   "elements": [
-    "SERIE : \"Sois prof et tais-toi\" (Big Squeeze), \"Sauvés par le gong\" (jalousie \"",
     "QUIZACO (Jeu)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.203861"
+  "normalized_at": "2026-11-18T21:59:46.148581",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

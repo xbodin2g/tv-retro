@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012148",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012148/recre-a2-emission-du-16-aout-1978?rang=65",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:20:45.718030",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,5 +18,8 @@
   "elements": [
     "Disney greatest dog stars"
   ],
-  "normalized_at": "2026-11-17T07:00:09.637083"
+  "normalized_at": "2026-11-18T21:59:45.666069",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

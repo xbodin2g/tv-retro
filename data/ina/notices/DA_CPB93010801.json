@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010801",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010801/giga-emission-du-28-octobre-1993?rang=52",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:30:43.744545",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Trois séries au sommaire de ce numéro",
-    "L'ANNEXE : A chef, chef ennemi",
-    "SAUVES PAR LE GONG et SOIS PROF ET TAIS TOI (Achats)"
+    "L'ANNEXE : A chef, chef ennemi"
   ],
-  "normalized_at": "2026-11-17T07:00:10.622173"
+  "normalized_at": "2026-11-18T21:59:46.463991",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

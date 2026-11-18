@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84054902",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84054902/recre-a2-emission-du-25-octobre-1984?rang=321",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:15:09.422181",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Latulu et Lireli",
     "Contes et légendes du monde"
   ],
-  "normalized_at": "2026-11-17T07:00:09.123610"
+  "normalized_at": "2026-11-18T21:59:45.166982",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

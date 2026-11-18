@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002055",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002055/recre-a2-emission-du-26-juillet-1982?rang=343",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:12:41.537703",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -24,5 +24,8 @@
     "Balour et Balu",
     "Casper et ses amis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.940842"
+  "normalized_at": "2026-11-18T21:59:45.932260",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

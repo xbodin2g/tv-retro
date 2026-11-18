@@ -2,7 +2,7 @@
   "notice_id": "TV_699787.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_699787.001/tf-jeunesse-programme-du-31-octobre-1997?rang=91",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:39:15.518843",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -18,9 +18,11 @@
     "[Présentation : 2ème partie]"
   ],
   "elements": [
-    "[Présentation",
     "Les aventures de Madison",
     "Salut les toons"
   ],
-  "normalized_at": "2026-11-17T07:00:11.461395"
+  "normalized_at": "2026-11-18T21:59:47.167689",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

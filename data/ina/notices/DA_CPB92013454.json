@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92013454",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92013454/giga-emission-du-5-novembre-1992?rang=158",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:40:16.617509",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,10 +22,12 @@
   ],
   "elements": [
     "Au sommaire de ce Giga",
-    "Giga au pays du Cartoon : quelques images de l'exposition consacrée à Tex AVERY",
     "Feuilleton : Le Lycée alpin",
     "Jeu du Quizako",
     "Série : \"La fête à la maison\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.382763"
+  "normalized_at": "2026-11-18T21:59:46.281569",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

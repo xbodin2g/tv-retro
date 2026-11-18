@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905557601",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905557601/recre-a2-emission-du-14-novembre-1979?rang=342",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:21:31.869897",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,15 +36,12 @@
     "Plateau fin"
   ],
   "elements": [
-    "Éric et Claude, élèves de l'école d'Annie FRATELLINI, exécutent des cascades comiques",
     "Maraboud'ficelle",
     "Numéros de la jongleuse Luce",
     "La Panthère rose",
-    "J. LACROIX spécialiste en anagrammes présente le jeu des anagrammes des prénoms masculins",
     "Récré A2",
     "A2000",
     "Zeltron",
-    "Flash sport P. S JONES : Tir à l'arc",
     "Extrait Galactica",
     "Candy",
     "Anagrammes",
@@ -52,5 +49,8 @@
     "Wattoo Watoo",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.697557"
+  "normalized_at": "2026-11-18T21:59:44.788030",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

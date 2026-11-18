@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009587",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009587/giga-emission-du-4-juillet-1991?rang=27",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:15:03.611463",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,8 @@
   "elements": [
     "Reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.080582"
+  "normalized_at": "2026-11-18T21:59:46.054730",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

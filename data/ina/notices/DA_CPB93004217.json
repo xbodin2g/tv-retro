@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004217",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004217/giga-emission-du-26-mars-1993?rang=78",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:53.616825",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,9 @@
     "Le Dr Thierry JOLY, pédiatre, répond téléphoniquement à des jeunes qui ont des problèmes médicaux.",
     "SERIES (Achats): Quoi de neuf docteur ; Major Dad ; La fête à la maison : \"Nid de guèpes\"."
   ],
-  "elements": [
-    "Le Dr Thierry JOLY, pédiatre, répond téléphoniquement à des jeunes qui ont des problèmes médicaux",
-    "SERIES (Achats): Quoi de neuf docteur ; Major Dad ; La fête à la maison : \"Nid de guèpes\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.487129"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.356438",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

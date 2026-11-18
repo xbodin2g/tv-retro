@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80052468",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80052468/recre-a2-emission-du-12-novembre-1980?rang=365",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:33:02.832152",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,9 +39,7 @@
     "Discorébus : Ricet BARRIER chante \"monsieur melon\"",
     "Les Paladins de France",
     "Zeltron",
-    "Maraboud'ficelle : CABU présente plusieurs dessins consacres à la mer, aux croisières, aux îles, au naufrage du Titanic",
     "Extrait de \"Tusk\"",
-    "Anagrammes : Jean LACROIX présente des anagrammes \"marines\"",
     "Félix le chat",
     "Flash sport P. S JONES : La natation",
     "Candy",
@@ -51,5 +49,8 @@
     "La Panthère rose",
     "Maraboud'ficelle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.736634"
+  "normalized_at": "2026-11-18T21:59:44.819021",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

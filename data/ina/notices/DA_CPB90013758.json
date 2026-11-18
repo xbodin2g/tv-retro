@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013758",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013758/recre-a2-emission-du-11-fevrier-1980?rang=163",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:18:09.107333",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,8 +25,10 @@
   "elements": [
     "Émilie",
     "Mio and Mao",
-    "Le livre de la semaine : Croc-épic le mangeur de rêves (Casterman)",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:09.754663"
+  "normalized_at": "2026-11-18T21:59:45.775790",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

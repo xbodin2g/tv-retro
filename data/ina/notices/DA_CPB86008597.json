@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008597",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008597/recre-a2-emission-du-18-juin-1986?rang=411",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:57.398711",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -41,7 +41,6 @@
     "Heidi",
     "Mafalda",
     "Méthanie Ville",
-    "Latulu et lireli : Présentation de quelques livres pour enfants : \"Henri la souris\", \"Pincemi et Pincemoi\"",
     "Sindbad le Marin",
     "Le monde selon Georges",
     "Clip \"Le nez de Dorothée\" par Corbier",
@@ -50,5 +49,8 @@
     "X OR",
     "Clip Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:09.378486"
+  "normalized_at": "2026-11-18T21:59:45.461427",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

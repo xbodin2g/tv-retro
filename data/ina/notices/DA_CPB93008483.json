@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008483",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008483/giga-emission-du-6-aout-1993?rang=123",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:20.683682",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
   ],
   "elements": [
     "Cette émission d'été, sans plateau, comporte deux reportages",
-    "1er REPORTAGE",
-    "2ème REPORTAGE sur le cerf volant (déjà diffusé le 3/12/92). SERIES : \"Happy days : les mauvais garçons\" et \"Le Prince de Bel Air\" (achats)"
+    "1er REPORTAGE"
   ],
-  "normalized_at": "2026-11-17T07:00:10.580836"
+  "normalized_at": "2026-11-18T21:59:46.429165",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

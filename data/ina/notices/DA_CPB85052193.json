@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052193",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052193/recre-a2-emission-du-15-fevrier-1985?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:31:26.926767",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Les Maîtres de l'univers",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.184548"
+  "normalized_at": "2026-11-18T21:59:45.255053",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

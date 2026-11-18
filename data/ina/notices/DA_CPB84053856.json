@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053856",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053856/recre-a2-emission-du-11-juillet-1984?rang=271",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:11:33.066273",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,5 +19,8 @@
   "elements": [
     "Les mystérieuses cités d'or"
   ],
-  "normalized_at": "2026-11-17T07:00:09.110057"
+  "normalized_at": "2026-11-18T21:59:45.149716",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001994",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001994/recre-a2-emission-du-16-juillet-1982?rang=338",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:12:08.525774",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -18,5 +18,8 @@
   "elements": [
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:09.935911"
+  "normalized_at": "2026-11-18T21:59:45.928154",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

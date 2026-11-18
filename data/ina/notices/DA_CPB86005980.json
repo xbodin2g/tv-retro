@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005980",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005980/recre-a2-emission-du-13-mars-1986?rang=307",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:01:33.447211",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,12 +21,14 @@
     "Les mondes engloutis"
   ],
   "elements": [
-    "Emission présentée par Charlotte KADI et Hervé dans le cadre d'un pub Ecossais reconstitué",
     "Téléchat",
     "Image imagine",
     "Mes mains ont la parole",
     "Latulu et Lireli",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.304377"
+  "normalized_at": "2026-11-18T21:59:45.399542",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

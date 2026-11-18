@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87001478",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87001478/vitamine-emission-du-4-mars-1987?rang=3",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:51:52.832065",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -24,14 +24,9 @@
     "Cascades : Michel CARLIEZ descend sur le plateau par une corde suspendue au plafond tandis que Claude CARLIEZ explique le règlage d'une scène que l'on peut voir dans un extrait de reportage ; extrait du film de Gérard OURY \"LEVY et Goliath\" montrant une cascade à moto dans les escaliers de Montmartre puis Michel BOUJENAH dans une scène de combat utilisant les techniques du karaté",
     "Achats : DA \"Mon petit poney et ses amis\" (Les pièces magiques, 3ème partie) ; \"Les enfants Potatous\" (Le concours) ; \"Les snorkys\" ; \"Robotstory\" ; \"Jem\" (Le grand concert, 2ème partie)."
   ],
-  "elements": [
-    "Z'Animo : Frédéric LISAK parle équitation avec une jeune pratiquante, Géraldine",
-    "Look : Pascale propose une collection de vêtements de nuit pour traîner chez soi, variations sur tee-shirts, pyjamas ou caleçons et pantoufles",
-    "Dernière partie de \"Trans Chine Express\"",
-    "Si j'avais des ailes : Frédéric LISAK parle des abeilles",
-    "Cinéma : extrait du film américain \"A fond la Fac\"",
-    "Musik : Jacky présente le premier match des chansons concourant pour le \"3ème Festival de la Chanson pour Enfants à Cabourg\"",
-    "Look : Pascale présente la poupée qui parle en anglais et tête son biberon \"BABY talk\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.884306"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.020395",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

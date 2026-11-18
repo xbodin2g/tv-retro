@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80052082",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80052082/recre-a2-emission-du-26-mars-1980?rang=348",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:38.561065",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,7 +38,6 @@
     "Les Bubblies",
     "Maraboud'ficelle",
     "Extrait Asterix",
-    "Anagrammes : J. LACROIX en druide fait trouver des anagrammes avec des noms d'arbres",
     "Popeye",
     "La Panthère rose",
     "Anagrammes",
@@ -48,5 +47,8 @@
     "Albator",
     "Extrait Dumbo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.733171"
+  "normalized_at": "2026-11-18T21:59:44.816383",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

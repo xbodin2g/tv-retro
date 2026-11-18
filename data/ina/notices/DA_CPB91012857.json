@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012857",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012857/giga-emission-du-18-octobre-1991?rang=117",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:20:13.695277",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "SERIE : \"sauvés par le gong\", \"La fête à la maison\" (achats).",
     ": reportage sur le groupe anglais avec des extraits de leurs vidéoclips : \"chocolate cake \",\" fall at your feet \",\" into temptation \". Ils parlent (en anglais) des agréments et des inconvénients d'être ensemble et évoquent ce que fut leur adolescence : l'un rêvait d'être musicien, d'avoir une voiture de sport, l'autre fils de proviseur fut un adolescent très malheureux, le dernier jouait de la guitare dans les surprise-parties."
   ],
-  "elements": [
-    "SERIE : \"sauvés par le gong\", \"La fête à la maison\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.138613"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.100853",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002152",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002152/recre-a2-emission-du-30-avril-1983?rang=175",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:47:26.510663",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Latulu et Lireli",
     "Les croque-monstre"
   ],
-  "normalized_at": "2026-11-17T07:00:09.945238"
+  "normalized_at": "2026-11-18T21:59:45.936290",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

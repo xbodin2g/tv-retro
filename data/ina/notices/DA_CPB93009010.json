@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009010",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009010/giga-emission-du-24-aout-1993?rang=212",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:27:30.975417",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion de deux séries : \"Happy Days\" et \"Le Prince de Bel Air\" (achat). Pas de présentateur."
   ],
-  "elements": [
-    "Diffusion de deux séries : \"Happy Days\" et \"Le Prince de Bel Air\" (achat). Pas de présentateur"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.589700"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.437369",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

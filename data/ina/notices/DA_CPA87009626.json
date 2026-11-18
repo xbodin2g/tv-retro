@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009626",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009626/club-dorothee-emission-du-16-octobre-1987?rang=57",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:11:43.402274",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -15,8 +15,9 @@
     "Les animateurs font quelques pitreries et présentent les séquences de l'émission.",
     "Diffusion du dessin animé \"Clair de lune\" (achat)."
   ],
-  "elements": [
-    "Les animateurs font quelques pitreries et présentent les séquences de l'émission"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.939145"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.056880",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

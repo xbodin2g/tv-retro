@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011672",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011672/giga-emission-du-9-septembre-1991?rang=148",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:18:02.844465",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,9 +22,10 @@
   "elements": [
     "Au sommaire",
     "LES ANNEES COLLEGE (feuilleton américain)",
-    "SAUVES PAR LE GONG \"(feuilleton américain)",
-    "un reportage sur le vélo Solex considéré comme véhicule d'enduro ; avec interview des participants de la course",
-    "un reportage sur le groupe musical texan de passage à Paris ; avec interview des trois musiciens et extraits de concerts et de vidéoclips"
+    "SAUVES PAR LE GONG \"(feuilleton américain)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.113080"
+  "normalized_at": "2026-11-18T21:59:46.081625",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

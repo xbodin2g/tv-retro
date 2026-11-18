@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14002727",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14002727/recre-a2-emission-du-16-mai-1979?rang=373",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:12:55.802268",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,18 +46,15 @@
     "Plateau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, le groupe Trampoline interprète \"ombilic \"",
     "Mini histoires",
     "Direct Tour Eiffel",
     "La Panthère rose",
     "A2000",
-    "Discobus : Plateau Ariane Gil, Gilbert LAFFAILLE chante \"sac à dos et pataugas\"",
     "Flash Récré A2 à la Tour Eiffel",
     "Maraboud'ficelle",
     "Bus parade : Plateau Ariane Gil",
     "Il court, il court, le courrier",
     "Rêves pour un scénario",
-    "Discobus : Plateau Ariane Gil, Gilbert LAFFAILLE chante \"interrogations écrites\"",
     "La Caverne d'Abracadabra",
     "Reportage Tennis",
     "Discobus : Chanson les Quat'z amis",
@@ -66,5 +63,8 @@
     "Discorébus",
     "Les Bubblies"
   ],
-  "normalized_at": "2026-11-17T07:00:08.619633"
+  "normalized_at": "2026-11-18T21:59:44.727346",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

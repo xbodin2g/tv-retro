@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008000",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008000/recre-a2-emission-du-01-juin-1986?rang=253",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:07:51.643105",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,8 +23,6 @@
     "Les mondes engloutis"
   ],
   "elements": [
-    "CORBIER et Marie présentent l'émission perchés sur un décor de cocotier",
-    "CLIP : Dorothée et les Récréamis chantent \"Bon voyage Monsieur DUMOLLET\"",
     "L'école des fées",
     "Clémentine",
     "Mafalda",
@@ -33,5 +31,8 @@
     "L'ASSIETTE AU BEURRE",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.363173"
+  "normalized_at": "2026-11-18T21:59:45.448184",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

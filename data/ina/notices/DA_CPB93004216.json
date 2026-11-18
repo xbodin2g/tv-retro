@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004216",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004216/giga-emission-du-25-mars-1993?rang=229",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:50.418552",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     "SERIES : \"La fête à la maison\", \"Happy days\", \"Quoi de neuf docteur? \" , \"\"Major dad\"."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission en compagnie de Clémentine et du docteur Thierry JOLY",
-    "Interview du chanteur, extrait de clips",
-    "SERIES : \"La fête à la maison\", \"Happy days\", \"Quoi de neuf docteur? \" , \"\"Major dad\""
+    "Interview du chanteur, extrait de clips"
   ],
-  "normalized_at": "2026-11-17T07:00:10.486013"
+  "normalized_at": "2026-11-18T21:59:46.355538",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

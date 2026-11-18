@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003245",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003245/recre-a2-emission-du-26-septembre-1980?rang=212",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:29:56.286398",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Les Paladins de France",
     "Goldorak"
   ],
-  "normalized_at": "2026-11-17T07:00:08.547297"
+  "normalized_at": "2026-11-18T21:59:44.664788",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

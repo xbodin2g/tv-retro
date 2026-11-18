@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92017311",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017311/giga-emission-du-22-decembre-1992?rang=124",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:48.660965",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,11 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
-    "SERIE : \"La famille JACKSON : le rêve américain\"(achat)",
     "SERIE : \"un toit pour dix\" (achat)",
     "SERIE : \"MACGYVER le preux \"(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.408490"
+  "normalized_at": "2026-11-18T21:59:46.301209",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

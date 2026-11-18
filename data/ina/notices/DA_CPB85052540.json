@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052540",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052540/recre-a2-emission-du-07-juin-1985?rang=474",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:38:44.158351",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Les maîtres de l'univers",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.191760"
+  "normalized_at": "2026-11-18T21:59:45.262648",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

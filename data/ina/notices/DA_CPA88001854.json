@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001854",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001854/club-dorothee-vacances-emission-du-15-fevrier-1988?rang=324",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:06:25.639592",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Dans son chalet l'équipe de Dorothée prépare mardi gras et présente \"Gigi\" et un clip de Dorothée."
   ],
-  "elements": [
-    "Dans son chalet l'équipe de Dorothée prépare mardi gras et présente \"Gigi\" et un clip de Dorothée"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.994506"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.103145",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

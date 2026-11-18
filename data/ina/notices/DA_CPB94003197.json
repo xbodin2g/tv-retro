@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003197",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003197/giga-emission-du-20-avril-1994?rang=69",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:48:40.567999",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
   ],
   "elements": [
     "Diffusion dans Giga de",
-    "Seconde B : Tague mon coeur Jimmy (RD du 24 juin 1993, CPB93007250)",
     "LES ANNEES COLLEGE. Série, achat"
   ],
-  "normalized_at": "2026-11-17T07:00:10.694231"
+  "normalized_at": "2026-11-18T21:59:46.522999",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

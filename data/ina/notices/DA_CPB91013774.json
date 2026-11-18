@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013774",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013774/giga-emission-du-18-novembre-1991?rang=167",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:21:50.001454",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
     ": Entre des extraits de leur concert au Zénith, les trois membres du groupe MECANO se présentent et parlent de leur style, de leur nom, de leurs rapports, de leur dernier disque, de leur succès (4'07\")."
   ],
   "elements": [
-    "Au sommaire",
-    "SERIE GIGA/ QUOI DE NEUF DOCTEUR : Maman qui en dit trop (achat, 23'45 \")"
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:10.159748"
+  "normalized_at": "2026-11-18T21:59:46.116342",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

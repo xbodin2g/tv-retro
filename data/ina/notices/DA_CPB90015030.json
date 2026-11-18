@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90015030",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90015030/recre-a2-emission-du-04-septembre-1981?rang=175",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:51:40.082309",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Pinocchio",
     "Robonics"
   ],
-  "normalized_at": "2026-11-17T07:00:09.837651"
+  "normalized_at": "2026-11-18T21:59:45.847387",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

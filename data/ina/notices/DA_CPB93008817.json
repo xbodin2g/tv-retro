@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008817",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008817/recre-a2-emission-du-26-octobre-1981?rang=289",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:54:21.248324",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "Les Quat'z Amis",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:10.585054"
+  "normalized_at": "2026-11-18T21:59:46.433342",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

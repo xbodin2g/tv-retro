@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004532",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004532/giga-emission-du-23-mai-1990?rang=15",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:24.195205",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,11 @@
   "elements": [
     "Aujourd'hui dans Giga",
     "Un toit pour dix",
-    "Histoires d'en parler... Et les enfants vous diront merci",
     "Les années collège",
     "Quoi de neuf Docteur ?"
   ],
-  "normalized_at": "2026-11-17T07:00:09.503376"
+  "normalized_at": "2026-11-18T21:59:45.563140",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

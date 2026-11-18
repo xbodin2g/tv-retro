@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012106",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012106/recre-a2-emission-du-28-juillet-1978?rang=46",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:20:05.852187",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Entre les lignes",
     "Cet Après Midi...Marionettes"
   ],
-  "normalized_at": "2026-11-17T07:00:09.633095"
+  "normalized_at": "2026-11-18T21:59:45.661466",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

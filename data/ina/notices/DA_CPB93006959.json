@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006959",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006959/giga-emission-du-15-juin-1993?rang=142",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:42.041225",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,11 @@
     "SERIE : SECONDE B \"MOREAU proviseur\" (Réal Christophe GREGEOIS) Coproduction FLACH FILM France 2 1993."
   ],
   "elements": [
-    "Décor cafétéria, Manuel GELIN et Clémentine CARTIER présentent GIGA",
     "SERIE : Quoi de neuf docteur ? (ACHAT)",
-    "SERIE : La fête à la maison (ACHAT)",
-    "SERIE : SECONDE B \"MOREAU proviseur\" (Réal Christophe GREGEOIS) Coproduction FLACH FILM France 2 1993"
+    "SERIE : La fête à la maison (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.541601"
+  "normalized_at": "2026-11-18T21:59:46.399890",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

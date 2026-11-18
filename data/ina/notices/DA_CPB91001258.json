@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001258",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001258/recre-a2-emission-du-22-decembre-1982?rang=369",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:23:40.107587",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -30,5 +30,8 @@
     "La Panthère rose",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.903483"
+  "normalized_at": "2026-11-18T21:59:45.898987",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

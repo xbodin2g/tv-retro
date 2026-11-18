@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014287",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014287/giga-emission-du-12-novembre-1992?rang=130",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:40:32.821933",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,11 @@
     "LES ATHLETES AU SERVICE DE LA SCIENCE (Nadine KUHN). Différents chercheurs définissent le programme de recherche du CNRS sur les athlètes : Jean François MARINI (système neuro musculaire), Jean Yves NOGIEL (mesures amplitude foulées des coureeurs), Arnaud GUENEL, Philippe GERMAIN, le Dr Cervetti : mesurer les paramètres de la \"cylindré\" du sportif."
   ],
   "elements": [
-    "Diffusion des séries Le prince de Bel Air, Sauvés par le gong, et du Quizako",
     "Reportages",
     "LA CITE DES ETOILES (Silja TRAVERS)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.386355"
+  "normalized_at": "2026-11-18T21:59:46.284247",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

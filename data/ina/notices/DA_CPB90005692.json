@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005692",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005692/giga-emission-du-11-juin-1990?rang=17",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:34.843013",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     "FEUILLETONS : Un Toit Pour Dix, les Années Collège."
   ],
   "elements": [
-    "REPORTAGE : dans un appartement du 13ème que son propriétaire a transformé en mini jungle. Grenouilles et lézards se prélassent sur les tapis",
-    "A La Villette: exposition dinosaures",
-    "FEUILLETONS : Un Toit Pour Dix, les Années Collège"
+    "A La Villette: exposition dinosaures"
   ],
-  "normalized_at": "2026-11-17T07:00:09.505365"
+  "normalized_at": "2026-11-18T21:59:45.564798",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

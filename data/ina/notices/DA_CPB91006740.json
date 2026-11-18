@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91006740",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91006740/giga-emission-du-21-mars-1991?rang=50",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:30.811042",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,9 +25,10 @@
   ],
   "elements": [
     "Au sommaire de GIGA",
-    "Dessin animé (achat)",
-    "\"La fête à la maison\": l'île déserte (22'33, achat) / \"Quoi de neuf docteur\": le travail de Mike (24'18, achat)",
-    "A l'occasion du salon \"Aventure et passion\" installé à Paris, GIGA propose des reportages sur des projets de voyages organisés par des jeunes"
+    "Dessin animé (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.015707"
+  "normalized_at": "2026-11-18T21:59:46.006731",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

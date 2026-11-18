@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003062",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003062/giga-emission-du-5-avril-1990?rang=6",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:47:01.669087",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,9 +22,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "SERIE GIGA : Quoi de neuf docteur ? (la maman de Jason et son futur mari)",
-    "Deux enfants visitent des bateaux exposés au salon nautique. Ils portent des tee-shirts GIGA",
     "SERIE GIGA : Les Années Collège (grandes espérances)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.484751"
+  "normalized_at": "2026-11-18T21:59:45.549501",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

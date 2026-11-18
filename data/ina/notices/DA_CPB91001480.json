@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001480",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001480/recre-a2-emission-du-27-janvier-1983?rang=45",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:41:26.723833",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Mes mains ont la parole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.914815"
+  "normalized_at": "2026-11-18T21:59:45.909168",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

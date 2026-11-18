@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013781",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013781/giga-emission-du-28-novembre-1991?rang=175",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:22:17.037686",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,12 +25,10 @@
     "Annonce enquête sur les métiers auxquels se destinent les jeunes. Gagnant jeu Hippofolies et sommaire du lendemain."
   ],
   "elements": [
-    "ADOSTROPHES : l'actualité littéraire",
-    "Interview de Forest CARTER à propos de son roman \"Pleure Géronimo\"",
-    "Interview de Katherine E QUENOT sur le thème de son récit fantastique \"Blanc comme la nuit\"",
-    "Interview de Bernard de CHOISY à propos d' \"UDERZO-storix, l'aventure d'un gallo-romain\", biographie de l'auteur d'Astérix",
-    "Sélection d'autres nouveautés littéraires",
-    "Diffusion des séries (achats) \"Un toit pour dix\", \"Quoi de neuf docteur ?\""
+    "ADOSTROPHES : l'actualité littéraire"
   ],
-  "normalized_at": "2026-11-17T07:00:10.167153"
+  "normalized_at": "2026-11-18T21:59:46.121542",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010110",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010110/recre-a2-emission-du-9-aout-1986?rang=387",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:15.296484",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,11 +19,12 @@
     "Marie et Alain en tenue de yachting dans un dériveur le bateau avance à toute vitesse alors qu'Alain souffle sur la voile."
   ],
   "elements": [
-    "Marie et Alain présentent l'émission en tenue de yachting dans un dériveur (décor), le bateau prend l'eau",
     "Les Schtroumpfs",
     "Super Doc : Ca saute...danger ! (1)",
-    "Les mondes engloutis",
-    "Marie et Alain en tenue de yachting dans un dériveur le bateau avance à toute vitesse alors qu'Alain souffle sur la voile"
+    "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.404772"
+  "normalized_at": "2026-11-18T21:59:45.485553",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

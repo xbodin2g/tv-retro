@@ -2,7 +2,7 @@
   "notice_id": "TV_14245.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_14245.001/club-dorothee-programme-du-01-fevrier-1995?rang=155",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:14:06.764220",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -50,5 +50,8 @@
     "Arnold et Willy"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.326549",
-  "normalized_at": "2026-11-17T07:00:10.816066"
+  "normalized_at": "2026-11-18T21:59:46.633811",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

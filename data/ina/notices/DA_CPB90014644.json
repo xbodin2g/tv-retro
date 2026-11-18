@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014644",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014644/recre-a2-emission-du-16-mai-1980?rang=270",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:23:24.785572",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Sophie la sorcière",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.811260"
+  "normalized_at": "2026-11-18T21:59:45.823740",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

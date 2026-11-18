@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92015948",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015948/giga-emission-du-2-decembre-1992?rang=160",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:53.908093",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "QUIZAKO : Avec des questions sur l'émission de la veille",
-    "GIGA SERIE/ SAUVES PAR LE GONG (une semaine au paradis, 2ème partie, achat)",
     "GIGA SERIE/ UN TOIT POUR DIX (achat),",
-    "GIGA SERIE/ LE PRINCE DE BEL AIR (tout le monde peut se tromper, achat)",
     "GRAND JEU HIPPOFOLIES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.401498"
+  "normalized_at": "2026-11-18T21:59:46.295619",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85053054",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85053054/recre-a2-emission-du-03-juin-1985?rang=471",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:38:31.035523",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Plateau Corbier et Marie"
   ],
   "elements": [
-    "CORBIER et Marie présentent l'émission dans le bureau de rédaction d'un journal",
     "Poochie",
     "Dessin animé : Skywhales",
     "Latulu et Lireli",
@@ -33,5 +32,8 @@
     "Pac Man",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.194461"
+  "normalized_at": "2026-11-18T21:59:45.265043",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008352",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008352/giga-emission-du-28-septembre-1990?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:19.394110",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Le sommaire. Infos giga. Série : Larri et Balky.",
     "GIGA ESPACE. A Cannes La Bocca, Patrick BAUDRY a créé un lieu pour faire découvrir aux enfants, les métiers de l'espace. Patrick BAUDRY explique qu'il a aménagé le milieu afin d'induire des comportements. Des enfants s'entraînent au SPACE Camp, passent par toutes les activités qui feront d'eux des cosmonautes en herbe."
   ],
-  "elements": [
-    "Le sommaire. Infos giga. Série : Larri et Balky"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.580666"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.620783",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

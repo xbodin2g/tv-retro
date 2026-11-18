@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002671",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002671/recre-a2-emission-du-14-avril-1985?rang=277",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:35:18.058667",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Les maîtres de l'univers",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:10.687529"
+  "normalized_at": "2026-11-18T21:59:46.517406",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

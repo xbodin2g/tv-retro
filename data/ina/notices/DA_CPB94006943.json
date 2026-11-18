@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006943",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006943/giga-emission-du-18-aout-1994?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:35.455390",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Pas de reportages au sommaire de ce Giga, diffusion de deux séries américaines : \"Quoi de neuf docteur\" et \"Fête à la maison\"."
   ],
-  "elements": [
-    "Pas de reportages au sommaire de ce Giga, diffusion de deux séries américaines : \"Quoi de neuf docteur\" et \"Fête à la maison\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.726366"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.552239",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

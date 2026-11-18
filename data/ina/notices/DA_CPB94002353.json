@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002353",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002353/giga-emission-du-14-mars-1994?rang=130",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:46:55.655048",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de GIGA : \"Seconde B\" et \"Les années collège\" (achat)."
   ],
-  "elements": [
-    "Au sommaire de GIGA : \"Seconde B\" et \"Les années collège\" (achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.680645"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.511536",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

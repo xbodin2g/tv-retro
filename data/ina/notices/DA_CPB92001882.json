@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001882",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001882/giga-emission-du-9-mars-1992?rang=77",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:29:40.521883",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
     "JEU DU QUIZAKO."
   ],
   "elements": [
-    "GIGA propose ses deux séries habituelles \"Sois prof et tais toi\", \"Sauvés par le gong\" et cinq reportages",
     "JEU DU QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.242585"
+  "normalized_at": "2026-11-18T21:59:46.179755",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

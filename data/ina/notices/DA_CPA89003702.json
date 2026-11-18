@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89003702",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89003702/club-dorothee-vacances-emission-du-3-avril-1989?rang=228",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:09:27.719359",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -19,11 +19,10 @@
     "- \"Jayce et les conquérants de la lumière : le Vaisseau fantôme\"."
   ],
   "elements": [
-    "Dorothée et ses compères animent l'émission et les jeux. Les garçons essaient de monter des maquettes d'avion et jouent avec d'autres téléguidées",
-    "LE JARDIN DES CHANSONS. Document d'archives : extraits des chansons \"Frère Jacques\" et \"Où s'en vont les coeurs brisés\"",
-    "Diffusion des document extérieur : \"Muscleman\"",
-    "\"Snorkys : le Dauphin doré et Forage au pôle snork \"",
-    "\"Jayce et les conquérants de la lumière : le Vaisseau fantôme\""
+    "Diffusion des document extérieur : \"Muscleman\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.219098"
+  "normalized_at": "2026-11-18T21:59:44.336541",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

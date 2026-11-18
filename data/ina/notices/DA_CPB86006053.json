@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006053",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006053/recre-a2-emission-du-26-mars-1986?rang=464",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:22.323066",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -39,15 +39,16 @@
   "elements": [
     "Heidi",
     "Méthanie ville",
-    "LATULU ET LIRELI : présentation des livres \"Bon apppétit Monsieur Lapin\", \"Je suis déjà un grand lapin\" et \"Une noce de lapin\"",
     "Tchaou et Grodo",
     "Le monde selon Georges",
     "Les Schtroumpfs",
-    "C'EST CHOUETTE : extrait des films \"Chorus Line\", \"Natty Gan\", \"Allan QUATERMAIN\", \"Revolution\", \"Peter Pan\", et \"le Diamant du Nil\"",
     "Pac-Man",
     "L'Empire des 5",
     "Mafalda",
     "X Or"
   ],
-  "normalized_at": "2026-11-17T07:00:09.309475"
+  "normalized_at": "2026-11-18T21:59:45.403217",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

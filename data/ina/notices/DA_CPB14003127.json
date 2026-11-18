@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003127",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003127/recre-a2-emission-du-06-decembre-1978?rang=163",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:26:01.191315",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -31,17 +31,16 @@
     "Plaeau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, F. Hardy chante \"J'écoute de la musique saoule\"",
-    "Discobus : Plateau Ariane Gil, 2 jeunes américains, Jim COLLIER et Billy KAITH interprètent\" Texas cow-boy \", un air de country music",
     "A2mains",
-    "Discobus : Plateau Ariane Gil, JAIRO int.\"l'enfant au tambour \"",
     "La Caverne d'Abracadabra",
     "Je veux être toi",
-    "Discobus : Plateau Ariane Gil, JAIRO int.\"Noël blanc \"",
     "Discopuce",
     "Papivole",
     "Candy",
     "Plaeau Fin"
   ],
-  "normalized_at": "2026-11-17T07:00:08.632853"
+  "normalized_at": "2026-11-18T21:59:44.737178",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

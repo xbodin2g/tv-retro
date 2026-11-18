@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013381",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013381/recre-a2-emission-du-09-octobre-1979?rang=282",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:19:36.891473",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Discopuce",
     "Lippy le lion et hardy Har Har"
   ],
-  "normalized_at": "2026-11-17T07:00:09.726286"
+  "normalized_at": "2026-11-18T21:59:45.751721",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

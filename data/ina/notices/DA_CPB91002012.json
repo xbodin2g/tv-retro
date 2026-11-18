@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002012",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002012/recre-a2-emission-du-20-juillet-1982?rang=382",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:12:21.456974",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "Spectreman",
-    "Buzzard et vermissot",
-    "Festival international des marionnettes de Charleville-Mézières : Théâtre Tandarica de Bucarest"
+    "Buzzard et vermissot"
   ],
-  "normalized_at": "2026-11-17T07:00:09.937066"
+  "normalized_at": "2026-11-18T21:59:45.929168",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

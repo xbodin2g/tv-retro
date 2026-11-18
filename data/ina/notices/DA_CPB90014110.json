@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014110",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014110/recre-a2-emission-du-28-mars-1980?rang=53",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:45.429701",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Sophie la sorcière",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.776116"
+  "normalized_at": "2026-11-18T21:59:45.794809",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

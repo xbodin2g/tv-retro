@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009898",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009898/recre-a2-emission-du-2-aout-1986?rang=385",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:46.242908",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -23,5 +23,8 @@
     "Super DOC : au bord de l'eau...(1)",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.400742"
+  "normalized_at": "2026-11-18T21:59:45.481388",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

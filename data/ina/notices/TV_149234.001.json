@@ -2,7 +2,7 @@
   "notice_id": "TV_149234.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_149234.001/club-dorothee-programme-du-18-octobre-1995?rang=139",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:39:00.125029",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,10 +23,12 @@
   ],
   "elements": [
     "[Plateau",
-    "La vie de famille : le concours de danse",
     "Parker Lewis ne perd jamais : admiration secrète",
     "La croisière Foll' Amour : coté négatif"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.332274",
-  "normalized_at": "2026-11-17T07:00:10.826395"
+  "normalized_at": "2026-11-18T21:59:46.642337",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

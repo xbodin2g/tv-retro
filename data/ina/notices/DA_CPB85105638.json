@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85105638",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105638/recre-a2-emission-du-17-decembre-1985?rang=367",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:45:02.147049",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -39,5 +39,8 @@
     "Les mondes engloutis",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.227830"
+  "normalized_at": "2026-11-18T21:59:45.332010",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

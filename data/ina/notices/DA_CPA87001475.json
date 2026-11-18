@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87001475",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87001475/salut-les-petits-loups-plateau-emission-du-4-mars-1987?rang=15",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:50:24.369944",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -22,11 +22,10 @@
     "Achats : Animation \"Le vent dans les saules\" (Crapaud détective) ; DA \"Les 4 filles du Docteur MARCH\" ; \"Le défi des Gobots\" (Le secret de la comète de HALLEY) ; \"Les 3 mousquetaires\" ; \"Jayce et les conquérants de la lumière\"."
   ],
   "elements": [
-    "Gymnastique par ORLY et le chat",
-    "Le fluophone : les présentateurs appellent des enfants au téléphone fluo pour jouer et gagner des disques",
-    "Le caddy d'ORLY : ORLY propose des jeux et offre leurs cadeaux aux gagnants de la semaine passée",
-    "Les loufoques : pastiche de \"Fanny\" de PAGNOL par Teddy Boy et Anne LORRIC",
-    "Bananarock : Teddy boy raconte la vie du rocker Gene VINCENT et de son groupe, les \"Blue caps\""
+    "Gymnastique par ORLY et le chat"
   ],
-  "normalized_at": "2026-11-17T07:00:07.882632"
+  "normalized_at": "2026-11-18T21:59:44.019309",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

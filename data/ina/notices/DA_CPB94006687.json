@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006687",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006687/giga-emission-du-5-aout-1994?rang=151",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:53:23.634914",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce numéro de Giga : Goal, la Fête à la Maison (achat)."
   ],
-  "elements": [
-    "Au sommaire de ce numéro de Giga : Goal, la Fête à la Maison (achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.723000"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.548854",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

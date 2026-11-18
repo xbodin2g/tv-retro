@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055194",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055194/recre-a2-emission-du-18-octobre-1982?rang=227",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:19:22.085371",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Télétactica",
     "Jane de la jungle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.947814"
+  "normalized_at": "2026-11-18T21:59:44.990000",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

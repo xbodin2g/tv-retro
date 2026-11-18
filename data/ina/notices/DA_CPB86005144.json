@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005144",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005144/recre-a2-emission-du-2-mars-1986?rang=168",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:00:20.130099",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "(Pas de recouvrement entre les 2 k7)",
     "Véronique Bodoin \" les Poopies\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.291921"
+  "normalized_at": "2026-11-18T21:59:45.389404",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

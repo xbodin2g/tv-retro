@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000787",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000787/giga-emission-du-22-janvier-1992?rang=171",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:17.113175",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     ": Questions sur l'émission."
   ],
   "elements": [
-    "A la une de GIGA, les festivals d'Avoriaz et Angoulême après les séries habituelles",
-    "Escale en Thaïlande, à Chieng Mai, pour le chanteur Antoine qui voyage cette fois à dos d'éléphant (Polygram Video)",
     "Questions sur l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.204845"
+  "normalized_at": "2026-11-18T21:59:46.149322",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

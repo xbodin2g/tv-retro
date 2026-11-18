@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001380",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001380/club-dorothee-vacances-emission-du-9-fevrier-1988?rang=322",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:05:58.769910",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -20,12 +20,13 @@
     "-Bomber X (marionnetttes): achat."
   ],
   "elements": [
-    "A l'heure du goûter, après un bon repos bien mérité, c'est l'heure de la tasse de chocolat",
     "Au sommaire",
     "Les Luxioles (d. A): achat",
     "Les Jackson Five (d. A): achat",
-    "Chanson de Léopold Nord et Vous : \"C'est l'amour\" (tiré du \"Jacky Show\")",
     "Bomber X (marionnetttes): achat"
   ],
-  "normalized_at": "2026-11-17T07:00:07.986591"
+  "normalized_at": "2026-11-18T21:59:44.096427",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

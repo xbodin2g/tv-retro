@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90000167",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90000167/club-dorothee-emission-du-24-janvier-1990?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:42:25.720751",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,8 +16,9 @@
     ": \"LE MOT MYSTERIEUX\", \"LES 365 SOLEILS\", \"LE JACKY SEAU\" (Jacky est aspergé d'eau par les garçons), \"LE MOT INTERDIT\" (Christelle au téléphone a une minute pour faire prononcer le mot \"anglais\" à Patrick, qui passe sous une nénette qui le couvre de savon), \"L'ABC\" (Diane au téléphone), \"LE TOP JEUNE\" (les jeunes ont voté pour le groupe Pacifique).",
     ": \"CAP DANGER\", \"WINGMAN\", \"DRAGONBALL\", \"LE COLLEGE FOU FOU FOU\", \"Ken LE SURVIVANT\"."
   ],
-  "elements": [
-    "\"CAP DANGER\", \"WINGMAN\", \"DRAGONBALL\", \"LE COLLEGE FOU FOU FOU\", \"Ken LE SURVIVANT\""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.342971"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.469274",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

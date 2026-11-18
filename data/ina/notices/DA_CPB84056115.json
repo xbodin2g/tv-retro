@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84056115",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84056115/recre-a2-emission-du-27-octobre-1984?rang=323",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:15:13.883828",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,9 +18,11 @@
     "Plateau Dorothée et Jacky"
   ],
   "elements": [
-    "Le chevalier JACKY présente \"moyen âge information\" en compagnie de DOROTHEE",
     "Johan et Pirlouit",
     "Clip de CORBIER \"nous les mille pattes \""
   ],
-  "normalized_at": "2026-11-17T07:00:09.134303"
+  "normalized_at": "2026-11-18T21:59:45.183622",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

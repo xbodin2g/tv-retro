@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010318",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010318/recre-a2-emission-du-20-aout-1986?rang=425",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:58.360222",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -22,5 +22,8 @@
     "Les Schtroumpfs",
     "Clip Corbier \"Le nez de Dorothée\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.410627"
+  "normalized_at": "2026-11-18T21:59:45.490729",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

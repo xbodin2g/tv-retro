@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004668",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004668/giga-emission-du-18-juin-1992?rang=19",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:33:56.031288",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,9 @@
     ".",
     "."
   ],
-  "elements": [
-    "Giga propose ses séries habituelles \"Goal\" (Cf CPB92005118) \"Les années collège\" et \"le prince de bel air\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.307222"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.226365",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011119",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011119/club-dorothee-emission-du-10-novembre-1987?rang=71",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:13:21.581632",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,5 +18,8 @@
   "elements": [
     "D. A\" Le petit poney (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:07.948526"
+  "normalized_at": "2026-11-18T21:59:44.064421",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

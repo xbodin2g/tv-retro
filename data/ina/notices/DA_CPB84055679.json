@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84055679",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84055679/recre-a2-emission-du-06-novembre-1984?rang=326",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:15:23.123089",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -34,5 +34,8 @@
     "Terre des bêtes",
     "Clip \"nous les mille pattes\" chante par CORBIER"
   ],
-  "normalized_at": "2026-11-17T07:00:09.130140"
+  "normalized_at": "2026-11-18T21:59:45.178779",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

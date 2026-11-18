@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000726",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000726/giga-emission-du-14-janvier-1992?rang=178",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:26:54.560082",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,9 +15,9 @@
     "Reportage d'Antoine à Madagascar dans le cadre de \"Un tour du monde en 80 jours\" (Doc Antoine)",
     "SERIES : \"Sois prof et tais toi\" \"Sauvés par le gong\"."
   ],
-  "elements": [
-    "Reportage d'Antoine à Madagascar dans le cadre de \"Un tour du monde en 80 jours\" (Doc Antoine)",
-    "SERIES : \"Sois prof et tais toi\" \"Sauvés par le gong\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.200035"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.145649",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

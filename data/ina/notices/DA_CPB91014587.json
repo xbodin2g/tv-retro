@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91014587",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014587/giga-emission-du-25-decembre-1991?rang=184",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:23:30.040998",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
   "elements": [
     "ZAK Kelly nous souhaite \"VERY christmas\" QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.180961"
+  "normalized_at": "2026-11-18T21:59:46.131500",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

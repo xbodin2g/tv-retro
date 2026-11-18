@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83050853",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050853/recre-a2-emission-du-23-mars-1983?rang=453",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:45:01.419430",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,9 +41,11 @@
     "Télétactica",
     "Discopuce",
     "Les Schtroumpfs",
-    "Latulu et lireli : Annonce des gagnants de la semaine et présentation par DOROTHEE du nouveau thème du jeu des titres : La Chine",
     "Zeltron",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.999058"
+  "normalized_at": "2026-11-18T21:59:45.025697",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

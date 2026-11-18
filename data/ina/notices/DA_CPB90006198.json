@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006198",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006198/giga-emission-du-12-juillet-1990?rang=68",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:51:23.004960",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   "elements": [
     "Au sommaire de l'émission",
     "Série ALF",
-    "Giga Joystick : nouvelle rubrique qui propose les logiciels de jeux vidéo : Unreal, Cyber Core, Flimbo's quest et Kick of",
     "Série : THROB"
   ],
-  "normalized_at": "2026-11-17T07:00:09.523690"
+  "normalized_at": "2026-11-18T21:59:45.578186",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

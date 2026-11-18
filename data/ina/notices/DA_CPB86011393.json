@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011393",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011393/recre-a2-plateau-emission-du-23-septembre-1986?rang=320",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:15:29.723011",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,10 +18,10 @@
     "BIBIFOC : dessin animé, n° 32, \"La recherche\" (rd)."
   ],
   "elements": [
-    "Charlotte et Emmanuelle, déguisées en agents secrets, annoncent les différents éléments du programme sur un ton de conspiratrices",
-    "SUPER DOC : \"L'aliment en cause\" (achat)",
-    "QUICK ET FLUPKE : \"Chacun son tour\" (achat RTBF)",
-    "BIBIFOC : dessin animé, n° 32, \"La recherche\" (rd)"
+    "SUPER DOC : \"L'aliment en cause\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.434423"
+  "normalized_at": "2026-11-18T21:59:45.509983",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

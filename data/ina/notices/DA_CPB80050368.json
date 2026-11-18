@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050368",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050368/recre-a2-emission-du-21-mai-1980?rang=360",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:23:37.335226",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,7 +37,6 @@
     "Plateau fin"
   ],
   "elements": [
-    "Dorothée, en reine de coeur, et ses amis, présente l'émission sur le thème d'un jeu de cartes vivantes",
     "Wattoo Wattoo",
     "Les Bubblies",
     "Récré A2",
@@ -53,5 +52,8 @@
     "Albator",
     "C. GOYA chante \"Bécassine\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.721095"
+  "normalized_at": "2026-11-18T21:59:44.806077",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

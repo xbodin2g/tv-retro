@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88005399",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88005399/club-dorothee-emission-du-3-mai-1988?rang=76",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:11:25.774122",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,10 +18,12 @@
     "JEM."
   ],
   "elements": [
-    "Dorothée, ARIAN, Patrick, Jacky et CORBIER lisent les dédicaces des jeunes téléspectateurs, et lancent les dessins animés",
     "Candy",
     "SPIELVAN",
     "JEM"
   ],
-  "normalized_at": "2026-11-17T07:00:08.030902"
+  "normalized_at": "2026-11-18T21:59:44.129883",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

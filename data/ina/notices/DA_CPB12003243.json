@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003243",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003243/recre-a2-emission-du-23-septembre-1980?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:29:42.821877",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Mes mains ont la parole",
     "Je veux être toi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.546778"
+  "normalized_at": "2026-11-18T21:59:44.664358",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

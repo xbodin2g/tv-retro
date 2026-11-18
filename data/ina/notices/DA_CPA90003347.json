@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90003347",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90003347/club-dorothee-emission-du-18-avril-1990?rang=174",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:48:24.336087",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,12 +20,14 @@
     "Jeu de l'ABC."
   ],
   "elements": [
-    "Emission présentée par Dorothée et son équipe et composée de",
     "Dragon Ball (D. A)",
     "Le Collège fou fou fou (série américaine)",
     "Ken le surviviant (D. A)",
     "Les chevaliers du zodiaque (D. A)",
     "Jeu de l'ABC"
   ],
-  "normalized_at": "2026-11-17T07:00:08.382528"
+  "normalized_at": "2026-11-18T21:59:44.502102",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

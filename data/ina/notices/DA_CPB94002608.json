@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002608",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002608/giga-emission-du-28-mars-1994?rang=92",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:47:34.461855",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion des séries Seconde B (La révolte de Djamila, rediffusion) et des Années collège (Passage difficile)."
   ],
-  "elements": [
-    "Diffusion des séries Seconde B (La révolte de Djamila, rediffusion) et des Années collège (Passage difficile)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.685132"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.515417",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

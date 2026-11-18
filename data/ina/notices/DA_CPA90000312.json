@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90000312",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90000312/club-dorothee-emission-du-31-janvier-1990?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:42:44.038310",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,7 +23,6 @@
     "Ken LE SURVIVANT : n°90."
   ],
   "elements": [
-    "JEUX : Mot mystérieux, La ronde des cadeaux, Jeu des 365 soleils, Le Jacky seau, Le mot interdit, Jeu de l'ABC",
     "Au sommaire de l'émission",
     "CAP DANGER : \"Un cas d'empoisonnement\",",
     "WINGMAN : \"Le championnat de gymnastique\",",
@@ -32,5 +31,8 @@
     "Les Chevaliers du Zodiaque",
     "Ken LE SURVIVANT : n°90"
   ],
-  "normalized_at": "2026-11-17T07:00:08.344952"
+  "normalized_at": "2026-11-18T21:59:44.471305",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

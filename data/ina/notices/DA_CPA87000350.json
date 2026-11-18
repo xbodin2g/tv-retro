@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000350",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000350/vitamine-emission-du-28-janvier-1987?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:51:34.067280",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -18,9 +18,9 @@
     "SPORT. Antoine, jeune champion de hockey sur glace et capitaine de l'équipe de hockey \"Les Français volants\", présente un jeune joueur de 10 ans, et détaille sur lui l'équipement, très complexe pour des raisons de sécurité. Plans d'un match d'entraînement dans le gymnase de l'ACBB. Diverses considérations sur ce sport.",
     "LOOK. Défilé de mode junior présenté par Pascale."
   ],
-  "elements": [
-    "DANSE. Pascale donne un cours de danse en groupe, avec musique non identifiée",
-    "LOOK. Défilé de mode junior présenté par Pascale"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.873522"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.013313",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

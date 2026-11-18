@@ -2,7 +2,7 @@
   "notice_id": "TV_580121.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_580121.001/club-dorothee-programme-du-8-mai-1997?rang=40",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:34:13.014165",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,5 +39,8 @@
     "Ici bébé"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.636502",
-  "normalized_at": "2026-11-17T07:00:11.306167"
+  "normalized_at": "2026-11-18T21:59:47.046623",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

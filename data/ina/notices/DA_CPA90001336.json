@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90001336",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001336/club-dorothee-vacances-emission-du-22-fevrier-1990?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:44:24.138760",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -16,8 +16,10 @@
     "Les jeux habituels."
   ],
   "elements": [
-    "Toute l'équipe présente les dessins animés : \"Dragon ball \",\" les mondes engloutis \",\" wingman \" (achats)",
     "Les jeux habituels"
   ],
-  "normalized_at": "2026-11-17T07:00:08.355505"
+  "normalized_at": "2026-11-18T21:59:44.478131",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

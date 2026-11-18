@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13000023",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13000023/recre-a2-emission-du-07-aout-1981?rang=172",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:50:10.515170",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,8 @@
     "Spécial Inde",
     "Pinocchio"
   ],
-  "normalized_at": "2026-11-17T07:00:08.562783"
+  "normalized_at": "2026-11-18T21:59:44.679895",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

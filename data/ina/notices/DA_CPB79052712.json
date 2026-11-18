@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79052712",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79052712/recre-a2-emission-du-27-mars-1979?rang=218",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:10:09.869935",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Discopuce",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.676363"
+  "normalized_at": "2026-11-18T21:59:44.773699",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002095",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002095/recre-a2-emission-du-02-aout-1982?rang=386",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:13:30.448846",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -25,5 +25,8 @@
     "Casper et ses amis",
     "Kum Kum"
   ],
-  "normalized_at": "2026-11-17T07:00:09.942680"
+  "normalized_at": "2026-11-18T21:59:45.934024",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

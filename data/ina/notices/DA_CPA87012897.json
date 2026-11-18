@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87012897",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87012897/club-dorothee-noel-emission-du-24-decembre-1987?rang=79",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:16:07.213650",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -18,5 +18,8 @@
   "elements": [
     "Diffusion de Goldorak, Punky Brewster"
   ],
-  "normalized_at": "2026-11-17T07:00:07.967020"
+  "normalized_at": "2026-11-18T21:59:44.079327",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

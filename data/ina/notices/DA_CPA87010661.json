@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87010661",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010661/club-dorothee-emission-du-4-novembre-1987?rang=32",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:13:03.275899",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,11 +39,13 @@
     "Les bioniques : d.A. (Achat)",
     "Mask : d.A. (Achat)",
     "Chanson de Patrick",
-    "Top junior : Jacky dresse la liste des dix chanteurs gagnants",
     "Chanson de François CORBIER",
     "Chanson de Minet",
     "Bioman : d.A. (Achat)",
     "Chanson de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:07.946543"
+  "normalized_at": "2026-11-18T21:59:44.062763",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

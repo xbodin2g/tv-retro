@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002444",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002444/giga-emission-du-25-mars-1994?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:47:29.814294",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   "elements": [
     "Au sommaire du GIGA de cette journée",
     "Seconde B \"Le blues du rocker\" (rediffusion)",
-    "Séquence Cinéma : extraits du film \"Philadelphia\", commentaire en off",
     "2éme Série : \"Les années collège\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.684734"
+  "normalized_at": "2026-11-18T21:59:46.515101",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006444",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006444/recre-a2-emission-du-3-avril-1986?rang=225",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:03:03.234736",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,8 @@
     "CORBIER chante \"L'épicier\"",
     "Pac-Man"
   ],
-  "normalized_at": "2026-11-17T07:00:09.320300"
+  "normalized_at": "2026-11-18T21:59:45.412650",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050638",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050638/recre-a2-emission-du-17-janvier-1985?rang=214",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:29:51.346194",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,8 @@
     "Mr Merlin",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.157100"
+  "normalized_at": "2026-11-18T21:59:45.220998",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004743",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004743/recre-a2-emission-du-24-fevrier-1986?rang=281",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:52.391489",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,10 +20,12 @@
     "Plateau Bernard et marie"
   ],
   "elements": [
-    "Bernard et marie présentent ensemble la tranche horaire. Au sommaire",
     "Téléchat",
     "Latulu et Lireli",
     "Cobra"
   ],
-  "normalized_at": "2026-11-17T07:00:09.284548"
+  "normalized_at": "2026-11-18T21:59:45.382568",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

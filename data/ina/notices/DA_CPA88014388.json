@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014388",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014388/club-dorothee-emission-du-7-decembre-1988?rang=184",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T17:57:20.386934",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,8 +16,9 @@
     "D. A \"Les Sablotins : visite au paradis\",\"Lamu : combat d'orgre \",\"\"G.I. Joe\",\"Dragon ball \",\" Les chevaliers du zodiaque \",\" Bioman 2 \",\" Ken le survivant : le coup du diable \"(achats).",
     "JEUX : \"le mot mystérieux\",\"Tu chantes, tu gagnes \",\" Le jacky seau \",\" Le jeu de l'abc \",\" le top junior \"."
   ],
-  "elements": [
-    "JEUX : \"le mot mystérieux\",\"Tu chantes, tu gagnes \",\" Le jacky seau \",\" Le jeu de l'abc \",\" le top junior \""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.149490"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.263577",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

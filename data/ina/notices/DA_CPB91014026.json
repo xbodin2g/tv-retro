@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91014026",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014026/recre-a2-emission-du-30-avril-1985?rang=416",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:36:24.059901",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Téléchat"
   ],
   "elements": [
-    "Jacky et Charlotte présentent l'émission dans un décor fleuri",
     "Les Viratatoums",
     "Anim'A2",
     "Latulu et Lireli",
@@ -32,5 +31,8 @@
     "C'est chouette",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:10.168781"
+  "normalized_at": "2026-11-18T21:59:46.122841",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

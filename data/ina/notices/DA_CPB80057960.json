@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80057960",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80057960/recre-a2-emission-du-19-mars-1980?rang=347",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:16.731488",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,13 +36,14 @@
     "Émilie",
     "Maraboud'ficelle",
     "La Panthère rose",
-    "Anagrammes : Jean LACROIX proposé aux enfants de trouver la solution d'anagrammes construits avec des noms d'oiseaux",
     "A2000",
     "Zeltron",
     "Albator",
-    "Sport Récré A2 : P. S JONES : Deltaplane à ski",
     "Les Bubblies",
     "Anagrammes"
   ],
-  "normalized_at": "2026-11-17T07:00:08.774050"
+  "normalized_at": "2026-11-18T21:59:44.848520",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

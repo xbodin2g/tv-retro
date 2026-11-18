@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84051789",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84051789/recre-a2-emission-du-6-mai-1984?rang=252",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:08:12.863781",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "DOROTHEE chante au clair de la lune",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.093288"
+  "normalized_at": "2026-11-18T21:59:45.126731",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000785",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000785/giga-emission-du-20-janvier-1992?rang=180",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:09.224768",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,11 +22,11 @@
   ],
   "elements": [
     "Emission composée de",
-    "LE TOUR DU MONDE EN 80 JOURS : Iles Rodriguez (film d'Antoine commenté off)",
     "SOIS PROF ET TAIS TOI : série américaine",
-    "FFF : reportage sur le groupe rock qui parle de sa tournée à New York, de ses projets. Images de concert",
-    "MORRIS : le célèbre dessinateur de Lucky Luke parle de son héros qui est une synthèse des héros de westerns. Extrait du dessin animé",
     "SAUVES PAR LE GONG : série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:10.203247"
+  "normalized_at": "2026-11-18T21:59:46.148027",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87002983",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87002983/salut-les-petits-loups-plateau-emission-du-22-avril-1987?rang=10",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:50:54.702001",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -26,16 +26,11 @@
     "JAYCE ET LES CONQUERANTS DE LA LUMIERE (dessin animé, achat)"
   ],
   "elements": [
-    "Au sommaire de ce \"Salut les petits loups\" animé par Marie-Pierre, ORLY, Anne LORRIC et Teddy",
-    "\"LE VENT DES SAULES : Nouvelles aventures de Crapaud \"(animation, achat)",
-    "FLUOPHONE : jeu avec de jeunes téléspectateurs appelés au téléphone",
-    "\"LES QUATRE FILLES DU Docteur MARCH : L'HOPITAL\" (dessin animé, prod. Narcisse X4 + Syuzo Tsubota)",
-    "LE BULLETIN D'ORLY / météo, idées de cadeaux, présentation du magazine \"Coulicou\", évocation de l'atelier des enfants du Centre Georges POMPIDOU",
     "LA REVANCHE DES GOBOTS (achat)",
-    "LES LOUFOQUES : Teddy se retrouve ches les coiffeuses manucures Marie-Pierre et Anne.... Pauvre de lui !",
-    "LES TROIS MOUSQUETAIRES (dessin animé, prod. BRB International)",
-    "BANANAROCK : Teddy évoque Elvis PRESLEY en 1956 et chante un extrait de \"Heart break hôtel\" et de \"Hound Dogs\"",
-    "JAYCE ET LES CONQUERANTS DE LA LUMIERE (dessin animé, achat)"
+    "LES TROIS MOUSQUETAIRES (dessin animé, prod. BRB International)"
   ],
-  "normalized_at": "2026-11-17T07:00:07.897441"
+  "normalized_at": "2026-11-18T21:59:44.028748",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

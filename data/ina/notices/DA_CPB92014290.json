@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014290",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014290/giga-emission-du-17-novembre-1992?rang=159",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:10.039384",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     ": autour du film \"une équipe hors du commun\" qui raconte l'histoire d'une équipe de base-ball formée par des femmes pendant la seconde guerre mondiale. Interview de Lori PETTY et de MADONNA deux des héroïnes du film. Le commentaire off est illustré avec des extraits du film.",
     "."
   ],
-  "elements": [
-    "Au sommaire de Giga les séries \"le prince de Bel Air\" et \"Sauvés par le gong\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.389363"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.286324",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

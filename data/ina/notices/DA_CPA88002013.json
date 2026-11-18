@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002013",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002013/club-dorothee-vacances-emission-du-22-fevrier-1988?rang=329",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:07:26.997196",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -19,11 +19,11 @@
     "\"Bomber X\" (\"La mer des Astres \")."
   ],
   "elements": [
-    "En plateau, et durant toute l'émission, Dorothée prépare une fondue savoyarde que toute l'équipe déguste en fin d'émission",
-    "l'objet mystérieux : présentation du détail d'un objet à reconnaître",
-    "\"Les Luxioles\" (\"Quand les Luxioles rencontrent d'autres Luxioles \")",
     "\"Jackson Five\" (\"Michael White \")",
     "\"Bomber X\" (\"La mer des Astres \")"
   ],
-  "normalized_at": "2026-11-17T07:00:07.995661"
+  "normalized_at": "2026-11-18T21:59:44.104068",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

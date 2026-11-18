@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010914",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010914/giga-emission-du-5-novembre-1993?rang=27",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:31:07.442016",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,11 @@
   ],
   "elements": [
     "Au programme de GIGA",
-    "Série : l'ANNEXE Réal Laurent BREGEAT coproduction France 2 / TELE IMAGES 1993",
     "Série : SAUVES PAR LE GONG (achat rediffusion)",
     "Série : SOIS PROF ET TAIS TOI (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.626606"
+  "normalized_at": "2026-11-18T21:59:46.467593",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

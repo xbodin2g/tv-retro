@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004850",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004850/giga-emission-du-16-avril-1993?rang=132",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:53.780855",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
     "(série, achat)."
   ],
   "elements": [
-    "Thierry JOLY répond aux questions, par téléphone, de jeunes téléspectateurs sur le préservatif, les cicatrices et des douleurs oculaires",
     "(série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.498745"
+  "normalized_at": "2026-11-18T21:59:46.364593",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

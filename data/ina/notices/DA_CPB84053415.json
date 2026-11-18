@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84053415",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84053415/recre-a2-emission-du-14-avril-1984?rang=241",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:07:01.188903",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "George de la jungle",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.106538"
+  "normalized_at": "2026-11-18T21:59:45.143862",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

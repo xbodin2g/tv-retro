@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013782",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013782/giga-emission-du-29-novembre-1991?rang=169",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:22:20.832696",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "JEU Hippofolies",
-    "GIGA SERIES : \"Un toit pour dix\" et \"Quoi de neuf docteur\" (achats)"
+    "JEU Hippofolies"
   ],
-  "normalized_at": "2026-11-17T07:00:10.168006"
+  "normalized_at": "2026-11-18T21:59:46.122200",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

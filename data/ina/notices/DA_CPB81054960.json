@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81054960",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81054960/recre-a2-emission-du-10-juin-1981?rang=379",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:47:56.401379",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -49,5 +49,8 @@
     "Tilt",
     "La Panthère rose"
   ],
-  "normalized_at": "2026-11-17T07:00:08.836722"
+  "normalized_at": "2026-11-18T21:59:44.902502",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

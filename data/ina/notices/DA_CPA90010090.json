@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90010090",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90010090/club-dorothee-emission-du-14-novembre-1990?rang=147",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:05:07.183827",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,8 +17,10 @@
     "SERIES : Jiban ; Les Musclés."
   ],
   "elements": [
-    "DESSINS ANIMES : Dragonball ; Les Samouraïs de l'éternel ; Les Chevaliers du Zodiaque ; Nicky LARSON",
     "SERIES : Jiban ; Les Musclés"
   ],
-  "normalized_at": "2026-11-17T07:00:08.454257"
+  "normalized_at": "2026-11-18T21:59:44.576922",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

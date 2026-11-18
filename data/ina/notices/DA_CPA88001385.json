@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001385",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001385/club-dorothee-vacances-emission-du-12-fevrier-1988?rang=358",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:06:21.054837",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -21,7 +21,6 @@
     "-Bomber X (d.A.): achat."
   ],
   "elements": [
-    "Toute l'équipe du Club Dorothée dans son chalet de sports d'hiver se remet difficilement du déjeuner préparé par Jacky",
     "Au sommaire",
     "Les Luxioles (d. A): achat",
     "Les Jackson Five (d.A.): achat",
@@ -29,5 +28,8 @@
     "Clip \"La bamba\"",
     "Bomber X (d.A.): achat"
   ],
-  "normalized_at": "2026-11-17T07:00:07.988715"
+  "normalized_at": "2026-11-18T21:59:44.098064",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

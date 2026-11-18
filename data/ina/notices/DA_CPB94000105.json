@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000105",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000105/giga-emission-du-27-decembre-1993?rang=19",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:33:48.508150",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     ": sortie d'une biographie consacrée à Vanessa PARADIS et d'une vidéo de tous ses clips : [différents plans] images de ses clips et commentaires off."
   ],
   "elements": [
-    "Au sommaire de Giga",
-    "SERIES : \"Un toit pour dix\" (achat) / \"Sauvés par le gong\" (achat) / \"Le Prince de Bel'Air\" (achat)",
-    "sortie d'une biographie consacrée à Vanessa PARADIS et d'une vidéo de tous ses clips : [différents plans] images de ses clips et commentaires off"
+    "Au sommaire de Giga"
   ],
-  "normalized_at": "2026-11-17T07:00:10.655828"
+  "normalized_at": "2026-11-18T21:59:46.491383",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_533877.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_533877.001/club-dorothee-vacances-programme-du-18-fevrier-1997?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:30:39.691070",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -37,5 +37,8 @@
     "Power Rangers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.606131",
-  "normalized_at": "2026-11-17T07:00:11.253804"
+  "normalized_at": "2026-11-18T21:59:46.999952",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

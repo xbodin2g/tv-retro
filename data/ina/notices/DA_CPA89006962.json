@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89006962",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89006962/club-dorothee-vacances-emission-du-3-juillet-1989?rang=266",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:20:05.376668",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -21,13 +21,11 @@
     "PUNKY BREWSTER (achat ). Pendant l'émission, cuisson de sardines sur le barbecue."
   ],
   "elements": [
-    "Sur une plage privée de Nice, toute l'équipe présente l'émission",
     "D.A. \"Jayce et les conquérants de la lumière\"",
-    "Patrick SIMPSON-JONES présente le jeu du nombre d'or",
-    "D.A. \"Goldorak\" (achat)",
-    "JEU DE L'ABC : FRAMBOISIER se prend la douche",
-    "\"Pas de pitié pour les croissants : Super Pat 1\"(rediffusion)",
-    "PUNKY BREWSTER (achat ). Pendant l'émission, cuisson de sardines sur le barbecue"
+    "D.A. \"Goldorak\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.268238"
+  "normalized_at": "2026-11-18T21:59:44.384896",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

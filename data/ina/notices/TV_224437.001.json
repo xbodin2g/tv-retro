@@ -2,7 +2,7 @@
   "notice_id": "TV_224437.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_224437.001/club-dorothee-programme-du-1-fevrier-1996?rang=161",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:24:33.222355",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Drôle de vie"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.388723",
-  "normalized_at": "2026-11-17T07:00:10.927415"
+  "normalized_at": "2026-11-18T21:59:46.723287",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_66026.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_66026.001/club-dorothee-programme-du-23-mai-1995?rang=194",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:25:24.098104",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,9 +16,11 @@
     "[Plateau : 2ème partie]"
   ],
   "elements": [
-    "[Plateau",
-    "La vie de famille : (Treize à la douzaine]"
+    "[Plateau"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.686758",
-  "normalized_at": "2026-11-17T07:00:11.393306"
+  "normalized_at": "2026-11-18T21:59:47.114380",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

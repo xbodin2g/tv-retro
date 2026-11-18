@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002989",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002989/recre-a2-emission-du15-janvier-1979?rang=197",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:07:51.598071",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.532486"
+  "normalized_at": "2026-11-18T21:59:44.646469",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

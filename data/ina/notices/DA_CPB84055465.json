@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84055465",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84055465/recre-a2-emission-du-25-septembre-1984?rang=305",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:14:20.124645",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -34,5 +34,8 @@
     "Terre des bêtes",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.126312"
+  "normalized_at": "2026-11-18T21:59:45.173287",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

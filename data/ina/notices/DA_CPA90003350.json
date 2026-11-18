@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90003350",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90003350/club-dorothee-vacances-emission-du-20-avril-1990?rang=252",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:48:33.861534",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Ariane, Dorothée, Jacky, Patrick et CORBIER lancent le sommaire de l'émission : Dragon Ball, Mes Tendres Années, Goldorak. Jeu des Petits Génies."
   ],
-  "elements": [
-    "Ariane, Dorothée, Jacky, Patrick et CORBIER lancent le sommaire de l'émission : Dragon Ball, Mes Tendres Années, Goldorak. Jeu des Petits Génies"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.383549"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.503104",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

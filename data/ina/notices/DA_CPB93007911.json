@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007911",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007911/giga-emission-du-12-juillet-1993?rang=118",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:25:11.053353",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,9 +17,10 @@
     "Interview de la chanteuse Suzanne VEGA, elle évoque son adolescence, l'absence de son père et les débuts de sa carrière. Diffusion d'extraits de clip."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine CARTIER animent cette très courte émission",
-    "Série : \"Prince de Bel Air\" (achat)",
-    "Interview de la chanteuse Suzanne VEGA, elle évoque son adolescence, l'absence de son père et les débuts de sa carrière. Diffusion d'extraits de clip"
+    "Série : \"Prince de Bel Air\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.568275"
+  "normalized_at": "2026-11-18T21:59:46.418726",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

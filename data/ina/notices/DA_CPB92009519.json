@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009519",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009519/giga-emission-du-19-aout-1992?rang=52",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:14.867297",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,11 +21,13 @@
   ],
   "elements": [
     "Au sommaire de ce magazine",
-    "GIGA SERIE/ QUOI DE NEUF DOCTEUR (Ike et Mike, achat)",
     "GIGA SERIE/ LES ANNEES COLLEGE (Gentils mensonges, achat)",
     "GIGA SERIE/ CARRE D'AS",
     "Reportage sur ce magasin \"branché\" de Londres (rediffusion)",
     "Reportage sur un parc d'attractions belge (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.333410"
+  "normalized_at": "2026-11-18T21:59:46.246185",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87010409",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87010409/club-dorothee-emission-du-30-octobre-1987?rang=60",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:12:50.420277",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,8 +20,10 @@
   ],
   "elements": [
     "Jacky, Ariane et Patrick animent l'émission",
-    "Jacky présente le mensuel \"Abricot\"",
     "Ariane montre des boucles d'oreille"
   ],
-  "normalized_at": "2026-11-17T07:00:07.943433"
+  "normalized_at": "2026-11-18T21:59:44.060348",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

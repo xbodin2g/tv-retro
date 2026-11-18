@@ -2,7 +2,7 @@
   "notice_id": "TV_9057.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_9057.001/club-dorothee-matin-programme-du-25-janvier-1995?rang=431",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:13:11.869680",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -40,5 +40,8 @@
     "Salut les Musclés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.711044",
-  "normalized_at": "2026-11-17T07:00:11.573376"
+  "normalized_at": "2026-11-18T21:59:47.258663",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

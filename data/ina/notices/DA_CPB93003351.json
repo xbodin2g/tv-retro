@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003351",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003351/giga-emission-du-11-mars-1993?rang=153",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:13.973828",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,13 +24,13 @@
     "Thierry JOLY répond aux questions de jeunes téléspectateurs sur la boulimie et sur certains troubles sexuels."
   ],
   "elements": [
-    "Manuel GELIN anime l'émission et présente les reportages",
-    "Cathy, une Américaine se fait coiffer (relooker) par Klaus, présentation de la nouvelle coiffure",
     "\"LA FETE A LA MAISON \"(série, achat)",
     "\"HAPPY DAYS\" (série, achat)",
     "QUOI DE NEUF DOCTEUR \"(série, achat)",
-    "\"MAJOR DAD\" (série, achat)",
-    "Thierry JOLY répond aux questions de jeunes téléspectateurs sur la boulimie et sur certains troubles sexuels"
+    "\"MAJOR DAD\" (série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.470063"
+  "normalized_at": "2026-11-18T21:59:46.344591",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

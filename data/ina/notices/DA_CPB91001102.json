@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001102",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001102/giga-emission-du-31-janvier-1991?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:09.627711",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "4 reportages au menu de Giga",
-    "(achat), \"Popeye : The Cure\"",
-    "(achats), \"Sauvés par le gong\". \"Zorro : l'héritage \""
+    "(achat), \"Popeye : The Cure\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.892045"
+  "normalized_at": "2026-11-18T21:59:45.891835",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

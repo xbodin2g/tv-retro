@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002082",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002082/club-dorothee-vacances-emission-du-26-fevrier-1988?rang=362",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:07:53.520443",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -16,10 +16,9 @@
     "DOROTHEE chante \"Ou avez vous mis votre coeur\" (clip).",
     "DESSINS ANIMES : \"Mon petit poney\", \"Jackson Five \", \"Bomber x\" (achats)."
   ],
-  "elements": [
-    "CORBIER dévoile le sens de la pancarte qu'il brandit : 1988, année bissextile ; il explique l'origine de cette anomalie",
-    "DOROTHEE chante \"Ou avez vous mis votre coeur\" (clip)",
-    "DESSINS ANIMES : \"Mon petit poney\", \"Jackson Five \", \"Bomber x\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.000922"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.107746",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

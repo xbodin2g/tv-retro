@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91008700",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91008700/giga-emission-du-23-mai-1991?rang=68",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:13:46.511446",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,13 +25,10 @@
   ],
   "elements": [
     "Au sommaire de ce numéro de GIGA",
-    "UN TOIT POUR DIX (ACHAT, 23'54)",
-    "Le créateur d'Achille Talon présente son nouvel album et répond à une interviewe",
-    "QUOI DE NEUF DOCTEUR ? Projet de mariage (ACHAT, 23'30)",
-    "Interview entrecoupée d'extraits de vidéoclips du chanteur américain, bientôt en concert à Paris",
-    "ARCHIVES : John LENNON chante \"Give peace a chance\" en 1969",
-    "Extraits vidéoclips de Lenny KRAVITZ : \"Give peace a chance\", \"Always on the run \" (VIRGIN),\"Let love rule \" (VIRGIN),\"Be \" (VIRGIN)",
-    "Extrait du vidéoclip de MADONNA\"Justify my love \" (WEA), chanson écrite par KRAVITZ"
+    "UN TOIT POUR DIX (ACHAT, 23'54)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.064605"
+  "normalized_at": "2026-11-18T21:59:46.042881",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

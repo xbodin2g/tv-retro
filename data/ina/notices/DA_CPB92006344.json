@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006344",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006344/giga-emission-du-10-juillet-1992?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:35:18.942755",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "GIGA ENQUETE : reportage chez Roland DAMS, un vétérinaire qui élève des volailles (poules, dindes...) de races anciennes. Il explique que de nombreuses espèces ont disparu depuis la dernière guerre (auparavant il y avait en France une cinquantaine de races locales) au détriment de volailles \"industrielles\" et que sa passion pour la basse cour remonte à sa plus tendre enfance.",
     "GIGA REPORTAGE : reportage au Mont Aigoual (Gard) où on utilise le cheval pour le débardage (après abattage des arbres); avec l'interview d'un débardeur formé dans un lycée forestier (filière traction animale) qui exerce son métier avec passion."
   ],
-  "elements": [
-    "GIGA SERIE : \"Les années collège\" et \"Le prince de Bel Air\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.324308"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.238605",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

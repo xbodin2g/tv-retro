@@ -2,7 +2,7 @@
   "notice_id": "TV_540680.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_540680.001/club-dorothee-programme-du-15-mars-1997?rang=13",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:31:41.231310",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,8 @@
     "Conan l'aventurier"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.612523",
-  "normalized_at": "2026-11-17T07:00:11.265377"
+  "normalized_at": "2026-11-18T21:59:47.009086",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

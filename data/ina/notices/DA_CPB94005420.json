@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94005420",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94005420/giga-emission-du-17-juin-1994?rang=6",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:51:05.335724",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "GENERATION MUSIQUE : \"Clip vidéo\" (série ; achat)."
   ],
   "elements": [
-    "Au sommaire de l'émission : GOAL : \"Reprise de volée\" (série ; rediffusion)",
     "GENERATION MUSIQUE : \"Clip vidéo\" (série ; achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.708885"
+  "normalized_at": "2026-11-18T21:59:46.535815",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

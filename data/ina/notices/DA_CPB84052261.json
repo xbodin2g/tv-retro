@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84052261",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84052261/recre-a2-emission-du-1er-juillet-1984?rang=270",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:11:21.363676",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,8 @@
     "DOROTHEE annonce que ce sont les vacances",
     "Les Schtroumpfs"
   ],
-  "normalized_at": "2026-11-17T07:00:09.098642"
+  "normalized_at": "2026-11-18T21:59:45.133544",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83053542",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053542/recre-a2-emission-du-23-decembre-1983?rang=403",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:59:53.658148",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -34,5 +34,8 @@
     "Harold Llyod's",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.052301"
+  "normalized_at": "2026-11-18T21:59:45.070289",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

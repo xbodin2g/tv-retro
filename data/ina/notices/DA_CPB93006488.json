@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93006488",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006488/giga-emission-du-7-juin-1993?rang=235",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:23:18.656775",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,10 @@
     ": Thierry JOLY répond aux questions des jeunes téléspectateurs."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission en compagnie de Clémentine",
-    "Reportage sur le chanteur Richard SEGUIN : Int. sur sa musique. Extrait clip \"Aux portes du matin\"",
     "Thierry JOLY répond aux questions des jeunes téléspectateurs"
   ],
-  "normalized_at": "2026-11-17T07:00:10.533024"
+  "normalized_at": "2026-11-18T21:59:46.393377",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

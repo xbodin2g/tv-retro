@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82058994",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82058994/recre-a2-emission-du-30-janvier-1982?rang=184",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:02:29.631768",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "La bande à BéDé",
     "la révolte irlandaise"
   ],
-  "normalized_at": "2026-11-17T07:00:08.980537"
+  "normalized_at": "2026-11-18T21:59:45.009122",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

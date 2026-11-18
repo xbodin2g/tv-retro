@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001886",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001886/giga-emission-du-13-mars-1992?rang=65",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:29:57.212779",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,9 +23,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "GIGA SERIE/ SOIS PROF ET TAIS TOI (tous des stars, achat)",
-    "GIGA SERIE/ SAUVES PAR LE GONG (Catch à deux, achat)",
     "QUIZAKO : Jeu interactif"
   ],
-  "normalized_at": "2026-11-17T07:00:10.247772"
+  "normalized_at": "2026-11-18T21:59:46.183420",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

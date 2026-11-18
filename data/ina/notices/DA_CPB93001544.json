@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001544",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001544/giga-emission-du-19-janvier-1993?rang=88",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:25.554158",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     "Diffusion de\" Quoi de neuf, Docteur \" ;\"Le prince de Bel air\"."
   ],
   "elements": [
-    "Reportages de GIGA",
-    "L'OISEAU NOIR ; [différents plans] de la BD. Interview des auteurs Jean Paul DETHOREY (dessins) et Serge LE TENDRE (Scénario)",
-    "Diffusion de\" Quoi de neuf, Docteur \" ;\"Le prince de Bel air\""
+    "Reportages de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:10.427064"
+  "normalized_at": "2026-11-18T21:59:46.315469",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

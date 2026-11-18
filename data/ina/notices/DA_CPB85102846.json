@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85102846",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102846/recre-a2-emission-du-12-octobre-1985?rang=327",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:26.432349",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "Simbad le marin (2)",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.211544"
+  "normalized_at": "2026-11-18T21:59:45.290612",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

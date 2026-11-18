@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8105572703",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8105572703/recre-a2-emission-du-16-septembre-1981?rang=385",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:52:13.667898",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -43,13 +43,11 @@
   ],
   "elements": [
     "Matou et souriceau",
-    "Discorébus : J. MARTIN chante \"je me souviens de l'école de mon village\"",
     "Les Paladins de France",
     "Bouquin Bouquine",
     "Yok Yok",
     "Casper et ses amis",
     "Maraboud'ficelle",
-    "Clip Dorothée \"Tchou tchou le petit train\" depuis celui du bois de BOULOGNE",
     "Dorothée et Jean Lacroix : Les môts croisés",
     "Candy",
     "Zeltron",
@@ -58,5 +56,8 @@
     "Tilt",
     "Les Forbans : \"hot-dog spécial\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.845148"
+  "normalized_at": "2026-11-18T21:59:44.909025",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007576",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007576/giga-emission-du-28-juin-1993?rang=114",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:37.186550",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Manuel GELIN et CLEMENTINE présentent l'émission dans son décor habituelle et composée des séries suivantes : \"Quoi de neuf docteur? \" , \"Happy days\" et \"Seconde B\".",
     "En fin d'émission le docteur Thierry JOLY répond aux questions des jeunes téléspectateurs sur les jeux vidéo et les allergies."
   ],
-  "elements": [
-    "En fin d'émission le docteur Thierry JOLY répond aux questions des jeunes téléspectateurs sur les jeux vidéo et les allergies"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.556559"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.409824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

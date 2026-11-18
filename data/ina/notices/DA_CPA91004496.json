@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91004496",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91004496/club-dorothee-emission-du-27-fevrier-1991?rang=10",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:14:52.314669",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,14 +22,15 @@
     "Chanson finale : clip des Musclés : \"Une histoire banale\"."
   ],
   "elements": [
-    "L'équipe présente son émission de l'après midi, à partir d'Avoriaz ; au sommaire",
     "PUNKY BREWSTER : série (achat)",
     "SOPHIE ET Virginie : dessin animé (cf CPA91006046)",
     "JIBAN : dessin animé (achat)",
     "LES CHEVALIERS DU ZODIAQUE : dessin animé (achat)",
     "Nicky LARSON : dessin animé (achat)",
-    "SALUT LES MUSCLES (cf CPA91004497)",
-    "Chanson finale : clip des Musclés : \"Une histoire banale\""
+    "SALUT LES MUSCLES (cf CPA91004497)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.497478"
+  "normalized_at": "2026-11-18T21:59:44.613548",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

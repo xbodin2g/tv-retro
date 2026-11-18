@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012821",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012821/recre-a2-emission-du-11-mai-1979?rang=228",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:12:16.340346",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Dessin animé",
     "La fée"
   ],
-  "normalized_at": "2026-11-17T07:00:09.687197"
+  "normalized_at": "2026-11-18T21:59:45.711700",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

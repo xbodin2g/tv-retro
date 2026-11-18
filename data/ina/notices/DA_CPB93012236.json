@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012236",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012236/giga-emission-du-30-novembre-1993?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:32:15.073764",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,5 +28,8 @@
     "Jeu Pizzannexe",
     "Jeu Cococrazy"
   ],
-  "normalized_at": "2026-11-17T07:00:10.638004"
+  "normalized_at": "2026-11-18T21:59:46.476757",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82056273",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82056273/recre-a2-emission-du-07-janvier-1982?rang=97",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:01:08.290765",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,13 +25,14 @@
     "Si on jouait au théâtre"
   ],
   "elements": [
-    "Le monde des arbres présenté par Basle Marie-Josée (3) réal : Saintout Jean",
-    "Travelling sur tilleuls. [Gros plan] des feuilles, du tronc. Plan séquence sur orme. Planche en loupe d'orme",
     "Pierrôt",
     "Pouffi et Fouki",
     "Casper et ses amis",
     "Le petit écho de la forêt",
     "Si on jouait au théâtre"
   ],
-  "normalized_at": "2026-11-17T07:00:08.970493"
+  "normalized_at": "2026-11-18T21:59:45.000530",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

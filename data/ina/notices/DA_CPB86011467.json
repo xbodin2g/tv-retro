@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86011467",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86011467/recre-a2-emission-du-29-septembre-1986?rang=90",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:15:49.456221",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -15,9 +15,9 @@
     "Charlotte et Marie présentent l'émission : elles font un grand ménage car leur propriétaire doit venir visiter l'appartement.",
     "D.A.: - SUPER DOC : \"Consultation\"(achat). - QUICK ET FLUPKE : \"Chien dangereux\" (achat). - LADY OSCAR : \"Histoires sans paroles\" (achat)."
   ],
-  "elements": [
-    "Charlotte et Marie présentent l'émission : elles font un grand ménage car leur propriétaire doit venir visiter l'appartement",
-    "D.A.: - SUPER DOC : \"Consultation\"(achat). - QUICK ET FLUPKE : \"Chien dangereux\" (achat). - LADY OSCAR : \"Histoires sans paroles\" (achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.435901"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.511075",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

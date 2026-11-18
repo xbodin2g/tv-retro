@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002717",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002717/giga-emission-du-9-avril-1992?rang=9",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:31:09.131366",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "Gilles BRUCKER, président de Médecins du Monde retrace l'histoire de l'association et définit ses objectifs.",
     "Chantal ALLERMOZ, coordinatrice de la chaîne de l'espoir parle de l'organisation nécessaire pour faire venir les enfants malades en France et les introduire dans des familles d'accueil."
   ],
-  "elements": [
-    "Gilles BRUCKER, président de Médecins du Monde retrace l'histoire de l'association et définit ses objectifs"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.266501"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.197584",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

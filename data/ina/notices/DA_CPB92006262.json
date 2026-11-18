@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006262",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006262/giga-emission-du-1er-juillet-1992?rang=22",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:34:31.314215",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,11 +19,10 @@
     "QUIZAKO : jeu intéractif sur l'émission."
   ],
   "elements": [
-    "Au sommaire de l'émission les séries : \"Sois prof et tais toi\", \"Les années collège\" et \"Le prince de Bel air\" (achats)",
-    "L'équipe de Giga a rencontré deux auteurs de bandes dessinées",
-    "Filmé dans le zoo et le bois de Vincennes, PTILUC parle des personnages qu'il a créés, des animaux qui ont des réactions très humaines",
-    "dans un décor naturel, l'auteur évoque son dernier album \"un passager porté disparu\" (Jou. Emmanuelle MACHTOU)",
     "QUIZAKO : jeu intéractif sur l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.317841"
+  "normalized_at": "2026-11-18T21:59:46.233814",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

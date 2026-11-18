@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009122",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009122/recre-a2-emission-du-4-juillet-1986?rang=376",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:09:35.957491",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -22,10 +22,11 @@
   ],
   "elements": [
     "Mafalda",
-    "Jacky et Dorothée présentent le livre du jour \"Olga, OH la la\"",
     "Super DOC ; Dans le sac (1)",
-    "Jacky fait du pédalo, Dorothée fait du ski nautique",
     "Clémentine"
   ],
-  "normalized_at": "2026-11-17T07:00:09.384590"
+  "normalized_at": "2026-11-18T21:59:45.466543",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

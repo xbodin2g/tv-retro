@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005905",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005905/giga-emission-du-21-mai-1993?rang=234",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:55.364574",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "SERIES : \"La fête à la maison\", \"Seconde B\", \"Le choix de Nadia\"."
   ],
   "elements": [
-    "Manuel GELIN en compagnie de Clémentine présente l'émission",
-    "Au sommaire",
-    "SERIES : \"La fête à la maison\", \"Seconde B\", \"Le choix de Nadia\""
+    "Au sommaire"
   ],
-  "normalized_at": "2026-11-17T07:00:10.526605"
+  "normalized_at": "2026-11-18T21:59:46.388444",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

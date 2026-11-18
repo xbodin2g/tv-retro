@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92009557",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92009557/giga-emission-du-26-aout-1992?rang=27",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:34.619562",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,11 @@
   ],
   "elements": [
     "Au sommaire",
-    "SERIE : QUOI DE NEUF DOCTEUR ? (Les dures réalités de la vie, achat)",
-    "SERIE : LES ANNEES COLLEGE (Examens de passage, achat)",
     "SERIE : DELIRE ET DES LARMES (achat)",
-    "reportage sur une course de radeaux fantaisistes sur la Garonne (rediffusion)",
-    "télétrottoir sur le look 90 (rediffusion)",
-    "Marcel LESOURD et ses fils parlent du dressage des animaux (rediffusion)"
+    "télétrottoir sur le look 90 (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.339282"
+  "normalized_at": "2026-11-18T21:59:46.249196",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

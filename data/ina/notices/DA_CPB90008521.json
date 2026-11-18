@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008521",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008521/giga-emission-du-12-octobre-1990?rang=132",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:56.736676",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,9 @@
     "LES NOUVEAUTES DU DISQUE (de Patrick MARSAULT) : Georges Michael avec \"Listen without prejudice\", Elsa avec \"Rien que pour ça\"... Interview du groupe James, de Manchester dans le parc Victoria, pour leur nouveau clip dont nous découvrons un extrait \"How was it for you\". Très court extrait du clip des Charlatans, \"Then\".",
     "Bande annonce (A2 et NRJ) de la tournée de Dépêche Mode \"."
   ],
-  "elements": [
-    "Au sommaire de l'émission : Série \"Larry et Balki\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.589244"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.627672",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

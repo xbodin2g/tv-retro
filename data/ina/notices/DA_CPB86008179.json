@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008179",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008179/recre-a2-emission-du-08-juin-1986?rang=83",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:18.735175",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,14 +23,11 @@
     "Marie et Bernard disent au revoir, mais il leur est arrivé des malheurs ; Bernard a ouvert un parapluie dans le studio."
   ],
   "elements": [
-    "Marie et Bernard présentent le programme de l'émission",
-    "Extrait de Discopuce : \"Anatole et Manda \"chanté par Dorothée et Jacky",
-    "Clémentine en Angleterre : Le bébé sauvé des eaux ; dessin animé de Jean CUBAUD (RD )",
     "Mafalda : dessin animé (achat)",
-    "La Révolte Irlandaise : série (prod. Pegasus)",
-    "Gag : La cuisine au beurre: \"La poule au pot \": la recette ne pourra être réalisée car la poule ne veut pas se laisser attraper",
-    "Les Mondes Engloutis : La convention pirate : dessin animé (RD )",
-    "Marie et Bernard disent au revoir, mais il leur est arrivé des malheurs ; Bernard a ouvert un parapluie dans le studio"
+    "La Révolte Irlandaise : série (prod. Pegasus)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.370970"
+  "normalized_at": "2026-11-18T21:59:45.454696",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

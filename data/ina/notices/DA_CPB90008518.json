@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008518",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008518/giga-emission-du-9-octobre-1990?rang=102",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:55:45.915057",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "Extrait du film \"Présumé innocent\" et interview doublé de Greta SCACCHI et de Harrison FORD pour ce film."
   ],
   "elements": [
-    "Série américaine Larry et Balki",
-    "Extrait du film \"Présumé innocent\" et interview doublé de Greta SCACCHI et de Harrison FORD pour ce film"
+    "Série américaine Larry et Balki"
   ],
-  "normalized_at": "2026-11-17T07:00:09.586121"
+  "normalized_at": "2026-11-18T21:59:45.625330",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

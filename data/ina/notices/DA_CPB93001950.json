@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001950",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001950/giga-emission-du-28-janvier-1993?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:52.521996",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
-    "stage pour jeunes recherchant des objets métalliques avec \"poèle à frire\"",
     "SERIE : \"Le prince de Bel Air \"(achat)",
     "SERIE : MAJOR DAD : \"Maman Major\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.436158"
+  "normalized_at": "2026-11-18T21:59:46.321948",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

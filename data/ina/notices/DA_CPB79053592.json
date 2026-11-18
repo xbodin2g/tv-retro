@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79053592",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79053592/recre-a2-emission-du-11-avril-1979?rang=368",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:10:52.269710",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -45,26 +45,23 @@
     "Plateau Dorothée"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, le groupe Téléphone chante \"qu'est-ce que je peux faire\"",
     "Mini histoires",
     "Code X4",
     "A2000",
-    "Anniversaire du premier vol habite dans l'espace : Récit de la conquête de l'espace par Willy LEYMERGIE et Dorothée",
-    "Discobus : Plateau Ariane Gil, Yves DUTEIL chante \"la tendre image du bonheur\"",
-    "DOROTHEE habillée en cosmonaute réalise le premier pas féminin sur la lune",
     "Flash Récré A2",
     "Maraboud'ficelle",
     "Discobus : Plateau Ariane Gil",
     "Samsong atelier balai",
     "Il court, il court, le courrier",
     "Rêves pour un scénario",
-    "Discobus : Plateau Ariane Gil, Yves DUTEIL chante \"Lucile et les libellules \"",
     "La Caverne d'Abracadabra",
-    "Discobus : Plateau Ariane Gil, Yves DUTEIL chante \" la puce et le pianiste \"",
     "Spot Récré A2",
     "Discorébus",
     "Quac Quao",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.685863"
+  "normalized_at": "2026-11-18T21:59:44.779016",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

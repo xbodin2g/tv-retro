@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000740",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000740/giga-emission-du-17-janvier-1992?rang=232",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:05.756658",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "Tzimon BARTO : pianiste américain de 28 ans, il va donner un concert à la salle Gaveau. Il commence le piano à 5 ans en Floride, s'intéresse aux arts et aux sports. Il aime particulièrement CHOPIN, et détaille son programme qu'il a composé comme un menu."
   ],
   "elements": [
-    "Au sommaire de ce Giga",
-    "Les séries : \"Sois prof et tais toi\", et \"Sauvés par le gong\"",
-    "\"Un tour du monde en 80 jours \" d'Antoine ; aujourd'hui Madagascar"
+    "Au sommaire de ce Giga"
   ],
-  "normalized_at": "2026-11-17T07:00:10.202205"
+  "normalized_at": "2026-11-18T21:59:46.147215",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90011467",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011467/giga-emission-du-5-decembre-1990?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:58:38.969796",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "Images du cirque de Barbarie, premier cirque de femmes du monde."
   ],
   "elements": [
-    "Interview du groupe KLAXON sur leur dernier clip \"L'Océan sans fond\"",
-    "Larry et Balki : série américaine",
-    "Images du cirque de Barbarie, premier cirque de femmes du monde"
+    "Larry et Balki : série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:09.625558"
+  "normalized_at": "2026-11-18T21:59:45.654476",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

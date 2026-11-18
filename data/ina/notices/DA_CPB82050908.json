@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050908",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050908/recre-a2-emission-du-01-decembre-1982?rang=427",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:22:12.863176",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -24,7 +24,6 @@
     "Heidi"
   ],
   "elements": [
-    "Extraits du spectacle de Chantal GOYA \"la planète merveilleuse\" ou elle chante \"pierrot\" et \"le chat botte\"",
     "Boule et Bill",
     "Lippy le lion",
     "Discopuce",
@@ -34,5 +33,8 @@
     "La Panthère rose",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.867552"
+  "normalized_at": "2026-11-18T21:59:44.927246",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

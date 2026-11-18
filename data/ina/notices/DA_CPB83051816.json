@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051816",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051816/recre-a2-emission-du-15-septembre-1983?rang=200",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:54:32.752364",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Latulu et Lireli",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.019972"
+  "normalized_at": "2026-11-18T21:59:45.041779",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

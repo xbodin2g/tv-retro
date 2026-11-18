@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009624",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009624/club-dorothee-emission-du-14-octobre-1987?rang=56",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:11:34.420548",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,11 +18,9 @@
     "A l'hopital NECKER, Patrick interroge un petit garçon, Jérôme, sur son accident.",
     "Diffusion des dessins animés suivants : \"DI Joe\", \"Les Minipous \", \"Goldorak\", \"Les Bioniques\", \"Bioman\"."
   ],
-  "elements": [
-    "Ariane présente le jeu mystérieux",
-    "Classement du \"Top Junior\" et cadeaux pour les gagnants",
-    "A l'hopital NECKER, Patrick interroge un petit garçon, Jérôme, sur son accident",
-    "Diffusion des dessins animés suivants : \"DI Joe\", \"Les Minipous \", \"Goldorak\", \"Les Bioniques\", \"Bioman\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.938272"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.056038",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

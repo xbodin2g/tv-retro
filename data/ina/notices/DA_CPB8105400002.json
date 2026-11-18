@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8105400002",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8105400002/recre-a2-emission-du-20-aout-1981?rang=217",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:50:59.057977",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,9 +17,11 @@
     "Casper et ses amis"
   ],
   "elements": [
-    "Un orchestre grec joue un air de sirtaki (sur le plateau)",
     "la grande aventure",
     "Casper et ses amis"
   ],
-  "normalized_at": "2026-11-17T07:00:08.823417"
+  "normalized_at": "2026-11-18T21:59:44.891858",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

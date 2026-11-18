@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010292",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010292/recre-a2-emission-du-18-aout-1986?rang=391",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:50.613071",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -20,10 +20,12 @@
     "Plateau Corbier et Marie évoque un livre appelé \"la banane à la moutarde\""
   ],
   "elements": [
-    "François CORBIER rentre déçu d'un stage de peinture sur \"soi\" faute d'avoir lu correctement l'intitulé du stage",
     "Les Sctroumpfs",
     "Clip Corbier \"Le nez de Dorothée\"",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.409606"
+  "normalized_at": "2026-11-18T21:59:45.489692",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009286",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009286/giga-emission-du-31-aout-1993?rang=181",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:27:51.553188",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Sujet sur les dioramas déjà diffusé dans Giga le 25 Décembre 1992."
   ],
-  "elements": [
-    "Sujet sur les dioramas déjà diffusé dans Giga le 25 Décembre 1992"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.591318"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.438853",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

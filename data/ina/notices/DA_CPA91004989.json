@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91004989",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91004989/club-dorothee-emission-du-6-mars-1991?rang=11",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:15:28.810013",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,10 +17,9 @@
     "SERIES : 1) \"Punky Brewster\"; 2) \"Jiban\" (achats); 3) \"Salut les Musclés\".",
     "DESSINS ANIMES : 1) \"Sophie et Virginie\"; 2) \"Les Chevaliers du Zodiaque\" (achat); \"Nicky LARSON\" (achat)."
   ],
-  "elements": [
-    "JACKY et CORBIER, déguisés en Egyptiens de l'antiquité assurent les intermèdes",
-    "SERIES : 1) \"Punky Brewster\"; 2) \"Jiban\" (achats); 3) \"Salut les Musclés\"",
-    "DESSINS ANIMES : 1) \"Sophie et Virginie\"; 2) \"Les Chevaliers du Zodiaque\" (achat); \"Nicky LARSON\" (achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.502496"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.617606",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

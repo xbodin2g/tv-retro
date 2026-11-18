@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007245",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007245/giga-emission-du-24-juin-1993?rang=201",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:29.208046",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,13 @@
     "REPORTAGE : LES GAUCHOS. Les gauchos ne sont pas seulement des cowboys, être gaucho est toute une philosophie, comme l'explique un vieux gaucho, dans une \"finca\" en Argentine. Le gaucho est un homme noble. Il n'élève pas seulement des chevaux pour les monter mais il s'en sert pour travailler les champs."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission aux côtés de Clémentine. Au sommaire, séries et reportages",
     "SERIES",
     "Quoi de neuf docteur ? (Achat)",
     "Happy days (Achat)",
-    "Seconde B (coproduction F2-Flash film)",
-    "Manuel et Clémentine demandent ensuite à plusieurs adolescents, sur le plateau, leurs Gouts en matière de musique"
+    "Seconde B (coproduction F2-Flash film)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.548827"
+  "normalized_at": "2026-11-18T21:59:46.405196",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA86014077",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA86014077/vitamine-emission-du-7-janvier-1987?rang=5",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:51:22.317151",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -22,12 +22,10 @@
     "Autres séquences : des dessins animés (achats) : \"Mon petit poney et ses amis\", \"Jem : Broadway magic\", \"Les Snorkies : les montgolfières\" et \"Robo story\"."
   ],
   "elements": [
-    "\"Z'Animo \" :Frédéric LISAK donne des conseils à ceux qui veulent un chien dans un appartement et pour nourrir les oiseaux pendant l'hiver",
-    "\"Flash\" : Pascale parle de son voyage en Chine",
-    "\"Danse \" :Pascale donne un cours d'isolation",
-    "\"Ciné\" : Jacky présente le \"magicien d'Oz\" sur vidéo-cassette. Extraits",
-    "\"Look \" :Pascale montre ce qu'est le\" look Rita Mitsouko \"et présente un gadget, une mappemonde gonflable",
-    "\"Cascade\" : Michel CARLIEZ et son partenaire miment un combat au sabre et parle des différentes techniques de cascade selon les films"
+    "\"Danse \" :Pascale donne un cours d'isolation"
   ],
-  "normalized_at": "2026-11-17T07:00:07.866050"
+  "normalized_at": "2026-11-18T21:59:44.008469",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

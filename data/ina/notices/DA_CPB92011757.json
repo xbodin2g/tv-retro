@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011757",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011757/giga-emission-du-25-septembre-1992?rang=31",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:29.046506",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Michel JACQUES (président de la fédération EIS) évoque l'origine et le sucès de cette discipline. On le voit expliquer un parcours sur une carte à un groupe de coureurs, dont on suit la course en forêt. Guillaume DESPRES parle des qualités requises pour la course d'orientation, de l'apprentissage au fil des courses."
   ],
   "elements": [
-    "Diffusion des séries La fête à la maison, Quoi de neuf docteur et Sois prof et tais toi ; et du Quizako",
     "Reportage : la course d'orientation"
   ],
-  "normalized_at": "2026-11-17T07:00:10.358599"
+  "normalized_at": "2026-11-18T21:59:46.263454",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

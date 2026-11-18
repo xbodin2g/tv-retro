@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905175303",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905175303/recre-a2-emission-du-09-mai-1979?rang=348",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:12:08.997191",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -30,18 +30,17 @@
     "Discorébus"
   ],
   "elements": [
-    "Au cours de l'émission, William Leymergie raconte quelques anecdotes sur la vie de Mermoz illustrée par des photos et des cartes",
-    "Georges Brassens interpréte \"La cane de Jeanne\" sur le plateau de l'émission. (Matériel manquant) Rediffusion de la prestation le 4.11.1981",
     "Mini histoires",
-    "Discobus : Georges BRASSENS chante \"chanson pour l'Auvergnat\", \"auprès de mon arbre\",\"les sabots d'HELENE \",\" la cane de Jeanne \" et\"le petit cheval \"",
     "Code X4",
     "Flash Récré A2",
     "Maraboud'ficelle",
     "Bus parade",
     "Il court, il court le courrier",
     "La Caverne d'Abracadabra",
-    "Atelier balai Samsong : Fabrication d'objets en manche à balai : vase, boîte à couture, dessous de plat, porte couvert",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.665832"
+  "normalized_at": "2026-11-18T21:59:44.765606",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

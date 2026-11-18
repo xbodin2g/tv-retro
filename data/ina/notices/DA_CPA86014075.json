@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA86014075",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA86014075/salut-les-petits-loups-plateau-emission-du-7-janvier-1987?rang=11",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:49:48.111269",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -20,10 +20,9 @@
     "\"Les loufoques \" :Anne et Teddy interprètent un sketch\" Attention, voilà l'inspecteur ! \". \"Bananarock \" :Teddy raconte l'histoire du rock des années 50 et chante\" Blue Suède shoes \"et un boogie woogie.",
     "Dessins animés (achats):\"Les trois mousquetaires\", \"Les quatre filles du Docteur MARCH : le jeune Laurence \", \"Le défi des gobots : le cadeau\", \"Jayce et les conquérents de la lumière\" et \"le vent dans les saules : merci Jules César\"(marionnettes)."
   ],
-  "elements": [
-    "\"Les mangeurs d'histoire : le monstre de Carnac \" :Anne LORRIC raconte comment sont apparus les menhirs.(Rea. Serge WITTA)",
-    "\"Le caddy d'ORLY \" :ORLY présente et commente ses dernières découvertes en matière de jouets et propose aux enfants de les gagner",
-    "\"10 doigts de malice\" : des mains peintes racontent une petite histoire \"Tobogi, toboga, toboggan\" (Comptine de Marie Tenaille. Rea. Chantal BAUMANN)"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.864774"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.007678",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

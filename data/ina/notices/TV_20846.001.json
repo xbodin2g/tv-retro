@@ -2,7 +2,7 @@
   "notice_id": "TV_20846.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_20846.001/club-dorothee-programme-du-11-fevrier-1995?rang=158",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:14:47.526443",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -31,5 +31,8 @@
     "Goldorak"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.377473",
-  "normalized_at": "2026-11-17T07:00:10.908595"
+  "normalized_at": "2026-11-18T21:59:46.707397",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85102666",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85102666/recre-a2-emission-du-8-octobre-1985?rang=331",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:43:21.837941",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,11 +32,13 @@
     "Image imagine",
     "Il était une fois le cirque",
     "Latuli et lireli",
-    "Robinson CRUSOE : (3ème épisode)",
     "Clip Dorothée \"Le bon Dieu\"",
     "C'est chouette",
     "Les mondes engloutis",
     "Les aventures de Mr DEMO"
   ],
-  "normalized_at": "2026-11-17T07:00:09.211152"
+  "normalized_at": "2026-11-18T21:59:45.288380",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

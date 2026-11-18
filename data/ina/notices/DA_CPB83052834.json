@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052834",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052834/recre-a2-emission-du-17-aout-1983?rang=499",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:46.203927",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -24,8 +24,10 @@
   "elements": [
     "Les Bubblies",
     "Les aventures d'une souris sur mars",
-    "Latulu et lireli : \"Les aventures de papagayo\" de Marie-raymond Farre",
     "Dick le rebelle"
   ],
-  "normalized_at": "2026-11-17T07:00:09.037955"
+  "normalized_at": "2026-11-18T21:59:45.057524",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

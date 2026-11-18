@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009387",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009387/giga-emission-du-10-septembre-1993?rang=216",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:28:22.601425",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "INFOS. Court reportage sur le\" Tapis magique \", attraction du parc de loisirs\" Futuroscope \"de Poitiers : détails de la machinerie, la pellicule film défile ; les écrans (1 de face, l'autre par terre): l'image défile sur les écrans, donnant l'impression de voler au dessus du sol.",
     "SERIES (ACHATS): La fête à la maison: \"Amour maison \"; Le prince de Bel-Air: \"Un juge, deux touches \"."
   ],
-  "elements": [
-    "SERIES (ACHATS): La fête à la maison: \"Amour maison \"; Le prince de Bel-Air: \"Un juge, deux touches \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.596641"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.443154",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

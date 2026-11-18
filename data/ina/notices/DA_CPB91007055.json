@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007055",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007055/recre-a2-emission-du-23-janvier-1979?rang=211",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:08:12.075124",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Papivole",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:10.020256"
+  "normalized_at": "2026-11-18T21:59:46.010019",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

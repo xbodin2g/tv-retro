@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84051944",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84051944/recre-a2-emission-du-24-janvier-1984?rang=366",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:04:04.507578",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Sido et Rémi",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.093871"
+  "normalized_at": "2026-11-18T21:59:45.128232",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

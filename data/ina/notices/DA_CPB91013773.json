@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013773",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013773/giga-emission-du-15-novembre-1991?rang=124",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:21:46.683637",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     ": Samira et Thierry gagnants d'un jeu sont invités sur le tournage de la série\" Sauvés par le gong \"aux USA. Ils sont reçus par les deux vedettes Zac et Kelly, assistent au séance de maquillage, coiffure et font de la figuration pendant le tournage d'une scène de l'enregistrement en public. Interviewes des deux acteurs qui jouent dans cette série depuis trois ans.",
     "SERIE\" la fête à la maison : humiliation \"(achat)."
   ],
-  "elements": [
-    "SERIE\" la fête à la maison : humiliation \"(achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.158554"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.115382",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

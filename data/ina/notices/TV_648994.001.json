@@ -2,7 +2,7 @@
   "notice_id": "TV_648994.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_648994.001/club-dorothee-vacances-programme-du-20-aout-1997?rang=150",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:39:22.487358",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -43,5 +43,8 @@
     "Animaux rescapés"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.679468",
-  "normalized_at": "2026-11-17T07:00:11.381949"
+  "normalized_at": "2026-11-18T21:59:47.105242",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

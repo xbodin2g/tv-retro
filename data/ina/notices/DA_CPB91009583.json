@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009583",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009583/giga-emission-du-1er-juillet-1991?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:51.596920",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
     "GIGA CLINIQUE. En Bretagne, des phoques échoués sont soignés à Océanopolis. Les phoques sont réadaptéa pou reformer leur couche de graisse. Un vétérinaire pendant les soins. Les phoques sont installés dans un bassin intermédiaire avant de les relâcher."
   ],
   "elements": [
-    "Reportage",
-    "GIGA COLLECTION. COUSTEAU vante plusieurs collections de vidéo pour connaître la nature et la protéger"
+    "Reportage"
   ],
-  "normalized_at": "2026-11-17T07:00:10.077618"
+  "normalized_at": "2026-11-18T21:59:46.052606",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82050372",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82050372/recre-a2-emission-du-19-janvier-1982?rang=57",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:01:48.060295",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,12 +23,13 @@
     "3,2,1 contact"
   ],
   "elements": [
-    "Le monde des arbres présenté par Basle Marie-Josée (6) réal : Saintout Jean",
-    "Petit reportage dans lequel M. JOSEE parle du châtaignier",
     "la souris sur mars",
     "Le petit écho de la forêt",
     "C'est chouette",
     "3,2,1 contact"
   ],
-  "normalized_at": "2026-11-17T07:00:08.858129"
+  "normalized_at": "2026-11-18T21:59:44.919670",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

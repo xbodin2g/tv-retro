@@ -2,7 +2,7 @@
   "notice_id": "TV_684843.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_684843.001/tf-jeunesse-programme-du-8-octobre-1997?rang=21",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:36:34.916456",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -84,5 +84,8 @@
     "Spiderman l'homme araignée",
     "Power Rangers Zeo"
   ],
-  "normalized_at": "2026-11-17T07:00:11.429150"
+  "normalized_at": "2026-11-18T21:59:47.143325",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

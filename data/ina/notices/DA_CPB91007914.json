@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007914",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007914/giga-emission-du-29-avril-1991?rang=208",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:12:48.279024",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,11 @@
     "Mangas : à l'occasion du festival de la bande dessinée à Angoulême, reportage sur le phénomène Manga, ces albums de BD japonais très violents, lu par des milliers d'adultes, dont le thème basé sur l'éthique du samourai, accomplissement et dépassement de soi, peut s'exprimer sur des centaines de pages. Interview de spécialistes japonais et français et extrait du film \"Akira\" qui reprend l'imagerie Manga."
   ],
   "elements": [
-    "Au programme",
     "Série (achat) \"un toit pour dix\"",
     "Série (achat) \"Quoi de neuf Docteur ?\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.048384"
+  "normalized_at": "2026-11-18T21:59:46.031118",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

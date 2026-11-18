@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88006223",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88006223/club-dorothee-matin-emission-du-10-mai-1988?rang=334",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:11:49.376489",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -15,8 +15,9 @@
     "Nouvelle émission pour les enfants diffusée le matin à 7 heures 30, sur le même principe que les autres émissions de Dorothée.",
     "Dorothée et son équipe annoncent le programme : jeu \"Télécadeaux\" (sorte de Télémago avec la collaboration de l'hebdomadaire Télé-Poche), MADAME SOLEIL et sa rubrique Horoscope pour les enfants, le Vétérinaire Michel KLEIN et ses conseils pour les animaux, aujourd'hui nous apprenons que les animaux n'ont pas de maladies sexuellement transmissibles, et des dessins animés et séries, \"Rémi\" et \"Punky Brewster\" (achats)."
   ],
-  "elements": [
-    "Nouvelle émission pour les enfants diffusée le matin à 7 heures 30, sur le même principe que les autres émissions de Dorothée"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.042084"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.138652",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

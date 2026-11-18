@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010462",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010462/giga-emission-du-23-novembre-1990?rang=157",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:58:05.932039",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,8 +24,10 @@
   "elements": [
     "Au sommaire de l'émission",
     "SELECTION GIGA : Sélection de livres",
-    "SERIE GIGA/ Larry ET BALKI (achat)",
-    "INFOS GIGA : Bde annonce du spectacle de Lambert WILSON au Casino de Paris"
+    "SERIE GIGA/ Larry ET BALKI (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.617037"
+  "normalized_at": "2026-11-18T21:59:45.648283",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

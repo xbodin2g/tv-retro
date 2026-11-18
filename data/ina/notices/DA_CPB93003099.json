@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003099",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003099/giga-emission-du-22-fevrier-1993?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:17:56.679408",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,8 @@
     "C'est la fête à la maison (achat)",
     "Major dad (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.457783"
+  "normalized_at": "2026-11-18T21:59:46.335551",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

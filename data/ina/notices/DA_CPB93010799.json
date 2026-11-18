@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010799",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010799/giga-emission-du-26-octobre-1993?rang=24",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:30:36.718195",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   "elements": [
     "L'émission sans plateau comporte",
     "Série \"L'ANNEXE\"",
-    "QUIZ ANNEX : jeu-question sur la série",
-    "Séries américaines : \"Sauvés par le gong\" et \"Sois prof et tais-toi\""
+    "QUIZ ANNEX : jeu-question sur la série"
   ],
-  "normalized_at": "2026-11-17T07:00:10.621105"
+  "normalized_at": "2026-11-18T21:59:46.463103",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

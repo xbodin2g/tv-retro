@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB16000002",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB16000002/recre-a2-emission-du-18-juin-1979?rang=262",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:14:18.543114",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Les Bubblies",
     "La fée"
   ],
-  "normalized_at": "2026-11-17T07:00:08.650775"
+  "normalized_at": "2026-11-18T21:59:44.753054",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

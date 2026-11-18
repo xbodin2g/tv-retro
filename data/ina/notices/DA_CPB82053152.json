@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053152",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053152/recre-a2-emission-du-01-septembre-1982?rang=357",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:15:28.995947",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -23,8 +23,10 @@
   "elements": [
     "Lippy the lion and hardy har har",
     "Casper et ses amis",
-    "Mister Magoo",
-    "F. CORBIER et Julie chante \"en patins à roulettes\".(4') (bande 63472)"
+    "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.908553"
+  "normalized_at": "2026-11-18T21:59:44.958607",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

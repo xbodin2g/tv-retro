@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012368",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012368/recre-a2-emission-du-21-novembre-1978?rang=109",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:24:53.454441",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,5 +26,8 @@
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.652873"
+  "normalized_at": "2026-11-18T21:59:45.682385",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051729",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051729/recre-a2-emission-du-17-novembre-1982?rang=367",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:21:31.053134",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -50,13 +50,14 @@
     "Télétactica",
     "Georges de la jungle",
     "Casper et ses amis",
-    "J. LACROIX propose un jeu à partir de trois lettres",
     "Bouquin Bouquine",
-    "François CORBIER déguisé en capitaine haddock chante \"les gros mots\"",
     "Méthanie",
     "Extrait Disney \"Tron\"",
     "La Panthère rose",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.883184"
+  "normalized_at": "2026-11-18T21:59:44.939768",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

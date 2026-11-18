@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008316",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008316/club-dorothee-emission-du-14-septembre-1987?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:10:01.709529",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,9 +17,11 @@
     "-Une chanson de Dorothée."
   ],
   "elements": [
-    "Dorothée et ses amis présentent ensemble le club Dorothée au sommaire duquel on trouve",
     "Un dessin animé : \"The nightmare\" (achat)",
     "Une chanson de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:07.925434"
+  "normalized_at": "2026-11-18T21:59:44.045885",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

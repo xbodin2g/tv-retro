@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004544",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004544/giga-emission-du-5-avril-1993?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:15.517845",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
     "SERIES (achats) : \"La fête à la maison : la terreur blonde\". \"Les jours heureux : oeil pour oeil, poing pour poing\". \"Quoi de neuf docteur\". \"Major Dad : recherche d'emploi \"."
   ],
   "elements": [
-    "Manuel GELIN et CLEMENTINE animent l'émission",
-    "Reportage en hommage à Brandon LEE, fils de Bruce LEE, décédé la semaine dernière et probablement assassiné"
+    "Manuel GELIN et CLEMENTINE animent l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.488167"
+  "normalized_at": "2026-11-18T21:59:46.357172",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

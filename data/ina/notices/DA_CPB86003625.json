@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003625",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003625/recre-a2-emission-du-7-mai-1984?rang=409",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:08:16.159283",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,8 @@
     "Kum Kum",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.257272"
+  "normalized_at": "2026-11-18T21:59:45.359619",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

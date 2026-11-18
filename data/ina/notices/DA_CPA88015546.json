@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88015546",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88015546/club-dorothee-emission-du-4-janvier-1989?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T19:59:22.599062",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -16,9 +16,9 @@
     "DESSINS ANIMES (ACHATS) : \"SABLOTIN\", \"Willie BOY\", \"Lamu\", \"G I Joe\", \"DRAGON BALL\", \"LES CHEVALIERS DU ZODIAQUE\", \"BIOMAN II\", \"Ken LE SURVIVANT\".",
     "JEUX : \"SUPER NOMBRE D'OR\"; \"LE JACKY SCEAU\"; \"ONT-ILS APPELE ? \"."
   ],
-  "elements": [
-    "DESSINS ANIMES (ACHATS) : \"SABLOTIN\", \"Willie BOY\", \"Lamu\", \"G I Joe\", \"DRAGON BALL\", \"LES CHEVALIERS DU ZODIAQUE\", \"BIOMAN II\", \"Ken LE SURVIVANT\"",
-    "JEUX : \"SUPER NOMBRE D'OR\"; \"LE JACKY SCEAU\"; \"ONT-ILS APPELE ? \""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.170858"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.284581",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

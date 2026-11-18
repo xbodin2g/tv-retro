@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007915",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007915/giga-emission-du-30-avril-1991?rang=63",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:12:52.528377",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,8 +23,10 @@
   "elements": [
     "Au sommaire",
     "SERIE GIGA/ UN TOIT POUR DIX",
-    "Bande-annonce d'un concert de STING",
-    "SERIE GIGA/ QUOI DE NEUF DOCTEUR : la mauvaise note de Carole"
+    "Bande-annonce d'un concert de STING"
   ],
-  "normalized_at": "2026-11-17T07:00:10.049717"
+  "normalized_at": "2026-11-18T21:59:46.032076",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

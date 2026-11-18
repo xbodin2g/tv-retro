@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90010457",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010457/giga-emission-du-16-novembre-1990?rang=144",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:57:50.067452",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,11 +20,9 @@
     "MOTO CROSS : Reportage sur une compétition de moto cross. Interview pilote HONDA Eric GEBOERS sur la compétition avec les Américains. Interview Jean-Michel BAYLE sur ses espoirs de remporter les championnats du monde. Interview du pilote Kawasaki Frédéric VIALLE sur ses succès. Interview du pilote Yamaha Yves DEMARIA sur le circuit. Des images de l'entraînement et des épreuves illustrent ce reportage.",
     "INFOS GIGA : B.A. Du spectacle \"La légende de Jimmy\"."
   ],
-  "elements": [
-    "CLIP : Le groupe New Kids on the Block dans leur clip \"Tonight\"",
-    "INFOS GIGA : B.A. Du spectacle de Pierre PALMADE",
-    "Série américaine Larry ET BALKI : Question de confiance",
-    "INFOS GIGA : B.A. Du spectacle \"La légende de Jimmy\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.612919"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.645189",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

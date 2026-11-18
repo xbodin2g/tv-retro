@@ -2,7 +2,7 @@
   "notice_id": "TV_208125.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_208125.001/club-dorothee-programme-du-10-janvier-1996?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:23:26.339696",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Drôle de vie"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.375857",
-  "normalized_at": "2026-11-17T07:00:10.905780"
+  "normalized_at": "2026-11-18T21:59:46.705105",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

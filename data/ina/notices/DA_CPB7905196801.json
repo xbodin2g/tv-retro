@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905196801",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905196801/recre-a2-emission-du-16-mars-1979?rang=206",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:09:30.606068",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,8 @@
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.668524"
+  "normalized_at": "2026-11-18T21:59:44.767572",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

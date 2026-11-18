@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008500",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008500/recre-a2-emission-du-15-juin-1986?rang=84",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:46.441522",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,12 +21,13 @@
     "LES MONDES ENGLOUTIS : dessin animé, rediffusion."
   ],
   "elements": [
-    "Marie DAUPHIN et Véronique présentent le sommaire de l'émission",
     "CLEMENTINE : rediffusion",
     "Mafalda, dessin animé, achat",
     "LA REVOLTE IRLANDAISE, achat",
-    "L'ASSIETTE AU BEURRE : Alain CHAUFFOUR et Charlotte KADI donne la recette du poulet rôti, hors antenne le met à la poubelle et mange un sandwich",
     "LES MONDES ENGLOUTIS : dessin animé, rediffusion"
   ],
-  "normalized_at": "2026-11-17T07:00:09.376500"
+  "normalized_at": "2026-11-18T21:59:45.458994",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

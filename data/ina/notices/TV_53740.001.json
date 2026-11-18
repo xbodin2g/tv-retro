@@ -2,7 +2,7 @@
   "notice_id": "TV_53740.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_53740.001/club-dorothee-vacances-programme-du-26-avril-1995?rang=312",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:23:18.037119",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -36,5 +36,8 @@
     "La vie de famille"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.610420",
-  "normalized_at": "2026-11-17T07:00:11.261444"
+  "normalized_at": "2026-11-18T21:59:47.005989",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

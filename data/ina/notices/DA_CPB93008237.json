@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008237",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008237/giga-emission-du-27-juillet-1993?rang=239",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:25:49.674056",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Pas de reportage. Pas de plateau. Diffusion de deux séries américaines : Happy days et Le Prince de Bel Air."
   ],
-  "elements": [
-    "Pas de reportage. Pas de plateau. Diffusion de deux séries américaines : Happy days et Le Prince de Bel Air"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.573768"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.423183",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

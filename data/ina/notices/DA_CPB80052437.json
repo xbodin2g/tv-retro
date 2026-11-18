@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80052437",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80052437/recre-a2-emission-du-04-decembre-1980?rang=286",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:34:43.276796",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,12 +25,14 @@
     "Plateau Alain et Zabou"
   ],
   "elements": [
-    "La cuisine sans maman : ZABOU et ALAIN réalisent la recette des fruits secs fourrés au petit Suisse battu",
     "Les aventures électriques de Zeltron",
     "Balour et Balu",
     "Discopuce",
     "Papivole",
     "Les Quat'z Amis"
   ],
-  "normalized_at": "2026-11-17T07:00:08.734833"
+  "normalized_at": "2026-11-18T21:59:44.817782",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90003913",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003913/giga-emission-du-3-mai-1990?rang=12",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:48:30.337930",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "-Sélection des livres Giga : le livre de Jean-Philippe RIBAUD\" Les hauts lieux de la préhistoire en France \"avec un extrait de la bande dessinée\" Le Chainon Manquant \"et une interview de l'auteur."
   ],
   "elements": [
-    "Au programme de GIGA",
-    "Séries : 1) \"Les deux font la loi\"; 2)\"Les Années collège \"",
-    "LITTERATURE : remise du prix littéraire\" Plume en herbe \"à Julie. William LEYMERGIE, membre du jury, commente les résultats"
+    "Au programme de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:09.491558"
+  "normalized_at": "2026-11-18T21:59:45.554237",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

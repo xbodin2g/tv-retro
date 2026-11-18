@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000107",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000107/giga-emission-du-29-decembre-1993?rang=7",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:33:56.137766",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Numéro de GIGA entièrement composé de séries américaines (ACHATS) : Un toit pour deux ; Sauvés par le gong ; Le prince de Bel Air."
   ],
-  "elements": [
-    "Numéro de GIGA entièrement composé de séries américaines (ACHATS) : Un toit pour deux ; Sauvés par le gong ; Le prince de Bel Air"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.657197"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.492455",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

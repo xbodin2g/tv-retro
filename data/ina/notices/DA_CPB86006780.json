@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006780",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006780/recre-a2-emission-du-16-avril-1986?rang=469",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:03:56.956653",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -29,8 +29,10 @@
     "Les Poupies",
     "Clip \"Bibifoc\" par Marie Dauphin",
     "Tom Sawyer",
-    "Les Mondes Engloutis : la chanson des pirates",
-    "La Bande à Bédé : Zig et Puce au 21ème siècle"
+    "Les Mondes Engloutis : la chanson des pirates"
   ],
-  "normalized_at": "2026-11-17T07:00:09.329766"
+  "normalized_at": "2026-11-18T21:59:45.421371",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

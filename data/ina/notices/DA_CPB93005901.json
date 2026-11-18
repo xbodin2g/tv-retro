@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005901",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005901/giga-emission-du-18-mai-1993?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:43.333890",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,11 +23,13 @@
     "SERIE : MAJOR DAD (Achat)."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission aux côtés de Clémentine. Au sommaire, reportages et séries",
     "SERIE : LA FETE A LA MAISON (Achat)",
     "SERIE : SECONDE B (coproduction F2-FLACH film)",
     "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
     "SERIE : MAJOR DAD (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.523188"
+  "normalized_at": "2026-11-18T21:59:46.386041",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

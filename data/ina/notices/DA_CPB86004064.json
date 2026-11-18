@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004064",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004064/recre-a2-emission-du-5-fevrier-1986?rang=450",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:58:28.527267",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -26,7 +26,6 @@
     "Flip et Bouc"
   ],
   "elements": [
-    "C'est dans un hôtel aux sports d'hiver que Jacky et Dorothée présentent l'émission",
     "Les Schtrompfs",
     "Clip Dorothée",
     "Clip Marie Dauphin",
@@ -34,5 +33,8 @@
     "Clémentine",
     "Flip et Bouc"
   ],
-  "normalized_at": "2026-11-17T07:00:09.267605"
+  "normalized_at": "2026-11-18T21:59:45.367839",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_62924.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_62924.001/club-dorothee-programme-du-14-mai-1995?rang=208",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:24:48.416266",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,5 +23,8 @@
     "Bof"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.661596",
-  "normalized_at": "2026-11-17T07:00:11.350827"
+  "normalized_at": "2026-11-18T21:59:47.080618",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

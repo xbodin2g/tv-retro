@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87003669",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87003669/vitamine-emission-du-20-mai-1987?rang=19",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:52:30.962782",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -23,14 +23,9 @@
     "Ciné : Gaëlle SCHIFFE et Germain, finaliste du mini concours CNC racontent leur scénario.",
     "Diffusion des dessins animés suivant : Mon Petit Poney ; Les luxioles ; Les snorkys ; Robostory ; Ghostbusters."
   ],
-  "elements": [
-    "Parodie d'un tournage par toute l'équipe de \"Dans la chaleur de la jungle\"",
-    "Parodie d'un tournage de comédie musicale, \"Dans la chaleur de la vie\". Interview BUZY",
-    "Séquence Cinéma : Jacky reçoit Pascale ROCARD pour son film \"Champ d'honneur\". Présentation du film de Pee Wee, \"Pee Wee's big adventure\"",
-    "Troisième festival de la chanson pour enfants. Cabourg 1987 : réalisation, Jean Pierre OUALID, présentation de David et Sonia",
-    "Quatre fillettes dansent sur \"My heart belong to daddy\". Jacky cherche Olivia Newton JONES. Remke de \"Grease\"",
-    "Ciné : Gaëlle SCHIFFE et Germain, finaliste du mini concours CNC racontent leur scénario",
-    "Diffusion des dessins animés suivant : Mon Petit Poney ; Les luxioles ; Les snorkys ; Robostory ; Ghostbusters"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.912368"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.036473",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

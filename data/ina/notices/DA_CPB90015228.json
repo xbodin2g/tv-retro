@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90015228",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90015228/recre-a2-emission-du-04-novembre-1981?rang=391",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:54:54.249555",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -31,21 +31,15 @@
     "Dessin animé : La Panthère Rose (achat)"
   ],
   "elements": [
-    "Le dessinateur Cabu présente une série de dessins sur le plateau sur le principe des devinettes",
-    "Divers sketches (muets) avec les trois présentateurs se succèdent dans la même maison",
-    "Sketch avec Jacky et Zabou Breitman à propos de la sauce à la menthe",
     "Extrait de \"Lady Lane\" des Beatles (off)",
-    "Rediffusion d'une prestation de Georges Brassens en date du 09/05/1979 : il interprète \"La cane de Jeanne\". (matériel original manquant)",
-    "Les interventions sur le plateau de Dorothée et ses deux acolytes Ariane et Jacky sont entrecoupées par la diffusion des collections suivantes",
-    "Dessin animé : \"Matou chat des champs et Souriceau\" (achat)",
-    "Marionnettes : \"Les paladins de France\" : \"Les combats d'Argalia\"",
     "Dessin animé : \"Casper\" (achat)",
     "Dessin animé : \"Candy\" (achat)",
-    "Série : \"Bouquin Bouquine : Richard Coeur de Lion\"",
     "Série \"Zeltron : Duel pour une grenouille\"",
-    "Dessin animé \"Tilt : Déclaration des droits de l'enfant Principe n°8\"",
     "Dessin animé : \"Boule et Bill\" (achat)",
     "Dessin animé : La Panthère Rose (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.849836"
+  "normalized_at": "2026-11-18T21:59:45.856486",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

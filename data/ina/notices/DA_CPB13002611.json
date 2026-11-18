@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13002611",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002611/recre-a2-emission-du-07-janvier-1983?rang=19",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:40:15.920674",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Mes mains ont la parole",
     "Nucléa 3000"
   ],
-  "normalized_at": "2026-11-17T07:00:08.589107"
+  "normalized_at": "2026-11-18T21:59:44.698419",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

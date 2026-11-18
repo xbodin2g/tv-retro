@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85106118",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106118/recre-a2-emission-du-29-avril-1984?rang=474",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:07:49.620158",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "DOROTHEE chante \"le petit Cheval Blanc\" de BRASSENS. et Candy"
   ],
-  "elements": [
-    "DOROTHEE chante \"le petit Cheval Blanc\" de BRASSENS. et Candy"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.228997"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.335301",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

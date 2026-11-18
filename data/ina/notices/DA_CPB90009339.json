@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009339",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009339/giga-emission-du-15-octobre-1990?rang=103",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:56:20.073238",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,10 @@
     "INFOS GIGA : Bande annonce de \"l'Aventure COUSTEAU\"."
   ],
   "elements": [
-    "Au sommaire de ce numéro",
-    "SERIE GIGA : Larry et Balki (c'est le paradis, achat)",
-    "REPORTAGE : interview de Jean-Claude DENIS, auteur de bande dessinée",
-    "REPORTAGE : Le ski sur herbe et ses adeptes adolescents"
+    "Au sommaire de ce numéro"
   ],
-  "normalized_at": "2026-11-17T07:00:09.590747"
+  "normalized_at": "2026-11-18T21:59:45.628885",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

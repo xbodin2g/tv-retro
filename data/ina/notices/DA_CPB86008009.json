@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008009",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008009/recre-a2-emission-du-2-juin-1986?rang=73",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:07:55.143786",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,10 +20,12 @@
     "Plateau Bernard et Marie"
   ],
   "elements": [
-    "Emission présentée par Marie et Bernard",
     "Téléchat",
     "Latulu et Lireli",
     "Les Maîtres de l'Univers"
   ],
-  "normalized_at": "2026-11-17T07:00:09.363703"
+  "normalized_at": "2026-11-18T21:59:45.448646",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

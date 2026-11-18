@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13004773",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13004773/recre-a2-emission-du-13-novembre-1984?rang=329",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:15:26.546889",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -40,5 +40,8 @@
     "C'est chouette",
     "Dorothée chante \"C'est dur de travailler\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.607659"
+  "normalized_at": "2026-11-18T21:59:44.716373",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

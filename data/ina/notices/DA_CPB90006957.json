@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006957",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006957/giga-emission-du-7-aout-1990?rang=120",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:34.869292",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     ": Petit sujet sur Jean Pierre MOCKY, \"le pamphlétaire du cinéma français\", que l'on voit en train de tourner un de ses films (?), et qui explique qu'il faut choquer les gens, et que les seuls qui peuvent l'y aider, ce sont les jeunes."
   ],
   "elements": [
-    "L'émission est composée des séries habituelles ( \"ALF\" et \"LES ANNEES COLLEGE\") et de deux reportages consacrées au cinéma",
     "Extrait du film \"Cadillac MAN\" avec Robin WILLIAMS"
   ],
-  "normalized_at": "2026-11-17T07:00:09.546444"
+  "normalized_at": "2026-11-18T21:59:45.594615",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

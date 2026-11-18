@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79051725",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79051725/recre-a2-emission-du-17-janvier-1979?rang=345",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:07:57.749480",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -31,10 +31,12 @@
     "Mes mains ont la parole",
     "La Caverne d'Abracadabra",
     "Je rêve tu rêves",
-    "Spot Récré A2 : Deux enfants présentent les livres et les spectacles qu'ils ont aimés. Extrait de \"galactica, la bataille de l'espace\"",
     "Discopuce",
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.663907"
+  "normalized_at": "2026-11-18T21:59:44.764431",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

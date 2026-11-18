@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002832",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002832/recre-a2-emission-du-20-septembre-1979?rang=177",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:18:55.215694",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Félix le chat",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.526935"
+  "normalized_at": "2026-11-18T21:59:44.641072",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

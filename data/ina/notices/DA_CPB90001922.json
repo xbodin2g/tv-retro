@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001922",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001922/giga-emission-du-28-fevrier-1990?rang=200",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:31.299115",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "La surprise de Giga : Bill jongle avec toutes sortes d'outils, tronçonneuse, scie..."
   ],
   "elements": [
-    "Un commentaire off de Jean François BOUQUET annonce le sommaire de l'émission : les deux séries \"Quoi de neuf, docteur\" et \"La fête à la maison\"",
-    "Les rubriques reportages",
-    "La surprise de Giga : Bill jongle avec toutes sortes d'outils, tronçonneuse, scie"
+    "Les rubriques reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:09.456645"
+  "normalized_at": "2026-11-18T21:59:45.530196",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010695",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010695/recre-a2-emission-du-9-septembre-1986?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:14:38.412751",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Quick et Flupke",
     "Bibifoc : les ravisseurs"
   ],
-  "normalized_at": "2026-11-17T07:00:09.421847"
+  "normalized_at": "2026-11-18T21:59:45.500345",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052092",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052092/recre-a2-emission-du-23-decembre-1982?rang=140",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:23:44.333954",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "DOROTHEE chante \"au royaume de diguedondaine\" et présente les différentes rubriques et dessins animés. (Bde 89142)."
   ],
-  "elements": [
-    "DOROTHEE chante \"au royaume de diguedondaine\" et présente les différentes rubriques et dessins animés. (Bde 89142)"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.886755"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.942709",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

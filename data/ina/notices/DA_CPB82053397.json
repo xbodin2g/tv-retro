@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053397",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053397/recre-a2-emission-du-04-octobre-1982?rang=167",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:18:33.585999",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Les Bubblies",
     "Jane de la jungle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.913542"
+  "normalized_at": "2026-11-18T21:59:44.962759",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

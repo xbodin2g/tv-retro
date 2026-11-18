@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014297",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014297/giga-emission-du-26-novembre-1992?rang=136",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:37.530056",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,8 @@
     "JEU QUIZAKO",
     "ENQUETE-JEU : quelle type de presse lisez-vous ?"
   ],
-  "normalized_at": "2026-11-17T07:00:10.394500"
+  "normalized_at": "2026-11-18T21:59:46.290465",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB13000358",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13000358/recre-a2-emission-du-20-novembre-1981?rang=312",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:55:49.177099",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,9 +19,10 @@
     "Le prince du soleil (1er épisode)"
   ],
   "elements": [
-    "Mes mains ont la parole",
-    "Le monde de la ferme présenté par Basle Marie-Josée (10) réal : Saintout Jean",
-    "Le prince du soleil (1er épisode)"
+    "Mes mains ont la parole"
   ],
-  "normalized_at": "2026-11-17T07:00:08.567083"
+  "normalized_at": "2026-11-18T21:59:44.684006",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

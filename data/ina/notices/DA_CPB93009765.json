@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009765",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009765/giga-emission-du-21-septembre-1993?rang=247",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:28:44.328327",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "\"Bruno MAMAN dans GIGA \". Interview de Bruno MAMAN par Jean François BOUQUET, qui parle de la façon dont il est arrivé à la chanson. Il présente son 1er album\" Par les temps qui courent \", dont il est auteur-compositeur-interprète. EXTRAITS de son clip avec la chanson\" Qui sait \". Pour GIGA, il fredonne quelques paroles\" Putain de vie \", en s'accompagnant à la guitare."
   ],
   "elements": [
-    "SERIES (achat) : \"La fête à la maison\", \"TV 101\", \"Le Prince de Bel Air\"",
     "LES INFOS DE GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:10.600729"
+  "normalized_at": "2026-11-18T21:59:46.446559",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

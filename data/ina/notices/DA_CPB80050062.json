@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050062",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050062/recre-a2-emission-du-17-mars-1980?rang=172",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:08.119045",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,8 +26,10 @@
   "elements": [
     "Émilie",
     "Mio and Mao",
-    "Le livre de la semaine : Un enfant (off) raconte l'histoire du livre de Tomi UNGERER \"les trois brigands \". Illustrations de l'auteur",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:08.714387"
+  "normalized_at": "2026-11-18T21:59:44.801247",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

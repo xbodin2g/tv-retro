@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002716",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002716/giga-emission-du-8-avril-1992?rang=83",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:31:04.924503",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "LA MEDECINE AU LYCEE : Enquête sur un projet de désacralisation de l'hôpital ; interview élèves de troisième du lycée DIDEROT ; interview Martine Reims, chargé du programme.",
     "BANDE dessinée : \"Fox\", album de Jean DURIEUX et Jean DUFAUX ; BT interview du scénariste, du dessinateur. Jean François Charles commente l'univers de l'album, celui des mineurs du pays noir."
   ],
-  "elements": [
-    "SERIES : \"Salut les copains\"; \"Sois prof et tais-toi \"; Sauvé par le gong\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.265716"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.197064",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

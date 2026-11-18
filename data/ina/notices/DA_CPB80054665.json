@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80054665",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80054665/recre-a2-emission-du-25-mars-1980?rang=175",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:33.763289",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Les Quat'z Amis",
     "Mes mains ont la parole"
   ],
-  "normalized_at": "2026-11-17T07:00:08.754427"
+  "normalized_at": "2026-11-18T21:59:44.832675",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

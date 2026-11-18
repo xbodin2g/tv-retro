@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84051073",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84051073/recre-a2-emission-du-9-fevrier-1984?rang=373",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:04:14.995322",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Albator 84",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.085156"
+  "normalized_at": "2026-11-18T21:59:45.111766",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

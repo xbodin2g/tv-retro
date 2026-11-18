@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001547",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001547/giga-emission-du-22-janvier-1993?rang=89",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:38.224182",
   "program_query": "Giga",
   "programme": "Giga",
@@ -32,5 +32,8 @@
     "3)",
     "5)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.432257"
+  "normalized_at": "2026-11-18T21:59:46.318883",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

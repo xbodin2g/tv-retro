@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014298",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014298/giga-emission-du-27-novembre-1992?rang=226",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:41.657857",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "Un toit pour dix (Achat)",
     "Le prince de Bel Air (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.395289"
+  "normalized_at": "2026-11-18T21:59:46.291088",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

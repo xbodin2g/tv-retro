@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004543",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004543/recre-a2-emission-du-18-fevrier-1986?rang=164",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:23.937531",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Plateau Charlotte et Bernard"
   ],
   "elements": [
-    "Invités de la présentatrice pour un débat télévisé : Mr Ringard, coureur cycliste ; Mr DULITRON, amateur de gros rouge",
     "Téléchat",
     "Image imagine",
     "C'est chouette",
@@ -31,5 +30,8 @@
     "Latulu et Lireli",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.278022"
+  "normalized_at": "2026-11-18T21:59:45.376522",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

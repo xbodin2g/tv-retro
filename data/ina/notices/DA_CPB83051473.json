@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051473",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051473/recre-a2-emission-du-04-mai-1983?rang=456",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:47:36.688905",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,11 +39,12 @@
     "Discopuce",
     "Zeltron",
     "Maraboud'ficelle : CABU fait des dessins au videographe",
-    "Latulu et lireli : William annonce le thème d'aujourd'hui : une vie de chien, et propose des livres dont les héros sont des chiens",
     "Télétactica",
-    "Villa Epcot : Reportage a Epcot (Etats Unis), village pour enfants ou tout est commandé par ordinateur",
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.009912"
+  "normalized_at": "2026-11-18T21:59:45.034745",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

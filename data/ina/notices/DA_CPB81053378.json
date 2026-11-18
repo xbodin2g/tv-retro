@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81053378",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81053378/recre-a2-emission-du-16-juillet-1981?rang=167",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:49:10.422103",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -16,8 +16,10 @@
     "La grande aventure"
   ],
   "elements": [
-    "Ariane et Jean-Jacques présentent l'émission sur le thème de l'Alaska. Aujourd'hui ils parlent des icebergs",
     "La grande aventure"
   ],
-  "normalized_at": "2026-11-17T07:00:08.815249"
+  "normalized_at": "2026-11-18T21:59:44.885178",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

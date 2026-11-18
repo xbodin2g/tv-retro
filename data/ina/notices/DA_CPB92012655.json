@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012655",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012655/giga-emission-du-23-octobre-1992?rang=155",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:41.900582",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,11 @@
   ],
   "elements": [
     "Au sommaire de ce numéro de Giga",
-    "\"LA FETE A LA MAISON\" (Jessé et les Diplomates, Achat)",
-    "questions sur la série \"La Fête à la Maison\"",
     "\"LE LYCEE ALPIN\" (Le Feu d'Artifice)",
     "\"SAUVES PAR LE GONG\"(Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.373566"
+  "normalized_at": "2026-11-18T21:59:46.275105",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

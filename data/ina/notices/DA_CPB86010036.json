@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010036",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010036/recre-a2-emission-du-4-aout-1986?rang=386",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:54.951593",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -22,5 +22,8 @@
     "PAC MAN",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.401871"
+  "normalized_at": "2026-11-18T21:59:45.482360",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

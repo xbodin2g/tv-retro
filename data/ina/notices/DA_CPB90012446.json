@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012446",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012446/recre-a2-emission-du-19-decembre-1978?rang=152",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:26:40.167480",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -29,5 +29,8 @@
     "Candy",
     "Tarzan"
   ],
-  "normalized_at": "2026-11-17T07:00:09.660124"
+  "normalized_at": "2026-11-18T21:59:45.689015",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014778",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014778/recre-a2-emission-du-26-juin-1981?rang=3181",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-17T21:44:58.935496",
   "program_query": "Récré A2",
   "programme": "Récré A2",
@@ -25,5 +25,9 @@
     "Mes mains ont la parole",
     "Satanas et Diabolo",
     "Je veux être toi"
-  ]
+  ],
+  "scope": "jour",
+  "description": "",
+  "programme_works": [],
+  "normalized_at": "2026-11-18T21:59:45.828704"
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001918",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001918/giga-emission-du-22-fevrier-1990?rang=34",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:17.447051",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,10 +24,10 @@
   "elements": [
     "Au programme de GIGA",
     "\"Quoi de neuf docteur ? \" (achat)",
-    "Protection des animaux : présentation par son auteur de l'ouvrage \"Le Grand livre des espèces disparues\". Ce sujet est illustré d'images de Greenpeace",
-    "\"La fête à la maison \"(achat)",
-    "Au Bourget, courses de modèles réduits. Eric NOUGIER, champion, explique sa passion",
-    "GIGA GADGET : dans un laboratoire de recherche, étude du mal de l'espace et des transports grâce à un nouvel appareil (Prod. LA CITE, La Villette)"
+    "\"La fête à la maison \"(achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.449651"
+  "normalized_at": "2026-11-18T21:59:45.521935",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

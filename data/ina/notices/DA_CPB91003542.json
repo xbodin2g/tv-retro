@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003542",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003542/recre-a2-emission-du-26-juin-1984?rang=433",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:11:13.983177",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,11 +25,13 @@
   ],
   "elements": [
     "Yakari",
-    "Le petit écho de la forêt : Vitesse et précipitation",
     "Latulu et Lireli",
     "Télétactica",
     "Terre des bêtes",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.978565"
+  "normalized_at": "2026-11-18T21:59:45.974079",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

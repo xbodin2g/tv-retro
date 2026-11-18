@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014874",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014874/giga-emission-du-7-janvier-1991?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:04.063152",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,8 +24,10 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
-    "visite du Musée de la BD et plus particulièrement de la partie consacrée à Tintin, avec objets et personnages",
     "Diffusion de la série australienne \"Les Twist\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.824726"
+  "normalized_at": "2026-11-18T21:59:45.836092",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_49797.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_49797.001/club-dorothee-vacances-programme-du-15-avril-1995?rang=494",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:21:38.578165",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -28,5 +28,8 @@
     "Goldorak"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.590907",
-  "normalized_at": "2026-11-17T07:00:11.227377"
+  "normalized_at": "2026-11-18T21:59:46.978496",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

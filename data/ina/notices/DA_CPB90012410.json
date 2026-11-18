@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012410",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012410/recre-a2-emission-du-04-decembre-1978?rang=146",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:25:54.145430",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Papivole",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:09.656296"
+  "normalized_at": "2026-11-18T21:59:45.685322",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

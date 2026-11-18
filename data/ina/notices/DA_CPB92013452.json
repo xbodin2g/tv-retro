@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92013452",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92013452/giga-emission-du-3-novembre-1992?rang=40",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:40:09.179406",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,11 +21,11 @@
     "SERIE : SAUVES PAR LE GONG (ACHAT)."
   ],
   "elements": [
-    "SERIE : LYCEE ALPIN n° 19 \"amour interdit\" (réa Laurent LEVY)",
-    "SERIE : LA FETE A LA MAISON \"punitions et chatiments\" (ACHAT)",
     "JEU : QUIZAKO",
-    "REPORTAGE (Jean Christophe TUR) : interview d'Alain CHABAT et Dominique FARRUGIA qui ont réalisé le doublage du film WAYNE'S WORLD. Extrait en VO",
     "SERIE : SAUVES PAR LE GONG (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.380832"
+  "normalized_at": "2026-11-18T21:59:46.280193",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

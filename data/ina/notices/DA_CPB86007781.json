@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007781",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007781/recre-a2-emission-du-27-mai-1986?rang=75",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:06:58.425246",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Latulu et Lireli",
     "Bibifoc"
   ],
-  "normalized_at": "2026-11-17T07:00:09.358521"
+  "normalized_at": "2026-11-18T21:59:45.444474",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

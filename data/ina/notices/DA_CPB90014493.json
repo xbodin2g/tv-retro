@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014493",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014493/giga-emission-du-4-janvier-1991?rang=190",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:01.063926",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   ],
   "elements": [
     "Au sommaire de l'émission",
-    "Série LES TWIST : \"Un coffre à la mer\"",
     "Série : \"Les années collège : le clip\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.806656"
+  "normalized_at": "2026-11-18T21:59:45.819357",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

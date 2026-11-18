@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14000961",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14000961/recre-a2-emission-du-21-juillet-1985?rang=488",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:40:28.079805",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Dorothée et Alain présentent l'émission, compose d'un nouvel épisode de Candy et de 2 chansons de DOROTHEE : \"le bon Dieu\" et \"Les vacances\"."
   ],
-  "elements": [
-    "Dorothée et Alain présentent l'émission, compose d'un nouvel épisode de Candy et de 2 chansons de DOROTHEE : \"le bon Dieu\" et \"Les vacances\""
-  ],
-  "normalized_at": "2026-11-17T07:00:08.615872"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.723721",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

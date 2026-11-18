@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008263",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008263/recre-a2-emission-du-11-juin-1986?rang=409",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:30.869913",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -39,7 +39,6 @@
     "Plateau Dorothée, Jacky et Bill Baxter, Cabu"
   ],
   "elements": [
-    "Jacky, Dorothé, CABU et Roxan présentent Récré A2 matin",
     "Heidi",
     "Mafalda",
     "Methanie ville",
@@ -52,5 +51,8 @@
     "Jane de la jungle",
     "X OR"
   ],
-  "normalized_at": "2026-11-17T07:00:09.373535"
+  "normalized_at": "2026-11-18T21:59:45.456690",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

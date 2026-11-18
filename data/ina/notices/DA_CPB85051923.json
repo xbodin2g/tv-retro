@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051923",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051923/recre-a2-emission-du-12-fevrier-1985?rang=261",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:31:19.026520",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -34,5 +34,8 @@
     "C'est chouette",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.178080"
+  "normalized_at": "2026-11-18T21:59:45.248403",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

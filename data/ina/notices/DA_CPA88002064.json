@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88002064",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88002064/club-dorothee-vacances-emission-du-23-fevrier-1988?rang=359",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:07:30.341205",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -16,10 +16,9 @@
     "CORBIER présente le livre d'Oscar WILDE : \"le crime de Lord Arthur SAVILE\" (livre + cassette audio). DOROTHEE chante \"Docteur\" (Vidéoclip).",
     "Dessin animé : \"Gigi : un amour de chat\"."
   ],
-  "elements": [
-    "Dans un décor de chalet de montagne, JACKY et Ariane jouent aux devinettes, perchés sur des lits superposés",
-    "CORBIER présente le livre d'Oscar WILDE : \"le crime de Lord Arthur SAVILE\" (livre + cassette audio). DOROTHEE chante \"Docteur\" (Vidéoclip)",
-    "Dessin animé : \"Gigi : un amour de chat\""
-  ],
-  "normalized_at": "2026-11-17T07:00:07.998244"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.106002",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

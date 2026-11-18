@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79057432",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79057432/recre-a2-emission-du-07-mars-1979?rang=346",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:09:08.602065",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,22 +40,18 @@
   ],
   "elements": [
     "Mini-histoires",
-    "Discobus : Clip Deborah Harry \"Heart of glass\" Plateau Ariane Gil",
     "A2000",
-    "Discobus Plateau Ariane Gil : Kernoa \"Le bal des baladins\"",
     "Maraboud'ficelle",
-    "Discobus Plateau Ariane Gil : Les fêlés \"Mon lycée\"",
     "Il court, il court, le courrier",
     "Rêves pour un scénario",
-    "Discobus Plateau Ariane Gil : Una RAMOS \"Reflejos de sol\"",
     "La Caverne d'Abracadabra",
     "Discobus Plateau Ariane Gil : Una RAMOS",
-    "Flash récré A2 : P. SIMPSON JONES et H. CHARDAK",
-    "Au quartier de la mandarine : Les enfants montrent avec Quentin, pierre et Blandine comment fabriquer une maison pour les oiseaux",
     "Je veux être toi",
-    "Discobus Plateau Ariane Gil : Jean MARTIN chante une chanson rébus",
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.706058"
+  "normalized_at": "2026-11-18T21:59:44.794891",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

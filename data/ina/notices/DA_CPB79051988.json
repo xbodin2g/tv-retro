@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79051988",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79051988/recre-a2-emission-du-13-juin-1979?rang=352",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:14:03.523483",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -46,16 +46,13 @@
   ],
   "elements": [
     "Direct du Bourget",
-    "Discobus : Plateau Ariane Gil, G. MANSET chante \"royaume de Siam \"",
     "Mini histoires",
     "La Panthère rose",
     "Maraboud'ficelle",
-    "Discobus : Plateau Ariane Gil, S. SALA chante \"papillons noirs\"",
     "Flash Récré A2",
     "A2000",
     "Bus parade : Plateau Ariane Gil",
     "Il court, il court, le courrier...avec les Bubblies",
-    "Discobus : Plateau Ariane Gil, M. Rongier chante \"Les cerises\"",
     "La Caverne d'Abracadabra",
     "Discobus : Plateau Ariane Gil, A. Bucy",
     "Quartier de la mandarine",
@@ -65,5 +62,8 @@
     "Reportage Bubblies",
     "Les Bubblies"
   ],
-  "normalized_at": "2026-11-17T07:00:08.670273"
+  "normalized_at": "2026-11-18T21:59:44.768903",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

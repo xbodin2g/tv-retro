@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014676",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014676/recre-a2-emission-du-26-mai-1980?rang=189",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:23:45.315692",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,8 +27,10 @@
     "Émilie",
     "Atelier-balai Samsong",
     "Mio and Mao",
-    "Le livre de la semaine : ( Le ver, cet inconnu )",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:09.812370"
+  "normalized_at": "2026-11-18T21:59:45.824713",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

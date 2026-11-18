@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85100623",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85100623/recre-a2-emission-du-13-septembre-1985?rang=500",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:42:45.435720",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "QU'EST-CE, QU'EST-CE, QU'EST-CE (le Voyage)."
   ],
   "elements": [
-    "Willy et Dorothée dans une bibliothèque pour présenter les séquences",
     "POOCHIE N°4 : \"Petit creux\" N° 4",
     "IL ETAIT UN FOIS UN CHIEN (DA Ukrainien)",
     "PLOOM N°4 (Ploom déménage)",
@@ -33,5 +32,8 @@
     "TCHAOU ET GRODO (Clip)",
     "QU'EST-CE, QU'EST-CE, QU'EST-CE (le Voyage)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.203873"
+  "normalized_at": "2026-11-18T21:59:45.275202",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

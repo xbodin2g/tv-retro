@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004847",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004847/giga-emission-du-13-avril-1993?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:39.926119",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "SERIES. La fête à la maison : \"Plein la vue\". Quoi de neuf docteur : dernier épisode. Major Dad : \"Un spécimen très rare\"."
   ],
   "elements": [
-    "Le Dr Thierry JOLY, pédiatre, conseille des ados par téléphone : asthme d'effort ; pertes vaginales ; psoriasis ; ongles rongés",
-    "Les jeunes sur le plateau expliquent comment draguer",
-    "SERIES. La fête à la maison : \"Plein la vue\". Quoi de neuf docteur : dernier épisode. Major Dad : \"Un spécimen très rare\""
+    "Les jeunes sur le plateau expliquent comment draguer"
   ],
-  "normalized_at": "2026-11-17T07:00:10.495103"
+  "normalized_at": "2026-11-18T21:59:46.362017",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009048",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009048/recre-a2-emission-du-3-juillet-1986?rang=374",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:09:32.460467",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,11 +19,12 @@
     "Dorothée et Jacky propose le livre du jour : \"Le nez de Véronique\"."
   ],
   "elements": [
-    "Dorothée et Jacky nous présentent le sommaire de l'émission",
     "Mafalda",
     "Super DOC : Pétard pan (2)",
-    "Clémentine : rediffusion de \"Clémentine en Afrique\"",
-    "Dorothée et Jacky propose le livre du jour : \"Le nez de Véronique\""
+    "Clémentine : rediffusion de \"Clémentine en Afrique\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.383805"
+  "normalized_at": "2026-11-18T21:59:45.465958",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

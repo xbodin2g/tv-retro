@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005929",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005929/giga-emission-du-26-juin-1990?rang=66",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:50:34.696316",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "GIGA SERIE : ALF (achat)",
-    "SORTIE CINE : extraits de \"Touche pas à ma fille\" et \"les as du clip\""
+    "GIGA SERIE : ALF (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.516441"
+  "normalized_at": "2026-11-18T21:59:45.572760",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

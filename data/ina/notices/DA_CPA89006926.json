@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89006926",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89006926/club-dorothee-vacances-emission-du-3-juillet-1989?rang=265",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:20:01.282224",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -17,10 +17,9 @@
     "DOROTHEE et ARIANE présentent le jeu de l'été,les 63 soleils; le jeu du Splitch,splatch,splutch,vlan avec JACKY qui reçoit des tartes à la crème.JACKY propose le disque dédicacé.",
     "MINET et son orchestre LES MUSCLES rendent visite à l'émission."
   ],
-  "elements": [
-    "Depuis la plage de Nice,DOROTHEE et son équipe présentent l'émission.Au sommaire",
-    "D.A. \"Juliette je t'aime!\", \"Muscleman\", \"Bioman 3 Liveman: la métamorphose d'Arachi\",\"Les chevaliers du Zodiaque\" (achats)",
-    "MINET et son orchestre LES MUSCLES rendent visite à l'émission"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.267423"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.384202",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

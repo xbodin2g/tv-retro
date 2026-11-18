@@ -2,7 +2,7 @@
   "notice_id": "TV_100413.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_100413.001/club-dorothee-vacances-programme-du-4-aout-1995?rang=331",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:31:06.339398",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -23,5 +23,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.282601",
-  "normalized_at": "2026-11-17T07:00:10.738852"
+  "normalized_at": "2026-11-18T21:59:46.564372",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83056611",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83056611/recre-a2-emission-du-25-novembre-1983?rang=387",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:58:37.644570",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Silas",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.065415"
+  "normalized_at": "2026-11-18T21:59:45.086180",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

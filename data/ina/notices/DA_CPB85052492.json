@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052492",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052492/recre-a2-emission-du-22-avril-1985?rang=281",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:35:55.519815",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Téléchat.(Bde 133 522 et k7n)."
   ],
   "elements": [
-    "JACKY interviewe la \"star\" charlotte Cadillac au bord de sa piscine hollywoodienne",
     "Poochie",
     "Les Schtroumpfs",
     "Latulu et Lireli",
@@ -31,5 +30,8 @@
     "PAC Man",
     "Téléchat.(Bde 133 522 et k7n)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.189970"
+  "normalized_at": "2026-11-18T21:59:45.261051",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

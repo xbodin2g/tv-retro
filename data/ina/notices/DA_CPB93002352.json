@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93002352",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002352/giga-emission-du-4-fevrier-1993?rang=93",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:17:09.834344",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Reportage : 1000 pratiquants en France pour ce sport qui provoque un engouement chez les jeunes \"le tumbling\". A base de sauts et de culbutes il diffère de la gymnastique. Chrystel ROBERT et Pascal EOUZAN, champions de France, en disent quelques mots. Démonstration par divers participants à Rennes."
   ],
   "elements": [
-    "Au sommaire de ce Giga",
-    "Les séries : \"Quoi de neuf Docteur\", \"Sois prof et tais-toi \", \"La fête à la maison\", \"Major Dad\""
+    "Au sommaire de ce Giga"
   ],
-  "normalized_at": "2026-11-17T07:00:10.441314"
+  "normalized_at": "2026-11-18T21:59:46.325686",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

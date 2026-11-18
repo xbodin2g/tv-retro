@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004545",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004545/giga-emission-du-6-avril-1993?rang=128",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:20.356695",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,11 +21,10 @@
     "SERIE / QUOI DE NEUF DOCTEUR ? SERIE / MAJOR DAD."
   ],
   "elements": [
-    "Au sommaire de l'émission animée par Manuel GELIN et Clémentine",
-    "SERIE / LA FETE A LA MAISON (achat)",
-    "SERIE / HAPPY DAYS : Les vacances de Pâques (achat)",
-    "Le docteur Thierry JOLY répond aux questions téléphoniques : le SIDA, la contraception, les rapports sexuels",
-    "SERIE / QUOI DE NEUF DOCTEUR ? SERIE / MAJOR DAD"
+    "SERIE / LA FETE A LA MAISON (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.489156"
+  "normalized_at": "2026-11-18T21:59:46.357882",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

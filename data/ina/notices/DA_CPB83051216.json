@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051216",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051216/recre-a2-emission-du-06-avril-1983?rang=454",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:46:06.226948",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,7 +40,6 @@
   "elements": [
     "Chapi Chapo",
     "Matou chat des champs et souriceau",
-    "Maraboud'ficelle : CABU dessine un vélo, puis compose un personnage avec les éléments du vélo",
     "Discopuce",
     "Boule et Bill",
     "Télétactica",
@@ -49,5 +48,8 @@
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.005964"
+  "normalized_at": "2026-11-18T21:59:45.031544",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

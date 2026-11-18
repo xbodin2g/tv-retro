@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91014121",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014121/giga-emission-du-3-decembre-1991?rang=170",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:22:28.409937",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "Diffusion de trois séries américaines : \"Un toit pour dix\"; \"Quoi de neuf docteur\"; \"Sauvés par le gong \".",
     "QUIZAKO : jeu dont la première manche se compose de trois questions sur la série\"Un toit pour dix \"; la seconde manche de trois questions sur la WARNER."
   ],
-  "elements": [
-    "Diffusion de trois séries américaines : \"Un toit pour dix\"; \"Quoi de neuf docteur\"; \"Sauvés par le gong \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.170936"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.124341",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

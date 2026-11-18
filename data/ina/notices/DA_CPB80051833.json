@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80051833",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80051833/recre-a2-emission-du-30-decembre-1980?rang=115",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:35:53.108291",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "Mes mains ont la parole",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:08.730475"
+  "normalized_at": "2026-11-18T21:59:44.814296",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

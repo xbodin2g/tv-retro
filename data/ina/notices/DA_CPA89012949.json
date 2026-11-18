@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012949",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012949/club-dorothee-emission-du-3-janvier-1990?rang=35",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:41:30.216120",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -35,9 +35,7 @@
     "Au sommaire",
     "CAP DANGER : feuilleton américain (achat)",
     "Jeu : le mot mystérieux ( \"spectacle\")",
-    "WINGMAN : dessin animé (achat) Liaison duplex avec le Champ de Mars et Bercy",
     "DRAGON BALL : dessin animé (achat)",
-    "Jeu du sixième soleil de l'automne et jeu \"Juliette\"",
     "Duplex avec le Champ de Mars et Bercy",
     "UN COLLEGE FOU FOU FOU: dessin animé (achat)",
     "Duplex avec Bercy et le Champ de Mars",
@@ -50,5 +48,8 @@
     "AB PRODUCTIONS : \"Salut les musclés\" (CPA90003736)",
     "Chanson finale de Dorothée (en direct de Bercy)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.337181"
+  "normalized_at": "2026-11-18T21:59:44.463833",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

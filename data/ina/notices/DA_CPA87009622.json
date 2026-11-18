@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009622",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009622/club-dorothee-emission-du-12-octobre-1987?rang=55",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:11:24.587043",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -15,8 +15,9 @@
     "Dorothée et les présentateurs présentent des bijoux en caoutchouc.",
     "Diffusion du dessin animé \"Clair de lune\" (achat)."
   ],
-  "elements": [
-    "Dorothée et les présentateurs présentent des bijoux en caoutchouc"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.936676"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.054927",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

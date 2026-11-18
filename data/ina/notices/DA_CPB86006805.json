@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006805",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006805/recre-a2-emission-du-19-avril-1986?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:04:06.832994",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "L'Empire des 5",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.330842"
+  "normalized_at": "2026-11-18T21:59:45.422326",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

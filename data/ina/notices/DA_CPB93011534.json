@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011534",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011534/giga-emission-du-15-novembre-1993?rang=29",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:31:30.351845",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "DELEGATION NATIONALE LYCEENNE. Court reportage au lycée François TRUFFAUT : élections des délégués de classe ; le rôle des délégations lycéennes et des délégués de classe expliqués OFF et par Joël OLIVE, proviseur.",
     "SERIES (Achats): Sauvés Per le gong : \"La guerre des collèges\"; Sois prof et tais-toi : \"Ode à Simone\"."
   ],
-  "elements": [
-    "SERIES (Achats): Sauvés Per le gong : \"La guerre des collèges\"; Sois prof et tais-toi : \"Ode à Simone\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.631029"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.471038",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

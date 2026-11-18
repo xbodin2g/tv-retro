@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12002664",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002664/recre-a2-emission-du-02-octobre-1978?rang=74",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:22:59.251812",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Papivole",
     "Wattoo Watoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.520085"
+  "normalized_at": "2026-11-18T21:59:44.634792",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

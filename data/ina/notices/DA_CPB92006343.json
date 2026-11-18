@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006343",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006343/giga-emission-du-9-juillet-1992?rang=218",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:35:14.107826",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Au sommaire de Giga \"le Prince de Bel Air\".",
     "Giga reportage : Un responsable du micro zoo du Muséum d'Histoire Naturelle donne des explications sur la faune qu'il abrite. Des animaux minuscules y sont regroupés. Tels mille pattes, insectes primitifs, punaise, pseudo scorpion. A l'état naturel ce sont des animaux que l'on peut trouver dans la terre, sur des roches mais aussi dans nos réserves alimentaires. Il propose 2 livres sur l'infiniment petit."
   ],
-  "elements": [
-    "Au sommaire de Giga \"le Prince de Bel Air\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.323462"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.237957",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001148",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001148/giga-emission-du-9-fevrier-1994?rang=78",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:45:18.415196",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Diffusion des séries : Seconde B et Sauvés par le gong.",
     "Interview de Julie DELPY réalisée par Richard ADARIDI à propos du film \"Les Trois Mousquetaires\", film de Stéphen HEREK. Elle joue le rôle de Constance et pense que ce film très romancé s'adresse à un public très jeune."
   ],
-  "elements": [
-    "Diffusion des séries : Seconde B et Sauvés par le gong"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.669277"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.501356",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

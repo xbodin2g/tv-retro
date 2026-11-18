@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79056542",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79056542/recre-a2-emission-du-25-avril-1979?rang=381",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:11:32.271387",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -44,19 +44,15 @@
     "La fée raconte : Georges et le dragon"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, Y. SIMON chante : \"attention futur \"",
     "Marco Polo raconté par Willy LEYMERGIE et Dorothée",
     "Mini histoires",
-    "Il court, il court, le courrier : Henriette et Kali",
     "La Panthère rose",
     "A2000",
-    "Discobus : Plateau Ariane Gil, Y. SIMON chante : \"les rues de France \"",
     "Flash Récré A2",
     "Maraboud'ficelle",
     "Discobus : Plateau Ariane Gil",
     "Samsong atelier balai",
     "Il court, il court, le courrier",
-    "Discobus : Plateau Ariane Gil, Clip Roger Glover \"Love is all\"",
     "La Caverne d'Abracadabra",
     "Discobus",
     "Discorébus",
@@ -64,5 +60,8 @@
     "Les Bubblies",
     "La fée raconte : Georges et le dragon"
   ],
-  "normalized_at": "2026-11-17T07:00:08.702448"
+  "normalized_at": "2026-11-18T21:59:44.792079",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

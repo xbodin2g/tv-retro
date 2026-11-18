@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013861",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013861/recre-a2-emission-du-03-mars-1980?rang=51",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:19:29.160780",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,8 +27,10 @@
     "Boule et Bill",
     "Atelier-balai Samsong",
     "Mio and Mao",
-    "Le livre de la semaine : \"Pierrot ou les secrets de la nuit\"",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:09.762754"
+  "normalized_at": "2026-11-18T21:59:45.782859",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

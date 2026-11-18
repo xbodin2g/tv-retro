@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905244201",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905244201/recre-a2-emission-du-21-novembre-1979?rang=391",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:21:52.741425",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -37,7 +37,6 @@
   "elements": [
     "Numéros de clowns par le trio les barios",
     "La Panthère rose",
-    "J. LACROIX spécialiste en anagrammes : Anagrammes à partir des lettres composant le nom des départements français/",
     "Récré A2",
     "Samsong atelier balai",
     "A2000",
@@ -47,9 +46,11 @@
     "Anagrammes",
     "Dotation A2000",
     "Goldorak",
-    "Numéros de clowns par le trio les barios : numéro de claquettes",
     "Émilie",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.675225"
+  "normalized_at": "2026-11-18T21:59:44.772660",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005862",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005862/giga-emission-du-15-juin-1990?rang=166",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:49.339196",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     ": Int. de Hervé LABBE, qui produit des \"short vidéos\". [Différents plans] de Hervé en train de tourner un clip de 30 \", en un plan séquence, avec un décor de papier journal et de carton. Il produit des\" remakes \"de grands films (10 fois 6 '). Extrait de\" Indiana JONES \"(remake)."
   ],
   "elements": [
-    "Au sommaire de l'émission",
-    "Viéoclips de Janet JACKSON, Tears for fear (Sawing the fears), The Mission (Wawes upon the SAND), extrait de \"Vingt ans de rock\""
+    "Au sommaire de l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:09.515044"
+  "normalized_at": "2026-11-18T21:59:45.571472",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

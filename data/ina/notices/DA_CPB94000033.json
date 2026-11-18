@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000033",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000033/giga-emission-du-4-janvier-1994?rang=108",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:43:36.492205",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Au cours de cette émission, diffusion de courts sujets : l'un donnant les dates des prochaines vacances scolaires, l'autre un petit microtrottoir où l'on demande aux gens qui ils choisiraient pour roi ou reine dans le cadre de la galette des rois. Les réponses vont de Sophie FAVIER à Claudia SCHIFFER en passant par VERCINGETORIX.",
     "Diffusion de trois séries (achats) : Un toit pour dix \"Mon roi, ma reine\", Sauvés par le gong \"Suivis par le gang\" et Le prince de Bel Air."
   ],
-  "elements": [
-    "Diffusion de trois séries (achats) : Un toit pour dix \"Mon roi, ma reine\", Sauvés par le gong \"Suivis par le gang\" et Le prince de Bel Air"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.652439"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.488913",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

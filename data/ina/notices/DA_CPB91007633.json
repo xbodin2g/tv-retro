@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007633",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007633/giga-emission-du-11-avril-1991?rang=16",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:11:31.189073",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     "Boîtes boisson (les surprises de Giga). Edouard WEIL présente sa collection de 700 canettes exposées à La Villette. Pierre DUCONSEILLE (responsable de l'expo) et Josiane WOLF (SOLAC) commentent cet excellent support publicitaire exploité dans tous les pays."
   ],
   "elements": [
-    "Diffusion des séries \"La fête à la maison\" et \"Quoi de neuf docteur\"",
-    "REPORTAGES",
-    "Motos sur glace. Images de motos sur circuit de glace, et de \"skijoring\": skieurs tirés par motos"
+    "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.038077"
+  "normalized_at": "2026-11-18T21:59:46.023176",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

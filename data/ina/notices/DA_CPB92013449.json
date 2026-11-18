@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92013449",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92013449/giga-emission-du-29-octobre-1992?rang=39",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:57.726419",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,14 +24,10 @@
     "SERIES : \"Lycée Alpin\" : indexation séparée. \"La fête à la maison\" (achat)."
   ],
   "elements": [
-    "2 reportages au menu de l'émission d'aujourd'hui",
-    "Delphine DELORD parle de la mutation chromosomique du tigre blanc",
-    "ADOSTROPHES : sélection de livres pour adolescents présentée par Olivier WALLERAND avec une brève interview des auteurs",
-    "Laurent PAYET parle de \"L'argot\", au départ, signe de reconnaissance des membres de pègre",
-    "L'auteur de \"Océanie\" explique qu'il a tenté d'adapter son style aà l'histoire qu'il raconte",
-    "Céline BELLANGER, dans \"La pluie au crépuscule\" raconte l'histoire d'une institutrice amoureuse de son voisin, pianiste, qui joue du SATIE",
-    "\"L'oiseau sans pattes \"est une biographie de Tennessee WILLIAMS et montre son intérêt pour ceux qui ne sont pas des héros",
-    "SERIES : \"Lycée Alpin\" : indexation séparée. \"La fête à la maison\" (achat)"
+    "2 reportages au menu de l'émission d'aujourd'hui"
   ],
-  "normalized_at": "2026-11-17T07:00:10.377443"
+  "normalized_at": "2026-11-18T21:59:46.277852",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

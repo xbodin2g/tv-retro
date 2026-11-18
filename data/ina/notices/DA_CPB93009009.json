@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009009",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009009/giga-emission-du-23-aout-1993?rang=244",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:27:26.538682",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
     "Au sommaire de ce numéro de Giga",
     "\"Happy Days\": De l'huile sur le feu (Achat)",
     "\"Le Landskate\" Jou : Patrice DOUCET, Re",
-    "\"Le Prince de Bel Air\": Donner c'est donner (Achat)",
     "\"Amours de Vacances\" Jou : Nadine KUHN, Re"
   ],
-  "normalized_at": "2026-11-17T07:00:10.589281"
+  "normalized_at": "2026-11-18T21:59:46.437002",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

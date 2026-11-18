@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80050323",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80050323/recre-a2-emission-du-1er-avril-1980?rang=349",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:20:52.799828",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,20 +36,19 @@
     "Plateau fin"
   ],
   "elements": [
-    "En cette journée du 1er avril, DOROTHEE présente l'émission en direct du théâtre de l'empire avec la participation de toute l'équipe de Récré A2",
-    "Discorébus : Plateau A. gil et Dorothée, Martin propose une devinette à partir de sa chanson \"pour faire une java\"",
     "Émilie",
     "Wattoo Wattoo",
     "Maraboud'ficelle",
     "Dinoboy",
     "Mes mains ont la parole",
-    "Anagrammes : Le poisson d'avril étant à l'honneur J. LACROIX propose une série d'anagrammes réalisées à partir de noms de Poissons",
-    "Sports Récré A2 P. S JONES : Le tranpoline",
     "Les nouvelles aventures de Zeltron",
     "Anagrammes",
     "La Panthère rose",
     "Popeye",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:08.718518"
+  "normalized_at": "2026-11-18T21:59:44.804239",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

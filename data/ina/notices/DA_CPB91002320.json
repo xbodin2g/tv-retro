@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002320",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002320/recre-a2-emission-du-28-mai-1983?rang=186",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:49:30.552324",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Latulu et Lireli",
     "Les Schtroumpfs"
   ],
-  "normalized_at": "2026-11-17T07:00:09.953980"
+  "normalized_at": "2026-11-18T21:59:45.943950",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_76890.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_76890.001/club-dorothee-programme-du-23-juin-1995?rang=238",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:27:50.134993",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,5 +20,8 @@
     "Arnold et Willy : [Hollywood laitiez nous voila]"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.700176",
-  "normalized_at": "2026-11-17T07:00:11.553098"
+  "normalized_at": "2026-11-18T21:59:47.237604",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

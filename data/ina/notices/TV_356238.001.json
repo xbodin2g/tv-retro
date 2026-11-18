@@ -2,7 +2,7 @@
   "notice_id": "TV_356238.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_356238.001/club-dorothee-vacances-programme-du-17-juillet-1996?rang=216",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:33:55.296635",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,8 @@
     "Premiers baisers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.498542",
-  "normalized_at": "2026-11-17T07:00:11.069294"
+  "normalized_at": "2026-11-18T21:59:46.847294",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

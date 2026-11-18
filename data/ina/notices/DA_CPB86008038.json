@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008038",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008038/recre-a2-emission-du-03-juin-1986?rang=78",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:07:59.782972",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Plateau Bernard et Marie"
   ],
   "elements": [
-    "Marie essaie en vain de réveiller Bernard pour présenter l'émission",
     "Téléchat",
     "Image imagine",
     "C'est chouette",
@@ -31,5 +30,8 @@
     "Latulu et Lireli",
     "Bibifoc : Le Voyage"
   ],
-  "normalized_at": "2026-11-17T07:00:09.367091"
+  "normalized_at": "2026-11-18T21:59:45.450953",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

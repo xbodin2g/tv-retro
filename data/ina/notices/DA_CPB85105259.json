@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85105259",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85105259/recre-a2-emission-du-03-decembre-1985?rang=358",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:44:42.792606",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,7 +28,6 @@
     "Téléchat"
   ],
   "elements": [
-    "Charlotte et Alain, dans un décor de sports d'hiver",
     "Image imagine",
     "C'est chouette",
     "Super Doc : Chauds les objets ! (2)",
@@ -39,5 +38,8 @@
     "Les mondes engloutis",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.224948"
+  "normalized_at": "2026-11-18T21:59:45.327406",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

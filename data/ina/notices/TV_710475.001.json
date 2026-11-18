@@ -2,7 +2,7 @@
   "notice_id": "TV_710475.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_710475.001/tf-jeunesse-programme-du-8-novembre-1997?rang=97",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:40:07.253288",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -21,9 +21,11 @@
     "[Présentation : 4ème partie]"
   ],
   "elements": [
-    "[Présentation",
     "Les aventures de Madison",
     "Salut les toons"
   ],
-  "normalized_at": "2026-11-17T07:00:11.477529"
+  "normalized_at": "2026-11-18T21:59:47.180021",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

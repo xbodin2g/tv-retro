@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012862",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012862/giga-emission-du-28-octobre-1991?rang=165",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:20:37.985498",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "GIGA REPORTAGE Winnie JAMES (JOU : Patrick MARSAULT) Le chanteur Winnie JAMES installé au bord de l'eau se présente et joue un petit morceau à la guitare. On le voit ensuite dans son clip \"Black money\". Il parle (en anglais) des différences influences qui l'ont modelé, de la musique, de l'importance du rock. Il présente son dernier disque, parle de son expérience d'Américain standard, des pbs actuellement aux USA puis il chante en s'accomagnant à la guitare."
   ],
   "elements": [
-    "Série : SAUVES PAR LE GONG : LA CHORALE",
     "Série : LA FETE A LA MAISON"
   ],
-  "normalized_at": "2026-11-17T07:00:10.142038"
+  "normalized_at": "2026-11-18T21:59:46.103582",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

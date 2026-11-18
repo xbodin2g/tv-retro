@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007226",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007226/giga-emission-du-14-mars-1991?rang=43",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:10.489876",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "HOMMAGE A GAINSBOURG, dernier chapitre. Extraits d'interview de Serge GAINSBOURG, micro trottoir de jeunes, photos de Jane BIRKIN, en off, quelques refrains de ses chansons."
   ],
   "elements": [
-    "Diffusion des séries \"Sauvés par le gong\" et \"Zorro\"",
     "Trois reportages composent par ailleurs l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.024958"
+  "normalized_at": "2026-11-18T21:59:46.013239",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

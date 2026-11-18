@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89004063",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89004063/club-dorothee-emission-du-19-avril-1989?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:11:53.187375",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,16 +29,13 @@
   "elements": [
     "LE NOMBRE D'OR",
     "TU CHANTES, TU GAGNES",
-    "JACKY SEAU : Confetti renverse un seau d'eau sur la tête de Jacky, il fallait prévoir l'heure exacte de ce moment",
     "LE JEU DU TELEPHONE",
-    "TOP JUNIOR (avec la marque Kiri) : un hit parade des meilleurs titres",
     "JEU DE L'ABC : jeu d'arrosage",
-    "Docs exts : - JULIETTE JE T'AIME (DA) : \"L'image de Maxime\"",
     "Lamu (DA) : \"Lamu s'en va\"",
-    "GI Joe (DA) : \"Le sceau de l'Alaska\"",
-    "DRAGON BALL (DA) : Sangoku contre la momie \"",
-    "LES CHEVALIERS DU ZODIAQUE : \"L'armure d'or\". BIOMAN II (série) : \"La mort de Barbare\"",
-    "Ken LE SURVIVANT : \"Les chasseurs de cobayes \""
+    "GI Joe (DA) : \"Le sceau de l'Alaska\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.229360"
+  "normalized_at": "2026-11-18T21:59:44.347492",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

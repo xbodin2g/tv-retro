@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87004349",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87004349/salut-les-petits-loups-plateau-emission-du-17-juin-1987?rang=24",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:51:29.266998",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -25,10 +25,11 @@
     ": dessin animé."
   ],
   "elements": [
-    "ORLY, la petite fille, amène un caddy plein de jouets pour les gagnants du jeu, puis elle donne son \"bulletin météo\"",
     "Clip de Marie Pierre",
-    "dessin animé",
-    "Teddy Boy raconte l'histoire d'Elvis PRESLEY, et chante deux chansons"
+    "dessin animé"
   ],
-  "normalized_at": "2026-11-17T07:00:07.917767"
+  "normalized_at": "2026-11-18T21:59:44.040404",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

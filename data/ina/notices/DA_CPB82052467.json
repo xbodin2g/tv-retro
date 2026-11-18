@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052467",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052467/recre-a2-emission-du-22-septembre-1982?rang=363",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:17:53.783254",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -56,9 +56,7 @@
     "Maraboud'ficelle",
     "Discopuce",
     "Casper et ses amis",
-    "Maraboud'ficelle : CABU fait des dessins à partir d'une feuille d'arbre",
     "Zeltron",
-    "J. LACROIX propose un nouveau jeu à partir de trois lettres",
     "Télétactica",
     "Jeu des trois lettres",
     "Clip Discopuce",
@@ -66,5 +64,8 @@
     "La Panthère rose",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.894337"
+  "normalized_at": "2026-11-18T21:59:44.948712",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

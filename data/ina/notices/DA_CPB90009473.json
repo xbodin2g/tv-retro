@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009473",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009473/giga-emission-du-24-octobre-1990?rang=89",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:56:49.677546",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "-Bande-annonce du spectacle de Carole LAURE au Bataclan qui sera prochainement diffusé sur A2."
   ],
   "elements": [
-    "SERIE : \"Larry ET BALKY\"",
-    "Bande-annonce du spectacle de Carole LAURE au Bataclan qui sera prochainement diffusé sur A2"
+    "SERIE : \"Larry ET BALKY\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.597154"
+  "normalized_at": "2026-11-18T21:59:45.633331",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

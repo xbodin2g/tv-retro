@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004671",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004671/giga-emission-du-23-juin-1992?rang=46",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:34:08.482236",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
     "Au sommaire de Giga aujourd'hui",
     "GOAL (Série française)",
     "LES ANNEES COLLEGE (série, achat)",
-    "LE PRINCE DE BEL AIR (série, achat)",
-    "JEU QUIZAKO portant sur les séries diffusées pendant l'émission"
+    "LE PRINCE DE BEL AIR (série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.310579"
+  "normalized_at": "2026-11-18T21:59:46.228840",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005483",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005483/giga-emission-du-6-mai-1993?rang=190",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:12.004570",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "LE Docteur GIGA répond aux téléspectateurs : un nez qui coule, le timbre anti tabac, les troubles de mémoires, un kyste des sinus."
   ],
   "elements": [
-    "Reportages",
-    "LE Docteur GIGA répond aux téléspectateurs : un nez qui coule, le timbre anti tabac, les troubles de mémoires, un kyste des sinus"
+    "Reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.515487"
+  "normalized_at": "2026-11-18T21:59:46.376158",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

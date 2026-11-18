@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053155",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053155/recre-a2-emission-du-03-septembre-1982?rang=356",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:15:52.890745",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -23,8 +23,10 @@
   "elements": [
     "Casper et ses amis",
     "Quaq Quao",
-    "Spectreman",
-    "F. CORBIER chante \"une petite chanson pour Isabelle\" (4')bande 78630"
+    "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:08.909094"
+  "normalized_at": "2026-11-18T21:59:44.959092",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

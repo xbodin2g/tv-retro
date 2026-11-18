@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052392",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052392/recre-a2-emission-du-17-mai-1983?rang=236",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:48:28.904900",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Bande 60337"
   ],
-  "normalized_at": "2026-11-17T07:00:09.032173"
+  "normalized_at": "2026-11-18T21:59:45.052020",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

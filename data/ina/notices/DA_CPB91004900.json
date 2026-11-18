@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91004900",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91004900/recre-a2-emission-du-03-mai-1985?rang=418",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:36:31.468024",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,15 +23,14 @@
     "Téléchat"
   ],
   "elements": [
-    "Jacky, en concierge, et Charlotte, en locataire qui revient de vacances, présentent l'émission",
-    "Poochie : Marie explique à Poochie pourquoi quelquefois les gens se parlent sans se comprendre (incrustation dans une animation)",
     "Teddy",
-    "Latulu et lireli : Les 365 jours de benjamin",
     "Clip Albator 84",
-    "CABU dessine le grand Duduche et son concierge pour Charlotte",
     "Les maîtres de l'univers",
     "Jacky, en concierge, et Charlotte",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.989089"
+  "normalized_at": "2026-11-18T21:59:45.985379",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

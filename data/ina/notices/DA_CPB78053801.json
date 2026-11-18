@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78053801",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78053801/recre-a2-emission-du-17-juillet-1978?rang=42",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:19:44.156333",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,9 +20,11 @@
     "Plateau Gérard Chambre"
   ],
   "elements": [
-    "Gérard CHAMBRE fait l'historique de la planche a roulettes. Il tente d'en faire une démonstration. No de bande 53261",
     "Goldorak",
     "Cet Après Midi...Marionettes"
   ],
-  "normalized_at": "2026-11-17T07:00:08.656223"
+  "normalized_at": "2026-11-18T21:59:44.757529",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

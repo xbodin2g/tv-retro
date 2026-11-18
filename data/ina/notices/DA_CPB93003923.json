@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003923",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003923/giga-emission-du-17-mars-1993?rang=218",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:28.101046",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,12 +21,12 @@
     "MAJOR DAD : série américaine."
   ],
   "elements": [
-    "Emission présentée par Manuel GELIN avec au sommaire",
-    "Un reportage sur le groupe les Infidèles qui parle de leur parcours artistique ; extrait de concert",
     "LA FETE A LA MAISON (Séire Américaine)",
     "HAPPY DAYS : série américaine",
-    "MEDECINE : le docteur Thierry JOLY, pédiatre, répond aux questions des adolescents. QUOI DE NEUF DOCTEUR : série américaine",
     "MAJOR DAD : série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:10.473771"
+  "normalized_at": "2026-11-18T21:59:46.347149",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

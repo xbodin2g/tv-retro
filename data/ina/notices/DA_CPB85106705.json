@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85106705",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106705/recre-a2-plateau-emission-du-28-decembre-1985?rang=370",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:45:13.684507",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Charlotte présente l'émission."
   ],
-  "elements": [
-    "Charlotte présente l'émission"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.233242"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.338019",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052167",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052167/recre-a2-emission-du-09-mars-1985?rang=402",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:33:00.392535",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "MARIE et ALAIN présentent l'émission costumes en agents secrets. Diffusion d'un épisode des schtroumpfs : \"une masure pour rien \". (Bde 113 348)"
   ],
-  "elements": [
-    "MARIE et ALAIN présentent l'émission costumes en agents secrets. Diffusion d'un épisode des schtroumpfs : \"une masure pour rien \". (Bde 113 348)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.183394"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.254051",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

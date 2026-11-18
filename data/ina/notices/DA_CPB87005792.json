@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB87005792",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB87005792/recre-a2-emission-du-6-mai-1987?rang=91",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:41:53.280309",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -22,10 +22,10 @@
     "C'EST CHOUETTE."
   ],
   "elements": [
-    "Dorothée présente l'",
-    "VOS CHANSONS PREFEREES : extrait de la comédie musicale \"La chanson des animaux\" (1984) que CORBIER chante avec Dorothée",
-    "LE MONDE SELON Georges : LA TERRE EN DIRECT DE L'ESPACE",
     "C'est chouette"
   ],
-  "normalized_at": "2026-11-17T07:00:09.441471"
+  "normalized_at": "2026-11-18T21:59:45.516321",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

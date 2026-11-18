@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8105486506",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8105486506/recre-a2-emission-du-21-janvier-1981?rang=366",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:39:51.829483",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,21 +38,20 @@
   "elements": [
     "Le Récré A2 express",
     "Émilie",
-    "Discorébus : Les Street Boys interprètent en anglais plusieurs chansons à travers lesquelles il faut découvrir un rébus",
     "Félix le chat",
     "Maraboud'ficelle",
     "Casper et ses amis",
-    "Anagrammes : Dans un décor de compartiment de train, Jean LACROIX, propose une suite d'anagrammes sur le thème du train",
     "Zeltron",
-    "Les blancs jouent et gagnent : Gérard SCHER explique un coup ou les blancs gagnent en trois temps puis propose une nouvelle énigme au jeu de dames",
     "Candy",
     "Boule et Bill",
     "Anagrammes",
     "Tilt",
     "La Panthère rose",
-    "Echecs et mat : Alain FAYART donne la solution du problème propose",
     "Extrait du film Dumbo",
     "Les Street Boys"
   ],
-  "normalized_at": "2026-11-17T07:00:08.833997"
+  "normalized_at": "2026-11-18T21:59:44.900381",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

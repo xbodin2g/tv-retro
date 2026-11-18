@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051028",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051028/recre-a2-emission-du-23-juin-1982?rang=410",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:11:03.467195",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -45,21 +45,21 @@
   ],
   "elements": [
     "Matou chat des champs et souriceau",
-    "William LEYMERGIE présente un ballet nautique exécute par de jeunes nageuses dans la piscine de Rueil Malmaison",
     "Discopuce",
     "Bouquin Bouquine",
     "Casper et ses amis",
     "Ouvre moi ta porte",
-    "Ballet nautique, Doggy-Dog et Elfie chantent \"Elfie et Doggy\"",
     "William LEYMERGIE interroge afnaoui",
     "Ballet nautique",
     "Maraboud'ficelle spécial",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine \"ras l'bol blues\"",
     "Zeltron",
     "La Panthère rose",
     "Télétactica",
     "Joanna chante \"stupid-stupid \"",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.870318"
+  "normalized_at": "2026-11-18T21:59:44.929385",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

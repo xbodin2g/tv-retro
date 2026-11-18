@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90004226",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90004226/club-dorothee-matin-emission-du-24-mai-1990?rang=256",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:51:00.063247",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -26,17 +26,15 @@
     "-Chanson finale de Dorothée."
   ],
   "elements": [
-    "Dorothée annonce un \"Club Dorothée spécial fête des mères\" et toute l'équipe prépare fébrilement les cadeaux. Au sommaire",
     "DRAGON BALL : dessin animé (achat)",
-    "Sur le plateau, Dorothée remet à Hubert un diplôme de record pour l'invention de sa calculette géante",
     "MES TENDRES ANNEES : dessin animé (achat)",
-    "HIT DES SERIES : classement des séries par images",
     "Lamu : dessin animé (achat)",
-    "Sur le plateau, Jacky explique le principe de la pâte à sel et Jacky celui du papier mâché",
     "WEEMAN : dessin animé (achat)",
     "LES CHEVALIERS DU ZODIAQUE : dessin animé (achat)",
-    "Le jeu des génies avec la petite Anne-Catherine au téléphone",
     "Chanson finale de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:08.394845"
+  "normalized_at": "2026-11-18T21:59:44.513868",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

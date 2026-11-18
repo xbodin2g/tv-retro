@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006393",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006393/recre-a2-emission-du-1-avril-1986?rang=316",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:50.253039",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,7 +23,6 @@
     "Plateau Corbier et Marie"
   ],
   "elements": [
-    "CORBIER et Marie présentent l'émission dans un décor de port de pêche",
     "Téléchat",
     "Image imagine",
     "C'est chouette",
@@ -31,5 +30,8 @@
     "Latulu et Lireli",
     "Bibifoc"
   ],
-  "normalized_at": "2026-11-17T07:00:09.316967"
+  "normalized_at": "2026-11-18T21:59:45.409926",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

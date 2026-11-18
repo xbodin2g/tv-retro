@@ -2,7 +2,7 @@
   "notice_id": "TV_630110.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_630110.001/club-dorothee-programme-du-19-juillet-1997?rang=50",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:37:14.027476",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -26,5 +26,8 @@
     "Le rêve de Jeannie"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.662231",
-  "normalized_at": "2026-11-17T07:00:11.352019"
+  "normalized_at": "2026-11-18T21:59:47.081725",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

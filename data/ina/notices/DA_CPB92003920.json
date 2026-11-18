@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003920",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003920/giga-emission-du-15-mai-1992?rang=194",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:33:15.156970",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,8 @@
     "\"Le prince de Bel Air \"",
     "JEU : le quizako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.295258"
+  "normalized_at": "2026-11-18T21:59:46.218421",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

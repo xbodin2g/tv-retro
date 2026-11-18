@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007809",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007809/giga-emission-du-6-septembre-1990?rang=29",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:54:19.578727",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Seul le feuilleton \"Les années collège\" (ACHAT) a été diffusé ; les autres séquences ont été SUPPRIMEES (conférence de presse MITTERAND)."
   ],
-  "elements": [
-    "Seul le feuilleton \"Les années collège\" (ACHAT) a été diffusé ; les autres séquences ont été SUPPRIMEES (conférence de presse MITTERAND)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.564287"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.606810",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

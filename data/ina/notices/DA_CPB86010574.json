@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010574",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010574/recre-a2-emission-du-2-septembre-1986?rang=427",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:14:14.533591",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,8 +19,10 @@
   ],
   "elements": [
     "Les Schtroumpfs",
-    "Tom Sawyer",
-    "Sur le plateau, Dorothée parle du livre de Beth ROBERTS : \"Manganinnie et l'enfant volé \""
+    "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.419656"
+  "normalized_at": "2026-11-18T21:59:45.498505",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

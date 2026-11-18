@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010067",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010067/recre-a2-emission-du-6-aout-1986?rang=421",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:02.593398",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Marie DAUPHIN présente cette émission composée des sujets suivants : \"Les Schtroumpfs\" et \"Tom SAWYER\"."
   ],
-  "elements": [
-    "Marie DAUPHIN présente cette émission composée des sujets suivants : \"Les Schtroumpfs\" et \"Tom SAWYER\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.402817"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.483180",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

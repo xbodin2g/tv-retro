@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000713",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000713/salut-les-petits-loups-emission-du-11-fevrier-1987?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:50:10.189619",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -23,13 +23,10 @@
     "-Clip du dessin animé \"Mask\"."
   ],
   "elements": [
-    "Marie Pierre, Teddy, ORLY et Anne présentent sous forme de sketches les rubriques composant l'émission",
-    "GYMNASTIQUE : ORLY fait quelques mouvements de gymnastique au sol",
-    "LES MANGEURS D'HISTOIRES : Anne LORRIC raconte à des enfants lors d'un petit déjeuner, l'histoire du serpent à lunettes",
-    "FLUOPHONE : jeu vidéo permettant à de jeunes téléspectaeurs de gagner des cadeaux",
-    "LE BULLETIN D'ORLY : ORLY souhaite la Saint Félix",
-    "BANANA ROCK : Teddy retrace la biographie du chanteur LITTLE Richard et chante un extrait de \"Tutti frutti\"",
     "Clip du dessin animé \"Mask\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.876800"
+  "normalized_at": "2026-11-18T21:59:44.015467",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

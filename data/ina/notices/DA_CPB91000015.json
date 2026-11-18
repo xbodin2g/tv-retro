@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000015",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000015/recre-a2-emission-du-11-novembre-1981?rang=399",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:55:16.485970",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,7 +39,6 @@
   ],
   "elements": [
     "Matou et souriceau",
-    "Discorébus : Claude Regnier chante \"Donne moi le la, donne moi le do\"",
     "Les Paladins de France",
     "Maraboud'ficelle",
     "Casper et ses amis",
@@ -52,5 +51,8 @@
     "La Panthère rose",
     "Reportage Marc ferro"
   ],
-  "normalized_at": "2026-11-17T07:00:09.853505"
+  "normalized_at": "2026-11-18T21:59:45.859675",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

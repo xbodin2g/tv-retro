@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14004587",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14004587/recre-a2-emission-du-11-mai-1983?rang=468",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:48:06.076355",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,10 +39,12 @@
     "Maraboud'ficelle",
     "Discopuce",
     "Télétactica",
-    "Latulu et lireli : Thème des livres : la rivière",
     "Zeltron",
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:08.643739"
+  "normalized_at": "2026-11-18T21:59:44.745358",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

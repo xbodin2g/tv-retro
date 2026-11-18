@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91006993",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91006993/giga-emission-du-08-mars-1991?rang=10",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:09:56.917657",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
     "SERIES : \"Sauvés par le gong\" et \"Zorro\"."
   ],
   "elements": [
-    "INFOS GIGA : Carole Laure au Bataclan (extrait spectacle)",
     "SERIES : \"Sauvés par le gong\" et \"Zorro\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.019753"
+  "normalized_at": "2026-11-18T21:59:46.009553",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

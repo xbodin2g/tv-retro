@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011007",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011007/giga-emission-du-16-aout-1991?rang=106",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:17:01.089392",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,9 @@
     "DE GIGA PLONGEONS. Spectacle dans un camps nautique près de Grenoble. On voit plonger des clowns acrobates, de jeunes champions américains (interview), des plongeons groupés, à très hauteur, des plongeons tout habillés, etc...",
     "DE GIGA GORILLES. Interview de Valérie JOHNSON, réalisatrice, qui relate son voyage au Rwanda où elle a observé les derniers gorilles (il en reste 500). Elle parle de leur vie, leur protection, tandis que sa caméra les observe (gorilles dans les broussailles)."
   ],
-  "elements": [
-    "Diffusion des séries \"Quoi de neuf docteur\" et \"La famille Fontaine\", et de 4 reportages"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.103847"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.073466",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

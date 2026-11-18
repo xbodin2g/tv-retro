@@ -2,7 +2,7 @@
   "notice_id": "TV_266663.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_266663.001/club-dorothee-vacances-programme-du-14-mars-1996?rang=387",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:28:58.394360",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,8 @@
     "Pas de pitié pour les croissants"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.438468",
-  "normalized_at": "2026-11-17T07:00:10.977803"
+  "normalized_at": "2026-11-18T21:59:46.765621",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

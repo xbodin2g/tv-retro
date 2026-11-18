@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004208",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004208/giga-emission-du-24-mars-1993?rang=125",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:45.803024",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,13 +23,13 @@
     "MAJOR DAD."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine dans le décor de cafétéria avec des adolescents comme public présentent l'émission",
-    "CINEMA : Extrait du film \"Agakuk\", sur la vie des Inuites, interview de Bernard Pierre DONNADIEU sur le film, extrait du tournage",
     "LA FETE A LA MAISON",
     "HAPPY DAYS",
-    "Docteur GIGA : Thierry JOLY, pédiatre répond aux questions des téléspectateurs : Trop petite, vergetures, pas réglée à 16 ans, acné",
     "QUOI DE NEUF DOCTEUR ?",
     "MAJOR DAD"
   ],
-  "normalized_at": "2026-11-17T07:00:10.485011"
+  "normalized_at": "2026-11-18T21:59:46.354842",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

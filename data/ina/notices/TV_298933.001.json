@@ -2,7 +2,7 @@
   "notice_id": "TV_298933.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_298933.001/club-dorothee-vacances-programme-du-29-avril-1996?rang=188",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:31:42.784939",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,8 @@
     "Le miel et les abeilles"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.468450",
-  "normalized_at": "2026-11-17T07:00:11.018540"
+  "normalized_at": "2026-11-18T21:59:46.797764",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

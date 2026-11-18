@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002722",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002722/giga-emission-du-16-avril-1992?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:31:28.894216",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "SOIS PROF ET TAIS TOI (série)",
     "SAUVES PAR LE GONG (série)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.270666"
+  "normalized_at": "2026-11-18T21:59:46.200848",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

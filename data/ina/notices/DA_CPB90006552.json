@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006552",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006552/giga-emission-du-17-juillet-1990?rang=70",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:51:35.268987",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
   ],
   "elements": [
     "Au sommaire de GIGA",
-    "1) \"Alf\" et \"Throb\" (séries américaines)",
-    "Extrait du 1er film des Monty Python qui sort dans les salles actuellement : \"La 1ère Folie des Monty Python\""
+    "1) \"Alf\" et \"Throb\" (séries américaines)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.532013"
+  "normalized_at": "2026-11-18T21:59:45.583820",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

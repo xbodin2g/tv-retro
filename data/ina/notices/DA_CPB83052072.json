@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052072",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052072/recre-a2-emission-du-03-aout-1983?rang=480",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:24.740345",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -26,9 +26,11 @@
   "elements": [
     "Les Bublies",
     "Les aventures d'une souris sur mars",
-    "Latulu et lireli : Le chateau des enfants volés de Maria Gripe",
     "Tableaux célèbres",
     "Dick le rebelle"
   ],
-  "normalized_at": "2026-11-17T07:00:09.025557"
+  "normalized_at": "2026-11-18T21:59:45.046333",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

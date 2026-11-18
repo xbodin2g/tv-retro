@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB12003386",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12003386/recre-a2-emission-du-6-avril-1981?rang=81",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:44:09.596573",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Félix le chat",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:08.557731"
+  "normalized_at": "2026-11-18T21:59:44.674867",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006288",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006288/recre-a2-emission-du-25-mars-1986?rang=220",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:18.460803",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "Titi et Grosminet (achat)."
   ],
   "elements": [
-    "Dans un décor moyenâgeux, CORBIER et Véronique présentent l'émission",
     "Téléchat",
     "Imagine, imagine",
     "C'est chouette",
@@ -31,5 +30,8 @@
     "Histoires comme çà (achat)",
     "Titi et Grosminet (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.314277"
+  "normalized_at": "2026-11-18T21:59:45.407326",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

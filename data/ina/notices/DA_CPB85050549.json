@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85050549",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85050549/recre-a2-emission-du-21-fevrier-1985?rang=235",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:32:02.007954",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Mr Merlin",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.154976"
+  "normalized_at": "2026-11-18T21:59:45.219154",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

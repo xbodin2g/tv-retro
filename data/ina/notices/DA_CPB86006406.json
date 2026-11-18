@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006406",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006406/recre-a2-emision-du-02-avril-1986?rang=467",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:59.000620",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -31,5 +31,8 @@
     "Clip Cobra",
     "Flip et Bouc"
   ],
-  "normalized_at": "2026-11-17T07:00:09.319305"
+  "normalized_at": "2026-11-18T21:59:45.411688",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86002176",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002176/recre-a2-emission-du-09-janvier-1986?rang=263",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:56:13.547678",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "Les mondes engloutis"
   ],
   "elements": [
-    "Emission présentée par Alain et Marie",
     "Image imagine",
     "Mes mains ont la parole",
     "Latulu et Lireli",
@@ -30,5 +29,8 @@
     "Téléchat",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.243168"
+  "normalized_at": "2026-11-18T21:59:45.347072",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

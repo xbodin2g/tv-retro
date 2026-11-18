@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85051986",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85051986/recre-a2-emission-du-04-janvier-1985?rang=246",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:29:18.323875",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Téléchat"
   ],
   "elements": [
-    "Bernard, fou d'astronomie, passe son temps devant le télescope, mais charlotte lui fait remarquer qu'il a oublié d'enlever le capuchon",
     "Poochie",
     "Dzssin animé : Une menotte, deux menottes",
     "Latulu et Lireli",
@@ -32,5 +31,8 @@
     "Les maîtres de l'univers",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.180117"
+  "normalized_at": "2026-11-18T21:59:45.250484",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

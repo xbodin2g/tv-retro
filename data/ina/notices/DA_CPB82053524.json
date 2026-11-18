@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053524",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053524/recre-a2-emission-du-12-mai-1982?rang=374",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:08:24.725808",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,10 +40,7 @@
   "elements": [
     "Méthanie",
     "Discopuce",
-    "Bricolages insolites : Gaëtan explique comment réaliser une bague en papier",
     "Les survivants de l'ombre",
-    "Maraboud'ficelle : CABU dessine l'histoire que lui racontent deux fillettes",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine \"Plénipotentiaire\"",
     "Bouquin bouquine",
     "La Panthère rose",
     "Maraboud'ficelle",
@@ -51,5 +48,8 @@
     "Candy",
     "Dorothée, Doggy-dog, Elfie, Jacky, Jacky"
   ],
-  "normalized_at": "2026-11-17T07:00:08.915041"
+  "normalized_at": "2026-11-18T21:59:44.963785",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

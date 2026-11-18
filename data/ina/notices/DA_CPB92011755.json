@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011755",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011755/giga-emission-du-23-septembre-1992?rang=148",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:20.482397",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     ": Entretien avec l'auteur de bandes dessinées, Jean VAN HAMME qui publie ce mois-ci un nouvel album de\"XIII \", son héros étant toujours poursuivi par la mangouste. BT vignettes de la BD."
   ],
   "elements": [
-    "Nouveautés musicales et BD au sommaire de GIGA",
-    "Couverture du nouvel album de Florent PAGNY, de TOTO, de Youssou N'DOUR, et\"Tycoon \", reprise américaine de\"Starmania \""
+    "Nouveautés musicales et BD au sommaire de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:10.357104"
+  "normalized_at": "2026-11-18T21:59:46.262360",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

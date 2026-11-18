@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93003349",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003349/giga-emission-du-9-mars-1993?rang=76",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:19:06.852339",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,13 +23,13 @@
     "Major Dad : \"Opération Marathon\"."
   ],
   "elements": [
-    "Sur le plateau, Manuel GELIN en compagnie de Clémentine annonce le sommaire et lance les séries et les sujets",
-    "Thierry JOLY répond à deux appels téléphoniques d'adolescentes sur des questions qui les préoccupent",
-    "En alternance avec les séquences plateau, diffusion de quatre séries (achats)",
     "Quoi de neuf docteur ?",
     "Happy days : \"Une nuit au palace\"",
     "La Fête à la maison",
     "Major Dad : \"Opération Marathon\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.467694"
+  "normalized_at": "2026-11-18T21:59:46.342999",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

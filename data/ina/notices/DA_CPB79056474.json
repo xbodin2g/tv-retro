@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79056474",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79056474/recre-a2-emission-du-20-juin-1979?rang=385",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:14:25.949777",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,26 +39,25 @@
     "Plaeau Fin"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, J. FAVREAU chante \"dans un atome d'oxygène\"",
     "Mini histoires",
     "La Panthère rose",
     "A2000",
-    "Discobus : Plateau Ariane Gil, J. FAVREAU chante \"les cow-boys \"",
     "Atelier soleil avec Dorothée et henriette",
     "Flash Récré A2",
     "Maraboud'ficelle",
     "Bus parade : Plateau Ariane Gil",
     "Il court, il court, le courrier",
     "Les copains d'ailleurs",
-    "Discobus : Plateau Ariane Gil, P Lafontaine chante\"Ca ne va pas Monsieur\"",
     "Samsong atelier balai",
     "La Caverne d'Abracadabra",
-    "Discobus : Plateau Ariane Gil, KAPLAN et KAPLAN \"bien fait pour les grands\"",
     "Spot Récré A2",
     "Discorébus",
     "Mio and mao",
     "Les Bubblies",
     "Plaeau Fin"
   ],
-  "normalized_at": "2026-11-17T07:00:08.700214"
+  "normalized_at": "2026-11-18T21:59:44.790225",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

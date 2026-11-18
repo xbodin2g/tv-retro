@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB79055388",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79055388/recre-a2-emission-du-28-mars-1979?rang=363",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:10:12.905827",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,15 +41,12 @@
     "Plateau Final"
   ],
   "elements": [
-    "Discobus : Plateau Ariane Gil, Sally Oldfield chante \"Mirrors\"",
     "Mini histoires",
     "Code X4",
     "A2000",
     "Clip : Générique des Bubblies",
-    "Discobus : Plateau Ariane Gil présente le parrain des \"bubblies\" S. LAMA qui chante \"la terrasse du café du lycée\"",
     "Flash Récré A2",
     "Maraboud'ficelle",
-    "Discobus : Plateau Ariane Gil et les Bubblies, Serge Lama",
     "Il court il court le courrier",
     "Atelier-balai Samsong : Construction des Bubblies",
     "La Caverne d'Abracadabra",
@@ -60,5 +57,8 @@
     "Papivole",
     "Wattoo Wattoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.693117"
+  "normalized_at": "2026-11-18T21:59:44.784420",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

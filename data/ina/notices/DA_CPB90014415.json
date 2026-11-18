@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014415",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014415/recre-a2-emission-du-28-novembre-1980?rang=231",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:34:00.041642",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Les voyages de Tortillard",
     "San Ku Kai"
   ],
-  "normalized_at": "2026-11-17T07:00:09.801928"
+  "normalized_at": "2026-11-18T21:59:45.815330",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011884",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011884/giga-emission-du-26-novembre-1993?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:32:07.873851",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,11 +19,12 @@
     "\"Le Prince de Bel-Air\" (Achat)."
   ],
   "elements": [
-    "\"Brian MAY\". Brève interview de B. MAY sur Queen et Freddy MERCURY illustré par des extraits de concerts ou de clips",
     "L'ANNEXE \"Billes et Garçons\"",
-    "Brève interview de Y. NOAH qui prépare une tournée et parle des styles de musique qu'il compte interpréter",
     "\"Sauvés par le Gong\" (Achat)",
     "\"Le Prince de Bel-Air\" (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.636663"
+  "normalized_at": "2026-11-18T21:59:46.475601",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

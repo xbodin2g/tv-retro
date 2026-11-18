@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005332",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005332/recre-a2-emission-du-07-mars-1986?rang=177",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:00:43.474217",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -19,11 +19,13 @@
     "She-ra princesse du pouvoir (la grande chasse)"
   ],
   "elements": [
-    "Valérie et François CORBIER, aux prises avec un sablier géant",
     "Téléchat",
     "Super Doc : L'échelle (2)",
     "Latulu et Lireli",
     "She-ra princesse du pouvoir (la grande chasse)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.294667"
+  "normalized_at": "2026-11-18T21:59:45.391595",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

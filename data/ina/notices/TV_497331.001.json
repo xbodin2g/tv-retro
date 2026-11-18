@@ -2,7 +2,7 @@
   "notice_id": "TV_497331.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_497331.001/club-dorothee-programme-du-15-janvier-1997?rang=61",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:29:37.201840",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,5 +39,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.590511",
-  "normalized_at": "2026-11-17T07:00:11.226653"
+  "normalized_at": "2026-11-18T21:59:46.977915",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

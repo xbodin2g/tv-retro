@@ -2,7 +2,7 @@
   "notice_id": "TV_576801.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_576801.001/club-dorothee-programme-du-1-mai-1997?rang=24",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:34:00.554222",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,5 +39,8 @@
     "Ici bébé"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.634881",
-  "normalized_at": "2026-11-17T07:00:11.303431"
+  "normalized_at": "2026-11-18T21:59:47.044454",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

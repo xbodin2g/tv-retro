@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014657",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014657/recre-a2-emission-du-25-decembre-1980?rang=156",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:35:44.312766",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Wattoo Wattoo",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.811643"
+  "normalized_at": "2026-11-18T21:59:45.824077",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

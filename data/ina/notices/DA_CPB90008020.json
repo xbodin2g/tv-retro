@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90008020",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90008020/giga-emission-du-27-avril-1990?rang=48",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:48:15.805434",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,5 +17,8 @@
   "elements": [
     "Grève"
   ],
-  "normalized_at": "2026-11-17T07:00:09.571850"
+  "normalized_at": "2026-11-18T21:59:45.613760",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

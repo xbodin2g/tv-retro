@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001517",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001517/recre-a2-emission-du-02-fevrier-1983?rang=452",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:41:46.124303",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -41,19 +41,20 @@
     "Plateau fin"
   ],
   "elements": [
-    "Dorothée présente l'émission",
     "Chapi Chapo",
     "Doggy-dog, Elfie",
     "Boule et Bill",
     "Discopuce",
     "Maraboud'ficelle",
     "Télétactica",
-    "Maraboud'ficelle : CABU dessine un alambic à partir duquel il faut dessiner des gens (cela donne Léon ZITRONE avec des cornes, Dorothée...)",
     "Extrait du film \"Le Gendarme et les gendarmettes\"",
     "Georges de la jungle",
     "Méthanie",
     "Les Schtroumpfs",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.916944"
+  "normalized_at": "2026-11-18T21:59:45.910716",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

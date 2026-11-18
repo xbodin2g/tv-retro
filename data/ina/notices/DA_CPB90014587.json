@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90014587",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014587/recre-a2-emission-du-16-decembre-1980?rang=154",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:35:20.102193",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "La cuisine sans maman : Zabou et Alain \"Les raisin de noel\""
   ],
-  "elements": [
-    "La cuisine sans maman : Zabou et Alain \"Les raisin de noel\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.809446"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.821914",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

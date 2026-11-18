@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005482",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005482/giga-emission-du-5-mai-1993?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:07.480170",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "La fête à la maison, Happy days (achats)."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine présente une émission écourtée en raison d'une retransmission de match de foot",
     "La fête à la maison, Happy days (achats)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.514533"
+  "normalized_at": "2026-11-18T21:59:46.375428",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

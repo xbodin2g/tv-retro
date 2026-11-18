@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002144",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002144/giga-emission-du-26-mars-1992?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:30:31.998310",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "Quizako."
   ],
   "elements": [
-    "(achats) : \"Sois prof et tais-toi\". \"Sauvés par le gong : un rock de rêve \"",
     "Quizako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.258190"
+  "normalized_at": "2026-11-18T21:59:46.191293",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

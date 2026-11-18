@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87008332",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87008332/club-dorothee-emission-du-16-septembre-1987?rang=51",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:10:09.372073",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -19,11 +19,9 @@
     "Patrick SIMPSON-JONES présente court reportage sur une fillette de L'école POINCARE à Garches, opérée des 2 fémurs. Elle est appareillée mais dit ne pas avoir de problèmes.",
     "Jackie SEAU : Safet SUCIK jette une seau d'eau sur JACKY."
   ],
-  "elements": [
-    "D.A. LES BIONIQUES : \"Eric bat les records \"",
-    "TOP JUNIOR : JACKY et DOROTHEE présente le top juniors des chansons",
-    "D.A. G.I. Joe :\" Silence \"(achat). LES MINIPOUS (achat). BIOMAN (achat)",
-    "Jackie SEAU : Safet SUCIK jette une seau d'eau sur JACKY"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.926884"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.047035",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

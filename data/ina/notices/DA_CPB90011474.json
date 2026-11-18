@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90011474",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011474/giga-emission-du-14-decmbre-1990?rang=114",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:59:24.776745",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,9 @@
     "HOMMAGE A John LENNON : Michael JACKSON chante\" Côme TOGETHER \"(LBS Communication) (4'18)",
     "Bande annonce du spectacle de Lambert WILSON au Casino de Paris."
   ],
-  "elements": [
-    "LES ANNEES COLLEGE : La vérité, toute la vérité \"",
-    "LES Nits : extrait du clip des Nits\" Radio shoes \"et interview d'un membre du groupe sur cet album. (3'14)",
-    "HOMMAGE A John LENNON : Michael JACKSON chante\" Côme TOGETHER \"(LBS Communication) (4'18)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.632295"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.659530",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

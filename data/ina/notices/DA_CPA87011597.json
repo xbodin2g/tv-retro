@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011597",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011597/club-dorothee-emission-du-27-novembre-1987?rang=62",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:14:10.019091",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,8 +17,10 @@
     "Diffusion des vidéoclips (document extérieur) : \"Jem\" et \"Candy\"."
   ],
   "elements": [
-    "Dorothée, Ariane et Jacky animent l'émission",
-    "Diffusion des vidéoclips (document extérieur) : \"Jem\" et \"Candy\""
+    "Dorothée, Ariane et Jacky animent l'émission"
   ],
-  "normalized_at": "2026-11-17T07:00:07.955190"
+  "normalized_at": "2026-11-18T21:59:44.069729",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87003177",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87003177/vitamine-emission-du-29-avril-1987?rang=16",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:52:18.819730",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -21,13 +21,9 @@
     "- Danse : Pascale invite les jeunes téléspectateurs à danser avec elle.",
     "- Cascades : le cascadeur Michel JULIENNE, fils de Rémy JULIENNE, autre cascadeur bien connu, parle des différents numéros de cascades effectués pour des films ou pour des manifestations. (Extrait d'un film avec ses cascades)."
   ],
-  "elements": [
-    "Cette émission présentée par Jacky est composée des rubriques suivantes",
-    "Mode Look : Présentation du gadget de la semaine : une pompe à essence pour servir des boissons. Des enfants font un défilé d'une mode \"safari\"",
-    "Dessins Animés : \"Mon petit poney et ses amis\", \"les Luxioles\", \"Snorky\", \"Ghostbusters\" et \"Robostory\"",
-    "Z'Animo : Frédéric LISAK répond à diverses questions concernant les poissons d'aquariums",
-    "Si j'avais des ailes : Frédéric LISAK parle des différents stades de maturation du poussin de la buse dans son oeuf",
-    "Danse : Pascale invite les jeunes téléspectateurs à danser avec elle"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.901598"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.031319",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

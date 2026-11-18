@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000845",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000845/recre-a2-emission-du-28-octobre-1982?rang=122",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:19:59.787729",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Mariolino",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:09.883185"
+  "normalized_at": "2026-11-18T21:59:45.884913",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

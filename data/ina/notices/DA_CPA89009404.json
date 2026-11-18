@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89009404",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89009404/club-dorothee-emission-du-20-septembre-1989?rang=118",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T19:08:46.599107",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -41,12 +41,14 @@
     "LES CHEVALIERS DU ZODIAQUE : dessin animé (achat)",
     "Le jeu \"Tu chantes, tu gagnes\"",
     "Une chanson de Minet",
-    "L'heure du \"Jacky Seau\"",
     "METALDER : feuilleton japonais (achat)",
     "La toute dernière chanson de Dorothée en exclusivité",
     "Ken LE SURVIVANT : dessin animé (achat)",
     "SPECIAL CROISSANTS : LE FANTOME DES MAC CROISSANTS",
     "La chanson finale de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:08.305735"
+  "normalized_at": "2026-11-18T21:59:44.428449",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

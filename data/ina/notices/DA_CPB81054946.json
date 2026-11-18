@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81054946",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81054946/recre-a2-emission-du-23-avril-1981?rang=119",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:45:27.484299",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Félix le chat",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:08.835394"
+  "normalized_at": "2026-11-18T21:59:44.901688",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88014272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88014272/club-dorothee-matin-emission-du-5-decembre-1988?rang=266",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T17:57:03.696644",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -16,10 +16,9 @@
     "DESSINS ANIMES (ACHATS) : \"MON PETIT PONEY\"; \"Docteur SLUMP\"; \"Candy : L'ENLEVEMENT \".",
     "L'HOROSCOPE DE MADAME SOLEIL : Germaine fait l'horoscope du jour pour les différents signes."
   ],
-  "elements": [
-    "Dorothée et toute son équipe présente l'émission",
-    "DESSINS ANIMES (ACHATS) : \"MON PETIT PONEY\"; \"Docteur SLUMP\"; \"Candy : L'ENLEVEMENT \"",
-    "L'HOROSCOPE DE MADAME SOLEIL : Germaine fait l'horoscope du jour pour les différents signes"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.144746"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.258508",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

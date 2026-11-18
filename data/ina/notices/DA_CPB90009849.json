@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009849",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009849/giga-emission-du-5-novembre-1990?rang=108",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:57:17.105639",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,8 +20,10 @@
     "Tignes, RODEO DES NEIGES. Compétition de ski bosses. On suit les explications d'un moniteur pour un cours de ski bosses, et la réaction enthousiaste des participants."
   ],
   "elements": [
-    "Diffusion de la série Larry et Balki",
-    "Séquence Bande Dessinée : présentation de divers nouveaux albums"
+    "Diffusion de la série Larry et Balki"
   ],
-  "normalized_at": "2026-11-17T07:00:09.603227"
+  "normalized_at": "2026-11-18T21:59:45.638100",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

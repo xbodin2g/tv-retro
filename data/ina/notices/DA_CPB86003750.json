@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003750",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003750/recre-a2-emission-du-29-janvier-1986?rang=445",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:57:38.834021",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -55,7 +55,6 @@
     "Le monde selon Georges",
     "Pac-Man",
     "Cache Cache caméra",
-    "Latulu et lireli : Dorothée donne le nom des gagnants de la semaine précédente et présente les quatre nouveaux titres consacrés aux ours",
     "Mafalda",
     "Action école avec France Gall",
     "L'Empire des 5",
@@ -63,5 +62,8 @@
     "X OR",
     "Les Shadoks"
   ],
-  "normalized_at": "2026-11-17T07:00:09.260209"
+  "normalized_at": "2026-11-18T21:59:45.361780",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

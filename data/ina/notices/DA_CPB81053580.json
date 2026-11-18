@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81053580",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81053580/recre-a2-emission-du-16-avril-1981?rang=179",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:45:08.954189",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Sido et Rémi",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:08.817764"
+  "normalized_at": "2026-11-18T21:59:44.887544",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

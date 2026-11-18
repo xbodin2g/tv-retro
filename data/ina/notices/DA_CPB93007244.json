@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007244",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007244/giga-emission-du-23-juin-1993?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:24.830092",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,9 @@
     "Reportage : raid VTT. Une étape de la Translittorale Aquitaine : 250 km en VTT pour les jeunes. Yvan KOUAME, un concurrent, confie la difficulté du raid, Marco FRANCHI, l'organisateur du raid, en donne les principes et Francis PAPPONEAU, le vainqueur de l'étape, souffle de contentement.",
     "Docteur GIGA, Thierry JOLY, pédiatre, répond aux appels des adolescents."
   ],
-  "elements": [
-    "Manuel GELIN et Clémentine CARTIER animent l'émission. Laurent arrive en roller blade, que les téléspectateurs peuvent gagner",
-    "Des séries : Quoi de neuf docteur (achat), Les jours heureux (achat), seconde B (cf au sujet)",
-    "Docteur GIGA, Thierry JOLY, pédiatre, répond aux appels des adolescents"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.547694"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.404426",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

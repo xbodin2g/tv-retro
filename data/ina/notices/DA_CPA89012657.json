@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012657",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012657/club-dorothee-noel-emission-du-26-decembre-1989?rang=467",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T21:14:26.944853",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -21,7 +21,6 @@
     "Salut les Musclés : \"La voleuse\"."
   ],
   "elements": [
-    "Dorothée et son équipe présentent cette émission composée de",
     "\"Cap Danger \"(dessin animé- achat)",
     "Jeu de l'ABC",
     "Bobobops (D. A )",
@@ -29,5 +28,8 @@
     "Jeu du mot interdit",
     "Salut les Musclés : \"La voleuse\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.331445"
+  "normalized_at": "2026-11-18T21:59:44.459099",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

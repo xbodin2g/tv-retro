@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90009471",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009471/giga-emission-du-22-octobre-1990?rang=87",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:56:40.626851",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "Au menu de l'émission",
     "\"LE GRAND NUMERO\" (série achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.595163"
+  "normalized_at": "2026-11-18T21:59:45.631858",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

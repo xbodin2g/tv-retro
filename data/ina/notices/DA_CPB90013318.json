@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013318",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013318/giga-emission-du-28-decmbre-1990?rang=161",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:59:59.821133",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "Au sommaire de Giga aujourd'hui",
     "Les séries \"Les Twist\" et \"Les années collège\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.723151"
+  "normalized_at": "2026-11-18T21:59:45.748989",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052404",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052404/recre-a2-emission-du-19-avril-1985?rang=452",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:35:44.143952",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Téléchat",
     "François CORBIER chante une chanson en direct"
   ],
-  "normalized_at": "2026-11-17T07:00:09.187734"
+  "normalized_at": "2026-11-18T21:59:45.257955",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

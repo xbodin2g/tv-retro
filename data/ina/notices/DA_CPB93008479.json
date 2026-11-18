@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008479",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008479/giga-emission-du-2-aout-1993?rang=124",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:03.679095",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "Happy days : série américaine",
     "Le prince de Bel Air : série américaine"
   ],
-  "normalized_at": "2026-11-17T07:00:10.578510"
+  "normalized_at": "2026-11-18T21:59:46.427184",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

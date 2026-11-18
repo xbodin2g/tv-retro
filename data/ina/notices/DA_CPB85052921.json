@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052921",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052921/recre-a2-emission-du-14-janvier-1985?rang=382",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:29:43.159203",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "Téléchat"
   ],
   "elements": [
-    "ALAIN et véronique assure les enchaînements avec un duo de PDG-secrétaire",
     "Poochie",
     "Les Schtroumpfs",
     "Latulu et Lireli",
@@ -30,5 +29,8 @@
     "Pac-Man",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.192353"
+  "normalized_at": "2026-11-18T21:59:45.263167",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

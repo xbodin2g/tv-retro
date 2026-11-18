@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006959",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006959/giga-emission-du-9-aout-1990?rang=27",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:52:42.329682",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,9 +19,10 @@
     ": \"ALF\", \"LES ANNEES COLLEGE\" (achats)."
   ],
   "elements": [
-    "L'émission propose les séries habituelles et de petits reportages consacrés aux activités des jeunes",
-    "Différents plans montrant les nouveautés en matière de jeux vidéo, \"Iron Nord\", \"Fire and greenstone\", \"F 19 stilfighter\"",
     "\"ALF\", \"LES ANNEES COLLEGE\" (achats)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.548149"
+  "normalized_at": "2026-11-18T21:59:45.595899",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

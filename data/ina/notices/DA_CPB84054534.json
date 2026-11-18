@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB84054534",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB84054534/recre-a2-emission-du-9-aout-1984?rang=278",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:13:09.592755",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -27,5 +27,8 @@
     "Barrières",
     "CORBIER chante \"nous les mille pattes\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.115520"
+  "normalized_at": "2026-11-18T21:59:45.158182",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010306",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010306/recre-a2-emission-du-19-aout-1986?rang=431",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:54.003895",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,9 +19,11 @@
     "Présentation d'un livre pour enfants : \"Quand je serai grande\" d'Irmgard Keun."
   ],
   "elements": [
-    "CORBIER et Marie DAUPHIN jouent les touristes dans un décor de ruines romaines. Il emportent une pierre en souvenir",
     "Les Schtroumpfs",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.410176"
+  "normalized_at": "2026-11-18T21:59:45.490209",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

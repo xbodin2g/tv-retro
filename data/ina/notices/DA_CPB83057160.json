@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83057160",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057160/recre-a2-emission-du-09-fevrier-1983?rang=450",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:42:12.157319",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -54,5 +54,8 @@
     "Clip de Musical youth : \"PASS the dutchies\"(",
     "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.069417"
+  "normalized_at": "2026-11-18T21:59:45.089706",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

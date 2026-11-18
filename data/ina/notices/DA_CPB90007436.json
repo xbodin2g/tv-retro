@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007436",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007436/giga-emission-du-27-aout-1990?rang=72",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:53:49.760834",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,8 @@
   "elements": [
     "SERIE GIGA : Les Années collège (brûlants adieux)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.557725"
+  "normalized_at": "2026-11-18T21:59:45.603514",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

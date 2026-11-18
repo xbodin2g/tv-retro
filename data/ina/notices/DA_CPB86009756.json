@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009756",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009756/recre-a2-emission-du-30-juillet-1986?rang=384",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:33.438935",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,10 +19,12 @@
     "Présentation du livre du jour : \"young\" de Louis MIRMAN chez folio."
   ],
   "elements": [
-    "CORBIER n'arrête pas de parler tout en gonflant un canoë et lia ne peut pas en placer une",
     "Bibifoc",
     "CORBIER chante \"les bateaux gonflables\"",
     "Tom Sawyer"
   ],
-  "normalized_at": "2026-11-17T07:00:09.398358"
+  "normalized_at": "2026-11-18T21:59:45.478976",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

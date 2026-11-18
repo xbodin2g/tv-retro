@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052922",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052922/recre-a2-emission-du-08-janvier-1981?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:39:09.200654",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Les aventures électrique de Zeltron",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:08.811215"
+  "normalized_at": "2026-11-18T21:59:44.881849",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

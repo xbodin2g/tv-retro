@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90000964",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90000964/club-dorothee-emission-du-14-fevrier-1990?rang=168",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:43:24.768624",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,9 +18,10 @@
     "JEUX : \"Jacky seau\" (d'eau), \"Le mot interdit\" \"jeu de l'ABC\" (encore seau d'eau)."
   ],
   "elements": [
-    "SERIE : \"Cap danger\"",
-    "DESSINS ANIMES : \"Wingman\", \"Dragonball\", \"Un collège dou fou fou\", \"Les chevaliers du zodiaque\", \"Ken le survivant\"",
-    "JEUX : \"Jacky seau\" (d'eau), \"Le mot interdit\" \"jeu de l'ABC\" (encore seau d'eau)"
+    "SERIE : \"Cap danger\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.351838"
+  "normalized_at": "2026-11-18T21:59:44.475006",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

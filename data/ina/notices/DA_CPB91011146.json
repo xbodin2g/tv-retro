@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011146",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011146/giga-emission-du-4-septembre-1991?rang=147",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:17:51.394559",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Rediffusion d'un sujet consacré à l'élevage des lamas en Provence servant au débroussaillage et à la lutte contre les incendies."
   ],
-  "elements": [
-    "Rediffusion d'un sujet consacré à l'élevage des lamas en Provence servant au débroussaillage et à la lutte contre les incendies"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.109989"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.078903",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

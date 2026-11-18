@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008017",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008017/recre-a2-emission-du-4-juin-1986?rang=81",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:03.953809",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -39,17 +39,14 @@
     "Le jury prend un petit déjeuner",
     "\"Image, Imagine\" d'Odile LIMOUSIN et Jean-François LACAN",
     "\"Méthanie Ville\" : Le bon air (achat)",
-    "\"Latulu et Lireli\" : Dorothée présente des livres pour enfants",
     "\"Les Schtroumpfs\" : Pour sauver Gargamel",
     "Extrait du film \"Cuore\" de Luigi COMENCINI",
-    "Le Monde selon Georges : Du pétrole au coeur de l'Amazonie",
-    "Les aventures de Dorothée : CABU dessine en direct les aventures de Roxan, le chien de Dorothée, ou comment il est devenu minuscule",
     "PAC MAN : Bataille spatiale (achat)",
-    "Dorothée, Jacky et CABU donnent les résultats du concours des \"héros de dessins animés\"",
     "Jane de la Jungle (achat)",
-    "Interview de Julie GLENN, interprète du film\" L'Effrontée\" et de Myriam STERN, interprète de \"Louise l'insoumise\". Extraits de ces deux films",
-    "\"X. OR\" : Fleur magique",
-    "Dorothée chante en compagnie de Jacky, CABU et des enfants, \"Tant qu'on a des amis\", devant le Grand Hôtel"
+    "\"X. OR\" : Fleur magique"
   ],
-  "normalized_at": "2026-11-17T07:00:09.366362"
+  "normalized_at": "2026-11-18T21:59:45.450294",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

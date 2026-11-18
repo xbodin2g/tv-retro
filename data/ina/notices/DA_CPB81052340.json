@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052340",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052340/recre-a2-emission-du-18-mars-1981?rang=368",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:43:09.866207",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -39,14 +39,11 @@
   ],
   "elements": [
     "Émilie",
-    "Discorébus : P. PERRET chante \"quoi de plus sympa qu'un oeuf ?\"",
     "Félix le chat",
     "DOROTHEE chante \"Récré A2\"",
     "Casper et ses amis",
     "PlateauJacky et Zabou",
-    "Les mots a doublé détente : J. LACROIX propose une nouvelle série de mots a doublé définition",
     "Zeltron",
-    "Les blancs jouent et gagnent : DOROTHEE et olivier BRY présentent de nouvelles combinaisons de jeux de dame",
     "Candy",
     "Tilt",
     "Echec et mat",
@@ -59,5 +56,8 @@
     "Extrait Disney",
     "DOROTHEE chante \"musique magique\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.801637"
+  "normalized_at": "2026-11-18T21:59:44.868481",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

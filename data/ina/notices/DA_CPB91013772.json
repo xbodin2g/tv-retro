@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013772",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013772/giga-emission-du-14-novembre-1991?rang=158",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:21:43.658760",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "CONCOURS SAUVES PAR LE GONG. Les deux gagnants, Samira et Thierry, à Los Angeles : ballade dans les rues, sur une plage californienne, dans les studios NBC pour le tournage d'un épisode de la série."
   ],
   "elements": [
-    "Diffusion de deux séries : \"Sauvés par le gong\" et \"La fête à la maison\". Reportages et rubriques",
     "L'ECRAN MICRO. Les nouveautés en jeu vidéo"
   ],
-  "normalized_at": "2026-11-17T07:00:10.157657"
+  "normalized_at": "2026-11-18T21:59:46.114751",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

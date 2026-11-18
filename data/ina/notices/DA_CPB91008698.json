@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91008698",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91008698/giga-emission-du-20-mai-1991?rang=67",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:13:35.172130",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,8 +23,10 @@
   ],
   "elements": [
     "Au sommaire de ce numéro de GIGA",
-    "UN TOIT POUR DIX (ACHAT, 23'58)",
-    "QUOI DE NEUF DOCTEUR ? Amour en croisière 1 (ACHAT, 23'30)"
+    "UN TOIT POUR DIX (ACHAT, 23'58)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.062423"
+  "normalized_at": "2026-11-18T21:59:46.041290",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

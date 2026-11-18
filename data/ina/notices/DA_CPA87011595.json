@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011595",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011595/club-dorothee-emission-du-25-novembre-1987?rang=37",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:14:01.698329",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -24,11 +24,11 @@
   ],
   "elements": [
     "Diffusion des DA (document extérieur)",
-    "G.I. Joe : \"Il était une fois G.I. Joe\"",
     "LES MINIPOUSS : \"Qui perd gagne\"",
-    "GOLDORAK : \"Par le fer et par le feu\"",
-    "CAPITAINE Flam : \"l'Empereur de l'espace\"",
-    "BIOMAN : \"Ne vous moquez pas des petites filles\""
+    "CAPITAINE Flam : \"l'Empereur de l'espace\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.954493"
+  "normalized_at": "2026-11-18T21:59:44.069038",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

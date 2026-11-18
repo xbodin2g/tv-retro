@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003313",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003313/giga-emission-du-27-avril-1994?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:49:27.112261",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,5 +21,8 @@
     "\"La famille JACKSON \", achat",
     "\"Les années collège\", achat"
   ],
-  "normalized_at": "2026-11-17T07:00:10.696710"
+  "normalized_at": "2026-11-18T21:59:46.525028",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

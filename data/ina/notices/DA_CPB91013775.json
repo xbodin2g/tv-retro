@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91013775",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91013775/giga-emission-du-20-novembre-1991?rang=168",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:21:57.719871",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,9 @@
     "LES JUMEAUX. A Saint Jean d'Angély, le GRAND CONCOIURS NATIONAL DE RESSEMBLANCE des jumeaux. On voit des\"duos \" de participants ; nombreux témoignages de jumeaux qui parlent de leurs activités respectives, leurs différences et ressemblances ; des mères d'enfants jumeaux, qui les ont parfois confondus ; un médecin, Jean de GROUCHY, spécialiste de ces questions et auteur d'un livre sur le sujet, donne quelques indications d'ordre génétique : les jumeaux sont deux copies d'un même gène, et autres indications.",
     "SERIES ; Sauvés par le gong: \"Sans espoir \"; Quoi de neuf docteur: \"Photos de nues \"."
   ],
-  "elements": [
-    "SERIES ; Sauvés par le gong: \"Sans espoir \"; Quoi de neuf docteur: \"Photos de nues \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.161051"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.117247",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

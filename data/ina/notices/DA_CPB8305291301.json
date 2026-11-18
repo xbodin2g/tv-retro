@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8305291301",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8305291301/recre-a2-emission-du-28-juillet-1983?rang=479",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:08.257175",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "Buzard et vermissot",
-    "Latulu et lireli : Bleu je veux de Gisèle Bienne illustré par Gisèle MORGENSTERN",
     "Les voyages de tortillard",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.040835"
+  "normalized_at": "2026-11-18T21:59:45.060007",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

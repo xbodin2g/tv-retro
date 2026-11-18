@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011857",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011857/club-dorothee-emission-du-2-decembre-1987?rang=39",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:14:21.631720",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,11 +21,10 @@
     "Achats : DA \"GI Joe\" ; \"Les Minipouss\" ; \"Goldorak\" ; \"Capitaine Flam\" ; \"Mask\" ; feuilleton \"Bioman\"."
   ],
   "elements": [
-    "Séquence Mot mystère : tirage au sort des gagnants",
-    "Jeu \"Léo\" : tirage au sort des gangnants",
-    "Jeu \"Kiwi-SNCF\" : tirage au sort du gagnant d'un week-end aux sports d'hiver ; questions pour le super tirage du 23 décembre",
-    "Jeu \"Top Junior\" : tirage au sort des gagnants",
-    "Achats : DA \"GI Joe\" ; \"Les Minipouss\" ; \"Goldorak\" ; \"Capitaine Flam\" ; \"Mask\" ; feuilleton \"Bioman\""
+    "Jeu \"Léo\" : tirage au sort des gangnants"
   ],
-  "normalized_at": "2026-11-17T07:00:07.957119"
+  "normalized_at": "2026-11-18T21:59:44.071155",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

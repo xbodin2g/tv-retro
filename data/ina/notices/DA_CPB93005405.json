@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005405",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005405/giga-emission-du-30-avril-1993?rang=83",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:21:54.673800",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,12 @@
     "SERIE : MAJOR DAD (La réconciliation 2ème partie, achat)."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission avec CLEMENTINE. Au sommaire",
     "SERIE : LA FETE A LA MAISON (achat)",
-    "SERIE : HAPPY DAYS (RICHIE et les beatnicks, achat)",
     "Le pédiatre Thierry JOLY répond aux questions téléphoniques",
-    "SERIE : QUOI DE NEUF DOCTEUR ? (achat)",
-    "SERIE : MAJOR DAD (La réconciliation 2ème partie, achat)"
+    "SERIE : QUOI DE NEUF DOCTEUR ? (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.511112"
+  "normalized_at": "2026-11-18T21:59:46.372961",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "TV_614214.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_614214.001/club-dorothee-programme-du-28-juin-1997?rang=59",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:36:04.451744",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -32,5 +32,8 @@
     "Les jumeaux du bout de monde"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.649212",
-  "normalized_at": "2026-11-17T07:00:11.330245"
+  "normalized_at": "2026-11-18T21:59:47.064280",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

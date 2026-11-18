@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012342",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012342/giga-emission-du-7-decembre-1993?rang=15",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:32:35.677674",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,11 @@
   ],
   "elements": [
     "Au sommaire du jour, trois séries",
-    "L'ANNEXE : \"Réalité à chaud\" (voir à ce titre)",
     "SAUVES PAR LE GONG : \"La Chorale\" (Achat)",
-    "LE PRINCE DE BEL AIR : \"Les vieux de l'amour\" (Achat)",
     "Pas de reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.641512"
+  "normalized_at": "2026-11-18T21:59:46.479572",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

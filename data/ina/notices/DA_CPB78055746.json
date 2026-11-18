@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78055746",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78055746/recre-a2-emission-du-06-septembre-1978?rang=71",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:21:34.623280",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,9 +20,11 @@
     "Plateau Dorothée"
   ],
   "elements": [
-    "DOROTHEE raconte un conte russe (l'histoire de mâcha) illustré par des BT du livre .(Bde 46500)",
     "Monsieur Rosée",
     "Casper et ses amis"
   ],
-  "normalized_at": "2026-11-17T07:00:08.660777"
+  "normalized_at": "2026-11-18T21:59:44.761931",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

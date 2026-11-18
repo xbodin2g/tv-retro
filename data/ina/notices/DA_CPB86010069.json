@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010069",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010069/recre-a2-emission-du-7-aout-1986?rang=487",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:07.309271",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -21,8 +21,10 @@
   "elements": [
     "Les Schtroumpfs",
     "Super DOC : Sous l'eau... (1)",
-    "Les mondes engloutis",
-    "Alain et Marie annoncent ensuite le festival du mime à Périgueux dont nous voyons l'affiche"
+    "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.403386"
+  "normalized_at": "2026-11-18T21:59:45.483610",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

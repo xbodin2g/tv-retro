@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB15007521",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB15007521/recre-a2-emission-du-3-janvier-1980?rang=42",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:16:23.358863",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "La Panthère rose",
     "Harold Llyod"
   ],
-  "normalized_at": "2026-11-17T07:00:08.649843"
+  "normalized_at": "2026-11-18T21:59:44.752044",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

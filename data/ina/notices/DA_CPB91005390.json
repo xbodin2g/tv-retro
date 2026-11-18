@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005390",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005390/giga-emission-du-26-fevrier-1991?rang=79",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:09:11.422877",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
     "Séries : \"Sauvés par le gong\" / \"Zorro\"."
   ],
   "elements": [
-    "Au sommaire de Giga : cinéma, chansons et séries",
-    "extraits du film \"L'éveil\" de Penny MARSHALL avec Robert DE NIRO et Robin WILLIAMS",
     "Séries : \"Sauvés par le gong\" / \"Zorro\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.996912"
+  "normalized_at": "2026-11-18T21:59:45.992764",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

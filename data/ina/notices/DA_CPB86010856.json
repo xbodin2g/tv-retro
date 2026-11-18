@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010856",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010856/recre-a2-emission-du-12-septembre-1986?rang=126",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:14:49.865421",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,11 +20,13 @@
     "CORBIER et Ariane"
   ],
   "elements": [
-    "CORBIER et Ariane présentent le programme",
     "Mes mains ont la parole",
     "Quick et Flupke",
     "CORBIER et Ariane",
     "She-ra princesse du pouvoir"
   ],
-  "normalized_at": "2026-11-17T07:00:09.424308"
+  "normalized_at": "2026-11-18T21:59:45.502345",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

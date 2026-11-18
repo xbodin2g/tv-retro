@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000861",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000861/recre-a2-emission-du-02-novembre-1982?rang=125",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:20:40.128840",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,12 +25,14 @@
     "la bande à Bédé"
   ],
   "elements": [
-    "De brèves séquences sur Paris vu d'hélicoptère s'intercalent entre les rubriques proposées",
     "Pic pic pic",
     "Émilie",
     "Les Quat'z Amis",
     "C'est chouette",
     "La bande à BéDé"
   ],
-  "normalized_at": "2026-11-17T07:00:09.884442"
+  "normalized_at": "2026-11-18T21:59:45.885934",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

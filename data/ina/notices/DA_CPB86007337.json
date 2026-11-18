@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007337",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007337/recre-a2-emission-du-7-mai-1986?rang=405",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:05:38.900133",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -48,8 +48,10 @@
     "Les Schtroumpfs",
     "PAC-Man",
     "Jane de la jungle",
-    "Interview de Chris CAMPION, acteur de 22 ans qui vient de tourner son premier film avec Roman POLANSKI : \"Pirates\". Document : tournage de \"Pirates\"",
     "X-Or"
   ],
-  "normalized_at": "2026-11-17T07:00:09.345754"
+  "normalized_at": "2026-11-18T21:59:45.432985",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93012644",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012644/recre-a2-emission-enregistree-le-6-mai-1982?rang=79",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:08:06.214513",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Enregistrements de la chanson \"Man'selle\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.648655"
+  "normalized_at": "2026-11-18T21:59:46.485737",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

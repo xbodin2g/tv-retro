@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002619",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002619/giga-emission-du-6-avril-1992?rang=70",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:30:57.364026",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "Entre la diffusion des séries \"Sois prof et tais-toi\" et \"Sauvés par le gong\" GIGA propose un reportage sur le métier d'infirmière.",
     "A l'hopital BROUSSAIS, à 4 h du matin, Dominique parle du travail de nuit et de ses responsabilités : \"c'est un beau métier, sauver une vie c'est génial\". Une de ses collègues, Pascale, parle de la manière dont elle pratique son métier."
   ],
-  "elements": [
-    "Entre la diffusion des séries \"Sois prof et tais-toi\" et \"Sauvés par le gong\" GIGA propose un reportage sur le métier d'infirmière"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.264294"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.195977",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87009289",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87009289/club-dorothee-emission-du-8-octobre-1987?rang=28",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:11:15.452022",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "L'émission se compose d'un dessin animé ( \"Clair de lune\") et d'un vidéoclip."
   ],
-  "elements": [
-    "L'émission se compose d'un dessin animé ( \"Clair de lune\") et d'un vidéoclip"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.935759"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.054229",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001884",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001884/giga-emission-du-11-mars-1992?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:29:49.182720",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,10 +25,12 @@
   "elements": [
     "Au sommaire",
     "SALUT LES COPAINS (cpb92001895)",
-    "Patrice FONTANAROSA : reportage sur le violoniste Patrice FONTANAROSA, avec interview du virtuose sur son métier",
     "SOIS PROF ET TAIS TOI : feuilleton (achat)",
     "SAUVES PAR LE GONG : feuilleton (achat)",
     "QUIZAKO : le jeu final"
   ],
-  "normalized_at": "2026-11-17T07:00:10.245284"
+  "normalized_at": "2026-11-18T21:59:46.181718",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

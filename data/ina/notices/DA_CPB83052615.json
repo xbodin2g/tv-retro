@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83052615",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83052615/recre-a2-emission-du-01-aout-1983?rang=495",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:16.612199",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -23,9 +23,11 @@
   ],
   "elements": [
     "Les Bubblies",
-    "Latulu et lireli : Bleu je veux de Gisèle Bienne illustré par Gisèle MORGENSTERN",
     "Les aventures d'une souris sur mars",
     "Le Tour du monde en 80 jours"
   ],
-  "normalized_at": "2026-11-17T07:00:09.036018"
+  "normalized_at": "2026-11-18T21:59:45.055630",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

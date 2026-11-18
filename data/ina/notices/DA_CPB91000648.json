@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000648",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000648/giga-emission-du-24-janvier-1991?rang=231",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:50.347098",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,12 +25,14 @@
     ": \"Opération pièces jaunes\". Béatrice ETEVE, déléguée générale de la fédération des hôpitaux de Paris, parle de cette campagne qui a pour but de récolter des fonds afin de construire des pavillons dans les hôpitaux pour enfants pour permettre aux parents de loger sur place lorsque l'enfant est hospitalisé. Reportage à l'hôpital Robert DEBRE, dans la Maison des parents : un père dont l'enfant est hospitalisé, M. CONRRADO, témoigne. Madame TAVARA dit que cela est indispensable pour la guérison."
   ],
   "elements": [
-    "Giga est aujourd'hui très scientifique. Au sommaire : - \"Mangeur d'insectes \"",
     "\"Six milliards d'hommes à nourrir\"",
     "Séries diffusées : -Popeye",
     "DUFY duck",
     "\"Sauvés par le gong \"",
     "\"Zorro\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.878057"
+  "normalized_at": "2026-11-18T21:59:45.880683",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

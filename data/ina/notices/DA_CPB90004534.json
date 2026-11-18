@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90004534",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90004534/giga-emission-du-25-mai-1990?rang=182",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:49:31.194547",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "HISTOIRES D'EN PARLER (cf CPB90006550)",
     "LES ANNEES COLLEGE : feuilleton américain"
   ],
-  "normalized_at": "2026-11-17T07:00:09.504392"
+  "normalized_at": "2026-11-18T21:59:45.564101",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

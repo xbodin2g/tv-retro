@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91008014",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91008014/recre-a2-emission-du-27-juillet-1981?rang=324",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:49:33.028026",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -20,5 +20,8 @@
     "Spécial Chine",
     "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:10.058471"
+  "normalized_at": "2026-11-18T21:59:46.038248",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

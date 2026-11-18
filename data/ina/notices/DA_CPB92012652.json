@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012652",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012652/giga-emission-du-20-octobre-1992?rang=35",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:31.419122",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,12 @@
     "Jeu du Quizako sur les séries."
   ],
   "elements": [
-    "Pas de reportages dans cette émission. Diffusion de trois séries : \"La Fête à la maison\" (achat)",
     "\"Le lycée alpin\" (coproduction)",
     "\"Sauvés par le gong\" (Achat, rediffusion)",
     "Jeu du Quizako sur les séries"
   ],
-  "normalized_at": "2026-11-17T07:00:10.372014"
+  "normalized_at": "2026-11-18T21:59:46.273786",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

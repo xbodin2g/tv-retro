@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001227",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001227/giga-emission-du-11-fevrier-1992?rang=188",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:12.864312",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "JEU du Quizako."
   ],
   "elements": [
-    "GIGA propose ses deux séries habituelles \"Sois prof et tais toi\", \"Sauvés par le gong\" et trois reportages",
     "JEU du Quizako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.217731"
+  "normalized_at": "2026-11-18T21:59:46.164039",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

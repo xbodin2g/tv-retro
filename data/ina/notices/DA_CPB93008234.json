@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008234",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008234/giga-emission-du-30-juillet-1993?rang=122",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:00.500049",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,10 @@
     "SERIE : \"Le prince de Bel Air ; Nul n'est parfait\" (ACHAT)."
   ],
   "elements": [
-    "Au sommaire de Giga (sans présentateurs)",
-    "SERIE : \"Happy days ; Fonzie dans le grand monde\" (ACHAT),",
-    "LUTTE BRETONNE, rep re",
-    "SERIE : \"Le prince de Bel Air ; Nul n'est parfait\" (ACHAT)"
+    "LUTTE BRETONNE, rep re"
   ],
-  "normalized_at": "2026-11-17T07:00:10.572226"
+  "normalized_at": "2026-11-18T21:59:46.421727",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

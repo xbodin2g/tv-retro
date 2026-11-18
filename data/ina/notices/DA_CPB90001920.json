@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001920",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001920/giga-emission-du-26-fevrier-1990?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:24.860782",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,15 +25,9 @@
     "Bande annonce du nouveau Roger RABBIT \"Bobo Bidon\".",
     "Séries : \"Quoi de neuf docteur ? \" et\" La fête à la maison \"(achats)."
   ],
-  "elements": [
-    "LE PROPULSAR : démonstration d'un propulsar, sorte de parapente à moteur, et témoignages du pilote et du constructeur",
-    "DESCENTE SPECIALE EN CHAMBRE A AIR : épreuves de descente (individuelle ou en groupe) à pneus en montagne et remonte pente",
-    "GIGA CLASSE : classe et visite à La Villette (Document La Villette La Cité)",
-    "GIGA ETOILE : Hubert REEVES nous parle du soleil : ses caractéristiques, activité, influence sur la terre..., illustré par des images de soleil",
-    "GIGAVENTURE : extaits documents actualités sur la course Globe Challenge et la Transarctica",
-    "GIGAINVENTION : document sur le radeau des cimes qui survole la forêt amazonienne pour y étudier sa faune et sa flore",
-    "VIDEOCLIP : \"Right stuff\" par New Kids on the Block (extrait)",
-    "Séries : \"Quoi de neuf docteur ? \" et\" La fête à la maison \"(achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.452556"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.528280",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

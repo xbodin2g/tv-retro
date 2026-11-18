@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB78052187",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78052187/recre-a2-emission-du-18-octobre-1978?rang=81",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:23:42.677556",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,11 +23,13 @@
     "Plateau Patrick, Dorothée"
   ],
   "elements": [
-    "Enregistrement à partir de 17:58:00 K7 2/6 et 3/6 manquantes",
     "Je veux être toi",
     "Discopuce",
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.653776"
+  "normalized_at": "2026-11-18T21:59:44.755584",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001658",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001658/giga-emission-du-3-mars-1994?rang=85",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:46:28.180964",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Série : SECONDE B ( \"Vol au dessus d'un nid de coucou\")."
   ],
-  "elements": [
-    "Série : SECONDE B ( \"Vol au dessus d'un nid de coucou\")"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.677260"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.508289",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

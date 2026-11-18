@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90013946",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90013946/club-dorothee-noel-emission-du-4-janvier-1991?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:11:20.906289",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -16,10 +16,9 @@
     "SERIES : \"Dragon ball\", \"Le collège fou, fou, fou\", \"Salut les musclés\", \"Spécial croissant\", \"Les compagnons de l'aventure\".",
     "JEUX : les clubs d'or, le trésor dans votre ville, le jeu des séries, le jeu de l'ABC (c'est Patrick qui reçoit le seau d'eau)."
   ],
-  "elements": [
-    "DOROTHEE et ses amis présentent les séries composant la matinée et animent les différents jeux",
-    "SERIES : \"Dragon ball\", \"Le collège fou, fou, fou\", \"Salut les musclés\", \"Spécial croissant\", \"Les compagnons de l'aventure\"",
-    "JEUX : les clubs d'or, le trésor dans votre ville, le jeu des séries, le jeu de l'ABC (c'est Patrick qui reçoit le seau d'eau)"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.477018"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.594900",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

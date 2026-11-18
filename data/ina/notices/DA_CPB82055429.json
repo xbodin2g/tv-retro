@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82055429",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82055429/recre-a2-emission-du-06-janvier-1982?rang=401",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:01:05.134890",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -47,15 +47,12 @@
     "Wattoo Wattoo",
     "Goldorak",
     "Discorébus : F. CORBIER chante \"les rois mages\"",
-    "Dorothée accueille à l'occasion de l'Epiphanie, M. TOURNIER qu'elle interroge sur son dernier livre \"GASPARD, Melchior et Balthazar \"",
     "Pouffi et Fouki",
     "Casper et ses amis",
     "Le petit écho de la forêt",
     "Discopuce",
-    "Les petits malheurs : F. CORBIER interprète une chanson qu'il a composée à partir de confidences d'enfants sur leurs petits malheurs",
     "Bouquin Bouquine",
     "Chanson Corbier",
-    "J. DI GIACOMO mime un ballon et un automate",
     "Dorothée et Corbier",
     "La Panthère rose",
     "Zeltron",
@@ -63,5 +60,8 @@
     "Candy",
     "DOROTHEE chante \"les rois mages\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.949674"
+  "normalized_at": "2026-11-18T21:59:44.991416",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006915",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006915/recre-a2-emission-du-27-mai-1987?rang=89",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:41:57.395322",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -17,5 +17,8 @@
   "elements": [
     "Dernier Récré A2 avec Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:10.723351"
+  "normalized_at": "2026-11-18T21:59:46.549163",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

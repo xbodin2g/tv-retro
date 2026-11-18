@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905379404",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905379404/recre-a2-emission-du-17-octobre-1979?rang=340",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:19:59.596635",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -36,15 +36,16 @@
   "elements": [
     "La Panthère rose",
     "Maraboud'ficelle",
-    "Discobus : Plateau Dorothée, James OLIVIER chante \"la grenouille et le roi\"",
     "A2000",
     "Zeltron",
-    "Discobus : Plateau Dorothée, James OLIVIER chante \"la pomme et l'escargot\"",
     "Flash sport P. S JONES : Le Tennis",
     "Candy",
     "Sido et Rémi",
     "Les Bubblies",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.688313"
+  "normalized_at": "2026-11-18T21:59:44.780750",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

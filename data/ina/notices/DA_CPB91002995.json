@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002995",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002995/recre-a2-emission-du-9-avril-1984?rang=243",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:06:46.263367",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -30,5 +30,8 @@
     "Kum Kum",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.962874"
+  "normalized_at": "2026-11-18T21:59:45.959324",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

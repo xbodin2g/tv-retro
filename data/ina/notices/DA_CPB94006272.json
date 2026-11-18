@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94006272",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94006272/giga-emission-du-14-juillet-1994?rang=125",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:52:28.696996",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce GIGA, rediffusion d'un épisode de la série Goal, \"Impair et casse\". (Pas de reportages)."
   ],
-  "elements": [
-    "Au sommaire de ce GIGA, rediffusion d'un épisode de la série Goal, \"Impair et casse\". (Pas de reportages)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.716670"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.542838",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007963",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007963/recre-a2-emission-du-31-mai-1986?rang=252",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:07:48.083455",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "L'Empire des cinqs",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.362425"
+  "normalized_at": "2026-11-18T21:59:45.447546",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

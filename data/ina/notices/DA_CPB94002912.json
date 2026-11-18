@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002912",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002912/giga-emission-du-15-avril-1994?rang=68",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:48:28.147364",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "Séries : Seconde B : \"Bon anniversaire\": REDIFFUSION ; Les années collège : \"Que choisir\" (ACHAT)."
   ],
   "elements": [
-    "Aucun reportage dans cette émission",
-    "Séries : Seconde B : \"Bon anniversaire\": REDIFFUSION ; Les années collège : \"Que choisir\" (ACHAT)"
+    "Aucun reportage dans cette émission"
   ],
-  "normalized_at": "2026-11-17T07:00:10.692487"
+  "normalized_at": "2026-11-18T21:59:46.521571",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

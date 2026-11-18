@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007229",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007229/giga-emission-du-15-mars-1991?rang=11",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:10:14.692815",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,8 @@
     "SERIE GIGA/ SAUVES PAR LE GONG",
     "SERIE GIGA/ ZORRO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.026177"
+  "normalized_at": "2026-11-18T21:59:46.014168",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

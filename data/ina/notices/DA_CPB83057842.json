@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83057842",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057842/recre-a2-emission-du-01-septembre-1983?rang=197",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:54:08.759388",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "(bde 75682 CD)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.074694"
+  "normalized_at": "2026-11-18T21:59:45.094866",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

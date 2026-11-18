@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009524",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009524/giga-emission-du-19-juin-1991?rang=82",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:21.346817",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "Le bateau du Ct COUSTEAU, l'Alcyon. Lect COUSTEAU parle de \"la déclaration de droits des générations futures\" dont il est à l'origine et qu'il va faire circuler."
   ],
   "elements": [
-    "Reportages",
-    "COLBY : bande dessinée crée par GREG. Grg expllique ce que sera cette série"
+    "Reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.075136"
+  "normalized_at": "2026-11-18T21:59:46.050606",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

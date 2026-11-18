@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80056252",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80056252/recre-a2-emission-du-11-octobre-1980?rang=92",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:30:50.670939",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Pinocchio",
     "La Caverne d'Abracadabra"
   ],
-  "normalized_at": "2026-11-17T07:00:08.769982"
+  "normalized_at": "2026-11-18T21:59:44.845389",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

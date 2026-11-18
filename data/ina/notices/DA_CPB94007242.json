@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94007242",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94007242/giga-emission-du-2-septembre-1994?rang=26",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:54:17.724323",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,9 +15,9 @@
     "L'émission diffuse deux séries, annoncées par une voix off :",
     "Quoi de neuf docteur \"et\" La fête à la maison \"."
   ],
-  "elements": [
-    "L'émission diffuse deux séries, annoncées par une voix off",
-    "Quoi de neuf docteur \"et\" La fête à la maison \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.730955"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.556426",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

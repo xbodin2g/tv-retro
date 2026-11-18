@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86000066",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000066/recre-a2-emission-du-1er-janvier-1986?rang=490",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:55:45.715425",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -40,15 +40,16 @@
     "Tchaou et Grodo",
     "Les aventures de Dorothée",
     "Johann et Pirlouit",
-    "16 minutes non enregistré",
     "Bibifoc",
     "Cache cache caméra",
     "Latulu et Lireli",
     "L'Empire des 5",
     "Dorothée en Guadeloupe",
     "X OR",
-    "Les Shadoks",
-    "Clip Dorothée chante \"adieu foulards adieu madras\"et \"tant qu'on a des amis\""
+    "Les Shadoks"
   ],
-  "normalized_at": "2026-11-17T07:00:09.238174"
+  "normalized_at": "2026-11-18T21:59:45.342389",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

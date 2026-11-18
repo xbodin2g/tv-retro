@@ -2,7 +2,7 @@
   "notice_id": "TV_341217.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_341217.001/club-dorothee-vacances-programme-du-27-juin-1996?rang=260",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:32:11.736668",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -34,5 +34,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.483657",
-  "normalized_at": "2026-11-17T07:00:11.044707"
+  "normalized_at": "2026-11-18T21:59:46.825855",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

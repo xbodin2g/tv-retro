@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90015134",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90015134/recre-a2-emission-du-09-mars-1981?rang=151",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:42:38.475747",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,5 +24,8 @@
     "Les aventures électrique de Zeltron",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:09.844194"
+  "normalized_at": "2026-11-18T21:59:45.853454",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

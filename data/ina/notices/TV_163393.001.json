@@ -2,7 +2,7 @@
   "notice_id": "TV_163393.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_163393.001/club-dorothee-programme-du-10-novembre-1995?rang=60",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:45:59.911836",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,8 @@
     "Salut les musclés : Olga"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.346746",
-  "normalized_at": "2026-11-17T07:00:10.852750"
+  "normalized_at": "2026-11-18T21:59:46.663263",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

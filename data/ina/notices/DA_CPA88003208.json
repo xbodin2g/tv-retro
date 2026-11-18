@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88003208",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88003208/club-dorothee-emission-du-22-mars-1988?rang=70",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:09:03.490732",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,9 +17,11 @@
     "Dessin animé : \"Gigi\"."
   ],
   "elements": [
-    "Ariane est mise en boite par les garçons, à propos de son petit ami, dont elle ne veut rien dire",
     "Vidéoclip : \"Bioman\"",
     "Dessin animé : \"Gigi\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.010527"
+  "normalized_at": "2026-11-18T21:59:44.115473",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

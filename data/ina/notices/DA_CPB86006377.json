@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006377",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006377/recre-a2-emission-du-29-mars-1986?rang=183",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:38.056715",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,9 +18,11 @@
     "Plateau Corbier et Véronique"
   ],
   "elements": [
-    "CORBIER et Véronique présentent l'émission en se chamaillant",
     "L'empire des 5",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.316299"
+  "normalized_at": "2026-11-18T21:59:45.409358",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

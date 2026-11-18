@@ -2,7 +2,7 @@
   "notice_id": "TV_639101.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_639101.001/club-dorothee-vacances-programme-du-6-aout-1997?rang=146",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:38:33.088347",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -43,5 +43,8 @@
     "Animaux en liberté"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.672107",
-  "normalized_at": "2026-11-17T07:00:11.369199"
+  "normalized_at": "2026-11-18T21:59:47.095321",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

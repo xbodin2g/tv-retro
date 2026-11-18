@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80051769",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80051769/recre-a2-emission-du-24-septembre-1980?rang=341",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:29:46.916998",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -32,14 +32,12 @@
     "Lippy le lion"
   ],
   "elements": [
-    "DOROTHEE en sherlock HOLMES et toute l'équipe partent à la recherche d'inconnus qui veulent saboter l'émission",
     "Wattoo Wattoo",
     "Récré A2",
     "Dino boy",
     "Maraboud'ficelle",
     "Félix le chat",
     "Les Paladins de France",
-    "Les môts à double détente : J. LACROIX propose deux définitions pouvant s'adresser à un même mot",
     "Zeltron",
     "A. RENARD chante \"j'en ai marre\"",
     "La Panthère rose",
@@ -48,5 +46,8 @@
     "Les petits poètes",
     "Lippy le lion"
   ],
-  "normalized_at": "2026-11-17T07:00:08.730011"
+  "normalized_at": "2026-11-18T21:59:44.813935",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

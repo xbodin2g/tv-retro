@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005480",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005480/giga-emission-du-3-mai-1993?rang=136",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:21:59.074553",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,10 @@
     "Diffusion de la quatrième série : MAJOR DAD: \"La Faim justifie les moyens \" (achat)."
   ],
   "elements": [
-    "Au sommaire, deux reportages et quatre séries. Manu et Clémentine animent l'émission",
-    "Sujet n1",
-    "Diffusion d'un épisode de\"QUOI DE NEUF DOCTEUR ? \" (série, achat)",
-    "Diffusion de la quatrième série : MAJOR DAD: \"La Faim justifie les moyens \" (achat)"
+    "Sujet n1"
   ],
-  "normalized_at": "2026-11-17T07:00:10.513006"
+  "normalized_at": "2026-11-18T21:59:46.374213",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

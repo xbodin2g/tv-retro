@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003452",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003452/giga-emission-du-7-fevrier-1991?rang=38",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:28.376862",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,10 @@
   ],
   "elements": [
     "Au sommaire de ce magazine",
-    "POPEYE THE SAILOR (can you take it ? dessin animé),",
-    "Laurel ET HARDY (une démonstration de professionnel, dessin animé),",
-    "SERIE GIGA/ SAUVES PAR LE GONG (la demande en mariage, achat),",
     "SERIE GIGA/ ZORRO"
   ],
-  "normalized_at": "2026-11-17T07:00:09.973721"
+  "normalized_at": "2026-11-18T21:59:45.969924",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

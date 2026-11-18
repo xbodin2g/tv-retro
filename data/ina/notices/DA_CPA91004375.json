@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91004375",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91004375/club-dorothee-vacances-emission-du-22-fevrier-1991?rang=47",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:14:26.495065",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -24,11 +24,12 @@
   "elements": [
     "LES JEUX : 13 mots pour un cadeau",
     "ABC dans la neige",
-    "La super chanson des musclés qui chantent \"y'a pas d'raison\" (clip)",
-    "Les séries : Sally, petite sorcière (le Père Noël)",
     "Dragon Ball Z",
     "Le collège fou fou",
     "Nicky LARSON"
   ],
-  "normalized_at": "2026-11-17T07:00:08.494246"
+  "normalized_at": "2026-11-18T21:59:44.610685",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92014292",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014292/giga-emission-du-19-novembre-1992?rang=133",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:17.672382",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,8 +21,10 @@
   "elements": [
     "Au sommaire de cette nouvelle édition de Giga",
     "\"Le Prince de Bel Air\" (Achat)",
-    "JEU DU QUIZAKO> Questions sur le reportage et sur la série \"Le Prince de Bel Air\"",
     "\"Sauvé par le Gong\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.391031"
+  "normalized_at": "2026-11-18T21:59:46.287577",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

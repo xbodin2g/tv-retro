@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93007654",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007654/giga-emission-du-6-juillet-1993?rang=204",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:24:56.306385",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,5 +19,8 @@
   "elements": [
     "\"VTT DANS LES MARAIS\"(Jou : Christine DEVARS) Re"
   ],
-  "normalized_at": "2026-11-17T07:00:10.562138"
+  "normalized_at": "2026-11-18T21:59:46.413969",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

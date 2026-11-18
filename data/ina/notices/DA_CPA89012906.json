@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89012906",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89012906/club-dorothee-noel-emission-du-1er-janvier-1990?rang=243",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:41:17.751199",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoel",
@@ -18,10 +18,11 @@
     "Feuilleton \"Salut les Musclés\" (cf au titre)."
   ],
   "elements": [
-    "Dorothée, CORBIER, Jacky, Ariane et Pat accompagnés des Musclés en smoking animent l'émission",
     "Jeux. ABC et Le mot interdit",
-    "Document extérieur : \"Cap Danger\", \"Les chevaliers du Zodiac\"",
     "Feuilleton \"Salut les Musclés\" (cf au titre)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.334382"
+  "normalized_at": "2026-11-18T21:59:44.461574",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006197",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006197/giga-emission-du-11-juillet-1990?rang=159",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:51:18.705024",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "Reportage GIGA sur le \"skate bike\": démonstration à La Défense de skate bike et interview des jeunes gens s'adonnant à ses plaisirs (et à ses risques !)."
   ],
   "elements": [
-    "SERIE GIGA : \"ALF\" (feuilleton américain)",
-    "GIGACLIP d'Elton JOHN : \"Club at the end of the street\""
+    "SERIE GIGA : \"ALF\" (feuilleton américain)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.522777"
+  "normalized_at": "2026-11-18T21:59:45.577481",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007971",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007971/giga-emission-du-14-septembre-1990?rang=77",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:54:40.613007",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,5 +18,8 @@
   "elements": [
     "SERIE : \"Les années collège\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.568725"
+  "normalized_at": "2026-11-18T21:59:45.610364",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

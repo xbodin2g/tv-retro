@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86007451",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007451/recre-a2-emission-du-14-mai-1986?rang=406",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:06:08.259936",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -43,7 +43,6 @@
     "Heidi",
     "Mafalda",
     "Méthanie ville",
-    "Latulu et lireli : Courts commentaires des livres \"L'homme qui avait perdu le nord\" de Bernard CLAVEL, et \"La princesse oie\" de GRIMM",
     "Simbad le marin",
     "Discopuce",
     "Le monde selon Georges",
@@ -53,5 +52,8 @@
     "Jane de la jungle",
     "X Or"
   ],
-  "normalized_at": "2026-11-17T07:00:09.350886"
+  "normalized_at": "2026-11-18T21:59:45.437317",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

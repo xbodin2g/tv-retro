@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB14003247",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB14003247/recre-a2-emission-du-25-fevrier-1981?rang=374",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:42:04.823241",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -35,12 +35,9 @@
   ],
   "elements": [
     "Émilie",
-    "Discorébus : Ballet de claquettes, interprété par des enfants",
     "Félix le chat",
     "DOROTHEE chante \"Récré A2\" en costume",
-    "Maraboud'ficelle : W. LEYMERGIE donne les résultats du concours-CABU propose une nouvelle histoire",
     "Casper et ses amis",
-    "Les contrepeteries : R. BEAUVAIS propose des contrepèteries avec des dessins de CABU",
     "Zeltron",
     "Musiciens brésiliens",
     "Les blancs jouent et gagnent",
@@ -51,5 +48,8 @@
     "Dessin animé Warner Bros",
     "Maraboud'ficelle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.634179"
+  "normalized_at": "2026-11-18T21:59:44.738186",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

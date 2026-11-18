@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92003079",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003079/giga-emission-du-30-avril-1992?rang=41",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:32:32.867784",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,14 @@
     "-JEU QUIZAKO."
   ],
   "elements": [
-    "GIGA propose aujourd'hui des séries, des jeux dont le jeu QUIZAKO et deux reportages",
     "REPORTAGES",
     "SERIES",
     "Sois prof et tais-toi (Achat)",
     "Les années collège (Achat)",
     "JEU QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.282280"
+  "normalized_at": "2026-11-18T21:59:46.209314",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

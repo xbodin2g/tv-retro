@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004169",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004169/giga-emission-du-31-mars-1993?rang=127",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:04.248376",
   "program_query": "Giga",
   "programme": "Giga",
@@ -28,11 +28,12 @@
     "Au programme de l'émission, deux reportages",
     "1)",
     "2)",
-    "Les séries : LA FETE A LA MAISON ( \"Les jeux sont faits\"), achat",
     "HAPPY DAYS ( \"La bécane de Fonzie\"), achat",
     "QUOI DE NEUF DOCTEUR, achat",
-    "MAJOR DAD ( \"A votre service\"), achat",
-    "En compagnie de Clémentine, Manu assure le lancement des sujets et séries et les transitions"
+    "MAJOR DAD ( \"A votre service\"), achat"
   ],
-  "normalized_at": "2026-11-17T07:00:10.481821"
+  "normalized_at": "2026-11-18T21:59:46.352610",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

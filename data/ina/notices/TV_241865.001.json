@@ -2,7 +2,7 @@
   "notice_id": "TV_241865.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_241865.001/club-dorothee-vacances-programme-du-22-fevrier-1996?rang=355",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:26:27.969592",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -39,5 +39,8 @@
     "Pas de pitié pour les croissants"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.401775",
-  "normalized_at": "2026-11-17T07:00:10.949192"
+  "normalized_at": "2026-11-18T21:59:46.742024",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011883",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011883/giga-emission-du-25-novembre-1993?rang=31",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:32:02.967673",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Trois séries au sommaire de GIGA : \"L'annexe : Procès d'intention\"/ \" Sauvés par le gong\"/ \" Le prince de Bel Air\"."
   ],
-  "elements": [
-    "Trois séries au sommaire de GIGA : \"L'annexe : Procès d'intention\"/ \" Sauvés par le gong\"/ \" Le prince de Bel Air\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.635894"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.475105",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

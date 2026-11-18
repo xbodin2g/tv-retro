@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000940",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000940/recre-a2-emission-du-20-novembre-1982?rang=233",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:21:44.076743",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,8 @@
     "Casper et ses amis",
     "Harold Llyod's"
   ],
-  "normalized_at": "2026-11-17T07:00:09.888086"
+  "normalized_at": "2026-11-18T21:59:45.888914",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

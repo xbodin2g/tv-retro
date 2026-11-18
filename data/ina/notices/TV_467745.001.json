@@ -2,7 +2,7 @@
   "notice_id": "TV_467745.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_467745.001/club-dorothee-programme-du-11-decembre-1996?rang=125",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:41:33.721482",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -39,5 +39,8 @@
     "La Croisière Foll'Amour"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.572911",
-  "normalized_at": "2026-11-17T07:00:11.195517"
+  "normalized_at": "2026-11-18T21:59:46.954061",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

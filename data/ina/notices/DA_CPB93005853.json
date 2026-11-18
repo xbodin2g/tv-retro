@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005853",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005853/giga-emission-du-11-mai-1993?rang=137",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:24.076597",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "Seconde B",
     "Major Dad"
   ],
-  "normalized_at": "2026-11-17T07:00:10.518689"
+  "normalized_at": "2026-11-18T21:59:46.382647",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92015946",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015946/giga-emission-du-30-novembre-1992?rang=227",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:41:46.152547",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion de : Sauvés par le gong ; Un toit pour dix ; Le prince de Bel Air."
   ],
-  "elements": [
-    "Diffusion de : Sauvés par le gong ; Un toit pour dix ; Le prince de Bel Air"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.399701"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.294335",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011144",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011144/giga-emission-du-30-aout-1991?rang=215",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:17:42.166722",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion des séries \"Quoi de neuf docteur ?\" (achat) et \"La famille Fontaine\" (rediffusion)."
   ],
-  "elements": [
-    "Diffusion des séries \"Quoi de neuf docteur ?\" (achat) et \"La famille Fontaine\" (rediffusion)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.109107"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.078035",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

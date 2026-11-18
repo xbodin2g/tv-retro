@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92010600",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010600/giga-emission-du-3-septembre-1992?rang=105",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:36:58.933634",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Quoi de neuf docteur? . Les années collèges .(Achats ). La fête à la maison (rediffusion)."
   ],
-  "elements": [
-    "Quoi de neuf docteur? . Les années collèges .(Achats ). La fête à la maison (rediffusion)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.341948"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.251545",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

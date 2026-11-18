@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005902",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005902/giga-emission-du-19-mai-1993?rang=193",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:47.561834",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,12 +24,13 @@
   ],
   "elements": [
     "Manuel GELIN et CLEMENTINE animent l'émission",
-    "LE SOFT BALL : présentation de ce nouveau sport, le baseball féminin, et explications de deux pratiquantes Christel VEST et Aude GEORGELIN",
     "SERIE : LA FETE A LA MAISON (Achat)",
     "SERIE : SECONDE B",
-    "Thierry JOLY, le Docteur GIGA, répond aux questions téléphoniques",
     "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
     "SERIE : MAJOR DAD"
   ],
-  "normalized_at": "2026-11-17T07:00:10.524502"
+  "normalized_at": "2026-11-18T21:59:46.386916",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

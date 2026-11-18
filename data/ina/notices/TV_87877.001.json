@@ -2,7 +2,7 @@
   "notice_id": "TV_87877.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_87877.001/club-dorothee-vacances-programme-du-5-juillet-1995?rang=458",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:28:24.669205",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -21,5 +21,8 @@
     "Arnold et Willy : faîtes sauter la banque"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.708843",
-  "normalized_at": "2026-11-17T07:00:11.569502"
+  "normalized_at": "2026-11-18T21:59:47.255529",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

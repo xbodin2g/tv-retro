@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001933",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001933/giga-emission-du-15-mars-1990?rang=205",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:46:07.639367",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,8 +23,10 @@
   ],
   "elements": [
     "AU SOMMAIRE",
-    "(série américaine)",
-    "Le groupe Cock Robin en tournée, interview du chanteur"
+    "(série américaine)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.468639"
+  "normalized_at": "2026-11-18T21:59:45.538934",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

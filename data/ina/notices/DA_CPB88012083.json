@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB88012083",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB88012083/recre-a2-emission-du-28-decembre-1983?rang=319",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:00:09.290218",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -34,9 +34,7 @@
     "Plateau Dorothée, Jacky"
   ],
   "elements": [
-    "L'émission se déroule dans un chalet de montagne. DOROTHEE attend ses invités. JACKY est en abominable hommes des neiges",
     "Papivole",
-    "CHAPI CHAPO : jeu de phoques : les marionnettes CHAPI CHAPO assistent à une démonstration de jonglage faite par des phoques",
     "Les Schtroumpfs",
     "LA PRINCESSE INSENSIBLE : \"le sous marin\"",
     "WATOO-WATOO : \"les jeux dangereux\"",
@@ -46,5 +44,8 @@
     "Discopuce",
     "LES MYSTERIEUSES CITES D'OR"
   ],
-  "normalized_at": "2026-11-17T07:00:09.443648"
+  "normalized_at": "2026-11-18T21:59:45.517991",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

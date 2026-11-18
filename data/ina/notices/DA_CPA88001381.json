@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88001381",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88001381/club-dorothee-emission-du-10-fevrier-1988?rang=64",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:06:03.578561",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -24,13 +24,14 @@
   ],
   "elements": [
     "Séries diffusées au cours de l'après-midi",
-    "\"Bioman : Les Biomen inventent une nouvelle ruse \"",
     "\"Les Minipouss : Un peu d'or, beaucoup d'ennui\"",
     "\"Goldorak : La reine fantôme \"",
     "Mask",
     "Capitaine Flam",
-    "\"Bioman : Le mystère de Balgion\"",
-    "Jeux divers : \"Le mot mystérieux\", \"Jacky seau\", \"Goûter d'anniversaire de Papy BROSSARD\", \"Jeu Léo\", \"Jeu Top junior\""
+    "\"Bioman : Le mystère de Balgion\""
   ],
-  "normalized_at": "2026-11-17T07:00:07.987624"
+  "normalized_at": "2026-11-18T21:59:44.097170",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81055563",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81055563/recre-a2-emission-du-07-fevrier-1981?rang=97",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:40:48.210692",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Pinocchio",
     "La Caverne d'Abracadabra"
   ],
-  "normalized_at": "2026-11-17T07:00:08.843766"
+  "normalized_at": "2026-11-18T21:59:44.908003",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

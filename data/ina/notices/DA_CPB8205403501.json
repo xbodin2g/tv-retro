@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205403501",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205403501/recre-a2-emission-du-10-juillet-1982?rang=336",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:11:48.561506",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -27,5 +27,8 @@
     "Festival international des marionnettes de Charleville-Mézières : Hong-Kong",
     "Chanson Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:08.926441"
+  "normalized_at": "2026-11-18T21:59:44.972919",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

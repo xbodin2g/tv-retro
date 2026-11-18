@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94001010",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94001010/giga-emission-du-1er-fevrier-1994?rang=76",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:44:55.283579",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "LES COUPS DE COEUR DE GIGA : A l'occasion de la semaine de la chanson, \"Giga\" présente FAUBERT, musicien Toulousain, ancien guitariste d'Art MENGO. Celui-ci évoque son inspiration qu'il puise chez d'autres artistes comme CABREL, MENGO, Gold, etc."
   ],
   "elements": [
-    "Au sommaire de ce \"Giga\"",
-    "SERIES : \"Lycée alpin\" (rediffusion 6/11/92), \"Sauvés par le gong\" (Achat)"
+    "Au sommaire de ce \"Giga\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.660405"
+  "normalized_at": "2026-11-18T21:59:46.494939",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

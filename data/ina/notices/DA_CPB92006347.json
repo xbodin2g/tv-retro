@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92006347",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92006347/giga-emission-du-15-juillet-1992?rang=49",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:35:23.308574",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "série : le prince de bel air \"coup de chaleur\" (achat)."
   ],
-  "elements": [
-    "série : le prince de bel air \"coup de chaleur\" (achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.324695"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.238930",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

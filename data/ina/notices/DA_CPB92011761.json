@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011761",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011761/giga-emission-du-1er-octobre-1992?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:44.219460",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,10 @@
     "QUIZAKO."
   ],
   "elements": [
-    "SERIE : La fête à la maison ( \"Les filles ne pensent qu'à s'amuser\", achat)",
-    "SERIE : Sauvés par le gong ( \"La petite amie\", achat)",
     "QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.362722"
+  "normalized_at": "2026-11-18T21:59:46.266422",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

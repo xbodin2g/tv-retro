@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA83056185",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA83056185/recre-a2-emission-du-10-mars-1983?rang=134",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:44:12.128259",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Bde 93 633"
   ],
-  "normalized_at": "2026-11-17T07:00:07.863386"
+  "normalized_at": "2026-11-18T21:59:44.006803",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

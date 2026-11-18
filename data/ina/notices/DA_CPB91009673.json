@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009673",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009673/giga-emission-du-28-juin-1991?rang=28",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:47.488702",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,9 +21,10 @@
   ],
   "elements": [
     "Au sommaire de ce Giga",
-    "Les séries \"Un toit pour dix\" et \"Quoi de neuf docteur\"",
-    "Reportages",
-    "Andrew ROACHFORD présente son nouvel album et dit dans quelle mouvance musicale il se situe. Extraits des vidéoclips \"Get Ready\" et \"Family Man\""
+    "Reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.087856"
+  "normalized_at": "2026-11-18T21:59:46.059958",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90013236",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013236/recre-a2-emission-du-13-septembre-1979?rang=275",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:18:35.028088",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,5 +22,8 @@
     "Kaléidoscope",
     "Les Bubblies"
   ],
-  "normalized_at": "2026-11-17T07:00:09.715864"
+  "normalized_at": "2026-11-18T21:59:45.743383",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

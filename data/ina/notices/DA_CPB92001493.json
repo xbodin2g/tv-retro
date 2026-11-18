@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001493",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001493/giga-emission-du-17-fevrier-1992?rang=58",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:28.339456",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,9 @@
     "Marc COHN : Clip \"Walking in Memphis\"; interview (vo dblé): nomination aux grammy awards ; composition de l'album.",
     "SERIES : \"Sois prof et tais-toi\"; \"Sauvés par le gong \"."
   ],
-  "elements": [
-    "ESCRIME : Présentation de ce sport par de jeunes adeptes ; interview professeur",
-    "Marc COHN : Clip \"Walking in Memphis\"; interview (vo dblé): nomination aux grammy awards ; composition de l'album",
-    "SERIES : \"Sois prof et tais-toi\"; \"Sauvés par le gong \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.222140"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.167387",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

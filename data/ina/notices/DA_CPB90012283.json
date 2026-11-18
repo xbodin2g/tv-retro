@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90012283",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012283/recre-a2-emission-du-19-octobre-1978?rang=82",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:23:47.230054",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.648066"
+  "normalized_at": "2026-11-18T21:59:45.677829",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

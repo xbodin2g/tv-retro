@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000218",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000218/giga-emission-du-7-janvier-1993?rang=61",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:15:55.509410",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "Reportage : A Boulogne sur Mer s'est ouvert un centre d'exposition sur la mer de 15.000m2. On peut y admirer des aquariums de 600m2 de poissons les plus divers. La mission de cette exposition est de sensibiliser le public à la gestion de la mer. Chacun est acteur de cette gestion.",
     "Certains bassins sont amménagés afin que le public est un contact tactile avec les poissons. Ces derniers après une trop longue exposition sont remplacés par des \"doublures\". Après un moment de repos, ils reprennent leur rôle."
   ],
-  "elements": [
-    "Au sommaire \"Sauvés Par le Gong\" et \"Matt Houston\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.417789"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.308532",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

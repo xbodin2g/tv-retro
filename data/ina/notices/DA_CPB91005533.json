@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005533",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005533/giga-emission-du-4-mars-1991?rang=8",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:09:42.753000",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,12 @@
     "Zorro (achat)."
   ],
   "elements": [
-    "Court reportage sur l'enregistrement en studio par Joëlle URSULL de \"White and black\" sous la direction de Serge GAINSBOURG",
     "Sauvés par le gong (série américaine)",
     "INFOS GIGA",
     "Zorro (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.004033"
+  "normalized_at": "2026-11-18T21:59:45.998780",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

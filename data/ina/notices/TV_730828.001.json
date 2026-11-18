@@ -2,7 +2,7 @@
   "notice_id": "TV_730828.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_730828.001/tf-jeunesse-programme-du-11-decembre-1997?rang=115",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T20:43:21.742729",
   "program_query": "TF! Jeunesse",
   "programme": "TF\n! Jeunesse",
@@ -30,10 +30,12 @@
     "[Plateau : 8ème partie]"
   ],
   "elements": [
-    "[Présentation",
     "Cococinel",
     "[Plateau",
     "Beetleborgs, une BD d'enfer"
   ],
-  "normalized_at": "2026-11-17T07:00:11.516768"
+  "normalized_at": "2026-11-18T21:59:47.210991",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

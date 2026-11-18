@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005403",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005403/giga-emission-du-28-avril-1993?rang=135",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:21:46.880129",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,12 +23,13 @@
     "SERIE : MAJOR DAD (Achat)."
   ],
   "elements": [
-    "Manuel GELIN présente l'émission aux côtés de Clémentine. Au sommaire, petits reportages et séries habituelles",
     "SERIE : LA FETE A LA MAISON (Achat)",
-    "VACANCES DES ADOS : Petite enquête auprès d'adolescents sur la façon dont ils occupent leurs vacances : voyage, détente, sport",
     "SERIE : HAPPY DAYS (Achat)",
     "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
     "SERIE : MAJOR DAD (Achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.509113"
+  "normalized_at": "2026-11-18T21:59:46.371417",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

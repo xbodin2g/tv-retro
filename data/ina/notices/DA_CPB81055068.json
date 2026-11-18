@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81055068",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81055068/recre-a2-emission-du-03-decembre-1981?rang=315",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:56:45.931532",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,10 +21,12 @@
     "la caverne d'abracadabra"
   ],
   "elements": [
-    "Le monde de la ferme présenté par Basle Marie-Josée (13) réal : Saintout Jean",
     "Discopuce",
     "Je veux être toi",
     "La Caverne d'Abracadabra"
   ],
-  "normalized_at": "2026-11-17T07:00:08.837952"
+  "normalized_at": "2026-11-18T21:59:44.903556",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

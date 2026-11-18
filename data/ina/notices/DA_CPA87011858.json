@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011858",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011858/club-dorothee-emission-du-3-decembre-1987?rang=20",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:14:24.797020",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -17,9 +17,11 @@
     "Une chanson de Dorothée."
   ],
   "elements": [
-    "Patrick, Ariane, Jacky et CORBIER présentent des jouets de Noêl et proposent",
     "MON PETIT PONEY (d.A. Achat)",
     "Une chanson de Dorothée"
   ],
-  "normalized_at": "2026-11-17T07:00:07.957623"
+  "normalized_at": "2026-11-18T21:59:44.071557",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

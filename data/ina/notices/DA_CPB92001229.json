@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001229",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001229/giga-emission-du-13-fevrier-1992?rang=174",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:20.754448",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "\"Sois prof et tais toi \"(série américaine)",
     "\"Sauvés par le gong\" (série américaine)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.220093"
+  "normalized_at": "2026-11-18T21:59:46.165839",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

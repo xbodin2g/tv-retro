@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94007239",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94007239/giga-emission-du-30-aout-1994?rang=153",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:54:04.200684",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce GIGA, les séries : \"Quoi de neuf Docteur\" et \"La fête à la maison\"."
   ],
-  "elements": [
-    "Au sommaire de ce GIGA, les séries : \"Quoi de neuf Docteur\" et \"La fête à la maison\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.729763"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.555276",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

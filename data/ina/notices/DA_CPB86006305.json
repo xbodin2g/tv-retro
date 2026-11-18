@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86006305",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006305/recre-a2-emission-du-27-mars-1986?rang=222",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:29.703883",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,5 +26,8 @@
     "Latulu et Lireli",
     "PAC man"
   ],
-  "normalized_at": "2026-11-17T07:00:09.314803"
+  "normalized_at": "2026-11-18T21:59:45.407824",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

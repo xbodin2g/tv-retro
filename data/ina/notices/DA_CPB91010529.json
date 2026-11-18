@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91010529",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91010529/giga-emission-du-29-juillet-1991?rang=89",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:16:09.716238",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion des séries \"Quoi de neuf docteur\", et \"La famille Fontaine \". Pas de reportages."
   ],
-  "elements": [
-    "Diffusion des séries \"Quoi de neuf docteur\", et \"La famille Fontaine \". Pas de reportages"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.093465"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.064969",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

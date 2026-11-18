@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86004476",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004476/recre-a2-emission-du-14-fevrier-1986?rang=298",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:59:08.176650",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,8 +22,10 @@
   "elements": [
     "Super DOC : 18° en dessous (2)",
     "Latulu et Lireli",
-    "Téléchat",
-    "\" Shera la princesse du pouvoir \"Le peuple de Pierre\""
+    "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.275244"
+  "normalized_at": "2026-11-18T21:59:45.374204",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

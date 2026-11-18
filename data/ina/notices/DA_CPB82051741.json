@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051741",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051741/recre-a2-emission-du-19-novembre-1982?rang=231",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:21:39.380947",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -31,5 +31,8 @@
     "Télétactica",
     "Légendes indiennes"
   ],
-  "normalized_at": "2026-11-17T07:00:08.883871"
+  "normalized_at": "2026-11-18T21:59:44.940319",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

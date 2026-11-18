@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92002729",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92002729/giga-emission-du-24-avril-1992?rang=210",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:32:19.166464",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,10 +21,10 @@
     "JEU du Quisako."
   ],
   "elements": [
-    "SERIE : SOIS PROF ET TAIS TOI \"Histoire en béton\". (ACHAT)",
-    "SERIE : SAUVES PAR LE GONG \"Souvenirs, souvenirs\" (ACHAT)",
-    "SERIE : LE PRINCE DE BEL AIR \"Qu'on est bien chez vous\" (ACHAT)",
     "JEU du Quisako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.276670"
+  "normalized_at": "2026-11-18T21:59:46.205227",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012646",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012646/giga-emission-du-12-octobre-1992?rang=198",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:08.753014",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,10 @@
     "Jeu Quizako."
   ],
   "elements": [
-    "Séries : \"La fête à la maison\" (achat) / \"Le lycée alpin\" / \"Sauvés par le gong\"",
     "Jeu Quizako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.368602"
+  "normalized_at": "2026-11-18T21:59:46.270741",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

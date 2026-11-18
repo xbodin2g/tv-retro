@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000228",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000228/giga-emission-du-15-janvier-1993?rang=62",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:18.947477",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,8 @@
     "SERIE : QUOI DE NEUF DOCTEUR (ACHAT)",
     "SERIE : LE PRINCE DE BEL AIR (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.425039"
+  "normalized_at": "2026-11-18T21:59:46.313851",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

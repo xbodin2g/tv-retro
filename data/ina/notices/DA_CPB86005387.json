@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005387",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005387/recre-a2-emission-du-5-mars-1986?rang=461",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:00:30.790670",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nmatin",
@@ -40,13 +40,14 @@
     "Tchaou et Grodo",
     "Latulu et Lireli",
     "Les Schtroumpfs",
-    "Le monde selon Georges : chasse et pêche en Arctique",
     "Discopuce",
-    "Les aventures de Dorothée dessinées par CABU (Dorothée est transformée en autruche)",
     "Pac Man",
     "Mafalda",
     "L'empire des 5",
     "X OR"
   ],
-  "normalized_at": "2026-11-17T07:00:09.297272"
+  "normalized_at": "2026-11-18T21:59:45.393663",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

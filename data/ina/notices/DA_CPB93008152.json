@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008152",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008152/giga-emission-du-20-juillet-1993?rang=200",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:25:30.905178",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,11 @@
     "REPORTAGE de Jean Christophe TUR sur le dernier film avec Johnny DEPP \"BENNY and JOON\" de Jeremiah CHECHIK. Interview de l'acteur sur son rôle et son humour à la KEATON."
   ],
   "elements": [
-    "Manuel GELIN et Clémentine CARTIER présentent le sommaire de GIGA",
-    "SERIE : LES JOURS HEUREUX \"Le rendez vous de Fonzie\" (ACHAT)",
     "Re",
     "SERIE : LE PRINCE DE BEL AIR (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.569201"
+  "normalized_at": "2026-11-18T21:59:46.419369",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

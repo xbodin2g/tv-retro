@@ -2,7 +2,7 @@
   "notice_id": "TV_479257.029",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_479257.029/club-dorothee-noel-programme-du-26-decembre-1996?rang=323",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:42:29.563388",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nNoël",
@@ -40,9 +40,11 @@
     "Je rêve de Jeanie",
     "L'école des champions",
     "Max et compagnie",
-    "Power Rangers",
-    "La croisière Foll amour : la révolte des haricots"
+    "Power Rangers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.583453",
-  "normalized_at": "2026-11-17T07:00:11.212961"
+  "normalized_at": "2026-11-18T21:59:46.968121",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

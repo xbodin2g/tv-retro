@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81053558",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81053558/recre-a2-emission-du-23-juillet-1981?rang=264",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:49:24.230896",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,5 +18,8 @@
   "elements": [
     "La grande aventure"
   ],
-  "normalized_at": "2026-11-17T07:00:08.816926"
+  "normalized_at": "2026-11-18T21:59:44.886743",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

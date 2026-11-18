@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005481",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005481/giga-emission-du-4-mai-1993?rang=84",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:22:03.519240",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,12 +22,13 @@
     "\"MAJOR DAD\" (série, achat)."
   ],
   "elements": [
-    "Manuel GELIN présente le sommaire de son émission avec les fictions habituelles et deux reportages",
     "\"LA FETE A LA MAISON \"(série, achat)",
     "\"HAPPYS DAYS\" (série, achat)",
-    "Thierry JOLY répond, par téléphone, aux questions que lui posent plusieurs adolescents sur des petits problèmes de santé",
     "\"QUOI DE NEUF DOCTEUR \"(série, achat)",
     "\"MAJOR DAD\" (série, achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.514043"
+  "normalized_at": "2026-11-18T21:59:46.374965",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

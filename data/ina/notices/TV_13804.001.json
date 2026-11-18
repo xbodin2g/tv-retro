@@ -2,7 +2,7 @@
   "notice_id": "TV_13804.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_13804.001/club-dorothee-programme-du-30-janvier-1995?rang=6",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:13:34.159567",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -28,5 +28,8 @@
     "Arnold et Willy"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.320936",
-  "normalized_at": "2026-11-17T07:00:10.805598"
+  "normalized_at": "2026-11-18T21:59:46.624502",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002725",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002725/recre-a2-emission-du-07-juillet-1983?rang=473",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:51:41.333570",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -22,5 +22,8 @@
     "Latulu et Lireli",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.960731"
+  "normalized_at": "2026-11-18T21:59:45.956652",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

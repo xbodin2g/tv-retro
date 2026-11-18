@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92012654",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012654/giga-emission-du-22-octobre-1992?rang=38",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:39:38.591522",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,10 +18,12 @@
     "SAUVES PAR LE GONG (série Giga : achat)."
   ],
   "elements": [
-    "LA FETE A LA MAISON (série Giga : achat)",
     "QUIZAKO (jeu)",
     "LE LYCEE ALPIN (série Giga : cpb92013079)",
     "SAUVES PAR LE GONG (série Giga : achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.372949"
+  "normalized_at": "2026-11-18T21:59:46.274602",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

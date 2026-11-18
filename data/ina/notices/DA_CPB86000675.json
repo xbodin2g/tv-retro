@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86000675",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000675/recre-a2-emission-du-07-janvier-1986?rang=285",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:56:10.426961",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,7 +22,6 @@
     "Les Mondes engloutis"
   ],
   "elements": [
-    "Alain et Marie présentent cette émission dans un décors de restaurant chinois",
     "Image imagine",
     "Super Doc : Feu Vert (1)",
     "C'est chouette",
@@ -30,5 +29,8 @@
     "Téléchat",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.241625"
+  "normalized_at": "2026-11-18T21:59:45.345621",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87011349",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87011349/club-dorothee-emission-du-18-novembre-1987?rang=35",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:13:40.754577",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -21,10 +21,10 @@
     "JACKY SEAU : Le seau d'eau se déverse à 16H58'49 \"."
   ],
   "elements": [
-    "GI Joe (achat), les minipouss (achat), Goldorak (achat), le Capitaine Flam (achat), Mask (achat)",
-    "Feuilleton : Bioman",
-    "TOP JUNIOR : les titres sélectionnés par les téléspectateurs",
-    "JACKY SEAU : Le seau d'eau se déverse à 16H58'49 \""
+    "Feuilleton : Bioman"
   ],
-  "normalized_at": "2026-11-17T07:00:07.951476"
+  "normalized_at": "2026-11-18T21:59:44.066692",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

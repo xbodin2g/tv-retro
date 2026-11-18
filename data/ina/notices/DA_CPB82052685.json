@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052685",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052685/recre-a2-emission-du-15-octobre-1982?rang=173",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:19:14.782668",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -33,5 +33,8 @@
     "Le petit écho de la forêt",
     "Kum Kum"
   ],
-  "normalized_at": "2026-11-17T07:00:08.896918"
+  "normalized_at": "2026-11-18T21:59:44.950769",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

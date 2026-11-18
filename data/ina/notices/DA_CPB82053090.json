@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053090",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053090/recre-a2-emission-du-14-juin-1982?rang=90",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:10:37.496021",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Le petit écho de la forêt",
     "Tarzan"
   ],
-  "normalized_at": "2026-11-17T07:00:08.906945"
+  "normalized_at": "2026-11-18T21:59:44.957214",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

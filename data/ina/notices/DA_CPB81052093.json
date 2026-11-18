@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052093",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052093/recre-a2-emission-du-11-decembre-1981?rang=302",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:56:59.582312",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -22,8 +22,10 @@
   "elements": [
     "Mes mains ont la parole",
     "Les Quat'z Amis",
-    "Yok Yok",
-    "Dick le rebelle (1er épisode)"
+    "Yok Yok"
   ],
-  "normalized_at": "2026-11-17T07:00:08.798562"
+  "normalized_at": "2026-11-18T21:59:44.866085",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

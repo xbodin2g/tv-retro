@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008716",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008716/recre-a2-emission-du-21-juin-1986?rang=123",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:09:06.436189",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Valérie et Alain fêtent le premier jour de l'été. Diffusion de La révolte Irlandaise.et Téléchat"
   ],
-  "elements": [
-    "Valérie et Alain fêtent le premier jour de l'été. Diffusion de La révolte Irlandaise.et Téléchat"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.380011"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.462781",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

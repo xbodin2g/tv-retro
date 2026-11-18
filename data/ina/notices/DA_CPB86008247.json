@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008247",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008247/recre-a2-emission-du-9-juin-1986?rang=120",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:23.114124",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -23,5 +23,8 @@
     "Latulu et Lireli",
     "LES MAITRES DE L'UNIVERS"
   ],
-  "normalized_at": "2026-11-17T07:00:09.371456"
+  "normalized_at": "2026-11-18T21:59:45.455144",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

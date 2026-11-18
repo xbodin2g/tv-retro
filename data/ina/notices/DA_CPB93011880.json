@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93011880",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93011880/giga-emission-du-22-novembre-1993?rang=11",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:31:49.607910",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,8 +15,9 @@
     "En ouverture de GIGA, un reportage cinéma devance les trois séries \"L'annexe\", \"Sauvés par le gong\" et \"Le prince de Bel Air\".",
     ": Interview du jeune acteur Bruno WOLKOWITCH alternant avec des extraits du film de Jacques BRAL dont il joue le personnage principal \"Mauvais garçon\". Il parle du caractère séducteur de son personnage et définit ce film comme le récit d'un rêve d'absolu."
   ],
-  "elements": [
-    "En ouverture de GIGA, un reportage cinéma devance les trois séries \"L'annexe\", \"Sauvés par le gong\" et \"Le prince de Bel Air\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.634429"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.473748",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

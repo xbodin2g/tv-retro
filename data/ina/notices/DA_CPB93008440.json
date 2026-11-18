@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008440",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008440/giga-emission-du-10-aout-1993?rang=241",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:28.051102",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,11 @@
   ],
   "elements": [
     "Au sommaire de \"Giga\" d'aujourd'hui",
-    "SERIES : \"Happy days\" et \"Le prince de bel air\"",
     "REPORTAGES",
-    "Le centre Nausicaa de Boulogne sur Mer (re",
-    "Reportage sur le baseball, extraits d'une partie et interview d'un jeune joueur"
+    "Le centre Nausicaa de Boulogne sur Mer (re"
   ],
-  "normalized_at": "2026-11-17T07:00:10.576010"
+  "normalized_at": "2026-11-18T21:59:46.424928",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

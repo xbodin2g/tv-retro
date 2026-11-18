@@ -2,7 +2,7 @@
   "notice_id": "TV_578317.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_578317.001/club-dorothee-programme-du-3-mai-1997?rang=25",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:34:05.096717",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -31,5 +31,8 @@
     "Conan l'aventurier"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.635377",
-  "normalized_at": "2026-11-17T07:00:11.304245"
+  "normalized_at": "2026-11-18T21:59:47.045146",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

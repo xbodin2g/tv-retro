@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009292",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009292/giga-emission-du-14-juin-1991?rang=81",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:08.916203",
   "program_query": "Giga",
   "programme": "Giga",
@@ -26,5 +26,8 @@
     "UN TOIT POUR DIX",
     "QUOI DE NEUF DOCTEUR ?"
   ],
-  "normalized_at": "2026-11-17T07:00:10.072192"
+  "normalized_at": "2026-11-18T21:59:46.048404",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

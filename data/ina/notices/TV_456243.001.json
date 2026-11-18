@@ -2,7 +2,7 @@
   "notice_id": "TV_456243.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_456243.001/club-dorothee-programme-du-27-novembre-1996?rang=113",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:40:46.461882",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -35,9 +35,11 @@
     "Les Minipouss",
     "Jeanne et Serge",
     "Sailor Moon",
-    "Power Rangers",
-    "La croisière foll amour : le sens des affaires"
+    "Power Rangers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.566286",
-  "normalized_at": "2026-11-17T07:00:11.184341"
+  "normalized_at": "2026-11-18T21:59:46.944822",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

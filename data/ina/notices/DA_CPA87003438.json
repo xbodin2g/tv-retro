@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87003438",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87003438/salut-les-petits-loups-emission-du-6-mai-1987?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:51:04.380033",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -21,13 +21,9 @@
     "BANANA ROCK : Teddy Boy évoque la carrière d'Elvis PRESLEY, de 1957 à son départ au service militaire. Archives : en 1957 chante KING Créole.",
     "DESSINS ANIMES : Le Vent dans les Saules, Les Quatre Fillles du Docteur MARCH, les Gobots, les Trois Mousquetaires, Jayce."
   ],
-  "elements": [
-    "FLUOPHONE : Comme à l'accoutumée, ORLY tire des noms et appelle des enfants désireux de jouer au fluophone",
-    "LE BULLETIN D'ORLY : ORLY, en pleine forme commente la météo",
-    "LES CHANSONS DE TETE A CLIP : Marie Pierre chante le chat botté",
-    "LES LOUFOQUES : Les Loufoques sont tombés dans un piège, et perdent le contrôle de leur vaisseau. Arrivée du Chat",
-    "BANANA ROCK : Teddy Boy évoque la carrière d'Elvis PRESLEY, de 1957 à son départ au service militaire. Archives : en 1957 chante KING Créole",
-    "DESSINS ANIMES : Le Vent dans les Saules, Les Quatre Fillles du Docteur MARCH, les Gobots, les Trois Mousquetaires, Jayce"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.902925"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.032113",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

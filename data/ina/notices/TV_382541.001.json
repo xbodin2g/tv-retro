@@ -2,7 +2,7 @@
   "notice_id": "TV_382541.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_382541.001/club-dorothee-vacances-programme-du-23-aout-1996?rang=276",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:37:24.777854",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -22,5 +22,8 @@
     "Premiers baisers"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.520663",
-  "normalized_at": "2026-11-17T07:00:11.105834"
+  "normalized_at": "2026-11-18T21:59:46.878412",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94000034",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000034/giga-emission-du-5-janvier-1994?rang=36",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:43:39.737805",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     "Niagara CHIC ILS SE PARLENT : Interview mutuel de Muriel et Daniel, du groupe Niagaraï Elle l'interroge sur l'imprévu dans la création ; lui demande pourquoi, lui qui s'intéresse à la peinture, ne visite jamais de musée. Il la questionne sur l'attachement à son enfance et sur sa sensibilité féminine (elle éprouve le besoin de prouver qu'elle peut faire tout ce que font les hommes). Brefs extraits de clip.",
     "LYCEE ANTISECHE : Reportage au lycée Sassemo de Nice sur l'instauration d'une carte d'accès. Interview de jeunes élèves sur ce qu'ils en pensent (progrès, pointage, contrainte, inefficacité contre le rackett)."
   ],
-  "elements": [
-    "SERIES : \"Un toit pour dix\"; \"sauvé par le gong\"; \"le Prince de Bel-Air \""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.653316"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.489531",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

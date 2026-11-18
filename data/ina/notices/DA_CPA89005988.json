@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89005988",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89005988/club-dorothee-matin-emission-du-5-juin-1989?rang=253",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:16:48.672612",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nmatin",
@@ -22,14 +22,13 @@
     ", clip dédicacé : \"Savez-vous planter les choux\" (Réal. Jacques SAMYN)."
   ],
   "elements": [
-    "Ariane, CORBIER, Patrick et Jacky, en plateau, annoncent le programme de la journée",
-    "Ariane présente les disques des différents membres de l'équipe",
-    ", (achats), \"Jayce et les conquérants de la lumière\"",
     "\"Les Popples \"",
     "\"DISNEY classique\" : diff. de D.A. De DISNEY",
     ", \"Le nombre d'or télépoche\"",
-    "\"Jeu de l'anniversaire \"",
-    ", clip dédicacé : \"Savez-vous planter les choux\" (Réal. Jacques SAMYN)"
+    "\"Jeu de l'anniversaire \""
   ],
-  "normalized_at": "2026-11-17T07:00:08.253256"
+  "normalized_at": "2026-11-18T21:59:44.368575",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

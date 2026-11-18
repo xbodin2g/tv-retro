@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8005204401",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8005204401/recre-a2-emission-du-07-avril-1980?rang=178",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:21:04.646404",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,8 +25,10 @@
   "elements": [
     "Émilie",
     "Mio and Mao",
-    "Le livre de la semaine : A l'aide de dif. BT d'illustrations du livre de Pierre LESCURE (A nous la radio) off un enfant raconte cette histoire",
     "Albator"
   ],
-  "normalized_at": "2026-11-17T07:00:08.732129"
+  "normalized_at": "2026-11-18T21:59:44.815575",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

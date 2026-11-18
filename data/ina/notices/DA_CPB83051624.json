@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051624",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051624/recre-a2-emission-du-27-avril-1983?rang=467",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:47:14.113016",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,14 +38,12 @@
     "Dorothe interprète avec JACKY \"oh la menteuse\""
   ],
   "elements": [
-    "DOROTHEE et ses comparses jouent les privés Américains des années 40",
     "Chapi Chapo",
     "Maraboud'ficelle",
     "Matou chat des champs et souriceau",
     "Discopuce",
     "Balour et Balu",
     "Zeltron",
-    "Latulu et lireli : Présentation des livres de la semaine",
     "Billy chante \"au temps des surprises party\"",
     "Télétactica",
     "Les Schtroumpfs",
@@ -53,5 +51,8 @@
     "Heidi",
     "Dorothe interprète avec JACKY \"oh la menteuse\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.015462"
+  "normalized_at": "2026-11-18T21:59:45.037863",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

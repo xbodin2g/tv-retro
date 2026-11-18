@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91004516",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91004516/club-dorothee-vacances-emission-du-1er-mars-1991?rang=63",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:15:04.812629",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -17,9 +17,10 @@
     "Dessins animés : \"Sally la petite sorcière\", \"Dragon Ball\", \"Un collège fou fou fou\", \"Nicky LARSON\"."
   ],
   "elements": [
-    "A Avoriaz, Dorothée et son équipe présentent l'émission. Jacky est déguisé en \"homme invisible\"",
-    "Jeu : \"Le yéyé-titi\"",
-    "Dessins animés : \"Sally la petite sorcière\", \"Dragon Ball\", \"Un collège fou fou fou\", \"Nicky LARSON\""
+    "Jeu : \"Le yéyé-titi\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.499092"
+  "normalized_at": "2026-11-18T21:59:44.614863",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

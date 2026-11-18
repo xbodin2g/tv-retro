@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90011472",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90011472/giga-emission-du-12-decmbre-1990?rang=115",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:59:17.257419",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,8 +16,9 @@
     ". Dans un garage de voitures de luxe anciennes David HALLYDAY parle de son nouvel album, de son prochain spectacle au Zénith et de l'Amérique (entrecoupé d'extraits de ses clips). Diffusion d'un extrait de son clip \"Tears of the earth\".",
     "INFOS GIGA. - Annonce du Top Dix des reportages de l'émission à sélectionner (extraits en encadré). - BT de la BD d'Astérix \"le Coup du menhir\". - BA spectacle de Syvie VARTAN au Palais des Sports."
   ],
-  "elements": [
-    "Emission composée d'une interview de David HALLYDAY, d'infos et de la série \"les Années collège : il m'aime, il ne m'aime pas\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.629911"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.657832",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

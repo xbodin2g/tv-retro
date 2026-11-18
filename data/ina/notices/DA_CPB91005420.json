@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005420",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005420/giga-emission-du-28-fevrier-1991?rang=80",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:09:34.853284",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "Au sommaire de l'émission",
     "SERIES : \"Sauvés par le gong\", \"Zorro\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.000037"
+  "normalized_at": "2026-11-18T21:59:45.995180",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

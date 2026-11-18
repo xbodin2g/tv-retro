@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88005735",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88005735/club-dorothee-emission-du-11-mai-1988?rang=189",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:12:00.898021",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -18,10 +18,9 @@
     "INVITE : Carlos participe activement à la fête inondée de cotillons. Il chante en duo avec CORBIER et Dorothée, fait de la publicité pour le parc de Mirapolis, galèje et chante .",
     "PROMOTION : Emmanuelle PROMOTIONNE sa chanson\"Et si un jour \" et le clip présenté, sur le plateau, par le réalisateur Pat LE GUEN."
   ],
-  "elements": [
-    "En direct, l'émission est faite par l'équipe habituelle avec Carlos comme invité vedette. Dorothée donne à l'après midi une atmosphère virevoltante",
-    "SERIES et DESSINS ANIMES : \"Punky Brewster\", \"Les Minipouss \", \"Les chevaliers du zodiaque\", \"Goldorak\", \"GI Joe\", \"SILVER HAWKS\", \"Bioman\"",
-    "PROMOTION : Emmanuelle PROMOTIONNE sa chanson\"Et si un jour \" et le clip présenté, sur le plateau, par le réalisateur Pat LE GUEN"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.036094"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.133264",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

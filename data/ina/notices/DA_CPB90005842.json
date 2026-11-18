@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90005842",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90005842/giga-emission-du-22-juin-1990?rang=92",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:50:09.096515",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,16 +27,12 @@
   ],
   "elements": [
     "UN TOIT POUR DIX (série américaine)",
-    "LE RAFTING (reportage de Christophe WANTZ et Christophe BAZILLE)",
-    "Images de rafting sur l'Isère avec interview de participants",
-    "Dave STEWART A PARIS (reportage de Patrick MARSAULT, Joël BRUN, Pierre GAUTIER et Patrick VERGNAUD)",
-    "Interview du chanteur Dave STEWART avec extraits de clips",
-    "Hugo PRATT (reportage de Numa RODA GIL, Joël BRUN, Olivier LAUNAY et Frédéric RASSINOUX)",
-    "Interview du père de Corto MALTESE avec montage de planches de sa célèbre b.D",
     "LIVRES",
-    "BT de la couverture d'une sélection de livres \"giga\"",
     "ETRE EUROPEEN",
     "THROB (série américaine)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.512787"
+  "normalized_at": "2026-11-18T21:59:45.570178",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

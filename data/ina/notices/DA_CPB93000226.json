@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93000226",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000226/giga-emission-du-13-janvier-1993?rang=70",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:11.166232",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,10 +23,12 @@
   ],
   "elements": [
     "Au sommaire",
-    "DRACULA : reportage sur le tournage du film de COPPOLA (adapté du roman de Bram STOKER) avec interview du metteur en scène et extraits du film",
     "SAUVES PAR LE GONG : série (achat)",
     "QUOI DE NEUF DOCTEUR ? : série (achat)",
     "LE PRINCE DE BEL AIR : série (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.422123"
+  "normalized_at": "2026-11-18T21:59:46.311788",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

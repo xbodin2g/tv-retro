@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010588",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010588/recre-a2-emission-du-6-septembre-1986?rang=429",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:14:30.742700",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -23,5 +23,8 @@
     "SUPER DOC : Propre et blanc (1)",
     "LA REVOLTE IRLANDAISE : \"La récolte\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.420721"
+  "normalized_at": "2026-11-18T21:59:45.499439",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91012866",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91012866/giga-emission-du-1er-novembre-1991?rang=200",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:20:52.475724",
   "program_query": "Giga",
   "programme": "Giga",
@@ -19,8 +19,10 @@
     "LES CIGONGES : au parc animalier d'Herbsheim en Alsace en suivant Sébastien, 11 ans, habitué des lieux, nous découvrons les animaux sauvages, cerfs, biches, daims, cigognes qui viennent trouver refuge ici ou ceux élevés en captivité comme, Bibi, jeune biche, qui se montre caline avec l'enfant. Alfred SCHIERER, ornithologue, parle des cigognes qui viennent ici se reproduire où sont soignées puis relachées. Il évoque la durée de vie de cet animal, les dangers encourus en vol, en particulier les pilônes électriques qui ont été récemment équipés pour pallier à cet inconvénient, l'absence de distinction entre mâle et femelle quand on regarde l'animal."
   ],
   "elements": [
-    "Série \"Sauvés par le gong : la rupture\" (achat)",
     "Série : \"La fête à la maison\" (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.145426"
+  "normalized_at": "2026-11-18T21:59:46.106149",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

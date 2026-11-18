@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB81052511",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB81052511/recre-a2-emission-du-29-juin-1981?rang=323",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:48:37.775963",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Le tour du monde en 50 Récré A2",
-    "ZABOU et JACKY évoquent l'Egypte et ses richesses avant d'annoncer un dessin animé",
     "Mister Magoo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.803812"
+  "normalized_at": "2026-11-18T21:59:44.870616",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

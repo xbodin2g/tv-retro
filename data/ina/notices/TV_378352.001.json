@@ -2,7 +2,7 @@
   "notice_id": "TV_378352.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_378352.001/club-dorothee-vacances-programme-du-10-aout-1996?rang=223",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:35:50.525353",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nVacances",
@@ -24,5 +24,8 @@
     "Mask"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.515708",
-  "normalized_at": "2026-11-17T07:00:11.097727"
+  "normalized_at": "2026-11-18T21:59:46.871439",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

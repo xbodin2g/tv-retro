@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93005247",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005247/giga-emission-du-23-avril-1993?rang=134",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:21:37.007551",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,10 +20,10 @@
     "Extrait du film\" Louis l'enfant roi \"de PLANCHON."
   ],
   "elements": [
-    "Manuel GELIN présente le sommaire de l'émission",
-    "\"Louis l'enfant roi\" : interview de Maxime MANSION le jeune interprète du film",
-    "La fête à la maison, Happy days, Quoi de neuf docteur ? et Major dad (achats)",
     "Extrait du film\" Louis l'enfant roi \"de PLANCHON"
   ],
-  "normalized_at": "2026-11-17T07:00:10.505718"
+  "normalized_at": "2026-11-18T21:59:46.369196",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

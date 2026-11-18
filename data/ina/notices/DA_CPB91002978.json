@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002978",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002978/recre-a2-emission-du-22-aout-1983?rang=500",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:53:59.206804",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -24,8 +24,10 @@
   "elements": [
     "Les Bubblies",
     "Les aventures d'une souris sur mars",
-    "Latulu et lireli : \"Mystère dans la vallee des rois\" de Bernard Barokas",
     "Le Tour du monde en 80 jours"
   ],
-  "normalized_at": "2026-11-17T07:00:09.962303"
+  "normalized_at": "2026-11-18T21:59:45.958237",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

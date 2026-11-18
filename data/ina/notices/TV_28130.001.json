@@ -2,7 +2,7 @@
   "notice_id": "TV_28130.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_28130.001/club-dorothee-vacances-programme-du-2-mars-1995?rang=271",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:17:18.022004",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -24,5 +24,8 @@
     "Arnold et Willy"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.449474",
-  "normalized_at": "2026-11-17T07:00:10.992619"
+  "normalized_at": "2026-11-18T21:59:46.778526",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

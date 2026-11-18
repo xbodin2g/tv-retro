@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA91004357",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA91004357/club-dorothee-emission-du-20-fevrier-1991?rang=9",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:14:15.159165",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Invités de ce Club Dorothée, le groupe des Vagabonds. Au programme, Punky Brewster, Sophie et Virginie, Jiban, les Chevaliers du Zodiaque."
   ],
-  "elements": [
-    "Invités de ce Club Dorothée, le groupe des Vagabonds. Au programme, Punky Brewster, Sophie et Virginie, Jiban, les Chevaliers du Zodiaque"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.492567"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.609168",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

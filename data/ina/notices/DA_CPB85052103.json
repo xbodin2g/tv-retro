@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85052103",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85052103/recre-a2-emission-du-07-mai-1985?rang=459",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:36:48.015863",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "L'émission est présentée par marie et ALAIN. Rediffusion d'anim a2 (Thésée et le minotaure) et d'un épisode de \"téléchat \".( Bde 112 914)"
   ],
-  "elements": [
-    "L'émission est présentée par marie et ALAIN. Rediffusion d'anim a2 (Thésée et le minotaure) et d'un épisode de \"téléchat \".( Bde 112 914)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.181746"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.252703",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003446",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003446/giga-emission-du-4-fevrier-1991?rang=2",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:17.340094",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,5 +23,8 @@
     "SERIE GIGA/ SAUVES PAR LE GONG",
     "SERIE GIGA/ ZORRO"
   ],
-  "normalized_at": "2026-11-17T07:00:09.970743"
+  "normalized_at": "2026-11-18T21:59:45.967736",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

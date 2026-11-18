@@ -2,7 +2,7 @@
   "notice_id": "TV_275980.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_275980.001/super-club-dorothee-programme-du-27-mars-1996?rang=414",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T19:29:47.177077",
   "program_query": "Club Dorothée",
   "programme": "Super\nClub\nDorothée",
@@ -18,5 +18,8 @@
     "[Plateau"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.442810",
-  "normalized_at": "2026-11-17T07:00:10.985009"
+  "normalized_at": "2026-11-18T21:59:46.772239",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

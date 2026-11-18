@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011590",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011590/giga-emission-du-15-septembre-1992?rang=109",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:37:32.084282",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,9 +22,11 @@
   ],
   "elements": [
     "GIGA propose aujourd'hui",
-    "Les SERIES \"quoi de neuf docteur\" et \"la fête à la maison\" (Achats)",
     "Les REPORTAGES",
     "JEU QUIZAKO"
   ],
-  "normalized_at": "2026-11-17T07:00:10.350600"
+  "normalized_at": "2026-11-18T21:59:46.257697",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

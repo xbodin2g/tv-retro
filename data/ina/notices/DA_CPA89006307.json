@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA89006307",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89006307/club-dorothee-emission-du-14-juin-1989?rang=86",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T20:17:47.764632",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -20,10 +20,11 @@
     ": \"BIOMAN\"; \"JULIETTE JE T'AIME\"; \"Lamu\"; \"Ken LE SURVIVANT\"; \"DRAGONBALL \""
   ],
   "elements": [
-    "Dorothée et son équipe présentent les rubriques et dessins animés de l'émission",
     "les gagnants",
-    "les 10 chansons du top",
-    "\"BIOMAN\"; \"JULIETTE JE T'AIME\"; \"Lamu\"; \"Ken LE SURVIVANT\"; \"DRAGONBALL \""
+    "les 10 chansons du top"
   ],
-  "normalized_at": "2026-11-17T07:00:08.258725"
+  "normalized_at": "2026-11-18T21:59:44.374571",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82053539",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82053539/recre-a2-emission-du-14-mai-1982?rang=211",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:08:32.656187",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -25,5 +25,8 @@
     "Mes mains ont la parole",
     "Dick le rebelle"
   ],
-  "normalized_at": "2026-11-17T07:00:08.915638"
+  "normalized_at": "2026-11-18T21:59:44.964290",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

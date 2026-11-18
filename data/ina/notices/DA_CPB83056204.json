@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83056204",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83056204/recre-a2-emission-du-18-mai-1983?rang=488",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:48:34.055711",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -42,10 +42,8 @@
     "Chapi Chapo",
     "Carlos chante \"dis pourquoi papa\"",
     "Matou chat des champs et souriceau",
-    "Maraboud'ficelle : BT. Dif. dessins de Carlos par CABU",
     "Carlos et Dorothée chantent",
     "Discopuce",
-    "Carlos et Dorothée chantent une parodie de \"ouh la menteuse\"",
     "Boule et Bill",
     "Carlos et Dorothée chantent une parodie de \"Rosalie\"",
     "Maraboud'ficelle",
@@ -55,5 +53,8 @@
     "Heidi",
     "Carlos chante \" pour s'éclater \""
   ],
-  "normalized_at": "2026-11-17T07:00:09.062910"
+  "normalized_at": "2026-11-18T21:59:45.079381",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

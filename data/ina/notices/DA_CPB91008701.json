@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91008701",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91008701/giga-emission-du-24-mai-1991?rang=23",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:13:50.069519",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "GIGA UNESCO : l'UNESCO a lancé une opération Tchernobyl jamais plus. Documents d'archives sur la catastrophe de Tchernobyl : arrosage de la centrale, calcul de la zone radioactive, [panoramique] décor de la catastrophe. Nadia, 14 ans raconte l'explosion et ce qui s'est passé après, elle raconte aussi comment sa santé s'est dégradée depuis. Olga, 13 ans part en vacances pour essayer d'améliorer sa santé. [Gros plan] Pin's UNESCO -GIGA."
   ],
   "elements": [
-    "Série : \"Un toit pour dix\"",
-    "INFOS GIGA : Extraits des concerts de Paul SIMON, des Bee Gees, de Rod STEWART",
-    "Série : \"Quoi de neuf docteur : le mariage manqué\""
+    "Série : \"Un toit pour dix\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.065778"
+  "normalized_at": "2026-11-18T21:59:46.043709",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

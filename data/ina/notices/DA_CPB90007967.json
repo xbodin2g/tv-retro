@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90007967",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007967/giga-emission-du-10-septembre-1990?rang=126",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:54:26.494846",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,11 @@
   ],
   "elements": [
     "Au menu de Giga",
-    "Tc in 00.01.17 - Tc out 00.03.48 : images Patrice Gaulupeau (sans musique , ni chansons)",
     "LES ANNEES COLLEGE : Avoir 16 ans (achat)",
     "Bande-annonce de Johnny à Bercy"
   ],
-  "normalized_at": "2026-11-17T07:00:09.565590"
+  "normalized_at": "2026-11-18T21:59:45.607867",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

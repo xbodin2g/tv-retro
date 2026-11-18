@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94002782",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94002782/giga-emission-du-7-avril-1994?rang=95",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:48:03.036400",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Au sommaire de ce \"Giga\", les séries \"Seconde B : attention grand frère\" (rediffusion) et \"Les années collège\" (Achat)."
   ],
-  "elements": [
-    "Au sommaire de ce \"Giga\", les séries \"Seconde B : attention grand frère\" (rediffusion) et \"Les années collège\" (Achat)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.689125"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.518781",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

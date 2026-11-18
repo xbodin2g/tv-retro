@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7905203401",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7905203401/recre-a2-emission-du-07-novembre-1979?rang=390",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T00:20:55.827376",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -38,8 +38,6 @@
   "elements": [
     "La Panthère rose",
     "Maraboud'ficelle",
-    "Samsont atelier balai : Samsong explique comment fabriquer un sous-marin avec 3 manches a balai et comment le faire \"plonger\"",
-    "J. LACROIX spécialiste en anagrammes présente le jeu des anagrammes avec des prénoms féminins",
     "Récré A2",
     "Samsont atelier balai",
     "A2000",
@@ -50,5 +48,8 @@
     "Les Bubblies",
     "Discorébus"
   ],
-  "normalized_at": "2026-11-17T07:00:08.672173"
+  "normalized_at": "2026-11-18T21:59:44.770263",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

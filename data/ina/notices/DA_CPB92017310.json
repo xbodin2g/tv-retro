@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92017310",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017310/giga-emission-du-21-decembre-1992?rang=190",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:44.951092",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,11 +23,13 @@
   ],
   "elements": [
     "Au sommaire de Giga",
-    "Sélection de quelques disques à offrir à Noël",
     "Jeu interactif QUIZAKO",
     "SERIE : \"La Famille JACKSON\"",
     "SERIE : \"Un toit pour dix\"",
     "SERIE : \"Mac Gyver\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.407901"
+  "normalized_at": "2026-11-18T21:59:46.300738",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

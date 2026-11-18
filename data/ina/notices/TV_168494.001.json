@@ -2,7 +2,7 @@
   "notice_id": "TV_168494.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_168494.001/club-dorothee-programme-du-14-novembre-1995?rang=65",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:46:15.027005",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -22,5 +22,8 @@
     "Salut les musclés : Atila est là"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.348351",
-  "normalized_at": "2026-11-17T07:00:10.855735"
+  "normalized_at": "2026-11-18T21:59:46.665835",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

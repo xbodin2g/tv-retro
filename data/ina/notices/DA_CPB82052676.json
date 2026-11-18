@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82052676",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82052676/recre-a2-emission-du-13-octobre-1982?rang=365",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:19:05.076124",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -45,7 +45,6 @@
   "elements": [
     "Lippy le lion",
     "Discopuce",
-    "Maraboud'ficelle : A partir du dessin d'un sabre CABU va dessiner une boussole, une mouche, un dragon, une valise, DOROTHEE et un ivrogne",
     "Casper et ses amis",
     "Télétactica",
     "Georges de la jungle",
@@ -56,5 +55,8 @@
     "La Panthère rose",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.896218"
+  "normalized_at": "2026-11-18T21:59:44.950202",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

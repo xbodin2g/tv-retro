@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91000516",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91000516/giga-emission-du-17-janvier-1991?rang=100",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:07:35.160805",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Bde-annonce Sylvie VARTAN au Palais des Sports. Séries : Quoi de neuf Docteur ; les Années Collèges."
   ],
-  "elements": [
-    "Bde-annonce Sylvie VARTAN au Palais des Sports. Séries : Quoi de neuf Docteur ; les Années Collèges"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.872566"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.876314",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

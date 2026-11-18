@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93008898",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93008898/giga-emission-du-17-aout-1993?rang=211",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:26:46.417081",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "SERIE : \"Happy days : Hollywood\" (ACHAT)",
-    "SERIE : \"Le Prince de Bel Air : retour de manivelle\" (ACHAT)"
+    "SERIE : \"Happy days : Hollywood\" (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.586794"
+  "normalized_at": "2026-11-18T21:59:46.434965",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

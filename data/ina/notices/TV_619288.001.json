@@ -2,7 +2,7 @@
   "notice_id": "TV_619288.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_619288.001/club-dorothee-programme-du-5-juillet-1997?rang=60",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T21:36:27.959659",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -31,5 +31,8 @@
     "Les jumeaux du bout du monde"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.653346",
-  "normalized_at": "2026-11-17T07:00:11.337307"
+  "normalized_at": "2026-11-18T21:59:47.070004",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

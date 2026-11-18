@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93010798",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010798/giga-emission-du-25-octobre-1993?rang=51",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:30:32.602039",
   "program_query": "Giga",
   "programme": "Giga",
@@ -27,5 +27,8 @@
     "SERIE : SAUVES PAR LE GONG (Achat)",
     "SERIE : GOAL \"Impair et casse\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.620191"
+  "normalized_at": "2026-11-18T21:59:46.462408",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

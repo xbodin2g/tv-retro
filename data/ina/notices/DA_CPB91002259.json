@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91002259",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002259/recre-a2-emission-du-20-aout-1982?rang=390",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:14:38.504438",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nété",
@@ -20,10 +20,12 @@
     "Spectreman"
   ],
   "elements": [
-    "DOGGY dog et Elfie présentent les diff parties de l'émission",
     "Lippy the lion and Hardy har har",
     "Casper et ses amis",
     "Spectreman"
   ],
-  "normalized_at": "2026-11-17T07:00:09.949562"
+  "normalized_at": "2026-11-18T21:59:45.940233",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

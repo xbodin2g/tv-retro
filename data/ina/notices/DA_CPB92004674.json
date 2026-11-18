@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92004674",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92004674/giga-emission-du-26-juin-1992?rang=47",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:34:20.160465",
   "program_query": "Giga",
   "programme": "Giga",
@@ -24,10 +24,10 @@
   ],
   "elements": [
     "Au sommaire",
-    "GIGA SERIE/ SOIS PROF ET TAIS TOI (l'écrivain, achat. 22'55 \")",
-    "GIGA SERIE/ LES ANNEES COLLEGE (meilleurs voeux, achat. 25'53\")",
-    "GIGA INFOS : Extrait du film\" Videokid \"",
-    "GIGA SERIE/ LE PRINCE DE BEL AIR (un Noël mouvementé, achat. 22'46\")"
+    "GIGA INFOS : Extrait du film\" Videokid \""
   ],
-  "normalized_at": "2026-11-17T07:00:10.313880"
+  "normalized_at": "2026-11-18T21:59:46.231220",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93004170",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004170/giga-emission-du-1er-avril-1993?rang=157",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:20:07.272587",
   "program_query": "Giga",
   "programme": "Giga",
@@ -21,12 +21,13 @@
     "SERIE : \"Major Dad\" (achat)"
   ],
   "elements": [
-    "Manu GELIN présente l'émission dans un décor de cafétéria en compagnie de jeunes",
     "SERIE : \"la fête à la maison\" (achat)",
     "minitrottoir interviewes de jeunes sur leurs rapports amoureux",
-    "SERIE \"Happy days : RICHIE et la politique\" (achat)",
     "SERIE : \"Quoi de neuf docteur \"(achat)",
     "SERIE : \"Major Dad\" (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.482769"
+  "normalized_at": "2026-11-18T21:59:46.353369",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

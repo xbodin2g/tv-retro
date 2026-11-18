@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92011756",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92011756/giga-emission-du-24-septembre-1992?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:38:25.033833",
   "program_query": "Giga",
   "programme": "Giga",
@@ -17,8 +17,10 @@
     "GROS PLAN SUR LA ZOOM : Renault Matra sortent un prototype de voiture électrique : la Zoom. Monsieur CAUSSIN (Matra) donne les caractéristiques de cette voiture. Partie pour s'intégrer à la cité, elle est très écologique. Son châssis en aluminium recyclé en fait un véhicule léger. En soulevant son arrière, elle peut perdre 30 cms, d'où une grance facilité pour la garer."
   ],
   "elements": [
-    "Au sommaire : La Fête à la Maison, Quoi de Neuf Docteur, Sois Prof et Tais Toi",
     "Reportage, la Restauration de châteaux (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.357912"
+  "normalized_at": "2026-11-18T21:59:46.262945",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

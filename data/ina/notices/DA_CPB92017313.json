@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92017313",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017313/giga-emission-du-24-decembre-1992?rang=191",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:42:56.361474",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,11 +23,12 @@
   ],
   "elements": [
     "Au sommaire de Giga",
-    "Etienne DAHO, Neneh CHERRY et le groupe Jon BON JOVI souhaitent tour à tour un Joyeux Noël aux téléspectateurs de Giga",
     "SERIE : \"Famille JACKSON\"",
     "SERIE : \"Un toit pour dix\"",
-    "SERIE : \"Mac Gyver\"",
-    "Le groupe Pow Wow, deux acteurs de la série \"Sauvés par le gong\" et le groupe LES Rembrandts souhaitent un Joyeux Noël"
+    "SERIE : \"Mac Gyver\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.410061"
+  "normalized_at": "2026-11-18T21:59:46.302503",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

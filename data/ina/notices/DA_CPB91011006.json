@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011006",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011006/giga-emission-du-15-aout-1991?rang=136",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:16:57.871149",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
   ],
   "elements": [
     "Cette émission est composée de rediffusions",
-    "Série : \"Quoi de neuf docteur : le nouveau job de Mike\"",
     "Série : \"La famille Fontaine : cherchez l'erreur\""
   ],
-  "normalized_at": "2026-11-17T07:00:10.102639"
+  "normalized_at": "2026-11-18T21:59:46.072558",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

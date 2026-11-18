@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000349",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000349/salut-les-petits-loups-plateau-emission-du-28-janvier-1987?rang=4",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T22:50:00.850337",
   "program_query": "salut les petits loups",
   "programme": "Salut\nles\npetits\nloups",
@@ -15,9 +15,9 @@
     "Les mangeurs d'histoires : \"Où sont passées les sirènes? \". Anne LORRIC raconte pourquoi les marins avaient peur en entendant le chant des sirènes.",
     "Jeu : \"Le fluophone\": question : doit-on goûter des médicaments qui ressemblent à des bonbons ?"
   ],
-  "elements": [
-    "Les mangeurs d'histoires : \"Où sont passées les sirènes? \". Anne LORRIC raconte pourquoi les marins avaient peur en entendant le chant des sirènes",
-    "Jeu : \"Le fluophone\": question : doit-on goûter des médicaments qui ressemblent à des bonbons ?"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.872562"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.012546",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

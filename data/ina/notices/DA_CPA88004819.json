@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88004819",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88004819/club-dorothee-emission-du-20-avril-1988?rang=73",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:10:49.280314",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -24,12 +24,10 @@
   ],
   "elements": [
     "JEUX",
-    "MOT MYSTERIEUX : projectionnisme. Ariane donne le résultat en régie",
-    "LES GOUTERS D'ANNIVERSAIRE DE PAPY BROSSARD : présentation des 10 gagnants",
-    "JACKY SEAU : Dorothée en direct (?) lance un seau d'eau à Jacky",
-    "JEU Léo",
-    "JEU DE L'ABC : Patrick a la lettre C et prend une douche",
-    "TOP JUNIOR : Classement des 10 meilleures chansons, le premier étant Minet pour Bioman"
+    "JEU Léo"
   ],
-  "normalized_at": "2026-11-17T07:00:08.025440"
+  "normalized_at": "2026-11-18T21:59:44.125696",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91003363",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003363/recre-a2-emission-du-24-octobre-1983?rang=361",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:56:46.354837",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -28,5 +28,8 @@
     "Le Tour du monde en 80 jours",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.968049"
+  "normalized_at": "2026-11-18T21:59:45.965441",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

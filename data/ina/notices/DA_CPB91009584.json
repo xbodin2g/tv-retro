@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91009584",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91009584/giga-emission-du-2-juillet-1991?rang=131",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:14:55.008472",
   "program_query": "Giga",
   "programme": "Giga",
@@ -16,10 +16,9 @@
     "Spécial Cinema avec des extraits des films \"Envoyé Spécial\", film d'espionnage et \"Smoking Gun\", film d'humour et d'action.",
     "GIGA JEUNE TALENT : Gildas HARZEL présente un extrait de son clip extrait d'un premier album. Sera en tournée avec Jean Jacques GOLDMAN."
   ],
-  "elements": [
-    "Diffusion des feuilletons \"Un Toit Pour Dix\" et \"Quoi de Neuf Docteur\"",
-    "Spécial Cinema avec des extraits des films \"Envoyé Spécial\", film d'espionnage et \"Smoking Gun\", film d'humour et d'action",
-    "GIGA JEUNE TALENT : Gildas HARZEL présente un extrait de son clip extrait d'un premier album. Sera en tournée avec Jean Jacques GOLDMAN"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.078302"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.053144",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

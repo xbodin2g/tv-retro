@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011999",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011999/giga-emission-du-17-septembre-1991?rang=142",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:18:49.899420",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,9 +18,10 @@
     "GIGA FILM : John SINGLETON parle de la violence à New York, thème de son dernier film\"Boys in the hood \"."
   ],
   "elements": [
-    "Au sommaire de GIGA",
-    "\"Sauvés par le gong\", \"Les années collège \" (séries, achats)",
-    "GIGA FILM : John SINGLETON parle de la violence à New York, thème de son dernier film\"Boys in the hood \""
+    "Au sommaire de GIGA"
   ],
-  "normalized_at": "2026-11-17T07:00:10.120113"
+  "normalized_at": "2026-11-18T21:59:46.085909",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

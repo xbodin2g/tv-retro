@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86008172",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008172/recre-a2-emission-du-7-juin-1986?rang=116",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:08:13.904500",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,5 +21,8 @@
     "L'Empire des cinq \"fin du mystère\"",
     "Téléchat"
   ],
-  "normalized_at": "2026-11-17T07:00:09.369635"
+  "normalized_at": "2026-11-18T21:59:45.453776",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

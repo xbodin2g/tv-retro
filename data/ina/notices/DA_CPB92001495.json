@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92001495",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001495/giga-emission-du-19-fevrier-1992?rang=59",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:28:36.114847",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,9 +25,11 @@
   "elements": [
     "Au sommaire de ce Giga",
     "La série Française \"Salut les copains\"",
-    "Les séries Américaines \"Sois prof et tais-toi\", et \"Sauvés par le gong\"",
     "Le jeu du Quizako",
     "Les reportages"
   ],
-  "normalized_at": "2026-11-17T07:00:10.227358"
+  "normalized_at": "2026-11-18T21:59:46.169084",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

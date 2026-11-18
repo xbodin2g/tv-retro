@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87000164",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87000164/vitamine-emission-du-21-janvier-1987?rang=1",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:51:29.719259",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -25,14 +25,10 @@
     "1ère et 2ème partie\";\"Snorky :l'aquaplane, \"Robostory n°3\"(Belokapi 1985)."
   ],
   "elements": [
-    "JACKY présente l'émission avec son invitée vedette DESIRELESS",
-    "MUSIK : Patrick BRUEL présente son dernier album et sa prochaine tournée",
-    "FLASH : pub sur la casserole Vitamine, sur la lotion Vitamine pour les cheveux",
-    "DANSE : Pascale et des enfants dansent sur la chanson :\"Don't leave me This way\" des Communards",
-    "Jacky, DESIRELESS et Patrick BRUEL rejoignent le groupe",
-    "CINE : extrait vidéo :\"Droopy à la recherche de l'évadé\"",
-    "MODE LOOK : Rocky et le coiffeur Antonio coiffe une fillette à la \"DESIRELESS\"",
-    "1ère et 2ème partie\";\"Snorky :l'aquaplane, \"Robostory n°3\"(Belokapi 1985)"
+    "Jacky, DESIRELESS et Patrick BRUEL rejoignent le groupe"
   ],
-  "normalized_at": "2026-11-17T07:00:07.871946"
+  "normalized_at": "2026-11-18T21:59:44.012107",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

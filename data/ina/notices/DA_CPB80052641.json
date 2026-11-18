@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB80052641",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB80052641/recre-a2-emission-du-06-novembre-1980?rang=98",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T06:32:42.515206",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -17,5 +17,8 @@
   "elements": [
     "Bande 58753"
   ],
-  "normalized_at": "2026-11-17T07:00:08.736981"
+  "normalized_at": "2026-11-18T21:59:44.819341",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

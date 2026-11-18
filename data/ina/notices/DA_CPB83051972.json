@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB83051972",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051972/recre-a2-emission-du-20-avril-1983?rang=455",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:46:54.485652",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -40,11 +40,8 @@
     "Plateau fin"
   ],
   "elements": [
-    "Thème de l'émission :il y a de la poésie dans l'air",
     "Chapi Chapo",
-    "CORBIER chante : \"Plante un jardin\". J. MADD fait quelques numéros de prestidigitation",
     "Matou et souriceau",
-    "Dorothée chante \"Mignonne allons voir si la rose \"",
     "Maraboud'ficelle avec Willy, Dorothée, Doggy-dog, Elfie",
     "Télétactica",
     "Discopuce",
@@ -54,8 +51,10 @@
     "Maraboud'ficelle",
     "DOROTHEE chante \"le petit cheval\" de P. FORT",
     "MARTIN \"Que sont mes amis devenus\"",
-    "Heidi",
-    "J. MADD fait quelques numéros de prestidigitation"
+    "Heidi"
   ],
-  "normalized_at": "2026-11-17T07:00:09.024333"
+  "normalized_at": "2026-11-18T21:59:45.045272",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

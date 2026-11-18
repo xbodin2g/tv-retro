@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91007661",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007661/giga-emission-du-15-avril-1991?rang=18",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:11:39.310747",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion d'un épisode de \"La Fête à la Maison\" et \"Quoi de Neuf Docteur\"."
   ],
-  "elements": [
-    "Diffusion d'un épisode de \"La Fête à la Maison\" et \"Quoi de Neuf Docteur\""
-  ],
-  "normalized_at": "2026-11-17T07:00:10.039016"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.024042",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

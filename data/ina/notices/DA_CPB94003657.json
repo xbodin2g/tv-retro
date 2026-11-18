@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB94003657",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94003657/giga-emission-du-10-mai-1994?rang=103",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T12:50:01.815681",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "L'émission sans plateau diffuse deux séries américaines : \"Les premières fois\" et \"Les années collège\" (achats)."
   ],
-  "elements": [
-    "L'émission sans plateau diffuse deux séries américaines : \"Les premières fois\" et \"Les années collège\" (achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.700668"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.528591",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

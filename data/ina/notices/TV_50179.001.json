@@ -2,7 +2,7 @@
   "notice_id": "TV_50179.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_50179.001/club-dorothee-vacances-programme-du-17-avril-1995?rang=369",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:21:49.105768",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée\nvacances",
@@ -20,5 +20,8 @@
     "Arnold et Willy"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.591436",
-  "normalized_at": "2026-11-17T07:00:11.228359"
+  "normalized_at": "2026-11-18T21:59:46.979459",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

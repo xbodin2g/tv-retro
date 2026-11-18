@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009323",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009323/recre-a2-emission-du-12-juillet-1986?rang=379",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:10:03.715064",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,11 +19,13 @@
     "Lia et Alain CHAUFOUR"
   ],
   "elements": [
-    "Lia et Alain CHAUFOUR présentent dans un décor nautique",
     "Mafalda",
     "Super DOC : La vipère (2)",
     "Clémentine",
     "Lia et Alain CHAUFOUR"
   ],
-  "normalized_at": "2026-11-17T07:00:09.388655"
+  "normalized_at": "2026-11-18T21:59:45.470182",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

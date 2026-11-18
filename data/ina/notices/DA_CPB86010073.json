@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86010073",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010073/recre-a2-emission-du-8-aout-1986?rang=488",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:12:11.255225",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,11 +19,12 @@
     "Alain et Marie, manipulés comme des marionnettes, annoncent \"L'été des marionnettes \", festival qui a lieu dans la région d'AMBERT."
   ],
   "elements": [
-    "Alain et Marie, installé sur une CHARETTE de foin, présentent l'émission",
     "Les Schtroumpfs",
     "Super DOC : sous l'eau... (2)",
-    "Les mondes engloutis",
-    "Alain et Marie, manipulés comme des marionnettes, annoncent \"L'été des marionnettes \", festival qui a lieu dans la région d'AMBERT"
+    "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.404062"
+  "normalized_at": "2026-11-18T21:59:45.484162",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

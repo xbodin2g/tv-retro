@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB8205384105",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB8205384105/recre-a2-emission-du-17-mars-1982?rang=404",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:05:17.248006",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -53,9 +53,11 @@
     "La Panthère rose",
     "Maraboud'ficelle",
     "Bouquin Bouquine",
-    "Les petits malheurs : F. CORBIER chante la chanson de la semaine : \"une petite chanson bluesy\"",
     "Zeltron",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.921879"
+  "normalized_at": "2026-11-18T21:59:44.969075",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

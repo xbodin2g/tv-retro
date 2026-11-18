@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86002062",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002062/recre-a2-emission-du-11-janvier-1986?rang=143",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:56:22.063792",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Difusion de \"les mondes engloutis : le temkor d'arkana\" et \"Téléchat\" (sans plateau)."
   ],
-  "elements": [
-    "Difusion de \"les mondes engloutis : le temkor d'arkana\" et \"Téléchat\" (sans plateau)"
-  ],
-  "normalized_at": "2026-11-17T07:00:09.242554"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.346501",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

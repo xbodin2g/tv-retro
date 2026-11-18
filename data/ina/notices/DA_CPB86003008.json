@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86003008",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003008/recre-a2-emission-du-16-janvier-1986?rang=144",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:56:41.878015",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -24,7 +24,6 @@
     "Plateau Charlotte et Bernard"
   ],
   "elements": [
-    "Charlotte et Bernard présentent l'émission dans le décor d'un match de boxe",
     "Image imagine",
     "Mes mains ont la parole",
     "Latulu et Lireli",
@@ -32,5 +31,8 @@
     "Téléchat",
     "Les mondes engloutis"
   ],
-  "normalized_at": "2026-11-17T07:00:09.246372"
+  "normalized_at": "2026-11-18T21:59:45.349818",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

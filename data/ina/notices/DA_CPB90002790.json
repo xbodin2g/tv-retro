@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90002790",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90002790/giga-emission-du-19-mars-1990?rang=40",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:46:15.483163",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,11 +18,9 @@
     "La Villette : Reportage sur le \"pont vert\" de la Cité des Sciences (techniques de culture hors-sol).",
     "SERIES : \"Quoi de neuf, Docteur\" et \"les Années collège\"."
   ],
-  "elements": [
-    "François BOUCQ : interview du dessinateur de bandes dessinées (extérieur Tour EIFFEL) pour son album \"Bouche du diable\"",
-    "VTT : Sébastien, champion à douze ans de Free Style en Bicross fait une démonstration de figures avec son frère",
-    "La Villette : Reportage sur le \"pont vert\" de la Cité des Sciences (techniques de culture hors-sol)",
-    "SERIES : \"Quoi de neuf, Docteur\" et \"les Années collège\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.471985"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.541006",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88000471",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88000471/club-dorothee-emission-du-27-janvier-1988?rang=97",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T16:05:10.290328",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -23,12 +23,10 @@
   ],
   "elements": [
     "JEUX : le mot mystérieux et Léo",
-    "LES GOUTERS D'ANNIVERSAIRES DE PAPPY BROSSARD : des enfants qui fêtent leur anniversaire se voient offrir un goûter",
-    "TOP JUNIOR : les dix chansons plébiscitées par les jeunes téléspectateurs",
-    "JACKY SEAU : Jacky reçoit son seau d'eau hebdomadaire à la fin de sa chanson \"Tout augmente...\"",
-    "ON PENSE A TOI : P SIMPSON JONES s'est rendu à l'hôpital NECKER pour rencontrer une fillette malade, Laurine",
-    "DESSINS ANIMES : GI Joe, Les Minipouss, Goldorak, Capitaine Flam, Mask, Woody WOOD PECKER",
     "FEUILLETON : Bioman"
   ],
-  "normalized_at": "2026-11-17T07:00:07.982116"
+  "normalized_at": "2026-11-18T21:59:44.092442",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

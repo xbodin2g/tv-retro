@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA88015308",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA88015308/club-dorothee-emission-du-28-decembre-1988?rang=156",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T17:59:51.954391",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -34,23 +34,22 @@
   ],
   "elements": [
     "Au sommaire",
-    "une chanson de Dorothée pour commencer les \"3h 30 de folie\" annoncée par l'animatrice",
     "LES SABLOTIN: (achat)",
     "le jeu du \"mot mystérieux\"",
     "Lamu (achat)",
-    "Sur le plateau, opération \"On pense à toi\" et jeu du \"nombre d'or\"",
     "G.I. Joe: (achat)",
     "une deuxième chanson de Dorothée",
     "les résultats du \"Maxi Top Junior\"",
-    "une chanson des Musclés et un extrait de chanson interprètée par le groupe Début de Soirée",
     "DRAGON BALL: (achat)",
     "une chanson de Mylène FARMER",
     "le \"Jacky seau\" -LES CHEVALIERS DU ZODIAQUE (achat)",
     "BIOMAN : téléfilm japonais",
     "rubrique \"Tu chantes et tu gagnes\"",
     "CAPTAIN Flam (achat)",
-    "Ken LE SURVIVANT (achat)",
-    "une chanson de David HALLYDAY et une dernière chanson de Dorothée pour clôre l'émission"
+    "Ken LE SURVIVANT (achat)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.164885"
+  "normalized_at": "2026-11-18T21:59:44.278769",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

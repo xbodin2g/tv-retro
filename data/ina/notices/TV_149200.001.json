@@ -2,7 +2,7 @@
   "notice_id": "TV_149200.001",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_149200.001/club-dorothee-programme-du-18-octobre-1995?rang=138",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-12T20:38:55.414636",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -29,11 +29,12 @@
   "elements": [
     "[Plateau",
     "Bécé Bégé : les 100 dollars de Paul",
-    "Dragon Ball Z : l'épée sacrée du royaume des dieux",
-    "Denis la malice : la course du siècle ; une vie de chien",
     "Sailormoon : la baguette du coeur lunaire",
     "Power Rangers : le jour des citrouilles"
   ],
   "rebuilt_at": "2026-11-12T22:06:46.331813",
-  "normalized_at": "2026-11-17T07:00:10.825578"
+  "normalized_at": "2026-11-18T21:59:46.641679",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

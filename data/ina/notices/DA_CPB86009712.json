@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86009712",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009712/recre-a2-emission-du-26-juillet-1986?rang=483",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:11:18.720028",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\nvacances",
@@ -19,11 +19,13 @@
     "- CLEMENTINE, \"la voie du sabre\" (rediffusion)."
   ],
   "elements": [
-    "Brève présentation de l'émission par Alain et Marie, dans un décor d'agence de voyage",
     "Mafalda, dessin animé",
     "SUPER DOC, \"les coups de soleil\" (achat)",
     "CLIP, Marie DAUPHIN chante \"Bibifoc\"",
     "CLEMENTINE, \"la voie du sabre\" (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.396424"
+  "normalized_at": "2026-11-18T21:59:45.477143",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA87001242",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA87001242/vitamine-emission-du-25-fevrier-1987?rang=11",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T22:51:49.019863",
   "program_query": "Vitamine",
   "programme": "Vitamine",
@@ -19,10 +19,9 @@
     "SPORT : démonstration des différents types de saut en hauteur commentée par le champion de France qui parle ensuite de l'équipement nécessaire à la pratique de ce sport. CINEMA : extrait du film de Peter WEIR \"Mosquito Coast\".",
     "LES DESSINS ANIMES : \"Mon petit poney et ses amis\"; \"Les luxioles\"; \"Les snorkys\"; \"Robostory \"et\" Jem \"(achats)."
   ],
-  "elements": [
-    "L'émission est animée par Jacky entouré de Pascal et Frédéric",
-    "MAGIE : les GILSON exécutent un numéro de lévitation puis un tour de magie",
-    "LES DESSINS ANIMES : \"Mon petit poney et ses amis\"; \"Les luxioles\"; \"Les snorkys\"; \"Robostory \"et\" Jem \"(achats)"
-  ],
-  "normalized_at": "2026-11-17T07:00:07.881382"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.018511",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

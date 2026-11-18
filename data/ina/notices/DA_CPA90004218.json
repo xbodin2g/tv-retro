@@ -2,7 +2,7 @@
   "notice_id": "DA_CPA90004218",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90004218/club-dorothee-emission-du-23-mai-1990?rang=179",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T22:50:56.735081",
   "program_query": "Club Dorothée",
   "programme": "Club\nDorothée",
@@ -36,5 +36,8 @@
     "Jeu de l'ABC",
     "Salut les Musclés (série)"
   ],
-  "normalized_at": "2026-11-17T07:00:08.393439"
+  "normalized_at": "2026-11-18T21:59:44.512886",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

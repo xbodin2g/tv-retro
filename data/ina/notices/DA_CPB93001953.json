@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93001953",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93001953/giga-emission-du-29-janvier-1993?rang=65",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:16:55.492193",
   "program_query": "Giga",
   "programme": "Giga",
@@ -25,5 +25,8 @@
     "SERIE : \"Le prince de Bel Air\" (ACHAT)",
     "SERIE : \"Major Dad\" (ACHAT)"
   ],
-  "normalized_at": "2026-11-17T07:00:10.437496"
+  "normalized_at": "2026-11-18T21:59:46.322904",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

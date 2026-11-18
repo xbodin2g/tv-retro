@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051610",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051610/recre-a2-emission-du-27-octobre-1982?rang=124",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:19:55.089678",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "A la fin de l'émission, Dorothée chante \"la valise\" (J.F. Porry/G. Salesses) en play back en plateau."
   ],
-  "elements": [
-    "A la fin de l'émission, Dorothée chante \"la valise\" (J.F. Porry/G. Salesses) en play back en plateau"
-  ],
-  "normalized_at": "2026-11-17T07:00:08.880218"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:44.937457",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

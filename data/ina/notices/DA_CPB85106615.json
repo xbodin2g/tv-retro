@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB85106615",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106615/recre-a2-emission-du-18-decembre-1985?rang=366",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T08:45:06.331790",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -40,5 +40,8 @@
     "Une chanson de véronique (clip a2)",
     "Les shadoks (rediffusion)"
   ],
-  "normalized_at": "2026-11-17T07:00:09.230088"
+  "normalized_at": "2026-11-18T21:59:45.337126",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

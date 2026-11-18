@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB86005999",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005999/recre-a2-emission-du-30-mars-1986?rang=184",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:02:41.658715",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -26,14 +26,15 @@
     "Plateau Corbier et Véronique"
   ],
   "elements": [
-    "Véronique et CORBIER présentent l'émission dans un décor d'oeufs et de cloches en chocolat",
     "DOROTHEE chante \"colchique dans les près\"",
-    "L'école des fées : Dorothella passe son examen, mais se trompe dans la formule magique et ne rend invisible que les jambes du prince charmant",
     "Bibifoc : La grande question",
     "Bibifoc : La surprise",
     "Mafalda",
     "Zorro",
     "Les MONDES ENGLOUTIS ( \"la Cité d'Arkadia\")"
   ],
-  "normalized_at": "2026-11-17T07:00:09.306174"
+  "normalized_at": "2026-11-18T21:59:45.400879",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

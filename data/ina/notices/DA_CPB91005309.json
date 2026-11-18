@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91005309",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91005309/giga-emission-du-21-fevrier-1991?rang=78",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:08:59.038069",
   "program_query": "Giga",
   "programme": "Giga",
@@ -23,12 +23,9 @@
     "3-",
     ": présentation de quelques groupes de très jeunesrappers. Témoignages de quelques uns sur leur musique."
   ],
-  "elements": [
-    "Au sommaire de l'émission : un dessin animé de la série \"Laurel et HARDY\" (piqué au vif)",
-    "Un épisode de la série \"Zorro\"",
-    "Un clip de Suzanna HOFFS \"My side of the bed\"",
-    "Et trois reportages dont deux sur la contraception chez les adolescents",
-    "un groupe de garçons discutent sur la pilule. Témoignage des garçons : \"c'est une preuve d'amour de la part de leur copine\""
-  ],
-  "normalized_at": "2026-11-17T07:00:09.992804"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:45.989312",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

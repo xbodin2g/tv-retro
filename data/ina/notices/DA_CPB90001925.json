@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90001925",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001925/giga-emission-du-5-mars-1990?rang=201",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:45:42.107652",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,9 +20,10 @@
     "LES GENS DE LA MER : des bateaux effectuent des relevés des fonds marins afin de découvrir des traces de pollution. Ces informations servent ensuite aux pêcheurs."
   ],
   "elements": [
-    "Au sommaire de \"GIGA\"",
-    "SERIES : \"Quoi de neuf docteur ?\" et \"La fête à la maison\" (achats)",
-    "SPECTACLE : extrait d'un spectacle adapté de ceux des Monty Python, M GOLAVTCHINER parle de leur humour et du côté surréaliste de ce spectacle"
+    "Au sommaire de \"GIGA\""
   ],
-  "normalized_at": "2026-11-17T07:00:09.460272"
+  "normalized_at": "2026-11-18T21:59:45.532835",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB7805388601",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB7805388601/recre-a2-emission-du-26-octobre-1978?rang=104",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-15T23:23:54.883171",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -21,10 +21,12 @@
     "Candy"
   ],
   "elements": [
-    "Conseils pour constituer un herbier, par familles de plantes et de fleurs. Techniques de séchage. Exemple d'herbier. No de bande 41378",
     "Goldorak",
     "Papivole",
     "Candy"
   ],
-  "normalized_at": "2026-11-17T07:00:08.658000"
+  "normalized_at": "2026-11-18T21:59:44.759018",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

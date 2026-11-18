@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000739",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000739/giga-emission-du-16-janvier-1992?rang=169",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:27:02.468162",
   "program_query": "Giga",
   "programme": "Giga",
@@ -20,5 +20,8 @@
     "Pas de reportages",
     "Jeu du Quizako"
   ],
-  "normalized_at": "2026-11-17T07:00:10.200643"
+  "normalized_at": "2026-11-18T21:59:46.146135",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB92000674",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000674/giga-emission-du-9-janvier-1992?rang=168",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:26:44.292176",
   "program_query": "Giga",
   "programme": "Giga",
@@ -14,8 +14,9 @@
   "titles_raw": [
     "Diffusion des feuilletons \"Sois Prof Et Tais Toi\" et \"Délire Et Des Larmes\". Le Tour Du Monde D'Antoine. Le Quizako."
   ],
-  "elements": [
-    "Diffusion des feuilletons \"Sois Prof Et Tais Toi\" et \"Délire Et Des Larmes\". Le Tour Du Monde D'Antoine. Le Quizako"
-  ],
-  "normalized_at": "2026-11-17T07:00:10.197062"
+  "elements": [],
+  "normalized_at": "2026-11-18T21:59:46.143499",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

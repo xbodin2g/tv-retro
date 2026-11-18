@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB90006199",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90006199/giga-emission-du-13-juillet-1990?rang=96",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T09:51:26.867867",
   "program_query": "Giga",
   "programme": "Giga",
@@ -22,8 +22,10 @@
   ],
   "elements": [
     "ALF : série, achat",
-    "INFOS GIGA : l'écran vidéo, gym, skateboard, arts martiaux, funboard",
     "Diffusion de Throb"
   ],
-  "normalized_at": "2026-11-17T07:00:09.524605"
+  "normalized_at": "2026-11-18T21:59:45.578893",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

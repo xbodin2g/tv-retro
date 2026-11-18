@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91011143",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91011143/giga-emission-du-29-aout-1991?rang=108",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T10:17:38.548186",
   "program_query": "Giga",
   "programme": "Giga",
@@ -18,8 +18,10 @@
     "LE MOTO-BALL. Un match de \"football motorisé\" assez spécial : des ados sur des mobylettes 50 CC (gonflées à 75 CC) jouent du ballon avec les pieds, exactement comme un match de foot sauf que les joueurs se déplacent en moto... Au lieu d'être à pied - cas généralement plus répandu. Précisions OFF sur ce sport, l'équipement. Courts interviews de pratiquants."
   ],
   "elements": [
-    "SERIES : Quoi de neuf docteur : \"Présentation d'un jeune homme\". La famille Fontaine : \"En roue libre\" (rediffusion)",
     "REPORTAGES"
   ],
-  "normalized_at": "2026-11-17T07:00:10.108708"
+  "normalized_at": "2026-11-18T21:59:46.077660",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

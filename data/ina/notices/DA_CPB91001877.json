@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB91001877",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001877/recre-a2-emission-du-24-mars-1983?rang=139",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:45:05.035840",
   "program_query": "Récré A2",
   "programme": "Récré\nA2",
@@ -32,5 +32,8 @@
     "Candy",
     "Les trois questions"
   ],
-  "normalized_at": "2026-11-17T07:00:09.930074"
+  "normalized_at": "2026-11-18T21:59:45.922441",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

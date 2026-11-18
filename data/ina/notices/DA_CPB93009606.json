@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB93009606",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009606/giga-emission-du-16-septembre-1993?rang=41",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T11:28:34.468497",
   "program_query": "Giga",
   "programme": "Giga",
@@ -15,5 +15,8 @@
     "Diffusion d'épisodes de 3 séries (achats) : \"La fête à la maison : tous en scène\". \"Tv 101 : le retour \", 2ème partie.\"Le Prince de Bel Air : Laissez les juges \"."
   ],
   "elements": [],
-  "normalized_at": "2026-11-17T07:00:10.598307"
+  "normalized_at": "2026-11-18T21:59:46.444643",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }

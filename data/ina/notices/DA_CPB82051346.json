@@ -2,7 +2,7 @@
   "notice_id": "DA_CPB82051346",
   "url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB82051346/recre-a2-emission-du-20-janvier-1982?rang=340",
   "source": "ina",
-  "parser_version": 9,
+  "parser_version": 10,
   "scraped_at": "2026-11-16T07:01:52.181011",
   "program_query": "Récré A2",
   "programme": "Récré\nA2\naprès-midi",
@@ -56,7 +56,6 @@
     "Discorébus : F. CORBIER interprète \"Plante un jardin\"",
     "Les aventures d'une souris sur mars",
     "Le petit écho de la forêt",
-    "Philippe CHATEL chante : tout quitter mais tout emporter (filme au musée de la marine)",
     "Chronos",
     "Les petits malheurs : F. CORBIER",
     "Thème de l'émission : L'île de Récré A2",
@@ -72,5 +71,8 @@
     "Candy",
     "Dorothée chante \"Rox et Rouky\""
   ],
-  "normalized_at": "2026-11-17T07:00:08.875404"
+  "normalized_at": "2026-11-18T21:59:44.933536",
+  "scope": "jour",
+  "description": "",
+  "programme_works": []
 }
