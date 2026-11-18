@@ -2,22 +2,23 @@
 """
 Moissonneur INA Catalogue — v10.
 
-Union A ∪ B (le nom de l'émission est tantôt dans le titre propre, tantôt dans
-la colonne Titre programme, tantôt les deux : on cumule, on ne substitue pas).
+Union A ∪ B : le nom de l'émission est tantôt dans le titre propre, tantôt dans
+la colonne Titre programme, tantôt les deux. On cumule, on ne substitue pas.
 
 Triage : une ligne de résultat porte déjà date + collection + titre. Si l'œuvre
 en est déductible, la fiche n'apporte rien → pas de téléchargement (--fetch auto).
+La moisson est alors acquise dans data/ina/listings/<slug>.json.
 
-« Résumé documentaire » a DEUX formes :
-  liste  : - Emilie / - Papivole / 1. Sailormoon        → titres d'œuvres du jour
-  prose  : « Émission de jeunesse présentée par… »      → description de l'émission,
-           dont on extrait les œuvres citées entre parenthèses, au niveau ÉMISSION
-           et non au niveau jour (scope=programme).
+« Résumé documentaire » a deux formes :
+  liste : - Emilie / - Papivole / 1. Sailormoon  → œuvres du jour (scope=jour)
+  prose : « Émission de jeunesse présentée par… » → description de l'émission,
+          œuvres citées entre parenthèses extraites au niveau émission
+          (scope=programme, champ programme_works)
 
 Usage
-  python scraper/ina_catalogue_scraper.py --program Samdynamite --probe
-  python scraper/ina_catalogue_scraper.py --program "Récré A2" --fetch auto
   python scraper/ina_catalogue_scraper.py --rebuild --program Samdynamite
+  python scraper/ina_catalogue_scraper.py --diagnose --program Samdynamite
+  python scraper/ina_catalogue_scraper.py --program "Récré A2" --fetch auto
   python scraper/ina_catalogue_scraper.py --report-only
 """
 
@@ -234,7 +235,6 @@ def needs_fetch(e:Dict,mode:str)->bool:
     return not e.get("work")
 
 
-# ---------- prose vs liste ----------
 def is_prose(lines:List[str],raw:str)->bool:
     if not lines: return False
     low=norm(raw)
@@ -642,7 +642,6 @@ def parse_notice(html,nid,url,program)->Dict:
             "summary_raw":content,"titles_raw":lines,"elements":els}
 
 def renotice(n:Dict)->Dict:
-    """Re-normalisation locale : réinterprète summary_raw sans requête."""
     prog=n.get("programme") or n.get("program_query") or ""
     content=n.get("summary_raw") or ""
     lines=n.get("titles_raw") or []
@@ -684,6 +683,7 @@ def normalize_cache(program=None,verbose=True)->int:
 
 
 KEYS=("indexed","cached","current","outdated","with_elements","empty","remaining","elements","days","known","need")
+
 def load_notices()->Dict[str,Dict]:
     out={}
     if not NOT_DIR.exists(): return out
@@ -696,8 +696,19 @@ def load_notices()->Dict[str,Dict]:
             "program":n.get("program_query") or n.get("programme") or ""}
     return out
 
+def programme_works_by_slug(notices:Dict[str,Dict])->Dict[str,List[str]]:
+    """Œuvres citées au niveau émission, regroupées par slug. Un seul passage disque."""
+    acc:Dict[str,set]={}
+    for nid,n in notices.items():
+        if not n.get("pw"): continue
+        full=read_json(NOT_DIR/f"{nid}.json") or {}
+        for w in full.get("programme_works") or []:
+            if w: acc.setdefault(n["slug"],set()).add(w)
+    return {k:sorted(v) for k,v in acc.items()}
+
 def build_coverage(fetch_mode="auto")->Dict:
     notices=load_notices(); targets=load_targets(); raw={}; indexed_ids=set()
+    pw_map=programme_works_by_slug(notices)
     for d,fld in ((LIS_DIR,"entries"),(IDX_DIR,"notices")):
         if not d.exists(): continue
         for p in sorted(d.glob("*.json")):
@@ -717,10 +728,10 @@ def build_coverage(fetch_mode="auto")->Dict:
                 if nid: indexed_ids.add(nid)
                 for l in e.get("via",""): g["via"][l]=g["via"].get(l,0)+1
                 mb=e.get("match_by","?"); g["match"][mb]=g["match"].get(mb,0)+1
-                nf_=needs_fetch(e,fm)
-                if nf_: g["need"]+=1
+                need=needs_fetch(e,fm)
+                if need: g["need"]+=1
                 ex=notices.get(nid) if nid else None
-                if not nf_:
+                if not need:
                     g["cached"]+=1; g["current"]+=1
                     if e.get("work"): g["known"]+=1
                 elif ex:
@@ -765,12 +776,12 @@ def build_coverage(fetch_mode="auto")->Dict:
         for y,g in r["years"].items():
             if not (lo<=y<=hi): years.append(dict(g,virgin=False,estimate=0,out_of_range=True))
         years.sort(key=lambda g:g["year"])
-        pw=sorted({w for nid,n in notices.items() if n["slug"]==slug for w in (read_json(NOT_DIR/f"{nid}.json") or {}).get("programme_works",[])}) if slug in {rr["slug"] if "slug" in rr else slug for slug in raw} else []
         programs.append({"program":t["program"],"slug":slug,"channel":t.get("channel") or r.get("channel",""),
                          "priority":t.get("priority",9),"from":t.get("from"),"to":t.get("to"),
                          "harvested_at":r.get("harvested_at",""),"methods":r.get("methods",[]),
                          "discovery":r.get("discovery",[]),"year_profile":r.get("year_profile",{}),
-                         "fetch_mode":r.get("fetch_mode",fetch_mode),"programme_works":pw,
+                         "fetch_mode":r.get("fetch_mode",fetch_mode),
+                         "programme_works":pw_map.get(slug,[]),
                          "years":years,"totals":totals(years)})
     for slug,r in raw.items():
         if slug in used: continue
@@ -778,7 +789,7 @@ def build_coverage(fetch_mode="auto")->Dict:
         programs.append({"program":r["program"],"slug":slug,"channel":r.get("channel",""),"priority":9,
                          "from":None,"to":None,"methods":r.get("methods",[]),"discovery":r.get("discovery",[]),
                          "year_profile":r.get("year_profile",{}),"fetch_mode":r.get("fetch_mode",fetch_mode),
-                         "programme_works":[],"years":years,"totals":totals(years)})
+                         "programme_works":pw_map.get(slug,[]),"years":years,"totals":totals(years)})
     orph={}
     for nid,n in notices.items():
         if nid in indexed_ids: continue
@@ -799,9 +810,9 @@ def build_coverage(fetch_mode="auto")->Dict:
     advice=[]
     noch=[p["program"] for p in programs if not p.get("channel")]
     if noch: advice.append(f"{len(noch)} émission(s) sans chaîne : méthode B inactive. Renseigne-la dans 🎯 Cibles.")
-    if grand["known"]: advice.append(f"{grand['known']} entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger pour elles. La moisson est acquise dans data/ina/listings/.")
+    if grand["known"]: advice.append(f"{grand['known']} entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger. La moisson est acquise dans data/ina/listings/.")
     prose_n=sum(1 for n in notices.values() if n["scope"]=="programme")
-    if prose_n: advice.append(f"{prose_n} notice(s) décrivent l'émission en prose : œuvres citées extraites au niveau émission, pas au niveau jour.")
+    if prose_n: advice.append(f"{prose_n} notice(s) en prose : œuvres citées extraites au niveau émission, pas au niveau jour.")
     if grand["virgin"]: advice.append(f"{grand['virgin']} couple(s) jamais indexés — ≈ {grand['estimate']} entrées estimées.")
     if grand["outdated"]: advice.append(f"{grand['outdated']} notice(s) d'ancienne version : lance --rebuild (0 requête).")
     return {"generated_at":datetime.now().isoformat(),"parser_version":PARSER_VERSION,"global_avg":gavg,
@@ -815,7 +826,7 @@ def write_coverage(cov)->None:
     L=["# 🏛️ Couverture de la moisson INA","",
        f"_Généré le {cov['generated_at'][:19].replace('T',' à ')} — parser v{cov['parser_version']} · fetch={cov.get('fetch_mode')}_","",
        "> **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne",
-       "> Titre programme, tantôt les deux. On cumule, l'appartenance est acceptée si l'un ou l'autre correspond.","",
+       "> Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.","",
        "> **Économie** : une ligne porte déjà date + collection + titre. Si l'œuvre en est déductible,",
        "> la fiche n'apporte rien (`Connues`) — la moisson est acquise dans `data/ina/listings/`.","",
        "> **Prose** : certains « Résumé documentaire » décrivent l'émission en phrases. Les œuvres citées",
@@ -882,13 +893,16 @@ def do_probe(client,program,channel,year,y0,y1,strategies,mode,fetch_mode,nb)->N
 
 def diagnose(program,year)->None:
     print("="*112); print("🔬 DIAGNOSTIC (0 requête)"); print("="*112)
-    notices=load_notices(); print(f"Fichiers notices : {len(notices)} · prose {sum(1 for n in notices.values() if n['scope']=='programme')}")
+    notices=load_notices()
+    print(f"Fichiers notices : {len(notices)} · prose {sum(1 for n in notices.values() if n['scope']=='programme')}")
+    pw_map=programme_works_by_slug(notices)
     for p in load_targets()["programs"]:
         if program and norm(p["program"])!=norm(program): continue
         slug=p.get("slug") or slugify(p["program"])
         lis=read_json(LIS_DIR/f"{slug}.json") or {}; idx=read_json(IDX_DIR/f"{slug}.json") or {}
         ents=lis.get("entries") or []; fm=lis.get("fetch_mode","auto")
         print(f"\n▶ {p['program']} · « {p.get('channel') or 'NON RENSEIGNÉE'} » · {p['from']}→{p['to']} · {len(ents)} entrée(s) · fetch={fm}")
+        if pw_map.get(slug): print(f"   📝 œuvres citées au niveau émission : {', '.join(pw_map[slug])}")
         for m in idx.get("discovery",[]):
             print(f"   [{m['method']}] {m['found']}/{m['total']} · colonne {m.get('by_programme',0)} · libellé {m.get('by_title',0)} · connues {m.get('works_known',0)} {m.get('note','')}")
         prof=lis.get("year_profile") or year_profile(ents,fm)
@@ -898,8 +912,7 @@ def diagnose(program,year)->None:
         for nid,n in notices.items():
             if n["slug"]!=slug or n["scope"]!="programme": continue
             full=read_json(NOT_DIR/f"{nid}.json") or {}
-            print(f"   📝 {nid} — prose · œuvres citées : {', '.join(full.get('programme_works') or []) or 'aucune'}")
-            if full.get("description"): print(f"      {full['description'][:180]}…")
+            if full.get("description"): print(f"   📄 {nid} — {full['description'][:200]}…")
 
 
 def run(args)->None:
@@ -963,7 +976,7 @@ def run(args)->None:
             "harvested_at":datetime.now().isoformat(),"count":len(dl),"fetch_mode":args.fetch,
             "listings_count":len(entries)-len(dl),"discovery":discovery,"notices":dl})
         need=[e for e in entries if needs_fetch(e,args.fetch)]
-        print(f"\n✅ MOISSON ACQUISE : {len(entries)} diffusion(s) datée(s) dans data/ina/listings/{slug}.json"
+        print(f"\n✅ MOISSON ACQUISE : {len(entries)} diffusion(s) datée(s) → data/ina/listings/{slug}.json"
               +(f" · {dropped} hors plage écartée(s)" if dropped else ""))
         print(f"   œuvre déjà connue : {sum(1 for e in entries if e.get('work'))} · fiches à télécharger : {len(need)} · mères : {sum(1 for e in entries if e.get('mother'))}")
         print("   par année : "+", ".join(f"{y}:{g['total']}" for y,g in sorted(prof.items())))
