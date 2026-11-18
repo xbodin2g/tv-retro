@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
+_Généré le 2026-11-18 à 22:45:33 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **258** (≈ 97655)
-- Entrées : **15720** · Connues sans téléchargement : **7009**
-- À télécharger : **8711** · En cache : **15690** (99.8 %)
-- Œuvres distinctes : **614** · Reste : **30**
+- Jamais indexés : **251** (≈ 86617)
+- Entrées : **17174** · Connues sans téléchargement : **7935**
+- À télécharger : **9239** · En cache : **17016** (99.1 %)
+- Œuvres distinctes : **851** · Reste : **158**
 
 ## Par émission
 
@@ -35,7 +35,7 @@ _Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
 | Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 0 | 2468 | 2468 | 0 | 100.0 % |
-| Croque-Vacances | TF1 | 1981→1987 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Croque-Vacances | TF1 | 1981→1987 | A,B | 0 | 1454 | 926 | 528 | 1326 | 128 | 91.2 % |
 | Debout les enfants | FR3 | 1987→1994 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Discopuce | Antenne 2 | 1978→1987 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Disney Club | TF1 | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -171,15 +171,17 @@ _Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
 
 ### Croque-Vacances · TF1
 
+**Œuvres citées au niveau émission** : " Thierry la fronde ", "bajou ", "boomer ", "dare dare motus", "toi mon ami", "tout doux dinky ", 2mn, Bde 133160, Bde : 121042, Chilly Willy, D.A, Docteur SNUGGLES, INFOS-magazine, achats, bde 119 393, infos-magazine, kenworth W 900 conventional, le feuilleton"l'équipe ", plusieurs extrait, voir St
+
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1981 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1982 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1983 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1984 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1985 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1986 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1987 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1981 | complet | 180 | A:180, B:180 | 80 | 100 | 180 | 15 | 0 |
+| 1982 | complet | 160 | A:160, B:147 | 58 | 102 | 160 | 21 | 0 |
+| 1983 | complet | 246 | A:246, B:214 | 158 | 88 | 246 | 74 | 0 |
+| 1984 | complet | 320 | A:320, B:309 | 229 | 91 | 320 | 86 | 0 |
+| 1985 | en cours | 219 | A:219, B:86 | 179 | 40 | 198 | 27 | 21 |
+| 1986 | complet | 191 | A:191, B:16 | 191 | 0 | 191 | 8 | 0 |
+| 1987 | en cours | 138 | A:138, B:3 | 31 | 107 | 31 | 6 | 107 |
 
 ### Debout les enfants · FR3
 
@@ -551,6 +553,8 @@ _Généré le 2026-11-18 à 21:59:47 — parser v10 · fetch=auto_
 
 | Émission | Année | Reste |
 |---|---|---:|
+| Croque-Vacances | 1987 | 107 |
+| Croque-Vacances | 1985 | 21 |
 | Récré A2 | 1985 | 19 |
 | Récré A2 | 1986 | 8 |
 | Récré A2 | 1987 | 3 |
