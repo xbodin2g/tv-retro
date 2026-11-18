@@ -1,27 +1,23 @@
 #!/usr/bin/env python3
 """
-Moissonneur INA Catalogue — v9, union A ∪ B + triage des téléchargements.
+Moissonneur INA Catalogue — v10.
 
-Le catalogue INA n'est pas structuré uniformément : le nom de l'émission est
-tantôt dans « Titre propre », tantôt dans la colonne « Titre programme »,
-tantôt dans les deux, et cela varie selon l'émission ET l'année.
-→ Les méthodes A et B sont CUMULÉES, l'appartenance est acceptée si l'UN OU
-  L'AUTRE correspond (--match any par défaut).
+Union A ∪ B (le nom de l'émission est tantôt dans le titre propre, tantôt dans
+la colonne Titre programme, tantôt les deux : on cumule, on ne substitue pas).
 
-ÉCONOMIE : une ligne de résultat porte déjà date + collection + titre. Si l'œuvre
-en est déductible, la fiche n'apporte rien : on ne la télécharge pas.
-  --fetch auto    (défaut) ne télécharge que les entrées SANS œuvre déductible
-                  → ce sont les notices « mères » avec sommaire, et les inconnues
-  --fetch mothers uniquement les notices mères
-  --fetch all     tout (ancien comportement)
-  --fetch none    index seul
+Triage : une ligne de résultat porte déjà date + collection + titre. Si l'œuvre
+en est déductible, la fiche n'apporte rien → pas de téléchargement (--fetch auto).
 
-Plafond serveur : nbLignes=500. Au-delà (1000, 2000) INA retombe sur 50.
-Pagination : paramètre « page » (sondé et mémorisé).
+« Résumé documentaire » a DEUX formes :
+  liste  : - Emilie / - Papivole / 1. Sailormoon        → titres d'œuvres du jour
+  prose  : « Émission de jeunesse présentée par… »      → description de l'émission,
+           dont on extrait les œuvres citées entre parenthèses, au niveau ÉMISSION
+           et non au niveau jour (scope=programme).
 
 Usage
-  python scraper/ina_catalogue_scraper.py --program "Récré A2" --probe
-  python scraper/ina_catalogue_scraper.py --program Samdynamite --fetch auto
+  python scraper/ina_catalogue_scraper.py --program Samdynamite --probe
+  python scraper/ina_catalogue_scraper.py --program "Récré A2" --fetch auto
+  python scraper/ina_catalogue_scraper.py --rebuild --program Samdynamite
   python scraper/ina_catalogue_scraper.py --report-only
 """
 
@@ -35,7 +31,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE="https://catalogue.ina.fr"; LIST_PATH="/docListe/TV-RADIO"
-PARSER_VERSION=9; PAGE_SIZE=500
+PARSER_VERSION=10; PAGE_SIZE=500
 ROOT=Path("data/ina"); IDX_DIR=ROOT/"index"; NOT_DIR=ROOT/"notices"; LIS_DIR=ROOT/"listings"; TARGETS=ROOT/"targets.json"
 
 NOTICE_RE=re.compile(r"/doc/TV-RADIO/([A-Za-z]{1,8}_[A-Za-z0-9]+(?:[-.][0-9]+)*)",re.I)
@@ -49,6 +45,18 @@ INLINE_TIME_RE=re.compile(r"\s+à\s+\d{2}:\d{2}:\d{2}.*$",re.I)
 PART_SUFFIX_RE=re.compile(r"\s*[:;]?\s*\[?\s*(?:\d+|i|1|2)\s*(?:ere|ère|er|e|eme|ème|iee|ee)\s*partie\s*\]?\s*$",re.I)
 BRACKET_PART_RE=re.compile(r"\s*\[\s*(?:\d+|i|1|2)\s*(?:ere|ère|er|e|eme|ème|iee|ee)\s*partie\s*\]\s*$",re.I)
 DATE_SUFFIX_RE=re.compile(r"\s*[:;]?\s*\[?\s*(?:[ée]mission|programme|diffusion)\s+(?:du|enregistr[ée]e? le)[^\]]*\]?\s*$",re.I)
+
+PROSE_MARKERS=[r"pr[ée]sent[ée]e?s?\s+par",r"lanc[ée]e?s?\s+en",r"au\s+programme",
+ r"en\s+remplacement\s+de",r"\bdiffus[ée]e?s?\b",r"\bchaque\s+(lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)",
+ r"\bles\s+(mercredi|samedi|dimanche|lundi|mardi|jeudi|vendredi)\b",r"\bpuis\b",r"\bensuite\b",
+ r"\bainsi\b",r"\bcontient\b",r"\bsucc[èe]de\b",r"\b[ée]mission\s+de\b",r"\bpersonnages?\b",
+ r"\bpropos[ée]e?s?\b",r"\bconsacr[ée]e?s?\b",r"\bdestin[ée]e?s?\b"]
+WORK_CTX=[r"dessins?\s+anim[ée]s?",r"s[ée]ries?",r"au\s+programme",r"programmes?",r"[ée]missions?",
+ r"rubriques?",r"films?",r"contient",r"comprend",r"diffuse",r"propos[ée]e?s?"]
+PAREN_RE=re.compile(r"\(([^)]{3,200})\)")
+SPLIT_RE=re.compile(r"\s*(?:,|;|\bet\b|\bou\b|\bainsi que\b)\s*")
+BAD_WORK=[r"\bpersonnages?\b",r"\bpr[ée]sent",r"\bquelques\b",r"\bautres\b",r"\betc\b",r"^\d+$",
+ r"\bminute",r"\bheure",r"\bsaison",r"\b[ée]pisode",r"\bpartie\b"]
 
 COL_ALIASES={"chaine":["chaîne de diffusion","chaine de diffusion","chaîne","chaine"],
  "date":["date de diffusion","date"],"start":["heure de diffusion","heure"],
@@ -74,15 +82,16 @@ EXCLUDE_PATTERNS=[r"^plateau\b",r"\bplateau\s*:",r"^animation\b",r"^pr[ée]senta
  r"^tapis vert\b",r"^pr[ée]lude\b",r"^(?:\d+|i|1|2)\s*(?:ere|ère|eme|ème|e|iee|ee)\s*partie$",
  r"^seconde partie$",r"^suite$",r"^g[ée]n[ée]rique\b",r"^interm[èe]de\b",r"^annonce",
  r"^sommaire\b",r"^r[ée]sum[ée]\b",r"^teaser\b",r"^habillage\b",r"^jingle\b",r"^concours\b",
- r"^d[ée]dicaces\b",r"^courrier\b",r"^indicatif\b",r"^opening\b",r"^closing\b",r"^relais\b"]
+ r"^d[ée]dicaces\b",r"^courrier\b",r"^indicatif\b",r"^opening\b",r"^closing\b",r"^relais\b",
+ r"^au programme$",r"^des dessins",r"^lanc[ée]e? en",r"^[ée]mission de"]
 
 CANON_EXACT={"mask":"Mask","ferdy":"Ferdy","popples":"Popples","conan":"Conan","cadichon":"Cadichon",
  "nick larson":"Nick Larson","nico larson":"Nick Larson","city hunter":"City Hunter",
  "sailormoon":"Sailor Moon","sailor moon":"Sailor Moon","power rangers":"Power Rangers",
- "dragon ball z":"Dragon Ball Z","dragon ball":"Dragon Ball",
+ "dragon ball z":"Dragon Ball Z","dragon ball":"Dragon Ball","denver":"Denver, le dernier dinosaure",
  "les minipouss":"Les Minipouss","minipouss":"Les Minipouss","jeanne et serge":"Jeanne et Serge",
- "shera":"She-Ra","he man":"He-Man","mon petit poney":"Mon petit poney",
- "sophie et virginie":"Sophie et Virginie","denis la malice":"Denis la Malice",
+ "shera":"She-Ra","he man":"He-Man","mon petit poney":"Mon petit poney","pacman":"Pac-Man",
+ "sophie et virginie":"Sophie et Virginie","denis la malice":"Denis la Malice","bumbo":"Bumbo",
  "inspecteur gadget":"Inspecteur Gadget","lucky luke":"Lucky Luke","les schtroumpfs":"Les Schtroumpfs",
  "tom et jerry":"Tom et Jerry","bugs bunny":"Bugs Bunny","scooby doo":"Scooby-Doo",
  "la panthere rose":"La Panthère rose","les flintstones":"Les Pierrafeu","les jetson":"Les Jetson",
@@ -118,8 +127,9 @@ CANON_EXACT={"mask":"Mask","ferdy":"Ferdy","popples":"Popples","conan":"Conan","
  "les devinettes d epinal":"Les devinettes d'Épinal","contes et legendes du monde":"Contes et légendes du monde",
  "la caverne d abracadabra":"La Caverne d'Abracadabra","entre les lignes":"Entre les lignes",
  "a2 mains":"Mes mains ont la parole","genies en herbe international":"Génies en herbe international",
- "tilion":"Tilion","le tour du monde en 80 jours":"Le Tour du monde en 80 jours"}
-CANON_RULES=[(re.compile(r"^les?\s+bisounours$"),"Les Bisounours"),(re.compile(r"^bisounours$"),"Les Bisounours"),
+ "tilion":"Tilion","le tour du monde en 80 jours":"Le Tour du monde en 80 jours",
+ "les bisounours":"Les Bisounours","bisounours":"Les Bisounours"}
+CANON_RULES=[(re.compile(r"^les?\s+bisounours$"),"Les Bisounours"),
  (re.compile(r"^les\s+chevaliers\s+du\s+zodiaque?s?$"),"Les Chevaliers du Zodiaque"),
  (re.compile(r"^les\s+amichain(?:e|ê)s?$"),"Les Amichaînes"),
  (re.compile(r"^la\s+croisi[èe]re\s+foll?\s*amour$"),"La Croisière Foll'Amour"),
@@ -182,10 +192,13 @@ def clean_title(raw:str)->str:
     if len(p)==2 and p[0].strip() and norm(p[0])==norm(p[1]): t=p[0].strip()
     return PART_SUFFIX_RE.sub("",t).strip(" .;:-–—")
 def is_useful(t:str,pn:str,pc:str)->bool:
-    if not t or len(t)<2 or len(t)>150: return False
+    if not t or len(t)<2 or len(t)>90: return False
     low=t.lower()
     for p in EXCLUDE_PATTERNS:
         if re.search(p,low): return False
+    for p in BAD_WORK:
+        if re.search(p,low): return False
+    if len(t.split())>8: return False
     k=norm(t)
     return bool(k) and k!=pn and compact(t)!=pc and not re.fullmatch(r"[\d\s]+",t)
 def build_elements(raw:List[str],program:str)->List[str]:
@@ -219,6 +232,34 @@ def needs_fetch(e:Dict,mode:str)->bool:
     if mode=="all": return True
     if mode=="mothers": return bool(e.get("mother"))
     return not e.get("work")
+
+
+# ---------- prose vs liste ----------
+def is_prose(lines:List[str],raw:str)->bool:
+    if not lines: return False
+    low=norm(raw)
+    hits=sum(1 for p in PROSE_MARKERS if re.search(p,low))
+    longs=sum(1 for l in lines if len(l)>70)
+    verby=sum(1 for l in lines if len(l.split())>9)
+    bulleted=sum(1 for l in lines if BULLET_RE.match(l) or ITEM_RE.match(l))
+    if hits>=2: return True
+    if longs>=max(1,len(lines)//2): return True
+    if verby>=max(1,len(lines)//2) and bulleted==0: return True
+    if hits>=1 and longs>=1: return True
+    return False
+def mine_prose_works(raw:str,program:str)->List[str]:
+    pn,pc=norm(program),compact(program); out=[]; seen=set()
+    for m in PAREN_RE.finditer(raw):
+        pre=norm(raw[max(0,m.start()-60):m.start()])
+        if not any(re.search(k,pre) for k in WORK_CTX): continue
+        if re.search(r"personnage|pr[ée]sent|animateur|avec la voix",pre): continue
+        for part in SPLIT_RE.split(m.group(1)):
+            t=canon_title(clean_title(part))
+            if not is_useful(t,pn,pc): continue
+            k=norm(t)
+            if k in seen: continue
+            seen.add(k); out.append(t)
+    return out
 
 
 def load_targets()->Dict:
@@ -426,8 +467,7 @@ def fetch_query(client,url,program,mode,label,letter,log,allow_all=False,deep=Tr
         param=probe_page_param(client,url,{entry_key(r) for r in rows})
         if param:
             numeric=param.lower() in ("page","numpage","pagecourante","nopage")
-            last=int(math.ceil(total/max(1,len(rows))))
-            seen_pages=set(); page=2; guard=0
+            last=int(math.ceil(total/max(1,len(rows)))); seen_pages=set(); page=2; guard=0
             while len(acc)<total and guard<80:
                 guard+=1
                 if page in seen_pages: page+=1; continue
@@ -448,8 +488,7 @@ def fetch_query(client,url,program,mode,label,letter,log,allow_all=False,deep=Tr
                 if h:
                     rr,_,_=parse_list(h,program,mode,allow_all)
                     for r in rr: acc.setdefault(entry_key(r),r)
-            rows=list(acc.values())
-            note=f"paginé via {param}"+("" if len(acc)>=total else f" · {len(acc)}/{total}")
+            rows=list(acc.values()); note=f"paginé via {param}"+("" if len(acc)>=total else f" · {len(acc)}/{total}")
         else:
             for tri in TRI_FLIPS:
                 h=client.get(set_param(url,"tri",tri))
@@ -572,25 +611,61 @@ def parse_notice(html,nid,url,program)->Dict:
     content=field("Sommaire"); src="Sommaire"
     if not content:
         content=field("Résumé documentaire","Resume documentaire","Résumé","Resume"); src="Résumé documentaire"
-    raw=[]
+    lines=[]
     if content:
         for line in content.split("\n"):
             if TIMECODE_LINE_RE.match(line): continue
             it=ITEM_RE.match(line)
             r=(it.group(2) if it else BULLET_RE.sub("",line)).strip()
-            if r: raw.append(r)
+            if r: lines.append(r)
     coll=field("Titre collection")
-    els=build_elements(raw,prog)
-    if not els and coll:
+    prose=is_prose(lines,content) if content else False
+    description=""; programme_works=[]; els=[]
+    if prose:
+        description=re.sub(r"\s+"," ",content).strip()
+        programme_works=mine_prose_works(content,prog)
+        src+=" (prose)"
+    else:
+        els=build_elements(lines,prog)
+        if lines: src+=" (liste)"
+    if not els and not prose and coll:
         c=canon_title(clean_title(coll))
-        if is_useful(c,norm(prog),compact(prog)): els=[c]
+        if is_useful(c,norm(prog),compact(prog)): els=[c]; src="Titre collection"
     return {"notice_id":nid,"url":url,"source":"ina","parser_version":PARSER_VERSION,
             "scraped_at":datetime.now().isoformat(),"program_query":program,"programme":prog,
             "base":field("Base"),"channel":field("Chaîne de diffusion","Chaine de diffusion"),
             "collection":canon_title(clean_title(coll)) if coll else "",
             "date":ds,"start":shhmm,"start_raw":sfull,"duration":field("Durée","Duree"),
-            "elements_field":src if raw else ("Titre collection" if coll else ""),
-            "titles_raw":raw,"elements":els}
+            "elements_field":src if content or coll else "",
+            "scope":"programme" if prose else "jour",
+            "description":description,"programme_works":programme_works,
+            "summary_raw":content,"titles_raw":lines,"elements":els}
+
+def renotice(n:Dict)->Dict:
+    """Re-normalisation locale : réinterprète summary_raw sans requête."""
+    prog=n.get("programme") or n.get("program_query") or ""
+    content=n.get("summary_raw") or ""
+    lines=n.get("titles_raw") or []
+    if content and not lines:
+        for line in content.split("\n"):
+            if TIMECODE_LINE_RE.match(line): continue
+            it=ITEM_RE.match(line)
+            r=(it.group(2) if it else BULLET_RE.sub("",line)).strip()
+            if r: lines.append(r)
+    prose=is_prose(lines,content) if content else False
+    desc=""; pw=[]; els=[]
+    if prose:
+        desc=re.sub(r"\s+"," ",content).strip(); pw=mine_prose_works(content,prog)
+    else:
+        els=build_elements(lines,prog)
+    if not els and not prose and n.get("collection"):
+        c=canon_title(clean_title(n["collection"]))
+        if is_useful(c,norm(prog),compact(prog)): els=[c]
+    n["elements"]=els; n["titles_raw"]=lines
+    n["scope"]="programme" if prose else "jour"
+    n["description"]=desc; n["programme_works"]=pw
+    n["parser_version"]=PARSER_VERSION; n["normalized_at"]=datetime.now().isoformat()
+    return n
 
 def normalize_cache(program=None,verbose=True)->int:
     if not NOT_DIR.exists(): return 0
@@ -600,16 +675,11 @@ def normalize_cache(program=None,verbose=True)->int:
         if not n: continue
         if program and norm(n.get("program_query",""))!=norm(program): continue
         total+=1
-        src=n.get("titles_raw") or n.get("elements") or []
-        els=build_elements(src,n.get("programme") or n.get("program_query") or "")
-        if not els and n.get("collection"):
-            c=canon_title(clean_title(n["collection"]))
-            if is_useful(c,norm(n.get("programme","")),compact(n.get("programme",""))): els=[c]
-        if els!=n.get("elements") or n.get("parser_version")!=PARSER_VERSION:
-            n["elements"]=els; n.setdefault("titles_raw",src)
-            n["parser_version"]=PARSER_VERSION; n["normalized_at"]=datetime.now().isoformat()
-            write_json(p,n); changed+=1
-    if verbose: print(f"🧹 Re-normalisation locale (0 requête) : {changed}/{total}")
+        before=(n.get("elements"),n.get("scope"),n.get("description"),n.get("parser_version"))
+        m=renotice(n)
+        if (m.get("elements"),m.get("scope"),m.get("description"),m.get("parser_version"))!=before:
+            write_json(p,m); changed+=1
+    if verbose: print(f"🧹 Re-normalisation locale (0 requête) : {changed}/{total} notices")
     return changed
 
 
@@ -621,6 +691,7 @@ def load_notices()->Dict[str,Dict]:
         n=read_json(p)
         if not n: continue
         out[(n.get("notice_id") or p.stem).upper()]={"els":len(n.get("elements") or []),
+            "pw":len(n.get("programme_works") or []),"scope":n.get("scope","jour"),
             "v":n.get("parser_version",0),"slug":slugify(n.get("program_query") or n.get("programme") or ""),
             "program":n.get("program_query") or n.get("programme") or ""}
     return out
@@ -636,8 +707,7 @@ def build_coverage(fetch_mode="auto")->Dict:
                 raw[slug]["discovery"]=data.get("discovery",raw[slug]["discovery"])
                 raw[slug]["methods"]=sorted({m.get("letter","?") for m in data.get("discovery",[]) if m.get("found")})
                 continue
-            fm=data.get("fetch_mode",fetch_mode)
-            by={}
+            fm=data.get("fetch_mode",fetch_mode); by={}
             for e in data.get(fld) or []:
                 parts=(e.get("date") or "").split("-")
                 if len(parts)!=3: continue
@@ -695,18 +765,20 @@ def build_coverage(fetch_mode="auto")->Dict:
         for y,g in r["years"].items():
             if not (lo<=y<=hi): years.append(dict(g,virgin=False,estimate=0,out_of_range=True))
         years.sort(key=lambda g:g["year"])
+        pw=sorted({w for nid,n in notices.items() if n["slug"]==slug for w in (read_json(NOT_DIR/f"{nid}.json") or {}).get("programme_works",[])}) if slug in {rr["slug"] if "slug" in rr else slug for slug in raw} else []
         programs.append({"program":t["program"],"slug":slug,"channel":t.get("channel") or r.get("channel",""),
                          "priority":t.get("priority",9),"from":t.get("from"),"to":t.get("to"),
                          "harvested_at":r.get("harvested_at",""),"methods":r.get("methods",[]),
                          "discovery":r.get("discovery",[]),"year_profile":r.get("year_profile",{}),
-                         "fetch_mode":r.get("fetch_mode",fetch_mode),"years":years,"totals":totals(years)})
+                         "fetch_mode":r.get("fetch_mode",fetch_mode),"programme_works":pw,
+                         "years":years,"totals":totals(years)})
     for slug,r in raw.items():
         if slug in used: continue
         years=[dict(g,virgin=False,estimate=0) for _,g in sorted(r["years"].items())]
         programs.append({"program":r["program"],"slug":slug,"channel":r.get("channel",""),"priority":9,
                          "from":None,"to":None,"methods":r.get("methods",[]),"discovery":r.get("discovery",[]),
                          "year_profile":r.get("year_profile",{}),"fetch_mode":r.get("fetch_mode",fetch_mode),
-                         "years":years,"totals":totals(years)})
+                         "programme_works":[],"years":years,"totals":totals(years)})
     orph={}
     for nid,n in notices.items():
         if nid in indexed_ids: continue
@@ -727,28 +799,27 @@ def build_coverage(fetch_mode="auto")->Dict:
     advice=[]
     noch=[p["program"] for p in programs if not p.get("channel")]
     if noch: advice.append(f"{len(noch)} émission(s) sans chaîne : méthode B inactive. Renseigne-la dans 🎯 Cibles.")
-    onlya=[p["program"] for p in programs if p.get("methods")==["A"]]
-    onlyb=[p["program"] for p in programs if p.get("methods")==["B"]]
-    if onlya: advice.append(f"A seule répond pour : {', '.join(onlya[:6])}{' …' if len(onlya)>6 else ''}.")
-    if onlyb: advice.append(f"B seule répond pour : {', '.join(onlyb[:6])}{' …' if len(onlyb)>6 else ''}. L'union est indispensable.")
-    if grand["known"]: advice.append(f"{grand['known']} entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger pour elles.")
+    if grand["known"]: advice.append(f"{grand['known']} entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger pour elles. La moisson est acquise dans data/ina/listings/.")
+    prose_n=sum(1 for n in notices.values() if n["scope"]=="programme")
+    if prose_n: advice.append(f"{prose_n} notice(s) décrivent l'émission en prose : œuvres citées extraites au niveau émission, pas au niveau jour.")
     if grand["virgin"]: advice.append(f"{grand['virgin']} couple(s) jamais indexés — ≈ {grand['estimate']} entrées estimées.")
-    if grand["outdated"]: advice.append(f"{grand['outdated']} notice(s) d'ancienne version : déjà en cache, re-normalisation locale.")
+    if grand["outdated"]: advice.append(f"{grand['outdated']} notice(s) d'ancienne version : lance --rebuild (0 requête).")
     return {"generated_at":datetime.now().isoformat(),"parser_version":PARSER_VERSION,"global_avg":gavg,
             "fetch_mode":fetch_mode,"programs":programs,"orphans":orphans,"totals":grand,
             "queue":queue,"frontier":frontier,
             "health":{"advice":advice,"outdated":grand["outdated"],"virgin":grand["virgin"],
-                      "known":grand["known"],"orphans":sum(o['count'] for o in orphans)}}
+                      "known":grand["known"],"prose":prose_n,"orphans":sum(o['count'] for o in orphans)}}
 
 def write_coverage(cov)->None:
     write_json(ROOT/"coverage.json",cov); g=cov["totals"]
     L=["# 🏛️ Couverture de la moisson INA","",
        f"_Généré le {cov['generated_at'][:19].replace('T',' à ')} — parser v{cov['parser_version']} · fetch={cov.get('fetch_mode')}_","",
-       "> INA n'est pas structuré uniformément : le nom de l'émission est tantôt dans le **titre propre**,",
-       "> tantôt dans la colonne **Titre programme**, tantôt dans les deux. **A** et **B** sont cumulées,",
-       "> l'appartenance est acceptée si l'un ou l'autre correspond.","",
+       "> **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne",
+       "> Titre programme, tantôt les deux. On cumule, l'appartenance est acceptée si l'un ou l'autre correspond.","",
        "> **Économie** : une ligne porte déjà date + collection + titre. Si l'œuvre en est déductible,",
-       "> la fiche n'apporte rien et n'est pas téléchargée (`Connues`).","",
+       "> la fiche n'apporte rien (`Connues`) — la moisson est acquise dans `data/ina/listings/`.","",
+       "> **Prose** : certains « Résumé documentaire » décrivent l'émission en phrases. Les œuvres citées",
+       "> sont extraites au niveau **émission**, pas au niveau jour.","",
        "## Total","",
        f"- Jamais indexés : **{g['virgin']}** (≈ {g['estimate']})",
        f"- Entrées : **{g['indexed']}** · Connues sans téléchargement : **{g['known']}**",
@@ -760,27 +831,21 @@ def write_coverage(cov)->None:
     for p in sorted(cov["programs"],key=lambda x:(x["priority"],x["program"].lower())):
         t=p["totals"]
         L.append(f"| {p['program']} | {p.get('channel') or '—'} | {p.get('from') or '?'}→{p.get('to') or '?'} | {','.join(p.get('methods') or []) or '—'} | {t['virgin']} | {t['indexed']} | {t['known']} | {t['need']} | {t['cached']} | {t['remaining']} | {t['coverage']} % |")
-    L+=["","## Détail par année — quelle méthode répond",""]
+    L+=["","## Détail par année",""]
     for p in sorted(cov["programs"],key=lambda x:x["program"].lower()):
-        L+=[f"### {p['program']}"+(f" · {p['channel']}" if p.get("channel") else ""),"",
-            "| Année | État | Entrées | Via | Correspondance | Connues | À fetch | Cache | Œuvres | Reste |",
-            "|---|---|---:|---|---|---:|---:|---:|---:|---:|"]
+        L+=[f"### {p['program']}"+(f" · {p['channel']}" if p.get("channel") else ""),""]
+        if p.get("programme_works"):
+            L+=[f"**Œuvres citées au niveau émission** : {', '.join(p['programme_works'])}",""]
+        L+=["| Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |",
+            "|---|---|---:|---|---:|---:|---:|---:|---:|"]
         for e in p["years"]:
             s="jamais indexé" if e.get("virgin") else ("complet" if e["remaining"]==0 else "en cours")
             if e.get("out_of_range"): s+=" (hors plage)"
             via=", ".join(f"{k}:{v}" for k,v in sorted((e.get("via") or {}).items())) or "—"
-            mt=", ".join(f"{k}:{v}" for k,v in sorted((e.get("match") or {}).items())) or "—"
-            L.append(f"| {e['year']} | {s} | {e['indexed']} | {via} | {mt} | {e.get('known',0)} | {e.get('need',0)} | {e['cached']} | {e.get('works',0)} | {e['remaining']} |")
-        if p.get("discovery"):
-            L+=["","<details><summary>Requêtes tentées</summary>","",
-                "| Méthode | Entrées | Annoncées | Colonne | Libellé | Les deux | Œuvre connue | Note |",
-                "|---|---:|---:|---:|---:|---:|---:|---|"]
-            for m in p["discovery"]:
-                L.append(f"| `{m['method']}` | {m['found']} | {m['total'] if m['total'] is not None else '—'} | {m.get('by_programme',0)} | {m.get('by_title',0)} | {m.get('by_both',0)} | {m.get('works_known',0)} | {m.get('note','')} |")
-            L+=["","</details>"]
+            L.append(f"| {e['year']} | {s} | {e['indexed']} | {via} | {e.get('known',0)} | {e.get('need',0)} | {e['cached']} | {e.get('works',0)} | {e['remaining']} |")
         L.append("")
     if cov["queue"]:
-        L+=["## Complétions conseillées","","| Émission | Année | Reste à télécharger |","|---|---|---:|"]
+        L+=["## Complétions conseillées","","| Émission | Année | Reste |","|---|---|---:|"]
         for q in cov["queue"][:30]: L.append(f"| {q['program']} | {q['year']} | {q['remaining']} |")
     (ROOT/"COVERAGE.md").write_text("\n".join(L)+"\n",encoding="utf-8")
 
@@ -803,22 +868,21 @@ def do_probe(client,program,channel,year,y0,y1,strategies,mode,fetch_mode,nb)->N
     rows,log=harvest(client,program,channel,year,y0,y1,strategies,mode,False,nb)
     inr=[r for r in rows if y0<=int(r["date"].split("-")[2])<=y1]
     print(f"\n── {len(rows)} entrée(s) · {len(inr)} dans la plage {y0}-{y1} · {len(rows)-len(inr)} hors plage")
-    print(f"── mères {sum(1 for r in inr if r['mother'])} · œuvre déjà connue {sum(1 for r in inr if r.get('work'))} · à télécharger {sum(1 for r in inr if needs_fetch(r,fetch_mode))}")
+    print(f"── mères {sum(1 for r in inr if r['mother'])} · œuvre connue {sum(1 for r in inr if r.get('work'))} · à télécharger {sum(1 for r in inr if needs_fetch(r,fetch_mode))}")
     prof=year_profile(inr,fetch_mode)
-    print("\n── Par année")
     for y,g in sorted(prof.items()):
         via="".join(sorted(g["via"])); mt=", ".join(f"{k}:{v}" for k,v in sorted(g["match"].items()))
         print(f"   {y} · {g['total']:>5} entrée(s) · via {via:<4} · {mt:<36} · connues {g['known']:>5} · à fetch {g['need']:>5} · {g['works']} œuvre(s)")
     works={}
     for r in inr:
         if r["work"]: works[r["work"]]=works.get(r["work"],0)+1
-    print(f"\n── {len(works)} œuvre(s) distincte(s) dans la plage")
+    print(f"\n── {len(works)} œuvre(s) distincte(s)")
     for w,n in sorted(works.items(),key=lambda kv:-kv[1])[:30]: print(f"   {n:>5} × {w}")
     print("\n💡 Aucune écriture, aucune notice téléchargée.")
 
 def diagnose(program,year)->None:
     print("="*112); print("🔬 DIAGNOSTIC (0 requête)"); print("="*112)
-    notices=load_notices(); print(f"Fichiers notices : {len(notices)}")
+    notices=load_notices(); print(f"Fichiers notices : {len(notices)} · prose {sum(1 for n in notices.values() if n['scope']=='programme')}")
     for p in load_targets()["programs"]:
         if program and norm(p["program"])!=norm(program): continue
         slug=p.get("slug") or slugify(p["program"])
@@ -826,11 +890,16 @@ def diagnose(program,year)->None:
         ents=lis.get("entries") or []; fm=lis.get("fetch_mode","auto")
         print(f"\n▶ {p['program']} · « {p.get('channel') or 'NON RENSEIGNÉE'} » · {p['from']}→{p['to']} · {len(ents)} entrée(s) · fetch={fm}")
         for m in idx.get("discovery",[]):
-            print(f"   [{m['method']}] {m['found']}/{m['total']} · colonne {m.get('by_programme',0)} · libellé {m.get('by_title',0)} · les deux {m.get('by_both',0)} · connues {m.get('works_known',0)} {m.get('note','')}")
+            print(f"   [{m['method']}] {m['found']}/{m['total']} · colonne {m.get('by_programme',0)} · libellé {m.get('by_title',0)} · connues {m.get('works_known',0)} {m.get('note','')}")
         prof=lis.get("year_profile") or year_profile(ents,fm)
         for y,g in sorted(prof.items()):
             if year and int(y)!=year: continue
             print(f"   {y} · {g['total']} entrée(s) · via {''.join(sorted(g['via']))} · connues {g.get('known',0)} · à fetch {g.get('need',0)} · {g['works']} œuvre(s)")
+        for nid,n in notices.items():
+            if n["slug"]!=slug or n["scope"]!="programme": continue
+            full=read_json(NOT_DIR/f"{nid}.json") or {}
+            print(f"   📝 {nid} — prose · œuvres citées : {', '.join(full.get('programme_works') or []) or 'aucune'}")
+            if full.get("description"): print(f"      {full['description'][:180]}…")
 
 
 def run(args)->None:
@@ -849,8 +918,7 @@ def run(args)->None:
     channel=args.channel or tg.get("channel","")
     y0=args.year_start if args.year_start!=1970 else int(tg.get("from",1970))
     y1=args.year_end if args.year_end!=1999 else int(tg.get("to",1999))
-    nb=args.page_size
-    client=InaClient(delay=args.delay)
+    nb=args.page_size; client=InaClient(delay=args.delay)
 
     if args.probe: do_probe(client,program,channel,args.year,y0,y1,args.strategies,args.match,args.fetch,nb); return
 
@@ -895,10 +963,10 @@ def run(args)->None:
             "harvested_at":datetime.now().isoformat(),"count":len(dl),"fetch_mode":args.fetch,
             "listings_count":len(entries)-len(dl),"discovery":discovery,"notices":dl})
         need=[e for e in entries if needs_fetch(e,args.fetch)]
-        print(f"\n✅ {len(entries)} entrée(s) dans la plage"+(f" · {dropped} hors plage écartée(s)" if dropped else ""))
-        print(f"   œuvre déjà connue : {sum(1 for e in entries if e.get('work'))} · à télécharger : {len(need)} · mères : {sum(1 for e in entries if e.get('mother'))}")
+        print(f"\n✅ MOISSON ACQUISE : {len(entries)} diffusion(s) datée(s) dans data/ina/listings/{slug}.json"
+              +(f" · {dropped} hors plage écartée(s)" if dropped else ""))
+        print(f"   œuvre déjà connue : {sum(1 for e in entries if e.get('work'))} · fiches à télécharger : {len(need)} · mères : {sum(1 for e in entries if e.get('mother'))}")
         print("   par année : "+", ".join(f"{y}:{g['total']}" for y,g in sorted(prof.items())))
-        print("   méthodes : "+", ".join(f"{y}[{''.join(sorted(g['via']))}]" for y,g in sorted(prof.items())))
         works=sorted({e["work"] for e in entries if e.get("work")})
         print(f"   {len(works)} œuvre(s) : "+", ".join(works[:12])+(" …" if len(works)>12 else ""))
         register_target(program,entries,channel)
@@ -918,19 +986,19 @@ def run(args)->None:
         if ex is None: missing_n+=1; pending.append(e); continue
         v=ex.get("parser_version",0)
         if v!=PARSER_VERSION: old_n+=1
-        has=bool(ex.get("elements"))
+        has=bool(ex.get("elements")) or bool(ex.get("programme_works"))
         if not has: empty_n+=1
         if args.force or (args.refresh_stale and v!=PARSER_VERSION) or (args.retry_empty and not has): pending.append(e)
     tp=len(pending)
-    print(f"♻️ Sans lien {nolink_n} · œuvre connue (skip) {known_n} · notices en cache {len(entries)-nolink_n-known_n-missing_n}")
+    print(f"♻️ Sans lien {nolink_n} · œuvre connue (fiche inutile) {known_n} · notices en cache {len(entries)-nolink_n-known_n-missing_n}")
     print(f"   ancienne version {old_n} · sans œuvre {empty_n} · absentes {missing_n} · file {tp}")
     if args.max_notices>0: pending=pending[:args.max_notices]
-    print(f"▶️ Ce run : {len(pending)} · resteront {tp-len(pending)}")
+    print(f"▶️ Ce run : {len(pending)} fiche(s) · resteront {tp-len(pending)}")
     if not pending:
-        print("✅ Rien à télécharger : la liste suffit.")
+        print("✅ Aucune fiche à télécharger : la liste suffit, la moisson est complète.")
         normalize_cache(None); cov=build_coverage(args.fetch); write_coverage(cov); print_coverage(cov,program); return
     print(f"   (délai ~{args.delay}s)\n")
-    ok=withe=els=fails=0
+    ok=withe=els=fails=proses=0
     for i,e in enumerate(pending,1):
         nid=e["notice_id"].upper()
         print(f"[{i}/{len(pending)}] {nid} · {e['date']} {e.get('start_raw','')[:8]} ...",end=" ",flush=True)
@@ -944,19 +1012,23 @@ def run(args)->None:
         n["date"]=n.get("date") or e["date"]; n["channel"]=n.get("channel") or e.get("channel","")
         n["start"]=n.get("start") or e.get("start",""); n["start_raw"]=n.get("start_raw") or e.get("start_raw","")
         if not n.get("collection") and e.get("collection"): n["collection"]=e["collection"]
-        if not n["elements"] and e.get("work"): n["elements"]=[e["work"]]
+        if not n["elements"] and not n["programme_works"] and e.get("work"): n["elements"]=[e["work"]]
         write_json(NOT_DIR/f"{nid}.json",n); ok+=1; fails=0
-        c=len(n["elements"])
-        if c: withe+=1; els+=c; print(f"✓ {c} [{n['elements_field']}] — {' · '.join(n['elements'][:4])}")
-        else: print("✓ parsée, sans œuvre (mise en cache)")
+        if n["scope"]=="programme":
+            proses+=1
+            print(f"📝 prose — description de l'émission + {len(n['programme_works'])} œuvre(s) citée(s) : {', '.join(n['programme_works'][:6]) or 'aucune'}")
+        else:
+            c=len(n["elements"])
+            if c: withe+=1; els+=c; print(f"✓ {c} [{n['elements_field']}] — {' · '.join(n['elements'][:4])}")
+            else: print("✓ parsée, sans œuvre (mise en cache)")
     normalize_cache(None); cov=build_coverage(args.fetch); write_coverage(cov)
     print("\n"+"="*112); print("🎉 RUN TERMINÉ"); print("="*112)
-    print(f"Téléchargées : {ok} · avec œuvres : {withe} · œuvres : {els}")
+    print(f"Fiches : {ok} · sommaires : {withe} ({els} œuvres) · descriptions d'émission : {proses}")
     print_coverage(cov,program)
 
 
 def main()->None:
-    p=argparse.ArgumentParser(description="Moissonneur INA — A ∪ B, triage des téléchargements")
+    p=argparse.ArgumentParser(description="Moissonneur INA — A ∪ B, triage, prose vs liste")
     p.add_argument("--program"); p.add_argument("--channel",default="")
     p.add_argument("--year",type=int)
     p.add_argument("--year-start",type=int,default=1970); p.add_argument("--year-end",type=int,default=1999)
@@ -965,7 +1037,7 @@ def main()->None:
     p.add_argument("--fetch",choices=["auto","mothers","all","none"],default="auto")
     p.add_argument("--page-size",type=int,default=PAGE_SIZE)
     p.add_argument("--max-notices",type=int,default=400)
-    p.add_argument("--all-years",action="store_true",help="garder les entrées hors plage from/to")
+    p.add_argument("--all-years",action="store_true")
     p.add_argument("--index-only",action="store_true"); p.add_argument("--notices-only",action="store_true")
     p.add_argument("--allow-all",action="store_true"); p.add_argument("--force",action="store_true")
     p.add_argument("--retry-empty",action="store_true"); p.add_argument("--refresh-stale",action="store_true")
