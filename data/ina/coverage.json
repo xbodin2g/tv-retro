@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T21:45:00.350624",
-  "parser_version": 9,
+  "generated_at": "2026-11-18T21:22:07.820932",
+  "parser_version": 10,
   "global_avg": 414,
   "fetch_mode": "auto",
   "programs": [
@@ -16,13 +16,14 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
           "indexed": 91,
           "cached": 91,
-          "current": 91,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 91,
           "with_elements": 65,
           "empty": 26,
           "remaining": 0,
@@ -44,8 +45,8 @@
           "year": 1988,
           "indexed": 482,
           "cached": 482,
-          "current": 482,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 482,
           "with_elements": 107,
           "empty": 375,
           "remaining": 0,
@@ -67,8 +68,8 @@
           "year": 1989,
           "indexed": 500,
           "cached": 500,
-          "current": 500,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 500,
           "with_elements": 56,
           "empty": 444,
           "remaining": 0,
@@ -90,8 +91,8 @@
           "year": 1990,
           "indexed": 360,
           "cached": 360,
-          "current": 360,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 360,
           "with_elements": 85,
           "empty": 275,
           "remaining": 0,
@@ -113,8 +114,8 @@
           "year": 1991,
           "indexed": 80,
           "cached": 80,
-          "current": 80,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 80,
           "with_elements": 31,
           "empty": 49,
           "remaining": 0,
@@ -199,8 +200,8 @@
           "year": 1995,
           "indexed": 449,
           "cached": 449,
-          "current": 449,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 449,
           "with_elements": 449,
           "empty": 0,
           "remaining": 0,
@@ -222,8 +223,8 @@
           "year": 1996,
           "indexed": 366,
           "cached": 366,
-          "current": 366,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 366,
           "with_elements": 365,
           "empty": 1,
           "remaining": 0,
@@ -245,8 +246,8 @@
           "year": 1997,
           "indexed": 140,
           "cached": 140,
-          "current": 140,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 140,
           "with_elements": 140,
           "empty": 0,
           "remaining": 0,
@@ -268,8 +269,8 @@
       "totals": {
         "indexed": 2468,
         "cached": 2468,
-        "current": 2468,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 2468,
         "with_elements": 1298,
         "empty": 1170,
         "remaining": 0,
@@ -587,13 +588,14 @@
         }
       },
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1978,
           "indexed": 343,
           "cached": 321,
-          "current": 321,
-          "outdated": 0,
+          "current": 223,
+          "outdated": 98,
           "with_elements": 317,
           "empty": 26,
           "remaining": 22,
@@ -631,8 +633,8 @@
           "year": 1979,
           "indexed": 691,
           "cached": 689,
-          "current": 689,
-          "outdated": 0,
+          "current": 465,
+          "outdated": 224,
           "with_elements": 679,
           "empty": 12,
           "remaining": 2,
@@ -661,8 +663,8 @@
           "year": 1980,
           "indexed": 630,
           "cached": 630,
-          "current": 630,
-          "outdated": 0,
+          "current": 374,
+          "outdated": 256,
           "with_elements": 623,
           "empty": 7,
           "remaining": 0,
@@ -688,8 +690,8 @@
           "year": 1981,
           "indexed": 697,
           "cached": 696,
-          "current": 696,
-          "outdated": 0,
+          "current": 439,
+          "outdated": 257,
           "with_elements": 677,
           "empty": 20,
           "remaining": 1,
@@ -717,8 +719,8 @@
           "year": 1982,
           "indexed": 850,
           "cached": 850,
-          "current": 850,
-          "outdated": 0,
+          "current": 563,
+          "outdated": 287,
           "with_elements": 839,
           "empty": 11,
           "remaining": 0,
@@ -743,8 +745,8 @@
           "year": 1983,
           "indexed": 929,
           "cached": 910,
-          "current": 910,
-          "outdated": 0,
+          "current": 646,
+          "outdated": 264,
           "with_elements": 900,
           "empty": 29,
           "remaining": 19,
@@ -782,8 +784,8 @@
           "year": 1984,
           "indexed": 1196,
           "cached": 1028,
-          "current": 1028,
-          "outdated": 0,
+          "current": 862,
+          "outdated": 166,
           "with_elements": 1012,
           "empty": 184,
           "remaining": 168,
@@ -821,8 +823,8 @@
           "year": 1985,
           "indexed": 1436,
           "cached": 1229,
-          "current": 1229,
-          "outdated": 0,
+          "current": 1024,
+          "outdated": 205,
           "with_elements": 1217,
           "empty": 219,
           "remaining": 207,
@@ -860,8 +862,8 @@
           "year": 1986,
           "indexed": 1171,
           "cached": 1163,
-          "current": 1163,
-          "outdated": 0,
+          "current": 890,
+          "outdated": 273,
           "with_elements": 1126,
           "empty": 45,
           "remaining": 8,
@@ -895,8 +897,8 @@
           "year": 1987,
           "indexed": 864,
           "cached": 861,
-          "current": 861,
-          "outdated": 0,
+          "current": 852,
+          "outdated": 9,
           "with_elements": 855,
           "empty": 9,
           "remaining": 3,
@@ -925,8 +927,8 @@
       "totals": {
         "indexed": 8807,
         "cached": 8377,
-        "current": 8377,
-        "outdated": 0,
+        "current": 6338,
+        "outdated": 2039,
         "with_elements": 8245,
         "empty": 562,
         "remaining": 430,
@@ -952,6 +954,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1985,
@@ -1062,8 +1065,8 @@
           "year": 1990,
           "indexed": 5,
           "cached": 5,
-          "current": 5,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 5,
           "with_elements": 0,
           "empty": 5,
           "remaining": 0,
@@ -1232,8 +1235,8 @@
       "totals": {
         "indexed": 5,
         "cached": 5,
-        "current": 5,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 5,
         "with_elements": 0,
         "empty": 5,
         "remaining": 0,
@@ -1259,6 +1262,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1985,
@@ -1480,6 +1484,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1983,
@@ -1569,8 +1574,8 @@
           "year": 1987,
           "indexed": 20,
           "cached": 20,
-          "current": 20,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 20,
           "with_elements": 20,
           "empty": 0,
           "remaining": 0,
@@ -1592,8 +1597,8 @@
       "totals": {
         "indexed": 20,
         "cached": 20,
-        "current": 20,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 20,
         "with_elements": 20,
         "empty": 0,
         "remaining": 0,
@@ -1619,6 +1624,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -1777,6 +1783,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1975,
@@ -1998,6 +2005,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1981,
@@ -2177,6 +2185,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1982,
@@ -2314,6 +2323,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1986,
@@ -2472,6 +2482,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1978,
@@ -2714,6 +2725,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -2782,8 +2794,8 @@
           "year": 1990,
           "indexed": 211,
           "cached": 211,
-          "current": 211,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 211,
           "with_elements": 195,
           "empty": 16,
           "remaining": 0,
@@ -2805,8 +2817,8 @@
           "year": 1991,
           "indexed": 235,
           "cached": 235,
-          "current": 235,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 235,
           "with_elements": 209,
           "empty": 26,
           "remaining": 0,
@@ -2828,8 +2840,8 @@
           "year": 1992,
           "indexed": 233,
           "cached": 233,
-          "current": 233,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 233,
           "with_elements": 222,
           "empty": 11,
           "remaining": 0,
@@ -2851,8 +2863,8 @@
           "year": 1993,
           "indexed": 252,
           "cached": 252,
-          "current": 252,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 252,
           "with_elements": 238,
           "empty": 14,
           "remaining": 0,
@@ -2874,8 +2886,8 @@
           "year": 1994,
           "indexed": 155,
           "cached": 155,
-          "current": 155,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 155,
           "with_elements": 129,
           "empty": 26,
           "remaining": 0,
@@ -2939,8 +2951,8 @@
       "totals": {
         "indexed": 1086,
         "cached": 1086,
-        "current": 1086,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 1086,
         "with_elements": 993,
         "empty": 93,
         "remaining": 0,
@@ -2966,6 +2978,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1986,
@@ -3292,6 +3305,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1986,
@@ -3492,6 +3506,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1990,
@@ -3671,6 +3686,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1988,
@@ -3892,6 +3908,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -4399,6 +4416,7 @@
         }
       },
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -4451,7 +4469,7 @@
           "with_elements": 50,
           "empty": 0,
           "remaining": 0,
-          "elements": 61,
+          "elements": 56,
           "days": 42,
           "known": 49,
           "need": 1,
@@ -4582,7 +4600,7 @@
         "with_elements": 672,
         "empty": 0,
         "remaining": 0,
-        "elements": 683,
+        "elements": 678,
         "days": 331,
         "known": 671,
         "need": 1,
@@ -4604,6 +4622,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1988,
@@ -4762,6 +4781,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1993,
@@ -4941,6 +4961,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1989,
@@ -5183,6 +5204,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1990,
@@ -5362,6 +5384,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1990,
@@ -5541,6 +5564,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1993,
@@ -5657,13 +5681,14 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1997,
           "indexed": 168,
           "cached": 168,
-          "current": 168,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 168,
           "with_elements": 168,
           "empty": 0,
           "remaining": 0,
@@ -5727,8 +5752,8 @@
       "totals": {
         "indexed": 168,
         "cached": 168,
-        "current": 168,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 168,
         "with_elements": 168,
         "empty": 0,
         "remaining": 0,
@@ -5754,6 +5779,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1993,
@@ -5849,6 +5875,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1994,
@@ -5944,6 +5971,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -6081,6 +6109,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1990,
@@ -6323,6 +6352,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -6565,6 +6595,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
@@ -6828,6 +6859,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1991,
@@ -7007,6 +7039,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1995,
@@ -7123,6 +7156,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1995,
@@ -7260,13 +7294,14 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
           "indexed": 91,
           "cached": 91,
-          "current": 91,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 91,
           "with_elements": 65,
           "empty": 26,
           "remaining": 0,
@@ -7288,8 +7323,8 @@
           "year": 1988,
           "indexed": 482,
           "cached": 482,
-          "current": 482,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 482,
           "with_elements": 107,
           "empty": 375,
           "remaining": 0,
@@ -7311,8 +7346,8 @@
           "year": 1989,
           "indexed": 500,
           "cached": 500,
-          "current": 500,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 500,
           "with_elements": 56,
           "empty": 444,
           "remaining": 0,
@@ -7334,8 +7369,8 @@
           "year": 1990,
           "indexed": 360,
           "cached": 360,
-          "current": 360,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 360,
           "with_elements": 85,
           "empty": 275,
           "remaining": 0,
@@ -7357,8 +7392,8 @@
           "year": 1991,
           "indexed": 80,
           "cached": 80,
-          "current": 80,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 80,
           "with_elements": 31,
           "empty": 49,
           "remaining": 0,
@@ -7443,8 +7478,8 @@
           "year": 1995,
           "indexed": 449,
           "cached": 449,
-          "current": 449,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 449,
           "with_elements": 449,
           "empty": 0,
           "remaining": 0,
@@ -7466,8 +7501,8 @@
           "year": 1996,
           "indexed": 366,
           "cached": 366,
-          "current": 366,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 366,
           "with_elements": 365,
           "empty": 1,
           "remaining": 0,
@@ -7489,8 +7524,8 @@
           "year": 1997,
           "indexed": 140,
           "cached": 140,
-          "current": 140,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 140,
           "with_elements": 140,
           "empty": 0,
           "remaining": 0,
@@ -7512,8 +7547,8 @@
       "totals": {
         "indexed": 2468,
         "cached": 2468,
-        "current": 2468,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 2468,
         "with_elements": 1298,
         "empty": 1170,
         "remaining": 0,
@@ -7539,6 +7574,7 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1970,
@@ -8200,13 +8236,14 @@
       "discovery": [],
       "year_profile": {},
       "fetch_mode": "auto",
+      "programme_works": [],
       "years": [
         {
           "year": 1987,
           "indexed": 25,
           "cached": 25,
-          "current": 25,
-          "outdated": 0,
+          "current": 0,
+          "outdated": 25,
           "with_elements": 22,
           "empty": 3,
           "remaining": 0,
@@ -8228,8 +8265,8 @@
       "totals": {
         "indexed": 25,
         "cached": 25,
-        "current": 25,
-        "outdated": 0,
+        "current": 0,
+        "outdated": 25,
         "with_elements": 22,
         "empty": 3,
         "remaining": 0,
@@ -8255,12 +8292,12 @@
   "totals": {
     "indexed": 15719,
     "cached": 15289,
-    "current": 15289,
-    "outdated": 0,
+    "current": 7010,
+    "outdated": 8279,
     "with_elements": 12716,
     "empty": 3003,
     "remaining": 430,
-    "elements": 29975,
+    "elements": 29970,
     "days": 6248,
     "known": 7009,
     "need": 8710,
@@ -10130,12 +10167,14 @@
   "health": {
     "advice": [
       "2 émission(s) sans chaîne : méthode B inactive. Renseigne-la dans 🎯 Cibles.",
-      "7009 entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger pour elles.",
-      "258 couple(s) jamais indexés — ≈ 97655 entrées estimées."
+      "7009 entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger. La moisson est acquise dans data/ina/listings/.",
+      "258 couple(s) jamais indexés — ≈ 97655 entrées estimées.",
+      "8279 notice(s) d'ancienne version : lance --rebuild (0 requête)."
     ],
-    "outdated": 0,
+    "outdated": 8279,
     "virgin": 258,
     "known": 7009,
+    "prose": 0,
     "orphans": 2
   }
 }
