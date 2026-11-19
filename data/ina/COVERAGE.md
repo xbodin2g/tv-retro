@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 12:19:01 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 12:49:16 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,9 +13,9 @@ _Généré le 2026-11-19 à 12:19:01 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **243** (≈ 91225)
-- Entrées : **23304** · Connues sans téléchargement : **16619**
-- À télécharger : **6685** · En cache : **23146** (99.3 %)
+- Jamais indexés : **242** (≈ 86892)
+- Entrées : **23305** · Connues sans téléchargement : **16619**
+- À télécharger : **6686** · En cache : **23147** (99.3 %)
 - Œuvres distinctes : **1400** · Reste : **158**
 
 ## Par émission
@@ -31,7 +31,7 @@ _Généré le 2026-11-19 à 12:19:01 — parser v10 · fetch=auto_
 | Les Minikeums | France 3 | 1993→1999 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Vitamine | TF1 | 1983→1987 | A,B | 0 | 722 | 588 | 134 | 722 | 0 | 100.0 % |
-| Youpi ! L'école est finie | La Cinq | 1987→1992 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Youpi ! L'école est finie | La Cinq | 1987→1992 | A | 5 | 1 | 0 | 1 | 1 | 0 | 100.0 % |
 | Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
@@ -516,7 +516,7 @@ _Généré le 2026-11-19 à 12:19:01 — parser v10 · fetch=auto_
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1987 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1987 | complet | 1 | A:1 | 0 | 1 | 1 | 0 | 0 |
 | 1988 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1989 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1990 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
