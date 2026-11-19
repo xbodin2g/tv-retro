@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-18 à 22:45:33 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 11:13:38 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,17 +13,17 @@ _Généré le 2026-11-18 à 22:45:33 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **251** (≈ 86617)
-- Entrées : **17174** · Connues sans téléchargement : **7935**
-- À télécharger : **9239** · En cache : **17016** (99.1 %)
-- Œuvres distinctes : **851** · Reste : **158**
+- Jamais indexés : **247** (≈ 96145)
+- Entrées : **22602** · Connues sans téléchargement : **16031**
+- À télécharger : **6571** · En cache : **22444** (99.3 %)
+- Œuvres distinctes : **1207** · Reste : **158**
 
 ## Par émission
 
 | Émission | Chaîne | Plage | Méth. | Vierge | Entrées | Connues | À fetch | Cache | Reste | % |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | Amuse 3 | FR3 | 1985→1997 | — | 12 | 5 | 0 | 5 | 5 | 0 | 100.0 % |
-| Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 0 | 2468 | 2468 | 0 | 100.0 % |
+| Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
 | Récré A2 | Antenne 2 | 1978→1987 | A,B | 0 | 8808 | 6338 | 2470 | 8778 | 30 | 99.7 % |
 | Cabou Cadin | Canal+ | 1985→1993 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 0 | 1086 | 1086 | 0 | 100.0 % |
@@ -34,7 +34,7 @@ _Généré le 2026-11-18 à 22:45:33 — parser v10 · fetch=auto_
 | Youpi ! L'école est finie | La Cinq | 1987→1992 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Club Dorothée | TF1 | 1987→1997 | — | 3 | 2468 | 0 | 2468 | 2468 | 0 | 100.0 % |
+| Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
 | Croque-Vacances | TF1 | 1981→1987 | A,B | 0 | 1454 | 926 | 528 | 1326 | 128 | 91.2 % |
 | Debout les enfants | FR3 | 1987→1994 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Discopuce | Antenne 2 | 1978→1987 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -129,33 +129,33 @@ _Généré le 2026-11-18 à 22:45:33 — parser v10 · fetch=auto_
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1987 | complet | 91 | — | 0 | 91 | 91 | 0 | 0 |
-| 1988 | complet | 482 | — | 0 | 482 | 482 | 0 | 0 |
-| 1989 | complet | 500 | — | 0 | 500 | 500 | 0 | 0 |
-| 1990 | complet | 360 | — | 0 | 360 | 360 | 0 | 0 |
-| 1991 | complet | 80 | — | 0 | 80 | 80 | 0 | 0 |
+| 1987 | complet | 96 | A:96, B:92 | 22 | 74 | 96 | 6 | 0 |
+| 1988 | complet | 485 | A:485, B:484 | 293 | 192 | 485 | 6 | 0 |
+| 1989 | complet | 512 | A:512, B:512 | 332 | 180 | 512 | 7 | 0 |
+| 1990 | complet | 361 | A:361, B:361 | 180 | 181 | 361 | 5 | 0 |
+| 1991 | complet | 82 | A:82, B:82 | 39 | 43 | 82 | 5 | 0 |
 | 1992 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1993 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1994 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1995 | complet | 449 | — | 0 | 449 | 449 | 0 | 0 |
-| 1996 | complet | 366 | — | 0 | 366 | 366 | 0 | 0 |
-| 1997 | complet | 140 | — | 0 | 140 | 140 | 0 | 0 |
+| 1993 | complet | 1 | A:1 | 1 | 0 | 1 | 1 | 0 |
+| 1994 | complet | 1 | A:1 | 1 | 0 | 1 | 1 | 0 |
+| 1995 | complet | 1355 | A:1355, B:1355 | 1114 | 241 | 1355 | 49 | 0 |
+| 1996 | complet | 1511 | A:1511, B:1509 | 1346 | 165 | 1511 | 58 | 0 |
+| 1997 | complet | 778 | A:778, B:778 | 720 | 58 | 778 | 40 | 0 |
 
 ### Club Dorothée · TF1
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1987 | complet | 91 | — | 0 | 91 | 91 | 0 | 0 |
-| 1988 | complet | 482 | — | 0 | 482 | 482 | 0 | 0 |
-| 1989 | complet | 500 | — | 0 | 500 | 500 | 0 | 0 |
-| 1990 | complet | 360 | — | 0 | 360 | 360 | 0 | 0 |
-| 1991 | complet | 80 | — | 0 | 80 | 80 | 0 | 0 |
+| 1987 | complet | 96 | A:96, B:92 | 22 | 74 | 96 | 6 | 0 |
+| 1988 | complet | 485 | A:485, B:484 | 293 | 192 | 485 | 6 | 0 |
+| 1989 | complet | 512 | A:512, B:512 | 332 | 180 | 512 | 7 | 0 |
+| 1990 | complet | 361 | A:361, B:361 | 180 | 181 | 361 | 5 | 0 |
+| 1991 | complet | 82 | A:82, B:82 | 39 | 43 | 82 | 5 | 0 |
 | 1992 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1993 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1994 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1995 | complet | 449 | — | 0 | 449 | 449 | 0 | 0 |
-| 1996 | complet | 366 | — | 0 | 366 | 366 | 0 | 0 |
-| 1997 | complet | 140 | — | 0 | 140 | 140 | 0 | 0 |
+| 1993 | complet | 1 | A:1 | 1 | 0 | 1 | 1 | 0 |
+| 1994 | complet | 1 | A:1 | 1 | 0 | 1 | 1 | 0 |
+| 1995 | complet | 1355 | A:1355, B:1355 | 1114 | 241 | 1355 | 49 | 0 |
+| 1996 | complet | 1511 | A:1511, B:1509 | 1346 | 165 | 1511 | 58 | 0 |
+| 1997 | complet | 778 | A:778, B:778 | 720 | 58 | 778 | 40 | 0 |
 
 ### Club Mini · TF1
 
