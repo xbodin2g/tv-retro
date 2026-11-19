@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 11:13:38 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 11:46:11 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
