@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 13:34:12 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 17:07:49 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-19 à 13:34:12 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **233** (≈ 82945)
-- Entrées : **26693** · Connues sans téléchargement : **19698**
-- À télécharger : **6995** · En cache : **26535** (99.4 %)
-- Œuvres distinctes : **1781** · Reste : **158**
+- Jamais indexés : **229** (≈ 78597)
+- Entrées : **27523** · Connues sans téléchargement : **20358**
+- À télécharger : **7165** · En cache : **27365** (99.4 %)
+- Œuvres distinctes : **2397** · Reste : **158**
 
 ## Par émission
 
@@ -44,7 +44,7 @@ _Généré le 2026-11-19 à 13:34:12 — parser v10 · fetch=auto_
 | FR3 jeunesse | — | 1970→1999 | — | 30 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Graffi'6 | M6 | 1987→1991 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le réveil des babalous | FR3 | 1986→1991 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Le Village dans les nuages | TF1 | 1982→1986 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Le Village dans les nuages | TF1 | 1982→1986 | A,B | 1 | 830 | 660 | 170 | 830 | 0 | 100.0 % |
 | M6 Kid | M6 | 1990→1999 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Multitop | M6 | 1987→1996 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Samdynamite | FR3 | 1987→1993 | A,B | 2 | 672 | 671 | 1 | 672 | 0 | 100.0 % |
@@ -339,10 +339,10 @@ _Généré le 2026-11-19 à 13:34:12 — parser v10 · fetch=auto_
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1982 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1983 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1984 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1985 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1982 | complet | 78 | A:78, B:60 | 51 | 27 | 78 | 51 | 0 |
+| 1983 | complet | 109 | A:109, B:72 | 69 | 40 | 109 | 69 | 0 |
+| 1984 | complet | 440 | A:440, B:419 | 371 | 69 | 440 | 347 | 0 |
+| 1985 | complet | 203 | A:203, B:203 | 169 | 34 | 203 | 149 | 0 |
 | 1986 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 
 ### Les années fac · TF1
