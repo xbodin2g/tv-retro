@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T11:46:11.445220",
+  "generated_at": "2026-11-19T12:19:01.155396",
   "parser_version": 10,
-  "global_avg": 424,
+  "global_avg": 402,
   "fetch_mode": "auto",
   "programs": [
     {
@@ -2036,7 +2036,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1986,
@@ -2057,7 +2057,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -2078,7 +2078,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -2099,7 +2099,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -2120,7 +2120,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -2141,7 +2141,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -2162,7 +2162,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -2183,7 +2183,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -2204,7 +2204,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -2222,7 +2222,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 9,
-        "estimate": 3816
+        "estimate": 3618
       }
     },
     {
@@ -2232,137 +2232,328 @@
       "priority": 2,
       "from": 1983,
       "to": 1987,
-      "harvested_at": "2026-11-16T23:02:32.466828",
-      "methods": [],
-      "discovery": [],
-      "year_profile": {},
+      "harvested_at": "2026-11-19T12:10:18.453362",
+      "methods": [
+        "A",
+        "B"
+      ],
+      "discovery": [
+        {
+          "method": "B/ch=TF1",
+          "letter": "B",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO/?base_label=TVNAT&sujets_filter=Sujet&ch=TF1&tiprog=Vitamine&bool_operator=AND&tri=score1&nbLignes=500",
+          "found": 722,
+          "total": 726,
+          "note": "paginé via page · 722/726",
+          "by_programme": 527,
+          "by_title": 0,
+          "by_both": 195,
+          "works_known": 588,
+          "listings": 0,
+          "mothers": 193,
+          "columns": {
+            "chaine": 1,
+            "date": 2,
+            "start": 3,
+            "duration": 4,
+            "title": 5,
+            "collection": 6,
+            "programme": 7,
+            "genre": 8
+          }
+        },
+        {
+          "method": "A/global/v0",
+          "letter": "A",
+          "url": "https://catalogue.ina.fr/docListe/TV-RADIO?sujets_filter=Sujet&bool_operator=AND&nbLignes=500&base_label=TVNAT&tiprog=Vitamine&ti=Vitamine",
+          "found": 186,
+          "total": 186,
+          "note": "complet",
+          "by_programme": 0,
+          "by_title": 0,
+          "by_both": 186,
+          "works_known": 86,
+          "listings": 0,
+          "mothers": 183,
+          "columns": {
+            "chaine": 1,
+            "date": 2,
+            "start": 3,
+            "duration": 4,
+            "title": 5,
+            "collection": 6,
+            "programme": 7,
+            "genre": 8
+          }
+        }
+      ],
+      "year_profile": {
+        "1983": {
+          "total": 95,
+          "via": {
+            "B": 95,
+            "A": 15
+          },
+          "match": {
+            "programme": 76,
+            "both": 19
+          },
+          "works": 42,
+          "known": 84,
+          "need": 11,
+          "mothers": 19
+        },
+        "1984": {
+          "total": 279,
+          "via": {
+            "B": 279,
+            "A": 45
+          },
+          "match": {
+            "programme": 225,
+            "both": 54
+          },
+          "works": 98,
+          "known": 230,
+          "need": 49,
+          "mothers": 54
+        },
+        "1985": {
+          "total": 215,
+          "via": {
+            "B": 215,
+            "A": 60
+          },
+          "match": {
+            "programme": 155,
+            "both": 60
+          },
+          "works": 34,
+          "known": 178,
+          "need": 37,
+          "mothers": 58
+        },
+        "1986": {
+          "total": 92,
+          "via": {
+            "B": 92,
+            "A": 36
+          },
+          "match": {
+            "programme": 56,
+            "both": 36
+          },
+          "works": 13,
+          "known": 75,
+          "need": 17,
+          "mothers": 36
+        },
+        "1987": {
+          "total": 41,
+          "via": {
+            "B": 41,
+            "A": 26
+          },
+          "match": {
+            "programme": 15,
+            "both": 26
+          },
+          "works": 6,
+          "known": 21,
+          "need": 20,
+          "mothers": 26
+        }
+      },
       "fetch_mode": "auto",
-      "programme_works": [],
+      "programme_works": [
+        "1 pouce",
+        "Bande 120719",
+        "Bde 92551",
+        "Bde.150 294",
+        "Bvu 1p+2p",
+        "EVC a840307 1p+2p",
+        "Gigi",
+        "Jonquoy productions",
+        "K7 1p+2p",
+        "Les 3 mousquetaires",
+        "MRS pepperpot",
+        "Ricky la belle vie",
+        "achat",
+        "achats",
+        "bde 116 921",
+        "bde 85255",
+        "bde.147 925",
+        "blanc",
+        "carie la roulette",
+        "cascades de voiture",
+        "em sec.255063.Bde sec.85255",
+        "em secours 255063",
+        "em.289 715",
+        "extrait",
+        "jazz",
+        "k7 1p+2p",
+        "le collier de corail bleu",
+        "moto",
+        "noir",
+        "prod BRB internacional sa",
+        "production Walt DISNEY",
+        "superstars",
+        "tennis",
+        "voir St"
+      ],
       "years": [
         {
           "year": 1983,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 95,
+          "cached": 95,
+          "current": 95,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 85,
+          "empty": 10,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "known": 0,
-          "need": 0,
-          "works": 0,
-          "via": {},
-          "match": {},
-          "coverage": 0.0,
+          "elements": 85,
+          "days": 14,
+          "known": 84,
+          "need": 11,
+          "via": {
+            "B": 95,
+            "A": 15
+          },
+          "match": {
+            "programme": 76,
+            "both": 19
+          },
           "sample": [],
-          "virgin": true,
-          "estimate": 20
+          "works": 42,
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1984,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 279,
+          "cached": 279,
+          "current": 279,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 233,
+          "empty": 46,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "known": 0,
-          "need": 0,
-          "works": 0,
-          "via": {},
-          "match": {},
-          "coverage": 0.0,
+          "elements": 233,
+          "days": 45,
+          "known": 230,
+          "need": 49,
+          "via": {
+            "B": 279,
+            "A": 45
+          },
+          "match": {
+            "programme": 225,
+            "both": 54
+          },
           "sample": [],
-          "virgin": true,
-          "estimate": 20
+          "works": 98,
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1985,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 215,
+          "cached": 215,
+          "current": 215,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 180,
+          "empty": 35,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "known": 0,
-          "need": 0,
-          "works": 0,
-          "via": {},
-          "match": {},
-          "coverage": 0.0,
+          "elements": 180,
+          "days": 46,
+          "known": 178,
+          "need": 37,
+          "via": {
+            "B": 215,
+            "A": 60
+          },
+          "match": {
+            "programme": 155,
+            "both": 60
+          },
           "sample": [],
-          "virgin": true,
-          "estimate": 20
+          "works": 34,
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1986,
-          "indexed": 0,
-          "cached": 0,
-          "current": 0,
+          "indexed": 92,
+          "cached": 92,
+          "current": 92,
           "outdated": 0,
-          "with_elements": 0,
-          "empty": 0,
+          "with_elements": 75,
+          "empty": 17,
           "remaining": 0,
-          "elements": 0,
-          "days": 0,
-          "known": 0,
-          "need": 0,
-          "works": 0,
-          "via": {},
-          "match": {},
-          "coverage": 0.0,
+          "elements": 75,
+          "days": 30,
+          "known": 75,
+          "need": 17,
+          "via": {
+            "B": 92,
+            "A": 36
+          },
+          "match": {
+            "programme": 56,
+            "both": 36
+          },
           "sample": [],
-          "virgin": true,
-          "estimate": 20
+          "works": 13,
+          "coverage": 100.0,
+          "virgin": false,
+          "estimate": 0
         },
         {
           "year": 1987,
-          "indexed": 20,
-          "cached": 20,
-          "current": 20,
+          "indexed": 41,
+          "cached": 41,
+          "current": 41,
           "outdated": 0,
-          "with_elements": 7,
+          "with_elements": 28,
           "empty": 13,
           "remaining": 0,
-          "elements": 14,
-          "days": 7,
-          "known": 0,
+          "elements": 35,
+          "days": 19,
+          "known": 21,
           "need": 20,
-          "via": {},
+          "via": {
+            "B": 41,
+            "A": 26
+          },
           "match": {
-            "?": 20
+            "programme": 15,
+            "both": 26
           },
           "sample": [],
-          "works": 0,
+          "works": 6,
           "coverage": 100.0,
           "virgin": false,
           "estimate": 0
         }
       ],
       "totals": {
-        "indexed": 20,
-        "cached": 20,
-        "current": 20,
+        "indexed": 722,
+        "cached": 722,
+        "current": 722,
         "outdated": 0,
-        "with_elements": 7,
-        "empty": 13,
+        "with_elements": 601,
+        "empty": 121,
         "remaining": 0,
-        "elements": 14,
-        "days": 7,
-        "known": 0,
-        "need": 20,
+        "elements": 608,
+        "days": 154,
+        "known": 588,
+        "need": 134,
         "coverage": 100.0,
-        "works": 0,
-        "virgin": 4,
-        "estimate": 80
+        "works": 193,
+        "virgin": 0,
+        "estimate": 0
       }
     },
     {
@@ -2398,7 +2589,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -2419,7 +2610,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -2440,7 +2631,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -2461,7 +2652,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -2482,7 +2673,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -2503,7 +2694,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -2521,7 +2712,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 6,
-        "estimate": 2544
+        "estimate": 2412
       }
     },
     {
@@ -2557,7 +2748,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1976,
@@ -2578,7 +2769,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1977,
@@ -2599,7 +2790,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1978,
@@ -2620,7 +2811,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1979,
@@ -2641,7 +2832,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1980,
@@ -2662,7 +2853,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1981,
@@ -2683,7 +2874,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1982,
@@ -2704,7 +2895,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1983,
@@ -2725,7 +2916,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -2743,7 +2934,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 9,
-        "estimate": 3816
+        "estimate": 3618
       }
     },
     {
@@ -3266,7 +3457,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1983,
@@ -3287,7 +3478,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1984,
@@ -3308,7 +3499,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1985,
@@ -3329,7 +3520,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1986,
@@ -3350,7 +3541,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -3368,7 +3559,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 5,
-        "estimate": 2120
+        "estimate": 2010
       }
     },
     {
@@ -3404,7 +3595,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -3425,7 +3616,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -3446,7 +3637,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -3467,7 +3658,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -3488,7 +3679,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -3509,7 +3700,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -3527,7 +3718,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 6,
-        "estimate": 2544
+        "estimate": 2412
       }
     },
     {
@@ -3563,7 +3754,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1979,
@@ -3584,7 +3775,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1980,
@@ -3605,7 +3796,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1981,
@@ -3626,7 +3817,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1982,
@@ -3647,7 +3838,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1983,
@@ -3668,7 +3859,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1984,
@@ -3689,7 +3880,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1985,
@@ -3710,7 +3901,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1986,
@@ -3731,7 +3922,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -3752,7 +3943,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -3770,7 +3961,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 10,
-        "estimate": 4240
+        "estimate": 4020
       }
     },
     {
@@ -4059,7 +4250,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -4080,7 +4271,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -4101,7 +4292,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -4122,7 +4313,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -4143,7 +4334,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -4164,7 +4355,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -4185,7 +4376,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -4206,7 +4397,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -4227,7 +4418,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -4248,7 +4439,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -4269,7 +4460,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -4290,7 +4481,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -4311,7 +4502,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1999,
@@ -4332,7 +4523,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -4350,7 +4541,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 14,
-        "estimate": 5936
+        "estimate": 5628
       }
     },
     {
@@ -4386,7 +4577,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -4407,7 +4598,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -4428,7 +4619,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -4449,7 +4640,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -4470,7 +4661,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -4491,7 +4682,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -4512,7 +4703,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -4533,7 +4724,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -4551,7 +4742,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 8,
-        "estimate": 3392
+        "estimate": 3216
       }
     },
     {
@@ -4587,7 +4778,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -4608,7 +4799,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -4629,7 +4820,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -4650,7 +4841,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -4671,7 +4862,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -4692,7 +4883,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -4713,7 +4904,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -4731,7 +4922,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 7,
-        "estimate": 2968
+        "estimate": 2814
       }
     },
     {
@@ -4767,7 +4958,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -4788,7 +4979,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -4809,7 +5000,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -4830,7 +5021,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -4851,7 +5042,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -4872,7 +5063,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -4893,7 +5084,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -4914,7 +5105,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -4935,7 +5126,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -4953,7 +5144,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 9,
-        "estimate": 3816
+        "estimate": 3618
       }
     },
     {
@@ -4989,7 +5180,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -5010,7 +5201,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -5031,7 +5222,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -5052,7 +5243,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -5073,7 +5264,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -5094,7 +5285,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -5115,7 +5306,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -5136,7 +5327,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -5154,7 +5345,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 8,
-        "estimate": 3392
+        "estimate": 3216
       }
     },
     {
@@ -5703,7 +5894,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -5724,7 +5915,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -5745,7 +5936,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -5766,7 +5957,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -5787,7 +5978,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -5808,7 +5999,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -5826,7 +6017,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 6,
-        "estimate": 2544
+        "estimate": 2412
       }
     },
     {
@@ -5862,7 +6053,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -5883,7 +6074,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -5904,7 +6095,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -5925,7 +6116,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -5946,7 +6137,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -5967,7 +6158,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1999,
@@ -5988,7 +6179,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6006,7 +6197,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 7,
-        "estimate": 2968
+        "estimate": 2814
       }
     },
     {
@@ -6042,7 +6233,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -6063,7 +6254,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -6084,7 +6275,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -6105,7 +6296,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -6126,7 +6317,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -6147,7 +6338,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6168,7 +6359,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -6189,7 +6380,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -6210,7 +6401,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -6231,7 +6422,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6249,7 +6440,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 10,
-        "estimate": 4240
+        "estimate": 4020
       }
     },
     {
@@ -6285,7 +6476,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -6306,7 +6497,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -6327,7 +6518,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -6348,7 +6539,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -6369,7 +6560,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6390,7 +6581,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -6411,7 +6602,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6429,7 +6620,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 7,
-        "estimate": 2968
+        "estimate": 2814
       }
     },
     {
@@ -6465,7 +6656,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -6486,7 +6677,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -6507,7 +6698,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -6528,7 +6719,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -6549,7 +6740,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6570,7 +6761,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -6591,7 +6782,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6609,7 +6800,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 7,
-        "estimate": 2968
+        "estimate": 2814
       }
     },
     {
@@ -6645,7 +6836,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -6666,7 +6857,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6687,7 +6878,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -6708,7 +6899,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6726,7 +6917,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 4,
-        "estimate": 1696
+        "estimate": 1608
       }
     },
     {
@@ -6860,7 +7051,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -6881,7 +7072,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6902,7 +7093,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -6920,7 +7111,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 3,
-        "estimate": 1272
+        "estimate": 1206
       }
     },
     {
@@ -6956,7 +7147,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -6977,7 +7168,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -6998,7 +7189,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -7016,7 +7207,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 3,
-        "estimate": 1272
+        "estimate": 1206
       }
     },
     {
@@ -7052,7 +7243,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -7073,7 +7264,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -7094,7 +7285,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -7115,7 +7306,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -7136,7 +7327,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -7154,7 +7345,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 5,
-        "estimate": 2120
+        "estimate": 2010
       }
     },
     {
@@ -7190,7 +7381,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -7211,7 +7402,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -7232,7 +7423,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -7253,7 +7444,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -7274,7 +7465,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -7295,7 +7486,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -7316,7 +7507,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -7337,7 +7528,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -7358,7 +7549,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1999,
@@ -7379,7 +7570,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -7397,7 +7588,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 10,
-        "estimate": 4240
+        "estimate": 4020
       }
     },
     {
@@ -7433,7 +7624,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -7454,7 +7645,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -7475,7 +7666,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -7496,7 +7687,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -7517,7 +7708,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -7538,7 +7729,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -7559,7 +7750,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -7580,7 +7771,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -7601,7 +7792,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -7622,7 +7813,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -7640,7 +7831,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 10,
-        "estimate": 4240
+        "estimate": 4020
       }
     },
     {
@@ -7676,7 +7867,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -7697,7 +7888,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -7718,7 +7909,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -7739,7 +7930,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -7760,7 +7951,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -7781,7 +7972,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -7802,7 +7993,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -7823,7 +8014,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -7844,7 +8035,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -7865,7 +8056,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -7886,7 +8077,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -7904,7 +8095,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 11,
-        "estimate": 4664
+        "estimate": 4422
       }
     },
     {
@@ -7940,7 +8131,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -7961,7 +8152,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -7982,7 +8173,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -8003,7 +8194,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -8024,7 +8215,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -8045,7 +8236,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -8066,7 +8257,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -8084,7 +8275,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 7,
-        "estimate": 2968
+        "estimate": 2814
       }
     },
     {
@@ -8120,7 +8311,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -8141,7 +8332,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -8162,7 +8353,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -8183,7 +8374,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -8201,7 +8392,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 4,
-        "estimate": 1696
+        "estimate": 1608
       }
     },
     {
@@ -8237,7 +8428,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -8258,7 +8449,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -8279,7 +8470,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -8300,7 +8491,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1999,
@@ -8321,7 +8512,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -8339,7 +8530,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 5,
-        "estimate": 2120
+        "estimate": 2010
       }
     },
     {
@@ -8993,7 +9184,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1971,
@@ -9014,7 +9205,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1972,
@@ -9035,7 +9226,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1973,
@@ -9056,7 +9247,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1974,
@@ -9077,7 +9268,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1975,
@@ -9098,7 +9289,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1976,
@@ -9119,7 +9310,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1977,
@@ -9140,7 +9331,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1978,
@@ -9161,7 +9352,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1979,
@@ -9182,7 +9373,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1980,
@@ -9203,7 +9394,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1981,
@@ -9224,7 +9415,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1982,
@@ -9245,7 +9436,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1983,
@@ -9266,7 +9457,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1984,
@@ -9287,7 +9478,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1985,
@@ -9308,7 +9499,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1986,
@@ -9329,7 +9520,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1987,
@@ -9350,7 +9541,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1988,
@@ -9371,7 +9562,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1989,
@@ -9392,7 +9583,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1990,
@@ -9413,7 +9604,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1991,
@@ -9434,7 +9625,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1992,
@@ -9455,7 +9646,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1993,
@@ -9476,7 +9667,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1994,
@@ -9497,7 +9688,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1995,
@@ -9518,7 +9709,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1996,
@@ -9539,7 +9730,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1997,
@@ -9560,7 +9751,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1998,
@@ -9581,7 +9772,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         },
         {
           "year": 1999,
@@ -9602,7 +9793,7 @@
           "coverage": 0.0,
           "sample": [],
           "virgin": true,
-          "estimate": 424
+          "estimate": 402
         }
       ],
       "totals": {
@@ -9620,7 +9811,7 @@
         "coverage": 0.0,
         "works": 0,
         "virgin": 30,
-        "estimate": 12720
+        "estimate": 12060
       }
     },
     {
@@ -9688,21 +9879,21 @@
     }
   ],
   "totals": {
-    "indexed": 22602,
-    "cached": 22444,
-    "current": 22444,
+    "indexed": 23304,
+    "cached": 23146,
+    "current": 23146,
     "outdated": 0,
-    "with_elements": 20497,
-    "empty": 2105,
+    "with_elements": 21091,
+    "empty": 2213,
     "remaining": 158,
-    "elements": 33053,
-    "days": 7147,
-    "known": 16031,
-    "need": 6571,
+    "elements": 33647,
+    "days": 7294,
+    "known": 16619,
+    "need": 6685,
     "coverage": 99.3,
-    "works": 1207,
-    "virgin": 247,
-    "estimate": 96145
+    "works": 1400,
+    "virgin": 243,
+    "estimate": 91225
   },
   "queue": [
     {
@@ -9831,126 +10022,98 @@
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1975,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1976,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1977,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1978,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1979,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1980,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1981,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1982,
-      "remaining": 424,
-      "virgin": true,
-      "priority": 2
-    },
-    {
-      "program": "Vitamine",
-      "year": 1983,
-      "remaining": 20,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Visiteurs du mercredi",
       "year": 1983,
-      "remaining": 424,
-      "virgin": true,
-      "priority": 2
-    },
-    {
-      "program": "Vitamine",
-      "year": 1984,
-      "remaining": 20,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1985,
-      "remaining": 424,
-      "virgin": true,
-      "priority": 2
-    },
-    {
-      "program": "Vitamine",
-      "year": 1985,
-      "remaining": 20,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1986,
-      "remaining": 424,
-      "virgin": true,
-      "priority": 2
-    },
-    {
-      "program": "Vitamine",
-      "year": 1986,
-      "remaining": 20,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
@@ -9964,21 +10127,21 @@
     {
       "program": "Ça cartoon",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
@@ -9992,28 +10155,28 @@
     {
       "program": "Ça cartoon",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
@@ -10027,147 +10190,147 @@
     {
       "program": "Ça cartoon",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Youpi ! L'école est finie",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Cabou Cadin",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
@@ -10181,21 +10344,21 @@
     {
       "program": "Ça cartoon",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
@@ -10209,322 +10372,322 @@
     {
       "program": "Ça cartoon",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Le Disney Channel",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Ça cartoon",
       "year": 1999,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "Les Minikeums",
       "year": 1999,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 2
     },
     {
       "program": "FR3 jeunesse",
       "year": 1970,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1971,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1972,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1973,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1974,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1975,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1976,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1977,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1978,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1978,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1979,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1979,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1980,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1980,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1981,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1981,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le Village dans les nuages",
       "year": 1982,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1982,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1982,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le Village dans les nuages",
       "year": 1983,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1983,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1983,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le Village dans les nuages",
       "year": 1984,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1984,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1984,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le Village dans les nuages",
       "year": 1985,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1985,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1985,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le Village dans les nuages",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1986,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Discopuce",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
@@ -10538,42 +10701,42 @@
     {
       "program": "Graffi'6",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
@@ -10587,294 +10750,294 @@
     {
       "program": "Télétaz",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Graffi'6",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Télétaz",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Graffi'6",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Télétaz",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Graffi'6",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Le réveil des babalous",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Télétaz",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Graffi'6",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Télétaz",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
@@ -10888,231 +11051,231 @@
     {
       "program": "FR3 jeunesse",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Canaille Peluche",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Télétaz",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Debout les enfants",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Décode pas Bunny",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Club",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Multitop",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "M6 Kid",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Disney Parade",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
@@ -11126,14 +11289,14 @@
     {
       "program": "M6 Kid",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
@@ -11147,322 +11310,322 @@
     {
       "program": "M6 Kid",
       "year": 1999,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "FR3 jeunesse",
       "year": 1999,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 3
     },
     {
       "program": "Salut les Musclés",
       "year": 1987,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1988,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1989,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1990,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1991,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1992,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "À tout Spip",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Télévisator 2",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1993,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "À tout Spip",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Télévisator 2",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Chalu Maureen",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1994,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "À tout Spip",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Télévisator 2",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Chalu Maureen",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Les années fac",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Cellulo",
       "year": 1995,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Club Mini",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "À tout Spip",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Chalu Maureen",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Les années fac",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Cellulo",
       "year": 1996,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Salut les Musclés",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Premiers baisers",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Les années fac",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Cellulo",
       "year": 1997,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Les années fac",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Cellulo",
       "year": 1998,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     },
     {
       "program": "Cellulo",
       "year": 1999,
-      "remaining": 424,
+      "remaining": 402,
       "virgin": true,
       "priority": 4
     }
@@ -11470,14 +11633,14 @@
   "health": {
     "advice": [
       "2 émission(s) sans chaîne : méthode B inactive. Renseigne-la dans 🎯 Cibles.",
-      "16031 entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger. La moisson est acquise dans data/ina/listings/.",
-      "192 notice(s) en prose : œuvres citées extraites au niveau émission, pas au niveau jour.",
-      "247 couple(s) jamais indexés — ≈ 96145 entrées estimées."
+      "16619 entrée(s) portent déjà leur œuvre depuis la liste : aucune fiche à télécharger. La moisson est acquise dans data/ina/listings/.",
+      "280 notice(s) en prose : œuvres citées extraites au niveau émission, pas au niveau jour.",
+      "243 couple(s) jamais indexés — ≈ 91225 entrées estimées."
     ],
     "outdated": 0,
-    "virgin": 247,
-    "known": 16031,
-    "prose": 192,
+    "virgin": 243,
+    "known": 16619,
+    "prose": 280,
     "orphans": 1
   }
 }

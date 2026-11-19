@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 11:46:11 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 12:19:01 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-19 à 11:46:11 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **247** (≈ 96145)
-- Entrées : **22602** · Connues sans téléchargement : **16031**
-- À télécharger : **6571** · En cache : **22444** (99.3 %)
-- Œuvres distinctes : **1207** · Reste : **158**
+- Jamais indexés : **243** (≈ 91225)
+- Entrées : **23304** · Connues sans téléchargement : **16619**
+- À télécharger : **6685** · En cache : **23146** (99.3 %)
+- Œuvres distinctes : **1400** · Reste : **158**
 
 ## Par émission
 
@@ -30,7 +30,7 @@ _Généré le 2026-11-19 à 11:46:11 — parser v10 · fetch=auto_
 | Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Minikeums | France 3 | 1993→1999 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Vitamine | TF1 | 1983→1987 | — | 4 | 20 | 0 | 20 | 20 | 0 | 100.0 % |
+| Vitamine | TF1 | 1983→1987 | A,B | 0 | 722 | 588 | 134 | 722 | 0 | 100.0 % |
 | Youpi ! L'école est finie | La Cinq | 1987→1992 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -502,13 +502,15 @@ _Généré le 2026-11-19 à 11:46:11 — parser v10 · fetch=auto_
 
 ### Vitamine · TF1
 
+**Œuvres citées au niveau émission** : 1 pouce, Bande 120719, Bde 92551, Bde.150 294, Bvu 1p+2p, EVC a840307 1p+2p, Gigi, Jonquoy productions, K7 1p+2p, Les 3 mousquetaires, MRS pepperpot, Ricky la belle vie, achat, achats, bde 116 921, bde 85255, bde.147 925, blanc, carie la roulette, cascades de voiture, em sec.255063.Bde sec.85255, em secours 255063, em.289 715, extrait, jazz, k7 1p+2p, le collier de corail bleu, moto, noir, prod BRB internacional sa, production Walt DISNEY, superstars, tennis, voir St
+
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1983 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1984 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1985 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1986 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1987 | complet | 20 | — | 0 | 20 | 20 | 0 | 0 |
+| 1983 | complet | 95 | A:15, B:95 | 84 | 11 | 95 | 42 | 0 |
+| 1984 | complet | 279 | A:45, B:279 | 230 | 49 | 279 | 98 | 0 |
+| 1985 | complet | 215 | A:60, B:215 | 178 | 37 | 215 | 34 | 0 |
+| 1986 | complet | 92 | A:36, B:92 | 75 | 17 | 92 | 13 | 0 |
+| 1987 | complet | 41 | A:26, B:41 | 21 | 20 | 41 | 6 | 0 |
 
 ### Youpi ! L'école est finie · La Cinq
 
