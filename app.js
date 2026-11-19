@@ -1,5 +1,5 @@
 // =====================================================
-// TV RÉTRO — playlist détaillée par œuvre + podcast ANISONG
+// TV RÉTRO — œuvres INA bornées au créneau de l'émission
 // =====================================================
 const state={currentView:'browse',selectedDecade:null,selectedYear:null,selectedDate:null,
  playlist:loadStoredPlaylist(),index:null,yearData:null,dayOpen:false,currentPrograms:[],currentProgramMap:new Map(),
@@ -7,10 +7,11 @@ const state={currentView:'browse',selectedDecade:null,selectedYear:null,selected
  tmdbKey:localStorage.getItem('retroTmdbKey')||'',
  search:{meta:null,metaLoaded:false,filtersReady:false,cache:{},loadedYears:new Set(),loading:false,query:'',genre:'all',channel:'all',period:'all',year:'all',evening:false,sort:'count',groups:[],totalMatches:0,expanded:new Set()},
  podcast:{loaded:false,loading:false,items:[],byKey:new Map(),meta:null,error:'',source:''},
- ina:{cov:null,slugByTitle:new Map(),cache:{},loading:new Set(),enabled:true},
- player:{el:null,item:null,ready:false}};
+ ina:{cov:null,slugByTitle:new Map(),cache:{},loading:new Set(),enabled:true,stats:{attached:0,rejected:0}},
+ player:{el:null,item:null}};
 let toastTimeout=null,videoPanelToken=0,searchDebounce=null,searchRunToken=0,infoToken=0,tlTouchArmed=null;
 const LAST_DAY_STORAGE_KEY='retroLastDay',NIGHT_CUTOFF_HOUR=5,HIDDEN_GENRES=['météo'];
+const MAX_BLOCK_MIN=210,MIN_BLOCK_MIN=20,SLOT_TOL_MIN=3;
 const CHARTS_BASE='https://xbodin2g.github.io/top-singles-hebdo/';
 const PODCAST_JSON='data/podcasts/anisong.json',PODCAST_RSS='https://anisong.lepodcast.fr/rss';
 const PODCAST_KEEP='la belle histoire des generiques tele';
@@ -43,6 +44,7 @@ function dateSortKey(d){const n=normalizeDate(d);if(!n)return[9999,9999,9999];co
 function sortDates(ds){return[...ds].sort((a,b)=>{const x=dateSortKey(a),y=dateSortKey(b);for(let i=0;i<3;i++)if(x[i]!==y[i])return x[i]-y[i];return 0;});}
 function normalizeTime(v){if(!v)return'';const m=String(v).trim().match(/^(\d{1,2})[:h.](\d{2})/);if(!m)return'';const h=+m[1],mi=+m[2];return h>23||mi>59?'':`${String(h).padStart(2,'0')}:${String(mi).padStart(2,'0')}`;}
 function timeSortKey(t){if(!t||!t.includes(':'))return 9999;const[h,m]=t.split(':').map(Number);if(Number.isNaN(h)||Number.isNaN(m))return 9999;return h>=NIGHT_CUTOFF_HOUR?(h-NIGHT_CUTOFF_HOUR)*60+m:(h+24-NIGHT_CUTOFF_HOUR)*60+m;}
+function minToLabel(m){if(!Number.isFinite(m)||m>=9999)return'—';const t=(m+NIGHT_CUTOFF_HOUR*60)%1440;return `${String(Math.floor(t/60)).padStart(2,'0')}:${String(t%60).padStart(2,'0')}`;}
 function canonicalChannel(v){const raw=String(v||'').trim();if(!raw)return'Autres';const u=raw.toUpperCase();if(CHANNEL_ALIASES[u])return CHANNEL_ALIASES[u];const nu=normalizeText(raw).toUpperCase();if(CHANNEL_ALIASES[nu])return CHANNEL_ALIASES[nu];const c=nu.replace(/\s+/g,'');if(CHANNEL_ALIASES[c])return CHANNEL_ALIASES[c];return raw;}
 function channelRank(c){const i=CHANNEL_ORDER.indexOf(c);return i===-1?CHANNEL_ORDER.length+1:i;}
 function channelColor(c){return CHANNEL_COLORS[c]||'#404853';}
@@ -74,6 +76,23 @@ function flattenChannels(ch){if(!ch||typeof ch!=='object')return[];return Object
 function groupProgramsByChannel(ps){const m=new Map();for(const p of ps){const c=p.channel||'Autres';if(!m.has(c))m.set(c,[]);m.get(c).push(p);}return[...m.entries()].sort((a,b)=>channelRank(a[0])-channelRank(b[0])).map(([channel,progs])=>({channel,programs:[...progs].sort((a,b)=>timeSortKey(a.time)-timeSortKey(b.time))}));}
 function makeProgramId(d,t,c,sfx='p'){return `${normalizeDate(d)||String(d||'')}__${String(t||'sans-heure').replace(':','h')}__${slugChannel(c||'Autres')}__${String(sfx||'p').replace(/[^a-zA-Z0-9_-]/g,'-')}`;}
 function programAnchorId(d,p){return `prog-${cssSafeId(makeProgramId(d,p.time,p.channel,'p'))}`;}
+// ---------- créneaux ----------
+function slotWindows(programs){
+ const byCh=new Map();
+ programs.forEach(p=>{const c=normalizeText(p.channel||'Autres');if(!byCh.has(c))byCh.set(c,[]);byCh.get(c).push(p);});
+ const win=new Map();
+ byCh.forEach(list=>{
+  const timed=list.filter(p=>timeSortKey(p.time)<9999).sort((a,b)=>timeSortKey(a.time)-timeSortKey(b.time));
+  timed.forEach((p,i)=>{
+   const s=timeSortKey(p.time);
+   const next=i+1<timed.length?timeSortKey(timed[i+1].time):Infinity;
+   const end=Math.max(s+MIN_BLOCK_MIN,Math.min(next,s+MAX_BLOCK_MIN));
+   win.set(p,{start:s,end,next,capped:next>s+MAX_BLOCK_MIN});
+  });
+  list.filter(p=>timeSortKey(p.time)>=9999).forEach(p=>win.set(p,null));
+ });
+ return win;}
+function slotLabel(w){if(!w)return'—';return `${minToLabel(w.start)} → ${minToLabel(w.end)}`;}
 // ---------- browse ----------
 function displayYears(){const c=document.getElementById('years-container');if(!c)return;if(!state.index?.years){showNoData();return;}
  const years=Object.keys(state.index.years).filter(y=>/^\d{4}$/.test(y)).sort((a,b)=>+a-+b);if(!years.length){showNoData();return;}
@@ -111,7 +130,7 @@ function renderDay(dd){const ps=state.currentPrograms;const set=(id,v)=>{const e
  const chs=[...new Set(ps.map(p=>p.channel||'Autres'))].sort((a,b)=>channelRank(a)-channelRank(b));
  const cf=document.getElementById('channel-filter');if(cf)cf.innerHTML=`<option value="all">Toutes les chaînes</option>`+chs.map(c=>`<option value="${escapeHtml(c)}"${state.filters.channel===c?' selected':''}>${escapeHtml(c)}</option>`).join('');
  renderSummary(ps,document.getElementById('summary-details'));applyFilters();
- enrichDayWithIna(state.selectedDate).then(n=>{if(n>0){applyFilters();showToast(`🧩 ${n} œuvre(s) INA ajoutée(s) aux blocs jeunesse`);}});}
+ enrichDayWithIna(state.selectedDate).then(r=>{if(r&&r.attached>0){applyFilters();showToast(`🧩 ${r.attached} œuvre(s) INA rattachée(s) à leur créneau${r.rejected?` · ${r.rejected} hors créneau écartée(s)`:''}`);}});}
 function setupDayToolbarListeners(){const dp=document.getElementById('day-panel');const bind=(id,ev,fn)=>{const el=document.getElementById(id);if(el)el.addEventListener(ev,fn);};
  bind('program-search','input',e=>{state.filters.query=e.target.value;applyFilters();});
  bind('channel-filter','change',e=>{state.filters.channel=e.target.value;applyFilters();});
@@ -126,7 +145,7 @@ function setupDayToolbarListeners(){const dp=document.getElementById('day-panel'
  if(dp)dp.addEventListener('click',handleDayClick);}
 function handleDayClick(e){
  if(e.target.closest('#day-back-btn')){closeDayView();return;}
- const ex=e.target.closest('.elements-btn');if(ex){addAllElements(ex.dataset.elementsId);return;}
+ const ex=e.target.closest('.elements-btn');if(ex){e.preventDefault();addAllElements(ex.dataset.elementsId);return;}
  const pc=e.target.closest('.podcast-btn');if(pc){openInfoPanel(pc.dataset.podId,'podcast');return;}
  const ch=e.target.closest('.charts-btn');if(ch){window.open(ch.dataset.chartsUrl,'_blank','noopener');return;}
  const inf=e.target.closest('.info-btn');if(inf){openInfoPanel(inf.dataset.infoId);return;}
@@ -165,7 +184,7 @@ function renderSummary(ps,det){const c=document.getElementById('day-summary');if
  if(!ev.length){if(det)det.hidden=true;c.innerHTML='';return;}if(det)det.hidden=false;
  c.innerHTML=`<div class="summary-grid">${ev.map(p=>`<button class="summary-chip" type="button" data-target-anchor="${escapeHtml(programAnchorId(state.selectedDate,p))}"><span class="summary-time">${escapeHtml(p.time||'--:--')}</span><span class="summary-channel">${escapeHtml(p.channel||'Autres')}</span><span class="summary-title">${escapeHtml(truncateText(p.title||'Programme',55))}</span></button>`).join('')}</div>`;}
 function actionButtons(id,program,date,opts={}){let h='';
- if(opts.elements>0)h+=`<button class="elements-btn" type="button" data-elements-id="${escapeHtml(id)}" title="Ajouter les ${opts.elements} œuvres comme lignes séparées">🧩</button>`;
+ if(opts.elements>0)h+=`<button class="elements-btn" type="button" data-elements-id="${escapeHtml(id)}" title="Ajouter les ${opts.elements} œuvres de ce créneau comme lignes séparées">🧩</button>`;
  if(isChartShow(program.title))h+=`<button class="charts-btn" type="button" data-charts-url="${escapeHtml(chartsUrl(date))}" title="Top singles de la semaine">📊</button>`;
  h+=`<button class="podcast-btn" type="button" data-pod-id="${escapeHtml(id)}" title="Podcast — générique français">🎧</button>`;
  h+=`<button class="info-btn" type="button" data-info-id="${escapeHtml(id)}" title="Fiche programme">ℹ️</button><button class="video-search-btn" type="button" data-video-id="${escapeHtml(id)}" title="Vidéos">▶️</button><button class="add-to-playlist-btn" type="button" data-program-id="${escapeHtml(id)}" title="Ajouter à la playlist">➕</button>`;
@@ -177,18 +196,23 @@ function renderGroups(ps){const c=document.getElementById('programs-groups');if(
 function renderProgramRow(p){const date=state.selectedDate,pid=makeProgramId(date,p.time,p.channel,'p'),anchor=programAnchorId(date,p);
  const segs=state.filters.showSegments&&Array.isArray(p.segments)?p.segments:[];
  const snap=segs.map(s=>({title:s.title||'',time:s.time||'',source:s.source||''})).filter(s=>s.title);
- state.currentProgramMap.set(pid,{id:pid,date,time:p.time||'',channel:p.channel||'',title:p.title||'',description:p.description||'',parentTitle:'',type:'program',elements:snap});
- const segHtml=segs.length?`<details class="segments"><summary>${segs.length} œuvre${segs.length>1?'s':''} / extrait${segs.length>1?'s':''} <button class="elements-btn inline" type="button" data-elements-id="${escapeHtml(pid)}" title="Ajouter toutes ces œuvres à la playlist">🧩 tout ajouter</button></summary><ul class="segments-list">${segs.map(s=>{
+ const inaTimes=segs.filter(s=>s.source==='ina'&&s.time).map(s=>s.time).sort();
+ const range=inaTimes.length?`${inaTimes[0]} → ${inaTimes[inaTimes.length-1]}`:'';
+ const win=p.inaSlot||null;
+ state.currentProgramMap.set(pid,{id:pid,date,time:p.time||'',channel:p.channel||'',title:p.title||'',description:p.description||'',parentTitle:'',type:'program',elements:snap,slot:win?slotLabel(win):''});
+ const segHtml=segs.length?`<details class="segments"><summary><span class="seg-count">${segs.length} œuvre${segs.length>1?'s':''} / extrait${segs.length>1?'s':''}</span>${range?` <span class="seg-range">${escapeHtml(range)}</span>`:''}${win?` <span class="seg-slot" title="Créneau retenu : ${escapeHtml(slotLabel(win))}${win.capped?' (borne de sécurité 3 h 30)':' (jusqu’au programme suivant)'}">créneau ${escapeHtml(slotLabel(win))}</span>`:''} <button class="elements-btn inline" type="button" data-elements-id="${escapeHtml(pid)}" title="Ajouter ces œuvres à la playlist">🧩 tout ajouter</button></summary><ul class="segments-list">${segs.map(s=>{
    const sid=makeProgramId(date,p.time,p.channel,`s${s.index}`);
-   state.currentProgramMap.set(sid,{id:sid,date,time:s.time||p.time||'',channel:p.channel||'',title:s.title||'',description:s.raw||'',parentTitle:p.title||'',type:s.source==='ina'?'element':'segment',elements:[]});
+   state.currentProgramMap.set(sid,{id:sid,date,time:s.time||p.time||'',channel:p.channel||'',title:s.title||'',description:s.raw||'',parentTitle:p.title||'',type:s.source==='ina'?'element':'segment',elements:[],slot:win?slotLabel(win):''});
    return `<li class="segment-item"><div class="segment-content"><div class="segment-title">${s.time?`<span class="seg-time">${escapeHtml(s.time)}</span> `:''}${escapeHtml(s.title||'Extrait')}${s.source==='ina'?' <span class="seg-src">INA</span>':''}</div>${s.raw&&s.raw!==s.title?`<div class="segment-raw">${escapeHtml(s.raw)}</div>`:''}</div><div class="segment-actions">${actionButtons(sid,{title:s.title},date)}</div></li>`;}).join('')}</ul></details>`:'';
- return `<article class="program-row" id="${escapeHtml(anchor)}"><div class="program-time">${escapeHtml(p.time||'--:--')}</div><div class="program-content"><div class="program-title">${escapeHtml(p.title||'Titre inconnu')}${snap.length?` <span class="el-count">${snap.length} 🧩</span>`:''}</div>${p.description?`<p class="program-description">${escapeHtml(p.description)}</p>`:''}${segHtml}</div><div class="program-actions">${actionButtons(pid,p,date,{elements:snap.length})}</div></article>`;}
-// ---------- INA enrichment ----------
-async function loadInaCoverage(){if(!state.ina.enabled)return;try{const base=document.baseURI||location.href;const r=await fetch(new URL('data/ina/coverage.json',base).href+`?t=${Date.now()}`,{cache:'no-store'});if(!r.ok){state.ina.enabled=false;return;}
- const j=await r.json();state.ina.cov=j;state.ina.slugByTitle.clear();
- (j.programs||[]).forEach(p=>{if(!p.slug)return;state.ina.slugByTitle.set(normalizeText(p.program),p.slug);});
- if(state.dayOpen&&state.selectedDate){const n=await enrichDayWithIna(state.selectedDate);if(n>0)applyFilters();}
-}catch(e){state.ina.enabled=false;}}
+ return `<article class="program-row" id="${escapeHtml(anchor)}"><div class="program-time">${escapeHtml(p.time||'--:--')}</div><div class="program-content"><div class="program-title">${escapeHtml(p.title||'Titre inconnu')}${snap.length?` <span class="el-count" title="${escapeHtml(range||'')}">${snap.length} 🧩</span>`:''}</div>${p.description?`<p class="program-description">${escapeHtml(p.description)}</p>`:''}${segHtml}</div><div class="program-actions">${actionButtons(pid,p,date,{elements:snap.length})}</div></article>`;}
+// ---------- INA : rattachement strict au créneau ----------
+async function loadInaCoverage(){if(!state.ina.enabled)return;
+ try{const base=document.baseURI||location.href;const r=await fetch(new URL('data/ina/coverage.json',base).href+`?t=${Date.now()}`,{cache:'no-store'});
+  if(!r.ok){state.ina.enabled=false;return;}
+  const j=await r.json();state.ina.cov=j;state.ina.slugByTitle.clear();
+  (j.programs||[]).forEach(p=>{if(p.slug)state.ina.slugByTitle.set(normalizeText(p.program),p.slug);});
+  if(state.dayOpen&&state.selectedDate){const r2=await enrichDayWithIna(state.selectedDate);if(r2&&r2.attached>0)applyFilters();}
+ }catch(e){state.ina.enabled=false;}}
 async function inaListings(slug){if(state.ina.cache[slug])return state.ina.cache[slug];if(state.ina.loading.has(slug))return null;
  state.ina.loading.add(slug);
  try{const base=document.baseURI||location.href;const r=await fetch(new URL(`data/ina/listings/${slug}.json`,base).href+`?t=${Date.now()}`,{cache:'no-store'});
@@ -196,57 +220,87 @@ async function inaListings(slug){if(state.ina.cache[slug])return state.ina.cache
  catch(e){state.ina.cache[slug]={entries:[]};return state.ina.cache[slug];}
  finally{state.ina.loading.delete(slug);}}
 function findInaSlug(title){const n=normalizeText(title);if(!n)return'';if(state.ina.slugByTitle.has(n))return state.ina.slugByTitle.get(n);
- for(const[k,v]of state.ina.slugByTitle){if(k&&(n.includes(k)||k.includes(n)))return v;}return'';}
-async function enrichDayWithIna(date){if(!state.ina.enabled||!date||!state.currentPrograms.length)return 0;
- const targets=state.currentPrograms.filter(p=>isYouth(p));if(!targets.length)return 0;
- const slugs=[...new Set(targets.map(p=>findInaSlug(p.title)).filter(Boolean))];if(!slugs.length)return 0;
+ for(const[k,v]of state.ina.slugByTitle){if(k&&k.length>=6&&(n.includes(k)||k.includes(n)))return v;}return'';}
+async function enrichDayWithIna(date){
+ if(!state.ina.enabled||!date||!state.currentPrograms.length)return null;
+ state.currentPrograms.forEach(p=>{if(Array.isArray(p.segments))p.segments=p.segments.filter(s=>s.source!=='ina');p.inaSlot=null;});
+ const win=slotWindows(state.currentPrograms);
+ const slots=[];
+ state.currentPrograms.forEach(p=>{const slug=findInaSlug(p.title);const w=win.get(p);
+  if(slug&&w)slots.push({p,slug,w,ch:normalizeText(p.channel||'Autres'),bucket:new Map()});});
+ if(!slots.length)return null;
+ const slugs=[...new Set(slots.map(s=>s.slug))];
  const lists=await Promise.all(slugs.map(inaListings));
- const bySlug={};slugs.forEach((s,i)=>{const l=lists[i];if(!l)return;const m={};(l.entries||[]).forEach(e=>{if(e.date!==date||!e.work)return;(m[e.work]=m[e.work]||[]).push(e);});bySlug[s]=m;});
- let added=0;
- for(const p of targets){const slug=findInaSlug(p.title);const works=bySlug[slug];if(!works)continue;
-  const have=new Set((p.segments||[]).map(s=>normalizeText(s.title)));
-  const chn=normalizeText(p.channel);
+ const bySlug={};slugs.forEach((s,i)=>{const l=lists[i];if(l)bySlug[s]=(l.entries||[]).filter(e=>e.date===date&&e.work);});
+ let attached=0,rejected=0;
+ slugs.forEach(slug=>{
+  const group=slots.filter(s=>s.slug===slug);
+  (bySlug[slug]||[]).forEach(e=>{
+   const ech=e.channel?normalizeText(canonicalChannel(e.channel)):'';
+   const cands=group.filter(s=>!ech||s.ch===ech);
+   if(!cands.length){rejected++;return;}
+   const em=timeSortKey(normalizeTime(e.start||e.start_raw||''));
+   let target=null;
+   if(em>=9999){
+    if(cands.length===1)target=cands[0];else{rejected++;return;}
+   }else{
+    for(const c of cands){
+     if(em>=c.w.start-SLOT_TOL_MIN&&em<c.w.end){if(!target||c.w.start>target.w.start)target=c;}
+    }
+    if(!target){rejected++;return;}
+   }
+   const key=normalizeText(e.work);if(!key)return;
+   const cur=target.bucket.get(key);
+   const t=normalizeTime(e.start||e.start_raw||'');
+   if(!cur)target.bucket.set(key,{title:e.work,raw:e.title&&normalizeText(e.title)!==key?e.title:'',time:t});
+   else{if(t&&(!cur.time||t<cur.time))cur.time=t;if(!cur.raw&&e.title&&normalizeText(e.title)!==key)cur.raw=e.title;}
+  });
+ });
+ slots.forEach(s=>{
+  const have=new Set((s.p.segments||[]).map(x=>normalizeText(x.title)));
+  have.add(normalizeText(s.p.title));
   const fresh=[];
-  Object.keys(works).sort().forEach(w=>{const rows=works[w].filter(e=>!e.channel||normalizeText(e.channel)===chn||!chn);
-   if(!rows.length)return;const k=normalizeText(w);if(!k||have.has(k))return;have.add(k);
-   const times=rows.map(e=>e.start).filter(Boolean).sort();
-   fresh.push({index:900+fresh.length,title:w,raw:rows[0].title&&rows[0].title!==w?rows[0].title:'',time:times[0]||'',source:'ina'});});
-  if(fresh.length){p.segments=[...(p.segments||[]),...fresh];added+=fresh.length;}}
- return added;}
+  [...s.bucket.entries()].sort((a,b)=>(a[1].time||'99:99').localeCompare(b[1].time||'99:99')||a[0].localeCompare(b[0]))
+   .forEach(([k,v])=>{if(have.has(k))return;have.add(k);
+    fresh.push({index:900+fresh.length,title:v.title,raw:v.raw,time:v.time||'',source:'ina'});});
+  if(fresh.length){s.p.segments=[...(s.p.segments||[]),...fresh];s.p.inaSlot=s.w;attached+=fresh.length;}
+  else if(s.bucket.size)s.p.inaSlot=s.w;
+ });
+ state.ina.stats={attached,rejected};
+ return {attached,rejected};}
 // ---------- podcast ----------
 async function loadPodcastIndex(force=false){
  if(state.podcast.loading||(state.podcast.loaded&&!force))return state.podcast;
- state.podcast.loading=true;state.podcast.error='';
+ state.podcast.loading=true;state.podcast.error='';updatePodcastBadge();
  try{const base=document.baseURI||location.href;const r=await fetch(new URL(PODCAST_JSON,base).href+`?t=${Date.now()}`,{cache:'no-store'});
-  if(r.ok){const j=await r.json();ingestPodcast(j,'index');state.podcast.loading=false;return state.podcast;}
+  if(r.ok){ingestPodcast(await r.json(),'index');state.podcast.loading=false;updatePodcastBadge();return state.podcast;}
  }catch(e){}
  const proxies=[u=>`https://api.allorigins.win/raw?url=${encodeURIComponent(u)}`,u=>`https://corsproxy.io/?${encodeURIComponent(u)}`];
  for(const p of proxies){
-  try{const r=await fetch(p(PODCAST_RSS),{cache:'no-store'});if(!r.ok)continue;const xml=await r.text();
-   const j=parseRssClient(xml);if(j.items.length){ingestPodcast(j,'flux live');state.podcast.loading=false;return state.podcast;}
-  }catch(e){}
- }
+  try{const r=await fetch(p(PODCAST_RSS),{cache:'no-store'});if(!r.ok)continue;
+   const j=parseRssClient(await r.text());
+   if(j.items.length){ingestPodcast(j,'flux live');state.podcast.loading=false;updatePodcastBadge();return state.podcast;}
+  }catch(e){}}
  state.podcast.error="Index podcast absent. Lance le workflow 🎧 Podcast Index.";
- state.podcast.loading=false;return state.podcast;}
+ state.podcast.loading=false;updatePodcastBadge();return state.podcast;}
 function ingestPodcast(j,source){
  const items=(j.items||[]).filter(i=>normalizeText(i.title).startsWith(PODCAST_KEEP));
  state.podcast.items=items;state.podcast.meta=j;state.podcast.source=source;state.podcast.loaded=true;
  state.podcast.byKey=new Map();
  items.forEach(i=>{if(i.family==='special')return;(i.keys||i.works||[]).forEach(k=>{const n=normalizeText(k);if(!n)return;const a=state.podcast.byKey.get(n)||[];a.push(i);state.podcast.byKey.set(n,a);});});
- updatePodcastBadge();}
-function clientNorm(v){return normalizeText(v);}
+ updatePlaylistDisplay();}
 function parseRssClient(xml){
  const doc=new DOMParser().parseFromString(xml,'text/xml');
- const chan=doc.querySelector('channel');const out={source:PODCAST_RSS,title:chan?.querySelector('title')?.textContent||'ANISONG',generated_at:new Date().toISOString(),refresh:'live',items:[]};
+ const chan=doc.querySelector('channel');
+ const out={source:PODCAST_RSS,title:chan?.querySelector('title')?.textContent||'ANISONG',generated_at:new Date().toISOString(),refresh:'live',items:[]};
  const ns='http://www.itunes.com/dtds/podcast-1.0.dtd';
  doc.querySelectorAll('item').forEach(it=>{
   const g=t=>it.querySelector(t)?.textContent?.trim()||'';
   const gi=t=>it.getElementsByTagNameNS(ns,t)[0]?.textContent?.trim()||'';
-  const title=g('title');if(!clientNorm(title).startsWith(PODCAST_KEEP))return;
-  const enc=it.querySelector('enclosure');
-  const dur=gi('duration');const secs=(()=>{const p=dur.split(':').map(Number);if(p.some(isNaN))return 0;return p.reduce((a,b)=>a*60+b,0);})();
-  const brack=[...title.matchAll(/\[([^\]]{1,20})\]/g)].map(m=>m[1]);
-  let version=1;brack.forEach(b=>{const m=b.match(/^V\s*(\d+)$/i);if(m)version=+m[1];});
+  const title=g('title');if(!normalizeText(title).startsWith(PODCAST_KEEP))return;
+  const enc=it.querySelector('enclosure'),dur=gi('duration');
+  const parts=dur.split(':').map(Number);const secs=parts.some(isNaN)?0:parts.reduce((a,b)=>a*60+b,0);
+  let version=1;[...title.matchAll(/\[([^\]]{1,20})\]/g)].forEach(m=>{const v=m[1].match(/^V\s*(\d+)$/i);if(v)version=+v[1];});
   const clean=title.replace(/\[[^\]]*\]/g,'').trim();
   const parens=[...clean.matchAll(/\(([^)]{2,90})\)/g)].map(m=>m[1].trim());
   const body=clean.replace(/\([^)]*\)/g,'').trim();
@@ -254,31 +308,31 @@ function parseRssClient(xml){
   const subject=(body.includes('|')?body.split('|')[1]:body.replace(/^.*?#\s*(?:[0-9]+|SP|HS)\s*/i,'')).trim().replace(/^[-–—:|\s]+|[-–—:|\s]+$/g,'');
   const special=/^(SP|HS)$/i.test(num);
   const works=special?[]:[subject,...parens].filter(Boolean);
-  const keys=new Set();const nw=[];
-  works.forEach(w=>{const k=clientNorm(w);if(k&&k.length>2){nw.push(k);keys.add(k);}});
-  keys.add(clientNorm(title));
-  const pd=g('pubDate');let date='';try{const d=new Date(pd);if(!isNaN(d))date=d.toISOString().slice(0,10);}catch(e){}
+  const keys=new Set(),nw=[];
+  works.forEach(w=>{const k=normalizeText(w);if(k&&k.length>2){nw.push(k);keys.add(k);}});
+  keys.add(normalizeText(title));
+  let date='';try{const d=new Date(g('pubDate'));if(!isNaN(d))date=d.toISOString().slice(0,10);}catch(e){}
   out.items.push({id:g('guid')||g('link')||title,title,link:g('link'),audio:enc?.getAttribute('url')||'',
    date,duration:secs?fmtSec(secs):dur,seconds:secs,number:num.toUpperCase(),version,
-   family:special?'special':'serie',subject,works:nw,persons:special?[clientNorm(subject)]:[],
+   family:special?'special':'serie',subject,works:nw,persons:special?[normalizeText(subject)]:[],
    keys:[...keys],desc:(g('description')||'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim().slice(0,900),image:''});});
  out.count=out.items.length;out.with_audio=out.items.filter(i=>i.audio).length;
  out.latest=out.items.map(i=>i.date).sort().pop()||'';
  return out;}
 function podcastMatches(title){
  const n=normalizeText(title);if(!n||n.length<3)return[];
- const seen=new Set();const out=[];
- const push=a=>(a||[]).forEach(i=>{if(i.family==='special')return;const k=i.id;if(seen.has(k))return;seen.add(k);out.push(i);});
+ const seen=new Set(),out=[];
+ const push=a=>(a||[]).forEach(i=>{if(i.family==='special')return;if(seen.has(i.id))return;seen.add(i.id);out.push(i);});
  push(state.podcast.byKey.get(n));
- if(!out.length){for(const[k,arr]of state.podcast.byKey){if(k.length<4)continue;if(k.includes(n)||n.includes(k))push(arr);}}
+ if(!out.length)for(const[k,arr]of state.podcast.byKey){if(k.length<4)continue;if(k.includes(n)||n.includes(k))push(arr);}
  out.sort((a,b)=>(b.version||1)-(a.version||1)||String(b.date).localeCompare(String(a.date)));
  return out;}
 function updatePodcastBadge(){const el=document.getElementById('podcast-state');if(!el)return;
  const p=state.podcast;
- if(p.loading){el.textContent='🎧 chargement…';return;}
- if(!p.loaded){el.textContent='🎧 indisponible';return;}
+ if(p.loading){el.textContent='🎧 chargement du flux…';return;}
+ if(!p.loaded){el.textContent='🎧 podcast indisponible';return;}
  const age=ageDays(p.meta?.generated_at);
- el.textContent=`🎧 ${p.items.length} épisodes · ${p.byKey.size} œuvres${age!=null?` · maj ${age}j`:''}`;}
+ el.textContent=`🎧 ${p.items.length} épisodes · ${p.byKey.size} œuvres${age!=null?` · maj ${age} j`:''} · ${p.source}`;}
 function podcastCard(i){
  const playing=state.player.item&&state.player.item.id===i.id;
  return `<div class="pc-card${playing?' playing':''}">
@@ -299,8 +353,7 @@ async function renderPodcastInto(el,title,token){
  if(!state.podcast.loaded){el.innerHTML=`<div class="info-empty">${escapeHtml(state.podcast.error||'Index podcast indisponible.')} <button class="tiny-btn" type="button" data-pc-retry="1">↻ Réessayer</button></div>`;return;}
  const hits=podcastMatches(title);
  if(!hits.length){el.innerHTML=`<div class="info-empty">Aucun épisode « La Belle Histoire des Génériques Télé » pour <b>${escapeHtml(title)}</b>. <button class="tiny-btn" type="button" data-pc-refresh="1">↻ Actualiser le flux</button></div>`;return;}
- const multi=hits.length>1?`<p class="pc-multi">${hits.length} version${hits.length>1?'s':''} disponible${hits.length>1?'s':''} — la plus récente d’abord.</p>`:'';
- el.innerHTML=multi+hits.map(podcastCard).join('');}
+ el.innerHTML=(hits.length>1?`<p class="pc-multi">${hits.length} versions disponibles — la plus récente d’abord.</p>`:'')+hits.map(podcastCard).join('');}
 // ---------- player ----------
 function injectPlayer(){
  if(document.getElementById('pc-player'))return;
@@ -324,35 +377,34 @@ function setupPlayerListeners(){
  document.getElementById('pp-fwd').onclick=()=>{a.currentTime=Math.min(a.duration||0,a.currentTime+15);};
  document.getElementById('pp-close').onclick=closePlayer;
  seek.oninput=()=>{if(a.duration)a.currentTime=a.duration*(+seek.value/100);};
- a.addEventListener('play',()=>{t.textContent='⏸';document.body.classList.add('pc-playing');});
- a.addEventListener('pause',()=>{t.textContent='▶';document.body.classList.remove('pc-playing');});
- a.addEventListener('ended',()=>{t.textContent='▶';document.body.classList.remove('pc-playing');});
- a.addEventListener('error',()=>{showToast('❌ Flux audio illisible — ouvre la fiche épisode.');});
+ a.addEventListener('play',()=>{t.textContent='⏸';document.body.classList.add('pc-playing');refreshPodcastPlaying();});
+ a.addEventListener('pause',()=>{t.textContent='▶';document.body.classList.remove('pc-playing');refreshPodcastPlaying();});
+ a.addEventListener('ended',()=>{t.textContent='▶';document.body.classList.remove('pc-playing');refreshPodcastPlaying();});
+ a.addEventListener('error',()=>{if(a.getAttribute('src'))showToast('❌ Flux audio illisible — ouvre la fiche épisode.');});
  a.addEventListener('timeupdate',()=>{const d=a.duration||state.player.item?.seconds||0;
   if(d){seek.value=String((a.currentTime/d)*100);time.textContent=`${fmtSec(a.currentTime)} / ${fmtSec(d)}`;}
   else time.textContent=fmtSec(a.currentTime);});
  document.addEventListener('click',e=>{
   const p=e.target.closest('[data-pc-play]');
   if(p){const it=state.podcast.items.find(x=>x.id===p.dataset.pcPlay);if(it)playPodcast(it);return;}
-  if(e.target.closest('[data-pc-retry]')){loadPodcastIndex(true).then(()=>{const el=document.getElementById('info-podcast');if(el)renderPodcastInto(el,document.getElementById('info-title')?.textContent||'',infoToken);});return;}
-  if(e.target.closest('[data-pc-refresh]')){state.podcast.loaded=false;loadPodcastIndex(true).then(()=>{const el=document.getElementById('info-podcast');if(el)renderPodcastInto(el,document.getElementById('info-title')?.textContent||'',infoToken);updatePodcastBadge();});return;}
- });}
+  if(e.target.closest('[data-pc-retry]')||e.target.closest('[data-pc-refresh]')){
+   state.podcast.loaded=false;
+   loadPodcastIndex(true).then(()=>{const el=document.getElementById('info-podcast');if(el)renderPodcastInto(el,document.getElementById('info-title')?.textContent||'',infoToken);});
+   return;}});}
 function playPodcast(item){
  const a=state.player.el;if(!a||!item.audio){showToast('❌ Pas d’audio publié pour cet épisode.');return;}
- const bar=document.getElementById('pc-player');
  if(state.player.item&&state.player.item.id===item.id){if(a.paused)a.play().catch(()=>{});else a.pause();refreshPodcastPlaying();return;}
  state.player.item=item;a.src=item.audio;a.load();
  document.getElementById('pp-title').textContent=item.subject||item.title;
  document.getElementById('pp-sub').textContent=`ANISONG · #${item.number||'?'}${(item.version||1)>1?` V${item.version}`:''}${item.date?' · '+item.date:''}`;
  const l=document.getElementById('pp-link');if(item.link){l.href=item.link;l.hidden=false;}else l.hidden=true;
- bar.hidden=false;document.body.classList.add('has-player');
+ document.getElementById('pc-player').hidden=false;document.body.classList.add('has-player');
  a.play().catch(()=>showToast('▶ Appuie sur lecture pour démarrer.'));
  refreshPodcastPlaying();}
 function closePlayer(){const a=state.player.el;if(a){a.pause();a.removeAttribute('src');a.load();}
  state.player.item=null;document.getElementById('pc-player').hidden=true;
  document.body.classList.remove('has-player','pc-playing');refreshPodcastPlaying();}
-function refreshPodcastPlaying(){
- const id=state.player.item?.id;
+function refreshPodcastPlaying(){const id=state.player.item?.id;
  document.querySelectorAll('[data-pc-play]').forEach(b=>{
   const on=b.dataset.pcPlay===id&&!state.player.el?.paused;
   b.textContent=on?'⏸ Lecture':'▶ Écouter';
@@ -360,10 +412,10 @@ function refreshPodcastPlaying(){
 // ---------- info panel ----------
 function injectInfoUI(){
  if(!document.getElementById('info-overlay')){const o=document.createElement('div');o.id='info-overlay';o.className='info-overlay';o.hidden=true;
-  o.innerHTML=`<div class="info-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeInfoPanel()">✕</button><div class="info-header"><div class="info-icon">📖</div><h3 id="info-title"></h3><p id="info-meta" class="info-meta"></p><p id="podcast-state" class="pc-state"></p></div><div id="info-body" class="info-body"></div><div class="info-footer"><button class="tiny-btn" type="button" onclick="openTmdbSettings()">⚙️ Clé TMDB</button><button class="tiny-btn" type="button" id="info-charts-btn" hidden>📊 Top semaine</button><button class="tiny-btn" type="button" id="info-elements-btn" hidden>🧩 Détailler</button><button class="tiny-btn" type="button" id="info-video-btn">▶️ Vidéos</button></div></div>`;
+  o.innerHTML=`<div class="info-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeInfoPanel()">✕</button><div class="info-header"><div class="info-icon">📖</div><h3 id="info-title"></h3><p id="info-meta" class="info-meta"></p><p id="info-slot" class="info-slot" hidden></p><p id="podcast-state" class="pc-state"></p></div><div id="info-body" class="info-body"></div><div class="info-footer"><button class="tiny-btn" type="button" onclick="openTmdbSettings()">⚙️ Clé TMDB</button><button class="tiny-btn" type="button" id="info-charts-btn" hidden>📊 Top semaine</button><button class="tiny-btn" type="button" id="info-elements-btn" hidden>🧩 Détailler</button><button class="tiny-btn" type="button" id="info-video-btn">▶️ Vidéos</button></div></div>`;
   document.body.appendChild(o);}
  if(!document.getElementById('tmdb-overlay')){const s=document.createElement('div');s.id='tmdb-overlay';s.className='info-overlay';s.hidden=true;
-  s.innerHTML=`<div class="info-panel settings-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeTmdbSettings()">✕</button><div class="info-header"><div class="info-icon">🔑</div><h3>Clé API TMDB</h3><p class="info-meta">Optionnelle — affiches & synopsis</p></div><div class="info-body"><p class="settings-help">Wikipédia et le podcast fonctionnent sans clé. TMDB ajoute affiches et synopsis ; la clé reste dans ton navigateur.</p><label class="settings-label">Clé API TMDB (v3)</label><input type="text" id="tmdb-key-input" class="settings-input" placeholder="ex : 0123456789abcdef..." autocomplete="off"><div class="settings-actions"><a class="retro-btn" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener noreferrer">Obtenir une clé ↗</a><button class="retro-btn" type="button" onclick="saveTmdbKey()">Enregistrer</button><button class="tiny-btn" type="button" onclick="clearTmdbKey()">Effacer</button></div><div class="integrations"><div class="info-section-title">🔌 Intégrations</div><div class="integration-item"><strong>🎧 Podcast ANISONG</strong><span class="ok">Actif</span><p>« La Belle Histoire des Génériques Télé » uniquement — les épisodes sur les interprètes japonais sont écartés. Index actualisé chaque samedi.</p></div><div class="integration-item"><strong>📊 Charts singles</strong><span class="ok">Actif</span><p>Top 50 / Hit Machine → top de la semaine.</p></div><div class="integration-item"><strong>🧩 Œuvres INA</strong><span class="ok">Actif</span><p>Les dessins animés des blocs jeunesse viennent des relevés INA, avec leur heure de passage.</p></div></div></div></div>`;
+  s.innerHTML=`<div class="info-panel settings-panel" role="dialog" aria-modal="true"><button class="info-close" type="button" onclick="closeTmdbSettings()">✕</button><div class="info-header"><div class="info-icon">🔑</div><h3>Clé API TMDB</h3><p class="info-meta">Optionnelle — affiches & synopsis</p></div><div class="info-body"><p class="settings-help">Wikipédia et le podcast fonctionnent sans clé. TMDB ajoute affiches et synopsis ; la clé reste dans ton navigateur.</p><label class="settings-label">Clé API TMDB (v3)</label><input type="text" id="tmdb-key-input" class="settings-input" placeholder="ex : 0123456789abcdef..." autocomplete="off"><div class="settings-actions"><a class="retro-btn" href="https://www.themoviedb.org/settings/api" target="_blank" rel="noopener noreferrer">Obtenir une clé ↗</a><button class="retro-btn" type="button" onclick="saveTmdbKey()">Enregistrer</button><button class="tiny-btn" type="button" onclick="clearTmdbKey()">Effacer</button></div><div class="integrations"><div class="info-section-title">🔌 Intégrations</div><div class="integration-item"><strong>🧩 Œuvres INA</strong><span class="ok">Bornées au créneau</span><p>Chaque œuvre est rattachée au bloc dont l'heure de début précède son passage, et jamais au-delà du programme suivant. Le matin et l'après-midi ne se mélangent plus.</p></div><div class="integration-item"><strong>🎧 Podcast ANISONG</strong><span class="ok">Actif</span><p>« La Belle Histoire des Génériques Télé » uniquement — les épisodes sur les interprètes japonais sont écartés. Index actualisé chaque samedi.</p></div><div class="integration-item"><strong>📊 Charts singles</strong><span class="ok">Actif</span><p>Top 50 / Hit Machine → top de la semaine.</p></div></div></div></div>`;
   document.body.appendChild(s);}
  const nav=document.querySelector('.nav');
  if(nav&&!document.getElementById('settings-nav-btn')){const b=document.createElement('button');b.id='settings-nav-btn';b.className='nav-btn nav-gear';b.type='button';b.title='TMDB & intégrations';b.textContent='⚙️';b.addEventListener('click',openTmdbSettings);nav.appendChild(b);}}
@@ -393,11 +445,13 @@ async function openInfoPanel(programId,focus){
  const p=state.currentProgramMap.get(programId)||state.playlist.find(x=>x.id===programId);
  if(!p){showToast('❌ Programme introuvable');return;}
  const overlay=document.getElementById('info-overlay'),body=document.getElementById('info-body');
- const tEl=document.getElementById('info-title'),mEl=document.getElementById('info-meta'),vb=document.getElementById('info-video-btn'),cb=document.getElementById('info-charts-btn'),eb=document.getElementById('info-elements-btn');
+ const tEl=document.getElementById('info-title'),mEl=document.getElementById('info-meta'),slEl=document.getElementById('info-slot');
+ const vb=document.getElementById('info-video-btn'),cb=document.getElementById('info-charts-btn'),eb=document.getElementById('info-elements-btn');
  if(!overlay||!body)return;
  if(tEl)tEl.textContent=p.title||'Programme';
  const meta=[];if(p.date)meta.push(formatShortDate(p.date));if(p.time)meta.push(p.time);if(p.channel)meta.push(p.channel);if(p.parentTitle)meta.push(`dans ${p.parentTitle}`);
  if(mEl)mEl.textContent=meta.join(' · ');
+ if(slEl){if(p.slot){slEl.hidden=false;slEl.textContent=`🕒 Créneau retenu : ${p.slot} — seules les œuvres de cette plage sont listées`;}else slEl.hidden=true;}
  if(vb)vb.dataset.programId=p.id;
  if(cb){if(isChartShow(p.title)){cb.hidden=false;cb.dataset.chartsUrl=chartsUrl(p.date);}else cb.hidden=true;}
  if(eb){if((p.elements||[]).length){eb.hidden=false;eb.dataset.programId=p.id;eb.textContent=`🧩 Détailler (${p.elements.length})`;}else eb.hidden=true;}
@@ -410,8 +464,8 @@ async function openInfoPanel(programId,focus){
  renderPodcastInto(document.getElementById('info-podcast'),query,token);
  fetchWikipediaInfo(query,fm).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-wiki');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-wiki');if(el)el.innerHTML=`<div class="info-empty">Wikipédia indisponible.</div>`;}});
  if(state.tmdbKey)fetchTmdbInfo(query,state.tmdbKey,fm).then(d=>{if(token!==infoToken)return;const el=document.getElementById('info-tmdb');if(el)el.innerHTML=infoCardHtml(d);}).catch(()=>{if(token===infoToken){const el=document.getElementById('info-tmdb');if(el)el.innerHTML=`<div class="info-empty">TMDB indisponible (clé invalide ?).</div>`;}});
- if(focus==='podcast')setTimeout(()=>document.getElementById('info-podcast')?.scrollIntoView({behavior:'smooth',block:'center'}),120);}
-function closeInfoPanel(){const o=document.getElementById('info-overlay');if(o)o.hidden=true;if(!document.getElementById('tmdb-overlay')?.hidden)return;document.body.style.overflow='';infoToken++;}
+ if(focus==='podcast')setTimeout(()=>document.getElementById('info-podcast')?.scrollIntoView({behavior:'smooth',block:'center'}),140);}
+function closeInfoPanel(){const o=document.getElementById('info-overlay');if(o)o.hidden=true;if(document.getElementById('tmdb-overlay')?.hidden)document.body.style.overflow='';infoToken++;}
 function openTmdbSettings(){const o=document.getElementById('tmdb-overlay'),i=document.getElementById('tmdb-key-input');if(i)i.value=state.tmdbKey;if(o){o.hidden=false;document.body.style.overflow='hidden';}}
 function closeTmdbSettings(){const o=document.getElementById('tmdb-overlay');if(o)o.hidden=true;if(document.getElementById('info-overlay')?.hidden)document.body.style.overflow='';}
 function saveTmdbKey(){const i=document.getElementById('tmdb-key-input'),k=(i?.value||'').trim();state.tmdbKey=k;try{localStorage.setItem('retroTmdbKey',k);}catch(e){}showToast(k?'✅ Clé TMDB enregistrée':'ℹ️ Clé effacée');closeTmdbSettings();}
@@ -447,7 +501,7 @@ function showVideoPanel(p){const o=document.getElementById('video-panel-overlay'
  loadDailymotionResults(q,document.getElementById('video-dailymotion-section'),token);loadOdyseeResults(q,document.getElementById('video-odysee-section'),token);
  o.hidden=false;document.body.style.overflow='hidden';}
 function openVideoPanel(id){const p=state.currentProgramMap.get(id)||state.playlist.find(x=>x.id===id);if(!p){showToast('❌ Programme introuvable');return;}showVideoPanel(p);}
-function closeVideoPanel(){const o=document.getElementById('video-panel-overlay');if(o)o.hidden=true;document.body.style.overflow='';videoPanelToken++;}
+function closeVideoPanel(){const o=document.getElementById('video-panel-overlay');if(o)o.hidden=true;if(document.getElementById('info-overlay')?.hidden)document.body.style.overflow='';videoPanelToken++;}
 function setupVideoPanelListeners(){const o=document.getElementById('video-panel-overlay');if(o)o.addEventListener('click',e=>{if(e.target===o)closeVideoPanel();});
  document.addEventListener('keydown',e=>{if(e.key==='Escape'){const p=document.getElementById('video-panel-overlay');if(p&&!p.hidden)closeVideoPanel();}});}
 // ---------- search ----------
@@ -548,23 +602,23 @@ function addToPlaylist(id){const p=state.currentProgramMap.get(id);if(!p){showTo
  state.playlist.push({...p,elements:snapshotElements(p),addedAt:new Date().toISOString()});
  savePlaylist();updatePlaylistDisplay();
  const n=(p.elements||[]).length;
- showToast(`✅ « ${p.title} » ajouté${n?` — ${n} œuvre(s) détaillables 🧩`:''}`);}
+ showToast(`✅ « ${p.title} » ajouté${n?` — ${n} œuvre(s) du créneau détaillables 🧩`:''}`);}
 function addAllElements(id){const p=state.currentProgramMap.get(id)||state.playlist.find(x=>x.id===id);
  if(!p){showToast('❌ Programme introuvable');return;}
- const els=snapshotElements(p);if(!els.length){showToast('ℹ️ Aucune œuvre détaillée pour ce programme');return;}
+ const els=snapshotElements(p);if(!els.length){showToast('ℹ️ Aucune œuvre détaillée pour ce créneau');return;}
  const base=p.id.replace(/__s\d+$/,'');const added=[];
  els.forEach((e,i)=>{const eid=`${base}__el${i}__${cssSafeId(e.title).slice(0,40)}`;
   if(state.playlist.some(x=>x.id===eid))return;
-  const item={id:eid,date:p.date,time:e.time||p.time||'',channel:p.channel||'',title:e.title,description:'',parentTitle:p.title,type:'element',elements:[],addedAt:new Date().toISOString()};
+  const item={id:eid,date:p.date,time:e.time||p.time||'',channel:p.channel||'',title:e.title,description:'',parentTitle:p.title,type:'element',elements:[],slot:p.slot||'',addedAt:new Date().toISOString()};
   state.playlist.push(item);added.push(item);});
  if(!added.length){showToast('⚠️ Ces œuvres sont déjà dans la playlist');return;}
  savePlaylist();updatePlaylistDisplay();
- showToast(`🧩 ${added.length} œuvre(s) ajoutée(s) en lignes séparées`,{label:'Annuler',fn:()=>{const ids=new Set(added.map(a=>a.id));state.playlist=state.playlist.filter(x=>!ids.has(x.id));savePlaylist();updatePlaylistDisplay();}});}
+ showToast(`🧩 ${added.length} œuvre(s) du créneau ajoutée(s)`,{label:'Annuler',fn:()=>{const ids=new Set(added.map(a=>a.id));state.playlist=state.playlist.filter(x=>!ids.has(x.id));savePlaylist();updatePlaylistDisplay();}});}
 function expandPlaylistItem(id){const i=state.playlist.findIndex(x=>x.id===id);if(i<0)return;
- const p=state.playlist[i];const els=snapshotElements(p);
+ const p=state.playlist[i],els=snapshotElements(p);
  if(!els.length){showToast('ℹ️ Rien à détailler');return;}
  const backup=[...state.playlist];
- const kids=els.map((e,k)=>({id:`${p.id}__el${k}__${cssSafeId(e.title).slice(0,40)}`,date:p.date,time:e.time||p.time||'',channel:p.channel||'',title:e.title,description:'',parentTitle:p.title,type:'element',elements:[],addedAt:new Date().toISOString()}))
+ const kids=els.map((e,k)=>({id:`${p.id}__el${k}__${cssSafeId(e.title).slice(0,40)}`,date:p.date,time:e.time||p.time||'',channel:p.channel||'',title:e.title,description:'',parentTitle:p.title,type:'element',elements:[],slot:p.slot||'',addedAt:new Date().toISOString()}))
   .filter(k=>!state.playlist.some(x=>x.id===k.id));
  state.playlist.splice(i,1,...kids);
  savePlaylist();updatePlaylistDisplay();
@@ -594,7 +648,7 @@ function updatePlaylistDisplay(){const c=document.getElementById('playlist-conta
   const pod=state.podcast.loaded?podcastMatches(p.title).length:0;
   return `<div class="playlist-item${isEl?' is-element':''}">
    <div class="playlist-item-info">
-    <div class="playlist-date">📅 ${escapeHtml(formatDateLabel(p.date))}${p.channel?` · 📺 ${escapeHtml(p.channel)}`:''}</div>
+    <div class="playlist-date">📅 ${escapeHtml(formatDateLabel(p.date))}${p.channel?` · 📺 ${escapeHtml(p.channel)}`:''}${p.slot?` · 🕒 ${escapeHtml(p.slot)}`:''}</div>
     ${isEl?`<div class="pl-parent">↳ dans <b>${escapeHtml(p.parentTitle||'—')}</b></div>`:''}
     <div class="program-title">${isEl?'🎞️':'🎬'} ${escapeHtml(p.title||'Titre inconnu')}${p.time?` <span class="pl-time">${escapeHtml(p.time)}</span>`:''}${pod?` <span class="pl-pod">🎧 ${pod}</span>`:''}${n?` <span class="el-count">${n} 🧩</span>`:''}</div>
     ${p.description?`<p class="program-description">${escapeHtml(truncateText(p.description,220))}</p>`:''}
@@ -645,7 +699,7 @@ function showToast(msg,action){const t=document.getElementById('toast');if(!t){c
  t.innerHTML=`<span>${escapeHtml(msg)}</span>`;
  if(action){const b=document.createElement('button');b.type='button';b.className='toast-undo';b.textContent=action.label;b.onclick=()=>{action.fn();t.classList.remove('show');};t.appendChild(b);}
  t.classList.add('show');if(toastTimeout)clearTimeout(toastTimeout);
- toastTimeout=setTimeout(()=>t.classList.remove('show'),action?7000:3200);}
+ toastTimeout=setTimeout(()=>t.classList.remove('show'),action?7000:3600);}
 function registerServiceWorker(){if(!('serviceWorker'in navigator))return;window.addEventListener('load',()=>{navigator.serviceWorker.register('service-worker.js').then(r=>console.log('SW:',r.scope)).catch(e=>console.log('SW échec:',e));});}
 // ---------- styles ----------
 function injectStyles(){if(document.getElementById('retro-plus-css'))return;
@@ -653,12 +707,17 @@ function injectStyles(){if(document.getElementById('retro-plus-css'))return;
  s.textContent=`
  .elements-btn{background:transparent;color:#6b4f8c;border:1px solid #6b4f8c;border-radius:8px;padding:.45rem .6rem;font-size:.95rem;line-height:1;cursor:pointer;transition:all .2s}
  .elements-btn:hover{background:#6b4f8c;color:#fff}
- .elements-btn.inline{font-size:.72rem;padding:.15rem .45rem;margin-left:.5rem;vertical-align:middle}
+ .elements-btn.inline{font-size:.7rem;padding:.14rem .45rem;margin-left:.4rem;vertical-align:middle}
  .podcast-btn{background:transparent;color:#b3651a;border:1px solid #b3651a;border-radius:8px;padding:.45rem .6rem;font-size:.95rem;line-height:1;cursor:pointer;transition:all .2s}
  .podcast-btn:hover{background:#b3651a;color:#fff}
  .el-count{display:inline-block;font-size:.68rem;font-weight:800;background:rgba(107,79,140,.14);color:#6b4f8c;border:1px solid rgba(107,79,140,.4);border-radius:99px;padding:.05rem .45rem;vertical-align:middle}
+ .segments>summary{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;cursor:pointer}
+ .seg-count{font-weight:700}
+ .seg-range{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.72rem;color:#1f3a5f;font-weight:700}
+ .seg-slot{font-size:.66rem;font-weight:800;letter-spacing:.03em;background:rgba(31,58,95,.1);color:#1f3a5f;border:1px solid rgba(31,58,95,.3);border-radius:99px;padding:.08rem .45rem;cursor:help}
  .seg-time{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.78rem;color:#1f3a5f;font-weight:700}
  .seg-src{font-size:.6rem;font-weight:800;letter-spacing:.06em;background:rgba(47,107,79,.14);color:#2f6b4f;border-radius:99px;padding:.05rem .35rem}
+ .info-slot{margin:.35rem 0 0;font-size:.74rem;font-weight:700;color:#1f3a5f;background:rgba(31,58,95,.08);border:1px solid rgba(31,58,95,.25);border-radius:8px;padding:.3rem .5rem}
  .pc-state{margin:.3rem 0 0;font-size:.72rem;color:#b3651a;font-weight:700}
  .pc-multi{margin:0 0 .5rem;font-size:.78rem;color:#6b4f8c;font-weight:700}
  .pc-card{background:#fff;border:1px solid var(--rule,#ddd5c6);border-left:3px solid #b3651a;border-radius:10px;padding:.6rem .7rem;margin-bottom:.5rem;transition:box-shadow .2s,border-color .2s}
@@ -698,7 +757,7 @@ function injectStyles(){if(document.getElementById('retro-plus-css'))return;
  .pl-expand:hover{background:#6b4f8c;color:#fff}
  .toast-undo{margin-left:.7rem;border:1px solid rgba(255,255,255,.5);background:transparent;color:#fff;border-radius:6px;padding:.2rem .55rem;font:inherit;font-size:.75rem;font-weight:800;cursor:pointer}
  .toast-undo:hover{background:rgba(255,255,255,.18)}
- @media(max-width:700px){.pp-meta{flex:0 1 130px}.pp-back,.pp-fwd{display:none}.pc-player{gap:.4rem}}
+ @media(max-width:700px){.pp-meta{flex:0 1 130px}.pp-back,.pp-fwd{display:none}.pc-player{gap:.4rem}.seg-slot{display:none}}
  `;document.head.appendChild(s);}
 // ---------- globals ----------
 window.selectYear=selectYear;window.selectDate=selectDate;window.selectDecade=selectDecade;
