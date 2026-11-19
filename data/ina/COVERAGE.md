@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 17:07:49 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 20:32:20 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -43,7 +43,7 @@ _Généré le 2026-11-19 à 17:07:49 — parser v10 · fetch=auto_
 | Décode pas Bunny | Canal+ | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | FR3 jeunesse | — | 1970→1999 | — | 30 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Graffi'6 | M6 | 1987→1991 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Le réveil des babalous | FR3 | 1986→1991 | — | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Le réveil des babalous | FR3 | 1986→1991 | A,B | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le Village dans les nuages | TF1 | 1982→1986 | A,B | 1 | 830 | 660 | 170 | 830 | 0 | 100.0 % |
 | M6 Kid | M6 | 1990→1999 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Multitop | M6 | 1987→1996 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
