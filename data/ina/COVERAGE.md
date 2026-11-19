@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 12:49:16 — parser v10 · fetch=auto_
+_Généré le 2026-11-19 à 13:34:12 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-19 à 12:49:16 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **242** (≈ 86892)
-- Entrées : **23305** · Connues sans téléchargement : **16619**
-- À télécharger : **6686** · En cache : **23147** (99.3 %)
-- Œuvres distinctes : **1400** · Reste : **158**
+- Jamais indexés : **233** (≈ 82945)
+- Entrées : **26693** · Connues sans téléchargement : **19698**
+- À télécharger : **6995** · En cache : **26535** (99.4 %)
+- Œuvres distinctes : **1781** · Reste : **158**
 
 ## Par émission
 
@@ -29,7 +29,7 @@ _Généré le 2026-11-19 à 12:49:16 — parser v10 · fetch=auto_
 | Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 0 | 1086 | 1086 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Minikeums | France 3 | 1993→1999 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Les Visiteurs du mercredi | TF1 | 1975→1983 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Les Visiteurs du mercredi | TF1 | 1975→1983 | A,B | 0 | 3388 | 3079 | 309 | 3388 | 0 | 100.0 % |
 | Vitamine | TF1 | 1983→1987 | A,B | 0 | 722 | 588 | 134 | 722 | 0 | 100.0 % |
 | Youpi ! L'école est finie | La Cinq | 1987→1992 | A | 5 | 1 | 0 | 1 | 1 | 0 | 100.0 % |
 | Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -368,17 +368,19 @@ _Généré le 2026-11-19 à 12:49:16 — parser v10 · fetch=auto_
 
 ### Les Visiteurs du mercredi · TF1
 
+**Œuvres citées au niveau émission** : Extraits Disney
+
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1975 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1976 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1977 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1978 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1979 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1980 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1981 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1982 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1983 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1975 | complet | 417 | A:417, B:417 | 375 | 42 | 417 | 83 | 0 |
+| 1976 | complet | 500 | A:500, B:500 | 454 | 46 | 500 | 50 | 0 |
+| 1977 | complet | 492 | A:492, B:492 | 453 | 39 | 492 | 45 | 0 |
+| 1978 | complet | 480 | A:480, B:480 | 437 | 43 | 480 | 26 | 0 |
+| 1979 | complet | 498 | A:498, B:498 | 457 | 41 | 498 | 59 | 0 |
+| 1980 | complet | 537 | A:537, B:537 | 489 | 48 | 537 | 53 | 0 |
+| 1981 | complet | 401 | A:401, B:401 | 357 | 44 | 401 | 49 | 0 |
+| 1982 | complet | 61 | A:61, B:61 | 55 | 6 | 61 | 14 | 0 |
+| 1983 | complet | 2 | A:2, B:2 | 2 | 0 | 2 | 2 | 0 |
 
 ### M6 Kid · M6
 
