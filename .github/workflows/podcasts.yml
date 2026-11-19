@@ -1,0 +1,45 @@
+name: 🎧 Podcast Index
+run-name: 🎧 Index ANISONG · Belle Histoire des Génériques Télé
+
+on:
+  schedule:
+    # Samedi 06:00 UTC — les épisodes sortent le vendredi 18:00 GMT
+    - cron: "0 6 * * 6"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Forcer même si l'index est à jour"
+        type: boolean
+        default: false
+
+concurrency:
+  group: podcast-index
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.11"}
+      - run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      - name: 🎧 Indexation hebdomadaire
+        run: python scraper/podcast_index.py
+      - name: 💾 Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/podcasts
+          if git diff --staged --quiet; then
+            echo "Index déjà à jour — aucun commit."
+          else
+            git commit -m "chore(podcast): index hebdo ANISONG"
+            git push
+          fi
