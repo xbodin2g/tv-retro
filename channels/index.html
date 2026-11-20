@@ -4,20 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>TV Rétro · Doublons &amp; routage des chaînes</title>
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#07060b">
+<meta name="color-scheme" content="dark"><meta name="theme-color" content="#07060b">
 <style>
 [hidden]{display:none!important}
-:root{
---ink:#07060b;--ink2:#0d0b14;--surf:#14121f;--surf2:#1c1929;--over:#262233;--line:#302b42;--line2:#4c4468;
---txt:#f5f1fd;--soft:#c6bddd;--muted:#968cb2;
---tf1:#3b74ff;--a2:#ff3d4a;--fr3:#2fd07a;--canal:#f2eee4;--cinq:#a855f7;--m6:#ff2d95;
---dup:#ff8a1f;--gold:#e8c66a;--cyan:#22d3ee;
---ok:#2fd07a;--warn:#ffb020;--bad:#ff3d4a;--info:#22d3ee;
---mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
---disp:"Bebas Neue",Impact,"Arial Narrow",ui-sans-serif,system-ui,sans-serif;
---body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
---r:14px;--tap:44px;--sh:0 14px 34px rgba(0,0,0,.5);--head:56px}
+:root{--ink:#07060b;--ink2:#0d0b14;--surf:#14121f;--surf2:#1c1929;--over:#262233;--line:#302b42;--line2:#4c4468;
+--txt:#f5f1fd;--soft:#c6bddd;--muted:#968cb2;--tf1:#3b74ff;--a2:#ff3d4a;--fr3:#2fd07a;--canal:#f2eee4;--cinq:#a855f7;--m6:#ff2d95;
+--dup:#ff8a1f;--gold:#e8c66a;--cyan:#22d3ee;--ok:#2fd07a;--warn:#ffb020;--bad:#ff3d4a;--info:#22d3ee;
+--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--disp:"Bebas Neue",Impact,"Arial Narrow",system-ui,sans-serif;
+--body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;--r:14px;--tap:44px;--sh:0 14px 34px rgba(0,0,0,.5);--head:56px}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;padding:0}
 body{background:var(--ink);color:var(--txt);font:15px/1.55 var(--body);overflow-x:hidden}
@@ -30,8 +24,6 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 ::-webkit-scrollbar-track{background:rgba(255,255,255,.06)}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--dup),var(--m6));border-radius:99px;border:3px solid var(--ink)}
 ::-webkit-scrollbar-thumb:hover{background:linear-gradient(var(--m6),var(--gold))}
-::-webkit-scrollbar-corner{background:rgba(255,255,255,.06)}
-
 .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .halo{position:absolute;border-radius:50%;filter:blur(90px);opacity:.22;animation:drift 32s ease-in-out infinite alternate}
 .h1{width:70vw;height:70vw;left:-24vw;top:-20vw;background:radial-gradient(circle,var(--dup),transparent 65%)}
@@ -41,7 +33,6 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .scan{position:absolute;inset:0;background:repeating-linear-gradient(180deg,rgba(255,255,255,.035) 0 1px,transparent 1px 4px);mix-blend-mode:overlay}
 .grain{position:absolute;inset:-40%;opacity:.04;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");animation:gr 7s steps(5) infinite}
 @keyframes gr{0%,100%{transform:translate(0,0)}33%{transform:translate(-2%,2%)}66%{transform:translate(2%,-2%)}}
-
 .head{position:sticky;top:0;z-index:40;background:rgba(7,6,11,.96);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .head::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,var(--tf1),var(--a2),var(--fr3),var(--canal),var(--cinq),var(--m6),var(--dup))}
 .head-in{display:flex;align-items:center;gap:.5rem;padding:.5rem .7rem;min-height:var(--head)}
@@ -61,34 +52,30 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .ib:hover{border-color:var(--dup);color:var(--dup)}
 .ib.on{border-color:var(--dup);color:var(--dup);background:rgba(255,138,31,.14)}
 .ib.off{opacity:.5}
-
 .tabs{position:sticky;top:var(--head);z-index:38;display:flex;gap:.3rem;padding:.4rem .7rem;overflow-x:auto;background:rgba(10,8,16,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);scrollbar-width:none}
 .tabs::-webkit-scrollbar{height:0}
 .tab{flex:0 0 auto;display:inline-flex;align-items:center;gap:.35rem;min-height:38px;border:1px solid var(--line);background:var(--surf);color:var(--soft);border-radius:99px;padding:.35rem .8rem;font:inherit;font-size:.8rem;font-weight:700;cursor:pointer;white-space:nowrap}
 .tab.on{background:linear-gradient(120deg,var(--dup),var(--m6));border-color:transparent;color:#180a02}
 .tab .b{font-family:var(--mono);font-size:.68rem;font-weight:800;background:rgba(0,0,0,.22);border-radius:99px;padding:0 .38rem;min-width:18px;text-align:center}
 .tab:not(.on) .b{background:var(--over);color:var(--soft)}
-
 .wrap{position:relative;z-index:1;max-width:1500px;margin:0 auto;padding:.8rem .7rem 6rem}
 .fatal{border:1px solid var(--bad);background:rgba(255,61,74,.12);border-radius:var(--r);padding:.7rem;margin-bottom:.7rem}
 .fatal b{display:block;color:var(--bad);font-size:.82rem;margin-bottom:.3rem}
 .fatal pre{margin:.3rem 0;font-family:var(--mono);font-size:.7rem;color:var(--soft);white-space:pre-wrap;word-break:break-word;max-height:130px;overflow:auto}
 .row{display:flex;gap:.35rem;flex-wrap:wrap}
-
 .hero{border:1px solid var(--dup);border-radius:var(--r);padding:.8rem;margin-bottom:.7rem;background:linear-gradient(135deg,rgba(255,138,31,.2),rgba(255,45,149,.12) 55%,rgba(59,116,255,.09));box-shadow:var(--sh)}
 .hero.calm{border-color:rgba(47,208,122,.55);background:linear-gradient(135deg,rgba(47,208,122,.16),rgba(34,211,238,.09))}
+.hero.alarm{border-color:var(--bad);background:linear-gradient(135deg,rgba(255,61,74,.2),rgba(255,138,31,.12))}
 .hero .k{font-size:.6rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--dup)}
-.hero.calm .k{color:var(--ok)}
+.hero.calm .k{color:var(--ok)}.hero.alarm .k{color:var(--bad)}
 .hero h2{font-family:var(--disp);font-size:1.5rem;letter-spacing:.03em;font-weight:400;line-height:1.05;margin:.2rem 0 .3rem}
 .hero p{margin:0;font-size:.85rem;color:var(--soft)}
 .hero small{display:block;margin-top:.3rem;font-size:.73rem;color:var(--muted)}
 .hero .row{margin-top:.6rem}
-
 .btn{font:inherit;font-weight:700;font-size:.83rem;border:1px solid var(--line2);background:var(--over);color:var(--txt);border-radius:10px;padding:.55rem .8rem;min-height:var(--tap);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:.32rem;transition:.14s;text-decoration:none}
 .btn:hover:not(:disabled){border-color:var(--dup)}
 .btn:active:not(:disabled){transform:scale(.98)}
 .btn:disabled{opacity:.4;cursor:not-allowed}
-.btn.wide{width:100%}
 .btn.primary{background:linear-gradient(120deg,var(--dup),var(--m6));border-color:transparent;color:#180a02}
 .btn.good{background:linear-gradient(120deg,var(--ok),var(--cyan));border-color:transparent;color:#05221a}
 .btn.danger{color:var(--bad);border-color:rgba(255,61,74,.5)}
@@ -98,7 +85,6 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .mini:hover{border-color:var(--dup);color:var(--dup)}
 .mini.good:hover{border-color:var(--ok);color:var(--ok)}
 .mini.bad:hover{border-color:var(--bad);color:var(--bad)}
-
 .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:.4rem;margin-bottom:.7rem}
 .stat{position:relative;overflow:hidden;background:var(--surf);border:1px solid var(--line);border-radius:12px;padding:.5rem .6rem;min-width:0}
 .stat::before{content:"";position:absolute;inset:0 auto 0 0;width:3px}
@@ -106,7 +92,6 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .s5::before{background:var(--cinq)}.s6::before{background:var(--cyan)}.s7::before{background:var(--m6)}.s8::before{background:var(--gold)}
 .stat b{display:block;font-family:var(--mono);font-size:1.16rem;line-height:1.2}
 .stat span{font-size:.58rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
-
 .card{background:var(--surf);border:1px solid var(--line);border-radius:var(--r);margin-bottom:.7rem;box-shadow:var(--sh)}
 .card>header{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;padding:.55rem .7rem;background:var(--surf2);border-bottom:1px solid var(--line);border-radius:var(--r) var(--r) 0 0}
 .card>header strong{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
@@ -114,7 +99,6 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .card .pad{padding:.7rem}
 .sp{flex:1}
 .cnt{font-family:var(--mono);font-size:.68rem;font-weight:800;background:var(--dup);color:#180a02;border-radius:99px;padding:.06rem .48rem}
-
 .tools{display:grid;grid-template-columns:1fr;gap:.5rem}
 .f{display:flex;flex-direction:column;gap:.2rem;min-width:0}
 .f>label{font-size:.58rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -126,15 +110,11 @@ input[type=checkbox]{width:20px;height:20px;min-height:0;accent-color:var(--dup)
 .seg{display:flex;gap:.25rem;background:var(--ink2);border:1px solid var(--line2);border-radius:10px;padding:.2rem}
 .seg button{flex:1;min-height:36px;border:0;background:transparent;color:var(--soft);border-radius:8px;font:inherit;font-size:.76rem;font-weight:700;cursor:pointer;padding:.3rem .4rem}
 .seg button.on{background:linear-gradient(120deg,var(--dup),var(--m6));color:#180a02}
-
 .chips{display:flex;gap:.3rem;flex-wrap:wrap}
 .vchip{display:inline-flex;gap:.35rem;align-items:center;border:1px dashed var(--line2);background:transparent;color:var(--soft);border-radius:99px;padding:.35rem .65rem;font:inherit;font-size:.74rem;cursor:pointer;min-height:36px}
 .vchip i{font-style:normal;color:var(--bad);font-weight:900}
-
-/* ---- doublons : blocs, jamais de flex compressible ---- */
 .dup{display:block;border:1px solid var(--line);border-left:4px solid var(--dup);border-radius:12px;background:var(--surf2);margin-bottom:.6rem}
-.dup.done{border-left-color:var(--ok)}
-.dup.legit{border-left-color:var(--info)}
+.dup.done{border-left-color:var(--ok)}.dup.legit{border-left-color:var(--info)}
 .dup-h{padding:.55rem .65rem;border-bottom:1px solid var(--line)}
 .dup-h .t{font-weight:700;font-size:.92rem;line-height:1.3;word-break:break-word}
 .dup-h .m{margin-top:.2rem;font-family:var(--mono);font-size:.7rem;color:var(--muted);display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
@@ -158,17 +138,13 @@ input[type=checkbox]{width:20px;height:20px;min-height:0;accent-color:var(--dup)
 .occ-a{display:flex;gap:.3rem;flex-wrap:wrap;margin-top:.45rem}
 .dup-a{display:flex;gap:.35rem;flex-wrap:wrap;padding:0 .65rem .6rem}
 .dup-a .btn{flex:1 1 160px}
-
 .drow{display:block;width:100%;text-align:left;border:1px solid var(--line);border-left:4px solid var(--dup);border-radius:11px;background:var(--surf2);padding:.5rem .6rem;margin-bottom:.4rem;font:inherit;color:inherit;cursor:pointer}
-.drow.done{border-left-color:var(--ok)}
-.drow.legit{border-left-color:var(--info)}
+.drow.done{border-left-color:var(--ok)}.drow.legit{border-left-color:var(--info)}
 .drow .l1{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
 .drow .l1 b{flex:1;min-width:120px;font-size:.85rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .drow .l2{margin-top:.2rem;font-family:var(--mono);font-size:.69rem;color:var(--muted);display:flex;gap:.35rem;flex-wrap:wrap}
-
 .more{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center;justify-content:center;padding:.6rem 0}
 .more .lbl{font-size:.75rem;color:var(--muted);font-family:var(--mono);width:100%;text-align:center}
-
 .chip{font-size:.66rem;font-weight:900;letter-spacing:.03em;text-transform:uppercase;border-radius:7px;padding:.18rem .5rem;color:#0a0810;white-space:nowrap;display:inline-block}
 .tag{font-size:.6rem;font-weight:900;letter-spacing:.04em;text-transform:uppercase;border-radius:99px;padding:.14rem .46rem;border:1px solid transparent;white-space:nowrap;display:inline-block}
 .tag.n{background:var(--over);border-color:var(--line2);color:var(--soft);font-family:var(--mono)}
@@ -177,21 +153,17 @@ input[type=checkbox]{width:20px;height:20px;min-height:0;accent-color:var(--dup)
 .tag.ok{background:rgba(47,208,122,.16);border-color:var(--ok);color:var(--ok)}
 .tag.dup{background:rgba(255,138,31,.18);border-color:var(--dup);color:var(--dup)}
 .tag.info{background:rgba(34,211,238,.16);border-color:var(--info);color:var(--info)}
-
 .issue{display:block;border:1px solid var(--line);border-left:4px solid var(--line2);border-radius:11px;background:var(--surf2);padding:.55rem .6rem;margin-bottom:.45rem}
 .issue.bad{border-left-color:var(--bad)}.issue.warn{border-left-color:var(--warn)}.issue.info{border-left-color:var(--info)}
 .issue b{display:block;font-size:.85rem;line-height:1.3}
 .issue small{display:block;margin-top:.2rem;color:var(--muted);font-size:.72rem;font-family:var(--mono);word-break:break-word}
 .issue .row{margin-top:.45rem}
-
 .rt{display:block;border:1px solid var(--line);border-left:4px solid var(--line2);border-radius:11px;background:var(--surf2);padding:.55rem .6rem;margin-bottom:.45rem}
 .rt.unknown{border-left-color:var(--bad)}.rt.composite{border-left-color:var(--warn)}.rt.mapped{border-left-color:var(--ok)}
 .rt .l1{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap}
 .rt .raw{font-family:var(--mono);font-size:.82rem;font-weight:700;word-break:break-word;flex:1;min-width:100px}
 .rt .l2{display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;margin-top:.45rem}
 .rt select{flex:1;min-width:150px}
-
-.grid{display:block}
 .chblock{display:block;border:1px solid var(--line);border-radius:12px;background:var(--surf2);margin-bottom:.55rem}
 .chh{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;padding:.5rem .6rem;border-bottom:1px solid var(--line);cursor:pointer}
 .chh .meta{font-size:.69rem;color:var(--muted);font-family:var(--mono)}
@@ -201,24 +173,20 @@ input[type=checkbox]{width:20px;height:20px;min-height:0;accent-color:var(--dup)
 .prog:first-child{border-top:0}
 .prog.sel{background:rgba(255,138,31,.12);border-radius:8px}
 .prog.dupd{background:rgba(255,138,31,.08);border-radius:8px}
-.prog.hid{opacity:.5}
-.prog.hid .pb b{text-decoration:line-through}
+.prog.hid{opacity:.5}.prog.hid .pb b{text-decoration:line-through}
 .prog .pt{font-family:var(--mono);font-weight:800;color:var(--gold);min-width:44px;flex:0 0 auto}
 .prog .pb{flex:1;min-width:0}
 .prog .pb b{display:block;font-weight:600;line-height:1.3;word-break:break-word}
 .prog .pb small{display:block;color:var(--muted);font-size:.68rem;font-family:var(--mono);word-break:break-word}
 .prog .pa{display:flex;gap:.25rem;flex-wrap:wrap;flex:0 0 auto;justify-content:flex-end;max-width:44%}
-
 .bulkbar{position:fixed;left:0;right:0;bottom:0;z-index:45;display:flex;gap:.4rem;align-items:center;flex-wrap:wrap;padding:.6rem .7rem calc(.6rem + env(safe-area-inset-bottom));background:rgba(20,18,31,.98);backdrop-filter:blur(14px);border-top:2px solid var(--dup);box-shadow:0 -10px 30px rgba(0,0,0,.5)}
 .bulkbar b{color:var(--dup);font-family:var(--mono)}
 .bulkbar select{flex:1;min-width:120px;min-height:38px}
 body.hasbulk{padding-bottom:120px}
-
 .empty{text-align:center;padding:2rem .8rem;color:var(--muted)}
 .empty b{display:block;color:var(--soft);font-size:.95rem;margin-bottom:.35rem}
 .hint{color:var(--muted);font-size:.74rem;margin:.35rem 0}
 .status{color:var(--muted);font-size:.75rem;margin:.5rem 0;font-family:var(--mono)}
-
 .scrim{position:fixed;inset:0;z-index:50;background:rgba(4,3,8,.82);backdrop-filter:blur(4px);animation:fi .18s both}
 @keyframes fi{from{opacity:0}}
 .drawer{position:fixed;inset:0;z-index:60;display:flex;flex-direction:column;background:var(--surf);animation:up .24s cubic-bezier(.2,.8,.2,1) both}
@@ -245,8 +213,11 @@ body.hasbulk{padding-bottom:120px}
 .call.dup{border-left-color:var(--dup);background:rgba(255,138,31,.09)}
 .call.ok{border-left-color:var(--ok);background:rgba(47,208,122,.08)}
 .call.warn{border-left-color:var(--warn);background:rgba(255,176,32,.08)}
+.call.bad{border-left-color:var(--bad);background:rgba(255,61,74,.1)}
 .kbd{font-family:var(--mono);font-size:.72rem;background:var(--over);border:1px solid var(--line2);border-radius:5px;padding:.04rem .3rem;color:var(--gold)}
 .exrow{display:flex;gap:.45rem;align-items:center;background:var(--surf2);border:1px solid var(--line);border-radius:11px;padding:.55rem .6rem;margin-bottom:.4rem;flex-wrap:wrap}
+.exrow.hero-file{border-color:var(--ok);background:linear-gradient(180deg,rgba(47,208,122,.1),transparent)}
+.exrow.opt{opacity:.85}
 .exrow .tx{flex:1;min-width:140px}
 .exrow .tx b{display:block;font-size:.84rem}
 .exrow .tx small{display:block;color:var(--muted);font-size:.7rem}
@@ -255,29 +226,19 @@ body.hasbulk{padding-bottom:120px}
 .jrow .l1{display:flex;gap:.4rem;align-items:center;flex-wrap:wrap}
 .jrow .l1 b{flex:1;min-width:110px;font-size:.84rem}
 .jrow .l2{margin-top:.2rem;font-family:var(--mono);font-size:.7rem;color:var(--muted);word-break:break-word}
-
 .toasts{position:fixed;left:.6rem;right:.6rem;bottom:.6rem;z-index:95;display:flex;flex-direction:column;gap:.4rem;pointer-events:none}
 body.hasbulk .toasts{bottom:130px}
 .toast{pointer-events:auto;display:flex;gap:.5rem;align-items:center;background:var(--over);border:1px solid var(--line2);border-left:4px solid var(--ok);border-radius:11px;padding:.6rem .7rem;font-size:.81rem;box-shadow:var(--sh);animation:ti .2s both}
 .toast.warn{border-left-color:var(--warn)}.toast.err{border-left-color:var(--bad)}.toast.info{border-left-color:var(--info)}.toast.dup{border-left-color:var(--dup)}
 .toast span{flex:1;min-width:0}
 .toast button{border:1px solid var(--line2);background:transparent;color:var(--gold);border-radius:8px;padding:.35rem .6rem;font:inherit;font-size:.74rem;font-weight:800;cursor:pointer;white-space:nowrap;min-height:34px}
-
-@media(min-width:720px){
- .wrap{padding:1rem 1.1rem 5rem}
- .tools{grid-template-columns:repeat(2,1fr)}
- .stats{grid-template-columns:repeat(4,1fr)}
- .brand h1{font-size:1.5rem}
- .hero h2{font-size:1.9rem}
- .dup-body{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.5rem}
- .occ{margin-bottom:0}
- .drawer{inset:0 0 0 auto;width:min(560px,100%);border-left:1px solid var(--line2);animation:sl .24s cubic-bezier(.2,.8,.2,1) both}
- .drawer.wide{width:min(760px,100%)}
- @keyframes sl{from{transform:translateX(100%)}}
- .toasts{left:50%;right:auto;transform:translateX(-50%);width:min(560px,calc(100% - 1.2rem))}
- .grid.side{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;align-items:start}
- .prog .pa{max-width:38%}
-}
+@media(min-width:720px){.wrap{padding:1rem 1.1rem 5rem}.tools{grid-template-columns:repeat(2,1fr)}.stats{grid-template-columns:repeat(4,1fr)}
+.brand h1{font-size:1.5rem}.hero h2{font-size:1.9rem}
+.dup-body{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:.5rem}.occ{margin-bottom:0}
+.drawer{inset:0 0 0 auto;width:min(560px,100%);border-left:1px solid var(--line2);animation:sl .24s cubic-bezier(.2,.8,.2,1) both}
+.drawer.wide{width:min(760px,100%)}@keyframes sl{from{transform:translateX(100%)}}
+.toasts{left:50%;right:auto;transform:translateX(-50%);width:min(560px,calc(100% - 1.2rem))}
+.grid.side{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;align-items:start}.prog .pa{max-width:38%}}
 @media(min-width:1080px){.tools{grid-template-columns:repeat(4,1fr)}.stats{grid-template-columns:repeat(8,1fr)}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -285,35 +246,31 @@ body.hasbulk .toasts{bottom:130px}
 <body>
 <div class="bg" aria-hidden="true"><span class="halo h1"></span><span class="halo h2"></span><span class="halo h3"></span><span class="scan"></span><span class="grain"></span></div>
 
-<header class="head">
-  <div class="head-in">
-    <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
-    <div class="brand"><h1>DOUBLONS <em>&amp; ROUTAGE</em></h1><p id="stamp">initialisation…</p></div>
-    <div class="head-acts">
-      <button class="ib on" id="b-sound" type="button" aria-label="Sons">🔔</button>
-      <button class="ib" id="b-guide" type="button" aria-label="Guide">📖</button>
-      <button class="ib" id="b-export" type="button" aria-label="Exporter">📥</button>
-      <button class="ib" id="b-reload" type="button" aria-label="Recharger">↻</button>
-    </div>
+<header class="head"><div class="head-in">
+  <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+  <div class="brand"><h1>DOUBLONS <em>&amp; ROUTAGE</em></h1><p id="stamp">initialisation…</p></div>
+  <div class="head-acts">
+    <button class="ib on" id="b-sound" type="button" aria-label="Sons">🔔</button>
+    <button class="ib" id="b-guide" type="button" aria-label="Guide">📖</button>
+    <button class="ib" id="b-export" type="button" aria-label="Exporter">📥</button>
+    <button class="ib" id="b-reload" type="button" aria-label="Recharger">↻</button>
   </div>
-</header>
+</div></header>
 
 <nav class="tabs" id="tabs" aria-label="Espaces de travail"></nav>
 
 <main class="wrap">
-  <div class="fatal" id="fatal" hidden>
-    <b>⛔ Problème d'affichage intercepté</b><pre id="fatal-msg"></pre>
-    <div class="row"><button class="btn sm" id="fatal-copy" type="button">📋 Copier</button><button class="btn sm" id="fatal-retry" type="button">↻ Reconstruire</button><button class="btn sm ghost" id="fatal-hide" type="button">Masquer</button></div>
-  </div>
+  <div class="fatal" id="fatal" hidden><b>⛔ Problème d'affichage intercepté</b><pre id="fatal-msg"></pre>
+    <div class="row"><button class="btn sm" id="fatal-copy" type="button">📋 Copier</button><button class="btn sm" id="fatal-retry" type="button">↻ Reconstruire</button><button class="btn sm ghost" id="fatal-hide" type="button">Masquer</button></div></div>
 
   <section class="hero" id="hero">
-    <div class="k" id="hero-k">Prochaine action</div>
-    <h2 id="hero-t">…</h2>
+    <div class="k" id="hero-k">Prochaine action</div><h2 id="hero-t">…</h2>
     <p id="hero-p"></p><small id="hero-s"></small>
     <div class="row"><button class="btn primary" id="hero-do" type="button">Agir</button><button class="btn ghost sm" id="hero-why" type="button">Pourquoi ?</button></div>
   </section>
 
   <div class="call warn" id="demo-note" hidden></div>
+  <div class="call bad" id="pipe-note" hidden></div>
 
   <section class="stats" id="stats"></section>
 
@@ -358,8 +315,7 @@ body.hasbulk .toasts{bottom:130px}
         <p class="hint" id="dup-help"></p>
       </div>
     </div>
-    <div id="dup-list"></div>
-    <div class="more" id="dup-more"></div>
+    <div id="dup-list"></div><div class="more" id="dup-more"></div>
   </section>
 
   <section id="v-grid" hidden>
@@ -380,20 +336,18 @@ body.hasbulk .toasts{bottom:130px}
         <p class="hint">Coche des lignes pour agir en masse : la barre d'action apparaît en bas.</p>
       </div>
     </div>
-    <div class="grid" id="grid-wrap"></div>
-    <div class="more" id="grid-more"></div>
+    <div class="grid" id="grid-wrap"></div><div class="more" id="grid-more"></div>
   </section>
 
   <section id="v-route" hidden>
     <div class="card">
       <header><strong>Table de routage</strong><span class="sp"></span><span class="cnt" id="rt-cnt">0</span><button class="mini bad" id="rt-reset" type="button">Réinitialiser</button></header>
-      <div class="note">Un libellé brut → une chaîne. Effet immédiat. Les libellés douteux remontent en tête.</div>
+      <div class="note">Un libellé brut → une chaîne. Ces routes sont appliquées par <code>generate_index.py</code> sur les sources, à chaque régénération.</div>
       <div class="pad"><div class="row"><button class="btn sm" id="rt-auto" type="button">✨ Auto-router les douteux</button></div>
       <p class="hint" style="margin-top:.5rem">Ordre d'affichage des chaînes — glisse pour réordonner :</p>
       <div class="chips" id="order" style="margin-top:.35rem"></div></div>
     </div>
-    <div id="rt-list"></div>
-    <div class="more" id="rt-more"></div>
+    <div id="rt-list"></div><div class="more" id="rt-more"></div>
   </section>
 
   <section id="v-issue" hidden>
@@ -401,30 +355,31 @@ body.hasbulk .toasts{bottom:130px}
       <header><strong>Autres anomalies</strong><span class="sp"></span><span class="cnt" id="is-cnt">0</span><button class="mini" id="is-fix" type="button">🔧 Tout corriger</button></header>
       <div class="note">Libellés inconnus, composites, chaînes hors époque, titres nomades, doublons exacts. Le chevauchement n'est plus signalé : un flash info d'une minute le déclenchait à tort.</div>
     </div>
-    <div id="is-list"></div>
-    <div class="more" id="is-more"></div>
+    <div id="is-list"></div><div class="more" id="is-more"></div>
   </section>
 
   <section id="v-journal" hidden>
     <div class="card">
+      <header><strong>État du pipeline</strong><span class="sp"></span><span class="cnt" id="pp-cnt">—</span></header>
+      <div class="pad" id="pipe-box"></div>
+    </div>
+    <div class="card">
       <header><strong>Journal des corrections</strong><span class="sp"></span><span class="cnt" id="jr-cnt">0</span></header>
-      <div class="note">Chaque décision est réversible. Les masquages retirent la ligne du fichier exporté sans toucher à la source.</div>
+      <div class="note">Tes décisions sont rechargées à chaque ouverture. Elles vivent dans <code>data/channel-routing.json</code>, jamais dans <code>data/AAAA.json</code> qui est régénéré.</div>
       <div class="pad"><div class="row">
         <button class="btn sm ghost" id="jr-undo" type="button">↺ Annuler la dernière</button>
         <button class="btn sm danger" id="jr-clear" type="button">🗑 Tout réinitialiser</button>
         <button class="btn sm primary" id="jr-export" type="button">📥 Exporter</button>
       </div></div>
     </div>
-    <div id="jr-list"></div>
-    <div class="more" id="jr-more"></div>
+    <div id="jr-list"></div><div class="more" id="jr-more"></div>
   </section>
 
   <p class="status" id="status"></p>
 </main>
 
 <div class="bulkbar" id="bulk" hidden>
-  <span><b id="bulk-n">0</b> sélectionné(s)</span>
-  <select id="bulk-ch"></select>
+  <span><b id="bulk-n">0</b> sélectionné(s)</span><select id="bulk-ch"></select>
   <button class="mini good" id="bulk-apply" type="button">✔ Réassigner</button>
   <button class="mini bad" id="bulk-hide" type="button">🚫 Masquer</button>
   <button class="mini" id="bulk-restore" type="button">↺ Restaurer</button>
@@ -440,20 +395,20 @@ body.hasbulk .toasts{bottom:130px}
 
 <div class="scrim" id="gscrim" hidden></div>
 <aside class="drawer wide" id="gdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="g-t">
-  <header><div><h2 id="g-t">📖 Guide</h2><p>Doublons, scores, résolution, dépôt.</p></div><button class="x" id="g-x" type="button" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="g-t">📖 Guide</h2><p>Doublons, scores, pipeline, dépôt.</p></div><button class="x" id="g-x" type="button" aria-label="Fermer">✕</button></header>
   <div class="body" id="g-b"></div>
   <footer><button class="btn primary" id="g-next" type="button">▶ Ma prochaine étape</button><button class="btn ghost" id="g-x2" type="button">Fermer</button></footer>
 </aside>
 
 <div class="scrim" id="escrim" hidden></div>
 <aside class="drawer wide" id="edrawer" hidden role="dialog" aria-modal="true" aria-labelledby="e-t">
-  <header><div><h2 id="e-t">📥 Exporter</h2><p>Routage, année corrigée, rapport.</p></div><button class="x" id="e-x" type="button" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="e-t">📥 Exporter</h2><p>Un seul fichier à déposer.</p></div><button class="x" id="e-x" type="button" aria-label="Fermer">✕</button></header>
   <div class="body">
     <div id="ex-list"></div>
-    <div class="gsec" id="depot"><h4>Où déposer les fichiers</h4><div class="in" id="depot-in"></div></div>
-    <div><p class="status">Routage persistant</p><div class="cmd" id="rt-preview"></div></div>
+    <div class="gsec" id="depot"><h4>La procédure exacte</h4><div class="in" id="depot-in"></div></div>
+    <div><p class="status">Aperçu du fichier persistant</p><div class="cmd" id="rt-preview"></div></div>
   </div>
-  <footer><button class="btn primary" id="e-all" type="button">📦 Tout télécharger</button><button class="btn ghost" id="e-git" type="button">📋 Commandes git</button></footer>
+  <footer><button class="btn primary" id="e-main" type="button">📥 channel-routing.json</button><button class="btn ghost" id="e-git" type="button">📋 Commandes git</button></footer>
 </aside>
 
 <div class="toasts" id="toasts" aria-live="polite"></div>
@@ -467,8 +422,7 @@ function nf(n){return Number(n||0).toLocaleString('fr-FR');}
 function ls(k,d){try{var v=localStorage.getItem(k);return v===null?d:v;}catch(e){return d;}}
 function put(k,v){try{localStorage.setItem(k,v);}catch(e){}}
 function jls(k,d){try{var v=ls(k,null);return v?JSON.parse(v):d;}catch(e){return d;}}
-var KR='tvretroDup3',KV='tvretroDupViews3',KS='tvretroDupSound',KO='tvretroDupOrder',KC='tvretroDupCompact';
-
+var KR='tvretroDup4',KV='tvretroDupViews4',KS='tvretroDupSound',KO='tvretroDupOrder',KC='tvretroDupCompact';
 var CH={'ORTF 1':{c:'#8b81a6',a:1964,z:1975},'ORTF 2':{c:'#a855f7',a:1964,z:1975},'ORTF 3':{c:'#22d3ee',a:1972,z:1975},
 'TF1':{c:'#3b74ff',a:1975,z:2100},'Antenne 2':{c:'#ff3d4a',a:1975,z:1992},'France 2':{c:'#ff6b3d',a:1992,z:2100},
 'FR3':{c:'#2fd07a',a:1975,z:1992},'France 3':{c:'#16a34a',a:1992,z:2100},'Canal+':{c:'#f2eee4',a:1984,z:2100},
@@ -486,32 +440,27 @@ var ALIAS={'OR1':'ORTF 1','OR2':'ORTF 2','OR3':'ORTF 3','ORTF1':'ORTF 1','ORTF2'
 'L7':'La Sept','LA7':'La Sept','LASEPT':'La Sept','SEPT':'La Sept','ARTE':'Arte','ARTEFR':'Arte','FRANCE5':'France 5','F5':'France 5'};
 var TOK=[[/canal\s*\+|\bc\+/i,'Canal+'],[/la\s*cinq|\bla\s*5\b|\bl\s*5\b/i,'La Cinq'],[/\bm\s*6\b|metropole/i,'M6'],[/tv\s*6\b/i,'TV6'],[/\bfr\s*3\b|france\s*3\b/i,'FR3'],[/antenne\s*2|\ba\s*2\b/i,'Antenne 2'],[/\btf\s*1\b/i,'TF1'],[/\barte\b/i,'Arte'],[/la\s*sept\b/i,'La Sept']];
 var LIGHT=['#f2eee4','#e8c66a','#2fd07a','#22d3ee','#ffb020','#38bdf8','#c084fc','#f472b6','#8b81a6','#ff6b3d','#ff8a1f'];
-var GENERIC=['meteo','flash info','flash infos','info','infos','journal','le journal','jt','cinema','film','films','serie','series','feuilleton','documentaire','magazine','jeu','jeux','varietes','musique','clips','clip','dessin anime','dessins animes','jeunesse','programme','programmes','fin des emissions','fin des programmes','arret des emissions','intermede','bande annonce','bandes annonces','publicite','pub','teaser','habillage','jingle','generique','sommaire','annonce','annonces','prochainement','suite','plateau','animation','presentation','relais','concours','dedicaces','courrier','opening','closing','indicatif','tapis vert','prelude','tirage du loto','loterie','sponsoring','autopromo','remplissage','pause','interlude','a suivre','debut des emissions','nuit','nuit blanche'];
-
-var sv=jls(KR,{routes:{},legit:{}}),so=jls(KO,null);
-var S={year:1987,srcMode:'auto',source:'demo',raw:[],days:[],routes:sv.routes||{},legit:sv.legit||{},ov:{},
+var GENERIC=['meteo','flash info','flash infos','info','infos','journal','le journal','jt','cinema','film','films','serie','series','feuilleton','documentaire','magazine','jeu','jeux','varietes','musique','clips','clip','dessin anime','dessins animes','jeunesse','programme','programmes','fin des emissions','fin des programmes','arret des emissions','intermede','bande annonce','bandes annonces','publicite','pub','teaser','habillage','jingle','generique','sommaire','annonce','annonces','prochainement','suite','plateau','animation','presentation','relais','concours','dedicaces','courrier','opening','closing','indicatif','tapis vert','prelude','tirage du loto','loterie','sponsoring','autopromo','remplissage','pause','interlude','a suivre','debut des emissions','nuit'];
+var sv=jls(KR,{routes:{},legit:{},ov:{}}),so=jls(KO,null);
+var S={year:1987,srcMode:'auto',source:'demo',raw:[],days:[],routes:sv.routes||{},legit:sv.legit||{},ov:{},pendingOv:sv.ov||{},
  order:(Array.isArray(so)&&so.length)?so.filter(function(c){return CH[c];}).concat(ORDER0.filter(function(c){return so.indexOf(c)<0;})):ORDER0.slice(),
- tab:'dup',dupView:'cards',dupFilter:'open',dupSort:'gap',dupStep:20,dupLimit:20,
- gridMode:'after',gridFilter:'all',gridSort:'time',gridDay:'all',gridLimit:14,fold:{},
- rtLimit:25,isLimit:25,jrLimit:25,
+ pipe:null,tab:'dup',dupView:'cards',dupFilter:'open',dupSort:'gap',dupStep:20,dupLimit:20,
+ gridMode:'after',gridFilter:'all',gridSort:'time',gridDay:'all',gridLimit:14,fold:{},rtLimit:25,isLimit:25,jrLimit:25,
  q:'',ch:'all',tol:90,conf:25,gen:true,era:true,split:true,compact:ls(KC,'0')==='1',
  sel:{},selN:0,views:jls(KV,[]),undo:[],sound:ls(KS,'on')!=='off',detail:null,dirty:false,exported:false,
- errors:[],ts:{},dups:[],exacts:[],nomads:[],skipped:0};
-
+ errors:[],ts:{},dups:[],exacts:[],nomads:[],skipped:0,restored:0,orphanOv:0};
 function rep(w,e){var m=(e&&e.message)?e.message:String(e);S.errors.push(w+' : '+m);try{console.error('[dup]',w,e);}catch(x){}
  var b=$('#fatal');if(b){b.hidden=false;$('#fatal-msg').textContent=S.errors.slice(-5).join('\n');}}
 function safe(w,f){try{f();}catch(e){rep(w,e);}}
 window.addEventListener('error',function(e){rep('runtime',e.error||e.message);});
 window.addEventListener('unhandledrejection',function(e){rep('promesse',e.reason);});
-
 var AC=null;
 function snd(k){if(!S.sound)return;try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state==='suspended')AC.resume();
  var q=k==='ok'?[[620,0],[930,.08]]:k==='bad'?[[210,0],[160,.1]]:k==='dup'?[[480,0],[380,.09],[560,.18]]:k==='warn'?[[420,0],[330,.09]]:[[540,0]];
  q.forEach(function(p){var o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime+p[1];o.type=k==='bad'?'sawtooth':'triangle';o.frequency.value=p[0];
  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(k==='bad'?.05:.038,t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+.17);
  o.connect(g);g.connect(AC.destination);o.start(t);o.stop(t+.19);});}catch(e){}}
-function rSound(){var b=$('#b-sound');b.textContent=S.sound?'🔔':'🔕';b.className='ib '+(S.sound?'on':'off');b.setAttribute('aria-label',S.sound?'Couper les sons':'Activer les sons');}
-
+function rSound(){var b=$('#b-sound');b.textContent=S.sound?'🔔':'🔕';b.className='ib '+(S.sound?'on':'off');}
 function nm(v){return String(v==null?'':v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim();}
 function ky(v){return nm(v).replace(/\s+/g,'').toUpperCase();}
 function nd(d){if(!d)return null;var p=String(d).trim().split(/[-\/]/);if(p.length!==3)return null;var a,b,c;
@@ -529,21 +478,19 @@ function eraOk(c,d){if(!S.era)return true;var n=nd(d);if(!n)return false;var p=n
  if(c==='TV6')return y===1986||(y===1987&&m<3);
  if(c==='Antenne 2'||c==='FR3')return y<1992||(y===1992&&m<9);
  if(c==='France 2'||c==='France 3')return y>1992||(y===1992&&m>=9);
- if(c==='Arte')return y>1992||(y===1992&&m>=10);if(c==='La Sept')return y>=1989&&y<=1992;
- return y>=i.a&&y<=i.z;}
+ if(c==='Arte')return y>1992||(y===1992&&m>=10);if(c==='La Sept')return y>=1989&&y<=1992;return y>=i.a&&y<=i.z;}
 function alt(c){return c==='M6'?'TV6':c==='TV6'?'M6':c==='France 2'?'Antenne 2':c==='Antenne 2'?'France 2':c==='France 3'?'FR3':c==='FR3'?'France 3':c==='Arte'?'La Sept':c==='La Cinq'?'TV6':'Autres';}
 function toks(r){var o=[];TOK.forEach(function(t){if(t[0].test(r)&&o.indexOf(t[1])<0)o.push(t[1]);});return o;}
 function auto(r){var k=ky(r);if(ALIAS[k])return ALIAS[k];var t=toks(r);return t.length===1?t[0]:'';}
 function canon(r){var k=ky(r),t=toks(r);if(S.routes[k])return{ch:S.routes[k],how:'manuel',tk:t};
  var a=auto(r);if(a)return{ch:a,how:'auto',tk:t};
  if(S.split&&t.length>1)return{ch:t[0],how:'composite',tk:t};return{ch:'Autres',how:'inconnu',tk:t};}
-function pid(p){return p.date+'__'+(p.time||'sans-heure').replace(':','h')+'__'+ky(p.raw)+'__'+nm(p.title).replace(/\s+/g,'-').slice(0,40);}
+function sig(p){return p.date+'|'+(p.time||'')+'|'+nm(p.title)+'|'+ky(p.raw);}
+function pid(p){return sig(p);}
 function oi(c){var i=S.order.indexOf(c);return i<0?99:i;}
 function ovr(id){var o=S.ov[id];if(!o)return null;return typeof o==='string'?{act:'reassign',ch:o}:o;}
-function generic(t){var n=nm(t);if(!n||n.length<4)return true;if(/^\d+$/.test(n))return true;
- if(GENERIC.indexOf(n)>=0)return true;
+function generic(t){var n=nm(t);if(!n||n.length<4)return true;if(/^\d+$/.test(n))return true;if(GENERIC.indexOf(n)>=0)return true;
  for(var i=0;i<GENERIC.length;i++){var g=GENERIC[i];if(g.length>5&&(n===g||n.indexOf(g+' ')===0))return true;}return false;}
-
 function eraS(c,d){var p=d.split('-'),y=+p[2],m=+p[1];
  if(c==='La Cinq')return y>1986||(y===1986&&m>=2);if(c==='M6')return y>1987||(y===1987&&m>=3);
  if(c==='Antenne 2'||c==='FR3')return y<1992||(y===1992&&m<9);if(c==='France 2'||c==='France 3')return y>1992||(y===1992&&m>=9);
@@ -559,8 +506,7 @@ var RAWS={'TF1':['TF1','TF 1','Télévision Française 1'],'Antenne 2':['Antenne
 function seed(y){var ds=['07-01-'+y,'11-02-'+y,'04-03-'+y,'15-04-'+y,'09-09-'+y,'21-10-'+y,'16-12-'+y];
  return ds.map(function(d,di){var ps=[];
   BASE.forEach(function(r,i){if(!eraS(r[0],d))return;ps.push({date:d,time:r[1],title:r[2],raw:RAWS[r[0]][(di+i)%RAWS[r[0]].length],desc:''});});
-  if(y===1987&&di>=2){
-   ps.push({date:d,time:'08:00',title:"Youpi l'école est finie",raw:'C+',desc:'heure identique'});
+  if(y===1987&&di>=2){ps.push({date:d,time:'08:00',title:"Youpi l'école est finie",raw:'C+',desc:'heure identique'});
    ps.push({date:d,time:'11:00',title:'Multitop',raw:'Canal+ / La Cinq',desc:'bien intercalé'});
    ps.push({date:d,time:'15:00',title:'Côte Ouest',raw:'6',desc:'décalé'});}
   if(y===1987&&di===4)ps.push({date:d,time:'09:00',title:'Multitop',raw:'M 6',desc:'ligne dupliquée'});
@@ -573,9 +519,19 @@ function mini(){var d='04-03-1987';return[{date:d,src:'essai',programs:[
  {date:d,time:'09:00',title:'Multitop',raw:'M 6',desc:''},
  {date:d,time:'12:00',title:'Midi Première Canal',raw:'Canal+',desc:''}]}];}
 function flat(){S.raw=[];S.days.forEach(function(d){d.programs.forEach(function(p){
- var o={date:p.date,time:p.time,title:p.title,raw:p.raw,desc:p.desc||''};o.id=pid(o);S.raw.push(o);});});}
-
-/* ---------- moteur ---------- */
+ var o={date:p.date,time:p.time,title:p.title,raw:p.raw,desc:p.desc||''};o.id=pid(o);S.raw.push(o);});});restoreOv();}
+function restoreOv(){
+ var src=S.pendingOv||{},map={},n=0;
+ Object.keys(src).forEach(function(k){var v=src[k];if(!v||typeof v!=='object')return;
+  var s=v.sig||k;map[s]={act:v.action||v.act||'reassign',ch:v.channel||v.ch||''};
+  var ds=nd(v.date)||v.date||'',t=nt(v.time);
+  map[ds+'|'+t+'|'+nm(v.title)+'|'+ky(v.raw_channel||v.raw||'')]=map[s];});
+ S.ov={};S.restored=0;S.orphanOv=0;
+ var seen={};
+ S.raw.forEach(function(p){var o=map[sig(p)];if(o&&!seen[sig(p)]){S.ov[p.id]={act:o.act,ch:o.ch};S.restored++;seen[sig(p)]=1;}});
+ var used={};Object.keys(S.ov).forEach(function(id){used[id]=1;});
+ S.orphanOv=Math.max(0,Object.keys(src).length-S.restored);
+ S.pendingOv=src;}
 function engine(){
  S.raw.forEach(function(p){var c=canon(p.raw),o=ovr(p.id);
   p.auto=c.ch;p.how=c.how;p.tk=c.tk;
@@ -594,11 +550,11 @@ function engine(){
   var chs={};l.forEach(function(p){chs[p.ch]=1;});
   if(Object.keys(chs).length>1){
    var cl=[];l.slice().sort(function(a,b){return tm(a.time)-tm(b.time);}).forEach(function(p){
-    var put=false;
+    var done=false;
     for(var i=0;i<cl.length;i++){var c=cl[i];if(c.ch[p.ch])continue;
      var near=c.it.some(function(q){return Math.abs(tm(q.time)-tm(p.time))<=S.tol;});
-     if(near||S.tol>=720){c.it.push(p);c.ch[p.ch]=1;put=true;break;}}
-    if(!put){var o={};o[p.ch]=1;cl.push({it:[p],ch:o});}});
+     if(near||S.tol>=720){c.it.push(p);c.ch[p.ch]=1;done=true;break;}}
+    if(!done){var o={};o[p.ch]=1;cl.push({it:[p],ch:o});}});
    cl.forEach(function(c){if(Object.keys(c.ch).length<2)return;
     var ids=c.it.map(function(p){return p.id;}).sort().join(',');
     var g={fp:k,date:l[0].date,title:l[0].title,it:c.it.slice(),lk:k+'|'+ids,legit:!!S.legit[k+'|'+ids]};
@@ -616,10 +572,8 @@ function score(g){var ts=g.it.map(function(p){return tm(p.time);}).filter(functi
  var st=S.ts[nm(g.title)]||{home:'',share:0};
  g.it.forEach(function(p){var s=50,w=[];
   if(eraOk(p.ch,p.date)){s+=22;w.push('chaîne valide à cette date');}else{s-=55;w.push('chaîne inexistante à cette date');}
-  if(p.how==='manuel'){s+=26;w.push('libellé routé à la main');}
-  else if(p.how==='auto'){s+=18;w.push('libellé explicite');}
-  else if(p.how==='composite'){s-=22;w.push('libellé composite');}
-  else{s-=38;w.push('libellé non reconnu');}
+  if(p.how==='manuel'){s+=26;w.push('libellé routé à la main');}else if(p.how==='auto'){s+=18;w.push('libellé explicite');}
+  else if(p.how==='composite'){s-=22;w.push('libellé composite');}else{s-=38;w.push('libellé non reconnu');}
   if(st.home===p.ch){s+=Math.round(26*st.share);w.push('chaîne habituelle du titre ('+Math.round(st.share*100)+' %)');}
   else if(st.home){s-=12;w.push('titre habituellement sur '+st.home);}
   if(same){s+=6;w.push('horaire identique');}
@@ -662,27 +616,28 @@ function gridList(){var q=nm(S.q);
   if(f==='unknown'&&!p.unk)return false;if(f==='era'&&!p.bad)return false;if(f==='fixed'&&!p.fix)return false;if(f==='hidden'&&!p.off)return false;
   return !q||nm(p.title+' '+p.raw+' '+p.ch+' '+p.date).indexOf(q)>=0;});
  return a.sort(function(x,y){return S.gridSort==='alpha'?x.title.localeCompare(y.title,'fr'):S.gridSort==='channel'?oi(x.ch)-oi(y.ch)||tm(x.time)-tm(y.time):x.date.localeCompare(y.date)||tm(x.time)-tm(y.time);});}
-function journal(){var o=[];Object.keys(S.ov).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0],a=ovr(id);
- if(p&&a)o.push({id:id,p:p,a:a});});
+function journal(){var o=[];Object.keys(S.ov).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0],a=ovr(id);if(p&&a)o.push({id:id,p:p,a:a});});
  o.sort(function(x,y){return x.p.date.localeCompare(y.p.date)||tm(x.p.time)-tm(y.p.time);});return o;}
 function cnt(){var rr=rrows();return{unk:rr.filter(function(r){return r.how==='inconnu';}).length,
  comp:rr.filter(function(r){return r.tk.length>1;}).length,bad:S.raw.filter(function(p){return p.bad&&!p.off;}).length,
  dup:openDups().length,nomad:S.nomads.length,exact:S.exacts.length,off:S.raw.filter(function(p){return p.off;}).length,fix:Object.keys(S.ov).length};}
-
-/* ---------- rendu ---------- */
+function pipePending(){var d=Object.keys(S.pendingOv||{}).length,r=Object.keys(S.routes||{}).length;
+ if(!d&&!r)return false;
+ if(!S.pipe)return true;
+ return !S.pipe.present||(S.pipe.decisions>0&&S.pipe.matched===0);}
 var TABS=[{id:'dup',lb:'Doublons',ic:'🎯'},{id:'grid',lb:'Grille',ic:'📺'},{id:'route',lb:'Routage',ic:'🧭'},{id:'issue',lb:'Anomalies',ic:'⚠️'},{id:'journal',lb:'Corrections',ic:'📝'}];
 function renderAll(){safe('moteur',engine);
- safe('tabs',rTabs);safe('hero',rHero);safe('stats',rStats);safe('tools',rTools);
+ safe('tabs',rTabs);safe('hero',rHero);safe('stats',rStats);safe('tools',rTools);safe('pipe',rPipe);
  safe('dup',rDup);safe('grid',rGrid);safe('route',rRoute);safe('issue',rIssue);safe('journal',rJournal);
  safe('bulk',rBulk);safe('views',rViews);safe('stamp',rStamp);safe('sect',rSect);}
 function rSect(){['dup','grid','route','issue','journal'].forEach(function(v){var e=$('#v-'+v);if(e)e.hidden=S.tab!==v;});}
 function rTabs(){var c=cnt(),n={dup:c.dup,grid:S.raw.length,route:rrows().length,issue:issues().length,journal:c.fix};
  $('#tabs').innerHTML=TABS.map(function(t){return '<button class="tab'+(S.tab===t.id?' on':'')+'" type="button" data-tab="'+t.id+'">'+t.ic+' '+t.lb+'<span class="b">'+nf(n[t.id])+'</span></button>';}).join('');
  $$('#tabs [data-tab]').forEach(function(b){b.onclick=function(){S.tab=b.dataset.tab;snd('tick');renderAll();window.scrollTo({top:0,behavior:'smooth'});};});}
-function rStamp(){$('#stamp').textContent=S.year+' · '+nf(S.raw.length)+' prog. · '+S.days.length+' j · '+(S.source==='fichier'?'dépôt':S.source==='mini'?'essai 5 lignes':'démo');}
+function rStamp(){$('#stamp').textContent=S.year+' · '+nf(S.raw.length)+' prog. · '+nf(S.restored)+' décision(s) rechargée(s) · '+(S.source==='fichier'?'dépôt':S.source==='mini'?'essai':'démo');}
 function rStats(){var c=cnt();
  var d=[['s1',nf(S.raw.length),'programmes'],['s2',nf(c.dup),'doublons'],['s3',nf(c.unk+c.bad),'bloquants'],['s4',nf(c.fix),'corrections'],
- ['s5',nf(c.off),'masqués'],['s6',nf(c.nomad),'nomades'],['s7',nf(rrows().length),'libellés'],['s8',nf(S.skipped),'génériques écartés']];
+ ['s5',nf(c.off),'masqués'],['s6',nf(S.restored),'rechargées'],['s7',nf(rrows().length),'libellés'],['s8',nf(S.skipped),'génériques écartés']];
  $('#stats').innerHTML=d.map(function(x){return '<div class="stat '+x[0]+'"><b>'+x[1]+'</b><span>'+x[2]+'</span></div>';}).join('');}
 function rTools(){var y=$('#t-year');if(!y.options.length){var h='';for(var i=1970;i<=1999;i++)h+='<option value="'+i+'">'+i+'</option>';y.innerHTML=h;}
  y.value=String(S.year);$('#t-q').value=S.q;$('#t-src').value=S.srcMode;
@@ -699,46 +654,63 @@ function rTools(){var y=$('#t-year');if(!y.options.length){var h='';for(var i=19
  $('#dup-filter').value=S.dupFilter;$('#dup-sort').value=S.dupSort;$('#dup-step').value=String(S.dupStep);
  $$('#grid-mode [data-gm]').forEach(function(b){b.classList.toggle('on',b.dataset.gm===S.gridMode);});
  $('#grid-filter').value=S.gridFilter;$('#grid-sort').value=S.gridSort;}
+function rPipe(){var p=S.pipe,d=Object.keys(S.pendingOv||{}).length,r=Object.keys(S.routes||{}).length;
+ $('#pp-cnt').textContent=p?(p.present?'appliqué':'absent'):'inconnu';
+ var h='<div class="kv"><span>Fichier de routage local</span><b>'+r+' route(s) · '+d+' décision(s)</b>'+
+  '<span>Décisions rechargées sur cette année</span><b>'+nf(S.restored)+'</b>'+
+  (S.orphanOv?'<span>Décisions sur d\'autres années</span><b>'+nf(S.orphanOv)+'</b>':'')+'</div>';
+ if(p){h+='<div class="kv" style="margin-top:.5rem"><span>Lu par generate_index.py</span><b>'+(p.present?'oui':'non')+'</b>'+
+   '<span>Routes déclarées</span><b>'+nf(p.routes)+'</b><span>Décisions déclarées</span><b>'+nf(p.decisions)+'</b>'+
+   '<span>Décisions appliquées</span><b style="color:'+(p.matched?'var(--ok)':'var(--bad)')+'">'+nf(p.matched)+'</b>'+
+   '<span>Lignes masquées</span><b>'+nf(p.hidden)+'</b><span>Réassignées</span><b>'+nf(p.reassigned)+'</b>'+
+   '<span>Diffusions légitimes</span><b>'+nf(p.legit)+'</b>'+
+   (p.applied_at?'<span>Dernière régénération</span><b>'+esc(String(p.applied_at).slice(0,16).replace('T',' '))+'</b>':'')+'</div>';}
+ else h+='<div class="call warn">Impossible de lire <code>data/index.json</code>. Ouvre la page depuis ton site en ligne pour connaître l\'état du pipeline.</div>';
+ if(pipePending())h+='<div class="call bad"><b>Le pipeline n\'a pas appliqué tes décisions.</b> Dépose <code>channel-routing.json</code> dans <code>data/</code>, remplace <code>generate_index.py</code> par la version qui le lit, puis relance <b>generate_index_only</b>. Ne remplace jamais <code>data/'+S.year+'.json</code> : il est régénéré depuis les sources.</div>';
+ else if(p&&p.present)h+='<div class="call ok">Routage appliqué par le pipeline. Le site principal reflète tes corrections.</div>';
+ h+='<div class="row" style="margin-top:.55rem"><button class="btn sm primary" id="pp-export" type="button">📥 Exporter le routage</button><button class="btn sm ghost" id="pp-guide" type="button">📖 Procédure</button></div>';
+ $('#pipe-box').innerHTML=h;
+ $('#pp-export').onclick=openExport;$('#pp-guide').onclick=function(){openGuide('pipeline');};
+ var n=$('#pipe-note');
+ if(pipePending()&&S.source==='fichier'){n.hidden=false;n.innerHTML='<b>⚠️ Tes corrections ne sont pas encore appliquées par le pipeline.</b> '+d+' décision(s) en attente. Va dans l\'onglet <b>Corrections</b> pour la procédure.';}
+ else n.hidden=true;}
 function next(){var c=cnt();
- if(!S.raw.length)return{k:'Démarrer',t:'Charger une année',p:'Aucune donnée en mémoire.',s:'Choisis une année dans les réglages.',b:'Ouvrir les réglages',calm:false,go:function(){S.tab='dup';$('#tools-body').hidden=false;$('#t-year').focus();},h:'load'};
- if(c.dup)return{k:'Priorité',t:c.dup+' double'+(c.dup>1?'s':'')+' affichage'+(c.dup>1?'s':''),p:'Un même titre le même jour sur deux chaînes : c\'est la cause du mélange, même sans chevauchement.',s:'Garde l\'occurrence la plus fiable, écarte les autres. Les cas évidents partent en un clic.',b:'🎯 Résoudre les évidents',calm:false,go:resolveAuto,h:'doublons'};
- if(c.unk)return{k:'Routage',t:c.unk+' libellé'+(c.unk>1?'s':'')+' non reconnu'+(c.unk>1?'s':''),p:'Ces programmes tombent dans « Autres » au lieu de leur chaîne.',s:'Auto-routage puis vérification des menus.',b:'✨ Auto-router',calm:false,go:function(){S.tab='route';renderAll();autoAll();},h:'routage'};
+ if(!S.raw.length)return{k:'Démarrer',t:'Charger une année',p:'Aucune donnée en mémoire.',s:'Choisis une année dans les réglages.',b:'Ouvrir les réglages',calm:false,go:function(){$('#tools-body').hidden=false;$('#t-year').focus();},h:'load'};
+ if(pipePending()&&c.dup===0)return{k:'Pipeline',t:'Corrections non appliquées',p:'Tes décisions existent mais generate_index.py ne les a pas encore prises en compte.',s:'Un seul fichier à déposer : channel-routing.json. Puis régénérer.',b:'📖 Voir la procédure',calm:false,alarm:true,go:function(){S.tab='journal';renderAll();},h:'pipeline'};
+ if(c.dup)return{k:'Priorité',t:c.dup+' double'+(c.dup>1?'s':'')+' affichage'+(c.dup>1?'s':''),p:'Un même titre le même jour sur deux chaînes : c\'est la cause du mélange, même sans chevauchement.',s:'Garde l\'occurrence la plus fiable, écarte les autres.',b:'🎯 Résoudre les évidents',calm:false,go:resolveAuto,h:'doublons'};
+ if(c.unk)return{k:'Routage',t:c.unk+' libellé'+(c.unk>1?'s':'')+' non reconnu'+(c.unk>1?'s':''),p:'Ces programmes tombent dans « Autres » au lieu de leur chaîne.',s:'Auto-routage puis vérification.',b:'✨ Auto-router',calm:false,go:function(){S.tab='route';renderAll();autoAll();},h:'routage'};
  if(c.bad)return{k:'Époque',t:c.bad+' programme'+(c.bad>1?'s':'')+' sur une chaîne inexistante',p:'M6 avant mars 1987 c\'est TV6 ; France 2 avant septembre 1992 c\'est Antenne 2.',s:'Correction vers l\'équivalent valide.',b:'🔧 Corriger l\'époque',calm:false,go:fixEra,h:'epoque'};
  if(c.exact)return{k:'Nettoyage',t:c.exact+' doublon'+(c.exact>1?'s':'')+' exact'+(c.exact>1?'s':''),p:'Ligne dupliquée à l\'identique dans la source.',s:'Masque la seconde occurrence.',b:'📑 Dédoublonner',calm:false,go:dedupe,h:'exacts'};
- if(c.nomad)return{k:'Vérification',t:c.nomad+' titre'+(c.nomad>1?'s':'')+' nomade'+(c.nomad>1?'s':''),p:'Majoritairement sur une chaîne, vu ailleurs sans doublon le même jour.',s:'Signal faible : à contrôler avant rapatriement.',b:'Voir les nomades',calm:false,go:function(){S.tab='issue';renderAll();},h:'nomades'};
- if(!S.exported)return{k:'Prêt',t:'Routage sain',p:'Plus de doublon ni de bloquant. Reste à déposer les corrections.',s:'Routage persistant, année corrigée, rapport CSV.',b:'📥 Exporter',calm:true,go:openExport,h:'depot'};
- return{k:'Dépôt',t:'Fichiers téléchargés',p:'Le site principal ne verra les corrections qu\'après le push.',s:'Chemins, commandes git, puis generate_index_only.',b:'📖 Où déposer',calm:true,go:function(){openExport();setTimeout(function(){$('#depot').scrollIntoView({behavior:'smooth'});},250);},h:'depot'};}
-function rHero(){var n=next();$('#hero').classList.toggle('calm',n.calm);$('#hero-k').textContent=n.k;
- $('#hero-t').textContent=n.t;$('#hero-p').textContent=n.p;$('#hero-s').textContent=n.s;
+ if(c.nomad)return{k:'Vérification',t:c.nomad+' titre'+(c.nomad>1?'s':'')+' nomade'+(c.nomad>1?'s':''),p:'Majoritairement sur une chaîne, vu ailleurs sans doublon le même jour.',s:'Signal faible : à contrôler.',b:'Voir les nomades',calm:false,go:function(){S.tab='issue';renderAll();},h:'nomades'};
+ if(pipePending())return{k:'Pipeline',t:'Prêt, mais non appliqué',p:'Le routage est sain localement. Le pipeline doit encore l\'appliquer.',s:'Dépose channel-routing.json puis generate_index_only.',b:'📥 Exporter',calm:false,alarm:true,go:openExport,h:'pipeline'};
+ return{k:'Terminé',t:'Routage sain et appliqué',p:'Plus de doublon, et le pipeline a pris tes décisions en compte.',s:'Tu peux passer à une autre année.',b:'📥 Ré-exporter',calm:true,go:openExport,h:'pipeline'};}
+function rHero(){var n=next();var h=$('#hero');h.className='hero'+(n.alarm?' alarm':n.calm?' calm':'');
+ $('#hero-k').textContent=n.k;$('#hero-t').textContent=n.t;$('#hero-p').textContent=n.p;$('#hero-s').textContent=n.s;
  var b=$('#hero-do');b.textContent=n.b;b.className='btn '+(n.calm?'good':'primary');
  b.onclick=function(){snd('tick');n.go();};$('#hero-why').onclick=function(){openGuide(n.h);};}
-
-function more(box,shown,total,step,fn){
- if(!total){box.innerHTML='';return;}
+function more(box,shown,total,step,fn){if(!total){box.innerHTML='';return;}
  var h='<span class="lbl">'+nf(shown)+' / '+nf(total)+' affiché'+(shown>1?'s':'')+'</span>';
  if(shown<total)h+='<button class="btn primary" type="button" data-more="1">Afficher '+Math.min(step||20,total-shown)+' de plus</button><button class="btn ghost sm" type="button" data-all="1">Tout afficher ('+nf(total)+')</button>';
  else if(total>step)h+='<button class="btn ghost sm" type="button" data-less="1">Réduire</button>';
  box.innerHTML=h;
  var m=box.querySelector('[data-more]'),a=box.querySelector('[data-all]'),l=box.querySelector('[data-less]');
  if(m)m.onclick=function(){fn('more');};if(a)a.onclick=function(){fn('all');};if(l)l.onclick=function(){fn('less');};}
-
 function rDup(){var all=dupShown(),lim=S.dupStep===0?all.length:S.dupLimit,sh=all.slice(0,lim);
  $('#dup-cnt').textContent=openDups().length;
- $('#dup-help').textContent=S.gen?('Les titres génériques (météo, flash info, journal, cinéma…) sont écartés : '+S.skipped+' paire(s) ignorée(s). Désactive le filtre dans les réglages pour les voir.'):'Titres génériques inclus : les fausses paires météo / journal apparaissent.';
+ $('#dup-help').textContent=(S.gen?'Titres génériques écartés : '+S.skipped+' paire(s) ignorée(s). ':'Titres génériques inclus. ')+nf(S.restored)+' décision(s) rechargée(s) depuis ton fichier de routage.';
  var box=$('#dup-list');
- if(!all.length){box.innerHTML='<div class="empty"><b>Aucun cas dans ce filtre 🎉</b>'+nf(S.dups.length)+' groupe(s) analysé(s), '+nf(openDups().length)+' à traiter. Change le filtre « Cas » pour revoir les traités ou les légitimes.</div>';more($('#dup-more'),0,0,20,function(){});return;}
+ if(!all.length){box.innerHTML='<div class="empty"><b>Aucun cas dans ce filtre 🎉</b>'+nf(S.dups.length)+' groupe(s) analysé(s), '+nf(openDups().length)+' à traiter. Change le filtre « Cas » pour revoir les traités.</div>';more($('#dup-more'),0,0,20,function(){});return;}
  if(S.dupView==='rows'){
-  box.innerHTML=sh.map(function(g){var i=S.dups.indexOf(g);
-   var cls=g.legit?'legit':g.resolved?'done':'';
+  box.innerHTML=sh.map(function(g){var i=S.dups.indexOf(g),cls=g.legit?'legit':g.resolved?'done':'';
    return '<button class="drow '+cls+'" type="button" data-open="'+i+'"><span class="l1"><b>'+esc(g.title)+'</b>'+
     (g.legit?'<span class="tag info">légitime</span>':g.resolved?'<span class="tag ok">traité</span>':g.gap>=S.conf?'<span class="tag dup">évident</span>':'<span class="tag warn">à vérifier</span>')+
     '<span class="tag n">'+g.gap+' pts</span></span><span class="l2">'+esc(sd(g.date))+' · '+g.it.map(function(p){return esc(p.ch)+' '+esc(p.time||'--:--');}).join(' ↔ ')+'</span></button>';}).join('');
-  $$('#dup-list [data-open]').forEach(function(b){b.onclick=function(){S.dupView='cards';S.dupFilter='all';S.dupLimit=Math.max(S.dupLimit,S.dups.indexOf(S.dups[+b.dataset.open])+1);snd('tick');renderAll();
-   setTimeout(function(){var e=document.getElementById('dup-'+b.dataset.open);if(e)e.scrollIntoView({behavior:'smooth',block:'center'});},120);};});
+  $$('#dup-list [data-open]').forEach(function(b){b.onclick=function(){var i=+b.dataset.open;S.dupView='cards';S.dupFilter='all';S.dupLimit=Math.max(S.dupStep||20,i+1);snd('tick');renderAll();
+   setTimeout(function(){var e=document.getElementById('dup-'+i);if(e)e.scrollIntoView({behavior:'smooth',block:'center'});},140);};});
  }else{
   box.innerHTML=sh.map(function(g){var i=S.dups.indexOf(g),cls=g.legit?'legit':g.resolved?'done':'';
-   var occs=g.it.map(function(p,j){
-    var keep=p.id===g.keep.id,rib=p.off?'<span class="ribbon h">🚫 masqué</span>':keep?'<span class="ribbon a">✓ A · à garder</span>':'<span class="ribbon b">✗ '+String.fromCharCode(66+j)+' · à écarter</span>';
+   var occs=g.it.map(function(p,j){var keep=p.id===g.keep.id;
+    var rib=p.off?'<span class="ribbon h">🚫 masqué</span>':keep?'<span class="ribbon a">✓ A · à garder</span>':'<span class="ribbon b">✗ '+String.fromCharCode(66+j)+' · à écarter</span>';
     return '<div class="occ'+(p.off?' off':keep?' keep':' drop')+'">'+rib+
      '<div class="occ-l1">'+ctag(p.ch)+'<span class="occ-t">'+esc(p.time||'--:--')+'</span>'+(p.fix&&!p.off?'<span class="tag ok">corrigé</span>':'')+'</div>'+
      '<div class="occ-l2">brut « '+esc(p.raw)+' » · '+esc(p.how)+'</div>'+
@@ -762,9 +734,7 @@ function rDup(){var all=dupShown(),lim=S.dupStep===0?all.length:S.dupLimit,sh=al
   $$('#dup-list [data-lg]').forEach(function(b){b.onclick=function(){legit(+b.dataset.lg,true);};});
   $$('#dup-list [data-ul]').forEach(function(b){b.onclick=function(){legit(+b.dataset.ul,false);};});}
  more($('#dup-more'),sh.length,all.length,S.dupStep||20,function(m){
-  if(m==='more')S.dupLimit+=(S.dupStep||20);else if(m==='all')S.dupLimit=all.length;else S.dupLimit=S.dupStep||20;
-  safe('dup',rDup);});}
-
+  if(m==='more')S.dupLimit+=(S.dupStep||20);else if(m==='all')S.dupLimit=all.length;else S.dupLimit=S.dupStep||20;safe('dup',rDup);});}
 function pRow(p){var t=[];
  if(p.dup)t.push('<span class="tag dup">doublon</span>');if(p.nomad)t.push('<span class="tag info">nomade</span>');
  if(p.exact)t.push('<span class="tag warn">exact</span>');if(p.unk)t.push('<span class="tag bad">?</span>');
@@ -775,21 +745,17 @@ function pRow(p){var t=[];
   '<span class="pt">'+esc(p.time||'--:--')+'</span><span class="pb"><b>'+esc(p.title)+'</b><small>'+esc(sd(p.date))+' · '+esc(p.raw)+' → '+esc(p.ch)+'</small></span>'+
   '<span class="pa">'+t.join('')+'<button class="mini" type="button" data-ed="'+esc(p.id)+'">✏️</button></span></div>';}
 function bRow(p){return '<div class="prog"><span class="pt">'+esc(p.time||'--:--')+'</span><span class="pb"><b>'+esc(p.title)+'</b><small>'+esc(sd(p.date))+' · brut « '+esc(p.raw)+' »</small></span><span class="pa">'+(p.unk?'<span class="tag bad">?</span>':p.comp?'<span class="tag warn">composite</span>':'')+'</span></div>';}
-function chBlock(label,ps,mode,key){
- var fold=S.fold[mode+'|'+key];
+function chBlock(label,ps,mode){var fold=S.fold[mode+'|'+label];
  var bad=ps.filter(function(p){return !p.off&&(p.unk||p.bad);}).length,dp=ps.filter(function(p){return p.dup&&!p.off;}).length;
  var head=mode==='before'?'<span class="chip" style="background:'+(!auto(label)&&!S.routes[ky(label)]?'#ff3d4a':toks(label).length>1?'#ffb020':'#4c4468')+';color:'+(!auto(label)&&!S.routes[ky(label)]||toks(label).length>1?'#0a0810':'#f5f1fd')+'">'+esc(label)+'</span>':ctag(label);
- return '<div class="chblock'+(fold?' fold':'')+'"><div class="chh" data-fold="'+esc(mode+'|'+key)+'">'+head+
+ return '<div class="chblock'+(fold?' fold':'')+'"><div class="chh" data-fold="'+esc(mode+'|'+label)+'">'+head+
   '<span class="meta">'+ps.length+' prog.</span>'+(dp?'<span class="tag dup">'+dp+' doublon(s)</span>':'')+(bad?'<span class="tag bad">'+bad+'</span>':(!dp?'<span class="tag ok">ok</span>':''))+
-  '<span class="sp"></span><span class="tag n">'+(fold?'+':'−')+'</span></div>'+
-  '<div class="chb">'+ps.map(mode==='before'?bRow:pRow).join('')+'</div></div>';}
-function rGrid(){var list=gridList(),lim=S.gridLimit,sh=list.slice(0,lim);
- $('#grid-cnt').textContent=nf(list.length);
+  '<span class="sp"></span><span class="tag n">'+(fold?'+':'−')+'</span></div><div class="chb">'+ps.map(mode==='before'?bRow:pRow).join('')+'</div></div>';}
+function rGrid(){var list=gridList(),sh=list.slice(0,S.gridLimit);$('#grid-cnt').textContent=nf(list.length);
  var wrap=$('#grid-wrap');wrap.className='grid'+(S.gridMode==='side'?' side':'');
  if(!list.length){wrap.innerHTML='<div class="empty"><b>Rien à afficher</b>Élargis le filtre ou la journée.</div>';more($('#grid-more'),0,0,14,function(){});return;}
  function build(ps,mode){var m={};ps.forEach(function(p){var k=mode==='before'?(p.raw||'(vide)'):p.ch;(m[k]=m[k]||[]).push(p);});
-  var keys=Object.keys(m).sort(function(a,b){return mode==='before'?m[b].length-m[a].length||a.localeCompare(b):oi(a)-oi(b);});
-  return keys.map(function(k){return chBlock(k,m[k],mode,k);}).join('');}
+  return Object.keys(m).sort(function(a,b){return mode==='before'?m[b].length-m[a].length||a.localeCompare(b):oi(a)-oi(b);}).map(function(k){return chBlock(k,m[k],mode);}).join('');}
  if(S.gridMode==='side')wrap.innerHTML='<div><div class="card"><header><strong style="color:var(--bad)">Avant</strong></header><div class="pad">'+build(sh,'before')+'</div></div></div><div><div class="card"><header><strong style="color:var(--ok)">Après</strong></header><div class="pad">'+build(sh,'after')+'</div></div></div>';
  else wrap.innerHTML='<div class="card"><div class="pad">'+build(sh,S.gridMode)+'</div></div>';
  $$('#grid-wrap [data-fold]').forEach(function(h){h.onclick=function(){var k=h.dataset.fold;S.fold[k]=!S.fold[k];safe('grid',rGrid);};});
@@ -801,8 +767,7 @@ function rGrid(){var list=gridList(),lim=S.gridLimit,sh=list.slice(0,lim);
 function rBulk(){$('#bulk').hidden=S.selN===0;$('#bulk-n').textContent=S.selN;document.body.classList.toggle('hasbulk',S.selN>0);}
 function rRoute(){var all=rrows(),sh=all.slice(0,S.rtLimit);$('#rt-cnt').textContent=all.length;
  var opts=S.order.map(function(c){return '<option value="'+esc(c)+'">'+esc(c)+'</option>';}).join('');
- $('#rt-list').innerHTML=all.length?sh.map(function(r,i){
-  var cls=r.how==='inconnu'?'unknown':r.tk.length>1?'composite':'mapped';
+ $('#rt-list').innerHTML=all.length?sh.map(function(r,i){var cls=r.how==='inconnu'?'unknown':r.tk.length>1?'composite':'mapped';
   var bg=r.how==='inconnu'?'<span class="tag bad">non reconnu</span>':r.tk.length>1?'<span class="tag warn">'+r.tk.length+' chaînes</span>':S.routes[r.k]?'<span class="tag ok">manuel</span>':'<span class="tag ok">auto</span>';
   return '<div class="rt '+cls+'"><div class="l1">'+ctag(r.ch)+'<span class="raw">'+esc(r.raw)+'</span><span class="tag n">'+r.n+'×</span></div>'+
    '<div class="l2"><select data-rt="'+i+'">'+opts+'</select>'+bg+(r.bad?'<span class="tag bad">époque</span>':'')+'</div></div>';}).join(''):'<div class="empty"><b>Aucun libellé</b>Change la recherche.</div>';
@@ -812,17 +777,15 @@ function rRoute(){var all=rrows(),sh=all.slice(0,S.rtLimit);$('#rt-cnt').textCon
  $('#order').innerHTML=S.order.map(function(c,i){var k=col(c);
   return '<span class="chip" draggable="true" data-ord="'+i+'" style="background:'+k+';color:'+(LIGHT.indexOf(k)>=0?'#0a0810':'#fff')+';cursor:grab;padding:.4rem .6rem">⠿ '+esc(c)+'</span>';}).join('');}
 function rIssue(){var all=issues(),sh=all.slice(0,S.isLimit);$('#is-cnt').textContent=all.length;
- $('#is-list').innerHTML=all.length?sh.map(function(i,n){
-  return '<div class="issue '+i.sev+'"><b>'+(i.sev==='bad'?'⛔':i.sev==='info'?'🧳':'⚠️')+' '+esc(i.t)+'</b><small>'+esc(i.d)+'</small>'+
-   (i.fix?'<div class="row"><button class="mini good" type="button" data-fix="'+n+'">🔧 Corriger</button></div>':'')+'</div>';}).join(''):'<div class="empty"><b>Rien à signaler 🎉</b>Libellés reconnus, chaînes valides, aucun nomade ni doublon exact.</div>';
+ $('#is-list').innerHTML=all.length?sh.map(function(i,n){return '<div class="issue '+i.sev+'"><b>'+(i.sev==='bad'?'⛔':i.sev==='info'?'🧳':'⚠️')+' '+esc(i.t)+'</b><small>'+esc(i.d)+'</small>'+
+  (i.fix?'<div class="row"><button class="mini good" type="button" data-fix="'+n+'">🔧 Corriger</button></div>':'')+'</div>';}).join(''):'<div class="empty"><b>Rien à signaler 🎉</b>Libellés reconnus, chaînes valides, aucun nomade ni doublon exact.</div>';
  $$('#is-list [data-fix]').forEach(function(b){b.onclick=function(){fix(all[+b.dataset.fix].fix);};});
  more($('#is-more'),sh.length,all.length,25,function(m){if(m==='more')S.isLimit+=25;else if(m==='all')S.isLimit=all.length;else S.isLimit=25;safe('issue',rIssue);});}
 function rJournal(){var all=journal(),sh=all.slice(0,S.jrLimit);$('#jr-cnt').textContent=all.length;
- $('#jr-list').innerHTML=all.length?sh.map(function(j){
-  return '<div class="jrow'+(j.a.act==='hide'?' hide':'')+'"><div class="l1"><b>'+esc(j.p.title)+'</b>'+
-   '<span class="tag '+(j.a.act==='hide'?'bad':'ok')+'">'+(j.a.act==='hide'?'masqué':'→ '+esc(j.a.ch))+'</span></div>'+
-   '<div class="l2">'+esc(sd(j.p.date))+' '+esc(j.p.time||'--:--')+' · brut « '+esc(j.p.raw)+' » · origine '+esc(j.p.auto)+'</div>'+
-   '<div class="row" style="margin-top:.4rem"><button class="mini" type="button" data-jed="'+esc(j.id)+'">✏️ Éditer</button><button class="mini good" type="button" data-jun="'+esc(j.id)+'">↺ Restaurer</button></div></div>';}).join(''):'<div class="empty"><b>Aucune correction</b>Toute décision prise apparaîtra ici, réversible.</div>';
+ $('#jr-list').innerHTML=all.length?sh.map(function(j){return '<div class="jrow'+(j.a.act==='hide'?' hide':'')+'"><div class="l1"><b>'+esc(j.p.title)+'</b>'+
+  '<span class="tag '+(j.a.act==='hide'?'bad':'ok')+'">'+(j.a.act==='hide'?'masqué':'→ '+esc(j.a.ch))+'</span></div>'+
+  '<div class="l2">'+esc(sd(j.p.date))+' '+esc(j.p.time||'--:--')+' · brut « '+esc(j.p.raw)+' » · origine '+esc(j.p.auto)+'</div>'+
+  '<div class="row" style="margin-top:.4rem"><button class="mini" type="button" data-jed="'+esc(j.id)+'">✏️ Éditer</button><button class="mini good" type="button" data-jun="'+esc(j.id)+'">↺ Restaurer</button></div></div>';}).join(''):'<div class="empty"><b>Aucune correction sur cette année</b>Toute décision prise apparaîtra ici et sera rechargée à la prochaine ouverture.</div>';
  $$('#jr-list [data-jed]').forEach(function(b){b.onclick=function(){openDetail(b.dataset.jed);};});
  $$('#jr-list [data-jun]').forEach(function(b){b.onclick=function(){clearAct(b.dataset.jun);};});
  more($('#jr-more'),sh.length,all.length,25,function(m){if(m==='more')S.jrLimit+=25;else if(m==='all')S.jrLimit=all.length;else S.jrLimit=25;safe('journal',rJournal);});}
@@ -830,42 +793,46 @@ function rViews(){$('#views').innerHTML=S.views.length?S.views.map(function(v){r
  $$('#views [data-v]').forEach(function(b){b.onclick=function(e){if(e.target.closest('[data-vd]'))return;
   var v=S.views.filter(function(x){return x.id===b.dataset.v;})[0];if(!v)return;Object.keys(v.f).forEach(function(k){S[k]=v.f[k];});boot();};});
  $$('#views [data-vd]').forEach(function(b){b.onclick=function(e){e.stopPropagation();S.views=S.views.filter(function(v){return v.id!==b.dataset.vd;});put(KV,JSON.stringify(S.views));rViews();};});}
-
-/* ---------- mutations ---------- */
 function push(){S.undo.push({r:JSON.parse(JSON.stringify(S.routes)),o:JSON.parse(JSON.stringify(S.ov)),l:JSON.parse(JSON.stringify(S.legit))});if(S.undo.length>60)S.undo.shift();}
 function undo(){var u=S.undo.pop();if(!u){toast('Rien à annuler.','warn');return;}S.routes=u.r;S.ov=u.o;S.legit=u.l;save();renderAll();toast('Annulé.','info');}
-function save(){put(KR,JSON.stringify({routes:S.routes,legit:S.legit}));}
-function setAct(id,act,ch){push();S.ov[id]={act:act,ch:ch||''};S.dirty=true;snd(act==='hide'?'warn':'ok');renderAll();
+function syncPending(){var src=S.pendingOv||{};
+ Object.keys(S.ov).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0],a=ovr(id);if(!p||!a)return;
+  src[sig(p)]={sig:sig(p),date:p.date,time:p.time,title:p.title,raw_channel:p.raw,channel:a.act==='reassign'?a.ch:p.ch,action:a.act};});
+ Object.keys(src).forEach(function(k){var v=src[k];if(!v)return;
+  var still=S.raw.some(function(p){return sig(p)===k&&S.ov[p.id];});
+  var local=S.raw.some(function(p){return sig(p)===k;});
+  if(local&&!still)delete src[k];});
+ S.pendingOv=src;}
+function save(){syncPending();put(KR,JSON.stringify({routes:S.routes,legit:S.legit,ov:S.pendingOv}));}
+function setAct(id,act,ch){push();S.ov[id]={act:act,ch:ch||''};S.dirty=true;save();snd(act==='hide'?'warn':'ok');renderAll();
  toast(act==='hide'?'Occurrence masquée.':'Occurrence réassignée.','dup',{l:'Annuler',f:undo});}
-function clearAct(id){push();delete S.ov[id];S.dirty=true;snd('ok');renderAll();toast('Restaurée.','ok',{l:'Annuler',f:undo});}
+function clearAct(id){push();delete S.ov[id];S.dirty=true;save();snd('ok');renderAll();toast('Restaurée.','ok',{l:'Annuler',f:undo});}
 function keepAnd(i,mode){var g=S.dups[i];if(!g)return;push();
  g.it.forEach(function(p){if(p.id===g.keep.id)delete S.ov[p.id];else S.ov[p.id]=mode==='hide'?{act:'hide',ch:''}:{act:'reassign',ch:g.keep.ch};});
- S.dirty=true;snd('ok');renderAll();
+ S.dirty=true;save();snd('ok');renderAll();
  toast('« '+g.title+' » gardé sur '+g.keep.ch+' · '+(g.it.length-1)+' autre(s) '+(mode==='hide'?'masquée(s)':'réassignée(s)')+'.','ok',{l:'Annuler',f:undo});}
 function legit(i,on){var g=S.dups[i];if(!g)return;push();if(on)S.legit[g.lk]=1;else delete S.legit[g.lk];
- save();S.dirty=true;snd('ok');renderAll();toast(on?'Diffusion déclarée légitime.':'Cas rouvert.','info',{l:'Annuler',f:undo});}
+ S.dirty=true;save();snd('ok');renderAll();toast(on?'Diffusion déclarée légitime.':'Cas rouvert.','info',{l:'Annuler',f:undo});}
 function resolveAuto(){var gs=openDups().filter(function(g){return g.gap>=S.conf;});
- if(!gs.length){toast('Aucun cas assez évident (écart ≥ '+S.conf+' pts). Baisse le seuil ou tranche à la main.','warn');S.tab='dup';S.dupFilter='review';renderAll();return;}
+ if(!gs.length){toast('Aucun cas assez évident (écart ≥ '+S.conf+' pts).','warn');S.tab='dup';S.dupFilter='review';renderAll();return;}
  push();var n=0;gs.forEach(function(g){g.it.forEach(function(p){if(p.id!==g.keep.id){S.ov[p.id]={act:'hide',ch:''};n++;}});});
- S.dirty=true;snd('dup');renderAll();toast('🎯 '+gs.length+' cas résolu(s) · '+n+' occurrence(s) masquée(s).','ok',{l:'Annuler',f:undo});}
+ S.dirty=true;save();snd('dup');renderAll();toast('🎯 '+gs.length+' cas résolu(s) · '+n+' masquée(s).','ok',{l:'Annuler',f:undo});}
 function dedupe(){if(!S.exacts.length){toast('Aucun doublon exact.','warn');return;}
- push();S.exacts.forEach(function(p){S.ov[p[1].id]={act:'hide',ch:''};});S.dirty=true;snd('ok');renderAll();
+ push();S.exacts.forEach(function(p){S.ov[p[1].id]={act:'hide',ch:''};});S.dirty=true;save();snd('ok');renderAll();
  toast(S.exacts.length+' ligne(s) dupliquée(s) masquée(s).','ok',{l:'Annuler',f:undo});}
 function autoAll(){var rr=rrows().filter(function(r){return r.how==='inconnu'||r.tk.length>1;});
  if(!rr.length){toast('Tous les libellés sont reconnus.','warn');return;}
  push();var n=0;rr.forEach(function(r){var g=r.tk[0]||auto(r.raw);if(g){S.routes[r.k]=g;n++;}});
- save();S.dirty=true;snd('ok');renderAll();toast('✨ '+n+' libellé(s) routé(s).','ok',{l:'Annuler',f:undo});}
+ S.dirty=true;save();snd('ok');renderAll();toast('✨ '+n+' libellé(s) routé(s).','ok',{l:'Annuler',f:undo});}
 function fixEra(){var l=S.raw.filter(function(p){return p.bad&&!p.off;});if(!l.length){toast('Aucun hors époque.','warn');return;}
  push();var by={};l.forEach(function(p){(by[p.ch]=by[p.ch]||[]).push(p);});
  Object.keys(by).forEach(function(c){var a=alt(c);by[c].forEach(function(p){S.ov[p.id]={act:'reassign',ch:a};});});
- S.dirty=true;snd('warn');renderAll();toast(l.length+' replacé(s) sur la chaîne de l\'époque.','ok',{l:'Annuler',f:undo});}
+ S.dirty=true;save();snd('warn');renderAll();toast(l.length+' replacé(s) sur la chaîne de l\'époque.','ok',{l:'Annuler',f:undo});}
 function fix(f){if(!f)return;if(f.t==='exact'){dedupe();return;}push();
  if(f.t==='route'){var r=rrows().filter(function(x){return x.k===f.k;})[0],g=(r&&r.tk[0])||auto(r?r.raw:'')||'Autres';
-  S.routes[f.k]=g;save();S.dirty=true;snd('ok');renderAll();toast('« '+(r?r.raw:f.k)+' » → '+g,'ok',{l:'Annuler',f:undo});return;}
- if(f.t==='era'){var a=alt(f.ch);f.ids.forEach(function(id){S.ov[id]={act:'reassign',ch:a};});S.dirty=true;snd('warn');renderAll();
-  toast(f.ids.length+' → '+a,'ok',{l:'Annuler',f:undo});return;}
- if(f.t==='nomad'){f.ids.forEach(function(id){S.ov[id]={act:'reassign',ch:f.home};});S.dirty=true;snd('ok');renderAll();
-  toast(f.ids.length+' rapatrié(s) sur '+f.home+'.','ok',{l:'Annuler',f:undo});}}
+  S.routes[f.k]=g;S.dirty=true;save();snd('ok');renderAll();toast('« '+(r?r.raw:f.k)+' » → '+g,'ok',{l:'Annuler',f:undo});return;}
+ if(f.t==='era'){var a=alt(f.ch);f.ids.forEach(function(id){S.ov[id]={act:'reassign',ch:a};});S.dirty=true;save();snd('warn');renderAll();toast(f.ids.length+' → '+a,'ok',{l:'Annuler',f:undo});return;}
+ if(f.t==='nomad'){f.ids.forEach(function(id){S.ov[id]={act:'reassign',ch:f.home};});S.dirty=true;save();snd('ok');renderAll();toast(f.ids.length+' rapatrié(s) sur '+f.home+'.','ok',{l:'Annuler',f:undo});}}
 function fixAll(){var rr=rrows().filter(function(r){return r.how==='inconnu'||r.tk.length>1;}),eb=S.raw.filter(function(p){return p.bad&&!p.off;}),gs=openDups().filter(function(g){return g.gap>=S.conf;});
  if(!rr.length&&!eb.length&&!gs.length&&!S.exacts.length){toast('Rien à corriger automatiquement.','warn');return;}
  push();var n=0;
@@ -874,9 +841,7 @@ function fixAll(){var rr=rrows().filter(function(r){return r.how==='inconnu'||r.
  var by={};eb.forEach(function(p){(by[p.ch]=by[p.ch]||[]).push(p);});
  Object.keys(by).forEach(function(c){var a=alt(c);by[c].forEach(function(p){S.ov[p.id]={act:'reassign',ch:a};n++;});});
  S.exacts.forEach(function(p){S.ov[p[1].id]={act:'hide',ch:''};n++;});
- save();S.dirty=true;snd('dup');renderAll();toast('🔧 '+n+' correction(s).','ok',{l:'Annuler',f:undo});}
-
-/* ---------- drawers ---------- */
+ S.dirty=true;save();snd('dup');renderAll();toast('🔧 '+n+' correction(s).','ok',{l:'Annuler',f:undo});}
 function open(){return ['#drawer','#gdrawer','#edrawer'].some(function(s){return !$(s).hidden;});}
 function lock(){document.body.style.overflow=open()?'hidden':'';}
 function openDetail(id){var p=S.raw.filter(function(x){return x.id===id;})[0];if(!p)return;S.detail=p;
@@ -885,67 +850,70 @@ function openDetail(id){var p=S.raw.filter(function(x){return x.id===id;})[0];if
  $('#d-b').innerHTML='<div class="kv"><span>Libellé brut</span><b>'+esc(p.raw)+'</b><span>Détection auto</span><b>'+esc(c.ch)+'</b>'+
   '<span>Méthode</span><b>'+esc(c.how)+'</b><span>Chaînes dans le libellé</span><b>'+esc(c.tk.join(', ')||'aucune')+'</b>'+
   '<span>Chaîne retenue</span><b>'+esc(p.ch)+'</b><span>Valide à cette date</span><b style="color:'+(eraOk(p.ch,p.date)?'var(--ok)':'var(--bad)')+'">'+(eraOk(p.ch,p.date)?'oui':'non')+'</b>'+
-  '<span>Chaîne habituelle</span><b>'+esc(st.home)+' ('+Math.round(st.share*100)+' % de '+st.n+')</b>'+(p.sc!=null?'<span>Score doublon</span><b>'+p.sc+'/100</b>':'')+
-  '<span>Titre générique</span><b>'+(p.gen?'oui':'non')+'</b></div>'+
+  '<span>Chaîne habituelle</span><b>'+esc(st.home)+' ('+Math.round(st.share*100)+' % de '+st.n+')</b>'+(p.sc!=null?'<span>Score doublon</span><b>'+p.sc+'/100</b>':'')+'</div>'+
+  '<div class="call"><b>Signature persistante</b><br><code>'+esc(sig(p))+'</code></div>'+
   (sib.length?'<div class="call dup">Ce titre apparaît aussi le '+esc(sd(p.date))+' sur '+sib.map(function(q){return esc(q.ch)+' à '+esc(q.time||'--:--');}).join(', ')+'.</div>':'')+
   (p.bad?'<div class="call">Chaîne inexistante à cette date. Suggestion : <b>'+esc(alt(p.ch))+'</b>.</div>':'')+
   '<div class="f"><label for="dp-ch">Chaîne</label><select id="dp-ch">'+S.order.map(function(x){return '<option value="'+esc(x)+'"'+(x===p.ch?' selected':'')+'>'+esc(x)+'</option>';}).join('')+'</select></div>'+
   '<div class="f"><label for="dp-t">Heure</label><input id="dp-t" value="'+esc(p.time)+'" placeholder="HH:MM" inputmode="numeric"></div>'+
   '<div class="f"><label for="dp-n">Titre</label><input id="dp-n" value="'+esc(p.title)+'"></div>'+
   '<label class="chk"><input type="checkbox" id="dp-r"> Appliquer « '+esc(p.raw)+' » → chaîne choisie à tout le libellé</label>'+
-  '<p class="hint">Masquer retire la ligne du fichier exporté, sans toucher à la source. Tout est réversible.</p>';
+  '<p class="hint">Modifier l\'heure ou le titre change la signature : la décision sera ré-exportée sous la nouvelle clé.</p>';
  $('#scrim').hidden=false;$('#drawer').hidden=false;lock();}
 function closeDetail(){$('#scrim').hidden=true;$('#drawer').hidden=true;lock();}
 function saveDetail(){var p=S.detail;if(!p)return;push();
  var ch=$('#dp-ch').value,t=nt($('#dp-t').value),n=$('#dp-n').value.trim();
- S.ov[p.id]={act:'reassign',ch:ch};if($('#dp-r').checked){S.routes[ky(p.raw)]=ch;save();}
+ var old=sig(p);
  if(t&&t!==p.time)p.time=t;if(n&&n!==p.title)p.title=n;
- S.dirty=true;snd('ok');closeDetail();renderAll();toast('« '+p.title+' » → '+ch,'ok',{l:'Annuler',f:undo});}
+ p.id=pid(p);delete S.ov[old];
+ S.ov[p.id]={act:'reassign',ch:ch};if($('#dp-r').checked)S.routes[ky(p.raw)]=ch;
+ S.dirty=true;save();snd('ok');closeDetail();renderAll();toast('« '+p.title+' » → '+ch,'ok',{l:'Annuler',f:undo});}
 var GUIDE=[
- {id:'doublons',h:'Pourquoi les doublons',b:'<p>Un flash info dure une minute : deux programmes proches ne sont pas une erreur. Et seule l\'heure de début étant connue, un programme mal attribué s\'intercale proprement entre deux émissions de la chaîne tierce.</p><p>Le signal fiable est l\'<b>empreinte date + titre</b> : un même titre le même jour sur deux chaînes = double affichage, quelle que soit l\'heure.</p><div class="call dup">Le curseur <b>Écart doublon</b> dit jusqu\'à combien de minutes d\'écart deux occurrences sont le même passage. À 720, toute la journée est comparée.</div>'},
- {id:'generiques',h:'Les titres génériques',b:'<p>Météo, flash info, journal, cinéma, film, série, bande annonce… apparaissent légitimement sur plusieurs chaînes le même jour. Les compter comme doublons noie le vrai signal.</p><p>Ils sont <b>écartés par défaut</b>. Le compteur « génériques écartés » indique combien de paires ont été ignorées. Décoche le filtre pour les inspecter.</p>'},
+ {id:'pipeline',h:'Pourquoi tes corrections ne s\'affichaient pas',b:'<p><code>data/AAAA.json</code> est un fichier <b>régénéré</b>. <code>generate_index.py</code> reconstruit chaque année depuis <code>data/depot101/</code> et <code>data/archives80/</code>, puis réécrit <code>data/AAAA.json</code>. Le remplacer à la main ne sert à rien : la régénération suivante l\'écrase.</p><p>Le seul fichier persistant est <code>data/channel-routing.json</code>. La version à jour de <code>generate_index.py</code> le lit et applique, dans l\'ordre : les <b>routes</b> sur les libellés bruts, puis les <b>décisions</b> par programme (réassigner ou masquer).</p><div class="call ok">Procédure : déposer <code>channel-routing.json</code> dans <code>data/</code> → remplacer <code>generate_index.py</code> → commit/push → relancer <b>generate_index_only</b>. Ne touche pas à <code>data/AAAA.json</code>.</div><div class="call dup">L\'outil recharge maintenant tes décisions à chaque ouverture, et l\'onglet <b>Corrections</b> affiche si le pipeline les a bien appliquées.</div>'},
+ {id:'doublons',h:'Pourquoi les doublons',b:'<p>Un flash info dure une minute : deux programmes proches ne sont pas une erreur. Et seule l\'heure de début étant connue, un programme mal attribué s\'intercale proprement entre deux émissions de la chaîne tierce.</p><p>Le signal fiable est l\'<b>empreinte date + titre</b> : un même titre le même jour sur deux chaînes = double affichage.</p><div class="call dup">Le curseur <b>Écart doublon</b> dit jusqu\'à combien de minutes d\'écart deux occurrences sont le même passage. À 720, toute la journée est comparée.</div>'},
+ {id:'generiques',h:'Les titres génériques',b:'<p>Météo, flash info, journal, cinéma… apparaissent légitimement sur plusieurs chaînes le même jour. Les compter noie le vrai signal. Ils sont <b>écartés par défaut</b>, avec un compteur dédié et un interrupteur.</p>'},
  {id:'score',h:'Le score de confiance',b:'<p>Chaque occurrence part de 50 :</p><ul><li><b>+22</b> chaîne valide à la date, <b>−55</b> sinon</li><li><b>+26</b> libellé routé main, <b>+18</b> explicite, <b>−22</b> composite, <b>−38</b> inconnu</li><li><b>+26 × part</b> du titre habituellement sur cette chaîne, <b>−12</b> s\'il vit ailleurs</li><li><b>+6</b> horaire identique</li></ul><p>La meilleure devient <b>A · à garder</b>. Le curseur <b>Confiance</b> fixe l\'écart autorisant la résolution automatique.</p>'},
- {id:'resoudre',h:'Résoudre',b:'<ul><li><b>Garder A, masquer le reste</b> — cas le plus fréquent.</li><li><b>Garder A, réassigner</b> — les deux lignes servent mais sont mal étiquetées.</li><li><b>Diffusion légitime</b> — vraie rediffusion simultanée : le cas sort de la file.</li><li><b>🚫 / ↺</b> occurrence par occurrence.</li></ul><div class="call ok">Tout est annulable : toast « Annuler » ou <span class="kbd">Ctrl</span>+<span class="kbd">Z</span>.</div>'},
- {id:'triage',h:'Trier 200 cas sans s\'épuiser',b:'<ol><li><b>Liste rapide</b> : une ligne par cas, triée par écart de score.</li><li><b>Évidents</b> : ne montre que les cas au-dessus du seuil, puis <b>Résoudre les évidents</b>.</li><li><b>À vérifier</b> : le reste, en <b>Cartes A/B</b>, page par page.</li><li><b>↓ Prochain cas</b> saute au premier non traité.</li></ol><p>Les résultats s\'affichent par pages de 20 : « Afficher plus » ou « Tout afficher ». Aucune zone n\'est coupée.</p>'},
- {id:'nomades',h:'Titres nomades',b:'<p>Majoritairement sur une chaîne mais vu ailleurs, <b>sans doublon le même jour</b>. Signal faible : ce peut être une vraie rediffusion un autre jour. À vérifier avant rapatriement.</p>'},
+ {id:'resoudre',h:'Résoudre',b:'<ul><li><b>Garder A, masquer le reste</b> — cas le plus fréquent.</li><li><b>Garder A, réassigner</b> — les deux lignes servent mais sont mal étiquetées.</li><li><b>Diffusion légitime</b> — vraie rediffusion simultanée.</li><li><b>🚫 / ↺</b> occurrence par occurrence.</li></ul><div class="call ok">Tout est annulable et sauvegardé localement à chaque geste.</div>'},
+ {id:'triage',h:'Trier 200 cas',b:'<ol><li><b>Liste rapide</b> : une ligne par cas, triée par écart.</li><li><b>Évidents</b> puis <b>Résoudre les évidents</b>.</li><li><b>À vérifier</b> en <b>Cartes A/B</b>, page par page.</li><li><b>↓ Prochain cas</b> saute au premier non traité.</li></ol>'},
+ {id:'nomades',h:'Titres nomades',b:'<p>Majoritairement sur une chaîne mais vu ailleurs, sans doublon le même jour. Signal faible : ce peut être une vraie rediffusion un autre jour.</p>'},
  {id:'exacts',h:'Doublons exacts',b:'<p>Même date, heure, titre et chaîne : ligne dupliquée dans la source. <b>📑 Dédoublonner</b> masque la seconde.</p>'},
- {id:'routage',h:'Table de routage',b:'<ol><li><b>✨ Auto-router</b> propose une chaîne par libellé douteux.</li><li>Vérifie les lignes <span class="tag warn">2 chaînes</span>.</li><li>Corrige : effet immédiat partout.</li></ol>'},
+ {id:'routage',h:'Table de routage',b:'<ol><li><b>✨ Auto-router</b> propose une chaîne par libellé douteux.</li><li>Vérifie les lignes <span class="tag warn">2 chaînes</span>.</li><li>Corrige : effet immédiat, et appliqué par le pipeline sur les sources.</li></ol>'},
  {id:'epoque',h:'Dates des chaînes',b:'<ul><li><b>TV6</b> mars 1986 → février 1987</li><li><b>M6</b> 1<sup>er</sup> mars 1987</li><li><b>La Cinq</b> février 1986 → avril 1992</li><li><b>Canal+</b> novembre 1984</li><li><b>Antenne 2 / FR3</b> → <b>France 2 / France 3</b> 7 septembre 1992</li><li><b>La Sept</b> → <b>Arte</b> 1992</li></ul>'},
- {id:'depot',h:'Exporter et déposer',b:'<ol><li><code>data/channel-routing.json</code> — couche persistante : routes, réassignations, masquages, diffusions légitimes.</li><li><code>data/AAAA.json</code> — année corrigée, masqués exclus.</li><li><code>routage-AAAA.csv</code> — rapport avec scores.</li></ol><p>Commit, push, puis <b>generate_index_only</b>.</p>'},
- {id:'load',h:'Jeux de données',b:'<ul><li><b>Fichier du dépôt</b> : lit <code>data/AAAA.json</code>. Ouvre la page depuis ton site en ligne, pas depuis le disque.</li><li><b>Démo complète</b> : grille 1987 reproduisant heure identique, cas intercalé, cas décalé, ligne dupliquée, programmes courts.</li><li><b>Essai 5 lignes</b> : une seule paire A/B, pour vérifier la comparaison en un coup d\'œil.</li></ul>'},
- {id:'raccourcis',h:'Confort',b:'<ul><li><span class="kbd">/</span> recherche · <span class="kbd">Échap</span> ferme · <span class="kbd">Ctrl</span>+<span class="kbd">Z</span> annule</li><li>Cinq espaces en onglets : un seul à la fois, la page défile normalement.</li><li>🔔 coupe tous les sons.</li></ul>'}];
+ {id:'load',h:'Jeux de données',b:'<ul><li><b>Fichier du dépôt</b> : lit <code>data/AAAA.json</code>. Le champ <code>raw_channel</code> y est conservé, donc l\'outil revoit toujours le libellé d\'origine même après application du routage.</li><li><b>Démo complète</b> et <b>Essai 5 lignes</b> pour vérifier la comparaison A/B.</li></ul>'}];
 function openGuide(sec){$('#g-b').innerHTML=GUIDE.map(function(g){return '<section class="gsec" id="gs-'+g.id+'"><h4>'+esc(g.h)+'</h4><div class="in">'+g.b+'</div></section>';}).join('');
  $('#gscrim').hidden=false;$('#gdrawer').hidden=false;lock();
  if(sec)setTimeout(function(){var e=document.getElementById('gs-'+sec);if(e)e.scrollIntoView({behavior:'smooth',block:'start'});},150);}
 function closeGuide(){$('#gscrim').hidden=true;$('#gdrawer').hidden=true;lock();}
-function payload(){var po={};Object.keys(S.ov).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0],a=ovr(id);if(!p||!a)return;
- po[id]={date:p.date,time:p.time,title:p.title,raw_channel:p.raw,channel:a.act==='reassign'?a.ch:p.ch,action:a.act};});
- return{version:3,updated_at:new Date().toISOString(),year_scope:S.year,
- note:"routes = libellé compacté → chaîne. program_overrides = reassign|hide. legit_duplicates = doubles diffusions réelles. generic_titles = titres écartés de la détection.",
- channel_order:S.order,routes:S.routes,program_overrides:po,legit_duplicates:Object.keys(S.legit),generic_titles:GENERIC};}
-function corrected(){var ds={};S.days.forEach(function(d){
- var ps=S.raw.filter(function(p){return p.date===d.date&&!p.off;}).map(function(p){return{time:p.time,channel:p.ch,title:p.title,description:p.desc||''};})
+function payload(){syncPending();var po={};
+ Object.keys(S.pendingOv).forEach(function(k){var v=S.pendingOv[k];if(v)po[k]=v;});
+ return{version:4,updated_at:new Date().toISOString(),
+  note:"Couche persistante lue par generate_index.py. routes = libellé compacté → chaîne. program_overrides keyed by signature date|heure|titre|libellé brut, action reassign|hide. Ne jamais remplacer data/AAAA.json : il est régénéré.",
+  channel_order:S.order,routes:S.routes,program_overrides:po,legit_duplicates:Object.keys(S.legit),generic_titles:GENERIC};}
+function preview(){var ds={};S.days.forEach(function(d){
+ var ps=S.raw.filter(function(p){return p.date===d.date&&!p.off;}).map(function(p){return{time:p.time,channel:p.ch,raw_channel:p.raw,title:p.title,description:p.desc||''};})
   .sort(function(a,b){return oi(a.channel)-oi(b.channel)||tm(a.time)-tm(b.time);});
- var ch={};ps.forEach(function(p){(ch[p.channel]=ch[p.channel]||[]).push(p);});
- Object.keys(ch).forEach(function(c){ch[c].sort(function(a,b){return tm(a.time)-tm(b.time);});});
- ds[d.date]={date:d.date,source:(d.src||'demo')+'+routage',programs_count:ps.length,programs:ps,channels:ch};});
- return{year:String(S.year),dates:ds};}
-function csv(){var r=[['date','heure','titre','libelle_brut','chaine','methode','action','score','doublon','nomade','exact','generique','hors_epoque']];
- S.raw.forEach(function(p){var a=ovr(p.id);r.push([p.date,p.time,p.title,p.raw,p.ch,p.how,a?a.act:'—',p.sc!=null?p.sc:'',p.dup?'oui':'non',p.nomad?'oui':'non',p.exact?'oui':'non',p.gen?'oui':'non',p.bad?'oui':'non']);});
+ ds[d.date]={date:d.date,programs_count:ps.length,programs:ps};});return{year:String(S.year),dates:ds};}
+function csv(){var r=[['date','heure','titre','libelle_brut','chaine','methode','action','signature','score','doublon','nomade','exact','generique','hors_epoque']];
+ S.raw.forEach(function(p){var a=ovr(p.id);r.push([p.date,p.time,p.title,p.raw,p.ch,p.how,a?a.act:'—',sig(p),p.sc!=null?p.sc:'',p.dup?'oui':'non',p.nomad?'oui':'non',p.exact?'oui':'non',p.gen?'oui':'non',p.bad?'oui':'non']);});
  return r.map(function(x){return x.map(function(v){return '"'+String(v==null?'':v).replace(/"/g,'""')+'"';}).join(',');}).join('\n');}
 function dl(n,t,m){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:m}));a.download=n;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href);},2500);}
-function git(){return 'git add data/channel-routing.json data/'+S.year+'.json\ngit commit -m "fix(channels): doublons '+S.year+'"\ngit push\n\n# puis Actions : workflow "TV Rétro Scraper" → generate_index_only';}
-function openExport(){var rt=payload(),cy=corrected();
- var it=[{n:'channel-routing.json',d:Object.keys(rt.routes).length+' route(s) · '+Object.keys(rt.program_overrides).length+' action(s) · '+rt.legit_duplicates.length+' légitime(s)',t:function(){return JSON.stringify(rt,null,2);},m:'application/json'},
- {n:S.year+'.json',d:nf(S.raw.filter(function(p){return !p.off;}).length)+' conservés · '+cnt().off+' masqués exclus',t:function(){return JSON.stringify(cy,null,2);},m:'application/json'},
- {n:'routage-'+S.year+'.csv',d:'Rapport avec scores et actions',t:csv,m:'text/csv'}];
- $('#ex-list').innerHTML=it.map(function(x,n){return '<div class="exrow"><span class="tx"><b>'+esc(x.n)+'</b><small>'+esc(x.d)+'</small></span><button class="btn sm" type="button" data-ex="'+n+'">📥</button><button class="mini" type="button" data-exc="'+n+'">📋</button></div>';}).join('');
- $('#depot-in').innerHTML='<ol><li><code>channel-routing.json</code> dans <code>data/</code> — couche persistante.</li><li>Remplace <code>data/'+S.year+'.json</code>.</li><li>Commit, push, puis <b>generate_index_only</b>.</li></ol><div class="cmd">'+esc(git())+'</div>';
+function git(){return 'git add data/channel-routing.json generate_index.py\ngit commit -m "fix(channels): routage persistant + application pipeline"\ngit push\n\n# puis Actions : workflow "TV Rétro Scraper" → mode generate_index_only\n# NE PAS déposer data/'+S.year+'.json : il est régénéré depuis les sources.';}
+function openExport(){var rt=payload(),nd_=Object.keys(rt.program_overrides).length;
+ var it=[{n:'channel-routing.json',hero:true,d:'À DÉPOSER dans data/ · '+Object.keys(rt.routes).length+' route(s) · '+nd_+' décision(s) · '+rt.legit_duplicates.length+' légitime(s)',t:function(){return JSON.stringify(rt,null,2);},m:'application/json'},
+ {n:'apercu-'+S.year+'.json',opt:true,d:'Aperçu only — NE PAS déposer, ce fichier est régénéré par le pipeline',t:function(){return JSON.stringify(preview(),null,2);},m:'application/json'},
+ {n:'routage-'+S.year+'.csv',opt:true,d:'Rapport de relecture avec signatures et scores — ne pas déposer',t:csv,m:'text/csv'}];
+ $('#ex-list').innerHTML=it.map(function(x,n){return '<div class="exrow'+(x.hero?' hero-file':' opt')+'"><span class="tx"><b>'+(x.hero?'✅ ':'📄 ')+esc(x.n)+'</b><small>'+esc(x.d)+'</small></span><button class="btn sm'+(x.hero?' good':'')+'" type="button" data-ex="'+n+'">📥</button><button class="mini" type="button" data-exc="'+n+'">📋</button></div>';}).join('');
+ $('#depot-in').innerHTML='<ol><li>Dépose <code>channel-routing.json</code> dans <code>data/</code> — <b>c\'est le seul fichier à déposer</b>.</li>'+
+  '<li>Remplace <code>generate_index.py</code> par la version qui lit ce routage.</li>'+
+  '<li>Commit + push.</li><li>Relance le workflow <b>generate_index_only</b>.</li>'+
+  '<li>Recharge le site : les doublons ont disparu. Reviens ici, l\'onglet <b>Corrections</b> doit afficher « appliqué ».</li></ol>'+
+  '<div class="call bad"><b>Ne remplace jamais <code>data/'+S.year+'.json</code>.</b> Il est reconstruit depuis <code>data/depot101/</code> et <code>data/archives80/</code> à chaque régénération : ton remplacement serait écrasé.</div>'+
+  '<div class="cmd">'+esc(git())+'</div>';
  $('#rt-preview').textContent=JSON.stringify(rt,null,2);
- $$('#ex-list [data-ex]').forEach(function(b){b.onclick=function(){var x=it[+b.dataset.ex];dl(x.n,x.t(),x.m);S.exported=true;S.dirty=false;snd('ok');rHero();rTabs();toast('Téléchargé.','ok');};});
+ $$('#ex-list [data-ex]').forEach(function(b){b.onclick=function(){var x=it[+b.dataset.ex];dl(x.n,x.t(),x.m);if(x.hero){S.exported=true;S.dirty=false;}snd('ok');rHero();rTabs();toast(x.hero?'Fichier persistant téléchargé.':'Aperçu téléchargé (ne pas déposer).',x.hero?'ok':'info');};});
  $$('#ex-list [data-exc]').forEach(function(b){b.onclick=function(){var t=it[+b.dataset.exc].t();
   if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){toast('Copié.','ok');},function(){toast('Copie impossible.','err');});};});
- $('#e-all').onclick=function(){it.forEach(function(x,k){setTimeout(function(){dl(x.n,x.t(),x.m);},k*450);});S.exported=true;S.dirty=false;snd('ok');rHero();rTabs();toast('3 fichiers téléchargés.','ok');};
+ $('#e-main').onclick=function(){dl(it[0].n,it[0].t(),it[0].m);S.exported=true;S.dirty=false;snd('ok');rHero();rTabs();toast('channel-routing.json téléchargé.','ok');};
  $('#e-git').onclick=function(){if(navigator.clipboard)navigator.clipboard.writeText(git()).then(function(){toast('Commandes copiées.','ok');},function(){toast('Copie impossible.','err');});};
  $('#escrim').hidden=false;$('#edrawer').hidden=false;lock();}
 function closeExport(){$('#escrim').hidden=true;$('#edrawer').hidden=true;lock();}
@@ -953,35 +921,41 @@ function toast(m,k,a){var box=$('#toasts'),e=document.createElement('div');e.cla
  e.innerHTML='<span>'+esc(m)+'</span>';
  if(a){var b=document.createElement('button');b.type='button';b.textContent=a.l;b.onclick=function(){a.f();e.remove();};e.appendChild(b);}
  box.appendChild(e);setTimeout(function(){e.style.transition='opacity .3s,transform .3s';e.style.opacity='0';e.style.transform='translateY(8px)';setTimeout(function(){e.remove();},320);},a?8500:4200);}
-
-/* ---------- boot ---------- */
-function boot(){S.ov={};S.sel={};S.selN=0;S.undo=[];S.dirty=false;S.exported=false;
+function boot(){S.sel={};S.selN=0;S.undo=[];S.dirty=false;S.exported=false;
  S.dupLimit=S.dupStep||20;S.gridLimit=14;S.rtLimit=25;S.isLimit=25;S.jrLimit=25;S.fold={};
+ loadPipe();
  if(S.srcMode==='mini'){S.days=mini();S.source='mini';flat();renderAll();return;}
  S.days=seed(S.year);S.source='demo';flat();renderAll();
- if(S.srcMode==='demo'){note('Démo complète choisie : grille '+S.year+' avec heure identique, cas intercalé sans chevauchement, cas décalé, ligne dupliquée et programmes courts.');return;}
- loadFile(S.year);}
+ if(S.srcMode==='demo'){note('Démo complète : grille '+S.year+' avec heure identique, cas intercalé sans chevauchement, cas décalé, ligne dupliquée et programmes courts.');return;}
+ loadYear(S.year);}
 function note(t){var n=$('#demo-note');n.hidden=false;n.innerHTML=t;}
-function loadFile(y){if(location.protocol==='file:'){note('⚠️ Page ouverte depuis le disque : <code>../data/'+y+'.json</code> est illisible. Démo active. Ouvre <code>https://…github.io/tv-retro/channels/</code> pour tes vraies données.');return;}
+function loadPipe(){if(location.protocol==='file:'){S.pipe=null;return;}
+ fetch('../data/index.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
+  S.pipe=j&&j.channel_routing?j.channel_routing:(j?{present:false,routes:0,decisions:0,matched:0,hidden:0,reassigned:0,legit:0}:null);
+  safe('pipe',rPipe);safe('hero',rHero);}).catch(function(){S.pipe=null;});}
+function loadRouting(){return fetch('../data/channel-routing.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
+ if(!j)return;
+ S.routes=Object.assign({},j.routes||{},S.routes);
+ (j.legit_duplicates||[]).forEach(function(k){S.legit[k]=1;});
+ var po=j.program_overrides||{},merged=Object.assign({},po);
+ Object.keys(S.pendingOv||{}).forEach(function(k){merged[k]=S.pendingOv[k];});
+ S.pendingOv=merged;save();}).catch(function(){});}
+function loadYear(y){if(location.protocol==='file:'){note('⚠️ Page ouverte depuis le disque : <code>../data/'+y+'.json</code> est illisible. Démo active. Ouvre <code>https://…github.io/tv-retro/channels/</code>.');return;}
  fetch('../data/'+y+'.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
   if(!j||!j.dates){note('⚠️ <code>../data/'+y+'.json</code> introuvable ou vide. Démo '+y+' active.');return;}
   var ds=j.dates,days=[];
   Object.keys(ds).sort(function(a,b){return (nd(a)||a).split('-').reverse().join('').localeCompare((nd(b)||b).split('-').reverse().join(''));}).forEach(function(d){
    var dd=ds[d]||{},l=Array.isArray(dd.programs)?dd.programs:Object.keys(dd.channels||{}).reduce(function(a,k){return a.concat(dd.channels[k]||[]);},[]);
    days.push({date:nd(d)||d,src:dd.source||'inconnue',programs:l.filter(Boolean).map(function(p){
-    return{date:nd(d)||d,time:nt(p.time),title:String(p.title||'').trim(),raw:String(p.channel||'').trim(),desc:String(p.description||'')};})});});
+    return{date:nd(d)||d,time:nt(p.time),title:String(p.title||'').trim(),raw:String(p.raw_channel||p.channel||'').trim(),desc:String(p.description||'')};})});});
   if(!days.length){note('⚠️ Aucune journée exploitable dans '+y+'.json. Démo active.');return;}
-  S.days=days;S.source='fichier';flat();
-  fetch('../data/channel-routing.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j2){
-   if(j2){S.routes=Object.assign({},j2.routes||{},S.routes);(j2.legit_duplicates||[]).forEach(function(k){S.legit[k]=1;});}
-   $('#demo-note').hidden=true;renderAll();}).catch(function(){$('#demo-note').hidden=true;renderAll();});
+  S.days=days;S.source='fichier';
+  loadRouting().then(function(){flat();$('#demo-note').hidden=true;renderAll();});
  }).catch(function(){note('⚠️ Lecture de <code>../data/'+y+'.json</code> impossible. Démo '+y+' active.');});}
-
-/* ---------- listeners ---------- */
 function bind(){var on=function(s,e,f){var x=$(s);if(x)x.addEventListener(e,f);};
  var deb=null,lazy=function(){if(deb)clearTimeout(deb);deb=setTimeout(function(){S.dupLimit=S.dupStep||20;renderAll();},200);};
  on('#b-sound','click',function(){S.sound=!S.sound;put(KS,S.sound?'on':'off');rSound();if(S.sound)snd('tick');toast(S.sound?'Sons activés.':'Sons coupés.','info');});
- on('#b-guide','click',function(){openGuide('doublons');});
+ on('#b-guide','click',function(){openGuide('pipeline');});
  on('#b-export','click',openExport);
  on('#b-reload','click',function(){boot();toast('Rechargement…','info');});
  on('#tools-fold','click',function(){var b=$('#tools-body');b.hidden=!b.hidden;$('#tools-fold').textContent=b.hidden?'Déplier':'Replier';});
@@ -1014,17 +988,17 @@ function bind(){var on=function(s,e,f){var x=$(s);if(x)x.addEventListener(e,f);}
  on('#grid-sort','change',function(e){S.gridSort=e.target.value;renderAll();});
  on('#grid-day','change',function(e){S.gridDay=e.target.value;S.gridLimit=14;renderAll();});
  on('#grid-expand','click',function(){S.fold={};safe('grid',rGrid);});
- on('#grid-fold','click',function(){var l=gridList();l.forEach(function(p){S.fold['after|'+p.ch]=1;S.fold['before|'+(p.raw||'(vide)')]=1;});safe('grid',rGrid);});
+ on('#grid-fold','click',function(){gridList().forEach(function(p){S.fold['after|'+p.ch]=1;S.fold['before|'+(p.raw||'(vide)')]=1;});safe('grid',rGrid);});
  on('#grid-pickdup','click',function(){var l=gridList().filter(function(p){return p.dup&&!p.off;});
   if(!l.length){toast('Aucun doublon visible.','warn');return;}
   l.forEach(function(p){if(!S.sel[p.id]){S.sel[p.id]=1;S.selN++;}});snd('dup');safe('grid',rGrid);rBulk();toast(S.selN+' doublon(s) coché(s).','dup');});
  on('#bulk-none','click',function(){S.sel={};S.selN=0;safe('grid',rGrid);rBulk();});
  on('#bulk-apply','click',function(){var ch=$('#bulk-ch').value,n=S.selN;if(!n)return;push();
-  Object.keys(S.sel).forEach(function(id){S.ov[id]={act:'reassign',ch:ch};});S.sel={};S.selN=0;S.dirty=true;snd('ok');renderAll();toast(n+' → '+ch,'ok',{l:'Annuler',f:undo});});
+  Object.keys(S.sel).forEach(function(id){S.ov[id]={act:'reassign',ch:ch};});S.sel={};S.selN=0;S.dirty=true;save();snd('ok');renderAll();toast(n+' → '+ch,'ok',{l:'Annuler',f:undo});});
  on('#bulk-hide','click',function(){var n=S.selN;if(!n)return;push();Object.keys(S.sel).forEach(function(id){S.ov[id]={act:'hide',ch:''};});
-  S.sel={};S.selN=0;S.dirty=true;snd('warn');renderAll();toast(n+' masqué(s).','dup',{l:'Annuler',f:undo});});
+  S.sel={};S.selN=0;S.dirty=true;save();snd('warn');renderAll();toast(n+' masqué(s).','dup',{l:'Annuler',f:undo});});
  on('#bulk-restore','click',function(){var n=S.selN;if(!n)return;push();Object.keys(S.sel).forEach(function(id){delete S.ov[id];});
-  S.sel={};S.selN=0;snd('ok');renderAll();toast(n+' restauré(s).','ok',{l:'Annuler',f:undo});});
+  S.sel={};S.selN=0;save();snd('ok');renderAll();toast(n+' restauré(s).','ok',{l:'Annuler',f:undo});});
  on('#rt-auto','click',autoAll);
  on('#rt-reset','click',function(){if(!Object.keys(S.routes).length){toast('Routage déjà vide.','warn');return;}
   push();S.routes={};save();renderAll();snd('warn');toast('Routage réinitialisé.','warn',{l:'Annuler',f:undo});});
@@ -1032,7 +1006,7 @@ function bind(){var on=function(s,e,f){var x=$(s);if(x)x.addEventListener(e,f);}
  on('#jr-undo','click',undo);
  on('#jr-clear','click',function(){if(!Object.keys(S.ov).length&&!Object.keys(S.routes).length){toast('Rien à réinitialiser.','warn');return;}
   if(!confirm('Annuler toutes les corrections et le routage ?'))return;
-  push();S.ov={};S.routes={};S.legit={};save();S.dirty=true;renderAll();snd('warn');toast('Tout réinitialisé.','warn',{l:'Annuler',f:undo});});
+  push();S.ov={};S.routes={};S.legit={};S.pendingOv={};save();S.dirty=true;renderAll();snd('warn');toast('Tout réinitialisé.','warn',{l:'Annuler',f:undo});});
  on('#jr-export','click',openExport);
  on('#g-x','click',closeGuide);on('#g-x2','click',closeGuide);on('#gscrim','click',closeGuide);
  on('#g-next','click',function(){closeGuide();var n=next();snd('tick');n.go();});
@@ -1056,7 +1030,6 @@ function bind(){var on=function(s,e,f){var x=$(s);if(x)x.addEventListener(e,f);}
   if((e.ctrlKey||e.metaKey)&&(e.key==='z'||e.key==='Z')){e.preventDefault();undo();}
   if(e.key==='/'&&!/input|select|textarea/i.test(document.activeElement.tagName)){e.preventDefault();$('#t-q').focus();}});
  window.addEventListener('beforeunload',function(e){if(S.dirty){e.preventDefault();e.returnValue='';}});}
-
 try{rSound();bind();boot();}catch(e){rep('démarrage',e);}
 })();
 </script>
