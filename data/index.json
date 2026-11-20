@@ -1,13 +1,23 @@
 {
-  "generated_at": "2026-11-20T18:19:12.376339",
+  "generated_at": "2026-11-20T20:11:56.605154",
   "total_dates": 1029,
-  "total_programs": 112757,
-  "total_segments": 13607,
+  "total_programs": 112700,
+  "total_segments": 13024,
   "ina_enriched": 584,
   "overrides": {
     "patched": 4,
     "hidden": 0,
     "added": 0
+  },
+  "channel_routing": {
+    "routes": 0,
+    "decisions": 57,
+    "matched": 57,
+    "hidden": 57,
+    "reassigned": 0,
+    "legit": 8,
+    "present": true,
+    "applied_at": "2026-11-20T20:11:56.605141"
   },
   "years": {
     "1975": {
@@ -2239,7 +2249,7 @@
       }
     },
     "1987": {
-      "total_programs": 6076,
+      "total_programs": 6019,
       "dates": {
         "03-01-1987": {
           "source": "archives80+depot101",
@@ -2295,7 +2305,7 @@
         },
         "07-03-1987": {
           "source": "archives80+depot101",
-          "programs_count": 140
+          "programs_count": 139
         },
         "08-03-1987": {
           "source": "archives80+depot101",
@@ -2355,7 +2365,7 @@
         },
         "05-06-1987": {
           "source": "archives80+depot101",
-          "programs_count": 137
+          "programs_count": 128
         },
         "07-07-1987": {
           "source": "archives80+depot101",
@@ -2403,11 +2413,11 @@
         },
         "27-12-1987": {
           "source": "archives80+depot101",
-          "programs_count": 55
+          "programs_count": 43
         },
         "28-12-1987": {
           "source": "archives80+depot101",
-          "programs_count": 82
+          "programs_count": 65
         },
         "29-12-1987": {
           "source": "archives80+depot101",
@@ -2419,7 +2429,7 @@
         },
         "31-12-1987": {
           "source": "archives80+depot101",
-          "programs_count": 87
+          "programs_count": 69
         }
       }
     },
