@@ -514,7 +514,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire",
+              "raw": "Au sommaire",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91014599",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014599/giga-emission-du-1er-janvier-1992?rang=165"
         },
         {
           "time": "18:20",
@@ -1951,7 +1960,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire",
+                "raw": "Au sommaire",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91014599",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91014599/giga-emission-du-1er-janvier-1992?rang=165"
           },
           {
             "time": "18:20",
@@ -6938,6 +6956,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Jeu QUIZAKO",
+              "raw": "Jeu QUIZAKO",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SERIE : \"Sauvés par le gong\"",
+              "raw": "SERIE : \"Sauvés par le gong\"",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Le prince de Bel-Air",
               "raw": "Le prince de Bel-Air"
@@ -6952,7 +6988,9 @@
               "title": "Sauvés par le Gong",
               "raw": "Sauvés par le Gong"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB92015947",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015947/giga-emission-du-1er-decembre-1992?rang=137"
         },
         {
           "time": "18:30",
@@ -8658,6 +8696,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Jeu QUIZAKO",
+                "raw": "Jeu QUIZAKO",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SERIE : \"Sauvés par le gong\"",
+                "raw": "SERIE : \"Sauvés par le gong\"",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Le prince de Bel-Air",
                 "raw": "Le prince de Bel-Air"
@@ -8672,7 +8728,9 @@
                 "title": "Sauvés par le Gong",
                 "raw": "Sauvés par le Gong"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB92015947",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015947/giga-emission-du-1er-decembre-1992?rang=137"
           },
           {
             "time": "18:30",
@@ -15797,7 +15855,28 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire",
+              "raw": "Au sommaire",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "GIGA SERIE/ UN TOIT POUR DIX (achat),",
+              "raw": "GIGA SERIE/ UN TOIT POUR DIX (achat),",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "GRAND JEU HIPPOFOLIES",
+              "raw": "GRAND JEU HIPPOFOLIES",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92015948",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015948/giga-emission-du-2-decembre-1992?rang=160"
         },
         {
           "time": "18:30",
@@ -17272,7 +17351,28 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire",
+                "raw": "Au sommaire",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "GIGA SERIE/ UN TOIT POUR DIX (achat),",
+                "raw": "GIGA SERIE/ UN TOIT POUR DIX (achat),",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "GRAND JEU HIPPOFOLIES",
+                "raw": "GRAND JEU HIPPOFOLIES",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92015948",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92015948/giga-emission-du-2-decembre-1992?rang=160"
           },
           {
             "time": "18:30",
@@ -24555,7 +24655,34 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de ce numéro de GIGA",
+              "raw": "Au sommaire de ce numéro de GIGA",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Série américaine : SOIS PROF ET TAIS TOI",
+              "raw": "Série américaine : SOIS PROF ET TAIS TOI",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Série américaine : SAUVES PAR LE GONG",
+              "raw": "Série américaine : SAUVES PAR LE GONG",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "JEU Quisako",
+              "raw": "JEU Quisako",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92000854",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000854/giga-emission-du-7-fevrier-1992?rang=205"
         },
         {
           "time": "18:05",
@@ -26104,7 +26231,34 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de ce numéro de GIGA",
+                "raw": "Au sommaire de ce numéro de GIGA",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Série américaine : SOIS PROF ET TAIS TOI",
+                "raw": "Série américaine : SOIS PROF ET TAIS TOI",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Série américaine : SAUVES PAR LE GONG",
+                "raw": "Série américaine : SAUVES PAR LE GONG",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "JEU Quisako",
+                "raw": "JEU Quisako",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92000854",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000854/giga-emission-du-7-fevrier-1992?rang=205"
           },
           {
             "time": "18:05",
@@ -34405,7 +34559,22 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Reportages Giga",
+              "raw": "Reportages Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Extrait du vidéoclip \"Who is it ?\"",
+              "raw": "Extrait du vidéoclip \"Who is it ?\"",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92010604",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010604/giga-emission-du-8-septembre-1992?rang=223"
         },
         {
           "time": "18:20",
@@ -35695,7 +35864,22 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Reportages Giga",
+                "raw": "Reportages Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Extrait du vidéoclip \"Who is it ?\"",
+                "raw": "Extrait du vidéoclip \"Who is it ?\"",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92010604",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92010604/giga-emission-du-8-septembre-1992?rang=223"
           },
           {
             "time": "18:20",
@@ -37180,6 +37364,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "JEU DU QUIZAKO",
+              "raw": "JEU DU QUIZAKO",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Sois prof et tais-toi !",
               "raw": "Sois prof et tais-toi !"
@@ -37194,7 +37384,9 @@
               "title": "QUIZAKO",
               "raw": "QUIZAKO"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB92001882",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001882/giga-emission-du-9-mars-1992?rang=77"
         },
         {
           "time": "18:05",
@@ -39182,6 +39374,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "JEU DU QUIZAKO",
+                "raw": "JEU DU QUIZAKO",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Sois prof et tais-toi !",
                 "raw": "Sois prof et tais-toi !"
@@ -39196,7 +39394,9 @@
                 "title": "QUIZAKO",
                 "raw": "QUIZAKO"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB92001882",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001882/giga-emission-du-9-mars-1992?rang=77"
           },
           {
             "time": "18:05",
@@ -45261,6 +45461,36 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire",
+              "raw": "Au sommaire",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SALUT LES COPAINS (cpb92001895)",
+              "raw": "SALUT LES COPAINS (cpb92001895)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SOIS PROF ET TAIS TOI : feuilleton (achat)",
+              "raw": "SOIS PROF ET TAIS TOI : feuilleton (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "SAUVES PAR LE GONG : feuilleton (achat)",
+              "raw": "SAUVES PAR LE GONG : feuilleton (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "QUIZAKO : le jeu final",
+              "raw": "QUIZAKO : le jeu final",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Salut les copains",
               "raw": "Salut les copains"
@@ -45275,7 +45505,9 @@
               "title": "Sauvés par le Gong",
               "raw": "Sauvés par le Gong"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB92001884",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001884/giga-emission-du-11-mars-1992?rang=233"
         },
         {
           "time": "18:10",
@@ -47255,6 +47487,36 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire",
+                "raw": "Au sommaire",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SALUT LES COPAINS (cpb92001895)",
+                "raw": "SALUT LES COPAINS (cpb92001895)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SOIS PROF ET TAIS TOI : feuilleton (achat)",
+                "raw": "SOIS PROF ET TAIS TOI : feuilleton (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "SAUVES PAR LE GONG : feuilleton (achat)",
+                "raw": "SAUVES PAR LE GONG : feuilleton (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "QUIZAKO : le jeu final",
+                "raw": "QUIZAKO : le jeu final",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Salut les copains",
                 "raw": "Salut les copains"
@@ -47269,7 +47531,9 @@
                 "title": "Sauvés par le Gong",
                 "raw": "Sauvés par le Gong"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB92001884",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001884/giga-emission-du-11-mars-1992?rang=233"
           },
           {
             "time": "18:10",
@@ -52162,6 +52426,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "JEU DU QUIZAKO",
+              "raw": "JEU DU QUIZAKO",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Sois prof et tais-toi !",
               "raw": "Sois prof et tais-toi !"
@@ -52176,7 +52446,9 @@
               "title": "QUIZAKO",
               "raw": "QUIZAKO"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB92001885",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001885/giga-emission-du-12-mars-1992?rang=3"
         },
         {
           "time": "18:10",
@@ -54241,6 +54513,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "JEU DU QUIZAKO",
+                "raw": "JEU DU QUIZAKO",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Sois prof et tais-toi !",
                 "raw": "Sois prof et tais-toi !"
@@ -54255,7 +54533,9 @@
                 "title": "QUIZAKO",
                 "raw": "QUIZAKO"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB92001885",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001885/giga-emission-du-12-mars-1992?rang=3"
           },
           {
             "time": "18:10",
@@ -56287,6 +56567,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire",
+              "raw": "Au sommaire",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "QUIZAKO : Jeu interactif",
+              "raw": "QUIZAKO : Jeu interactif",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Sois prof et tais-toi !",
               "raw": "Sois prof et tais-toi !"
@@ -56301,7 +56593,9 @@
               "title": "QUIZAKO",
               "raw": "QUIZAKO"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB92001886",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001886/giga-emission-du-13-mars-1992?rang=65"
         },
         {
           "time": "18:10",
@@ -58346,6 +58640,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire",
+                "raw": "Au sommaire",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "QUIZAKO : Jeu interactif",
+                "raw": "QUIZAKO : Jeu interactif",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Sois prof et tais-toi !",
                 "raw": "Sois prof et tais-toi !"
@@ -58360,7 +58666,9 @@
                 "title": "QUIZAKO",
                 "raw": "QUIZAKO"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB92001886",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92001886/giga-emission-du-13-mars-1992?rang=65"
           },
           {
             "time": "18:10",
@@ -65631,7 +65939,40 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Diffusion des trois séries américaines",
+              "raw": "Diffusion des trois séries américaines",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"Sois prof et tais toi \"",
+              "raw": "\"Sois prof et tais toi \"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"Les années collèges\"",
+              "raw": "\"Les années collèges\"",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "\"Le prince de Bel Air \"",
+              "raw": "\"Le prince de Bel Air \"",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "JEU : le quizako",
+              "raw": "JEU : le quizako",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92003920",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003920/giga-emission-du-15-mai-1992?rang=194"
         },
         {
           "time": "18:25",
@@ -66859,7 +67200,40 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Diffusion des trois séries américaines",
+                "raw": "Diffusion des trois séries américaines",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"Sois prof et tais toi \"",
+                "raw": "\"Sois prof et tais toi \"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"Les années collèges\"",
+                "raw": "\"Les années collèges\"",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "\"Le prince de Bel Air \"",
+                "raw": "\"Le prince de Bel Air \"",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "JEU : le quizako",
+                "raw": "JEU : le quizako",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92003920",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92003920/giga-emission-du-15-mai-1992?rang=194"
           },
           {
             "time": "18:25",
@@ -73421,7 +73795,40 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SERIE : \"La fête à la maison\" (achat),",
+              "raw": "SERIE : \"La fête à la maison\" (achat),",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Jeu QUIZAKO,",
+              "raw": "Jeu QUIZAKO,",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "SERIE : \"Lycée alpin\" (Les aveux),",
+              "raw": "SERIE : \"Lycée alpin\" (Les aveux),",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "SERIE : \"Sauvés par le gong\"",
+              "raw": "SERIE : \"Sauvés par le gong\"",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92012650",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012650/giga-emission-du-16-octobre-1992?rang=224"
         },
         {
           "time": "18:30",
@@ -74808,7 +75215,40 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SERIE : \"La fête à la maison\" (achat),",
+                "raw": "SERIE : \"La fête à la maison\" (achat),",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Jeu QUIZAKO,",
+                "raw": "Jeu QUIZAKO,",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "SERIE : \"Lycée alpin\" (Les aveux),",
+                "raw": "SERIE : \"Lycée alpin\" (Les aveux),",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "SERIE : \"Sauvés par le gong\"",
+                "raw": "SERIE : \"Sauvés par le gong\"",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92012650",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92012650/giga-emission-du-16-octobre-1992?rang=224"
           },
           {
             "time": "18:30",
@@ -87134,7 +87574,34 @@
           "description_lines": [
             "Reportages et séries"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SERIE : \"Famille JACKSON\"",
+              "raw": "SERIE : \"Famille JACKSON\"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SERIE : \"Un toit pour dix\"",
+              "raw": "SERIE : \"Un toit pour dix\"",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "SERIE : \"Mac Gyver\"",
+              "raw": "SERIE : \"Mac Gyver\"",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92017313",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017313/giga-emission-du-24-decembre-1992?rang=191"
         },
         {
           "time": "18:45",
@@ -88307,7 +88774,34 @@
             "description_lines": [
               "Reportages et séries"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SERIE : \"Famille JACKSON\"",
+                "raw": "SERIE : \"Famille JACKSON\"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SERIE : \"Un toit pour dix\"",
+                "raw": "SERIE : \"Un toit pour dix\"",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "SERIE : \"Mac Gyver\"",
+                "raw": "SERIE : \"Mac Gyver\"",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92017313",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92017313/giga-emission-du-24-decembre-1992?rang=191"
           },
           {
             "time": "18:45",
@@ -92216,7 +92710,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Jeu Coco-crazy : durée du trajet domicile-école",
+              "raw": "Jeu Coco-crazy : durée du trajet domicile-école",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92014296",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014296/giga-emission-du-25-novembre-1992?rang=135"
         },
         {
           "time": "18:25",
@@ -93763,7 +94266,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Jeu Coco-crazy : durée du trajet domicile-école",
+                "raw": "Jeu Coco-crazy : durée du trajet domicile-école",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92014296",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92014296/giga-emission-du-25-novembre-1992?rang=135"
           },
           {
             "time": "18:25",
@@ -97713,7 +98225,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "sélection de cassettes vidéo musicales",
+              "raw": "sélection de cassettes vidéo musicales",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB92000844",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000844/giga-emission-du-27-janvier-1992?rang=53"
         },
         {
           "time": "18:00",
@@ -99284,7 +99805,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "sélection de cassettes vidéo musicales",
+                "raw": "sélection de cassettes vidéo musicales",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB92000844",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB92000844/giga-emission-du-27-janvier-1992?rang=53"
           },
           {
             "time": "18:00",
@@ -109290,7 +109820,34 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"La Famille JACKSON\"",
+              "raw": "\"La Famille JACKSON\"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"Un toit pour dix\"",
+              "raw": "\"Un toit pour dix\"",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "\"Sauvés par le Gong\"",
+              "raw": "\"Sauvés par le Gong\"",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93000212",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000212/giga-emission-du-31-decembre-1992?rang=142"
         },
         {
           "time": "18:50",
@@ -110756,7 +111313,34 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"La Famille JACKSON\"",
+                "raw": "\"La Famille JACKSON\"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"Un toit pour dix\"",
+                "raw": "\"Un toit pour dix\"",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "\"Sauvés par le Gong\"",
+                "raw": "\"Sauvés par le Gong\"",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93000212",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93000212/giga-emission-du-31-decembre-1992?rang=142"
           },
           {
             "time": "18:50",

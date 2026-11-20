@@ -455,7 +455,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de l'émission",
+              "raw": "Au sommaire de l'émission",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90009529",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009529/giga-emission-du-1er-novembre-1990?rang=175"
         },
         {
           "time": "17:35",
@@ -1794,7 +1803,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de l'émission",
+                "raw": "Au sommaire de l'émission",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90009529",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90009529/giga-emission-du-1er-novembre-1990?rang=175"
           },
           {
             "time": "17:35",
@@ -3279,6 +3297,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de ce numéro",
+              "raw": "Au sommaire de ce numéro",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SERIE GIGA : les Années collège (le trac)",
+              "raw": "SERIE GIGA : les Années collège (le trac)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur",
               "raw": "Quoi de neuf docteur"
@@ -3288,7 +3318,9 @@
               "title": "Les Années Collège",
               "raw": "Les Années Collège"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90003061",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003061/giga-emission-du-4-avril-1990?rang=52"
         },
         {
           "time": "18:30",
@@ -5007,6 +5039,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de ce numéro",
+                "raw": "Au sommaire de ce numéro",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SERIE GIGA : les Années collège (le trac)",
+                "raw": "SERIE GIGA : les Années collège (le trac)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur",
                 "raw": "Quoi de neuf docteur"
@@ -5016,7 +5060,9 @@
                 "title": "Les Années Collège",
                 "raw": "Les Années Collège"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90003061",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003061/giga-emission-du-4-avril-1990?rang=52"
           },
           {
             "time": "18:30",
@@ -23736,6 +23782,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Le feuilleton \"Cap danger\"",
+              "raw": "Le feuilleton \"Cap danger\"",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Cap danger",
               "raw": "Cap danger"
@@ -23795,7 +23847,9 @@
               "title": "365 soleils",
               "raw": "365 soleils"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPA89013111",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89013111/club-dorothee-emission-du-10-janvier-1990?rang=61"
         },
         {
           "time": "17:55",
@@ -25954,6 +26008,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Le feuilleton \"Cap danger\"",
+                "raw": "Le feuilleton \"Cap danger\"",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Cap danger",
                 "raw": "Cap danger"
@@ -26013,7 +26073,9 @@
                 "title": "365 soleils",
                 "raw": "365 soleils"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPA89013111",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA89013111/club-dorothee-emission-du-10-janvier-1990?rang=61"
           },
           {
             "time": "17:55",
@@ -44896,7 +44958,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Diffusion de Alf",
+              "raw": "Diffusion de Alf",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90007362",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007362/giga-emission-du-15-aout-1990?rang=122"
         },
         {
           "time": "19:05",
@@ -46224,7 +46295,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Diffusion de Alf",
+                "raw": "Diffusion de Alf",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90007362",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90007362/giga-emission-du-15-aout-1990?rang=122"
           },
           {
             "time": "19:05",
@@ -53696,6 +53776,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "\"LES 365 SOLEILS\"",
+              "raw": "\"LES 365 SOLEILS\"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"MES TENDRES ANNEES\", \"MASK\" (achats)",
+              "raw": "\"MES TENDRES ANNEES\", \"MASK\" (achats)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"CAP DANGER\" (achat)",
+              "raw": "\"CAP DANGER\" (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Mes tendres années",
               "raw": "Mes tendres années"
             },
@@ -53709,7 +53807,9 @@
               "title": "Les jeux",
               "raw": "Les jeux"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPA90001338",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001338/club-dorothee-vacances-emission-du-19-fevrier-1990?rang=360"
         },
         {
           "time": "17:55",
@@ -54076,6 +54176,12 @@
           "segments": [
             {
               "index": 0,
+              "title": "Au sommaire de ce premier numéro de GIGA",
+              "raw": "Au sommaire de ce premier numéro de GIGA",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "PREMIERE. Nouvelle émission quotidienne pour les adolescents, Giga est composée de deux séries, entre lesquelles s'intercalent de mini-reportages...",
               "raw": "PREMIERE. Nouvelle émission quotidienne pour les adolescents, Giga est composée de deux séries, entre lesquelles s'intercalent de mini-reportages..."
             },
@@ -54089,7 +54195,9 @@
               "title": "La fête à la maison - Un peu de tendresse",
               "raw": "La fête à la maison - Un peu de tendresse"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90001915",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001915/giga-emission-du-19-fevrier-1990?rang=1"
         },
         {
           "time": "18:30",
@@ -55424,6 +55532,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "\"LES 365 SOLEILS\"",
+                "raw": "\"LES 365 SOLEILS\"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"MES TENDRES ANNEES\", \"MASK\" (achats)",
+                "raw": "\"MES TENDRES ANNEES\", \"MASK\" (achats)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"CAP DANGER\" (achat)",
+                "raw": "\"CAP DANGER\" (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Mes tendres années",
                 "raw": "Mes tendres années"
               },
@@ -55437,7 +55563,9 @@
                 "title": "Les jeux",
                 "raw": "Les jeux"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPA90001338",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90001338/club-dorothee-vacances-emission-du-19-fevrier-1990?rang=360"
           },
           {
             "time": "17:55",
@@ -55806,6 +55934,12 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Au sommaire de ce premier numéro de GIGA",
+                "raw": "Au sommaire de ce premier numéro de GIGA",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "PREMIERE. Nouvelle émission quotidienne pour les adolescents, Giga est composée de deux séries, entre lesquelles s'intercalent de mini-reportages...",
                 "raw": "PREMIERE. Nouvelle émission quotidienne pour les adolescents, Giga est composée de deux séries, entre lesquelles s'intercalent de mini-reportages..."
               },
@@ -55819,7 +55953,9 @@
                 "title": "La fête à la maison - Un peu de tendresse",
                 "raw": "La fête à la maison - Un peu de tendresse"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90001915",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90001915/giga-emission-du-19-fevrier-1990?rang=1"
           },
           {
             "time": "18:30",
@@ -57607,11 +57743,19 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Larry ET BALKI (série, achat)",
+              "raw": "Larry ET BALKI (série, achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Larry et Balki",
               "raw": "Larry et Balki"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90010458",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010458/giga-emission-du-19-novembre-1990?rang=137"
         },
         {
           "time": "18:25",
@@ -59589,11 +59733,19 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Larry ET BALKI (série, achat)",
+                "raw": "Larry ET BALKI (série, achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Larry et Balki",
                 "raw": "Larry et Balki"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90010458",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010458/giga-emission-du-19-novembre-1990?rang=137"
           },
           {
             "time": "18:25",
@@ -68278,11 +68430,19 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire",
+              "raw": "Au sommaire",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Larry et Balki",
               "raw": "Larry et Balki"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90010461",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010461/giga-emission-du-22-novembre-1990?rang=138"
         },
         {
           "time": "18:30",
@@ -70286,11 +70446,19 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire",
+                "raw": "Au sommaire",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Larry et Balki",
                 "raw": "Larry et Balki"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90010461",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010461/giga-emission-du-22-novembre-1990?rang=138"
           },
           {
             "time": "18:30",
@@ -74601,11 +74769,31 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de l'émission",
+              "raw": "Au sommaire de l'émission",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SELECTION GIGA : Sélection de livres",
+              "raw": "SELECTION GIGA : Sélection de livres",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SERIE GIGA/ Larry ET BALKI (achat)",
+              "raw": "SERIE GIGA/ Larry ET BALKI (achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Larry et Balki",
               "raw": "Larry et Balki"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90010462",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010462/giga-emission-du-23-novembre-1990?rang=157"
         },
         {
           "time": "18:30",
@@ -76627,11 +76815,31 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de l'émission",
+                "raw": "Au sommaire de l'émission",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SELECTION GIGA : Sélection de livres",
+                "raw": "SELECTION GIGA : Sélection de livres",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SERIE GIGA/ Larry ET BALKI (achat)",
+                "raw": "SERIE GIGA/ Larry ET BALKI (achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Larry et Balki",
                 "raw": "Larry et Balki"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90010462",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010462/giga-emission-du-23-novembre-1990?rang=157"
           },
           {
             "time": "18:30",
@@ -81472,7 +81680,16 @@
           "description_lines": [
             "Présenté par Dorothée, Ariane, Jacky et Corbier"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Série \"Super boy\"",
+              "raw": "Série \"Super boy\"",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPA90013085",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90013085/club-dorothee-noel-emission-du-24-decembre-1990?rang=334"
         },
         {
           "time": "16:40",
@@ -81780,7 +81997,28 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Série \"Les TWIST : le squelette des toilettes\"",
+              "raw": "Série \"Les TWIST : le squelette des toilettes\"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Kim WILDE souhaite un joyeux Noël en anglais",
+              "raw": "Kim WILDE souhaite un joyeux Noël en anglais",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "LES Garçons Bouchers souhaitent un joyeux Noël",
+              "raw": "LES Garçons Bouchers souhaitent un joyeux Noël",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90013312",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013312/giga-emission-du-24-decmbre-1990?rang=118"
         },
         {
           "time": "18:50",
@@ -82985,7 +83223,16 @@
             "description_lines": [
               "Présenté par Dorothée, Ariane, Jacky et Corbier"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Série \"Super boy\"",
+                "raw": "Série \"Super boy\"",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPA90013085",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA90013085/club-dorothee-noel-emission-du-24-decembre-1990?rang=334"
           },
           {
             "time": "16:40",
@@ -83295,7 +83542,28 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Série \"Les TWIST : le squelette des toilettes\"",
+                "raw": "Série \"Les TWIST : le squelette des toilettes\"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Kim WILDE souhaite un joyeux Noël en anglais",
+                "raw": "Kim WILDE souhaite un joyeux Noël en anglais",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "LES Garçons Bouchers souhaitent un joyeux Noël",
+                "raw": "LES Garçons Bouchers souhaitent un joyeux Noël",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90013312",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013312/giga-emission-du-24-decmbre-1990?rang=118"
           },
           {
             "time": "18:50",
@@ -88100,7 +88368,22 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au programme de GIGA",
+              "raw": "Au programme de GIGA",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"Les Années Collège\" (série américaine)",
+              "raw": "\"Les Années Collège\" (série américaine)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90013314",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013314/giga-emission-du-25-decmbre-1990?rang=63"
         },
         {
           "time": "18:55",
@@ -89626,7 +89909,22 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au programme de GIGA",
+                "raw": "Au programme de GIGA",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"Les Années Collège\" (série américaine)",
+                "raw": "\"Les Années Collège\" (série américaine)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90013314",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90013314/giga-emission-du-25-decmbre-1990?rang=63"
           },
           {
             "time": "18:55",
@@ -98393,11 +98691,25 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "GIGA SERIE : LARRYET BALKI (achat)",
+              "raw": "GIGA SERIE : LARRYET BALKI (achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Larry et Balki",
               "raw": "Larry et Balki"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90010885",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010885/giga-emission-du-26-novembre-1990?rang=146"
         },
         {
           "time": "18:25",
@@ -100109,11 +100421,25 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "GIGA SERIE : LARRYET BALKI (achat)",
+                "raw": "GIGA SERIE : LARRYET BALKI (achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Larry et Balki",
                 "raw": "Larry et Balki"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90010885",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90010885/giga-emission-du-26-novembre-1990?rang=146"
           },
           {
             "time": "18:25",
@@ -101969,6 +102295,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de l'émission",
+              "raw": "Au sommaire de l'émission",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Extrait du dessin animé \"Merlin l'enchanteur\"",
+              "raw": "Extrait du dessin animé \"Merlin l'enchanteur\"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SERIE : Les années collège : la pétition",
+              "raw": "SERIE : Les années collège : la pétition",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -101978,7 +102322,9 @@
               "title": "Les Années Collège",
               "raw": "Les Années Collège"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90003055",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003055/giga-emission-du-27-mars-1990?rang=206"
         },
         {
           "time": "18:30",
@@ -103884,6 +104230,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de l'émission",
+                "raw": "Au sommaire de l'émission",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Extrait du dessin animé \"Merlin l'enchanteur\"",
+                "raw": "Extrait du dessin animé \"Merlin l'enchanteur\"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SERIE : Les années collège : la pétition",
+                "raw": "SERIE : Les années collège : la pétition",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -103893,7 +104257,9 @@
                 "title": "Les Années Collège",
                 "raw": "Les Années Collège"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90003055",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003055/giga-emission-du-27-mars-1990?rang=206"
           },
           {
             "time": "18:30",
@@ -105971,6 +106337,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Série : Quoi de neuf docteur (achat)",
+              "raw": "Série : Quoi de neuf docteur (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Série Les Années Collège (achat)",
+              "raw": "Série Les Années Collège (achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -105980,7 +106358,9 @@
               "title": "Les Années Collège",
               "raw": "Les Années Collège"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90003056",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003056/giga-emission-du-28-mars-1990?rang=207"
         },
         {
           "time": "18:30",
@@ -108234,6 +108614,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Série : Quoi de neuf docteur (achat)",
+                "raw": "Série : Quoi de neuf docteur (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Série Les Années Collège (achat)",
+                "raw": "Série Les Années Collège (achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -108243,7 +108635,9 @@
                 "title": "Les Années Collège",
                 "raw": "Les Années Collège"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90003056",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003056/giga-emission-du-28-mars-1990?rang=207"
           },
           {
             "time": "18:30",
@@ -110383,6 +110777,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Série américaine : \"Quoi de neuf docteur\"",
+              "raw": "Série américaine : \"Quoi de neuf docteur\"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les années Collège, série américaine",
+              "raw": "Les années Collège, série américaine",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -110392,7 +110798,9 @@
               "title": "Les Années Collège",
               "raw": "Les Années Collège"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90003057",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003057/giga-emission-du-29-mars-1990?rang=51"
         },
         {
           "time": "18:30",
@@ -112370,6 +112778,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Série américaine : \"Quoi de neuf docteur\"",
+                "raw": "Série américaine : \"Quoi de neuf docteur\"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les années Collège, série américaine",
+                "raw": "Les années Collège, série américaine",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -112379,7 +112799,9 @@
                 "title": "Les Années Collège",
                 "raw": "Les Années Collège"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90003057",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003057/giga-emission-du-29-mars-1990?rang=51"
           },
           {
             "time": "18:30",
@@ -114330,6 +114752,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Au sommaire de l'émission",
+              "raw": "Au sommaire de l'émission",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Série : \"Quoi de neuf docteur ? \"",
+              "raw": "Série : \"Quoi de neuf docteur ? \"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Série : Les annnées collège : La révolution",
+              "raw": "Série : Les annnées collège : La révolution",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -114339,7 +114779,9 @@
               "title": "Les Années Collège",
               "raw": "Les Années Collège"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90003058",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003058/giga-emission-du-30-mars-1990?rang=5"
         },
         {
           "time": "18:30",
@@ -116306,6 +116748,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Au sommaire de l'émission",
+                "raw": "Au sommaire de l'émission",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Série : \"Quoi de neuf docteur ? \"",
+                "raw": "Série : \"Quoi de neuf docteur ? \"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Série : Les annnées collège : La révolution",
+                "raw": "Série : Les annnées collège : La révolution",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -116315,7 +116775,9 @@
                 "title": "Les Années Collège",
                 "raw": "Les Années Collège"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90003058",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90003058/giga-emission-du-30-mars-1990?rang=5"
           },
           {
             "time": "18:30",
@@ -118316,7 +118778,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de ce nouveau numéro de GIGA",
+              "raw": "Au sommaire de ce nouveau numéro de GIGA",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90014374",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014374/giga-emission-du-31-decembre-1990?rang=152"
         },
         {
           "time": "18:50",
@@ -119843,7 +120314,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de ce nouveau numéro de GIGA",
+                "raw": "Au sommaire de ce nouveau numéro de GIGA",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90014374",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90014374/giga-emission-du-31-decembre-1990?rang=152"
           },
           {
             "time": "18:50",

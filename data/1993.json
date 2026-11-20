@@ -5870,7 +5870,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Sujet n1",
+              "raw": "Sujet n1",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93005480",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005480/giga-emission-du-3-mai-1993?rang=136"
         },
         {
           "time": "19:20",
@@ -7459,7 +7468,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Sujet n1",
+                "raw": "Sujet n1",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93005480",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005480/giga-emission-du-3-mai-1993?rang=136"
           },
           {
             "time": "19:20",
@@ -9064,6 +9082,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "\"La Fête à la Maison\" (Achat)",
+              "raw": "\"La Fête à la Maison\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"TV 101\" (Achat)",
+              "raw": "\"TV 101\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"Le Prince de Bel Air\" (Achat)",
+              "raw": "\"Le Prince de Bel Air\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "La fête à la maison",
               "raw": "La fête à la maison"
             },
@@ -9077,7 +9113,9 @@
               "title": "Le Prince de Bel Air",
               "raw": "Le Prince de Bel Air"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93010312",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010312/giga-emission-du-4-octobre-1993?rang=46"
         },
         {
           "time": "18:35",
@@ -10720,6 +10758,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "\"La Fête à la Maison\" (Achat)",
+                "raw": "\"La Fête à la Maison\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"TV 101\" (Achat)",
+                "raw": "\"TV 101\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"Le Prince de Bel Air\" (Achat)",
+                "raw": "\"Le Prince de Bel Air\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "La fête à la maison",
                 "raw": "La fête à la maison"
               },
@@ -10733,7 +10789,9 @@
                 "title": "Le Prince de Bel Air",
                 "raw": "Le Prince de Bel Air"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93010312",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93010312/giga-emission-du-4-octobre-1993?rang=46"
           },
           {
             "time": "18:35",
@@ -12268,7 +12326,16 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "La fête à la maison, Happy days (achats)",
+              "raw": "La fête à la maison, Happy days (achats)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93005482",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005482/giga-emission-du-5-mai-1993?rang=85"
         },
         {
           "time": "18:00",
@@ -13689,7 +13756,16 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "La fête à la maison, Happy days (achats)",
+                "raw": "La fête à la maison, Happy days (achats)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93005482",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93005482/giga-emission-du-5-mai-1993?rang=85"
           },
           {
             "time": "18:00",
@@ -18767,7 +18843,28 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire du jour, trois séries",
+              "raw": "Au sommaire du jour, trois séries",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SAUVES PAR LE GONG : \"La Chorale\" (Achat)",
+              "raw": "SAUVES PAR LE GONG : \"La Chorale\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Pas de reportages",
+              "raw": "Pas de reportages",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93012342",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012342/giga-emission-du-7-decembre-1993?rang=15"
         },
         {
           "time": "18:40",
@@ -19857,7 +19954,28 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire du jour, trois séries",
+                "raw": "Au sommaire du jour, trois séries",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SAUVES PAR LE GONG : \"La Chorale\" (Achat)",
+                "raw": "SAUVES PAR LE GONG : \"La Chorale\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Pas de reportages",
+                "raw": "Pas de reportages",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93012342",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012342/giga-emission-du-7-decembre-1993?rang=15"
           },
           {
             "time": "18:40",
@@ -30815,7 +30933,40 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de Giga",
+              "raw": "Au sommaire de Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
+              "raw": "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "SERIE : SOIS PROF ET TAIS TOI (Achat)",
+              "raw": "SERIE : SOIS PROF ET TAIS TOI (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "SERIE : LA FETE A LA MAISON (Achat)",
+              "raw": "SERIE : LA FETE A LA MAISON (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "SERIE : MAJOR DAD (Achat)",
+              "raw": "SERIE : MAJOR DAD (Achat)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93002479",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002479/giga-emission-du-11-fevrier-1993?rang=227"
         },
         {
           "time": "18:55",
@@ -32480,7 +32631,40 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de Giga",
+                "raw": "Au sommaire de Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
+                "raw": "SERIE : QUOI DE NEUF DOCTEUR (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "SERIE : SOIS PROF ET TAIS TOI (Achat)",
+                "raw": "SERIE : SOIS PROF ET TAIS TOI (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "SERIE : LA FETE A LA MAISON (Achat)",
+                "raw": "SERIE : LA FETE A LA MAISON (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "SERIE : MAJOR DAD (Achat)",
+                "raw": "SERIE : MAJOR DAD (Achat)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93002479",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93002479/giga-emission-du-11-fevrier-1993?rang=227"
           },
           {
             "time": "18:55",
@@ -43985,6 +44169,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "(Achat)",
+              "raw": "(Achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -44004,7 +44194,9 @@
               "title": "Major Dad",
               "raw": "Major Dad"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93004846",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004846/giga-emission-du-12-avril-1993?rang=130"
         },
         {
           "time": "19:20",
@@ -45838,6 +46030,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "(Achat)",
+                "raw": "(Achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -45857,7 +46055,9 @@
                 "title": "Major Dad",
                 "raw": "Major Dad"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93004846",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004846/giga-emission-du-12-avril-1993?rang=130"
           },
           {
             "time": "19:20",
@@ -47728,6 +47928,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les jeunes sur le plateau expliquent comment draguer",
+              "raw": "Les jeunes sur le plateau expliquent comment draguer",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -47747,7 +47953,9 @@
               "title": "Major Dad",
               "raw": "Major Dad"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93004847",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004847/giga-emission-du-13-avril-1993?rang=131"
         },
         {
           "time": "19:20",
@@ -49650,6 +49858,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les jeunes sur le plateau expliquent comment draguer",
+                "raw": "Les jeunes sur le plateau expliquent comment draguer",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -49669,7 +49883,9 @@
                 "title": "Major Dad",
                 "raw": "Major Dad"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93004847",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004847/giga-emission-du-13-avril-1993?rang=131"
           },
           {
             "time": "19:20",
@@ -53709,6 +53925,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Série \"La fête à la maison\"",
+              "raw": "Série \"La fête à la maison\"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Série \"Happy days\"",
+              "raw": "Série \"Happy days\"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Série\" Major Dad \"",
+              "raw": "Série\" Major Dad \"",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -53728,7 +53962,9 @@
               "title": "Major Dad",
               "raw": "Major Dad"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93004848",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004848/giga-emission-du-14-avril-1993?rang=159"
         },
         {
           "time": "19:20",
@@ -55608,6 +55844,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Série \"La fête à la maison\"",
+                "raw": "Série \"La fête à la maison\"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Série \"Happy days\"",
+                "raw": "Série \"Happy days\"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Série\" Major Dad \"",
+                "raw": "Série\" Major Dad \"",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -55627,7 +55881,9 @@
                 "title": "Major Dad",
                 "raw": "Major Dad"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93004848",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004848/giga-emission-du-14-avril-1993?rang=159"
           },
           {
             "time": "19:20",
@@ -57563,6 +57819,30 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "LA FETE A LA MAISON (ACHAT)",
+              "raw": "LA FETE A LA MAISON (ACHAT)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "HAPPY DAYS (ACHAT)",
+              "raw": "HAPPY DAYS (ACHAT)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "QUOI DE NEUF DOCTEUR (ACHAT)",
+              "raw": "QUOI DE NEUF DOCTEUR (ACHAT)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "MAJOR DAD (ACHAT)",
+              "raw": "MAJOR DAD (ACHAT)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -57582,7 +57862,9 @@
               "title": "Major Dad",
               "raw": "Major Dad"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93004849",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004849/giga-emission-du-15-avril-1993?rang=81"
         },
         {
           "time": "19:20",
@@ -59477,6 +59759,30 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "LA FETE A LA MAISON (ACHAT)",
+                "raw": "LA FETE A LA MAISON (ACHAT)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "HAPPY DAYS (ACHAT)",
+                "raw": "HAPPY DAYS (ACHAT)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "QUOI DE NEUF DOCTEUR (ACHAT)",
+                "raw": "QUOI DE NEUF DOCTEUR (ACHAT)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "MAJOR DAD (ACHAT)",
+                "raw": "MAJOR DAD (ACHAT)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -59496,7 +59802,9 @@
                 "title": "Major Dad",
                 "raw": "Major Dad"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93004849",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004849/giga-emission-du-15-avril-1993?rang=81"
           },
           {
             "time": "19:20",
@@ -67158,6 +67466,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "(série, achat)",
+              "raw": "(série, achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -67177,7 +67491,9 @@
               "title": "Major Dad",
               "raw": "Major Dad"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93004850",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004850/giga-emission-du-16-avril-1993?rang=132"
         },
         {
           "time": "19:20",
@@ -69126,6 +69442,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "(série, achat)",
+                "raw": "(série, achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -69145,7 +69467,9 @@
                 "title": "Major Dad",
                 "raw": "Major Dad"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93004850",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93004850/giga-emission-du-16-avril-1993?rang=132"
           },
           {
             "time": "19:20",
@@ -70904,6 +71228,12 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "\"Seconde B \": Mariage au noir (CPB93006961)",
+              "raw": "\"Seconde B \": Mariage au noir (CPB93006961)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -70918,7 +71248,9 @@
               "title": "SECONDE B",
               "raw": "SECONDE B"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93006961",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006961/giga-emission-du-17-juin-1993?rang=111"
         },
         {
           "time": "18:25",
@@ -72271,6 +72603,12 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "\"Seconde B \": Mariage au noir (CPB93006961)",
+                "raw": "\"Seconde B \": Mariage au noir (CPB93006961)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -72285,7 +72623,9 @@
                 "title": "SECONDE B",
                 "raw": "SECONDE B"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93006961",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93006961/giga-emission-du-17-juin-1993?rang=111"
           },
           {
             "time": "18:25",
@@ -79480,6 +79820,30 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Quoi de neuf docteur (achat)",
+              "raw": "Quoi de neuf docteur (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Sois prof et tais toi (achat)",
+              "raw": "Sois prof et tais toi (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "C'est la fête à la maison (achat)",
+              "raw": "C'est la fête à la maison (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Major dad (achat)",
+              "raw": "Major dad (achat)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Quoi de neuf docteur ?",
               "raw": "Quoi de neuf docteur ?"
@@ -79494,7 +79858,9 @@
               "title": "Major Dad - Faux départ",
               "raw": "Major Dad - Faux départ"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB93003099",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003099/giga-emission-du-22-fevrier-1993?rang=98"
         },
         {
           "time": "18:50",
@@ -80886,6 +81252,30 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Quoi de neuf docteur (achat)",
+                "raw": "Quoi de neuf docteur (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Sois prof et tais toi (achat)",
+                "raw": "Sois prof et tais toi (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "C'est la fête à la maison (achat)",
+                "raw": "C'est la fête à la maison (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Major dad (achat)",
+                "raw": "Major dad (achat)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Quoi de neuf docteur ?",
                 "raw": "Quoi de neuf docteur ?"
@@ -80900,7 +81290,9 @@
                 "title": "Major Dad - Faux départ",
                 "raw": "Major Dad - Faux départ"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB93003099",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93003099/giga-emission-du-22-fevrier-1993?rang=98"
           },
           {
             "time": "18:50",
@@ -85417,7 +85809,34 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "SERIES",
+              "raw": "SERIES",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Quoi de neuf docteur ? (Achat)",
+              "raw": "Quoi de neuf docteur ? (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Happy days (Achat)",
+              "raw": "Happy days (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Seconde B (coproduction F2-Flash film)",
+              "raw": "Seconde B (coproduction F2-Flash film)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93007245",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007245/giga-emission-du-24-juin-1993?rang=201"
         },
         {
           "time": "18:30",
@@ -86979,7 +87398,34 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "SERIES",
+                "raw": "SERIES",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Quoi de neuf docteur ? (Achat)",
+                "raw": "Quoi de neuf docteur ? (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Happy days (Achat)",
+                "raw": "Happy days (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Seconde B (coproduction F2-Flash film)",
+                "raw": "Seconde B (coproduction F2-Flash film)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93007245",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93007245/giga-emission-du-24-juin-1993?rang=201"
           },
           {
             "time": "18:30",
@@ -88498,7 +88944,40 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Emission composée de",
+              "raw": "Emission composée de",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "LA FETE A LA MAISON : série américaine",
+              "raw": "LA FETE A LA MAISON : série américaine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "JEU avec encyclopédie Notre Monde",
+              "raw": "JEU avec encyclopédie Notre Monde",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "TV 101 : série américaine",
+              "raw": "TV 101 : série américaine",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "LE PRINCE DE BEL AIR : série américaine",
+              "raw": "LE PRINCE DE BEL AIR : série américaine",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93009996",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009996/giga-emission-du-27-septembre-1993?rang=170"
         },
         {
           "time": "18:35",
@@ -89999,7 +90478,40 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Emission composée de",
+                "raw": "Emission composée de",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "LA FETE A LA MAISON : série américaine",
+                "raw": "LA FETE A LA MAISON : série américaine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "JEU avec encyclopédie Notre Monde",
+                "raw": "JEU avec encyclopédie Notre Monde",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "TV 101 : série américaine",
+                "raw": "TV 101 : série américaine",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "LE PRINCE DE BEL AIR : série américaine",
+                "raw": "LE PRINCE DE BEL AIR : série américaine",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93009996",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009996/giga-emission-du-27-septembre-1993?rang=170"
           },
           {
             "time": "18:35",
@@ -93358,7 +93870,34 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Au sommaire de ce Giga",
+              "raw": "Au sommaire de ce Giga",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"Un toit pour dix\" (Achat)",
+              "raw": "\"Un toit pour dix\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"Sauvés par le Gong\" (Achat)",
+              "raw": "\"Sauvés par le Gong\" (Achat)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "\"Le Prince de Bel-Air\" (Achat)",
+              "raw": "\"Le Prince de Bel-Air\" (Achat)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB94000106",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000106/giga-emission-du-28-decembre-1993?rang=39"
         },
         {
           "time": "18:40",
@@ -94403,7 +94942,34 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Au sommaire de ce Giga",
+                "raw": "Au sommaire de ce Giga",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"Un toit pour dix\" (Achat)",
+                "raw": "\"Un toit pour dix\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"Sauvés par le Gong\" (Achat)",
+                "raw": "\"Sauvés par le Gong\" (Achat)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "\"Le Prince de Bel-Air\" (Achat)",
+                "raw": "\"Le Prince de Bel-Air\" (Achat)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB94000106",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000106/giga-emission-du-28-decembre-1993?rang=39"
           },
           {
             "time": "18:40",
@@ -100771,7 +101337,34 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Emission composée de trois séries américaines",
+              "raw": "Emission composée de trois séries américaines",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "LA FETE A LA MAISON",
+              "raw": "LA FETE A LA MAISON",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "TV 101",
+              "raw": "TV 101",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "LE PRINCE DE BEL AIR",
+              "raw": "LE PRINCE DE BEL AIR",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93009999",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009999/giga-emission-du-30-septembre-1993?rang=187"
         },
         {
           "time": "18:40",
@@ -102319,7 +102912,34 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Emission composée de trois séries américaines",
+                "raw": "Emission composée de trois séries américaines",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "LA FETE A LA MAISON",
+                "raw": "LA FETE A LA MAISON",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "TV 101",
+                "raw": "TV 101",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "LE PRINCE DE BEL AIR",
+                "raw": "LE PRINCE DE BEL AIR",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93009999",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93009999/giga-emission-du-30-septembre-1993?rang=187"
           },
           {
             "time": "18:40",
@@ -105782,7 +106402,28 @@
           "description_lines": [
             "Émission pour la jeunesse"
           ],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "\"Sauvés par le gong \"",
+              "raw": "\"Sauvés par le gong \"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "\"La Fête à la maison\"",
+              "raw": "\"La Fête à la maison\"",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "\"Le Prince de Bel Air \". (Quatre achats)",
+              "raw": "\"Le Prince de Bel Air \". (Quatre achats)",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB94000110",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000110/giga-emission-du-31-decembre-1993?rang=40"
         },
         {
           "time": "18:40",
@@ -106838,7 +107479,28 @@
             "description_lines": [
               "Émission pour la jeunesse"
             ],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "\"Sauvés par le gong \"",
+                "raw": "\"Sauvés par le gong \"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "\"La Fête à la maison\"",
+                "raw": "\"La Fête à la maison\"",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "\"Le Prince de Bel Air \". (Quatre achats)",
+                "raw": "\"Le Prince de Bel Air \". (Quatre achats)",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB94000110",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000110/giga-emission-du-31-decembre-1993?rang=40"
           },
           {
             "time": "18:40",

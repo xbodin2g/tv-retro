@@ -306,6 +306,72 @@
           "segments": [
             {
               "index": 0,
+              "title": "Heidi",
+              "raw": "Heidi",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Tchaou et Grodo",
+              "raw": "Tchaou et Grodo",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les aventures de Dorothée",
+              "raw": "Les aventures de Dorothée",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Johann et Pirlouit",
+              "raw": "Johann et Pirlouit",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Bibifoc",
+              "raw": "Bibifoc",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Cache cache caméra",
+              "raw": "Cache cache caméra",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "L'Empire des 5",
+              "raw": "L'Empire des 5",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Dorothée en Guadeloupe",
+              "raw": "Dorothée en Guadeloupe",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "X OR",
+              "raw": "X OR",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "Les Shadoks",
+              "raw": "Les Shadoks",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Heidi - Peter le chevrier",
               "raw": "Heidi - Peter le chevrier"
             },
@@ -330,11 +396,6 @@
               "raw": "Bibifoc - Le sabotage"
             },
             {
-              "index": 5,
-              "title": "Cache-cache caméra",
-              "raw": "Cache-cache caméra"
-            },
-            {
               "index": 6,
               "title": "Bibifoc - La grande question",
               "raw": "Bibifoc - La grande question"
@@ -348,13 +409,10 @@
               "index": 8,
               "title": "X-Or - Etrange disparition",
               "raw": "X-Or - Etrange disparition"
-            },
-            {
-              "index": 9,
-              "title": "Les Shadoks",
-              "raw": "Les Shadoks"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86000066",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000066/recre-a2-emission-du-1er-janvier-1986?rang=490"
         },
         {
           "time": "12:00",
@@ -1254,6 +1312,72 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Heidi",
+                "raw": "Heidi",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Tchaou et Grodo",
+                "raw": "Tchaou et Grodo",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les aventures de Dorothée",
+                "raw": "Les aventures de Dorothée",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Johann et Pirlouit",
+                "raw": "Johann et Pirlouit",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Bibifoc",
+                "raw": "Bibifoc",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Cache cache caméra",
+                "raw": "Cache cache caméra",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "L'Empire des 5",
+                "raw": "L'Empire des 5",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Dorothée en Guadeloupe",
+                "raw": "Dorothée en Guadeloupe",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "X OR",
+                "raw": "X OR",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "Les Shadoks",
+                "raw": "Les Shadoks",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Heidi - Peter le chevrier",
                 "raw": "Heidi - Peter le chevrier"
               },
@@ -1278,11 +1402,6 @@
                 "raw": "Bibifoc - Le sabotage"
               },
               {
-                "index": 5,
-                "title": "Cache-cache caméra",
-                "raw": "Cache-cache caméra"
-              },
-              {
                 "index": 6,
                 "title": "Bibifoc - La grande question",
                 "raw": "Bibifoc - La grande question"
@@ -1296,13 +1415,10 @@
                 "index": 8,
                 "title": "X-Or - Etrange disparition",
                 "raw": "X-Or - Etrange disparition"
-              },
-              {
-                "index": 9,
-                "title": "Les Shadoks",
-                "raw": "Les Shadoks"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86000066",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000066/recre-a2-emission-du-1er-janvier-1986?rang=490"
           },
           {
             "time": "12:00",
@@ -2308,34 +2424,47 @@
             {
               "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Image, imagine",
-              "raw": "Image, imagine"
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super Doc : Gare aux explosions (1)",
+              "raw": "Super Doc : Gare aux explosions (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Bibifoc",
+              "raw": "Bibifoc",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 5,
-              "title": "Bibifoc",
-              "raw": "Bibifoc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006393",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006393/recre-a2-emission-du-1-avril-1986?rang=316"
         },
         {
           "time": "18:00",
@@ -3448,34 +3577,47 @@
               {
                 "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Image, imagine",
-                "raw": "Image, imagine"
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super Doc : Gare aux explosions (1)",
+                "raw": "Super Doc : Gare aux explosions (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Bibifoc",
+                "raw": "Bibifoc",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 5,
-                "title": "Bibifoc",
-                "raw": "Bibifoc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006393",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006393/recre-a2-emission-du-1-avril-1986?rang=316"
           },
           {
             "time": "18:00",
@@ -4401,31 +4543,55 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "L'école des fées",
+              "raw": "L'école des fées",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "La chanson de Dorothée",
-              "raw": "La chanson de Dorothée"
+              "title": "Clémentine",
+              "raw": "Clémentine",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Clémentine",
-              "raw": "Clémentine"
+              "title": "Mafalda",
+              "raw": "Mafalda",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Mafalda",
-              "raw": "Mafalda"
+              "title": "Chicago 1927",
+              "raw": "Chicago 1927",
+              "source": "ina"
             },
             {
               "index": 4,
               "title": "La révolte irlandaise",
-              "raw": "La révolte irlandaise"
+              "raw": "La révolte irlandaise",
+              "source": "ina"
             },
             {
               "index": 5,
-              "title": "Les Mondes engloutis",
-              "raw": "Les Mondes engloutis"
+              "title": "L'ASSIETTE AU BEURRE",
+              "raw": "L'ASSIETTE AU BEURRE",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "La chanson de Dorothée",
+              "raw": "La chanson de Dorothée"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008000",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008000/recre-a2-emission-du-01-juin-1986?rang=253"
         },
         {
           "time": "11:30",
@@ -5378,31 +5544,55 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "L'école des fées",
+                "raw": "L'école des fées",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "La chanson de Dorothée",
-                "raw": "La chanson de Dorothée"
+                "title": "Clémentine",
+                "raw": "Clémentine",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Clémentine",
-                "raw": "Clémentine"
+                "title": "Mafalda",
+                "raw": "Mafalda",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Mafalda",
-                "raw": "Mafalda"
+                "title": "Chicago 1927",
+                "raw": "Chicago 1927",
+                "source": "ina"
               },
               {
                 "index": 4,
                 "title": "La révolte irlandaise",
-                "raw": "La révolte irlandaise"
+                "raw": "La révolte irlandaise",
+                "source": "ina"
               },
               {
                 "index": 5,
-                "title": "Les Mondes engloutis",
-                "raw": "Les Mondes engloutis"
+                "title": "L'ASSIETTE AU BEURRE",
+                "raw": "L'ASSIETTE AU BEURRE",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "La chanson de Dorothée",
+                "raw": "La chanson de Dorothée"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008000",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008000/recre-a2-emission-du-01-juin-1986?rang=253"
           },
           {
             "time": "11:30",
@@ -6501,6 +6691,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Bibifoc : dessin animé, \"La grande nuit\", rediffusion",
+              "raw": "Bibifoc : dessin animé, \"La grande nuit\", rediffusion",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Tom SAWYER : dessin animé, achat",
+              "raw": "Tom SAWYER : dessin animé, achat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Bibifoc",
               "raw": "Bibifoc"
@@ -6510,7 +6712,9 @@
               "title": "Tom Sawyer",
               "raw": "Tom Sawyer"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86009040",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009040/recre-a2-emission-du-1er-juillet-1986?rang=412"
         },
         {
           "time": "12:45",
@@ -7600,6 +7804,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Bibifoc : dessin animé, \"La grande nuit\", rediffusion",
+                "raw": "Bibifoc : dessin animé, \"La grande nuit\", rediffusion",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Tom SAWYER : dessin animé, achat",
+                "raw": "Tom SAWYER : dessin animé, achat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Bibifoc",
                 "raw": "Bibifoc"
@@ -7609,7 +7825,9 @@
                 "title": "Tom Sawyer",
                 "raw": "Tom Sawyer"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86009040",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009040/recre-a2-emission-du-1er-juillet-1986?rang=412"
           },
           {
             "time": "12:45",
@@ -8712,21 +8930,26 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 3,
               "title": "Les Maîtres de l'Univers",
-              "raw": "Les Maîtres de l'Univers"
+              "raw": "Les Maîtres de l'Univers",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008009",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008009/recre-a2-emission-du-2-juin-1986?rang=73"
         },
         {
           "time": "18:05",
@@ -9879,21 +10102,26 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 3,
                 "title": "Les Maîtres de l'Univers",
-                "raw": "Les Maîtres de l'Univers"
+                "raw": "Les Maîtres de l'Univers",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008009",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008009/recre-a2-emission-du-2-juin-1986?rang=73"
           },
           {
             "time": "18:05",
@@ -11055,6 +11283,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "Les Poupies",
+              "raw": "Les Poupies",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Super DOC : au bord de l'eau...(1)",
+              "raw": "Super DOC : au bord de l'eau...(1)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Les Poupies - Enfants aux yeux noirs",
               "raw": "Les Poupies - Enfants aux yeux noirs"
             },
@@ -11068,7 +11314,9 @@
               "title": "Les mondes engloutis - L'empereur Quin et le huitième royaume",
               "raw": "Les mondes engloutis - L'empereur Quin et le huitième royaume"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86009898",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009898/recre-a2-emission-du-2-aout-1986?rang=385"
         },
         {
           "time": "12:45",
@@ -12212,6 +12460,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Les Poupies",
+                "raw": "Les Poupies",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Super DOC : au bord de l'eau...(1)",
+                "raw": "Super DOC : au bord de l'eau...(1)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Les Poupies - Enfants aux yeux noirs",
                 "raw": "Les Poupies - Enfants aux yeux noirs"
               },
@@ -12225,7 +12491,9 @@
                 "title": "Les mondes engloutis - L'empereur Quin et le huitième royaume",
                 "raw": "Les mondes engloutis - L'empereur Quin et le huitième royaume"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86009898",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86009898/recre-a2-emission-du-2-aout-1986?rang=385"
           },
           {
             "time": "12:45",
@@ -13380,21 +13648,26 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Latulu et lireli",
-              "raw": "Latulu et lireli"
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 3,
               "title": "Cobra",
-              "raw": "Cobra"
+              "raw": "Cobra",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86005162",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005162/recre-a2-emission-du-03-mars-1986?rang=214"
         },
         {
           "time": "18:00",
@@ -14135,21 +14408,26 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Latulu et lireli",
-                "raw": "Latulu et lireli"
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 3,
                 "title": "Cobra",
-                "raw": "Cobra"
+                "raw": "Cobra",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86005162",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86005162/recre-a2-emission-du-03-mars-1986?rang=214"
           },
           {
             "time": "18:00",
@@ -14996,29 +15274,42 @@
             {
               "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Image, imagine",
-              "raw": "Image, imagine"
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 4,
+              "title": "CORBIER chante \"L'épicier\"",
+              "raw": "CORBIER chante \"L'épicier\"",
+              "source": "ina"
+            },
+            {
+              "index": 5,
               "title": "Pac-Man",
-              "raw": "Pac-Man"
+              "raw": "Pac-Man",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006444",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006444/recre-a2-emission-du-3-avril-1986?rang=225"
         },
         {
           "time": "18:05",
@@ -16228,29 +16519,42 @@
               {
                 "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Image, imagine",
-                "raw": "Image, imagine"
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 4,
+                "title": "CORBIER chante \"L'épicier\"",
+                "raw": "CORBIER chante \"L'épicier\"",
+                "source": "ina"
+              },
+              {
+                "index": 5,
                 "title": "Pac-Man",
-                "raw": "Pac-Man"
+                "raw": "Pac-Man",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006444",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006444/recre-a2-emission-du-3-avril-1986?rang=225"
           },
           {
             "time": "18:05",
@@ -17392,9 +17696,40 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super DOC : Caractère de chien (1)",
+              "raw": "Super DOC : Caractère de chien (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Bibifoc : Le Voyage",
+              "raw": "Bibifoc : Le Voyage",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -17411,7 +17746,9 @@
               "title": "Bibifoc",
               "raw": "Bibifoc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008038",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008038/recre-a2-emission-du-03-juin-1986?rang=78"
         },
         {
           "time": "18:05",
@@ -18563,9 +18900,40 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super DOC : Caractère de chien (1)",
+                "raw": "Super DOC : Caractère de chien (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Bibifoc : Le Voyage",
+                "raw": "Bibifoc : Le Voyage",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -18582,7 +18950,9 @@
                 "title": "Bibifoc",
                 "raw": "Bibifoc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008038",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008038/recre-a2-emission-du-03-juin-1986?rang=78"
           },
           {
             "time": "18:05",
@@ -19576,20 +19946,30 @@
           "segments": [
             {
               "index": 0,
-              "title": "Pac-Man",
-              "raw": "Pac-Man"
+              "title": "Pac Man",
+              "raw": "Pac Man",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Super DOC : au bord de l'eau... (2)",
+              "raw": "Super DOC : au bord de l'eau... (2)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La révolte irlandaise",
+              "raw": "La révolte irlandaise",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 2,
-              "title": "La révolte Irlandaise",
-              "raw": "La révolte Irlandaise"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86010032",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010032/recre-a2-emission-du-3-aout-1986?rang=419"
         },
         {
           "time": "12:45",
@@ -20372,20 +20752,30 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Pac-Man",
-                "raw": "Pac-Man"
+                "title": "Pac Man",
+                "raw": "Pac Man",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Super DOC : au bord de l'eau... (2)",
+                "raw": "Super DOC : au bord de l'eau... (2)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La révolte irlandaise",
+                "raw": "La révolte irlandaise",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 2,
-                "title": "La révolte Irlandaise",
-                "raw": "La révolte Irlandaise"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86010032",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010032/recre-a2-emission-du-3-aout-1986?rang=419"
           },
           {
             "time": "12:45",
@@ -21350,15 +21740,19 @@
           "segments": [
             {
               "index": 0,
-              "title": "Les Mondes engloutis",
-              "raw": "Les Mondes engloutis"
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86000093",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000093/recre-a2-emission-du-04-janvier-1986?rang=262"
         },
         {
           "time": "14:50",
@@ -22290,15 +22684,19 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Les Mondes engloutis",
-                "raw": "Les Mondes engloutis"
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86000093",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000093/recre-a2-emission-du-04-janvier-1986?rang=262"
           },
           {
             "time": "14:50",
@@ -23293,26 +23691,37 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Super DOC : Gare aux explosions (2)",
+              "raw": "Super DOC : Gare aux explosions (2)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "She-Ra",
+              "raw": "She-Ra",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 4,
-              "title": "She-ra",
-              "raw": "She-ra"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006496",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006496/recre-a2-emission-du-4-avril-1986?rang=317"
         },
         {
           "time": "18:05",
@@ -24532,26 +24941,37 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Super DOC : Gare aux explosions (2)",
+                "raw": "Super DOC : Gare aux explosions (2)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "She-Ra",
+                "raw": "She-Ra",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 4,
-                "title": "She-ra",
-                "raw": "She-ra"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006496",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006496/recre-a2-emission-du-4-avril-1986?rang=317"
           },
           {
             "time": "18:05",
@@ -25609,6 +26029,66 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Déroulement de l'émission",
+              "raw": "Déroulement de l'émission",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Heidi (achat)",
+              "raw": "Heidi (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Le jury prend un petit déjeuner",
+              "raw": "Le jury prend un petit déjeuner",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "\"Image, Imagine\" d'Odile LIMOUSIN et Jean-François LACAN",
+              "raw": "\"Image, Imagine\" d'Odile LIMOUSIN et Jean-François LACAN",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "\"Méthanie Ville\" : Le bon air (achat)",
+              "raw": "\"Méthanie Ville\" : Le bon air (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "\"Les Schtroumpfs\" : Pour sauver Gargamel",
+              "raw": "\"Les Schtroumpfs\" : Pour sauver Gargamel",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Extrait du film \"Cuore\" de Luigi COMENCINI",
+              "raw": "Extrait du film \"Cuore\" de Luigi COMENCINI",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "PAC MAN : Bataille spatiale (achat)",
+              "raw": "PAC MAN : Bataille spatiale (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Jane de la Jungle (achat)",
+              "raw": "Jane de la Jungle (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "\"X. OR\" : Fleur magique",
+              "raw": "\"X. OR\" : Fleur magique",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Heidi",
               "raw": "Heidi"
@@ -25658,7 +26138,9 @@
               "title": "X-Or",
               "raw": "X-Or"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008017",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008017/recre-a2-emission-du-4-juin-1986?rang=81"
         },
         {
           "time": "12:00",
@@ -26871,6 +27353,66 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Déroulement de l'émission",
+                "raw": "Déroulement de l'émission",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Heidi (achat)",
+                "raw": "Heidi (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Le jury prend un petit déjeuner",
+                "raw": "Le jury prend un petit déjeuner",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "\"Image, Imagine\" d'Odile LIMOUSIN et Jean-François LACAN",
+                "raw": "\"Image, Imagine\" d'Odile LIMOUSIN et Jean-François LACAN",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "\"Méthanie Ville\" : Le bon air (achat)",
+                "raw": "\"Méthanie Ville\" : Le bon air (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "\"Les Schtroumpfs\" : Pour sauver Gargamel",
+                "raw": "\"Les Schtroumpfs\" : Pour sauver Gargamel",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Extrait du film \"Cuore\" de Luigi COMENCINI",
+                "raw": "Extrait du film \"Cuore\" de Luigi COMENCINI",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "PAC MAN : Bataille spatiale (achat)",
+                "raw": "PAC MAN : Bataille spatiale (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Jane de la Jungle (achat)",
+                "raw": "Jane de la Jungle (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "\"X. OR\" : Fleur magique",
+                "raw": "\"X. OR\" : Fleur magique",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Heidi",
                 "raw": "Heidi"
@@ -26920,7 +27462,9 @@
                 "title": "X-Or",
                 "raw": "X-Or"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008017",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008017/recre-a2-emission-du-4-juin-1986?rang=81"
           },
           {
             "time": "12:00",
@@ -28268,15 +28812,24 @@
           "segments": [
             {
               "index": 0,
-              "title": "Pac-Man",
-              "raw": "Pac-Man"
+              "title": "PAC MAN",
+              "raw": "PAC MAN",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Tom Sawyer - Le rideau se lève",
               "raw": "Tom Sawyer - Le rideau se lève"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86010036",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010036/recre-a2-emission-du-4-aout-1986?rang=386"
         },
         {
           "time": "12:45",
@@ -29409,15 +29962,24 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Pac-Man",
-                "raw": "Pac-Man"
+                "title": "PAC MAN",
+                "raw": "PAC MAN",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Tom Sawyer - Le rideau se lève",
                 "raw": "Tom Sawyer - Le rideau se lève"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86010036",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010036/recre-a2-emission-du-4-aout-1986?rang=386"
           },
           {
             "time": "12:45",
@@ -34690,31 +35252,49 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Olivier Constantin chante \"Cobra\"",
+              "raw": "Olivier Constantin chante \"Cobra\"",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Pac Man",
+              "raw": "Pac Man",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Imagine, Imagine",
               "raw": "Imagine, Imagine"
-            },
-            {
-              "index": 3,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et lireli",
-              "raw": "Latulu et lireli"
-            },
-            {
-              "index": 5,
-              "title": "Pac-Man",
-              "raw": "Pac-Man"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008149",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008149/recre-a2-emission-du-05-juin-1986?rang=254"
         },
         {
           "time": "18:05",
@@ -35970,31 +36550,49 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Olivier Constantin chante \"Cobra\"",
+                "raw": "Olivier Constantin chante \"Cobra\"",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Pac Man",
+                "raw": "Pac Man",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Imagine, Imagine",
                 "raw": "Imagine, Imagine"
-              },
-              {
-                "index": 3,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et lireli",
-                "raw": "Latulu et lireli"
-              },
-              {
-                "index": 5,
-                "title": "Pac-Man",
-                "raw": "Pac-Man"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008149",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008149/recre-a2-emission-du-05-juin-1986?rang=254"
           },
           {
             "time": "18:05",
@@ -43819,9 +44417,28 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Super DOC : Caractère de chien (2)",
+              "raw": "Super DOC : Caractère de chien (2)",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "She-Ra la princesse du pouvoir",
+              "raw": "She-Ra la princesse du pouvoir",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -43829,16 +44446,13 @@
               "raw": "Super Doc"
             },
             {
-              "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
               "index": 4,
               "title": "Shera",
               "raw": "Shera"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008158",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008158/recre-a2-emission-du-6-juin-1986?rang=118"
         },
         {
           "time": "18:05",
@@ -45013,9 +45627,28 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Super DOC : Caractère de chien (2)",
+                "raw": "Super DOC : Caractère de chien (2)",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "She-Ra la princesse du pouvoir",
+                "raw": "She-Ra la princesse du pouvoir",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -45023,16 +45656,13 @@
                 "raw": "Super Doc"
               },
               {
-                "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
                 "index": 4,
                 "title": "Shera",
                 "raw": "Shera"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008158",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008158/recre-a2-emission-du-6-juin-1986?rang=118"
           },
           {
             "time": "18:05",
@@ -46265,36 +46895,49 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Image, Imagine",
-              "raw": "Image, Imagine"
+              "title": "Super Doc : Feu Vert (1)",
+              "raw": "Super Doc : Feu Vert (1)",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Super Dos",
               "raw": "Super Dos"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 5,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 6,
-              "title": "Les Mondes engloutis",
-              "raw": "Les Mondes engloutis"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86000675",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000675/recre-a2-emission-du-07-janvier-1986?rang=285"
         },
         {
           "time": "18:30",
@@ -47235,36 +47878,49 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Image, Imagine",
-                "raw": "Image, Imagine"
+                "title": "Super Doc : Feu Vert (1)",
+                "raw": "Super Doc : Feu Vert (1)",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Super Dos",
                 "raw": "Super Dos"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 5,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 6,
-                "title": "Les Mondes engloutis",
-                "raw": "Les Mondes engloutis"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86000675",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86000675/recre-a2-emission-du-07-janvier-1986?rang=285"
           },
           {
             "time": "18:30",
@@ -48268,21 +48924,31 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latuli et lireli",
+              "raw": "Latuli et lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Cobra",
+              "raw": "Cobra",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Latulu et Lireli",
               "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 3,
-              "title": "Cobra",
-              "raw": "Cobra"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006517",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006517/recre-a2-emission-du-7-avril-1986?rang=228"
         },
         {
           "time": "18:05",
@@ -49483,21 +50149,31 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latuli et lireli",
+                "raw": "Latuli et lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Cobra",
+                "raw": "Cobra",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Latulu et Lireli",
                 "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 3,
-                "title": "Cobra",
-                "raw": "Cobra"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006517",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006517/recre-a2-emission-du-7-avril-1986?rang=228"
           },
           {
             "time": "18:05",
@@ -50528,16 +51204,25 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "L'Empire des cinq \"fin du mystère\"",
+              "raw": "L'Empire des cinq \"fin du mystère\"",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Empire des cinq",
               "raw": "Empire des cinq"
-            },
-            {
-              "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008172",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008172/recre-a2-emission-du-7-juin-1986?rang=116"
         },
         {
           "time": "14:50",
@@ -51581,16 +52266,25 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "L'Empire des cinq \"fin du mystère\"",
+                "raw": "L'Empire des cinq \"fin du mystère\"",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Empire des cinq",
                 "raw": "Empire des cinq"
-              },
-              {
-                "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008172",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008172/recre-a2-emission-du-7-juin-1986?rang=116"
           },
           {
             "time": "14:50",
@@ -55150,6 +55844,42 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Téléchat (1ère diff le 16/12/85)",
+              "raw": "Téléchat (1ère diff le 16/12/85)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super DOC : Alerter (1)",
+              "raw": "Super DOC : Alerter (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Bibifoc : L'écolier",
+              "raw": "Bibifoc : L'écolier",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Téléchat",
               "raw": "Téléchat"
@@ -55160,16 +55890,13 @@
               "raw": "Imagine, imagine"
             },
             {
-              "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
               "index": 4,
               "title": "Bibifoc",
               "raw": "Bibifoc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006135",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006135/recre-a2-emission-du-8-avril-1986?rang=185"
         },
         {
           "time": "18:05",
@@ -56398,6 +57125,42 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Téléchat (1ère diff le 16/12/85)",
+                "raw": "Téléchat (1ère diff le 16/12/85)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super DOC : Alerter (1)",
+                "raw": "Super DOC : Alerter (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Bibifoc : L'écolier",
+                "raw": "Bibifoc : L'écolier",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Téléchat",
                 "raw": "Téléchat"
@@ -56408,16 +57171,13 @@
                 "raw": "Imagine, imagine"
               },
               {
-                "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
                 "index": 4,
                 "title": "Bibifoc",
                 "raw": "Bibifoc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006135",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006135/recre-a2-emission-du-8-avril-1986?rang=185"
           },
           {
             "time": "18:05",
@@ -57427,6 +58187,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Mafalda : dessin animé (achat)",
+              "raw": "Mafalda : dessin animé (achat)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "La Révolte Irlandaise : série (prod. Pegasus)",
+              "raw": "La Révolte Irlandaise : série (prod. Pegasus)",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "La chanson de Dorothée",
               "raw": "La chanson de Dorothée"
@@ -57451,7 +58223,9 @@
               "title": "Les Mondes engloutis",
               "raw": "Les Mondes engloutis"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008179",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008179/recre-a2-emission-du-08-juin-1986?rang=83"
         },
         {
           "time": "11:30",
@@ -58370,6 +59144,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Mafalda : dessin animé (achat)",
+                "raw": "Mafalda : dessin animé (achat)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "La Révolte Irlandaise : série (prod. Pegasus)",
+                "raw": "La Révolte Irlandaise : série (prod. Pegasus)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "La chanson de Dorothée",
                 "raw": "La chanson de Dorothée"
@@ -58394,7 +59180,9 @@
                 "title": "Les Mondes engloutis",
                 "raw": "Les Mondes engloutis"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008179",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008179/recre-a2-emission-du-08-juin-1986?rang=83"
           },
           {
             "time": "11:30",
@@ -59447,6 +60235,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "Super Doc : Bons pieds (1)",
+              "raw": "Super Doc : Bons pieds (1)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Quick et Flupke d'après HERGE",
+              "raw": "Quick et Flupke d'après HERGE",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Lady Oscar",
+              "raw": "Lady Oscar",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Super Doc - Consultation",
               "raw": "Super Doc - Consultation"
             },
@@ -59460,7 +60266,9 @@
               "title": "Lady Oscar - Le duel",
               "raw": "Lady Oscar - Le duel"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86010677",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010677/recre-a2-emission-du-8-septembre-1986?rang=85"
         },
         {
           "time": "18:05",
@@ -60501,6 +61309,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Super Doc : Bons pieds (1)",
+                "raw": "Super Doc : Bons pieds (1)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Quick et Flupke d'après HERGE",
+                "raw": "Quick et Flupke d'après HERGE",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Lady Oscar",
+                "raw": "Lady Oscar",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Super Doc - Consultation",
                 "raw": "Super Doc - Consultation"
               },
@@ -60514,7 +61340,9 @@
                 "title": "Lady Oscar - Le duel",
                 "raw": "Lady Oscar - Le duel"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86010677",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86010677/recre-a2-emission-du-8-septembre-1986?rang=85"
           },
           {
             "time": "18:05",
@@ -63966,31 +64794,44 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Image, Imagine",
-              "raw": "Image, Imagine"
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "title": "Le Carnet de bord de l'école en bateau",
+              "raw": "Le Carnet de bord de l'école en bateau",
+              "source": "ina"
             },
             {
               "index": 4,
-              "title": "Le carnet de bord de l'école en bateau",
-              "raw": "Le carnet de bord de l'école en bateau"
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 5,
-              "title": "Téléchat",
-              "raw": "Téléchat"
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86002176",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002176/recre-a2-emission-du-09-janvier-1986?rang=263"
         },
         {
           "time": "18:30",
@@ -64953,31 +65794,44 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Image, Imagine",
-                "raw": "Image, Imagine"
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "title": "Le Carnet de bord de l'école en bateau",
+                "raw": "Le Carnet de bord de l'école en bateau",
+                "source": "ina"
               },
               {
                 "index": 4,
-                "title": "Le carnet de bord de l'école en bateau",
-                "raw": "Le carnet de bord de l'école en bateau"
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 5,
-                "title": "Téléchat",
-                "raw": "Téléchat"
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86002176",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002176/recre-a2-emission-du-09-janvier-1986?rang=263"
           },
           {
             "time": "18:30",
@@ -68539,21 +69393,26 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 3,
-              "title": "Les Maîtres de l'Univers",
-              "raw": "Les Maîtres de l'Univers"
+              "title": "LES MAITRES DE L'UNIVERS",
+              "raw": "LES MAITRES DE L'UNIVERS",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008247",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008247/recre-a2-emission-du-9-juin-1986?rang=120"
         },
         {
           "time": "18:05",
@@ -69567,21 +70426,26 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 3,
-                "title": "Les Maîtres de l'Univers",
-                "raw": "Les Maîtres de l'Univers"
+                "title": "LES MAITRES DE L'UNIVERS",
+                "raw": "LES MAITRES DE L'UNIVERS",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008247",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008247/recre-a2-emission-du-9-juin-1986?rang=120"
           },
           {
             "time": "18:05",
@@ -70678,26 +71542,37 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Super Doc : Feu vert (2)",
+              "raw": "Super Doc : Feu vert (2)",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Super Doc",
-              "raw": "Super Doc"
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Téléchat",
-              "raw": "Téléchat"
+              "title": "Les maîtres de l'Univers",
+              "raw": "Les maîtres de l'Univers",
+              "source": "ina"
             },
             {
-              "index": 4,
-              "title": "Les maîtres de l'univers",
-              "raw": "Les maîtres de l'univers"
+              "index": 1,
+              "title": "Super Doc",
+              "raw": "Super Doc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86002187",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002187/recre-a2-emission-du-10-janvier-1986?rang=141"
         },
         {
           "time": "18:30",
@@ -71716,26 +72591,37 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Super Doc : Feu vert (2)",
+                "raw": "Super Doc : Feu vert (2)",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Super Doc",
-                "raw": "Super Doc"
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Téléchat",
-                "raw": "Téléchat"
+                "title": "Les maîtres de l'Univers",
+                "raw": "Les maîtres de l'Univers",
+                "source": "ina"
               },
               {
-                "index": 4,
-                "title": "Les maîtres de l'univers",
-                "raw": "Les maîtres de l'univers"
+                "index": 1,
+                "title": "Super Doc",
+                "raw": "Super Doc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86002187",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86002187/recre-a2-emission-du-10-janvier-1986?rang=141"
           },
           {
             "time": "18:30",
@@ -72734,9 +73620,34 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "\"PAC -MAN \"(achat)",
+              "raw": "\"PAC -MAN \"(achat)",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -72744,21 +73655,13 @@
               "raw": "Imagine, imagine"
             },
             {
-              "index": 3,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
               "index": 5,
               "title": "Pac man",
               "raw": "Pac man"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006617",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006617/recre-a2-emission-du-10-avril-1986?rang=189"
         },
         {
           "time": "18:05",
@@ -73971,9 +74874,34 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "\"PAC -MAN \"(achat)",
+                "raw": "\"PAC -MAN \"(achat)",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -73981,21 +74909,13 @@
                 "raw": "Imagine, imagine"
               },
               {
-                "index": 3,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
                 "index": 5,
                 "title": "Pac man",
                 "raw": "Pac man"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006617",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006617/recre-a2-emission-du-10-avril-1986?rang=189"
           },
           {
             "time": "18:05",
@@ -75189,26 +76109,49 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Image, imagine",
-              "raw": "Image, imagine"
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super Doc : Chaussée à risque (1)",
+              "raw": "Super Doc : Chaussée à risque (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Bibifoc",
+              "raw": "Bibifoc",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 4,
-              "title": "Bibifoc",
-              "raw": "Bibifoc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008257",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008257/recre-a2-emission-du-10-juin-1986?rang=255"
         },
         {
           "time": "18:05",
@@ -76223,26 +77166,49 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Image, imagine",
-                "raw": "Image, imagine"
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super Doc : Chaussée à risque (1)",
+                "raw": "Super Doc : Chaussée à risque (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Bibifoc",
+                "raw": "Bibifoc",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 4,
-                "title": "Bibifoc",
-                "raw": "Bibifoc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008257",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008257/recre-a2-emission-du-10-juin-1986?rang=255"
           },
           {
             "time": "18:05",
@@ -77295,6 +78261,18 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "SUPER DOC : Alerter (2)",
+              "raw": "SUPER DOC : Alerter (2)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Téléchat",
               "raw": "Téléchat"
@@ -77305,16 +78283,13 @@
               "raw": "Super Doc"
             },
             {
-              "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
               "index": 4,
               "title": "Shera",
               "raw": "Shera"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006629",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006629/recre-a2-emission-du-11-avril-1986?rang=230"
         },
         {
           "time": "18:05",
@@ -78516,6 +79491,18 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "SUPER DOC : Alerter (2)",
+                "raw": "SUPER DOC : Alerter (2)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Téléchat",
                 "raw": "Téléchat"
@@ -78526,16 +79513,13 @@
                 "raw": "Super Doc"
               },
               {
-                "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
                 "index": 4,
                 "title": "Shera",
                 "raw": "Shera"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006629",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006629/recre-a2-emission-du-11-avril-1986?rang=230"
           },
           {
             "time": "18:05",
@@ -79682,9 +80666,70 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Heidi",
-              "raw": "Heidi"
+              "raw": "Heidi",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Mafalda",
+              "raw": "Mafalda",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Methanie ville",
+              "raw": "Methanie ville",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Simbad LE MARIN",
+              "raw": "Simbad LE MARIN",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Le monde selon Georges",
+              "raw": "Le monde selon Georges",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Pac-Man",
+              "raw": "Pac-Man",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Clip Dorothée",
+              "raw": "Clip Dorothée",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "Jane de la jungle",
+              "raw": "Jane de la jungle",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "X OR",
+              "raw": "X OR",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -79692,46 +80737,13 @@
               "raw": "Latulu et Lireli"
             },
             {
-              "index": 3,
-              "title": "Mafalda",
-              "raw": "Mafalda"
-            },
-            {
               "index": 4,
               "title": "Sinbad le marin",
               "raw": "Sinbad le marin"
-            },
-            {
-              "index": 5,
-              "title": "Méthanie ville",
-              "raw": "Méthanie ville"
-            },
-            {
-              "index": 6,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            },
-            {
-              "index": 7,
-              "title": "Le monde selon Georges",
-              "raw": "Le monde selon Georges"
-            },
-            {
-              "index": 8,
-              "title": "Pac man",
-              "raw": "Pac man"
-            },
-            {
-              "index": 9,
-              "title": "Jane de la Jungle",
-              "raw": "Jane de la Jungle"
-            },
-            {
-              "index": 10,
-              "title": "X-Or",
-              "raw": "X-Or"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008263",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008263/recre-a2-emission-du-11-juin-1986?rang=409"
         },
         {
           "time": "12:00",
@@ -79791,25 +80803,55 @@
           "segments": [
             {
               "index": 0,
-              "title": "Les poupies",
-              "raw": "Les poupies"
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Tom Sawyer",
-              "raw": "Tom Sawyer"
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "La bande à Bédé",
-              "raw": "La bande à Bédé"
+              "title": "Les Poupies",
+              "raw": "Les Poupies",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
+              "title": "Clip \"Clémentine\" par Marie Dauphin",
+              "raw": "Clip \"Clémentine\" par Marie Dauphin",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Clip Warner Bros",
+              "raw": "Clip Warner Bros",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Clip \"Les mondes engloutis\"",
+              "raw": "Clip \"Les mondes engloutis\"",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008269",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008269/recre-a2-emission-du-11-juin-1986?rang=410"
         },
         {
           "time": "17:05",
@@ -80888,9 +81930,70 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Heidi",
-                "raw": "Heidi"
+                "raw": "Heidi",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Mafalda",
+                "raw": "Mafalda",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Methanie ville",
+                "raw": "Methanie ville",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Simbad LE MARIN",
+                "raw": "Simbad LE MARIN",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Le monde selon Georges",
+                "raw": "Le monde selon Georges",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Pac-Man",
+                "raw": "Pac-Man",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Clip Dorothée",
+                "raw": "Clip Dorothée",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "Jane de la jungle",
+                "raw": "Jane de la jungle",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "X OR",
+                "raw": "X OR",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -80898,46 +82001,13 @@
                 "raw": "Latulu et Lireli"
               },
               {
-                "index": 3,
-                "title": "Mafalda",
-                "raw": "Mafalda"
-              },
-              {
                 "index": 4,
                 "title": "Sinbad le marin",
                 "raw": "Sinbad le marin"
-              },
-              {
-                "index": 5,
-                "title": "Méthanie ville",
-                "raw": "Méthanie ville"
-              },
-              {
-                "index": 6,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              },
-              {
-                "index": 7,
-                "title": "Le monde selon Georges",
-                "raw": "Le monde selon Georges"
-              },
-              {
-                "index": 8,
-                "title": "Pac man",
-                "raw": "Pac man"
-              },
-              {
-                "index": 9,
-                "title": "Jane de la Jungle",
-                "raw": "Jane de la Jungle"
-              },
-              {
-                "index": 10,
-                "title": "X-Or",
-                "raw": "X-Or"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008263",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008263/recre-a2-emission-du-11-juin-1986?rang=409"
           },
           {
             "time": "12:00",
@@ -80997,25 +82067,55 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Les poupies",
-                "raw": "Les poupies"
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Tom Sawyer",
-                "raw": "Tom Sawyer"
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "La bande à Bédé",
-                "raw": "La bande à Bédé"
+                "title": "Les Poupies",
+                "raw": "Les Poupies",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
+                "title": "Clip \"Clémentine\" par Marie Dauphin",
+                "raw": "Clip \"Clémentine\" par Marie Dauphin",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Clip Warner Bros",
+                "raw": "Clip Warner Bros",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Clip \"Les mondes engloutis\"",
+                "raw": "Clip \"Les mondes engloutis\"",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008269",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008269/recre-a2-emission-du-11-juin-1986?rang=410"
           },
           {
             "time": "17:05",
@@ -89419,6 +90519,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "Super DOC : 18° en dessous (2)",
+              "raw": "Super DOC : 18° en dessous (2)",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Super Doc - 18ème en dessous",
               "raw": "Super Doc - 18ème en dessous"
             },
@@ -89428,16 +90546,13 @@
               "raw": "Latulu et Lireli - Quel monstre"
             },
             {
-              "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
               "index": 3,
               "title": "She-ra",
               "raw": "She-ra"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86004476",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004476/recre-a2-emission-du-14-fevrier-1986?rang=298"
         },
         {
           "time": "18:00",
@@ -90432,6 +91547,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Super DOC : 18° en dessous (2)",
+                "raw": "Super DOC : 18° en dessous (2)",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Super Doc - 18ème en dessous",
                 "raw": "Super Doc - 18ème en dessous"
               },
@@ -90441,16 +91574,13 @@
                 "raw": "Latulu et Lireli - Quel monstre"
               },
               {
-                "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
                 "index": 3,
                 "title": "She-ra",
                 "raw": "She-ra"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86004476",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004476/recre-a2-emission-du-14-fevrier-1986?rang=298"
           },
           {
             "time": "18:00",
@@ -91392,16 +92522,25 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "L'Empire des Cinq",
+              "raw": "L'Empire des Cinq",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "L'Empire des cinq",
-              "raw": "L'Empire des cinq"
+              "title": "Téléchat : Sainte Petites Boulettes",
+              "raw": "Téléchat : Sainte Petites Boulettes",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Téléchat",
               "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008489",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008489/recre-a2-emission-du-14-juin-1986?rang=257"
         },
         {
           "time": "14:50",
@@ -92594,16 +93733,25 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "L'Empire des Cinq",
+                "raw": "L'Empire des Cinq",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "L'Empire des cinq",
-                "raw": "L'Empire des cinq"
+                "title": "Téléchat : Sainte Petites Boulettes",
+                "raw": "Téléchat : Sainte Petites Boulettes",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Téléchat",
                 "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008489",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008489/recre-a2-emission-du-14-juin-1986?rang=257"
           },
           {
             "time": "14:50",
@@ -93728,6 +94876,30 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "CLEMENTINE : rediffusion",
+              "raw": "CLEMENTINE : rediffusion",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Mafalda, dessin animé, achat",
+              "raw": "Mafalda, dessin animé, achat",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "LA REVOLTE IRLANDAISE, achat",
+              "raw": "LA REVOLTE IRLANDAISE, achat",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "LES MONDES ENGLOUTIS : dessin animé, rediffusion",
+              "raw": "LES MONDES ENGLOUTIS : dessin animé, rediffusion",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "La chanson de Dorothée",
               "raw": "La chanson de Dorothée"
@@ -93752,7 +94924,9 @@
               "title": "Les mondes engloutis",
               "raw": "Les mondes engloutis"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008500",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008500/recre-a2-emission-du-15-juin-1986?rang=84"
         },
         {
           "time": "11:30",
@@ -94802,6 +95976,30 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "CLEMENTINE : rediffusion",
+                "raw": "CLEMENTINE : rediffusion",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Mafalda, dessin animé, achat",
+                "raw": "Mafalda, dessin animé, achat",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "LA REVOLTE IRLANDAISE, achat",
+                "raw": "LA REVOLTE IRLANDAISE, achat",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "LES MONDES ENGLOUTIS : dessin animé, rediffusion",
+                "raw": "LES MONDES ENGLOUTIS : dessin animé, rediffusion",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "La chanson de Dorothée",
                 "raw": "La chanson de Dorothée"
@@ -94826,7 +96024,9 @@
                 "title": "Les mondes engloutis",
                 "raw": "Les mondes engloutis"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008500",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008500/recre-a2-emission-du-15-juin-1986?rang=84"
           },
           {
             "time": "11:30",
@@ -98245,21 +99445,31 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
+              "title": "Cobra\" (achat)",
+              "raw": "Cobra\" (achat)",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Cobra",
               "raw": "Cobra"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006261",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006261/recre-a2-emission-du-17-mars-1986?rang=180"
         },
         {
           "time": "18:00",
@@ -99456,21 +100666,31 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
+                "title": "Cobra\" (achat)",
+                "raw": "Cobra\" (achat)",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Cobra",
                 "raw": "Cobra"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006261",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006261/recre-a2-emission-du-17-mars-1986?rang=180"
           },
           {
             "time": "18:00",
@@ -100650,9 +101870,40 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super Doc : Pétard pan (1)",
+              "raw": "Super Doc : Pétard pan (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Bibifoc",
+              "raw": "Bibifoc",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -100663,13 +101914,10 @@
               "index": 3,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 4,
-              "title": "Bibifoc",
-              "raw": "Bibifoc"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008604",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008604/recre-a2-emission-du-17-juin-1986?rang=258"
         },
         {
           "time": "18:05",
@@ -101740,9 +102988,40 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super Doc : Pétard pan (1)",
+                "raw": "Super Doc : Pétard pan (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Bibifoc",
+                "raw": "Bibifoc",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -101753,13 +103032,10 @@
                 "index": 3,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 4,
-                "title": "Bibifoc",
-                "raw": "Bibifoc"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008604",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008604/recre-a2-emission-du-17-juin-1986?rang=258"
           },
           {
             "time": "18:05",
@@ -105190,9 +106466,34 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Clip Cobra",
+              "raw": "Clip Cobra",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Pac Man",
+              "raw": "Pac Man",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -105200,16 +106501,13 @@
               "raw": "Imagine, imagine"
             },
             {
-              "index": 3,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
-            },
-            {
               "index": 4,
               "title": "Pacman",
               "raw": "Pacman"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86008677",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008677/recre-a2-emission-du-19-juin-1986?rang=124"
         },
         {
           "time": "18:05",
@@ -106212,9 +107510,34 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Clip Cobra",
+                "raw": "Clip Cobra",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Pac Man",
+                "raw": "Pac Man",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -106222,16 +107545,13 @@
                 "raw": "Imagine, imagine"
               },
               {
-                "index": 3,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
-              },
-              {
                 "index": 4,
                 "title": "Pacman",
                 "raw": "Pacman"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86008677",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86008677/recre-a2-emission-du-19-juin-1986?rang=124"
           },
           {
             "time": "18:05",
@@ -107339,18 +108659,33 @@
           "segments": [
             {
               "index": 0,
-              "title": "Image, imagine",
-              "raw": "Image, imagine"
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
             },
             {
               "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 3,
@@ -107358,16 +108693,13 @@
               "raw": "Le carnet de bord de l'école en bateau"
             },
             {
-              "index": 4,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
               "index": 5,
               "title": "Les mondes engloutis - Villon, la cours des miracles (2)",
               "raw": "Les mondes engloutis - Villon, la cours des miracles (2)"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86004570",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004570/recre-a2-emission-du-20-fevrier-1986?rang=299"
         },
         {
           "time": "18:00",
@@ -108356,18 +109688,33 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Image, imagine",
-                "raw": "Image, imagine"
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
               },
               {
                 "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 3,
@@ -108375,16 +109722,13 @@
                 "raw": "Le carnet de bord de l'école en bateau"
               },
               {
-                "index": 4,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
                 "index": 5,
                 "title": "Les mondes engloutis - Villon, la cours des miracles (2)",
                 "raw": "Les mondes engloutis - Villon, la cours des miracles (2)"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86004570",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004570/recre-a2-emission-du-20-fevrier-1986?rang=299"
           },
           {
             "time": "18:00",
@@ -111423,36 +112767,49 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Image, Imagine",
-              "raw": "Image, Imagine"
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "title": "Super Doc : à la poubelle (1)",
+              "raw": "Super Doc : à la poubelle (1)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Super Doc [CHECK SUPER DOS]",
               "raw": "Super Doc [CHECK SUPER DOS]"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 5,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 6,
-              "title": "Les Mondes engloutis",
-              "raw": "Les Mondes engloutis"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86003389",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003389/recre-a2-emission-du-21-janvier-1986?rang=146"
         },
         {
           "time": "18:00",
@@ -112453,36 +113810,49 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Image, Imagine",
-                "raw": "Image, Imagine"
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "title": "Super Doc : à la poubelle (1)",
+                "raw": "Super Doc : à la poubelle (1)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Super Doc [CHECK SUPER DOS]",
                 "raw": "Super Doc [CHECK SUPER DOS]"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 5,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 6,
-                "title": "Les Mondes engloutis",
-                "raw": "Les Mondes engloutis"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86003389",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003389/recre-a2-emission-du-21-janvier-1986?rang=146"
           },
           {
             "time": "18:00",
@@ -113493,25 +114863,41 @@
           "segments": [
             {
               "index": 0,
-              "title": "Super Doc - Bon équipement",
-              "raw": "Super Doc - Bon équipement"
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "title": "Super Doc : Bon équipement (2)",
+              "raw": "Super Doc : Bon équipement (2)",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "She-ra princesse du pouvoir",
+              "raw": "She-ra princesse du pouvoir",
+              "source": "ina"
+            },
+            {
+              "index": 0,
+              "title": "Super Doc - Bon équipement",
+              "raw": "Super Doc - Bon équipement"
             },
             {
               "index": 3,
               "title": "She-ra - La forêt des murmures",
               "raw": "She-ra - La forêt des murmures"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86004633",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004633/recre-a2-emission-du-21-fevrier-1986?rang=302"
         },
         {
           "time": "18:00",
@@ -114605,25 +115991,41 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Super Doc - Bon équipement",
-                "raw": "Super Doc - Bon équipement"
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "title": "Super Doc : Bon équipement (2)",
+                "raw": "Super Doc : Bon équipement (2)",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "She-ra princesse du pouvoir",
+                "raw": "She-ra princesse du pouvoir",
+                "source": "ina"
+              },
+              {
+                "index": 0,
+                "title": "Super Doc - Bon équipement",
+                "raw": "Super Doc - Bon équipement"
               },
               {
                 "index": 3,
                 "title": "She-ra - La forêt des murmures",
                 "raw": "She-ra - La forêt des murmures"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86004633",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004633/recre-a2-emission-du-21-fevrier-1986?rang=302"
           },
           {
             "time": "18:00",
@@ -129317,21 +130719,26 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 3,
               "title": "Cobra",
-              "raw": "Cobra"
+              "raw": "Cobra",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006312",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006312/recre-a2-emission-du-24-mars-1986?rang=313"
         },
         {
           "time": "18:00",
@@ -130584,21 +131991,26 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 3,
                 "title": "Cobra",
-                "raw": "Cobra"
+                "raw": "Cobra",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006312",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006312/recre-a2-emission-du-24-mars-1986?rang=313"
           },
           {
             "time": "18:00",
@@ -138505,13 +139917,39 @@
           "segments": [
             {
               "index": 0,
-              "title": "Image, Imagine",
-              "raw": "Image, Imagine"
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
+              "index": 2,
               "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Super Doc : Plus d'un savon (1)",
+              "raw": "Super Doc : Plus d'un savon (1)",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -138519,21 +139957,13 @@
               "raw": "Super Doc"
             },
             {
-              "index": 3,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 4,
-              "title": "Les mondes engloutis",
-              "raw": "Les mondes engloutis"
-            },
-            {
               "index": 6,
               "title": "Imagine, imagine",
               "raw": "Imagine, imagine"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86004753",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004753/recre-a2-emission-du-25-fevrier-1986?rang=304"
         },
         {
           "time": "18:00",
@@ -139878,13 +141308,39 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Image, Imagine",
-                "raw": "Image, Imagine"
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
+                "index": 2,
                 "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Super Doc : Plus d'un savon (1)",
+                "raw": "Super Doc : Plus d'un savon (1)",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -139892,21 +141348,13 @@
                 "raw": "Super Doc"
               },
               {
-                "index": 3,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 4,
-                "title": "Les mondes engloutis",
-                "raw": "Les mondes engloutis"
-              },
-              {
                 "index": 6,
                 "title": "Imagine, imagine",
                 "raw": "Imagine, imagine"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86004753",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86004753/recre-a2-emission-du-25-fevrier-1986?rang=304"
           },
           {
             "time": "18:00",
@@ -155659,36 +157107,49 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Image imagine",
+              "raw": "Image imagine",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Image, Imagine",
-              "raw": "Image, Imagine"
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "title": "Super Doc : Danger ca tourne...(1)",
+              "raw": "Super Doc : Danger ca tourne...(1)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Les mondes engloutis",
+              "raw": "Les mondes engloutis",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Super Doc",
               "raw": "Super Doc"
-            },
-            {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 5,
-              "title": "Téléchat",
-              "raw": "Téléchat"
-            },
-            {
-              "index": 6,
-              "title": "Les Mondes engloutis",
-              "raw": "Les Mondes engloutis"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86003735",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003735/recre-a2-emission-du-28-janvier-1986?rang=288"
         },
         {
           "time": "18:00",
@@ -156674,36 +158135,49 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Image imagine",
+                "raw": "Image imagine",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Image, Imagine",
-                "raw": "Image, Imagine"
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "title": "Super Doc : Danger ca tourne...(1)",
+                "raw": "Super Doc : Danger ca tourne...(1)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Les mondes engloutis",
+                "raw": "Les mondes engloutis",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Super Doc",
                 "raw": "Super Doc"
-              },
-              {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 5,
-                "title": "Téléchat",
-                "raw": "Téléchat"
-              },
-              {
-                "index": 6,
-                "title": "Les Mondes engloutis",
-                "raw": "Les Mondes engloutis"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86003735",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86003735/recre-a2-emission-du-28-janvier-1986?rang=288"
           },
           {
             "time": "18:00",
@@ -161960,16 +163434,25 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "L'empire des 5",
+              "raw": "L'empire des 5",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "L'empire des Cinq",
               "raw": "L'empire des Cinq"
-            },
-            {
-              "index": 2,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86006377",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006377/recre-a2-emission-du-29-mars-1986?rang=183"
         },
         {
           "time": "14:50",
@@ -163153,16 +164636,25 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "L'empire des 5",
+                "raw": "L'empire des 5",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "L'empire des Cinq",
                 "raw": "L'empire des Cinq"
-              },
-              {
-                "index": 2,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86006377",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86006377/recre-a2-emission-du-29-mars-1986?rang=183"
           },
           {
             "time": "14:50",
@@ -173848,11 +175340,20 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "L'Empire des cinqs",
+              "raw": "L'Empire des cinqs",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Téléchat",
-              "raw": "Téléchat"
+              "raw": "Téléchat",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB86007963",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007963/recre-a2-emission-du-31-mai-1986?rang=252"
         },
         {
           "time": "14:50",
@@ -174984,11 +176485,20 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "L'Empire des cinqs",
+                "raw": "L'Empire des cinqs",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Téléchat",
-                "raw": "Téléchat"
+                "raw": "Téléchat",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB86007963",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB86007963/recre-a2-emission-du-31-mai-1986?rang=252"
           },
           {
             "time": "14:50",

@@ -296,6 +296,18 @@
           "segments": [
             {
               "index": 0,
+              "title": "Goldorak",
+              "raw": "Goldorak",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Lippy le Lion and Hardy Har Har",
+              "raw": "Lippy le Lion and Hardy Har Har",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Goldorak - Le déluge des nouveaux mondes",
               "raw": "Goldorak - Le déluge des nouveaux mondes"
             },
@@ -304,7 +316,9 @@
               "title": "Lippy Le Lion - Le pirate",
               "raw": "Lippy Le Lion - Le pirate"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90012964",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012964/recre-a2-emission-du-02-juillet-1979?rang=263"
         },
         {
           "time": "18:30",
@@ -779,6 +793,18 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Goldorak",
+                "raw": "Goldorak",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Lippy le Lion and Hardy Har Har",
+                "raw": "Lippy le Lion and Hardy Har Har",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Goldorak - Le déluge des nouveaux mondes",
                 "raw": "Goldorak - Le déluge des nouveaux mondes"
               },
@@ -787,7 +813,9 @@
                 "title": "Lippy Le Lion - Le pirate",
                 "raw": "Lippy Le Lion - Le pirate"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90012964",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012964/recre-a2-emission-du-02-juillet-1979?rang=263"
           },
           {
             "time": "18:30",
@@ -1167,7 +1195,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Goldorak",
+              "raw": "Goldorak",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Quak Quao",
+              "raw": "Quak Quao",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dessin animé",
+              "raw": "Dessin animé",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La fée",
+              "raw": "La fée",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90012893",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012893/recre-a2-emission-du-04-juin-1979?rang=231"
         },
         {
           "time": "18:35",
@@ -1510,7 +1565,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Goldorak",
+                "raw": "Goldorak",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Quak Quao",
+                "raw": "Quak Quao",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dessin animé",
+                "raw": "Dessin animé",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La fée",
+                "raw": "La fée",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90012893",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012893/recre-a2-emission-du-04-juin-1979?rang=231"
           },
           {
             "time": "18:35",
@@ -3838,7 +3920,22 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Papa c'est moi, Papa c'est toi",
+              "raw": "Papa c'est moi, Papa c'est toi",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Wattoo Wattoo",
+              "raw": "Wattoo Wattoo",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB12002841",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002841/recre-a2-emission-du-15-aout-1979?rang=272"
         },
         {
           "time": "18:30",
@@ -4243,7 +4340,22 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Papa c'est moi, Papa c'est toi",
+                "raw": "Papa c'est moi, Papa c'est toi",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Wattoo Wattoo",
+                "raw": "Wattoo Wattoo",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB12002841",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002841/recre-a2-emission-du-15-aout-1979?rang=272"
           },
           {
             "time": "18:30",
@@ -5346,7 +5458,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Bubblies",
+              "raw": "Les Bubblies",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Papivole",
+              "raw": "Papivole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Wattoo Wattoo",
+              "raw": "Wattoo Wattoo",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91007055",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007055/recre-a2-emission-du-23-janvier-1979?rang=211"
         },
         {
           "time": "18:35",
@@ -5708,7 +5847,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Bubblies",
+                "raw": "Les Bubblies",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Papivole",
+                "raw": "Papivole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Wattoo Wattoo",
+                "raw": "Wattoo Wattoo",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91007055",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91007055/recre-a2-emission-du-23-janvier-1979?rang=211"
           },
           {
             "time": "18:35",
@@ -6081,7 +6247,58 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Mini histoires",
+              "raw": "Mini histoires",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "A2000",
+              "raw": "A2000",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Flash Récré A2",
+              "raw": "Flash Récré A2",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La Caverne d'Abracadabra",
+              "raw": "La Caverne d'Abracadabra",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Il court, il court, le courrier",
+              "raw": "Il court, il court, le courrier",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Je veux être toi",
+              "raw": "Je veux être toi",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Wattoo wattoo",
+              "raw": "Wattoo wattoo",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB79058015",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79058015/recre-a2-emission-du-24-janvier-1979?rang=359"
         },
         {
           "time": "18:35",
@@ -6458,7 +6675,58 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Mini histoires",
+                "raw": "Mini histoires",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "A2000",
+                "raw": "A2000",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Flash Récré A2",
+                "raw": "Flash Récré A2",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La Caverne d'Abracadabra",
+                "raw": "La Caverne d'Abracadabra",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Il court, il court, le courrier",
+                "raw": "Il court, il court, le courrier",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Je veux être toi",
+                "raw": "Je veux être toi",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Wattoo wattoo",
+                "raw": "Wattoo wattoo",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB79058015",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB79058015/recre-a2-emission-du-24-janvier-1979?rang=359"
           },
           {
             "time": "18:35",
@@ -7787,9 +8055,28 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Goldorak",
-              "raw": "Goldorak"
+              "raw": "Goldorak",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Mio and mao",
+              "raw": "Mio and mao",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dessin animé",
+              "raw": "Dessin animé",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La fée",
+              "raw": "La fée",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -7806,7 +8093,9 @@
               "title": "La fée raconte",
               "raw": "La fée raconte"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB90012876",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012876/recre-a2-emission-du-28-mai-1979?rang=258"
         },
         {
           "time": "18:35",
@@ -8237,9 +8526,28 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Goldorak",
-                "raw": "Goldorak"
+                "raw": "Goldorak",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Mio and mao",
+                "raw": "Mio and mao",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dessin animé",
+                "raw": "Dessin animé",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La fée",
+                "raw": "La fée",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -8256,7 +8564,9 @@
                 "title": "La fée raconte",
                 "raw": "La fée raconte"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB90012876",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012876/recre-a2-emission-du-28-mai-1979?rang=258"
           },
           {
             "time": "18:35",
@@ -8698,7 +9008,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Émilie",
+              "raw": "Émilie",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Zanett",
+              "raw": "Zanett",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Lippy le Lion and Hardy Har Har",
+              "raw": "Lippy le Lion and Hardy Har Har",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Goldorak",
+              "raw": "Goldorak",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB12002802",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002802/recre-a2-emission-du-29-octobre-1979?rang=109"
         },
         {
           "time": "18:30",
@@ -9113,7 +9450,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Émilie",
+                "raw": "Émilie",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Zanett",
+                "raw": "Zanett",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Lippy le Lion and Hardy Har Har",
+                "raw": "Lippy le Lion and Hardy Har Har",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Goldorak",
+                "raw": "Goldorak",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB12002802",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB12002802/recre-a2-emission-du-29-octobre-1979?rang=109"
           },
           {
             "time": "18:30",

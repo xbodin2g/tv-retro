@@ -5084,7 +5084,22 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "La forêt apprivoisée",
+              "raw": "La forêt apprivoisée",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Je veux être toi",
+              "raw": "Je veux être toi",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB90012146",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012146/recre-a2-emission-du15-aout-1978?rang=64"
         },
         {
           "time": "18:40",
@@ -5446,7 +5461,22 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "La forêt apprivoisée",
+                "raw": "La forêt apprivoisée",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Je veux être toi",
+                "raw": "Je veux être toi",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB90012146",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB90012146/recre-a2-emission-du15-aout-1978?rang=64"
           },
           {
             "time": "18:40",
@@ -6508,10 +6538,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "Entre les lignes",
+              "raw": "Entre les lignes",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Cet Après Midi...Marionettes",
+              "raw": "Cet Après Midi...Marionettes",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Robinson Crusoë",
               "raw": "Robinson Crusoë"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB78053821",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78053821/recre-a2-emission-du-21-juillet-1978?rang=59"
         },
         {
           "time": "18:40",
@@ -6894,10 +6938,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Entre les lignes",
+                "raw": "Entre les lignes",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Cet Après Midi...Marionettes",
+                "raw": "Cet Après Midi...Marionettes",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Robinson Crusoë",
                 "raw": "Robinson Crusoë"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB78053821",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB78053821/recre-a2-emission-du-21-juillet-1978?rang=59"
           },
           {
             "time": "18:40",
@@ -7117,7 +7175,82 @@
           "title": "VISITEURS DU MERCREDI",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Scoubidou",
+              "raw": "Scoubidou",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Brok et Chnok",
+              "raw": "Brok et Chnok",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La boite à idées animé par Soizic Corne",
+              "raw": "La boite à idées animé par Soizic Corne",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les mémoires d'un cheval",
+              "raw": "Les mémoires d'un cheval",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Lire, écouter, voir",
+              "raw": "Lire, écouter, voir",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Jacques Trémolin raconte : Les loups",
+              "raw": "Jacques Trémolin raconte : Les loups",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Feuilleton : Les aventures de Black beauty",
+              "raw": "Feuilleton : Les aventures de Black beauty",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Les clés de la musique",
+              "raw": "Les clés de la musique",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "L'invitation : Voyage dans le rire",
+              "raw": "L'invitation : Voyage dans le rire",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "La parade des dessins animés",
+              "raw": "La parade des dessins animés",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "Les infos",
+              "raw": "Les infos",
+              "source": "ina"
+            },
+            {
+              "index": 11,
+              "title": "Feuilleton : Sébastien et la Mary Morgane",
+              "raw": "Feuilleton : Sébastien et la Mary Morgane",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPA17000563",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA17000563/les-visiteurs-du-mercredi-emission-du-25-janvier-1978?rang=2357"
         },
         {
           "time": "17:55",
@@ -7450,7 +7583,82 @@
             "title": "VISITEURS DU MERCREDI",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Scoubidou",
+                "raw": "Scoubidou",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Brok et Chnok",
+                "raw": "Brok et Chnok",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La boite à idées animé par Soizic Corne",
+                "raw": "La boite à idées animé par Soizic Corne",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les mémoires d'un cheval",
+                "raw": "Les mémoires d'un cheval",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Lire, écouter, voir",
+                "raw": "Lire, écouter, voir",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Jacques Trémolin raconte : Les loups",
+                "raw": "Jacques Trémolin raconte : Les loups",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Feuilleton : Les aventures de Black beauty",
+                "raw": "Feuilleton : Les aventures de Black beauty",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Les clés de la musique",
+                "raw": "Les clés de la musique",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "L'invitation : Voyage dans le rire",
+                "raw": "L'invitation : Voyage dans le rire",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "La parade des dessins animés",
+                "raw": "La parade des dessins animés",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "Les infos",
+                "raw": "Les infos",
+                "source": "ina"
+              },
+              {
+                "index": 11,
+                "title": "Feuilleton : Sébastien et la Mary Morgane",
+                "raw": "Feuilleton : Sébastien et la Mary Morgane",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPA17000563",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPA17000563/les-visiteurs-du-mercredi-emission-du-25-janvier-1978?rang=2357"
           },
           {
             "time": "17:55",

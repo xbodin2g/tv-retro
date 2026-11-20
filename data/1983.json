@@ -1358,30 +1358,47 @@
           "segments": [
             {
               "index": 0,
-              "title": "Pic, pic, pic - L'aigle royal",
-              "raw": "Pic, pic, pic - L'aigle royal"
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Qu'est-ce ? Qu'est-ce ? Qu'est-ce ? - Le voyage",
-              "raw": "Qu'est-ce ? Qu'est-ce ? Qu'est-ce ? - Le voyage"
+              "title": "Qu'est-ce, qu'est-ce, qu'est-ce ? : Le voyage",
+              "raw": "Qu'est-ce, qu'est-ce, qu'est-ce ? : Le voyage",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Sido et Rémi",
+              "raw": "Sido et Rémi",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Il était une fois le cirque",
+              "raw": "Il était une fois le cirque",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 0,
+              "title": "Pic, pic, pic - L'aigle royal",
+              "raw": "Pic, pic, pic - L'aigle royal"
             },
             {
               "index": 2,
               "title": "Sido et Rémi - Initiation à la musique",
               "raw": "Sido et Rémi - Initiation à la musique"
-            },
-            {
-              "index": 3,
-              "title": "Il était une fois le cirque",
-              "raw": "Il était une fois le cirque"
-            },
-            {
-              "index": 4,
-              "title": "C'est chouette",
-              "raw": "C'est chouette"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83050470",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050470/recre-a2-emission-du-01-fevrier-1983?rang=122"
         },
         {
           "time": "18:30",
@@ -1891,30 +1908,47 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Pic, pic, pic - L'aigle royal",
-                "raw": "Pic, pic, pic - L'aigle royal"
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Qu'est-ce ? Qu'est-ce ? Qu'est-ce ? - Le voyage",
-                "raw": "Qu'est-ce ? Qu'est-ce ? Qu'est-ce ? - Le voyage"
+                "title": "Qu'est-ce, qu'est-ce, qu'est-ce ? : Le voyage",
+                "raw": "Qu'est-ce, qu'est-ce, qu'est-ce ? : Le voyage",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Sido et Rémi",
+                "raw": "Sido et Rémi",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Il était une fois le cirque",
+                "raw": "Il était une fois le cirque",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 0,
+                "title": "Pic, pic, pic - L'aigle royal",
+                "raw": "Pic, pic, pic - L'aigle royal"
               },
               {
                 "index": 2,
                 "title": "Sido et Rémi - Initiation à la musique",
                 "raw": "Sido et Rémi - Initiation à la musique"
-              },
-              {
-                "index": 3,
-                "title": "Il était une fois le cirque",
-                "raw": "Il était une fois le cirque"
-              },
-              {
-                "index": 4,
-                "title": "C'est chouette",
-                "raw": "C'est chouette"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83050470",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050470/recre-a2-emission-du-01-fevrier-1983?rang=122"
           },
           {
             "time": "18:30",
@@ -2387,7 +2421,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Ces sacrés parents",
+              "raw": "Ces sacrés parents",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Sido et Rémi",
+              "raw": "Sido et Rémi",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83050258",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050258/recre-a2-emission-du-01-mars-1983?rang=59"
         },
         {
           "time": "18:30",
@@ -2849,7 +2916,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Ces sacrés parents",
+                "raw": "Ces sacrés parents",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Sido et Rémi",
+                "raw": "Sido et Rémi",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83050258",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050258/recre-a2-emission-du-01-mars-1983?rang=59"
           },
           {
             "time": "18:30",
@@ -3371,16 +3471,31 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Mr Merlin",
+              "raw": "Mr Merlin",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "DOROTHEE chante \"le sifflet\"",
+              "raw": "DOROTHEE chante \"le sifflet\"",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Monsieur Merlin",
               "raw": "Monsieur Merlin"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83051270",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051270/recre-a2-emission-du-01-avril-1983?rang=159"
         },
         {
           "time": "18:30",
@@ -3938,16 +4053,31 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Mr Merlin",
+                "raw": "Mr Merlin",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "DOROTHEE chante \"le sifflet\"",
+                "raw": "DOROTHEE chante \"le sifflet\"",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Monsieur Merlin",
                 "raw": "Monsieur Merlin"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83051270",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051270/recre-a2-emission-du-01-avril-1983?rang=159"
           },
           {
             "time": "18:30",
@@ -4470,7 +4600,76 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chapi chapo",
+              "raw": "Chapi chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Matou chat des champs et Souriceau",
+              "raw": "Matou chat des champs et Souriceau",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Maraboud'ficelle",
+              "raw": "Maraboud'ficelle",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Balour et Balu",
+              "raw": "Balour et Balu",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Extrait Asterix",
+              "raw": "Extrait Asterix",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Zeltron",
+              "raw": "Zeltron",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "Heidi",
+              "raw": "Heidi",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB85104972",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104972/recre-a2-emission-du-2-mars-1983?rang=464"
         },
         {
           "time": "17:10",
@@ -4973,7 +5172,76 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chapi chapo",
+                "raw": "Chapi chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Matou chat des champs et Souriceau",
+                "raw": "Matou chat des champs et Souriceau",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Maraboud'ficelle",
+                "raw": "Maraboud'ficelle",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Balour et Balu",
+                "raw": "Balour et Balu",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Extrait Asterix",
+                "raw": "Extrait Asterix",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Zeltron",
+                "raw": "Zeltron",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "Heidi",
+                "raw": "Heidi",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB85104972",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85104972/recre-a2-emission-du-2-mars-1983?rang=464"
           },
           {
             "time": "17:10",
@@ -6508,14 +6776,28 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les Quat'z'amis",
-              "raw": "Les Quat'z'amis"
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Chapi-Chapo",
-              "raw": "Chapi-Chapo"
+              "title": "Contes Hoffman",
+              "raw": "Contes Hoffman",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Mr Merlin",
+              "raw": "Mr Merlin",
+              "source": "ina"
             },
             {
               "index": 3,
@@ -6527,7 +6809,9 @@
               "title": "Monsieur Merlin",
               "raw": "Monsieur Merlin"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001530",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001530/recre-a2-emission-du-04-fevrier-1983?rang=50"
         },
         {
           "time": "18:30",
@@ -7095,14 +7379,28 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les Quat'z'amis",
-                "raw": "Les Quat'z'amis"
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Chapi-Chapo",
-                "raw": "Chapi-Chapo"
+                "title": "Contes Hoffman",
+                "raw": "Contes Hoffman",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Mr Merlin",
+                "raw": "Mr Merlin",
+                "source": "ina"
               },
               {
                 "index": 3,
@@ -7114,7 +7412,9 @@
                 "title": "Monsieur Merlin",
                 "raw": "Monsieur Merlin"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001530",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001530/recre-a2-emission-du-04-fevrier-1983?rang=50"
           },
           {
             "time": "18:30",
@@ -7611,7 +7911,70 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chapi chapo",
+              "raw": "Chapi chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les voyages de Tortillard",
+              "raw": "Les voyages de Tortillard",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Yakari",
+              "raw": "Yakari",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "MARABOUD'FICELLE",
+              "raw": "MARABOUD'FICELLE",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Georges de la jungle",
+              "raw": "Georges de la jungle",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Jean qui pleure Jean qui rit",
+              "raw": "Jean qui pleure Jean qui rit",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "Les mystérieuses cités d'or",
+              "raw": "Les mystérieuses cités d'or",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91003199",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003199/recre-a2-emission-du-05-octobre-1983?rang=9433"
         },
         {
           "time": "17:10",
@@ -8068,7 +8431,70 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chapi chapo",
+                "raw": "Chapi chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les voyages de Tortillard",
+                "raw": "Les voyages de Tortillard",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Yakari",
+                "raw": "Yakari",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "MARABOUD'FICELLE",
+                "raw": "MARABOUD'FICELLE",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Georges de la jungle",
+                "raw": "Georges de la jungle",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Jean qui pleure Jean qui rit",
+                "raw": "Jean qui pleure Jean qui rit",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "Les mystérieuses cités d'or",
+                "raw": "Les mystérieuses cités d'or",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91003199",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003199/recre-a2-emission-du-05-octobre-1983?rang=9433"
           },
           {
             "time": "17:10",
@@ -8594,8 +9020,27 @@
           "segments": [
             {
               "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Harold Llyod's",
+              "raw": "Harold Llyod's",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
@@ -8606,13 +9051,10 @@
               "index": 2,
               "title": "Harold Lloyd",
               "raw": "Harold Lloyd"
-            },
-            {
-              "index": 3,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83053364",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053364/recre-a2-emission-du-05-novembre-1983?rang=378"
         },
         {
           "time": "17:50",
@@ -9166,8 +9608,27 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Harold Llyod's",
+                "raw": "Harold Llyod's",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
@@ -9178,13 +9639,10 @@
                 "index": 2,
                 "title": "Harold Lloyd",
                 "raw": "Harold Lloyd"
-              },
-              {
-                "index": 3,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83053364",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053364/recre-a2-emission-du-05-novembre-1983?rang=378"
           },
           {
             "time": "17:50",
@@ -9631,7 +10089,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91002402",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002402/recre-a2-emission-du-06-juin-1983?rang=246"
         },
         {
           "time": "18:30",
@@ -10076,7 +10561,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91002402",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91002402/recre-a2-emission-du-06-juin-1983?rang=246"
           },
           {
             "time": "18:30",
@@ -10548,7 +11060,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Ces sacrés parents",
+              "raw": "Ces sacrés parents",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Sido et Rémi",
+              "raw": "Sido et Rémi",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83051923",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051923/recre-a2-emission-du-07-juin-1983?rang=247"
         },
         {
           "time": "18:30",
@@ -10979,7 +11524,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Ces sacrés parents",
+                "raw": "Ces sacrés parents",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Sido et Rémi",
+                "raw": "Sido et Rémi",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83051923",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051923/recre-a2-emission-du-07-juin-1983?rang=247"
           },
           {
             "time": "18:30",
@@ -11415,7 +11993,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Yakari",
+              "raw": "Yakari",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Zora la rousse",
+              "raw": "Zora la rousse",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91003212",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003212/recre-a2-emission-du-07-octobre-1983?rang=356"
         },
         {
           "time": "18:30",
@@ -11822,7 +12433,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Yakari",
+                "raw": "Yakari",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Zora la rousse",
+                "raw": "Zora la rousse",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91003212",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003212/recre-a2-emission-du-07-octobre-1983?rang=356"
           },
           {
             "time": "18:30",
@@ -12257,7 +12901,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83053787",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053787/recre-a2-emission-du-07-novembre-1983?rang=286"
         },
         {
           "time": "18:30",
@@ -12690,7 +13361,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83053787",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053787/recre-a2-emission-du-07-novembre-1983?rang=286"
           },
           {
             "time": "18:30",
@@ -13213,26 +13911,32 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Pic, pic, pic",
-              "raw": "Pic, pic, pic"
+              "title": "Ces sacrés parents",
+              "raw": "Ces sacrés parents",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Ces sacrés parents",
-              "raw": "Ces sacrés parents"
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "La bande à Bédé",
-              "raw": "La bande à Bédé"
-            },
-            {
-              "index": 4,
               "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "raw": "C'est chouette",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83051519",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051519/recre-a2-emission-du-08-fevrier-1983?rang=125"
         },
         {
           "time": "18:30",
@@ -13808,26 +14512,32 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Pic, pic, pic",
-                "raw": "Pic, pic, pic"
+                "title": "Ces sacrés parents",
+                "raw": "Ces sacrés parents",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Ces sacrés parents",
-                "raw": "Ces sacrés parents"
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "La bande à Bédé",
-                "raw": "La bande à Bédé"
-              },
-              {
-                "index": 4,
                 "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "raw": "C'est chouette",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83051519",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051519/recre-a2-emission-du-08-fevrier-1983?rang=125"
           },
           {
             "time": "18:30",
@@ -14385,31 +15095,44 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Platrau Julie",
+              "raw": "Platrau Julie",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Pic, pic, pic",
-              "raw": "Pic, pic, pic"
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Jean qui pleure, Jean qui rit",
-              "raw": "Jean qui pleure, Jean qui rit"
+              "title": "Jean qui pleure Jean qui rit",
+              "raw": "Jean qui pleure Jean qui rit",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 4,
-              "title": "La bande à Bédé",
-              "raw": "La bande à Bédé"
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
             },
             {
               "index": 5,
               "title": "C'est chouette",
-              "raw": "C'est chouette"
+              "raw": "C'est chouette",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB13002736",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002736/recre-a2-emission-du-08-mars-1983?rang=63"
         },
         {
           "time": "18:30",
@@ -14945,31 +15668,44 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Platrau Julie",
+                "raw": "Platrau Julie",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Pic, pic, pic",
-                "raw": "Pic, pic, pic"
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Jean qui pleure, Jean qui rit",
-                "raw": "Jean qui pleure, Jean qui rit"
+                "title": "Jean qui pleure Jean qui rit",
+                "raw": "Jean qui pleure Jean qui rit",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 4,
-                "title": "La bande à Bédé",
-                "raw": "La bande à Bédé"
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
               },
               {
                 "index": 5,
                 "title": "C'est chouette",
-                "raw": "C'est chouette"
+                "raw": "C'est chouette",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB13002736",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002736/recre-a2-emission-du-08-mars-1983?rang=63"
           },
           {
             "time": "18:30",
@@ -15455,7 +16191,28 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Buzard et vermissot",
+              "raw": "Buzard et vermissot",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les voyages de tortillard",
+              "raw": "Les voyages de tortillard",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Candy",
+              "raw": "Candy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91003047",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003047/recre-a2-emission-du-08-septembre-1983?rang=9402"
         },
         {
           "time": "18:40",
@@ -15900,7 +16657,28 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Buzard et vermissot",
+                "raw": "Buzard et vermissot",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les voyages de tortillard",
+                "raw": "Les voyages de tortillard",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Candy",
+                "raw": "Candy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91003047",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003047/recre-a2-emission-du-08-septembre-1983?rang=9402"
           },
           {
             "time": "18:40",
@@ -16356,7 +17134,46 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Yakari",
+              "raw": "Yakari",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83053441",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053441/recre-a2-emission-du-08-novembre-1983?rang=326"
         },
         {
           "time": "18:30",
@@ -16821,7 +17638,46 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Yakari",
+                "raw": "Yakari",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83053441",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053441/recre-a2-emission-du-08-novembre-1983?rang=326"
           },
           {
             "time": "18:30",
@@ -17354,13 +18210,80 @@
           "segments": [
             {
               "index": 0,
-              "title": "Thème : le carnaval",
-              "raw": "Thème : le carnaval"
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
             },
             {
               "index": 1,
-              "title": "Chapi-Chapo",
-              "raw": "Chapi-Chapo"
+              "title": "Émilie",
+              "raw": "Émilie",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Maraboud'ficelle",
+              "raw": "Maraboud'ficelle",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Boule et Bill",
+              "raw": "Boule et Bill",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Matou chat des champs et souriceau",
+              "raw": "Matou chat des champs et souriceau",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Thème de l'émission : Carnaval Récré A2",
+              "raw": "Thème de l'émission : Carnaval Récré A2",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Méthanie",
+              "raw": "Méthanie",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "Clip de Musical youth : \"PASS the dutchies\"(",
+              "raw": "Clip de Musical youth : \"PASS the dutchies\"(",
+              "source": "ina"
+            },
+            {
+              "index": 11,
+              "title": "Heidi",
+              "raw": "Heidi",
+              "source": "ina"
+            },
+            {
+              "index": 0,
+              "title": "Thème : le carnaval",
+              "raw": "Thème : le carnaval"
             },
             {
               "index": 2,
@@ -17373,51 +18296,13 @@
               "raw": "Doggy dog et ses chansons"
             },
             {
-              "index": 4,
-              "title": "Boule et Bill",
-              "raw": "Boule et Bill"
-            },
-            {
-              "index": 5,
-              "title": "Discopuce",
-              "raw": "Discopuce"
-            },
-            {
-              "index": 6,
-              "title": "Méthanie",
-              "raw": "Méthanie"
-            },
-            {
-              "index": 7,
-              "title": "Matou, chat des champs et Souriceau",
-              "raw": "Matou, chat des champs et Souriceau"
-            },
-            {
-              "index": 8,
-              "title": "Maraboud'ficelle",
-              "raw": "Maraboud'ficelle"
-            },
-            {
-              "index": 9,
-              "title": "Télétactica",
-              "raw": "Télétactica"
-            },
-            {
               "index": 10,
               "title": "Les petits malheurs",
               "raw": "Les petits malheurs"
-            },
-            {
-              "index": 11,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            },
-            {
-              "index": 12,
-              "title": "Heidi",
-              "raw": "Heidi"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83057160",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057160/recre-a2-emission-du-09-fevrier-1983?rang=450"
         },
         {
           "time": "17:10",
@@ -17976,13 +18861,80 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Thème : le carnaval",
-                "raw": "Thème : le carnaval"
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
               },
               {
                 "index": 1,
-                "title": "Chapi-Chapo",
-                "raw": "Chapi-Chapo"
+                "title": "Émilie",
+                "raw": "Émilie",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Maraboud'ficelle",
+                "raw": "Maraboud'ficelle",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Boule et Bill",
+                "raw": "Boule et Bill",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Matou chat des champs et souriceau",
+                "raw": "Matou chat des champs et souriceau",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Thème de l'émission : Carnaval Récré A2",
+                "raw": "Thème de l'émission : Carnaval Récré A2",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Méthanie",
+                "raw": "Méthanie",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "Clip de Musical youth : \"PASS the dutchies\"(",
+                "raw": "Clip de Musical youth : \"PASS the dutchies\"(",
+                "source": "ina"
+              },
+              {
+                "index": 11,
+                "title": "Heidi",
+                "raw": "Heidi",
+                "source": "ina"
+              },
+              {
+                "index": 0,
+                "title": "Thème : le carnaval",
+                "raw": "Thème : le carnaval"
               },
               {
                 "index": 2,
@@ -17995,51 +18947,13 @@
                 "raw": "Doggy dog et ses chansons"
               },
               {
-                "index": 4,
-                "title": "Boule et Bill",
-                "raw": "Boule et Bill"
-              },
-              {
-                "index": 5,
-                "title": "Discopuce",
-                "raw": "Discopuce"
-              },
-              {
-                "index": 6,
-                "title": "Méthanie",
-                "raw": "Méthanie"
-              },
-              {
-                "index": 7,
-                "title": "Matou, chat des champs et Souriceau",
-                "raw": "Matou, chat des champs et Souriceau"
-              },
-              {
-                "index": 8,
-                "title": "Maraboud'ficelle",
-                "raw": "Maraboud'ficelle"
-              },
-              {
-                "index": 9,
-                "title": "Télétactica",
-                "raw": "Télétactica"
-              },
-              {
                 "index": 10,
                 "title": "Les petits malheurs",
                 "raw": "Les petits malheurs"
-              },
-              {
-                "index": 11,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              },
-              {
-                "index": 12,
-                "title": "Heidi",
-                "raw": "Heidi"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83057160",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057160/recre-a2-emission-du-09-fevrier-1983?rang=450"
           },
           {
             "time": "17:10",
@@ -18490,7 +19404,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Émilie",
+              "raw": "Émilie",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Candy",
+              "raw": "Candy",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83051935",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051935/recre-a2-emission-du-09-juin-1983?rang=188"
         },
         {
           "time": "18:30",
@@ -18909,7 +19856,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Émilie",
+                "raw": "Émilie",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Candy",
+                "raw": "Candy",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83051935",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051935/recre-a2-emission-du-09-juin-1983?rang=188"
           },
           {
             "time": "18:30",
@@ -19357,7 +20337,22 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Quac Quao",
+              "raw": "Quac Quao",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Zora la rousse",
+              "raw": "Zora la rousse",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB91003052",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003052/recre-a2-emission-du-09-septembre-1983?rang=9432"
         },
         {
           "time": "18:40",
@@ -19782,7 +20777,22 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Quac Quao",
+                "raw": "Quac Quao",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Zora la rousse",
+                "raw": "Zora la rousse",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB91003052",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003052/recre-a2-emission-du-09-septembre-1983?rang=9432"
           },
           {
             "time": "18:40",
@@ -20277,25 +21287,42 @@
           "segments": [
             {
               "index": 0,
-              "title": "Pic, pic, pic",
-              "raw": "Pic, pic, pic"
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Tableau célèbre",
+              "raw": "Tableau célèbre",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Candy",
+              "raw": "Candy",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Les trois questions",
+              "raw": "Les trois questions",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Tableaux célèbres",
               "raw": "Tableaux célèbres"
-            },
-            {
-              "index": 2,
-              "title": "Candy",
-              "raw": "Candy"
-            },
-            {
-              "index": 3,
-              "title": "Les trois questions",
-              "raw": "Les trois questions"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB13002651",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002651/recre-a2-emission-du-10-fevrier-1983?rang=51"
         },
         {
           "time": "18:30",
@@ -20846,25 +21873,42 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Pic, pic, pic",
-                "raw": "Pic, pic, pic"
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Tableau célèbre",
+                "raw": "Tableau célèbre",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Candy",
+                "raw": "Candy",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Les trois questions",
+                "raw": "Les trois questions",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Tableaux célèbres",
                 "raw": "Tableaux célèbres"
-              },
-              {
-                "index": 2,
-                "title": "Candy",
-                "raw": "Candy"
-              },
-              {
-                "index": 3,
-                "title": "Les trois questions",
-                "raw": "Les trois questions"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB13002651",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002651/recre-a2-emission-du-10-fevrier-1983?rang=51"
           },
           {
             "time": "18:30",
@@ -21439,12 +22483,26 @@
             {
               "index": 0,
               "title": "Chapi Chapo",
-              "raw": "Chapi Chapo"
+              "raw": "Chapi Chapo",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Télétactica",
-              "raw": "Télétactica"
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les contes",
+              "raw": "Les contes",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Mr Merlin",
+              "raw": "Mr Merlin",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -21456,7 +22514,9 @@
               "title": "Monsieur Merlin",
               "raw": "Monsieur Merlin"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001582",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001582/recre-a2-emission-du-11-fevrier-1983?rang=34"
         },
         {
           "time": "18:30",
@@ -22029,12 +23089,26 @@
               {
                 "index": 0,
                 "title": "Chapi Chapo",
-                "raw": "Chapi Chapo"
+                "raw": "Chapi Chapo",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Télétactica",
-                "raw": "Télétactica"
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les contes",
+                "raw": "Les contes",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Mr Merlin",
+                "raw": "Mr Merlin",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -22046,7 +23120,9 @@
                 "title": "Monsieur Merlin",
                 "raw": "Monsieur Merlin"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001582",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001582/recre-a2-emission-du-11-fevrier-1983?rang=34"
           },
           {
             "time": "18:30",
@@ -23732,7 +24808,76 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Maraboudficelle",
+              "raw": "Maraboudficelle",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Méthanie",
+              "raw": "Méthanie",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Bouquin Bouquine",
+              "raw": "Bouquin Bouquine",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Georges de la jungle",
+              "raw": "Georges de la jungle",
+              "source": "ina"
+            },
+            {
+              "index": 8,
+              "title": "Les petits môts de Jean Lacroix",
+              "raw": "Les petits môts de Jean Lacroix",
+              "source": "ina"
+            },
+            {
+              "index": 9,
+              "title": "La Panthère rose",
+              "raw": "La Panthère rose",
+              "source": "ina"
+            },
+            {
+              "index": 10,
+              "title": "Heidi",
+              "raw": "Heidi",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83050969",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050969/recre-a2-emission-du-12-janvier-1983?rang=461"
         },
         {
           "time": "17:10",
@@ -24170,7 +25315,76 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Maraboudficelle",
+                "raw": "Maraboudficelle",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Méthanie",
+                "raw": "Méthanie",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Bouquin Bouquine",
+                "raw": "Bouquin Bouquine",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Georges de la jungle",
+                "raw": "Georges de la jungle",
+                "source": "ina"
+              },
+              {
+                "index": 8,
+                "title": "Les petits môts de Jean Lacroix",
+                "raw": "Les petits môts de Jean Lacroix",
+                "source": "ina"
+              },
+              {
+                "index": 9,
+                "title": "La Panthère rose",
+                "raw": "La Panthère rose",
+                "source": "ina"
+              },
+              {
+                "index": 10,
+                "title": "Heidi",
+                "raw": "Heidi",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83050969",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050969/recre-a2-emission-du-12-janvier-1983?rang=461"
           },
           {
             "time": "17:10",
@@ -26348,7 +27562,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Balour et Balu",
+              "raw": "Balour et Balu",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Mister Magoo",
+              "raw": "Mister Magoo",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83051121",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051121/recre-a2-emission-du-13-mai-1983?rang=234"
         },
         {
           "time": "18:30",
@@ -26861,7 +28108,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Balour et Balu",
+                "raw": "Balour et Balu",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Mister Magoo",
+                "raw": "Mister Magoo",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83051121",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051121/recre-a2-emission-du-13-mai-1983?rang=234"
           },
           {
             "time": "18:30",
@@ -27350,7 +28630,34 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Le petit écho de la forêt",
+              "raw": "Le petit écho de la forêt",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les Schtroumps",
+              "raw": "Les Schtroumps",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB93012584",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012584/recre-a2-emission-du-13-juin-1983?rang=249"
         },
         {
           "time": "18:30",
@@ -27764,7 +29071,34 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Le petit écho de la forêt",
+                "raw": "Le petit écho de la forêt",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les Schtroumps",
+                "raw": "Les Schtroumps",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB93012584",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB93012584/recre-a2-emission-du-13-juin-1983?rang=249"
           },
           {
             "time": "18:30",
@@ -28186,7 +29520,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Les 3 inventeurs",
+              "raw": "Les 3 inventeurs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Yakari (1)",
+              "raw": "Yakari (1)",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83051811",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051811/recre-a2-emission-du-13-septembre-1983?rang=267"
         },
         {
           "time": "18:30",
@@ -28575,7 +29942,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Les 3 inventeurs",
+                "raw": "Les 3 inventeurs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Yakari (1)",
+                "raw": "Yakari (1)",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83051811",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051811/recre-a2-emission-du-13-septembre-1983?rang=267"
           },
           {
             "time": "18:30",
@@ -28991,9 +30391,28 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Chapi Chapo",
-              "raw": "Chapi Chapo"
+              "raw": "Chapi Chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Chanson Télétactica",
+              "raw": "Chanson Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Les croque-monstres",
+              "raw": "Les croque-monstres",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -29010,7 +30429,9 @@
               "title": "Le Croque-Monstres Show",
               "raw": "Le Croque-Monstres Show"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001426",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001426/recre-a2-emission-du-15-janvier-1983?rang=118"
         },
         {
           "time": "15:10",
@@ -29519,9 +30940,28 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Chapi Chapo",
-                "raw": "Chapi Chapo"
+                "raw": "Chapi Chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Chanson Télétactica",
+                "raw": "Chanson Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Les croque-monstres",
+                "raw": "Les croque-monstres",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -29538,7 +30978,9 @@
                 "title": "Le Croque-Monstres Show",
                 "raw": "Le Croque-Monstres Show"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001426",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001426/recre-a2-emission-du-15-janvier-1983?rang=118"
           },
           {
             "time": "15:10",
@@ -32139,6 +33581,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Les quat'zamis",
               "raw": "Les quat'zamis"
@@ -32147,18 +33607,10 @@
               "index": 2,
               "title": "Yok Yok",
               "raw": "Yok Yok"
-            },
-            {
-              "index": 3,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            },
-            {
-              "index": 4,
-              "title": "Tom Sawyer",
-              "raw": "Tom Sawyer"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB85106815",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106815/recre-a2-emission-du-17-janvier-1983?rang=29"
         },
         {
           "time": "18:30",
@@ -32657,6 +34109,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Les quat'zamis",
                 "raw": "Les quat'zamis"
@@ -32665,18 +34135,10 @@
                 "index": 2,
                 "title": "Yok Yok",
                 "raw": "Yok Yok"
-              },
-              {
-                "index": 3,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              },
-              {
-                "index": 4,
-                "title": "Tom Sawyer",
-                "raw": "Tom Sawyer"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB85106815",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106815/recre-a2-emission-du-17-janvier-1983?rang=29"
           },
           {
             "time": "18:30",
@@ -33129,7 +34591,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Candy",
+              "raw": "Candy",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Les trois questions",
+              "raw": "Les trois questions",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB13002671",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002671/recre-a2-emission-du-17-fevrier-1983?rang=53"
         },
         {
           "time": "18:30",
@@ -33582,7 +35077,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Candy",
+                "raw": "Candy",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Les trois questions",
+                "raw": "Les trois questions",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB13002671",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB13002671/recre-a2-emission-du-17-fevrier-1983?rang=53"
           },
           {
             "time": "18:30",
@@ -34154,14 +35682,34 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les Quat'z'amis",
-              "raw": "Les Quat'z'amis"
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Chapi Chapo",
-              "raw": "Chapi Chapo"
+              "title": "Les contes",
+              "raw": "Les contes",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Mr Merlin",
+              "raw": "Mr Merlin",
+              "source": "ina"
             },
             {
               "index": 3,
@@ -34169,16 +35717,13 @@
               "raw": "Les contes d'Hoffnung"
             },
             {
-              "index": 4,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
               "index": 5,
               "title": "Un certain monsieur Merlin",
               "raw": "Un certain monsieur Merlin"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001631",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001631/recre-a2-emission-du-18-fevrier-1983?rang=127"
         },
         {
           "time": "18:30",
@@ -34811,14 +36356,34 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les Quat'z'amis",
-                "raw": "Les Quat'z'amis"
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Chapi Chapo",
-                "raw": "Chapi Chapo"
+                "title": "Les contes",
+                "raw": "Les contes",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Mr Merlin",
+                "raw": "Mr Merlin",
+                "source": "ina"
               },
               {
                 "index": 3,
@@ -34826,16 +36391,13 @@
                 "raw": "Les contes d'Hoffnung"
               },
               {
-                "index": 4,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
                 "index": 5,
                 "title": "Un certain monsieur Merlin",
                 "raw": "Un certain monsieur Merlin"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001631",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001631/recre-a2-emission-du-18-fevrier-1983?rang=127"
           },
           {
             "time": "18:30",
@@ -35467,6 +37029,42 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Papivole",
+              "raw": "Papivole",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Télétactica - Pôle Nord",
               "raw": "Télétactica - Pôle Nord"
@@ -35490,13 +37088,10 @@
               "index": 5,
               "title": "Yok-yok",
               "raw": "Yok-yok"
-            },
-            {
-              "index": 6,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83053498",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053498/recre-a2-emission-du-20-decembre-1983?rang=311"
         },
         {
           "time": "18:30",
@@ -35999,6 +37594,42 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Papivole",
+                "raw": "Papivole",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Télétactica - Pôle Nord",
                 "raw": "Télétactica - Pôle Nord"
@@ -36022,13 +37653,10 @@
                 "index": 5,
                 "title": "Yok-yok",
                 "raw": "Yok-yok"
-              },
-              {
-                "index": 6,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83053498",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053498/recre-a2-emission-du-20-decembre-1983?rang=311"
           },
           {
             "time": "18:30",
@@ -37490,7 +39118,40 @@
           "title": "RÉCRÉ A2",
           "description": "",
           "description_lines": [],
-          "segments": []
+          "segments": [
+            {
+              "index": 0,
+              "title": "Chapi Chapo",
+              "raw": "Chapi Chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Le petit écho de la forêt",
+              "raw": "Le petit écho de la forêt",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Balour et Balu",
+              "raw": "Balour et Balu",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Mr Merlin",
+              "raw": "Mr Merlin",
+              "source": "ina"
+            }
+          ],
+          "ina_notice": "DA_CPB83051971",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051971/recre-a2-emission-du-22-avril-1983?rang=179"
         },
         {
           "time": "18:30",
@@ -37946,7 +39607,40 @@
             "title": "RÉCRÉ A2",
             "description": "",
             "description_lines": [],
-            "segments": []
+            "segments": [
+              {
+                "index": 0,
+                "title": "Chapi Chapo",
+                "raw": "Chapi Chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Le petit écho de la forêt",
+                "raw": "Le petit écho de la forêt",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Balour et Balu",
+                "raw": "Balour et Balu",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Mr Merlin",
+                "raw": "Mr Merlin",
+                "source": "ina"
+              }
+            ],
+            "ina_notice": "DA_CPB83051971",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051971/recre-a2-emission-du-22-avril-1983?rang=179"
           },
           {
             "time": "18:30",
@@ -38469,9 +40163,28 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Harold Llyod's",
+              "raw": "Harold Llyod's",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -38482,13 +40195,10 @@
               "index": 3,
               "title": "Harold Lloyd",
               "raw": "Harold Lloyd"
-            },
-            {
-              "index": 4,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83056531",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83056531/recre-a2-emission-du-22-octobre-1983?rang=283"
         },
         {
           "time": "17:50",
@@ -39025,9 +40735,28 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Harold Llyod's",
+                "raw": "Harold Llyod's",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -39038,13 +40767,10 @@
                 "index": 3,
                 "title": "Harold Lloyd",
                 "raw": "Harold Lloyd"
-              },
-              {
-                "index": 4,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83056531",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83056531/recre-a2-emission-du-22-octobre-1983?rang=283"
           },
           {
             "time": "17:50",
@@ -42251,6 +43977,24 @@
           "segments": [
             {
               "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Les Schtroumpfs - Le dragon (2ème partie)",
               "raw": "Les Schtroumpfs - Le dragon (2ème partie)"
             },
@@ -42258,11 +44002,6 @@
               "index": 1,
               "title": "Yok Yok - Il était une fois le cirque",
               "raw": "Yok Yok - Il était une fois le cirque"
-            },
-            {
-              "index": 2,
-              "title": "Télétactica",
-              "raw": "Télétactica"
             },
             {
               "index": 3,
@@ -42274,7 +44013,9 @@
               "title": "Tom Sawyer - L'apparition d'un rival",
               "raw": "Tom Sawyer - L'apparition d'un rival"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001463",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001463/recre-a2-emission-du-24-janvier-1983?rang=24"
         },
         {
           "time": "18:30",
@@ -42752,6 +44493,24 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Les Schtroumpfs - Le dragon (2ème partie)",
                 "raw": "Les Schtroumpfs - Le dragon (2ème partie)"
               },
@@ -42759,11 +44518,6 @@
                 "index": 1,
                 "title": "Yok Yok - Il était une fois le cirque",
                 "raw": "Yok Yok - Il était une fois le cirque"
-              },
-              {
-                "index": 2,
-                "title": "Télétactica",
-                "raw": "Télétactica"
               },
               {
                 "index": 3,
@@ -42775,7 +44529,9 @@
                 "title": "Tom Sawyer - L'apparition d'un rival",
                 "raw": "Tom Sawyer - L'apparition d'un rival"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001463",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001463/recre-a2-emission-du-24-janvier-1983?rang=24"
           },
           {
             "time": "18:30",
@@ -43261,13 +45017,32 @@
           "segments": [
             {
               "index": 0,
-              "title": "Les aventures d'une souris sur Mars - Sur d'autres planètes",
-              "raw": "Les aventures d'une souris sur Mars - Sur d'autres planètes"
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
             },
             {
               "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Le Tour du monde en 80 jours",
+              "raw": "Le Tour du monde en 80 jours",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
+            },
+            {
+              "index": 0,
+              "title": "Les aventures d'une souris sur Mars - Sur d'autres planètes",
+              "raw": "Les aventures d'une souris sur Mars - Sur d'autres planètes"
             },
             {
               "index": 2,
@@ -43278,13 +45053,10 @@
               "index": 3,
               "title": "Tom Sawyer - De l'or, de l'or !",
               "raw": "Tom Sawyer - De l'or, de l'or !"
-            },
-            {
-              "index": 4,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91003363",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003363/recre-a2-emission-du-24-octobre-1983?rang=361"
         },
         {
           "time": "18:30",
@@ -43712,13 +45484,32 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Les aventures d'une souris sur Mars - Sur d'autres planètes",
-                "raw": "Les aventures d'une souris sur Mars - Sur d'autres planètes"
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
               },
               {
                 "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Le Tour du monde en 80 jours",
+                "raw": "Le Tour du monde en 80 jours",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
+              },
+              {
+                "index": 0,
+                "title": "Les aventures d'une souris sur Mars - Sur d'autres planètes",
+                "raw": "Les aventures d'une souris sur Mars - Sur d'autres planètes"
               },
               {
                 "index": 2,
@@ -43729,13 +45520,10 @@
                 "index": 3,
                 "title": "Tom Sawyer - De l'or, de l'or !",
                 "raw": "Tom Sawyer - De l'or, de l'or !"
-              },
-              {
-                "index": 4,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91003363",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003363/recre-a2-emission-du-24-octobre-1983?rang=361"
           },
           {
             "time": "18:30",
@@ -44185,6 +45973,36 @@
           "segments": [
             {
               "index": 0,
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Yok Yok",
+              "raw": "Yok Yok",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Il était une fois le cirque",
+              "raw": "Il était une fois le cirque",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "La bande à BéDé",
+              "raw": "La bande à BéDé",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 0,
               "title": "Pic, pic, pic - Le jardin potager",
               "raw": "Pic, pic, pic - Le jardin potager"
             },
@@ -44192,23 +46010,10 @@
               "index": 1,
               "title": "Yok Yok - Il était une fois le cirque",
               "raw": "Yok Yok - Il était une fois le cirque"
-            },
-            {
-              "index": 2,
-              "title": "La Bande à Bédé",
-              "raw": "La Bande à Bédé"
-            },
-            {
-              "index": 3,
-              "title": "Yok Yok",
-              "raw": "Yok Yok"
-            },
-            {
-              "index": 4,
-              "title": "C'est chouette",
-              "raw": "C'est chouette"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001471",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001471/recre-a2-emission-du-25-janvier-1983?rang=44"
         },
         {
           "time": "18:30",
@@ -44702,6 +46507,36 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Yok Yok",
+                "raw": "Yok Yok",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Il était une fois le cirque",
+                "raw": "Il était une fois le cirque",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "La bande à BéDé",
+                "raw": "La bande à BéDé",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 0,
                 "title": "Pic, pic, pic - Le jardin potager",
                 "raw": "Pic, pic, pic - Le jardin potager"
               },
@@ -44709,23 +46544,10 @@
                 "index": 1,
                 "title": "Yok Yok - Il était une fois le cirque",
                 "raw": "Yok Yok - Il était une fois le cirque"
-              },
-              {
-                "index": 2,
-                "title": "La Bande à Bédé",
-                "raw": "La Bande à Bédé"
-              },
-              {
-                "index": 3,
-                "title": "Yok Yok",
-                "raw": "Yok Yok"
-              },
-              {
-                "index": 4,
-                "title": "C'est chouette",
-                "raw": "C'est chouette"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001471",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001471/recre-a2-emission-du-25-janvier-1983?rang=44"
           },
           {
             "time": "18:30",
@@ -45268,24 +47090,51 @@
           ],
           "segments": [
             {
-              "index": 1,
+              "index": 0,
               "title": "Chapi Chapo",
-              "raw": "Chapi Chapo"
+              "raw": "Chapi Chapo",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Yves Duteil",
+              "raw": "Yves Duteil",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Méthanie",
+              "raw": "Méthanie",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Discopuce",
+              "raw": "Discopuce",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Maraboud'ficelle",
+              "raw": "Maraboud'ficelle",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
             },
             {
               "index": 2,
               "title": "Les petits malheurs",
               "raw": "Les petits malheurs"
-            },
-            {
-              "index": 3,
-              "title": "Discopuce",
-              "raw": "Discopuce"
-            },
-            {
-              "index": 4,
-              "title": "Maraboud'ficelle",
-              "raw": "Maraboud'ficelle"
             },
             {
               "index": 5,
@@ -45317,7 +47166,9 @@
               "title": "Heidi",
               "raw": "Heidi"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83050113",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050113/recre-a2-emission-du-26-janvier-1983?rang=449"
         },
         {
           "time": "17:10",
@@ -45862,24 +47713,51 @@
             ],
             "segments": [
               {
-                "index": 1,
+                "index": 0,
                 "title": "Chapi Chapo",
-                "raw": "Chapi Chapo"
+                "raw": "Chapi Chapo",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Yves Duteil",
+                "raw": "Yves Duteil",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Méthanie",
+                "raw": "Méthanie",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Discopuce",
+                "raw": "Discopuce",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Maraboud'ficelle",
+                "raw": "Maraboud'ficelle",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
               },
               {
                 "index": 2,
                 "title": "Les petits malheurs",
                 "raw": "Les petits malheurs"
-              },
-              {
-                "index": 3,
-                "title": "Discopuce",
-                "raw": "Discopuce"
-              },
-              {
-                "index": 4,
-                "title": "Maraboud'ficelle",
-                "raw": "Maraboud'ficelle"
               },
               {
                 "index": 5,
@@ -45911,7 +47789,9 @@
                 "title": "Heidi",
                 "raw": "Heidi"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83050113",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050113/recre-a2-emission-du-26-janvier-1983?rang=449"
           },
           {
             "time": "17:10",
@@ -46466,8 +48346,27 @@
           "segments": [
             {
               "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Harold LLOYD's",
+              "raw": "Harold LLOYD's",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
@@ -46478,13 +48377,10 @@
               "index": 2,
               "title": "Harold Lloyd",
               "raw": "Harold Lloyd"
-            },
-            {
-              "index": 3,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83053604",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053604/recre-a2-emission-du-26-novembre-1983?rang=334"
         },
         {
           "time": "17:50",
@@ -47057,8 +48953,27 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Harold LLOYD's",
+                "raw": "Harold LLOYD's",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
@@ -47069,13 +48984,10 @@
                 "index": 2,
                 "title": "Harold Lloyd",
                 "raw": "Harold Lloyd"
-              },
-              {
-                "index": 3,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83053604",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83053604/recre-a2-emission-du-26-novembre-1983?rang=334"
           },
           {
             "time": "17:50",
@@ -47650,8 +49562,33 @@
           "segments": [
             {
               "index": 0,
+              "title": "Princesse insensible",
+              "raw": "Princesse insensible",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 2,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
@@ -47659,21 +49596,13 @@
               "raw": "La princesse insensible - Le prince sourcier"
             },
             {
-              "index": 2,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            },
-            {
               "index": 3,
               "title": "Tom Sawyer - Le drame",
               "raw": "Tom Sawyer - Le drame"
-            },
-            {
-              "index": 4,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83057821",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057821/recre-a2-emission-du-26-decembre-1983?rang=341"
         },
         {
           "time": "18:30",
@@ -48243,8 +50172,33 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Princesse insensible",
+                "raw": "Princesse insensible",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 2,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
@@ -48252,21 +50206,13 @@
                 "raw": "La princesse insensible - Le prince sourcier"
               },
               {
-                "index": 2,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              },
-              {
                 "index": 3,
                 "title": "Tom Sawyer - Le drame",
                 "raw": "Tom Sawyer - Le drame"
-              },
-              {
-                "index": 4,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83057821",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83057821/recre-a2-emission-du-26-decembre-1983?rang=341"
           },
           {
             "time": "18:30",
@@ -48764,26 +50710,43 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Mio and Mao",
+              "raw": "Mio and Mao",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Mio Mao",
-              "raw": "Mio Mao"
+              "title": "Yok Yok",
+              "raw": "Yok Yok",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Pic, pic, pic",
-              "raw": "Pic, pic, pic"
+              "title": "Pic pic pic",
+              "raw": "Pic pic pic",
+              "source": "ina"
             },
             {
               "index": 3,
               "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
             },
             {
               "index": 4,
               "title": "Candy",
-              "raw": "Candy"
+              "raw": "Candy",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Mio Mao",
+              "raw": "Mio Mao"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001480",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001480/recre-a2-emission-du-27-janvier-1983?rang=45"
         },
         {
           "time": "18:30",
@@ -49255,26 +51218,43 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Mio and Mao",
+                "raw": "Mio and Mao",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Mio Mao",
-                "raw": "Mio Mao"
+                "title": "Yok Yok",
+                "raw": "Yok Yok",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Pic, pic, pic",
-                "raw": "Pic, pic, pic"
+                "title": "Pic pic pic",
+                "raw": "Pic pic pic",
+                "source": "ina"
               },
               {
                 "index": 3,
                 "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
               },
               {
                 "index": 4,
                 "title": "Candy",
-                "raw": "Candy"
+                "raw": "Candy",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Mio Mao",
+                "raw": "Mio Mao"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001480",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001480/recre-a2-emission-du-27-janvier-1983?rang=45"
           },
           {
             "time": "18:30",
@@ -50723,6 +52703,24 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Télétactica",
+              "raw": "Télétactica",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Dessin animé",
+              "raw": "Dessin animé",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Légendes indiennes",
+              "raw": "Légendes indiennes",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Chapi Chapo - l'avion",
               "raw": "Chapi Chapo - l'avion"
@@ -50742,7 +52740,9 @@
               "title": "Légendes indiennes du Canada - La boîte magique",
               "raw": "Légendes indiennes du Canada - La boîte magique"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83050124",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050124/recre-a2-emission-du-28-janvier-1983?rang=31"
         },
         {
           "time": "18:30",
@@ -51232,6 +53232,24 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Télétactica",
+                "raw": "Télétactica",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Dessin animé",
+                "raw": "Dessin animé",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Légendes indiennes",
+                "raw": "Légendes indiennes",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Chapi Chapo - l'avion",
                 "raw": "Chapi Chapo - l'avion"
@@ -51251,7 +53269,9 @@
                 "title": "Légendes indiennes du Canada - La boîte magique",
                 "raw": "Légendes indiennes du Canada - La boîte magique"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83050124",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83050124/recre-a2-emission-du-28-janvier-1983?rang=31"
           },
           {
             "time": "18:30",
@@ -51778,26 +53798,32 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
               "index": 1,
-              "title": "Les quat'z'amis",
-              "raw": "Les quat'z'amis"
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
             },
             {
               "index": 2,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
+              "title": "Latulu et Lireli",
+              "raw": "Latulu et Lireli",
+              "source": "ina"
             },
             {
               "index": 3,
-              "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
-            },
-            {
-              "index": 4,
               "title": "Tom Sawyer",
-              "raw": "Tom Sawyer"
+              "raw": "Tom Sawyer",
+              "source": "ina"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91001671",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001671/recre-a2-emission-du-28-fevrier-1983?rang=57"
         },
         {
           "time": "18:30",
@@ -52375,26 +54401,32 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
                 "index": 1,
-                "title": "Les quat'z'amis",
-                "raw": "Les quat'z'amis"
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
               },
               {
                 "index": 2,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
+                "title": "Latulu et Lireli",
+                "raw": "Latulu et Lireli",
+                "source": "ina"
               },
               {
                 "index": 3,
-                "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
-              },
-              {
-                "index": 4,
                 "title": "Tom Sawyer",
-                "raw": "Tom Sawyer"
+                "raw": "Tom Sawyer",
+                "source": "ina"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91001671",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91001671/recre-a2-emission-du-28-fevrier-1983?rang=57"
           },
           {
             "time": "18:30",
@@ -53761,8 +55793,27 @@
           "segments": [
             {
               "index": 0,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 1,
@@ -53778,13 +55829,10 @@
               "index": 3,
               "title": "Tom Sawyer - L'homme qui venait du ciel",
               "raw": "Tom Sawyer - L'homme qui venait du ciel"
-            },
-            {
-              "index": 4,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB91003625",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003625/recre-a2-emission-du-28-novembre-1983?rang=299"
         },
         {
           "time": "18:30",
@@ -54235,8 +56283,27 @@
             "segments": [
               {
                 "index": 0,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 1,
@@ -54252,13 +56319,10 @@
                 "index": 3,
                 "title": "Tom Sawyer - L'homme qui venait du ciel",
                 "raw": "Tom Sawyer - L'homme qui venait du ciel"
-              },
-              {
-                "index": 4,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB91003625",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB91003625/recre-a2-emission-du-28-novembre-1983?rang=299"
           },
           {
             "time": "18:30",
@@ -54818,13 +56882,51 @@
           "segments": [
             {
               "index": 0,
-              "title": "Mes mains ont la parole",
-              "raw": "Mes mains ont la parole"
+              "title": "Papivole",
+              "raw": "Papivole",
+              "source": "ina"
             },
             {
               "index": 1,
+              "title": "Mes mains ont la parole",
+              "raw": "Mes mains ont la parole",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "La princesse insensible",
+              "raw": "La princesse insensible",
+              "source": "ina"
+            },
+            {
+              "index": 3,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Robinson Crusoé",
+              "raw": "Robinson Crusoé",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Jane de la jungle",
+              "raw": "Jane de la jungle",
+              "source": "ina"
+            },
+            {
+              "index": 6,
+              "title": "C'est chouette",
+              "raw": "C'est chouette",
+              "source": "ina"
+            },
+            {
+              "index": 7,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -54837,26 +56939,13 @@
               "raw": "La princesse insensible - Le prince peintre"
             },
             {
-              "index": 4,
-              "title": "Robinson Crusoë",
-              "raw": "Robinson Crusoë"
-            },
-            {
               "index": 5,
               "title": "Jane de la jungle - Soupçons",
               "raw": "Jane de la jungle - Soupçons"
-            },
-            {
-              "index": 6,
-              "title": "C'est chouette",
-              "raw": "C'est chouette"
-            },
-            {
-              "index": 7,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB83051576",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051576/recre-a2-emission-du-29-decembre-1983?rang=221"
         },
         {
           "time": "18:30",
@@ -55571,13 +57660,51 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Mes mains ont la parole",
-                "raw": "Mes mains ont la parole"
+                "title": "Papivole",
+                "raw": "Papivole",
+                "source": "ina"
               },
               {
                 "index": 1,
+                "title": "Mes mains ont la parole",
+                "raw": "Mes mains ont la parole",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "La princesse insensible",
+                "raw": "La princesse insensible",
+                "source": "ina"
+              },
+              {
+                "index": 3,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Robinson Crusoé",
+                "raw": "Robinson Crusoé",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Jane de la jungle",
+                "raw": "Jane de la jungle",
+                "source": "ina"
+              },
+              {
+                "index": 6,
+                "title": "C'est chouette",
+                "raw": "C'est chouette",
+                "source": "ina"
+              },
+              {
+                "index": 7,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -55590,26 +57717,13 @@
                 "raw": "La princesse insensible - Le prince peintre"
               },
               {
-                "index": 4,
-                "title": "Robinson Crusoë",
-                "raw": "Robinson Crusoë"
-              },
-              {
                 "index": 5,
                 "title": "Jane de la jungle - Soupçons",
                 "raw": "Jane de la jungle - Soupçons"
-              },
-              {
-                "index": 6,
-                "title": "C'est chouette",
-                "raw": "C'est chouette"
-              },
-              {
-                "index": 7,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB83051576",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB83051576/recre-a2-emission-du-29-decembre-1983?rang=221"
           },
           {
             "time": "18:30",
@@ -56295,9 +58409,40 @@
           ],
           "segments": [
             {
+              "index": 0,
+              "title": "La princesse insensible",
+              "raw": "La princesse insensible",
+              "source": "ina"
+            },
+            {
               "index": 1,
               "title": "Latulu et Lireli",
-              "raw": "Latulu et Lireli"
+              "raw": "Latulu et Lireli",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Dessin animé",
+              "raw": "Dessin animé",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Silas",
+              "raw": "Silas",
+              "source": "ina"
+            },
+            {
+              "index": 4,
+              "title": "Harold LLyod's",
+              "raw": "Harold LLyod's",
+              "source": "ina"
+            },
+            {
+              "index": 5,
+              "title": "Téléchat",
+              "raw": "Téléchat",
+              "source": "ina"
             },
             {
               "index": 2,
@@ -56310,21 +58455,13 @@
               "raw": "Le petit renne courageux"
             },
             {
-              "index": 4,
-              "title": "Silas",
-              "raw": "Silas"
-            },
-            {
               "index": 5,
               "title": "Harold Lloyd",
               "raw": "Harold Lloyd"
-            },
-            {
-              "index": 6,
-              "title": "Téléchat",
-              "raw": "Téléchat"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB94000502",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000502/recre-a2-emission-du-30-decembre-1983?rang=343"
         },
         {
           "time": "18:30",
@@ -56884,9 +59021,40 @@
             ],
             "segments": [
               {
+                "index": 0,
+                "title": "La princesse insensible",
+                "raw": "La princesse insensible",
+                "source": "ina"
+              },
+              {
                 "index": 1,
                 "title": "Latulu et Lireli",
-                "raw": "Latulu et Lireli"
+                "raw": "Latulu et Lireli",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Dessin animé",
+                "raw": "Dessin animé",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Silas",
+                "raw": "Silas",
+                "source": "ina"
+              },
+              {
+                "index": 4,
+                "title": "Harold LLyod's",
+                "raw": "Harold LLyod's",
+                "source": "ina"
+              },
+              {
+                "index": 5,
+                "title": "Téléchat",
+                "raw": "Téléchat",
+                "source": "ina"
               },
               {
                 "index": 2,
@@ -56899,21 +59067,13 @@
                 "raw": "Le petit renne courageux"
               },
               {
-                "index": 4,
-                "title": "Silas",
-                "raw": "Silas"
-              },
-              {
                 "index": 5,
                 "title": "Harold Lloyd",
                 "raw": "Harold Lloyd"
-              },
-              {
-                "index": 6,
-                "title": "Téléchat",
-                "raw": "Téléchat"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB94000502",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB94000502/recre-a2-emission-du-30-decembre-1983?rang=343"
           },
           {
             "time": "18:30",
@@ -57374,8 +59534,27 @@
           "segments": [
             {
               "index": 0,
-              "title": "Les Quat'z'amis",
-              "raw": "Les Quat'z'amis"
+              "title": "Les Quat'z Amis",
+              "raw": "Les Quat'z Amis",
+              "source": "ina"
+            },
+            {
+              "index": 1,
+              "title": "Tableau célèbre",
+              "raw": "Tableau célèbre",
+              "source": "ina"
+            },
+            {
+              "index": 2,
+              "title": "Les Schtroumpfs",
+              "raw": "Les Schtroumpfs",
+              "source": "ina"
+            },
+            {
+              "index": 3,
+              "title": "Tom Sawyer",
+              "raw": "Tom Sawyer",
+              "source": "ina"
             },
             {
               "index": 1,
@@ -57383,16 +59562,13 @@
               "raw": "Tableaux célèbres"
             },
             {
-              "index": 2,
-              "title": "Les Schtroumpfs",
-              "raw": "Les Schtroumpfs"
-            },
-            {
               "index": 3,
               "title": "Tom Sawyer - Le bateau à vapeur",
               "raw": "Tom Sawyer - Le bateau à vapeur"
             }
-          ]
+          ],
+          "ina_notice": "DA_CPB85106816",
+          "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106816/recre-a2-emission-du-31-janvier-1983?rang=121"
         },
         {
           "time": "18:30",
@@ -57882,8 +60058,27 @@
             "segments": [
               {
                 "index": 0,
-                "title": "Les Quat'z'amis",
-                "raw": "Les Quat'z'amis"
+                "title": "Les Quat'z Amis",
+                "raw": "Les Quat'z Amis",
+                "source": "ina"
+              },
+              {
+                "index": 1,
+                "title": "Tableau célèbre",
+                "raw": "Tableau célèbre",
+                "source": "ina"
+              },
+              {
+                "index": 2,
+                "title": "Les Schtroumpfs",
+                "raw": "Les Schtroumpfs",
+                "source": "ina"
+              },
+              {
+                "index": 3,
+                "title": "Tom Sawyer",
+                "raw": "Tom Sawyer",
+                "source": "ina"
               },
               {
                 "index": 1,
@@ -57891,16 +60086,13 @@
                 "raw": "Tableaux célèbres"
               },
               {
-                "index": 2,
-                "title": "Les Schtroumpfs",
-                "raw": "Les Schtroumpfs"
-              },
-              {
                 "index": 3,
                 "title": "Tom Sawyer - Le bateau à vapeur",
                 "raw": "Tom Sawyer - Le bateau à vapeur"
               }
-            ]
+            ],
+            "ina_notice": "DA_CPB85106816",
+            "ina_url": "https://catalogue.ina.fr/doc/TV-RADIO/DA_CPB85106816/recre-a2-emission-du-31-janvier-1983?rang=121"
           },
           {
             "time": "18:30",
