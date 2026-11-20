@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TV Rétro · Routage des chaînes</title>
+<title>TV Rétro · Doublons &amp; routage des chaînes</title>
 <meta name="color-scheme" content="dark">
 <style>
 [hidden]{display:none!important}
 :root{--bg:#07060b;--surf:#12111c;--surf2:#1a1826;--over:#232032;--line:#2e2a40;--line2:#4a4266;
 --txt:#f4f0fc;--soft:#c3bad9;--muted:#948ab0;
---tf1:#2f6bff;--a2:#ff3b47;--fr3:#2fd07a;--canal:#f4f1ea;--cinq:#a855f7;--m6:#ff2d95;--sept:#22d3ee;--amber:#ffb020;--gold:#e8c66a;
+--tf1:#2f6bff;--a2:#ff3b47;--fr3:#2fd07a;--canal:#f4f1ea;--cinq:#a855f7;--m6:#ff2d95;--dup:#ff8a1f;--sept:#22d3ee;--gold:#e8c66a;
 --ok:#2fd07a;--warn:#ffb020;--bad:#ff3b47;--info:#22d3ee;
 --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;--disp:"Bebas Neue","Space Grotesk",Impact,sans-serif;
 --r:13px;--sh:0 16px 40px rgba(0,0,0,.5);--hh:58px}
@@ -19,16 +19,16 @@ body{background:var(--bg);color:var(--txt);font:14.5px/1.55 Inter,system-ui,-app
 body.compact{font-size:13.2px}
 h1,h2,h3,h4{margin:0;letter-spacing:-.01em}
 code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px solid var(--line);padding:1px 5px;border-radius:5px;color:var(--gold)}
-::selection{background:var(--m6);color:#fff}
+::selection{background:var(--dup);color:#160b02}
 *{scrollbar-width:thin;scrollbar-color:var(--line2) rgba(255,255,255,.05)}
 ::-webkit-scrollbar{width:12px;height:12px}
 ::-webkit-scrollbar-track{background:rgba(255,255,255,.05);border-radius:99px}
-::-webkit-scrollbar-thumb{background:linear-gradient(var(--cinq),var(--m6));border-radius:99px;border:3px solid var(--bg)}
-::-webkit-scrollbar-thumb:hover{background:linear-gradient(var(--m6),var(--amber))}
+::-webkit-scrollbar-thumb{background:linear-gradient(var(--dup),var(--m6));border-radius:99px;border:3px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:linear-gradient(var(--m6),var(--gold))}
 ::-webkit-scrollbar-corner{background:rgba(255,255,255,.05)}
 .bg{position:fixed;inset:0;z-index:0;pointer-events:none;overflow:hidden}
 .halo{position:absolute;border-radius:50%;filter:blur(110px);opacity:.24;animation:drift 34s ease-in-out infinite alternate}
-.h1{width:52vw;height:52vw;left:-14vw;top:-18vw;background:radial-gradient(circle,var(--cinq),transparent 66%)}
+.h1{width:52vw;height:52vw;left:-14vw;top:-18vw;background:radial-gradient(circle,var(--dup),transparent 66%)}
 .h2{width:46vw;height:46vw;right:-12vw;top:26vh;background:radial-gradient(circle,var(--m6),transparent 66%);animation-delay:-12s}
 .h3{width:38vw;height:38vw;left:34vw;bottom:-16vw;background:radial-gradient(circle,var(--tf1),transparent 68%);opacity:.18;animation-delay:-22s}
 @keyframes drift{to{transform:translate3d(5vw,-4vh,0) scale(1.12)}}
@@ -36,89 +36,93 @@ code{font-family:var(--mono);font-size:.84em;background:var(--over);border:1px s
 .grain{position:absolute;inset:-45%;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");animation:gr 7s steps(6) infinite}
 @keyframes gr{0%,100%{transform:translate(0,0)}25%{transform:translate(-3%,2%)}50%{transform:translate(2%,-3%)}75%{transform:translate(-2%,-2%)}}
 .head{position:sticky;top:0;z-index:40;display:flex;align-items:center;gap:.7rem;padding:.55rem clamp(.7rem,2.5vw,1.6rem);background:rgba(7,6,11,.95);backdrop-filter:blur(16px);border-bottom:1px solid var(--line);min-height:var(--hh)}
-.head::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,var(--tf1),var(--a2),var(--fr3),var(--canal),var(--cinq),var(--m6))}
+.head::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;background:linear-gradient(90deg,var(--tf1),var(--a2),var(--fr3),var(--canal),var(--cinq),var(--m6),var(--dup))}
 .brand{display:flex;align-items:center;gap:.65rem;min-width:0;flex:1}
 .bars{display:flex;gap:2px;align-items:flex-end;height:24px;flex:0 0 auto}
 .bars i{width:4px;border-radius:2px 2px 0 0;animation:eq 1.5s ease-in-out infinite alternate}
-.bars i:nth-child(1){height:40%;background:var(--tf1)}.bars i:nth-child(2){height:75%;background:var(--a2);animation-delay:.15s}
-.bars i:nth-child(3){height:55%;background:var(--fr3);animation-delay:.3s}.bars i:nth-child(4){height:95%;background:var(--canal);animation-delay:.45s}
-.bars i:nth-child(5){height:65%;background:var(--cinq);animation-delay:.6s}.bars i:nth-child(6){height:85%;background:var(--m6);animation-delay:.75s}
+.bars i:nth-child(1){height:40%;background:var(--tf1)}.bars i:nth-child(2){height:75%;background:var(--a2);animation-delay:.12s}
+.bars i:nth-child(3){height:55%;background:var(--fr3);animation-delay:.24s}.bars i:nth-child(4){height:95%;background:var(--canal);animation-delay:.36s}
+.bars i:nth-child(5){height:65%;background:var(--cinq);animation-delay:.48s}.bars i:nth-child(6){height:85%;background:var(--m6);animation-delay:.6s}
+.bars i:nth-child(7){height:50%;background:var(--dup);animation-delay:.72s}
 @keyframes eq{to{height:22%}}
 .brand .tx{min-width:0}
-.brand h1{font-family:var(--disp);font-size:clamp(1.1rem,2.4vw,1.6rem);letter-spacing:.04em;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.brand h1 em{font-style:normal;color:var(--m6)}
+.brand h1{font-family:var(--disp);font-size:clamp(1.05rem,2.3vw,1.55rem);letter-spacing:.04em;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand h1 em{font-style:normal;color:var(--dup)}
 .brand p{margin:.1rem 0 0;font-size:.68rem;color:var(--muted);font-family:var(--mono);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .head-right{display:flex;gap:.32rem;align-items:center;flex:0 0 auto}
 .pill{font-size:.6rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;padding:.26rem .55rem;border-radius:99px;border:1px solid var(--line2);background:var(--over);color:var(--soft);white-space:nowrap}
 .pill.ok{border-color:var(--ok);color:var(--ok);background:rgba(47,208,122,.12)}
 .pill.warn{border-color:var(--warn);color:var(--warn);background:rgba(255,176,32,.12)}
 .pill.bad{border-color:var(--bad);color:var(--bad);background:rgba(255,59,71,.12)}
-.wrap{position:relative;z-index:1;max-width:1600px;margin:0 auto;padding:.9rem clamp(.7rem,2.5vw,1.6rem) 4rem}
+.pill.dup{border-color:var(--dup);color:var(--dup);background:rgba(255,138,31,.14)}
+.wrap{position:relative;z-index:1;max-width:1620px;margin:0 auto;padding:.9rem clamp(.7rem,2.5vw,1.6rem) 4rem}
 .fatal{border:1px solid var(--bad);background:rgba(255,59,71,.12);border-radius:var(--r);padding:.7rem .85rem;margin-bottom:.8rem}
 .fatal b{display:block;color:var(--bad);font-size:.82rem;margin-bottom:.3rem}
 .fatal pre{margin:.3rem 0;font-family:var(--mono);font-size:.72rem;color:var(--soft);white-space:pre-wrap;word-break:break-word;max-height:150px;overflow:auto}
 .fatal .row{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:.4rem}
 .intro{border:1px solid var(--line2);border-radius:var(--r);overflow:hidden;margin-bottom:.8rem;background:var(--surf);box-shadow:var(--sh)}
-.intro>header{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.6rem .8rem;background:linear-gradient(120deg,rgba(168,85,247,.2),rgba(255,45,149,.12),rgba(47,107,255,.08));border-bottom:1px solid var(--line)}
-.intro>header h2{font-family:var(--disp);font-size:1.25rem;letter-spacing:.03em}
+.intro>header{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;padding:.6rem .8rem;background:linear-gradient(120deg,rgba(255,138,31,.22),rgba(255,45,149,.13),rgba(47,107,255,.08));border-bottom:1px solid var(--line)}
+.intro>header h2{font-family:var(--disp);font-size:1.22rem;letter-spacing:.03em}
 .intro .in{padding:.7rem .8rem;font-size:.85rem;color:var(--soft)}
 .intro .in b{color:var(--txt)}
-.intro .in ol{margin:.4rem 0 0;padding-left:1.2rem}
-.intro .in li{margin:.2rem 0}
-.next{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;border:1px solid var(--m6);border-radius:var(--r);padding:.8rem .95rem;margin-bottom:.8rem;background:linear-gradient(120deg,rgba(168,85,247,.18),rgba(255,45,149,.11) 60%,rgba(47,107,255,.08));box-shadow:var(--sh)}
+.intro .in ul,.intro .in ol{margin:.35rem 0 0;padding-left:1.15rem}
+.intro .in li{margin:.22rem 0}
+.next{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;border:1px solid var(--dup);border-radius:var(--r);padding:.8rem .95rem;margin-bottom:.8rem;background:linear-gradient(120deg,rgba(255,138,31,.2),rgba(255,45,149,.11) 60%,rgba(47,107,255,.08));box-shadow:var(--sh)}
 .next.calm{border-color:rgba(47,208,122,.5);background:linear-gradient(120deg,rgba(47,208,122,.15),rgba(34,211,238,.08))}
 .next .ico{font-size:1.5rem;line-height:1;flex:0 0 auto}
 .next .tx{flex:1;min-width:200px}
-.next .tx b{display:block;font-family:var(--disp);font-size:1.18rem;letter-spacing:.03em}
+.next .tx b{display:block;font-family:var(--disp);font-size:1.16rem;letter-spacing:.03em}
 .next .tx p{margin:.15rem 0 0;font-size:.82rem;color:var(--soft)}
 .next .tx small{display:block;margin-top:.2rem;font-size:.72rem;color:var(--muted)}
 .note{border:1px solid var(--warn);background:rgba(255,176,32,.08);color:var(--warn);border-radius:var(--r);padding:.6rem .8rem;font-size:.82rem;margin-bottom:.8rem}
 .note b{color:var(--txt)}
-.rail{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:.4rem;margin-bottom:.8rem}
+.rail{display:grid;grid-template-columns:repeat(auto-fit,minmax(164px,1fr));gap:.4rem;margin-bottom:.8rem}
 .step{display:flex;gap:.42rem;align-items:flex-start;border:1px solid var(--line);background:var(--surf);border-radius:11px;padding:.42rem .52rem;cursor:pointer;text-align:left;font:inherit;color:var(--soft);transition:.16s;min-width:0}
-.step:hover{border-color:var(--m6);transform:translateY(-1px)}
+.step:hover{border-color:var(--dup);transform:translateY(-1px)}
 .step .no{width:21px;height:21px;flex:0 0 auto;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-size:.7rem;font-weight:800;background:var(--over);border:1px solid var(--line2);color:var(--muted)}
 .step .lb{min-width:0}
-.step .lb b{display:block;font-size:.75rem;font-weight:700;color:var(--txt);line-height:1.22}
-.step .lb small{display:block;font-size:.64rem;color:var(--muted);line-height:1.28}
+.step .lb b{display:block;font-size:.74rem;font-weight:700;color:var(--txt);line-height:1.22}
+.step .lb small{display:block;font-size:.63rem;color:var(--muted);line-height:1.28}
 .step.done{border-color:rgba(47,208,122,.45);background:rgba(47,208,122,.07)}
 .step.done .no{background:var(--ok);border-color:var(--ok);color:#06210f}
-.step.current{border-color:var(--m6);background:linear-gradient(120deg,rgba(168,85,247,.18),rgba(255,45,149,.12))}
-.step.current .no{background:linear-gradient(120deg,var(--cinq),var(--m6));border-color:transparent;color:#fff}
-.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:.45rem;margin-bottom:.8rem}
-.kpi{position:relative;overflow:hidden;background:var(--surf);border:1px solid var(--line);border-radius:var(--r);padding:.55rem .72rem;min-width:0}
+.step.current{border-color:var(--dup);background:linear-gradient(120deg,rgba(255,138,31,.2),rgba(255,45,149,.12))}
+.step.current .no{background:linear-gradient(120deg,var(--dup),var(--m6));border-color:transparent;color:#180a02}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:.45rem;margin-bottom:.8rem}
+.kpi{position:relative;overflow:hidden;background:var(--surf);border:1px solid var(--line);border-radius:var(--r);padding:.55rem .7rem;min-width:0}
 .kpi::before{content:"";position:absolute;inset:0 auto 0 0;width:3px}
-.k1::before{background:var(--tf1)}.k2::before{background:var(--cinq)}.k3::before{background:var(--m6)}.k4::before{background:var(--bad)}.k5::before{background:var(--warn)}.k6::before{background:var(--ok)}.k7::before{background:var(--info)}
-.kpi b{display:block;font-family:var(--mono);font-size:1.16rem}
-.kpi span{font-size:.58rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.k1::before{background:var(--tf1)}.k2::before{background:var(--cinq)}.k3::before{background:var(--m6)}.k4::before{background:var(--bad)}
+.k5::before{background:var(--dup)}.k6::before{background:var(--warn)}.k7::before{background:var(--ok)}.k8::before{background:var(--info)}
+.kpi b{display:block;font-family:var(--mono);font-size:1.14rem}
+.kpi span{font-size:.57rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .bar{display:flex;gap:.45rem;flex-wrap:wrap;align-items:flex-end;background:var(--surf);border:1px solid var(--line);border-radius:var(--r);padding:.65rem;box-shadow:var(--sh);margin-bottom:.55rem}
-.f{display:flex;flex-direction:column;gap:.18rem;min-width:100px}
-.f.grow{flex:1 1 190px;min-width:170px}.f.btns{flex-direction:row;gap:.28rem;min-width:auto;align-items:flex-end;flex-wrap:wrap}
-.f label{font-size:.57rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.f{display:flex;flex-direction:column;gap:.18rem;min-width:98px}
+.f.grow{flex:1 1 186px;min-width:166px}.f.btns{flex-direction:row;gap:.28rem;min-width:auto;align-items:flex-end;flex-wrap:wrap}
+.f label{font-size:.56rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
 input,select{font:inherit;font-size:.83rem;padding:.4rem .52rem;border:1px solid var(--line2);border-radius:8px;background:var(--bg);color:var(--txt);width:100%;min-width:0}
-input:focus,select:focus{outline:none;border-color:var(--m6);box-shadow:0 0 0 3px rgba(255,45,149,.2)}
-input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;background:transparent}
+input:focus,select:focus{outline:none;border-color:var(--dup);box-shadow:0 0 0 3px rgba(255,138,31,.22)}
+input[type=range]{padding:0;height:22px;accent-color:var(--dup);border:0;background:transparent}
 .btn{font:inherit;font-weight:700;font-size:.8rem;border:1px solid var(--line2);background:var(--over);color:var(--txt);border-radius:8px;padding:.42rem .7rem;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:.28rem;transition:.15s;white-space:nowrap}
-.btn:hover:not(:disabled){border-color:var(--m6);transform:translateY(-1px)}
+.btn:hover:not(:disabled){border-color:var(--dup);transform:translateY(-1px)}
 .btn:disabled{opacity:.4;cursor:not-allowed}
 .btn.small{padding:.32rem .52rem;font-size:.74rem}
 .btn.ghost{background:transparent}
-.btn.primary{background:linear-gradient(120deg,var(--cinq),var(--m6));border-color:transparent;color:#fff}
+.btn.primary{background:linear-gradient(120deg,var(--dup),var(--m6));border-color:transparent;color:#180a02}
 .btn.good{background:linear-gradient(120deg,var(--ok),var(--info));border-color:transparent;color:#05221a}
 .btn.danger{color:var(--bad);border-color:rgba(255,59,71,.5)}
 .btn.danger:hover:not(:disabled){background:rgba(255,59,71,.14);border-color:var(--bad)}
 .mini{border:1px solid var(--line2);background:transparent;color:var(--soft);border-radius:7px;padding:.2rem .46rem;font:inherit;font-size:.68rem;font-weight:700;cursor:pointer;white-space:nowrap}
-.mini:hover{border-color:var(--m6);color:var(--m6)}
+.mini:hover{border-color:var(--dup);color:var(--dup)}
+.mini.good:hover{border-color:var(--ok);color:var(--ok)}
 .mini.danger:hover{border-color:var(--bad);color:var(--bad)}
 .help{width:20px;height:20px;border-radius:50%;border:1px solid var(--line2);background:transparent;color:var(--muted);font:inherit;font-size:.66rem;font-weight:800;cursor:pointer;flex:0 0 auto}
 .help:hover{border-color:var(--info);color:var(--info)}
 .icon{width:31px;height:31px;flex:0 0 auto;border-radius:50%;border:1px solid var(--line2);background:var(--over);color:var(--soft);cursor:pointer;font-size:.88rem}
 .icon:hover{border-color:var(--bad);color:var(--bad)}
 .chk{display:inline-flex;align-items:center;gap:.32rem;font-size:.71rem;color:var(--soft);cursor:pointer;white-space:nowrap}
-.chk input{width:15px;height:15px;accent-color:var(--m6);flex:0 0 auto}
+.chk input{width:15px;height:15px;accent-color:var(--dup);flex:0 0 auto}
 .chk.box{align-self:center;padding:.26rem .46rem;border:1px dashed var(--line2);border-radius:8px}
 .order{display:flex;gap:.32rem;align-items:center;flex-wrap:wrap;background:var(--surf);border:1px solid var(--line);border-radius:var(--r);padding:.45rem .65rem;margin-bottom:.55rem}
-.order .lb{font-size:.57rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-right:.15rem}
+.order .lb{font-size:.56rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-right:.15rem}
 .ochip{display:inline-flex;align-items:center;gap:.26rem;border-radius:8px;padding:.18rem .42rem;font-size:.68rem;font-weight:800;cursor:grab;border:1px solid transparent;color:#0a0810}
 .ochip.drag{opacity:.35;border-style:dashed;border-color:var(--txt)}
 .ochip.over{outline:2px solid var(--gold);outline-offset:2px}
@@ -127,17 +131,41 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 .vchip:hover{border-color:var(--gold);color:var(--gold)}
 .vchip i{font-style:normal;color:var(--bad);font-weight:900}
 .panel{background:var(--surf);border:1px solid var(--line);border-radius:var(--r);margin-bottom:.7rem;box-shadow:var(--sh);scroll-margin-top:calc(var(--hh) + 12px);min-width:0}
+.panel.hot{border-color:rgba(255,138,31,.55)}
 .panel>header{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;padding:.5rem .7rem;background:var(--surf2);border-bottom:1px solid var(--line);border-radius:var(--r) var(--r) 0 0}
+.panel.hot>header{background:linear-gradient(120deg,rgba(255,138,31,.18),rgba(255,45,149,.09))}
 .panel>header strong{font-size:.67rem;letter-spacing:.09em;text-transform:uppercase;color:var(--gold)}
+.panel.hot>header strong{color:var(--dup)}
 .panel .sub{padding:.42rem .7rem;font-size:.75rem;color:var(--muted);border-bottom:1px dashed var(--line)}
 .panel.folded .pbody,.panel.folded .sub,.panel.folded .scrollx{display:none}
 .sp{flex:1}
 .cnt{font-family:var(--mono);font-size:.68rem;font-weight:800;background:var(--m6);color:#fff;border-radius:99px;padding:.04rem .46rem}
-.pbody{padding:.55rem .7rem;display:flex;flex-direction:column;gap:.32rem;max-height:min(46vh,420px);overflow:auto}
+.cnt.dup{background:var(--dup);color:#180a02}
+.pbody{padding:.55rem .7rem;display:flex;flex-direction:column;gap:.42rem;max-height:min(56vh,540px);overflow:auto}
 .scrollx{overflow-x:auto;padding:.55rem .7rem}
 .scrollx .inner{display:flex;flex-direction:column;gap:.32rem;min-width:600px;max-height:min(46vh,420px);overflow-y:auto;padding-right:.2rem}
+.dupgrp{border:1px solid var(--line);border-left:3px solid var(--dup);border-radius:11px;background:var(--surf2);overflow:hidden}
+.dupgrp.resolved{border-left-color:var(--ok);opacity:.82}
+.dupgrp.legit{border-left-color:var(--info);opacity:.82}
+.dupgrp>header{display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;padding:.42rem .6rem;border-bottom:1px solid var(--line);background:rgba(255,255,255,.02)}
+.dupgrp>header b{font-size:.85rem}
+.dupgrp>header .meta{font-size:.7rem;color:var(--muted);font-family:var(--mono)}
+.occs{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:.4rem;padding:.5rem .6rem}
+.occ{border:1px solid var(--line);border-radius:9px;padding:.45rem .55rem;background:var(--surf);min-width:0;display:flex;flex-direction:column;gap:.3rem}
+.occ.keep{border-color:var(--ok);box-shadow:0 0 0 2px rgba(47,208,122,.16)}
+.occ.drop{border-color:rgba(255,59,71,.45)}
+.occ.hidden-o{opacity:.55}
+.occ .top{display:flex;align-items:center;gap:.35rem;flex-wrap:wrap}
+.occ .t{font-family:var(--mono);font-weight:800;color:var(--gold);font-size:.85rem}
+.occ .raw{font-family:var(--mono);font-size:.7rem;color:var(--soft);word-break:break-word}
+.occ .why{font-size:.7rem;color:var(--muted);line-height:1.35}
+.occ .score{display:flex;align-items:center;gap:.3rem;font-family:var(--mono);font-size:.7rem}
+.occ .bar2{flex:1;height:5px;border-radius:99px;background:var(--over);overflow:hidden;min-width:36px}
+.occ .bar2 i{display:block;height:100%;background:linear-gradient(90deg,var(--bad),var(--warn),var(--ok))}
+.occ .acts{display:flex;gap:.25rem;flex-wrap:wrap}
+.dupfoot{display:flex;gap:.3rem;flex-wrap:wrap;padding:0 .6rem .55rem}
 .issue{display:flex;gap:.45rem;align-items:flex-start;background:var(--surf2);border:1px solid var(--line);border-left:3px solid var(--line2);border-radius:9px;padding:.42rem .55rem;font-size:.79rem;min-width:0}
-.issue.bad{border-left-color:var(--bad)}.issue.warn{border-left-color:var(--warn)}.issue.info{border-left-color:var(--info)}
+.issue.bad{border-left-color:var(--bad)}.issue.warn{border-left-color:var(--warn)}.issue.info{border-left-color:var(--info)}.issue.dup{border-left-color:var(--dup)}
 .issue .tx{flex:1;min-width:0}
 .issue .tx b{display:block;font-size:.82rem}
 .issue .tx small{display:block;color:var(--muted);font-size:.71rem;font-family:var(--mono);word-break:break-word}
@@ -152,6 +180,8 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 .tag.bad{background:rgba(255,59,71,.16);border-color:var(--bad);color:var(--bad)}
 .tag.warn{background:rgba(255,176,32,.16);border-color:var(--warn);color:var(--warn)}
 .tag.ok{background:rgba(47,208,122,.16);border-color:var(--ok);color:var(--ok)}
+.tag.dup{background:rgba(255,138,31,.18);border-color:var(--dup);color:var(--dup)}
+.tag.info{background:rgba(34,211,238,.16);border-color:var(--info);color:var(--info)}
 .grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:.7rem;align-items:start}
 .grid2.stacked{grid-template-columns:1fr}
 .col{background:var(--surf);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh);min-width:0}
@@ -164,16 +194,18 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 .chhead .meta{font-size:.68rem;color:var(--muted);font-family:var(--mono)}
 .prog{display:flex;gap:.4rem;align-items:flex-start;padding:.3rem .5rem;border-top:1px dashed rgba(46,42,64,.7);font-size:.77rem;min-width:0}
 .prog:first-of-type{border-top:0}
-.prog.sel{background:rgba(255,45,149,.1)}
-.prog.conflict{background:rgba(255,59,71,.1)}
-.prog input[type=checkbox]{width:14px;height:14px;accent-color:var(--m6);margin-top:.2rem;flex:0 0 auto;cursor:pointer}
+.prog.sel{background:rgba(255,138,31,.12)}
+.prog.dup{background:rgba(255,138,31,.09)}
+.prog.hid{opacity:.5}
+.prog.hid .b b{text-decoration:line-through}
+.prog input[type=checkbox]{width:14px;height:14px;accent-color:var(--dup);margin-top:.2rem;flex:0 0 auto;cursor:pointer}
 .prog .t{font-family:var(--mono);font-weight:700;color:var(--gold);min-width:40px;flex:0 0 auto}
 .prog .b{flex:1;min-width:0}
 .prog .b b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .prog .b small{display:block;color:var(--muted);font-size:.67rem;font-family:var(--mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.prog .act{display:flex;gap:.2rem;flex:0 0 auto;flex-wrap:wrap;justify-content:flex-end;max-width:46%}
-.bulk{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;padding:.46rem .7rem;background:rgba(255,45,149,.11);border:1px solid rgba(255,45,149,.4);border-radius:var(--r);margin-bottom:.6rem;font-size:.77rem;color:var(--soft)}
-.bulk b{color:var(--m6);font-family:var(--mono)}
+.prog .act{display:flex;gap:.2rem;flex:0 0 auto;flex-wrap:wrap;justify-content:flex-end;max-width:48%}
+.bulk{display:flex;align-items:center;gap:.4rem;flex-wrap:wrap;padding:.46rem .7rem;background:rgba(255,138,31,.12);border:1px solid rgba(255,138,31,.42);border-radius:var(--r);margin-bottom:.6rem;font-size:.77rem;color:var(--soft)}
+.bulk b{color:var(--dup);font-family:var(--mono)}
 .bulk select{width:auto;min-width:132px;font-size:.76rem;padding:.24rem .36rem}
 .status{color:var(--muted);font-size:.76rem;margin:.5rem 0}
 .hint{color:var(--muted);font-size:.71rem;margin:.28rem 0}
@@ -181,10 +213,10 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 .empty b{display:block;color:var(--soft);margin-bottom:.3rem}
 .scrim{position:fixed;inset:0;z-index:50;background:rgba(4,3,8,.8);backdrop-filter:blur(5px);animation:fi .2s both}
 @keyframes fi{from{opacity:0}}
-.drawer{position:fixed;top:0;right:0;bottom:0;z-index:60;width:min(540px,100%);display:flex;flex-direction:column;background:var(--surf);border-left:1px solid var(--line2);box-shadow:-22px 0 56px rgba(0,0,0,.6);animation:sl .26s cubic-bezier(.2,.8,.2,1) both}
-.drawer.wide{width:min(720px,100%)}
+.drawer{position:fixed;top:0;right:0;bottom:0;z-index:60;width:min(560px,100%);display:flex;flex-direction:column;background:var(--surf);border-left:1px solid var(--line2);box-shadow:-22px 0 56px rgba(0,0,0,.6);animation:sl .26s cubic-bezier(.2,.8,.2,1) both}
+.drawer.wide{width:min(740px,100%)}
 @keyframes sl{from{transform:translateX(100%)}}
-.drawer>header{flex:0 0 auto;display:flex;justify-content:space-between;gap:.65rem;padding:.8rem;border-bottom:1px solid var(--line);background:linear-gradient(120deg,rgba(168,85,247,.18),rgba(255,45,149,.1))}
+.drawer>header{flex:0 0 auto;display:flex;justify-content:space-between;gap:.65rem;padding:.8rem;border-bottom:1px solid var(--line);background:linear-gradient(120deg,rgba(255,138,31,.2),rgba(255,45,149,.1))}
 .drawer>header h2{font-size:1rem;font-family:var(--disp);letter-spacing:.03em}
 .drawer .body{flex:1 1 auto;min-height:0;overflow:auto;display:block;padding:.8rem}
 .drawer .body>*+*{margin-top:.55rem}
@@ -203,20 +235,21 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 .gcall{border-left:3px solid var(--info);background:rgba(34,211,238,.08);border-radius:0 8px 8px 0;padding:.42rem .55rem;font-size:.79rem;margin:.35rem 0}
 .gcall.warn{border-left-color:var(--warn);background:rgba(255,176,32,.08)}
 .gcall.ok{border-left-color:var(--ok);background:rgba(47,208,122,.08)}
+.gcall.dup{border-left-color:var(--dup);background:rgba(255,138,31,.09)}
 .exlist{display:flex;flex-direction:column;gap:.38rem}
 .exrow{display:flex;gap:.45rem;align-items:center;background:var(--surf2);border:1px solid var(--line);border-radius:9px;padding:.45rem .55rem;min-width:0}
 .exrow .tx{flex:1;min-width:0}
 .exrow .tx b{display:block;font-size:.83rem}
 .exrow .tx small{display:block;color:var(--muted);font-size:.69rem}
-.toasts{position:fixed;left:50%;bottom:1rem;transform:translateX(-50%);z-index:95;display:flex;flex-direction:column;gap:.38rem;width:min(560px,calc(100% - 1.6rem))}
+.toasts{position:fixed;left:50%;bottom:1rem;transform:translateX(-50%);z-index:95;display:flex;flex-direction:column;gap:.38rem;width:min(580px,calc(100% - 1.6rem))}
 .toast{display:flex;gap:.55rem;align-items:center;background:var(--over);border:1px solid var(--line2);border-left:3px solid var(--ok);border-radius:10px;padding:.54rem .75rem;font-size:.8rem;box-shadow:var(--sh);animation:ti .22s both}
-.toast.warn{border-left-color:var(--warn)}.toast.err{border-left-color:var(--bad)}.toast.info{border-left-color:var(--info)}
+.toast.warn{border-left-color:var(--warn)}.toast.err{border-left-color:var(--bad)}.toast.info{border-left-color:var(--info)}.toast.dup{border-left-color:var(--dup)}
 .toast span{flex:1;min-width:0}
 .toast button{border:1px solid var(--line2);background:transparent;color:var(--gold);border-radius:6px;padding:.18rem .48rem;font:inherit;font-size:.72rem;font-weight:800;cursor:pointer;white-space:nowrap}
 .toast button:hover{border-color:var(--gold);background:rgba(232,198,106,.14)}
 @keyframes ti{from{opacity:0;transform:translateY(12px)}}
 @media(max-width:900px){.head .pill{display:none}.brand p{display:none}}
-@media(max-width:640px){.bar{flex-direction:column;align-items:stretch}.f{min-width:0}.f.btns{justify-content:flex-start}.chk.box{align-self:stretch}.grid2{grid-template-columns:1fr}.prog .act{max-width:100%}.head{gap:.4rem}.btn{padding:.4rem .55rem;font-size:.76rem}}
+@media(max-width:640px){.bar{flex-direction:column;align-items:stretch}.f{min-width:0}.f.btns{justify-content:flex-start}.chk.box{align-self:stretch}.grid2{grid-template-columns:1fr}.prog .act{max-width:100%}.head{gap:.4rem}.btn{padding:.4rem .55rem;font-size:.76rem}.occs{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 </head>
@@ -225,11 +258,12 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 
 <header class="head">
   <div class="brand">
-    <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
-    <div class="tx"><h1>ROUTAGE <em>DES CHAÎNES</em></h1><p id="stamp">initialisation…</p></div>
+    <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <div class="tx"><h1>DOUBLONS <em>&amp; ROUTAGE</em></h1><p id="stamp">initialisation…</p></div>
   </div>
   <div class="head-right">
     <span class="pill" id="src-pill">…</span>
+    <span class="pill" id="dup-pill">…</span>
     <span class="pill" id="health-pill">…</span>
     <button class="btn ghost" id="btn-sound" type="button" title="Signal sonore">🔔</button>
     <button class="btn" id="btn-guide" type="button">📖 Guide</button>
@@ -242,14 +276,22 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
   <div class="fatal" id="fatal" hidden>
     <b>⛔ Un problème d'affichage a été intercepté</b>
     <pre id="fatal-msg"></pre>
-    <div class="row"><button class="btn small" id="fatal-copy" type="button">📋 Copier le détail</button><button class="btn small" id="fatal-retry" type="button">↻ Reconstruire l'affichage</button><button class="btn small ghost" id="fatal-hide" type="button">Masquer</button></div>
+    <div class="row"><button class="btn small" id="fatal-copy" type="button">📋 Copier</button><button class="btn small" id="fatal-retry" type="button">↻ Reconstruire</button><button class="btn small ghost" id="fatal-hide" type="button">Masquer</button></div>
   </div>
 
   <section class="intro" id="intro">
-    <header><h2>À quoi sert cette page</h2><span class="sp"></span><button class="mini" id="intro-fold" type="button">Replier</button></header>
+    <header><h2>Ce qui change — détection par doublon, plus par chevauchement</h2><span class="sp"></span><button class="mini" id="intro-fold" type="button">Replier</button></header>
     <div class="in" id="intro-in">
-      <p>En 1987, <b>Canal+</b>, <b>La Cinq</b> et <b>M6</b> coexistent. Tes fichiers d'archives les nomment n'importe comment : <code>C+</code>, <code>LA 5</code>, <code>5</code>, <code>M 6</code>, <code>6</code>, parfois <code>Canal+ / La Cinq</code> dans un seul champ. Le site ne peut pas deviner : il range tout sous Canal+ <b>et</b> crée des blocs séparés. Cette page sert à <b>dire une fois pour toutes quel libellé correspond à quelle chaîne</b>.</p>
-      <ol><li><b>Lis</b> les anomalies détectées.</li><li><b>Route</b> les libellés vers leur chaîne.</li><li><b>Tranche</b> les libellés composites programme par programme.</li><li><b>Compare</b> avant / après.</li><li><b>Exporte</b> et dépose les fichiers.</li></ol>
+      <p>Un flash info dure une minute : deux programmes proches ne sont <b>pas</b> une anomalie. Et comme seule l'heure de début est connue, un programme mal attribué peut s'intercaler proprement entre deux émissions de la chaîne tierce, sans rien chevaucher.</p>
+      <p>Le signal fiable est donc l'<b>empreinte date + titre</b> : si un même titre apparaît le même jour sur deux chaînes, c'est un <b>double affichage</b>. C'est ce que cette page traque.</p>
+      <ul>
+        <li><b>Doublons inter-chaînes</b> — même date, même titre, chaînes différentes, quelle que soit l'heure.</li>
+        <li><b>Score de confiance</b> par occurrence : validité de la chaîne à cette date, netteté du libellé, chaîne habituelle du titre, coïncidence d'horaire.</li>
+        <li><b>Résolution</b> : garder la meilleure, masquer ou réassigner les autres — ou déclarer la double diffusion légitime.</li>
+        <li><b>Titres nomades</b> — un titre majoritairement sur une chaîne mais vu ailleurs : signal faible, sans doublon le même jour.</li>
+        <li><b>Doublons exacts</b> — même date, heure, titre et chaîne : ligne dupliquée à dédoublonner.</li>
+        <li>Le chevauchement n'est plus une anomalie : il reste un simple repère de densité.</li>
+      </ul>
     </div>
   </section>
 
@@ -268,9 +310,10 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
     <div class="kpi k2"><b id="k-raw">—</b><span>libellés bruts</span></div>
     <div class="kpi k3"><b id="k-ch">—</b><span>chaînes</span></div>
     <div class="kpi k4"><b id="k-bad">—</b><span>non reconnus</span></div>
-    <div class="kpi k5"><b id="k-warn">—</b><span>anomalies</span></div>
-    <div class="kpi k6"><b id="k-fixed">—</b><span>réassignés</span></div>
-    <div class="kpi k7"><b id="k-days">—</b><span>journées</span></div>
+    <div class="kpi k5"><b id="k-dup">—</b><span>doublons</span></div>
+    <div class="kpi k6"><b id="k-nomad">—</b><span>titres nomades</span></div>
+    <div class="kpi k7"><b id="k-fixed">—</b><span>corrigés</span></div>
+    <div class="kpi k8"><b id="k-hidden">—</b><span>masqués</span></div>
   </section>
 
   <section class="bar">
@@ -278,15 +321,19 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
     <div class="f grow"><label for="q">Recherche</label><input id="q" type="search" placeholder="Titre, libellé, chaîne…  ( / )" autocomplete="off"></div>
     <div class="f"><label for="f-ch">Chaîne</label><select id="f-ch"><option value="all">Toutes</option></select></div>
     <div class="f"><label for="f-issue">Filtre</label><select id="f-issue">
-      <option value="all">Tout</option><option value="unknown">Non reconnus</option><option value="composite">Composites</option>
-      <option value="era">Hors époque</option><option value="conflict">Chevauchements</option><option value="fixed">Réassignés</option></select></div>
+      <option value="all">Tout</option><option value="dup">Doublons</option><option value="nomad">Titres nomades</option>
+      <option value="exact">Doublons exacts</option><option value="unknown">Non reconnus</option>
+      <option value="composite">Composites</option><option value="era">Hors époque</option>
+      <option value="fixed">Corrigés</option><option value="hidden">Masqués</option></select></div>
     <div class="f"><label for="f-sort">Tri</label><select id="f-sort"><option value="time">Heure</option><option value="channel">Chaîne</option><option value="alpha">Titre A→Z</option></select></div>
     <div class="f"><label for="f-layout">Disposition</label><select id="f-layout"><option value="side">Côte à côte</option><option value="stack">Empilé</option></select></div>
-    <div class="f"><label for="f-tol">Tolérance <span id="tol-val">2</span> min</label><input id="f-tol" type="range" min="0" max="15" step="1" value="2"></div>
+    <div class="f"><label for="f-tol">Écart doublon <span id="tol-val">90</span> min</label><input id="f-tol" type="range" min="0" max="720" step="15" value="90" title="Écart d'horaire maximal entre deux occurrences pour les considérer comme le même passage"></div>
+    <div class="f"><label for="f-conf">Confiance <span id="conf-val">25</span> pts</label><input id="f-conf" type="range" min="5" max="70" step="5" value="25" title="Écart de score minimal pour résoudre automatiquement un doublon"></div>
     <label class="chk box"><input type="checkbox" id="f-era" checked> Valider l'époque</label>
     <label class="chk box"><input type="checkbox" id="f-split" checked> Signaler composites</label>
     <label class="chk box"><input type="checkbox" id="f-compact"> Vue compacte</label>
     <div class="f btns">
+      <button class="btn small" id="btn-resolve" type="button">🎯 Résoudre les doublons</button>
       <button class="btn small" id="btn-auto" type="button">✨ Auto-router</button>
       <button class="btn small" id="btn-view-save" type="button">⭐ Vue</button>
       <button class="btn small ghost" id="btn-reset" type="button">↺</button>
@@ -296,35 +343,45 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
   <div class="order" id="order"></div>
   <div class="views" id="views"></div>
 
+  <section class="panel hot" id="p-dup">
+    <header><strong>1 · Doubles affichages — même jour, même titre, deux chaînes</strong><span class="cnt dup" id="dup-count">0</span><span class="sp"></span>
+      <button class="help" data-guide="doublons" type="button">?</button>
+      <button class="mini good" id="btn-resolve2" type="button">🎯 Résoudre les évidents</button>
+      <button class="mini ghost" data-fold="p-dup" type="button">Replier</button></header>
+    <div class="sub">L'occurrence la plus fiable est encadrée en vert. Garde-la et masque ou réassigne les autres — ou déclare la double diffusion légitime si elle est réelle.</div>
+    <div class="pbody" id="dups"></div>
+  </section>
+
   <section class="panel" id="p-issues">
-    <header><strong>1 · Anomalies</strong><span class="cnt" id="issue-count">0</span><span class="sp"></span>
+    <header><strong>2 · Autres anomalies</strong><span class="cnt" id="issue-count">0</span><span class="sp"></span>
       <button class="help" data-guide="anomalies" type="button">?</button>
       <button class="mini" id="btn-fix-all" type="button">🔧 Tout corriger</button>
       <button class="mini ghost" data-fold="p-issues" type="button">Replier</button></header>
-    <div class="sub">Chaque ligne dit ce qui ne va pas et propose une correction. Rien n'est appliqué sans ton accord.</div>
+    <div class="sub">Libellés inconnus, composites, chaînes hors époque, titres nomades, doublons exacts. Le chevauchement n'est plus signalé comme erreur.</div>
     <div class="pbody" id="issues"></div>
   </section>
 
   <section class="panel" id="p-routes">
-    <header><strong>2 · Table de routage</strong><span class="cnt" id="route-count">0</span><span class="sp"></span>
+    <header><strong>3 · Table de routage</strong><span class="cnt" id="route-count">0</span><span class="sp"></span>
       <button class="help" data-guide="routage" type="button">?</button>
       <button class="mini danger" id="btn-route-reset" type="button">Réinitialiser</button>
       <button class="mini ghost" data-fold="p-routes" type="button">Replier</button></header>
-    <div class="sub">Un libellé → une chaîne. Toute modification s'applique aussitôt à la colonne « Après ». Sur écran étroit, fais défiler horizontalement.</div>
+    <div class="sub">Un libellé → une chaîne. Effet immédiat sur la colonne « Après ». Sur écran étroit, défilement horizontal.</div>
     <div class="scrollx"><div class="inner" id="routes"></div></div>
   </section>
 
   <div class="bulk" id="bulk" hidden>
     <span><b id="bulk-n">0</b> sélectionné(s)</span><span class="sp"></span>
     <label class="chk">Réassigner vers<select id="bulk-target"></select></label>
-    <button class="mini" id="btn-bulk-apply" type="button">✔ Appliquer</button>
-    <button class="mini" id="btn-bulk-clear" type="button">↺ Retirer</button>
+    <button class="mini good" id="btn-bulk-apply" type="button">✔ Appliquer</button>
+    <button class="mini danger" id="btn-bulk-hide" type="button">🚫 Masquer</button>
+    <button class="mini" id="btn-bulk-clear" type="button">↺ Restaurer</button>
     <button class="mini ghost" id="btn-bulk-none" type="button">Désélectionner</button>
   </div>
 
   <div class="grid2" id="grid2">
     <section class="col before" id="p-before">
-      <header>3 · Avant — libellés du fichier<span class="sp"></span><button class="help" data-guide="comparer" type="button">?</button><span class="cnt" id="before-n">0</span></header>
+      <header>4 · Avant — libellés du fichier<span class="sp"></span><button class="help" data-guide="comparer" type="button">?</button><span class="cnt" id="before-n">0</span></header>
       <div class="colbody" id="before"></div>
     </section>
     <section class="col after" id="p-after">
@@ -339,19 +396,19 @@ input[type=range]{padding:0;height:22px;accent-color:var(--m6);border:0;backgrou
 <aside class="drawer" id="drawer" hidden role="dialog" aria-modal="true" aria-labelledby="d-title">
   <header><div><h2 id="d-title">Programme</h2><p class="status" id="d-sub"></p></div><button class="icon" id="d-close" type="button" aria-label="Fermer">✕</button></header>
   <div class="body" id="d-body"></div>
-  <footer><button class="btn primary" id="d-save" type="button">✔ Enregistrer</button><button class="btn ghost" id="d-undo" type="button">↺ Origine</button><button class="btn ghost" id="d-close2" type="button">Fermer</button></footer>
+  <footer><button class="btn primary" id="d-save" type="button">✔ Enregistrer</button><button class="btn danger" id="d-hide" type="button">🚫 Masquer</button><button class="btn ghost" id="d-undo" type="button">↺ Origine</button><button class="btn ghost" id="d-close2" type="button">Fermer</button></footer>
 </aside>
 
 <div class="scrim" id="gscrim" hidden></div>
 <aside class="drawer wide" id="gdrawer" hidden role="dialog" aria-modal="true" aria-labelledby="g-title">
-  <header><div><h2 id="g-title">📖 Guide</h2><p class="status">Le problème, le parcours, les fichiers.</p></div><button class="icon" id="g-close" type="button" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="g-title">📖 Guide</h2><p class="status">Doublons, scores, résolution, dépôt.</p></div><button class="icon" id="g-close" type="button" aria-label="Fermer">✕</button></header>
   <div class="body" id="g-body"></div>
   <footer><button class="btn primary" id="g-next" type="button">▶ Ma prochaine étape</button><button class="btn ghost" id="g-close2" type="button">Fermer</button></footer>
 </aside>
 
 <div class="scrim" id="escrim" hidden></div>
 <aside class="drawer wide" id="edrawer" hidden role="dialog" aria-modal="true" aria-labelledby="e-title">
-  <header><div><h2 id="e-title">📥 Exporter et déposer</h2><p class="status">Trois fichiers, leurs chemins, les commandes.</p></div><button class="icon" id="e-close" type="button" aria-label="Fermer">✕</button></header>
+  <header><div><h2 id="e-title">📥 Exporter et déposer</h2><p class="status">Routage, année corrigée, rapport.</p></div><button class="icon" id="e-close" type="button" aria-label="Fermer">✕</button></header>
   <div class="body">
     <div class="exlist" id="exports"></div>
     <div class="gsec" id="g-depot"><h4>Où déposer les fichiers</h4><div class="in" id="depot-in"></div></div>
@@ -371,8 +428,7 @@ function nf(n){return Number(n||0).toLocaleString('fr-FR');}
 function ls(k,d){try{var v=localStorage.getItem(k);return v===null?d:v;}catch(e){return d;}}
 function lsSet(k,v){try{localStorage.setItem(k,v);}catch(e){}}
 function lsJson(k,d){try{var v=ls(k,null);return v?JSON.parse(v):d;}catch(e){return d;}}
-
-var RKEY='tvretroChRouting',VKEY='tvretroChViews',SKEY='tvretroChSound',OKEY='tvretroChOrder',CKEY='tvretroChCompact',LKEY='tvretroChLayout',IKEY='tvretroChIntro';
+var RKEY='tvretroChRouting2',VKEY='tvretroChViews2',SKEY='tvretroChSound',OKEY='tvretroChOrder',CKEY='tvretroChCompact',LKEY='tvretroChLayout',IKEY='tvretroChIntro2';
 
 var CH={'ORTF 1':{c:'#8b81a6',from:1964,to:1975},'ORTF 2':{c:'#a855f7',from:1964,to:1975},'ORTF 3':{c:'#22d3ee',from:1972,to:1975},
 'TF1':{c:'#2f6bff',from:1975,to:2100},'Antenne 2':{c:'#ff3b47',from:1975,to:1992},'France 2':{c:'#ff6b3d',from:1992,to:2100},
@@ -390,40 +446,32 @@ var ALIAS={'OR1':'ORTF 1','OR2':'ORTF 2','OR3':'ORTF 3','ORTF1':'ORTF 1','ORTF2'
 'TV6':'TV6','TELEVISION6':'TV6','M6':'M6','METROPOLE6':'M6','METROPOLETELEVISION':'M6','6':'M6',
 'L7':'La Sept','LA7':'La Sept','LASEPT':'La Sept','SEPT':'La Sept','ARTE':'Arte','ARTEFR':'Arte','FRANCE5':'France 5','F5':'France 5'};
 var TOKENS=[[/canal\s*\+|\bc\+/i,'Canal+'],[/la\s*cinq|\bla\s*5\b|\bl\s*5\b/i,'La Cinq'],[/\bm\s*6\b|metropole/i,'M6'],[/tv\s*6\b/i,'TV6'],[/\bfr\s*3\b|france\s*3\b/i,'FR3'],[/antenne\s*2|\ba\s*2\b/i,'Antenne 2'],[/\btf\s*1\b/i,'TF1'],[/\barte\b/i,'Arte'],[/la\s*sept\b/i,'La Sept']];
-var LIGHT=['#f4f1ea','#e8c66a','#2fd07a','#22d3ee','#ffb020','#38bdf8','#c084fc','#f472b6','#8b81a6','#ff6b3d'];
+var LIGHT=['#f4f1ea','#e8c66a','#2fd07a','#22d3ee','#ffb020','#38bdf8','#c084fc','#f472b6','#8b81a6','#ff6b3d','#ff8a1f'];
 
 var ordSaved=lsJson(OKEY,null);
 var order=(Array.isArray(ordSaved)&&ordSaved.length)?ordSaved.filter(function(c){return CH[c];}).concat(BASE_ORDER.filter(function(c){return ordSaved.indexOf(c)<0;})):BASE_ORDER.slice();
+var saved=lsJson(RKEY,{routes:{},legit:{}});
 
-var S={year:1987,raw:[],days:[],source:'seed',routes:lsJson(RKEY,{}),overrides:{},order:order,
- q:'',ch:'all',issue:'all',sort:'time',layout:ls(LKEY,'side'),tol:2,era:true,split:true,
+var S={year:1987,raw:[],days:[],source:'seed',routes:saved.routes||{},legit:saved.legit||{},overrides:{},order:order,
+ q:'',ch:'all',issue:'all',sort:'time',layout:ls(LKEY,'side'),tol:90,conf:25,era:true,split:true,
  compact:ls(CKEY,'0')==='1',sel:{},selN:0,views:lsJson(VKEY,[]),undo:[],sound:ls(SKEY,'on')!=='off',
- detail:null,dirty:false,exported:false,seenIssues:false,errors:[]};
+ detail:null,dirty:false,exported:false,seenDup:false,errors:[],titleStats:{},dups:[],exacts:[],nomads:[]};
 
-/* ---- erreurs visibles ---- */
-function report(where,e){
- var msg=(e&&e.message)?e.message:String(e);
- S.errors.push(where+' : '+msg);
- try{console.error('[routage]',where,e);}catch(x){}
- var box=$('#fatal');if(!box)return;
- box.hidden=false;
- $('#fatal-msg').textContent=S.errors.slice(-6).join('\n');
-}
-function safe(where,fn){try{fn();}catch(e){report(where,e);}}
+function report(w,e){var m=(e&&e.message)?e.message:String(e);S.errors.push(w+' : '+m);try{console.error('[doublons]',w,e);}catch(x){}
+ var b=$('#fatal');if(b){b.hidden=false;$('#fatal-msg').textContent=S.errors.slice(-6).join('\n');}}
+function safe(w,f){try{f();}catch(e){report(w,e);}}
 window.addEventListener('error',function(ev){report('runtime',ev.error||ev.message);});
 window.addEventListener('unhandledrejection',function(ev){report('promesse',ev.reason);});
 
-/* ---- son ---- */
 var AC=null;
 function blip(k){if(!S.sound)return;try{AC=AC||new(window.AudioContext||window.webkitAudioContext)();if(AC.state==='suspended')AC.resume();
- var seq=k==='ok'?[[620,0],[930,.08]]:k==='bad'?[[210,0],[160,.1]]:k==='warn'?[[420,0],[330,.09]]:[[540,0]];
- seq.forEach(function(p){var o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime+p[1];o.type=k==='bad'?'sawtooth':'triangle';o.frequency.value=p[0];
+ var seq=k==='ok'?[[620,0],[930,.08]]:k==='bad'?[[210,0],[160,.1]]:k==='dup'?[[480,0],[380,.09],[560,.18]]:k==='warn'?[[420,0],[330,.09]]:[[540,0]];
+ seq.forEach(function(p){var o=AC.createOscillator(),g=AC.createGain(),t=AC.currentTime+p[1];o.type=(k==='bad')?'sawtooth':'triangle';o.frequency.value=p[0];
  g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(k==='bad'?.05:.04,t+.012);g.gain.exponentialRampToValueAtTime(.0001,t+.17);
  o.connect(g);g.connect(AC.destination);o.start(t);o.stop(t+.19);});}catch(e){}}
 function renderSound(){var b=$('#btn-sound');if(!b)return;b.textContent=S.sound?'🔔':'🔕';b.classList.toggle('ghost',!S.sound);
  b.title=S.sound?'Sons activés — tout couper':'Sons coupés — activer';}
 
-/* ---- utils ---- */
 function norm(v){return String(v==null?'':v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9\s]/g,' ').replace(/\s+/g,' ').trim();}
 function key(v){return norm(v).replace(/\s+/g,'').toUpperCase();}
 function nDate(d){if(!d)return null;var p=String(d).trim().split(/[-\/]/);if(p.length!==3)return null;var a,b,c;
@@ -433,7 +481,7 @@ function nDate(d){if(!d)return null;var p=String(d).trim().split(/[-\/]/);if(p.l
 function shortDate(d){var n=nDate(d);if(!n)return d||'';var p=n.split('-');return p[0]+'/'+p[1]+'/'+p[2];}
 function nTime(v){var m=String(v||'').trim().match(/^(\d{1,2})[:h.](\d{2})/);if(!m)return'';var h=+m[1],i=+m[2];
  return (h>23||i>59)?'':String(h).padStart(2,'0')+':'+String(i).padStart(2,'0');}
-function tmin(t){if(!t)return 9999;var p=t.split(':');var h=+p[0],m=+p[1];return h<5?(h+24)*60+m:h*60+m;}
+function tmin(t){if(!t)return 9999;var p=t.split(':'),h=+p[0],m=+p[1];return h<5?(h+24)*60+m:h*60+m;}
 function chColor(c){return (CH[c]&&CH[c].c)||'#8b81a6';}
 function chTag(c){var col=chColor(c);return '<span class="chip" style="background:'+col+';color:'+(LIGHT.indexOf(col)>=0?'#0a0810':'#fff')+'">'+esc(c)+'</span>';}
 function eraOk(c,date){if(!S.era)return true;var n=nDate(date);if(!n)return false;var p=n.split('-'),y=+p[2],m=+p[1],i=CH[c];if(!i)return false;
@@ -448,15 +496,16 @@ function eraOk(c,date){if(!S.era)return true;var n=nDate(date);if(!n)return fals
 function eraAlt(c){return c==='M6'?'TV6':c==='TV6'?'M6':c==='France 2'?'Antenne 2':c==='Antenne 2'?'France 2':c==='France 3'?'FR3':c==='FR3'?'France 3':c==='Arte'?'La Sept':c==='La Cinq'?'TV6':'Autres';}
 function tokens(raw){var o=[];TOKENS.forEach(function(t){if(t[0].test(raw)&&o.indexOf(t[1])<0)o.push(t[1]);});return o;}
 function autoRoute(raw){var k=key(raw);if(ALIAS[k])return ALIAS[k];var t=tokens(raw);return t.length===1?t[0]:'';}
-function canon(raw,date){var k=key(raw),t=tokens(raw);
+function canon(raw){var k=key(raw),t=tokens(raw);
  if(S.routes[k])return{ch:S.routes[k],how:'manuel',tokens:t};
  var a=autoRoute(raw);if(a)return{ch:a,how:'auto',tokens:t};
  if(S.split&&t.length>1)return{ch:t[0],how:'composite',tokens:t};
  return{ch:'Autres',how:'inconnu',tokens:t};}
 function pid(p){return p.date+'__'+(p.time||'sans-heure').replace(':','h')+'__'+key(p.rawChannel)+'__'+norm(p.title).replace(/\s+/g,'-').slice(0,44);}
 function ord(c){var i=S.order.indexOf(c);return i<0?99:i;}
+function ov(id){var o=S.overrides[id];if(!o)return null;if(typeof o==='string')return{ch:o,act:'reassign'};return o;}
+function fp(p){return p.date+'|'+norm(p.title);}
 
-/* ---- seed ---- */
 function eraStatic(c,date){var p=date.split('-'),y=+p[2],m=+p[1];
  if(c==='La Cinq')return y>1986||(y===1986&&m>=2);if(c==='M6')return y>1987||(y===1987&&m>=3);
  if(c==='Antenne 2'||c==='FR3')return y<1992||(y===1992&&m<9);if(c==='France 2'||c==='France 3')return y>1992||(y===1992&&m>=9);
@@ -474,105 +523,160 @@ function seedYear(y){
  return dates.map(function(d,di){var progs=[];
   base.forEach(function(row,i){var ch=row[0],t=row[1],title=row[2];if(!eraStatic(ch,d))return;
    var raw=raws[ch][(di+i)%raws[ch].length];
-   if(y===1987&&di>=2&&(ch==='La Cinq'||ch==='M6')&&(i%6)===3)raw=(i%2)?'C+':'Canal+ / La Cinq';
-   if(y===1987&&di===4&&ch==='M6')raw='6';
-   if(y===1987&&di===5&&ch==='La Cinq')raw='5';
    progs.push({date:d,time:t,title:title,rawChannel:raw,description:''});});
-  if(di===3)progs.push({date:d,time:'20:30',title:'Film : Le Grand Bleu (annonce)',rawChannel:'Canal+',description:''});
+  if(y===1987&&di>=2){
+   progs.push({date:d,time:'08:00',title:"Youpi l'école est finie",rawChannel:'C+',description:'double affichage — heure identique'});
+   progs.push({date:d,time:'11:00',title:'Multitop',rawChannel:'Canal+ / La Cinq',description:'double affichage — bien intercalé, aucun chevauchement'});
+   progs.push({date:d,time:'15:00',title:'Côte Ouest',rawChannel:'6',description:'double affichage — décalé'});
+  }
+  if(y===1987&&di===4){progs.push({date:d,time:'09:00',title:'Multitop',rawChannel:'M 6',description:'ligne dupliquée à l\'identique'});}
+  if(y===1987&&di===5){progs.push({date:d,time:'10:15',title:'Flash info',rawChannel:'La 5',description:'programme court — ne doit pas être signalé'});
+   progs.push({date:d,time:'10:20',title:'Météo',rawChannel:'La 5',description:'programme court'});}
   return{date:d,source:'seed',programs:progs};});}
-
+function flatten(){S.raw=[];S.days.forEach(function(d){d.programs.forEach(function(p){
+ var o={date:p.date,time:p.time,title:p.title,rawChannel:p.rawChannel,description:p.description||''};o.id=pid(o);S.raw.push(o);});});}
 function ingestSeed(){S.days=seedYear(S.year);S.source='seed';flatten();}
-function flatten(){S.raw=[];S.days.forEach(function(d){d.programs.forEach(function(p){var o={date:p.date,time:p.time,title:p.title,rawChannel:p.rawChannel,description:p.description||''};o.id=pid(o);S.raw.push(o);});});}
 
-/* ---- moteur ---- */
+/* ---------- moteur ---------- */
 function rebuild(){
- S.raw.forEach(function(p){var c=canon(p.rawChannel,p.date);p.auto=c.ch;p.how=c.how;p.tokens=c.tokens;
-  p.channel=S.overrides[p.id]||c.ch;p.fixed=!!S.overrides[p.id];
-  p.unknown=c.how==='inconnu';p.composite=c.tokens.length>1;p.era=!eraOk(p.channel,p.date);p.conflict=false;});
- var g={};S.raw.forEach(function(p){var k=p.channel+'|'+p.date;(g[k]=g[k]||[]).push(p);});
- Object.keys(g).forEach(function(k){var t=g[k].filter(function(p){return p.time;}).sort(function(a,b){return tmin(a.time)-tmin(b.time);});
-  for(var i=1;i<t.length;i++)if(Math.abs(tmin(t[i].time)-tmin(t[i-1].time))<=S.tol){t[i].conflict=true;t[i-1].conflict=true;}});}
-function rawGroups(){var m={},out=[];S.raw.forEach(function(p){var k=p.rawChannel||'(vide)';(m[k]=m[k]||[]).push(p);});
- Object.keys(m).forEach(function(k){out.push([k,m[k]]);});return out;}
-function routeRows(){return rawGroups().map(function(e){var raw=e[0],l=e[1],c=canon(raw,l[0].date);
-  return{raw:raw,k:key(raw),n:l.length,ch:c.ch,how:c.how,tokens:c.tokens,sample:l[0],era:l.some(function(p){return !eraOk(c.ch,p.date);})};})
+ S.raw.forEach(function(p){var c=canon(p.rawChannel),o=ov(p.id);
+  p.auto=c.ch;p.how=c.how;p.tokens=c.tokens;
+  p.channel=(o&&o.act==='reassign'&&o.ch)?o.ch:c.ch;
+  p.hidden=!!(o&&o.act==='hide');p.fixed=!!o;
+  p.unknown=c.how==='inconnu';p.composite=c.tokens.length>1;p.era=!eraOk(p.channel,p.date);
+  p.dup=false;p.exact=false;p.nomad=false;p.fp=fp(p);});
+ S.titleStats={};
+ S.raw.forEach(function(p){var k=norm(p.title);if(!k)return;var t=S.titleStats[k]||(S.titleStats[k]={total:0,ch:{},title:p.title});
+  t.total++;t.ch[p.channel]=(t.ch[p.channel]||0)+1;});
+ Object.keys(S.titleStats).forEach(function(k){var t=S.titleStats[k],best='',bn=0;
+  Object.keys(t.ch).forEach(function(c){if(t.ch[c]>bn){bn=t.ch[c];best=c;}});t.home=best;t.share=bn/t.total;t.channels=Object.keys(t.ch);});
+ var byFp={};S.raw.forEach(function(p){if(p.hidden)return;(byFp[p.fp]=byFp[p.fp]||[]).push(p);});
+ S.dups=[];S.exacts=[];
+ Object.keys(byFp).forEach(function(k){var l=byFp[k];if(l.length<2)return;
+  var chs={};l.forEach(function(p){chs[p.channel]=1;});
+  var multi=Object.keys(chs).length>1;
+  if(multi){
+   var clusters=[],used={};
+   l.slice().sort(function(a,b){return tmin(a.time)-tmin(b.time);}).forEach(function(p){
+    var placed=false;
+    for(var i=0;i<clusters.length;i++){var c=clusters[i];
+     if(c.chs[p.channel])continue;
+     var near=c.items.some(function(q){return Math.abs(tmin(q.time)-tmin(p.time))<=S.tol;});
+     if(near||S.tol>=720){c.items.push(p);c.chs[p.channel]=1;placed=true;break;}}
+    if(!placed){var ch={};ch[p.channel]=1;clusters.push({items:[p],chs:ch});}});
+   clusters.forEach(function(c){if(Object.keys(c.chs).length<2)return;
+    var g={fp:k,date:l[0].date,title:l[0].title,items:c.items.slice(),legit:!!S.legit[k+'|'+c.items.map(function(p){return p.id;}).sort().join(',')]};
+    scoreGroup(g);S.dups.push(g);g.items.forEach(function(p){p.dup=true;});});
+  } else {
+   var seen={};l.forEach(function(p){var t=p.time||'--';if(seen[t]){p.exact=true;seen[t].exact=true;S.exacts.push([seen[t],p]);}else seen[t]=p;});
+  }});
+ S.nomads=[];
+ Object.keys(S.titleStats).forEach(function(k){var t=S.titleStats[k];
+  if(t.channels.length<2||t.total<3)return;
+  if(t.share>=.9||t.share<=.5)return;
+  var stray=S.raw.filter(function(p){return norm(p.title)===k&&p.channel!==t.home&&!p.dup&&!p.hidden;});
+  if(!stray.length)return;
+  S.nomads.push({key:k,title:t.title,home:t.home,share:t.share,total:t.total,stray:stray});
+  stray.forEach(function(p){p.nomad=true;});});
+ S.dups.sort(function(a,b){return (a.legit?1:0)-(b.legit?1:0)||(b.gap||0)-(a.gap||0)||a.date.localeCompare(b.date);});
+}
+function scoreGroup(g){
+ var times=g.items.map(function(p){return tmin(p.time);}).filter(function(t){return t<9999;});
+ var sameTime=times.length>1&&Math.max.apply(null,times)-Math.min.apply(null,times)<=2;
+ var st=S.titleStats[norm(g.title)]||{home:'',share:0};
+ g.items.forEach(function(p){
+  var s=50,why=[];
+  if(eraOk(p.channel,p.date)){s+=22;why.push('chaîne valide à cette date');}else{s-=55;why.push('chaîne inexistante à cette date');}
+  if(p.how==='manuel'){s+=26;why.push('libellé routé à la main');}
+  else if(p.how==='auto'){s+=18;why.push('libellé explicite');}
+  else if(p.how==='composite'){s-=22;why.push('libellé composite');}
+  else{s-=38;why.push('libellé non reconnu');}
+  if(st.home===p.channel){var bonus=Math.round(26*st.share);s+=bonus;why.push('chaîne habituelle du titre ('+Math.round(st.share*100)+' %)');}
+  else if(st.home){s-=12;why.push('titre habituellement sur '+st.home);}
+  if(sameTime){s+=6;why.push('horaire identique à l\'autre occurrence');}
+  p.score=Math.max(0,Math.min(100,s));p.why=why;});
+ g.items.sort(function(a,b){return b.score-a.score;});
+ g.keep=g.items[0];g.gap=g.items.length>1?g.items[0].score-g.items[1].score:100;
+ g.sameTime=sameTime;
+}
+function dupOpen(){return S.dups.filter(function(g){return !g.legit;});}
+function rawGroups(){var m={},o=[];S.raw.forEach(function(p){var k=p.rawChannel||'(vide)';(m[k]=m[k]||[]).push(p);});
+ Object.keys(m).forEach(function(k){o.push([k,m[k]]);});return o;}
+function routeRows(){return rawGroups().map(function(e){var raw=e[0],l=e[1],c=canon(raw);
+ return{raw:raw,k:key(raw),n:l.length,ch:c.ch,how:c.how,tokens:c.tokens,sample:l[0],era:l.some(function(p){return !eraOk(c.ch,p.date);})};})
  .sort(function(a,b){var ra=a.how==='inconnu'?0:a.tokens.length>1?1:2,rb=b.how==='inconnu'?0:b.tokens.length>1?1:2;return ra-rb||b.n-a.n;});}
 function issues(){var out=[],rr=routeRows();
  rr.filter(function(r){return r.how==='inconnu';}).forEach(function(r){out.push({sev:'bad',t:'Libellé non reconnu : « '+r.raw+' »',d:r.n+' programme(s) versés dans « Autres ». Exemple : '+r.sample.title+' · '+shortDate(r.sample.date),fix:{type:'route',k:r.k}});});
- rr.filter(function(r){return r.tokens.length>1;}).forEach(function(r){out.push({sev:'warn',t:'Libellé composite : « '+r.raw+' »',d:r.n+' programme(s) — contient '+r.tokens.join(', ')+'. '+(S.split?'Rangé par défaut sur « '+r.ch+' », à vérifier un par un.':'Signalement désactivé.'),fix:{type:'route',k:r.k}});});
- var eb={};S.raw.filter(function(p){return p.era;}).forEach(function(p){(eb[p.channel]=eb[p.channel]||[]).push(p);});
+ rr.filter(function(r){return r.tokens.length>1;}).forEach(function(r){out.push({sev:'warn',t:'Libellé composite : « '+r.raw+' »',d:r.n+' programme(s) — contient '+r.tokens.join(', ')+'. Rangé par défaut sur « '+r.ch+' » ; les doublons ci-dessus tranchent le plus souvent.',fix:{type:'route',k:r.k}});});
+ var eb={};S.raw.filter(function(p){return p.era&&!p.hidden;}).forEach(function(p){(eb[p.channel]=eb[p.channel]||[]).push(p);});
  Object.keys(eb).forEach(function(ch){var l=eb[ch],i=CH[ch];out.push({sev:'bad',t:ch+' hors époque : '+l.length+' programme(s)',d:ch+" n'émet pas à ces dates ("+(i?i.from+'→'+(i.to>2099?'…':i.to):'inconnue')+'). Exemple : '+l[0].title+' · '+shortDate(l[0].date)+' — brut « '+l[0].rawChannel+' ». Souvent '+ch+' ↔ '+eraAlt(ch)+'.',fix:{type:'era',ch:ch,list:l.map(function(p){return p.id;})}});});
- var cb={};S.raw.filter(function(p){return p.conflict;}).forEach(function(p){var k=p.channel+'|'+p.date;(cb[k]=cb[k]||[]).push(p);});
- Object.keys(cb).forEach(function(k){var l=cb[k],pp=k.split('|');out.push({sev:'warn',t:'Chevauchement sur '+pp[0]+' le '+shortDate(pp[1]),d:l.length+' programmes à ±'+S.tol+' min : '+l.map(function(p){return p.time+' '+p.title;}).join(' · '),fix:null});});
+ S.nomads.forEach(function(n){out.push({sev:'info',t:'Titre nomade : « '+n.title+' »',d:n.total+' diffusions, '+Math.round(n.share*100)+' % sur '+n.home+', '+n.stray.length+' ailleurs ('+n.stray.map(function(p){return p.channel+' '+shortDate(p.date);}).slice(0,4).join(', ')+'). Pas de doublon le même jour : à vérifier.',fix:{type:'nomad',key:n.key,home:n.home,list:n.stray.map(function(p){return p.id;})}});});
+ if(S.exacts.length)out.push({sev:'warn',t:'Doublons exacts : '+S.exacts.length+' paire(s)',d:'Même date, même heure, même titre, même chaîne : ligne dupliquée dans la source. '+S.exacts.slice(0,3).map(function(p){return p[0].title+' · '+shortDate(p[0].date)+' '+p[0].time;}).join(' | '),fix:{type:'exact'}});
  return out;}
 function filtered(){var q=norm(S.q);
  var a=S.raw.filter(function(p){
   if(S.ch!=='all'&&p.channel!==S.ch)return false;
-  if(S.issue==='unknown'&&!p.unknown)return false;if(S.issue==='composite'&&!p.composite)return false;
-  if(S.issue==='era'&&!p.era)return false;if(S.issue==='conflict'&&!p.conflict)return false;
-  if(S.issue==='fixed'&&!p.fixed)return false;
+  if(S.issue==='dup'&&!p.dup)return false;if(S.issue==='nomad'&&!p.nomad)return false;
+  if(S.issue==='exact'&&!p.exact)return false;if(S.issue==='unknown'&&!p.unknown)return false;
+  if(S.issue==='composite'&&!p.composite)return false;if(S.issue==='era'&&!p.era)return false;
+  if(S.issue==='fixed'&&!p.fixed)return false;if(S.issue==='hidden'&&!p.hidden)return false;
   return !q||norm(p.title+' '+p.rawChannel+' '+p.channel+' '+p.date).indexOf(q)>=0;});
  return a.sort(function(x,y){return S.sort==='alpha'?x.title.localeCompare(y.title,'fr'):S.sort==='channel'?ord(x.channel)-ord(y.channel)||tmin(x.time)-tmin(y.time):tmin(x.time)-tmin(y.time)||x.date.localeCompare(y.date);});}
 function counts(){var rr=routeRows();return{unknown:rr.filter(function(r){return r.how==='inconnu';}).length,
  composite:rr.filter(function(r){return r.tokens.length>1;}).length,
- era:S.raw.filter(function(p){return p.era;}).length,conflict:S.raw.filter(function(p){return p.conflict;}).length,issues:issues().length};}
+ era:S.raw.filter(function(p){return p.era&&!p.hidden;}).length,dup:dupOpen().length,
+ nomad:S.nomads.length,exact:S.exacts.length,hidden:S.raw.filter(function(p){return p.hidden;}).length,
+ fixed:Object.keys(S.overrides).length};}
 
-/* ---- parcours ---- */
 function steps(){var c=counts(),loaded=S.raw.length>0,real=S.source==='fichier';
  return[
  {id:'load',label:"Charger l'année",state:loaded?'done':'current',small:loaded?S.year+' · '+nf(S.raw.length)+' prog.':"choisir l'année",
-  why:"L'outil lit data/"+S.year+".json et recense tous les libellés de chaîne rencontrés.",
-  how:real?'Fichier du dépôt chargé.':'Mode démonstration : ouvre la page depuis ton site en ligne pour lire tes vraies données.',
-  go:function(){$('#f-year').focus();}},
- {id:'read',label:'Lire le diagnostic',state:!loaded?'todo':(c.issues===0||S.seenIssues)?'done':'current',
-  small:c.issues?c.issues+' anomalie(s)':'rien à signaler',
-  why:'Le panneau Anomalies liste les libellés inconnus, composites, chaînes hors époque et chevauchements.',
-  how:'Clique une ligne, ou « Tout corriger » pour une passe automatique.',
-  go:function(){S.seenIssues=true;focusPanel('#p-issues');renderAll();}},
+  why:"L'outil lit data/"+S.year+".json et recense titres, dates, heures et libellés.",
+  how:real?'Fichier du dépôt chargé.':'Démonstration : ouvre la page depuis ton site en ligne pour tes vraies données.',go:function(){$('#f-year').focus();}},
+ {id:'dup',label:'Traiter les doublons',state:!loaded?'todo':c.dup===0?'done':'current',
+  small:c.dup?c.dup+' double(s) affichage(s)':'aucun doublon',
+  why:"Un même titre le même jour sur deux chaînes est le signal fiable du bug — même bien intercalé, sans chevauchement.",
+  how:"Panneau 1 : garde l'occurrence la plus fiable, masque ou réassigne les autres.",
+  go:function(){S.seenDup=true;focusPanel('#p-dup');renderAll();}},
  {id:'route',label:'Router les libellés',state:!loaded?'todo':(c.unknown===0&&c.composite===0)?'done':'current',
   small:c.unknown?c.unknown+' inconnu(s)':c.composite?c.composite+' composite(s)':'tout est routé',
-  why:"C'est le cœur du correctif : dire que « C+ », « 5 », « 6 », « Canal+ / La Cinq » correspondent à telle chaîne.",
-  how:'« ✨ Auto-router » propose une chaîne, puis ajuste les menus à la main.',
-  go:function(){focusPanel('#p-routes');autoRouteAll();}},
- {id:'ambig',label:'Vérifier les ambigus',state:!loaded?'todo':(c.composite===0&&c.era===0)?'done':'current',
-  small:(c.composite+c.era)+' à vérifier',
-  why:'Un libellé composite mélange plusieurs chaînes : chaque programme doit être tranché.',
-  how:'Filtre les composites, coche les programmes dans Après, puis « Réassigner vers ».',
-  go:function(){S.issue=c.composite?'composite':'era';renderAll();focusPanel('#p-after');}},
- {id:'check',label:'Contrôler le résultat',state:!loaded?'todo':(c.unknown===0&&c.era===0&&c.composite===0)?'done':'todo',
-  small:(c.unknown===0&&c.era===0)?'prêt à exporter':'encore des bloquants',
-  why:'Avant montre le bug, Après montre la grille corrigée. Elles doivent différer.',
-  how:'Compare les deux colonnes ; la pastille du haut doit afficher « routage sain ».',
-  go:function(){focusPanel('#p-before');}},
- {id:'ship',label:'Exporter et déposer',state:S.exported?'done':(loaded&&c.unknown===0&&c.era===0)?'current':'todo',
-  small:S.exported?'fichiers téléchargés':'3 fichiers à déposer',
-  why:'Les corrections doivent revenir dans le dépôt pour que le site principal les affiche.',
-  how:'Exporter → 3 fichiers → chemins indiqués → generate_index_only.',
-  go:openExport}];}
+  why:'Dire une fois pour toutes que « C+ », « 5 », « 6 » correspondent à telle chaîne.',
+  how:'✨ Auto-router propose, puis ajuste les menus.',go:function(){focusPanel('#p-routes');autoRouteAll();}},
+ {id:'era',label:"Valider l'époque",state:!loaded?'todo':c.era===0?'done':'current',small:c.era+' hors époque',
+  why:"M6 avant mars 1987 c'est TV6 ; France 2 avant septembre 1992 c'est Antenne 2.",
+  how:'« Tout corriger » propose l\'équivalent valide.',go:function(){focusPanel('#p-issues');fixEra();}},
+ {id:'check',label:'Contrôler le résultat',state:!loaded?'todo':(c.dup===0&&c.unknown===0&&c.era===0)?'done':'todo',
+  small:(c.dup===0&&c.era===0)?'prêt à exporter':'encore des bloquants',
+  why:'Avant montre le bug, Après la grille corrigée, doublons masqués barrés.',
+  how:'Compare les colonnes ; la pastille DOUBLONS doit tomber à 0.',go:function(){focusPanel('#p-before');}},
+ {id:'ship',label:'Exporter et déposer',state:S.exported?'done':(loaded&&c.dup===0&&c.unknown===0&&c.era===0)?'current':'todo',
+  small:S.exported?'fichiers téléchargés':'3 fichiers',
+  why:'Les corrections doivent revenir dans le dépôt.',how:'Exporter → chemins → generate_index_only.',go:openExport}];}
 function nextAction(){var c=counts();
- if(!S.raw.length)return{ico:'📡',title:'Charger une année',why:'Aucune donnée en mémoire.',how:'Choisis une année dans la barre.',label:"Choisir l'année",calm:false,run:function(){$('#f-year').focus();},help:'load'};
- if(c.unknown)return{ico:'🧭',title:c.unknown+' libellé(s) non reconnu(s)',why:"Ces programmes tombent dans « Autres » au lieu de leur vraie chaîne — cause directe du mélange.",how:"Lance l'auto-routage, puis ajuste les menus douteux.",label:'✨ Auto-router',calm:false,run:autoRouteAll,help:'routage'};
- if(c.era)return{ico:'⛔',title:c.era+" programme(s) sur une chaîne inexistante à cette date",why:"M6 avant mars 1987, La Cinq avant février 1986, France 2 avant septembre 1992 : la chaîne est mal attribuée.",how:"La correction propose l'équivalent de l'époque.",label:"🔧 Corriger l'époque",calm:false,run:fixEra,help:'epoque'};
- if(c.composite)return{ico:'⚠️',title:c.composite+' libellé(s) composite(s) à trancher',why:'Un libellé comme « Canal+ / La Cinq » contient deux chaînes : chaque programme doit être vérifié.',how:'Filtre, coche, réassigne en masse.',label:'Voir les composites',calm:false,run:function(){S.issue='composite';renderAll();focusPanel('#p-after');},help:'composite'};
- if(c.conflict)return{ico:'🕒',title:c.conflict+' programme(s) en chevauchement',why:'Deux programmes d\'une même chaîne à la même minute : chaîne ou heure erronée.',how:'Filtre les chevauchements, corrige dans le tiroir.',label:'Voir les chevauchements',calm:false,run:function(){S.issue='conflict';renderAll();focusPanel('#p-after');},help:'chevauchement'};
- if(!S.exported)return{ico:'✅',title:'Routage sain — prêt à exporter',why:'Plus aucune anomalie bloquante. Reste à faire revenir les corrections dans le dépôt.',how:'Trois fichiers : routage persistant, année corrigée, rapport CSV.',label:'📥 Exporter',calm:true,run:openExport,help:'depot'};
- return{ico:'🚀',title:'Fichiers téléchargés — dépose-les',why:'Le site principal ne verra les corrections qu\'une fois les fichiers poussés.',how:'Suis les chemins et commandes git, puis generate_index_only.',label:'📖 Où déposer',calm:true,run:function(){openExport();setTimeout(function(){var e=$('#g-depot');if(e)e.scrollIntoView({behavior:'smooth',block:'start'});},220);},help:'depot'};}
+ if(!S.raw.length)return{ico:'📡',title:'Charger une année',why:'Aucune donnée en mémoire.',how:'Choisis une année.',label:'Choisir',calm:false,run:function(){$('#f-year').focus();},help:'load'};
+ if(c.dup)return{ico:'🎯',title:c.dup+' double(s) affichage(s) à trancher',why:'Le même titre apparaît le même jour sur deux chaînes. C\'est la cause du mélange, indépendamment de tout chevauchement.',how:'Garde l\'occurrence la plus fiable, masque les autres. Les cas évidents se règlent en un clic.',label:'🎯 Résoudre les évidents',calm:false,run:resolveAuto,help:'doublons'};
+ if(c.unknown)return{ico:'🧭',title:c.unknown+' libellé(s) non reconnu(s)',why:'Ces programmes tombent dans « Autres » au lieu de leur chaîne.',how:'Auto-routage puis ajustement manuel.',label:'✨ Auto-router',calm:false,run:autoRouteAll,help:'routage'};
+ if(c.era)return{ico:'⛔',title:c.era+' programme(s) sur une chaîne inexistante',why:'La chaîne n\'émettait pas à cette date : attribution forcément fausse.',how:'Correction vers l\'équivalent de l\'époque.',label:"🔧 Corriger l'époque",calm:false,run:fixEra,help:'epoque'};
+ if(c.exact)return{ico:'📑',title:c.exact+' doublon(s) exact(s)',why:'Même date, heure, titre et chaîne : ligne dupliquée dans la source.',how:'Dédoublonner masque la seconde occurrence.',label:'📑 Dédoublonner',calm:false,run:dedupeExact,help:'exacts'};
+ if(c.nomad)return{ico:'🧳',title:c.nomad+' titre(s) nomade(s)',why:'Un titre majoritairement sur une chaîne mais vu ailleurs, sans doublon le même jour : signal faible.',how:'Vérifie et réassigne si nécessaire.',label:'Voir les nomades',calm:false,run:function(){S.issue='nomad';renderAll();focusPanel('#p-after');},help:'nomades'};
+ if(!S.exported)return{ico:'✅',title:'Routage sain — prêt à exporter',why:'Plus de doublon ni de bloquant. Reste à déposer les corrections.',how:'Routage persistant, année corrigée, rapport CSV.',label:'📥 Exporter',calm:true,run:openExport,help:'depot'};
+ return{ico:'🚀',title:'Fichiers téléchargés — dépose-les',why:'Le site principal ne verra les corrections qu\'après le push.',how:'Chemins + commandes git, puis generate_index_only.',label:'📖 Où déposer',calm:true,run:function(){openExport();setTimeout(function(){var e=$('#g-depot');if(e)e.scrollIntoView({behavior:'smooth',block:'start'});},220);},help:'depot'};}
 
-/* ---- rendu ---- */
-function renderAll(){
- safe('moteur',rebuild);
+/* ---------- rendu ---------- */
+function renderAll(){safe('moteur',rebuild);
  safe('kpi',renderKpis);safe('filtres',renderFilters);safe('rail',renderRail);safe('next',renderNext);
- safe('anomalies',renderIssues);safe('routage',renderRoutes);safe('ordre',renderOrder);
+ safe('doublons',renderDups);safe('anomalies',renderIssues);safe('routage',renderRoutes);safe('ordre',renderOrder);
  safe('grilles',renderGrids);safe('bulk',renderBulk);safe('vues',renderViews);safe('stamp',renderStamp);}
 function renderStamp(){var st=$('#stamp');if(st)st.textContent=S.year+' · '+nf(S.raw.length)+' programmes · '+S.days.length+' journées · '+(S.source==='fichier'?'fichier dépôt':'démonstration');
  var p=$('#src-pill');if(p){p.textContent=S.source==='fichier'?'DONNÉES RÉELLES':'DÉMONSTRATION';p.className='pill '+(S.source==='fichier'?'ok':'warn');}
- var bad=S.raw.filter(function(x){return x.unknown||x.era;}).length,warn=S.raw.filter(function(x){return x.composite||x.conflict;}).length;
- var h=$('#health-pill');if(h){h.textContent=bad?bad+' bloquant(s)':warn?warn+' à vérifier':'routage sain';h.className='pill '+(bad?'bad':warn?'warn':'ok');}}
-function renderKpis(){var rr=routeRows(),c=counts();
+ var c=counts(),dp=$('#dup-pill');if(dp){dp.textContent=c.dup?c.dup+' doublon(s)':'0 doublon';dp.className='pill '+(c.dup?'dup':'ok');}
+ var bad=c.unknown+c.era,warn=c.composite+c.nomad+c.exact,h=$('#health-pill');
+ if(h){h.textContent=bad?bad+' bloquant(s)':warn?warn+' à vérifier':'routage sain';h.className='pill '+(bad?'bad':warn?'warn':'ok');}}
+function renderKpis(){var c=counts(),rr=routeRows();
  $('#k-prog').textContent=nf(S.raw.length);$('#k-raw').textContent=nf(rr.length);
  $('#k-ch').textContent=nf(Object.keys(S.raw.reduce(function(a,p){a[p.channel]=1;return a;},{})).length);
- $('#k-bad').textContent=nf(c.unknown);$('#k-warn').textContent=nf(c.issues);
- $('#k-fixed').textContent=nf(Object.keys(S.overrides).length);$('#k-days').textContent=nf(S.days.length);}
+ $('#k-bad').textContent=nf(c.unknown);$('#k-dup').textContent=nf(c.dup);$('#k-nomad').textContent=nf(c.nomad);
+ $('#k-fixed').textContent=nf(c.fixed);$('#k-hidden').textContent=nf(c.hidden);}
 function renderFilters(){var ys=$('#f-year');
  if(!ys.options.length){var h='';for(var y=1970;y<=1999;y++)h+='<option value="'+y+'">'+y+'</option>';ys.innerHTML=h;}
  ys.value=String(S.year);
@@ -580,37 +684,61 @@ function renderFilters(){var ys=$('#f-year');
  $('#f-ch').innerHTML='<option value="all">Toutes</option>'+chs.map(function(c){return '<option value="'+esc(c)+'"'+(S.ch===c?' selected':'')+'>'+esc(c)+'</option>';}).join('');
  $('#bulk-target').innerHTML=S.order.filter(function(c){return c!=='Autres';}).map(function(c){return '<option value="'+esc(c)+'">'+esc(c)+'</option>';}).join('');
  $('#q').value=S.q;$('#f-issue').value=S.issue;$('#f-sort').value=S.sort;$('#f-layout').value=S.layout;
- $('#f-tol').value=String(S.tol);$('#tol-val').textContent=S.tol;
+ $('#f-tol').value=String(S.tol);$('#tol-val').textContent=S.tol;$('#f-conf').value=String(S.conf);$('#conf-val').textContent=S.conf;
  $('#f-era').checked=S.era;$('#f-split').checked=S.split;$('#f-compact').checked=S.compact;
- document.body.classList.toggle('compact',S.compact);
- $('#grid2').classList.toggle('stacked',S.layout==='stack');}
+ document.body.classList.toggle('compact',S.compact);$('#grid2').classList.toggle('stacked',S.layout==='stack');}
 function renderRail(){var st=steps();
  $('#rail').innerHTML=st.map(function(s,i){return '<button class="step '+s.state+'" type="button" data-step="'+i+'" title="'+esc(s.why)+'"><span class="no">'+(s.state==='done'?'✓':i+1)+'</span><span class="lb"><b>'+esc(s.label)+'</b><small>'+esc(s.small)+'</small></span></button>';}).join('');
  $$('#rail [data-step]').forEach(function(b){b.onclick=function(){blip('tick');st[+b.dataset.step].go();};});}
-function renderNext(){var n=nextAction();
- $('#next').classList.toggle('calm',n.calm);$('#next-ico').textContent=n.ico;
+function renderNext(){var n=nextAction();$('#next').classList.toggle('calm',n.calm);$('#next-ico').textContent=n.ico;
  $('#next-title').textContent=n.title;$('#next-why').textContent=n.why;$('#next-how').textContent=n.how;
  var d=$('#next-do');d.textContent=n.label;d.className='btn '+(n.calm?'good':'primary');
  d.onclick=function(){blip('tick');n.run();};$('#next-help').onclick=function(){openGuide(n.help);};}
+function renderDups(){var gs=S.dups;$('#dup-count').textContent=dupOpen().length;var box=$('#dups');
+ if(!gs.length){box.innerHTML='<div class="empty"><b>Aucun double affichage 🎉</b>Aucun titre n\'apparaît le même jour sur deux chaînes différentes dans '+S.year+'.</div>';return;}
+ box.innerHTML=gs.map(function(g,gi){
+  var cls=g.legit?'legit':(g.items.every(function(p){return p.hidden||p.id===g.keep.id;})?'resolved':'');
+  var head='<header>'+chTag(g.keep.channel)+'<b>'+esc(g.title)+'</b><span class="meta">'+esc(shortDate(g.date))+' · '+g.items.length+' occurrences · écart '+g.gap+' pts'+(g.sameTime?' · heure identique':'')+'</span><span class="sp"></span>'+(g.legit?'<span class="tag info">double diffusion légitime</span>':g.gap>=S.conf?'<span class="tag dup">évident</span>':'<span class="tag warn">à vérifier</span>')+'</header>';
+  var occs=g.items.map(function(p,oi){
+   var isKeep=p.id===g.keep.id;
+   return '<div class="occ'+(isKeep?' keep':(p.hidden?'':' drop'))+(p.hidden?' hidden-o':'')+'">'+
+    '<div class="top">'+chTag(p.channel)+'<span class="t">'+esc(p.time||'--:--')+'</span>'+(isKeep?'<span class="tag ok">à garder</span>':'')+(p.hidden?'<span class="tag n">masqué</span>':'')+(p.fixed&&!p.hidden?'<span class="tag ok">corrigé</span>':'')+'</div>'+
+    '<div class="raw">brut « '+esc(p.rawChannel)+' » · '+esc(p.how)+'</div>'+
+    '<div class="score"><span>'+p.score+'</span><span class="bar2"><i style="width:'+p.score+'%"></i></span></div>'+
+    '<div class="why">'+esc(p.why.join(' · '))+'</div>'+
+    '<div class="acts">'+(p.hidden?'<button class="mini good" type="button" data-unhide="'+gi+'|'+oi+'">↺ Restaurer</button>':'<button class="mini danger" type="button" data-hide="'+gi+'|'+oi+'">🚫 Masquer</button>')+
+    '<button class="mini" type="button" data-edit="'+esc(p.id)+'">✏️ Éditer</button></div></div>';}).join('');
+  var foot='<div class="dupfoot">'+(g.legit?'<button class="mini" type="button" data-unlegit="'+gi+'">↺ Rouvrir le cas</button>':
+   '<button class="mini good" type="button" data-keephide="'+gi+'">✔ Garder la meilleure, masquer les autres</button>'+
+   '<button class="mini" type="button" data-keepmove="'+gi+'">↦ Garder la meilleure, réassigner les autres</button>'+
+   '<button class="mini" type="button" data-legit="'+gi+'">≡ Double diffusion légitime</button>')+'</div>';
+  return '<div class="dupgrp '+cls+'">'+head+'<div class="occs">'+occs+'</div>'+foot+'</div>';}).join('');
+ box.querySelectorAll('[data-hide]').forEach(function(b){b.onclick=function(){var p=b.dataset.hide.split('|');setAct(S.dups[+p[0]].items[+p[1]].id,'hide');};});
+ box.querySelectorAll('[data-unhide]').forEach(function(b){b.onclick=function(){var p=b.dataset.unhide.split('|');clearAct(S.dups[+p[0]].items[+p[1]].id);};});
+ box.querySelectorAll('[data-edit]').forEach(function(b){b.onclick=function(){openDetail(b.dataset.edit);};});
+ box.querySelectorAll('[data-keephide]').forEach(function(b){b.onclick=function(){keepAnd(+b.dataset.keephide,'hide');};});
+ box.querySelectorAll('[data-keepmove]').forEach(function(b){b.onclick=function(){keepAnd(+b.dataset.keepmove,'move');};});
+ box.querySelectorAll('[data-legit]').forEach(function(b){b.onclick=function(){markLegit(+b.dataset.legit,true);};});
+ box.querySelectorAll('[data-unlegit]').forEach(function(b){b.onclick=function(){markLegit(+b.dataset.unlegit,false);};});}
 function renderIssues(){var l=issues();$('#issue-count').textContent=l.length;var box=$('#issues');
- if(!l.length){box.innerHTML='<div class="empty"><b>Aucune anomalie 🎉</b>Chaque libellé de '+S.year+' resolve vers une chaîne qui existait à la date de diffusion. Passe à l\'export.</div>';return;}
- box.innerHTML=l.map(function(i,n){return '<div class="issue '+i.sev+'"><span>'+(i.sev==='bad'?'⛔':'⚠️')+'</span><span class="tx"><b>'+esc(i.t)+'</b><small>'+esc(i.d)+'</small></span>'+(i.fix?'<button class="mini" type="button" data-fix="'+n+'">🔧 Corriger</button>':'')+'</div>';}).join('');
+ if(!l.length){box.innerHTML='<div class="empty"><b>Rien à signaler 🎉</b>Libellés reconnus, chaînes valides, aucun titre nomade ni doublon exact.</div>';return;}
+ box.innerHTML=l.map(function(i,n){return '<div class="issue '+i.sev+'"><span>'+(i.sev==='bad'?'⛔':i.sev==='info'?'🧳':'⚠️')+'</span><span class="tx"><b>'+esc(i.t)+'</b><small>'+esc(i.d)+'</small></span>'+(i.fix?'<button class="mini" type="button" data-fix="'+n+'">🔧 Corriger</button>':'')+'</div>';}).join('');
  box.querySelectorAll('[data-fix]').forEach(function(b){b.onclick=function(){applyFix(l[+b.dataset.fix].fix);};});}
 function renderRoutes(){var rr=routeRows();$('#route-count').textContent=rr.length;
  var opts=S.order.map(function(c){return '<option value="'+esc(c)+'">'+esc(c)+'</option>';}).join('');
  $('#routes').innerHTML=rr.map(function(r,i){var cls=r.how==='inconnu'?'unknown':r.tokens.length>1?'composite':'mapped';
   var badge=r.how==='inconnu'?'<span class="tag bad">non reconnu</span>':r.tokens.length>1?'<span class="tag warn">'+r.tokens.length+' chaînes</span>':S.routes[r.k]?'<span class="tag ok">manuel</span>':'<span class="tag ok">auto</span>';
-  return '<div class="route '+cls+'">'+chTag(r.ch)+'<span class="raw" title="'+esc(r.raw)+'">'+esc(r.raw)+'</span><span class="n">'+r.n+'×</span><select data-ri="'+i+'" title="Chaîne vers laquelle envoyer ce libellé">'+opts+'</select><span class="tags">'+badge+(r.era?'<span class="tag bad">époque</span>':'')+'</span></div>';}).join('');
+  return '<div class="route '+cls+'">'+chTag(r.ch)+'<span class="raw" title="'+esc(r.raw)+'">'+esc(r.raw)+'</span><span class="n">'+r.n+'×</span><select data-ri="'+i+'">'+opts+'</select><span class="tags">'+badge+(r.era?'<span class="tag bad">époque</span>':'')+'</span></div>';}).join('');
  $$('#routes select[data-ri]').forEach(function(sel){var row=rr[+sel.dataset.ri];sel.value=row.ch;
-  sel.onchange=function(){pushUndo();S.routes[row.k]=sel.value;persistRoutes();S.dirty=true;blip('ok');renderAll();
+  sel.onchange=function(){pushUndo();S.routes[row.k]=sel.value;persist();S.dirty=true;blip('ok');renderAll();
    toast('« '+row.raw+' » → '+sel.value,'ok',{label:'Annuler',fn:undo});};});}
-function renderOrder(){var box=$('#order');
- box.innerHTML='<span class="lb">Ordre d\'affichage — glisser</span>'+S.order.map(function(c,i){var col=chColor(c);
-  return '<span class="ochip" draggable="true" data-ord="'+i+'" style="background:'+col+';color:'+(LIGHT.indexOf(col)>=0?'#0a0810':'#fff')+'" title="Glisser pour déplacer '+esc(c)+'"><span>⠿</span>'+esc(c)+'</span>';}).join('');}
+function renderOrder(){$('#order').innerHTML='<span class="lb">Ordre d\'affichage — glisser</span>'+S.order.map(function(c,i){var col=chColor(c);
+ return '<span class="ochip" draggable="true" data-ord="'+i+'" style="background:'+col+';color:'+(LIGHT.indexOf(col)>=0?'#0a0810':'#fff')+'"><span>⠿</span>'+esc(c)+'</span>';}).join('');}
 function progRow(p,mode){var b=[];
- if(mode==='after'){if(p.unknown)b.push('<span class="tag bad">?</span>');if(p.composite)b.push('<span class="tag warn">composite</span>');
-  if(p.era)b.push('<span class="tag bad">époque</span>');if(p.conflict)b.push('<span class="tag warn">chevauch.</span>');if(p.fixed)b.push('<span class="tag ok">réassigné</span>');}
- return '<div class="prog'+(S.sel[p.id]?' sel':'')+(p.conflict&&mode==='after'?' conflict':'')+'">'+
+ if(mode==='after'){if(p.dup)b.push('<span class="tag dup">doublon</span>');if(p.nomad)b.push('<span class="tag info">nomade</span>');
+  if(p.exact)b.push('<span class="tag warn">exact</span>');if(p.unknown)b.push('<span class="tag bad">?</span>');
+  if(p.era&&!p.hidden)b.push('<span class="tag bad">époque</span>');if(p.hidden)b.push('<span class="tag n">masqué</span>');else if(p.fixed)b.push('<span class="tag ok">corrigé</span>');}
+ return '<div class="prog'+(S.sel[p.id]?' sel':'')+(p.dup&&mode==='after'?' dup':'')+(p.hidden&&mode==='after'?' hid':'')+'">'+
   (mode==='after'?'<input type="checkbox" data-pick="'+esc(p.id)+'"'+(S.sel[p.id]?' checked':'')+' aria-label="Sélectionner">':'')+
   '<span class="t">'+esc(p.time||'--:--')+'</span><span class="b"><b title="'+esc(p.title)+'">'+esc(p.title)+'</b><small>'+esc(shortDate(p.date))+(mode==='before'?' · brut « '+esc(p.rawChannel)+' »':' · '+esc(p.rawChannel)+' → '+esc(p.channel))+'</small></span><span class="act">'+b.join('')+(mode==='after'?'<button class="mini" type="button" data-edit="'+esc(p.id)+'">✏️</button>':'')+'</span></div>';}
 function renderGrids(){var list=filtered(),ids={};list.forEach(function(p){ids[p.id]=1;});
@@ -618,13 +746,13 @@ function renderGrids(){var list=filtered(),ids={};list.forEach(function(p){ids[p
  S.raw.forEach(function(p){if(!ids[p.id])return;var k=p.rawChannel||'(vide)';if(!bm[k]){bm[k]=[];bn++;}bm[k].push(p);});
  list.forEach(function(p){if(!am[p.channel]){am[p.channel]=[];an++;}am[p.channel].push(p);});
  $('#before-n').textContent=bn;$('#after-n').textContent=an;
- var bkeys=Object.keys(bm).sort(function(a,b){return bm[b].length-bm[a].length||a.localeCompare(b);});
- $('#before').innerHTML=bn?bkeys.map(function(raw){var ps=bm[raw],t=tokens(raw),bad=!autoRoute(raw)&&!S.routes[key(raw)];
+ $('#before').innerHTML=bn?Object.keys(bm).sort(function(a,b){return bm[b].length-bm[a].length||a.localeCompare(b);}).map(function(raw){
+  var ps=bm[raw],t=tokens(raw),bad=!autoRoute(raw)&&!S.routes[key(raw)];
   return '<div class="chblock"><div class="chhead"><span class="chip" style="background:'+(bad?'#ff3b47':t.length>1?'#ffb020':'#4a4266')+';color:'+(bad||t.length>1?'#0a0810':'#f4f0fc')+'">'+esc(raw)+'</span><span class="meta">'+ps.length+' prog.</span>'+(t.length>1?'<span class="tag warn">'+esc(t.join(' + '))+'</span>':bad?'<span class="tag bad">non reconnu</span>':'')+'</div>'+ps.sort(function(a,b){return tmin(a.time)-tmin(b.time);}).map(function(p){return progRow(p,'before');}).join('')+'</div>';}).join(''):'<div class="empty"><b>Rien</b>Ajuste les filtres.</div>';
- var akeys=Object.keys(am).sort(function(a,b){return ord(a)-ord(b);});
- $('#after').innerHTML=an?akeys.map(function(ch){var ps=am[ch],bad=ps.filter(function(p){return p.unknown||p.era;}).length,warn=ps.filter(function(p){return p.composite||p.conflict;}).length;
-  return '<div class="chblock"><div class="chhead">'+chTag(ch)+'<span class="meta">'+ps.length+' prog.</span>'+(bad?'<span class="tag bad">'+bad+' à corriger</span>':warn?'<span class="tag warn">'+warn+' à vérifier</span>':'<span class="tag ok">ok</span>')+'</div>'+ps.map(function(p){return progRow(p,'after');}).join('')+'</div>';}).join(''):'<div class="empty"><b>Rien</b>Ajuste les filtres.</div>';
- $('#status').textContent=nf(list.length)+' programme(s) affiché(s) · '+an+' chaîne(s) après routage · '+bn+' libellé(s) brut(s) avant';
+ $('#after').innerHTML=an?Object.keys(am).sort(function(a,b){return ord(a)-ord(b);}).map(function(ch){
+  var ps=am[ch],bad=ps.filter(function(p){return !p.hidden&&(p.unknown||p.era);}).length,dp=ps.filter(function(p){return p.dup&&!p.hidden;}).length;
+  return '<div class="chblock"><div class="chhead">'+chTag(ch)+'<span class="meta">'+ps.length+' prog.</span>'+(dp?'<span class="tag dup">'+dp+' doublon(s)</span>':'')+(bad?'<span class="tag bad">'+bad+' à corriger</span>':(!dp?'<span class="tag ok">ok</span>':''))+'</div>'+ps.map(function(p){return progRow(p,'after');}).join('')+'</div>';}).join(''):'<div class="empty"><b>Rien</b>Ajuste les filtres.</div>';
+ $('#status').textContent=nf(list.length)+' programme(s) affiché(s) · '+an+' chaîne(s) après routage · '+bn+' libellé(s) brut(s) avant · '+counts().hidden+' masqué(s)';
  $$('#after [data-pick]').forEach(function(c){c.onchange=function(){if(c.checked){S.sel[c.dataset.pick]=1;S.selN++;}else{delete S.sel[c.dataset.pick];S.selN=Math.max(0,S.selN-1);}
   renderBulk();c.closest('.prog').classList.toggle('sel',c.checked);};});
  $$('#after [data-edit]').forEach(function(b){b.onclick=function(){openDetail(b.dataset.edit);};});}
@@ -634,93 +762,124 @@ function renderViews(){$('#views').innerHTML=S.views.length?S.views.map(function
   var v=S.views.filter(function(x){return x.id===b.dataset.v;})[0];if(!v)return;Object.keys(v.f).forEach(function(k){S[k]=v.f[k];});boot(v.f.year);};});
  $$('#views [data-vd]').forEach(function(b){b.onclick=function(e){e.stopPropagation();S.views=S.views.filter(function(v){return v.id!==b.dataset.vd;});lsSet(VKEY,JSON.stringify(S.views));renderViews();};});}
 
-/* ---- mutations ---- */
-function pushUndo(){S.undo.push({routes:JSON.parse(JSON.stringify(S.routes)),overrides:JSON.parse(JSON.stringify(S.overrides))});if(S.undo.length>40)S.undo.shift();}
-function undo(){var u=S.undo.pop();if(!u){toast('Rien à annuler.','warn');return;}S.routes=u.routes;S.overrides=u.overrides;persistRoutes();renderAll();toast('Action annulée.','info');}
-function persistRoutes(){lsSet(RKEY,JSON.stringify(S.routes));}
+/* ---------- mutations ---------- */
+function pushUndo(){S.undo.push({routes:JSON.parse(JSON.stringify(S.routes)),overrides:JSON.parse(JSON.stringify(S.overrides)),legit:JSON.parse(JSON.stringify(S.legit))});if(S.undo.length>50)S.undo.shift();}
+function undo(){var u=S.undo.pop();if(!u){toast('Rien à annuler.','warn');return;}S.routes=u.routes;S.overrides=u.overrides;S.legit=u.legit;persist();renderAll();toast('Action annulée.','info');}
+function persist(){lsSet(RKEY,JSON.stringify({routes:S.routes,legit:S.legit}));}
 function focusPanel(sel){var e=$(sel);if(!e)return;e.scrollIntoView({behavior:'smooth',block:'start'});
- if(e.animate)try{e.animate([{boxShadow:'0 0 0 0 rgba(255,45,149,0)'},{boxShadow:'0 0 0 4px rgba(255,45,149,.4)'},{boxShadow:'0 0 0 0 rgba(255,45,149,0)'}],{duration:1100});}catch(x){}}
+ if(e.animate)try{e.animate([{boxShadow:'0 0 0 0 rgba(255,138,31,0)'},{boxShadow:'0 0 0 4px rgba(255,138,31,.45)'},{boxShadow:'0 0 0 0 rgba(255,138,31,0)'}],{duration:1100});}catch(x){}}
+function setAct(id,act,ch){pushUndo();S.overrides[id]={act:act,ch:ch||''};S.dirty=true;blip(act==='hide'?'warn':'ok');renderAll();
+ toast(act==='hide'?'Occurrence masquée.':'Occurrence réassignée.','dup',{label:'Annuler',fn:undo});}
+function clearAct(id){pushUndo();delete S.overrides[id];S.dirty=true;blip('ok');renderAll();toast('Occurrence restaurée.','ok',{label:'Annuler',fn:undo});}
+function keepAnd(gi,mode){var g=S.dups[gi];if(!g)return;pushUndo();
+ g.items.forEach(function(p){if(p.id===g.keep.id){delete S.overrides[p.id];}
+  else S.overrides[p.id]=mode==='hide'?{act:'hide',ch:''}:{act:'reassign',ch:g.keep.channel};});
+ S.dirty=true;blip('ok');renderAll();
+ toast('« '+g.title+' » conservé sur '+g.keep.channel+' · '+(g.items.length-1)+' autre(s) '+(mode==='hide'?'masquée(s)':'réassignée(s)')+'.','ok',{label:'Annuler',fn:undo});}
+function legitKey(g){return g.fp+'|'+g.items.map(function(p){return p.id;}).sort().join(',');}
+function markLegit(gi,on){var g=S.dups[gi];if(!g)return;pushUndo();var k=legitKey(g);
+ if(on)S.legit[k]=1;else delete S.legit[k];persist();S.dirty=true;blip('info'===on?'ok':'warn');renderAll();
+ toast(on?'Double diffusion déclarée légitime.':'Cas rouvert.','info',{label:'Annuler',fn:undo});}
+function resolveAuto(){var gs=dupOpen().filter(function(g){return g.gap>=S.conf;});
+ if(!gs.length){toast('Aucun doublon assez évident (écart ≥ '+S.conf+' pts). Baisse le seuil ou tranche à la main.','warn');focusPanel('#p-dup');return;}
+ pushUndo();var n=0;gs.forEach(function(g){g.items.forEach(function(p){if(p.id!==g.keep.id){S.overrides[p.id]={act:'hide',ch:''};n++;}});});
+ S.dirty=true;blip('dup');renderAll();focusPanel('#p-dup');
+ toast('🎯 '+gs.length+' doublon(s) résolu(s) · '+n+' occurrence(s) masquée(s).','ok',{label:'Annuler',fn:undo});}
+function dedupeExact(){if(!S.exacts.length){toast('Aucun doublon exact.','warn');return;}
+ pushUndo();S.exacts.forEach(function(pair){S.overrides[pair[1].id]={act:'hide',ch:''};});
+ S.dirty=true;blip('ok');renderAll();toast(S.exacts.length+' ligne(s) dupliquée(s) masquée(s).','ok',{label:'Annuler',fn:undo});}
 function autoRouteAll(){var rr=routeRows().filter(function(r){return r.how==='inconnu'||r.tokens.length>1;});
- if(!rr.length){toast('Aucun libellé à router — tout est reconnu.','warn');focusPanel('#p-routes');return;}
+ if(!rr.length){toast('Tous les libellés sont reconnus.','warn');focusPanel('#p-routes');return;}
  pushUndo();var n=0;rr.forEach(function(r){var g=r.tokens[0]||autoRoute(r.raw);if(g){S.routes[r.k]=g;n++;}});
- persistRoutes();S.dirty=true;blip('ok');renderAll();focusPanel('#p-routes');
- toast('✨ '+n+' libellé(s) routé(s). Vérifie les composites.','ok',{label:'Annuler',fn:undo});}
-function fixEra(){var l=S.raw.filter(function(p){return p.era;});if(!l.length){toast('Aucun programme hors époque.','warn');return;}
+ persist();S.dirty=true;blip('ok');renderAll();focusPanel('#p-routes');toast('✨ '+n+' libellé(s) routé(s).','ok',{label:'Annuler',fn:undo});}
+function fixEra(){var l=S.raw.filter(function(p){return p.era&&!p.hidden;});if(!l.length){toast('Aucun programme hors époque.','warn');return;}
  pushUndo();var by={};l.forEach(function(p){(by[p.channel]=by[p.channel]||[]).push(p);});
- Object.keys(by).forEach(function(ch){var alt=eraAlt(ch);by[ch].forEach(function(p){S.overrides[p.id]=alt;});});
+ Object.keys(by).forEach(function(ch){var alt=eraAlt(ch);by[ch].forEach(function(p){S.overrides[p.id]={act:'reassign',ch:alt};});});
  S.dirty=true;blip('warn');renderAll();toast(l.length+" programme(s) replacés sur la chaîne de l'époque.",'ok',{label:'Annuler',fn:undo});}
-function applyFix(f){if(!f)return;pushUndo();
+function applyFix(f){if(!f)return;
+ if(f.type==='exact'){dedupeExact();return;}
+ pushUndo();
  if(f.type==='route'){var r=routeRows().filter(function(x){return x.k===f.k;})[0],g=(r&&r.tokens[0])||autoRoute(r?r.raw:'')||'Autres';
-  S.routes[f.k]=g;persistRoutes();S.dirty=true;blip('ok');renderAll();toast('« '+(r?r.raw:f.k)+' » → '+g,'ok',{label:'Annuler',fn:undo});return;}
- if(f.type==='era'){var alt=eraAlt(f.ch);f.list.forEach(function(id){S.overrides[id]=alt;});S.dirty=true;blip('warn');renderAll();
-  toast(f.list.length+' programme(s) '+f.ch+' → '+alt,'ok',{label:'Annuler',fn:undo});}}
-function fixAll(){var rr=routeRows().filter(function(r){return r.how==='inconnu'||r.tokens.length>1;}),eb=S.raw.filter(function(p){return p.era;});
- if(!rr.length&&!eb.length){toast('Rien à corriger automatiquement.','warn');return;}
- pushUndo();var n=0;rr.forEach(function(r){var g=r.tokens[0]||autoRoute(r.raw);if(g){S.routes[r.k]=g;n++;}});
+  S.routes[f.k]=g;persist();S.dirty=true;blip('ok');renderAll();toast('« '+(r?r.raw:f.k)+' » → '+g,'ok',{label:'Annuler',fn:undo});return;}
+ if(f.type==='era'){var alt=eraAlt(f.ch);f.list.forEach(function(id){S.overrides[id]={act:'reassign',ch:alt};});S.dirty=true;blip('warn');renderAll();
+  toast(f.list.length+' programme(s) '+f.ch+' → '+alt,'ok',{label:'Annuler',fn:undo});return;}
+ if(f.type==='nomad'){f.list.forEach(function(id){S.overrides[id]={act:'reassign',ch:f.home};});S.dirty=true;blip('ok');renderAll();
+  toast(f.list.length+' occurrence(s) rapatriée(s) sur '+f.home+'.','ok',{label:'Annuler',fn:undo});}}
+function fixAll(){var rr=routeRows().filter(function(r){return r.how==='inconnu'||r.tokens.length>1;}),eb=S.raw.filter(function(p){return p.era&&!p.hidden;});
+ var gs=dupOpen().filter(function(g){return g.gap>=S.conf;});
+ if(!rr.length&&!eb.length&&!gs.length&&!S.exacts.length){toast('Rien à corriger automatiquement.','warn');return;}
+ pushUndo();var n=0;
+ gs.forEach(function(g){g.items.forEach(function(p){if(p.id!==g.keep.id){S.overrides[p.id]={act:'hide',ch:''};n++;}});});
+ rr.forEach(function(r){var g=r.tokens[0]||autoRoute(r.raw);if(g){S.routes[r.k]=g;n++;}});
  var by={};eb.forEach(function(p){(by[p.channel]=by[p.channel]||[]).push(p);});
- Object.keys(by).forEach(function(ch){var alt=eraAlt(ch);by[ch].forEach(function(p){S.overrides[p.id]=alt;n++;});});
- persistRoutes();S.dirty=true;blip('ok');renderAll();toast('🔧 '+n+' correction(s) appliquée(s).','ok',{label:'Annuler',fn:undo});}
+ Object.keys(by).forEach(function(ch){var alt=eraAlt(ch);by[ch].forEach(function(p){S.overrides[p.id]={act:'reassign',ch:alt};n++;});});
+ S.exacts.forEach(function(pair){S.overrides[pair[1].id]={act:'hide',ch:''};n++;});
+ persist();S.dirty=true;blip('dup');renderAll();toast('🔧 '+n+' correction(s) appliquée(s).','ok',{label:'Annuler',fn:undo});}
 
-/* ---- tiroirs ---- */
+/* ---------- tiroirs ---------- */
 function anyOpen(){return ['#drawer','#gdrawer','#edrawer'].some(function(s){var e=$(s);return e&&!e.hidden;});}
 function lock(){document.body.style.overflow=anyOpen()?'hidden':'';}
 function openDetail(id){var p=S.raw.filter(function(x){return x.id===id;})[0];if(!p)return;S.detail=p;
  $('#d-title').textContent=p.title;$('#d-sub').textContent=shortDate(p.date)+' · '+(p.time||'--:--')+' · brut « '+p.rawChannel+' »';
- var c=canon(p.rawChannel,p.date);
- $('#d-body').innerHTML='<div class="kv"><span>Libellé brut</span><b>'+esc(p.rawChannel)+'</b><span>Détection auto</span><b>'+esc(c.ch)+'</b><span>Méthode</span><b>'+esc(c.how)+'</b><span>Chaînes dans le libellé</span><b>'+esc(c.tokens.join(', ')||'aucune')+'</b><span>Chaîne retenue</span><b>'+esc(p.channel)+'</b><span>Valide à cette date</span><b style="color:'+(eraOk(p.channel,p.date)?'var(--ok)':'var(--bad)')+'">'+(eraOk(p.channel,p.date)?'oui':'non')+'</b></div>'+
- (p.composite?'<div class="gcall warn">Ce libellé contient '+c.tokens.length+' chaînes. Choisis celle de <b>ce programme précis</b>.</div>':'')+
+ var c=canon(p.rawChannel),st=S.titleStats[norm(p.title)]||{home:'—',share:0,total:0};
+ var sib=S.raw.filter(function(q){return q.fp===p.fp&&q.id!==p.id;});
+ $('#d-body').innerHTML='<div class="kv"><span>Libellé brut</span><b>'+esc(p.rawChannel)+'</b><span>Détection auto</span><b>'+esc(c.ch)+'</b><span>Méthode</span><b>'+esc(c.how)+'</b><span>Chaînes dans le libellé</span><b>'+esc(c.tokens.join(', ')||'aucune')+'</b><span>Chaîne retenue</span><b>'+esc(p.channel)+'</b><span>Valide à cette date</span><b style="color:'+(eraOk(p.channel,p.date)?'var(--ok)':'var(--bad)')+'">'+(eraOk(p.channel,p.date)?'oui':'non')+'</b><span>Chaîne habituelle du titre</span><b>'+esc(st.home)+' ('+Math.round(st.share*100)+' % de '+st.total+')</b>'+(p.score!=null?'<span>Score doublon</span><b>'+p.score+'/100</b>':'')+'</div>'+
+ (sib.length?'<div class="gcall dup">Ce titre apparaît aussi le '+esc(shortDate(p.date))+' sur '+sib.map(function(q){return esc(q.channel)+' à '+esc(q.time||'--:--');}).join(', ')+'. C\'est un double affichage.</div>':'')+
  (p.era?'<div class="gcall">La chaîne retenue n\'émettait pas à cette date. Suggestion : <b>'+esc(eraAlt(p.channel))+'</b>.</div>':'')+
  '<div class="f"><label for="dp-ch">Chaîne</label><select id="dp-ch">'+S.order.map(function(x){return '<option value="'+esc(x)+'"'+(x===p.channel?' selected':'')+'>'+esc(x)+'</option>';}).join('')+'</select></div>'+
  '<div class="f"><label for="dp-time">Heure</label><input id="dp-time" value="'+esc(p.time)+'" placeholder="HH:MM"></div>'+
  '<div class="f"><label for="dp-title">Titre</label><input id="dp-title" value="'+esc(p.title)+'"></div>'+
  '<label class="chk box"><input type="checkbox" id="dp-route"> Appliquer « '+esc(p.rawChannel)+' » → chaîne choisie à tout le libellé</label>'+
- '<p class="hint">La réassignation est exportée dans <code>channel-routing.json</code> : elle survit aux régénérations.</p>';
+ '<p class="hint">Masquer retire la ligne du fichier exporté sans toucher à la source. Tout est réversible.</p>';
  $('#scrim').hidden=false;$('#drawer').hidden=false;lock();}
 function closeDetail(){$('#scrim').hidden=true;$('#drawer').hidden=true;lock();}
 function saveDetail(){var p=S.detail;if(!p)return;pushUndo();
  var ch=$('#dp-ch').value,t=nTime($('#dp-time').value),title=$('#dp-title').value.trim();
- S.overrides[p.id]=ch;if($('#dp-route').checked){S.routes[key(p.rawChannel)]=ch;persistRoutes();}
+ S.overrides[p.id]={act:'reassign',ch:ch};if($('#dp-route').checked){S.routes[key(p.rawChannel)]=ch;persist();}
  if(t&&t!==p.time)p.time=t;if(title&&title!==p.title)p.title=title;
  S.dirty=true;blip('ok');closeDetail();renderAll();toast('« '+p.title+' » → '+ch,'ok',{label:'Annuler',fn:undo});}
 
 var GUIDE=[
- {id:'probleme',h:'Le problème',b:'<p>En 1987, <b>Canal+</b> (1984), <b>La Cinq</b> (février 1986) et <b>M6</b> (mars 1987, qui remplace TV6) coexistent. Les archives les nomment <code>C+</code>, <code>CANAL PLUS</code>, <code>LA 5</code>, <code>5</code>, <code>M 6</code>, <code>6</code>, parfois <code>Canal+ / La Cinq</code>.</p><p>Le site range tout sous Canal+ <b>et</b> crée des blocs séparés. <b>Ce n\'est pas un bug d\'affichage, c\'est un bug de nommage.</b></p><div class="gcall">Cet outil recense les libellés, propose une chaîne, te laisse trancher, puis exporte une table durable.</div>'},
- {id:'load',h:'Étape 1 — charger',b:'<p>Sélecteur <b>Année</b>. L\'outil lit <code>data/AAAA.json</code>.</p><ul><li><b>DONNÉES RÉELLES</b> : tes fichiers sont lus.</li><li><b>DÉMONSTRATION</b> : fichier introuvable — ouvre la page depuis <code>https://…github.io/tv-retro/channels/</code>, pas depuis le disque.</li></ul>'},
- {id:'anomalies',h:'Étape 2 — diagnostic',b:'<ul><li><b>Non reconnu</b> ⛔ — aucune chaîne connue, les programmes tombent dans « Autres ».</li><li><b>Composite</b> ⚠️ — plusieurs chaînes dans un libellé.</li><li><b>Hors époque</b> ⛔ — la chaîne n\'existait pas. M6 en janvier 1987, c\'est TV6.</li><li><b>Chevauchement</b> ⚠️ — deux programmes à ±X minutes, réglable par le curseur.</li></ul><p><b>Tout corriger</b> applique les corrections évidentes, annulables.</p>'},
- {id:'routage',h:'Étape 3 — routage',b:'<ol><li><b>✨ Auto-router</b> propose une chaîne par libellé douteux.</li><li>Vérifie les lignes <span class="tag warn">2 chaînes</span>.</li><li>Corrige les menus ; la colonne Après se met à jour aussitôt.</li></ol><div class="gcall ok">Le routage est exporté dans <code>channel-routing.json</code> et vaut pour toutes les années.</div>'},
- {id:'composite',h:'Étape 4 — trancher',b:'<ol><li>Filtre <b>Composites</b>.</li><li>Coche dans <b>Après</b> les programmes qui appartiennent à La Cinq ou M6.</li><li>Barre rose : <b>Réassigner vers</b> → <b>Appliquer</b>.</li></ol><p>Pour un cas isolé : <b>✏️</b> ouvre le tiroir (chaîne, heure, titre).</p>'},
+ {id:'doublons',h:'Pourquoi les doublons, plus les chevauchements',b:'<p>Un flash info dure une minute : deux programmes proches ne sont pas une erreur. Et seule l\'heure de début étant connue, un programme mal attribué peut s\'insérer proprement entre deux émissions de la chaîne tierce.</p><p>Le signal fiable est l\'<b>empreinte date + titre</b> : un même titre le même jour sur deux chaînes = <b>double affichage</b>, quelle que soit l\'heure.</p><div class="gcall dup">Le curseur <b>Écart doublon</b> définit jusqu\'à combien de minutes d\'écart deux occurrences sont considérées comme le même passage. À 720 min, toute la journée est comparée.</div>'},
+ {id:'score',h:'Le score de confiance',b:'<p>Chaque occurrence part de 50 points, puis :</p><ul><li><b>+22</b> chaîne valide à cette date, <b>−55</b> sinon</li><li><b>+26</b> libellé routé à la main, <b>+18</b> libellé explicite, <b>−22</b> composite, <b>−38</b> non reconnu</li><li><b>+26 × part</b> du titre habituellement sur cette chaîne, <b>−12</b> si le titre vit ailleurs</li><li><b>+6</b> horaire identique à l\'autre occurrence</li></ul><p>La meilleure est encadrée en vert. Le curseur <b>Confiance</b> fixe l\'écart de score à partir duquel la résolution automatique est permise.</p>'},
+ {id:'resoudre',h:'Résoudre un doublon',b:'<ul><li><b>Garder la meilleure, masquer les autres</b> — le cas le plus fréquent : la ligne fautive disparaît du fichier exporté.</li><li><b>Garder la meilleure, réassigner les autres</b> — quand les deux lignes sont utiles mais mal étiquetées.</li><li><b>Double diffusion légitime</b> — une vraie rediffusion simultanée existe : le cas est marqué et sort de la file.</li><li><b>🚫 Masquer</b> / <b>↺ Restaurer</b> occurrence par occurrence.</li></ul><div class="gcall ok">Tout est annulable : toast « Annuler » ou <span class="kbd">Ctrl</span>+<span class="kbd">Z</span>.</div>'},
+ {id:'nomades',h:'Titres nomades',b:'<p>Un titre présent majoritairement sur une chaîne mais vu ailleurs, <b>sans doublon le même jour</b>. Signal faible : ce peut être une vraie rediffusion un autre jour.</p><p>La correction propose de rapatrier les occurrences isolées sur la chaîne habituelle. À utiliser après vérification.</p>'},
+ {id:'exacts',h:'Doublons exacts',b:'<p>Même date, même heure, même titre, même chaîne : la ligne est simplement dupliquée dans la source. <b>📑 Dédoublonner</b> masque la seconde occurrence.</p>'},
+ {id:'routage',h:'Table de routage',b:'<p>Une ligne par libellé brut. Le menu fixe la chaîne pour <b>tous</b> les programmes portant ce libellé.</p><ol><li><b>✨ Auto-router</b> propose une chaîne par libellé douteux.</li><li>Vérifie les lignes marquées <span class="tag warn">2 chaînes</span>.</li><li>Corrige : la colonne Après se met à jour aussitôt.</li></ol>'},
+ {id:'anomalies',h:'Autres anomalies',b:'<ul><li><b>Non reconnu</b> ⛔ — aucune chaîne connue, tombe dans « Autres ».</li><li><b>Composite</b> ⚠️ — plusieurs chaînes dans un libellé.</li><li><b>Hors époque</b> ⛔ — la chaîne n\'existait pas.</li><li><b>Nomade</b> 🧳 et <b>exact</b> ⚠️ — voir leurs sections.</li></ul><p>Le chevauchement n\'est plus listé : il ne prouve rien.</p>'},
  {id:'epoque',h:'Dates des chaînes',b:'<ul><li><b>TV6</b> : mars 1986 → février 1987</li><li><b>M6</b> : 1<sup>er</sup> mars 1987</li><li><b>La Cinq</b> : février 1986 → avril 1992</li><li><b>Canal+</b> : novembre 1984</li><li><b>Antenne 2 / FR3</b> → <b>France 2 / France 3</b> : 7 septembre 1992</li><li><b>La Sept</b> → <b>Arte</b> : 1992</li></ul>'},
- {id:'chevauchement',h:'Chevauchements',b:'<p>Deux programmes d\'une même chaîne à la même minute : chaîne ou heure erronée. Le curseur <b>Tolérance</b> fixe l\'écart signalé ; à 0, seules les heures identiques le sont.</p>'},
- {id:'comparer',h:'Étape 5 — comparer',b:'<p><b>Avant</b> : les blocs tels que nommés dans le fichier — ce que ton site affiche aujourd\'hui.</p><p><b>Après</b> : après routage, dans l\'ordre défini par glisser-déposer.</p><div class="gcall ok">Objectif : pastille <b>routage sain</b>, et La Cinq / M6 séparés de Canal+.</div>'},
- {id:'depot',h:'Étape 6 — déposer',b:'<ol><li><code>data/channel-routing.json</code> — couche persistante, jamais écrasée.</li><li><code>data/AAAA.json</code> — année corrigée, remplace l\'existante.</li><li><code>routage-AAAA.csv</code> — rapport de relecture, pas besoin de le déposer.</li></ol><p>Commit, push, puis <b>generate_index_only</b>.</p>'},
- {id:'raccourcis',h:'Raccourcis',b:'<ul><li><span class="kbd">/</span> recherche</li><li><span class="kbd">Échap</span> ferme le tiroir</li><li><span class="kbd">Ctrl</span>+<span class="kbd">Z</span> annule</li><li><b>⭐ Vue</b> mémorise les filtres</li><li><b>Disposition</b> empile les colonnes si elles sont trop étroites</li><li>🔔 coupe tous les sons</li></ul>'}];
+ {id:'comparer',h:'Comparer avant / après',b:'<p><b>Avant</b> : les blocs tels que nommés dans le fichier.</p><p><b>Après</b> : après routage et résolution ; les occurrences masquées apparaissent barrées et grisées, pour que l\'effet reste visible.</p><div class="gcall ok">Objectif : pastille <b>0 doublon</b> et La Cinq / M6 séparés de Canal+.</div>'},
+ {id:'depot',h:'Exporter et déposer',b:'<ol><li><code>data/channel-routing.json</code> — couche persistante : routes, réassignations, masquages, doubles diffusions légitimes.</li><li><code>data/AAAA.json</code> — année corrigée, lignes masquées exclues.</li><li><code>routage-AAAA.csv</code> — rapport de relecture.</li></ol><p>Commit, push, puis <b>generate_index_only</b>.</p>'},
+ {id:'load',h:'Charger une année',b:'<p>Sélecteur <b>Année</b>, lecture de <code>data/AAAA.json</code>.</p><ul><li><b>DONNÉES RÉELLES</b> : tes fichiers.</li><li><b>DÉMONSTRATION</b> : fichier introuvable — ouvre la page depuis <code>https://…github.io/tv-retro/channels/</code>.</li></ul>'},
+ {id:'raccourcis',h:'Raccourcis',b:'<ul><li><span class="kbd">/</span> recherche</li><li><span class="kbd">Échap</span> ferme le tiroir</li><li><span class="kbd">Ctrl</span>+<span class="kbd">Z</span> annule</li><li><b>Disposition</b> empile les colonnes</li><li>🔔 coupe tous les sons</li></ul>'}];
 function openGuide(sec){$('#g-body').innerHTML=GUIDE.map(function(g){return '<section class="gsec" id="gs-'+g.id+'"><h4>'+esc(g.h)+'</h4><div class="in">'+g.b+'</div></section>';}).join('');
  $('#gscrim').hidden=false;$('#gdrawer').hidden=false;lock();
  if(sec)setTimeout(function(){var e=document.getElementById('gs-'+sec);if(e)e.scrollIntoView({behavior:'smooth',block:'start'});},140);}
 function closeGuide(){$('#gscrim').hidden=true;$('#gdrawer').hidden=true;lock();}
 
-function routingPayload(){var po={};Object.keys(S.overrides).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0];
- if(p)po[id]={date:p.date,time:p.time,title:p.title,raw_channel:p.rawChannel,channel:S.overrides[id]};});
- return{version:1,updated_at:new Date().toISOString(),year_scope:S.year,note:"Routage des libellés de chaîne. routes = libellé compacté → chaîne canonique. program_overrides = réassignation unitaire prioritaire.",channel_order:S.order,routes:S.routes,program_overrides:po};}
+function routingPayload(){var po={};Object.keys(S.overrides).forEach(function(id){var p=S.raw.filter(function(x){return x.id===id;})[0],o=ov(id);if(!p||!o)return;
+ po[id]={date:p.date,time:p.time,title:p.title,raw_channel:p.rawChannel,channel:o.act==='reassign'?o.ch:p.channel,action:o.act};});
+ return{version:2,updated_at:new Date().toISOString(),year_scope:S.year,
+  note:"routes = libellé compacté → chaîne. program_overrides = action reassign|hide par programme. legit_duplicates = doubles diffusions réelles à conserver.",
+  channel_order:S.order,routes:S.routes,program_overrides:po,legit_duplicates:Object.keys(S.legit)};}
 function correctedYear(){var dates={};S.days.forEach(function(d){
- var ps=S.raw.filter(function(p){return p.date===d.date;}).map(function(p){return{time:p.time,channel:S.overrides[p.id]||p.channel,title:p.title,description:p.description||''};})
+ var ps=S.raw.filter(function(p){return p.date===d.date&&!p.hidden;}).map(function(p){return{time:p.time,channel:p.channel,title:p.title,description:p.description||''};})
   .sort(function(a,b){return ord(a.channel)-ord(b.channel)||tmin(a.time)-tmin(b.time);});
- var channels={};ps.forEach(function(p){(channels[p.channel]=channels[p.channel]||[]).push(p);});
- Object.keys(channels).forEach(function(c){channels[c].sort(function(a,b){return tmin(a.time)-tmin(b.time);});});
- dates[d.date]={date:d.date,source:(d.source||'seed')+'+routage',programs_count:ps.length,programs:ps,channels:channels};});
+ var ch={};ps.forEach(function(p){(ch[p.channel]=ch[p.channel]||[]).push(p);});
+ Object.keys(ch).forEach(function(c){ch[c].sort(function(a,b){return tmin(a.time)-tmin(b.time);});});
+ dates[d.date]={date:d.date,source:(d.source||'seed')+'+routage',programs_count:ps.length,programs:ps,channels:ch};});
  return{year:String(S.year),dates:dates};}
-function reportCsv(){var r=[['date','heure','titre','libelle_brut','chaine_apres','methode','reassigne','hors_epoque','composite','chevauchement']];
- S.raw.forEach(function(p){r.push([p.date,p.time,p.title,p.rawChannel,p.channel,p.how,p.fixed?'oui':'non',p.era?'oui':'non',p.composite?'oui':'non',p.conflict?'oui':'non']);});
+function reportCsv(){var r=[['date','heure','titre','libelle_brut','chaine_apres','methode','action','score','doublon','nomade','exact','hors_epoque']];
+ S.raw.forEach(function(p){var o=ov(p.id);r.push([p.date,p.time,p.title,p.rawChannel,p.channel,p.how,o?o.act:'—',p.score!=null?p.score:'',p.dup?'oui':'non',p.nomad?'oui':'non',p.exact?'oui':'non',p.era?'oui':'non']);});
  return r.map(function(x){return x.map(function(v){return '"'+String(v==null?'':v).replace(/"/g,'""')+'"';}).join(',');}).join('\n');}
 function dl(n,t,m){var a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:m}));a.download=n;document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(a.href);},2500);}
-function gitCmds(){return 'git add data/channel-routing.json data/'+S.year+'.json\ngit commit -m "fix(channels): routage '+S.year+' — Canal+/La Cinq/M6 dissociés"\ngit push\n\n# puis Actions : workflow "TV Rétro Scraper" → mode generate_index_only';}
+function gitCmds(){return 'git add data/channel-routing.json data/'+S.year+'.json\ngit commit -m "fix(channels): doublons '+S.year+' — Canal+/La Cinq/M6 dissociés"\ngit push\n\n# puis Actions : workflow "TV Rétro Scraper" → mode generate_index_only';}
 function openExport(){var rt=routingPayload(),cy=correctedYear();
- var items=[
- {n:'channel-routing.json',d:Object.keys(rt.routes).length+' route(s) · '+Object.keys(rt.program_overrides).length+' réassignation(s)',txt:function(){return JSON.stringify(rt,null,2);},m:'application/json'},
- {n:S.year+'.json',d:nf(S.raw.length)+' programmes, chaînes corrigées',txt:function(){return JSON.stringify(cy,null,2);},m:'application/json'},
- {n:'routage-'+S.year+'.csv',d:'Rapport ligne par ligne',txt:reportCsv,m:'text/csv'}];
+ var items=[{n:'channel-routing.json',d:Object.keys(rt.routes).length+' route(s) · '+Object.keys(rt.program_overrides).length+' action(s) · '+rt.legit_duplicates.length+' légitime(s)',txt:function(){return JSON.stringify(rt,null,2);},m:'application/json'},
+ {n:S.year+'.json',d:nf(S.raw.filter(function(p){return !p.hidden;}).length)+' programmes conservés, '+counts().hidden+' masqué(s) exclu(s)',txt:function(){return JSON.stringify(cy,null,2);},m:'application/json'},
+ {n:'routage-'+S.year+'.csv',d:'Rapport avec scores et actions',txt:reportCsv,m:'text/csv'}];
  $('#exports').innerHTML=items.map(function(i,n){return '<div class="exrow"><span class="tx"><b>'+esc(i.n)+'</b><small>'+esc(i.d)+'</small></span><button class="btn small" type="button" data-ex="'+n+'">📥</button><button class="mini" type="button" data-exc="'+n+'">📋</button></div>';}).join('');
- $('#depot-in').innerHTML='<ol><li>Dépose <code>channel-routing.json</code> dans <code>data/</code> — c\'est lui qui rend la correction permanente.</li><li>Remplace <code>data/'+S.year+'.json</code>.</li><li>Commit + push, puis <b>generate_index_only</b>.</li><li>Recharge le site : Canal+, La Cinq et M6 sont trois blocs distincts.</li></ol><div class="cmd">'+esc(gitCmds())+'</div>';
+ $('#depot-in').innerHTML='<ol><li><code>channel-routing.json</code> dans <code>data/</code> — couche persistante, jamais écrasée.</li><li>Remplace <code>data/'+S.year+'.json</code>.</li><li>Commit, push, puis <b>generate_index_only</b>.</li><li>Recharge le site : plus de double affichage.</li></ol><div class="cmd">'+esc(gitCmds())+'</div>';
  $('#route-preview').textContent=JSON.stringify(rt,null,2);
  $$('#exports [data-ex]').forEach(function(b){b.onclick=function(){var i=items[+b.dataset.ex];dl(i.n,i.txt(),i.m);S.exported=true;S.dirty=false;blip('ok');renderRail();renderNext();toast('Fichier téléchargé.','ok');};});
  $$('#exports [data-exc]').forEach(function(b){b.onclick=function(){var t=items[+b.dataset.exc].txt();
@@ -733,46 +892,39 @@ function closeExport(){$('#escrim').hidden=true;$('#edrawer').hidden=true;lock()
 function toast(m,k,a){var box=$('#toasts');if(!box)return;var e=document.createElement('div');e.className='toast '+(k||'ok');
  e.innerHTML='<span>'+esc(m)+'</span>';
  if(a){var b=document.createElement('button');b.type='button';b.textContent=a.label;b.onclick=function(){a.fn();e.remove();};e.appendChild(b);}
- box.appendChild(e);setTimeout(function(){e.style.transition='opacity .3s,transform .3s';e.style.opacity='0';e.style.transform='translateY(10px)';setTimeout(function(){e.remove();},320);},a?8000:4200);}
+ box.appendChild(e);setTimeout(function(){e.style.transition='opacity .3s,transform .3s';e.style.opacity='0';e.style.transform='translateY(10px)';setTimeout(function(){e.remove();},320);},a?8500:4200);}
 
-/* ---- boot : rendu immédiat sur seed, puis enrichissement réseau ---- */
-function boot(year){
- if(year)S.year=year;
- S.overrides={};S.sel={};S.selN=0;S.undo=[];S.dirty=false;S.exported=false;S.seenIssues=false;
- ingestSeed();renderAll();
- fetchYear(S.year);
-}
-function fetchYear(y){
- if(location.protocol==='file:'){showDemoNote();return;}
+function boot(year){if(year)S.year=year;
+ S.overrides={};S.sel={};S.selN=0;S.undo=[];S.dirty=false;S.exported=false;S.seenDup=false;
+ ingestSeed();renderAll();fetchYear(S.year);}
+function fetchYear(y){if(location.protocol==='file:'){showDemo();return;}
  fetch('../data/'+y+'.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
-  if(!j||!j.dates){showDemoNote();return;}
+  if(!j||!j.dates){showDemo();return;}
   var ds=j.dates,days=[];
   Object.keys(ds).sort(function(a,b){return (nDate(a)||a).split('-').reverse().join('').localeCompare((nDate(b)||b).split('-').reverse().join(''));}).forEach(function(d){
    var dd=ds[d]||{},list=Array.isArray(dd.programs)?dd.programs:Object.keys(dd.channels||{}).reduce(function(a,k){return a.concat(dd.channels[k]||[]);},[]);
    days.push({date:nDate(d)||d,source:dd.source||'inconnue',programs:list.filter(Boolean).map(function(p){
     return{date:nDate(d)||d,time:nTime(p.time),title:String(p.title||'').trim(),rawChannel:String(p.channel||'').trim(),description:String(p.description||'')};})});});
-  if(!days.length){showDemoNote();return;}
+  if(!days.length){showDemo();return;}
   S.days=days;S.source='fichier';flatten();
-  fetchRouting().then(function(rt){if(rt)S.routes=Object.assign({},rt,S.routes);$('#note').hidden=true;renderAll();});
- }).catch(function(){showDemoNote();});
-}
-function fetchRouting(){return fetch('../data/channel-routing.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){return j&&j.routes?j.routes:null;}).catch(function(){return null;});}
-function showDemoNote(){S.source='seed';var n=$('#note');n.hidden=false;
- n.innerHTML='⚠️ <b>Mode démonstration</b> — <code>../data/'+S.year+'.json</code> est introuvable'+(location.protocol==='file:'?' (page ouverte depuis le disque)':'')+'. Une grille '+S.year+' réaliste reproduit ton bug : des programmes de <b>La Cinq</b> et <b>M6</b> étiquetés <code>C+</code>, un composite <code>Canal+ / La Cinq</code>, les codes nus <code>5</code> / <code>6</code>. Tout l\'outil et les exports fonctionnent.';
+  fetch('../data/channel-routing.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;}).then(function(j){
+   if(j){S.routes=Object.assign({},j.routes||{},S.routes);(j.legit_duplicates||[]).forEach(function(k){S.legit[k]=1;});}
+   $('#note').hidden=true;renderAll();}).catch(function(){$('#note').hidden=true;renderAll();});
+ }).catch(function(){showDemo();});}
+function showDemo(){S.source='seed';var n=$('#note');n.hidden=false;
+ n.innerHTML='⚠️ <b>Mode démonstration</b> — <code>../data/'+S.year+'.json</code> introuvable'+(location.protocol==='file:'?' (page ouverte depuis le disque)':'')+'. La grille '+S.year+' reproduit les trois cas réels : <b>heure identique</b> (Youpi à 08:00 sur La Cinq et « C+ »), <b>bien intercalé sans chevauchement</b> (Multitop à 11:00 sous « Canal+ / La Cinq »), <b>décalé</b> (Côte Ouest à 15:00 sous « 6 »), plus une ligne dupliquée à l\'identique et deux programmes courts qui ne doivent rien déclencher.';
  renderStamp();}
 
-/* ---- listeners ---- */
-function bind(){
- var on=function(sel,ev,fn){var e=$(sel);if(e)e.addEventListener(ev,fn);};
+function bind(){var on=function(s,ev,fn){var e=$(s);if(e)e.addEventListener(ev,fn);};
  on('#btn-sound','click',function(){S.sound=!S.sound;lsSet(SKEY,S.sound?'on':'off');renderSound();if(S.sound)blip('tick');toast(S.sound?'Sons activés.':'Tous les sons sont coupés.','info');});
- on('#btn-guide','click',function(){openGuide();});
+ on('#btn-guide','click',function(){openGuide('doublons');});
  on('#g-close','click',closeGuide);on('#g-close2','click',closeGuide);on('#gscrim','click',closeGuide);
  on('#g-next','click',function(){closeGuide();var n=nextAction();blip('tick');n.run();});
  $$('[data-guide]').forEach(function(b){b.onclick=function(){openGuide(b.dataset.guide);};});
  $$('[data-fold]').forEach(function(b){b.onclick=function(){var p=document.getElementById(b.dataset.fold);if(!p)return;
   p.classList.toggle('folded');b.textContent=p.classList.contains('folded')?'Déplier':'Replier';};});
- on('#intro-fold','click',function(){var p=$('#intro'),f=p.classList.toggle('folded');
-  $('#intro-in').hidden=f;$('#intro-fold').textContent=f?'Déplier':'Replier';lsSet(IKEY,f?'1':'0');});
+ on('#intro-fold','click',function(){var f=$('#intro').classList.toggle('folded');$('#intro-in').hidden=f;
+  $('#intro-fold').textContent=f?'Déplier':'Replier';lsSet(IKEY,f?'1':'0');});
  on('#btn-reload','click',function(){boot(S.year);toast('Rechargement…','info');});
  on('#f-year','change',function(e){S.year=+e.target.value;boot(S.year);});
  on('#q','input',function(e){S.q=e.target.value;safe('grilles',renderGrids);});
@@ -781,29 +933,33 @@ function bind(){
  on('#f-sort','change',function(e){S.sort=e.target.value;safe('grilles',renderGrids);});
  on('#f-layout','change',function(e){S.layout=e.target.value;lsSet(LKEY,S.layout);$('#grid2').classList.toggle('stacked',S.layout==='stack');});
  on('#f-tol','input',function(e){S.tol=+e.target.value;$('#tol-val').textContent=S.tol;renderAll();});
+ on('#f-conf','input',function(e){S.conf=+e.target.value;$('#conf-val').textContent=S.conf;renderAll();});
  on('#f-era','change',function(e){S.era=e.target.checked;renderAll();});
  on('#f-split','change',function(e){S.split=e.target.checked;renderAll();});
  on('#f-compact','change',function(e){S.compact=e.target.checked;lsSet(CKEY,S.compact?'1':'0');document.body.classList.toggle('compact',S.compact);});
- on('#btn-auto','click',autoRouteAll);
- on('#btn-fix-all','click',fixAll);
+ on('#btn-resolve','click',resolveAuto);on('#btn-resolve2','click',resolveAuto);
+ on('#btn-auto','click',autoRouteAll);on('#btn-fix-all','click',fixAll);
  on('#btn-route-reset','click',function(){if(!Object.keys(S.routes).length){toast('Routage déjà vide.','warn');return;}
-  pushUndo();S.routes={};persistRoutes();renderAll();blip('warn');toast('Routage réinitialisé.','warn',{label:'Annuler',fn:undo});});
- on('#btn-reset','click',function(){S.q='';S.ch='all';S.issue='all';S.sort='time';S.tol=2;S.era=true;S.split=true;S.sel={};S.selN=0;renderAll();});
+  pushUndo();S.routes={};persist();renderAll();blip('warn');toast('Routage réinitialisé.','warn',{label:'Annuler',fn:undo});});
+ on('#btn-reset','click',function(){S.q='';S.ch='all';S.issue='all';S.sort='time';S.tol=90;S.conf=25;S.era=true;S.split=true;S.sel={};S.selN=0;renderAll();});
  on('#btn-view-save','click',function(){var n=prompt('Nom de la vue :',S.year+' · '+(S.issue==='all'?'tout':S.issue));if(!n)return;
-  S.views.push({id:'v'+Date.now(),name:n.slice(0,34),f:{year:S.year,q:S.q,ch:S.ch,issue:S.issue,sort:S.sort,tol:S.tol,era:S.era,split:S.split,layout:S.layout}});
+  S.views.push({id:'v'+Date.now(),name:n.slice(0,34),f:{year:S.year,q:S.q,ch:S.ch,issue:S.issue,sort:S.sort,tol:S.tol,conf:S.conf,era:S.era,split:S.split,layout:S.layout}});
   lsSet(VKEY,JSON.stringify(S.views));renderViews();blip('ok');toast('Vue enregistrée.','ok');});
  on('#btn-bulk-none','click',function(){S.sel={};S.selN=0;renderGrids();renderBulk();});
  on('#btn-bulk-apply','click',function(){var ch=$('#bulk-target').value,n=S.selN;if(!n)return;pushUndo();
-  Object.keys(S.sel).forEach(function(id){S.overrides[id]=ch;});S.sel={};S.selN=0;S.dirty=true;blip('ok');renderAll();
+  Object.keys(S.sel).forEach(function(id){S.overrides[id]={act:'reassign',ch:ch};});S.sel={};S.selN=0;S.dirty=true;blip('ok');renderAll();
   toast(n+' programme(s) → '+ch,'ok',{label:'Annuler',fn:undo});});
+ on('#btn-bulk-hide','click',function(){var n=S.selN;if(!n)return;pushUndo();Object.keys(S.sel).forEach(function(id){S.overrides[id]={act:'hide',ch:''};});
+  S.sel={};S.selN=0;S.dirty=true;blip('warn');renderAll();toast(n+' occurrence(s) masquée(s).','dup',{label:'Annuler',fn:undo});});
  on('#btn-bulk-clear','click',function(){var n=S.selN;if(!n)return;pushUndo();Object.keys(S.sel).forEach(function(id){delete S.overrides[id];});
-  S.sel={};S.selN=0;blip('warn');renderAll();toast(n+' réassignation(s) retirée(s).','warn',{label:'Rétablir',fn:undo});});
+  S.sel={};S.selN=0;blip('ok');renderAll();toast(n+' restaurée(s).','ok',{label:'Annuler',fn:undo});});
  on('#btn-export','click',openExport);
  on('#e-close','click',closeExport);on('#e-close2','click',closeExport);on('#escrim','click',closeExport);
  on('#d-close','click',closeDetail);on('#d-close2','click',closeDetail);on('#scrim','click',closeDetail);
  on('#d-save','click',saveDetail);
- on('#d-undo','click',function(){var p=S.detail;if(!p)return;pushUndo();delete S.overrides[p.id];blip('warn');closeDetail();renderAll();toast('Réassignation retirée.','warn',{label:'Annuler',fn:undo});});
- on('#fatal-copy','click',function(){var t=S.errors.join('\n');if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){toast('Détail copié.','ok');},function(){toast('Copie impossible.','err');});});
+ on('#d-hide','click',function(){var p=S.detail;if(!p)return;closeDetail();setAct(p.id,'hide');});
+ on('#d-undo','click',function(){var p=S.detail;if(!p)return;closeDetail();clearAct(p.id);});
+ on('#fatal-copy','click',function(){if(navigator.clipboard)navigator.clipboard.writeText(S.errors.join('\n')).then(function(){toast('Détail copié.','ok');},function(){toast('Copie impossible.','err');});});
  on('#fatal-retry','click',function(){S.errors=[];$('#fatal').hidden=true;renderAll();toast('Affichage reconstruit.','info');});
  on('#fatal-hide','click',function(){$('#fatal').hidden=true;});
  var dragI=null;
@@ -818,16 +974,11 @@ function bind(){
   if(e.key==='Escape'){if(!$('#edrawer').hidden)closeExport();else if(!$('#gdrawer').hidden)closeGuide();else closeDetail();}
   if((e.ctrlKey||e.metaKey)&&(e.key==='z'||e.key==='Z')){e.preventDefault();undo();}
   if(e.key==='/'&&!/input|select|textarea/i.test(document.activeElement.tagName)){e.preventDefault();var q=$('#q');if(q)q.focus();}});
- window.addEventListener('beforeunload',function(e){if(S.dirty){e.preventDefault();e.returnValue='';}});
-}
+ window.addEventListener('beforeunload',function(e){if(S.dirty){e.preventDefault();e.returnValue='';}});}
 
-/* ---- démarrage ---- */
-try{
- renderSound();
+try{renderSound();
  if(ls(IKEY,'0')==='1'){$('#intro').classList.add('folded');$('#intro-in').hidden=true;$('#intro-fold').textContent='Déplier';}
- bind();
- boot(1987);
-}catch(e){report('démarrage',e);}
+ bind();boot(1987);}catch(e){report('démarrage',e);}
 })();
 </script>
 </body>
