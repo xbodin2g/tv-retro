@@ -1,8 +1,7 @@
 {
-  "version": 3,
-  "updated_at": "2026-11-20T18:11:28.994Z",
-  "year_scope": 1987,
-  "note": "routes = libellé compacté → chaîne. program_overrides = reassign|hide. legit_duplicates = doubles diffusions réelles. generic_titles = titres écartés de la détection.",
+  "version": 4,
+  "updated_at": "2026-11-20T20:21:24.994Z",
+  "note": "Couche persistante lue par generate_index.py. routes = libellé compacté → chaîne. program_overrides keyed by signature date|heure|titre|libellé brut, action reassign|hide. Ne jamais remplacer data/AAAA.json : il est régénéré.",
   "channel_order": [
     "ORTF 1",
     "ORTF 2",
@@ -479,6 +478,519 @@
       "raw_channel": "Canal+",
       "channel": "Canal+",
       "action": "hide"
+    },
+    "07-03-1987|19:25|d accord pas d accord|TF1": {
+      "sig": "07-03-1987|19:25|d accord pas d accord|TF1",
+      "date": "07-03-1987",
+      "time": "19:25",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "05-06-1987|11:45|laramie|LACINQ": {
+      "sig": "05-06-1987|11:45|laramie|LACINQ",
+      "date": "05-06-1987",
+      "time": "11:45",
+      "title": "Laramie",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|13:00|la preferee|LACINQ": {
+      "sig": "05-06-1987|13:00|la preferee|LACINQ",
+      "date": "05-06-1987",
+      "time": "13:00",
+      "title": "La préférée",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|13:30|vu et corrige|LACINQ": {
+      "sig": "05-06-1987|13:30|vu et corrige|LACINQ",
+      "date": "05-06-1987",
+      "time": "13:30",
+      "title": "Vu et corrigé",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|14:00|a m magazine|LACINQ": {
+      "sig": "05-06-1987|14:00|a m magazine|LACINQ",
+      "date": "05-06-1987",
+      "time": "14:00",
+      "title": "A.M. Magazine",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|15:45|megaventure|LACINQ": {
+      "sig": "05-06-1987|15:45|megaventure|LACINQ",
+      "date": "05-06-1987",
+      "time": "15:45",
+      "title": "Mégaventure",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|18:00|la petite maison dans la prairie|LACINQ": {
+      "sig": "05-06-1987|18:00|la petite maison dans la prairie|LACINQ",
+      "date": "05-06-1987",
+      "time": "18:00",
+      "title": "La petite maison dans la prairie",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|18:30|vegas|LACINQ": {
+      "sig": "05-06-1987|18:30|vegas|LACINQ",
+      "date": "05-06-1987",
+      "time": "18:30",
+      "title": "VEGAS",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|19:55|six appel|LACINQ": {
+      "sig": "05-06-1987|19:55|six appel|LACINQ",
+      "date": "05-06-1987",
+      "time": "19:55",
+      "title": "Six'Appel",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "05-06-1987|20:30|dynastie|LACINQ": {
+      "sig": "05-06-1987|20:30|dynastie|LACINQ",
+      "date": "05-06-1987",
+      "time": "20:30",
+      "title": "Dynastie",
+      "raw_channel": "La Cinq",
+      "channel": "La Cinq",
+      "action": "hide"
+    },
+    "27-12-1987|08:30|le disney channel|TF1": {
+      "sig": "27-12-1987|08:30|le disney channel|TF1",
+      "date": "27-12-1987",
+      "time": "08:30",
+      "title": "LE DISNEY CHANNEL",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-12-1987|09:30|ensemble aujourd hui|TF1": {
+      "sig": "27-12-1987|09:30|ensemble aujourd hui|TF1",
+      "date": "27-12-1987",
+      "time": "09:30",
+      "title": "Ensemble aujourd'hui",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-12-1987|22:00|soir 3|TF1": {
+      "sig": "27-12-1987|22:00|soir 3|TF1",
+      "date": "27-12-1987",
+      "time": "22:00",
+      "title": "Soir 3",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-12-1987|22:15|musiques au coeur|TF1": {
+      "sig": "27-12-1987|22:15|musiques au coeur|TF1",
+      "date": "27-12-1987",
+      "time": "22:15",
+      "title": "Musiques au coeur",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-12-1987|09:05|clip dedicace|CANAL": {
+      "sig": "27-12-1987|09:05|clip dedicace|CANAL",
+      "date": "27-12-1987",
+      "time": "09:05",
+      "title": "Clip Dédicace",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|10:30|revenez quand vous voulez|CANAL": {
+      "sig": "27-12-1987|10:30|revenez quand vous voulez|CANAL",
+      "date": "27-12-1987",
+      "time": "10:30",
+      "title": "REVENEZ QUAND VOUS VOULEZ",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|11:45|graffi 6|CANAL": {
+      "sig": "27-12-1987|11:45|graffi 6|CANAL",
+      "date": "27-12-1987",
+      "time": "11:45",
+      "title": "GRAFFI'6",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|13:45|fan de|CANAL": {
+      "sig": "27-12-1987|13:45|fan de|CANAL",
+      "date": "27-12-1987",
+      "time": "13:45",
+      "title": "Fan de...",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|15:50|destination danger|CANAL": {
+      "sig": "27-12-1987|15:50|destination danger|CANAL",
+      "date": "27-12-1987",
+      "time": "15:50",
+      "title": "Destination danger",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|18:20|la petite maison dans la prairie|CANAL": {
+      "sig": "27-12-1987|18:20|la petite maison dans la prairie|CANAL",
+      "date": "27-12-1987",
+      "time": "18:20",
+      "title": "La petite maison dans la prairie",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|20:24|6 minutes|CANAL": {
+      "sig": "27-12-1987|20:24|6 minutes|CANAL",
+      "date": "27-12-1987",
+      "time": "20:24",
+      "title": "6 minutes",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "27-12-1987|00:50|kojak|CANAL": {
+      "sig": "27-12-1987|00:50|kojak|CANAL",
+      "date": "27-12-1987",
+      "time": "00:50",
+      "title": "Kojak",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|13:00|astro match|ANTENNE2": {
+      "sig": "28-12-1987|13:00|astro match|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "13:00",
+      "title": "Astro match",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|13:30|la vie a plein temps|ANTENNE2": {
+      "sig": "28-12-1987|13:30|la vie a plein temps|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "13:30",
+      "title": "La vie à plein temps",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|15:05|la nouvelle affiche|ANTENNE2": {
+      "sig": "28-12-1987|15:05|la nouvelle affiche|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "15:05",
+      "title": "La nouvelle affiche",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|19:00|le 19 20 de l information|ANTENNE2": {
+      "sig": "28-12-1987|19:00|le 19 20 de l information|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "19:00",
+      "title": "Le 19-20 de l'information",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|19:55|il etait une fois la vie|ANTENNE2": {
+      "sig": "28-12-1987|19:55|il etait une fois la vie|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "19:55",
+      "title": "Il était une fois la vie",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|20:05|la classe|ANTENNE2": {
+      "sig": "28-12-1987|20:05|la classe|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "20:05",
+      "title": "La Classe",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|22:05|soir 3|ANTENNE2": {
+      "sig": "28-12-1987|22:05|soir 3|ANTENNE2",
+      "date": "28-12-1987",
+      "time": "22:05",
+      "title": "Soir 3",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "28-12-1987|08:00|le magicien d oz|CANAL": {
+      "sig": "28-12-1987|08:00|le magicien d oz|CANAL",
+      "date": "28-12-1987",
+      "time": "08:00",
+      "title": "Le magicien d'Oz",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|08:25|flo et les robinsons suisses|CANAL": {
+      "sig": "28-12-1987|08:25|flo et les robinsons suisses|CANAL",
+      "date": "28-12-1987",
+      "time": "08:25",
+      "title": "Flo et les Robinsons suisses",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|11:00|graffi 6|CANAL": {
+      "sig": "28-12-1987|11:00|graffi 6|CANAL",
+      "date": "28-12-1987",
+      "time": "11:00",
+      "title": "GRAFFI'6",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|13:30|vive la tele|CANAL": {
+      "sig": "28-12-1987|13:30|vive la tele|CANAL",
+      "date": "28-12-1987",
+      "time": "13:30",
+      "title": "Vive la télé",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|16:00|clip combat|CANAL": {
+      "sig": "28-12-1987|16:00|clip combat|CANAL",
+      "date": "28-12-1987",
+      "time": "16:00",
+      "title": "Clip combat",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|16:55|youpi l ecole est finie|CANAL": {
+      "sig": "28-12-1987|16:55|youpi l ecole est finie|CANAL",
+      "date": "28-12-1987",
+      "time": "16:55",
+      "title": "YOUPI, L'ECOLE EST FINIE !",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|18:20|la petite maison dans la prairie|CANAL": {
+      "sig": "28-12-1987|18:20|la petite maison dans la prairie|CANAL",
+      "date": "28-12-1987",
+      "time": "18:20",
+      "title": "La petite maison dans la prairie",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|19:00|la porte magique|CANAL": {
+      "sig": "28-12-1987|19:00|la porte magique|CANAL",
+      "date": "28-12-1987",
+      "time": "19:00",
+      "title": "La porte magique",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|20:24|6 minutes|CANAL": {
+      "sig": "28-12-1987|20:24|6 minutes|CANAL",
+      "date": "28-12-1987",
+      "time": "20:24",
+      "title": "6 minutes",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "28-12-1987|02:10|la grande vallee|CANAL": {
+      "sig": "28-12-1987|02:10|la grande vallee|CANAL",
+      "date": "28-12-1987",
+      "time": "02:10",
+      "title": "La grande vallée",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|13:00|astro match|ANTENNE2": {
+      "sig": "31-12-1987|13:00|astro match|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "13:00",
+      "title": "Astro match",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|13:30|la vie a plein temps|ANTENNE2": {
+      "sig": "31-12-1987|13:30|la vie a plein temps|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "13:30",
+      "title": "La vie à plein temps",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|15:05|embarquement immediat|ANTENNE2": {
+      "sig": "31-12-1987|15:05|embarquement immediat|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "15:05",
+      "title": "Embarquement immédiat",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|19:00|le 19 20 de l information|ANTENNE2": {
+      "sig": "31-12-1987|19:00|le 19 20 de l information|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "19:00",
+      "title": "Le 19-20 de l'information",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|19:55|il etait une fois la vie|ANTENNE2": {
+      "sig": "31-12-1987|19:55|il etait une fois la vie|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "19:55",
+      "title": "Il était une fois la vie",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|20:10|la classe|ANTENNE2": {
+      "sig": "31-12-1987|20:10|la classe|ANTENNE2",
+      "date": "31-12-1987",
+      "time": "20:10",
+      "title": "La Classe",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-12-1987|07:55|le magicien d oz|CANAL": {
+      "sig": "31-12-1987|07:55|le magicien d oz|CANAL",
+      "date": "31-12-1987",
+      "time": "07:55",
+      "title": "Le magicien d'Oz",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|08:45|jeanne et serge|CANAL": {
+      "sig": "31-12-1987|08:45|jeanne et serge|CANAL",
+      "date": "31-12-1987",
+      "time": "08:45",
+      "title": "Jeanne et Serge",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|11:00|graffi 6|CANAL": {
+      "sig": "31-12-1987|11:00|graffi 6|CANAL",
+      "date": "31-12-1987",
+      "time": "11:00",
+      "title": "GRAFFI'6",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|11:40|buck rogers|CANAL": {
+      "sig": "31-12-1987|11:40|buck rogers|CANAL",
+      "date": "31-12-1987",
+      "time": "11:40",
+      "title": "Buck Rogers",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|13:30|vive la tele|CANAL": {
+      "sig": "31-12-1987|13:30|vive la tele|CANAL",
+      "date": "31-12-1987",
+      "time": "13:30",
+      "title": "Vive la télé",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|15:20|la grande vallee|CANAL": {
+      "sig": "31-12-1987|15:20|la grande vallee|CANAL",
+      "date": "31-12-1987",
+      "time": "15:20",
+      "title": "La grande vallée",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|16:00|clip combat|CANAL": {
+      "sig": "31-12-1987|16:00|clip combat|CANAL",
+      "date": "31-12-1987",
+      "time": "16:00",
+      "title": "Clip combat",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|16:55|youpi l ecole est finie|CANAL": {
+      "sig": "31-12-1987|16:55|youpi l ecole est finie|CANAL",
+      "date": "31-12-1987",
+      "time": "16:55",
+      "title": "YOUPI, L'ECOLE EST FINIE !",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|18:20|la petite maison dans la prairie|CANAL": {
+      "sig": "31-12-1987|18:20|la petite maison dans la prairie|CANAL",
+      "date": "31-12-1987",
+      "time": "18:20",
+      "title": "La petite maison dans la prairie",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|19:00|la porte magique|CANAL": {
+      "sig": "31-12-1987|19:00|la porte magique|CANAL",
+      "date": "31-12-1987",
+      "time": "19:00",
+      "title": "La porte magique",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|20:10|6 minutes|CANAL": {
+      "sig": "31-12-1987|20:10|6 minutes|CANAL",
+      "date": "31-12-1987",
+      "time": "20:10",
+      "title": "6 minutes",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1987|20:15|spectacle coluche|CANAL": {
+      "sig": "31-12-1987|20:15|spectacle coluche|CANAL",
+      "date": "31-12-1987",
+      "time": "20:15",
+      "title": "Spectacle Coluche",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
     }
   },
   "legit_duplicates": [
@@ -489,7 +1001,15 @@
     "07-07-1987|actualites regionales|07-07-1987__19h15__ANTENNE2__actualites-regionales,07-07-1987__19h15__FR3__actualites-regionales",
     "14-02-1987|actualites regionales|14-02-1987__19h15__ANTENNE2__actualites-regionales,14-02-1987__19h15__FR3__actualites-regionales",
     "18-04-1987|actualites regionales|18-04-1987__19h15__ANTENNE2__actualites-regionales,18-04-1987__19h15__FR3__actualites-regionales",
-    "28-04-1987|actualites regionales|28-04-1987__19h15__ANTENNE2__actualites-regionales,28-04-1987__19h15__FR3__actualites-regionales"
+    "28-04-1987|actualites regionales|28-04-1987__19h15__ANTENNE2__actualites-regionales,28-04-1987__19h15__FR3__actualites-regionales",
+    "12-03-1987|d accord pas d accord|12-03-1987|19:55|d accord pas d accord|FR3,12-03-1987|20:25|d accord pas d accord|ANTENNE2",
+    "29-10-1987|emission de l inc|29-10-1987|20:25|emission de l inc|ANTENNE2,29-10-1987|20:30|emission de l inc|FR3",
+    "07-02-1987|actualites regionales|07-02-1987|19:15|actualites regionales|ANTENNE2,07-02-1987|19:15|actualites regionales|FR3",
+    "07-03-1987|actualites regionales|07-03-1987|19:15|actualites regionales|ANTENNE2,07-03-1987|19:15|actualites regionales|FR3",
+    "07-07-1987|actualites regionales|07-07-1987|19:15|actualites regionales|ANTENNE2,07-07-1987|19:15|actualites regionales|FR3",
+    "14-02-1987|actualites regionales|14-02-1987|19:15|actualites regionales|ANTENNE2,14-02-1987|19:15|actualites regionales|FR3",
+    "18-04-1987|actualites regionales|18-04-1987|19:15|actualites regionales|ANTENNE2,18-04-1987|19:15|actualites regionales|FR3",
+    "28-04-1987|actualites regionales|28-04-1987|19:15|actualites regionales|ANTENNE2,28-04-1987|19:15|actualites regionales|FR3"
   ],
   "generic_titles": [
     "meteo",
@@ -557,7 +1077,6 @@
     "interlude",
     "a suivre",
     "debut des emissions",
-    "nuit",
-    "nuit blanche"
+    "nuit"
   ]
 }
