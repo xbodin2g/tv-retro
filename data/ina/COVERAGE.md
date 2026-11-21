@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-21 à 13:40:09 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 14:02:50 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-21 à 13:40:09 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **226** (≈ 72538)
-- Entrées : **27819** · Connues sans téléchargement : **20563**
-- À télécharger : **7256** · En cache : **27661** (99.4 %)
-- Œuvres distinctes : **2410** · Reste : **158**
+- Jamais indexés : **226** (≈ 70962)
+- Entrées : **28008** · Connues sans téléchargement : **20612**
+- À télécharger : **7396** · En cache : **27850** (99.4 %)
+- Œuvres distinctes : **2414** · Reste : **158**
 
 ## Par émission
 
@@ -42,6 +42,7 @@ _Généré le 2026-11-21 à 13:40:09 — parser v10 · fetch=auto_
 | Disney Parade | TF1 | 1989→1998 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Décode pas Bunny | Canal+ | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | ERIC ET COMPAGNIE | Antenne 2 | 1989→1990 | A | 0 | 131 | 41 | 90 | 131 | 0 | 100.0 % |
+| ERIC ET TOI ET MOI | Antenne 2 | 1990→1991 | A | 0 | 189 | 49 | 140 | 189 | 0 | 100.0 % |
 | FR3 jeunesse | — | 1970→1999 | — | 30 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Graffi'6 | M6 | 1987→1991 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le réveil des babalous | FR3 | 1986→1991 | A,B | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -259,6 +260,15 @@ _Généré le 2026-11-21 à 13:40:09 — parser v10 · fetch=auto_
 |---|---|---:|---|---:|---:|---:|---:|---:|
 | 1989 | complet | 112 | A:112 | 31 | 81 | 112 | 2 | 0 |
 | 1990 | complet | 19 | A:19 | 10 | 9 | 19 | 2 | 0 |
+
+### ERIC ET TOI ET MOI · Antenne 2
+
+**Œuvres citées au niveau émission** : "plus précieux que la loi", DA, DMD, Jeanne se blesse, La loi de la jungle, Le cirque, Prod. DND, RD, Un cabot cabotin, Un chef pour le clan, achat, achats, au voleur avec les enfants, bruits à détecter, cf sujet, com Dany SAVAL, des enfants racontent des histoires drôles, fou de rage, l'Homme qu'on voulait pendre, l'amulette du grand chef yanoama, l'appareil photo, l'histoire du cygne blanc, la Course aux honneurs, la dernière bataille de Pépé Caporal, la famine, la poursuite de la vérité, le désastre / achat, le grand père, le nouvel Eden, les 5 font du camping, les aiguilles, les liens de sang, modifications de clips à trouver, production CRC SA-production DMD, puis anime le jeu du Quizard, qui joue aux gendarmes, rediffusin du 21/10/1989, rediffusion, rediffusions, réa B. FLAMENT, réa Renaldo CERRI, résultats du jeu-concours, série, texte Anne CHAPEL, traitement de faveur
+
+| Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
+|---|---|---:|---|---:|---:|---:|---:|---:|
+| 1990 | complet | 126 | A:126 | 30 | 96 | 126 | 2 | 0 |
+| 1991 | complet | 63 | A:63 | 19 | 44 | 63 | 2 | 0 |
 
 ### FR3 jeunesse
 
