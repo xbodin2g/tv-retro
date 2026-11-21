@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-21 à 14:02:50 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 14:31:17 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-21 à 14:02:50 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **226** (≈ 70962)
-- Entrées : **28008** · Connues sans téléchargement : **20612**
-- À télécharger : **7396** · En cache : **27850** (99.4 %)
-- Œuvres distinctes : **2414** · Reste : **158**
+- Jamais indexés : **217** (≈ 60433)
+- Entrées : **28258** · Connues sans téléchargement : **20613**
+- À télécharger : **7645** · En cache : **28100** (99.4 %)
+- Œuvres distinctes : **2415** · Reste : **158**
 
 ## Par émission
 
@@ -37,7 +37,7 @@ _Généré le 2026-11-21 à 14:02:50 — parser v10 · fetch=auto_
 | Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
 | Croque-Vacances | TF1 | 1981→1987 | A,B | 0 | 1454 | 926 | 528 | 1326 | 128 | 91.2 % |
 | Debout les enfants | FR3 | 1987→1994 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Discopuce | Antenne 2 | 1978→1987 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Discopuce | Antenne 2 | 1978→1987 | A | 1 | 250 | 1 | 249 | 250 | 0 | 100.0 % |
 | Disney Club | TF1 | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Disney Parade | TF1 | 1989→1998 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Décode pas Bunny | Canal+ | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -202,15 +202,15 @@ _Généré le 2026-11-21 à 14:02:50 — parser v10 · fetch=auto_
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1978 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1979 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1980 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1981 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1982 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1983 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1984 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1985 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1986 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1978 | complet | 13 | A:13 | 0 | 13 | 13 | 0 | 0 |
+| 1979 | complet | 30 | A:30 | 0 | 30 | 30 | 0 | 0 |
+| 1980 | complet | 37 | A:37 | 1 | 36 | 37 | 1 | 0 |
+| 1981 | complet | 40 | A:40 | 0 | 40 | 40 | 0 | 0 |
+| 1982 | complet | 30 | A:30 | 0 | 30 | 30 | 0 | 0 |
+| 1983 | complet | 31 | A:31 | 0 | 31 | 31 | 0 | 0 |
+| 1984 | complet | 24 | A:24 | 0 | 24 | 24 | 0 | 0 |
+| 1985 | complet | 23 | A:23 | 0 | 23 | 23 | 0 | 0 |
+| 1986 | complet | 22 | A:22 | 0 | 22 | 22 | 0 | 0 |
 | 1987 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 
 ### Disney Club · TF1
