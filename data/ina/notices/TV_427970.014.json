@@ -1,0 +1,31 @@
+{
+  "notice_id": "TV_427970.014",
+  "url": "https://catalogue.ina.fr/doc/TV-RADIO/TV_427970.014/ca-cartoon?rang=6",
+  "source": "ina",
+  "parser_version": 10,
+  "scraped_at": "2026-11-21T15:06:21.103938",
+  "program_query": "Ça cartoon",
+  "programme": "Dimanche en famille. Ca cartoon",
+  "base": "Dépôt Légal TV",
+  "channel": "Canal +",
+  "collection": "",
+  "date": "13-10-1996",
+  "start": "19:47",
+  "start_raw": "19:47:33",
+  "duration": "",
+  "elements_field": "Sommaire (liste)",
+  "scope": "jour",
+  "description": "",
+  "programme_works": [],
+  "summary_raw": "1. [Info]\nà 19:36:49:00 - 00:08:23:00\n2. [Interprogrammes C+ de 19 heures : programme du 13 octobre 1996]\nà 19:45:12:00 - 00:02:21:00\n3. [Ca cartoon]\nà 19:47:33:00 - 00:20:30:00\n4. [Interprogrammes C+ de 18 heures : pub C+]\nà 20:08:03:00 - 00:02:24:00",
+  "titles_raw": [
+    "[Info]",
+    "[Interprogrammes C+ de 19 heures : programme du 13 octobre 1996]",
+    "[Ca cartoon]",
+    "[Interprogrammes C+ de 18 heures : pub C+]"
+  ],
+  "elements": [
+    "Info",
+    "Ca cartoon"
+  ]
+}

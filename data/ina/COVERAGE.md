@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-21 à 14:35:32 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 15:08:52 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-21 à 14:35:32 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **215** (≈ 59423)
-- Entrées : **28658** · Connues sans téléchargement : **21007**
-- À télécharger : **7651** · En cache : **28500** (99.4 %)
-- Œuvres distinctes : **2715** · Reste : **158**
+- Jamais indexés : **209** (≈ 53830)
+- Entrées : **29347** · Connues sans téléchargement : **21016**
+- À télécharger : **8331** · En cache : **28909** (98.5 %)
+- Œuvres distinctes : **2718** · Reste : **438**
 
 ## Par émission
 
@@ -32,7 +32,7 @@ _Généré le 2026-11-21 à 14:35:32 — parser v10 · fetch=auto_
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | A,B | 0 | 3388 | 3079 | 309 | 3388 | 0 | 100.0 % |
 | Vitamine | TF1 | 1983→1987 | A,B | 0 | 722 | 588 | 134 | 722 | 0 | 100.0 % |
 | Youpi ! L'école est finie | La Cinq | 1987→1992 | A | 5 | 1 | 0 | 1 | 1 | 0 | 100.0 % |
-| Ça cartoon | Canal+ | 1986→1999 | — | 14 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Ça cartoon | Canal+ | 1986→1999 | A | 8 | 689 | 9 | 680 | 409 | 280 | 59.4 % |
 | Canaille Peluche | Canal+ | 1986→1993 | — | 8 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
 | Croque-Vacances | TF1 | 1981→1987 | A,B | 0 | 1454 | 926 | 528 | 1326 | 128 | 91.2 % |
@@ -566,18 +566,21 @@ _Généré le 2026-11-21 à 14:35:32 — parser v10 · fetch=auto_
 | 1991 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1992 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1993 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1994 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1995 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1996 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1997 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1998 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1999 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1994 | complet | 4 | A:4 | 0 | 4 | 4 | 0 | 0 |
+| 1995 | complet | 262 | A:262 | 0 | 262 | 262 | 0 | 0 |
+| 1996 | complet | 128 | A:128 | 6 | 122 | 128 | 2 | 0 |
+| 1997 | en cours | 123 | A:123 | 3 | 120 | 15 | 1 | 108 |
+| 1998 | en cours | 83 | A:83 | 0 | 83 | 0 | 0 | 83 |
+| 1999 | en cours | 89 | A:89 | 0 | 89 | 0 | 0 | 89 |
 
 ## Complétions conseillées
 
 | Émission | Année | Reste |
 |---|---|---:|
+| Ça cartoon | 1997 | 108 |
 | Croque-Vacances | 1987 | 107 |
+| Ça cartoon | 1999 | 89 |
+| Ça cartoon | 1998 | 83 |
 | Croque-Vacances | 1985 | 21 |
 | Récré A2 | 1985 | 19 |
 | Récré A2 | 1986 | 8 |
