@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-21 à 12:52:44 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 13:40:09 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-21 à 12:52:44 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **226** (≈ 74508)
-- Entrées : **27688** · Connues sans téléchargement : **20522**
-- À télécharger : **7166** · En cache : **27530** (99.4 %)
-- Œuvres distinctes : **2406** · Reste : **158**
+- Jamais indexés : **226** (≈ 72538)
+- Entrées : **27819** · Connues sans téléchargement : **20563**
+- À télécharger : **7256** · En cache : **27661** (99.4 %)
+- Œuvres distinctes : **2410** · Reste : **158**
 
 ## Par émission
 
@@ -41,6 +41,7 @@ _Généré le 2026-11-21 à 12:52:44 — parser v10 · fetch=auto_
 | Disney Club | TF1 | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Disney Parade | TF1 | 1989→1998 | — | 10 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Décode pas Bunny | Canal+ | 1990→1996 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| ERIC ET COMPAGNIE | Antenne 2 | 1989→1990 | A | 0 | 131 | 41 | 90 | 131 | 0 | 100.0 % |
 | FR3 jeunesse | — | 1970→1999 | — | 30 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Graffi'6 | M6 | 1987→1991 | — | 5 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Le réveil des babalous | FR3 | 1986→1991 | A,B | 6 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
@@ -249,6 +250,15 @@ _Généré le 2026-11-21 à 12:52:44 — parser v10 · fetch=auto_
 | 1994 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1995 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1996 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+
+### ERIC ET COMPAGNIE · Antenne 2
+
+**Œuvres citées au niveau émission** : 2ème série, DA, Mme Potin, Mme Toupet, achat, achats, de faibles femmes, dessin animé, dessin animé : achat, dessin animé : rediffusion, l'Erreur de Tula, la poursuite, miracle au club, n° 3, question de temps, rediffusion, rediffusions, un coup de froid, un pacte dangereux
+
+| Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
+|---|---|---:|---|---:|---:|---:|---:|---:|
+| 1989 | complet | 112 | A:112 | 31 | 81 | 112 | 2 | 0 |
+| 1990 | complet | 19 | A:19 | 10 | 9 | 19 | 2 | 0 |
 
 ### FR3 jeunesse
 

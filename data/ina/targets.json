@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T19:43:12.896805",
+  "updated_at": "2026-11-21T13:33:15.540427",
   "note": "Registre des cibles de moisson INA. Éditable à la main ou depuis le tableau de bord (bouton Cibles). from/to = plage de diffusion indicative, ajustable.",
   "programs": [
     {
@@ -289,6 +289,14 @@
       "channel": "",
       "from": 1970,
       "to": 1999,
+      "priority": 3
+    },
+    {
+      "program": "ERIC ET COMPAGNIE",
+      "slug": "eric-et-compagnie",
+      "channel": "Antenne 2",
+      "from": 1989,
+      "to": 1990,
       "priority": 3
     }
   ]
