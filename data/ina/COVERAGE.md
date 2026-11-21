@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-19 à 20:32:20 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 12:52:44 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-19 à 20:32:20 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **229** (≈ 78597)
-- Entrées : **27523** · Connues sans téléchargement : **20358**
-- À télécharger : **7165** · En cache : **27365** (99.4 %)
-- Œuvres distinctes : **2397** · Reste : **158**
+- Jamais indexés : **226** (≈ 74508)
+- Entrées : **27688** · Connues sans téléchargement : **20522**
+- À télécharger : **7166** · En cache : **27530** (99.4 %)
+- Œuvres distinctes : **2406** · Reste : **158**
 
 ## Par émission
 
@@ -56,7 +56,7 @@ _Généré le 2026-11-19 à 20:32:20 — parser v10 · fetch=auto_
 | Les années fac | TF1 | 1995→1998 | — | 4 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Premiers baisers | TF1 | 1991→1997 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Salut les Musclés | TF1 | 1987→1997 | — | 11 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Télévisator 2 | France 2 | 1993→1995 | — | 3 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
+| Télévisator 2 | France 2 | 1993→1995 | A,B | 0 | 165 | 164 | 1 | 165 | 0 | 100.0 % |
 | À tout Spip | TF1 | 1993→1996 | — | 4 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | salut les petits loups | — | ?→? | — | 0 | 25 | 0 | 25 | 25 | 0 | 100.0 % |
 
@@ -498,9 +498,9 @@ _Généré le 2026-11-19 à 20:32:20 — parser v10 · fetch=auto_
 
 | Année | État | Entrées | Via | Connues | À fetch | Cache | Œuvres | Reste |
 |---|---|---:|---|---:|---:|---:|---:|---:|
-| 1993 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1994 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1995 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1993 | complet | 53 | A:53, B:52 | 52 | 1 | 53 | 2 | 0 |
+| 1994 | complet | 92 | A:92, B:92 | 92 | 0 | 92 | 5 | 0 |
+| 1995 | complet | 20 | A:20, B:20 | 20 | 0 | 20 | 2 | 0 |
 
 ### Vitamine · TF1
 
