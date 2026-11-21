@@ -1,6 +1,6 @@
 # 🏛️ Couverture de la moisson INA
 
-_Généré le 2026-11-21 à 14:31:17 — parser v10 · fetch=auto_
+_Généré le 2026-11-21 à 14:35:32 — parser v10 · fetch=auto_
 
 > **A ∪ B** : le nom de l'émission est tantôt dans le titre propre, tantôt dans la colonne
 > Titre programme, tantôt les deux. On cumule ; l'appartenance est acceptée si l'un ou l'autre correspond.
@@ -13,10 +13,10 @@ _Généré le 2026-11-21 à 14:31:17 — parser v10 · fetch=auto_
 
 ## Total
 
-- Jamais indexés : **217** (≈ 60433)
-- Entrées : **28258** · Connues sans téléchargement : **20613**
-- À télécharger : **7645** · En cache : **28100** (99.4 %)
-- Œuvres distinctes : **2415** · Reste : **158**
+- Jamais indexés : **215** (≈ 59423)
+- Entrées : **28658** · Connues sans téléchargement : **21007**
+- À télécharger : **7651** · En cache : **28500** (99.4 %)
+- Œuvres distinctes : **2715** · Reste : **158**
 
 ## Par émission
 
@@ -26,7 +26,7 @@ _Généré le 2026-11-21 à 14:31:17 — parser v10 · fetch=auto_
 | Club Dorothée | TF1 | 1987→1997 | A,B | 1 | 5182 | 4048 | 1134 | 5182 | 0 | 100.0 % |
 | Récré A2 | Antenne 2 | 1978→1987 | A,B | 0 | 8808 | 6338 | 2470 | 8778 | 30 | 99.7 % |
 | Cabou Cadin | Canal+ | 1985→1993 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
-| Giga | Antenne 2 | 1987→1996 | — | 5 | 1086 | 0 | 1086 | 1086 | 0 | 100.0 % |
+| Giga | Antenne 2 | 1987→1996 | A,B | 3 | 1486 | 394 | 1092 | 1486 | 0 | 100.0 % |
 | Le Disney Channel | FR3 | 1988→1996 | — | 9 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Minikeums | France 3 | 1993→1999 | — | 7 | 0 | 0 | 0 | 0 | 0 | 0.0 % |
 | Les Visiteurs du mercredi | TF1 | 1975→1983 | A,B | 0 | 3388 | 3079 | 309 | 3388 | 0 | 100.0 % |
@@ -312,13 +312,13 @@ _Généré le 2026-11-21 à 14:31:17 — parser v10 · fetch=auto_
 | 1987 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1988 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
 | 1989 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1990 | complet | 211 | — | 0 | 211 | 211 | 0 | 0 |
-| 1991 | complet | 235 | — | 0 | 235 | 235 | 0 | 0 |
-| 1992 | complet | 233 | — | 0 | 233 | 233 | 0 | 0 |
-| 1993 | complet | 252 | — | 0 | 252 | 252 | 0 | 0 |
-| 1994 | complet | 155 | — | 0 | 155 | 155 | 0 | 0 |
-| 1995 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
-| 1996 | jamais indexé | 0 | — | 0 | 0 | 0 | 0 | 0 |
+| 1990 | complet | 216 | A:216, B:216 | 3 | 213 | 216 | 3 | 0 |
+| 1991 | complet | 280 | A:280, B:280 | 44 | 236 | 280 | 8 | 0 |
+| 1992 | complet | 302 | A:302, B:302 | 68 | 234 | 302 | 17 | 0 |
+| 1993 | complet | 350 | A:350, B:327 | 98 | 252 | 350 | 97 | 0 |
+| 1994 | complet | 238 | A:238, B:238 | 83 | 155 | 238 | 80 | 0 |
+| 1995 | complet | 54 | A:54, B:54 | 52 | 2 | 54 | 49 | 0 |
+| 1996 | complet | 46 | A:46, B:34 | 46 | 0 | 46 | 46 | 0 |
 
 ### Graffi'6 · M6
 
