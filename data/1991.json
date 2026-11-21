@@ -4,7 +4,7 @@
     "01-04-1991": {
       "date": "01-04-1991",
       "source": "archives80+depot101",
-      "programs_count": 153,
+      "programs_count": 143,
       "programs": [
         {
           "time": "05:35",
@@ -915,15 +915,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espanol",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:05",
           "channel": "M6",
           "raw_channel": "M6",
@@ -939,15 +930,6 @@
           "channel": "M6",
           "raw_channel": "M6",
           "title": "HIT HIT HIT HOURRA !",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espanol",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -1026,17 +1008,6 @@
           "segments": []
         },
         {
-          "time": "16:15",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La Renaissance",
-          "description": "Série de 6 émissions de Roland Darbois",
-          "description_lines": [
-            "Série de 6 émissions de Roland Darbois"
-          ],
-          "segments": []
-        },
-        {
           "time": "16:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -1045,15 +1016,6 @@
           "description_lines": [
             "Série américaine avec Robert Urich"
           ],
-          "segments": []
-        },
-        {
-          "time": "17:15",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le Banquet de Platon",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -1087,24 +1049,6 @@
           "segments": []
         },
         {
-          "time": "18:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Nuits noires",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "A fleur de terre",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "M6",
           "raw_channel": "M6",
@@ -1125,28 +1069,6 @@
           "segments": []
         },
         {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "Magazine de géopolitique",
-          "description_lines": [
-            "Magazine de géopolitique"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Stéphane Grappelli",
-          "description": "Série américaine",
-          "description_lines": [
-            "Série américaine"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:35",
           "channel": "M6",
           "raw_channel": "M6",
@@ -1158,15 +1080,6 @@
           "segments": []
         },
         {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "De sable et de sang",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "21:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -1174,17 +1087,6 @@
           "description": "Téléfilm de Fred Barzyk avec Jennifer Eas, Jessica Walter",
           "description_lines": [
             "Téléfilm de Fred Barzyk avec Jennifer Eas, Jessica Walter"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:40",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le goûter de Josette",
-          "description": "Film",
-          "description_lines": [
-            "Film"
           ],
           "segments": []
         },
@@ -2582,15 +2484,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espanol",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:05",
             "channel": "M6",
             "raw_channel": "M6",
@@ -2606,15 +2499,6 @@
             "channel": "M6",
             "raw_channel": "M6",
             "title": "HIT HIT HIT HOURRA !",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espanol",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -2693,17 +2577,6 @@
             "segments": []
           },
           {
-            "time": "16:15",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La Renaissance",
-            "description": "Série de 6 émissions de Roland Darbois",
-            "description_lines": [
-              "Série de 6 émissions de Roland Darbois"
-            ],
-            "segments": []
-          },
-          {
             "time": "16:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -2712,15 +2585,6 @@
             "description_lines": [
               "Série américaine avec Robert Urich"
             ],
-            "segments": []
-          },
-          {
-            "time": "17:15",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le Banquet de Platon",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -2754,24 +2618,6 @@
             "segments": []
           },
           {
-            "time": "18:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Nuits noires",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "A fleur de terre",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "M6",
             "raw_channel": "M6",
@@ -2792,28 +2638,6 @@
             "segments": []
           },
           {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "Magazine de géopolitique",
-            "description_lines": [
-              "Magazine de géopolitique"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Stéphane Grappelli",
-            "description": "Série américaine",
-            "description_lines": [
-              "Série américaine"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "M6",
             "raw_channel": "M6",
@@ -2825,15 +2649,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "De sable et de sang",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "21:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -2841,17 +2656,6 @@
             "description": "Téléfilm de Fred Barzyk avec Jennifer Eas, Jessica Walter",
             "description_lines": [
               "Téléfilm de Fred Barzyk avec Jennifer Eas, Jessica Walter"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:40",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le goûter de Josette",
-            "description": "Film",
-            "description_lines": [
-              "Film"
             ],
             "segments": []
           },
@@ -21842,7 +21646,7 @@
     "03-06-1991": {
       "date": "03-06-1991",
       "source": "archives80+depot101",
-      "programs_count": 159,
+      "programs_count": 149,
       "programs": [
         {
           "time": "05:35",
@@ -22651,15 +22455,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espanol",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:35",
           "channel": "M6",
           "raw_channel": "M6",
@@ -22668,15 +22463,6 @@
           "description_lines": [
             "Série télé américaine"
           ],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espanol",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -22762,15 +22548,6 @@
           "segments": []
         },
         {
-          "time": "16:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Dance of Darkness",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "16:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -22788,15 +22565,6 @@
           "description_lines": [
             "Jeu"
           ],
-          "segments": []
-        },
-        {
-          "time": "17:05",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Boulevards d'Afrique",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -22821,24 +22589,6 @@
           "segments": []
         },
         {
-          "time": "18:15",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Un grand quelqu'un",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:45",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Soirée spéciale animation",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "M6",
           "raw_channel": "M6",
@@ -22856,17 +22606,6 @@
           "title": "6 MINUTES",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "Magazine de géopolitique",
-          "description_lines": [
-            "Magazine de géopolitique"
-          ],
           "segments": []
         },
         {
@@ -22894,15 +22633,6 @@
           "segments": []
         },
         {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Les mendiants",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:15",
           "channel": "M6",
           "raw_channel": "M6",
@@ -22911,26 +22641,6 @@
           "description_lines": [
             "Série américaine",
             "Le silence"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le maréchal-ferrant",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "Magazine de géopolitique",
-          "description_lines": [
-            "Magazine de géopolitique"
           ],
           "segments": []
         },
@@ -24332,15 +24042,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espanol",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:35",
             "channel": "M6",
             "raw_channel": "M6",
@@ -24349,15 +24050,6 @@
             "description_lines": [
               "Série télé américaine"
             ],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espanol",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -24443,15 +24135,6 @@
             "segments": []
           },
           {
-            "time": "16:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Dance of Darkness",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "16:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -24469,15 +24152,6 @@
             "description_lines": [
               "Jeu"
             ],
-            "segments": []
-          },
-          {
-            "time": "17:05",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Boulevards d'Afrique",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -24502,24 +24176,6 @@
             "segments": []
           },
           {
-            "time": "18:15",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Un grand quelqu'un",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:45",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Soirée spéciale animation",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "M6",
             "raw_channel": "M6",
@@ -24537,17 +24193,6 @@
             "title": "6 MINUTES",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "Magazine de géopolitique",
-            "description_lines": [
-              "Magazine de géopolitique"
-            ],
             "segments": []
           },
           {
@@ -24575,15 +24220,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Les mendiants",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:15",
             "channel": "M6",
             "raw_channel": "M6",
@@ -24592,26 +24228,6 @@
             "description_lines": [
               "Série américaine",
               "Le silence"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le maréchal-ferrant",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "Magazine de géopolitique",
-            "description_lines": [
-              "Magazine de géopolitique"
             ],
             "segments": []
           },
@@ -41251,7 +40867,7 @@
     "06-11-1991": {
       "date": "06-11-1991",
       "source": "archives80+depot101",
-      "programs_count": 160,
+      "programs_count": 155,
       "programs": [
         {
           "time": "05:10",
@@ -42333,15 +41949,6 @@
           "segments": []
         },
         {
-          "time": "17:15",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Avis de tempête",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "17:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -42392,17 +41999,6 @@
           "segments": []
         },
         {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Chronique de l'infection",
-          "description": "Série télé américaine",
-          "description_lines": [
-            "Série télé américaine"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -42411,24 +42007,6 @@
           "description_lines": [
             "Téléfilm de Paul Schneider avec Joan Rivets, Alex Rocco"
           ],
-          "segments": []
-        },
-        {
-          "time": "20:50",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le courrier des téléspectateurs",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le temps verrouillé",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -42487,15 +42065,6 @@
           "description_lines": [
             "Emission présentée par Charles Villeneuve"
           ],
-          "segments": []
-        },
-        {
-          "time": "02:45",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Cycle cinéma grec",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -44038,15 +43607,6 @@
             "segments": []
           },
           {
-            "time": "17:15",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Avis de tempête",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "17:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -44097,17 +43657,6 @@
             "segments": []
           },
           {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Chronique de l'infection",
-            "description": "Série télé américaine",
-            "description_lines": [
-              "Série télé américaine"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -44116,24 +43665,6 @@
             "description_lines": [
               "Téléfilm de Paul Schneider avec Joan Rivets, Alex Rocco"
             ],
-            "segments": []
-          },
-          {
-            "time": "20:50",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le courrier des téléspectateurs",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le temps verrouillé",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -44192,15 +43723,6 @@
             "description_lines": [
               "Emission présentée par Charles Villeneuve"
             ],
-            "segments": []
-          },
-          {
-            "time": "02:45",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Cycle cinéma grec",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -64921,7 +64443,7 @@
     "08-09-1991": {
       "date": "08-09-1991",
       "source": "archives80+depot101",
-      "programs_count": 161,
+      "programs_count": 152,
       "programs": [
         {
           "time": "05:10",
@@ -65809,24 +65331,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "ALLEMAND",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:15",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Histoires de comprendre",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "10:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -65871,15 +65375,6 @@
           "channel": "M6",
           "raw_channel": "M6",
           "title": "INFOCONSOMMATION",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "ALLEMAND",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -65938,32 +65433,12 @@
           "segments": []
         },
         {
-          "time": "15:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Zizi Jeanmaire aux Bouffes-du-Nord",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "15:30",
           "channel": "M6",
           "raw_channel": "M6",
           "title": "HIT HIT HIT HOURRA !",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "16:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "L'escalier céleste",
-          "description": "Documentaire",
-          "description_lines": [
-            "Documentaire"
-          ],
           "segments": []
         },
         {
@@ -65986,15 +65461,6 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": []
-        },
-        {
-          "time": "17:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Best Boy",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -66041,17 +65507,6 @@
           "segments": []
         },
         {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "L'héritage de la chouette",
-          "description": "Série américaine. Rediffusion",
-          "description_lines": [
-            "Série américaine. Rediffusion"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -66074,17 +65529,6 @@
           "segments": []
         },
         {
-          "time": "22:05",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Guernica",
-          "description": "Court métrage",
-          "description_lines": [
-            "Court métrage"
-          ],
-          "segments": []
-        },
-        {
           "time": "22:25",
           "channel": "M6",
           "raw_channel": "M6",
@@ -66092,17 +65536,6 @@
           "description": "Rubrique économique présentée par Emmanuel Chain",
           "description_lines": [
             "Rubrique économique présentée par Emmanuel Chain"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "India Song",
-          "description": "Film de Marguerite Duras",
-          "description_lines": [
-            "Film de Marguerite Duras"
           ],
           "segments": []
         },
@@ -67452,24 +66885,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "ALLEMAND",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:15",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Histoires de comprendre",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "10:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -67514,15 +66929,6 @@
             "channel": "M6",
             "raw_channel": "M6",
             "title": "INFOCONSOMMATION",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "ALLEMAND",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -67581,32 +66987,12 @@
             "segments": []
           },
           {
-            "time": "15:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Zizi Jeanmaire aux Bouffes-du-Nord",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "15:30",
             "channel": "M6",
             "raw_channel": "M6",
             "title": "HIT HIT HIT HOURRA !",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "16:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "L'escalier céleste",
-            "description": "Documentaire",
-            "description_lines": [
-              "Documentaire"
-            ],
             "segments": []
           },
           {
@@ -67629,15 +67015,6 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": []
-          },
-          {
-            "time": "17:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Best Boy",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -67684,17 +67061,6 @@
             "segments": []
           },
           {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "L'héritage de la chouette",
-            "description": "Série américaine. Rediffusion",
-            "description_lines": [
-              "Série américaine. Rediffusion"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -67717,17 +67083,6 @@
             "segments": []
           },
           {
-            "time": "22:05",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Guernica",
-            "description": "Court métrage",
-            "description_lines": [
-              "Court métrage"
-            ],
-            "segments": []
-          },
-          {
             "time": "22:25",
             "channel": "M6",
             "raw_channel": "M6",
@@ -67735,17 +67090,6 @@
             "description": "Rubrique économique présentée par Emmanuel Chain",
             "description_lines": [
               "Rubrique économique présentée par Emmanuel Chain"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "India Song",
-            "description": "Film de Marguerite Duras",
-            "description_lines": [
-              "Film de Marguerite Duras"
             ],
             "segments": []
           },
@@ -75052,7 +74396,7 @@
     "12-03-1991": {
       "date": "12-03-1991",
       "source": "archives80+depot101",
-      "programs_count": 168,
+      "programs_count": 161,
       "programs": [
         {
           "time": "05:35",
@@ -76033,15 +75377,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Anglais",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:05",
           "channel": "M6",
           "raw_channel": "M6",
@@ -76135,15 +75470,6 @@
           "segments": []
         },
         {
-          "time": "16:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Voyage en Amérique avec un cheval emprunté",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "16:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -76196,41 +75522,12 @@
           "segments": []
         },
         {
-          "time": "19:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Allegro barbaro",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Enfance",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:54",
           "channel": "M6",
           "raw_channel": "M6",
           "title": "6 MINUTES",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "Magazine de géopolitique",
-          "description_lines": [
-            "Magazine de géopolitique"
-          ],
           "segments": []
         },
         {
@@ -76267,15 +75564,6 @@
           "segments": []
         },
         {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Mégamix",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "21:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -76294,17 +75582,6 @@
           "description": "Savoir-vivre",
           "description_lines": [
             "Savoir-vivre"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La maison dans la dune",
-          "description": "Téléfilm de Michel Mees",
-          "description_lines": [
-            "Téléfilm de Michel Mees"
           ],
           "segments": []
         },
@@ -77820,15 +77097,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Anglais",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:05",
             "channel": "M6",
             "raw_channel": "M6",
@@ -77922,15 +77190,6 @@
             "segments": []
           },
           {
-            "time": "16:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Voyage en Amérique avec un cheval emprunté",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "16:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -77983,41 +77242,12 @@
             "segments": []
           },
           {
-            "time": "19:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Allegro barbaro",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Enfance",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:54",
             "channel": "M6",
             "raw_channel": "M6",
             "title": "6 MINUTES",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "Magazine de géopolitique",
-            "description_lines": [
-              "Magazine de géopolitique"
-            ],
             "segments": []
           },
           {
@@ -78054,15 +77284,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Mégamix",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "21:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -78081,17 +77302,6 @@
             "description": "Savoir-vivre",
             "description_lines": [
               "Savoir-vivre"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La maison dans la dune",
-            "description": "Téléfilm de Michel Mees",
-            "description_lines": [
-              "Téléfilm de Michel Mees"
             ],
             "segments": []
           },
@@ -78629,7 +77839,7 @@
     "14-02-1991": {
       "date": "14-02-1991",
       "source": "archives80+depot101",
-      "programs_count": 175,
+      "programs_count": 166,
       "programs": [
         {
           "time": "05:55",
@@ -79568,15 +78778,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Anglais",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "10:05",
           "channel": "M6",
           "raw_channel": "M6",
@@ -79739,15 +78940,6 @@
           "segments": []
         },
         {
-          "time": "18:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "L'âge d'or du cinéma",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "18:05",
           "channel": "M6",
           "raw_channel": "M6",
@@ -79757,15 +78949,6 @@
             "Série américaine",
             "L'évasion"
           ],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Ici bat la vie",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -79780,32 +78963,12 @@
           "segments": []
         },
         {
-          "time": "19:25",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La malédiction des plumes",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:54",
           "channel": "M6",
           "raw_channel": "M6",
           "title": "6 MINUTES",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "magazine de géopolitique",
-          "description_lines": [
-            "magazine de géopolitique"
-          ],
           "segments": []
         },
         {
@@ -79821,37 +78984,6 @@
           "segments": []
         },
         {
-          "time": "20:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Ici bat la vie",
-          "description": "film de Randal Kleiser avec Brooke Shields, Christopher Atkins",
-          "description_lines": [
-            "film de Randal Kleiser avec Brooke Shields, Christopher Atkins"
-          ],
-          "segments": []
-        },
-        {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Vous souvenez-vous de Gaspar Winkler ?",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "21:05",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Leavingthe Old Ruin",
-          "description": "Œuvre vidéo",
-          "description_lines": [
-            "Œuvre vidéo"
-          ],
-          "segments": []
-        },
-        {
           "time": "22:30",
           "channel": "M6",
           "raw_channel": "M6",
@@ -79861,15 +78993,6 @@
             "film de Max Pécas avec Sylvain Green, Victoria Abril",
             "magazine de géopolitique"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:35",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Symphonie en D Chorégraphie de Jiri Kylian",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -81429,15 +80552,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Anglais",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "10:05",
             "channel": "M6",
             "raw_channel": "M6",
@@ -81600,15 +80714,6 @@
             "segments": []
           },
           {
-            "time": "18:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "L'âge d'or du cinéma",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "18:05",
             "channel": "M6",
             "raw_channel": "M6",
@@ -81618,15 +80723,6 @@
               "Série américaine",
               "L'évasion"
             ],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Ici bat la vie",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -81641,32 +80737,12 @@
             "segments": []
           },
           {
-            "time": "19:25",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La malédiction des plumes",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:54",
             "channel": "M6",
             "raw_channel": "M6",
             "title": "6 MINUTES",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "magazine de géopolitique",
-            "description_lines": [
-              "magazine de géopolitique"
-            ],
             "segments": []
           },
           {
@@ -81682,37 +80758,6 @@
             "segments": []
           },
           {
-            "time": "20:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Ici bat la vie",
-            "description": "film de Randal Kleiser avec Brooke Shields, Christopher Atkins",
-            "description_lines": [
-              "film de Randal Kleiser avec Brooke Shields, Christopher Atkins"
-            ],
-            "segments": []
-          },
-          {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Vous souvenez-vous de Gaspar Winkler ?",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "21:05",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Leavingthe Old Ruin",
-            "description": "Œuvre vidéo",
-            "description_lines": [
-              "Œuvre vidéo"
-            ],
-            "segments": []
-          },
-          {
             "time": "22:30",
             "channel": "M6",
             "raw_channel": "M6",
@@ -81722,15 +80767,6 @@
               "film de Max Pécas avec Sylvain Green, Victoria Abril",
               "magazine de géopolitique"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:35",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Symphonie en D Chorégraphie de Jiri Kylian",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -82354,7 +81390,7 @@
     "15-08-1991": {
       "date": "15-08-1991",
       "source": "archives80+depot101",
-      "programs_count": 172,
+      "programs_count": 165,
       "programs": [
         {
           "time": "05:35",
@@ -83441,15 +82477,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Anglais",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:20",
           "channel": "M6",
           "raw_channel": "M6",
@@ -83476,15 +82503,6 @@
           "description_lines": [
             "Feuilleton français"
           ],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Anglais",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -83550,17 +82568,6 @@
           "segments": []
         },
         {
-          "time": "16:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Louis Armstrong",
-          "description": "Dans le cadre de la série Jazz Memories",
-          "description_lines": [
-            "Dans le cadre de la série Jazz Memories"
-          ],
-          "segments": []
-        },
-        {
           "time": "16:50",
           "channel": "M6",
           "raw_channel": "M6",
@@ -83578,17 +82585,6 @@
           "description_lines": [
             "Série américaine",
             "Des fiançailles mouvementées"
-          ],
-          "segments": []
-        },
-        {
-          "time": "17:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Combat singulier",
-          "description": "Téléfilm de Gert Steinheimer",
-          "description_lines": [
-            "Téléfilm de Gert Steinheimer"
           ],
           "segments": []
         },
@@ -83612,15 +82608,6 @@
           "description_lines": [
             "Série américaine"
           ],
-          "segments": []
-        },
-        {
-          "time": "19:45",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Eugène Delacroix : L'ange et le barbare",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -83656,15 +82643,6 @@
           "segments": []
         },
         {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Contes et légendes du Louvre",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "21:15",
           "channel": "M6",
           "raw_channel": "M6",
@@ -83673,15 +82651,6 @@
           "description_lines": [
             "L'autoportrait dans la peinture"
           ],
-          "segments": []
-        },
-        {
-          "time": "21:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Dynamo",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -85252,15 +84221,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Anglais",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:20",
             "channel": "M6",
             "raw_channel": "M6",
@@ -85287,15 +84247,6 @@
             "description_lines": [
               "Feuilleton français"
             ],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Anglais",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -85361,17 +84312,6 @@
             "segments": []
           },
           {
-            "time": "16:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Louis Armstrong",
-            "description": "Dans le cadre de la série Jazz Memories",
-            "description_lines": [
-              "Dans le cadre de la série Jazz Memories"
-            ],
-            "segments": []
-          },
-          {
             "time": "16:50",
             "channel": "M6",
             "raw_channel": "M6",
@@ -85389,17 +84329,6 @@
             "description_lines": [
               "Série américaine",
               "Des fiançailles mouvementées"
-            ],
-            "segments": []
-          },
-          {
-            "time": "17:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Combat singulier",
-            "description": "Téléfilm de Gert Steinheimer",
-            "description_lines": [
-              "Téléfilm de Gert Steinheimer"
             ],
             "segments": []
           },
@@ -85423,15 +84352,6 @@
             "description_lines": [
               "Série américaine"
             ],
-            "segments": []
-          },
-          {
-            "time": "19:45",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Eugène Delacroix : L'ange et le barbare",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -85467,15 +84387,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Contes et légendes du Louvre",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "21:15",
             "channel": "M6",
             "raw_channel": "M6",
@@ -85484,15 +84395,6 @@
             "description_lines": [
               "L'autoportrait dans la peinture"
             ],
-            "segments": []
-          },
-          {
-            "time": "21:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Dynamo",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -119483,7 +118385,7 @@
     "21-01-1991": {
       "date": "21-01-1991",
       "source": "archives80+depot101",
-      "programs_count": 171,
+      "programs_count": 164,
       "programs": [
         {
           "time": "05:55",
@@ -120554,17 +119456,6 @@
           "segments": []
         },
         {
-          "time": "16:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Anicroches",
-          "description": "Magazine musical de Philippe Meyer",
-          "description_lines": [
-            "Magazine musical de Philippe Meyer"
-          ],
-          "segments": []
-        },
-        {
           "time": "16:45",
           "channel": "M6",
           "raw_channel": "M6",
@@ -120573,17 +119464,6 @@
           "description_lines": [
             "Série américaine avec Robert Urich",
             "Les danseuses"
-          ],
-          "segments": []
-        },
-        {
-          "time": "17:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Lettres d'amour en Somalie",
-          "description": "Film de Frédéric Mitterrand",
-          "description_lines": [
-            "Film de Frédéric Mitterrand"
           ],
           "segments": []
         },
@@ -120615,46 +119495,12 @@
           "segments": []
         },
         {
-          "time": "18:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La voix du bois",
-          "description": "Court métrage burkinabé d'Issiaka Konate",
-          "description_lines": [
-            "Série américaine. Rediffusion",
-            "Court métrage burkinabé d'Issiaka Konate"
-          ],
-          "segments": []
-        },
-        {
-          "time": "19:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Mémoires d'ex",
-          "description": "Série américaine",
-          "description_lines": [
-            "Série américaine"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:54",
           "channel": "M6",
           "raw_channel": "M6",
           "title": "6 MINUTES",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "Chronique géopolitique",
-          "description_lines": [
-            "Chronique géopolitique"
-          ],
           "segments": []
         },
         {
@@ -120701,26 +119547,6 @@
           "description_lines": [
             "Série britannique"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:40",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Issale tisserand",
-          "description": "Court métrage burkinabé d'Idrissa Ouedraogo",
-          "description_lines": [
-            "Court métrage burkinabé d'Idrissa Ouedraogo"
-          ],
-          "segments": []
-        },
-        {
-          "time": "23:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Mémoires d'ex",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -122386,17 +121212,6 @@
             "segments": []
           },
           {
-            "time": "16:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Anicroches",
-            "description": "Magazine musical de Philippe Meyer",
-            "description_lines": [
-              "Magazine musical de Philippe Meyer"
-            ],
-            "segments": []
-          },
-          {
             "time": "16:45",
             "channel": "M6",
             "raw_channel": "M6",
@@ -122405,17 +121220,6 @@
             "description_lines": [
               "Série américaine avec Robert Urich",
               "Les danseuses"
-            ],
-            "segments": []
-          },
-          {
-            "time": "17:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Lettres d'amour en Somalie",
-            "description": "Film de Frédéric Mitterrand",
-            "description_lines": [
-              "Film de Frédéric Mitterrand"
             ],
             "segments": []
           },
@@ -122447,46 +121251,12 @@
             "segments": []
           },
           {
-            "time": "18:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La voix du bois",
-            "description": "Court métrage burkinabé d'Issiaka Konate",
-            "description_lines": [
-              "Série américaine. Rediffusion",
-              "Court métrage burkinabé d'Issiaka Konate"
-            ],
-            "segments": []
-          },
-          {
-            "time": "19:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Mémoires d'ex",
-            "description": "Série américaine",
-            "description_lines": [
-              "Série américaine"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:54",
             "channel": "M6",
             "raw_channel": "M6",
             "title": "6 MINUTES",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "Chronique géopolitique",
-            "description_lines": [
-              "Chronique géopolitique"
-            ],
             "segments": []
           },
           {
@@ -122533,26 +121303,6 @@
             "description_lines": [
               "Série britannique"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:40",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Issale tisserand",
-            "description": "Court métrage burkinabé d'Idrissa Ouedraogo",
-            "description_lines": [
-              "Court métrage burkinabé d'Idrissa Ouedraogo"
-            ],
-            "segments": []
-          },
-          {
-            "time": "23:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Mémoires d'ex",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -135399,7 +134149,7 @@
     "24-12-1991": {
       "date": "24-12-1991",
       "source": "archives80+depot101",
-      "programs_count": 178,
+      "programs_count": 172,
       "programs": [
         {
           "time": "05:00",
@@ -136541,15 +135291,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espagnol",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:25",
           "channel": "M6",
           "raw_channel": "M6",
@@ -136651,17 +135392,6 @@
           "segments": []
         },
         {
-          "time": "17:35",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Les années TSF",
-          "description": "Documentaire",
-          "description_lines": [
-            "Documentaire"
-          ],
-          "segments": []
-        },
-        {
           "time": "17:45",
           "channel": "M6",
           "raw_channel": "M6",
@@ -136682,15 +135412,6 @@
             "Série américaine",
             "Rencontre désespérée"
           ],
-          "segments": []
-        },
-        {
-          "time": "18:35",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "IMAGES",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -136722,15 +135443,6 @@
           "channel": "M6",
           "raw_channel": "M6",
           "title": "6 MINUTES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Cinémémo",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -136771,17 +135483,6 @@
           "segments": []
         },
         {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le lac des cygnes",
-          "description": "Chorégraphie de Mats Ek",
-          "description_lines": [
-            "Chorégraphie de Mats Ek"
-          ],
-          "segments": []
-        },
-        {
           "time": "22:10",
           "channel": "M6",
           "raw_channel": "M6",
@@ -136790,15 +135491,6 @@
           "description_lines": [
             "Présenté par Laurent Boyer. Avec Smain, Pierre Desproges, Coluche, Alex Métayer, Pierre Palmade, Sylvie Joly, Jean-Marie Bigard, Anne Roumanoff, Guy Bedos. Eric Le Roch, Bonjour chez vous, Petit et Grand, Cherer et Cherer, Courtemanche, QSV, Kroupit, Elie et Donnadieu, etc."
           ],
-          "segments": []
-        },
-        {
-          "time": "22:40",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "El Ring",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -138429,15 +137121,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espagnol",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:25",
             "channel": "M6",
             "raw_channel": "M6",
@@ -138539,17 +137222,6 @@
             "segments": []
           },
           {
-            "time": "17:35",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Les années TSF",
-            "description": "Documentaire",
-            "description_lines": [
-              "Documentaire"
-            ],
-            "segments": []
-          },
-          {
             "time": "17:45",
             "channel": "M6",
             "raw_channel": "M6",
@@ -138570,15 +137242,6 @@
               "Série américaine",
               "Rencontre désespérée"
             ],
-            "segments": []
-          },
-          {
-            "time": "18:35",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "IMAGES",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -138610,15 +137273,6 @@
             "channel": "M6",
             "raw_channel": "M6",
             "title": "6 MINUTES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Cinémémo",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -138659,17 +137313,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le lac des cygnes",
-            "description": "Chorégraphie de Mats Ek",
-            "description_lines": [
-              "Chorégraphie de Mats Ek"
-            ],
-            "segments": []
-          },
-          {
             "time": "22:10",
             "channel": "M6",
             "raw_channel": "M6",
@@ -138678,15 +137321,6 @@
             "description_lines": [
               "Présenté par Laurent Boyer. Avec Smain, Pierre Desproges, Coluche, Alex Métayer, Pierre Palmade, Sylvie Joly, Jean-Marie Bigard, Anne Roumanoff, Guy Bedos. Eric Le Roch, Bonjour chez vous, Petit et Grand, Cherer et Cherer, Courtemanche, QSV, Kroupit, Elie et Donnadieu, etc."
             ],
-            "segments": []
-          },
-          {
-            "time": "22:40",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "El Ring",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -139176,7 +137810,7 @@
     "25-12-1991": {
       "date": "25-12-1991",
       "source": "archives80+depot101",
-      "programs_count": 146,
+      "programs_count": 140,
       "programs": [
         {
           "time": "05:10",
@@ -140199,17 +138833,6 @@
           "segments": []
         },
         {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "L'œil entend, l'oreille voit",
-          "description": "Série télé américaine",
-          "description_lines": [
-            "Série télé américaine"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:35",
           "channel": "M6",
           "raw_channel": "M6",
@@ -140230,15 +138853,6 @@
           "segments": []
         },
         {
-          "time": "21:10",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Innisfree",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:05",
           "channel": "M6",
           "raw_channel": "M6",
@@ -140247,24 +138861,6 @@
           "description_lines": [
             "Téléfilm de Michael Lindsay-Hogg, avec Brigitte Nielsen"
           ],
-          "segments": []
-        },
-        {
-          "time": "22:35",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Por primeravez",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:45",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Cycle Ingmar Bergman",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -140290,15 +138886,6 @@
           "channel": "M6",
           "raw_channel": "M6",
           "title": "BOULEVARD DES CLIPS",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "00:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Nikola",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -140623,15 +139210,6 @@
           "channel": "La Sept",
           "raw_channel": "La Sept",
           "title": "L'ŒIL ENTEND, L'OREILLE VOIT",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "21:00",
-          "channel": "La Sept",
-          "raw_channel": "La Sept",
-          "title": "LE COURRIER DES TÉLÉSPECTATEURS",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -141717,17 +140295,6 @@
             "segments": []
           },
           {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "L'œil entend, l'oreille voit",
-            "description": "Série télé américaine",
-            "description_lines": [
-              "Série télé américaine"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "M6",
             "raw_channel": "M6",
@@ -141748,15 +140315,6 @@
             "segments": []
           },
           {
-            "time": "21:10",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Innisfree",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:05",
             "channel": "M6",
             "raw_channel": "M6",
@@ -141765,24 +140323,6 @@
             "description_lines": [
               "Téléfilm de Michael Lindsay-Hogg, avec Brigitte Nielsen"
             ],
-            "segments": []
-          },
-          {
-            "time": "22:35",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Por primeravez",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:45",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Cycle Ingmar Bergman",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -141808,15 +140348,6 @@
             "channel": "M6",
             "raw_channel": "M6",
             "title": "BOULEVARD DES CLIPS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "00:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Nikola",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -142150,15 +140681,6 @@
             "segments": []
           },
           {
-            "time": "21:00",
-            "channel": "La Sept",
-            "raw_channel": "La Sept",
-            "title": "LE COURRIER DES TÉLÉSPECTATEURS",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "21:10",
             "channel": "La Sept",
             "raw_channel": "La Sept",
@@ -142215,7 +140737,7 @@
     "26-04-1991": {
       "date": "26-04-1991",
       "source": "archives80+depot101",
-      "programs_count": 181,
+      "programs_count": 150,
       "programs": [
         {
           "time": "05:30",
@@ -142238,15 +140760,6 @@
           "description_lines": [
             "Série française"
           ],
-          "segments": []
-        },
-        {
-          "time": "06:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Rue Camot",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -142279,15 +140792,6 @@
           "segments": []
         },
         {
-          "time": "08:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Continentales",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "08:25",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -142295,50 +140799,6 @@
           "description": "Téléachat",
           "description_lines": [
             "Téléachat"
-          ],
-          "segments": []
-        },
-        {
-          "time": "08:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Amoureusement vôtre",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
-          ],
-          "segments": []
-        },
-        {
-          "time": "08:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Amour, gloire et beauté",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
-          ],
-          "segments": []
-        },
-        {
-          "time": "09:20",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Eric et toi et moi",
-          "description": "Présentation : Eric Galliano",
-          "description_lines": [
-            "Présentation : Eric Galliano"
-          ],
-          "segments": []
-        },
-        {
-          "time": "11:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Questions pour un champion",
-          "description": "Jeu présenté par Julien Lepers",
-          "description_lines": [
-            "Jeu présenté par Julien Lepers"
           ],
           "segments": []
         },
@@ -142365,61 +140825,12 @@
           "segments": []
         },
         {
-          "time": "11:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Motus",
-          "description": "Jeu présenté par Thierry Beccaro",
-          "description_lines": [
-            "Jeu présenté par Thierry Beccaro"
-          ],
-          "segments": []
-        },
-        {
-          "time": "11:53",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Espace 3 Entreprises",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "11:55",
           "channel": "TF1",
           "raw_channel": "TF1",
           "title": "TOURNEZ... MANÈGE !",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Les titres de l'actualité",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Dessinez, c'est gagné",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Les Mariés de l'A2",
-          "description": "Jeu télévisé",
-          "description_lines": [
-            "Jeu télévisé"
-          ],
           "segments": []
         },
         {
@@ -142450,15 +140861,6 @@
           "description_lines": [
             "feuilleton sentimental"
           ],
-          "segments": []
-        },
-        {
-          "time": "13:45",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Générations",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -142513,17 +140915,6 @@
           ]
         },
         {
-          "time": "17:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Giga",
-          "description": "Émission pour la jeunesse",
-          "description_lines": [
-            "Émission pour la jeunesse"
-          ],
-          "segments": []
-        },
-        {
           "time": "17:30",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -142536,34 +140927,12 @@
           "segments": []
         },
         {
-          "time": "18:10",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Des chiffres et des lettres",
-          "description": "Jeu télévisé",
-          "description_lines": [
-            "Jeu télévisé"
-          ],
-          "segments": []
-        },
-        {
           "time": "18:20",
           "channel": "TF1",
           "raw_channel": "TF1",
           "title": "UNE FAMILLE EN OR",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Questions pour un champion",
-          "description": "Jeu présenté par Julien Lepers",
-          "description_lines": [
-            "Jeu présenté par Julien Lepers"
-          ],
           "segments": []
         },
         {
@@ -142586,15 +140955,6 @@
           "description_lines": [
             "Feuilleton américain"
           ],
-          "segments": []
-        },
-        {
-          "time": "19:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Le 19-20",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -142642,17 +141002,6 @@
           "segments": []
         },
         {
-          "time": "20:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "La Classe",
-          "description": "Avec Lorca (Los ninos del sol)",
-          "description_lines": [
-            "Avec Lorca (Los ninos del sol)"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:35",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -142665,17 +141014,6 @@
           "segments": []
         },
         {
-          "time": "20:45",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Balthazar",
-          "description": "Les jeux : Nouvelle méthode d'interview ; Nouvelle méthode promotionnelle ; Le roman improvisé ; Le jeu du télégramme ; Concours du meilleur menteur ; Concours du meilleur bruiteur ; Concours du meilleur cinéphile. Equipe bleue: Jean-Claude Brialy, William Leymergie, Martine Boeri, Henri Guybet. Equipe rose : Jacques Martin, Frédéric Mitterrand, Tom Novembre et Jean-Marie Bigard. Variétés : Kylie Minogue, Boy George, Philippe Swan, Patricia Kaas",
-          "description_lines": [
-            "Les jeux : Nouvelle méthode d'interview ; Nouvelle méthode promotionnelle ; Le roman improvisé ; Le jeu du télégramme ; Concours du meilleur menteur ; Concours du meilleur bruiteur ; Concours du meilleur cinéphile. Equipe bleue: Jean-Claude Brialy, William Leymergie, Martine Boeri, Henri Guybet. Equipe rose : Jacques Martin, Frédéric Mitterrand, Tom Novembre et Jean-Marie Bigard. Variétés : Kylie Minogue, Boy George, Philippe Swan, Patricia Kaas"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:50",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -142684,37 +141022,6 @@
           "description_lines": [
             "Jean Roucas reçoit Yannick Noah qui pour la première fois à la télévision interprète deux chansons de son album. Variétés : Michel Fugain, Gilbert Montagné..."
           ],
-          "segments": []
-        },
-        {
-          "time": "21:35",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "L'affaire Saint-Romans",
-          "description": "Avec Jean Piat, Souad Amidou.",
-          "description_lines": [
-            "Avec Jean Piat, Souad Amidou."
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Caractères",
-          "description": "magazine littéraire",
-          "description_lines": [
-            "magazine littéraire"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:35",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Soir 3",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -142746,17 +141053,6 @@
           ]
         },
         {
-          "time": "23:35",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Un, deux, trois",
-          "description": "Film de Billy Wilder avec James Cagney, Horst Buchholz, Pamela Tiffin",
-          "description_lines": [
-            "Film de Billy Wilder avec James Cagney, Horst Buchholz, Pamela Tiffin"
-          ],
-          "segments": []
-        },
-        {
           "time": "23:50",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -142765,15 +141061,6 @@
           "description_lines": [
             "Retransmission sportive"
           ],
-          "segments": []
-        },
-        {
-          "time": "23:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Musicales",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -143324,15 +141611,6 @@
           "segments": []
         },
         {
-          "time": "10:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Espagnol",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "10:50",
           "channel": "M6",
           "raw_channel": "M6",
@@ -143415,15 +141693,6 @@
           "segments": []
         },
         {
-          "time": "16:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Galanteries",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "16:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -143433,15 +141702,6 @@
             "Série américaine",
             "Vive la mariée"
           ],
-          "segments": []
-        },
-        {
-          "time": "17:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "GRAND FORMAT",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -143495,26 +141755,6 @@
           "segments": []
         },
         {
-          "time": "19:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le dessous des cartes",
-          "description": "magazine de géopolitique",
-          "description_lines": [
-            "magazine de géopolitique"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La samba d'Auguste Comte",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "20:35",
           "channel": "M6",
           "raw_channel": "M6",
@@ -143523,15 +141763,6 @@
           "description_lines": [
             "Téléfilm de Brian Trenchard-Smith avec Edward John Stazak, JohnStanton, Jim Richards"
           ],
-          "segments": []
-        },
-        {
-          "time": "21:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Lieutenant Lorena",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -143547,15 +141778,6 @@
           "segments": []
         },
         {
-          "time": "22:30",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "La cabane de rondins",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:40",
           "channel": "M6",
           "raw_channel": "M6",
@@ -143564,15 +141786,6 @@
           "description_lines": [
             "Micmac chez les Mac Tarmac. Narcisso Show. Speakerine. Vénusthèque"
           ],
-          "segments": []
-        },
-        {
-          "time": "23:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Pierre Guyotat, 52 minutes dans la langue",
-          "description": "",
-          "description_lines": [],
           "segments": []
         },
         {
@@ -144123,15 +142336,6 @@
             "segments": []
           },
           {
-            "time": "06:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Rue Camot",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "06:30",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144161,15 +142365,6 @@
             "segments": []
           },
           {
-            "time": "08:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Continentales",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "08:25",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144177,50 +142372,6 @@
             "description": "Téléachat",
             "description_lines": [
               "Téléachat"
-            ],
-            "segments": []
-          },
-          {
-            "time": "08:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Amoureusement vôtre",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
-            ],
-            "segments": []
-          },
-          {
-            "time": "08:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Amour, gloire et beauté",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
-            ],
-            "segments": []
-          },
-          {
-            "time": "09:20",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Eric et toi et moi",
-            "description": "Présentation : Eric Galliano",
-            "description_lines": [
-              "Présentation : Eric Galliano"
-            ],
-            "segments": []
-          },
-          {
-            "time": "11:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Questions pour un champion",
-            "description": "Jeu présenté par Julien Lepers",
-            "description_lines": [
-              "Jeu présenté par Julien Lepers"
             ],
             "segments": []
           },
@@ -144247,61 +142398,12 @@
             "segments": []
           },
           {
-            "time": "11:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Motus",
-            "description": "Jeu présenté par Thierry Beccaro",
-            "description_lines": [
-              "Jeu présenté par Thierry Beccaro"
-            ],
-            "segments": []
-          },
-          {
-            "time": "11:53",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Espace 3 Entreprises",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "11:55",
             "channel": "TF1",
             "raw_channel": "TF1",
             "title": "TOURNEZ... MANÈGE !",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Les titres de l'actualité",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Dessinez, c'est gagné",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Les Mariés de l'A2",
-            "description": "Jeu télévisé",
-            "description_lines": [
-              "Jeu télévisé"
-            ],
             "segments": []
           },
           {
@@ -144332,15 +142434,6 @@
             "description_lines": [
               "feuilleton sentimental"
             ],
-            "segments": []
-          },
-          {
-            "time": "13:45",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Générations",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -144395,17 +142488,6 @@
             ]
           },
           {
-            "time": "17:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Giga",
-            "description": "Émission pour la jeunesse",
-            "description_lines": [
-              "Émission pour la jeunesse"
-            ],
-            "segments": []
-          },
-          {
             "time": "17:30",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144418,34 +142500,12 @@
             "segments": []
           },
           {
-            "time": "18:10",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Des chiffres et des lettres",
-            "description": "Jeu télévisé",
-            "description_lines": [
-              "Jeu télévisé"
-            ],
-            "segments": []
-          },
-          {
             "time": "18:20",
             "channel": "TF1",
             "raw_channel": "TF1",
             "title": "UNE FAMILLE EN OR",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Questions pour un champion",
-            "description": "Jeu présenté par Julien Lepers",
-            "description_lines": [
-              "Jeu présenté par Julien Lepers"
-            ],
             "segments": []
           },
           {
@@ -144468,15 +142528,6 @@
             "description_lines": [
               "Feuilleton américain"
             ],
-            "segments": []
-          },
-          {
-            "time": "19:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Le 19-20",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -144524,17 +142575,6 @@
             "segments": []
           },
           {
-            "time": "20:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "La Classe",
-            "description": "Avec Lorca (Los ninos del sol)",
-            "description_lines": [
-              "Avec Lorca (Los ninos del sol)"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144547,17 +142587,6 @@
             "segments": []
           },
           {
-            "time": "20:45",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Balthazar",
-            "description": "Les jeux : Nouvelle méthode d'interview ; Nouvelle méthode promotionnelle ; Le roman improvisé ; Le jeu du télégramme ; Concours du meilleur menteur ; Concours du meilleur bruiteur ; Concours du meilleur cinéphile. Equipe bleue: Jean-Claude Brialy, William Leymergie, Martine Boeri, Henri Guybet. Equipe rose : Jacques Martin, Frédéric Mitterrand, Tom Novembre et Jean-Marie Bigard. Variétés : Kylie Minogue, Boy George, Philippe Swan, Patricia Kaas",
-            "description_lines": [
-              "Les jeux : Nouvelle méthode d'interview ; Nouvelle méthode promotionnelle ; Le roman improvisé ; Le jeu du télégramme ; Concours du meilleur menteur ; Concours du meilleur bruiteur ; Concours du meilleur cinéphile. Equipe bleue: Jean-Claude Brialy, William Leymergie, Martine Boeri, Henri Guybet. Equipe rose : Jacques Martin, Frédéric Mitterrand, Tom Novembre et Jean-Marie Bigard. Variétés : Kylie Minogue, Boy George, Philippe Swan, Patricia Kaas"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:50",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144566,37 +142595,6 @@
             "description_lines": [
               "Jean Roucas reçoit Yannick Noah qui pour la première fois à la télévision interprète deux chansons de son album. Variétés : Michel Fugain, Gilbert Montagné..."
             ],
-            "segments": []
-          },
-          {
-            "time": "21:35",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "L'affaire Saint-Romans",
-            "description": "Avec Jean Piat, Souad Amidou.",
-            "description_lines": [
-              "Avec Jean Piat, Souad Amidou."
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Caractères",
-            "description": "magazine littéraire",
-            "description_lines": [
-              "magazine littéraire"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:35",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Soir 3",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -144628,17 +142626,6 @@
             ]
           },
           {
-            "time": "23:35",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Un, deux, trois",
-            "description": "Film de Billy Wilder avec James Cagney, Horst Buchholz, Pamela Tiffin",
-            "description_lines": [
-              "Film de Billy Wilder avec James Cagney, Horst Buchholz, Pamela Tiffin"
-            ],
-            "segments": []
-          },
-          {
             "time": "23:50",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -144647,15 +142634,6 @@
             "description_lines": [
               "Retransmission sportive"
             ],
-            "segments": []
-          },
-          {
-            "time": "23:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Musicales",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -145212,15 +143190,6 @@
             "segments": []
           },
           {
-            "time": "10:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Espagnol",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "10:50",
             "channel": "M6",
             "raw_channel": "M6",
@@ -145303,15 +143272,6 @@
             "segments": []
           },
           {
-            "time": "16:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Galanteries",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "16:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -145321,15 +143281,6 @@
               "Série américaine",
               "Vive la mariée"
             ],
-            "segments": []
-          },
-          {
-            "time": "17:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "GRAND FORMAT",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -145383,26 +143334,6 @@
             "segments": []
           },
           {
-            "time": "19:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le dessous des cartes",
-            "description": "magazine de géopolitique",
-            "description_lines": [
-              "magazine de géopolitique"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La samba d'Auguste Comte",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "M6",
             "raw_channel": "M6",
@@ -145411,15 +143342,6 @@
             "description_lines": [
               "Téléfilm de Brian Trenchard-Smith avec Edward John Stazak, JohnStanton, Jim Richards"
             ],
-            "segments": []
-          },
-          {
-            "time": "21:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Lieutenant Lorena",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -145435,15 +143357,6 @@
             "segments": []
           },
           {
-            "time": "22:30",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "La cabane de rondins",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:40",
             "channel": "M6",
             "raw_channel": "M6",
@@ -145452,15 +143365,6 @@
             "description_lines": [
               "Micmac chez les Mac Tarmac. Narcisso Show. Speakerine. Vénusthèque"
             ],
-            "segments": []
-          },
-          {
-            "time": "23:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Pierre Guyotat, 52 minutes dans la langue",
-            "description": "",
-            "description_lines": [],
             "segments": []
           },
           {
@@ -145994,7 +143898,7 @@
     "26-10-1991": {
       "date": "26-10-1991",
       "source": "archives80+depot101",
-      "programs_count": 164,
+      "programs_count": 155,
       "programs": [
         {
           "time": "05:05",
@@ -147014,15 +144918,6 @@
           "segments": []
         },
         {
-          "time": "19:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Paris, roman d'une ville",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:20",
           "channel": "M6",
           "raw_channel": "M6",
@@ -147038,17 +144933,6 @@
           "title": "6 MINUTES",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Histoire parallèle",
-          "description": "Série américaine. Rediffusion",
-          "description_lines": [
-            "Série américaine. Rediffusion"
-          ],
           "segments": []
         },
         {
@@ -147072,15 +144956,6 @@
           "segments": []
         },
         {
-          "time": "20:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le rêve perdu de Nicolaï V. Kazakov",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:20",
           "channel": "M6",
           "raw_channel": "M6",
@@ -147088,53 +144963,6 @@
           "description": "Téléfilm de Glenn Jordan",
           "description_lines": [
             "Téléfilm de Glenn Jordan"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:40",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le courrier des téléspectateurs",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:45",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "SOIR3",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Salsa, opus 4",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "23:55",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "IMAGES",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "00:00",
-          "channel": "M6",
-          "raw_channel": "M6",
-          "title": "Le soulier de satin",
-          "description": "Théâtre",
-          "description_lines": [
-            "Théâtre"
           ],
           "segments": []
         },
@@ -147598,15 +145426,6 @@
           "channel": "La Sept",
           "raw_channel": "La Sept",
           "title": "LE RÊVE PERDU DE NICOLAÏ V. KAZAKOV",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:40",
-          "channel": "La Sept",
-          "raw_channel": "La Sept",
-          "title": "LE COURRIER DES TÉLÉSPECTATEURS",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -148676,15 +146495,6 @@
             "segments": []
           },
           {
-            "time": "19:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Paris, roman d'une ville",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:20",
             "channel": "M6",
             "raw_channel": "M6",
@@ -148700,17 +146510,6 @@
             "title": "6 MINUTES",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Histoire parallèle",
-            "description": "Série américaine. Rediffusion",
-            "description_lines": [
-              "Série américaine. Rediffusion"
-            ],
             "segments": []
           },
           {
@@ -148734,15 +146533,6 @@
             "segments": []
           },
           {
-            "time": "20:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le rêve perdu de Nicolaï V. Kazakov",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:20",
             "channel": "M6",
             "raw_channel": "M6",
@@ -148750,53 +146540,6 @@
             "description": "Téléfilm de Glenn Jordan",
             "description_lines": [
               "Téléfilm de Glenn Jordan"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:40",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le courrier des téléspectateurs",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:45",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "SOIR3",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Salsa, opus 4",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "23:55",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "IMAGES",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "00:00",
-            "channel": "M6",
-            "raw_channel": "M6",
-            "title": "Le soulier de satin",
-            "description": "Théâtre",
-            "description_lines": [
-              "Théâtre"
             ],
             "segments": []
           },
@@ -149264,15 +147007,6 @@
             "channel": "La Sept",
             "raw_channel": "La Sept",
             "title": "LE RÊVE PERDU DE NICOLAÏ V. KAZAKOV",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:40",
-            "channel": "La Sept",
-            "raw_channel": "La Sept",
-            "title": "LE COURRIER DES TÉLÉSPECTATEURS",
             "description": "",
             "description_lines": [],
             "segments": []

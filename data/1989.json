@@ -29716,7 +29716,7 @@
     "03-07-1989": {
       "date": "03-07-1989",
       "source": "archives80+depot101",
-      "programs_count": 154,
+      "programs_count": 150,
       "programs": [
         {
           "time": "06:30",
@@ -29763,43 +29763,6 @@
             "Emission présentée par Pierre Bellemare, Michel Touret et Maryse Corson"
           ],
           "segments": []
-        },
-        {
-          "time": "08:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Amoureusement votre",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
-          ],
-          "segments": []
-        },
-        {
-          "time": "08:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Eric et Compagnie",
-          "description": "Les maîtres de l'univers Bécébégé Les petites canailles 11:35:00 La fête à la maison Série américaine",
-          "description_lines": [
-            "Juliette, je t'aime",
-            "Muscleman",
-            "Liveman - Liveman",
-            "Les chevaliers du Zodiaque",
-            "Les maîtres de l'univers",
-            "Bécébégé",
-            "Les petites canailles",
-            "11:35:00",
-            "La fête à la maison",
-            "Série américaine"
-          ],
-          "segments": [
-            {
-              "index": 2,
-              "title": "Liveman",
-              "raw": "Liveman - Liveman"
-            }
-          ]
         },
         {
           "time": "10:40",
@@ -29988,23 +29951,6 @@
           "segments": []
         },
         {
-          "time": "18:45",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Des chiffres et des lettres",
-          "description": "Jeu présenté par Laurent Cabrol et Bertrand Renard 19:10:00 Actualités régionales 19:30:00 LE JOURNAL DU TOUR 20:00:00 Journal",
-          "description_lines": [
-            "Jeu présenté par Laurent Cabrol et Bertrand Renard",
-            "19:10:00",
-            "Actualités régionales",
-            "19:30:00",
-            "LE JOURNAL DU TOUR",
-            "20:00:00",
-            "Journal"
-          ],
-          "segments": []
-        },
-        {
           "time": "19:00",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -30095,19 +30041,6 @@
           "description": "Série française",
           "description_lines": [
             "Série française"
-          ],
-          "segments": []
-        },
-        {
-          "time": "00:20",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "60 secondes",
-          "description": "Emission de Philip Plaisance 00:25:00 LE JOURNAL DU TOUR",
-          "description_lines": [
-            "Emission de Philip Plaisance",
-            "00:25:00",
-            "LE JOURNAL DU TOUR"
           ],
           "segments": []
         },
@@ -31594,43 +31527,6 @@
             "segments": []
           },
           {
-            "time": "08:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Amoureusement votre",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
-            ],
-            "segments": []
-          },
-          {
-            "time": "08:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Eric et Compagnie",
-            "description": "Les maîtres de l'univers Bécébégé Les petites canailles 11:35:00 La fête à la maison Série américaine",
-            "description_lines": [
-              "Juliette, je t'aime",
-              "Muscleman",
-              "Liveman - Liveman",
-              "Les chevaliers du Zodiaque",
-              "Les maîtres de l'univers",
-              "Bécébégé",
-              "Les petites canailles",
-              "11:35:00",
-              "La fête à la maison",
-              "Série américaine"
-            ],
-            "segments": [
-              {
-                "index": 2,
-                "title": "Liveman",
-                "raw": "Liveman - Liveman"
-              }
-            ]
-          },
-          {
             "time": "10:40",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -31817,23 +31713,6 @@
             "segments": []
           },
           {
-            "time": "18:45",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Des chiffres et des lettres",
-            "description": "Jeu présenté par Laurent Cabrol et Bertrand Renard 19:10:00 Actualités régionales 19:30:00 LE JOURNAL DU TOUR 20:00:00 Journal",
-            "description_lines": [
-              "Jeu présenté par Laurent Cabrol et Bertrand Renard",
-              "19:10:00",
-              "Actualités régionales",
-              "19:30:00",
-              "LE JOURNAL DU TOUR",
-              "20:00:00",
-              "Journal"
-            ],
-            "segments": []
-          },
-          {
             "time": "19:00",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -31924,19 +31803,6 @@
             "description": "Série française",
             "description_lines": [
               "Série française"
-            ],
-            "segments": []
-          },
-          {
-            "time": "00:20",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "60 secondes",
-            "description": "Emission de Philip Plaisance 00:25:00 LE JOURNAL DU TOUR",
-            "description_lines": [
-              "Emission de Philip Plaisance",
-              "00:25:00",
-              "LE JOURNAL DU TOUR"
             ],
             "segments": []
           },
@@ -73180,7 +73046,7 @@
     "06-07-1989": {
       "date": "06-07-1989",
       "source": "archives80+depot101",
-      "programs_count": 138,
+      "programs_count": 134,
       "programs": [
         {
           "time": "06:30",
@@ -73981,95 +73847,6 @@
           "segments": []
         },
         {
-          "time": "07:30",
-          "channel": "Canal+",
-          "raw_channel": "Canal+",
-          "title": "Youpi !",
-          "description": "Les défenseurs de la Terre Princesse Sarah Rémi Sans Famille Sylvanians 09:00:00 Le club du téléachat Martine Visciano & Francis Cadot 10:30:00 La demoiselle d'Avignon Feuilleton français 11:00:00 Les Brigades du Tigre Série française. Rediffusion",
-          "description_lines": [
-            "Les défenseurs de la Terre",
-            "Princesse Sarah",
-            "Rémi Sans Famille",
-            "Sylvanians",
-            "09:00:00",
-            "Le club du téléachat",
-            "Martine Visciano & Francis Cadot",
-            "10:30:00",
-            "La demoiselle d'Avignon",
-            "Feuilleton français",
-            "11:00:00",
-            "Les Brigades du Tigre",
-            "Série française. Rediffusion"
-          ],
-          "segments": [
-            {
-              "index": 0,
-              "title": "Les défenseurs de la Terre",
-              "raw": "Les défenseurs de la Terre"
-            },
-            {
-              "index": 1,
-              "title": "Princesse Sarah",
-              "raw": "Princesse Sarah"
-            },
-            {
-              "index": 2,
-              "title": "Rémi Sans Famille",
-              "raw": "Rémi Sans Famille"
-            },
-            {
-              "index": 3,
-              "title": "Sylvanians",
-              "raw": "Sylvanians"
-            },
-            {
-              "index": 4,
-              "title": "09:00:00",
-              "raw": "09:00:00"
-            },
-            {
-              "index": 5,
-              "title": "Le club du téléachat",
-              "raw": "Le club du téléachat"
-            },
-            {
-              "index": 6,
-              "title": "Martine Visciano & Francis Cadot",
-              "raw": "Martine Visciano & Francis Cadot"
-            },
-            {
-              "index": 7,
-              "title": "10:30:00",
-              "raw": "10:30:00"
-            },
-            {
-              "index": 8,
-              "title": "La demoiselle d'Avignon",
-              "raw": "La demoiselle d'Avignon"
-            },
-            {
-              "index": 9,
-              "title": "Feuilleton français",
-              "raw": "Feuilleton français"
-            },
-            {
-              "index": 10,
-              "title": "11:00:00",
-              "raw": "11:00:00"
-            },
-            {
-              "index": 11,
-              "title": "Les Brigades du Tigre",
-              "raw": "Les Brigades du Tigre"
-            },
-            {
-              "index": 12,
-              "title": "Série française. Rediffusion",
-              "raw": "Série française. Rediffusion"
-            }
-          ]
-        },
-        {
           "time": "07:45",
           "channel": "Canal+",
           "raw_channel": "Canal+",
@@ -74127,20 +73904,6 @@
           "segments": []
         },
         {
-          "time": "12:05",
-          "channel": "Canal+",
-          "raw_channel": "Canal+",
-          "title": "Bouvard et Compagnie",
-          "description": "Emission de Philippe Bouvard 12:30:00 JOURNAL Jean-Claude Bourret",
-          "description_lines": [
-            "Emission de Philippe Bouvard",
-            "12:30:00",
-            "JOURNAL",
-            "Jean-Claude Bourret"
-          ],
-          "segments": []
-        },
-        {
           "time": "12:30",
           "channel": "Canal+",
           "raw_channel": "Canal+",
@@ -74167,44 +73930,6 @@
           "title": "FLASH INFOS",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "13:30",
-          "channel": "Canal+",
-          "raw_channel": "Canal+",
-          "title": "Vive la télé",
-          "description": "13:35:00 Inspecteur Derrick Série allemande 15:00:00 Tennis Tournoi de Wimbledon 19:00:00 Supercopter Série américaine 20:00:00 JOURNAL Guillaume Durand 20:30:00 LE RESEAU 22:25:00 Deux flics à Miami Série américaine 23:25:00 Tennis Tournoi de Wimbledon Résumé de la journée 00:00:00 JOURNAL 00:05:00 Tennis Tournoi de Wimbledon Résumé de la journée 00:15:00 Inspecteur Derrick Série allemande 01:25:00 Les Brigades du Tigre Série française. Rediffusion 02:20:00 La demoiselle d'Avignon Feuilleton français",
-          "description_lines": [
-            "Film américain (1979)",
-            "13:35:00",
-            "Inspecteur Derrick",
-            "Série allemande",
-            "15:00:00",
-            "Tennis",
-            "Tournoi de Wimbledon",
-            "19:00:00",
-            "Supercopter",
-            "Série américaine",
-            "20:00:00",
-            "JOURNAL",
-            "Guillaume Durand",
-            "20:30:00",
-            "LE RESEAU",
-            "22:25:00",
-            "Deux flics à Miami",
-            "23:25:00",
-            "Résumé de la journée",
-            "00:00:00",
-            "00:05:00",
-            "00:15:00",
-            "01:25:00",
-            "Les Brigades du Tigre",
-            "Série française. Rediffusion",
-            "02:20:00",
-            "La demoiselle d'Avignon",
-            "Feuilleton français"
-          ],
           "segments": []
         },
         {
@@ -74367,24 +74092,6 @@
             "LA5",
             "06:00:00",
             "Le journal permanent"
-          ],
-          "segments": []
-        },
-        {
-          "time": "02:50",
-          "channel": "Canal+",
-          "raw_channel": "Canal+",
-          "title": "Bouvard et Compagnie",
-          "description": "Emission de Philippe Bouvard. Rediffusion 03:05:00 LE JOURNAL DE LA NUIT 03:10:00 L'âme soeur 03:55:00 Voisin, Voisine Feuilleton français",
-          "description_lines": [
-            "Emission de Philippe Bouvard. Rediffusion",
-            "03:05:00",
-            "LE JOURNAL DE LA NUIT",
-            "03:10:00",
-            "L'âme soeur",
-            "03:55:00",
-            "Voisin, Voisine",
-            "Feuilleton français"
           ],
           "segments": []
         },
@@ -75805,95 +75512,6 @@
             "segments": []
           },
           {
-            "time": "07:30",
-            "channel": "Canal+",
-            "raw_channel": "Canal+",
-            "title": "Youpi !",
-            "description": "Les défenseurs de la Terre Princesse Sarah Rémi Sans Famille Sylvanians 09:00:00 Le club du téléachat Martine Visciano & Francis Cadot 10:30:00 La demoiselle d'Avignon Feuilleton français 11:00:00 Les Brigades du Tigre Série française. Rediffusion",
-            "description_lines": [
-              "Les défenseurs de la Terre",
-              "Princesse Sarah",
-              "Rémi Sans Famille",
-              "Sylvanians",
-              "09:00:00",
-              "Le club du téléachat",
-              "Martine Visciano & Francis Cadot",
-              "10:30:00",
-              "La demoiselle d'Avignon",
-              "Feuilleton français",
-              "11:00:00",
-              "Les Brigades du Tigre",
-              "Série française. Rediffusion"
-            ],
-            "segments": [
-              {
-                "index": 0,
-                "title": "Les défenseurs de la Terre",
-                "raw": "Les défenseurs de la Terre"
-              },
-              {
-                "index": 1,
-                "title": "Princesse Sarah",
-                "raw": "Princesse Sarah"
-              },
-              {
-                "index": 2,
-                "title": "Rémi Sans Famille",
-                "raw": "Rémi Sans Famille"
-              },
-              {
-                "index": 3,
-                "title": "Sylvanians",
-                "raw": "Sylvanians"
-              },
-              {
-                "index": 4,
-                "title": "09:00:00",
-                "raw": "09:00:00"
-              },
-              {
-                "index": 5,
-                "title": "Le club du téléachat",
-                "raw": "Le club du téléachat"
-              },
-              {
-                "index": 6,
-                "title": "Martine Visciano & Francis Cadot",
-                "raw": "Martine Visciano & Francis Cadot"
-              },
-              {
-                "index": 7,
-                "title": "10:30:00",
-                "raw": "10:30:00"
-              },
-              {
-                "index": 8,
-                "title": "La demoiselle d'Avignon",
-                "raw": "La demoiselle d'Avignon"
-              },
-              {
-                "index": 9,
-                "title": "Feuilleton français",
-                "raw": "Feuilleton français"
-              },
-              {
-                "index": 10,
-                "title": "11:00:00",
-                "raw": "11:00:00"
-              },
-              {
-                "index": 11,
-                "title": "Les Brigades du Tigre",
-                "raw": "Les Brigades du Tigre"
-              },
-              {
-                "index": 12,
-                "title": "Série française. Rediffusion",
-                "raw": "Série française. Rediffusion"
-              }
-            ]
-          },
-          {
             "time": "07:45",
             "channel": "Canal+",
             "raw_channel": "Canal+",
@@ -75951,20 +75569,6 @@
             "segments": []
           },
           {
-            "time": "12:05",
-            "channel": "Canal+",
-            "raw_channel": "Canal+",
-            "title": "Bouvard et Compagnie",
-            "description": "Emission de Philippe Bouvard 12:30:00 JOURNAL Jean-Claude Bourret",
-            "description_lines": [
-              "Emission de Philippe Bouvard",
-              "12:30:00",
-              "JOURNAL",
-              "Jean-Claude Bourret"
-            ],
-            "segments": []
-          },
-          {
             "time": "12:30",
             "channel": "Canal+",
             "raw_channel": "Canal+",
@@ -75991,44 +75595,6 @@
             "title": "FLASH INFOS",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "13:30",
-            "channel": "Canal+",
-            "raw_channel": "Canal+",
-            "title": "Vive la télé",
-            "description": "13:35:00 Inspecteur Derrick Série allemande 15:00:00 Tennis Tournoi de Wimbledon 19:00:00 Supercopter Série américaine 20:00:00 JOURNAL Guillaume Durand 20:30:00 LE RESEAU 22:25:00 Deux flics à Miami Série américaine 23:25:00 Tennis Tournoi de Wimbledon Résumé de la journée 00:00:00 JOURNAL 00:05:00 Tennis Tournoi de Wimbledon Résumé de la journée 00:15:00 Inspecteur Derrick Série allemande 01:25:00 Les Brigades du Tigre Série française. Rediffusion 02:20:00 La demoiselle d'Avignon Feuilleton français",
-            "description_lines": [
-              "Film américain (1979)",
-              "13:35:00",
-              "Inspecteur Derrick",
-              "Série allemande",
-              "15:00:00",
-              "Tennis",
-              "Tournoi de Wimbledon",
-              "19:00:00",
-              "Supercopter",
-              "Série américaine",
-              "20:00:00",
-              "JOURNAL",
-              "Guillaume Durand",
-              "20:30:00",
-              "LE RESEAU",
-              "22:25:00",
-              "Deux flics à Miami",
-              "23:25:00",
-              "Résumé de la journée",
-              "00:00:00",
-              "00:05:00",
-              "00:15:00",
-              "01:25:00",
-              "Les Brigades du Tigre",
-              "Série française. Rediffusion",
-              "02:20:00",
-              "La demoiselle d'Avignon",
-              "Feuilleton français"
-            ],
             "segments": []
           },
           {
@@ -76191,24 +75757,6 @@
               "LA5",
               "06:00:00",
               "Le journal permanent"
-            ],
-            "segments": []
-          },
-          {
-            "time": "02:50",
-            "channel": "Canal+",
-            "raw_channel": "Canal+",
-            "title": "Bouvard et Compagnie",
-            "description": "Emission de Philippe Bouvard. Rediffusion 03:05:00 LE JOURNAL DE LA NUIT 03:10:00 L'âme soeur 03:55:00 Voisin, Voisine Feuilleton français",
-            "description_lines": [
-              "Emission de Philippe Bouvard. Rediffusion",
-              "03:05:00",
-              "LE JOURNAL DE LA NUIT",
-              "03:10:00",
-              "L'âme soeur",
-              "03:55:00",
-              "Voisin, Voisine",
-              "Feuilleton français"
             ],
             "segments": []
           }

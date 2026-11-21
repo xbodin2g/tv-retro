@@ -10372,62 +10372,68 @@
         },
         {
           "time": "14:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "TONIC 6",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "17:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "SYSTEME 6",
           "description": "Présenté par Isabelle et Childéric",
           "description_lines": [
             "Présenté par Isabelle et Childéric"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "19:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "NRJ 6",
           "description": "Le hit-parade d'NRJ",
           "description_lines": [
             "Le hit-parade d'NRJ"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "20:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "TONIC 6",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "23:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "NRJ 6",
           "description": "Le hit-parade d'NRJ",
           "description_lines": [
             "Le hit-parade d'NRJ"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "00:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "FIN DES ÉMISSIONS",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
@@ -11671,65 +11677,71 @@
             "segments": []
           }
         ],
-        "M6": [
+        "TV6": [
           {
             "time": "14:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "TONIC 6",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "17:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "SYSTEME 6",
             "description": "Présenté par Isabelle et Childéric",
             "description_lines": [
               "Présenté par Isabelle et Childéric"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "19:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "NRJ 6",
             "description": "Le hit-parade d'NRJ",
             "description_lines": [
               "Le hit-parade d'NRJ"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "20:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "TONIC 6",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "23:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "NRJ 6",
             "description": "Le hit-parade d'NRJ",
             "description_lines": [
               "Le hit-parade d'NRJ"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "00:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "FIN DES ÉMISSIONS",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           }
         ],
@@ -18946,7 +18958,7 @@
     "03-06-1986": {
       "date": "03-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 120,
+      "programs_count": 119,
       "programs": [
         {
           "time": "08:25",
@@ -19124,17 +19136,6 @@
           "title": "LES GRANDS ECRANS DE TF1 : HISTOIRE VRAIE",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:35",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -20446,17 +20447,6 @@
             "title": "LES GRANDS ECRANS DE TF1 : HISTOIRE VRAIE",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:35",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
             "segments": []
           },
           {
@@ -23372,7 +23362,7 @@
     "04-01-1986": {
       "date": "04-01-1986",
       "source": "archives80+depot101",
-      "programs_count": 90,
+      "programs_count": 89,
       "programs": [
         {
           "time": "08:00",
@@ -23590,17 +23580,6 @@
           "description_lines": [
             "Emission de Jacques Bonnecarrère",
             "Spécial Paris-Dakar"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
           ],
           "segments": []
         },
@@ -24622,17 +24601,6 @@
             "description_lines": [
               "Emission de Jacques Bonnecarrère",
               "Spécial Paris-Dakar"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
             ],
             "segments": []
           },
@@ -35383,7 +35351,7 @@
     "05-04-1986": {
       "date": "05-04-1986",
       "source": "archives80+depot101",
-      "programs_count": 117,
+      "programs_count": 116,
       "programs": [
         {
           "time": "07:45",
@@ -35577,17 +35545,6 @@
           "title": "AUTO-MOTO 1",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -36896,17 +36853,6 @@
             "title": "AUTO-MOTO 1",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
             "segments": []
           },
           {
@@ -55641,7 +55587,7 @@
     "07-06-1986": {
       "date": "07-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 105,
+      "programs_count": 104,
       "programs": [
         {
           "time": "07:45",
@@ -55757,17 +55703,6 @@
           "title": "30 MILLIONS D'AMIS",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "19:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -56922,17 +56857,6 @@
             "title": "30 MILLIONS D'AMIS",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "19:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
             "segments": []
           },
           {
@@ -60497,7 +60421,7 @@
     "08-04-1986": {
       "date": "08-04-1986",
       "source": "archives80+depot101",
-      "programs_count": 123,
+      "programs_count": 122,
       "programs": [
         {
           "time": "10:15",
@@ -60760,15 +60684,6 @@
           "channel": "TF1",
           "raw_channel": "TF1",
           "title": "LE JOURNAL DE LA UNE",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:25",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -62162,15 +62077,6 @@
             "channel": "TF1",
             "raw_channel": "TF1",
             "title": "LE JOURNAL DE LA UNE",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:25",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -100823,7 +100729,7 @@
     "14-06-1986": {
       "date": "14-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 109,
+      "programs_count": 108,
       "programs": [
         {
           "time": "07:45",
@@ -101021,17 +100927,6 @@
           "description_lines": [
             "avec Jacques Bonnecarrère",
             "Présenté par Jacques Bonnecarrère"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
           ],
           "segments": []
         },
@@ -102339,17 +102234,6 @@
             "description_lines": [
               "avec Jacques Bonnecarrère",
               "Présenté par Jacques Bonnecarrère"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
             ],
             "segments": []
           },
@@ -111067,7 +110951,7 @@
     "17-06-1986": {
       "date": "17-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 112,
+      "programs_count": 111,
       "programs": [
         {
           "time": "11:15",
@@ -111238,17 +111122,6 @@
           "title": "LE JOURNAL DE LA UNE",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -112469,17 +112342,6 @@
             "segments": []
           },
           {
-            "time": "20:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -113538,7 +113400,7 @@
     "18-10-1986": {
       "date": "18-10-1986",
       "source": "archives80+depot101",
-      "programs_count": 115,
+      "programs_count": 114,
       "programs": [
         {
           "time": "08:00",
@@ -113709,17 +113571,6 @@
           "description": "Emission de Jean-Pierre Hutin",
           "description_lines": [
             "Emission de Jean-Pierre Hutin"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:50",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
           ],
           "segments": []
         },
@@ -114994,17 +114845,6 @@
             "description": "Emission de Jean-Pierre Hutin",
             "description_lines": [
               "Emission de Jean-Pierre Hutin"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:50",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
             ],
             "segments": []
           },
@@ -127758,7 +127598,7 @@
     "21-06-1986": {
       "date": "21-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 111,
+      "programs_count": 110,
       "programs": [
         {
           "time": "07:45",
@@ -127944,17 +127784,6 @@
           "description": "Présenté par Jacques Bonnecarrère",
           "description_lines": [
             "Présenté par Jacques Bonnecarrère"
-          ],
-          "segments": []
-        },
-        {
-          "time": "18:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
           ],
           "segments": []
         },
@@ -129085,17 +128914,6 @@
             "description": "Présenté par Jacques Bonnecarrère",
             "description_lines": [
               "Présenté par Jacques Bonnecarrère"
-            ],
-            "segments": []
-          },
-          {
-            "time": "18:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
             ],
             "segments": []
           },
@@ -145549,7 +145367,7 @@
     "24-06-1986": {
       "date": "24-06-1986",
       "source": "archives80+depot101",
-      "programs_count": 103,
+      "programs_count": 102,
       "programs": [
         {
           "time": "11:15",
@@ -145714,17 +145532,6 @@
           "title": "LE JOURNAL DE LA UNE",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -146735,17 +146542,6 @@
             "title": "LE JOURNAL DE LA UNE",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
             "segments": []
           },
           {
@@ -169677,7 +169473,7 @@
     "27-12-1986": {
       "date": "27-12-1986",
       "source": "archives80+depot101",
-      "programs_count": 104,
+      "programs_count": 103,
       "programs": [
         {
           "time": "08:00",
@@ -169870,17 +169666,6 @@
           "title": "TRENTE MILLIONS D'AMIS",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:50",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "D'ACCORD, PAS D'ACCORD",
-          "description": "Emission de l'Institut national de la consommation",
-          "description_lines": [
-            "Emission de l'Institut national de la consommation"
-          ],
           "segments": []
         },
         {
@@ -170943,17 +170728,6 @@
             "title": "TRENTE MILLIONS D'AMIS",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:50",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "D'ACCORD, PAS D'ACCORD",
-            "description": "Emission de l'Institut national de la consommation",
-            "description_lines": [
-              "Emission de l'Institut national de la consommation"
-            ],
             "segments": []
           },
           {
@@ -192878,62 +192652,68 @@
         },
         {
           "time": "14:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "6 TONIC",
           "description": "Clips, extraits de films et de concerts",
           "description_lines": [
             "Clips, extraits de films et de concerts"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "17:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "SYSTEME 6",
           "description": "Présenté par Isabelle et Childéric",
           "description_lines": [
             "Présenté par Isabelle et Childéric"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "19:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "NRJ 6",
           "description": "Le hit-parade d'NRJ",
           "description_lines": [
             "Le hit-parade d'NRJ"
           ],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "21:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "TONIC 6",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "23:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "LIFE 6",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
           "time": "00:00",
-          "channel": "M6",
+          "channel": "TV6",
           "raw_channel": "M6",
           "title": "FIN DES ÉMISSIONS",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
@@ -194136,65 +193916,71 @@
             "segments": []
           }
         ],
-        "M6": [
+        "TV6": [
           {
             "time": "14:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "6 TONIC",
             "description": "Clips, extraits de films et de concerts",
             "description_lines": [
               "Clips, extraits de films et de concerts"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "17:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "SYSTEME 6",
             "description": "Présenté par Isabelle et Childéric",
             "description_lines": [
               "Présenté par Isabelle et Childéric"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "19:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "NRJ 6",
             "description": "Le hit-parade d'NRJ",
             "description_lines": [
               "Le hit-parade d'NRJ"
             ],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "21:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "TONIC 6",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "23:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "LIFE 6",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           },
           {
             "time": "00:00",
-            "channel": "M6",
+            "channel": "TV6",
             "raw_channel": "M6",
             "title": "FIN DES ÉMISSIONS",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           }
         ],

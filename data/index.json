@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T20:11:56.605154",
+  "generated_at": "2026-11-21T12:50:20.028168",
   "total_dates": 1029,
-  "total_programs": 112700,
-  "total_segments": 13024,
+  "total_programs": 112514,
+  "total_segments": 13010,
   "ina_enriched": 584,
   "overrides": {
     "patched": 4,
@@ -11,13 +11,13 @@
   },
   "channel_routing": {
     "routes": 0,
-    "decisions": 57,
-    "matched": 57,
-    "hidden": 57,
-    "reassigned": 0,
-    "legit": 8,
+    "decisions": 312,
+    "matched": 256,
+    "hidden": 243,
+    "reassigned": 14,
+    "legit": 86,
     "present": true,
-    "applied_at": "2026-11-20T20:11:56.605141"
+    "applied_at": "2026-11-21T12:50:20.028150"
   },
   "years": {
     "1975": {
@@ -1711,7 +1711,7 @@
       }
     },
     "1985": {
-      "total_programs": 4234,
+      "total_programs": 4213,
       "dates": {
         "01-01-1985": {
           "source": "archives80+depot101",
@@ -1719,7 +1719,7 @@
         },
         "05-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 81
+          "programs_count": 80
         },
         "06-01-1985": {
           "source": "archives80+depot101",
@@ -1727,11 +1727,11 @@
         },
         "07-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 69
+          "programs_count": 68
         },
         "08-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 74
+          "programs_count": 73
         },
         "09-01-1985": {
           "source": "archives80+depot101",
@@ -1743,11 +1743,11 @@
         },
         "11-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 71
+          "programs_count": 70
         },
         "21-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 74
+          "programs_count": 73
         },
         "26-01-1985": {
           "source": "archives80+depot101",
@@ -1755,7 +1755,7 @@
         },
         "27-01-1985": {
           "source": "archives80+depot101",
-          "programs_count": 80
+          "programs_count": 73
         },
         "28-01-1985": {
           "source": "archives80+depot101",
@@ -1763,7 +1763,7 @@
         },
         "02-02-1985": {
           "source": "archives80+depot101",
-          "programs_count": 91
+          "programs_count": 90
         },
         "04-02-1985": {
           "source": "archives80+depot101",
@@ -1779,7 +1779,7 @@
         },
         "12-02-1985": {
           "source": "archives80+depot101",
-          "programs_count": 88
+          "programs_count": 87
         },
         "13-02-1985": {
           "source": "archives80+depot101",
@@ -1787,7 +1787,7 @@
         },
         "16-02-1985": {
           "source": "archives80+depot101",
-          "programs_count": 94
+          "programs_count": 93
         },
         "17-02-1985": {
           "source": "archives80+depot101",
@@ -1799,7 +1799,7 @@
         },
         "19-02-1985": {
           "source": "archives80+depot101",
-          "programs_count": 83
+          "programs_count": 82
         },
         "20-02-1985": {
           "source": "archives80+depot101",
@@ -1827,7 +1827,7 @@
         },
         "03-03-1985": {
           "source": "archives80+depot101",
-          "programs_count": 46
+          "programs_count": 42
         },
         "04-03-1985": {
           "source": "archives80+depot101",
@@ -1835,7 +1835,7 @@
         },
         "05-03-1985": {
           "source": "archives80+depot101",
-          "programs_count": 71
+          "programs_count": 70
         },
         "06-03-1985": {
           "source": "archives80+depot101",
@@ -1928,7 +1928,7 @@
       }
     },
     "1986": {
-      "total_programs": 8588,
+      "total_programs": 8577,
       "dates": {
         "01-01-1986": {
           "source": "archives80+depot101",
@@ -1936,7 +1936,7 @@
         },
         "04-01-1986": {
           "source": "archives80+depot101",
-          "programs_count": 90
+          "programs_count": 89
         },
         "05-01-1986": {
           "source": "archives80+depot101",
@@ -2024,7 +2024,7 @@
         },
         "05-04-1986": {
           "source": "archives80+depot101",
-          "programs_count": 117
+          "programs_count": 116
         },
         "06-04-1986": {
           "source": "archives80+depot101",
@@ -2036,7 +2036,7 @@
         },
         "08-04-1986": {
           "source": "archives80+depot101",
-          "programs_count": 123
+          "programs_count": 122
         },
         "09-04-1986": {
           "source": "archives80+depot101",
@@ -2064,7 +2064,7 @@
         },
         "03-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 120
+          "programs_count": 119
         },
         "04-06-1986": {
           "source": "archives80+depot101",
@@ -2080,7 +2080,7 @@
         },
         "07-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 105
+          "programs_count": 104
         },
         "08-06-1986": {
           "source": "archives80+depot101",
@@ -2108,7 +2108,7 @@
         },
         "14-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 109
+          "programs_count": 108
         },
         "15-06-1986": {
           "source": "archives80+depot101",
@@ -2120,7 +2120,7 @@
         },
         "17-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 112
+          "programs_count": 111
         },
         "19-06-1986": {
           "source": "archives80+depot101",
@@ -2132,7 +2132,7 @@
         },
         "21-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 111
+          "programs_count": 110
         },
         "22-06-1986": {
           "source": "archives80+depot101",
@@ -2144,7 +2144,7 @@
         },
         "24-06-1986": {
           "source": "archives80+depot101",
-          "programs_count": 103
+          "programs_count": 102
         },
         "25-06-1986": {
           "source": "archives80+depot101",
@@ -2192,7 +2192,7 @@
         },
         "18-10-1986": {
           "source": "archives80+depot101",
-          "programs_count": 115
+          "programs_count": 114
         },
         "21-10-1986": {
           "source": "archives80+depot101",
@@ -2236,7 +2236,7 @@
         },
         "27-12-1986": {
           "source": "archives80+depot101",
-          "programs_count": 104
+          "programs_count": 103
         },
         "28-12-1986": {
           "source": "archives80+depot101",
@@ -2691,7 +2691,7 @@
       }
     },
     "1989": {
-      "total_programs": 12303,
+      "total_programs": 12295,
       "dates": {
         "01-01-1989": {
           "source": "archives80+depot101",
@@ -2895,7 +2895,7 @@
         },
         "03-07-1989": {
           "source": "archives80+depot101",
-          "programs_count": 154
+          "programs_count": 150
         },
         "04-07-1989": {
           "source": "archives80+depot101",
@@ -2903,7 +2903,7 @@
         },
         "06-07-1989": {
           "source": "archives80+depot101",
-          "programs_count": 138
+          "programs_count": 134
         },
         "07-07-1989": {
           "source": "archives80+depot101",
@@ -2988,7 +2988,7 @@
       }
     },
     "1990": {
-      "total_programs": 5989,
+      "total_programs": 5959,
       "dates": {
         "06-01-1990": {
           "source": "archives80+depot101",
@@ -3128,12 +3128,12 @@
         },
         "31-12-1990": {
           "source": "archives80+depot101",
-          "programs_count": 162
+          "programs_count": 132
         }
       }
     },
     "1991": {
-      "total_programs": 7361,
+      "total_programs": 7245,
       "dates": {
         "02-01-1991": {
           "source": "archives80+depot101",
@@ -3153,11 +3153,11 @@
         },
         "21-01-1991": {
           "source": "archives80+depot101",
-          "programs_count": 171
+          "programs_count": 164
         },
         "14-02-1991": {
           "source": "archives80+depot101",
-          "programs_count": 175
+          "programs_count": 166
         },
         "02-03-1991": {
           "source": "archives80+depot101",
@@ -3193,11 +3193,11 @@
         },
         "12-03-1991": {
           "source": "archives80+depot101",
-          "programs_count": 168
+          "programs_count": 161
         },
         "01-04-1991": {
           "source": "archives80+depot101",
-          "programs_count": 153
+          "programs_count": 143
         },
         "21-04-1991": {
           "source": "archives80+depot101",
@@ -3205,7 +3205,7 @@
         },
         "26-04-1991": {
           "source": "archives80+depot101",
-          "programs_count": 181
+          "programs_count": 150
         },
         "05-05-1991": {
           "source": "archives80+depot101",
@@ -3213,7 +3213,7 @@
         },
         "03-06-1991": {
           "source": "archives80+depot101",
-          "programs_count": 159
+          "programs_count": 149
         },
         "29-06-1991": {
           "source": "archives80+depot101",
@@ -3225,11 +3225,11 @@
         },
         "15-08-1991": {
           "source": "archives80+depot101",
-          "programs_count": 172
+          "programs_count": 165
         },
         "08-09-1991": {
           "source": "archives80+depot101",
-          "programs_count": 161
+          "programs_count": 152
         },
         "29-09-1991": {
           "source": "archives80+depot101",
@@ -3241,11 +3241,11 @@
         },
         "26-10-1991": {
           "source": "archives80+depot101",
-          "programs_count": 164
+          "programs_count": 155
         },
         "06-11-1991": {
           "source": "archives80+depot101",
-          "programs_count": 160
+          "programs_count": 155
         },
         "07-11-1991": {
           "source": "archives80+depot101",
@@ -3297,11 +3297,11 @@
         },
         "24-12-1991": {
           "source": "archives80+depot101",
-          "programs_count": 178
+          "programs_count": 172
         },
         "25-12-1991": {
           "source": "archives80+depot101",
-          "programs_count": 146
+          "programs_count": 140
         }
       }
     },

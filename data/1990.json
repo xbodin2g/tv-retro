@@ -129134,7 +129134,7 @@
     "31-12-1990": {
       "date": "31-12-1990",
       "source": "archives80+depot101",
-      "programs_count": 162,
+      "programs_count": 132,
       "programs": [
         {
           "time": "05:55",
@@ -129144,17 +129144,6 @@
           "description": "Série française",
           "description_lines": [
             "Série française"
-          ],
-          "segments": []
-        },
-        {
-          "time": "06:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Rue Carnot",
-          "description": "Feuilleton franco-suisse avec Rosine Cadoret",
-          "description_lines": [
-            "Feuilleton franco-suisse avec Rosine Cadoret"
           ],
           "segments": []
         },
@@ -129190,15 +129179,6 @@
           "segments": []
         },
         {
-          "time": "08:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Continentales",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "08:25",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129206,17 +129186,6 @@
           "description": "Téléachat",
           "description_lines": [
             "Téléachat"
-          ],
-          "segments": []
-        },
-        {
-          "time": "08:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Amoureusement vôtre",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
           ],
           "segments": []
         },
@@ -129232,37 +129201,6 @@
           "segments": []
         },
         {
-          "time": "09:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Amour, gloire et beauté",
-          "description": "Feuilleton américain",
-          "description_lines": [
-            "Feuilleton américain"
-          ],
-          "segments": []
-        },
-        {
-          "time": "09:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "MATIN BONHEUR",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "10:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Eric et toi et moi",
-          "description": "Présentation : Eric Galliano",
-          "description_lines": [
-            "Présentation : Eric Galliano"
-          ],
-          "segments": []
-        },
-        {
           "time": "11:30",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129271,35 +129209,6 @@
           "description_lines": [
             "Jeu présenté par Philippe Risoli",
             "Jeu présenté par Thierry Beccaro"
-          ],
-          "segments": []
-        },
-        {
-          "time": "11:53",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Espace 3 Entreprises",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Les titres de l'actualité",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "12:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Les Mariés de l'A2",
-          "description": "Jeu télévisé",
-          "description_lines": [
-            "Jeu télévisé"
           ],
           "segments": []
         },
@@ -129322,17 +129231,6 @@
           "segments": []
         },
         {
-          "time": "13:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Regards de femme",
-          "description": "Magazine présenté par Aline Pailler",
-          "description_lines": [
-            "Magazine présenté par Aline Pailler"
-          ],
-          "segments": []
-        },
-        {
           "time": "13:35",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129344,44 +129242,6 @@
           "segments": []
         },
         {
-          "time": "13:40",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Pouic-pouic",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "14:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Un ascenseur pour l'an neuf",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "15:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Le shérif de Santa Fe",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "15:05",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "La planète des animaux",
-          "description": "Documentaire",
-          "description_lines": [
-            "Documentaire"
-          ],
-          "segments": []
-        },
-        {
           "time": "15:10",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129389,28 +129249,6 @@
           "description": "Danièle Evenou (Armelle Rome), Yolande Folliot (Irina Stevens)",
           "description_lines": [
             "Danièle Evenou (Armelle Rome), Yolande Folliot (Irina Stevens)"
-          ],
-          "segments": []
-        },
-        {
-          "time": "16:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "La Petite Merveille",
-          "description": "Série télé américaine",
-          "description_lines": [
-            "Série télé américaine"
-          ],
-          "segments": []
-        },
-        {
-          "time": "16:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Zorro",
-          "description": "Série télé américaine",
-          "description_lines": [
-            "Série télé américaine"
           ],
           "segments": []
         },
@@ -129442,15 +129280,6 @@
           "segments": []
         },
         {
-          "time": "17:40",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Pas de répit sur la planète Terre",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "17:45",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129463,34 +129292,12 @@
           "segments": []
         },
         {
-          "time": "18:30",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Questions pour un champion",
-          "description": "Jeu présenté par Julien Lepers",
-          "description_lines": [
-            "Jeu présenté par Julien Lepers"
-          ],
-          "segments": []
-        },
-        {
           "time": "18:35",
           "channel": "TF1",
           "raw_channel": "TF1",
           "title": "UNE FAMILLE EN OR",
           "description": "",
           "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "18:50",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Un château au soleil",
-          "description": "Série française avec Jean-Pierre Marielle, Anny Duperey, Edwige Feuillère",
-          "description_lines": [
-            "Série française avec Jean-Pierre Marielle, Anny Duperey, Edwige Feuillère"
-          ],
           "segments": []
         },
         {
@@ -129516,15 +129323,6 @@
           "segments": []
         },
         {
-          "time": "19:45",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Le petit prince",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "19:55",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129545,51 +129343,10 @@
           "segments": []
         },
         {
-          "time": "20:10",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "La Classe",
-          "description": "Emission humoristique",
-          "description_lines": [
-            "Emission humoristique"
-          ],
-          "segments": []
-        },
-        {
           "time": "20:35",
           "channel": "TF1",
           "raw_channel": "TF1",
           "title": "Météo",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "20:40",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Les tribulations d'un Chinois en Chine",
-          "description": "Film avec Michel Boujenah",
-          "description_lines": [
-            "Film avec Michel Boujenah",
-            "Film de Philippe de Broca"
-          ],
-          "segments": []
-        },
-        {
-          "time": "20:45",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "La télé des Inconnus",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "22:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Le bêtisier 90",
           "description": "",
           "description_lines": [],
           "segments": []
@@ -129617,15 +129374,6 @@
           "segments": []
         },
         {
-          "time": "22:15",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Soir 3",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
           "time": "22:40",
           "channel": "TF1",
           "raw_channel": "TF1",
@@ -129633,60 +129381,6 @@
           "description": "Les beaux moments du cirque",
           "description_lines": [
             "Les beaux moments du cirque"
-          ],
-          "segments": []
-        },
-        {
-          "time": "22:55",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Réveillon, réveillons",
-          "description": "Musique, humour, rétro de l'année 90, pour cette émission présentée par Antoine de Caunes. Des clins d'œil avec : Yvette Horner, Gérard Lanvin, Judith Godrèche, Elton John, ZZ Top, Jean-Paul Gaultier, Bernard Giraudeau, George Harrison, Bob Geldorf, Frédéric Mitterrand, Jane Birkin, Dave Stewart, N.T.M., Léon Zitrone, Jean-Louis Aubert, Georges Lucas, Dick Rivers, Florence Arthaud, La Cicciolina, Claudia Cardinale, Les Nuls, Steve Baron, Guesch Patti, Philippe Léotard, Julie Delpy, Spike Lee",
-          "description_lines": [
-            "Musique, humour, rétro de l'année 90, pour cette émission présentée par Antoine de Caunes. Des clins d'œil avec : Yvette Horner, Gérard Lanvin, Judith Godrèche, Elton John, ZZ Top, Jean-Paul Gaultier, Bernard Giraudeau, George Harrison, Bob Geldorf, Frédéric Mitterrand, Jane Birkin, Dave Stewart, N.T.M., Léon Zitrone, Jean-Louis Aubert, Georges Lucas, Dick Rivers, Florence Arthaud, La Cicciolina, Claudia Cardinale, Les Nuls, Steve Baron, Guesch Patti, Philippe Léotard, Julie Delpy, Spike Lee"
-          ],
-          "segments": []
-        },
-        {
-          "time": "00:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Une nuit au Crazy Horse",
-          "description": "",
-          "description_lines": [],
-          "segments": []
-        },
-        {
-          "time": "00:25",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Sexy mode",
-          "description": "Divertissement",
-          "description_lines": [
-            "Divertissement"
-          ],
-          "segments": []
-        },
-        {
-          "time": "01:00",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "2001, l'odyssée de l'espace",
-          "description": "De Jean Barbier",
-          "description_lines": [
-            "De Jean Barbier",
-            "Film"
-          ],
-          "segments": []
-        },
-        {
-          "time": "01:20",
-          "channel": "TF1",
-          "raw_channel": "TF1",
-          "title": "Messages",
-          "description": "F3",
-          "description_lines": [
-            "F3"
           ],
           "segments": []
         },
@@ -130177,6 +129871,7 @@
           "title": "SOIR 3",
           "description": "",
           "description_lines": [],
+          "reassigned": true,
           "segments": []
         },
         {
@@ -130844,17 +130539,6 @@
             "segments": []
           },
           {
-            "time": "06:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Rue Carnot",
-            "description": "Feuilleton franco-suisse avec Rosine Cadoret",
-            "description_lines": [
-              "Feuilleton franco-suisse avec Rosine Cadoret"
-            ],
-            "segments": []
-          },
-          {
             "time": "06:30",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -130886,15 +130570,6 @@
             "segments": []
           },
           {
-            "time": "08:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Continentales",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "08:25",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -130902,17 +130577,6 @@
             "description": "Téléachat",
             "description_lines": [
               "Téléachat"
-            ],
-            "segments": []
-          },
-          {
-            "time": "08:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Amoureusement vôtre",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
             ],
             "segments": []
           },
@@ -130928,37 +130592,6 @@
             "segments": []
           },
           {
-            "time": "09:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Amour, gloire et beauté",
-            "description": "Feuilleton américain",
-            "description_lines": [
-              "Feuilleton américain"
-            ],
-            "segments": []
-          },
-          {
-            "time": "09:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "MATIN BONHEUR",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "10:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Eric et toi et moi",
-            "description": "Présentation : Eric Galliano",
-            "description_lines": [
-              "Présentation : Eric Galliano"
-            ],
-            "segments": []
-          },
-          {
             "time": "11:30",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -130967,35 +130600,6 @@
             "description_lines": [
               "Jeu présenté par Philippe Risoli",
               "Jeu présenté par Thierry Beccaro"
-            ],
-            "segments": []
-          },
-          {
-            "time": "11:53",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Espace 3 Entreprises",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Les titres de l'actualité",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "12:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Les Mariés de l'A2",
-            "description": "Jeu télévisé",
-            "description_lines": [
-              "Jeu télévisé"
             ],
             "segments": []
           },
@@ -131018,17 +130622,6 @@
             "segments": []
           },
           {
-            "time": "13:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Regards de femme",
-            "description": "Magazine présenté par Aline Pailler",
-            "description_lines": [
-              "Magazine présenté par Aline Pailler"
-            ],
-            "segments": []
-          },
-          {
             "time": "13:35",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -131040,44 +130633,6 @@
             "segments": []
           },
           {
-            "time": "13:40",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Pouic-pouic",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "14:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Un ascenseur pour l'an neuf",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "15:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Le shérif de Santa Fe",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "15:05",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "La planète des animaux",
-            "description": "Documentaire",
-            "description_lines": [
-              "Documentaire"
-            ],
-            "segments": []
-          },
-          {
             "time": "15:10",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -131085,28 +130640,6 @@
             "description": "Danièle Evenou (Armelle Rome), Yolande Folliot (Irina Stevens)",
             "description_lines": [
               "Danièle Evenou (Armelle Rome), Yolande Folliot (Irina Stevens)"
-            ],
-            "segments": []
-          },
-          {
-            "time": "16:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "La Petite Merveille",
-            "description": "Série télé américaine",
-            "description_lines": [
-              "Série télé américaine"
-            ],
-            "segments": []
-          },
-          {
-            "time": "16:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Zorro",
-            "description": "Série télé américaine",
-            "description_lines": [
-              "Série télé américaine"
             ],
             "segments": []
           },
@@ -131138,15 +130671,6 @@
             "segments": []
           },
           {
-            "time": "17:40",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Pas de répit sur la planète Terre",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "17:45",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -131159,34 +130683,12 @@
             "segments": []
           },
           {
-            "time": "18:30",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Questions pour un champion",
-            "description": "Jeu présenté par Julien Lepers",
-            "description_lines": [
-              "Jeu présenté par Julien Lepers"
-            ],
-            "segments": []
-          },
-          {
             "time": "18:35",
             "channel": "TF1",
             "raw_channel": "TF1",
             "title": "UNE FAMILLE EN OR",
             "description": "",
             "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "18:50",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Un château au soleil",
-            "description": "Série française avec Jean-Pierre Marielle, Anny Duperey, Edwige Feuillère",
-            "description_lines": [
-              "Série française avec Jean-Pierre Marielle, Anny Duperey, Edwige Feuillère"
-            ],
             "segments": []
           },
           {
@@ -131212,15 +130714,6 @@
             "segments": []
           },
           {
-            "time": "19:45",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Le petit prince",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "19:55",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -131241,51 +130734,10 @@
             "segments": []
           },
           {
-            "time": "20:10",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "La Classe",
-            "description": "Emission humoristique",
-            "description_lines": [
-              "Emission humoristique"
-            ],
-            "segments": []
-          },
-          {
             "time": "20:35",
             "channel": "TF1",
             "raw_channel": "TF1",
             "title": "Météo",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "20:40",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Les tribulations d'un Chinois en Chine",
-            "description": "Film avec Michel Boujenah",
-            "description_lines": [
-              "Film avec Michel Boujenah",
-              "Film de Philippe de Broca"
-            ],
-            "segments": []
-          },
-          {
-            "time": "20:45",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "La télé des Inconnus",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "22:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Le bêtisier 90",
             "description": "",
             "description_lines": [],
             "segments": []
@@ -131313,15 +130765,6 @@
             "segments": []
           },
           {
-            "time": "22:15",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Soir 3",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
             "time": "22:40",
             "channel": "TF1",
             "raw_channel": "TF1",
@@ -131329,60 +130772,6 @@
             "description": "Les beaux moments du cirque",
             "description_lines": [
               "Les beaux moments du cirque"
-            ],
-            "segments": []
-          },
-          {
-            "time": "22:55",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Réveillon, réveillons",
-            "description": "Musique, humour, rétro de l'année 90, pour cette émission présentée par Antoine de Caunes. Des clins d'œil avec : Yvette Horner, Gérard Lanvin, Judith Godrèche, Elton John, ZZ Top, Jean-Paul Gaultier, Bernard Giraudeau, George Harrison, Bob Geldorf, Frédéric Mitterrand, Jane Birkin, Dave Stewart, N.T.M., Léon Zitrone, Jean-Louis Aubert, Georges Lucas, Dick Rivers, Florence Arthaud, La Cicciolina, Claudia Cardinale, Les Nuls, Steve Baron, Guesch Patti, Philippe Léotard, Julie Delpy, Spike Lee",
-            "description_lines": [
-              "Musique, humour, rétro de l'année 90, pour cette émission présentée par Antoine de Caunes. Des clins d'œil avec : Yvette Horner, Gérard Lanvin, Judith Godrèche, Elton John, ZZ Top, Jean-Paul Gaultier, Bernard Giraudeau, George Harrison, Bob Geldorf, Frédéric Mitterrand, Jane Birkin, Dave Stewart, N.T.M., Léon Zitrone, Jean-Louis Aubert, Georges Lucas, Dick Rivers, Florence Arthaud, La Cicciolina, Claudia Cardinale, Les Nuls, Steve Baron, Guesch Patti, Philippe Léotard, Julie Delpy, Spike Lee"
-            ],
-            "segments": []
-          },
-          {
-            "time": "00:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Une nuit au Crazy Horse",
-            "description": "",
-            "description_lines": [],
-            "segments": []
-          },
-          {
-            "time": "00:25",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Sexy mode",
-            "description": "Divertissement",
-            "description_lines": [
-              "Divertissement"
-            ],
-            "segments": []
-          },
-          {
-            "time": "01:00",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "2001, l'odyssée de l'espace",
-            "description": "De Jean Barbier",
-            "description_lines": [
-              "De Jean Barbier",
-              "Film"
-            ],
-            "segments": []
-          },
-          {
-            "time": "01:20",
-            "channel": "TF1",
-            "raw_channel": "TF1",
-            "title": "Messages",
-            "description": "F3",
-            "description_lines": [
-              "F3"
             ],
             "segments": []
           },
@@ -131877,6 +131266,7 @@
             "title": "SOIR 3",
             "description": "",
             "description_lines": [],
+            "reassigned": true,
             "segments": []
           },
           {
