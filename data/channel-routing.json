@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updated_at": "2026-11-20T20:21:24.994Z",
+  "updated_at": "2026-11-21T12:46:01.578Z",
   "note": "Couche persistante lue par generate_index.py. routes = libellé compacté → chaîne. program_overrides keyed by signature date|heure|titre|libellé brut, action reassign|hide. Ne jamais remplacer data/AAAA.json : il est régénéré.",
   "channel_order": [
     "ORTF 1",
@@ -991,6 +991,1788 @@
       "raw_channel": "Canal+",
       "channel": "Canal+",
       "action": "hide"
+    },
+    "04-01-1986|18:55|d accord pas d accord|TF1": {
+      "sig": "04-01-1986|18:55|d accord pas d accord|TF1",
+      "date": "04-01-1986",
+      "time": "18:55",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "05-04-1986|18:55|d accord pas d accord|TF1": {
+      "sig": "05-04-1986|18:55|d accord pas d accord|TF1",
+      "date": "05-04-1986",
+      "time": "18:55",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "14-06-1986|18:55|d accord pas d accord|TF1": {
+      "sig": "14-06-1986|18:55|d accord pas d accord|TF1",
+      "date": "14-06-1986",
+      "time": "18:55",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "18-10-1986|18:50|d accord pas d accord|TF1": {
+      "sig": "18-10-1986|18:50|d accord pas d accord|TF1",
+      "date": "18-10-1986",
+      "time": "18:50",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "21-06-1986|18:55|d accord pas d accord|TF1": {
+      "sig": "21-06-1986|18:55|d accord pas d accord|TF1",
+      "date": "21-06-1986",
+      "time": "18:55",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-12-1986|18:50|d accord pas d accord|TF1": {
+      "sig": "27-12-1986|18:50|d accord pas d accord|TF1",
+      "date": "27-12-1986",
+      "time": "18:50",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "07-06-1986|19:05|d accord pas d accord|TF1": {
+      "sig": "07-06-1986|19:05|d accord pas d accord|TF1",
+      "date": "07-06-1986",
+      "time": "19:05",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "08-04-1986|20:25|d accord pas d accord|TF1": {
+      "sig": "08-04-1986|20:25|d accord pas d accord|TF1",
+      "date": "08-04-1986",
+      "time": "20:25",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "17-06-1986|20:30|d accord pas d accord|TF1": {
+      "sig": "17-06-1986|20:30|d accord pas d accord|TF1",
+      "date": "17-06-1986",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "24-06-1986|20:30|d accord pas d accord|TF1": {
+      "sig": "24-06-1986|20:30|d accord pas d accord|TF1",
+      "date": "24-06-1986",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "03-06-1986|20:35|d accord pas d accord|TF1": {
+      "sig": "03-06-1986|20:35|d accord pas d accord|TF1",
+      "date": "03-06-1986",
+      "time": "20:35",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "11-01-1985|19:10|actualites regionales|TF1": {
+      "sig": "11-01-1985|19:10|actualites regionales|TF1",
+      "date": "11-01-1985",
+      "time": "19:10",
+      "title": "ACTUALITÉS RÉGIONALES",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "16-02-1985|19:00|d accord pas d accord|TF1": {
+      "sig": "16-02-1985|19:00|d accord pas d accord|TF1",
+      "date": "16-02-1985",
+      "time": "19:00",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "21-01-1985|19:10|actualites regionales|TF1": {
+      "sig": "21-01-1985|19:10|actualites regionales|TF1",
+      "date": "21-01-1985",
+      "time": "19:10",
+      "title": "ACTUALITÉS RÉGIONALES",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "02-02-1985|19:15|actualites regionales|TF1": {
+      "sig": "02-02-1985|19:15|actualites regionales|TF1",
+      "date": "02-02-1985",
+      "time": "19:15",
+      "title": "ACTUALITÉS RÉGIONALES",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "03-03-1985|09:30|le disney channel|ANTENNE2": {
+      "sig": "03-03-1985|09:30|le disney channel|ANTENNE2",
+      "date": "03-03-1985",
+      "time": "09:30",
+      "title": "LE DISNEY CHANNEL",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "03-03-1985|10:00|mosaique|ANTENNE2": {
+      "sig": "03-03-1985|10:00|mosaique|ANTENNE2",
+      "date": "03-03-1985",
+      "time": "10:00",
+      "title": "Mosaïque",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "03-03-1985|19:00|au nom de l amour|ANTENNE2": {
+      "sig": "03-03-1985|19:00|au nom de l amour|ANTENNE2",
+      "date": "03-03-1985",
+      "time": "19:00",
+      "title": "Au nom de l'amour",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "03-03-1985|22:00|soir 3|ANTENNE2": {
+      "sig": "03-03-1985|22:00|soir 3|ANTENNE2",
+      "date": "03-03-1985",
+      "time": "22:00",
+      "title": "Soir 3",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "05-01-1985|19:15|actualites regionales|TF1": {
+      "sig": "05-01-1985|19:15|actualites regionales|TF1",
+      "date": "05-01-1985",
+      "time": "19:15",
+      "title": "ACTUALITÉS RÉGIONALES",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "05-03-1985|20:30|d accord pas d accord|TF1": {
+      "sig": "05-03-1985|20:30|d accord pas d accord|TF1",
+      "date": "05-03-1985",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "07-01-1985|19:15|actualites regionales|TF1": {
+      "sig": "07-01-1985|19:15|actualites regionales|TF1",
+      "date": "07-01-1985",
+      "time": "19:15",
+      "title": "ACTUALITÉS RÉGIONALES",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "08-01-1985|20:30|d accord pas d accord|TF1": {
+      "sig": "08-01-1985|20:30|d accord pas d accord|TF1",
+      "date": "08-01-1985",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "12-02-1985|20:30|d accord pas d accord|TF1": {
+      "sig": "12-02-1985|20:30|d accord pas d accord|TF1",
+      "date": "12-02-1985",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "19-02-1985|20:30|d accord pas d accord|TF1": {
+      "sig": "19-02-1985|20:30|d accord pas d accord|TF1",
+      "date": "19-02-1985",
+      "time": "20:30",
+      "title": "D'ACCORD, PAS D'ACCORD",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "27-01-1985|10:00|mosaique|ANTENNE2": {
+      "sig": "27-01-1985|10:00|mosaique|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "10:00",
+      "title": "Mosaïque",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|12:00|d un soleil a l autre|ANTENNE2": {
+      "sig": "27-01-1985|12:00|d un soleil a l autre|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "12:00",
+      "title": "D'un soleil à l'autre",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|15:15|le bavard imprudent|ANTENNE2": {
+      "sig": "27-01-1985|15:15|le bavard imprudent|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "15:15",
+      "title": "Le bavard imprudent",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|18:50|pour la jeunesse|ANTENNE2": {
+      "sig": "27-01-1985|18:50|pour la jeunesse|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "18:50",
+      "title": "Pour la jeunesse",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|20:00|r f o hebdo|ANTENNE2": {
+      "sig": "27-01-1985|20:00|r f o hebdo|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "20:00",
+      "title": "R.F.O. Hebdo",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|21:30|aspects du court metrage francais|ANTENNE2": {
+      "sig": "27-01-1985|21:30|aspects du court metrage francais|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "21:30",
+      "title": "Aspects du court métrage français",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "27-01-1985|22:00|soir 3|ANTENNE2": {
+      "sig": "27-01-1985|22:00|soir 3|ANTENNE2",
+      "date": "27-01-1985",
+      "time": "22:00",
+      "title": "Soir 3",
+      "raw_channel": "Antenne 2",
+      "channel": "Antenne 2",
+      "action": "hide"
+    },
+    "31-05-1986|14:00|6 tonic|M6": {
+      "sig": "31-05-1986|14:00|6 tonic|M6",
+      "date": "31-05-1986",
+      "time": "14:00",
+      "title": "6 TONIC",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "31-05-1986|17:00|systeme 6|M6": {
+      "sig": "31-05-1986|17:00|systeme 6|M6",
+      "date": "31-05-1986",
+      "time": "17:00",
+      "title": "SYSTEME 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "31-05-1986|19:00|nrj 6|M6": {
+      "sig": "31-05-1986|19:00|nrj 6|M6",
+      "date": "31-05-1986",
+      "time": "19:00",
+      "title": "NRJ 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "31-05-1986|21:00|tonic 6|M6": {
+      "sig": "31-05-1986|21:00|tonic 6|M6",
+      "date": "31-05-1986",
+      "time": "21:00",
+      "title": "TONIC 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "31-05-1986|23:00|life 6|M6": {
+      "sig": "31-05-1986|23:00|life 6|M6",
+      "date": "31-05-1986",
+      "time": "23:00",
+      "title": "LIFE 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "31-05-1986|00:00|fin des emissions|M6": {
+      "sig": "31-05-1986|00:00|fin des emissions|M6",
+      "date": "31-05-1986",
+      "time": "00:00",
+      "title": "FIN DES ÉMISSIONS",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|14:00|tonic 6|M6": {
+      "sig": "02-06-1986|14:00|tonic 6|M6",
+      "date": "02-06-1986",
+      "time": "14:00",
+      "title": "TONIC 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|17:00|systeme 6|M6": {
+      "sig": "02-06-1986|17:00|systeme 6|M6",
+      "date": "02-06-1986",
+      "time": "17:00",
+      "title": "SYSTEME 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|19:00|nrj 6|M6": {
+      "sig": "02-06-1986|19:00|nrj 6|M6",
+      "date": "02-06-1986",
+      "time": "19:00",
+      "title": "NRJ 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|20:00|tonic 6|M6": {
+      "sig": "02-06-1986|20:00|tonic 6|M6",
+      "date": "02-06-1986",
+      "time": "20:00",
+      "title": "TONIC 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|23:00|nrj 6|M6": {
+      "sig": "02-06-1986|23:00|nrj 6|M6",
+      "date": "02-06-1986",
+      "time": "23:00",
+      "title": "NRJ 6",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "02-06-1986|00:00|fin des emissions|M6": {
+      "sig": "02-06-1986|00:00|fin des emissions|M6",
+      "date": "02-06-1986",
+      "time": "00:00",
+      "title": "FIN DES ÉMISSIONS",
+      "raw_channel": "M6",
+      "channel": "TV6",
+      "action": "reassign"
+    },
+    "03-07-1989|08:30|amoureusement votre|TF1": {
+      "sig": "03-07-1989|08:30|amoureusement votre|TF1",
+      "date": "03-07-1989",
+      "time": "08:30",
+      "title": "Amoureusement votre",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "03-07-1989|08:55|eric et compagnie|TF1": {
+      "sig": "03-07-1989|08:55|eric et compagnie|TF1",
+      "date": "03-07-1989",
+      "time": "08:55",
+      "title": "Eric et Compagnie",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "03-07-1989|18:45|des chiffres et des lettres|TF1": {
+      "sig": "03-07-1989|18:45|des chiffres et des lettres|TF1",
+      "date": "03-07-1989",
+      "time": "18:45",
+      "title": "Des chiffres et des lettres",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "03-07-1989|00:20|60 secondes|TF1": {
+      "sig": "03-07-1989|00:20|60 secondes|TF1",
+      "date": "03-07-1989",
+      "time": "00:20",
+      "title": "60 secondes",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "06-07-1989|07:30|youpi|CANAL": {
+      "sig": "06-07-1989|07:30|youpi|CANAL",
+      "date": "06-07-1989",
+      "time": "07:30",
+      "title": "Youpi !",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "06-07-1989|12:05|bouvard et compagnie|CANAL": {
+      "sig": "06-07-1989|12:05|bouvard et compagnie|CANAL",
+      "date": "06-07-1989",
+      "time": "12:05",
+      "title": "Bouvard et Compagnie",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "06-07-1989|13:30|vive la tele|CANAL": {
+      "sig": "06-07-1989|13:30|vive la tele|CANAL",
+      "date": "06-07-1989",
+      "time": "13:30",
+      "title": "Vive la télé",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "06-07-1989|02:50|bouvard et compagnie|CANAL": {
+      "sig": "06-07-1989|02:50|bouvard et compagnie|CANAL",
+      "date": "06-07-1989",
+      "time": "02:50",
+      "title": "Bouvard et Compagnie",
+      "raw_channel": "Canal+",
+      "channel": "Canal+",
+      "action": "hide"
+    },
+    "31-12-1990|13:40|pouic pouic|TF1": {
+      "sig": "31-12-1990|13:40|pouic pouic|TF1",
+      "date": "31-12-1990",
+      "time": "13:40",
+      "title": "Pouic-pouic",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|14:05|un ascenseur pour l an neuf|TF1": {
+      "sig": "31-12-1990|14:05|un ascenseur pour l an neuf|TF1",
+      "date": "31-12-1990",
+      "time": "14:05",
+      "title": "Un ascenseur pour l'an neuf",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|15:00|le sherif de santa fe|TF1": {
+      "sig": "31-12-1990|15:00|le sherif de santa fe|TF1",
+      "date": "31-12-1990",
+      "time": "15:00",
+      "title": "Le shérif de Santa Fe",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|16:00|la petite merveille|TF1": {
+      "sig": "31-12-1990|16:00|la petite merveille|TF1",
+      "date": "31-12-1990",
+      "time": "16:00",
+      "title": "La Petite Merveille",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|17:40|pas de repit sur la planete terre|TF1": {
+      "sig": "31-12-1990|17:40|pas de repit sur la planete terre|TF1",
+      "date": "31-12-1990",
+      "time": "17:40",
+      "title": "Pas de répit sur la planète Terre",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|18:50|un chateau au soleil|TF1": {
+      "sig": "31-12-1990|18:50|un chateau au soleil|TF1",
+      "date": "31-12-1990",
+      "time": "18:50",
+      "title": "Un château au soleil",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|20:40|les tribulations d un chinois en chine|TF1": {
+      "sig": "31-12-1990|20:40|les tribulations d un chinois en chine|TF1",
+      "date": "31-12-1990",
+      "time": "20:40",
+      "title": "Les tribulations d'un Chinois en Chine",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|20:45|la tele des inconnus|TF1": {
+      "sig": "31-12-1990|20:45|la tele des inconnus|TF1",
+      "date": "31-12-1990",
+      "time": "20:45",
+      "title": "La télé des Inconnus",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|22:00|le betisier 90|TF1": {
+      "sig": "31-12-1990|22:00|le betisier 90|TF1",
+      "date": "31-12-1990",
+      "time": "22:00",
+      "title": "Le bêtisier 90",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|22:55|reveillon reveillons|TF1": {
+      "sig": "31-12-1990|22:55|reveillon reveillons|TF1",
+      "date": "31-12-1990",
+      "time": "22:55",
+      "title": "Réveillon, réveillons",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|00:00|une nuit au crazy horse|TF1": {
+      "sig": "31-12-1990|00:00|une nuit au crazy horse|TF1",
+      "date": "31-12-1990",
+      "time": "00:00",
+      "title": "Une nuit au Crazy Horse",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|00:25|sexy mode|TF1": {
+      "sig": "31-12-1990|00:25|sexy mode|TF1",
+      "date": "31-12-1990",
+      "time": "00:25",
+      "title": "Sexy mode",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|01:00|2001 l odyssee de l espace|TF1": {
+      "sig": "31-12-1990|01:00|2001 l odyssee de l espace|TF1",
+      "date": "31-12-1990",
+      "time": "01:00",
+      "title": "2001, l'odyssée de l'espace",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|01:20|messages|TF1": {
+      "sig": "31-12-1990|01:20|messages|TF1",
+      "date": "31-12-1990",
+      "time": "01:20",
+      "title": "Messages",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|06:00|rue carnot|TF1": {
+      "sig": "31-12-1990|06:00|rue carnot|TF1",
+      "date": "31-12-1990",
+      "time": "06:00",
+      "title": "Rue Carnot",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|08:00|continentales|TF1": {
+      "sig": "31-12-1990|08:00|continentales|TF1",
+      "date": "31-12-1990",
+      "time": "08:00",
+      "title": "Continentales",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|08:30|amoureusement votre|TF1": {
+      "sig": "31-12-1990|08:30|amoureusement votre|TF1",
+      "date": "31-12-1990",
+      "time": "08:30",
+      "title": "Amoureusement vôtre",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|09:00|amour gloire et beaute|TF1": {
+      "sig": "31-12-1990|09:00|amour gloire et beaute|TF1",
+      "date": "31-12-1990",
+      "time": "09:00",
+      "title": "Amour, gloire et beauté",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|09:30|matin bonheur|TF1": {
+      "sig": "31-12-1990|09:30|matin bonheur|TF1",
+      "date": "31-12-1990",
+      "time": "09:30",
+      "title": "MATIN BONHEUR",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|10:30|eric et toi et moi|TF1": {
+      "sig": "31-12-1990|10:30|eric et toi et moi|TF1",
+      "date": "31-12-1990",
+      "time": "10:30",
+      "title": "Eric et toi et moi",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|11:53|espace 3 entreprises|TF1": {
+      "sig": "31-12-1990|11:53|espace 3 entreprises|TF1",
+      "date": "31-12-1990",
+      "time": "11:53",
+      "title": "Espace 3 Entreprises",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|12:00|les titres de l actualite|TF1": {
+      "sig": "31-12-1990|12:00|les titres de l actualite|TF1",
+      "date": "31-12-1990",
+      "time": "12:00",
+      "title": "Les titres de l'actualité",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|12:30|les maries de l a2|TF1": {
+      "sig": "31-12-1990|12:30|les maries de l a2|TF1",
+      "date": "31-12-1990",
+      "time": "12:30",
+      "title": "Les Mariés de l'A2",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|13:30|regards de femme|TF1": {
+      "sig": "31-12-1990|13:30|regards de femme|TF1",
+      "date": "31-12-1990",
+      "time": "13:30",
+      "title": "Regards de femme",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|15:05|la planete des animaux|TF1": {
+      "sig": "31-12-1990|15:05|la planete des animaux|TF1",
+      "date": "31-12-1990",
+      "time": "15:05",
+      "title": "La planète des animaux",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|16:30|zorro|TF1": {
+      "sig": "31-12-1990|16:30|zorro|TF1",
+      "date": "31-12-1990",
+      "time": "16:30",
+      "title": "Zorro",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|18:30|questions pour un champion|TF1": {
+      "sig": "31-12-1990|18:30|questions pour un champion|TF1",
+      "date": "31-12-1990",
+      "time": "18:30",
+      "title": "Questions pour un champion",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|19:45|le petit prince|TF1": {
+      "sig": "31-12-1990|19:45|le petit prince|TF1",
+      "date": "31-12-1990",
+      "time": "19:45",
+      "title": "Le petit prince",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|20:10|la classe|TF1": {
+      "sig": "31-12-1990|20:10|la classe|TF1",
+      "date": "31-12-1990",
+      "time": "20:10",
+      "title": "La Classe",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "31-12-1990|22:15|soir 3|TF1": {
+      "sig": "31-12-1990|22:15|soir 3|TF1",
+      "date": "31-12-1990",
+      "time": "22:15",
+      "title": "Soir 3",
+      "raw_channel": "TF1",
+      "channel": "France 3",
+      "action": "reassign"
+    },
+    "26-04-1991|08:30|amoureusement votre|TF1": {
+      "sig": "26-04-1991|08:30|amoureusement votre|TF1",
+      "date": "26-04-1991",
+      "time": "08:30",
+      "title": "Amoureusement vôtre",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|08:55|amour gloire et beaute|TF1": {
+      "sig": "26-04-1991|08:55|amour gloire et beaute|TF1",
+      "date": "26-04-1991",
+      "time": "08:55",
+      "title": "Amour, gloire et beauté",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|11:00|questions pour un champion|TF1": {
+      "sig": "26-04-1991|11:00|questions pour un champion|TF1",
+      "date": "26-04-1991",
+      "time": "11:00",
+      "title": "Questions pour un champion",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|11:30|motus|TF1": {
+      "sig": "26-04-1991|11:30|motus|TF1",
+      "date": "26-04-1991",
+      "time": "11:30",
+      "title": "Motus",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|11:53|espace 3 entreprises|TF1": {
+      "sig": "26-04-1991|11:53|espace 3 entreprises|TF1",
+      "date": "26-04-1991",
+      "time": "11:53",
+      "title": "Espace 3 Entreprises",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|12:05|dessinez c est gagne|TF1": {
+      "sig": "26-04-1991|12:05|dessinez c est gagne|TF1",
+      "date": "26-04-1991",
+      "time": "12:05",
+      "title": "Dessinez, c'est gagné",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|12:30|les maries de l a2|TF1": {
+      "sig": "26-04-1991|12:30|les maries de l a2|TF1",
+      "date": "26-04-1991",
+      "time": "12:30",
+      "title": "Les Mariés de l'A2",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|13:45|generations|TF1": {
+      "sig": "26-04-1991|13:45|generations|TF1",
+      "date": "26-04-1991",
+      "time": "13:45",
+      "title": "Générations",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|17:05|giga|TF1": {
+      "sig": "26-04-1991|17:05|giga|TF1",
+      "date": "26-04-1991",
+      "time": "17:05",
+      "title": "Giga",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|18:10|des chiffres et des lettres|TF1": {
+      "sig": "26-04-1991|18:10|des chiffres et des lettres|TF1",
+      "date": "26-04-1991",
+      "time": "18:10",
+      "title": "Des chiffres et des lettres",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|18:30|questions pour un champion|TF1": {
+      "sig": "26-04-1991|18:30|questions pour un champion|TF1",
+      "date": "26-04-1991",
+      "time": "18:30",
+      "title": "Questions pour un champion",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|19:00|le 19 20|TF1": {
+      "sig": "26-04-1991|19:00|le 19 20|TF1",
+      "date": "26-04-1991",
+      "time": "19:00",
+      "title": "Le 19-20",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|20:05|la classe|TF1": {
+      "sig": "26-04-1991|20:05|la classe|TF1",
+      "date": "26-04-1991",
+      "time": "20:05",
+      "title": "La Classe",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|22:00|caracteres|TF1": {
+      "sig": "26-04-1991|22:00|caracteres|TF1",
+      "date": "26-04-1991",
+      "time": "22:00",
+      "title": "Caractères",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|22:35|soir 3|TF1": {
+      "sig": "26-04-1991|22:35|soir 3|TF1",
+      "date": "26-04-1991",
+      "time": "22:35",
+      "title": "Soir 3",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|06:05|rue camot|TF1": {
+      "sig": "26-04-1991|06:05|rue camot|TF1",
+      "date": "26-04-1991",
+      "time": "06:05",
+      "title": "Rue Camot",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|20:45|balthazar|TF1": {
+      "sig": "26-04-1991|20:45|balthazar|TF1",
+      "date": "26-04-1991",
+      "time": "20:45",
+      "title": "Balthazar",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|21:35|l affaire saint romans|TF1": {
+      "sig": "26-04-1991|21:35|l affaire saint romans|TF1",
+      "date": "26-04-1991",
+      "time": "21:35",
+      "title": "L'affaire Saint-Romans",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|23:35|un deux trois|TF1": {
+      "sig": "26-04-1991|23:35|un deux trois|TF1",
+      "date": "26-04-1991",
+      "time": "23:35",
+      "title": "Un, deux, trois",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|08:00|continentales|TF1": {
+      "sig": "26-04-1991|08:00|continentales|TF1",
+      "date": "26-04-1991",
+      "time": "08:00",
+      "title": "Continentales",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|09:20|eric et toi et moi|TF1": {
+      "sig": "26-04-1991|09:20|eric et toi et moi|TF1",
+      "date": "26-04-1991",
+      "time": "09:20",
+      "title": "Eric et toi et moi",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|12:00|les titres de l actualite|TF1": {
+      "sig": "26-04-1991|12:00|les titres de l actualite|TF1",
+      "date": "26-04-1991",
+      "time": "12:00",
+      "title": "Les titres de l'actualité",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "26-04-1991|23:55|musicales|TF1": {
+      "sig": "26-04-1991|23:55|musicales|TF1",
+      "date": "26-04-1991",
+      "time": "23:55",
+      "title": "Musicales",
+      "raw_channel": "TF1",
+      "channel": "TF1",
+      "action": "hide"
+    },
+    "01-04-1991|10:00|espanol|M6": {
+      "sig": "01-04-1991|10:00|espanol|M6",
+      "date": "01-04-1991",
+      "time": "10:00",
+      "title": "Espanol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|12:00|espanol|M6": {
+      "sig": "01-04-1991|12:00|espanol|M6",
+      "date": "01-04-1991",
+      "time": "12:00",
+      "title": "Espanol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|16:15|la renaissance|M6": {
+      "sig": "01-04-1991|16:15|la renaissance|M6",
+      "date": "01-04-1991",
+      "time": "16:15",
+      "title": "La Renaissance",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|17:15|le banquet de platon|M6": {
+      "sig": "01-04-1991|17:15|le banquet de platon|M6",
+      "date": "01-04-1991",
+      "time": "17:15",
+      "title": "Le Banquet de Platon",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|18:30|nuits noires|M6": {
+      "sig": "01-04-1991|18:30|nuits noires|M6",
+      "date": "01-04-1991",
+      "time": "18:30",
+      "title": "Nuits noires",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|18:55|a fleur de terre|M6": {
+      "sig": "01-04-1991|18:55|a fleur de terre|M6",
+      "date": "01-04-1991",
+      "time": "18:55",
+      "title": "A fleur de terre",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|19:55|le dessous des cartes|M6": {
+      "sig": "01-04-1991|19:55|le dessous des cartes|M6",
+      "date": "01-04-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|20:00|stephane grappelli|M6": {
+      "sig": "01-04-1991|20:00|stephane grappelli|M6",
+      "date": "01-04-1991",
+      "time": "20:00",
+      "title": "Stéphane Grappelli",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|21:00|de sable et de sang|M6": {
+      "sig": "01-04-1991|21:00|de sable et de sang|M6",
+      "date": "01-04-1991",
+      "time": "21:00",
+      "title": "De sable et de sang",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "01-04-1991|22:40|le gouter de josette|M6": {
+      "sig": "01-04-1991|22:40|le gouter de josette|M6",
+      "date": "01-04-1991",
+      "time": "22:40",
+      "title": "Le goûter de Josette",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|10:00|espanol|M6": {
+      "sig": "03-06-1991|10:00|espanol|M6",
+      "date": "03-06-1991",
+      "time": "10:00",
+      "title": "Espanol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|12:00|espanol|M6": {
+      "sig": "03-06-1991|12:00|espanol|M6",
+      "date": "03-06-1991",
+      "time": "12:00",
+      "title": "Espanol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|16:10|dance of darkness|M6": {
+      "sig": "03-06-1991|16:10|dance of darkness|M6",
+      "date": "03-06-1991",
+      "time": "16:10",
+      "title": "Dance of Darkness",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|17:05|boulevards d afrique|M6": {
+      "sig": "03-06-1991|17:05|boulevards d afrique|M6",
+      "date": "03-06-1991",
+      "time": "17:05",
+      "title": "Boulevards d'Afrique",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|18:15|un grand quelqu un|M6": {
+      "sig": "03-06-1991|18:15|un grand quelqu un|M6",
+      "date": "03-06-1991",
+      "time": "18:15",
+      "title": "Un grand quelqu'un",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|18:45|soiree speciale animation|M6": {
+      "sig": "03-06-1991|18:45|soiree speciale animation|M6",
+      "date": "03-06-1991",
+      "time": "18:45",
+      "title": "Soirée spéciale animation",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|19:55|le dessous des cartes|M6": {
+      "sig": "03-06-1991|19:55|le dessous des cartes|M6",
+      "date": "03-06-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|21:00|les mendiants|M6": {
+      "sig": "03-06-1991|21:00|les mendiants|M6",
+      "date": "03-06-1991",
+      "time": "21:00",
+      "title": "Les mendiants",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|22:30|le marechal ferrant|M6": {
+      "sig": "03-06-1991|22:30|le marechal ferrant|M6",
+      "date": "03-06-1991",
+      "time": "22:30",
+      "title": "Le maréchal-ferrant",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "03-06-1991|23:00|le dessous des cartes|M6": {
+      "sig": "03-06-1991|23:00|le dessous des cartes|M6",
+      "date": "03-06-1991",
+      "time": "23:00",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "06-11-1991|20:00|chronique de l infection|M6": {
+      "sig": "06-11-1991|20:00|chronique de l infection|M6",
+      "date": "06-11-1991",
+      "time": "20:00",
+      "title": "Chronique de l'infection",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "06-11-1991|20:50|le courrier des telespectateurs|M6": {
+      "sig": "06-11-1991|20:50|le courrier des telespectateurs|M6",
+      "date": "06-11-1991",
+      "time": "20:50",
+      "title": "Le courrier des téléspectateurs",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "06-11-1991|21:00|le temps verrouille|M6": {
+      "sig": "06-11-1991|21:00|le temps verrouille|M6",
+      "date": "06-11-1991",
+      "time": "21:00",
+      "title": "Le temps verrouillé",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "06-11-1991|02:45|cycle cinema grec|M6": {
+      "sig": "06-11-1991|02:45|cycle cinema grec|M6",
+      "date": "06-11-1991",
+      "time": "02:45",
+      "title": "Cycle cinéma grec",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|10:00|allemand|M6": {
+      "sig": "08-09-1991|10:00|allemand|M6",
+      "date": "08-09-1991",
+      "time": "10:00",
+      "title": "ALLEMAND",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|10:15|histoires de comprendre|M6": {
+      "sig": "08-09-1991|10:15|histoires de comprendre|M6",
+      "date": "08-09-1991",
+      "time": "10:15",
+      "title": "Histoires de comprendre",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|12:00|allemand|M6": {
+      "sig": "08-09-1991|12:00|allemand|M6",
+      "date": "08-09-1991",
+      "time": "12:00",
+      "title": "ALLEMAND",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|15:10|zizi jeanmaire aux bouffes du nord|M6": {
+      "sig": "08-09-1991|15:10|zizi jeanmaire aux bouffes du nord|M6",
+      "date": "08-09-1991",
+      "time": "15:10",
+      "title": "Zizi Jeanmaire aux Bouffes-du-Nord",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|16:10|l escalier celeste|M6": {
+      "sig": "08-09-1991|16:10|l escalier celeste|M6",
+      "date": "08-09-1991",
+      "time": "16:10",
+      "title": "L'escalier céleste",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|17:10|best boy|M6": {
+      "sig": "08-09-1991|17:10|best boy|M6",
+      "date": "08-09-1991",
+      "time": "17:10",
+      "title": "Best Boy",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|20:00|l heritage de la chouette|M6": {
+      "sig": "08-09-1991|20:00|l heritage de la chouette|M6",
+      "date": "08-09-1991",
+      "time": "20:00",
+      "title": "L'héritage de la chouette",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|22:05|guernica|M6": {
+      "sig": "08-09-1991|22:05|guernica|M6",
+      "date": "08-09-1991",
+      "time": "22:05",
+      "title": "Guernica",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "08-09-1991|22:30|india song|M6": {
+      "sig": "08-09-1991|22:30|india song|M6",
+      "date": "08-09-1991",
+      "time": "22:30",
+      "title": "India Song",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|10:00|anglais|M6": {
+      "sig": "12-03-1991|10:00|anglais|M6",
+      "date": "12-03-1991",
+      "time": "10:00",
+      "title": "Anglais",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|16:30|voyage en amerique avec un cheval emprunte|M6": {
+      "sig": "12-03-1991|16:30|voyage en amerique avec un cheval emprunte|M6",
+      "date": "12-03-1991",
+      "time": "16:30",
+      "title": "Voyage en Amérique avec un cheval emprunté",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|19:10|allegro barbaro|M6": {
+      "sig": "12-03-1991|19:10|allegro barbaro|M6",
+      "date": "12-03-1991",
+      "time": "19:10",
+      "title": "Allegro barbaro",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|19:30|enfance|M6": {
+      "sig": "12-03-1991|19:30|enfance|M6",
+      "date": "12-03-1991",
+      "time": "19:30",
+      "title": "Enfance",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|19:55|le dessous des cartes|M6": {
+      "sig": "12-03-1991|19:55|le dessous des cartes|M6",
+      "date": "12-03-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|21:00|megamix|M6": {
+      "sig": "12-03-1991|21:00|megamix|M6",
+      "date": "12-03-1991",
+      "time": "21:00",
+      "title": "Mégamix",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|10:00|anglais|M6": {
+      "sig": "14-02-1991|10:00|anglais|M6",
+      "date": "14-02-1991",
+      "time": "10:00",
+      "title": "Anglais",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|18:00|l age d or du cinema|M6": {
+      "sig": "14-02-1991|18:00|l age d or du cinema|M6",
+      "date": "14-02-1991",
+      "time": "18:00",
+      "title": "L'âge d'or du cinéma",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|18:30|ici bat la vie|M6": {
+      "sig": "14-02-1991|18:30|ici bat la vie|M6",
+      "date": "14-02-1991",
+      "time": "18:30",
+      "title": "Ici bat la vie",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "12-03-1991|22:30|la maison dans la dune|M6": {
+      "sig": "12-03-1991|22:30|la maison dans la dune|M6",
+      "date": "12-03-1991",
+      "time": "22:30",
+      "title": "La maison dans la dune",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|20:30|ici bat la vie|M6": {
+      "sig": "14-02-1991|20:30|ici bat la vie|M6",
+      "date": "14-02-1991",
+      "time": "20:30",
+      "title": "Ici bat la vie",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|21:00|vous souvenez vous de gaspar winkler|M6": {
+      "sig": "14-02-1991|21:00|vous souvenez vous de gaspar winkler|M6",
+      "date": "14-02-1991",
+      "time": "21:00",
+      "title": "Vous souvenez-vous de Gaspar Winkler ?",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|21:05|leavingthe old ruin|M6": {
+      "sig": "14-02-1991|21:05|leavingthe old ruin|M6",
+      "date": "14-02-1991",
+      "time": "21:05",
+      "title": "Leavingthe Old Ruin",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|22:35|symphonie en d choregraphie de jiri kylian|M6": {
+      "sig": "14-02-1991|22:35|symphonie en d choregraphie de jiri kylian|M6",
+      "date": "14-02-1991",
+      "time": "22:35",
+      "title": "Symphonie en D Chorégraphie de Jiri Kylian",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|10:00|anglais|M6": {
+      "sig": "15-08-1991|10:00|anglais|M6",
+      "date": "15-08-1991",
+      "time": "10:00",
+      "title": "Anglais",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|19:55|le dessous des cartes|M6": {
+      "sig": "14-02-1991|19:55|le dessous des cartes|M6",
+      "date": "14-02-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|12:00|anglais|M6": {
+      "sig": "15-08-1991|12:00|anglais|M6",
+      "date": "15-08-1991",
+      "time": "12:00",
+      "title": "Anglais",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|16:30|louis armstrong|M6": {
+      "sig": "15-08-1991|16:30|louis armstrong|M6",
+      "date": "15-08-1991",
+      "time": "16:30",
+      "title": "Louis Armstrong",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|17:30|combat singulier|M6": {
+      "sig": "15-08-1991|17:30|combat singulier|M6",
+      "date": "15-08-1991",
+      "time": "17:30",
+      "title": "Combat singulier",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|19:45|eugene delacroix l ange et le barbare|M6": {
+      "sig": "15-08-1991|19:45|eugene delacroix l ange et le barbare|M6",
+      "date": "15-08-1991",
+      "time": "19:45",
+      "title": "Eugène Delacroix : L'ange et le barbare",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|21:00|contes et legendes du louvre|M6": {
+      "sig": "15-08-1991|21:00|contes et legendes du louvre|M6",
+      "date": "15-08-1991",
+      "time": "21:00",
+      "title": "Contes et légendes du Louvre",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "15-08-1991|21:30|dynamo|M6": {
+      "sig": "15-08-1991|21:30|dynamo|M6",
+      "date": "15-08-1991",
+      "time": "21:30",
+      "title": "Dynamo",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "14-02-1991|19:25|la malediction des plumes|M6": {
+      "sig": "14-02-1991|19:25|la malediction des plumes|M6",
+      "date": "14-02-1991",
+      "time": "19:25",
+      "title": "La malédiction des plumes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|16:00|anicroches|M6": {
+      "sig": "21-01-1991|16:00|anicroches|M6",
+      "date": "21-01-1991",
+      "time": "16:00",
+      "title": "Anicroches",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|17:00|lettres d amour en somalie|M6": {
+      "sig": "21-01-1991|17:00|lettres d amour en somalie|M6",
+      "date": "21-01-1991",
+      "time": "17:00",
+      "title": "Lettres d'amour en Somalie",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|18:30|la voix du bois|M6": {
+      "sig": "21-01-1991|18:30|la voix du bois|M6",
+      "date": "21-01-1991",
+      "time": "18:30",
+      "title": "La voix du bois",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|19:00|memoires d ex|M6": {
+      "sig": "21-01-1991|19:00|memoires d ex|M6",
+      "date": "21-01-1991",
+      "time": "19:00",
+      "title": "Mémoires d'ex",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|19:55|le dessous des cartes|M6": {
+      "sig": "21-01-1991|19:55|le dessous des cartes|M6",
+      "date": "21-01-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|22:40|issale tisserand|M6": {
+      "sig": "21-01-1991|22:40|issale tisserand|M6",
+      "date": "21-01-1991",
+      "time": "22:40",
+      "title": "Issale tisserand",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "21-01-1991|23:00|memoires d ex|M6": {
+      "sig": "21-01-1991|23:00|memoires d ex|M6",
+      "date": "21-01-1991",
+      "time": "23:00",
+      "title": "Mémoires d'ex",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|10:00|espagnol|M6": {
+      "sig": "24-12-1991|10:00|espagnol|M6",
+      "date": "24-12-1991",
+      "time": "10:00",
+      "title": "Espagnol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|17:35|les annees tsf|M6": {
+      "sig": "24-12-1991|17:35|les annees tsf|M6",
+      "date": "24-12-1991",
+      "time": "17:35",
+      "title": "Les années TSF",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|19:55|cinememo|M6": {
+      "sig": "24-12-1991|19:55|cinememo|M6",
+      "date": "24-12-1991",
+      "time": "19:55",
+      "title": "Cinémémo",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|21:00|le lac des cygnes|M6": {
+      "sig": "24-12-1991|21:00|le lac des cygnes|M6",
+      "date": "24-12-1991",
+      "time": "21:00",
+      "title": "Le lac des cygnes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|22:40|el ring|M6": {
+      "sig": "24-12-1991|22:40|el ring|M6",
+      "date": "24-12-1991",
+      "time": "22:40",
+      "title": "El Ring",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "25-12-1991|20:00|l il entend l oreille voit|M6": {
+      "sig": "25-12-1991|20:00|l il entend l oreille voit|M6",
+      "date": "25-12-1991",
+      "time": "20:00",
+      "title": "L'œil entend, l'oreille voit",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "25-12-1991|21:00|le courrier des telespectateurs|LASEPT": {
+      "sig": "25-12-1991|21:00|le courrier des telespectateurs|LASEPT",
+      "date": "25-12-1991",
+      "time": "21:00",
+      "title": "LE COURRIER DES TÉLÉSPECTATEURS",
+      "raw_channel": "La Sept",
+      "channel": "La Sept",
+      "action": "hide"
+    },
+    "25-12-1991|21:10|innisfree|M6": {
+      "sig": "25-12-1991|21:10|innisfree|M6",
+      "date": "25-12-1991",
+      "time": "21:10",
+      "title": "Innisfree",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "25-12-1991|22:35|por primeravez|M6": {
+      "sig": "25-12-1991|22:35|por primeravez|M6",
+      "date": "25-12-1991",
+      "time": "22:35",
+      "title": "Por primeravez",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "25-12-1991|22:45|cycle ingmar bergman|M6": {
+      "sig": "25-12-1991|22:45|cycle ingmar bergman|M6",
+      "date": "25-12-1991",
+      "time": "22:45",
+      "title": "Cycle Ingmar Bergman",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "25-12-1991|00:30|nikola|M6": {
+      "sig": "25-12-1991|00:30|nikola|M6",
+      "date": "25-12-1991",
+      "time": "00:30",
+      "title": "Nikola",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|10:00|espagnol|M6": {
+      "sig": "26-04-1991|10:00|espagnol|M6",
+      "date": "26-04-1991",
+      "time": "10:00",
+      "title": "Espagnol",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|16:30|galanteries|M6": {
+      "sig": "26-04-1991|16:30|galanteries|M6",
+      "date": "26-04-1991",
+      "time": "16:30",
+      "title": "Galanteries",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|17:00|grand format|M6": {
+      "sig": "26-04-1991|17:00|grand format|M6",
+      "date": "26-04-1991",
+      "time": "17:00",
+      "title": "GRAND FORMAT",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|19:55|le dessous des cartes|M6": {
+      "sig": "26-04-1991|19:55|le dessous des cartes|M6",
+      "date": "26-04-1991",
+      "time": "19:55",
+      "title": "Le dessous des cartes",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|20:00|la samba d auguste comte|M6": {
+      "sig": "26-04-1991|20:00|la samba d auguste comte|M6",
+      "date": "26-04-1991",
+      "time": "20:00",
+      "title": "La samba d'Auguste Comte",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|21:00|lieutenant lorena|M6": {
+      "sig": "26-04-1991|21:00|lieutenant lorena|M6",
+      "date": "26-04-1991",
+      "time": "21:00",
+      "title": "Lieutenant Lorena",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|22:30|la cabane de rondins|M6": {
+      "sig": "26-04-1991|22:30|la cabane de rondins|M6",
+      "date": "26-04-1991",
+      "time": "22:30",
+      "title": "La cabane de rondins",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-04-1991|23:00|pierre guyotat 52 minutes dans la langue|M6": {
+      "sig": "26-04-1991|23:00|pierre guyotat 52 minutes dans la langue|M6",
+      "date": "26-04-1991",
+      "time": "23:00",
+      "title": "Pierre Guyotat, 52 minutes dans la langue",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|20:00|histoire parallele|M6": {
+      "sig": "26-10-1991|20:00|histoire parallele|M6",
+      "date": "26-10-1991",
+      "time": "20:00",
+      "title": "Histoire parallèle",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|22:40|le courrier des telespectateurs|M6": {
+      "sig": "26-10-1991|22:40|le courrier des telespectateurs|M6",
+      "date": "26-10-1991",
+      "time": "22:40",
+      "title": "Le courrier des téléspectateurs",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|22:40|le courrier des telespectateurs|LASEPT": {
+      "sig": "26-10-1991|22:40|le courrier des telespectateurs|LASEPT",
+      "date": "26-10-1991",
+      "time": "22:40",
+      "title": "LE COURRIER DES TÉLÉSPECTATEURS",
+      "raw_channel": "La Sept",
+      "channel": "La Sept",
+      "action": "hide"
+    },
+    "26-10-1991|23:00|salsa opus 4|M6": {
+      "sig": "26-10-1991|23:00|salsa opus 4|M6",
+      "date": "26-10-1991",
+      "time": "23:00",
+      "title": "Salsa, opus 4",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|23:55|images|M6": {
+      "sig": "26-10-1991|23:55|images|M6",
+      "date": "26-10-1991",
+      "time": "23:55",
+      "title": "IMAGES",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|19:00|paris roman d une ville|M6": {
+      "sig": "26-10-1991|19:00|paris roman d une ville|M6",
+      "date": "26-10-1991",
+      "time": "19:00",
+      "title": "Paris, roman d'une ville",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|20:55|le reve perdu de nicolai v kazakov|M6": {
+      "sig": "26-10-1991|20:55|le reve perdu de nicolai v kazakov|M6",
+      "date": "26-10-1991",
+      "time": "20:55",
+      "title": "Le rêve perdu de Nicolaï V. Kazakov",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|22:45|soir3|M6": {
+      "sig": "26-10-1991|22:45|soir3|M6",
+      "date": "26-10-1991",
+      "time": "22:45",
+      "title": "SOIR3",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "26-10-1991|00:00|le soulier de satin|M6": {
+      "sig": "26-10-1991|00:00|le soulier de satin|M6",
+      "date": "26-10-1991",
+      "time": "00:00",
+      "title": "Le soulier de satin",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "06-11-1991|17:15|avis de tempete|M6": {
+      "sig": "06-11-1991|17:15|avis de tempete|M6",
+      "date": "06-11-1991",
+      "time": "17:15",
+      "title": "Avis de tempête",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
+    },
+    "24-12-1991|18:35|images|M6": {
+      "sig": "24-12-1991|18:35|images|M6",
+      "date": "24-12-1991",
+      "time": "18:35",
+      "title": "IMAGES",
+      "raw_channel": "M6",
+      "channel": "M6",
+      "action": "hide"
     }
   },
   "legit_duplicates": [
@@ -1009,7 +2791,77 @@
     "07-07-1987|actualites regionales|07-07-1987|19:15|actualites regionales|ANTENNE2,07-07-1987|19:15|actualites regionales|FR3",
     "14-02-1987|actualites regionales|14-02-1987|19:15|actualites regionales|ANTENNE2,14-02-1987|19:15|actualites regionales|FR3",
     "18-04-1987|actualites regionales|18-04-1987|19:15|actualites regionales|ANTENNE2,18-04-1987|19:15|actualites regionales|FR3",
-    "28-04-1987|actualites regionales|28-04-1987|19:15|actualites regionales|ANTENNE2,28-04-1987|19:15|actualites regionales|FR3"
+    "28-04-1987|actualites regionales|28-04-1987|19:15|actualites regionales|ANTENNE2,28-04-1987|19:15|actualites regionales|FR3",
+    "21-10-1986|d accord pas d accord|21-10-1986|19:10|d accord pas d accord|ANTENNE2,21-10-1986|20:30|d accord pas d accord|FR3",
+    "03-03-1986|campagne electorale|03-03-1986|19:30|campagne electorale|ANTENNE2,03-03-1986|19:30|campagne electorale|TF1",
+    "05-04-1986|actualites regionales|05-04-1986|19:15|actualites regionales|ANTENNE2,05-04-1986|19:15|actualites regionales|FR3",
+    "07-04-1986|actualites regionales|07-04-1986|19:15|actualites regionales|ANTENNE2,07-04-1986|19:15|actualites regionales|FR3",
+    "08-04-1986|actualites regionales|08-04-1986|19:15|actualites regionales|ANTENNE2,08-04-1986|19:15|actualites regionales|FR3",
+    "09-04-1986|actualites regionales|09-04-1986|19:15|actualites regionales|ANTENNE2,09-04-1986|19:15|actualites regionales|FR3",
+    "10-04-1986|actualites regionales|10-04-1986|19:15|actualites regionales|ANTENNE2,10-04-1986|19:15|actualites regionales|FR3",
+    "11-04-1986|actualites regionales|11-04-1986|19:15|actualites regionales|ANTENNE2,11-04-1986|19:15|actualites regionales|FR3",
+    "18-10-1986|actualites regionales|18-10-1986|19:15|actualites regionales|ANTENNE2,18-10-1986|19:15|actualites regionales|FR3",
+    "19-06-1986|d accord pas d accord|19-06-1986|20:30|d accord pas d accord|ANTENNE2,19-06-1986|20:30|d accord pas d accord|FR3",
+    "21-01-1986|actualites regionales|21-01-1986|19:15|actualites regionales|ANTENNE2,21-01-1986|19:15|actualites regionales|FR3",
+    "26-06-1986|d accord pas d accord|26-06-1986|20:30|d accord pas d accord|ANTENNE2,26-06-1986|20:30|d accord pas d accord|FR3",
+    "27-11-1986|d accord pas d accord|27-11-1986|20:30|d accord pas d accord|ANTENNE2,27-11-1986|20:30|d accord pas d accord|FR3",
+    "28-01-1986|actualites regionales|28-01-1986|19:15|actualites regionales|ANTENNE2,28-01-1986|19:15|actualites regionales|FR3",
+    "29-03-1986|actualites regionales|29-03-1986|19:15|actualites regionales|ANTENNE2,29-03-1986|19:15|actualites regionales|FR3",
+    "22-08-1985|flash d informations|22-08-1985|18:40|flash d informations|ANTENNE2,22-08-1985|19:00|flash d informations|FR3",
+    "01-07-1985|actualites regionales|01-07-1985|19:15|actualites regionales|ANTENNE2,01-07-1985|19:15|actualites regionales|FR3",
+    "02-08-1985|actualites regionales|02-08-1985|19:15|actualites regionales|ANTENNE2,02-08-1985|19:15|actualites regionales|FR3",
+    "05-04-1985|actualites regionales|05-04-1985|19:15|actualites regionales|ANTENNE2,05-04-1985|19:15|actualites regionales|FR3",
+    "08-01-1985|d accord pas d accord|08-01-1985|20:30|d accord pas d accord|ANTENNE2,08-01-1985|20:30|d accord pas d accord|FR3",
+    "08-07-1985|actualites regionales|08-07-1985|19:15|actualites regionales|ANTENNE2,08-07-1985|19:15|actualites regionales|FR3",
+    "10-09-1985|actualites regionales|10-09-1985|19:15|actualites regionales|ANTENNE2,10-09-1985|19:15|actualites regionales|FR3",
+    "12-02-1985|actualites regionales|12-02-1985|19:15|actualites regionales|ANTENNE2,12-02-1985|19:15|actualites regionales|FR3",
+    "13-02-1985|actualites regionales|13-02-1985|19:15|actualites regionales|ANTENNE2,13-02-1985|19:15|actualites regionales|FR3",
+    "13-03-1985|actualites regionales|13-03-1985|19:15|actualites regionales|ANTENNE2,13-03-1985|19:15|actualites regionales|FR3",
+    "17-09-1985|actualites regionales|17-09-1985|19:15|actualites regionales|ANTENNE2,17-09-1985|19:15|actualites regionales|FR3",
+    "19-02-1985|d accord pas d accord|19-02-1985|20:30|d accord pas d accord|ANTENNE2,19-02-1985|20:30|d accord pas d accord|FR3",
+    "22-08-1985|actualites regionales|22-08-1985|19:15|actualites regionales|ANTENNE2,22-08-1985|19:15|actualites regionales|FR3",
+    "25-02-1985|actualites regionales|25-02-1985|19:15|actualites regionales|ANTENNE2,25-02-1985|19:15|actualites regionales|FR3",
+    "26-01-1985|actualites regionales|26-01-1985|19:15|actualites regionales|ANTENNE2,26-01-1985|19:15|actualites regionales|TF1",
+    "26-11-1985|d accord pas d accord|26-11-1985|20:30|d accord pas d accord|FR3,26-11-1985|20:30|d accord pas d accord|TF1",
+    "28-01-1985|actualites regionales|28-01-1985|19:10|actualites regionales|TF1,28-01-1985|19:15|actualites regionales|ANTENNE2",
+    "16-10-1984|d accord pas d accord|16-10-1984|20:25|d accord pas d accord|TF1,16-10-1984|20:30|d accord pas d accord|ANTENNE2,16-10-1984|20:30|d accord pas d accord|FR3",
+    "18-02-1984|d accord pas d accord|18-02-1984|19:05|d accord pas d accord|TF1,18-02-1984|19:10|d accord pas d accord|ANTENNE2",
+    "21-04-1984|d accord pas d accord|21-04-1984|19:05|d accord pas d accord|TF1,21-04-1984|19:10|d accord pas d accord|ANTENNE2",
+    "01-03-1984|actualites regionales|01-03-1984|19:15|actualites regionales|ANTENNE2,01-03-1984|19:15|actualites regionales|TF1",
+    "01-09-1984|actualites regionales|01-09-1984|19:15|actualites regionales|ANTENNE2,01-09-1984|19:15|actualites regionales|FR3,01-09-1984|19:15|actualites regionales|TF1",
+    "01-10-1984|actualites regionales|01-10-1984|19:15|actualites regionales|ANTENNE2,01-10-1984|19:15|actualites regionales|TF1",
+    "02-01-1984|actualites regionales|02-01-1984|19:15|actualites regionales|ANTENNE2,02-01-1984|19:15|actualites regionales|TF1",
+    "02-03-1984|actualites regionales|02-03-1984|19:15|actualites regionales|ANTENNE2,02-03-1984|19:15|actualites regionales|TF1",
+    "02-10-1984|actualites regionales|02-10-1984|19:15|actualites regionales|ANTENNE2,02-10-1984|19:15|actualites regionales|TF1",
+    "02-11-1984|actualites regionales|02-11-1984|19:15|actualites regionales|ANTENNE2,02-11-1984|19:15|actualites regionales|TF1",
+    "07-09-1988|football|07-09-1988|19:25|football|ANTENNE2,07-09-1988|20:25|football|CANAL",
+    "31-12-1990|v ux de m francois mitterrand president de la republique|31-12-1990|20:00|v ux de m francois mitterrand president de la republique|FRANCE2,31-12-1990|20:00|v ux de m francois mitterrand president de la republique|FRANCE3,31-12-1990|20:00|v ux de m francois mitterrand president de la republique|TF1",
+    "24-03-1990|bergerac|24-03-1990|15:40|bergerac|LACINQ,24-03-1990|15:45|bergerac|CANAL",
+    "17-01-1991|i n c|17-01-1991|20:30|i n c|FR3,17-01-1991|20:40|i n c|ANTENNE2",
+    "02-12-1991|ecrire contre l oubli|02-12-1991|23:00|ecrire contre l oubli|FR3,02-12-1991|23:30|ecrire contre l oubli|ANTENNE2",
+    "06-12-1991|ecrire contre l oubli|06-12-1991|16:40|ecrire contre l oubli|ANTENNE2,06-12-1991|17:35|ecrire contre l oubli|CANAL",
+    "06-12-1991|ecrire contre l oubli|06-12-1991|00:00|ecrire contre l oubli|ANTENNE2,06-12-1991|23:00|ecrire contre l oubli|FR3",
+    "07-11-1991|ecrire contre l oubli|07-11-1991|22:35|ecrire contre l oubli|LACINQ,07-11-1991|22:45|ecrire contre l oubli|FR3,07-11-1991|23:30|ecrire contre l oubli|ANTENNE2",
+    "08-12-1991|ecrire contre l oubli|08-12-1991|22:50|ecrire contre l oubli|FR3,08-12-1991|22:50|ecrire contre l oubli|LACINQ,08-12-1991|23:40|ecrire contre l oubli|ANTENNE2",
+    "16-11-1991|ecrire contre l oubli|16-11-1991|23:30|ecrire contre l oubli|ANTENNE2,16-11-1991|23:45|ecrire contre l oubli|FR3",
+    "18-11-1991|ecrire contre l oubli|18-11-1991|11:50|ecrire contre l oubli|LACINQ,18-11-1991|12:25|ecrire contre l oubli|CANAL,18-11-1991|13:45|ecrire contre l oubli|ANTENNE2",
+    "19-11-1991|ecrire contre l oubli|19-11-1991|11:50|ecrire contre l oubli|LACINQ,19-11-1991|12:25|ecrire contre l oubli|CANAL,19-11-1991|13:40|ecrire contre l oubli|ANTENNE2",
+    "19-11-1991|ecrire contre l oubli|19-11-1991|22:25|ecrire contre l oubli|FR3,19-11-1991|23:35|ecrire contre l oubli|ANTENNE2",
+    "20-11-1991|ecrire contre l oubli|20-11-1991|11:50|ecrire contre l oubli|LACINQ,20-11-1991|12:25|ecrire contre l oubli|CANAL,20-11-1991|13:35|ecrire contre l oubli|ANTENNE2",
+    "20-11-1991|ecrire contre l oubli|20-11-1991|22:40|ecrire contre l oubli|FR3,20-11-1991|23:20|ecrire contre l oubli|ANTENNE2",
+    "07-12-1991|ecrire contre l oubli|07-12-1991|11:50|ecrire contre l oubli|LACINQ,07-12-1991|13:15|ecrire contre l oubli|ANTENNE2",
+    "21-11-1991|ecrire contre l oubli|21-11-1991|11:50|ecrire contre l oubli|LACINQ,21-11-1991|12:25|ecrire contre l oubli|CANAL,21-11-1991|13:40|ecrire contre l oubli|ANTENNE2",
+    "21-11-1991|ecrire contre l oubli|21-11-1991|00:05|ecrire contre l oubli|ANTENNE2,21-11-1991|22:45|ecrire contre l oubli|FR3",
+    "22-11-1991|ecrire contre l oubli|22-11-1991|11:50|ecrire contre l oubli|LACINQ,22-11-1991|12:25|ecrire contre l oubli|CANAL,22-11-1991|13:40|ecrire contre l oubli|ANTENNE2",
+    "22-11-1991|ecrire contre l oubli|22-11-1991|00:30|ecrire contre l oubli|ANTENNE2,22-11-1991|23:05|ecrire contre l oubli|FR3",
+    "29-11-1991|ecrire contre l oubli|29-11-1991|23:05|ecrire contre l oubli|ANTENNE2,29-11-1991|23:40|ecrire contre l oubli|FR3",
+    "17-10-1991|i n c|17-10-1991|20:40|i n c|ANTENNE2,17-10-1991|20:40|i n c|FR3",
+    "24-12-1991|messe de minuit|24-12-1991|00:00|messe de minuit|ANTENNE2,24-12-1991|00:00|messe de minuit|TF1",
+    "26-10-1991|salsa opus 4|26-10-1991|23:00|salsa opus 4|FR3,26-10-1991|23:00|salsa opus 4|LASEPT",
+    "26-10-1991|images|26-10-1991|23:55|images|FR3,26-10-1991|23:55|images|LASEPT",
+    "02-12-1991|ecrire contre l oubli|02-12-1991|11:15|ecrire contre l oubli|LACINQ,02-12-1991|12:25|ecrire contre l oubli|CANAL",
+    "06-12-1991|ecrire contre l oubli|06-12-1991|11:15|ecrire contre l oubli|LACINQ,06-12-1991|12:25|ecrire contre l oubli|CANAL",
+    "26-10-1991|histoire parallele|26-10-1991|20:00|histoire parallele|FR3,26-10-1991|20:00|histoire parallele|LASEPT"
   ],
   "generic_titles": [
     "meteo",
